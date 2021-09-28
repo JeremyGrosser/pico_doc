@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{site.title}}</title>
+    <link rel="stylesheet" href="/css/asciidoctor.css" />
+    <link rel="stylesheet" href="/css/asciidoc-pygments.css" />
+    <link rel="stylesheet" href="/css/pico_doc.css" />
+</head>
+<body>
+
+<div id="topbar">
+    {{ site.title }}
+</div>
+
+<div id="main">
+    <div id="toc" role="navigation">
+        {{ page.document | tocify_asciidoc: 3 }}
+    </div>
+
+    <div id="content" role="content">
+        {{ content }}
+    </div>
+</div>
+
+</body>
+</html>

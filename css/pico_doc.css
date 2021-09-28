@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,200;0,400;0,700;1,400&display=swap');
+
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+}
+
+a {
+    color: revert;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: revert;
+    text-decoration: revert;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+}
+
+code, kbd, pre, samp {
+    font-family: "IBM Plex Mono", monospace;
+}
+
+#topbar {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 200;
+    font-size: 36px;
+    padding: 1em 0 1em 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid black;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#toc {
+    margin: 0 1em 0 1em;
+    border: none;
+    flex-shrink: 0;
+}
+
+.videoblock {
+    margin-left: 2em;
+}
+
+.admonitionblock td.content > .title, .exampleblock > .title, .imageblock > .title, .videoblock > .title, .listingblock > .title, .literalblock > .title, .openblock > .title, .paragraph > .title, .quoteblock > .title, .sidebarblock > .title, .tableblock > .title, .verseblock > .title, .dlist > .title, .olist > .title, .ulist > .title, .qlist > .title, .hdlist > .title {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+}
+
+hr, .sect1 + .sect1 {
+    border: none;
+}
+
+.overbar {
+    text-decoration: overline;
+    font-weight: bold;
+    color: #7f0a0c;
+}

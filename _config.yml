@@ -1,0 +1,20 @@
+title: Ada on the Raspberry Pi Pico
+description: no description
+exclude:
+  - LICENSE.adoc
+  - README.adoc
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+asciidoc: {}
+asciidoctor:
+  base_dir: :docdir
+  safe: unsafe
+  attributes:
+    idseparator: _
+    source-highlighter: pygments
+    icons: font
+    imagesdir: /img
+    stylesdir: /css
+    #allow-uri-read: true
+    #cache-uri: true

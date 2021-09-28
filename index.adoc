@@ -1,0 +1,770 @@
+= Ada on the Raspberry Pi Pico
+
+image::pico.jpg[Raspberry Pi Pico,width=300,role="related right",title="Raspberry Pi Pico",caption="",link="/img/pico.jpg"]
+
+This project provides libraries and xref:examples[examples] for the https://en.wikipedia.org/wiki/Ada_(programming_language)[Ada programming language] on the https://www.raspberrypi.org/documentation/microcontrollers/rp2040.html[RP2040] microcontroller and the https://www.raspberrypi.org/products/raspberry-pi-pico/[Raspberry Pi Pico] development board.
+
+Code snippets included here are meant to be illustrative but cannot be compiled standalone. For working examples, see https://github.com/JeremyGrosser/pico_examples[pico_examples].
+
+This document assumes you are familiar with the Ada language. If you are new to Ada, https://learn.adacore.com/courses/intro-to-ada/index.html[learn.adacore.com] has an excellent introduction.
+
+'''
+
+== Getting Started
+
+=== Install Alire
+The https://alire.ada.dev/[Alire] package manager is used to manage dependencies and build software using these libraries. You will need to https://alire.ada.dev/docs/#installation[download and install Alire] before continuing.
+
+Assuming you are running Linux on x86_64, the following commands should work.
+
+[source,shell]
+----
+curl -L -O https://github.com/alire-project/alire/releases/download/v1.1.0/alr-1.1.0-bin-x86_64-linux.zip
+unzip alr-1.1.0-bin-x86_64-linux.zip
+sudo cp bin/alr /usr/local/bin
+----
+
+=== Create a new project
+Use Alire to create a skeleton project and add a dependency on pico_bsp.
+
+[source,shell]
+----
+alr init --bin hello_pico
+cd hello_pico
+alr with pico_bsp
+----
+
+If Alire prompts you to install tools like unzip and git, accept these changes. When prompted to select a toolchain, choose the most recent versions of `gnat_arm_elf` and `gprbuild`.
+
+Next, edit `hello_pico.gpr` to import pico_bsp and add the Target, Runtime, and Linker configuration near the top.
+
+[source,ada]
+----
+with "config/hello_pico_config.gpr";
+with "pico_bsp.gpr";
+project Hello_Pico is
+    for Target use "arm-eabi";
+    for Runtime ("Ada") use "zfp-cortex-m0p";
+    package Linker is
+        for Switches ("Ada") use Pico_BSP.Linker_Switches;
+    end Linker;
+
+    for Source_Dirs use ("src");
+----
+
+Build the project.
+
+[source,shell]
+----
+alr build
+----
+
+If the build was successful, there will be an ELF binary in `./bin/hello_pico`.
+
+=== Flashing the Pico
+video::g3sGKoLafew[youtube,width=426,height=240,role=right]
+
+There are several ways to get your compiled code onto the Pico. It is highly recommended that you setup a Serial Wire Debug (SWD) debugger so that you can run GDB. The following video shows how to setup a Raspberry Pi Zero as a SWD debugger, but other debug adapters like the https://www.segger.com/products/debug-probes/j-link/[Segger J-Link] should work.
+
+Using GDB, you can load the ELF binary and run it. If you are not using an OpenOCD based debugger, these commands may be slightly different. Consult your debugger's documentation if this doesn't work.
+
+----
+arm-eabi-gdb bin/hello_pico
+target extended-remote localhost:3333
+monitor arm semihosting enable
+load
+run
+----
+
+If you cannot use SWD, https://github.com/majbthrd/pico-debug/[pico-debug] can be loaded into memory on the Pico to allow you to debug over USB. If you use pico-debug, your code cannot make use of the USB port or the second CPU core and pico-debug will use up some memory. See the pico-debug README for more information.
+
+https://github.com/raspberrypi/pico-sdk/tree/master/tools/elf2uf2[elf2uf2] can convert a compiled ELF binary to UF2 format, which can be loaded onto the Pico over USB after holding the BOOTSEL button. If you choose this option, you will not be able to debug your code when it crashes.
+
+=== Blinking an LED
+You've probably noticed that we haven't written any code yet! Let's change that with the traditional blinking LED demo.
+
+Edit `src/hello_pico.adb`
+
+[source,ada]
+----
+with RP.Device;
+with RP.Clock;
+with RP.GPIO;
+with Pico;
+
+procedure Hello_Pico is
+begin
+   RP.Clock.Initialize (Pico.XOSC_Frequency);
+   RP.Device.Timer.Enable;
+   Pico.LED.Configure (RP.GPIO.Output);
+
+   loop
+      Pico.LED.Toggle;
+      RP.Device.Timer.Delay_Milliseconds (250);
+   end loop;
+end Hello_Pico;
+----
+
+At boot, the RP2040 is configured to use it's internal oscillator to run the CPU's clock. This oscillator is both slow and inaccurate, so an external 12 MHz crystal oscillator is included on the Pico board. The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-clock.ads#L19[RP.Clock.Initialize] procedure reconfigures the CPU to run at 125 MHz using the external crystal as a reference. This is needed for accurate timing and will almost always be the first call your program makes.
+
+The internal Timer peripheral counts up at 1 MHz and can be used to implement delays. `RP.Device.Timer.Enable` configures an interrupt needed for `Delay_Milliseconds`.
+
+By default, all of the GPIO pins are inputs, so we configure the pin named `Pico.LED` as an output.
+
+The loop toggles the LED on and off every 250 milliseconds. Use `alr build` to recompile the project and load it using your debugger. If all goes well, the onboard LED will blink!
+
+== Development Guide
+
+=== Source repositories
+- https://github.com/JeremyGrosser/rp2040_hal[rp2040_hal] contains drivers and register definitions for the RP2040's onboard peripherals.
+- https://github.com/JeremyGrosser/pico_bsp[pico_bsp] provides pin definitions, boot code, and drivers for the Raspberry Pi Pico development board and compatible addons.
+- https://github.com/JeremyGrosser/pico_examples[pico_examples] demonstrates the functionality of rp2040_hal and pico_bsp and serves as a template for new projects.
+
+=== Hardware overview
+The Raspberry Pi RP2040 is an https://en.wikipedia.org/wiki/ARM_Cortex-M#Cortex-M0+[ARM Cortex-M0+] microcontroller. Detailed specifications and low level documentation can be found in the https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf[RP2040 datasheet].
+
+==== Pico pinout
+image::Pico-R3-SDK11-Pinout.svg[Pin diagram,link="/img/Pico-R3-SDK11-Pinout.svg",title="Pin diagram"]
+
+The Raspberry Pi Pico is a low cost development board that includes the RP2040, a micro USB port, crystal oscillator, voltage regulator, and a green LED. The https://datasheets.raspberrypi.org/pico/pico-datasheet.pdf[Pico datasheet] includes schematics, pinout diagrams, and design recommendations.
+
+If you wish to develop a custom board using the RP2040, the https://datasheets.raspberrypi.org/rp2040/hardware-design-with-rp2040.pdf[hardware design guide] contains reference designs and layout tips.
+
+=== Clock configuration
+
+image::clock_tree.png[Clock tree,link="/img/clock_tree.png",title="Clock tree"]
+
+See section 2.15 of the https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf[RP2040 datasheet] for a detailed description of the clock hierarchy.
+
+[source,ada]
+----
+procedure RP.Clock.Initialize
+    (XOSC_Frequency     : XOSC_Hertz := 0;
+     XOSC_Startup_Delay : XOSC_Cycles := 12_032);
+----
+Some oscillators may need a longer startup delay. If your system clock doesn't run at the frequency you expect, try adjusting this. NXP's https://www.nxp.com/docs/en/application-note/AN3208.pdf[Crystal Oscillator Troubleshooting Guide] has some good advice for troubleshooting this if you're building a custom board.
+
+[cols="1,1,1",title="Clock configuration after Initialize"]
+|===
+|Name
+|Frequency
+|Enabled
+
+|clk_sys
+|125 MHz
+|Yes
+
+|clk_peri
+|125 MHz
+|No
+
+|clk_ref
+|1 MHz
+|Yes
+
+|clk_rtc
+|1 MHz
+|No
+
+|clk_usb
+|48 MHz
+|No
+
+|clk_adc
+|48 MHz
+|No
+
+|clk_gpout0-3
+|Not configured
+|No
+|===
+
+Some peripherals, such as the UART, need a clock enabled before they can be used.
+[source,ada]
+----
+RP.Clock.Enable (RP.Clock.PERI);
+----
+
+Clocks may be disabled to reduce power consumption.
+----
+RP.Clock.Disable (RP.Clock.PERI);
+----
+
+The `RP.Clock.Frequency` function uses the internal frequency counter to measure internal clocks. This is used by to configure dividers and enforce minimum operating frequencies in preconditions. Most drivers provide convenience wrappers that perform these calculations for you.
+[source,ada]
+----
+declare
+    Target_Frequency : constant Hertz := 1_000_000;
+    Divider          : constant Positive := Positive (RP.Clock.Frequency (RP.Clock.SYS) / Target_Frequency);
+begin
+    Put_Line (Divider'Image);
+end;
+----
+
+=== GPIO
+image::pad-config.png[IO pad diagram,title="IO pad diagram",link="/img/pad-config.png"]
+The RP2040 has 29 GPIO pins. The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-gpio.ads[RP.GPIO] package implements the abstract https://github.com/Fabien-Chouteau/hal/blob/master/src/hal-gpio.ads[HAL.GPIO] interface.
+
+[source,ada]
+----
+type GPIO_Pin is range 0 .. 29;
+type GPIO_Point is new HAL.GPIO.GPIO_Point with record
+    Pin : GPIO_Pin;
+end record;
+----
+
+The GPIO peripheral must be enabled before configuring and manipulating pin states.
+[source,ada]
+----
+RP.GPIO.Enable;
+----
+
+==== Naming pins
+BSP packages contain names for pins that map to a schematic net name or silkscreened label familiar to the user. For example, `package Pico` contains the following definitions that match the board's documentation.
+[source,ada]
+----
+   GP25 : aliased GPIO_Point := (Pin => 25);
+   GP26 : aliased GPIO_Point := (Pin => 26);
+   GP27 : aliased GPIO_Point := (Pin => 27);
+   GP28 : aliased GPIO_Point := (Pin => 28);
+
+   LED  : GPIO_Point renames GP25;
+----
+
+==== Basic operation
+`RP.GPIO.Configure` has several optional parameters. The default values will configure the pin for basic `Get`, `Set`, `Clear`, `Toggle` operation.
+[source,ada]
+----
+Pico.LED.Configure (RP.GPIO.Output);
+loop
+    Pico.LED.Toggle;
+end loop;
+----
+
+==== Pin functions
+The `Func` parameter connects the pin to an internal peripheral, such as I2C. See *2.19.2. Function Select* in the RP2040 datasheet or the xref:pico_pinout[Pico pin diagram] for the mapping between pins and peripherals. This example also shows how Ada's `renames` can be used to make it clear what a pin will be used for.
+[source,ada]
+----
+declare
+    use RP.GPIO;
+    SCL : GPIO_Point renames Pico.GP27;
+    SDA : GPIO_Point renames Pico.GP26;
+begin
+    I2C_Data.Configure
+        (Mode       => Output,
+         Pull       => Pull_Up,
+         Func       => I2C,
+         Schmitt    => True,
+         Slew_Fast  => False);
+end;
+----
+
+==== Interrupts
+Level- and edge-triggered interrupts can be configured to call a procedure when a pin's state changes.
+[source,ada]
+----
+declare
+    use RP.GPIO;
+
+    procedure Switch_Changed
+        (Pin     : GPIO_Pin;
+         Trigger : Interrupt_Triggers)
+    is
+    begin
+        case Trigger is
+            when Rising_Edge =>
+                LED.Set;
+            when Falling_Edge =>
+                LED.Clear;
+        end case;
+    end Switch_Changed;
+begin
+    GP22.Configure (Input, Floating);
+    GP22.Set_Interrupt_Handler (Switch_Changed'Unchecked_Access);
+    --  Move Switch_Changed into a package to avoid the need to use Unchecked_Access here.
+    GP22.Enable_Interrupt (Rising_Edge);
+    GP22.Enable_Interrupt (Falling_Edge);
+end;
+----
+
+=== Timing
+
+==== Timer
+The Timer peripheral runs at 1 MHz (1 microsecond per tick) and counts up from zero at power on. The counter is 64 bits wide and will not overflow in your lifetime. The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-timer.ads[RP.Timer] package defines several procedures for getting the current timer value and delaying for a period of time. This package implements the https://github.com/Fabien-Chouteau/hal/blob/master/src/hal-time.ads[HAL.Time] interface.
+
+`Clock` returns the current value of the timer, microseconds since power on.
+[source,ada]
+----
+declare
+    Now : constant RP.Timer.Time := RP.Timer.Clock;
+begin
+    Put_Line (Now'Image);
+end;
+----
+
+`Delay_Microseconds` polls `Clock` until a number of microseconds has elapsed. This method is recommended if you need accurate, short delays.
+[source,ada]
+----
+RP.Device.Timer.Delay_Microseconds (1_000); --  one millisecond
+----
+
+All of the other procedures in `RP.Timer` configure `TIMER_IRQ_2` interrupt to fire after a time has elapsed. This allows the chip to go into a low power mode while waiting. `Enable` must be called before any of the interrupt driven delays may be used. Handling the timer interrupt does incur latency on the order of a few microseconds, so the actual time elapsed may be slightly longer than requested.
+
+Use `Delay_Milliseconds` if you need delays longer than a few microseconds and don't care about interrupt latency.
+[source,ada]
+----
+RP.Device.Timer.Enable;
+RP.Device.Timer.Delay_Milliseconds (1_000);
+----
+
+A common pattern is to use `Delay_Until` to ensure that a loop executes on a fixed schedule. `Delay_Until` is the best of both approaches as it uses interrupts for low power and returns very close to the specified time.
+[source,ada]
+----
+declare
+    use RP.Timer;
+    T : Time := Clock; --  RP.Timer.Clock does not use interrupts, it can be called before Enable
+begin
+    RP.Device.Timer.Enable;
+
+    loop
+        T := T + Milliseconds (100);
+        RP.Device.Timer.Delay_Until (T);
+
+        --  Do some work here. As long as it takes less than 100ms to execute,
+        --  this loop will run at precise 100ms intervals.
+    end loop;
+end;
+----
+
+==== SysTick
+https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-systick.ads[RP.SysTick] implements the https://github.com/Fabien-Chouteau/hal/blob/master/src/hal-gpio.ads[HAL.Time] interface using the standard 24-bit SysTick timer included with each ARM Cortex-M0+ core. SysTick runs at 1 KHz (1 millisecond per tick). `Delay_Microseconds` is not supported with this driver. Interrupts are used to implement all of the delay procedures. As the timer is only 24 bits wide, it will overflow every 4.66 hours. The `RP.SysTick` driver will handle overflow correctly as long as your delay is shorter than that.
+
+`RP.SysTick` is *not recommended* as long as `RP.Timer` can be used. SysTick is provided for programs that need portability to other ARM microcontrollers.
+
+==== Real Time Clock (RTC)
+The RTC tracks the date and time in years, months, days, day of week, hours, minutes, and seconds.
+
+Due to issues with clock configuration, this RTC implementation is only accurate to within a few minutes per day. It is recommended that you use an external RTC or reference clock if the RTC cannot be synchronized on a regular basis. We hope to improve this in the future.
+
+The RTC is not running by default, but once initialized, will continue running as long as power is supplied. This means the time can persist through a reset. In most cases, you'll want to check if the RTC is already running before initializing it.
+[source,ada]
+----
+if not RP.Device.RTC.Running then
+    RP.Device.RTC.Initialize;
+end if;
+----
+
+https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-rtc.ads[RP.RTC] implements the https://github.com/Fabien-Chouteau/hal/blob/master/src/hal-real_time_clock.ads[HAL.Real_Time_Clock] interface. Date and time are represented by the `RTC_Date` and `RTC_Time` records.
+
+[source,ada]
+----
+with HAL.Real_Time_Clock; use HAL.Real_Time_Clock;
+with RP.Device;
+
+RP.Device.RTC.Set
+    (Time =>
+        (Hour => 12,
+         Min  => 0,
+         Sec  => 0),
+     Date =>
+        (Day_Of_Week => Friday,
+         Year        => 21,
+         Month       => October,
+         Day         => 1));
+
+declare
+    Time : RTC_Time;
+    Date : RTC_Date;
+begin
+    RP.Device.RTC.Get (Time, Date);
+end;
+----
+
+The `RTC_Year` type has the range `0 .. 99`, so you will likely need to add an offset to this value for display purposes. The https://github.com/JeremyGrosser/pico_examples/tree/master/rtc[rtc example] includes a https://github.com/JeremyGrosser/pico_examples/blob/master/rtc/src/text_format.adb#L31[To_String] function that converts `RTC_Time` and `RTC_Date` into an https://en.wikipedia.org/wiki/ISO_8601[ISO 8601] string.
+
+No support is provided for time zones, leap seconds, or daylight savings time conversion.
+
+`Pause` and `Resume` procedures are provided to temporarily stop the RTC. Note that the `Running` function will return `False` while the RTC is paused. If the chip is reset while the RTC is paused, the `RP.RTC` package cannot differentiate between a paused RTC and an uninitialized one.
+
+=== Serial interfaces
+The UART, SPI, and I2C drivers implement the https://github.com/Fabien-Chouteau/hal/blob/master/src/hal-uart.ads[HAL.UART], https://github.com/Fabien-Chouteau/hal/blob/master/src/hal-spi.ads[HAL.SPI], and https://github.com/Fabien-Chouteau/hal/blob/master/src/hal-i2c.ads[HAL.I2C] interfaces to provide compatibility with other platforms. The interfaces all have `Transmit` and `Receive` procedures that provide status information to an `out` parameter. The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-uart.ads[RP.UART], https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-spi.ads[RP.SPI], and https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-i2c_master.ads[RP.I2C_Master] packages provide platform specific initialization, configuration, and status procedures that are not included in the HAL interfaces. Timeouts are implemented by polling `RP.Timer.Clock`.
+
+All of the serial interfaces require `clk_peri` to be running.
+[source,ada]
+----
+RP.Clock.Enable (RP.Clock.PERI);
+----
+
+GPIO pins need to be configured for the serial peripherals to interact with the outside world. See the xref:pico_pinout[pin diagram] for information on which pins can be associated with serial functions. All serial pins should use the `Output` mode, regardless of the serial data direction. External pull-up resistors are recommended for buses that require them, rather than exposing the internal pull-ups to bus currents.
+
+==== UART
+[source,ada]
+----
+with HAL.UART;
+with RP.GPIO; use RP.GPIO;
+with RP.Clock;
+with RP.Device;
+with Pico;
+
+procedure UART_Example is
+    UART_TX : GPIO_Point renames Pico.GP0;
+    UART_RX : GPIO_Point renames Pico.GP1;
+    Port    : RP.UART.UART_Port renames RP.Device.UART_0;
+
+    Message : constant String := "Hello, Pico!";
+    Data    : HAL.UART.UART_Data_8b (Message'Range)
+        with Address => Message'Address;
+    --  This is an implicit unchecked conversion that takes advantage of the
+    --  fact that Character is always 8 bits wide.
+
+    Status  : HAL.UART.UART_Status;
+begin
+    RP.Clock.Initialize (Pico.XOSC_Frequency);
+    RP.Clock.Enable (RP.Clock.PERI);
+
+    UART_TX.Configure (Output, Floating, UART);
+    UART_RX.Configure (Output, Floating, UART);
+
+    --  The default config is 115200 8n1, this example just overrides the baud rate
+    Port.Configure (Config => (Baud => 9600, others => <>));
+
+    --  A Timeout of 0 means this procedure may block forever. The default timeout is one second.
+    UART_TX.Transmit (Data, Status, Timeout => 0);
+end;
+----
+
+==== SPI
+SPI is a synchronous interface. For every word that is transmitted, another is received and buffered simultaneously. The SPI peripheral can buffer up to 8 words in the Transmit and Receive FIFOs. The bus clock is generated when `Transmit` is called. `Receive` should be called after every `Transmit` to read the same number of bytes from the FIFO buffer. If `Receive` is not called after every 8 transmitted words, the receive buffer will overflow and data will be silently dropped.
+
+The chip select signal, often referred to as `CSn`, `CS`, `NSS`, [.overbar]#CS#, or [.overbar]#SS#, is optional. If specified, it will be pulled low while a SPI transfer is in progress. Some SPI devices require this signal to be held low across multiple transfers. For those devices, configure this as a normal output pin and toggle it directly, rather than letting the SPI peripheral control it.
+
+If the `Blocking` configuration flag is `True`, then the `Transmit` and `Receive` procedures will wait until the entire `Data` array has been processed or the timeout has expired before returning. If `Timeout` is set to `0`, these procedures will block forever.
+
+If `Blocking` is `False`, then `Transmit` returns as soon as all words have been delivered to the FIFO, but may not all be clocked out to the bus yet. The SPI peripheral will continue clocking and transmitting words in the background until the transmit FIFO is empty. In non-blocking mode, the `Receive` procedure will copy data from the receive FIFO into the supplied `Data` array until the array is full, the timeout expires, or the receive FIFO is empty. This may result in a partially filled `Data` array. The `Transmit_Status` and `Receive_Status` functions can be used to anticipate the behavior of `Transmit` and `Receive` in non-blocking mode.
+
+[source,ada]
+----
+with HAL.SPI; use HAL.SPI;
+with RP.GPIO; use RP.GPIO;
+with RP.SPI;  use RP.SPI;
+with RP.Device;
+with RP.Clock;
+with Pico;
+
+procedure SPI_Example is
+    SCK    : GPIO_Point renames Pico.GP2;
+    MOSI   : GPIO_Point renames Pico.GP3;
+    MISO   : GPIO_Point renames Pico.GP4;
+    CS     : GPIO_Point renames Pico.GP5;
+    Port   : RP.SPI.SPI_Port renames RP.Device.SPI_0;
+
+    Data   : HAL.SPI.SPI_Data_8b (1 .. 4) := (41, 42, 43, 44);
+    Status : HAL.SPI.SPI_Status;
+begin
+    RP.Clock.Initialize (Pico.XOSC_Frequency);
+    RP.Clock.Enable (RP.Clock.PERI);
+
+    SCK.Configure (Output, Floating, SPI);
+    MOSI.Configure (Output, Floating, SPI);
+    MISO.Configure (Output, Floating, SPI);
+    CS.Configure (Output, Floating, SPI);
+    Port.Configure (Config =>
+        (Role      => Master,
+         Baud      => 10_000_000, --  up to 50 MHz is supported
+         Data_Size => Data_Size_8b,
+         Polarity  => Active_Low,
+         Phase     => Rising_Edge,
+         Blocking  => True));
+    
+    Port.Transmit (Data, Status);
+    Port.Receive (Data, Status);
+end SPI_Example;
+----
+
+==== I2C
+The I2C peripheral is similar to the other serial interfaces in operation but is more complicated due to the state machine that controls the bus. The I2C hardware takes care of most of this complexity for you. Pull-up resistors should be added to the SCL and SDA signals. While the RP2040's internal GPIO pull-ups may be sufficient, this is not recommended as bus shorts and fault conditions can drive too much current through the pull-ups and cause damage. External 4.7k ohm resistors are usually sufficient, but this value may need to be adjusted to keep the rise time within spec. See the https://www.nxp.com/docs/en/user-guide/UM10204.pdf[I2C bus specification] for more information.
+
+The RP2040 datasheet recommends enabling https://en.wikipedia.org/wiki/Schmitt_trigger[Schmitt triggering] for the I2C pins.
+
+This driver only supports I2C master mode. The hardware is capable of I2C slave operation as well, but we haven't written a driver for this yet.
+
+[source,ada]
+----
+with RP.GPIO; use RP.GPIO;
+with RP.I2C_Master;
+with RP.Device;
+with RP.Clock;
+with HAL.I2C;
+with Pico;
+
+procedure I2C_Demo is
+    Port   : RP.I2C_Master.I2C_Master_Port renames RP.Device.I2C_0;
+    SDA    : RP.GPIO.GPIO_Point renames Pico.GP0;
+    SCL    : RP.GPIO.GPIO_Point renames Pico.GP1;
+    Data   : HAL.I2C.I2C_Data_8b (1 .. 2) := (others => 0);
+    Status : HAL.I2C.I2C_Status;
+begin
+    RP.Clock.Initialize (Pico.XOSC_Frequency);
+    RP.Clock.Enable (RP.Clock.PERI);
+    SDA.Configure (Output, Floating, RP.GPIO.I2C, Schmitt => True);
+    SCL.Configure (Output, Floating, RP.GPIO.I2C, Schmitt => True);
+    Port.Enable (Baudrate => 400_000); --  I2C fast mode
+
+    --  The address and data format vary widely depending on the I2C slave
+    --  device you're connected to. See your I2C slave's datasheet for details.
+    Port.I2C_Master_Transmit
+        (Addr   => 16#42#,
+         Data   => Data,
+         Status => Status);
+end I2C_Demo;
+----
+
+=== Pulse Width Modulation (PWM)
+image::pwm-pins.png[PWM pin mapping,title="PWM pin mapping",link="/img/pwm-pins.png"]
+The PWM is split into 8 slices, each slice has 2 channels, and each channel can be output to 2 pins simultaneously. The B channel of each slice can be configured as an input and used as a gate or trigger for channel A. Even numbered GPIO pins are associated with Channel A and odd numbered pins are Channel B.
+
+The `To_PWM` function can help you find the Slice and Channel associated with a GPIO pin.
+[source,ada]
+----
+with RP.PWM; use RP.PWM;
+with RP.Clock;
+with RP.GPIO;
+with Pico;
+
+procedure PWM_Demo is
+    P : constant PWM_Point := To_PWM (Pico.GP0);
+begin
+    RP.Clock.Initialize (Pico.XOSC_Frequency);
+    RP.PWM.Initialize;
+    Pico.GP0.Configure (RP.GPIO.Output, RP.GPIO.Pull_Up, RP.GPIO.PWM);
+
+    Set_Mode (P.Slice, Free_Running);
+    Set_Frequency (P.Slice, 10_000_000);
+    Set_Interval (P.Slice, 10_000);
+    Set_Duty_Cycle (P.Slice, P.Channel, 5_000);
+    Enable (P.Slice);
+end PWM_Demo;
+----
+In this example, the PWM slice is configured to run at 10 MHz with an interval of 10,000. The output frequency is `(Frequency / Interval)`. In this case, 1 KHz. The output will be high as long as the counter is less than or equal to Period, after which it transitions to low until the counter reaches Interval. The counter then resets to zero and begins again. In this example, the period is half of the interval, so the output has a 50% duty cycle. If the period is greater than or equal to the interval, the output is high for the entire cycle. If period is zero, the output is low for the entire cycle. Each channel's output may be inverted using the `Set_Invert` procedure.
+
+All of these parameters may be changed while the clock is running to modulate the output. See section 4.5.2.1. Pulse Width Modulation of the RP2040 datasheet for specifics about when changes to a running PWM slice take effect.
+
+The `Set_Frequency` procedure attempts to calculate the correct divider value to get the desired PWM frequency. This is not always possible as the PWM divider has a fixed resolution. For accurate PWM frequency setting, use the `Set_Divider` procedure in combination with `RP.Clock.Frequency (RP.Clock.SYS)` instead, which uses the `Divider` fixed point type defined with the same resolution and range as the hardware divider. This allows you to calculate the error from the target frequency. Note that this is just the input frequency to the PWM, which will be divided further by the value set by `Set_Interval`.
+
+[source,ada]
+----
+Input_Clock      : constant Hertz := RP.Clock.Frequency (RP.Clock.SYS);
+Target_Frequency : constant Hertz := 1_000_000;
+Target_Divider   : constant Float := Float (Input_Clock) / Float (Target_Frequency);
+Actual_Divider   : constant RP.PWM.Divider := RP.PWM.Divider (Target_Divider);
+Divider_Error    : constant Float := Target_Divider - Float (Actual_Divider);
+Actual_Frequency : constant Float := Float (Input_Clock) / Float (Actual_Divider);
+Frequency_Error  : constant Float := Float (Target_Frequency) - Actual_Frequency;
+----
+
+=== Analog to Digital Converter (ADC)
+The ADC is multiplexed across five channels, one of which is reserved for the internal temperature sensor. The ADC generates 12-bit samples (8.5 ENOB) at up to 500,000 samples per second.
+
+Before ADC measurements can be done, the ADC clock must be enabled and a GPIO pin configured for Analog mode.
+
+==== Configuring the ADC
+[source,ada]
+----
+RP.GPIO.Enable;
+Pico.GP26.Configure (Analog);
+
+RP.Clock.Enable (RP.Clock.ADC);
+
+declare
+    use RP.ADC;
+    Channel : ADC_Channel := To_ADC_Channel (Pico.GP26);
+    Value   : ADC_Value;
+begin
+    RP.ADC.Configure (Chan);
+    Value := RP.ADC.Read (Channel);
+end;
+----
+
+==== Voltage measurement
+If a known reference voltage is applied to the `ADC_VREF` pin, the `Read_Microvolts` function can calculate the `Microvolts` integer type for you. On the Pico board, this reference is set to 3.3V unless your board has been modified. This is the default value for the `VREF` parameter.
+
+[source,ada]
+----
+declare
+    mV : Microvolts;
+begin
+    mV := RP.ADC.Read_Microvolts
+        (Channel => 0,
+         VREF    => 3_300_000);
+end;
+----
+
+==== Temperature sensor
+The RP2040 has an internal temperature sensor attached to ADC channel 4. The `Temperature` function converts the value of this ADC channel to `Celsius` based on some reference values. See 4.9.5. Temperature Sensor in the https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf[RP2040 datasheet] for accuracy and calibration information.
+
+The `Temperature` function enables the temperature sensor for the duration of the reading and the ADC channel does not need to be configured beforehand.
+[source,ada]
+----
+declare
+    C : RP.ADC.Celsius;
+begin
+    RP.ADC.Enable;
+    C := RP.ADC.Temperature;
+end;
+----
+
+=== Direct Memory Access (DMA)
+The DMA peripheral can copy data from one memory location, freeing up the CPU to do other work while a transfer is in progress. A DMA channel is configured with a Source and Target `System.Address` and can be triggered by almost every other peripheral on the chip. The DMA peripheral can increment the source and/or target address after each transfer, or always use the same address.
+
+For example, if you had a large buffer that needed to be transmitted via SPI, you could set the Source address to the beginning of the buffer and the target address to the SPI FIFO address, with the DMA channel configured to increment the source address until it reaches the end of the buffer.
+[source,ada]
+----
+with HAL.SPI;
+with HAL;
+with RP.DMA;  use RP.DMA;
+with RP.Device;
+with RP.SPI;
+
+procedure DMA_Demo is
+    Port    : RP.SPI.SPI_Port renames RP.Device.SPI_0;
+    Buffer  : HAL.SPI.SPI_Data_8b (1 .. 512);
+    Channel : constant RP.DMA.DMA_Channel_Id := 0;
+begin
+    --  Fill a buffer with sequential numbers
+    for I in Buffer'Range loop
+        Buffer (I) := HAL.UInt8 (I mod 255);
+    end loop;
+    RP.Clock.Enable (RP.Clock.PERI);
+    Port.Configure (Config => (others => <>));
+
+    RP.DMA.Enable;
+    RP.DMA.Configure
+        (Channel => Channel,
+         Config  =>
+            (Transfer_Size   => Transfer_8,
+             Increment_Read  => True,
+             Increment_Write => False,
+             Trigger         => SPI0_TX,
+             others          => <>));
+    RP.DMA.Start
+        (Channel => Channel,
+         From    => Buffer'Address,
+         To      => Port.FIFO_Address,
+         Count   => HAL.UInt32 (Buffer'Length));
+
+    loop
+        --  Do some other work while the transfer is in progress
+
+        if not RP.DMA.Busy (Channel) then
+            --  Transfer completed, maybe begin another one.
+        end if;
+    end loop;
+end DMA_Demo;
+----
+
+The `DMA_Configuration` record contains many other options such as reading/writing ring buffers, chaining another DMA channel after a transfer has finished, and generating checksums of data transferred through a DMA channel. See the RP2040 datasheet for more information on these options.
+
+=== Programmable I/O (PIO)
+The PIO peripheral consists of several state machines connected to all of the RP2040's I/O pins. The PIO has it's own opcodes and assembly language documented in the RP2040 datasheet. The https://github.com/raspberrypi/pico-sdk/tree/master/tools/pioasm[pioasm] assembler can output assembled code as a .ads file with the compiled binary represented as an array.
+
+----
+pioasm -p Hello -o ada src/hello.pio gen/hello.ads 
+----
+
+The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-pio.ads[RP.PIO] driver is very similar to the interface of the pico-sdk C API, as most available example code and documentation for PIO use that nomenclature. The https://github.com/JeremyGrosser/pico_examples/tree/master/pio_blink[pio_blink] example demonstrates loading an assembled PIO program and executing it.
+
+A more involved example is the https://github.com/JeremyGrosser/pico_bsp/blob/master/src/pico-audio_i2s.adb[Pico.Audio_I2S] driver, which uses PIO to generate an I2S audio stream for use with the https://github.com/JeremyGrosser/pico_examples/blob/master/pimoroni_audio_pack/src/main.adb[Pimoroni Audio Pack example]. The PIO program in this example was copied from the https://github.com/raspberrypi/pico-extras[raspberrypi/pico-extras] repository and it's C startup code ported to Ada.
+
+=== Interpolator
+image::interp.png[Interpolator data flow,link="/img/interp.png",title="Interpolator data flow"]
+
+The Interpolator is capable of performing an Add, Right Shift, Mask, and Sign Extend all within a single CPU cycle, with feedback from previous cycles into the input. The datasheet indicates that this is useful for pixel blending and certain audio synthesis operations.
+
+The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-interpolator.ads[RP.Interpolator] package directly exposes the registers of the Interpolator peripheral. We don't have an example for this yet because we don't entirely understand it. You could write one!
+
+=== ROM functions
+The RP2040's ROM contains a library of useful functions that can be accessed via a symbol lookup table. The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-rom.ads[RP.ROM] package provides an Ada binding to this library.
+
+==== Floating point library
+The RP2040's ROM includes a set of floating point functions using the https://en.wikipedia.org/wiki/CORDIC[CORDIC algorithm], implemented in assembly. The Cortex-M0+ has no hardware floating point unit, so if you need to do floating point math, this is as fast as it's gonna get. GCC will use it's own math library by default, which will generally be slower as fetching code from flash is slower than ROM access.
+
+https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-rom-floating_point.ads[RP.ROM.Floating_Point]
+[source,ada]
+----
+A : constant Float := RP.ROM.Floating_Point.fdiv (24.0, 2.0)
+----
+
+GCC uses weak `__aeabi_` symbols to point to the floating point functions. These symbols can be overridden to point to the ROM functions if you prefer to use those for all floating point math operations. The Ravenscar runtimes do this for you. See https://github.com/damaki/bb-runtimes/blob/rp2040-boards/arm/rpi/rp2040/s-bootro.ads[s-bootro.ads] and https://github.com/damaki/bb-runtimes/blob/rp2040-boards/arm/rpi/rp2040/s-bootro.adb[s-bootro.adb] for examples of how to override these symbols.
+
+=== Custom board support
+The focus of this project is to support the RP2040 on the Raspberry Pi Pico development board, but these libraries are portable to any board that uses the RP2040 chip. We recommend creating a new `yourboardname_bsp` Alire crate that contains boot code, pin definitions, and peripheral drivers for your custom board's components.
+
+==== Boot code
+As the RP2040 has no onboard flash, code is executed from an external flash chip. The `XIP_SSI` (Execute In Place Slave Serial Interface) peripheral needs to be configured for the flash chip in use. At power on, the RP2040's ROM uses a slow `0x04` SPI flash read command to load the first 256 bytes of flash into SRAM, verify a checksum at the end of that page, then jumps to it and begins executing. This section is known as `.boot2` in linker scripts. boot2 should disable the SSI, reconfigure it for the specific flash chip on the board, then re-enable it and jump to the beginning of user code, now executing from the memory mapped flash chip.
+
+Currently, pico_bsp contains .boot2 code copied from pico-sdk and pre-compiled. This is not ideal, both from a licensing and flexibility perspective. Signficant progress has been made in rewriting .boot2 in Ada and we hope to migrate to this in the near future. For up to date information on the progress of these efforts, xref:community_support[join us on Gitter.im].
+
+Until those changes are made, the https://github.com/JeremyGrosser/pico_examples/blob/master/adafruit_feather_rp2040/blink_feather.gpr#L16[adafruit_feather_rp2040] example shows how a BSP project can select boot2 code for a different flash chip. This example uses the `generic_03h` code, which should be compatible with most SPI flash chips but will not take advantage of performance enhancing features.
+
+==== Linker script
+Some startup code and a linker script are needed to generate an executable binary for the RP2040. The Ravenscar runtimes include these and will compile them along with your code. If you are using a ZFP runtime, pico_bsp provides reasonable defaults in the https://github.com/JeremyGrosser/pico_bsp/blob/master/zfp_startup[zfp_startup] directory. If you wish to customize these, copy zfp_startup to your BSP crate and modify the linker options in your .gpr to point to the customized linker script and crt0.S.
+
+==== Pin definitions
+It is unlikely that your custom board has the same pinout as the Pico. Most BSP crates will include a package that defines symbolic names for GPIO pins that match a schematic net name or silkscreen that a user of your board would recognize.
+
+The https://github.com/JeremyGrosser/pico_examples/blob/master/adafruit_feather_rp2040/src/adafruit_feather_rp2040.ads[Adafruit Feather RP2040 example] provides pin definitions for a custom board.
+
+=== Optimization
+While compile-time optimizations are no substitute for efficient algorithms, GCC can usually make your code fast and small enough for all but the most demanding tasks. Flags can be passed to the compiler and linker in a gpr project file using the `Switches` option.
+
+The GNAT user guide includes a https://gcc.gnu.org/onlinedocs/gnat_ugn/Alphabetical-List-of-All-Switches.html[list of all available switches]. The example below shows the ones I use most frequently.
+
+[source,ada]
+----
+   package Compiler is
+       for Switches ("Ada") use (
+           "-Os",           --  Optimize for size. Use -O2 or -O3 for performance optimization
+           "-g",            --  Generate debug symbols
+           "-gnatwa",       --  All warnings
+           "-gnatwl",       --  Elaboration warnings
+           "-gnatVa",       --  Validity checks. Execution faster without these, but
+                            --  constraints are a good idea.
+           "-gnatyg",       --  Style checks. Not required, but recommended.
+           "-gnatyM120",    --  Line length. Controversial.
+           "-gnatyO",       --  Overriding subprograms must be explicitly marked
+           "-gnata",        --  Enable assertions. Pre and Post conditions are enforced.
+           "-gnatn",        --  Enable inlining. Procedures also need to be marked "with Inline" and
+                            --  compiled with -O2 to actually be inlined
+           "-gnatQ",        --  Keep going after errors
+           "-gnatw.X",      --  Hide No_Exception_Propagation warnings.
+                            --  Exceptions in ZFP are always crashes, we don't need to be reminded.
+           "-gnatwB",       --  Hide Warn_On_Bad_Fixed_Value. Values assigned to fixed types may be
+                            --  truncated to the nearest 'Small
+           "-fstack-usage", --  Output stack usage information.
+                            --  Generates .su files that can be used for stack analysis later.
+           "-ffunction-sections", --  Every function gets it's own ELF section
+           "-fdata-sections"      --  Every variable gets it's own ELF section
+       );
+   end Compiler;
+
+   package Linker is
+      for Default_Switches ("Ada") use
+          Pico_BSP.Linker_Switches & (
+              "-Wl,-gc-sections",        --  Discard unused ELF sections
+              "-Wl,-print-memory-usage", --  Outputs memory and flash usage after linking
+              "-Wl,-Map=main.map"        --  Generate a memory map file for later analysis
+          );
+   end Linker;
+----
+
+=== Ravenscar runtimes
+There is a https://github.com/AdaCore/bb-runtimes/pull/55[pull request] to add ravenscar-sfp and ravenscar-full runtime support for the RP2040 to bb-runtimes. At the moment, these patches are not distributed with any toolchain. Building these runtimes is a bit tricky, so if you really need this and can't figure out how get it working, xref:community_support[come say hi on Gitter].
+
+== API reference
+We have link:/gnatdoc/index.html[generated API documentation] but in most cases it's easier to just https://github.com/JeremyGrosser/rp2040_hal/tree/master/src/drivers[read the .ads files] in rp2040_hal.
+
+== Community Support
+Bugs and usability issues may be reported by opening a https://github.com/JeremyGrosser/rp2040_hal/issues/new[GitHub issue]. For more general questions and feedback, join the https://gitter.im/ada-lang/raspberrypi-pico[community on Gitter.im].
+
+== License
+include::LICENSE.adoc[]
