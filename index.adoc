@@ -142,7 +142,7 @@ procedure RP.Clock.Initialize
     (XOSC_Frequency     : XOSC_Hertz := 0;
      XOSC_Startup_Delay : XOSC_Cycles := 12_032);
 ----
-Some oscillators may need a longer startup delay. If your system clock doesn't run at the frequency you expect, try adjusting this. NXP's https://www.nxp.com/docs/en/application-note/AN3208.pdf[Crystal Oscillator Troubleshooting Guide] has some good advice for troubleshooting this if you're building a custom board.
+Some oscillators may need a longer startup delay. If your system clock doesn't run at the frequency you expect, try adjusting this. NXP's https://www.nxp.com/docs/en/application-note/AN3208.pdf[Crystal Oscillator Troubleshooting Guide] has some good advice if you're building a custom board.
 
 [cols="1,1,1",title="Clock configuration after Initialize"]
 |===
@@ -190,7 +190,7 @@ Clocks may be disabled to reduce power consumption.
 RP.Clock.Disable (RP.Clock.PERI);
 ----
 
-The `RP.Clock.Frequency` function uses the internal frequency counter to measure internal clocks. This is used by to configure dividers and enforce minimum operating frequencies in preconditions. Most drivers provide convenience wrappers that perform these calculations for you.
+The `RP.Clock.Frequency` function uses the internal frequency counter to measure internal clocks. This is used to configure dividers and enforce minimum operating frequencies in preconditions. Most drivers provide convenience wrappers that perform these calculations for you.
 [source,ada]
 ----
 declare
