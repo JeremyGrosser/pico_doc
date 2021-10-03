@@ -34,7 +34,7 @@ cd hello_pico
 alr with pico_bsp
 ----
 
-If Alire prompts you to install tools like unzip and git, accept these changes. When prompted to select a toolchain, choose the most recent versions of `gnat_arm_elf` and `gprbuild`.
+If Alire prompts you to install tools like unzip and git, accept these changes. If prompted to select a toolchain, choose the most recent versions of `gnat_arm_elf` and `gprbuild`.
 
 Next, edit `hello_pico.gpr` to import pico_bsp and add the Target, Runtime, and Linker configuration near the top.
 
