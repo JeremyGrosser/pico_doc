@@ -584,7 +584,7 @@ RP.Clock.Enable (RP.Clock.ADC);
 declare
     use RP.ADC;
     Channel : ADC_Channel := To_ADC_Channel (Pico.GP26);
-    Value   : ADC_Value;
+    Value   : Analog_Value;
 begin
     RP.ADC.Configure (Chan);
     Value := RP.ADC.Read (Channel);
