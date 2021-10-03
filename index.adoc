@@ -621,7 +621,7 @@ end;
 ----
 
 === Direct Memory Access (DMA)
-The DMA peripheral can copy data from one memory location, freeing up the CPU to do other work while a transfer is in progress. A DMA channel is configured with a Source and Target `System.Address` and can be triggered by almost every other peripheral on the chip. The DMA peripheral can increment the source and/or target address after each transfer, or always use the same address.
+The DMA peripheral can copy data from one memory location to another, freeing up the CPU to do other work while a transfer is in progress. A DMA channel is configured with a Source and Target `System.Address` and can be triggered by almost every other peripheral on the chip. The DMA peripheral can increment the source and/or target address after each transfer, or always use the same address.
 
 For example, if you had a large buffer that needed to be transmitted via SPI, you could set the Source address to the beginning of the buffer and the target address to the SPI FIFO address, with the DMA channel configured to increment the source address until it reaches the end of the buffer.
 [source,ada]
