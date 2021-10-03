@@ -250,7 +250,13 @@ declare
     SCL : GPIO_Point renames Pico.GP27;
     SDA : GPIO_Point renames Pico.GP26;
 begin
-    I2C_Data.Configure
+    SCL.Configure
+        (Mode       => Output,
+         Pull       => Pull_Up,
+         Func       => I2C,
+         Schmitt    => True,
+         Slew_Fast  => False);
+    SDA.Configure
         (Mode       => Output,
          Pull       => Pull_Up,
          Func       => I2C,
