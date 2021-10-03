@@ -597,6 +597,7 @@ If a known reference voltage is applied to the `ADC_VREF` pin, the `Read_Microvo
 [source,ada]
 ----
 declare
+    use RP.ADC;
     mV : Microvolts;
 begin
     mV := RP.ADC.Read_Microvolts
