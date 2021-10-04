@@ -711,7 +711,7 @@ As the RP2040 has no onboard flash, code is executed from an external flash chip
 
 Currently, pico_bsp contains .boot2 code copied from pico-sdk and pre-compiled. This is not ideal, both from a licensing and flexibility perspective. Signficant progress has been made in rewriting .boot2 in Ada and we hope to migrate to this in the near future. For up to date information on the progress of these efforts, xref:community_support[join us on Gitter.im].
 
-Until those changes are made, the https://github.com/JeremyGrosser/pico_examples/blob/master/adafruit_feather_rp2040/blink_feather.gpr#L16[adafruit_feather_rp2040] example shows how a BSP project can select boot2 code for a different flash chip. This example uses the `generic_03h` code, which should be compatible with most SPI flash chips but will not take advantage of performance enhancing features.
+Until those changes are made, the https://github.com/JeremyGrosser/pico_examples/blob/master/feather_rp2040_bsp/alire.toml[feather_rp2040_bsp] example shows how a BSP project can select boot2 code for a different flash chip. This example uses the `generic_qspi` code, which should be compatible with most SPI flash chips but will not take advantage of performance enhancing features.
 
 ==== Linker script
 Some startup code and a linker script are needed to generate an executable binary for the RP2040. The Ravenscar runtimes include these and will compile them along with your code. If you are using a ZFP runtime, pico_bsp provides reasonable defaults in the https://github.com/JeremyGrosser/pico_bsp/blob/master/zfp_startup[zfp_startup] directory. If you wish to customize these, copy zfp_startup to your BSP crate and modify the linker options in your .gpr to point to the customized linker script and crt0.S.
@@ -719,7 +719,7 @@ Some startup code and a linker script are needed to generate an executable binar
 ==== Pin definitions
 It is unlikely that your custom board has the same pinout as the Pico. Most BSP crates will include a package that defines symbolic names for GPIO pins that match a schematic net name or silkscreen that a user of your board would recognize.
 
-The https://github.com/JeremyGrosser/pico_examples/blob/master/adafruit_feather_rp2040/src/adafruit_feather_rp2040.ads[Adafruit Feather RP2040 example] provides pin definitions for a custom board.
+The https://github.com/JeremyGrosser/pico_examples/blob/master/feather_rp2040_bsp/src/feather_rp2040.ads[Adafruit Feather RP2040 example] provides pin definitions for a custom board.
 
 === Optimization
 While compile-time optimizations are no substitute for efficient algorithms, GCC can usually make your code fast and small enough for all but the most demanding tasks. Flags can be passed to the compiler and linker in a gpr project file using the `Switches` option.
