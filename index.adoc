@@ -620,6 +620,38 @@ begin
 end;
 ----
 
+==== Round robin
+In round robin mode, the ADC will switch to the next enabled channel after each conversion. This allows you to sample many channels is rapid succession.
+
+[source,ada]
+----
+RP.ADC.Set_Round_Robin
+    (Channels =>
+        (0      => True,
+         1      => True,
+         others => False);
+Sample := RP.ADC.Read;  --  Reads channel 0
+Sample := RP.ADC.Read;  --  Reads channel 1
+Sample := RP.ADC.Read;  --  Reads channel 0
+Sample := RP.ADC.Read;  --  Reads channel 1
+----
+
+==== Continuous conversion
+The ADC can be configured to continuously sample its inputs at a fixed rate. This is useful if you want to capture audio, for example. Sampling begins as soon as `RP.ADC.Set_Mode` is called.
+
+[source,ada]
+----
+declare
+    use RP.ADC;
+    Sample : Analog_Value;
+begin
+    Set_Sample_Rate (48_000);
+    Set_Mode (Free_Running);
+end;
+----
+
+Samples will be dropped if `Read` isn't called fast enough. In most cases, you will want to setup a DMA channel triggered on the ADC to copy samples to a buffer while the CPU does processing. The https://github.com/JeremyGrosser/pico_examples/blob/master/adc_continuous/src/main.adb[adc_continuous] example demonstrates using DMA and double buffering to capture and process two channels simultaneously.
+
 === Direct Memory Access (DMA)
 The DMA peripheral can copy data from one memory location to another, freeing up the CPU to do other work while a transfer is in progress. A DMA channel is configured with a Source and Target `System.Address` and can be triggered by almost every other peripheral on the chip. The DMA peripheral can increment the source and/or target address after each transfer, or always use the same address.
 
