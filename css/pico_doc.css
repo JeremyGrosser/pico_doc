@@ -5,14 +5,14 @@ body {
     font-weight: 400;
 }
 
-a {
-    color: revert;
+a, a:link, a:active, a:visited, a:hover, a:focus {
+    color: #00E;
     text-decoration: none;
 }
 
 a:hover, a:focus {
-    color: revert;
-    text-decoration: revert;
+    color: #00E;
+    text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
