@@ -7,8 +7,23 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--"
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "RP.ROM"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -18,8 +33,43 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Copyright 2021 (C) Jeremy Grosser"
+          "cssClass": "keyword",
+          "text": "pragma"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Unreferenced"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "RP.ROM"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -27,174 +77,11 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 3,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--"
-        }
       ]
     },
     {
       "kind": "line",
       "number": 4,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  SPDX-License-Identifier: BSD-3-Clause"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 5,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 6,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Ada.Unchecked_Conversion"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 7,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "RP.Clock"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 8,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "RP.GPIO"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 9,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "System"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 10,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 11,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 12,
       "children": [
         {
           "kind": "span",
@@ -209,8 +96,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "RP.ADC",
-          "href": "docs/rp__adc___spec.html#L12C12"
+          "text": "Runtime",
+          "href": "docs/runtime___spec.html#L4C9"
         },
         {
           "kind": "span",
@@ -221,6 +108,192 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "keyword",
           "text": "is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 5,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  crt0.S expects this symbol to exist. It is called after main returns."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 6,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "OS_Exit",
+          "href": "docs/runtime___spec.html#L6C14"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Status",
+          "href": "docs/runtime___spec.html#L6C23"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Integer"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 7,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Export        => True,"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 8,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "           Convention    => C,"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 9,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "           External_Name => \"exit\""
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 10,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 11,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HardFault_Handler",
+          "href": "docs/runtime___spec.html#L11C14"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 12,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Export         => True,"
         }
       ]
     },
@@ -231,49 +304,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "subtype"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Analog_Value",
-          "href": "docs/rp__adc___spec.html#L13C12"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt12",
-          "href": "docs/hal___spec.html#L58C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "text": "           Convention     => C,"
         }
       ]
     },
@@ -281,92 +312,10 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 14,
       "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 15,
-      "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "subtype"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "ADC_Channel",
-          "href": "docs/rp__adc___spec.html#L15C12"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Natural"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "4"
+          "text": "           External_Name  => \"isr_hardfault\""
         },
         {
           "kind": "span",
@@ -377,13 +326,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 16,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 117,
+      "number": 15,
       "children": [
         {
           "kind": "span",
@@ -398,7 +341,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "RP.ADC"
+          "text": "Runtime"
         },
         {
           "kind": "span",
@@ -408,5 +351,5 @@ GNATdoc.SourceFile = {
       ]
     }
   ],
-  "label": "rp-adc.ads"
+  "label": "runtime.ads"
 };

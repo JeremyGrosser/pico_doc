@@ -24,10 +24,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "ADC_Channel",
-      "docHref": "docs/rp__adc___spec.html#L12C12",
+      "docHref": "docs/rp__adc___spec.html#L15C12",
       "declared": "RP.ADC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-adc.ads.html#L12"
+      "srcHref": "srcs/rp-adc.ads.html#L15"
+    },
+    {
+      "label": "ADC_Channels",
+      "docHref": "docs/rp__adc___spec.html#L17C9",
+      "declared": "RP.ADC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-adc.ads.html#L17"
+    },
+    {
+      "label": "ADC_Divider",
+      "docHref": "docs/rp__adc___spec.html#L56C9",
+      "declared": "RP.ADC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-adc.ads.html#L56"
+    },
+    {
+      "label": "ADC_Mode",
+      "docHref": "docs/rp__adc___spec.html#L43C9",
+      "declared": "RP.ADC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-adc.ads.html#L43"
     },
     {
       "label": "ADC_Pin",
@@ -35,6 +56,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.GPIO",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-gpio.ads.html#L18"
+    },
+    {
+      "label": "ADC_Sample_Bits",
+      "docHref": "docs/rp__adc___spec.html#L67C9",
+      "declared": "RP.ADC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-adc.ads.html#L67"
     },
     {
       "label": "ADD_Register",
@@ -80,10 +108,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Analog_Value",
-      "docHref": "docs/rp__adc___spec.html#L11C12",
+      "docHref": "docs/rp__adc___spec.html#L13C12",
       "declared": "RP.ADC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-adc.ads.html#L11"
+      "srcHref": "srcs/rp-adc.ads.html#L13"
     },
     {
       "label": "ARMED_ARMED_Field",
@@ -192,10 +220,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Celsius",
-      "docHref": "docs/rp__adc___spec.html#L18C9",
+      "docHref": "docs/rp__adc___spec.html#L25C9",
       "declared": "RP.ADC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-adc.ads.html#L18"
+      "srcHref": "srcs/rp-adc.ads.html#L25"
     },
     {
       "label": "CH0_CC_A_Field",
@@ -6275,10 +6303,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Microvolts",
-      "docHref": "docs/rp__adc___spec.html#L14C9",
+      "docHref": "docs/rp__adc___spec.html#L21C9",
       "declared": "RP.ADC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-adc.ads.html#L14"
+      "srcHref": "srcs/rp-adc.ads.html#L21"
     },
     {
       "label": "MIDI_Event",

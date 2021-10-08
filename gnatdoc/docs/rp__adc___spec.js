@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Temperature_Sensor",
           "qualifier": "",
-          "line": 20,
+          "line": 27,
           "column": 4,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 20,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -98,7 +98,7 @@ GNATdoc.Documentation = {
         {
           "label": "ADC_Channel",
           "qualifier": "",
-          "line": 12,
+          "line": 15,
           "column": 12,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -109,7 +109,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 12,
+                  "number": 15,
                   "children": [
                     {
                       "kind": "span",
@@ -130,7 +130,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Channel",
-                      "href": "docs/rp__adc___spec.html#L12C12"
+                      "href": "docs/rp__adc___spec.html#L15C12"
                     },
                     {
                       "kind": "span",
@@ -204,9 +204,539 @@ GNATdoc.Documentation = {
           ]
         },
         {
+          "label": "ADC_Channels",
+          "qualifier": "",
+          "line": 17,
+          "column": 9,
+          "src": "srcs/rp-adc.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 17,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ADC_Channels",
+                      "href": "docs/rp__adc___spec.html#L17C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "array"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ADC_Channel",
+                      "href": "docs/rp__adc___spec.html#L15C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "of"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 18,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Component_Size => 1,"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 19,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "           Size           => 5"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "ADC_Divider",
+          "qualifier": "",
+          "line": 56,
+          "column": 9,
+          "src": "srcs/rp-adc.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 56,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ADC_Divider",
+                      "href": "docs/rp__adc___spec.html#L56C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "delta"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ADC_Divider_Fraction"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "range"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0.0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "2.0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "**"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "-"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ADC_Divider_Fraction"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "ADC_Mode",
+          "qualifier": "",
+          "line": 43,
+          "column": 9,
+          "src": "srcs/rp-adc.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 43,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ADC_Mode",
+                      "href": "docs/rp__adc___spec.html#L43C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "One_Shot",
+                      "href": "docs/rp__adc___spec.html#L43C22"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Free_Running",
+                      "href": "docs/rp__adc___spec.html#L43C32"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/rp__adc___spec.html#L43C9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "One_Shot",
+              "line": 43,
+              "column": 22,
+              "description": [
+              ]
+            },
+            {
+              "label": "Free_Running",
+              "line": 43,
+              "column": 32,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "ADC_Sample_Bits",
+          "qualifier": "",
+          "line": 67,
+          "column": 9,
+          "src": "srcs/rp-adc.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 67,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ADC_Sample_Bits",
+                      "href": "docs/rp__adc___spec.html#L67C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "new"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Positive"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 68,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Dynamic_Predicate => ADC_Sample_Bits "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " 8 | 12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "label": "Analog_Value",
           "qualifier": "",
-          "line": 11,
+          "line": 13,
           "column": 12,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -217,7 +747,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 11,
+                  "number": 13,
                   "children": [
                     {
                       "kind": "span",
@@ -238,7 +768,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Analog_Value",
-                      "href": "docs/rp__adc___spec.html#L11C12"
+                      "href": "docs/rp__adc___spec.html#L13C12"
                     },
                     {
                       "kind": "span",
@@ -275,7 +805,7 @@ GNATdoc.Documentation = {
         {
           "label": "Celsius",
           "qualifier": "",
-          "line": 18,
+          "line": 25,
           "column": 9,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -286,7 +816,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 18,
+                  "number": 25,
                   "children": [
                     {
                       "kind": "span",
@@ -307,7 +837,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Celsius",
-                      "href": "docs/rp__adc___spec.html#L18C9"
+                      "href": "docs/rp__adc___spec.html#L25C9"
                     },
                     {
                       "kind": "span",
@@ -366,7 +896,7 @@ GNATdoc.Documentation = {
         {
           "label": "Microvolts",
           "qualifier": "",
-          "line": 14,
+          "line": 21,
           "column": 9,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -377,7 +907,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 14,
+                  "number": 21,
                   "children": [
                     {
                       "kind": "span",
@@ -398,7 +928,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Microvolts",
-                      "href": "docs/rp__adc___spec.html#L14C9"
+                      "href": "docs/rp__adc___spec.html#L21C9"
                     },
                     {
                       "kind": "span",
@@ -449,7 +979,7 @@ GNATdoc.Documentation = {
         {
           "label": "Configure",
           "qualifier": "",
-          "line": 25,
+          "line": 35,
           "column": 14,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -460,7 +990,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 25,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -481,13 +1011,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Configure",
-                      "href": "docs/rp__adc___spec.html#L25C14"
+                      "href": "docs/rp__adc___spec.html#L35C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 26,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -503,7 +1033,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/rp__adc___spec.html#L26C8"
+                      "href": "docs/rp__adc___spec.html#L36C8"
                     },
                     {
                       "kind": "span",
@@ -524,7 +1054,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Channel",
-                      "href": "docs/rp__adc___spec.html#L12C12"
+                      "href": "docs/rp__adc___spec.html#L15C12"
                     },
                     {
                       "kind": "span",
@@ -535,7 +1065,146 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 27,
+                  "number": 37,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pre => RP.Clock.Frequency (RP.Clock.ADC) = 48_000_000"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Configure the GPIO pin for analog input\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Channel",
+              "line": 36,
+              "column": 8,
+              "type": {
+                "label": "RP.ADC.ADC_Channel",
+                "docHref": "docs/rp__adc___spec.html#L15C12"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Configure",
+          "qualifier": "",
+          "line": 39,
+          "column": 14,
+          "src": "srcs/rp-adc.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 39,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Configure",
+                      "href": "docs/rp__adc___spec.html#L39C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 40,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channels",
+                      "href": "docs/rp__adc___spec.html#L40C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ADC_Channels",
+                      "href": "docs/rp__adc___spec.html#L17C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
@@ -564,12 +1233,12 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "Channel",
-              "line": 26,
+              "label": "Channels",
+              "line": 40,
               "column": 8,
               "type": {
-                "label": "RP.ADC.ADC_Channel",
-                "docHref": "docs/rp__adc___spec.html#L12C12"
+                "label": "RP.ADC.ADC_Channels",
+                "docHref": "docs/rp__adc___spec.html#L17C9"
               },
               "description": [
               ]
@@ -577,9 +1246,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Enable",
+          "label": "Disable",
           "qualifier": "",
-          "line": 22,
+          "line": 30,
           "column": 14,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -590,7 +1259,55 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 22,
+                  "number": 30,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Disable",
+                      "href": "docs/rp__adc___spec.html#L30C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Enable",
+          "qualifier": "",
+          "line": 29,
+          "column": 14,
+          "src": "srcs/rp-adc.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -611,7 +1328,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enable",
-                      "href": "docs/rp__adc___spec.html#L22C14"
+                      "href": "docs/rp__adc___spec.html#L29C14"
                     },
                     {
                       "kind": "span",
@@ -627,7 +1344,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enabled",
           "qualifier": "",
-          "line": 23,
+          "line": 32,
           "column": 13,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -638,7 +1355,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 23,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -659,7 +1376,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enabled",
-                      "href": "docs/rp__adc___spec.html#L23C13"
+                      "href": "docs/rp__adc___spec.html#L32C13"
                     },
                     {
                       "kind": "span",
@@ -693,9 +1410,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Read",
+          "label": "FIFO_Address",
           "qualifier": "",
-          "line": 29,
+          "line": 100,
           "column": 13,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -706,7 +1423,81 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 29,
+                  "number": 100,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "FIFO_Address",
+                      "href": "docs/rp__adc___spec.html#L100C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 101,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "System.Address"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Read",
+          "qualifier": "",
+          "line": 74,
+          "column": 13,
+          "src": "srcs/rp-adc.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 74,
                   "children": [
                     {
                       "kind": "span",
@@ -727,13 +1518,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Read",
-                      "href": "docs/rp__adc___spec.html#L29C13"
+                      "href": "docs/rp__adc___spec.html#L74C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 30,
+                  "number": 75,
                   "children": [
                     {
                       "kind": "span",
@@ -749,7 +1540,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/rp__adc___spec.html#L30C8"
+                      "href": "docs/rp__adc___spec.html#L75C8"
                     },
                     {
                       "kind": "span",
@@ -770,7 +1561,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Channel",
-                      "href": "docs/rp__adc___spec.html#L12C12"
+                      "href": "docs/rp__adc___spec.html#L15C12"
                     },
                     {
                       "kind": "span",
@@ -781,7 +1572,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 76,
                   "children": [
                     {
                       "kind": "span",
@@ -802,7 +1593,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Analog_Value",
-                      "href": "docs/rp__adc___spec.html#L11C12"
+                      "href": "docs/rp__adc___spec.html#L13C12"
                     },
                     {
                       "kind": "span",
@@ -817,11 +1608,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Channel",
-              "line": 30,
+              "line": 75,
               "column": 8,
               "type": {
                 "label": "RP.ADC.ADC_Channel",
-                "docHref": "docs/rp__adc___spec.html#L12C12"
+                "docHref": "docs/rp__adc___spec.html#L15C12"
               },
               "description": [
               ]
@@ -829,9 +1620,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Read_Microvolts",
+          "label": "Read",
           "qualifier": "",
-          "line": 33,
+          "line": 78,
           "column": 13,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -842,7 +1633,82 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 78,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Read",
+                      "href": "docs/rp__adc___spec.html#L78C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 79,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Analog_Value",
+                      "href": "docs/rp__adc___spec.html#L13C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Read_Microvolts",
+          "qualifier": "",
+          "line": 81,
+          "column": 13,
+          "src": "srcs/rp-adc.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 81,
                   "children": [
                     {
                       "kind": "span",
@@ -863,13 +1729,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Read_Microvolts",
-                      "href": "docs/rp__adc___spec.html#L33C13"
+                      "href": "docs/rp__adc___spec.html#L81C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 82,
                   "children": [
                     {
                       "kind": "span",
@@ -885,7 +1751,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/rp__adc___spec.html#L34C8"
+                      "href": "docs/rp__adc___spec.html#L82C8"
                     },
                     {
                       "kind": "span",
@@ -906,7 +1772,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Channel",
-                      "href": "docs/rp__adc___spec.html#L12C12"
+                      "href": "docs/rp__adc___spec.html#L15C12"
                     },
                     {
                       "kind": "span",
@@ -917,7 +1783,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 83,
                   "children": [
                     {
                       "kind": "span",
@@ -928,7 +1794,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "VREF",
-                      "href": "docs/rp__adc___spec.html#L35C8"
+                      "href": "docs/rp__adc___spec.html#L83C8"
                     },
                     {
                       "kind": "span",
@@ -949,7 +1815,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Microvolts",
-                      "href": "docs/rp__adc___spec.html#L14C9"
+                      "href": "docs/rp__adc___spec.html#L21C9"
                     },
                     {
                       "kind": "span",
@@ -980,7 +1846,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 84,
                   "children": [
                     {
                       "kind": "span",
@@ -1001,7 +1867,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Microvolts",
-                      "href": "docs/rp__adc___spec.html#L14C9"
+                      "href": "docs/rp__adc___spec.html#L21C9"
                     },
                     {
                       "kind": "span",
@@ -1016,22 +1882,651 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Channel",
-              "line": 34,
+              "line": 82,
               "column": 8,
               "type": {
                 "label": "RP.ADC.ADC_Channel",
-                "docHref": "docs/rp__adc___spec.html#L12C12"
+                "docHref": "docs/rp__adc___spec.html#L15C12"
               },
               "description": [
               ]
             },
             {
               "label": "VREF",
-              "line": 35,
+              "line": 83,
               "column": 8,
               "type": {
                 "label": "RP.ADC.Microvolts",
-                "docHref": "docs/rp__adc___spec.html#L14C9"
+                "docHref": "docs/rp__adc___spec.html#L21C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Set_Divider",
+          "qualifier": "",
+          "line": 59,
+          "column": 14,
+          "src": "srcs/rp-adc.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 59,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Set_Divider",
+                      "href": "docs/rp__adc___spec.html#L59C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 60,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Div",
+                      "href": "docs/rp__adc___spec.html#L60C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ADC_Divider",
+                      "href": "docs/rp__adc___spec.html#L56C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "If Div = 0, conversions run at the maximum rate\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Div",
+              "line": 60,
+              "column": 8,
+              "type": {
+                "label": "RP.ADC.ADC_Divider",
+                "docHref": "docs/rp__adc___spec.html#L56C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Set_Mode",
+          "qualifier": "",
+          "line": 48,
+          "column": 14,
+          "src": "srcs/rp-adc.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 48,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Set_Mode",
+                      "href": "docs/rp__adc___spec.html#L48C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 49,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Mode",
+                      "href": "docs/rp__adc___spec.html#L49C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ADC_Mode",
+                      "href": "docs/rp__adc___spec.html#L43C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The ADC starts in One_Shot mode. Read will start a conversion and wait\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "for it to complete before returning. In Free_Running mode, Read returns\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "as soon as a sample is available.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Mode",
+              "line": 49,
+              "column": 8,
+              "type": {
+                "label": "RP.ADC.ADC_Mode",
+                "docHref": "docs/rp__adc___spec.html#L43C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Set_Round_Robin",
+          "qualifier": "",
+          "line": 52,
+          "column": 14,
+          "src": "srcs/rp-adc.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 52,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Set_Round_Robin",
+                      "href": "docs/rp__adc___spec.html#L52C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 53,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channels",
+                      "href": "docs/rp__adc___spec.html#L53C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ADC_Channels",
+                      "href": "docs/rp__adc___spec.html#L17C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "In round robin mode, the next enabled channel is selected after each read.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Channels",
+              "line": 53,
+              "column": 8,
+              "type": {
+                "label": "RP.ADC.ADC_Channels",
+                "docHref": "docs/rp__adc___spec.html#L17C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Set_Sample_Bits",
+          "qualifier": "",
+          "line": 71,
+          "column": 14,
+          "src": "srcs/rp-adc.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 71,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Set_Sample_Bits",
+                      "href": "docs/rp__adc___spec.html#L71C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 72,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Bits",
+                      "href": "docs/rp__adc___spec.html#L72C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ADC_Sample_Bits",
+                      "href": "docs/rp__adc___spec.html#L67C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "If Bits = 8 then samples are automatically right shifted by 4 bits.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Bits",
+              "line": 72,
+              "column": 8,
+              "type": {
+                "label": "RP.ADC.ADC_Sample_Bits",
+                "docHref": "docs/rp__adc___spec.html#L67C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Set_Sample_Rate",
+          "qualifier": "",
+          "line": 63,
+          "column": 14,
+          "src": "srcs/rp-adc.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 63,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Set_Sample_Rate",
+                      "href": "docs/rp__adc___spec.html#L63C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 64,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Rate",
+                      "href": "docs/rp__adc___spec.html#L64C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Hertz",
+                      "href": "docs/rp___spec.html#L9C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 65,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pre => Rate "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " 1 .. 500_000"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Set the conversion rate for free running mode\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Rate",
+              "line": 64,
+              "column": 8,
+              "type": {
+                "label": "RP.Hertz",
+                "docHref": "docs/rp___spec.html#L9C12"
               },
               "description": [
               ]
@@ -1041,7 +2536,7 @@ GNATdoc.Documentation = {
         {
           "label": "Temperature",
           "qualifier": "",
-          "line": 40,
+          "line": 88,
           "column": 13,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -1052,7 +2547,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 88,
                   "children": [
                     {
                       "kind": "span",
@@ -1073,13 +2568,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Temperature",
-                      "href": "docs/rp__adc___spec.html#L40C13"
+                      "href": "docs/rp__adc___spec.html#L88C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 89,
                   "children": [
                     {
                       "kind": "span",
@@ -1095,7 +2590,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Ref_Temp",
-                      "href": "docs/rp__adc___spec.html#L41C8"
+                      "href": "docs/rp__adc___spec.html#L89C8"
                     },
                     {
                       "kind": "span",
@@ -1116,7 +2611,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Celsius",
-                      "href": "docs/rp__adc___spec.html#L18C9"
+                      "href": "docs/rp__adc___spec.html#L25C9"
                     },
                     {
                       "kind": "span",
@@ -1147,7 +2642,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 90,
                   "children": [
                     {
                       "kind": "span",
@@ -1158,7 +2653,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Vbe",
-                      "href": "docs/rp__adc___spec.html#L42C8"
+                      "href": "docs/rp__adc___spec.html#L90C8"
                     },
                     {
                       "kind": "span",
@@ -1179,7 +2674,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Microvolts",
-                      "href": "docs/rp__adc___spec.html#L14C9"
+                      "href": "docs/rp__adc___spec.html#L21C9"
                     },
                     {
                       "kind": "span",
@@ -1210,7 +2705,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 91,
                   "children": [
                     {
                       "kind": "span",
@@ -1221,7 +2716,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slope",
-                      "href": "docs/rp__adc___spec.html#L43C8"
+                      "href": "docs/rp__adc___spec.html#L91C8"
                     },
                     {
                       "kind": "span",
@@ -1242,7 +2737,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Microvolts",
-                      "href": "docs/rp__adc___spec.html#L14C9"
+                      "href": "docs/rp__adc___spec.html#L21C9"
                     },
                     {
                       "kind": "span",
@@ -1273,7 +2768,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 92,
                   "children": [
                     {
                       "kind": "span",
@@ -1284,7 +2779,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "VREF",
-                      "href": "docs/rp__adc___spec.html#L44C8"
+                      "href": "docs/rp__adc___spec.html#L92C8"
                     },
                     {
                       "kind": "span",
@@ -1305,7 +2800,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Microvolts",
-                      "href": "docs/rp__adc___spec.html#L14C9"
+                      "href": "docs/rp__adc___spec.html#L21C9"
                     },
                     {
                       "kind": "span",
@@ -1336,7 +2831,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 93,
                   "children": [
                     {
                       "kind": "span",
@@ -1357,7 +2852,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Celsius",
-                      "href": "docs/rp__adc___spec.html#L18C9"
+                      "href": "docs/rp__adc___spec.html#L25C9"
                     },
                     {
                       "kind": "span",
@@ -1385,44 +2880,44 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Ref_Temp",
-              "line": 41,
+              "line": 89,
               "column": 8,
               "type": {
                 "label": "RP.ADC.Celsius",
-                "docHref": "docs/rp__adc___spec.html#L18C9"
+                "docHref": "docs/rp__adc___spec.html#L25C9"
               },
               "description": [
               ]
             },
             {
               "label": "Vbe",
-              "line": 42,
+              "line": 90,
               "column": 8,
               "type": {
                 "label": "RP.ADC.Microvolts",
-                "docHref": "docs/rp__adc___spec.html#L14C9"
+                "docHref": "docs/rp__adc___spec.html#L21C9"
               },
               "description": [
               ]
             },
             {
               "label": "Slope",
-              "line": 43,
+              "line": 91,
               "column": 8,
               "type": {
                 "label": "RP.ADC.Microvolts",
-                "docHref": "docs/rp__adc___spec.html#L14C9"
+                "docHref": "docs/rp__adc___spec.html#L21C9"
               },
               "description": [
               ]
             },
             {
               "label": "VREF",
-              "line": 44,
+              "line": 92,
               "column": 8,
               "type": {
                 "label": "RP.ADC.Microvolts",
-                "docHref": "docs/rp__adc___spec.html#L14C9"
+                "docHref": "docs/rp__adc___spec.html#L21C9"
               },
               "description": [
               ]
@@ -1432,7 +2927,7 @@ GNATdoc.Documentation = {
         {
           "label": "To_ADC_Channel",
           "qualifier": "",
-          "line": 47,
+          "line": 95,
           "column": 13,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -1443,7 +2938,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 95,
                   "children": [
                     {
                       "kind": "span",
@@ -1464,13 +2959,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "To_ADC_Channel",
-                      "href": "docs/rp__adc___spec.html#L47C13"
+                      "href": "docs/rp__adc___spec.html#L95C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 96,
                   "children": [
                     {
                       "kind": "span",
@@ -1486,7 +2981,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Point",
-                      "href": "docs/rp__adc___spec.html#L48C8"
+                      "href": "docs/rp__adc___spec.html#L96C8"
                     },
                     {
                       "kind": "span",
@@ -1518,7 +3013,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 97,
                   "children": [
                     {
                       "kind": "span",
@@ -1539,13 +3034,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Channel",
-                      "href": "docs/rp__adc___spec.html#L12C12"
+                      "href": "docs/rp__adc___spec.html#L15C12"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 98,
                   "children": [
                     {
                       "kind": "span",
@@ -1585,7 +3080,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Point",
-              "line": 48,
+              "line": 96,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.GPIO_Point",

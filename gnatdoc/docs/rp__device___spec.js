@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP0_Base",
           "qualifier": "",
-          "line": 38,
+          "line": 39,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -138,7 +138,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP1_Base",
           "qualifier": "",
-          "line": 39,
+          "line": 40,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -149,7 +149,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -268,9 +268,9 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "I2C_0",
+          "label": "ADC",
           "qualifier": "",
-          "line": 25,
+          "line": 51,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -281,7 +281,97 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 25,
+                  "number": 51,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ADC",
+                      "href": "docs/rp__device___spec.html#L51C4"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "RP2040_SVD.ADC.ADC_Peripheral",
+                      "href": "docs/rp2040_svd__adc___spec.html#L277C9"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 52,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Import, Address => RP2040_SVD.ADC_Base"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "I2C_0",
+          "qualifier": "",
+          "line": 26,
+          "column": 4,
+          "src": "srcs/rp-device.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 26,
                   "children": [
                     {
                       "kind": "span",
@@ -292,7 +382,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I2C_0",
-                      "href": "docs/rp__device___spec.html#L25C4"
+                      "href": "docs/rp__device___spec.html#L26C4"
                     },
                     {
                       "kind": "span",
@@ -385,7 +475,7 @@ GNATdoc.Documentation = {
         {
           "label": "I2C_1",
           "qualifier": "",
-          "line": 26,
+          "line": 27,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -396,7 +486,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 26,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -407,7 +497,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I2C_1",
-                      "href": "docs/rp__device___spec.html#L26C4"
+                      "href": "docs/rp__device___spec.html#L27C4"
                     },
                     {
                       "kind": "span",
@@ -500,7 +590,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP_0",
           "qualifier": "",
-          "line": 40,
+          "line": 41,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -511,7 +601,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
@@ -522,7 +612,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP_0",
-                      "href": "docs/rp__device___spec.html#L40C4"
+                      "href": "docs/rp__device___spec.html#L41C4"
                     },
                     {
                       "kind": "span",
@@ -559,7 +649,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -590,7 +680,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP_1",
           "qualifier": "",
-          "line": 42,
+          "line": 43,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -601,7 +691,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -612,7 +702,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP_1",
-                      "href": "docs/rp__device___spec.html#L42C4"
+                      "href": "docs/rp__device___spec.html#L43C4"
                     },
                     {
                       "kind": "span",
@@ -649,7 +739,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -680,7 +770,7 @@ GNATdoc.Documentation = {
         {
           "label": "PIO0_Periph",
           "qualifier": "",
-          "line": 31,
+          "line": 32,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -691,7 +781,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -702,7 +792,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO0_Periph",
-                      "href": "docs/rp__device___spec.html#L31C4"
+                      "href": "docs/rp__device___spec.html#L32C4"
                     },
                     {
                       "kind": "span",
@@ -739,7 +829,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 33,
                   "children": [
                     {
                       "kind": "span",
@@ -770,7 +860,7 @@ GNATdoc.Documentation = {
         {
           "label": "PIO1_Periph",
           "qualifier": "",
-          "line": 33,
+          "line": 34,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -781,7 +871,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -792,7 +882,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO1_Periph",
-                      "href": "docs/rp__device___spec.html#L33C4"
+                      "href": "docs/rp__device___spec.html#L34C4"
                     },
                     {
                       "kind": "span",
@@ -829,7 +919,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -860,7 +950,7 @@ GNATdoc.Documentation = {
         {
           "label": "PIO_0",
           "qualifier": "",
-          "line": 35,
+          "line": 36,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -871,7 +961,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -882,7 +972,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_0",
-                      "href": "docs/rp__device___spec.html#L35C4"
+                      "href": "docs/rp__device___spec.html#L36C4"
                     },
                     {
                       "kind": "span",
@@ -944,7 +1034,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO0_Periph",
-                      "href": "docs/rp__device___spec.html#L31C4"
+                      "href": "docs/rp__device___spec.html#L32C4"
                     },
                     {
                       "kind": "span",
@@ -975,7 +1065,7 @@ GNATdoc.Documentation = {
         {
           "label": "PIO_1",
           "qualifier": "",
-          "line": 36,
+          "line": 37,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -986,7 +1076,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -997,7 +1087,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_1",
-                      "href": "docs/rp__device___spec.html#L36C4"
+                      "href": "docs/rp__device___spec.html#L37C4"
                     },
                     {
                       "kind": "span",
@@ -1059,7 +1149,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO1_Periph",
-                      "href": "docs/rp__device___spec.html#L33C4"
+                      "href": "docs/rp__device___spec.html#L34C4"
                     },
                     {
                       "kind": "span",
@@ -1090,7 +1180,7 @@ GNATdoc.Documentation = {
         {
           "label": "RTC",
           "qualifier": "",
-          "line": 47,
+          "line": 48,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -1101,7 +1191,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -1112,7 +1202,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RTC",
-                      "href": "docs/rp__device___spec.html#L47C4"
+                      "href": "docs/rp__device___spec.html#L48C4"
                     },
                     {
                       "kind": "span",
@@ -1159,7 +1249,7 @@ GNATdoc.Documentation = {
         {
           "label": "SPI_0",
           "qualifier": "",
-          "line": 22,
+          "line": 23,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -1170,7 +1260,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 22,
+                  "number": 23,
                   "children": [
                     {
                       "kind": "span",
@@ -1201,7 +1291,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 23,
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -1212,7 +1302,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SPI_0",
-                      "href": "docs/rp__device___spec.html#L23C4"
+                      "href": "docs/rp__device___spec.html#L24C4"
                     },
                     {
                       "kind": "span",
@@ -1305,7 +1395,7 @@ GNATdoc.Documentation = {
         {
           "label": "SPI_1",
           "qualifier": "",
-          "line": 23,
+          "line": 24,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -1316,7 +1406,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 23,
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -1327,7 +1417,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SPI_1",
-                      "href": "docs/rp__device___spec.html#L23C4"
+                      "href": "docs/rp__device___spec.html#L24C4"
                     },
                     {
                       "kind": "span",
@@ -1420,7 +1510,7 @@ GNATdoc.Documentation = {
         {
           "label": "SysTick",
           "qualifier": "",
-          "line": 45,
+          "line": 46,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -1431,7 +1521,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -1442,7 +1532,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SysTick",
-                      "href": "docs/rp__device___spec.html#L45C4"
+                      "href": "docs/rp__device___spec.html#L46C4"
                     },
                     {
                       "kind": "span",
@@ -1489,7 +1579,7 @@ GNATdoc.Documentation = {
         {
           "label": "Timer",
           "qualifier": "",
-          "line": 46,
+          "line": 47,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -1500,7 +1590,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -1511,7 +1601,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Timer",
-                      "href": "docs/rp__device___spec.html#L46C4"
+                      "href": "docs/rp__device___spec.html#L47C4"
                     },
                     {
                       "kind": "span",
@@ -1558,7 +1648,7 @@ GNATdoc.Documentation = {
         {
           "label": "UART_0",
           "qualifier": "",
-          "line": 28,
+          "line": 29,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -1569,7 +1659,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 28,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -1580,7 +1670,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "UART_0",
-                      "href": "docs/rp__device___spec.html#L28C4"
+                      "href": "docs/rp__device___spec.html#L29C4"
                     },
                     {
                       "kind": "span",
@@ -1673,7 +1763,7 @@ GNATdoc.Documentation = {
         {
           "label": "UART_1",
           "qualifier": "",
-          "line": 29,
+          "line": 30,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -1684,7 +1774,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 29,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -1695,7 +1785,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "UART_1",
-                      "href": "docs/rp__device___spec.html#L29C4"
+                      "href": "docs/rp__device___spec.html#L30C4"
                     },
                     {
                       "kind": "span",
@@ -1788,7 +1878,7 @@ GNATdoc.Documentation = {
         {
           "label": "UDC",
           "qualifier": "",
-          "line": 48,
+          "line": 49,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -1799,7 +1889,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -1810,7 +1900,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "UDC",
-                      "href": "docs/rp__device___spec.html#L48C4"
+                      "href": "docs/rp__device___spec.html#L49C4"
                     },
                     {
                       "kind": "span",

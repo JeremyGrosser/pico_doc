@@ -470,6 +470,11 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/rp2040_svd__xosc___spec.html"
   },
   {
+    "label": "Runtime",
+    "qualifier": "",
+    "file": "docs/runtime___spec.html"
+  },
+  {
     "label": "Semihosting",
     "qualifier": "",
     "file": "docs/semihosting___spec.html"
