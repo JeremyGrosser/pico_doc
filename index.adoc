@@ -534,6 +534,13 @@ begin
 end I2C_Demo;
 ----
 
+=== USB device controller
+The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-usb_device.ads[RP.USB_Device] package implements the https://github.com/Fabien-Chouteau/usb_embedded/blob/main/src/usb-hal-device.ads[USB.HAL.Device.USB_Device_Controller] interface from the https://github.com/Fabien-Chouteau/usb_embedded[usb_embedded] crate.
+
+After initialization, all USB events are handled by the `Poll` procedure. Poll should be called regularly in a main loop, or in response to the `USBCTRL` interrupt.
+
+The https://github.com/JeremyGrosser/pico_examples/blob/master/usb_echo/src/main.adb[usb_echo] example configures the USB controller to implement the https://en.wikipedia.org/wiki/USB_communications_device_class[USB serial (CDC ACM)] protocol.
+
 === Pulse Width Modulation (PWM)
 image::pwm-pins.png[PWM pin mapping,title="PWM pin mapping",link="/img/pwm-pins.png"]
 The PWM is split into 8 slices, each slice has 2 channels, and each channel can be output to 2 pins simultaneously. The B channel of each slice can be configured as an input and used as a gate or trigger for channel A. Even numbered GPIO pins are associated with Channel A and odd numbered pins are Channel B.
