@@ -741,9 +741,60 @@ The focus of this project is to support the RP2040 on the Raspberry Pi Pico deve
 ==== Boot code
 As the RP2040 has no onboard flash, code is executed from an external flash chip. The `XIP_SSI` (Execute In Place Slave Serial Interface) peripheral needs to be configured for the flash chip in use. At power on, the RP2040's ROM uses a slow `0x03` SPI flash read command to load the first 256 bytes of flash into SRAM, verify a checksum at the end of that page, then jumps to it and begins executing. This section is known as `.boot2` in linker scripts. boot2 should disable the SSI, reconfigure it for the specific flash chip on the board, then re-enable it and jump to the beginning of user code, now executing from the memory mapped flash chip.
 
-Currently, pico_bsp contains .boot2 code copied from pico-sdk and pre-compiled. This is not ideal, both from a licensing and flexibility perspective. Signficant progress has been made in rewriting .boot2 in Ada and we hope to migrate to this in the near future. For up to date information on the progress of these efforts, xref:community_support[join us on Gitter.im].
+rp2040_hal includes a boot2 section written in Ada. As the compiled boot2 needs to be padded to 256 bytes with a checksum added, the rp2040_hal repository contains pre-compiled boot2 code that will be linked automatically.
 
-Until those changes are made, the https://github.com/JeremyGrosser/pico_examples/blob/master/feather_rp2040_bsp/alire.toml[feather_rp2040_bsp] example shows how a BSP project can select boot2 code for a different flash chip. This example uses the `generic_qspi` code, which should be compatible with most SPI flash chips but will not take advantage of performance enhancing features.
+Your BSP crate should set the `Flash_Chip` variable in `alire.toml` to select the correct boot2 for your board.
+
+[source,toml]
+----
+[configuration.values]
+rp2040_hal.Flash_Chip = "w25qxx"
+----
+
+The following boot2 variants are supported:
+
+===== generic_03
+The generic_03 boot2 is compatible with any flash chip that supports the
+03h read command (which is most serial NOR flash devices). The downside is
+that it operates in standard SPI mode so is about 3x slower than QSPI.
+
+===== generic_qspi
+The generic_qspi boot2 is compatible with most (but not all) QSPI NOR
+flash chips. It is compatible with at least the following flash chips:
+
+- AT25SF128A
+- GD25Q64C
+- IS25LP128F
+- W25Q16JV
+- W25Q32JV
+- W25Q64JV
+- W25Q128JV
+
+In general, it should be compatible with any devices that meet the
+following requirements:
+
+- The "Fast Read Quad I/O" (EBh) command is supported.
+- The "Fast Read Quad I/O" instruction has 4 dummy cycles between the mode bits (M7-M0) and the first output data from the flash.
+- "Continuous read" mode is supported with mode bits (M7-M0) = A0h
+- The "Read JEDEC ID" (9Fh) command is supported.
+- The "Write Enable" (06h) command is supported.
+- If the JEDEC manufacturer ID = 9Dh (ISSI devices), then the "Quad Enable" (QE) flag is in bit 2 of Status Register 1 and the "Write Status Register 1" (01h) command is supported.
+- If the JEDEC manufacturer ID /= 9Dh, then QE flag is in bit 6 of Status Register 2 and the "Write Status Register 2" (31h) instruction is supported.
+
+Note that this version is NOT compatible with older Winbond devices,
+such as the W2580DV. Those devices MUST use the w25qxx variant of boot2.
+
+===== w25qxx
+The w25qxx boot2 is compatible with Winbond devices that have the
+QE flag in bit 6 of Status Register 2, and support writing to it
+via a "continuous write" from Status Register 1. It is compatible
+with at least the following Winbond devices:
+
+- W2580DV
+- W25Q16JV
+- W25Q32JV
+- W25Q64JV
+- W25Q128JV
 
 ==== Linker script
 Some startup code and a linker script are needed to generate an executable binary for the RP2040. The Ravenscar runtimes include these and will compile them along with your code. If you are using a ZFP runtime, pico_bsp provides reasonable defaults in the https://github.com/JeremyGrosser/pico_bsp/blob/master/zfp_startup[zfp_startup] directory. If you wish to customize these, copy zfp_startup to your BSP crate and modify the linker options in your .gpr to point to the customized linker script and crt0.S.
