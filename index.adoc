@@ -1,6 +1,6 @@
 = Ada on the Raspberry Pi Pico
 
-image::pico.jpg[Raspberry Pi Pico,width=300,role="related right",title="Raspberry Pi Pico",caption="",link="/img/pico.jpg"]
+image::pico.jpg[Raspberry Pi Pico,width=400,role="related right",title="Raspberry Pi Pico",caption="",link="/img/pico.jpg"]
 
 This project provides libraries and examples for the https://en.wikipedia.org/wiki/Ada_(programming_language)[Ada programming language] on the https://www.raspberrypi.org/documentation/microcontrollers/rp2040.html[RP2040] microcontroller and the https://www.raspberrypi.org/products/raspberry-pi-pico/[Raspberry Pi Pico] development board.
 
@@ -119,6 +119,15 @@ The loop toggles the LED on and off every 250 milliseconds. Use `alr build` to r
 - https://github.com/JeremyGrosser/rp2040_hal[rp2040_hal] contains drivers and register definitions for the RP2040's onboard peripherals.
 - https://github.com/JeremyGrosser/pico_bsp[pico_bsp] provides pin definitions, boot code, and drivers for the Raspberry Pi Pico development board and compatible addons.
 - https://github.com/JeremyGrosser/pico_examples[pico_examples] demonstrates the functionality of rp2040_hal and pico_bsp and serves as a template for new projects.
+
+=== Versioning
+Releases are tagged and added to the Alire index regularly. The API provided by these drivers should not be considered stable until a 1.0.0 release is tagged. Until then, breaking changes are allowed. After 1.0.0, we plan to follow the https://devhints.io/semver[Semver] pattern for version numbers.
+
+This documentation relates to the `master` branch of the source repositories and may differ from what's available in Alire. If you need to use unreleased features or fixes, you can pin your project to the master branch. The master branch is unstable and may break your code, so this is not recommended unless you have a good reason.
+
+----
+alr pin --use=https://github.com/JeremyGrosser/rp2040_hal rp2040_hal
+----
 
 === Hardware overview
 The Raspberry Pi RP2040 is an https://en.wikipedia.org/wiki/ARM_Cortex-M#Cortex-M0+[ARM Cortex-M0+] microcontroller. Detailed specifications and low level documentation can be found in the https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf[RP2040 datasheet].
