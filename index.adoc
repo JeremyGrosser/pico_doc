@@ -117,7 +117,7 @@ The loop toggles the LED on and off every 250 milliseconds. Use `alr build` to r
 
 === Source repositories
 - https://github.com/JeremyGrosser/rp2040_hal[rp2040_hal] contains drivers and register definitions for the RP2040's onboard peripherals.
-- https://github.com/JeremyGrosser/pico_bsp[pico_bsp] provides pin definitions, boot code, and drivers for the Raspberry Pi Pico development board and compatible addons.
+- https://github.com/JeremyGrosser/pico_bsp[pico_bsp] provides pin definitions, drivers for the Raspberry Pi Pico development board and compatible addons.
 - https://github.com/JeremyGrosser/pico_examples[pico_examples] demonstrates the functionality of rp2040_hal and pico_bsp and serves as a template for new projects.
 
 === Versioning
@@ -770,13 +770,10 @@ rp2040_hal.Flash_Chip = "w25qxx"
 The following boot2 variants are supported:
 
 ===== generic_03
-The generic_03 boot2 is compatible with any flash chip that supports the
-03h read command (which is most serial NOR flash devices). The downside is
-that it operates in standard SPI mode so is about 3x slower than QSPI.
+The generic_03 boot2 is compatible with any flash chip that supports the 03h read command (which is most serial NOR flash devices). The downside is that it operates in standard SPI mode so is about 3x slower than QSPI.
 
 ===== generic_qspi
-The generic_qspi boot2 is compatible with most (but not all) QSPI NOR
-flash chips. It is compatible with at least the following flash chips:
+The generic_qspi boot2 is compatible with most (but not all) QSPI NOR flash chips. It is compatible with at least the following flash chips:
 
 - AT25SF128A
 - GD25Q64C
@@ -786,8 +783,7 @@ flash chips. It is compatible with at least the following flash chips:
 - W25Q64JV
 - W25Q128JV
 
-In general, it should be compatible with any devices that meet the
-following requirements:
+In general, it should be compatible with any devices that meet the following requirements:
 
 - The "Fast Read Quad I/O" (EBh) command is supported.
 - The "Fast Read Quad I/O" instruction has 4 dummy cycles between the mode bits (M7-M0) and the first output data from the flash.
@@ -797,8 +793,7 @@ following requirements:
 - If the JEDEC manufacturer ID = 9Dh (ISSI devices), then the "Quad Enable" (QE) flag is in bit 2 of Status Register 1 and the "Write Status Register 1" (01h) command is supported.
 - If the JEDEC manufacturer ID /= 9Dh, then QE flag is in bit 6 of Status Register 2 and the "Write Status Register 2" (31h) instruction is supported.
 
-Note that this version is NOT compatible with older Winbond devices,
-such as the W2580DV. Those devices MUST use the w25qxx variant of boot2.
+Note that this version is NOT compatible with older Winbond devices, such as the W2580DV. Those devices MUST use the w25qxx variant of boot2.
 
 ===== w25qxx
 The w25qxx boot2 is compatible with Winbond devices that have the
@@ -813,7 +808,13 @@ with at least the following Winbond devices:
 - W25Q128JV
 
 ==== Linker script
-Some startup code and a linker script are needed to generate an executable binary for the RP2040. The Ravenscar runtimes include these and will compile them along with your code. If you are using a ZFP runtime, pico_bsp provides reasonable defaults in the https://github.com/JeremyGrosser/pico_bsp/blob/master/zfp_startup[zfp_startup] directory. If you wish to customize these, copy zfp_startup to your BSP crate and modify the linker options in your .gpr to point to the customized linker script and crt0.S.
+Some startup code and a linker script are needed to generate an executable binary for the RP2040. If you are using a ZFP runtime, rp2040_hal provides reasonable defaults in the https://github.com/JeremyGrosser/rp2040_hal/tree/master/ld[ld] and https://github.com/JeremyGrosser/rp2040_hal/tree/master/src/startup[startup] directories. If you wish to customize these, copy both directories to your BSP crate and add the following to your alire.toml.
+
+[source,toml]
+----
+[configuration.values]
+rp2040_hal.Use_Startup = false
+----
 
 ==== Pin definitions
 It is unlikely that your custom board has the same pinout as the Pico. Most BSP crates will include a package that defines symbolic names for GPIO pins that match a schematic net name or silkscreen that a user of your board would recognize.
