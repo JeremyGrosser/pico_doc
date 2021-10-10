@@ -874,3 +874,6 @@ Bugs and usability issues may be reported by opening a https://github.com/Jeremy
 
 == License
 include::LICENSE.adoc[]
+
+== Change log
+include::CHANGELOG.adoc[]
