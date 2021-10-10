@@ -117,7 +117,7 @@ The loop toggles the LED on and off every 250 milliseconds. Use `alr build` to r
 
 === Source repositories
 - https://github.com/JeremyGrosser/rp2040_hal[rp2040_hal] contains drivers and register definitions for the RP2040's onboard peripherals.
-- https://github.com/JeremyGrosser/pico_bsp[pico_bsp] provides pin definitions, drivers for the Raspberry Pi Pico development board and compatible addons.
+- https://github.com/JeremyGrosser/pico_bsp[pico_bsp] provides pin definitions and drivers for the Raspberry Pi Pico development board and compatible addons.
 - https://github.com/JeremyGrosser/pico_examples[pico_examples] demonstrates the functionality of rp2040_hal and pico_bsp and serves as a template for new projects.
 
 === Versioning
