@@ -741,7 +741,7 @@ The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-inter
 The RP2040's ROM contains a library of useful functions that can be accessed via a symbol lookup table. The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-rom.ads[RP.ROM] package provides an Ada binding to this library.
 
 ==== Floating point library
-The RP2040's ROM includes a set of floating point functions using the https://en.wikipedia.org/wiki/CORDIC[CORDIC algorithm], implemented in assembly. The Cortex-M0+ has no hardware floating point unit, so if you need to do floating point math, this is as fast as it's gonna get. GCC will use it's own math library by default, which will generally be slower as fetching code from flash is slower than ROM access.
+The RP2040's ROM includes a set of floating point functions using the https://en.wikipedia.org/wiki/CORDIC[CORDIC algorithm], implemented in assembly. The Cortex-M0+ has no hardware floating point unit, so if you need to do floating point math, this is as fast as it's gonna get. The `RP.ROM.AEABI` package exports symbols for GCC so that it uses the ROM floating point library instead of it's own soft float implementations.
 
 https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-rom-floating_point.ads[RP.ROM.Floating_Point]
 [source,ada]
