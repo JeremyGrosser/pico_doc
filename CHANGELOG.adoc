@@ -16,6 +16,9 @@ xref:round_robin[RP.ADC.Set_Round_Robin] can be used to select multiple ADC chan
 ===== Ada boot2 code
 Thanks to https://github.com/damaki[Daniel King], we now have a working implementation of xref:boot_code[boot2 in Ada]. boot2 has been moved from pico_bsp to rp2040_hal and the flash chip may be selected with the `Flash_Chip` Alire configuration variable.
 
+===== ROM AEABI functions
+The `RP.ROM.AEABI` package now connects the ROM floating point library to GCC's `__aeabi_*` symbols. This means smaller binaries and faster execution for many floating point operations. This does not include support for the hardware integer divider, yet.
+
 ==== Breaking changes
 
 ===== Toolchain dependency
