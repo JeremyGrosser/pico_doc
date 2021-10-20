@@ -210,39 +210,12 @@ GNATdoc.SourceFile = {
           "cssClass": "identifier",
           "text": "RP.SPI",
           "href": "docs/rp__spi___spec.html#L11C12"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 12,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
         },
         {
           "kind": "span",
           "cssClass": "text",
           "text": " "
         },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Elaborate_Body"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 13,
-      "children": [
         {
           "kind": "span",
           "cssClass": "keyword",
@@ -252,7 +225,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 14,
+      "number": 12,
       "children": [
         {
           "kind": "span",
@@ -273,7 +246,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPI_Number",
-          "href": "docs/rp__spi___spec.html#L14C12"
+          "href": "docs/rp__spi___spec.html#L12C12"
         },
         {
           "kind": "span",
@@ -344,7 +317,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 15,
+      "number": 13,
       "children": [
         {
           "kind": "span",
@@ -365,13 +338,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPI_Port",
-          "href": "docs/rp__spi___spec.html#L15C9"
+          "href": "docs/rp__spi___spec.html#L13C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 16,
+      "number": 14,
       "children": [
         {
           "kind": "span",
@@ -387,7 +360,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Num",
-          "href": "docs/rp__spi___spec.html#L16C8"
+          "href": "docs/rp__spi___spec.html#L14C8"
         },
         {
           "kind": "span",
@@ -408,7 +381,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPI_Number",
-          "href": "docs/rp__spi___spec.html#L14C12"
+          "href": "docs/rp__spi___spec.html#L12C12"
         },
         {
           "kind": "span",
@@ -419,7 +392,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 17,
+      "number": 15,
       "children": [
         {
           "kind": "span",
@@ -501,7 +474,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 18,
+      "number": 16,
       "children": [
         {
           "kind": "span",
@@ -553,13 +526,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 19,
+      "number": 17,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 20,
+      "number": 18,
       "children": [
         {
           "kind": "span",
@@ -580,7 +553,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPI_Role",
-          "href": "docs/rp__spi___spec.html#L20C9"
+          "href": "docs/rp__spi___spec.html#L18C9"
         },
         {
           "kind": "span",
@@ -606,7 +579,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Master",
-          "href": "docs/rp__spi___spec.html#L20C22"
+          "href": "docs/rp__spi___spec.html#L18C22"
         },
         {
           "kind": "span",
@@ -622,7 +595,167 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Slave",
-          "href": "docs/rp__spi___spec.html#L20C30"
+          "href": "docs/rp__spi___spec.html#L18C30"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";",
+          "href": "docs/rp__spi___spec.html#L18C9"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 19,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "SPI_Polarity",
+          "href": "docs/rp__spi___spec.html#L19C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Active_Low",
+          "href": "docs/rp__spi___spec.html#L19C26"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Active_High",
+          "href": "docs/rp__spi___spec.html#L19C38"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";",
+          "href": "docs/rp__spi___spec.html#L19C9"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 20,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "SPI_Phase",
+          "href": "docs/rp__spi___spec.html#L20C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Rising_Edge",
+          "href": "docs/rp__spi___spec.html#L20C23"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Falling_Edge",
+          "href": "docs/rp__spi___spec.html#L20C36"
         },
         {
           "kind": "span",
@@ -659,168 +792,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "SPI_Polarity",
-          "href": "docs/rp__spi___spec.html#L21C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Active_Low",
-          "href": "docs/rp__spi___spec.html#L21C26"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Active_High",
-          "href": "docs/rp__spi___spec.html#L21C38"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";",
-          "href": "docs/rp__spi___spec.html#L21C9"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 22,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "type"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "SPI_Phase",
-          "href": "docs/rp__spi___spec.html#L22C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Rising_Edge",
-          "href": "docs/rp__spi___spec.html#L22C23"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Falling_Edge",
-          "href": "docs/rp__spi___spec.html#L22C36"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";",
-          "href": "docs/rp__spi___spec.html#L22C9"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 23,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "type"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
           "text": "SPI_FIFO_Status",
-          "href": "docs/rp__spi___spec.html#L23C9"
+          "href": "docs/rp__spi___spec.html#L21C9"
         },
         {
           "kind": "span",
@@ -846,7 +819,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Empty",
-          "href": "docs/rp__spi___spec.html#L23C29"
+          "href": "docs/rp__spi___spec.html#L21C29"
         },
         {
           "kind": "span",
@@ -862,7 +835,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Not_Full",
-          "href": "docs/rp__spi___spec.html#L23C36"
+          "href": "docs/rp__spi___spec.html#L21C36"
         },
         {
           "kind": "span",
@@ -878,7 +851,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Full",
-          "href": "docs/rp__spi___spec.html#L23C46"
+          "href": "docs/rp__spi___spec.html#L21C46"
         },
         {
           "kind": "span",
@@ -894,7 +867,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Invalid",
-          "href": "docs/rp__spi___spec.html#L23C52"
+          "href": "docs/rp__spi___spec.html#L21C52"
         },
         {
           "kind": "span",
@@ -905,19 +878,19 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/rp__spi___spec.html#L23C9"
+          "href": "docs/rp__spi___spec.html#L21C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 24,
+      "number": 22,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 25,
+      "number": 23,
       "children": [
         {
           "kind": "span",
@@ -938,7 +911,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPI_Configuration",
-          "href": "docs/rp__spi___spec.html#L25C9"
+          "href": "docs/rp__spi___spec.html#L23C9"
         },
         {
           "kind": "span",
@@ -964,7 +937,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 26,
+      "number": 24,
       "children": [
         {
           "kind": "span",
@@ -975,7 +948,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Role",
-          "href": "docs/rp__spi___spec.html#L26C7"
+          "href": "docs/rp__spi___spec.html#L24C7"
         },
         {
           "kind": "span",
@@ -996,7 +969,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPI_Role",
-          "href": "docs/rp__spi___spec.html#L20C9"
+          "href": "docs/rp__spi___spec.html#L18C9"
         },
         {
           "kind": "span",
@@ -1027,7 +1000,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 27,
+      "number": 25,
       "children": [
         {
           "kind": "span",
@@ -1038,7 +1011,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Baud",
-          "href": "docs/rp__spi___spec.html#L27C7"
+          "href": "docs/rp__spi___spec.html#L25C7"
         },
         {
           "kind": "span",
@@ -1090,7 +1063,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 28,
+      "number": 26,
       "children": [
         {
           "kind": "span",
@@ -1101,7 +1074,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Data_Size",
-          "href": "docs/rp__spi___spec.html#L28C7"
+          "href": "docs/rp__spi___spec.html#L26C7"
         },
         {
           "kind": "span",
@@ -1153,7 +1126,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 29,
+      "number": 27,
       "children": [
         {
           "kind": "span",
@@ -1164,7 +1137,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Polarity",
-          "href": "docs/rp__spi___spec.html#L29C7"
+          "href": "docs/rp__spi___spec.html#L27C7"
         },
         {
           "kind": "span",
@@ -1185,7 +1158,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPI_Polarity",
-          "href": "docs/rp__spi___spec.html#L21C9"
+          "href": "docs/rp__spi___spec.html#L19C9"
         },
         {
           "kind": "span",
@@ -1216,7 +1189,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 30,
+      "number": 28,
       "children": [
         {
           "kind": "span",
@@ -1227,7 +1200,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Phase",
-          "href": "docs/rp__spi___spec.html#L30C7"
+          "href": "docs/rp__spi___spec.html#L28C7"
         },
         {
           "kind": "span",
@@ -1248,7 +1221,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPI_Phase",
-          "href": "docs/rp__spi___spec.html#L22C9"
+          "href": "docs/rp__spi___spec.html#L20C9"
         },
         {
           "kind": "span",
@@ -1279,7 +1252,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 31,
+      "number": 29,
       "children": [
         {
           "kind": "span",
@@ -1290,7 +1263,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Blocking",
-          "href": "docs/rp__spi___spec.html#L31C7"
+          "href": "docs/rp__spi___spec.html#L29C7"
         },
         {
           "kind": "span",
@@ -1351,7 +1324,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 32,
+      "number": 30,
       "children": [
         {
           "kind": "span",
@@ -1377,7 +1350,116 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/rp__spi___spec.html#L25C9"
+          "href": "docs/rp__spi___spec.html#L23C9"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 31,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 32,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Default_SPI_Configuration",
+          "href": "docs/rp__spi___spec.html#L32C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "SPI_Configuration",
+          "href": "docs/rp__spi___spec.html#L23C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "others"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "<>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -1516,7 +1598,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPI_Configuration",
-          "href": "docs/rp__spi___spec.html#L25C9"
+          "href": "docs/rp__spi___spec.html#L23C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Default_SPI_Configuration",
+          "href": "docs/rp__spi___spec.html#L32C4"
         },
         {
           "kind": "span",
@@ -1975,7 +2078,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPI_FIFO_Status",
-          "href": "docs/rp__spi___spec.html#L23C9"
+          "href": "docs/rp__spi___spec.html#L21C9"
         },
         {
           "kind": "span",
@@ -2088,7 +2191,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPI_FIFO_Status",
-          "href": "docs/rp__spi___spec.html#L23C9"
+          "href": "docs/rp__spi___spec.html#L21C9"
         },
         {
           "kind": "span",

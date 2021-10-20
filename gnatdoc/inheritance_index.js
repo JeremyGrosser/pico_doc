@@ -17,11 +17,11 @@ GNATdoc.InheritanceIndex = [
     "inherited": [
       {
         "label": "Delays",
-        "docHref": "docs/rp__systick___spec.html#L12C9"
+        "docHref": "docs/rp__systick___spec.html#L10C9"
       },
       {
         "label": "Delays",
-        "docHref": "docs/rp__timer___spec.html#L19C9"
+        "docHref": "docs/rp__timer___spec.html#L17C9"
       }
     ]
   },
@@ -63,7 +63,7 @@ GNATdoc.InheritanceIndex = [
     "inherited": [
       {
         "label": "GPIO_Point",
-        "docHref": "docs/rp__gpio___spec.html#L20C9"
+        "docHref": "docs/rp__gpio___spec.html#L18C9"
       }
     ]
   },
@@ -105,7 +105,7 @@ GNATdoc.InheritanceIndex = [
     "inherited": [
       {
         "label": "SPI_Port",
-        "docHref": "docs/rp__spi___spec.html#L15C9"
+        "docHref": "docs/rp__spi___spec.html#L13C9"
       }
     ]
   },
@@ -119,7 +119,7 @@ GNATdoc.InheritanceIndex = [
     "inherited": [
       {
         "label": "UART_Port",
-        "docHref": "docs/rp__uart___spec.html#L17C9"
+        "docHref": "docs/rp__uart___spec.html#L15C9"
       }
     ]
   },

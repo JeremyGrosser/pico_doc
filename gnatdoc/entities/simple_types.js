@@ -52,10 +52,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "ADC_Pin",
-      "docHref": "docs/rp__gpio___spec.html#L18C12",
+      "docHref": "docs/rp__gpio___spec.html#L16C12",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L18"
+      "srcHref": "srcs/rp-gpio.ads.html#L16"
     },
     {
       "label": "ADC_Sample_Bits",
@@ -4371,17 +4371,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "GPIO_Config_Mode",
+      "docHref": "docs/rp__gpio___spec.html#L23C9",
+      "declared": "RP.GPIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-gpio.ads.html#L23"
+    },
+    {
+      "label": "GPIO_Function",
       "docHref": "docs/rp__gpio___spec.html#L25C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-gpio.ads.html#L25"
-    },
-    {
-      "label": "GPIO_Function",
-      "docHref": "docs/rp__gpio___spec.html#L27C9",
-      "declared": "RP.GPIO",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L27"
     },
     {
       "label": "GPIO_HI_IN_GPIO_HI_IN_Field",
@@ -4518,17 +4518,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "GPIO_Pin",
-      "docHref": "docs/rp__gpio___spec.html#L17C9",
+      "docHref": "docs/rp__gpio___spec.html#L15C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L17"
+      "srcHref": "srcs/rp-gpio.ads.html#L15"
     },
     {
       "label": "GPIO_Pull_Mode",
-      "docHref": "docs/rp__gpio___spec.html#L30C9",
+      "docHref": "docs/rp__gpio___spec.html#L28C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L30"
+      "srcHref": "srcs/rp-gpio.ads.html#L28"
     },
     {
       "label": "GPIO_Pull_Resistor",
@@ -6065,10 +6065,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Interrupt_Triggers",
-      "docHref": "docs/rp__gpio___spec.html#L44C9",
+      "docHref": "docs/rp__gpio___spec.html#L42C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L44"
+      "srcHref": "srcs/rp-gpio.ads.html#L42"
     },
     {
       "label": "INTF0_INTF0_Field",
@@ -7927,38 +7927,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "SPI_FIFO_Status",
-      "docHref": "docs/rp__spi___spec.html#L23C9",
-      "declared": "RP.SPI",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L23"
-    },
-    {
-      "label": "SPI_Number",
-      "docHref": "docs/rp__spi___spec.html#L14C12",
-      "declared": "RP.SPI",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L14"
-    },
-    {
-      "label": "SPI_Phase",
-      "docHref": "docs/rp__spi___spec.html#L22C9",
-      "declared": "RP.SPI",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L22"
-    },
-    {
-      "label": "SPI_Polarity",
       "docHref": "docs/rp__spi___spec.html#L21C9",
       "declared": "RP.SPI",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-spi.ads.html#L21"
     },
     {
-      "label": "SPI_Role",
+      "label": "SPI_Number",
+      "docHref": "docs/rp__spi___spec.html#L12C12",
+      "declared": "RP.SPI",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-spi.ads.html#L12"
+    },
+    {
+      "label": "SPI_Phase",
       "docHref": "docs/rp__spi___spec.html#L20C9",
       "declared": "RP.SPI",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-spi.ads.html#L20"
+    },
+    {
+      "label": "SPI_Polarity",
+      "docHref": "docs/rp__spi___spec.html#L19C9",
+      "declared": "RP.SPI",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-spi.ads.html#L19"
+    },
+    {
+      "label": "SPI_Role",
+      "docHref": "docs/rp__spi___spec.html#L18C9",
+      "declared": "RP.SPI",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-spi.ads.html#L18"
     },
     {
       "label": "SPI_Status",
@@ -8214,10 +8214,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Time",
-      "docHref": "docs/rp__timer___spec.html#L12C9",
+      "docHref": "docs/rp__timer___spec.html#L10C9",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L12"
+      "srcHref": "srcs/rp-timer.ads.html#L10"
     },
     {
       "label": "TIMER_X_Field",
@@ -8305,17 +8305,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "UART_Number",
-      "docHref": "docs/rp__uart___spec.html#L15C12",
+      "docHref": "docs/rp__uart___spec.html#L13C12",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L15"
+      "srcHref": "srcs/rp-uart.ads.html#L13"
     },
     {
       "label": "UART_Parity_Type",
-      "docHref": "docs/rp__uart___spec.html#L24C9",
+      "docHref": "docs/rp__uart___spec.html#L22C9",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L24"
+      "srcHref": "srcs/rp-uart.ads.html#L22"
     },
     {
       "label": "UART_Status",
@@ -8326,17 +8326,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "UART_Stop_Bits",
-      "docHref": "docs/rp__uart___spec.html#L23C12",
+      "docHref": "docs/rp__uart___spec.html#L21C12",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L23"
+      "srcHref": "srcs/rp-uart.ads.html#L21"
     },
     {
       "label": "UART_Word_Size",
-      "docHref": "docs/rp__uart___spec.html#L22C12",
+      "docHref": "docs/rp__uart___spec.html#L20C12",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L22"
+      "srcHref": "srcs/rp-uart.ads.html#L20"
     },
     {
       "label": "UARTCR_OUT_Field_Array",

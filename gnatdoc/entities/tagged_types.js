@@ -24,24 +24,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Delays",
-      "docHref": "docs/rp__systick___spec.html#L12C9",
+      "docHref": "docs/rp__systick___spec.html#L10C9",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L12"
+      "srcHref": "srcs/rp-systick.ads.html#L10"
     },
     {
       "label": "Delays",
-      "docHref": "docs/rp__timer___spec.html#L19C9",
+      "docHref": "docs/rp__timer___spec.html#L17C9",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L19"
+      "srcHref": "srcs/rp-timer.ads.html#L17"
     },
     {
       "label": "GPIO_Point",
-      "docHref": "docs/rp__gpio___spec.html#L20C9",
+      "docHref": "docs/rp__gpio___spec.html#L18C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L20"
+      "srcHref": "srcs/rp-gpio.ads.html#L18"
     },
     {
       "label": "I2C_Master_Port",
@@ -73,17 +73,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "SPI_Port",
-      "docHref": "docs/rp__spi___spec.html#L15C9",
+      "docHref": "docs/rp__spi___spec.html#L13C9",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L15"
+      "srcHref": "srcs/rp-spi.ads.html#L13"
     },
     {
       "label": "UART_Port",
-      "docHref": "docs/rp__uart___spec.html#L17C9",
+      "docHref": "docs/rp__uart___spec.html#L15C9",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L17"
+      "srcHref": "srcs/rp-uart.ads.html#L15"
     },
     {
       "label": "USB_Device_Controller",

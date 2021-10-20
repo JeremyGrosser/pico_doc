@@ -143,10 +143,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Clock",
-      "docHref": "docs/rp__timer___spec.html#L16C13",
+      "docHref": "docs/rp__timer___spec.html#L14C13",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L16"
+      "srcHref": "srcs/rp-timer.ads.html#L14"
     },
     {
       "label": "Close",
@@ -521,10 +521,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__gpio___spec.html#L56C14",
+      "docHref": "docs/rp__gpio___spec.html#L54C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L56"
+      "srcHref": "srcs/rp-gpio.ads.html#L54"
     },
     {
       "label": "Enable",
@@ -605,10 +605,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enabled",
-      "docHref": "docs/rp__gpio___spec.html#L58C13",
+      "docHref": "docs/rp__gpio___spec.html#L56C13",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L58"
+      "srcHref": "srcs/rp-gpio.ads.html#L56"
     },
     {
       "label": "Enabled",
@@ -1270,10 +1270,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Milliseconds",
-      "docHref": "docs/rp__timer___spec.html#L32C13",
+      "docHref": "docs/rp__timer___spec.html#L30C13",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L32"
+      "srcHref": "srcs/rp-timer.ads.html#L30"
     },
     {
       "label": "NAND",

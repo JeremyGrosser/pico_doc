@@ -158,39 +158,12 @@ GNATdoc.SourceFile = {
           "cssClass": "identifier",
           "text": "RP.SysTick",
           "href": "docs/rp__systick___spec.html#L9C12"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 10,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
         },
         {
           "kind": "span",
           "cssClass": "text",
           "text": " "
         },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Elaborate_Body"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 11,
-      "children": [
         {
           "kind": "span",
           "cssClass": "keyword",
@@ -200,7 +173,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 12,
+      "number": 10,
       "children": [
         {
           "kind": "span",
@@ -221,7 +194,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L12C9"
+          "href": "docs/rp__systick___spec.html#L10C9"
         },
         {
           "kind": "span",
@@ -288,19 +261,19 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/rp__systick___spec.html#L12C9"
+          "href": "docs/rp__systick___spec.html#L10C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 13,
+      "number": 11,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 14,
+      "number": 12,
       "children": [
         {
           "kind": "span",
@@ -321,13 +294,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Enable",
-          "href": "docs/rp__systick___spec.html#L14C14"
+          "href": "docs/rp__systick___spec.html#L12C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 15,
+      "number": 13,
       "children": [
         {
           "kind": "span",
@@ -343,7 +316,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__systick___spec.html#L15C8"
+          "href": "docs/rp__systick___spec.html#L13C8"
         },
         {
           "kind": "span",
@@ -384,7 +357,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L12C9"
+          "href": "docs/rp__systick___spec.html#L10C9"
         },
         {
           "kind": "span",
@@ -400,13 +373,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 16,
+      "number": 14,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 17,
+      "number": 15,
       "children": [
         {
           "kind": "span",
@@ -427,13 +400,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Disable",
-          "href": "docs/rp__systick___spec.html#L17C14"
+          "href": "docs/rp__systick___spec.html#L15C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 18,
+      "number": 16,
       "children": [
         {
           "kind": "span",
@@ -449,7 +422,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__systick___spec.html#L18C8"
+          "href": "docs/rp__systick___spec.html#L16C8"
         },
         {
           "kind": "span",
@@ -490,7 +463,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L12C9"
+          "href": "docs/rp__systick___spec.html#L10C9"
         },
         {
           "kind": "span",
@@ -506,13 +479,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 19,
+      "number": 17,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 20,
+      "number": 18,
       "children": [
         {
           "kind": "span",
@@ -533,13 +506,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Enabled",
-          "href": "docs/rp__systick___spec.html#L20C13"
+          "href": "docs/rp__systick___spec.html#L18C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 21,
+      "number": 19,
       "children": [
         {
           "kind": "span",
@@ -555,7 +528,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__systick___spec.html#L21C8"
+          "href": "docs/rp__systick___spec.html#L19C8"
         },
         {
           "kind": "span",
@@ -596,7 +569,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L12C9"
+          "href": "docs/rp__systick___spec.html#L10C9"
         },
         {
           "kind": "span",
@@ -607,7 +580,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 22,
+      "number": 20,
       "children": [
         {
           "kind": "span",
@@ -638,13 +611,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 23,
+      "number": 21,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 24,
+      "number": 22,
       "children": [
         {
           "kind": "span",
@@ -660,7 +633,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 25,
+      "number": 23,
       "children": [
         {
           "kind": "span",
@@ -681,13 +654,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delay_Microseconds",
-          "href": "docs/rp__systick___spec.html#L25C14"
+          "href": "docs/rp__systick___spec.html#L23C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 26,
+      "number": 24,
       "children": [
         {
           "kind": "span",
@@ -703,7 +676,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__systick___spec.html#L26C8"
+          "href": "docs/rp__systick___spec.html#L24C8"
         },
         {
           "kind": "span",
@@ -744,7 +717,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L12C9"
+          "href": "docs/rp__systick___spec.html#L10C9"
         },
         {
           "kind": "span",
@@ -755,7 +728,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 27,
+      "number": 25,
       "children": [
         {
           "kind": "span",
@@ -766,7 +739,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Us",
-          "href": "docs/rp__systick___spec.html#L27C8"
+          "href": "docs/rp__systick___spec.html#L25C8"
         },
         {
           "kind": "span",
@@ -797,7 +770,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 28,
+      "number": 26,
       "children": [
         {
           "kind": "span",
@@ -823,13 +796,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 29,
+      "number": 27,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 30,
+      "number": 28,
       "children": [
         {
           "kind": "span",
@@ -845,7 +818,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 31,
+      "number": 29,
       "children": [
         {
           "kind": "span",
@@ -866,13 +839,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delay_Milliseconds",
-          "href": "docs/rp__systick___spec.html#L31C14"
+          "href": "docs/rp__systick___spec.html#L29C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 32,
+      "number": 30,
       "children": [
         {
           "kind": "span",
@@ -888,7 +861,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__systick___spec.html#L32C8"
+          "href": "docs/rp__systick___spec.html#L30C8"
         },
         {
           "kind": "span",
@@ -929,7 +902,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L12C9"
+          "href": "docs/rp__systick___spec.html#L10C9"
         },
         {
           "kind": "span",
@@ -940,7 +913,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 33,
+      "number": 31,
       "children": [
         {
           "kind": "span",
@@ -951,7 +924,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Ms",
-          "href": "docs/rp__systick___spec.html#L33C8"
+          "href": "docs/rp__systick___spec.html#L31C8"
         },
         {
           "kind": "span",
@@ -982,7 +955,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 34,
+      "number": 32,
       "children": [
         {
           "kind": "span",
@@ -1008,13 +981,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 35,
+      "number": 33,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 36,
+      "number": 34,
       "children": [
         {
           "kind": "span",
@@ -1030,7 +1003,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 35,
       "children": [
         {
           "kind": "span",
@@ -1051,13 +1024,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delay_Seconds",
-          "href": "docs/rp__systick___spec.html#L37C14"
+          "href": "docs/rp__systick___spec.html#L35C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 36,
       "children": [
         {
           "kind": "span",
@@ -1073,7 +1046,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__systick___spec.html#L38C8"
+          "href": "docs/rp__systick___spec.html#L36C8"
         },
         {
           "kind": "span",
@@ -1114,7 +1087,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L12C9"
+          "href": "docs/rp__systick___spec.html#L10C9"
         },
         {
           "kind": "span",
@@ -1125,7 +1098,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -1136,7 +1109,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "S",
-          "href": "docs/rp__systick___spec.html#L39C8"
+          "href": "docs/rp__systick___spec.html#L37C8"
         },
         {
           "kind": "span",
@@ -1167,7 +1140,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 38,
       "children": [
         {
           "kind": "span",
@@ -1193,13 +1166,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 39,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 40,
       "children": [
         {
           "kind": "span",
@@ -1210,13 +1183,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 41,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 54,
+      "number": 52,
       "children": [
         {
           "kind": "span",

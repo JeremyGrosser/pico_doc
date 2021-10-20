@@ -761,7 +761,7 @@ GNATdoc.Documentation = {
           "inherited": [
             {
               "label": "SPI_Port",
-              "docHref": "docs/rp__spi___spec.html#L15C9"
+              "docHref": "docs/rp__spi___spec.html#L13C9"
             }
           ]
         }

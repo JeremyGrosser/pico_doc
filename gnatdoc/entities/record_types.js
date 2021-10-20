@@ -1276,6 +1276,20 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/hal-bitmap.ads.html#L351"
     },
     {
+      "label": "Default_SPI_Configuration",
+      "docHref": "docs/rp__spi___spec.html#L32C4",
+      "declared": "RP.SPI",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-spi.ads.html#L32"
+    },
+    {
+      "label": "Default_UART_Configuration",
+      "docHref": "docs/rp__uart___spec.html#L35C4",
+      "declared": "RP.UART",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-uart.ads.html#L35"
+    },
+    {
       "label": "DEMCR_Register",
       "docHref": "docs/cortex_m_svd__debug___spec.html#L241C9",
       "declared": "Cortex_M_SVD.Debug",
@@ -5974,10 +5988,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "SPI_Configuration",
-      "docHref": "docs/rp__spi___spec.html#L25C9",
+      "docHref": "docs/rp__spi___spec.html#L23C9",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L25"
+      "srcHref": "srcs/rp-spi.ads.html#L23"
     },
     {
       "label": "SPI_CTRLR0_Register",
@@ -6478,10 +6492,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "UART_Configuration",
-      "docHref": "docs/rp__uart___spec.html#L28C9",
+      "docHref": "docs/rp__uart___spec.html#L26C9",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L28"
+      "srcHref": "srcs/rp-uart.ads.html#L26"
     },
     {
       "label": "UART_Peripheral",

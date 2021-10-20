@@ -261,39 +261,12 @@ GNATdoc.SourceFile = {
           "cssClass": "identifier",
           "text": "RP.UART",
           "href": "docs/rp__uart___spec.html#L12C12"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 13,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
         },
         {
           "kind": "span",
           "cssClass": "text",
           "text": " "
         },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Elaborate_Body"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 14,
-      "children": [
         {
           "kind": "span",
           "cssClass": "keyword",
@@ -303,7 +276,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 15,
+      "number": 13,
       "children": [
         {
           "kind": "span",
@@ -324,7 +297,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "UART_Number",
-          "href": "docs/rp__uart___spec.html#L15C12"
+          "href": "docs/rp__uart___spec.html#L13C12"
         },
         {
           "kind": "span",
@@ -395,13 +368,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 16,
+      "number": 14,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 17,
+      "number": 15,
       "children": [
         {
           "kind": "span",
@@ -422,13 +395,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "UART_Port",
-          "href": "docs/rp__uart___spec.html#L17C9"
+          "href": "docs/rp__uart___spec.html#L15C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 18,
+      "number": 16,
       "children": [
         {
           "kind": "span",
@@ -444,7 +417,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Num",
-          "href": "docs/rp__uart___spec.html#L18C8"
+          "href": "docs/rp__uart___spec.html#L16C8"
         },
         {
           "kind": "span",
@@ -465,7 +438,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "UART_Number",
-          "href": "docs/rp__uart___spec.html#L15C12"
+          "href": "docs/rp__uart___spec.html#L13C12"
         },
         {
           "kind": "span",
@@ -476,7 +449,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 19,
+      "number": 17,
       "children": [
         {
           "kind": "span",
@@ -548,7 +521,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 20,
+      "number": 18,
       "children": [
         {
           "kind": "span",
@@ -610,13 +583,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 21,
+      "number": 19,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 22,
+      "number": 20,
       "children": [
         {
           "kind": "span",
@@ -637,7 +610,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "UART_Word_Size",
-          "href": "docs/rp__uart___spec.html#L22C12"
+          "href": "docs/rp__uart___spec.html#L20C12"
         },
         {
           "kind": "span",
@@ -708,7 +681,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 23,
+      "number": 21,
       "children": [
         {
           "kind": "span",
@@ -729,7 +702,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "UART_Stop_Bits",
-          "href": "docs/rp__uart___spec.html#L23C12"
+          "href": "docs/rp__uart___spec.html#L21C12"
         },
         {
           "kind": "span",
@@ -800,7 +773,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 24,
+      "number": 22,
       "children": [
         {
           "kind": "span",
@@ -821,7 +794,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "UART_Parity_Type",
-          "href": "docs/rp__uart___spec.html#L24C9"
+          "href": "docs/rp__uart___spec.html#L22C9"
         },
         {
           "kind": "span",
@@ -847,7 +820,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Even",
-          "href": "docs/rp__uart___spec.html#L24C30"
+          "href": "docs/rp__uart___spec.html#L22C30"
         },
         {
           "kind": "span",
@@ -863,7 +836,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Odd",
-          "href": "docs/rp__uart___spec.html#L24C36"
+          "href": "docs/rp__uart___spec.html#L22C36"
         },
         {
           "kind": "span",
@@ -874,19 +847,19 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/rp__uart___spec.html#L24C9"
+          "href": "docs/rp__uart___spec.html#L22C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 25,
+      "number": 23,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 26,
+      "number": 24,
       "children": [
         {
           "kind": "span",
@@ -902,7 +875,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 27,
+      "number": 25,
       "children": [
         {
           "kind": "span",
@@ -918,7 +891,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 28,
+      "number": 26,
       "children": [
         {
           "kind": "span",
@@ -939,7 +912,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "UART_Configuration",
-          "href": "docs/rp__uart___spec.html#L28C9"
+          "href": "docs/rp__uart___spec.html#L26C9"
         },
         {
           "kind": "span",
@@ -965,7 +938,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 29,
+      "number": 27,
       "children": [
         {
           "kind": "span",
@@ -976,7 +949,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Baud",
-          "href": "docs/rp__uart___spec.html#L29C7"
+          "href": "docs/rp__uart___spec.html#L27C7"
         },
         {
           "kind": "span",
@@ -1028,7 +1001,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 30,
+      "number": 28,
       "children": [
         {
           "kind": "span",
@@ -1039,7 +1012,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Word_Size",
-          "href": "docs/rp__uart___spec.html#L30C7"
+          "href": "docs/rp__uart___spec.html#L28C7"
         },
         {
           "kind": "span",
@@ -1060,7 +1033,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "UART_Word_Size",
-          "href": "docs/rp__uart___spec.html#L22C12"
+          "href": "docs/rp__uart___spec.html#L20C12"
         },
         {
           "kind": "span",
@@ -1091,7 +1064,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 31,
+      "number": 29,
       "children": [
         {
           "kind": "span",
@@ -1102,7 +1075,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Parity",
-          "href": "docs/rp__uart___spec.html#L31C7"
+          "href": "docs/rp__uart___spec.html#L29C7"
         },
         {
           "kind": "span",
@@ -1153,7 +1126,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 32,
+      "number": 30,
       "children": [
         {
           "kind": "span",
@@ -1164,7 +1137,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Stop_Bits",
-          "href": "docs/rp__uart___spec.html#L32C7"
+          "href": "docs/rp__uart___spec.html#L30C7"
         },
         {
           "kind": "span",
@@ -1185,7 +1158,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "UART_Stop_Bits",
-          "href": "docs/rp__uart___spec.html#L23C12"
+          "href": "docs/rp__uart___spec.html#L21C12"
         },
         {
           "kind": "span",
@@ -1216,7 +1189,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 33,
+      "number": 31,
       "children": [
         {
           "kind": "span",
@@ -1227,7 +1200,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Parity_Type",
-          "href": "docs/rp__uart___spec.html#L33C7"
+          "href": "docs/rp__uart___spec.html#L31C7"
         },
         {
           "kind": "span",
@@ -1248,7 +1221,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "UART_Parity_Type",
-          "href": "docs/rp__uart___spec.html#L24C9"
+          "href": "docs/rp__uart___spec.html#L22C9"
         },
         {
           "kind": "span",
@@ -1289,7 +1262,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 34,
+      "number": 32,
       "children": [
         {
           "kind": "span",
@@ -1300,7 +1273,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Frame_Length",
-          "href": "docs/rp__uart___spec.html#L34C7"
+          "href": "docs/rp__uart___spec.html#L32C7"
         },
         {
           "kind": "span",
@@ -1361,7 +1334,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 35,
+      "number": 33,
       "children": [
         {
           "kind": "span",
@@ -1387,7 +1360,116 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/rp__uart___spec.html#L28C9"
+          "href": "docs/rp__uart___spec.html#L26C9"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 34,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 35,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Default_UART_Configuration",
+          "href": "docs/rp__uart___spec.html#L35C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "UART_Configuration",
+          "href": "docs/rp__uart___spec.html#L26C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "others"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "<>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -1644,7 +1726,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "UART_Configuration",
-          "href": "docs/rp__uart___spec.html#L28C9"
+          "href": "docs/rp__uart___spec.html#L26C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Default_UART_Configuration",
+          "href": "docs/rp__uart___spec.html#L35C4"
         },
         {
           "kind": "span",

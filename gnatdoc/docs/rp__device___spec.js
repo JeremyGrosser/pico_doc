@@ -1563,7 +1563,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP.SysTick.Delays",
-                      "href": "docs/rp__systick___spec.html#L12C9"
+                      "href": "docs/rp__systick___spec.html#L10C9"
                     },
                     {
                       "kind": "span",
@@ -1632,7 +1632,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP.Timer.Delays",
-                      "href": "docs/rp__timer___spec.html#L19C9"
+                      "href": "docs/rp__timer___spec.html#L17C9"
                     },
                     {
                       "kind": "span",

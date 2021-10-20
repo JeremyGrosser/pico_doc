@@ -38,10 +38,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Clear",
-      "docHref": "docs/rp__gpio___spec.html#L122C14",
+      "docHref": "docs/rp__gpio___spec.html#L120C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L122"
+      "srcHref": "srcs/rp-gpio.ads.html#L120"
     },
     {
       "label": "Clear_FIFOs",
@@ -101,10 +101,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Configure",
-      "docHref": "docs/rp__gpio___spec.html#L60C14",
+      "docHref": "docs/rp__gpio___spec.html#L58C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L60"
+      "srcHref": "srcs/rp-gpio.ads.html#L58"
     },
     {
       "label": "Configure",
@@ -220,17 +220,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Delay_Microseconds",
-      "docHref": "docs/rp__systick___spec.html#L25C14",
+      "docHref": "docs/rp__systick___spec.html#L23C14",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L25"
+      "srcHref": "srcs/rp-systick.ads.html#L23"
     },
     {
       "label": "Delay_Microseconds",
-      "docHref": "docs/rp__timer___spec.html#L44C14",
+      "docHref": "docs/rp__timer___spec.html#L42C14",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L44"
+      "srcHref": "srcs/rp-timer.ads.html#L42"
     },
     {
       "label": "Delay_Milliseconds",
@@ -248,17 +248,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Delay_Milliseconds",
-      "docHref": "docs/rp__systick___spec.html#L31C14",
+      "docHref": "docs/rp__systick___spec.html#L29C14",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L31"
+      "srcHref": "srcs/rp-systick.ads.html#L29"
     },
     {
       "label": "Delay_Milliseconds",
-      "docHref": "docs/rp__timer___spec.html#L49C14",
+      "docHref": "docs/rp__timer___spec.html#L47C14",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L49"
+      "srcHref": "srcs/rp-timer.ads.html#L47"
     },
     {
       "label": "Delay_Seconds",
@@ -269,24 +269,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Delay_Seconds",
-      "docHref": "docs/rp__systick___spec.html#L37C14",
+      "docHref": "docs/rp__systick___spec.html#L35C14",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L37"
+      "srcHref": "srcs/rp-systick.ads.html#L35"
     },
     {
       "label": "Delay_Seconds",
-      "docHref": "docs/rp__timer___spec.html#L55C14",
+      "docHref": "docs/rp__timer___spec.html#L53C14",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L55"
+      "srcHref": "srcs/rp-timer.ads.html#L53"
     },
     {
       "label": "Delay_Until",
-      "docHref": "docs/rp__timer___spec.html#L36C14",
+      "docHref": "docs/rp__timer___spec.html#L34C14",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L36"
+      "srcHref": "srcs/rp-timer.ads.html#L34"
     },
     {
       "label": "Disable",
@@ -297,24 +297,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Disable",
-      "docHref": "docs/rp__systick___spec.html#L17C14",
+      "docHref": "docs/rp__systick___spec.html#L15C14",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L17"
+      "srcHref": "srcs/rp-systick.ads.html#L15"
     },
     {
       "label": "Disable",
-      "docHref": "docs/rp__timer___spec.html#L29C14",
+      "docHref": "docs/rp__timer___spec.html#L27C14",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L29"
+      "srcHref": "srcs/rp-timer.ads.html#L27"
     },
     {
       "label": "Disable_Interrupt",
-      "docHref": "docs/rp__gpio___spec.html#L82C14",
+      "docHref": "docs/rp__gpio___spec.html#L80C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L82"
+      "srcHref": "srcs/rp-gpio.ads.html#L80"
     },
     {
       "label": "Draw_Circle",
@@ -402,24 +402,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__systick___spec.html#L14C14",
+      "docHref": "docs/rp__systick___spec.html#L12C14",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L14"
+      "srcHref": "srcs/rp-systick.ads.html#L12"
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__timer___spec.html#L26C14",
+      "docHref": "docs/rp__timer___spec.html#L24C14",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L26"
+      "srcHref": "srcs/rp-timer.ads.html#L24"
     },
     {
       "label": "Enable_Interrupt",
-      "docHref": "docs/rp__gpio___spec.html#L78C14",
+      "docHref": "docs/rp__gpio___spec.html#L76C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L78"
+      "srcHref": "srcs/rp-gpio.ads.html#L76"
     },
     {
       "label": "Enabled",
@@ -430,17 +430,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enabled",
-      "docHref": "docs/rp__systick___spec.html#L20C13",
+      "docHref": "docs/rp__systick___spec.html#L18C13",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L20"
+      "srcHref": "srcs/rp-systick.ads.html#L18"
     },
     {
       "label": "Enabled",
-      "docHref": "docs/rp__timer___spec.html#L21C13",
+      "docHref": "docs/rp__timer___spec.html#L19C13",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L21"
+      "srcHref": "srcs/rp-timer.ads.html#L19"
     },
     {
       "label": "EP_Ready_For_Data",
@@ -570,10 +570,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Get",
-      "docHref": "docs/rp__gpio___spec.html#L69C13",
+      "docHref": "docs/rp__gpio___spec.html#L67C13",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L69"
+      "srcHref": "srcs/rp-gpio.ads.html#L67"
     },
     {
       "label": "Get",
@@ -885,10 +885,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Mode",
-      "docHref": "docs/rp__gpio___spec.html#L93C13",
+      "docHref": "docs/rp__gpio___spec.html#L91C13",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L93"
+      "srcHref": "srcs/rp-gpio.ads.html#L91"
     },
     {
       "label": "Offset",
@@ -990,10 +990,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Pull_Resistor",
-      "docHref": "docs/rp__gpio___spec.html#L103C13",
+      "docHref": "docs/rp__gpio___spec.html#L101C13",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L103"
+      "srcHref": "srcs/rp-gpio.ads.html#L101"
     },
     {
       "label": "Put",
@@ -1347,17 +1347,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set",
-      "docHref": "docs/rp__gpio___spec.html#L113C13",
+      "docHref": "docs/rp__gpio___spec.html#L111C13",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L113"
+      "srcHref": "srcs/rp-gpio.ads.html#L111"
     },
     {
       "label": "Set",
-      "docHref": "docs/rp__gpio___spec.html#L118C14",
+      "docHref": "docs/rp__gpio___spec.html#L116C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L118"
+      "srcHref": "srcs/rp-gpio.ads.html#L116"
     },
     {
       "label": "Set",
@@ -1445,10 +1445,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Interrupt_Handler",
-      "docHref": "docs/rp__gpio___spec.html#L74C14",
+      "docHref": "docs/rp__gpio___spec.html#L72C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L74"
+      "srcHref": "srcs/rp-gpio.ads.html#L72"
     },
     {
       "label": "Set_Mode",
@@ -1466,10 +1466,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Mode",
-      "docHref": "docs/rp__gpio___spec.html#L98C14",
+      "docHref": "docs/rp__gpio___spec.html#L96C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L98"
+      "srcHref": "srcs/rp-gpio.ads.html#L96"
     },
     {
       "label": "Set_Move",
@@ -1529,10 +1529,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Pull_Resistor",
-      "docHref": "docs/rp__gpio___spec.html#L108C14",
+      "docHref": "docs/rp__gpio___spec.html#L106C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L108"
+      "srcHref": "srcs/rp-gpio.ads.html#L106"
     },
     {
       "label": "Set_Source",
@@ -1627,10 +1627,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Support",
-      "docHref": "docs/rp__gpio___spec.html#L87C13",
+      "docHref": "docs/rp__gpio___spec.html#L85C13",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L87"
+      "srcHref": "srcs/rp-gpio.ads.html#L85"
     },
     {
       "label": "Supported",
@@ -1669,10 +1669,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Toggle",
-      "docHref": "docs/rp__gpio___spec.html#L126C14",
+      "docHref": "docs/rp__gpio___spec.html#L124C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L126"
+      "srcHref": "srcs/rp-gpio.ads.html#L124"
     },
     {
       "label": "Transmit",

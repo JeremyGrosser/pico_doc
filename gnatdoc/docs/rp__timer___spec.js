@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Time",
           "qualifier": "",
-          "line": 12,
+          "line": 10,
           "column": 9,
           "src": "srcs/rp-timer.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 12,
+                  "number": 10,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Time",
-                      "href": "docs/rp__timer___spec.html#L12C9"
+                      "href": "docs/rp__timer___spec.html#L10C9"
                     },
                     {
                       "kind": "span",
@@ -95,7 +95,7 @@ GNATdoc.Documentation = {
         {
           "label": "Delays",
           "qualifier": "",
-          "line": 19,
+          "line": 17,
           "column": 9,
           "src": "srcs/rp-timer.ads.html",
           "summary": [
@@ -106,7 +106,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 19,
+                  "number": 17,
                   "children": [
                     {
                       "kind": "span",
@@ -127,7 +127,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Delays",
-                      "href": "docs/rp__timer___spec.html#L19C9"
+                      "href": "docs/rp__timer___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -194,7 +194,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/rp__timer___spec.html#L19C9"
+                      "href": "docs/rp__timer___spec.html#L17C9"
                     }
                   ]
                 }
@@ -216,7 +216,7 @@ GNATdoc.Documentation = {
         {
           "label": "Clock",
           "qualifier": "",
-          "line": 16,
+          "line": 14,
           "column": 13,
           "src": "srcs/rp-timer.ads.html",
           "summary": [
@@ -227,7 +227,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 16,
+                  "number": 14,
                   "children": [
                     {
                       "kind": "span",
@@ -248,13 +248,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Clock",
-                      "href": "docs/rp__timer___spec.html#L16C13"
+                      "href": "docs/rp__timer___spec.html#L14C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 17,
+                  "number": 15,
                   "children": [
                     {
                       "kind": "span",
@@ -275,7 +275,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Time",
-                      "href": "docs/rp__timer___spec.html#L12C9"
+                      "href": "docs/rp__timer___spec.html#L10C9"
                     },
                     {
                       "kind": "span",
@@ -300,7 +300,7 @@ GNATdoc.Documentation = {
         {
           "label": "Milliseconds",
           "qualifier": "",
-          "line": 32,
+          "line": 30,
           "column": 13,
           "src": "srcs/rp-timer.ads.html",
           "summary": [
@@ -311,7 +311,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -332,13 +332,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Milliseconds",
-                      "href": "docs/rp__timer___spec.html#L32C13"
+                      "href": "docs/rp__timer___spec.html#L30C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 31,
                   "children": [
                     {
                       "kind": "span",
@@ -354,7 +354,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "T",
-                      "href": "docs/rp__timer___spec.html#L33C8"
+                      "href": "docs/rp__timer___spec.html#L31C8"
                     },
                     {
                       "kind": "span",
@@ -385,7 +385,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -406,7 +406,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Time",
-                      "href": "docs/rp__timer___spec.html#L12C9"
+                      "href": "docs/rp__timer___spec.html#L10C9"
                     },
                     {
                       "kind": "span",
@@ -421,7 +421,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "T",
-              "line": 33,
+              "line": 31,
               "column": 8,
               "type": {
                 "label": "Natural"
@@ -439,7 +439,7 @@ GNATdoc.Documentation = {
         {
           "label": "Delay_Microseconds",
           "qualifier": "",
-          "line": 44,
+          "line": 42,
           "column": 14,
           "src": "srcs/rp-timer.ads.html",
           "summary": [
@@ -450,7 +450,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -466,7 +466,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -492,7 +492,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -508,7 +508,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__timer___spec.html#L46C8"
+                      "href": "docs/rp__timer___spec.html#L44C8"
                     },
                     {
                       "kind": "span",
@@ -559,7 +559,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 45,
                   "children": [
                     {
                       "kind": "span",
@@ -622,18 +622,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 45,
+              "line": 43,
               "column": 8,
               "type": {
                 "label": "RP.Timer.Delays",
-                "docHref": "docs/rp__timer___spec.html#L19C9"
+                "docHref": "docs/rp__timer___spec.html#L17C9"
               },
               "description": [
               ]
             },
             {
               "label": "Us",
-              "line": 46,
+              "line": 44,
               "column": 8,
               "type": {
                 "label": "Integer"
@@ -646,7 +646,7 @@ GNATdoc.Documentation = {
         {
           "label": "Delay_Milliseconds",
           "qualifier": "",
-          "line": 49,
+          "line": 47,
           "column": 14,
           "src": "srcs/rp-timer.ads.html",
           "summary": [
@@ -657,7 +657,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -673,7 +673,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -699,7 +699,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -715,7 +715,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__timer___spec.html#L51C8"
+                      "href": "docs/rp__timer___spec.html#L49C8"
                     },
                     {
                       "kind": "span",
@@ -766,7 +766,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -807,7 +807,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 51,
                   "children": [
                     {
                       "kind": "span",
@@ -837,18 +837,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 50,
+              "line": 48,
               "column": 8,
               "type": {
                 "label": "RP.Timer.Delays",
-                "docHref": "docs/rp__timer___spec.html#L19C9"
+                "docHref": "docs/rp__timer___spec.html#L17C9"
               },
               "description": [
               ]
             },
             {
               "label": "Ms",
-              "line": 51,
+              "line": 49,
               "column": 8,
               "type": {
                 "label": "Integer"
@@ -861,7 +861,7 @@ GNATdoc.Documentation = {
         {
           "label": "Delay_Seconds",
           "qualifier": "",
-          "line": 55,
+          "line": 53,
           "column": 14,
           "src": "srcs/rp-timer.ads.html",
           "summary": [
@@ -872,7 +872,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 55,
+                  "number": 53,
                   "children": [
                     {
                       "kind": "span",
@@ -888,7 +888,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -914,7 +914,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 57,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -930,7 +930,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__timer___spec.html#L57C8"
+                      "href": "docs/rp__timer___spec.html#L55C8"
                     },
                     {
                       "kind": "span",
@@ -981,7 +981,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 58,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -1022,7 +1022,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 59,
+                  "number": 57,
                   "children": [
                     {
                       "kind": "span",
@@ -1052,18 +1052,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 56,
+              "line": 54,
               "column": 8,
               "type": {
                 "label": "RP.Timer.Delays",
-                "docHref": "docs/rp__timer___spec.html#L19C9"
+                "docHref": "docs/rp__timer___spec.html#L17C9"
               },
               "description": [
               ]
             },
             {
               "label": "S",
-              "line": 57,
+              "line": 55,
               "column": 8,
               "type": {
                 "label": "Integer"
@@ -1076,7 +1076,7 @@ GNATdoc.Documentation = {
         {
           "label": "Delay_Until",
           "qualifier": "",
-          "line": 36,
+          "line": 34,
           "column": 14,
           "src": "srcs/rp-timer.ads.html",
           "summary": [
@@ -1087,7 +1087,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -1108,13 +1108,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Delay_Until",
-                      "href": "docs/rp__timer___spec.html#L36C14"
+                      "href": "docs/rp__timer___spec.html#L34C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -1130,7 +1130,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__timer___spec.html#L37C8"
+                      "href": "docs/rp__timer___spec.html#L35C8"
                     },
                     {
                       "kind": "span",
@@ -1171,7 +1171,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Delays",
-                      "href": "docs/rp__timer___spec.html#L19C9"
+                      "href": "docs/rp__timer___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -1182,7 +1182,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -1193,7 +1193,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "T",
-                      "href": "docs/rp__timer___spec.html#L38C8"
+                      "href": "docs/rp__timer___spec.html#L36C8"
                     },
                     {
                       "kind": "span",
@@ -1214,7 +1214,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Time",
-                      "href": "docs/rp__timer___spec.html#L12C9"
+                      "href": "docs/rp__timer___spec.html#L10C9"
                     },
                     {
                       "kind": "span",
@@ -1225,7 +1225,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -1255,22 +1255,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 37,
+              "line": 35,
               "column": 8,
               "type": {
                 "label": "RP.Timer.Delays",
-                "docHref": "docs/rp__timer___spec.html#L19C9"
+                "docHref": "docs/rp__timer___spec.html#L17C9"
               },
               "description": [
               ]
             },
             {
               "label": "T",
-              "line": 38,
+              "line": 36,
               "column": 8,
               "type": {
                 "label": "RP.Timer.Time",
-                "docHref": "docs/rp__timer___spec.html#L12C9"
+                "docHref": "docs/rp__timer___spec.html#L10C9"
               },
               "description": [
               ]
@@ -1280,7 +1280,7 @@ GNATdoc.Documentation = {
         {
           "label": "Disable",
           "qualifier": "",
-          "line": 29,
+          "line": 27,
           "column": 14,
           "src": "srcs/rp-timer.ads.html",
           "summary": [
@@ -1291,7 +1291,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 29,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -1312,13 +1312,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Disable",
-                      "href": "docs/rp__timer___spec.html#L29C14"
+                      "href": "docs/rp__timer___spec.html#L27C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 30,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
@@ -1334,7 +1334,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__timer___spec.html#L30C8"
+                      "href": "docs/rp__timer___spec.html#L28C8"
                     },
                     {
                       "kind": "span",
@@ -1375,7 +1375,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Delays",
-                      "href": "docs/rp__timer___spec.html#L19C9"
+                      "href": "docs/rp__timer___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -1395,11 +1395,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 30,
+              "line": 28,
               "column": 8,
               "type": {
                 "label": "RP.Timer.Delays",
-                "docHref": "docs/rp__timer___spec.html#L19C9"
+                "docHref": "docs/rp__timer___spec.html#L17C9"
               },
               "description": [
               ]
@@ -1409,7 +1409,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enable",
           "qualifier": "",
-          "line": 26,
+          "line": 24,
           "column": 14,
           "src": "srcs/rp-timer.ads.html",
           "summary": [
@@ -1420,7 +1420,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 26,
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -1441,13 +1441,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enable",
-                      "href": "docs/rp__timer___spec.html#L26C14"
+                      "href": "docs/rp__timer___spec.html#L24C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 27,
+                  "number": 25,
                   "children": [
                     {
                       "kind": "span",
@@ -1463,7 +1463,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__timer___spec.html#L27C8"
+                      "href": "docs/rp__timer___spec.html#L25C8"
                     },
                     {
                       "kind": "span",
@@ -1504,7 +1504,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Delays",
-                      "href": "docs/rp__timer___spec.html#L19C9"
+                      "href": "docs/rp__timer___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -1533,11 +1533,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 27,
+              "line": 25,
               "column": 8,
               "type": {
                 "label": "RP.Timer.Delays",
-                "docHref": "docs/rp__timer___spec.html#L19C9"
+                "docHref": "docs/rp__timer___spec.html#L17C9"
               },
               "description": [
               ]
@@ -1547,7 +1547,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enabled",
           "qualifier": "",
-          "line": 21,
+          "line": 19,
           "column": 13,
           "src": "srcs/rp-timer.ads.html",
           "summary": [
@@ -1558,7 +1558,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 21,
+                  "number": 19,
                   "children": [
                     {
                       "kind": "span",
@@ -1579,13 +1579,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enabled",
-                      "href": "docs/rp__timer___spec.html#L21C13"
+                      "href": "docs/rp__timer___spec.html#L19C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 22,
+                  "number": 20,
                   "children": [
                     {
                       "kind": "span",
@@ -1601,7 +1601,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__timer___spec.html#L22C8"
+                      "href": "docs/rp__timer___spec.html#L20C8"
                     },
                     {
                       "kind": "span",
@@ -1622,7 +1622,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Delays",
-                      "href": "docs/rp__timer___spec.html#L19C9"
+                      "href": "docs/rp__timer___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -1633,7 +1633,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 23,
+                  "number": 21,
                   "children": [
                     {
                       "kind": "span",
@@ -1668,11 +1668,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 22,
+              "line": 20,
               "column": 8,
               "type": {
                 "label": "RP.Timer.Delays",
-                "docHref": "docs/rp__timer___spec.html#L19C9"
+                "docHref": "docs/rp__timer___spec.html#L17C9"
               },
               "description": [
               ]

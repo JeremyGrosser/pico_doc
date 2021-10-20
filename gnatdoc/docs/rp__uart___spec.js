@@ -246,7 +246,7 @@ GNATdoc.Documentation = {
         {
           "label": "UART_Number",
           "qualifier": "",
-          "line": 15,
+          "line": 13,
           "column": 12,
           "src": "srcs/rp-uart.ads.html",
           "summary": [
@@ -257,7 +257,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 15,
+                  "number": 13,
                   "children": [
                     {
                       "kind": "span",
@@ -278,7 +278,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "UART_Number",
-                      "href": "docs/rp__uart___spec.html#L15C12"
+                      "href": "docs/rp__uart___spec.html#L13C12"
                     },
                     {
                       "kind": "span",
@@ -354,7 +354,7 @@ GNATdoc.Documentation = {
         {
           "label": "UART_Parity_Type",
           "qualifier": "",
-          "line": 24,
+          "line": 22,
           "column": 9,
           "src": "srcs/rp-uart.ads.html",
           "summary": [
@@ -365,7 +365,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 24,
+                  "number": 22,
                   "children": [
                     {
                       "kind": "span",
@@ -386,7 +386,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "UART_Parity_Type",
-                      "href": "docs/rp__uart___spec.html#L24C9"
+                      "href": "docs/rp__uart___spec.html#L22C9"
                     },
                     {
                       "kind": "span",
@@ -412,7 +412,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Even",
-                      "href": "docs/rp__uart___spec.html#L24C30"
+                      "href": "docs/rp__uart___spec.html#L22C30"
                     },
                     {
                       "kind": "span",
@@ -428,7 +428,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Odd",
-                      "href": "docs/rp__uart___spec.html#L24C36"
+                      "href": "docs/rp__uart___spec.html#L22C36"
                     },
                     {
                       "kind": "span",
@@ -439,7 +439,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/rp__uart___spec.html#L24C9"
+                      "href": "docs/rp__uart___spec.html#L22C9"
                     }
                   ]
                 }
@@ -449,14 +449,14 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Even",
-              "line": 24,
+              "line": 22,
               "column": 30,
               "description": [
               ]
             },
             {
               "label": "Odd",
-              "line": 24,
+              "line": 22,
               "column": 36,
               "description": [
               ]
@@ -466,7 +466,7 @@ GNATdoc.Documentation = {
         {
           "label": "UART_Stop_Bits",
           "qualifier": "",
-          "line": 23,
+          "line": 21,
           "column": 12,
           "src": "srcs/rp-uart.ads.html",
           "summary": [
@@ -477,7 +477,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 23,
+                  "number": 21,
                   "children": [
                     {
                       "kind": "span",
@@ -498,7 +498,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "UART_Stop_Bits",
-                      "href": "docs/rp__uart___spec.html#L23C12"
+                      "href": "docs/rp__uart___spec.html#L21C12"
                     },
                     {
                       "kind": "span",
@@ -574,7 +574,7 @@ GNATdoc.Documentation = {
         {
           "label": "UART_Word_Size",
           "qualifier": "",
-          "line": 22,
+          "line": 20,
           "column": 12,
           "src": "srcs/rp-uart.ads.html",
           "summary": [
@@ -585,7 +585,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 22,
+                  "number": 20,
                   "children": [
                     {
                       "kind": "span",
@@ -606,7 +606,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "UART_Word_Size",
-                      "href": "docs/rp__uart___spec.html#L22C12"
+                      "href": "docs/rp__uart___spec.html#L20C12"
                     },
                     {
                       "kind": "span",
@@ -685,9 +685,128 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
+          "label": "Default_UART_Configuration",
+          "qualifier": "",
+          "line": 35,
+          "column": 4,
+          "src": "srcs/rp-uart.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 35,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Default_UART_Configuration",
+                      "href": "docs/rp__uart___spec.html#L35C4"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "UART_Configuration",
+                      "href": "docs/rp__uart___spec.html#L26C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "others"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "=>"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "<>"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "label": "UART_Configuration",
           "qualifier": "",
-          "line": 28,
+          "line": 26,
           "column": 9,
           "src": "srcs/rp-uart.ads.html",
           "summary": [
@@ -698,7 +817,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 28,
+                  "number": 26,
                   "children": [
                     {
                       "kind": "span",
@@ -719,7 +838,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "UART_Configuration",
-                      "href": "docs/rp__uart___spec.html#L28C9"
+                      "href": "docs/rp__uart___spec.html#L26C9"
                     },
                     {
                       "kind": "span",
@@ -745,7 +864,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 29,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -756,7 +875,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Baud",
-                      "href": "docs/rp__uart___spec.html#L29C7"
+                      "href": "docs/rp__uart___spec.html#L27C7"
                     },
                     {
                       "kind": "span",
@@ -808,7 +927,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 30,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
@@ -819,7 +938,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Word_Size",
-                      "href": "docs/rp__uart___spec.html#L30C7"
+                      "href": "docs/rp__uart___spec.html#L28C7"
                     },
                     {
                       "kind": "span",
@@ -840,7 +959,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "UART_Word_Size",
-                      "href": "docs/rp__uart___spec.html#L22C12"
+                      "href": "docs/rp__uart___spec.html#L20C12"
                     },
                     {
                       "kind": "span",
@@ -871,7 +990,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -882,7 +1001,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Parity",
-                      "href": "docs/rp__uart___spec.html#L31C7"
+                      "href": "docs/rp__uart___spec.html#L29C7"
                     },
                     {
                       "kind": "span",
@@ -933,7 +1052,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -944,7 +1063,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Stop_Bits",
-                      "href": "docs/rp__uart___spec.html#L32C7"
+                      "href": "docs/rp__uart___spec.html#L30C7"
                     },
                     {
                       "kind": "span",
@@ -965,7 +1084,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "UART_Stop_Bits",
-                      "href": "docs/rp__uart___spec.html#L23C12"
+                      "href": "docs/rp__uart___spec.html#L21C12"
                     },
                     {
                       "kind": "span",
@@ -996,7 +1115,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 31,
                   "children": [
                     {
                       "kind": "span",
@@ -1007,7 +1126,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Parity_Type",
-                      "href": "docs/rp__uart___spec.html#L33C7"
+                      "href": "docs/rp__uart___spec.html#L31C7"
                     },
                     {
                       "kind": "span",
@@ -1028,7 +1147,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "UART_Parity_Type",
-                      "href": "docs/rp__uart___spec.html#L24C9"
+                      "href": "docs/rp__uart___spec.html#L22C9"
                     },
                     {
                       "kind": "span",
@@ -1069,7 +1188,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -1080,7 +1199,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frame_Length",
-                      "href": "docs/rp__uart___spec.html#L34C7"
+                      "href": "docs/rp__uart___spec.html#L32C7"
                     },
                     {
                       "kind": "span",
@@ -1141,7 +1260,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 33,
                   "children": [
                     {
                       "kind": "span",
@@ -1167,7 +1286,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/rp__uart___spec.html#L28C9"
+                      "href": "docs/rp__uart___spec.html#L26C9"
                     }
                   ]
                 }
@@ -1190,7 +1309,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Baud",
-              "line": 29,
+              "line": 27,
               "column": 7,
               "type": {
                 "label": "RP.Hertz",
@@ -1201,18 +1320,18 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Word_Size",
-              "line": 30,
+              "line": 28,
               "column": 7,
               "type": {
                 "label": "RP.UART.UART_Word_Size",
-                "docHref": "docs/rp__uart___spec.html#L22C12"
+                "docHref": "docs/rp__uart___spec.html#L20C12"
               },
               "description": [
               ]
             },
             {
               "label": "Parity",
-              "line": 31,
+              "line": 29,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -1222,22 +1341,22 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Stop_Bits",
-              "line": 32,
+              "line": 30,
               "column": 7,
               "type": {
                 "label": "RP.UART.UART_Stop_Bits",
-                "docHref": "docs/rp__uart___spec.html#L23C12"
+                "docHref": "docs/rp__uart___spec.html#L21C12"
               },
               "description": [
               ]
             },
             {
               "label": "Parity_Type",
-              "line": 33,
+              "line": 31,
               "column": 7,
               "type": {
                 "label": "RP.UART.UART_Parity_Type",
-                "docHref": "docs/rp__uart___spec.html#L24C9"
+                "docHref": "docs/rp__uart___spec.html#L22C9"
               },
               "description": [
                 {
@@ -1253,7 +1372,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Frame_Length",
-              "line": 34,
+              "line": 32,
               "column": 7,
               "type": {
                 "label": "Positive"
@@ -1280,7 +1399,7 @@ GNATdoc.Documentation = {
         {
           "label": "UART_Port",
           "qualifier": "",
-          "line": 17,
+          "line": 15,
           "column": 9,
           "src": "srcs/rp-uart.ads.html",
           "summary": [
@@ -1291,7 +1410,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 17,
+                  "number": 15,
                   "children": [
                     {
                       "kind": "span",
@@ -1312,13 +1431,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "UART_Port",
-                      "href": "docs/rp__uart___spec.html#L17C9"
+                      "href": "docs/rp__uart___spec.html#L15C9"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 18,
+                  "number": 16,
                   "children": [
                     {
                       "kind": "span",
@@ -1334,7 +1453,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Num",
-                      "href": "docs/rp__uart___spec.html#L18C8"
+                      "href": "docs/rp__uart___spec.html#L16C8"
                     },
                     {
                       "kind": "span",
@@ -1355,7 +1474,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "UART_Number",
-                      "href": "docs/rp__uart___spec.html#L15C12"
+                      "href": "docs/rp__uart___spec.html#L13C12"
                     },
                     {
                       "kind": "span",
@@ -1366,7 +1485,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 19,
+                  "number": 17,
                   "children": [
                     {
                       "kind": "span",
@@ -1438,7 +1557,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 20,
+                  "number": 18,
                   "children": [
                     {
                       "kind": "span",
@@ -1510,11 +1629,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Num",
-              "line": 18,
+              "line": 16,
               "column": 8,
               "type": {
                 "label": "RP.UART.UART_Number",
-                "docHref": "docs/rp__uart___spec.html#L15C12"
+                "docHref": "docs/rp__uart___spec.html#L13C12"
               },
               "description": [
               ]
@@ -1667,7 +1786,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "UART_Configuration",
-                      "href": "docs/rp__uart___spec.html#L28C9"
+                      "href": "docs/rp__uart___spec.html#L26C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Default_UART_Configuration",
+                      "href": "docs/rp__uart___spec.html#L35C4"
                     },
                     {
                       "kind": "span",
@@ -1712,7 +1852,7 @@ GNATdoc.Documentation = {
               "column": 8,
               "type": {
                 "label": "RP.UART.UART_Port",
-                "docHref": "docs/rp__uart___spec.html#L17C9"
+                "docHref": "docs/rp__uart___spec.html#L15C9"
               },
               "description": [
               ]
@@ -1723,7 +1863,7 @@ GNATdoc.Documentation = {
               "column": 8,
               "type": {
                 "label": "RP.UART.UART_Configuration",
-                "docHref": "docs/rp__uart___spec.html#L28C9"
+                "docHref": "docs/rp__uart___spec.html#L26C9"
               },
               "description": [
               ]
@@ -1871,7 +2011,7 @@ GNATdoc.Documentation = {
               "column": 8,
               "type": {
                 "label": "RP.UART.UART_Port",
-                "docHref": "docs/rp__uart___spec.html#L17C9"
+                "docHref": "docs/rp__uart___spec.html#L15C9"
               },
               "description": [
               ]
@@ -2006,7 +2146,7 @@ GNATdoc.Documentation = {
               "column": 8,
               "type": {
                 "label": "RP.UART.UART_Port",
-                "docHref": "docs/rp__uart___spec.html#L17C9"
+                "docHref": "docs/rp__uart___spec.html#L15C9"
               },
               "description": [
               ]
@@ -2151,7 +2291,7 @@ GNATdoc.Documentation = {
               "column": 8,
               "type": {
                 "label": "RP.UART.UART_Port",
-                "docHref": "docs/rp__uart___spec.html#L17C9"
+                "docHref": "docs/rp__uart___spec.html#L15C9"
               },
               "description": [
               ]
@@ -2460,7 +2600,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "RP.UART.UART_Port",
-                "docHref": "docs/rp__uart___spec.html#L17C9"
+                "docHref": "docs/rp__uart___spec.html#L15C9"
               },
               "description": [
               ]
@@ -2801,7 +2941,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "RP.UART.UART_Port",
-                "docHref": "docs/rp__uart___spec.html#L17C9"
+                "docHref": "docs/rp__uart___spec.html#L15C9"
               },
               "description": [
               ]
@@ -2969,7 +3109,7 @@ GNATdoc.Documentation = {
               "column": 8,
               "type": {
                 "label": "RP.UART.UART_Port",
-                "docHref": "docs/rp__uart___spec.html#L17C9"
+                "docHref": "docs/rp__uart___spec.html#L15C9"
               },
               "description": [
               ]
@@ -3267,7 +3407,7 @@ GNATdoc.Documentation = {
               "column": 8,
               "type": {
                 "label": "RP.UART.UART_Port",
-                "docHref": "docs/rp__uart___spec.html#L17C9"
+                "docHref": "docs/rp__uart___spec.html#L15C9"
               },
               "description": [
               ]
@@ -3487,7 +3627,7 @@ GNATdoc.Documentation = {
               "column": 8,
               "type": {
                 "label": "RP.UART.UART_Port",
-                "docHref": "docs/rp__uart___spec.html#L17C9"
+                "docHref": "docs/rp__uart___spec.html#L15C9"
               },
               "description": [
               ]
@@ -3642,7 +3782,7 @@ GNATdoc.Documentation = {
               "column": 8,
               "type": {
                 "label": "RP.UART.UART_Port",
-                "docHref": "docs/rp__uart___spec.html#L17C9"
+                "docHref": "docs/rp__uart___spec.html#L15C9"
               },
               "description": [
               ]
@@ -3940,7 +4080,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "RP.UART.UART_Port",
-                "docHref": "docs/rp__uart___spec.html#L17C9"
+                "docHref": "docs/rp__uart___spec.html#L15C9"
               },
               "description": [
               ]
@@ -4270,7 +4410,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "RP.UART.UART_Port",
-                "docHref": "docs/rp__uart___spec.html#L17C9"
+                "docHref": "docs/rp__uart___spec.html#L15C9"
               },
               "description": [
               ]
@@ -4438,7 +4578,7 @@ GNATdoc.Documentation = {
               "column": 8,
               "type": {
                 "label": "RP.UART.UART_Port",
-                "docHref": "docs/rp__uart___spec.html#L17C9"
+                "docHref": "docs/rp__uart___spec.html#L15C9"
               },
               "description": [
               ]
