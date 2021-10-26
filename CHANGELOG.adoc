@@ -17,7 +17,7 @@ xref:round_robin[RP.ADC.Set_Round_Robin] can be used to select multiple ADC chan
 Thanks to https://github.com/damaki[Daniel King], we now have a working implementation of xref:boot_code[boot2 in Ada]. boot2 has been moved from pico_bsp to rp2040_hal and the flash chip may be selected with the `Flash_Chip` Alire configuration variable.
 
 ===== PWM duty cycle may be set for one channel at a time
-`RP.PWM.Set_Duty_Cycle` now has optionally takes a `Channel` argument so that a single PWM channel's duty cycle may be updated without affecting the other. If Channel is not specified, the duty cycle for both channels must be specified.
+`RP.PWM.Set_Duty_Cycle` now takes a `Channel` argument so that a single PWM channel's duty cycle may be updated without affecting the other. If `Channel` is not specified, the duty cycle for both channels must be specified.
 
 ===== Default values for SPI and UART configuration
 `Default_SPI_Configuration` and `Default_UART_Configuration` constants are now available and are now used if no arguments are supplied to `RP.SPI.Configure` or `RP.UART.Configure`.
