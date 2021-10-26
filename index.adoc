@@ -365,7 +365,7 @@ The RTC is not running by default, but once initialized, will continue running a
 [source,ada]
 ----
 if not RP.Device.RTC.Running then
-    RP.Device.RTC.Initialize;
+    RP.Device.RTC.Configure;
 end if;
 ----
 
@@ -523,7 +523,7 @@ begin
     RP.Clock.Enable (RP.Clock.PERI);
     SDA.Configure (Output, Floating, RP.GPIO.I2C, Schmitt => True);
     SCL.Configure (Output, Floating, RP.GPIO.I2C, Schmitt => True);
-    Port.Enable (Baudrate => 400_000); --  I2C fast mode
+    Port.Configure (Baudrate => 400_000); --  I2C fast mode
 
     --  The address and data format vary widely depending on the I2C slave
     --  device you're connected to. See your I2C slave's datasheet for details.
