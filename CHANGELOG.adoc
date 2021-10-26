@@ -20,7 +20,7 @@ Thanks to https://github.com/damaki[Daniel King], we now have a working implemen
 `RP.PWM.Set_Duty_Cycle` now takes a `Channel` argument so that a single PWM channel's duty cycle may be updated without affecting the other. If `Channel` is not specified, the duty cycle for both channels must be specified.
 
 ===== Default values for SPI and UART configuration
-`Default_SPI_Configuration` and `Default_UART_Configuration` constants are now available and are now used if no arguments are supplied to `RP.SPI.Configure` or `RP.UART.Configure`.
+`Default_SPI_Configuration` and `Default_UART_Configuration` constants are now available and are used if no arguments are supplied to `RP.SPI.Configure` or `RP.UART.Configure`.
 
 ===== SysTick improvements
 `RP.SysTick.Clock` now reports the 24-bit monotonic counter.
