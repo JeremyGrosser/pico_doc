@@ -392,6 +392,22 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/usb-device-control.ads.html"
   },
   {
+    "label": "usb-device-hid-gamepad.ads",
+    "srcHref": "srcs/usb-device-hid-gamepad.ads.html"
+  },
+  {
+    "label": "usb-device-hid-joystick.ads",
+    "srcHref": "srcs/usb-device-hid-joystick.ads.html"
+  },
+  {
+    "label": "usb-device-hid-keyboard.ads",
+    "srcHref": "srcs/usb-device-hid-keyboard.ads.html"
+  },
+  {
+    "label": "usb-device-hid-mouse.ads",
+    "srcHref": "srcs/usb-device-hid-mouse.ads.html"
+  },
+  {
     "label": "usb-device-hid.ads",
     "srcHref": "srcs/usb-device-hid.ads.html"
   },

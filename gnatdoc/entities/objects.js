@@ -290,10 +290,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "copyright_string",
-      "docHref": "docs/rp__rom___spec.html#L155C4",
+      "docHref": "docs/rp__rom___spec.html#L152C4",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L155"
+      "srcHref": "srcs/rp-rom.ads.html#L152"
     },
     {
       "label": "Croatian",
@@ -619,10 +619,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "git_revision",
-      "docHref": "docs/rp__rom___spec.html#L159C4",
+      "docHref": "docs/rp__rom___spec.html#L156C4",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L159"
+      "srcHref": "srcs/rp-rom.ads.html#L156"
     },
     {
       "label": "Go_Idle_State",

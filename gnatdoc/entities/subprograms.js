@@ -66,10 +66,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Allocate",
-      "docHref": "docs/usb__utils___spec.html#L46C13",
+      "docHref": "docs/usb__utils___spec.html#L52C13",
       "declared": "USB.Utils",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb-utils.ads.html#L46"
+      "srcHref": "srcs/usb-utils.ads.html#L52"
     },
     {
       "label": "And_Fetch",
@@ -140,6 +140,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "Cortex_M.NVIC",
       "declared_qualifier": "",
       "srcHref": "srcs/cortex_m-nvic.ads.html#L69"
+    },
+    {
+      "label": "Clock",
+      "docHref": "docs/rp__systick___spec.html#L14C13",
+      "declared": "RP.SysTick",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-systick.ads.html#L14"
     },
     {
       "label": "Clock",
@@ -276,24 +283,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Copy",
-      "docHref": "docs/usb__utils___spec.html#L36C14",
+      "docHref": "docs/usb__utils___spec.html#L42C14",
       "declared": "USB.Utils",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb-utils.ads.html#L36"
+      "srcHref": "srcs/usb-utils.ads.html#L42"
     },
     {
       "label": "Copy",
-      "docHref": "docs/usb__utils___spec.html#L37C14",
+      "docHref": "docs/usb__utils___spec.html#L43C14",
       "declared": "USB.Utils",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb-utils.ads.html#L37"
+      "srcHref": "srcs/usb-utils.ads.html#L43"
     },
     {
       "label": "Copy",
-      "docHref": "docs/usb__utils___spec.html#L38C14",
+      "docHref": "docs/usb__utils___spec.html#L44C14",
       "declared": "USB.Utils",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb-utils.ads.html#L38"
+      "srcHref": "srcs/usb-utils.ads.html#L44"
     },
     {
       "label": "Count",
@@ -1031,6 +1038,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/runtime.ads.html#L11"
     },
     {
+      "label": "High",
+      "docHref": "docs/usb__utils___spec.html#L36C13",
+      "declared": "USB.Utils",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-utils.ads.html#L36"
+    },
+    {
       "label": "I_Cache_Enabled",
       "docHref": "docs/cortex_m__cache___spec.html#L47C13",
       "declared": "Cortex_M.Cache",
@@ -1255,6 +1269,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/semihosting.ads.html#L72"
     },
     {
+      "label": "Low",
+      "docHref": "docs/usb__utils___spec.html#L39C13",
+      "declared": "USB.Utils",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-utils.ads.html#L39"
+    },
+    {
       "label": "memset",
       "docHref": "docs/rp__rom___spec.html#L75C13",
       "declared": "RP.ROM",
@@ -1267,6 +1288,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.ROM",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-rom.ads.html#L84"
+    },
+    {
+      "label": "Milliseconds",
+      "docHref": "docs/rp__systick___spec.html#L17C13",
+      "declared": "RP.SysTick",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-systick.ads.html#L17"
     },
     {
       "label": "Milliseconds",
@@ -1361,13 +1389,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Read",
-      "docHref": "docs/semihosting___spec.html#L58C13",
-      "declared": "Semihosting",
-      "declared_qualifier": "",
-      "srcHref": "srcs/semihosting.ads.html#L58"
-    },
-    {
-      "label": "Read",
       "docHref": "docs/bbqueue__buffers__framed___spec.html#L74C14",
       "declared": "BBqueue.Buffers.framed",
       "declared_qualifier": "",
@@ -1386,6 +1407,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "BBqueue",
       "declared_qualifier": "",
       "srcHref": "srcs/bbqueue.ads.html#L71"
+    },
+    {
+      "label": "Read",
+      "docHref": "docs/semihosting___spec.html#L58C13",
+      "declared": "Semihosting",
+      "declared_qualifier": "",
+      "srcHref": "srcs/semihosting.ads.html#L58"
     },
     {
       "label": "Read",

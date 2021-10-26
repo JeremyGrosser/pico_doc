@@ -10215,7 +10215,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Bus in suspended state. Valid for device and host. Host"
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
         }
       ]
     },
@@ -10231,7 +10231,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  and device will go into suspend if neither Keep Alive / SOF frames"
+          "text": "--  in the field. Bus in suspended state. Valid for device and host. Host"
         }
       ]
     },
@@ -10247,7 +10247,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  are enabled."
+          "text": "--  and device will go into suspend if neither Keep Alive / SOF frames"
         }
       ]
     },
@@ -10262,9 +10262,25 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  are enabled."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 251,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "SUSPENDED",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L250C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L251C7"
         },
         {
           "kind": "span",
@@ -10315,7 +10331,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 251,
+      "number": 252,
       "children": [
         {
           "kind": "span",
@@ -10331,7 +10347,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 252,
+      "number": 253,
       "children": [
         {
           "kind": "span",
@@ -10342,7 +10358,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_5_7",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L252C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L253C7"
         },
         {
           "kind": "span",
@@ -10409,7 +10425,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 253,
+      "number": 254,
       "children": [
         {
           "kind": "span",
@@ -10419,13 +10435,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Host: device speed. Disconnected = 00, LS = 01, FS = 10"
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 254,
+      "number": 255,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  in the field. Host: device speed. Disconnected = 00, LS = 01, FS = 10"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 256,
       "children": [
         {
           "kind": "span",
@@ -10436,7 +10468,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPEED",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L254C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L256C7"
         },
         {
           "kind": "span",
@@ -10503,7 +10535,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 255,
+      "number": 257,
       "children": [
         {
           "kind": "span",
@@ -10519,7 +10551,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 256,
+      "number": 258,
       "children": [
         {
           "kind": "span",
@@ -10530,7 +10562,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "VBUS_OVER_CURR",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L256C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L258C7"
         },
         {
           "kind": "span",
@@ -10581,7 +10613,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 257,
+      "number": 259,
       "children": [
         {
           "kind": "span",
@@ -10597,7 +10629,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 258,
+      "number": 260,
       "children": [
         {
           "kind": "span",
@@ -10613,7 +10645,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 259,
+      "number": 261,
       "children": [
         {
           "kind": "span",
@@ -10629,7 +10661,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 260,
+      "number": 262,
       "children": [
         {
           "kind": "span",
@@ -10640,7 +10672,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RESUME",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L260C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L262C7"
         },
         {
           "kind": "span",
@@ -10691,7 +10723,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 261,
+      "number": 263,
       "children": [
         {
           "kind": "span",
@@ -10707,7 +10739,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 262,
+      "number": 264,
       "children": [
         {
           "kind": "span",
@@ -10718,7 +10750,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_12_15",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L262C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L264C7"
         },
         {
           "kind": "span",
@@ -10785,84 +10817,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 263,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only. Device: connected"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 264,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "CONNECTED",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L264C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 265,
       "children": [
         {
@@ -10889,7 +10843,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  in the field. Device: Setup packet received"
+          "text": "--  in the field. Device: connected"
         }
       ]
     },
@@ -10905,7 +10859,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "SETUP_REC",
+          "text": "CONNECTED",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L267C7"
         },
         {
@@ -10983,7 +10937,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  in the field. Transaction complete.\\n\\n Raised by device if:\\n\\n * An"
+          "text": "--  in the field. Device: Setup packet received"
         }
       ]
     },
@@ -10998,110 +10952,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  IN or OUT packet is sent with the `LAST_BUFF` bit set in the buffer"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 271,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  control register\\n\\n Raised by host if:\\n\\n * A setup packet is sent"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 272,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  when no data in or data out transaction follows * An IN packet is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 273,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  received and the `LAST_BUFF` bit is set in the buffer control"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 274,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  register * An IN packet is received with zero length * An OUT packet"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 275,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  is sent and the `LAST_BUFF` bit is set"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 276,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "TRANS_COMPLETE",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L276C7"
+          "text": "SETUP_REC",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L270C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -11147,7 +11005,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 277,
+      "number": 271,
       "children": [
         {
           "kind": "span",
@@ -11163,6 +11021,102 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 272,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  in the field. Transaction complete.\\n\\n Raised by device if:\\n\\n * An"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 273,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  IN or OUT packet is sent with the `LAST_BUFF` bit set in the buffer"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 274,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  control register\\n\\n Raised by host if:\\n\\n * A setup packet is sent"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 275,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  when no data in or data out transaction follows * An IN packet is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 276,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  received and the `LAST_BUFF` bit is set in the buffer control"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 277,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  register * An IN packet is received with zero length * An OUT packet"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 278,
       "children": [
         {
@@ -11173,7 +11127,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  in the field. Device: bus reset received"
+          "text": "--  is sent and the `LAST_BUFF` bit is set"
         }
       ]
     },
@@ -11189,13 +11143,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "BUS_RESET",
+          "text": "TRANS_COMPLETE",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L279C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -11251,7 +11205,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  unspecified"
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
         }
       ]
     },
@@ -11266,9 +11220,103 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  in the field. Device: bus reset received"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 282,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "BUS_RESET",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L282C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 283,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  unspecified"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 284,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_20_23",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L281C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L284C7"
         },
         {
           "kind": "span",
@@ -11335,100 +11383,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 282,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 283,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  in the field. CRC Error. Raised by the Serial RX engine."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 284,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "CRC_ERROR",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L284C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 285,
       "children": [
         {
@@ -11455,7 +11409,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  in the field. Bit Stuff Error. Raised by the Serial RX engine."
+          "text": "--  in the field. CRC Error. Raised by the Serial RX engine."
         }
       ]
     },
@@ -11471,13 +11425,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "BIT_STUFF_ERROR",
+          "text": "CRC_ERROR",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L287C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -11549,13 +11503,107 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  in the field. RX overflow is raised by the Serial RX engine if the"
+          "text": "--  in the field. Bit Stuff Error. Raised by the Serial RX engine."
         }
       ]
     },
     {
       "kind": "line",
       "number": 290,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "BIT_STUFF_ERROR",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L290C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 291,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 292,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  in the field. RX overflow is raised by the Serial RX engine if the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 293,
       "children": [
         {
           "kind": "span",
@@ -11571,7 +11619,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 291,
+      "number": 294,
       "children": [
         {
           "kind": "span",
@@ -11582,7 +11630,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RX_OVERFLOW",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L291C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L294C7"
         },
         {
           "kind": "span",
@@ -11633,7 +11681,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 292,
+      "number": 295,
       "children": [
         {
           "kind": "span",
@@ -11644,100 +11692,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 293,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  in the field. RX timeout is raised by both the host and device if an"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 294,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  ACK is not received in the maximum time specified by the USB spec."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 295,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "RX_TIMEOUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L295C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
         }
       ]
     },
@@ -11753,7 +11707,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
+          "text": "--  in the field. RX timeout is raised by both the host and device if an"
         }
       ]
     },
@@ -11769,7 +11723,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  in the field. Host: NAK received"
+          "text": "--  ACK is not received in the maximum time specified by the USB spec."
         }
       ]
     },
@@ -11785,13 +11739,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "NAK_REC",
+          "text": "RX_TIMEOUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L298C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "         "
+          "text": "      "
         },
         {
           "kind": "span",
@@ -11863,7 +11817,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  in the field. Host: STALL received"
+          "text": "--  in the field. Host: NAK received"
         }
       ]
     },
@@ -11879,13 +11833,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "STALL_REC",
+          "text": "NAK_REC",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L301C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "         "
         },
         {
           "kind": "span",
@@ -11957,7 +11911,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  in the field. ACK received. Raised by both host and device."
+          "text": "--  in the field. Host: STALL received"
         }
       ]
     },
@@ -11973,13 +11927,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "ACK_REC",
+          "text": "STALL_REC",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L304C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "         "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -12051,7 +12005,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  in the field. Data Sequence Error.\\n\\n The device can raise a"
+          "text": "--  in the field. ACK received. Raised by both host and device."
         }
       ]
     },
@@ -12066,8 +12020,54 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  sequence error in the following conditions:\\n\\n * A SETUP packet is"
+          "cssClass": "identifier",
+          "text": "ACK_REC",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L307C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "         "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -12083,7 +12083,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  received followed by a DATA1 packet (data phase should always be"
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
         }
       ]
     },
@@ -12099,7 +12099,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DATA0) * An OUT packet is received from the host but doesn't match"
+          "text": "--  in the field. Data Sequence Error.\\n\\n The device can raise a"
         }
       ]
     },
@@ -12115,7 +12115,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  the data pid in the buffer control register read from DPSRAM\\n\\n The"
+          "text": "--  sequence error in the following conditions:\\n\\n * A SETUP packet is"
         }
       ]
     },
@@ -12131,7 +12131,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  host can raise a data sequence error in the following conditions:\\n\\n"
+          "text": "--  received followed by a DATA1 packet (data phase should always be"
         }
       ]
     },
@@ -12147,7 +12147,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  * An IN packet from the device has the wrong data PID"
+          "text": "--  DATA0) * An OUT packet is received from the host but doesn't match"
         }
       ]
     },
@@ -12162,9 +12162,57 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  the data pid in the buffer control register read from DPSRAM\\n\\n The"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 314,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  host can raise a data sequence error in the following conditions:\\n\\n"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 315,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  * An IN packet from the device has the wrong data PID"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 316,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "DATA_SEQ_ERROR",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L313C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L316C7"
         },
         {
           "kind": "span",
@@ -12215,7 +12263,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 314,
+      "number": 317,
       "children": [
         {
           "kind": "span",
@@ -12241,7 +12289,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 315,
+      "number": 318,
       "children": [
         {
           "kind": "span",
@@ -12262,7 +12310,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 316,
+      "number": 319,
       "children": [
         {
           "kind": "span",
@@ -12278,13 +12326,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 317,
+      "number": 320,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 318,
+      "number": 321,
       "children": [
         {
           "kind": "span",
@@ -12331,7 +12379,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 319,
+      "number": 322,
       "children": [
         {
           "kind": "span",
@@ -12412,7 +12460,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 320,
+      "number": 323,
       "children": [
         {
           "kind": "span",
@@ -12493,7 +12541,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 321,
+      "number": 324,
       "children": [
         {
           "kind": "span",
@@ -12574,7 +12622,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 322,
+      "number": 325,
       "children": [
         {
           "kind": "span",
@@ -12655,7 +12703,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 323,
+      "number": 326,
       "children": [
         {
           "kind": "span",
@@ -12736,7 +12784,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 324,
+      "number": 327,
       "children": [
         {
           "kind": "span",
@@ -12817,7 +12865,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 325,
+      "number": 328,
       "children": [
         {
           "kind": "span",
@@ -12898,7 +12946,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 326,
+      "number": 329,
       "children": [
         {
           "kind": "span",
@@ -12979,7 +13027,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 327,
+      "number": 330,
       "children": [
         {
           "kind": "span",
@@ -13060,7 +13108,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 328,
+      "number": 331,
       "children": [
         {
           "kind": "span",
@@ -13141,7 +13189,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 329,
+      "number": 332,
       "children": [
         {
           "kind": "span",
@@ -13222,7 +13270,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 330,
+      "number": 333,
       "children": [
         {
           "kind": "span",
@@ -13303,7 +13351,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 331,
+      "number": 334,
       "children": [
         {
           "kind": "span",
@@ -13384,7 +13432,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 332,
+      "number": 335,
       "children": [
         {
           "kind": "span",
@@ -13465,7 +13513,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 333,
+      "number": 336,
       "children": [
         {
           "kind": "span",
@@ -13546,7 +13594,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 334,
+      "number": 337,
       "children": [
         {
           "kind": "span",
@@ -13627,7 +13675,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 335,
+      "number": 338,
       "children": [
         {
           "kind": "span",
@@ -13708,7 +13756,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 336,
+      "number": 339,
       "children": [
         {
           "kind": "span",
@@ -13789,7 +13837,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 337,
+      "number": 340,
       "children": [
         {
           "kind": "span",
@@ -13870,7 +13918,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 338,
+      "number": 341,
       "children": [
         {
           "kind": "span",
@@ -13951,7 +13999,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 339,
+      "number": 342,
       "children": [
         {
           "kind": "span",
@@ -14032,7 +14080,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 340,
+      "number": 343,
       "children": [
         {
           "kind": "span",
@@ -14113,7 +14161,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 341,
+      "number": 344,
       "children": [
         {
           "kind": "span",
@@ -14144,13 +14192,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 342,
+      "number": 345,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 343,
+      "number": 346,
       "children": [
         {
           "kind": "span",
@@ -14171,7 +14219,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INT_EP_CTRL_INT_EP_ACTIVE_Field",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L343C12"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L346C12"
         },
         {
           "kind": "span",
@@ -14203,13 +14251,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 344,
+      "number": 347,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 345,
+      "number": 348,
       "children": [
         {
           "kind": "span",
@@ -14225,7 +14273,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 346,
+      "number": 349,
       "children": [
         {
           "kind": "span",
@@ -14246,7 +14294,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INT_EP_CTRL_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L346C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L349C9"
         },
         {
           "kind": "span",
@@ -14272,7 +14320,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 347,
+      "number": 350,
       "children": [
         {
           "kind": "span",
@@ -14288,7 +14336,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 348,
+      "number": 351,
       "children": [
         {
           "kind": "span",
@@ -14299,7 +14347,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_0_0",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L348C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L351C7"
         },
         {
           "kind": "span",
@@ -14366,7 +14414,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 349,
+      "number": 352,
       "children": [
         {
           "kind": "span",
@@ -14382,7 +14430,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 350,
+      "number": 353,
       "children": [
         {
           "kind": "span",
@@ -14393,7 +14441,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INT_EP_ACTIVE",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L350C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L353C7"
         },
         {
           "kind": "span",
@@ -14414,7 +14462,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INT_EP_CTRL_INT_EP_ACTIVE_Field",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L343C12"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L346C12"
         },
         {
           "kind": "span",
@@ -14460,7 +14508,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 351,
+      "number": 354,
       "children": [
         {
           "kind": "span",
@@ -14476,7 +14524,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 352,
+      "number": 355,
       "children": [
         {
           "kind": "span",
@@ -14487,7 +14535,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_16_31",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L352C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L355C7"
         },
         {
           "kind": "span",
@@ -14554,7 +14602,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 353,
+      "number": 356,
       "children": [
         {
           "kind": "span",
@@ -14580,7 +14628,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 354,
+      "number": 357,
       "children": [
         {
           "kind": "span",
@@ -14601,7 +14649,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 355,
+      "number": 358,
       "children": [
         {
           "kind": "span",
@@ -14617,13 +14665,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 356,
+      "number": 359,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 357,
+      "number": 360,
       "children": [
         {
           "kind": "span",
@@ -14644,7 +14692,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INT_EP_CTRL_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L346C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L349C9"
         },
         {
           "kind": "span",
@@ -14670,7 +14718,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 358,
+      "number": 361,
       "children": [
         {
           "kind": "span",
@@ -14751,7 +14799,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 359,
+      "number": 362,
       "children": [
         {
           "kind": "span",
@@ -14832,7 +14880,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 360,
+      "number": 363,
       "children": [
         {
           "kind": "span",
@@ -14913,7 +14961,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 361,
+      "number": 364,
       "children": [
         {
           "kind": "span",
@@ -14944,13 +14992,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 362,
+      "number": 365,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 363,
+      "number": 366,
       "children": [
         {
           "kind": "span",
@@ -14966,7 +15014,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 364,
+      "number": 367,
       "children": [
         {
           "kind": "span",
@@ -14982,7 +15030,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 365,
+      "number": 368,
       "children": [
         {
           "kind": "span",
@@ -14998,7 +15046,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 366,
+      "number": 369,
       "children": [
         {
           "kind": "span",
@@ -15014,7 +15062,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 367,
+      "number": 370,
       "children": [
         {
           "kind": "span",
@@ -15035,7 +15083,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BUFF_STATUS_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L367C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L370C9"
         },
         {
           "kind": "span",
@@ -15056,100 +15104,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "keyword",
           "text": "record"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 368,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 369,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  in the field."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 370,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP0_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L370C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
         }
       ]
     },
@@ -15197,13 +15151,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP0_OUT",
+          "text": "EP0_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L373C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -15291,13 +15245,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP1_IN",
+          "text": "EP0_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L376C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -15385,13 +15339,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP1_OUT",
+          "text": "EP1_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L379C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -15479,13 +15433,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP2_IN",
+          "text": "EP1_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L382C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -15573,13 +15527,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP2_OUT",
+          "text": "EP2_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L385C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -15667,13 +15621,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP3_IN",
+          "text": "EP2_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L388C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -15761,13 +15715,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP3_OUT",
+          "text": "EP3_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L391C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -15855,13 +15809,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP4_IN",
+          "text": "EP3_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L394C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -15949,13 +15903,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP4_OUT",
+          "text": "EP4_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L397C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -16043,13 +15997,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP5_IN",
+          "text": "EP4_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L400C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -16137,13 +16091,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP5_OUT",
+          "text": "EP5_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L403C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -16231,13 +16185,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP6_IN",
+          "text": "EP5_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L406C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -16325,13 +16279,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP6_OUT",
+          "text": "EP6_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L409C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -16419,13 +16373,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP7_IN",
+          "text": "EP6_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L412C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -16513,13 +16467,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP7_OUT",
+          "text": "EP7_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L415C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -16607,13 +16561,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP8_IN",
+          "text": "EP7_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L418C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -16701,13 +16655,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP8_OUT",
+          "text": "EP8_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L421C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -16795,13 +16749,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP9_IN",
+          "text": "EP8_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L424C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -16889,13 +16843,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP9_OUT",
+          "text": "EP9_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L427C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -16983,7 +16937,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP10_IN",
+          "text": "EP9_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L430C7"
         },
         {
@@ -17077,13 +17031,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP10_OUT",
+          "text": "EP10_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L433C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -17171,13 +17125,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP11_IN",
+          "text": "EP10_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L436C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -17265,13 +17219,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP11_OUT",
+          "text": "EP11_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L439C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -17359,13 +17313,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP12_IN",
+          "text": "EP11_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L442C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -17453,13 +17407,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP12_OUT",
+          "text": "EP12_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L445C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -17547,13 +17501,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP13_IN",
+          "text": "EP12_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L448C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -17641,13 +17595,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP13_OUT",
+          "text": "EP13_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L451C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -17735,13 +17689,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP14_IN",
+          "text": "EP13_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L454C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -17829,13 +17783,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP14_OUT",
+          "text": "EP14_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L457C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -17923,13 +17877,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP15_IN",
+          "text": "EP14_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L460C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -18017,13 +17971,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP15_OUT",
+          "text": "EP15_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L463C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -18074,6 +18028,100 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 465,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  in the field."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 466,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP15_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L466C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 467,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
           "text": "   "
         },
         {
@@ -18095,7 +18143,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 465,
+      "number": 468,
       "children": [
         {
           "kind": "span",
@@ -18116,7 +18164,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 466,
+      "number": 469,
       "children": [
         {
           "kind": "span",
@@ -18132,13 +18180,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 467,
+      "number": 470,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 468,
+      "number": 471,
       "children": [
         {
           "kind": "span",
@@ -18159,7 +18207,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BUFF_STATUS_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L367C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L370C9"
         },
         {
           "kind": "span",
@@ -18185,7 +18233,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 469,
+      "number": 472,
       "children": [
         {
           "kind": "span",
@@ -18256,249 +18304,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "number",
           "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 470,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP0_OUT"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "1"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "1"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 471,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP1_IN"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "2"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "2"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 472,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP1_OUT"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "3"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "3"
         },
         {
           "kind": "span",
@@ -18519,4459 +18324,6 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP2_IN"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "4"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "4"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 474,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP2_OUT"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "5"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "5"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 475,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP3_IN"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "6"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "6"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 476,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP3_OUT"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 477,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP4_IN"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 478,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP4_OUT"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 479,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP5_IN"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "10"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "10"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 480,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP5_OUT"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "11"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "11"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 481,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP6_IN"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "12"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "12"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 482,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP6_OUT"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 483,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP7_IN"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "14"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "14"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 484,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP7_OUT"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "15"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "15"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 485,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP8_IN"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "16"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "16"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 486,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP8_OUT"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "17"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "17"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 487,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP9_IN"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "18"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "18"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 488,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP9_OUT"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "19"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "19"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 489,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP10_IN"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "20"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "20"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 490,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP10_OUT"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "21"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "21"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 491,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP11_IN"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "22"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "22"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 492,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP11_OUT"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "23"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "23"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 493,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP12_IN"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "24"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "24"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 494,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP12_OUT"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "25"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "25"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 495,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP13_IN"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "26"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "26"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 496,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP13_OUT"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "27"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "27"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 497,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP14_IN"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "28"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "28"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 498,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP14_OUT"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "29"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "29"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 499,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP15_IN"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "30"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "30"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 500,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP15_OUT"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "31"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "31"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 501,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "end"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "record"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 502,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 503,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Which of the double buffers should be handled. Only valid if using an"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 504,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  interrupt per buffer (i.e. not per 2 buffers). Not valid for host"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 505,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  interrupt endpoint polling because they are only single buffered."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 506,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "type"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "BUFF_CPU_SHOULD_HANDLE_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L506C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "record"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 507,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 508,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP0_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L508C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 509,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 510,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP0_OUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L510C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 511,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 512,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP1_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L512C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 513,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 514,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP1_OUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L514C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 515,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 516,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP2_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L516C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 517,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 518,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP2_OUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L518C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 519,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 520,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP3_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L520C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 521,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 522,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP3_OUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L522C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 523,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 524,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP4_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L524C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 525,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 526,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP4_OUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L526C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 527,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 528,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP5_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L528C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 529,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 530,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP5_OUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L530C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 531,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 532,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP6_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L532C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 533,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 534,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP6_OUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L534C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 535,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 536,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP7_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L536C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 537,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 538,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP7_OUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L538C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 539,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 540,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP8_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L540C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 541,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 542,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP8_OUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L542C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 543,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 544,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP9_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L544C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 545,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 546,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP9_OUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L546C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 547,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 548,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP10_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L548C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 549,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 550,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP10_OUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L550C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 551,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 552,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP11_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L552C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 553,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 554,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP11_OUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L554C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 555,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 556,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP12_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L556C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 557,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 558,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP12_OUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L558C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 559,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 560,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP13_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L560C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 561,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 562,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP13_OUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L562C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 563,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 564,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP14_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L564C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 565,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 566,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP14_OUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L566C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 567,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 568,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP15_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L568C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 569,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 570,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP15_OUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L570C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 571,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "end"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "record"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 572,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " Volatile_Full_Access, Object_Size => 32,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 573,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "          Bit_Order => System.Low_Order_First"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 574,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 575,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "for"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "BUFF_CPU_SHOULD_HANDLE_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L506C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "use"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "record"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 576,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP0_IN"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "at"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "range"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ".."
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 577,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
           "text": "EP0_OUT"
         },
         {
@@ -23043,7 +18395,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 578,
+      "number": 474,
       "children": [
         {
           "kind": "span",
@@ -23124,7 +18476,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 579,
+      "number": 475,
       "children": [
         {
           "kind": "span",
@@ -23205,7 +18557,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 580,
+      "number": 476,
       "children": [
         {
           "kind": "span",
@@ -23286,7 +18638,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 581,
+      "number": 477,
       "children": [
         {
           "kind": "span",
@@ -23367,7 +18719,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 582,
+      "number": 478,
       "children": [
         {
           "kind": "span",
@@ -23448,7 +18800,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 583,
+      "number": 479,
       "children": [
         {
           "kind": "span",
@@ -23529,7 +18881,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 584,
+      "number": 480,
       "children": [
         {
           "kind": "span",
@@ -23610,7 +18962,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 585,
+      "number": 481,
       "children": [
         {
           "kind": "span",
@@ -23691,7 +19043,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 586,
+      "number": 482,
       "children": [
         {
           "kind": "span",
@@ -23772,7 +19124,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 587,
+      "number": 483,
       "children": [
         {
           "kind": "span",
@@ -23853,7 +19205,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 588,
+      "number": 484,
       "children": [
         {
           "kind": "span",
@@ -23934,7 +19286,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 589,
+      "number": 485,
       "children": [
         {
           "kind": "span",
@@ -24015,7 +19367,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 590,
+      "number": 486,
       "children": [
         {
           "kind": "span",
@@ -24096,7 +19448,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 591,
+      "number": 487,
       "children": [
         {
           "kind": "span",
@@ -24177,7 +19529,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 592,
+      "number": 488,
       "children": [
         {
           "kind": "span",
@@ -24258,7 +19610,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 593,
+      "number": 489,
       "children": [
         {
           "kind": "span",
@@ -24339,7 +19691,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 594,
+      "number": 490,
       "children": [
         {
           "kind": "span",
@@ -24420,7 +19772,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 595,
+      "number": 491,
       "children": [
         {
           "kind": "span",
@@ -24501,7 +19853,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 596,
+      "number": 492,
       "children": [
         {
           "kind": "span",
@@ -24582,7 +19934,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 597,
+      "number": 493,
       "children": [
         {
           "kind": "span",
@@ -24663,7 +20015,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 598,
+      "number": 494,
       "children": [
         {
           "kind": "span",
@@ -24744,7 +20096,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 599,
+      "number": 495,
       "children": [
         {
           "kind": "span",
@@ -24825,7 +20177,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 600,
+      "number": 496,
       "children": [
         {
           "kind": "span",
@@ -24906,7 +20258,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 601,
+      "number": 497,
       "children": [
         {
           "kind": "span",
@@ -24987,7 +20339,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 602,
+      "number": 498,
       "children": [
         {
           "kind": "span",
@@ -25068,7 +20420,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 603,
+      "number": 499,
       "children": [
         {
           "kind": "span",
@@ -25149,7 +20501,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 604,
+      "number": 500,
       "children": [
         {
           "kind": "span",
@@ -25230,7 +20582,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 605,
+      "number": 501,
       "children": [
         {
           "kind": "span",
@@ -25311,7 +20663,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 606,
+      "number": 502,
       "children": [
         {
           "kind": "span",
@@ -25392,7 +20744,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 607,
+      "number": 503,
       "children": [
         {
           "kind": "span",
@@ -25473,7 +20825,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 608,
+      "number": 504,
       "children": [
         {
           "kind": "span",
@@ -25504,29 +20856,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 609,
+      "number": 505,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 610,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Device only: Can be set to ignore the buffer control register for this"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 611,
+      "number": 506,
       "children": [
         {
           "kind": "span",
@@ -25536,13 +20872,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  endpoint in case you would like to revoke a buffer. A NAK will be sent"
+          "text": "--  Which of the double buffers should be handled. Only valid if using an"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 612,
+      "number": 507,
       "children": [
         {
           "kind": "span",
@@ -25552,13 +20888,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  for every access to the endpoint until this bit is cleared. A"
+          "text": "--  interrupt per buffer (i.e. not per 2 buffers). Not valid for host"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 613,
+      "number": 508,
       "children": [
         {
           "kind": "span",
@@ -25568,29 +20904,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  corresponding bit in `EP_ABORT_DONE` is set when it is safe to modify"
+          "text": "--  interrupt endpoint polling because they are only single buffered."
         }
       ]
     },
     {
       "kind": "line",
-      "number": 614,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  the buffer control register."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 615,
+      "number": 509,
       "children": [
         {
           "kind": "span",
@@ -25610,8 +20930,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP_ABORT_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L615C9"
+          "text": "BUFF_CPU_SHOULD_HANDLE_Register",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L509C9"
         },
         {
           "kind": "span",
@@ -25637,7 +20957,23 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 616,
+      "number": 510,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 511,
       "children": [
         {
           "kind": "span",
@@ -25648,7 +20984,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP0_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L616C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L511C7"
         },
         {
           "kind": "span",
@@ -25672,26 +21008,6 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -25699,7 +21015,23 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 617,
+      "number": 512,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 513,
       "children": [
         {
           "kind": "span",
@@ -25710,7 +21042,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP0_OUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L617C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L513C7"
         },
         {
           "kind": "span",
@@ -25734,26 +21066,6 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -25761,7 +21073,23 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 618,
+      "number": 514,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 515,
       "children": [
         {
           "kind": "span",
@@ -25772,7 +21100,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP1_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L618C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L515C7"
         },
         {
           "kind": "span",
@@ -25796,28 +21124,4562 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 516,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 517,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP1_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L517C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
           "cssClass": "text",
           "text": " "
         },
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
+          "text": "Boolean"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 518,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 519,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP2_IN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L519C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 520,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 521,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP2_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L521C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 522,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 523,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP3_IN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L523C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 524,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 525,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP3_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L525C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 526,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 527,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP4_IN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L527C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 528,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 529,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP4_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L529C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 530,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 531,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP5_IN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L531C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 532,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 533,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP5_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L533C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 534,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 535,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP6_IN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L535C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 536,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 537,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP6_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L537C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 538,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 539,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP7_IN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L539C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 540,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 541,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP7_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L541C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 542,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 543,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP8_IN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L543C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 544,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 545,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP8_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L545C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 546,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 547,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP9_IN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L547C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 548,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 549,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP9_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L549C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 550,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 551,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP10_IN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L551C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 552,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 553,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP10_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L553C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 554,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 555,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP11_IN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L555C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 556,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 557,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP11_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L557C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 558,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 559,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP12_IN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L559C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 560,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 561,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP12_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L561C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 562,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 563,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP13_IN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L563C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 564,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 565,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP13_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L565C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 566,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 567,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP14_IN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L567C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 568,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 569,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP14_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L569C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 570,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 571,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP15_IN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L571C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 572,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 573,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP15_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L573C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 574,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "end"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "record"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 575,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Volatile_Full_Access, Object_Size => 32,"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 576,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "          Bit_Order => System.Low_Order_First"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 577,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 578,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "for"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "BUFF_CPU_SHOULD_HANDLE_Register",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L509C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "use"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "record"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 579,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP0_IN"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 580,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP0_OUT"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "1"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "1"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 581,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP1_IN"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "2"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "2"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 582,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP1_OUT"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "3"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "3"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 583,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP2_IN"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 584,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP2_OUT"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "5"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "5"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 585,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP3_IN"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "6"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "6"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 586,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP3_OUT"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 587,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP4_IN"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 588,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP4_OUT"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 589,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP5_IN"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "10"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "10"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 590,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP5_OUT"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 591,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP6_IN"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 592,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP6_OUT"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 593,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP7_IN"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "14"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "14"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 594,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP7_OUT"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "15"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "15"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 595,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP8_IN"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 596,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP8_OUT"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "17"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "17"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 597,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP9_IN"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "18"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "18"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 598,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP9_OUT"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "19"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "19"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 599,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP10_IN"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "20"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "20"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 600,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP10_OUT"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "21"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "21"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 601,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP11_IN"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "22"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "22"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 602,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP11_OUT"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "23"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "23"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 603,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP12_IN"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "24"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "24"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 604,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP12_OUT"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "25"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "25"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 605,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP13_IN"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "26"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "26"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 606,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP13_OUT"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "27"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "27"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 607,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP14_IN"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "28"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "28"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 608,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP14_OUT"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "29"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "29"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 609,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP15_IN"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "30"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "30"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 610,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP15_OUT"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "31"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "31"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 611,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "end"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "record"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 612,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 613,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Device only: Can be set to ignore the buffer control register for this"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 614,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  endpoint in case you would like to revoke a buffer. A NAK will be sent"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 615,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  for every access to the endpoint until this bit is cleared. A"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 616,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  corresponding bit in `EP_ABORT_DONE` is set when it is safe to modify"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 617,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  the buffer control register."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 618,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP_ABORT_Register",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L618C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "record"
         }
       ]
     },
@@ -25833,13 +25695,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP1_OUT",
+          "text": "EP0_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L619C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -25895,13 +25757,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP2_IN",
+          "text": "EP0_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L620C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -25957,13 +25819,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP2_OUT",
+          "text": "EP1_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L621C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -26019,13 +25881,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP3_IN",
+          "text": "EP1_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L622C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -26081,13 +25943,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP3_OUT",
+          "text": "EP2_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L623C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -26143,13 +26005,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP4_IN",
+          "text": "EP2_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L624C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -26205,13 +26067,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP4_OUT",
+          "text": "EP3_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L625C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -26267,13 +26129,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP5_IN",
+          "text": "EP3_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L626C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -26329,13 +26191,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP5_OUT",
+          "text": "EP4_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L627C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -26391,13 +26253,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP6_IN",
+          "text": "EP4_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L628C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -26453,13 +26315,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP6_OUT",
+          "text": "EP5_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L629C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -26515,13 +26377,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP7_IN",
+          "text": "EP5_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L630C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -26577,13 +26439,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP7_OUT",
+          "text": "EP6_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L631C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -26639,13 +26501,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP8_IN",
+          "text": "EP6_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L632C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -26701,13 +26563,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP8_OUT",
+          "text": "EP7_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L633C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -26763,13 +26625,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP9_IN",
+          "text": "EP7_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L634C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -26825,13 +26687,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP9_OUT",
+          "text": "EP8_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L635C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -26887,7 +26749,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP10_IN",
+          "text": "EP8_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L636C7"
         },
         {
@@ -26949,13 +26811,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP10_OUT",
+          "text": "EP9_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L637C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -27011,7 +26873,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP11_IN",
+          "text": "EP9_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L638C7"
         },
         {
@@ -27073,13 +26935,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP11_OUT",
+          "text": "EP10_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L639C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -27135,13 +26997,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP12_IN",
+          "text": "EP10_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L640C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -27197,13 +27059,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP12_OUT",
+          "text": "EP11_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L641C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -27259,13 +27121,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP13_IN",
+          "text": "EP11_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L642C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -27321,13 +27183,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP13_OUT",
+          "text": "EP12_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L643C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -27383,13 +27245,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP14_IN",
+          "text": "EP12_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L644C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -27445,13 +27307,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP14_OUT",
+          "text": "EP13_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L645C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -27507,13 +27369,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP15_IN",
+          "text": "EP13_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L646C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -27569,13 +27431,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP15_OUT",
+          "text": "EP14_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L647C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -27626,6 +27488,192 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP14_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L648C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 649,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP15_IN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L649C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 650,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP15_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L650C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 651,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
           "text": "   "
         },
         {
@@ -27647,7 +27695,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 649,
+      "number": 652,
       "children": [
         {
           "kind": "span",
@@ -27668,7 +27716,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 650,
+      "number": 653,
       "children": [
         {
           "kind": "span",
@@ -27684,13 +27732,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 651,
+      "number": 654,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 652,
+      "number": 655,
       "children": [
         {
           "kind": "span",
@@ -27711,7 +27759,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_ABORT_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L615C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L618C9"
         },
         {
           "kind": "span",
@@ -27737,7 +27785,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 653,
+      "number": 656,
       "children": [
         {
           "kind": "span",
@@ -27818,7 +27866,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 654,
+      "number": 657,
       "children": [
         {
           "kind": "span",
@@ -27899,7 +27947,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 655,
+      "number": 658,
       "children": [
         {
           "kind": "span",
@@ -27980,7 +28028,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 656,
+      "number": 659,
       "children": [
         {
           "kind": "span",
@@ -28061,7 +28109,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 657,
+      "number": 660,
       "children": [
         {
           "kind": "span",
@@ -28142,7 +28190,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 658,
+      "number": 661,
       "children": [
         {
           "kind": "span",
@@ -28223,7 +28271,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 659,
+      "number": 662,
       "children": [
         {
           "kind": "span",
@@ -28304,7 +28352,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 660,
+      "number": 663,
       "children": [
         {
           "kind": "span",
@@ -28385,7 +28433,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 661,
+      "number": 664,
       "children": [
         {
           "kind": "span",
@@ -28466,7 +28514,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 662,
+      "number": 665,
       "children": [
         {
           "kind": "span",
@@ -28547,7 +28595,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 663,
+      "number": 666,
       "children": [
         {
           "kind": "span",
@@ -28628,7 +28676,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 664,
+      "number": 667,
       "children": [
         {
           "kind": "span",
@@ -28709,7 +28757,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 665,
+      "number": 668,
       "children": [
         {
           "kind": "span",
@@ -28790,7 +28838,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 666,
+      "number": 669,
       "children": [
         {
           "kind": "span",
@@ -28871,7 +28919,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 667,
+      "number": 670,
       "children": [
         {
           "kind": "span",
@@ -28952,7 +29000,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 668,
+      "number": 671,
       "children": [
         {
           "kind": "span",
@@ -29033,7 +29081,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 669,
+      "number": 672,
       "children": [
         {
           "kind": "span",
@@ -29114,7 +29162,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 670,
+      "number": 673,
       "children": [
         {
           "kind": "span",
@@ -29195,7 +29243,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 671,
+      "number": 674,
       "children": [
         {
           "kind": "span",
@@ -29276,7 +29324,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 672,
+      "number": 675,
       "children": [
         {
           "kind": "span",
@@ -29357,7 +29405,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 673,
+      "number": 676,
       "children": [
         {
           "kind": "span",
@@ -29438,7 +29486,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 674,
+      "number": 677,
       "children": [
         {
           "kind": "span",
@@ -29519,7 +29567,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 675,
+      "number": 678,
       "children": [
         {
           "kind": "span",
@@ -29600,7 +29648,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 676,
+      "number": 679,
       "children": [
         {
           "kind": "span",
@@ -29681,7 +29729,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 677,
+      "number": 680,
       "children": [
         {
           "kind": "span",
@@ -29762,7 +29810,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 678,
+      "number": 681,
       "children": [
         {
           "kind": "span",
@@ -29843,7 +29891,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 679,
+      "number": 682,
       "children": [
         {
           "kind": "span",
@@ -29924,7 +29972,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 680,
+      "number": 683,
       "children": [
         {
           "kind": "span",
@@ -30005,7 +30053,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 681,
+      "number": 684,
       "children": [
         {
           "kind": "span",
@@ -30086,7 +30134,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 682,
+      "number": 685,
       "children": [
         {
           "kind": "span",
@@ -30167,7 +30215,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 683,
+      "number": 686,
       "children": [
         {
           "kind": "span",
@@ -30248,7 +30296,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 684,
+      "number": 687,
       "children": [
         {
           "kind": "span",
@@ -30329,7 +30377,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 685,
+      "number": 688,
       "children": [
         {
           "kind": "span",
@@ -30360,13 +30408,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 686,
+      "number": 689,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 687,
+      "number": 690,
       "children": [
         {
           "kind": "span",
@@ -30382,7 +30430,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 688,
+      "number": 691,
       "children": [
         {
           "kind": "span",
@@ -30398,7 +30446,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 689,
+      "number": 692,
       "children": [
         {
           "kind": "span",
@@ -30414,7 +30462,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 690,
+      "number": 693,
       "children": [
         {
           "kind": "span",
@@ -30435,7 +30483,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_ABORT_DONE_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L690C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L693C9"
         },
         {
           "kind": "span",
@@ -30456,100 +30504,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "keyword",
           "text": "record"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 691,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 692,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  in the field."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 693,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP0_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L693C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
         }
       ]
     },
@@ -30597,13 +30551,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP0_OUT",
+          "text": "EP0_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L696C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -30691,13 +30645,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP1_IN",
+          "text": "EP0_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L699C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -30785,13 +30739,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP1_OUT",
+          "text": "EP1_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L702C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -30879,13 +30833,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP2_IN",
+          "text": "EP1_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L705C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -30973,13 +30927,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP2_OUT",
+          "text": "EP2_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L708C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -31067,13 +31021,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP3_IN",
+          "text": "EP2_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L711C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -31161,13 +31115,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP3_OUT",
+          "text": "EP3_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L714C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -31255,13 +31209,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP4_IN",
+          "text": "EP3_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L717C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -31349,13 +31303,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP4_OUT",
+          "text": "EP4_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L720C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -31443,13 +31397,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP5_IN",
+          "text": "EP4_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L723C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -31537,13 +31491,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP5_OUT",
+          "text": "EP5_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L726C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -31631,13 +31585,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP6_IN",
+          "text": "EP5_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L729C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -31725,13 +31679,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP6_OUT",
+          "text": "EP6_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L732C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -31819,13 +31773,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP7_IN",
+          "text": "EP6_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L735C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -31913,13 +31867,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP7_OUT",
+          "text": "EP7_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L738C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -32007,13 +31961,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP8_IN",
+          "text": "EP7_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L741C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -32101,13 +32055,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP8_OUT",
+          "text": "EP8_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L744C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -32195,13 +32149,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP9_IN",
+          "text": "EP8_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L747C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -32289,13 +32243,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP9_OUT",
+          "text": "EP9_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L750C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -32383,7 +32337,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP10_IN",
+          "text": "EP9_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L753C7"
         },
         {
@@ -32477,13 +32431,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP10_OUT",
+          "text": "EP10_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L756C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -32571,13 +32525,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP11_IN",
+          "text": "EP10_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L759C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -32665,13 +32619,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP11_OUT",
+          "text": "EP11_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L762C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -32759,13 +32713,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP12_IN",
+          "text": "EP11_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L765C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -32853,13 +32807,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP12_OUT",
+          "text": "EP12_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L768C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -32947,13 +32901,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP13_IN",
+          "text": "EP12_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L771C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -33041,13 +32995,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP13_OUT",
+          "text": "EP13_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L774C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -33135,13 +33089,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP14_IN",
+          "text": "EP13_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L777C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -33229,13 +33183,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP14_OUT",
+          "text": "EP14_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L780C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -33323,13 +33277,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP15_IN",
+          "text": "EP14_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L783C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -33417,13 +33371,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP15_OUT",
+          "text": "EP15_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L786C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -33474,6 +33428,100 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 788,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  in the field."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 789,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP15_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L789C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 790,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
           "text": "   "
         },
         {
@@ -33495,7 +33543,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 788,
+      "number": 791,
       "children": [
         {
           "kind": "span",
@@ -33516,7 +33564,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 789,
+      "number": 792,
       "children": [
         {
           "kind": "span",
@@ -33532,13 +33580,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 790,
+      "number": 793,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 791,
+      "number": 794,
       "children": [
         {
           "kind": "span",
@@ -33559,7 +33607,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_ABORT_DONE_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L690C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L693C9"
         },
         {
           "kind": "span",
@@ -33585,7 +33633,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 792,
+      "number": 795,
       "children": [
         {
           "kind": "span",
@@ -33666,7 +33714,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 793,
+      "number": 796,
       "children": [
         {
           "kind": "span",
@@ -33747,7 +33795,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 794,
+      "number": 797,
       "children": [
         {
           "kind": "span",
@@ -33828,7 +33876,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 795,
+      "number": 798,
       "children": [
         {
           "kind": "span",
@@ -33909,7 +33957,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 796,
+      "number": 799,
       "children": [
         {
           "kind": "span",
@@ -33990,7 +34038,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 797,
+      "number": 800,
       "children": [
         {
           "kind": "span",
@@ -34071,7 +34119,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 798,
+      "number": 801,
       "children": [
         {
           "kind": "span",
@@ -34152,7 +34200,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 799,
+      "number": 802,
       "children": [
         {
           "kind": "span",
@@ -34233,7 +34281,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 800,
+      "number": 803,
       "children": [
         {
           "kind": "span",
@@ -34314,7 +34362,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 801,
+      "number": 804,
       "children": [
         {
           "kind": "span",
@@ -34395,7 +34443,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 802,
+      "number": 805,
       "children": [
         {
           "kind": "span",
@@ -34476,7 +34524,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 803,
+      "number": 806,
       "children": [
         {
           "kind": "span",
@@ -34557,7 +34605,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 804,
+      "number": 807,
       "children": [
         {
           "kind": "span",
@@ -34638,7 +34686,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 805,
+      "number": 808,
       "children": [
         {
           "kind": "span",
@@ -34719,7 +34767,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 806,
+      "number": 809,
       "children": [
         {
           "kind": "span",
@@ -34800,7 +34848,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 807,
+      "number": 810,
       "children": [
         {
           "kind": "span",
@@ -34881,7 +34929,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 808,
+      "number": 811,
       "children": [
         {
           "kind": "span",
@@ -34962,7 +35010,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 809,
+      "number": 812,
       "children": [
         {
           "kind": "span",
@@ -35043,7 +35091,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 810,
+      "number": 813,
       "children": [
         {
           "kind": "span",
@@ -35124,7 +35172,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 811,
+      "number": 814,
       "children": [
         {
           "kind": "span",
@@ -35205,7 +35253,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 812,
+      "number": 815,
       "children": [
         {
           "kind": "span",
@@ -35286,7 +35334,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 813,
+      "number": 816,
       "children": [
         {
           "kind": "span",
@@ -35367,7 +35415,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 814,
+      "number": 817,
       "children": [
         {
           "kind": "span",
@@ -35448,7 +35496,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 815,
+      "number": 818,
       "children": [
         {
           "kind": "span",
@@ -35529,7 +35577,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 816,
+      "number": 819,
       "children": [
         {
           "kind": "span",
@@ -35610,7 +35658,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 817,
+      "number": 820,
       "children": [
         {
           "kind": "span",
@@ -35691,7 +35739,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 818,
+      "number": 821,
       "children": [
         {
           "kind": "span",
@@ -35772,7 +35820,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 819,
+      "number": 822,
       "children": [
         {
           "kind": "span",
@@ -35853,7 +35901,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 820,
+      "number": 823,
       "children": [
         {
           "kind": "span",
@@ -35934,7 +35982,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 821,
+      "number": 824,
       "children": [
         {
           "kind": "span",
@@ -36015,7 +36063,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 822,
+      "number": 825,
       "children": [
         {
           "kind": "span",
@@ -36096,7 +36144,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 823,
+      "number": 826,
       "children": [
         {
           "kind": "span",
@@ -36177,7 +36225,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 824,
+      "number": 827,
       "children": [
         {
           "kind": "span",
@@ -36208,13 +36256,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 825,
+      "number": 828,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 826,
+      "number": 829,
       "children": [
         {
           "kind": "span",
@@ -36230,7 +36278,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 827,
+      "number": 830,
       "children": [
         {
           "kind": "span",
@@ -36246,7 +36294,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 828,
+      "number": 831,
       "children": [
         {
           "kind": "span",
@@ -36262,7 +36310,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 829,
+      "number": 832,
       "children": [
         {
           "kind": "span",
@@ -36278,7 +36326,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 830,
+      "number": 833,
       "children": [
         {
           "kind": "span",
@@ -36294,7 +36342,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 831,
+      "number": 834,
       "children": [
         {
           "kind": "span",
@@ -36315,7 +36363,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_STALL_ARM_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L831C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L834C9"
         },
         {
           "kind": "span",
@@ -36341,7 +36389,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 832,
+      "number": 835,
       "children": [
         {
           "kind": "span",
@@ -36352,7 +36400,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP0_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L832C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L835C7"
         },
         {
           "kind": "span",
@@ -36403,7 +36451,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 833,
+      "number": 836,
       "children": [
         {
           "kind": "span",
@@ -36414,7 +36462,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP0_OUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L833C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L836C7"
         },
         {
           "kind": "span",
@@ -36465,7 +36513,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 834,
+      "number": 837,
       "children": [
         {
           "kind": "span",
@@ -36481,7 +36529,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 835,
+      "number": 838,
       "children": [
         {
           "kind": "span",
@@ -36492,7 +36540,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_2_31",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L835C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L838C7"
         },
         {
           "kind": "span",
@@ -36559,7 +36607,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 836,
+      "number": 839,
       "children": [
         {
           "kind": "span",
@@ -36585,7 +36633,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 837,
+      "number": 840,
       "children": [
         {
           "kind": "span",
@@ -36606,7 +36654,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 838,
+      "number": 841,
       "children": [
         {
           "kind": "span",
@@ -36622,13 +36670,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 839,
+      "number": 842,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 840,
+      "number": 843,
       "children": [
         {
           "kind": "span",
@@ -36649,7 +36697,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_STALL_ARM_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L831C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L834C9"
         },
         {
           "kind": "span",
@@ -36675,7 +36723,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 841,
+      "number": 844,
       "children": [
         {
           "kind": "span",
@@ -36756,7 +36804,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 842,
+      "number": 845,
       "children": [
         {
           "kind": "span",
@@ -36837,7 +36885,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 843,
+      "number": 846,
       "children": [
         {
           "kind": "span",
@@ -36918,7 +36966,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 844,
+      "number": 847,
       "children": [
         {
           "kind": "span",
@@ -36939,118 +36987,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "keyword",
           "text": "record"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 845,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 846,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "subtype"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "NAK_POLL_DELAY_LS_Field",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L846C12"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt10",
-          "href": "docs/hal___spec.html#L54C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 847,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "subtype"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "NAK_POLL_DELAY_FS_Field",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L847C12"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt10",
-          "href": "docs/hal___spec.html#L54C9"
         },
         {
           "kind": "span",
@@ -37076,6 +37012,118 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "keyword",
+          "text": "subtype"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "NAK_POLL_DELAY_LS_Field",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L849C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt10",
+          "href": "docs/hal___spec.html#L54C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 850,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "subtype"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "NAK_POLL_DELAY_FS_Field",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L850C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt10",
+          "href": "docs/hal___spec.html#L54C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 851,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 852,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
           "cssClass": "comment",
           "text": "--  Used by the host controller. Sets the wait time in microseconds before"
         }
@@ -37083,7 +37131,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 850,
+      "number": 853,
       "children": [
         {
           "kind": "span",
@@ -37099,7 +37147,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 851,
+      "number": 854,
       "children": [
         {
           "kind": "span",
@@ -37120,7 +37168,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "NAK_POLL_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L851C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L854C9"
         },
         {
           "kind": "span",
@@ -37146,7 +37194,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 852,
+      "number": 855,
       "children": [
         {
           "kind": "span",
@@ -37162,7 +37210,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 853,
+      "number": 856,
       "children": [
         {
           "kind": "span",
@@ -37173,7 +37221,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DELAY_LS",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L853C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L856C7"
         },
         {
           "kind": "span",
@@ -37194,7 +37242,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "NAK_POLL_DELAY_LS_Field",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L846C12"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L849C12"
         },
         {
           "kind": "span",
@@ -37240,7 +37288,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 854,
+      "number": 857,
       "children": [
         {
           "kind": "span",
@@ -37256,7 +37304,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 855,
+      "number": 858,
       "children": [
         {
           "kind": "span",
@@ -37267,7 +37315,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_10_15",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L855C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L858C7"
         },
         {
           "kind": "span",
@@ -37334,7 +37382,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 856,
+      "number": 859,
       "children": [
         {
           "kind": "span",
@@ -37350,7 +37398,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 857,
+      "number": 860,
       "children": [
         {
           "kind": "span",
@@ -37361,7 +37409,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DELAY_FS",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L857C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L860C7"
         },
         {
           "kind": "span",
@@ -37382,7 +37430,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "NAK_POLL_DELAY_FS_Field",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L847C12"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L850C12"
         },
         {
           "kind": "span",
@@ -37428,7 +37476,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 858,
+      "number": 861,
       "children": [
         {
           "kind": "span",
@@ -37444,7 +37492,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 859,
+      "number": 862,
       "children": [
         {
           "kind": "span",
@@ -37455,7 +37503,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_26_31",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L859C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L862C7"
         },
         {
           "kind": "span",
@@ -37522,7 +37570,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 860,
+      "number": 863,
       "children": [
         {
           "kind": "span",
@@ -37548,7 +37596,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 861,
+      "number": 864,
       "children": [
         {
           "kind": "span",
@@ -37569,7 +37617,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 862,
+      "number": 865,
       "children": [
         {
           "kind": "span",
@@ -37585,13 +37633,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 863,
+      "number": 866,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 864,
+      "number": 867,
       "children": [
         {
           "kind": "span",
@@ -37612,7 +37660,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "NAK_POLL_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L851C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L854C9"
         },
         {
           "kind": "span",
@@ -37638,7 +37686,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 865,
+      "number": 868,
       "children": [
         {
           "kind": "span",
@@ -37719,7 +37767,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 866,
+      "number": 869,
       "children": [
         {
           "kind": "span",
@@ -37800,7 +37848,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 867,
+      "number": 870,
       "children": [
         {
           "kind": "span",
@@ -37881,7 +37929,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 868,
+      "number": 871,
       "children": [
         {
           "kind": "span",
@@ -37962,7 +38010,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 869,
+      "number": 872,
       "children": [
         {
           "kind": "span",
@@ -37993,13 +38041,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 870,
+      "number": 873,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 871,
+      "number": 874,
       "children": [
         {
           "kind": "span",
@@ -38015,7 +38063,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 872,
+      "number": 875,
       "children": [
         {
           "kind": "span",
@@ -38031,7 +38079,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 873,
+      "number": 876,
       "children": [
         {
           "kind": "span",
@@ -38047,7 +38095,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 874,
+      "number": 877,
       "children": [
         {
           "kind": "span",
@@ -38068,7 +38116,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_STATUS_STALL_NAK_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L874C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L877C9"
         },
         {
           "kind": "span",
@@ -38089,100 +38137,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "keyword",
           "text": "record"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 875,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 876,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  in the field."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 877,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "EP0_IN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L877C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
         }
       ]
     },
@@ -38230,13 +38184,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP0_OUT",
+          "text": "EP0_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L880C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -38324,13 +38278,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP1_IN",
+          "text": "EP0_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L883C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -38418,13 +38372,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP1_OUT",
+          "text": "EP1_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L886C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -38512,13 +38466,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP2_IN",
+          "text": "EP1_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L889C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -38606,13 +38560,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP2_OUT",
+          "text": "EP2_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L892C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -38700,13 +38654,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP3_IN",
+          "text": "EP2_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L895C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -38794,13 +38748,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP3_OUT",
+          "text": "EP3_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L898C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -38888,13 +38842,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP4_IN",
+          "text": "EP3_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L901C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -38982,13 +38936,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP4_OUT",
+          "text": "EP4_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L904C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -39076,13 +39030,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP5_IN",
+          "text": "EP4_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L907C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -39170,13 +39124,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP5_OUT",
+          "text": "EP5_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L910C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -39264,13 +39218,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP6_IN",
+          "text": "EP5_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L913C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -39358,13 +39312,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP6_OUT",
+          "text": "EP6_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L916C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -39452,13 +39406,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP7_IN",
+          "text": "EP6_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L919C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -39546,13 +39500,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP7_OUT",
+          "text": "EP7_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L922C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -39640,13 +39594,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP8_IN",
+          "text": "EP7_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L925C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -39734,13 +39688,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP8_OUT",
+          "text": "EP8_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L928C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -39828,13 +39782,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP9_IN",
+          "text": "EP8_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L931C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -39922,13 +39876,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP9_OUT",
+          "text": "EP9_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L934C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -40016,7 +39970,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP10_IN",
+          "text": "EP9_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L937C7"
         },
         {
@@ -40110,13 +40064,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP10_OUT",
+          "text": "EP10_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L940C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -40204,13 +40158,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP11_IN",
+          "text": "EP10_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L943C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -40298,13 +40252,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP11_OUT",
+          "text": "EP11_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L946C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -40392,13 +40346,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP12_IN",
+          "text": "EP11_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L949C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -40486,13 +40440,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP12_OUT",
+          "text": "EP12_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L952C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -40580,13 +40534,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP13_IN",
+          "text": "EP12_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L955C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -40674,13 +40628,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP13_OUT",
+          "text": "EP13_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L958C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -40768,13 +40722,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP14_IN",
+          "text": "EP13_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L961C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -40862,13 +40816,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP14_OUT",
+          "text": "EP14_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L964C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -40956,13 +40910,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP15_IN",
+          "text": "EP14_OUT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L967C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -41050,13 +41004,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP15_OUT",
+          "text": "EP15_IN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L970C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -41107,6 +41061,100 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 972,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  in the field."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 973,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP15_OUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L973C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 974,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
           "text": "   "
         },
         {
@@ -41128,7 +41176,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 972,
+      "number": 975,
       "children": [
         {
           "kind": "span",
@@ -41149,7 +41197,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 973,
+      "number": 976,
       "children": [
         {
           "kind": "span",
@@ -41165,13 +41213,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 974,
+      "number": 977,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 975,
+      "number": 978,
       "children": [
         {
           "kind": "span",
@@ -41192,7 +41240,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_STATUS_STALL_NAK_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L874C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L877C9"
         },
         {
           "kind": "span",
@@ -41218,7 +41266,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 976,
+      "number": 979,
       "children": [
         {
           "kind": "span",
@@ -41299,7 +41347,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 977,
+      "number": 980,
       "children": [
         {
           "kind": "span",
@@ -41380,7 +41428,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 978,
+      "number": 981,
       "children": [
         {
           "kind": "span",
@@ -41461,7 +41509,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 979,
+      "number": 982,
       "children": [
         {
           "kind": "span",
@@ -41542,7 +41590,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 980,
+      "number": 983,
       "children": [
         {
           "kind": "span",
@@ -41623,7 +41671,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 981,
+      "number": 984,
       "children": [
         {
           "kind": "span",
@@ -41704,7 +41752,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 982,
+      "number": 985,
       "children": [
         {
           "kind": "span",
@@ -41785,7 +41833,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 983,
+      "number": 986,
       "children": [
         {
           "kind": "span",
@@ -41866,7 +41914,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 984,
+      "number": 987,
       "children": [
         {
           "kind": "span",
@@ -41947,7 +41995,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 985,
+      "number": 988,
       "children": [
         {
           "kind": "span",
@@ -42028,7 +42076,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 986,
+      "number": 989,
       "children": [
         {
           "kind": "span",
@@ -42109,7 +42157,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 987,
+      "number": 990,
       "children": [
         {
           "kind": "span",
@@ -42190,7 +42238,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 988,
+      "number": 991,
       "children": [
         {
           "kind": "span",
@@ -42271,7 +42319,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 989,
+      "number": 992,
       "children": [
         {
           "kind": "span",
@@ -42352,7 +42400,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 990,
+      "number": 993,
       "children": [
         {
           "kind": "span",
@@ -42433,7 +42481,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 991,
+      "number": 994,
       "children": [
         {
           "kind": "span",
@@ -42514,7 +42562,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 992,
+      "number": 995,
       "children": [
         {
           "kind": "span",
@@ -42595,7 +42643,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 993,
+      "number": 996,
       "children": [
         {
           "kind": "span",
@@ -42676,7 +42724,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 994,
+      "number": 997,
       "children": [
         {
           "kind": "span",
@@ -42757,7 +42805,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 995,
+      "number": 998,
       "children": [
         {
           "kind": "span",
@@ -42838,7 +42886,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 996,
+      "number": 999,
       "children": [
         {
           "kind": "span",
@@ -42919,7 +42967,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 997,
+      "number": 1000,
       "children": [
         {
           "kind": "span",
@@ -43000,7 +43048,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 998,
+      "number": 1001,
       "children": [
         {
           "kind": "span",
@@ -43081,7 +43129,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 999,
+      "number": 1002,
       "children": [
         {
           "kind": "span",
@@ -43162,7 +43210,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1000,
+      "number": 1003,
       "children": [
         {
           "kind": "span",
@@ -43243,7 +43291,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1001,
+      "number": 1004,
       "children": [
         {
           "kind": "span",
@@ -43324,7 +43372,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1002,
+      "number": 1005,
       "children": [
         {
           "kind": "span",
@@ -43405,7 +43453,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1003,
+      "number": 1006,
       "children": [
         {
           "kind": "span",
@@ -43486,7 +43534,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1004,
+      "number": 1007,
       "children": [
         {
           "kind": "span",
@@ -43567,7 +43615,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1005,
+      "number": 1008,
       "children": [
         {
           "kind": "span",
@@ -43648,7 +43696,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1006,
+      "number": 1009,
       "children": [
         {
           "kind": "span",
@@ -43729,7 +43777,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1007,
+      "number": 1010,
       "children": [
         {
           "kind": "span",
@@ -43810,7 +43858,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1008,
+      "number": 1011,
       "children": [
         {
           "kind": "span",
@@ -43841,13 +43889,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1009,
+      "number": 1012,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1010,
+      "number": 1013,
       "children": [
         {
           "kind": "span",
@@ -43863,7 +43911,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1011,
+      "number": 1014,
       "children": [
         {
           "kind": "span",
@@ -43884,7 +43932,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_MUXING_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1011C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1014C9"
         },
         {
           "kind": "span",
@@ -43910,192 +43958,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1012,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "TO_PHY",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1012C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1013,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "TO_EXTPHY",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1013C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1014,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "TO_DIGITAL_PAD",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1014C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 1015,
       "children": [
         {
@@ -44106,13 +43968,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "SOFTCON",
+          "text": "TO_PHY",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1015C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "        "
+          "text": "         "
         },
         {
           "kind": "span",
@@ -44167,8 +44029,54 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  unspecified"
+          "cssClass": "identifier",
+          "text": "TO_EXTPHY",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1016C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -44184,8 +44092,148 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Reserved_4_31",
+          "text": "TO_DIGITAL_PAD",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1017C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1018,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "SOFTCON",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1018C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1019,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  unspecified"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1020,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Reserved_4_31",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1020C7"
         },
         {
           "kind": "span",
@@ -44252,7 +44300,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1018,
+      "number": 1021,
       "children": [
         {
           "kind": "span",
@@ -44278,7 +44326,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1019,
+      "number": 1022,
       "children": [
         {
           "kind": "span",
@@ -44299,7 +44347,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1020,
+      "number": 1023,
       "children": [
         {
           "kind": "span",
@@ -44315,13 +44363,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1021,
+      "number": 1024,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1022,
+      "number": 1025,
       "children": [
         {
           "kind": "span",
@@ -44342,7 +44390,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_MUXING_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1011C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1014C9"
         },
         {
           "kind": "span",
@@ -44368,7 +44416,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1023,
+      "number": 1026,
       "children": [
         {
           "kind": "span",
@@ -44449,7 +44497,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1024,
+      "number": 1027,
       "children": [
         {
           "kind": "span",
@@ -44530,7 +44578,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1025,
+      "number": 1028,
       "children": [
         {
           "kind": "span",
@@ -44611,7 +44659,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1026,
+      "number": 1029,
       "children": [
         {
           "kind": "span",
@@ -44692,7 +44740,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1027,
+      "number": 1030,
       "children": [
         {
           "kind": "span",
@@ -44773,7 +44821,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1028,
+      "number": 1031,
       "children": [
         {
           "kind": "span",
@@ -44804,13 +44852,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1029,
+      "number": 1032,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1030,
+      "number": 1033,
       "children": [
         {
           "kind": "span",
@@ -44826,7 +44874,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1031,
+      "number": 1034,
       "children": [
         {
           "kind": "span",
@@ -44842,7 +44890,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1032,
+      "number": 1035,
       "children": [
         {
           "kind": "span",
@@ -44858,7 +44906,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1033,
+      "number": 1036,
       "children": [
         {
           "kind": "span",
@@ -44879,7 +44927,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_PWR_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1033C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1036C9"
         },
         {
           "kind": "span",
@@ -44905,192 +44953,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1034,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "VBUS_EN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1034C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "                 "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1035,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "VBUS_EN_OVERRIDE_EN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1035C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1036,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "VBUS_DETECT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1036C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "             "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 1037,
       "children": [
         {
@@ -45101,13 +44963,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "VBUS_DETECT_OVERRIDE_EN",
+          "text": "VBUS_EN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1037C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "                 "
         },
         {
           "kind": "span",
@@ -45163,13 +45025,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "OVERCURR_DETECT",
+          "text": "VBUS_EN_OVERRIDE_EN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1038C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "         "
+          "text": "     "
         },
         {
           "kind": "span",
@@ -45225,13 +45087,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "OVERCURR_DETECT_EN",
+          "text": "VBUS_DETECT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1039C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "      "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -45286,8 +45148,54 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  unspecified"
+          "cssClass": "identifier",
+          "text": "VBUS_DETECT_OVERRIDE_EN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1040C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -45303,8 +45211,148 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Reserved_6_31",
+          "text": "OVERCURR_DETECT",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1041C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "         "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1042,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "OVERCURR_DETECT_EN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1042C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1043,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  unspecified"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1044,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Reserved_6_31",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1044C7"
         },
         {
           "kind": "span",
@@ -45371,7 +45419,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1042,
+      "number": 1045,
       "children": [
         {
           "kind": "span",
@@ -45397,7 +45445,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1043,
+      "number": 1046,
       "children": [
         {
           "kind": "span",
@@ -45418,7 +45466,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1044,
+      "number": 1047,
       "children": [
         {
           "kind": "span",
@@ -45434,13 +45482,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1045,
+      "number": 1048,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1046,
+      "number": 1049,
       "children": [
         {
           "kind": "span",
@@ -45461,7 +45509,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_PWR_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1033C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1036C9"
         },
         {
           "kind": "span",
@@ -45487,7 +45535,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1047,
+      "number": 1050,
       "children": [
         {
           "kind": "span",
@@ -45568,7 +45616,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1048,
+      "number": 1051,
       "children": [
         {
           "kind": "span",
@@ -45649,7 +45697,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1049,
+      "number": 1052,
       "children": [
         {
           "kind": "span",
@@ -45730,7 +45778,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1050,
+      "number": 1053,
       "children": [
         {
           "kind": "span",
@@ -45811,7 +45859,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1051,
+      "number": 1054,
       "children": [
         {
           "kind": "span",
@@ -45892,7 +45940,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1052,
+      "number": 1055,
       "children": [
         {
           "kind": "span",
@@ -45973,7 +46021,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1053,
+      "number": 1056,
       "children": [
         {
           "kind": "span",
@@ -46054,7 +46102,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1054,
+      "number": 1057,
       "children": [
         {
           "kind": "span",
@@ -46085,13 +46133,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1055,
+      "number": 1058,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1056,
+      "number": 1059,
       "children": [
         {
           "kind": "span",
@@ -46107,7 +46155,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1057,
+      "number": 1060,
       "children": [
         {
           "kind": "span",
@@ -46123,7 +46171,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1058,
+      "number": 1061,
       "children": [
         {
           "kind": "span",
@@ -46139,7 +46187,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1059,
+      "number": 1062,
       "children": [
         {
           "kind": "span",
@@ -46160,7 +46208,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBPHY_DIRECT_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1059C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1062C9"
         },
         {
           "kind": "span",
@@ -46186,7 +46234,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1060,
+      "number": 1063,
       "children": [
         {
           "kind": "span",
@@ -46202,7 +46250,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1061,
+      "number": 1064,
       "children": [
         {
           "kind": "span",
@@ -46218,7 +46266,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1062,
+      "number": 1065,
       "children": [
         {
           "kind": "span",
@@ -46229,7 +46277,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DP_PULLUP_HISEL",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1062C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1065C7"
         },
         {
           "kind": "span",
@@ -46280,7 +46328,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1063,
+      "number": 1066,
       "children": [
         {
           "kind": "span",
@@ -46296,7 +46344,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1064,
+      "number": 1067,
       "children": [
         {
           "kind": "span",
@@ -46307,7 +46355,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DP_PULLUP_EN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1064C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1067C7"
         },
         {
           "kind": "span",
@@ -46358,7 +46406,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1065,
+      "number": 1068,
       "children": [
         {
           "kind": "span",
@@ -46374,7 +46422,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1066,
+      "number": 1069,
       "children": [
         {
           "kind": "span",
@@ -46385,7 +46433,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DP_PULLDN_EN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1066C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1069C7"
         },
         {
           "kind": "span",
@@ -46436,7 +46484,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1067,
+      "number": 1070,
       "children": [
         {
           "kind": "span",
@@ -46452,7 +46500,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1068,
+      "number": 1071,
       "children": [
         {
           "kind": "span",
@@ -46463,7 +46511,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_3_3",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1068C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1071C7"
         },
         {
           "kind": "span",
@@ -46520,100 +46568,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "#"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1069,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Enable the second DM pull up resistor. 0 - Pull = Rpu2; 1 - Pull ="
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1070,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Rpu1 + Rpu2"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1071,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "DM_PULLUP_HISEL",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1071C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
         },
         {
           "kind": "span",
@@ -46634,7 +46588,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DM pull up enable"
+          "text": "--  Enable the second DM pull up resistor. 0 - Pull = Rpu2; 1 - Pull ="
         }
       ]
     },
@@ -46649,9 +46603,103 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Rpu1 + Rpu2"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1074,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "DM_PULLUP_HISEL",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1074C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1075,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DM pull up enable"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1076,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "DM_PULLUP_EN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1073C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1076C7"
         },
         {
           "kind": "span",
@@ -46702,7 +46750,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1074,
+      "number": 1077,
       "children": [
         {
           "kind": "span",
@@ -46718,7 +46766,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1075,
+      "number": 1078,
       "children": [
         {
           "kind": "span",
@@ -46729,7 +46777,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DM_PULLDN_EN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1075C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1078C7"
         },
         {
           "kind": "span",
@@ -46780,7 +46828,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1076,
+      "number": 1079,
       "children": [
         {
           "kind": "span",
@@ -46796,7 +46844,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1077,
+      "number": 1080,
       "children": [
         {
           "kind": "span",
@@ -46807,7 +46855,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_7_7",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1077C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1080C7"
         },
         {
           "kind": "span",
@@ -46874,7 +46922,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1078,
+      "number": 1081,
       "children": [
         {
           "kind": "span",
@@ -46890,7 +46938,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1079,
+      "number": 1082,
       "children": [
         {
           "kind": "span",
@@ -46906,7 +46954,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1080,
+      "number": 1083,
       "children": [
         {
           "kind": "span",
@@ -46922,100 +46970,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1081,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "TX_DP_OE",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1081C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1082,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Output enable. If TX_DIFFMODE=1, Ignored.\\n If TX_DIFFMODE=0, OE for"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1083,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  DPM only. 0 - DPM in Hi-Z state; 1 - DPM driving"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 1084,
       "children": [
         {
@@ -47026,7 +46980,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "TX_DM_OE",
+          "text": "TX_DP_OE",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1084C7"
         },
         {
@@ -47088,7 +47042,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Output data. If TX_DIFFMODE=1, Drives DPP/DPM diff pair. TX_DP_OE=1"
+          "text": "--  Output enable. If TX_DIFFMODE=1, Ignored.\\n If TX_DIFFMODE=0, OE for"
         }
       ]
     },
@@ -47104,7 +47058,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  to enable drive. DPP=TX_DP, DPM=~TX_DP\\n If TX_DIFFMODE=0, Drives DPP"
+          "text": "--  DPM only. 0 - DPM in Hi-Z state; 1 - DPM driving"
         }
       ]
     },
@@ -47119,30 +47073,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  only. TX_DP_OE=1 to enable drive. DPP=TX_DP"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1088,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "TX_DP",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1088C7"
+          "text": "TX_DM_OE",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1087C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "        "
         },
         {
           "kind": "span",
@@ -47188,6 +47126,22 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 1088,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Output data. If TX_DIFFMODE=1, Drives DPP/DPM diff pair. TX_DP_OE=1"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 1089,
       "children": [
         {
@@ -47198,7 +47152,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Output data. TX_DIFFMODE=1, Ignored\\n TX_DIFFMODE=0, Drives DPM only."
+          "text": "--  to enable drive. DPP=TX_DP, DPM=~TX_DP\\n If TX_DIFFMODE=0, Drives DPP"
         }
       ]
     },
@@ -47214,7 +47168,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  TX_DM_OE=1 to enable drive. DPM=TX_DM"
+          "text": "--  only. TX_DP_OE=1 to enable drive. DPP=TX_DP"
         }
       ]
     },
@@ -47230,7 +47184,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "TX_DM",
+          "text": "TX_DP",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1091C7"
         },
         {
@@ -47292,7 +47246,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  RX power down override (if override enable is set). 1 = powered down."
+          "text": "--  Output data. TX_DIFFMODE=1, Ignored\\n TX_DIFFMODE=0, Drives DPM only."
         }
       ]
     },
@@ -47307,9 +47261,25 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  TX_DM_OE=1 to enable drive. DPM=TX_DM"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1094,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
-          "text": "RX_PD",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1093C7"
+          "text": "TX_DM",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1094C7"
         },
         {
           "kind": "span",
@@ -47360,7 +47330,85 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1094,
+      "number": 1095,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  RX power down override (if override enable is set). 1 = powered down."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1096,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "RX_PD",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1096C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "           "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1097,
       "children": [
         {
           "kind": "span",
@@ -47376,7 +47424,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1095,
+      "number": 1098,
       "children": [
         {
           "kind": "span",
@@ -47387,7 +47435,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TX_PD",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1095C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1098C7"
         },
         {
           "kind": "span",
@@ -47438,7 +47486,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1096,
+      "number": 1099,
       "children": [
         {
           "kind": "span",
@@ -47454,100 +47502,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1097,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "TX_FSSLEW",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1097C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1098,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  TX_DIFFMODE=0: Single ended mode\\n TX_DIFFMODE=1: Differential drive"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1099,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  mode (TX_DM, TX_DM_OE ignored)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 1100,
       "children": [
         {
@@ -47558,13 +47512,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "TX_DIFFMODE",
+          "text": "TX_FSSLEW",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1100C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "     "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -47620,7 +47574,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Differential RX"
+          "text": "--  TX_DIFFMODE=0: Single ended mode\\n TX_DIFFMODE=1: Differential drive"
         }
       ]
     },
@@ -47635,9 +47589,103 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  mode (TX_DM, TX_DM_OE ignored)"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1103,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "TX_DIFFMODE",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1103C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1104,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only. Differential RX"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1105,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "RX_DD",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1102C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1105C7"
         },
         {
           "kind": "span",
@@ -47688,7 +47736,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1103,
+      "number": 1106,
       "children": [
         {
           "kind": "span",
@@ -47704,7 +47752,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1104,
+      "number": 1107,
       "children": [
         {
           "kind": "span",
@@ -47715,7 +47763,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RX_DP",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1104C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1107C7"
         },
         {
           "kind": "span",
@@ -47766,7 +47814,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1105,
+      "number": 1108,
       "children": [
         {
           "kind": "span",
@@ -47782,7 +47830,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1106,
+      "number": 1109,
       "children": [
         {
           "kind": "span",
@@ -47793,7 +47841,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RX_DM",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1106C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1109C7"
         },
         {
           "kind": "span",
@@ -47844,7 +47892,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1107,
+      "number": 1110,
       "children": [
         {
           "kind": "span",
@@ -47860,7 +47908,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1108,
+      "number": 1111,
       "children": [
         {
           "kind": "span",
@@ -47871,7 +47919,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DP_OVCN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1108C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1111C7"
         },
         {
           "kind": "span",
@@ -47922,7 +47970,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1109,
+      "number": 1112,
       "children": [
         {
           "kind": "span",
@@ -47938,7 +47986,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1110,
+      "number": 1113,
       "children": [
         {
           "kind": "span",
@@ -47949,7 +47997,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DM_OVCN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1110C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1113C7"
         },
         {
           "kind": "span",
@@ -48000,7 +48048,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1111,
+      "number": 1114,
       "children": [
         {
           "kind": "span",
@@ -48016,7 +48064,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1112,
+      "number": 1115,
       "children": [
         {
           "kind": "span",
@@ -48027,7 +48075,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DP_OVV",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1112C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1115C7"
         },
         {
           "kind": "span",
@@ -48078,7 +48126,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1113,
+      "number": 1116,
       "children": [
         {
           "kind": "span",
@@ -48094,7 +48142,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1114,
+      "number": 1117,
       "children": [
         {
           "kind": "span",
@@ -48105,7 +48153,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DM_OVV",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1114C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1117C7"
         },
         {
           "kind": "span",
@@ -48156,7 +48204,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1115,
+      "number": 1118,
       "children": [
         {
           "kind": "span",
@@ -48172,7 +48220,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1116,
+      "number": 1119,
       "children": [
         {
           "kind": "span",
@@ -48183,7 +48231,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_23_31",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1116C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1119C7"
         },
         {
           "kind": "span",
@@ -48250,7 +48298,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1117,
+      "number": 1120,
       "children": [
         {
           "kind": "span",
@@ -48276,7 +48324,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1118,
+      "number": 1121,
       "children": [
         {
           "kind": "span",
@@ -48297,7 +48345,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1119,
+      "number": 1122,
       "children": [
         {
           "kind": "span",
@@ -48313,13 +48361,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1120,
+      "number": 1123,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1121,
+      "number": 1124,
       "children": [
         {
           "kind": "span",
@@ -48340,7 +48388,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBPHY_DIRECT_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1059C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1062C9"
         },
         {
           "kind": "span",
@@ -48366,7 +48414,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1122,
+      "number": 1125,
       "children": [
         {
           "kind": "span",
@@ -48447,7 +48495,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1123,
+      "number": 1126,
       "children": [
         {
           "kind": "span",
@@ -48528,7 +48576,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1124,
+      "number": 1127,
       "children": [
         {
           "kind": "span",
@@ -48609,7 +48657,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1125,
+      "number": 1128,
       "children": [
         {
           "kind": "span",
@@ -48690,7 +48738,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1126,
+      "number": 1129,
       "children": [
         {
           "kind": "span",
@@ -48771,7 +48819,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1127,
+      "number": 1130,
       "children": [
         {
           "kind": "span",
@@ -48852,7 +48900,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1128,
+      "number": 1131,
       "children": [
         {
           "kind": "span",
@@ -48933,7 +48981,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1129,
+      "number": 1132,
       "children": [
         {
           "kind": "span",
@@ -49014,7 +49062,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1130,
+      "number": 1133,
       "children": [
         {
           "kind": "span",
@@ -49095,7 +49143,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1131,
+      "number": 1134,
       "children": [
         {
           "kind": "span",
@@ -49176,7 +49224,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1132,
+      "number": 1135,
       "children": [
         {
           "kind": "span",
@@ -49257,7 +49305,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1133,
+      "number": 1136,
       "children": [
         {
           "kind": "span",
@@ -49338,7 +49386,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1134,
+      "number": 1137,
       "children": [
         {
           "kind": "span",
@@ -49419,7 +49467,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1135,
+      "number": 1138,
       "children": [
         {
           "kind": "span",
@@ -49500,7 +49548,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1136,
+      "number": 1139,
       "children": [
         {
           "kind": "span",
@@ -49581,7 +49629,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1137,
+      "number": 1140,
       "children": [
         {
           "kind": "span",
@@ -49662,7 +49710,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1138,
+      "number": 1141,
       "children": [
         {
           "kind": "span",
@@ -49743,7 +49791,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1139,
+      "number": 1142,
       "children": [
         {
           "kind": "span",
@@ -49824,7 +49872,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1140,
+      "number": 1143,
       "children": [
         {
           "kind": "span",
@@ -49905,7 +49953,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1141,
+      "number": 1144,
       "children": [
         {
           "kind": "span",
@@ -49986,7 +50034,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1142,
+      "number": 1145,
       "children": [
         {
           "kind": "span",
@@ -50067,7 +50115,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1143,
+      "number": 1146,
       "children": [
         {
           "kind": "span",
@@ -50148,7 +50196,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1144,
+      "number": 1147,
       "children": [
         {
           "kind": "span",
@@ -50229,7 +50277,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1145,
+      "number": 1148,
       "children": [
         {
           "kind": "span",
@@ -50310,7 +50358,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1146,
+      "number": 1149,
       "children": [
         {
           "kind": "span",
@@ -50341,13 +50389,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1147,
+      "number": 1150,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1148,
+      "number": 1151,
       "children": [
         {
           "kind": "span",
@@ -50363,7 +50411,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1149,
+      "number": 1152,
       "children": [
         {
           "kind": "span",
@@ -50384,7 +50432,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBPHY_DIRECT_OVERRIDE_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1149C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1152C9"
         },
         {
           "kind": "span",
@@ -50410,192 +50458,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1150,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "DP_PULLUP_HISEL_OVERRIDE_EN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1150C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1151,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "DM_PULLUP_HISEL_OVERRIDE_EN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1151C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1152,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "DP_PULLUP_EN_OVERRIDE_EN",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1152C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 1153,
       "children": [
         {
@@ -50606,13 +50468,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "DP_PULLDN_EN_OVERRIDE_EN",
+          "text": "DP_PULLUP_HISEL_OVERRIDE_EN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1153C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "    "
+          "text": " "
         },
         {
           "kind": "span",
@@ -50668,13 +50530,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "DM_PULLDN_EN_OVERRIDE_EN",
+          "text": "DM_PULLUP_HISEL_OVERRIDE_EN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1154C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "    "
+          "text": " "
         },
         {
           "kind": "span",
@@ -50730,13 +50592,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "TX_DP_OE_OVERRIDE_EN",
+          "text": "DP_PULLUP_EN_OVERRIDE_EN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1155C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "        "
+          "text": "    "
         },
         {
           "kind": "span",
@@ -50792,13 +50654,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "TX_DM_OE_OVERRIDE_EN",
+          "text": "DP_PULLDN_EN_OVERRIDE_EN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1156C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "        "
+          "text": "    "
         },
         {
           "kind": "span",
@@ -50854,13 +50716,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "TX_DP_OVERRIDE_EN",
+          "text": "DM_PULLDN_EN_OVERRIDE_EN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1157C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "    "
         },
         {
           "kind": "span",
@@ -50916,13 +50778,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "TX_DM_OVERRIDE_EN",
+          "text": "TX_DP_OE_OVERRIDE_EN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1158C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "        "
         },
         {
           "kind": "span",
@@ -50978,13 +50840,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "RX_PD_OVERRIDE_EN",
+          "text": "TX_DM_OE_OVERRIDE_EN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1159C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "        "
         },
         {
           "kind": "span",
@@ -51040,7 +50902,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "TX_PD_OVERRIDE_EN",
+          "text": "TX_DP_OVERRIDE_EN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1160C7"
         },
         {
@@ -51102,13 +50964,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "TX_FSSLEW_OVERRIDE_EN",
+          "text": "TX_DM_OVERRIDE_EN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1161C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "           "
         },
         {
           "kind": "span",
@@ -51164,13 +51026,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "DM_PULLUP_OVERRIDE_EN",
+          "text": "RX_PD_OVERRIDE_EN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1162C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "           "
         },
         {
           "kind": "span",
@@ -51225,30 +51087,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  unspecified"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1164,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "Reserved_13_14",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1164C7"
+          "text": "TX_PD_OVERRIDE_EN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1163C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "           "
         },
         {
           "kind": "span",
@@ -51263,8 +51109,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL.UInt2",
-          "href": "docs/hal___spec.html#L39C9"
+          "text": "Boolean"
         },
         {
           "kind": "span",
@@ -51283,23 +51128,70 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "number",
-          "text": "16"
+          "cssClass": "identifier",
+          "text": "False"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "#"
-        },
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1164,
+      "children": [
         {
           "kind": "span",
-          "cssClass": "number",
-          "text": "0"
+          "cssClass": "text",
+          "text": "      "
         },
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "#"
+          "text": "TX_FSSLEW_OVERRIDE_EN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1164C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
         },
         {
           "kind": "span",
@@ -51320,13 +51212,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "TX_DIFFMODE_OVERRIDE_EN",
+          "text": "DM_PULLUP_OVERRIDE_EN",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1165C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "     "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -51398,8 +51290,164 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Reserved_16_31",
+          "text": "Reserved_13_14",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1167C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "              "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt2",
+          "href": "docs/hal___spec.html#L39C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1168,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "TX_DIFFMODE_OVERRIDE_EN",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1168C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1169,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  unspecified"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1170,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Reserved_16_31",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1170C7"
         },
         {
           "kind": "span",
@@ -51466,7 +51514,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1168,
+      "number": 1171,
       "children": [
         {
           "kind": "span",
@@ -51492,7 +51540,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1169,
+      "number": 1172,
       "children": [
         {
           "kind": "span",
@@ -51513,7 +51561,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1170,
+      "number": 1173,
       "children": [
         {
           "kind": "span",
@@ -51529,13 +51577,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1171,
+      "number": 1174,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1172,
+      "number": 1175,
       "children": [
         {
           "kind": "span",
@@ -51556,7 +51604,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBPHY_DIRECT_OVERRIDE_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1149C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1152C9"
         },
         {
           "kind": "span",
@@ -51582,7 +51630,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1173,
+      "number": 1176,
       "children": [
         {
           "kind": "span",
@@ -51663,7 +51711,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1174,
+      "number": 1177,
       "children": [
         {
           "kind": "span",
@@ -51744,7 +51792,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1175,
+      "number": 1178,
       "children": [
         {
           "kind": "span",
@@ -51825,7 +51873,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1176,
+      "number": 1179,
       "children": [
         {
           "kind": "span",
@@ -51906,7 +51954,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1177,
+      "number": 1180,
       "children": [
         {
           "kind": "span",
@@ -51987,7 +52035,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1178,
+      "number": 1181,
       "children": [
         {
           "kind": "span",
@@ -52068,7 +52116,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1179,
+      "number": 1182,
       "children": [
         {
           "kind": "span",
@@ -52149,7 +52197,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1180,
+      "number": 1183,
       "children": [
         {
           "kind": "span",
@@ -52230,7 +52278,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1181,
+      "number": 1184,
       "children": [
         {
           "kind": "span",
@@ -52311,7 +52359,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1182,
+      "number": 1185,
       "children": [
         {
           "kind": "span",
@@ -52392,7 +52440,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1183,
+      "number": 1186,
       "children": [
         {
           "kind": "span",
@@ -52473,7 +52521,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1184,
+      "number": 1187,
       "children": [
         {
           "kind": "span",
@@ -52554,7 +52602,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1185,
+      "number": 1188,
       "children": [
         {
           "kind": "span",
@@ -52635,7 +52683,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1186,
+      "number": 1189,
       "children": [
         {
           "kind": "span",
@@ -52716,7 +52764,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1187,
+      "number": 1190,
       "children": [
         {
           "kind": "span",
@@ -52797,7 +52845,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1188,
+      "number": 1191,
       "children": [
         {
           "kind": "span",
@@ -52878,7 +52926,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1189,
+      "number": 1192,
       "children": [
         {
           "kind": "span",
@@ -52909,13 +52957,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1190,
+      "number": 1193,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1191,
+      "number": 1194,
       "children": [
         {
           "kind": "span",
@@ -52936,7 +52984,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBPHY_TRIM_DP_PULLDN_TRIM_Field",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1191C12"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1194C12"
         },
         {
           "kind": "span",
@@ -52968,7 +53016,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1192,
+      "number": 1195,
       "children": [
         {
           "kind": "span",
@@ -52989,7 +53037,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBPHY_TRIM_DM_PULLDN_TRIM_Field",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1192C12"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1195C12"
         },
         {
           "kind": "span",
@@ -53021,13 +53069,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1193,
+      "number": 1196,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1194,
+      "number": 1197,
       "children": [
         {
           "kind": "span",
@@ -53043,7 +53091,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1195,
+      "number": 1198,
       "children": [
         {
           "kind": "span",
@@ -53064,7 +53112,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBPHY_TRIM_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1195C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1198C9"
         },
         {
           "kind": "span",
@@ -53090,7 +53138,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1196,
+      "number": 1199,
       "children": [
         {
           "kind": "span",
@@ -53106,7 +53154,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1197,
+      "number": 1200,
       "children": [
         {
           "kind": "span",
@@ -53122,7 +53170,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1198,
+      "number": 1201,
       "children": [
         {
           "kind": "span",
@@ -53138,7 +53186,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1199,
+      "number": 1202,
       "children": [
         {
           "kind": "span",
@@ -53149,7 +53197,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DP_PULLDN_TRIM",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1199C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1202C7"
         },
         {
           "kind": "span",
@@ -53170,7 +53218,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBPHY_TRIM_DP_PULLDN_TRIM_Field",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1191C12"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1194C12"
         },
         {
           "kind": "span",
@@ -53216,7 +53264,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1200,
+      "number": 1203,
       "children": [
         {
           "kind": "span",
@@ -53232,7 +53280,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1201,
+      "number": 1204,
       "children": [
         {
           "kind": "span",
@@ -53243,7 +53291,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_5_7",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1201C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1204C7"
         },
         {
           "kind": "span",
@@ -53310,7 +53358,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1202,
+      "number": 1205,
       "children": [
         {
           "kind": "span",
@@ -53326,7 +53374,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1203,
+      "number": 1206,
       "children": [
         {
           "kind": "span",
@@ -53342,7 +53390,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1204,
+      "number": 1207,
       "children": [
         {
           "kind": "span",
@@ -53358,7 +53406,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1205,
+      "number": 1208,
       "children": [
         {
           "kind": "span",
@@ -53369,7 +53417,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DM_PULLDN_TRIM",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1205C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1208C7"
         },
         {
           "kind": "span",
@@ -53390,7 +53438,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBPHY_TRIM_DM_PULLDN_TRIM_Field",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1192C12"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1195C12"
         },
         {
           "kind": "span",
@@ -53436,7 +53484,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1206,
+      "number": 1209,
       "children": [
         {
           "kind": "span",
@@ -53452,7 +53500,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1207,
+      "number": 1210,
       "children": [
         {
           "kind": "span",
@@ -53463,7 +53511,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_13_31",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1207C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1210C7"
         },
         {
           "kind": "span",
@@ -53530,7 +53578,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1208,
+      "number": 1211,
       "children": [
         {
           "kind": "span",
@@ -53556,7 +53604,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1209,
+      "number": 1212,
       "children": [
         {
           "kind": "span",
@@ -53577,7 +53625,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1210,
+      "number": 1213,
       "children": [
         {
           "kind": "span",
@@ -53593,13 +53641,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1211,
+      "number": 1214,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1212,
+      "number": 1215,
       "children": [
         {
           "kind": "span",
@@ -53620,7 +53668,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBPHY_TRIM_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1195C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1198C9"
         },
         {
           "kind": "span",
@@ -53646,7 +53694,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1213,
+      "number": 1216,
       "children": [
         {
           "kind": "span",
@@ -53727,7 +53775,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1214,
+      "number": 1217,
       "children": [
         {
           "kind": "span",
@@ -53808,7 +53856,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1215,
+      "number": 1218,
       "children": [
         {
           "kind": "span",
@@ -53889,7 +53937,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1216,
+      "number": 1219,
       "children": [
         {
           "kind": "span",
@@ -53970,7 +54018,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1217,
+      "number": 1220,
       "children": [
         {
           "kind": "span",
@@ -54001,13 +54049,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1218,
+      "number": 1221,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1219,
+      "number": 1222,
       "children": [
         {
           "kind": "span",
@@ -54023,7 +54071,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1220,
+      "number": 1223,
       "children": [
         {
           "kind": "span",
@@ -54044,7 +54092,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTR_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1220C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1223C9"
         },
         {
           "kind": "span",
@@ -54070,7 +54118,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1221,
+      "number": 1224,
       "children": [
         {
           "kind": "span",
@@ -54086,7 +54134,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1222,
+      "number": 1225,
       "children": [
         {
           "kind": "span",
@@ -54102,7 +54150,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1223,
+      "number": 1226,
       "children": [
         {
           "kind": "span",
@@ -54118,80 +54166,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1224,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HOST_CONN_DIS",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1224C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1225,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only. Host: raised when a device wakes up the host. Cleared by"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1226,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  writing to SIE_STATUS.RESUME"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 1227,
       "children": [
         {
@@ -54202,13 +54176,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HOST_RESUME",
+          "text": "HOST_CONN_DIS",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1227C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "          "
+          "text": "        "
         },
         {
           "kind": "span",
@@ -54244,7 +54218,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Host: raised every time the host sends a SOF (Start of"
+          "text": "--  Read-only. Host: raised when a device wakes up the host. Cleared by"
         }
       ]
     },
@@ -54260,7 +54234,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Frame). Cleared by reading SOF_RD"
+          "text": "--  writing to SIE_STATUS.RESUME"
         }
       ]
     },
@@ -54276,13 +54250,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HOST_SOF",
+          "text": "HOST_RESUME",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1230C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "             "
+          "text": "          "
         },
         {
           "kind": "span",
@@ -54318,7 +54292,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear"
+          "text": "--  Read-only. Host: raised every time the host sends a SOF (Start of"
         }
       ]
     },
@@ -54334,7 +54308,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  by writing to this bit."
+          "text": "--  Frame). Cleared by reading SOF_RD"
         }
       ]
     },
@@ -54350,13 +54324,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "TRANS_COMPLETE",
+          "text": "HOST_SOF",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1233C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -54392,7 +54366,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Raised when any bit in BUFF_STATUS is set. Clear by"
+          "text": "--  Read-only. Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear"
         }
       ]
     },
@@ -54408,7 +54382,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  clearing all bits in BUFF_STATUS."
+          "text": "--  by writing to this bit."
         }
       ]
     },
@@ -54424,13 +54398,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "BUFF_STATUS",
+          "text": "TRANS_COMPLETE",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1236C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "          "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -54466,7 +54440,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Source: SIE_STATUS.DATA_SEQ_ERROR"
+          "text": "--  Read-only. Raised when any bit in BUFF_STATUS is set. Clear by"
         }
       ]
     },
@@ -54481,34 +54455,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "ERROR_DATA_SEQ",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1238C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  clearing all bits in BUFF_STATUS."
         }
       ]
     },
@@ -54523,315 +54471,9 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only. Source: SIE_STATUS.RX_TIMEOUT"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1240,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "ERROR_RX_TIMEOUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1240C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1241,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only. Source: SIE_STATUS.RX_OVERFLOW"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1242,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "ERROR_RX_OVERFLOW",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1242C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1243,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only. Source: SIE_STATUS.BIT_STUFF_ERROR"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1244,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "ERROR_BIT_STUFF",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1244C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1245,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only. Source: SIE_STATUS.CRC_ERROR"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1246,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "ERROR_CRC",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1246C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "            "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1247,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only. Source: SIE_STATUS.STALL_REC"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1248,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "STALL",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1248C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "                "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1249,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only. Source: SIE_STATUS.VBUS_DETECTED"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1250,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "VBUS_DETECT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1250C7"
+          "text": "BUFF_STATUS",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1239C7"
         },
         {
           "kind": "span",
@@ -54862,7 +54504,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1251,
+      "number": 1240,
       "children": [
         {
           "kind": "span",
@@ -54872,13 +54514,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Source: SIE_STATUS.BUS_RESET"
+          "text": "--  Read-only. Source: SIE_STATUS.DATA_SEQ_ERROR"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 1252,
+      "number": 1241,
       "children": [
         {
           "kind": "span",
@@ -54888,8 +54530,240 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "BUS_RESET",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1252C7"
+          "text": "ERROR_DATA_SEQ",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1241C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1242,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only. Source: SIE_STATUS.RX_TIMEOUT"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1243,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "ERROR_RX_TIMEOUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1243C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1244,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only. Source: SIE_STATUS.RX_OVERFLOW"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1245,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "ERROR_RX_OVERFLOW",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1245C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1246,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only. Source: SIE_STATUS.BIT_STUFF_ERROR"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1247,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "ERROR_BIT_STUFF",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1247C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1248,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only. Source: SIE_STATUS.CRC_ERROR"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1249,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "ERROR_CRC",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1249C7"
         },
         {
           "kind": "span",
@@ -54920,7 +54794,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1253,
+      "number": 1250,
       "children": [
         {
           "kind": "span",
@@ -54930,7 +54804,107 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Set when the device connection state changes. Cleared by"
+          "text": "--  Read-only. Source: SIE_STATUS.STALL_REC"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1251,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "STALL",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1251C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1252,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only. Source: SIE_STATUS.VBUS_DETECTED"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1253,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "VBUS_DETECT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1253C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "          "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -54946,7 +54920,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  writing to SIE_STATUS.CONNECTED"
+          "text": "--  Read-only. Source: SIE_STATUS.BUS_RESET"
         }
       ]
     },
@@ -54962,13 +54936,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "DEV_CONN_DIS",
+          "text": "BUS_RESET",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1255C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "         "
+          "text": "            "
         },
         {
           "kind": "span",
@@ -55004,7 +54978,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Set when the device suspend state changes. Cleared by"
+          "text": "--  Read-only. Set when the device connection state changes. Cleared by"
         }
       ]
     },
@@ -55020,7 +54994,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  writing to SIE_STATUS.SUSPENDED"
+          "text": "--  writing to SIE_STATUS.CONNECTED"
         }
       ]
     },
@@ -55036,13 +55010,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "DEV_SUSPEND",
+          "text": "DEV_CONN_DIS",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1258C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "          "
+          "text": "         "
         },
         {
           "kind": "span",
@@ -55078,7 +55052,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Set when the device receives a resume from the host."
+          "text": "--  Read-only. Set when the device suspend state changes. Cleared by"
         }
       ]
     },
@@ -55094,7 +55068,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Cleared by writing to SIE_STATUS.RESUME"
+          "text": "--  writing to SIE_STATUS.SUSPENDED"
         }
       ]
     },
@@ -55110,13 +55084,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "DEV_RESUME_FROM_HOST",
+          "text": "DEV_SUSPEND",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1261C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "          "
         },
         {
           "kind": "span",
@@ -55152,7 +55126,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Device. Source: SIE_STATUS.SETUP_REC"
+          "text": "--  Read-only. Set when the device receives a resume from the host."
         }
       ]
     },
@@ -55167,14 +55141,30 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Cleared by writing to SIE_STATUS.RESUME"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1264,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
-          "text": "SETUP_REQ",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1263C7"
+          "text": "DEV_RESUME_FROM_HOST",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1264C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "            "
+          "text": " "
         },
         {
           "kind": "span",
@@ -55200,22 +55190,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1264,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only. Set every time the device receives a SOF (Start of Frame)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 1265,
       "children": [
         {
@@ -55226,7 +55200,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  packet. Cleared by reading SOF_RD"
+          "text": "--  Read-only. Device. Source: SIE_STATUS.SETUP_REC"
         }
       ]
     },
@@ -55242,13 +55216,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "DEV_SOF",
+          "text": "SETUP_REQ",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1266C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "            "
         },
         {
           "kind": "span",
@@ -55284,7 +55258,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Raised when any bit in ABORT_DONE is set. Clear by"
+          "text": "--  Read-only. Set every time the device receives a SOF (Start of Frame)"
         }
       ]
     },
@@ -55300,7 +55274,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  clearing all bits in ABORT_DONE."
+          "text": "--  packet. Cleared by reading SOF_RD"
         }
       ]
     },
@@ -55316,13 +55290,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "ABORT_DONE",
+          "text": "DEV_SOF",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1269C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -55358,7 +55332,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Raised when any bit in EP_STATUS_STALL_NAK is set. Clear"
+          "text": "--  Read-only. Raised when any bit in ABORT_DONE is set. Clear by"
         }
       ]
     },
@@ -55374,7 +55348,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  by clearing all bits in EP_STATUS_STALL_NAK."
+          "text": "--  clearing all bits in ABORT_DONE."
         }
       ]
     },
@@ -55390,13 +55364,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP_STALL_NAK",
+          "text": "ABORT_DONE",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1272C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "         "
+          "text": "           "
         },
         {
           "kind": "span",
@@ -55432,7 +55406,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  unspecified"
+          "text": "--  Read-only. Raised when any bit in EP_STATUS_STALL_NAK is set. Clear"
         }
       ]
     },
@@ -55447,9 +55421,83 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  by clearing all bits in EP_STATUS_STALL_NAK."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1275,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP_STALL_NAK",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1275C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "         "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1276,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  unspecified"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1277,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_20_31",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1274C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1277C7"
         },
         {
           "kind": "span",
@@ -55481,7 +55529,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1275,
+      "number": 1278,
       "children": [
         {
           "kind": "span",
@@ -55507,7 +55555,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1276,
+      "number": 1279,
       "children": [
         {
           "kind": "span",
@@ -55528,7 +55576,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1277,
+      "number": 1280,
       "children": [
         {
           "kind": "span",
@@ -55544,13 +55592,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1278,
+      "number": 1281,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1279,
+      "number": 1282,
       "children": [
         {
           "kind": "span",
@@ -55571,7 +55619,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTR_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1220C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1223C9"
         },
         {
           "kind": "span",
@@ -55597,7 +55645,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1280,
+      "number": 1283,
       "children": [
         {
           "kind": "span",
@@ -55678,7 +55726,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1281,
+      "number": 1284,
       "children": [
         {
           "kind": "span",
@@ -55759,7 +55807,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1282,
+      "number": 1285,
       "children": [
         {
           "kind": "span",
@@ -55840,7 +55888,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1283,
+      "number": 1286,
       "children": [
         {
           "kind": "span",
@@ -55921,7 +55969,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1284,
+      "number": 1287,
       "children": [
         {
           "kind": "span",
@@ -56002,7 +56050,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1285,
+      "number": 1288,
       "children": [
         {
           "kind": "span",
@@ -56083,7 +56131,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1286,
+      "number": 1289,
       "children": [
         {
           "kind": "span",
@@ -56164,7 +56212,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1287,
+      "number": 1290,
       "children": [
         {
           "kind": "span",
@@ -56245,7 +56293,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1288,
+      "number": 1291,
       "children": [
         {
           "kind": "span",
@@ -56326,7 +56374,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1289,
+      "number": 1292,
       "children": [
         {
           "kind": "span",
@@ -56407,7 +56455,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1290,
+      "number": 1293,
       "children": [
         {
           "kind": "span",
@@ -56488,7 +56536,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1291,
+      "number": 1294,
       "children": [
         {
           "kind": "span",
@@ -56569,7 +56617,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1292,
+      "number": 1295,
       "children": [
         {
           "kind": "span",
@@ -56650,7 +56698,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1293,
+      "number": 1296,
       "children": [
         {
           "kind": "span",
@@ -56731,7 +56779,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1294,
+      "number": 1297,
       "children": [
         {
           "kind": "span",
@@ -56812,7 +56860,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1295,
+      "number": 1298,
       "children": [
         {
           "kind": "span",
@@ -56893,7 +56941,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1296,
+      "number": 1299,
       "children": [
         {
           "kind": "span",
@@ -56974,7 +57022,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1297,
+      "number": 1300,
       "children": [
         {
           "kind": "span",
@@ -57055,7 +57103,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1298,
+      "number": 1301,
       "children": [
         {
           "kind": "span",
@@ -57136,7 +57184,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1299,
+      "number": 1302,
       "children": [
         {
           "kind": "span",
@@ -57217,7 +57265,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1300,
+      "number": 1303,
       "children": [
         {
           "kind": "span",
@@ -57298,7 +57346,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1301,
+      "number": 1304,
       "children": [
         {
           "kind": "span",
@@ -57329,13 +57377,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1302,
+      "number": 1305,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1303,
+      "number": 1306,
       "children": [
         {
           "kind": "span",
@@ -57351,7 +57399,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1304,
+      "number": 1307,
       "children": [
         {
           "kind": "span",
@@ -57372,7 +57420,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTE_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1304C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1307C9"
         },
         {
           "kind": "span",
@@ -57398,7 +57446,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1305,
+      "number": 1308,
       "children": [
         {
           "kind": "span",
@@ -57414,7 +57462,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1306,
+      "number": 1309,
       "children": [
         {
           "kind": "span",
@@ -57430,100 +57478,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1307,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HOST_CONN_DIS",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1307C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1308,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Host: raised when a device wakes up the host. Cleared by writing to"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1309,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  SIE_STATUS.RESUME"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 1310,
       "children": [
         {
@@ -57534,13 +57488,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HOST_RESUME",
+          "text": "HOST_CONN_DIS",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1310C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "          "
+          "text": "        "
         },
         {
           "kind": "span",
@@ -57596,7 +57550,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Host: raised every time the host sends a SOF (Start of Frame)."
+          "text": "--  Host: raised when a device wakes up the host. Cleared by writing to"
         }
       ]
     },
@@ -57612,7 +57566,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Cleared by reading SOF_RD"
+          "text": "--  SIE_STATUS.RESUME"
         }
       ]
     },
@@ -57628,13 +57582,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HOST_SOF",
+          "text": "HOST_RESUME",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1313C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "             "
+          "text": "          "
         },
         {
           "kind": "span",
@@ -57690,7 +57644,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear by writing"
+          "text": "--  Host: raised every time the host sends a SOF (Start of Frame)."
         }
       ]
     },
@@ -57706,7 +57660,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  to this bit."
+          "text": "--  Cleared by reading SOF_RD"
         }
       ]
     },
@@ -57722,13 +57676,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "TRANS_COMPLETE",
+          "text": "HOST_SOF",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1316C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -57784,7 +57738,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Raised when any bit in BUFF_STATUS is set. Clear by clearing all bits"
+          "text": "--  Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear by writing"
         }
       ]
     },
@@ -57800,7 +57754,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  in BUFF_STATUS."
+          "text": "--  to this bit."
         }
       ]
     },
@@ -57816,13 +57770,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "BUFF_STATUS",
+          "text": "TRANS_COMPLETE",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1319C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "          "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -57878,7 +57832,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Source: SIE_STATUS.DATA_SEQ_ERROR"
+          "text": "--  Raised when any bit in BUFF_STATUS is set. Clear by clearing all bits"
         }
       ]
     },
@@ -57893,54 +57847,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "ERROR_DATA_SEQ",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1321C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  in BUFF_STATUS."
         }
       ]
     },
@@ -57955,415 +57863,9 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Source: SIE_STATUS.RX_TIMEOUT"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1323,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "ERROR_RX_TIMEOUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1323C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1324,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Source: SIE_STATUS.RX_OVERFLOW"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1325,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "ERROR_RX_OVERFLOW",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1325C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1326,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Source: SIE_STATUS.BIT_STUFF_ERROR"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1327,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "ERROR_BIT_STUFF",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1327C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1328,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Source: SIE_STATUS.CRC_ERROR"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1329,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "ERROR_CRC",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1329C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "            "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1330,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Source: SIE_STATUS.STALL_REC"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1331,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "STALL",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1331C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "                "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1332,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Source: SIE_STATUS.VBUS_DETECTED"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1333,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "VBUS_DETECT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1333C7"
+          "text": "BUFF_STATUS",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1322C7"
         },
         {
           "kind": "span",
@@ -58414,7 +57916,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1334,
+      "number": 1323,
       "children": [
         {
           "kind": "span",
@@ -58424,13 +57926,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Source: SIE_STATUS.BUS_RESET"
+          "text": "--  Source: SIE_STATUS.DATA_SEQ_ERROR"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 1335,
+      "number": 1324,
       "children": [
         {
           "kind": "span",
@@ -58440,8 +57942,320 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "BUS_RESET",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1335C7"
+          "text": "ERROR_DATA_SEQ",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1324C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1325,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Source: SIE_STATUS.RX_TIMEOUT"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1326,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "ERROR_RX_TIMEOUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1326C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1327,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Source: SIE_STATUS.RX_OVERFLOW"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1328,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "ERROR_RX_OVERFLOW",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1328C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1329,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Source: SIE_STATUS.BIT_STUFF_ERROR"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1330,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "ERROR_BIT_STUFF",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1330C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1331,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Source: SIE_STATUS.CRC_ERROR"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1332,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "ERROR_CRC",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1332C7"
         },
         {
           "kind": "span",
@@ -58492,7 +58306,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1336,
+      "number": 1333,
       "children": [
         {
           "kind": "span",
@@ -58502,7 +58316,147 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Set when the device connection state changes. Cleared by writing to"
+          "text": "--  Source: SIE_STATUS.STALL_REC"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1334,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "STALL",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1334C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1335,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Source: SIE_STATUS.VBUS_DETECTED"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1336,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "VBUS_DETECT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1336C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "          "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -58518,7 +58472,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  SIE_STATUS.CONNECTED"
+          "text": "--  Source: SIE_STATUS.BUS_RESET"
         }
       ]
     },
@@ -58534,13 +58488,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "DEV_CONN_DIS",
+          "text": "BUS_RESET",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1338C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "         "
+          "text": "            "
         },
         {
           "kind": "span",
@@ -58596,7 +58550,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Set when the device suspend state changes. Cleared by writing to"
+          "text": "--  Set when the device connection state changes. Cleared by writing to"
         }
       ]
     },
@@ -58612,7 +58566,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  SIE_STATUS.SUSPENDED"
+          "text": "--  SIE_STATUS.CONNECTED"
         }
       ]
     },
@@ -58628,13 +58582,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "DEV_SUSPEND",
+          "text": "DEV_CONN_DIS",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1341C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "          "
+          "text": "         "
         },
         {
           "kind": "span",
@@ -58690,7 +58644,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Set when the device receives a resume from the host. Cleared by"
+          "text": "--  Set when the device suspend state changes. Cleared by writing to"
         }
       ]
     },
@@ -58706,7 +58660,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  writing to SIE_STATUS.RESUME"
+          "text": "--  SIE_STATUS.SUSPENDED"
         }
       ]
     },
@@ -58722,13 +58676,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "DEV_RESUME_FROM_HOST",
+          "text": "DEV_SUSPEND",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1344C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "          "
         },
         {
           "kind": "span",
@@ -58784,7 +58738,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Device. Source: SIE_STATUS.SETUP_REC"
+          "text": "--  Set when the device receives a resume from the host. Cleared by"
         }
       ]
     },
@@ -58799,14 +58753,30 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  writing to SIE_STATUS.RESUME"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1347,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
-          "text": "SETUP_REQ",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1346C7"
+          "text": "DEV_RESUME_FROM_HOST",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1347C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "            "
+          "text": " "
         },
         {
           "kind": "span",
@@ -58852,22 +58822,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1347,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Set every time the device receives a SOF (Start of Frame) packet."
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 1348,
       "children": [
         {
@@ -58878,7 +58832,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Cleared by reading SOF_RD"
+          "text": "--  Device. Source: SIE_STATUS.SETUP_REC"
         }
       ]
     },
@@ -58894,13 +58848,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "DEV_SOF",
+          "text": "SETUP_REQ",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1349C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "            "
         },
         {
           "kind": "span",
@@ -58956,7 +58910,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Raised when any bit in ABORT_DONE is set. Clear by clearing all bits"
+          "text": "--  Set every time the device receives a SOF (Start of Frame) packet."
         }
       ]
     },
@@ -58972,7 +58926,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  in ABORT_DONE."
+          "text": "--  Cleared by reading SOF_RD"
         }
       ]
     },
@@ -58988,13 +58942,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "ABORT_DONE",
+          "text": "DEV_SOF",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1352C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -59050,7 +59004,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Raised when any bit in EP_STATUS_STALL_NAK is set. Clear by clearing"
+          "text": "--  Raised when any bit in ABORT_DONE is set. Clear by clearing all bits"
         }
       ]
     },
@@ -59066,7 +59020,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  all bits in EP_STATUS_STALL_NAK."
+          "text": "--  in ABORT_DONE."
         }
       ]
     },
@@ -59082,13 +59036,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP_STALL_NAK",
+          "text": "ABORT_DONE",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1355C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "         "
+          "text": "           "
         },
         {
           "kind": "span",
@@ -59144,7 +59098,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  unspecified"
+          "text": "--  Raised when any bit in EP_STATUS_STALL_NAK is set. Clear by clearing"
         }
       ]
     },
@@ -59159,9 +59113,103 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  all bits in EP_STATUS_STALL_NAK."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1358,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP_STALL_NAK",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1358C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "         "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1359,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  unspecified"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1360,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_20_31",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1357C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1360C7"
         },
         {
           "kind": "span",
@@ -59228,7 +59276,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1358,
+      "number": 1361,
       "children": [
         {
           "kind": "span",
@@ -59254,7 +59302,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1359,
+      "number": 1362,
       "children": [
         {
           "kind": "span",
@@ -59275,7 +59323,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1360,
+      "number": 1363,
       "children": [
         {
           "kind": "span",
@@ -59291,13 +59339,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1361,
+      "number": 1364,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1362,
+      "number": 1365,
       "children": [
         {
           "kind": "span",
@@ -59318,7 +59366,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTE_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1304C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1307C9"
         },
         {
           "kind": "span",
@@ -59344,7 +59392,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1363,
+      "number": 1366,
       "children": [
         {
           "kind": "span",
@@ -59425,7 +59473,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1364,
+      "number": 1367,
       "children": [
         {
           "kind": "span",
@@ -59506,7 +59554,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1365,
+      "number": 1368,
       "children": [
         {
           "kind": "span",
@@ -59587,7 +59635,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1366,
+      "number": 1369,
       "children": [
         {
           "kind": "span",
@@ -59668,7 +59716,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1367,
+      "number": 1370,
       "children": [
         {
           "kind": "span",
@@ -59749,7 +59797,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1368,
+      "number": 1371,
       "children": [
         {
           "kind": "span",
@@ -59830,7 +59878,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1369,
+      "number": 1372,
       "children": [
         {
           "kind": "span",
@@ -59911,7 +59959,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1370,
+      "number": 1373,
       "children": [
         {
           "kind": "span",
@@ -59992,7 +60040,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1371,
+      "number": 1374,
       "children": [
         {
           "kind": "span",
@@ -60073,7 +60121,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1372,
+      "number": 1375,
       "children": [
         {
           "kind": "span",
@@ -60154,7 +60202,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1373,
+      "number": 1376,
       "children": [
         {
           "kind": "span",
@@ -60235,7 +60283,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1374,
+      "number": 1377,
       "children": [
         {
           "kind": "span",
@@ -60316,7 +60364,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1375,
+      "number": 1378,
       "children": [
         {
           "kind": "span",
@@ -60397,7 +60445,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1376,
+      "number": 1379,
       "children": [
         {
           "kind": "span",
@@ -60478,7 +60526,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1377,
+      "number": 1380,
       "children": [
         {
           "kind": "span",
@@ -60559,7 +60607,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1378,
+      "number": 1381,
       "children": [
         {
           "kind": "span",
@@ -60640,7 +60688,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1379,
+      "number": 1382,
       "children": [
         {
           "kind": "span",
@@ -60721,7 +60769,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1380,
+      "number": 1383,
       "children": [
         {
           "kind": "span",
@@ -60802,7 +60850,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1381,
+      "number": 1384,
       "children": [
         {
           "kind": "span",
@@ -60883,7 +60931,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1382,
+      "number": 1385,
       "children": [
         {
           "kind": "span",
@@ -60964,7 +61012,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1383,
+      "number": 1386,
       "children": [
         {
           "kind": "span",
@@ -61045,7 +61093,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1384,
+      "number": 1387,
       "children": [
         {
           "kind": "span",
@@ -61076,13 +61124,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1385,
+      "number": 1388,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1386,
+      "number": 1389,
       "children": [
         {
           "kind": "span",
@@ -61098,7 +61146,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1387,
+      "number": 1390,
       "children": [
         {
           "kind": "span",
@@ -61119,7 +61167,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTF_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1387C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1390C9"
         },
         {
           "kind": "span",
@@ -61145,7 +61193,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1388,
+      "number": 1391,
       "children": [
         {
           "kind": "span",
@@ -61161,7 +61209,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1389,
+      "number": 1392,
       "children": [
         {
           "kind": "span",
@@ -61177,100 +61225,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1390,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HOST_CONN_DIS",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1390C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1391,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Host: raised when a device wakes up the host. Cleared by writing to"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1392,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  SIE_STATUS.RESUME"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 1393,
       "children": [
         {
@@ -61281,13 +61235,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HOST_RESUME",
+          "text": "HOST_CONN_DIS",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1393C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "          "
+          "text": "        "
         },
         {
           "kind": "span",
@@ -61343,7 +61297,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Host: raised every time the host sends a SOF (Start of Frame)."
+          "text": "--  Host: raised when a device wakes up the host. Cleared by writing to"
         }
       ]
     },
@@ -61359,7 +61313,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Cleared by reading SOF_RD"
+          "text": "--  SIE_STATUS.RESUME"
         }
       ]
     },
@@ -61375,13 +61329,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HOST_SOF",
+          "text": "HOST_RESUME",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1396C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "             "
+          "text": "          "
         },
         {
           "kind": "span",
@@ -61437,7 +61391,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear by writing"
+          "text": "--  Host: raised every time the host sends a SOF (Start of Frame)."
         }
       ]
     },
@@ -61453,7 +61407,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  to this bit."
+          "text": "--  Cleared by reading SOF_RD"
         }
       ]
     },
@@ -61469,13 +61423,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "TRANS_COMPLETE",
+          "text": "HOST_SOF",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1399C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -61531,7 +61485,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Raised when any bit in BUFF_STATUS is set. Clear by clearing all bits"
+          "text": "--  Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear by writing"
         }
       ]
     },
@@ -61547,7 +61501,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  in BUFF_STATUS."
+          "text": "--  to this bit."
         }
       ]
     },
@@ -61563,13 +61517,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "BUFF_STATUS",
+          "text": "TRANS_COMPLETE",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1402C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "          "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -61625,7 +61579,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Source: SIE_STATUS.DATA_SEQ_ERROR"
+          "text": "--  Raised when any bit in BUFF_STATUS is set. Clear by clearing all bits"
         }
       ]
     },
@@ -61640,54 +61594,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "ERROR_DATA_SEQ",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1404C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  in BUFF_STATUS."
         }
       ]
     },
@@ -61702,415 +61610,9 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Source: SIE_STATUS.RX_TIMEOUT"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1406,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "ERROR_RX_TIMEOUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1406C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1407,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Source: SIE_STATUS.RX_OVERFLOW"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1408,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "ERROR_RX_OVERFLOW",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1408C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1409,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Source: SIE_STATUS.BIT_STUFF_ERROR"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1410,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "ERROR_BIT_STUFF",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1410C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1411,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Source: SIE_STATUS.CRC_ERROR"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1412,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "ERROR_CRC",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1412C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "            "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1413,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Source: SIE_STATUS.STALL_REC"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1414,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "STALL",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1414C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "                "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1415,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Source: SIE_STATUS.VBUS_DETECTED"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1416,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "VBUS_DETECT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1416C7"
+          "text": "BUFF_STATUS",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1405C7"
         },
         {
           "kind": "span",
@@ -62161,7 +61663,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1417,
+      "number": 1406,
       "children": [
         {
           "kind": "span",
@@ -62171,13 +61673,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Source: SIE_STATUS.BUS_RESET"
+          "text": "--  Source: SIE_STATUS.DATA_SEQ_ERROR"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 1418,
+      "number": 1407,
       "children": [
         {
           "kind": "span",
@@ -62187,8 +61689,320 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "BUS_RESET",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1418C7"
+          "text": "ERROR_DATA_SEQ",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1407C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1408,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Source: SIE_STATUS.RX_TIMEOUT"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1409,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "ERROR_RX_TIMEOUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1409C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1410,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Source: SIE_STATUS.RX_OVERFLOW"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1411,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "ERROR_RX_OVERFLOW",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1411C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1412,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Source: SIE_STATUS.BIT_STUFF_ERROR"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1413,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "ERROR_BIT_STUFF",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1413C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1414,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Source: SIE_STATUS.CRC_ERROR"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1415,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "ERROR_CRC",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1415C7"
         },
         {
           "kind": "span",
@@ -62239,7 +62053,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1419,
+      "number": 1416,
       "children": [
         {
           "kind": "span",
@@ -62249,7 +62063,147 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Set when the device connection state changes. Cleared by writing to"
+          "text": "--  Source: SIE_STATUS.STALL_REC"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1417,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "STALL",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1417C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1418,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Source: SIE_STATUS.VBUS_DETECTED"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1419,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "VBUS_DETECT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1419C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "          "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -62265,7 +62219,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  SIE_STATUS.CONNECTED"
+          "text": "--  Source: SIE_STATUS.BUS_RESET"
         }
       ]
     },
@@ -62281,13 +62235,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "DEV_CONN_DIS",
+          "text": "BUS_RESET",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1421C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "         "
+          "text": "            "
         },
         {
           "kind": "span",
@@ -62343,7 +62297,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Set when the device suspend state changes. Cleared by writing to"
+          "text": "--  Set when the device connection state changes. Cleared by writing to"
         }
       ]
     },
@@ -62359,7 +62313,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  SIE_STATUS.SUSPENDED"
+          "text": "--  SIE_STATUS.CONNECTED"
         }
       ]
     },
@@ -62375,13 +62329,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "DEV_SUSPEND",
+          "text": "DEV_CONN_DIS",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1424C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "          "
+          "text": "         "
         },
         {
           "kind": "span",
@@ -62437,7 +62391,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Set when the device receives a resume from the host. Cleared by"
+          "text": "--  Set when the device suspend state changes. Cleared by writing to"
         }
       ]
     },
@@ -62453,7 +62407,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  writing to SIE_STATUS.RESUME"
+          "text": "--  SIE_STATUS.SUSPENDED"
         }
       ]
     },
@@ -62469,13 +62423,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "DEV_RESUME_FROM_HOST",
+          "text": "DEV_SUSPEND",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1427C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "          "
         },
         {
           "kind": "span",
@@ -62531,7 +62485,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Device. Source: SIE_STATUS.SETUP_REC"
+          "text": "--  Set when the device receives a resume from the host. Cleared by"
         }
       ]
     },
@@ -62546,14 +62500,30 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  writing to SIE_STATUS.RESUME"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1430,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
-          "text": "SETUP_REQ",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1429C7"
+          "text": "DEV_RESUME_FROM_HOST",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1430C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "            "
+          "text": " "
         },
         {
           "kind": "span",
@@ -62599,22 +62569,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1430,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Set every time the device receives a SOF (Start of Frame) packet."
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 1431,
       "children": [
         {
@@ -62625,7 +62579,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Cleared by reading SOF_RD"
+          "text": "--  Device. Source: SIE_STATUS.SETUP_REC"
         }
       ]
     },
@@ -62641,13 +62595,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "DEV_SOF",
+          "text": "SETUP_REQ",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1432C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "            "
         },
         {
           "kind": "span",
@@ -62703,7 +62657,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Raised when any bit in ABORT_DONE is set. Clear by clearing all bits"
+          "text": "--  Set every time the device receives a SOF (Start of Frame) packet."
         }
       ]
     },
@@ -62719,7 +62673,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  in ABORT_DONE."
+          "text": "--  Cleared by reading SOF_RD"
         }
       ]
     },
@@ -62735,13 +62689,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "ABORT_DONE",
+          "text": "DEV_SOF",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1435C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -62797,7 +62751,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Raised when any bit in EP_STATUS_STALL_NAK is set. Clear by clearing"
+          "text": "--  Raised when any bit in ABORT_DONE is set. Clear by clearing all bits"
         }
       ]
     },
@@ -62813,7 +62767,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  all bits in EP_STATUS_STALL_NAK."
+          "text": "--  in ABORT_DONE."
         }
       ]
     },
@@ -62829,13 +62783,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP_STALL_NAK",
+          "text": "ABORT_DONE",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1438C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "         "
+          "text": "           "
         },
         {
           "kind": "span",
@@ -62891,7 +62845,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  unspecified"
+          "text": "--  Raised when any bit in EP_STATUS_STALL_NAK is set. Clear by clearing"
         }
       ]
     },
@@ -62906,9 +62860,103 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  all bits in EP_STATUS_STALL_NAK."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1441,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP_STALL_NAK",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1441C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "         "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1442,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  unspecified"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1443,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_20_31",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1440C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1443C7"
         },
         {
           "kind": "span",
@@ -62975,7 +63023,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1441,
+      "number": 1444,
       "children": [
         {
           "kind": "span",
@@ -63001,7 +63049,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1442,
+      "number": 1445,
       "children": [
         {
           "kind": "span",
@@ -63022,7 +63070,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1443,
+      "number": 1446,
       "children": [
         {
           "kind": "span",
@@ -63038,13 +63086,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1444,
+      "number": 1447,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1445,
+      "number": 1448,
       "children": [
         {
           "kind": "span",
@@ -63065,7 +63113,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTF_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1387C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1390C9"
         },
         {
           "kind": "span",
@@ -63091,7 +63139,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1446,
+      "number": 1449,
       "children": [
         {
           "kind": "span",
@@ -63172,7 +63220,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1447,
+      "number": 1450,
       "children": [
         {
           "kind": "span",
@@ -63253,7 +63301,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1448,
+      "number": 1451,
       "children": [
         {
           "kind": "span",
@@ -63334,7 +63382,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1449,
+      "number": 1452,
       "children": [
         {
           "kind": "span",
@@ -63415,7 +63463,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1450,
+      "number": 1453,
       "children": [
         {
           "kind": "span",
@@ -63496,7 +63544,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1451,
+      "number": 1454,
       "children": [
         {
           "kind": "span",
@@ -63577,7 +63625,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1452,
+      "number": 1455,
       "children": [
         {
           "kind": "span",
@@ -63658,7 +63706,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1453,
+      "number": 1456,
       "children": [
         {
           "kind": "span",
@@ -63739,7 +63787,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1454,
+      "number": 1457,
       "children": [
         {
           "kind": "span",
@@ -63820,7 +63868,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1455,
+      "number": 1458,
       "children": [
         {
           "kind": "span",
@@ -63901,7 +63949,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1456,
+      "number": 1459,
       "children": [
         {
           "kind": "span",
@@ -63982,7 +64030,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1457,
+      "number": 1460,
       "children": [
         {
           "kind": "span",
@@ -64063,7 +64111,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1458,
+      "number": 1461,
       "children": [
         {
           "kind": "span",
@@ -64144,7 +64192,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1459,
+      "number": 1462,
       "children": [
         {
           "kind": "span",
@@ -64225,7 +64273,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1460,
+      "number": 1463,
       "children": [
         {
           "kind": "span",
@@ -64306,7 +64354,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1461,
+      "number": 1464,
       "children": [
         {
           "kind": "span",
@@ -64387,7 +64435,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1462,
+      "number": 1465,
       "children": [
         {
           "kind": "span",
@@ -64468,7 +64516,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1463,
+      "number": 1466,
       "children": [
         {
           "kind": "span",
@@ -64549,7 +64597,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1464,
+      "number": 1467,
       "children": [
         {
           "kind": "span",
@@ -64630,7 +64678,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1465,
+      "number": 1468,
       "children": [
         {
           "kind": "span",
@@ -64711,7 +64759,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1466,
+      "number": 1469,
       "children": [
         {
           "kind": "span",
@@ -64792,7 +64840,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1467,
+      "number": 1470,
       "children": [
         {
           "kind": "span",
@@ -64823,13 +64871,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1468,
+      "number": 1471,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1469,
+      "number": 1472,
       "children": [
         {
           "kind": "span",
@@ -64845,7 +64893,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1470,
+      "number": 1473,
       "children": [
         {
           "kind": "span",
@@ -64866,7 +64914,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTS_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1470C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1473C9"
         },
         {
           "kind": "span",
@@ -64892,7 +64940,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1471,
+      "number": 1474,
       "children": [
         {
           "kind": "span",
@@ -64908,7 +64956,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1472,
+      "number": 1475,
       "children": [
         {
           "kind": "span",
@@ -64924,7 +64972,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1473,
+      "number": 1476,
       "children": [
         {
           "kind": "span",
@@ -64940,80 +64988,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1474,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HOST_CONN_DIS",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1474C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1475,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only. Host: raised when a device wakes up the host. Cleared by"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1476,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  writing to SIE_STATUS.RESUME"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 1477,
       "children": [
         {
@@ -65024,13 +64998,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HOST_RESUME",
+          "text": "HOST_CONN_DIS",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1477C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "          "
+          "text": "        "
         },
         {
           "kind": "span",
@@ -65066,7 +65040,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Host: raised every time the host sends a SOF (Start of"
+          "text": "--  Read-only. Host: raised when a device wakes up the host. Cleared by"
         }
       ]
     },
@@ -65082,7 +65056,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Frame). Cleared by reading SOF_RD"
+          "text": "--  writing to SIE_STATUS.RESUME"
         }
       ]
     },
@@ -65098,13 +65072,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HOST_SOF",
+          "text": "HOST_RESUME",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1480C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "             "
+          "text": "          "
         },
         {
           "kind": "span",
@@ -65140,7 +65114,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear"
+          "text": "--  Read-only. Host: raised every time the host sends a SOF (Start of"
         }
       ]
     },
@@ -65156,7 +65130,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  by writing to this bit."
+          "text": "--  Frame). Cleared by reading SOF_RD"
         }
       ]
     },
@@ -65172,13 +65146,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "TRANS_COMPLETE",
+          "text": "HOST_SOF",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1483C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -65214,7 +65188,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Raised when any bit in BUFF_STATUS is set. Clear by"
+          "text": "--  Read-only. Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear"
         }
       ]
     },
@@ -65230,7 +65204,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  clearing all bits in BUFF_STATUS."
+          "text": "--  by writing to this bit."
         }
       ]
     },
@@ -65246,13 +65220,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "BUFF_STATUS",
+          "text": "TRANS_COMPLETE",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1486C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "          "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -65288,7 +65262,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Source: SIE_STATUS.DATA_SEQ_ERROR"
+          "text": "--  Read-only. Raised when any bit in BUFF_STATUS is set. Clear by"
         }
       ]
     },
@@ -65303,34 +65277,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "ERROR_DATA_SEQ",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1488C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  clearing all bits in BUFF_STATUS."
         }
       ]
     },
@@ -65345,315 +65293,9 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only. Source: SIE_STATUS.RX_TIMEOUT"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1490,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "ERROR_RX_TIMEOUT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1490C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1491,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only. Source: SIE_STATUS.RX_OVERFLOW"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1492,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "ERROR_RX_OVERFLOW",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1492C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1493,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only. Source: SIE_STATUS.BIT_STUFF_ERROR"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1494,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "ERROR_BIT_STUFF",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1494C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1495,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only. Source: SIE_STATUS.CRC_ERROR"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1496,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "ERROR_CRC",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1496C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "            "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1497,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only. Source: SIE_STATUS.STALL_REC"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1498,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "STALL",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1498C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "                "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1499,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only. Source: SIE_STATUS.VBUS_DETECTED"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1500,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "VBUS_DETECT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1500C7"
+          "text": "BUFF_STATUS",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1489C7"
         },
         {
           "kind": "span",
@@ -65684,7 +65326,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1501,
+      "number": 1490,
       "children": [
         {
           "kind": "span",
@@ -65694,13 +65336,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Source: SIE_STATUS.BUS_RESET"
+          "text": "--  Read-only. Source: SIE_STATUS.DATA_SEQ_ERROR"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 1502,
+      "number": 1491,
       "children": [
         {
           "kind": "span",
@@ -65710,8 +65352,240 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "BUS_RESET",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1502C7"
+          "text": "ERROR_DATA_SEQ",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1491C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1492,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only. Source: SIE_STATUS.RX_TIMEOUT"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1493,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "ERROR_RX_TIMEOUT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1493C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1494,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only. Source: SIE_STATUS.RX_OVERFLOW"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1495,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "ERROR_RX_OVERFLOW",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1495C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1496,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only. Source: SIE_STATUS.BIT_STUFF_ERROR"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1497,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "ERROR_BIT_STUFF",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1497C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1498,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only. Source: SIE_STATUS.CRC_ERROR"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1499,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "ERROR_CRC",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1499C7"
         },
         {
           "kind": "span",
@@ -65742,7 +65616,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1503,
+      "number": 1500,
       "children": [
         {
           "kind": "span",
@@ -65752,7 +65626,107 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Set when the device connection state changes. Cleared by"
+          "text": "--  Read-only. Source: SIE_STATUS.STALL_REC"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1501,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "STALL",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1501C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1502,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read-only. Source: SIE_STATUS.VBUS_DETECTED"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1503,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "VBUS_DETECT",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1503C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "          "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -65768,7 +65742,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  writing to SIE_STATUS.CONNECTED"
+          "text": "--  Read-only. Source: SIE_STATUS.BUS_RESET"
         }
       ]
     },
@@ -65784,13 +65758,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "DEV_CONN_DIS",
+          "text": "BUS_RESET",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1505C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "         "
+          "text": "            "
         },
         {
           "kind": "span",
@@ -65826,7 +65800,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Set when the device suspend state changes. Cleared by"
+          "text": "--  Read-only. Set when the device connection state changes. Cleared by"
         }
       ]
     },
@@ -65842,7 +65816,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  writing to SIE_STATUS.SUSPENDED"
+          "text": "--  writing to SIE_STATUS.CONNECTED"
         }
       ]
     },
@@ -65858,13 +65832,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "DEV_SUSPEND",
+          "text": "DEV_CONN_DIS",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1508C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "          "
+          "text": "         "
         },
         {
           "kind": "span",
@@ -65900,7 +65874,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Set when the device receives a resume from the host."
+          "text": "--  Read-only. Set when the device suspend state changes. Cleared by"
         }
       ]
     },
@@ -65916,7 +65890,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Cleared by writing to SIE_STATUS.RESUME"
+          "text": "--  writing to SIE_STATUS.SUSPENDED"
         }
       ]
     },
@@ -65932,13 +65906,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "DEV_RESUME_FROM_HOST",
+          "text": "DEV_SUSPEND",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1511C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "          "
         },
         {
           "kind": "span",
@@ -65974,7 +65948,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Device. Source: SIE_STATUS.SETUP_REC"
+          "text": "--  Read-only. Set when the device receives a resume from the host."
         }
       ]
     },
@@ -65989,14 +65963,30 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Cleared by writing to SIE_STATUS.RESUME"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1514,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
-          "text": "SETUP_REQ",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1513C7"
+          "text": "DEV_RESUME_FROM_HOST",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1514C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "            "
+          "text": " "
         },
         {
           "kind": "span",
@@ -66022,22 +66012,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1514,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Read-only. Set every time the device receives a SOF (Start of Frame)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 1515,
       "children": [
         {
@@ -66048,7 +66022,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  packet. Cleared by reading SOF_RD"
+          "text": "--  Read-only. Device. Source: SIE_STATUS.SETUP_REC"
         }
       ]
     },
@@ -66064,13 +66038,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "DEV_SOF",
+          "text": "SETUP_REQ",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1516C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "            "
         },
         {
           "kind": "span",
@@ -66106,7 +66080,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Raised when any bit in ABORT_DONE is set. Clear by"
+          "text": "--  Read-only. Set every time the device receives a SOF (Start of Frame)"
         }
       ]
     },
@@ -66122,7 +66096,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  clearing all bits in ABORT_DONE."
+          "text": "--  packet. Cleared by reading SOF_RD"
         }
       ]
     },
@@ -66138,13 +66112,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "ABORT_DONE",
+          "text": "DEV_SOF",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1519C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -66180,7 +66154,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only. Raised when any bit in EP_STATUS_STALL_NAK is set. Clear"
+          "text": "--  Read-only. Raised when any bit in ABORT_DONE is set. Clear by"
         }
       ]
     },
@@ -66196,7 +66170,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  by clearing all bits in EP_STATUS_STALL_NAK."
+          "text": "--  clearing all bits in ABORT_DONE."
         }
       ]
     },
@@ -66212,13 +66186,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "EP_STALL_NAK",
+          "text": "ABORT_DONE",
           "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1522C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "         "
+          "text": "           "
         },
         {
           "kind": "span",
@@ -66254,7 +66228,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  unspecified"
+          "text": "--  Read-only. Raised when any bit in EP_STATUS_STALL_NAK is set. Clear"
         }
       ]
     },
@@ -66269,9 +66243,83 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  by clearing all bits in EP_STATUS_STALL_NAK."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1525,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "EP_STALL_NAK",
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1525C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "         "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1526,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  unspecified"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1527,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_20_31",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1524C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1527C7"
         },
         {
           "kind": "span",
@@ -66303,7 +66351,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1525,
+      "number": 1528,
       "children": [
         {
           "kind": "span",
@@ -66329,7 +66377,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1526,
+      "number": 1529,
       "children": [
         {
           "kind": "span",
@@ -66350,7 +66398,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1527,
+      "number": 1530,
       "children": [
         {
           "kind": "span",
@@ -66366,13 +66414,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1528,
+      "number": 1531,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1529,
+      "number": 1532,
       "children": [
         {
           "kind": "span",
@@ -66393,7 +66441,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTS_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1470C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1473C9"
         },
         {
           "kind": "span",
@@ -66419,7 +66467,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1530,
+      "number": 1533,
       "children": [
         {
           "kind": "span",
@@ -66500,7 +66548,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1531,
+      "number": 1534,
       "children": [
         {
           "kind": "span",
@@ -66581,7 +66629,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1532,
+      "number": 1535,
       "children": [
         {
           "kind": "span",
@@ -66662,7 +66710,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1533,
+      "number": 1536,
       "children": [
         {
           "kind": "span",
@@ -66743,7 +66791,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1534,
+      "number": 1537,
       "children": [
         {
           "kind": "span",
@@ -66824,7 +66872,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1535,
+      "number": 1538,
       "children": [
         {
           "kind": "span",
@@ -66905,7 +66953,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1536,
+      "number": 1539,
       "children": [
         {
           "kind": "span",
@@ -66986,7 +67034,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1537,
+      "number": 1540,
       "children": [
         {
           "kind": "span",
@@ -67067,7 +67115,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1538,
+      "number": 1541,
       "children": [
         {
           "kind": "span",
@@ -67148,7 +67196,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1539,
+      "number": 1542,
       "children": [
         {
           "kind": "span",
@@ -67229,7 +67277,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1540,
+      "number": 1543,
       "children": [
         {
           "kind": "span",
@@ -67310,7 +67358,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1541,
+      "number": 1544,
       "children": [
         {
           "kind": "span",
@@ -67391,7 +67439,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1542,
+      "number": 1545,
       "children": [
         {
           "kind": "span",
@@ -67472,7 +67520,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1543,
+      "number": 1546,
       "children": [
         {
           "kind": "span",
@@ -67553,7 +67601,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1544,
+      "number": 1547,
       "children": [
         {
           "kind": "span",
@@ -67634,7 +67682,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1545,
+      "number": 1548,
       "children": [
         {
           "kind": "span",
@@ -67715,7 +67763,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1546,
+      "number": 1549,
       "children": [
         {
           "kind": "span",
@@ -67796,7 +67844,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1547,
+      "number": 1550,
       "children": [
         {
           "kind": "span",
@@ -67877,7 +67925,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1548,
+      "number": 1551,
       "children": [
         {
           "kind": "span",
@@ -67958,7 +68006,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1549,
+      "number": 1552,
       "children": [
         {
           "kind": "span",
@@ -68039,7 +68087,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1550,
+      "number": 1553,
       "children": [
         {
           "kind": "span",
@@ -68120,7 +68168,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1551,
+      "number": 1554,
       "children": [
         {
           "kind": "span",
@@ -68151,13 +68199,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1552,
+      "number": 1555,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1553,
+      "number": 1556,
       "children": [
         {
           "kind": "span",
@@ -68173,7 +68221,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1554,
+      "number": 1557,
       "children": [
         {
           "kind": "span",
@@ -68189,7 +68237,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1555,
+      "number": 1558,
       "children": [
         {
           "kind": "span",
@@ -68205,13 +68253,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1556,
+      "number": 1559,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1557,
+      "number": 1560,
       "children": [
         {
           "kind": "span",
@@ -68227,7 +68275,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1558,
+      "number": 1561,
       "children": [
         {
           "kind": "span",
@@ -68248,7 +68296,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBCTRL_REGS_Peripheral",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1558C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1561C9"
         },
         {
           "kind": "span",
@@ -68274,7 +68322,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1559,
+      "number": 1562,
       "children": [
         {
           "kind": "span",
@@ -68290,7 +68338,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1560,
+      "number": 1563,
       "children": [
         {
           "kind": "span",
@@ -68301,7 +68349,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1560C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1563C7"
         },
         {
           "kind": "span",
@@ -68343,7 +68391,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1561,
+      "number": 1564,
       "children": [
         {
           "kind": "span",
@@ -68359,7 +68407,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1562,
+      "number": 1565,
       "children": [
         {
           "kind": "span",
@@ -68370,7 +68418,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP1",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1562C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1565C7"
         },
         {
           "kind": "span",
@@ -68412,7 +68460,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1563,
+      "number": 1566,
       "children": [
         {
           "kind": "span",
@@ -68428,7 +68476,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1564,
+      "number": 1567,
       "children": [
         {
           "kind": "span",
@@ -68439,7 +68487,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP2",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1564C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1567C7"
         },
         {
           "kind": "span",
@@ -68481,7 +68529,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1565,
+      "number": 1568,
       "children": [
         {
           "kind": "span",
@@ -68497,7 +68545,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1566,
+      "number": 1569,
       "children": [
         {
           "kind": "span",
@@ -68508,7 +68556,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP3",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1566C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1569C7"
         },
         {
           "kind": "span",
@@ -68550,7 +68598,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1567,
+      "number": 1570,
       "children": [
         {
           "kind": "span",
@@ -68566,7 +68614,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1568,
+      "number": 1571,
       "children": [
         {
           "kind": "span",
@@ -68577,7 +68625,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP4",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1568C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1571C7"
         },
         {
           "kind": "span",
@@ -68619,7 +68667,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1569,
+      "number": 1572,
       "children": [
         {
           "kind": "span",
@@ -68635,7 +68683,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1570,
+      "number": 1573,
       "children": [
         {
           "kind": "span",
@@ -68646,7 +68694,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP5",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1570C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1573C7"
         },
         {
           "kind": "span",
@@ -68688,7 +68736,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1571,
+      "number": 1574,
       "children": [
         {
           "kind": "span",
@@ -68704,7 +68752,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1572,
+      "number": 1575,
       "children": [
         {
           "kind": "span",
@@ -68715,7 +68763,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP6",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1572C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1575C7"
         },
         {
           "kind": "span",
@@ -68757,7 +68805,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1573,
+      "number": 1576,
       "children": [
         {
           "kind": "span",
@@ -68773,7 +68821,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1574,
+      "number": 1577,
       "children": [
         {
           "kind": "span",
@@ -68784,7 +68832,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP7",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1574C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1577C7"
         },
         {
           "kind": "span",
@@ -68826,7 +68874,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1575,
+      "number": 1578,
       "children": [
         {
           "kind": "span",
@@ -68842,7 +68890,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1576,
+      "number": 1579,
       "children": [
         {
           "kind": "span",
@@ -68853,7 +68901,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP8",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1576C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1579C7"
         },
         {
           "kind": "span",
@@ -68895,7 +68943,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1577,
+      "number": 1580,
       "children": [
         {
           "kind": "span",
@@ -68911,7 +68959,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1578,
+      "number": 1581,
       "children": [
         {
           "kind": "span",
@@ -68922,7 +68970,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP9",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1578C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1581C7"
         },
         {
           "kind": "span",
@@ -68964,7 +69012,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1579,
+      "number": 1582,
       "children": [
         {
           "kind": "span",
@@ -68980,7 +69028,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1580,
+      "number": 1583,
       "children": [
         {
           "kind": "span",
@@ -68991,7 +69039,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP10",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1580C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1583C7"
         },
         {
           "kind": "span",
@@ -69033,7 +69081,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1581,
+      "number": 1584,
       "children": [
         {
           "kind": "span",
@@ -69049,7 +69097,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1582,
+      "number": 1585,
       "children": [
         {
           "kind": "span",
@@ -69060,7 +69108,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP11",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1582C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1585C7"
         },
         {
           "kind": "span",
@@ -69102,7 +69150,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1583,
+      "number": 1586,
       "children": [
         {
           "kind": "span",
@@ -69118,7 +69166,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1584,
+      "number": 1587,
       "children": [
         {
           "kind": "span",
@@ -69129,7 +69177,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP12",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1584C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1587C7"
         },
         {
           "kind": "span",
@@ -69171,7 +69219,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1585,
+      "number": 1588,
       "children": [
         {
           "kind": "span",
@@ -69187,7 +69235,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1586,
+      "number": 1589,
       "children": [
         {
           "kind": "span",
@@ -69198,7 +69246,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP13",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1586C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1589C7"
         },
         {
           "kind": "span",
@@ -69240,7 +69288,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1587,
+      "number": 1590,
       "children": [
         {
           "kind": "span",
@@ -69256,7 +69304,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1588,
+      "number": 1591,
       "children": [
         {
           "kind": "span",
@@ -69267,7 +69315,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP14",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1588C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1591C7"
         },
         {
           "kind": "span",
@@ -69309,7 +69357,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1589,
+      "number": 1592,
       "children": [
         {
           "kind": "span",
@@ -69325,7 +69373,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1590,
+      "number": 1593,
       "children": [
         {
           "kind": "span",
@@ -69336,7 +69384,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP15",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1590C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1593C7"
         },
         {
           "kind": "span",
@@ -69378,7 +69426,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1591,
+      "number": 1594,
       "children": [
         {
           "kind": "span",
@@ -69394,7 +69442,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1592,
+      "number": 1595,
       "children": [
         {
           "kind": "span",
@@ -69405,7 +69453,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "MAIN_CTRL",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1592C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1595C7"
         },
         {
           "kind": "span",
@@ -69447,7 +69495,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1593,
+      "number": 1596,
       "children": [
         {
           "kind": "span",
@@ -69463,7 +69511,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1594,
+      "number": 1597,
       "children": [
         {
           "kind": "span",
@@ -69479,7 +69527,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1595,
+      "number": 1598,
       "children": [
         {
           "kind": "span",
@@ -69495,7 +69543,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1596,
+      "number": 1599,
       "children": [
         {
           "kind": "span",
@@ -69506,7 +69554,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SOF_WR",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1596C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1599C7"
         },
         {
           "kind": "span",
@@ -69548,7 +69596,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1597,
+      "number": 1600,
       "children": [
         {
           "kind": "span",
@@ -69564,7 +69612,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1598,
+      "number": 1601,
       "children": [
         {
           "kind": "span",
@@ -69580,7 +69628,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1599,
+      "number": 1602,
       "children": [
         {
           "kind": "span",
@@ -69596,7 +69644,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1600,
+      "number": 1603,
       "children": [
         {
           "kind": "span",
@@ -69607,7 +69655,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SOF_RD",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1600C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1603C7"
         },
         {
           "kind": "span",
@@ -69649,7 +69697,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1601,
+      "number": 1604,
       "children": [
         {
           "kind": "span",
@@ -69665,7 +69713,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1602,
+      "number": 1605,
       "children": [
         {
           "kind": "span",
@@ -69676,7 +69724,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SIE_CTRL",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1602C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1605C7"
         },
         {
           "kind": "span",
@@ -69718,7 +69766,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1603,
+      "number": 1606,
       "children": [
         {
           "kind": "span",
@@ -69734,7 +69782,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1604,
+      "number": 1607,
       "children": [
         {
           "kind": "span",
@@ -69745,7 +69793,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SIE_STATUS",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1604C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1607C7"
         },
         {
           "kind": "span",
@@ -69787,7 +69835,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1605,
+      "number": 1608,
       "children": [
         {
           "kind": "span",
@@ -69803,7 +69851,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1606,
+      "number": 1609,
       "children": [
         {
           "kind": "span",
@@ -69814,7 +69862,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INT_EP_CTRL",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1606C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1609C7"
         },
         {
           "kind": "span",
@@ -69845,60 +69893,12 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INT_EP_CTRL_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L346C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L349C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1607,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Buffer status register. A bit set here indicates that a buffer has"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1608,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  completed on the endpoint (if the buffer interrupt is enabled). It is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1609,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  possible for 2 buffers to be completed, so clearing the buffer status"
         }
       ]
     },
@@ -69914,7 +69914,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  bit may instantly re set it on the next clock cycle."
+          "text": "--  Buffer status register. A bit set here indicates that a buffer has"
         }
       ]
     },
@@ -69929,9 +69929,57 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  completed on the endpoint (if the buffer interrupt is enabled). It is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1612,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  possible for 2 buffers to be completed, so clearing the buffer status"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1613,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  bit may instantly re set it on the next clock cycle."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1614,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "BUFF_STATUS",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1611C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1614C7"
         },
         {
           "kind": "span",
@@ -69962,7 +70010,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BUFF_STATUS_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L367C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L370C9"
         },
         {
           "kind": "span",
@@ -69973,7 +70021,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1612,
+      "number": 1615,
       "children": [
         {
           "kind": "span",
@@ -69989,7 +70037,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1613,
+      "number": 1616,
       "children": [
         {
           "kind": "span",
@@ -70005,7 +70053,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1614,
+      "number": 1617,
       "children": [
         {
           "kind": "span",
@@ -70021,7 +70069,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1615,
+      "number": 1618,
       "children": [
         {
           "kind": "span",
@@ -70032,7 +70080,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BUFF_CPU_SHOULD_HANDLE",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1615C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1618C7"
         },
         {
           "kind": "span",
@@ -70063,60 +70111,12 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BUFF_CPU_SHOULD_HANDLE_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L506C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L509C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1616,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Device only: Can be set to ignore the buffer control register for"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1617,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  this endpoint in case you would like to revoke a buffer. A NAK will"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1618,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  be sent for every access to the endpoint until this bit is cleared. A"
         }
       ]
     },
@@ -70132,7 +70132,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  corresponding bit in `EP_ABORT_DONE` is set when it is safe to modify"
+          "text": "--  Device only: Can be set to ignore the buffer control register for"
         }
       ]
     },
@@ -70148,7 +70148,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  the buffer control register."
+          "text": "--  this endpoint in case you would like to revoke a buffer. A NAK will"
         }
       ]
     },
@@ -70163,9 +70163,57 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  be sent for every access to the endpoint until this bit is cleared. A"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1622,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  corresponding bit in `EP_ABORT_DONE` is set when it is safe to modify"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1623,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  the buffer control register."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1624,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "EP_ABORT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1621C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1624C7"
         },
         {
           "kind": "span",
@@ -70196,7 +70244,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_ABORT_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L615C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L618C9"
         },
         {
           "kind": "span",
@@ -70207,7 +70255,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1622,
+      "number": 1625,
       "children": [
         {
           "kind": "span",
@@ -70223,7 +70271,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1623,
+      "number": 1626,
       "children": [
         {
           "kind": "span",
@@ -70239,7 +70287,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1624,
+      "number": 1627,
       "children": [
         {
           "kind": "span",
@@ -70255,7 +70303,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1625,
+      "number": 1628,
       "children": [
         {
           "kind": "span",
@@ -70266,7 +70314,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_ABORT_DONE",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1625C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1628C7"
         },
         {
           "kind": "span",
@@ -70297,60 +70345,12 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_ABORT_DONE_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L690C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L693C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1626,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Device: this bit must be set in conjunction with the `STALL` bit in"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1627,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  the buffer control register to send a STALL on EP0. The device"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 1628,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  controller clears these bits when a SETUP packet is received because"
         }
       ]
     },
@@ -70366,7 +70366,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  the USB spec requires that a STALL condition is cleared when a SETUP"
+          "text": "--  Device: this bit must be set in conjunction with the `STALL` bit in"
         }
       ]
     },
@@ -70382,7 +70382,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  packet is received."
+          "text": "--  the buffer control register to send a STALL on EP0. The device"
         }
       ]
     },
@@ -70397,9 +70397,57 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  controller clears these bits when a SETUP packet is received because"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1632,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  the USB spec requires that a STALL condition is cleared when a SETUP"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1633,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  packet is received."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 1634,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "EP_STALL_ARM",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1631C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1634C7"
         },
         {
           "kind": "span",
@@ -70430,7 +70478,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_STALL_ARM_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L831C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L834C9"
         },
         {
           "kind": "span",
@@ -70441,7 +70489,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1632,
+      "number": 1635,
       "children": [
         {
           "kind": "span",
@@ -70457,7 +70505,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1633,
+      "number": 1636,
       "children": [
         {
           "kind": "span",
@@ -70473,7 +70521,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1634,
+      "number": 1637,
       "children": [
         {
           "kind": "span",
@@ -70484,7 +70532,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "NAK_POLL",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1634C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1637C7"
         },
         {
           "kind": "span",
@@ -70515,7 +70563,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "NAK_POLL_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L851C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L854C9"
         },
         {
           "kind": "span",
@@ -70526,7 +70574,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1635,
+      "number": 1638,
       "children": [
         {
           "kind": "span",
@@ -70542,7 +70590,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1636,
+      "number": 1639,
       "children": [
         {
           "kind": "span",
@@ -70558,7 +70606,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1637,
+      "number": 1640,
       "children": [
         {
           "kind": "span",
@@ -70574,7 +70622,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1638,
+      "number": 1641,
       "children": [
         {
           "kind": "span",
@@ -70585,7 +70633,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_STATUS_STALL_NAK",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1638C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1641C7"
         },
         {
           "kind": "span",
@@ -70616,7 +70664,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_STATUS_STALL_NAK_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L874C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L877C9"
         },
         {
           "kind": "span",
@@ -70627,7 +70675,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1639,
+      "number": 1642,
       "children": [
         {
           "kind": "span",
@@ -70643,7 +70691,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1640,
+      "number": 1643,
       "children": [
         {
           "kind": "span",
@@ -70654,7 +70702,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_MUXING",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1640C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1643C7"
         },
         {
           "kind": "span",
@@ -70685,7 +70733,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_MUXING_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1011C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1014C9"
         },
         {
           "kind": "span",
@@ -70696,7 +70744,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1641,
+      "number": 1644,
       "children": [
         {
           "kind": "span",
@@ -70712,7 +70760,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1642,
+      "number": 1645,
       "children": [
         {
           "kind": "span",
@@ -70728,7 +70776,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1643,
+      "number": 1646,
       "children": [
         {
           "kind": "span",
@@ -70744,7 +70792,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1644,
+      "number": 1647,
       "children": [
         {
           "kind": "span",
@@ -70755,7 +70803,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_PWR",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1644C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1647C7"
         },
         {
           "kind": "span",
@@ -70786,7 +70834,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_PWR_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1033C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1036C9"
         },
         {
           "kind": "span",
@@ -70797,7 +70845,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1645,
+      "number": 1648,
       "children": [
         {
           "kind": "span",
@@ -70813,7 +70861,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1646,
+      "number": 1649,
       "children": [
         {
           "kind": "span",
@@ -70829,7 +70877,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1647,
+      "number": 1650,
       "children": [
         {
           "kind": "span",
@@ -70845,7 +70893,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1648,
+      "number": 1651,
       "children": [
         {
           "kind": "span",
@@ -70856,7 +70904,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBPHY_DIRECT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1648C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1651C7"
         },
         {
           "kind": "span",
@@ -70887,7 +70935,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBPHY_DIRECT_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1059C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1062C9"
         },
         {
           "kind": "span",
@@ -70898,7 +70946,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1649,
+      "number": 1652,
       "children": [
         {
           "kind": "span",
@@ -70914,7 +70962,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1650,
+      "number": 1653,
       "children": [
         {
           "kind": "span",
@@ -70925,7 +70973,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBPHY_DIRECT_OVERRIDE",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1650C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1653C7"
         },
         {
           "kind": "span",
@@ -70956,7 +71004,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBPHY_DIRECT_OVERRIDE_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1149C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1152C9"
         },
         {
           "kind": "span",
@@ -70967,7 +71015,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1651,
+      "number": 1654,
       "children": [
         {
           "kind": "span",
@@ -70983,7 +71031,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1652,
+      "number": 1655,
       "children": [
         {
           "kind": "span",
@@ -70994,7 +71042,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBPHY_TRIM",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1652C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1655C7"
         },
         {
           "kind": "span",
@@ -71025,7 +71073,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBPHY_TRIM_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1195C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1198C9"
         },
         {
           "kind": "span",
@@ -71036,7 +71084,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1653,
+      "number": 1656,
       "children": [
         {
           "kind": "span",
@@ -71052,7 +71100,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1654,
+      "number": 1657,
       "children": [
         {
           "kind": "span",
@@ -71063,7 +71111,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTR",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1654C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1657C7"
         },
         {
           "kind": "span",
@@ -71094,7 +71142,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTR_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1220C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1223C9"
         },
         {
           "kind": "span",
@@ -71105,7 +71153,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1655,
+      "number": 1658,
       "children": [
         {
           "kind": "span",
@@ -71121,7 +71169,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1656,
+      "number": 1659,
       "children": [
         {
           "kind": "span",
@@ -71132,7 +71180,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTE",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1656C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1659C7"
         },
         {
           "kind": "span",
@@ -71163,7 +71211,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTE_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1304C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1307C9"
         },
         {
           "kind": "span",
@@ -71174,7 +71222,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1657,
+      "number": 1660,
       "children": [
         {
           "kind": "span",
@@ -71190,7 +71238,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1658,
+      "number": 1661,
       "children": [
         {
           "kind": "span",
@@ -71201,7 +71249,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTF",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1658C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1661C7"
         },
         {
           "kind": "span",
@@ -71232,7 +71280,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTF_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1387C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1390C9"
         },
         {
           "kind": "span",
@@ -71243,7 +71291,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1659,
+      "number": 1662,
       "children": [
         {
           "kind": "span",
@@ -71259,7 +71307,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1660,
+      "number": 1663,
       "children": [
         {
           "kind": "span",
@@ -71270,7 +71318,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTS",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1660C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1663C7"
         },
         {
           "kind": "span",
@@ -71301,7 +71349,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTS_Register",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1470C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1473C9"
         },
         {
           "kind": "span",
@@ -71312,7 +71360,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1661,
+      "number": 1664,
       "children": [
         {
           "kind": "span",
@@ -71338,7 +71386,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1662,
+      "number": 1665,
       "children": [
         {
           "kind": "span",
@@ -71364,13 +71412,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1663,
+      "number": 1666,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1664,
+      "number": 1667,
       "children": [
         {
           "kind": "span",
@@ -71391,7 +71439,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBCTRL_REGS_Peripheral",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1558C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1561C9"
         },
         {
           "kind": "span",
@@ -71417,7 +71465,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1665,
+      "number": 1668,
       "children": [
         {
           "kind": "span",
@@ -71428,7 +71476,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1560C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1563C7"
         },
         {
           "kind": "span",
@@ -71514,7 +71562,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1666,
+      "number": 1669,
       "children": [
         {
           "kind": "span",
@@ -71525,7 +71573,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP1",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1562C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1565C7"
         },
         {
           "kind": "span",
@@ -71611,7 +71659,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1667,
+      "number": 1670,
       "children": [
         {
           "kind": "span",
@@ -71622,7 +71670,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP2",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1564C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1567C7"
         },
         {
           "kind": "span",
@@ -71708,7 +71756,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1668,
+      "number": 1671,
       "children": [
         {
           "kind": "span",
@@ -71719,7 +71767,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP3",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1566C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1569C7"
         },
         {
           "kind": "span",
@@ -71805,7 +71853,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1669,
+      "number": 1672,
       "children": [
         {
           "kind": "span",
@@ -71816,7 +71864,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP4",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1568C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1571C7"
         },
         {
           "kind": "span",
@@ -71902,7 +71950,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1670,
+      "number": 1673,
       "children": [
         {
           "kind": "span",
@@ -71913,7 +71961,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP5",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1570C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1573C7"
         },
         {
           "kind": "span",
@@ -71999,7 +72047,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1671,
+      "number": 1674,
       "children": [
         {
           "kind": "span",
@@ -72010,7 +72058,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP6",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1572C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1575C7"
         },
         {
           "kind": "span",
@@ -72096,7 +72144,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1672,
+      "number": 1675,
       "children": [
         {
           "kind": "span",
@@ -72107,7 +72155,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP7",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1574C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1577C7"
         },
         {
           "kind": "span",
@@ -72193,7 +72241,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1673,
+      "number": 1676,
       "children": [
         {
           "kind": "span",
@@ -72204,7 +72252,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP8",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1576C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1579C7"
         },
         {
           "kind": "span",
@@ -72290,7 +72338,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1674,
+      "number": 1677,
       "children": [
         {
           "kind": "span",
@@ -72301,7 +72349,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP9",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1578C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1581C7"
         },
         {
           "kind": "span",
@@ -72387,7 +72435,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1675,
+      "number": 1678,
       "children": [
         {
           "kind": "span",
@@ -72398,7 +72446,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP10",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1580C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1583C7"
         },
         {
           "kind": "span",
@@ -72484,7 +72532,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1676,
+      "number": 1679,
       "children": [
         {
           "kind": "span",
@@ -72495,7 +72543,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP11",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1582C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1585C7"
         },
         {
           "kind": "span",
@@ -72581,7 +72629,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1677,
+      "number": 1680,
       "children": [
         {
           "kind": "span",
@@ -72592,7 +72640,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP12",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1584C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1587C7"
         },
         {
           "kind": "span",
@@ -72678,7 +72726,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1678,
+      "number": 1681,
       "children": [
         {
           "kind": "span",
@@ -72689,7 +72737,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP13",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1586C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1589C7"
         },
         {
           "kind": "span",
@@ -72775,7 +72823,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1679,
+      "number": 1682,
       "children": [
         {
           "kind": "span",
@@ -72786,7 +72834,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP14",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1588C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1591C7"
         },
         {
           "kind": "span",
@@ -72872,7 +72920,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1680,
+      "number": 1683,
       "children": [
         {
           "kind": "span",
@@ -72883,7 +72931,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADDR_ENDP15",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1590C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1593C7"
         },
         {
           "kind": "span",
@@ -72969,7 +73017,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1681,
+      "number": 1684,
       "children": [
         {
           "kind": "span",
@@ -72980,7 +73028,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "MAIN_CTRL",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1592C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1595C7"
         },
         {
           "kind": "span",
@@ -73066,7 +73114,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1682,
+      "number": 1685,
       "children": [
         {
           "kind": "span",
@@ -73077,7 +73125,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SOF_WR",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1596C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1599C7"
         },
         {
           "kind": "span",
@@ -73163,7 +73211,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1683,
+      "number": 1686,
       "children": [
         {
           "kind": "span",
@@ -73174,7 +73222,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SOF_RD",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1600C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1603C7"
         },
         {
           "kind": "span",
@@ -73260,7 +73308,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1684,
+      "number": 1687,
       "children": [
         {
           "kind": "span",
@@ -73271,7 +73319,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SIE_CTRL",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1602C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1605C7"
         },
         {
           "kind": "span",
@@ -73357,7 +73405,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1685,
+      "number": 1688,
       "children": [
         {
           "kind": "span",
@@ -73368,7 +73416,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SIE_STATUS",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1604C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1607C7"
         },
         {
           "kind": "span",
@@ -73454,7 +73502,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1686,
+      "number": 1689,
       "children": [
         {
           "kind": "span",
@@ -73465,7 +73513,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INT_EP_CTRL",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1606C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1609C7"
         },
         {
           "kind": "span",
@@ -73551,7 +73599,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1687,
+      "number": 1690,
       "children": [
         {
           "kind": "span",
@@ -73562,7 +73610,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BUFF_STATUS",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1611C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1614C7"
         },
         {
           "kind": "span",
@@ -73648,7 +73696,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1688,
+      "number": 1691,
       "children": [
         {
           "kind": "span",
@@ -73659,7 +73707,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BUFF_CPU_SHOULD_HANDLE",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1615C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1618C7"
         },
         {
           "kind": "span",
@@ -73745,7 +73793,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1689,
+      "number": 1692,
       "children": [
         {
           "kind": "span",
@@ -73756,7 +73804,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_ABORT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1621C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1624C7"
         },
         {
           "kind": "span",
@@ -73842,7 +73890,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1690,
+      "number": 1693,
       "children": [
         {
           "kind": "span",
@@ -73853,7 +73901,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_ABORT_DONE",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1625C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1628C7"
         },
         {
           "kind": "span",
@@ -73939,7 +73987,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1691,
+      "number": 1694,
       "children": [
         {
           "kind": "span",
@@ -73950,7 +73998,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_STALL_ARM",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1631C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1634C7"
         },
         {
           "kind": "span",
@@ -74036,7 +74084,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1692,
+      "number": 1695,
       "children": [
         {
           "kind": "span",
@@ -74047,7 +74095,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "NAK_POLL",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1634C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1637C7"
         },
         {
           "kind": "span",
@@ -74133,7 +74181,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1693,
+      "number": 1696,
       "children": [
         {
           "kind": "span",
@@ -74144,7 +74192,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_STATUS_STALL_NAK",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1638C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1641C7"
         },
         {
           "kind": "span",
@@ -74230,7 +74278,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1694,
+      "number": 1697,
       "children": [
         {
           "kind": "span",
@@ -74241,7 +74289,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_MUXING",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1640C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1643C7"
         },
         {
           "kind": "span",
@@ -74327,7 +74375,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1695,
+      "number": 1698,
       "children": [
         {
           "kind": "span",
@@ -74338,7 +74386,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_PWR",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1644C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1647C7"
         },
         {
           "kind": "span",
@@ -74424,7 +74472,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1696,
+      "number": 1699,
       "children": [
         {
           "kind": "span",
@@ -74435,7 +74483,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBPHY_DIRECT",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1648C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1651C7"
         },
         {
           "kind": "span",
@@ -74521,7 +74569,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1697,
+      "number": 1700,
       "children": [
         {
           "kind": "span",
@@ -74532,7 +74580,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBPHY_DIRECT_OVERRIDE",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1650C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1653C7"
         },
         {
           "kind": "span",
@@ -74618,7 +74666,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1698,
+      "number": 1701,
       "children": [
         {
           "kind": "span",
@@ -74629,7 +74677,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBPHY_TRIM",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1652C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1655C7"
         },
         {
           "kind": "span",
@@ -74715,7 +74763,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1699,
+      "number": 1702,
       "children": [
         {
           "kind": "span",
@@ -74726,7 +74774,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTR",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1654C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1657C7"
         },
         {
           "kind": "span",
@@ -74812,7 +74860,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1700,
+      "number": 1703,
       "children": [
         {
           "kind": "span",
@@ -74823,7 +74871,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTE",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1656C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1659C7"
         },
         {
           "kind": "span",
@@ -74909,7 +74957,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1701,
+      "number": 1704,
       "children": [
         {
           "kind": "span",
@@ -74920,7 +74968,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTF",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1658C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1661C7"
         },
         {
           "kind": "span",
@@ -75006,7 +75054,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1702,
+      "number": 1705,
       "children": [
         {
           "kind": "span",
@@ -75017,7 +75065,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTS",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1660C7"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1663C7"
         },
         {
           "kind": "span",
@@ -75103,7 +75151,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1703,
+      "number": 1706,
       "children": [
         {
           "kind": "span",
@@ -75134,13 +75182,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1704,
+      "number": 1707,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1705,
+      "number": 1708,
       "children": [
         {
           "kind": "span",
@@ -75156,7 +75204,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1706,
+      "number": 1709,
       "children": [
         {
           "kind": "span",
@@ -75167,7 +75215,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBCTRL_REGS_Periph",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1706C4"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1709C4"
         },
         {
           "kind": "span",
@@ -75198,13 +75246,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBCTRL_REGS_Peripheral",
-          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1558C9"
+          "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1561C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 1707,
+      "number": 1710,
       "children": [
         {
           "kind": "span",
@@ -75230,13 +75278,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 1708,
+      "number": 1711,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 1709,
+      "number": 1712,
       "children": [
         {
           "kind": "span",

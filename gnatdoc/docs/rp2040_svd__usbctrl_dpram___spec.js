@@ -19983,7 +19983,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -21694,7 +21694,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -23405,7 +23405,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -26187,7 +26187,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -28969,7 +28969,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -31751,7 +31751,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -34533,7 +34533,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -37315,7 +37315,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -40097,7 +40097,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -42879,7 +42879,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -45661,7 +45661,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -48443,7 +48443,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -51225,7 +51225,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -54007,7 +54007,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -56789,7 +56789,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -59571,7 +59571,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -62353,7 +62353,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -65135,7 +65135,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -67917,7 +67917,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -70699,7 +70699,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -73481,7 +73481,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -76263,7 +76263,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -79045,7 +79045,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -81827,7 +81827,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -84609,7 +84609,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -87391,7 +87391,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -90173,7 +90173,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -92955,7 +92955,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -95737,7 +95737,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -98519,7 +98519,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -101301,7 +101301,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },
@@ -104083,7 +104083,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  The length of the data in buffer 1."
+                      "text": "--  The length of the data in buffer 0."
                     }
                   ]
                 },

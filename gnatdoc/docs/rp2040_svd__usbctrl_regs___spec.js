@@ -149,7 +149,7 @@ GNATdoc.Documentation = {
         {
           "label": "INT_EP_CTRL_INT_EP_ACTIVE_Field",
           "qualifier": "",
-          "line": 343,
+          "line": 346,
           "column": 12,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -160,7 +160,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 343,
+                  "number": 346,
                   "children": [
                     {
                       "kind": "span",
@@ -181,7 +181,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INT_EP_CTRL_INT_EP_ACTIVE_Field",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L343C12"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L346C12"
                     },
                     {
                       "kind": "span",
@@ -218,7 +218,7 @@ GNATdoc.Documentation = {
         {
           "label": "NAK_POLL_DELAY_FS_Field",
           "qualifier": "",
-          "line": 847,
+          "line": 850,
           "column": 12,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -229,7 +229,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 847,
+                  "number": 850,
                   "children": [
                     {
                       "kind": "span",
@@ -250,7 +250,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "NAK_POLL_DELAY_FS_Field",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L847C12"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L850C12"
                     },
                     {
                       "kind": "span",
@@ -287,7 +287,7 @@ GNATdoc.Documentation = {
         {
           "label": "NAK_POLL_DELAY_LS_Field",
           "qualifier": "",
-          "line": 846,
+          "line": 849,
           "column": 12,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -298,7 +298,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 846,
+                  "number": 849,
                   "children": [
                     {
                       "kind": "span",
@@ -319,7 +319,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "NAK_POLL_DELAY_LS_Field",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L846C12"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L849C12"
                     },
                     {
                       "kind": "span",
@@ -632,7 +632,7 @@ GNATdoc.Documentation = {
         {
           "label": "USBPHY_TRIM_DM_PULLDN_TRIM_Field",
           "qualifier": "",
-          "line": 1192,
+          "line": 1195,
           "column": 12,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -643,7 +643,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 1192,
+                  "number": 1195,
                   "children": [
                     {
                       "kind": "span",
@@ -664,7 +664,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USBPHY_TRIM_DM_PULLDN_TRIM_Field",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1192C12"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1195C12"
                     },
                     {
                       "kind": "span",
@@ -701,7 +701,7 @@ GNATdoc.Documentation = {
         {
           "label": "USBPHY_TRIM_DP_PULLDN_TRIM_Field",
           "qualifier": "",
-          "line": 1191,
+          "line": 1194,
           "column": 12,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -712,7 +712,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 1191,
+                  "number": 1194,
                   "children": [
                     {
                       "kind": "span",
@@ -733,7 +733,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USBPHY_TRIM_DP_PULLDN_TRIM_Field",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1191C12"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1194C12"
                     },
                     {
                       "kind": "span",
@@ -2303,7 +2303,7 @@ GNATdoc.Documentation = {
         {
           "label": "BUFF_CPU_SHOULD_HANDLE_Register",
           "qualifier": "",
-          "line": 506,
+          "line": 509,
           "column": 9,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -2314,7 +2314,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 506,
+                  "number": 509,
                   "children": [
                     {
                       "kind": "span",
@@ -2335,7 +2335,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BUFF_CPU_SHOULD_HANDLE_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L506C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L509C9"
                     },
                     {
                       "kind": "span",
@@ -2361,80 +2361,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 507,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 508,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP0_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L508C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 509,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 510,
                   "children": [
                     {
@@ -2444,34 +2370,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP0_OUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L510C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -2486,8 +2386,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP0_IN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L511C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -2502,34 +2428,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP1_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L512C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -2544,8 +2444,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP0_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L513C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -2560,34 +2486,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP1_OUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L514C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -2602,8 +2502,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP1_IN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L515C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -2618,34 +2544,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP2_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L516C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -2660,8 +2560,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP1_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L517C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -2676,34 +2602,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP2_OUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L518C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -2718,8 +2618,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP2_IN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L519C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -2734,34 +2660,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP3_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L520C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -2776,8 +2676,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP2_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L521C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -2792,34 +2718,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP3_OUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L522C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -2834,8 +2734,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP3_IN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L523C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -2850,34 +2776,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP4_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L524C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -2892,8 +2792,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP3_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L525C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -2908,34 +2834,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP4_OUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L526C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -2950,8 +2850,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP4_IN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L527C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -2966,34 +2892,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP5_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L528C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -3008,8 +2908,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP4_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L529C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -3024,34 +2950,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP5_OUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L530C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -3066,8 +2966,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP5_IN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L531C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -3082,34 +3008,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP6_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L532C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -3124,8 +3024,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP5_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L533C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -3140,34 +3066,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP6_OUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L534C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -3182,8 +3082,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP6_IN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L535C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -3198,34 +3124,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP7_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L536C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -3240,8 +3140,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP6_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L537C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -3256,34 +3182,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP7_OUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L538C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -3298,8 +3198,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP7_IN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L539C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -3314,34 +3240,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP8_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L540C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -3356,25 +3256,9 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 542,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP8_OUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L542C7"
+                      "text": "EP7_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L541C7"
                     },
                     {
                       "kind": "span",
@@ -3405,7 +3289,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 543,
+                  "number": 542,
                   "children": [
                     {
                       "kind": "span",
@@ -3421,7 +3305,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 544,
+                  "number": 543,
                   "children": [
                     {
                       "kind": "span",
@@ -3431,8 +3315,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP9_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L544C7"
+                      "text": "EP8_IN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L543C7"
                     },
                     {
                       "kind": "span",
@@ -3463,7 +3347,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 545,
+                  "number": 544,
                   "children": [
                     {
                       "kind": "span",
@@ -3474,6 +3358,48 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "comment",
                       "text": "--  Read-only."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 545,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "EP8_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L545C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -3488,34 +3414,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP9_OUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L546C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -3530,8 +3430,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP9_IN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L547C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -3546,34 +3472,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP10_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L548C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -3588,8 +3488,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP9_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L549C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -3604,34 +3530,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP10_OUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L550C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -3646,8 +3546,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP10_IN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L551C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -3662,34 +3588,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP11_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L552C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -3704,8 +3604,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP10_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L553C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -3720,34 +3646,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP11_OUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L554C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -3762,8 +3662,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP11_IN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L555C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -3778,34 +3704,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP12_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L556C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -3820,8 +3720,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP11_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L557C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -3836,34 +3762,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP12_OUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L558C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -3878,8 +3778,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP12_IN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L559C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -3894,34 +3820,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP13_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L560C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -3936,8 +3836,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP12_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L561C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -3952,34 +3878,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP13_OUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L562C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -3994,8 +3894,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
+                      "cssClass": "identifier",
+                      "text": "EP13_IN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L563C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -4010,34 +3936,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP14_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L564C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
                     }
                   ]
                 },
@@ -4052,25 +3952,9 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 566,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP14_OUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L566C7"
+                      "text": "EP13_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L565C7"
                     },
                     {
                       "kind": "span",
@@ -4101,7 +3985,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 567,
+                  "number": 566,
                   "children": [
                     {
                       "kind": "span",
@@ -4117,7 +4001,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 568,
+                  "number": 567,
                   "children": [
                     {
                       "kind": "span",
@@ -4127,8 +4011,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP15_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L568C7"
+                      "text": "EP14_IN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L567C7"
                     },
                     {
                       "kind": "span",
@@ -4159,7 +4043,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 569,
+                  "number": 568,
                   "children": [
                     {
                       "kind": "span",
@@ -4175,7 +4059,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 570,
+                  "number": 569,
                   "children": [
                     {
                       "kind": "span",
@@ -4185,8 +4069,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP15_OUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L570C7"
+                      "text": "EP14_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L569C7"
                     },
                     {
                       "kind": "span",
@@ -4217,7 +4101,123 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
+                  "number": 570,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
                   "number": 571,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "EP15_IN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L571C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 572,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Read-only."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 573,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "EP15_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L573C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 574,
                   "children": [
                     {
                       "kind": "span",
@@ -4243,7 +4243,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 572,
+                  "number": 575,
                   "children": [
                     {
                       "kind": "span",
@@ -4264,7 +4264,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 573,
+                  "number": 576,
                   "children": [
                     {
                       "kind": "span",
@@ -4301,7 +4301,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "EP0_IN",
-              "line": 508,
+              "line": 511,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4320,7 +4320,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP0_OUT",
-              "line": 510,
+              "line": 513,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4339,7 +4339,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP1_IN",
-              "line": 512,
+              "line": 515,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4358,7 +4358,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP1_OUT",
-              "line": 514,
+              "line": 517,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4377,7 +4377,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP2_IN",
-              "line": 516,
+              "line": 519,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4396,7 +4396,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP2_OUT",
-              "line": 518,
+              "line": 521,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4415,7 +4415,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP3_IN",
-              "line": 520,
+              "line": 523,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4434,7 +4434,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP3_OUT",
-              "line": 522,
+              "line": 525,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4453,7 +4453,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP4_IN",
-              "line": 524,
+              "line": 527,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4472,7 +4472,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP4_OUT",
-              "line": 526,
+              "line": 529,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4491,7 +4491,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP5_IN",
-              "line": 528,
+              "line": 531,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4510,7 +4510,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP5_OUT",
-              "line": 530,
+              "line": 533,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4529,7 +4529,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP6_IN",
-              "line": 532,
+              "line": 535,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4548,7 +4548,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP6_OUT",
-              "line": 534,
+              "line": 537,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4567,7 +4567,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP7_IN",
-              "line": 536,
+              "line": 539,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4586,7 +4586,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP7_OUT",
-              "line": 538,
+              "line": 541,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4605,7 +4605,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP8_IN",
-              "line": 540,
+              "line": 543,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4624,7 +4624,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP8_OUT",
-              "line": 542,
+              "line": 545,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4643,7 +4643,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP9_IN",
-              "line": 544,
+              "line": 547,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4662,7 +4662,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP9_OUT",
-              "line": 546,
+              "line": 549,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4681,7 +4681,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP10_IN",
-              "line": 548,
+              "line": 551,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4700,7 +4700,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP10_OUT",
-              "line": 550,
+              "line": 553,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4719,7 +4719,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP11_IN",
-              "line": 552,
+              "line": 555,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4738,7 +4738,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP11_OUT",
-              "line": 554,
+              "line": 557,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4757,7 +4757,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP12_IN",
-              "line": 556,
+              "line": 559,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4776,7 +4776,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP12_OUT",
-              "line": 558,
+              "line": 561,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4795,7 +4795,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP13_IN",
-              "line": 560,
+              "line": 563,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4814,7 +4814,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP13_OUT",
-              "line": 562,
+              "line": 565,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4833,7 +4833,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP14_IN",
-              "line": 564,
+              "line": 567,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4852,7 +4852,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP14_OUT",
-              "line": 566,
+              "line": 569,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4871,7 +4871,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP15_IN",
-              "line": 568,
+              "line": 571,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4890,7 +4890,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP15_OUT",
-              "line": 570,
+              "line": 573,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4903,7 +4903,7 @@ GNATdoc.Documentation = {
         {
           "label": "BUFF_STATUS_Register",
           "qualifier": "",
-          "line": 367,
+          "line": 370,
           "column": 9,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -4914,7 +4914,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 367,
+                  "number": 370,
                   "children": [
                     {
                       "kind": "span",
@@ -4935,7 +4935,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BUFF_STATUS_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L367C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L370C9"
                     },
                     {
                       "kind": "span",
@@ -4956,100 +4956,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "keyword",
                       "text": "record"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 368,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 369,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  in the field."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 370,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP0_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L370C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
                     }
                   ]
                 },
@@ -5097,13 +5003,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP0_OUT",
+                      "text": "EP0_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L373C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -5191,13 +5097,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP1_IN",
+                      "text": "EP0_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L376C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -5285,13 +5191,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP1_OUT",
+                      "text": "EP1_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L379C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -5379,13 +5285,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP2_IN",
+                      "text": "EP1_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L382C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -5473,13 +5379,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP2_OUT",
+                      "text": "EP2_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L385C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -5567,13 +5473,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP3_IN",
+                      "text": "EP2_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L388C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -5661,13 +5567,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP3_OUT",
+                      "text": "EP3_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L391C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -5755,13 +5661,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP4_IN",
+                      "text": "EP3_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L394C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -5849,13 +5755,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP4_OUT",
+                      "text": "EP4_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L397C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -5943,13 +5849,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP5_IN",
+                      "text": "EP4_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L400C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -6037,13 +5943,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP5_OUT",
+                      "text": "EP5_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L403C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -6131,13 +6037,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP6_IN",
+                      "text": "EP5_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L406C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -6225,13 +6131,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP6_OUT",
+                      "text": "EP6_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L409C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -6319,13 +6225,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP7_IN",
+                      "text": "EP6_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L412C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -6413,13 +6319,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP7_OUT",
+                      "text": "EP7_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L415C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -6507,13 +6413,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP8_IN",
+                      "text": "EP7_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L418C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -6601,13 +6507,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP8_OUT",
+                      "text": "EP8_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L421C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -6695,13 +6601,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP9_IN",
+                      "text": "EP8_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L424C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -6789,13 +6695,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP9_OUT",
+                      "text": "EP9_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L427C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -6883,7 +6789,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP10_IN",
+                      "text": "EP9_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L430C7"
                     },
                     {
@@ -6977,13 +6883,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP10_OUT",
+                      "text": "EP10_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L433C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -7071,13 +6977,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP11_IN",
+                      "text": "EP10_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L436C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -7165,13 +7071,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP11_OUT",
+                      "text": "EP11_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L439C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -7259,13 +7165,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP12_IN",
+                      "text": "EP11_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L442C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -7353,13 +7259,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP12_OUT",
+                      "text": "EP12_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L445C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -7447,13 +7353,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP13_IN",
+                      "text": "EP12_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L448C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -7541,13 +7447,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP13_OUT",
+                      "text": "EP13_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L451C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -7635,13 +7541,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP14_IN",
+                      "text": "EP13_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L454C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -7729,13 +7635,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP14_OUT",
+                      "text": "EP14_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L457C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -7823,13 +7729,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP15_IN",
+                      "text": "EP14_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L460C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -7917,13 +7823,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP15_OUT",
+                      "text": "EP15_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L463C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -7974,878 +7880,6 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "end"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "record"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 465,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Volatile_Full_Access, Object_Size => 32,"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 466,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "          Bit_Order => System.Low_Order_First"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Buffer status register. A bit set here indicates that a buffer has\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "completed on the endpoint (if the buffer interrupt is enabled). It is\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "possible for 2 buffers to be completed, so clearing the buffer status\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "bit may instantly re set it on the next clock cycle.\n"
-                }
-              ]
-            }
-          ],
-          "fields": [
-            {
-              "label": "EP0_IN",
-              "line": 370,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP0_OUT",
-              "line": 373,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP1_IN",
-              "line": 376,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP1_OUT",
-              "line": 379,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP2_IN",
-              "line": 382,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP2_OUT",
-              "line": 385,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP3_IN",
-              "line": 388,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP3_OUT",
-              "line": 391,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP4_IN",
-              "line": 394,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP4_OUT",
-              "line": 397,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP5_IN",
-              "line": 400,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP5_OUT",
-              "line": 403,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP6_IN",
-              "line": 406,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP6_OUT",
-              "line": 409,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP7_IN",
-              "line": 412,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP7_OUT",
-              "line": 415,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP8_IN",
-              "line": 418,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP8_OUT",
-              "line": 421,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP9_IN",
-              "line": 424,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP9_OUT",
-              "line": 427,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP10_IN",
-              "line": 430,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP10_OUT",
-              "line": 433,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP11_IN",
-              "line": 436,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP11_OUT",
-              "line": 439,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP12_IN",
-              "line": 442,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP12_OUT",
-              "line": 445,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP13_IN",
-              "line": 448,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP13_OUT",
-              "line": 451,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP14_IN",
-              "line": 454,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP14_OUT",
-              "line": 457,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP15_IN",
-              "line": 460,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP15_OUT",
-              "line": 463,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "EP_ABORT_DONE_Register",
-          "qualifier": "",
-          "line": 690,
-          "column": 9,
-          "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 690,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP_ABORT_DONE_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L690C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "record"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 691,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
                       "text": "      "
                     },
                     {
@@ -8857,7 +7891,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 692,
+                  "number": 465,
                   "children": [
                     {
                       "kind": "span",
@@ -8873,7 +7907,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 693,
+                  "number": 466,
                   "children": [
                     {
                       "kind": "span",
@@ -8883,13 +7917,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP0_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L693C7"
+                      "text": "EP15_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L466C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -8930,6 +7964,878 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 467,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 468,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Volatile_Full_Access, Object_Size => 32,"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 469,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          Bit_Order => System.Low_Order_First"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Buffer status register. A bit set here indicates that a buffer has\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "completed on the endpoint (if the buffer interrupt is enabled). It is\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "possible for 2 buffers to be completed, so clearing the buffer status\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "bit may instantly re set it on the next clock cycle.\n"
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "EP0_IN",
+              "line": 373,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP0_OUT",
+              "line": 376,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP1_IN",
+              "line": 379,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP1_OUT",
+              "line": 382,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP2_IN",
+              "line": 385,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP2_OUT",
+              "line": 388,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP3_IN",
+              "line": 391,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP3_OUT",
+              "line": 394,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP4_IN",
+              "line": 397,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP4_OUT",
+              "line": 400,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP5_IN",
+              "line": 403,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP5_OUT",
+              "line": 406,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP6_IN",
+              "line": 409,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP6_OUT",
+              "line": 412,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP7_IN",
+              "line": 415,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP7_OUT",
+              "line": 418,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP8_IN",
+              "line": 421,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP8_OUT",
+              "line": 424,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP9_IN",
+              "line": 427,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP9_OUT",
+              "line": 430,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP10_IN",
+              "line": 433,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP10_OUT",
+              "line": 436,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP11_IN",
+              "line": 439,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP11_OUT",
+              "line": 442,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP12_IN",
+              "line": 445,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP12_OUT",
+              "line": 448,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP13_IN",
+              "line": 451,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP13_OUT",
+              "line": 454,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP14_IN",
+              "line": 457,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP14_OUT",
+              "line": 460,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP15_IN",
+              "line": 463,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP15_OUT",
+              "line": 466,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "EP_ABORT_DONE_Register",
+          "qualifier": "",
+          "line": 693,
+          "column": 9,
+          "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 693,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "EP_ABORT_DONE_Register",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L693C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
                     }
                   ]
                 },
@@ -8977,13 +8883,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP0_OUT",
+                      "text": "EP0_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L696C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -9071,13 +8977,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP1_IN",
+                      "text": "EP0_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L699C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -9165,13 +9071,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP1_OUT",
+                      "text": "EP1_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L702C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -9259,13 +9165,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP2_IN",
+                      "text": "EP1_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L705C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -9353,13 +9259,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP2_OUT",
+                      "text": "EP2_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L708C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -9447,13 +9353,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP3_IN",
+                      "text": "EP2_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L711C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -9541,13 +9447,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP3_OUT",
+                      "text": "EP3_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L714C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -9635,13 +9541,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP4_IN",
+                      "text": "EP3_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L717C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -9729,13 +9635,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP4_OUT",
+                      "text": "EP4_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L720C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -9823,13 +9729,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP5_IN",
+                      "text": "EP4_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L723C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -9917,13 +9823,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP5_OUT",
+                      "text": "EP5_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L726C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -10011,13 +9917,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP6_IN",
+                      "text": "EP5_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L729C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -10105,13 +10011,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP6_OUT",
+                      "text": "EP6_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L732C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -10199,13 +10105,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP7_IN",
+                      "text": "EP6_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L735C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -10293,13 +10199,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP7_OUT",
+                      "text": "EP7_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L738C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -10387,13 +10293,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP8_IN",
+                      "text": "EP7_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L741C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -10481,13 +10387,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP8_OUT",
+                      "text": "EP8_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L744C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -10575,13 +10481,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP9_IN",
+                      "text": "EP8_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L747C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -10669,13 +10575,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP9_OUT",
+                      "text": "EP9_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L750C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -10763,7 +10669,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP10_IN",
+                      "text": "EP9_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L753C7"
                     },
                     {
@@ -10857,13 +10763,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP10_OUT",
+                      "text": "EP10_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L756C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -10951,13 +10857,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP11_IN",
+                      "text": "EP10_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L759C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -11045,13 +10951,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP11_OUT",
+                      "text": "EP11_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L762C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -11139,13 +11045,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP12_IN",
+                      "text": "EP11_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L765C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -11233,13 +11139,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP12_OUT",
+                      "text": "EP12_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L768C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -11327,13 +11233,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP13_IN",
+                      "text": "EP12_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L771C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -11421,13 +11327,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP13_OUT",
+                      "text": "EP13_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L774C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -11515,13 +11421,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP14_IN",
+                      "text": "EP13_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L777C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -11609,13 +11515,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP14_OUT",
+                      "text": "EP14_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L780C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -11703,13 +11609,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP15_IN",
+                      "text": "EP14_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L783C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -11797,13 +11703,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP15_OUT",
+                      "text": "EP15_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L786C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -11854,6 +11760,100 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 788,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  in the field."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 789,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "EP15_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L789C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 790,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
                       "text": "   "
                     },
                     {
@@ -11875,7 +11875,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 788,
+                  "number": 791,
                   "children": [
                     {
                       "kind": "span",
@@ -11896,7 +11896,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 789,
+                  "number": 792,
                   "children": [
                     {
                       "kind": "span",
@@ -11933,29 +11933,6 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "EP0_IN",
-              "line": 693,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP0_OUT",
               "line": 696,
               "column": 7,
               "type": {
@@ -11978,7 +11955,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP1_IN",
+              "label": "EP0_OUT",
               "line": 699,
               "column": 7,
               "type": {
@@ -12001,7 +11978,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP1_OUT",
+              "label": "EP1_IN",
               "line": 702,
               "column": 7,
               "type": {
@@ -12024,7 +12001,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP2_IN",
+              "label": "EP1_OUT",
               "line": 705,
               "column": 7,
               "type": {
@@ -12047,7 +12024,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP2_OUT",
+              "label": "EP2_IN",
               "line": 708,
               "column": 7,
               "type": {
@@ -12070,7 +12047,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP3_IN",
+              "label": "EP2_OUT",
               "line": 711,
               "column": 7,
               "type": {
@@ -12093,7 +12070,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP3_OUT",
+              "label": "EP3_IN",
               "line": 714,
               "column": 7,
               "type": {
@@ -12116,7 +12093,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP4_IN",
+              "label": "EP3_OUT",
               "line": 717,
               "column": 7,
               "type": {
@@ -12139,7 +12116,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP4_OUT",
+              "label": "EP4_IN",
               "line": 720,
               "column": 7,
               "type": {
@@ -12162,7 +12139,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP5_IN",
+              "label": "EP4_OUT",
               "line": 723,
               "column": 7,
               "type": {
@@ -12185,7 +12162,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP5_OUT",
+              "label": "EP5_IN",
               "line": 726,
               "column": 7,
               "type": {
@@ -12208,7 +12185,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP6_IN",
+              "label": "EP5_OUT",
               "line": 729,
               "column": 7,
               "type": {
@@ -12231,7 +12208,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP6_OUT",
+              "label": "EP6_IN",
               "line": 732,
               "column": 7,
               "type": {
@@ -12254,7 +12231,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP7_IN",
+              "label": "EP6_OUT",
               "line": 735,
               "column": 7,
               "type": {
@@ -12277,7 +12254,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP7_OUT",
+              "label": "EP7_IN",
               "line": 738,
               "column": 7,
               "type": {
@@ -12300,7 +12277,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP8_IN",
+              "label": "EP7_OUT",
               "line": 741,
               "column": 7,
               "type": {
@@ -12323,7 +12300,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP8_OUT",
+              "label": "EP8_IN",
               "line": 744,
               "column": 7,
               "type": {
@@ -12346,7 +12323,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP9_IN",
+              "label": "EP8_OUT",
               "line": 747,
               "column": 7,
               "type": {
@@ -12369,7 +12346,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP9_OUT",
+              "label": "EP9_IN",
               "line": 750,
               "column": 7,
               "type": {
@@ -12392,7 +12369,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP10_IN",
+              "label": "EP9_OUT",
               "line": 753,
               "column": 7,
               "type": {
@@ -12415,7 +12392,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP10_OUT",
+              "label": "EP10_IN",
               "line": 756,
               "column": 7,
               "type": {
@@ -12438,7 +12415,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP11_IN",
+              "label": "EP10_OUT",
               "line": 759,
               "column": 7,
               "type": {
@@ -12461,7 +12438,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP11_OUT",
+              "label": "EP11_IN",
               "line": 762,
               "column": 7,
               "type": {
@@ -12484,7 +12461,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP12_IN",
+              "label": "EP11_OUT",
               "line": 765,
               "column": 7,
               "type": {
@@ -12507,7 +12484,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP12_OUT",
+              "label": "EP12_IN",
               "line": 768,
               "column": 7,
               "type": {
@@ -12530,7 +12507,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP13_IN",
+              "label": "EP12_OUT",
               "line": 771,
               "column": 7,
               "type": {
@@ -12553,7 +12530,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP13_OUT",
+              "label": "EP13_IN",
               "line": 774,
               "column": 7,
               "type": {
@@ -12576,7 +12553,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP14_IN",
+              "label": "EP13_OUT",
               "line": 777,
               "column": 7,
               "type": {
@@ -12599,7 +12576,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP14_OUT",
+              "label": "EP14_IN",
               "line": 780,
               "column": 7,
               "type": {
@@ -12622,7 +12599,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP15_IN",
+              "label": "EP14_OUT",
               "line": 783,
               "column": 7,
               "type": {
@@ -12645,8 +12622,31 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP15_OUT",
+              "label": "EP15_IN",
               "line": 786,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP15_OUT",
+              "line": 789,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -12659,7 +12659,7 @@ GNATdoc.Documentation = {
         {
           "label": "EP_ABORT_Register",
           "qualifier": "",
-          "line": 615,
+          "line": 618,
           "column": 9,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -12670,7 +12670,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 615,
+                  "number": 618,
                   "children": [
                     {
                       "kind": "span",
@@ -12691,7 +12691,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "EP_ABORT_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L615C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L618C9"
                     },
                     {
                       "kind": "span",
@@ -12717,192 +12717,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 616,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP0_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L616C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 617,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP0_OUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L617C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 618,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP1_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L618C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 619,
                   "children": [
                     {
@@ -12913,13 +12727,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP1_OUT",
+                      "text": "EP0_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L619C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -12975,13 +12789,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP2_IN",
+                      "text": "EP0_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L620C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -13037,13 +12851,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP2_OUT",
+                      "text": "EP1_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L621C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -13099,13 +12913,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP3_IN",
+                      "text": "EP1_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L622C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -13161,13 +12975,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP3_OUT",
+                      "text": "EP2_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L623C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -13223,13 +13037,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP4_IN",
+                      "text": "EP2_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L624C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -13285,13 +13099,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP4_OUT",
+                      "text": "EP3_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L625C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -13347,13 +13161,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP5_IN",
+                      "text": "EP3_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L626C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -13409,13 +13223,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP5_OUT",
+                      "text": "EP4_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L627C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -13471,13 +13285,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP6_IN",
+                      "text": "EP4_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L628C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -13533,13 +13347,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP6_OUT",
+                      "text": "EP5_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L629C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -13595,13 +13409,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP7_IN",
+                      "text": "EP5_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L630C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -13657,13 +13471,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP7_OUT",
+                      "text": "EP6_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L631C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -13719,13 +13533,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP8_IN",
+                      "text": "EP6_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L632C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -13781,13 +13595,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP8_OUT",
+                      "text": "EP7_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L633C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -13843,13 +13657,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP9_IN",
+                      "text": "EP7_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L634C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -13905,13 +13719,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP9_OUT",
+                      "text": "EP8_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L635C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -13967,7 +13781,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP10_IN",
+                      "text": "EP8_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L636C7"
                     },
                     {
@@ -14029,13 +13843,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP10_OUT",
+                      "text": "EP9_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L637C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -14091,7 +13905,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP11_IN",
+                      "text": "EP9_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L638C7"
                     },
                     {
@@ -14153,13 +13967,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP11_OUT",
+                      "text": "EP10_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L639C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -14215,13 +14029,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP12_IN",
+                      "text": "EP10_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L640C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -14277,13 +14091,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP12_OUT",
+                      "text": "EP11_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L641C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -14339,13 +14153,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP13_IN",
+                      "text": "EP11_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L642C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -14401,13 +14215,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP13_OUT",
+                      "text": "EP12_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L643C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -14463,13 +14277,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP14_IN",
+                      "text": "EP12_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L644C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -14525,13 +14339,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP14_OUT",
+                      "text": "EP13_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L645C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -14587,13 +14401,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP15_IN",
+                      "text": "EP13_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L646C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -14649,13 +14463,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP15_OUT",
+                      "text": "EP14_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L647C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -14706,6 +14520,192 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "EP14_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L648C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 649,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "EP15_IN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L649C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 650,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "EP15_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L650C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 651,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
                       "text": "   "
                     },
                     {
@@ -14727,7 +14727,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 649,
+                  "number": 652,
                   "children": [
                     {
                       "kind": "span",
@@ -14748,7 +14748,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 650,
+                  "number": 653,
                   "children": [
                     {
                       "kind": "span",
@@ -14793,36 +14793,6 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "EP0_IN",
-              "line": 616,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "EP0_OUT",
-              "line": 617,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "EP1_IN",
-              "line": 618,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "EP1_OUT",
               "line": 619,
               "column": 7,
               "type": {
@@ -14832,7 +14802,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP2_IN",
+              "label": "EP0_OUT",
               "line": 620,
               "column": 7,
               "type": {
@@ -14842,7 +14812,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP2_OUT",
+              "label": "EP1_IN",
               "line": 621,
               "column": 7,
               "type": {
@@ -14852,7 +14822,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP3_IN",
+              "label": "EP1_OUT",
               "line": 622,
               "column": 7,
               "type": {
@@ -14862,7 +14832,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP3_OUT",
+              "label": "EP2_IN",
               "line": 623,
               "column": 7,
               "type": {
@@ -14872,7 +14842,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP4_IN",
+              "label": "EP2_OUT",
               "line": 624,
               "column": 7,
               "type": {
@@ -14882,7 +14852,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP4_OUT",
+              "label": "EP3_IN",
               "line": 625,
               "column": 7,
               "type": {
@@ -14892,7 +14862,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP5_IN",
+              "label": "EP3_OUT",
               "line": 626,
               "column": 7,
               "type": {
@@ -14902,7 +14872,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP5_OUT",
+              "label": "EP4_IN",
               "line": 627,
               "column": 7,
               "type": {
@@ -14912,7 +14882,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP6_IN",
+              "label": "EP4_OUT",
               "line": 628,
               "column": 7,
               "type": {
@@ -14922,7 +14892,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP6_OUT",
+              "label": "EP5_IN",
               "line": 629,
               "column": 7,
               "type": {
@@ -14932,7 +14902,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP7_IN",
+              "label": "EP5_OUT",
               "line": 630,
               "column": 7,
               "type": {
@@ -14942,7 +14912,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP7_OUT",
+              "label": "EP6_IN",
               "line": 631,
               "column": 7,
               "type": {
@@ -14952,7 +14922,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP8_IN",
+              "label": "EP6_OUT",
               "line": 632,
               "column": 7,
               "type": {
@@ -14962,7 +14932,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP8_OUT",
+              "label": "EP7_IN",
               "line": 633,
               "column": 7,
               "type": {
@@ -14972,7 +14942,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP9_IN",
+              "label": "EP7_OUT",
               "line": 634,
               "column": 7,
               "type": {
@@ -14982,7 +14952,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP9_OUT",
+              "label": "EP8_IN",
               "line": 635,
               "column": 7,
               "type": {
@@ -14992,7 +14962,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP10_IN",
+              "label": "EP8_OUT",
               "line": 636,
               "column": 7,
               "type": {
@@ -15002,7 +14972,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP10_OUT",
+              "label": "EP9_IN",
               "line": 637,
               "column": 7,
               "type": {
@@ -15012,7 +14982,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP11_IN",
+              "label": "EP9_OUT",
               "line": 638,
               "column": 7,
               "type": {
@@ -15022,7 +14992,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP11_OUT",
+              "label": "EP10_IN",
               "line": 639,
               "column": 7,
               "type": {
@@ -15032,7 +15002,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP12_IN",
+              "label": "EP10_OUT",
               "line": 640,
               "column": 7,
               "type": {
@@ -15042,7 +15012,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP12_OUT",
+              "label": "EP11_IN",
               "line": 641,
               "column": 7,
               "type": {
@@ -15052,7 +15022,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP13_IN",
+              "label": "EP11_OUT",
               "line": 642,
               "column": 7,
               "type": {
@@ -15062,7 +15032,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP13_OUT",
+              "label": "EP12_IN",
               "line": 643,
               "column": 7,
               "type": {
@@ -15072,7 +15042,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP14_IN",
+              "label": "EP12_OUT",
               "line": 644,
               "column": 7,
               "type": {
@@ -15082,7 +15052,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP14_OUT",
+              "label": "EP13_IN",
               "line": 645,
               "column": 7,
               "type": {
@@ -15092,7 +15062,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP15_IN",
+              "label": "EP13_OUT",
               "line": 646,
               "column": 7,
               "type": {
@@ -15102,8 +15072,38 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP15_OUT",
+              "label": "EP14_IN",
               "line": 647,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "EP14_OUT",
+              "line": 648,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "EP15_IN",
+              "line": 649,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "EP15_OUT",
+              "line": 650,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -15116,7 +15116,7 @@ GNATdoc.Documentation = {
         {
           "label": "EP_STALL_ARM_Register",
           "qualifier": "",
-          "line": 831,
+          "line": 834,
           "column": 9,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -15127,7 +15127,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 831,
+                  "number": 834,
                   "children": [
                     {
                       "kind": "span",
@@ -15148,7 +15148,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "EP_STALL_ARM_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L831C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L834C9"
                     },
                     {
                       "kind": "span",
@@ -15174,7 +15174,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 832,
+                  "number": 835,
                   "children": [
                     {
                       "kind": "span",
@@ -15185,7 +15185,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "EP0_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L832C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L835C7"
                     },
                     {
                       "kind": "span",
@@ -15236,7 +15236,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 833,
+                  "number": 836,
                   "children": [
                     {
                       "kind": "span",
@@ -15247,7 +15247,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "EP0_OUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L833C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L836C7"
                     },
                     {
                       "kind": "span",
@@ -15298,7 +15298,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 834,
+                  "number": 837,
                   "children": [
                     {
                       "kind": "span",
@@ -15314,7 +15314,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 835,
+                  "number": 838,
                   "children": [
                     {
                       "kind": "span",
@@ -15325,7 +15325,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_2_31",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L835C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L838C7"
                     },
                     {
                       "kind": "span",
@@ -15392,7 +15392,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 836,
+                  "number": 839,
                   "children": [
                     {
                       "kind": "span",
@@ -15418,7 +15418,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 837,
+                  "number": 840,
                   "children": [
                     {
                       "kind": "span",
@@ -15439,7 +15439,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 838,
+                  "number": 841,
                   "children": [
                     {
                       "kind": "span",
@@ -15484,7 +15484,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "EP0_IN",
-              "line": 832,
+              "line": 835,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -15494,7 +15494,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP0_OUT",
-              "line": 833,
+              "line": 836,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -15513,7 +15513,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_2_31",
-              "line": 835,
+              "line": 838,
               "column": 7,
               "type": {
                 "label": "HAL.UInt30",
@@ -15527,7 +15527,7 @@ GNATdoc.Documentation = {
         {
           "label": "EP_STATUS_STALL_NAK_Register",
           "qualifier": "",
-          "line": 874,
+          "line": 877,
           "column": 9,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -15538,7 +15538,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 874,
+                  "number": 877,
                   "children": [
                     {
                       "kind": "span",
@@ -15559,7 +15559,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "EP_STATUS_STALL_NAK_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L874C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L877C9"
                     },
                     {
                       "kind": "span",
@@ -15580,100 +15580,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "keyword",
                       "text": "record"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 875,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 876,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  in the field."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 877,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP0_IN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L877C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
                     }
                   ]
                 },
@@ -15721,13 +15627,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP0_OUT",
+                      "text": "EP0_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L880C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -15815,13 +15721,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP1_IN",
+                      "text": "EP0_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L883C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -15909,13 +15815,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP1_OUT",
+                      "text": "EP1_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L886C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -16003,13 +15909,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP2_IN",
+                      "text": "EP1_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L889C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -16097,13 +16003,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP2_OUT",
+                      "text": "EP2_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L892C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -16191,13 +16097,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP3_IN",
+                      "text": "EP2_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L895C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -16285,13 +16191,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP3_OUT",
+                      "text": "EP3_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L898C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -16379,13 +16285,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP4_IN",
+                      "text": "EP3_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L901C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -16473,13 +16379,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP4_OUT",
+                      "text": "EP4_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L904C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -16567,13 +16473,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP5_IN",
+                      "text": "EP4_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L907C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -16661,13 +16567,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP5_OUT",
+                      "text": "EP5_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L910C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -16755,13 +16661,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP6_IN",
+                      "text": "EP5_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L913C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -16849,13 +16755,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP6_OUT",
+                      "text": "EP6_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L916C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -16943,13 +16849,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP7_IN",
+                      "text": "EP6_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L919C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -17037,13 +16943,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP7_OUT",
+                      "text": "EP7_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L922C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -17131,13 +17037,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP8_IN",
+                      "text": "EP7_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L925C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -17225,13 +17131,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP8_OUT",
+                      "text": "EP8_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L928C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -17319,13 +17225,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP9_IN",
+                      "text": "EP8_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L931C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -17413,13 +17319,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP9_OUT",
+                      "text": "EP9_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L934C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -17507,7 +17413,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP10_IN",
+                      "text": "EP9_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L937C7"
                     },
                     {
@@ -17601,13 +17507,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP10_OUT",
+                      "text": "EP10_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L940C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -17695,13 +17601,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP11_IN",
+                      "text": "EP10_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L943C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -17789,13 +17695,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP11_OUT",
+                      "text": "EP11_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L946C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -17883,13 +17789,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP12_IN",
+                      "text": "EP11_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L949C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -17977,13 +17883,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP12_OUT",
+                      "text": "EP12_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L952C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -18071,13 +17977,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP13_IN",
+                      "text": "EP12_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L955C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -18165,13 +18071,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP13_OUT",
+                      "text": "EP13_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L958C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -18259,13 +18165,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP14_IN",
+                      "text": "EP13_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L961C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -18353,13 +18259,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP14_OUT",
+                      "text": "EP14_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L964C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -18447,13 +18353,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP15_IN",
+                      "text": "EP14_OUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L967C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -18541,13 +18447,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP15_OUT",
+                      "text": "EP15_IN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L970C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -18598,6 +18504,100 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 972,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  in the field."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 973,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "EP15_OUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L973C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 974,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
                       "text": "   "
                     },
                     {
@@ -18619,7 +18619,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 972,
+                  "number": 975,
                   "children": [
                     {
                       "kind": "span",
@@ -18640,7 +18640,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 973,
+                  "number": 976,
                   "children": [
                     {
                       "kind": "span",
@@ -18677,29 +18677,6 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "EP0_IN",
-              "line": 877,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "in the field.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EP0_OUT",
               "line": 880,
               "column": 7,
               "type": {
@@ -18722,7 +18699,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP1_IN",
+              "label": "EP0_OUT",
               "line": 883,
               "column": 7,
               "type": {
@@ -18745,7 +18722,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP1_OUT",
+              "label": "EP1_IN",
               "line": 886,
               "column": 7,
               "type": {
@@ -18768,7 +18745,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP2_IN",
+              "label": "EP1_OUT",
               "line": 889,
               "column": 7,
               "type": {
@@ -18791,7 +18768,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP2_OUT",
+              "label": "EP2_IN",
               "line": 892,
               "column": 7,
               "type": {
@@ -18814,7 +18791,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP3_IN",
+              "label": "EP2_OUT",
               "line": 895,
               "column": 7,
               "type": {
@@ -18837,7 +18814,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP3_OUT",
+              "label": "EP3_IN",
               "line": 898,
               "column": 7,
               "type": {
@@ -18860,7 +18837,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP4_IN",
+              "label": "EP3_OUT",
               "line": 901,
               "column": 7,
               "type": {
@@ -18883,7 +18860,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP4_OUT",
+              "label": "EP4_IN",
               "line": 904,
               "column": 7,
               "type": {
@@ -18906,7 +18883,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP5_IN",
+              "label": "EP4_OUT",
               "line": 907,
               "column": 7,
               "type": {
@@ -18929,7 +18906,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP5_OUT",
+              "label": "EP5_IN",
               "line": 910,
               "column": 7,
               "type": {
@@ -18952,7 +18929,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP6_IN",
+              "label": "EP5_OUT",
               "line": 913,
               "column": 7,
               "type": {
@@ -18975,7 +18952,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP6_OUT",
+              "label": "EP6_IN",
               "line": 916,
               "column": 7,
               "type": {
@@ -18998,7 +18975,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP7_IN",
+              "label": "EP6_OUT",
               "line": 919,
               "column": 7,
               "type": {
@@ -19021,7 +18998,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP7_OUT",
+              "label": "EP7_IN",
               "line": 922,
               "column": 7,
               "type": {
@@ -19044,7 +19021,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP8_IN",
+              "label": "EP7_OUT",
               "line": 925,
               "column": 7,
               "type": {
@@ -19067,7 +19044,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP8_OUT",
+              "label": "EP8_IN",
               "line": 928,
               "column": 7,
               "type": {
@@ -19090,7 +19067,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP9_IN",
+              "label": "EP8_OUT",
               "line": 931,
               "column": 7,
               "type": {
@@ -19113,7 +19090,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP9_OUT",
+              "label": "EP9_IN",
               "line": 934,
               "column": 7,
               "type": {
@@ -19136,7 +19113,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP10_IN",
+              "label": "EP9_OUT",
               "line": 937,
               "column": 7,
               "type": {
@@ -19159,7 +19136,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP10_OUT",
+              "label": "EP10_IN",
               "line": 940,
               "column": 7,
               "type": {
@@ -19182,7 +19159,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP11_IN",
+              "label": "EP10_OUT",
               "line": 943,
               "column": 7,
               "type": {
@@ -19205,7 +19182,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP11_OUT",
+              "label": "EP11_IN",
               "line": 946,
               "column": 7,
               "type": {
@@ -19228,7 +19205,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP12_IN",
+              "label": "EP11_OUT",
               "line": 949,
               "column": 7,
               "type": {
@@ -19251,7 +19228,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP12_OUT",
+              "label": "EP12_IN",
               "line": 952,
               "column": 7,
               "type": {
@@ -19274,7 +19251,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP13_IN",
+              "label": "EP12_OUT",
               "line": 955,
               "column": 7,
               "type": {
@@ -19297,7 +19274,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP13_OUT",
+              "label": "EP13_IN",
               "line": 958,
               "column": 7,
               "type": {
@@ -19320,7 +19297,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP14_IN",
+              "label": "EP13_OUT",
               "line": 961,
               "column": 7,
               "type": {
@@ -19343,7 +19320,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP14_OUT",
+              "label": "EP14_IN",
               "line": 964,
               "column": 7,
               "type": {
@@ -19366,7 +19343,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP15_IN",
+              "label": "EP14_OUT",
               "line": 967,
               "column": 7,
               "type": {
@@ -19389,8 +19366,31 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP15_OUT",
+              "label": "EP15_IN",
               "line": 970,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "EP15_OUT",
+              "line": 973,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -19403,7 +19403,7 @@ GNATdoc.Documentation = {
         {
           "label": "INT_EP_CTRL_Register",
           "qualifier": "",
-          "line": 346,
+          "line": 349,
           "column": 9,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -19414,7 +19414,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 346,
+                  "number": 349,
                   "children": [
                     {
                       "kind": "span",
@@ -19435,7 +19435,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INT_EP_CTRL_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L346C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L349C9"
                     },
                     {
                       "kind": "span",
@@ -19461,7 +19461,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 347,
+                  "number": 350,
                   "children": [
                     {
                       "kind": "span",
@@ -19477,7 +19477,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 348,
+                  "number": 351,
                   "children": [
                     {
                       "kind": "span",
@@ -19488,7 +19488,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_0_0",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L348C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L351C7"
                     },
                     {
                       "kind": "span",
@@ -19555,7 +19555,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 349,
+                  "number": 352,
                   "children": [
                     {
                       "kind": "span",
@@ -19571,7 +19571,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 350,
+                  "number": 353,
                   "children": [
                     {
                       "kind": "span",
@@ -19582,7 +19582,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INT_EP_ACTIVE",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L350C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L353C7"
                     },
                     {
                       "kind": "span",
@@ -19603,7 +19603,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INT_EP_CTRL_INT_EP_ACTIVE_Field",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L343C12"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L346C12"
                     },
                     {
                       "kind": "span",
@@ -19649,7 +19649,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 351,
+                  "number": 354,
                   "children": [
                     {
                       "kind": "span",
@@ -19665,7 +19665,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 352,
+                  "number": 355,
                   "children": [
                     {
                       "kind": "span",
@@ -19676,7 +19676,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_16_31",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L352C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L355C7"
                     },
                     {
                       "kind": "span",
@@ -19743,7 +19743,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 353,
+                  "number": 356,
                   "children": [
                     {
                       "kind": "span",
@@ -19769,7 +19769,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 354,
+                  "number": 357,
                   "children": [
                     {
                       "kind": "span",
@@ -19790,7 +19790,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 355,
+                  "number": 358,
                   "children": [
                     {
                       "kind": "span",
@@ -19819,7 +19819,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Reserved_0_0",
-              "line": 348,
+              "line": 351,
               "column": 7,
               "type": {
                 "label": "HAL.Bit",
@@ -19839,11 +19839,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INT_EP_ACTIVE",
-              "line": 350,
+              "line": 353,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.INT_EP_CTRL_INT_EP_ACTIVE_Field",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L343C12"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L346C12"
               },
               "description": [
                 {
@@ -19859,7 +19859,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_16_31",
-              "line": 352,
+              "line": 355,
               "column": 7,
               "type": {
                 "label": "HAL.UInt16",
@@ -19873,7 +19873,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTE_Register",
           "qualifier": "",
-          "line": 1304,
+          "line": 1307,
           "column": 9,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -19884,7 +19884,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 1304,
+                  "number": 1307,
                   "children": [
                     {
                       "kind": "span",
@@ -19905,7 +19905,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTE_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1304C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1307C9"
                     },
                     {
                       "kind": "span",
@@ -19931,7 +19931,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1305,
+                  "number": 1308,
                   "children": [
                     {
                       "kind": "span",
@@ -19947,7 +19947,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1306,
+                  "number": 1309,
                   "children": [
                     {
                       "kind": "span",
@@ -19963,100 +19963,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1307,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HOST_CONN_DIS",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1307C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "        "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1308,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Host: raised when a device wakes up the host. Cleared by writing to"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1309,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  SIE_STATUS.RESUME"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 1310,
                   "children": [
                     {
@@ -20067,13 +19973,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HOST_RESUME",
+                      "text": "HOST_CONN_DIS",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1310C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "          "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -20129,7 +20035,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Host: raised every time the host sends a SOF (Start of Frame)."
+                      "text": "--  Host: raised when a device wakes up the host. Cleared by writing to"
                     }
                   ]
                 },
@@ -20145,7 +20051,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Cleared by reading SOF_RD"
+                      "text": "--  SIE_STATUS.RESUME"
                     }
                   ]
                 },
@@ -20161,13 +20067,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HOST_SOF",
+                      "text": "HOST_RESUME",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1313C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "             "
+                      "text": "          "
                     },
                     {
                       "kind": "span",
@@ -20223,7 +20129,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear by writing"
+                      "text": "--  Host: raised every time the host sends a SOF (Start of Frame)."
                     }
                   ]
                 },
@@ -20239,7 +20145,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  to this bit."
+                      "text": "--  Cleared by reading SOF_RD"
                     }
                   ]
                 },
@@ -20255,13 +20161,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "TRANS_COMPLETE",
+                      "text": "HOST_SOF",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1316C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "       "
+                      "text": "             "
                     },
                     {
                       "kind": "span",
@@ -20317,7 +20223,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Raised when any bit in BUFF_STATUS is set. Clear by clearing all bits"
+                      "text": "--  Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear by writing"
                     }
                   ]
                 },
@@ -20333,7 +20239,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  in BUFF_STATUS."
+                      "text": "--  to this bit."
                     }
                   ]
                 },
@@ -20349,13 +20255,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BUFF_STATUS",
+                      "text": "TRANS_COMPLETE",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1319C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "          "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -20411,7 +20317,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Source: SIE_STATUS.DATA_SEQ_ERROR"
+                      "text": "--  Raised when any bit in BUFF_STATUS is set. Clear by clearing all bits"
                     }
                   ]
                 },
@@ -20426,54 +20332,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ERROR_DATA_SEQ",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1321C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  in BUFF_STATUS."
                     }
                   ]
                 },
@@ -20488,415 +20348,9 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Source: SIE_STATUS.RX_TIMEOUT"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1323,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ERROR_RX_TIMEOUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1323C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1324,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Source: SIE_STATUS.RX_OVERFLOW"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1325,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ERROR_RX_OVERFLOW",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1325C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1326,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Source: SIE_STATUS.BIT_STUFF_ERROR"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1327,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ERROR_BIT_STUFF",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1327C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1328,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Source: SIE_STATUS.CRC_ERROR"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1329,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ERROR_CRC",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1329C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "            "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1330,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Source: SIE_STATUS.STALL_REC"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1331,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "STALL",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1331C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1332,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Source: SIE_STATUS.VBUS_DETECTED"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1333,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "VBUS_DETECT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1333C7"
+                      "text": "BUFF_STATUS",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1322C7"
                     },
                     {
                       "kind": "span",
@@ -20947,7 +20401,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1334,
+                  "number": 1323,
                   "children": [
                     {
                       "kind": "span",
@@ -20957,13 +20411,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Source: SIE_STATUS.BUS_RESET"
+                      "text": "--  Source: SIE_STATUS.DATA_SEQ_ERROR"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 1335,
+                  "number": 1324,
                   "children": [
                     {
                       "kind": "span",
@@ -20973,8 +20427,320 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BUS_RESET",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1335C7"
+                      "text": "ERROR_DATA_SEQ",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1324C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1325,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Source: SIE_STATUS.RX_TIMEOUT"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1326,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ERROR_RX_TIMEOUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1326C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1327,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Source: SIE_STATUS.RX_OVERFLOW"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1328,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ERROR_RX_OVERFLOW",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1328C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1329,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Source: SIE_STATUS.BIT_STUFF_ERROR"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1330,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ERROR_BIT_STUFF",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1330C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1331,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Source: SIE_STATUS.CRC_ERROR"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1332,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ERROR_CRC",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1332C7"
                     },
                     {
                       "kind": "span",
@@ -21025,7 +20791,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1336,
+                  "number": 1333,
                   "children": [
                     {
                       "kind": "span",
@@ -21035,7 +20801,147 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Set when the device connection state changes. Cleared by writing to"
+                      "text": "--  Source: SIE_STATUS.STALL_REC"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1334,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "STALL",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1334C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1335,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Source: SIE_STATUS.VBUS_DETECTED"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1336,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "VBUS_DETECT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1336C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -21051,7 +20957,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  SIE_STATUS.CONNECTED"
+                      "text": "--  Source: SIE_STATUS.BUS_RESET"
                     }
                   ]
                 },
@@ -21067,13 +20973,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DEV_CONN_DIS",
+                      "text": "BUS_RESET",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1338C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "         "
+                      "text": "            "
                     },
                     {
                       "kind": "span",
@@ -21129,7 +21035,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Set when the device suspend state changes. Cleared by writing to"
+                      "text": "--  Set when the device connection state changes. Cleared by writing to"
                     }
                   ]
                 },
@@ -21145,7 +21051,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  SIE_STATUS.SUSPENDED"
+                      "text": "--  SIE_STATUS.CONNECTED"
                     }
                   ]
                 },
@@ -21161,13 +21067,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DEV_SUSPEND",
+                      "text": "DEV_CONN_DIS",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1341C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "          "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -21223,7 +21129,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Set when the device receives a resume from the host. Cleared by"
+                      "text": "--  Set when the device suspend state changes. Cleared by writing to"
                     }
                   ]
                 },
@@ -21239,7 +21145,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  writing to SIE_STATUS.RESUME"
+                      "text": "--  SIE_STATUS.SUSPENDED"
                     }
                   ]
                 },
@@ -21255,13 +21161,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DEV_RESUME_FROM_HOST",
+                      "text": "DEV_SUSPEND",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1344C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "          "
                     },
                     {
                       "kind": "span",
@@ -21317,7 +21223,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Device. Source: SIE_STATUS.SETUP_REC"
+                      "text": "--  Set when the device receives a resume from the host. Cleared by"
                     }
                   ]
                 },
@@ -21332,14 +21238,30 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  writing to SIE_STATUS.RESUME"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1347,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "SETUP_REQ",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1346C7"
+                      "text": "DEV_RESUME_FROM_HOST",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1347C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "            "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -21385,22 +21307,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1347,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Set every time the device receives a SOF (Start of Frame) packet."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 1348,
                   "children": [
                     {
@@ -21411,7 +21317,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Cleared by reading SOF_RD"
+                      "text": "--  Device. Source: SIE_STATUS.SETUP_REC"
                     }
                   ]
                 },
@@ -21427,13 +21333,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DEV_SOF",
+                      "text": "SETUP_REQ",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1349C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "              "
+                      "text": "            "
                     },
                     {
                       "kind": "span",
@@ -21489,7 +21395,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Raised when any bit in ABORT_DONE is set. Clear by clearing all bits"
+                      "text": "--  Set every time the device receives a SOF (Start of Frame) packet."
                     }
                   ]
                 },
@@ -21505,7 +21411,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  in ABORT_DONE."
+                      "text": "--  Cleared by reading SOF_RD"
                     }
                   ]
                 },
@@ -21521,13 +21427,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ABORT_DONE",
+                      "text": "DEV_SOF",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1352C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "           "
+                      "text": "              "
                     },
                     {
                       "kind": "span",
@@ -21583,7 +21489,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Raised when any bit in EP_STATUS_STALL_NAK is set. Clear by clearing"
+                      "text": "--  Raised when any bit in ABORT_DONE is set. Clear by clearing all bits"
                     }
                   ]
                 },
@@ -21599,7 +21505,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  all bits in EP_STATUS_STALL_NAK."
+                      "text": "--  in ABORT_DONE."
                     }
                   ]
                 },
@@ -21615,13 +21521,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP_STALL_NAK",
+                      "text": "ABORT_DONE",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1355C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "         "
+                      "text": "           "
                     },
                     {
                       "kind": "span",
@@ -21677,7 +21583,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  unspecified"
+                      "text": "--  Raised when any bit in EP_STATUS_STALL_NAK is set. Clear by clearing"
                     }
                   ]
                 },
@@ -21692,9 +21598,103 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  all bits in EP_STATUS_STALL_NAK."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1358,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "EP_STALL_NAK",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1358C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1359,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  unspecified"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1360,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_20_31",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1357C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1360C7"
                     },
                     {
                       "kind": "span",
@@ -21761,7 +21761,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1358,
+                  "number": 1361,
                   "children": [
                     {
                       "kind": "span",
@@ -21787,7 +21787,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1359,
+                  "number": 1362,
                   "children": [
                     {
                       "kind": "span",
@@ -21808,7 +21808,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1360,
+                  "number": 1363,
                   "children": [
                     {
                       "kind": "span",
@@ -21837,7 +21837,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "HOST_CONN_DIS",
-              "line": 1307,
+              "line": 1310,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -21860,7 +21860,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "HOST_RESUME",
-              "line": 1310,
+              "line": 1313,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -21883,7 +21883,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "HOST_SOF",
-              "line": 1313,
+              "line": 1316,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -21906,7 +21906,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "TRANS_COMPLETE",
-              "line": 1316,
+              "line": 1319,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -21929,7 +21929,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "BUFF_STATUS",
-              "line": 1319,
+              "line": 1322,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -21948,7 +21948,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_DATA_SEQ",
-              "line": 1321,
+              "line": 1324,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -21967,7 +21967,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_RX_TIMEOUT",
-              "line": 1323,
+              "line": 1326,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -21986,7 +21986,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_RX_OVERFLOW",
-              "line": 1325,
+              "line": 1328,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -22005,7 +22005,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_BIT_STUFF",
-              "line": 1327,
+              "line": 1330,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -22024,7 +22024,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_CRC",
-              "line": 1329,
+              "line": 1332,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -22043,7 +22043,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "STALL",
-              "line": 1331,
+              "line": 1334,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -22062,7 +22062,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "VBUS_DETECT",
-              "line": 1333,
+              "line": 1336,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -22081,7 +22081,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "BUS_RESET",
-              "line": 1335,
+              "line": 1338,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -22104,7 +22104,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DEV_CONN_DIS",
-              "line": 1338,
+              "line": 1341,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -22127,7 +22127,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DEV_SUSPEND",
-              "line": 1341,
+              "line": 1344,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -22150,7 +22150,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DEV_RESUME_FROM_HOST",
-              "line": 1344,
+              "line": 1347,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -22169,7 +22169,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SETUP_REQ",
-              "line": 1346,
+              "line": 1349,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -22192,7 +22192,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DEV_SOF",
-              "line": 1349,
+              "line": 1352,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -22215,7 +22215,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ABORT_DONE",
-              "line": 1352,
+              "line": 1355,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -22238,7 +22238,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP_STALL_NAK",
-              "line": 1355,
+              "line": 1358,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -22257,7 +22257,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_20_31",
-              "line": 1357,
+              "line": 1360,
               "column": 7,
               "type": {
                 "label": "HAL.UInt12",
@@ -22271,7 +22271,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTF_Register",
           "qualifier": "",
-          "line": 1387,
+          "line": 1390,
           "column": 9,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -22282,7 +22282,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 1387,
+                  "number": 1390,
                   "children": [
                     {
                       "kind": "span",
@@ -22303,7 +22303,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTF_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1387C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1390C9"
                     },
                     {
                       "kind": "span",
@@ -22329,7 +22329,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1388,
+                  "number": 1391,
                   "children": [
                     {
                       "kind": "span",
@@ -22345,7 +22345,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1389,
+                  "number": 1392,
                   "children": [
                     {
                       "kind": "span",
@@ -22361,100 +22361,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1390,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HOST_CONN_DIS",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1390C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "        "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1391,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Host: raised when a device wakes up the host. Cleared by writing to"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1392,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  SIE_STATUS.RESUME"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 1393,
                   "children": [
                     {
@@ -22465,13 +22371,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HOST_RESUME",
+                      "text": "HOST_CONN_DIS",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1393C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "          "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -22527,7 +22433,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Host: raised every time the host sends a SOF (Start of Frame)."
+                      "text": "--  Host: raised when a device wakes up the host. Cleared by writing to"
                     }
                   ]
                 },
@@ -22543,7 +22449,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Cleared by reading SOF_RD"
+                      "text": "--  SIE_STATUS.RESUME"
                     }
                   ]
                 },
@@ -22559,13 +22465,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HOST_SOF",
+                      "text": "HOST_RESUME",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1396C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "             "
+                      "text": "          "
                     },
                     {
                       "kind": "span",
@@ -22621,7 +22527,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear by writing"
+                      "text": "--  Host: raised every time the host sends a SOF (Start of Frame)."
                     }
                   ]
                 },
@@ -22637,7 +22543,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  to this bit."
+                      "text": "--  Cleared by reading SOF_RD"
                     }
                   ]
                 },
@@ -22653,13 +22559,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "TRANS_COMPLETE",
+                      "text": "HOST_SOF",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1399C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "       "
+                      "text": "             "
                     },
                     {
                       "kind": "span",
@@ -22715,7 +22621,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Raised when any bit in BUFF_STATUS is set. Clear by clearing all bits"
+                      "text": "--  Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear by writing"
                     }
                   ]
                 },
@@ -22731,7 +22637,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  in BUFF_STATUS."
+                      "text": "--  to this bit."
                     }
                   ]
                 },
@@ -22747,13 +22653,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BUFF_STATUS",
+                      "text": "TRANS_COMPLETE",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1402C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "          "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -22809,7 +22715,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Source: SIE_STATUS.DATA_SEQ_ERROR"
+                      "text": "--  Raised when any bit in BUFF_STATUS is set. Clear by clearing all bits"
                     }
                   ]
                 },
@@ -22824,54 +22730,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ERROR_DATA_SEQ",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1404C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  in BUFF_STATUS."
                     }
                   ]
                 },
@@ -22886,415 +22746,9 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Source: SIE_STATUS.RX_TIMEOUT"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1406,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ERROR_RX_TIMEOUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1406C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1407,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Source: SIE_STATUS.RX_OVERFLOW"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1408,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ERROR_RX_OVERFLOW",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1408C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1409,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Source: SIE_STATUS.BIT_STUFF_ERROR"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1410,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ERROR_BIT_STUFF",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1410C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1411,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Source: SIE_STATUS.CRC_ERROR"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1412,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ERROR_CRC",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1412C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "            "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1413,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Source: SIE_STATUS.STALL_REC"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1414,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "STALL",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1414C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1415,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Source: SIE_STATUS.VBUS_DETECTED"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1416,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "VBUS_DETECT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1416C7"
+                      "text": "BUFF_STATUS",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1405C7"
                     },
                     {
                       "kind": "span",
@@ -23345,7 +22799,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1417,
+                  "number": 1406,
                   "children": [
                     {
                       "kind": "span",
@@ -23355,13 +22809,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Source: SIE_STATUS.BUS_RESET"
+                      "text": "--  Source: SIE_STATUS.DATA_SEQ_ERROR"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 1418,
+                  "number": 1407,
                   "children": [
                     {
                       "kind": "span",
@@ -23371,8 +22825,320 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BUS_RESET",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1418C7"
+                      "text": "ERROR_DATA_SEQ",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1407C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1408,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Source: SIE_STATUS.RX_TIMEOUT"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1409,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ERROR_RX_TIMEOUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1409C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1410,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Source: SIE_STATUS.RX_OVERFLOW"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1411,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ERROR_RX_OVERFLOW",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1411C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1412,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Source: SIE_STATUS.BIT_STUFF_ERROR"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1413,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ERROR_BIT_STUFF",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1413C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1414,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Source: SIE_STATUS.CRC_ERROR"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1415,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ERROR_CRC",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1415C7"
                     },
                     {
                       "kind": "span",
@@ -23423,7 +23189,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1419,
+                  "number": 1416,
                   "children": [
                     {
                       "kind": "span",
@@ -23433,7 +23199,147 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Set when the device connection state changes. Cleared by writing to"
+                      "text": "--  Source: SIE_STATUS.STALL_REC"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1417,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "STALL",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1417C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1418,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Source: SIE_STATUS.VBUS_DETECTED"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1419,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "VBUS_DETECT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1419C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -23449,7 +23355,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  SIE_STATUS.CONNECTED"
+                      "text": "--  Source: SIE_STATUS.BUS_RESET"
                     }
                   ]
                 },
@@ -23465,13 +23371,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DEV_CONN_DIS",
+                      "text": "BUS_RESET",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1421C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "         "
+                      "text": "            "
                     },
                     {
                       "kind": "span",
@@ -23527,7 +23433,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Set when the device suspend state changes. Cleared by writing to"
+                      "text": "--  Set when the device connection state changes. Cleared by writing to"
                     }
                   ]
                 },
@@ -23543,7 +23449,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  SIE_STATUS.SUSPENDED"
+                      "text": "--  SIE_STATUS.CONNECTED"
                     }
                   ]
                 },
@@ -23559,13 +23465,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DEV_SUSPEND",
+                      "text": "DEV_CONN_DIS",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1424C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "          "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -23621,7 +23527,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Set when the device receives a resume from the host. Cleared by"
+                      "text": "--  Set when the device suspend state changes. Cleared by writing to"
                     }
                   ]
                 },
@@ -23637,7 +23543,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  writing to SIE_STATUS.RESUME"
+                      "text": "--  SIE_STATUS.SUSPENDED"
                     }
                   ]
                 },
@@ -23653,13 +23559,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DEV_RESUME_FROM_HOST",
+                      "text": "DEV_SUSPEND",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1427C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "          "
                     },
                     {
                       "kind": "span",
@@ -23715,7 +23621,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Device. Source: SIE_STATUS.SETUP_REC"
+                      "text": "--  Set when the device receives a resume from the host. Cleared by"
                     }
                   ]
                 },
@@ -23730,14 +23636,30 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  writing to SIE_STATUS.RESUME"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1430,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "SETUP_REQ",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1429C7"
+                      "text": "DEV_RESUME_FROM_HOST",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1430C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "            "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -23783,22 +23705,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1430,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Set every time the device receives a SOF (Start of Frame) packet."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 1431,
                   "children": [
                     {
@@ -23809,7 +23715,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Cleared by reading SOF_RD"
+                      "text": "--  Device. Source: SIE_STATUS.SETUP_REC"
                     }
                   ]
                 },
@@ -23825,13 +23731,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DEV_SOF",
+                      "text": "SETUP_REQ",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1432C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "              "
+                      "text": "            "
                     },
                     {
                       "kind": "span",
@@ -23887,7 +23793,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Raised when any bit in ABORT_DONE is set. Clear by clearing all bits"
+                      "text": "--  Set every time the device receives a SOF (Start of Frame) packet."
                     }
                   ]
                 },
@@ -23903,7 +23809,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  in ABORT_DONE."
+                      "text": "--  Cleared by reading SOF_RD"
                     }
                   ]
                 },
@@ -23919,13 +23825,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ABORT_DONE",
+                      "text": "DEV_SOF",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1435C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "           "
+                      "text": "              "
                     },
                     {
                       "kind": "span",
@@ -23981,7 +23887,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Raised when any bit in EP_STATUS_STALL_NAK is set. Clear by clearing"
+                      "text": "--  Raised when any bit in ABORT_DONE is set. Clear by clearing all bits"
                     }
                   ]
                 },
@@ -23997,7 +23903,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  all bits in EP_STATUS_STALL_NAK."
+                      "text": "--  in ABORT_DONE."
                     }
                   ]
                 },
@@ -24013,13 +23919,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP_STALL_NAK",
+                      "text": "ABORT_DONE",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1438C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "         "
+                      "text": "           "
                     },
                     {
                       "kind": "span",
@@ -24075,7 +23981,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  unspecified"
+                      "text": "--  Raised when any bit in EP_STATUS_STALL_NAK is set. Clear by clearing"
                     }
                   ]
                 },
@@ -24090,9 +23996,103 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  all bits in EP_STATUS_STALL_NAK."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1441,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "EP_STALL_NAK",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1441C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1442,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  unspecified"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1443,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_20_31",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1440C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1443C7"
                     },
                     {
                       "kind": "span",
@@ -24159,7 +24159,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1441,
+                  "number": 1444,
                   "children": [
                     {
                       "kind": "span",
@@ -24185,7 +24185,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1442,
+                  "number": 1445,
                   "children": [
                     {
                       "kind": "span",
@@ -24206,7 +24206,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1443,
+                  "number": 1446,
                   "children": [
                     {
                       "kind": "span",
@@ -24235,7 +24235,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "HOST_CONN_DIS",
-              "line": 1390,
+              "line": 1393,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24258,7 +24258,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "HOST_RESUME",
-              "line": 1393,
+              "line": 1396,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24281,7 +24281,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "HOST_SOF",
-              "line": 1396,
+              "line": 1399,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24304,7 +24304,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "TRANS_COMPLETE",
-              "line": 1399,
+              "line": 1402,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24327,7 +24327,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "BUFF_STATUS",
-              "line": 1402,
+              "line": 1405,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24346,7 +24346,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_DATA_SEQ",
-              "line": 1404,
+              "line": 1407,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24365,7 +24365,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_RX_TIMEOUT",
-              "line": 1406,
+              "line": 1409,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24384,7 +24384,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_RX_OVERFLOW",
-              "line": 1408,
+              "line": 1411,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24403,7 +24403,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_BIT_STUFF",
-              "line": 1410,
+              "line": 1413,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24422,7 +24422,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_CRC",
-              "line": 1412,
+              "line": 1415,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24441,7 +24441,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "STALL",
-              "line": 1414,
+              "line": 1417,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24460,7 +24460,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "VBUS_DETECT",
-              "line": 1416,
+              "line": 1419,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24479,7 +24479,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "BUS_RESET",
-              "line": 1418,
+              "line": 1421,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24502,7 +24502,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DEV_CONN_DIS",
-              "line": 1421,
+              "line": 1424,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24525,7 +24525,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DEV_SUSPEND",
-              "line": 1424,
+              "line": 1427,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24548,7 +24548,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DEV_RESUME_FROM_HOST",
-              "line": 1427,
+              "line": 1430,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24567,7 +24567,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SETUP_REQ",
-              "line": 1429,
+              "line": 1432,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24590,7 +24590,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DEV_SOF",
-              "line": 1432,
+              "line": 1435,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24613,7 +24613,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ABORT_DONE",
-              "line": 1435,
+              "line": 1438,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24636,7 +24636,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP_STALL_NAK",
-              "line": 1438,
+              "line": 1441,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -24655,7 +24655,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_20_31",
-              "line": 1440,
+              "line": 1443,
               "column": 7,
               "type": {
                 "label": "HAL.UInt12",
@@ -24669,7 +24669,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTR_Register",
           "qualifier": "",
-          "line": 1220,
+          "line": 1223,
           "column": 9,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -24680,7 +24680,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 1220,
+                  "number": 1223,
                   "children": [
                     {
                       "kind": "span",
@@ -24701,7 +24701,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTR_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1220C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1223C9"
                     },
                     {
                       "kind": "span",
@@ -24727,7 +24727,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1221,
+                  "number": 1224,
                   "children": [
                     {
                       "kind": "span",
@@ -24743,7 +24743,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1222,
+                  "number": 1225,
                   "children": [
                     {
                       "kind": "span",
@@ -24759,7 +24759,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1223,
+                  "number": 1226,
                   "children": [
                     {
                       "kind": "span",
@@ -24775,80 +24775,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1224,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HOST_CONN_DIS",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1224C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "        "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1225,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only. Host: raised when a device wakes up the host. Cleared by"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1226,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  writing to SIE_STATUS.RESUME"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 1227,
                   "children": [
                     {
@@ -24859,13 +24785,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HOST_RESUME",
+                      "text": "HOST_CONN_DIS",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1227C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "          "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -24901,7 +24827,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Host: raised every time the host sends a SOF (Start of"
+                      "text": "--  Read-only. Host: raised when a device wakes up the host. Cleared by"
                     }
                   ]
                 },
@@ -24917,7 +24843,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Frame). Cleared by reading SOF_RD"
+                      "text": "--  writing to SIE_STATUS.RESUME"
                     }
                   ]
                 },
@@ -24933,13 +24859,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HOST_SOF",
+                      "text": "HOST_RESUME",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1230C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "             "
+                      "text": "          "
                     },
                     {
                       "kind": "span",
@@ -24975,7 +24901,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear"
+                      "text": "--  Read-only. Host: raised every time the host sends a SOF (Start of"
                     }
                   ]
                 },
@@ -24991,7 +24917,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  by writing to this bit."
+                      "text": "--  Frame). Cleared by reading SOF_RD"
                     }
                   ]
                 },
@@ -25007,13 +24933,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "TRANS_COMPLETE",
+                      "text": "HOST_SOF",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1233C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "       "
+                      "text": "             "
                     },
                     {
                       "kind": "span",
@@ -25049,7 +24975,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Raised when any bit in BUFF_STATUS is set. Clear by"
+                      "text": "--  Read-only. Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear"
                     }
                   ]
                 },
@@ -25065,7 +24991,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  clearing all bits in BUFF_STATUS."
+                      "text": "--  by writing to this bit."
                     }
                   ]
                 },
@@ -25081,13 +25007,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BUFF_STATUS",
+                      "text": "TRANS_COMPLETE",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1236C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "          "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -25123,7 +25049,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Source: SIE_STATUS.DATA_SEQ_ERROR"
+                      "text": "--  Read-only. Raised when any bit in BUFF_STATUS is set. Clear by"
                     }
                   ]
                 },
@@ -25138,34 +25064,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ERROR_DATA_SEQ",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1238C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  clearing all bits in BUFF_STATUS."
                     }
                   ]
                 },
@@ -25180,315 +25080,9 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only. Source: SIE_STATUS.RX_TIMEOUT"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1240,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ERROR_RX_TIMEOUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1240C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1241,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only. Source: SIE_STATUS.RX_OVERFLOW"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1242,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ERROR_RX_OVERFLOW",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1242C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1243,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only. Source: SIE_STATUS.BIT_STUFF_ERROR"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1244,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ERROR_BIT_STUFF",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1244C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1245,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only. Source: SIE_STATUS.CRC_ERROR"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1246,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ERROR_CRC",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1246C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "            "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1247,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only. Source: SIE_STATUS.STALL_REC"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1248,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "STALL",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1248C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1249,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only. Source: SIE_STATUS.VBUS_DETECTED"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1250,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "VBUS_DETECT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1250C7"
+                      "text": "BUFF_STATUS",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1239C7"
                     },
                     {
                       "kind": "span",
@@ -25519,7 +25113,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1251,
+                  "number": 1240,
                   "children": [
                     {
                       "kind": "span",
@@ -25529,13 +25123,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Source: SIE_STATUS.BUS_RESET"
+                      "text": "--  Read-only. Source: SIE_STATUS.DATA_SEQ_ERROR"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 1252,
+                  "number": 1241,
                   "children": [
                     {
                       "kind": "span",
@@ -25545,8 +25139,240 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BUS_RESET",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1252C7"
+                      "text": "ERROR_DATA_SEQ",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1241C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1242,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Read-only. Source: SIE_STATUS.RX_TIMEOUT"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1243,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ERROR_RX_TIMEOUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1243C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1244,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Read-only. Source: SIE_STATUS.RX_OVERFLOW"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1245,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ERROR_RX_OVERFLOW",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1245C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1246,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Read-only. Source: SIE_STATUS.BIT_STUFF_ERROR"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1247,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ERROR_BIT_STUFF",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1247C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1248,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Read-only. Source: SIE_STATUS.CRC_ERROR"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1249,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ERROR_CRC",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1249C7"
                     },
                     {
                       "kind": "span",
@@ -25577,7 +25403,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1253,
+                  "number": 1250,
                   "children": [
                     {
                       "kind": "span",
@@ -25587,7 +25413,107 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Set when the device connection state changes. Cleared by"
+                      "text": "--  Read-only. Source: SIE_STATUS.STALL_REC"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1251,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "STALL",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1251C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1252,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Read-only. Source: SIE_STATUS.VBUS_DETECTED"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1253,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "VBUS_DETECT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1253C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -25603,7 +25529,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  writing to SIE_STATUS.CONNECTED"
+                      "text": "--  Read-only. Source: SIE_STATUS.BUS_RESET"
                     }
                   ]
                 },
@@ -25619,13 +25545,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DEV_CONN_DIS",
+                      "text": "BUS_RESET",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1255C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "         "
+                      "text": "            "
                     },
                     {
                       "kind": "span",
@@ -25661,7 +25587,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Set when the device suspend state changes. Cleared by"
+                      "text": "--  Read-only. Set when the device connection state changes. Cleared by"
                     }
                   ]
                 },
@@ -25677,7 +25603,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  writing to SIE_STATUS.SUSPENDED"
+                      "text": "--  writing to SIE_STATUS.CONNECTED"
                     }
                   ]
                 },
@@ -25693,13 +25619,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DEV_SUSPEND",
+                      "text": "DEV_CONN_DIS",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1258C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "          "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -25735,7 +25661,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Set when the device receives a resume from the host."
+                      "text": "--  Read-only. Set when the device suspend state changes. Cleared by"
                     }
                   ]
                 },
@@ -25751,7 +25677,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Cleared by writing to SIE_STATUS.RESUME"
+                      "text": "--  writing to SIE_STATUS.SUSPENDED"
                     }
                   ]
                 },
@@ -25767,13 +25693,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DEV_RESUME_FROM_HOST",
+                      "text": "DEV_SUSPEND",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1261C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "          "
                     },
                     {
                       "kind": "span",
@@ -25809,7 +25735,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Device. Source: SIE_STATUS.SETUP_REC"
+                      "text": "--  Read-only. Set when the device receives a resume from the host."
                     }
                   ]
                 },
@@ -25824,14 +25750,30 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Cleared by writing to SIE_STATUS.RESUME"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1264,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "SETUP_REQ",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1263C7"
+                      "text": "DEV_RESUME_FROM_HOST",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1264C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "            "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -25857,22 +25799,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1264,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only. Set every time the device receives a SOF (Start of Frame)"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 1265,
                   "children": [
                     {
@@ -25883,7 +25809,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  packet. Cleared by reading SOF_RD"
+                      "text": "--  Read-only. Device. Source: SIE_STATUS.SETUP_REC"
                     }
                   ]
                 },
@@ -25899,13 +25825,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DEV_SOF",
+                      "text": "SETUP_REQ",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1266C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "              "
+                      "text": "            "
                     },
                     {
                       "kind": "span",
@@ -25941,7 +25867,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Raised when any bit in ABORT_DONE is set. Clear by"
+                      "text": "--  Read-only. Set every time the device receives a SOF (Start of Frame)"
                     }
                   ]
                 },
@@ -25957,7 +25883,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  clearing all bits in ABORT_DONE."
+                      "text": "--  packet. Cleared by reading SOF_RD"
                     }
                   ]
                 },
@@ -25973,13 +25899,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ABORT_DONE",
+                      "text": "DEV_SOF",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1269C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "           "
+                      "text": "              "
                     },
                     {
                       "kind": "span",
@@ -26015,7 +25941,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Raised when any bit in EP_STATUS_STALL_NAK is set. Clear"
+                      "text": "--  Read-only. Raised when any bit in ABORT_DONE is set. Clear by"
                     }
                   ]
                 },
@@ -26031,7 +25957,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  by clearing all bits in EP_STATUS_STALL_NAK."
+                      "text": "--  clearing all bits in ABORT_DONE."
                     }
                   ]
                 },
@@ -26047,13 +25973,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP_STALL_NAK",
+                      "text": "ABORT_DONE",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1272C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "         "
+                      "text": "           "
                     },
                     {
                       "kind": "span",
@@ -26089,7 +26015,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  unspecified"
+                      "text": "--  Read-only. Raised when any bit in EP_STATUS_STALL_NAK is set. Clear"
                     }
                   ]
                 },
@@ -26104,9 +26030,83 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  by clearing all bits in EP_STATUS_STALL_NAK."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1275,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "EP_STALL_NAK",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1275C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1276,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  unspecified"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1277,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_20_31",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1274C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1277C7"
                     },
                     {
                       "kind": "span",
@@ -26138,7 +26138,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1275,
+                  "number": 1278,
                   "children": [
                     {
                       "kind": "span",
@@ -26164,7 +26164,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1276,
+                  "number": 1279,
                   "children": [
                     {
                       "kind": "span",
@@ -26185,7 +26185,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1277,
+                  "number": 1280,
                   "children": [
                     {
                       "kind": "span",
@@ -26214,7 +26214,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "HOST_CONN_DIS",
-              "line": 1224,
+              "line": 1227,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26237,7 +26237,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "HOST_RESUME",
-              "line": 1227,
+              "line": 1230,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26260,7 +26260,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "HOST_SOF",
-              "line": 1230,
+              "line": 1233,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26283,7 +26283,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "TRANS_COMPLETE",
-              "line": 1233,
+              "line": 1236,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26306,7 +26306,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "BUFF_STATUS",
-              "line": 1236,
+              "line": 1239,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26325,7 +26325,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_DATA_SEQ",
-              "line": 1238,
+              "line": 1241,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26344,7 +26344,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_RX_TIMEOUT",
-              "line": 1240,
+              "line": 1243,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26363,7 +26363,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_RX_OVERFLOW",
-              "line": 1242,
+              "line": 1245,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26382,7 +26382,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_BIT_STUFF",
-              "line": 1244,
+              "line": 1247,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26401,7 +26401,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_CRC",
-              "line": 1246,
+              "line": 1249,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26420,7 +26420,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "STALL",
-              "line": 1248,
+              "line": 1251,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26439,7 +26439,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "VBUS_DETECT",
-              "line": 1250,
+              "line": 1253,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26458,7 +26458,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "BUS_RESET",
-              "line": 1252,
+              "line": 1255,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26481,7 +26481,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DEV_CONN_DIS",
-              "line": 1255,
+              "line": 1258,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26504,7 +26504,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DEV_SUSPEND",
-              "line": 1258,
+              "line": 1261,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26527,7 +26527,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DEV_RESUME_FROM_HOST",
-              "line": 1261,
+              "line": 1264,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26546,7 +26546,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SETUP_REQ",
-              "line": 1263,
+              "line": 1266,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26569,7 +26569,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DEV_SOF",
-              "line": 1266,
+              "line": 1269,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26592,7 +26592,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ABORT_DONE",
-              "line": 1269,
+              "line": 1272,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26615,7 +26615,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP_STALL_NAK",
-              "line": 1272,
+              "line": 1275,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -26634,7 +26634,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_20_31",
-              "line": 1274,
+              "line": 1277,
               "column": 7,
               "type": {
                 "label": "HAL.UInt12",
@@ -26648,7 +26648,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTS_Register",
           "qualifier": "",
-          "line": 1470,
+          "line": 1473,
           "column": 9,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -26659,7 +26659,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 1470,
+                  "number": 1473,
                   "children": [
                     {
                       "kind": "span",
@@ -26680,7 +26680,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTS_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1470C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1473C9"
                     },
                     {
                       "kind": "span",
@@ -26706,7 +26706,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1471,
+                  "number": 1474,
                   "children": [
                     {
                       "kind": "span",
@@ -26722,7 +26722,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1472,
+                  "number": 1475,
                   "children": [
                     {
                       "kind": "span",
@@ -26738,7 +26738,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1473,
+                  "number": 1476,
                   "children": [
                     {
                       "kind": "span",
@@ -26754,80 +26754,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1474,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HOST_CONN_DIS",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1474C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "        "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1475,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only. Host: raised when a device wakes up the host. Cleared by"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1476,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  writing to SIE_STATUS.RESUME"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 1477,
                   "children": [
                     {
@@ -26838,13 +26764,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HOST_RESUME",
+                      "text": "HOST_CONN_DIS",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1477C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "          "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -26880,7 +26806,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Host: raised every time the host sends a SOF (Start of"
+                      "text": "--  Read-only. Host: raised when a device wakes up the host. Cleared by"
                     }
                   ]
                 },
@@ -26896,7 +26822,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Frame). Cleared by reading SOF_RD"
+                      "text": "--  writing to SIE_STATUS.RESUME"
                     }
                   ]
                 },
@@ -26912,13 +26838,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HOST_SOF",
+                      "text": "HOST_RESUME",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1480C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "             "
+                      "text": "          "
                     },
                     {
                       "kind": "span",
@@ -26954,7 +26880,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear"
+                      "text": "--  Read-only. Host: raised every time the host sends a SOF (Start of"
                     }
                   ]
                 },
@@ -26970,7 +26896,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  by writing to this bit."
+                      "text": "--  Frame). Cleared by reading SOF_RD"
                     }
                   ]
                 },
@@ -26986,13 +26912,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "TRANS_COMPLETE",
+                      "text": "HOST_SOF",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1483C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "       "
+                      "text": "             "
                     },
                     {
                       "kind": "span",
@@ -27028,7 +26954,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Raised when any bit in BUFF_STATUS is set. Clear by"
+                      "text": "--  Read-only. Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear"
                     }
                   ]
                 },
@@ -27044,7 +26970,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  clearing all bits in BUFF_STATUS."
+                      "text": "--  by writing to this bit."
                     }
                   ]
                 },
@@ -27060,13 +26986,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BUFF_STATUS",
+                      "text": "TRANS_COMPLETE",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1486C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "          "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -27102,7 +27028,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Source: SIE_STATUS.DATA_SEQ_ERROR"
+                      "text": "--  Read-only. Raised when any bit in BUFF_STATUS is set. Clear by"
                     }
                   ]
                 },
@@ -27117,34 +27043,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ERROR_DATA_SEQ",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1488C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  clearing all bits in BUFF_STATUS."
                     }
                   ]
                 },
@@ -27159,315 +27059,9 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only. Source: SIE_STATUS.RX_TIMEOUT"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1490,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ERROR_RX_TIMEOUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1490C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1491,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only. Source: SIE_STATUS.RX_OVERFLOW"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1492,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ERROR_RX_OVERFLOW",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1492C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1493,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only. Source: SIE_STATUS.BIT_STUFF_ERROR"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1494,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ERROR_BIT_STUFF",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1494C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1495,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only. Source: SIE_STATUS.CRC_ERROR"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1496,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ERROR_CRC",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1496C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "            "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1497,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only. Source: SIE_STATUS.STALL_REC"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1498,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "STALL",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1498C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1499,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only. Source: SIE_STATUS.VBUS_DETECTED"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1500,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "VBUS_DETECT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1500C7"
+                      "text": "BUFF_STATUS",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1489C7"
                     },
                     {
                       "kind": "span",
@@ -27498,7 +27092,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1501,
+                  "number": 1490,
                   "children": [
                     {
                       "kind": "span",
@@ -27508,13 +27102,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Source: SIE_STATUS.BUS_RESET"
+                      "text": "--  Read-only. Source: SIE_STATUS.DATA_SEQ_ERROR"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 1502,
+                  "number": 1491,
                   "children": [
                     {
                       "kind": "span",
@@ -27524,8 +27118,240 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BUS_RESET",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1502C7"
+                      "text": "ERROR_DATA_SEQ",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1491C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1492,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Read-only. Source: SIE_STATUS.RX_TIMEOUT"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1493,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ERROR_RX_TIMEOUT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1493C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1494,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Read-only. Source: SIE_STATUS.RX_OVERFLOW"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1495,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ERROR_RX_OVERFLOW",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1495C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1496,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Read-only. Source: SIE_STATUS.BIT_STUFF_ERROR"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1497,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ERROR_BIT_STUFF",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1497C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1498,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Read-only. Source: SIE_STATUS.CRC_ERROR"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1499,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ERROR_CRC",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1499C7"
                     },
                     {
                       "kind": "span",
@@ -27556,7 +27382,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1503,
+                  "number": 1500,
                   "children": [
                     {
                       "kind": "span",
@@ -27566,7 +27392,107 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Set when the device connection state changes. Cleared by"
+                      "text": "--  Read-only. Source: SIE_STATUS.STALL_REC"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1501,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "STALL",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1501C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1502,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Read-only. Source: SIE_STATUS.VBUS_DETECTED"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1503,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "VBUS_DETECT",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1503C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -27582,7 +27508,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  writing to SIE_STATUS.CONNECTED"
+                      "text": "--  Read-only. Source: SIE_STATUS.BUS_RESET"
                     }
                   ]
                 },
@@ -27598,13 +27524,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DEV_CONN_DIS",
+                      "text": "BUS_RESET",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1505C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "         "
+                      "text": "            "
                     },
                     {
                       "kind": "span",
@@ -27640,7 +27566,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Set when the device suspend state changes. Cleared by"
+                      "text": "--  Read-only. Set when the device connection state changes. Cleared by"
                     }
                   ]
                 },
@@ -27656,7 +27582,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  writing to SIE_STATUS.SUSPENDED"
+                      "text": "--  writing to SIE_STATUS.CONNECTED"
                     }
                   ]
                 },
@@ -27672,13 +27598,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DEV_SUSPEND",
+                      "text": "DEV_CONN_DIS",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1508C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "          "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -27714,7 +27640,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Set when the device receives a resume from the host."
+                      "text": "--  Read-only. Set when the device suspend state changes. Cleared by"
                     }
                   ]
                 },
@@ -27730,7 +27656,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Cleared by writing to SIE_STATUS.RESUME"
+                      "text": "--  writing to SIE_STATUS.SUSPENDED"
                     }
                   ]
                 },
@@ -27746,13 +27672,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DEV_RESUME_FROM_HOST",
+                      "text": "DEV_SUSPEND",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1511C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "          "
                     },
                     {
                       "kind": "span",
@@ -27788,7 +27714,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Device. Source: SIE_STATUS.SETUP_REC"
+                      "text": "--  Read-only. Set when the device receives a resume from the host."
                     }
                   ]
                 },
@@ -27803,14 +27729,30 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Cleared by writing to SIE_STATUS.RESUME"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1514,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "SETUP_REQ",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1513C7"
+                      "text": "DEV_RESUME_FROM_HOST",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1514C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "            "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -27836,22 +27778,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1514,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only. Set every time the device receives a SOF (Start of Frame)"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 1515,
                   "children": [
                     {
@@ -27862,7 +27788,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  packet. Cleared by reading SOF_RD"
+                      "text": "--  Read-only. Device. Source: SIE_STATUS.SETUP_REC"
                     }
                   ]
                 },
@@ -27878,13 +27804,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DEV_SOF",
+                      "text": "SETUP_REQ",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1516C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "              "
+                      "text": "            "
                     },
                     {
                       "kind": "span",
@@ -27920,7 +27846,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Raised when any bit in ABORT_DONE is set. Clear by"
+                      "text": "--  Read-only. Set every time the device receives a SOF (Start of Frame)"
                     }
                   ]
                 },
@@ -27936,7 +27862,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  clearing all bits in ABORT_DONE."
+                      "text": "--  packet. Cleared by reading SOF_RD"
                     }
                   ]
                 },
@@ -27952,13 +27878,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ABORT_DONE",
+                      "text": "DEV_SOF",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1519C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "           "
+                      "text": "              "
                     },
                     {
                       "kind": "span",
@@ -27994,7 +27920,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Raised when any bit in EP_STATUS_STALL_NAK is set. Clear"
+                      "text": "--  Read-only. Raised when any bit in ABORT_DONE is set. Clear by"
                     }
                   ]
                 },
@@ -28010,7 +27936,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  by clearing all bits in EP_STATUS_STALL_NAK."
+                      "text": "--  clearing all bits in ABORT_DONE."
                     }
                   ]
                 },
@@ -28026,13 +27952,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP_STALL_NAK",
+                      "text": "ABORT_DONE",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1522C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "         "
+                      "text": "           "
                     },
                     {
                       "kind": "span",
@@ -28068,7 +27994,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  unspecified"
+                      "text": "--  Read-only. Raised when any bit in EP_STATUS_STALL_NAK is set. Clear"
                     }
                   ]
                 },
@@ -28083,9 +28009,83 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  by clearing all bits in EP_STATUS_STALL_NAK."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1525,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "EP_STALL_NAK",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1525C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1526,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  unspecified"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1527,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_20_31",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1524C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1527C7"
                     },
                     {
                       "kind": "span",
@@ -28117,7 +28117,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1525,
+                  "number": 1528,
                   "children": [
                     {
                       "kind": "span",
@@ -28143,7 +28143,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1526,
+                  "number": 1529,
                   "children": [
                     {
                       "kind": "span",
@@ -28164,7 +28164,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1527,
+                  "number": 1530,
                   "children": [
                     {
                       "kind": "span",
@@ -28193,7 +28193,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "HOST_CONN_DIS",
-              "line": 1474,
+              "line": 1477,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28216,7 +28216,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "HOST_RESUME",
-              "line": 1477,
+              "line": 1480,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28239,7 +28239,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "HOST_SOF",
-              "line": 1480,
+              "line": 1483,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28262,7 +28262,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "TRANS_COMPLETE",
-              "line": 1483,
+              "line": 1486,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28285,7 +28285,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "BUFF_STATUS",
-              "line": 1486,
+              "line": 1489,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28304,7 +28304,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_DATA_SEQ",
-              "line": 1488,
+              "line": 1491,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28323,7 +28323,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_RX_TIMEOUT",
-              "line": 1490,
+              "line": 1493,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28342,7 +28342,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_RX_OVERFLOW",
-              "line": 1492,
+              "line": 1495,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28361,7 +28361,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_BIT_STUFF",
-              "line": 1494,
+              "line": 1497,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28380,7 +28380,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERROR_CRC",
-              "line": 1496,
+              "line": 1499,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28399,7 +28399,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "STALL",
-              "line": 1498,
+              "line": 1501,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28418,7 +28418,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "VBUS_DETECT",
-              "line": 1500,
+              "line": 1503,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28437,7 +28437,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "BUS_RESET",
-              "line": 1502,
+              "line": 1505,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28460,7 +28460,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DEV_CONN_DIS",
-              "line": 1505,
+              "line": 1508,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28483,7 +28483,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DEV_SUSPEND",
-              "line": 1508,
+              "line": 1511,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28506,7 +28506,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DEV_RESUME_FROM_HOST",
-              "line": 1511,
+              "line": 1514,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28525,7 +28525,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SETUP_REQ",
-              "line": 1513,
+              "line": 1516,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28548,7 +28548,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DEV_SOF",
-              "line": 1516,
+              "line": 1519,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28571,7 +28571,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ABORT_DONE",
-              "line": 1519,
+              "line": 1522,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28594,7 +28594,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP_STALL_NAK",
-              "line": 1522,
+              "line": 1525,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -28613,7 +28613,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_20_31",
-              "line": 1524,
+              "line": 1527,
               "column": 7,
               "type": {
                 "label": "HAL.UInt12",
@@ -29160,7 +29160,7 @@ GNATdoc.Documentation = {
         {
           "label": "NAK_POLL_Register",
           "qualifier": "",
-          "line": 851,
+          "line": 854,
           "column": 9,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -29171,7 +29171,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 851,
+                  "number": 854,
                   "children": [
                     {
                       "kind": "span",
@@ -29192,7 +29192,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "NAK_POLL_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L851C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L854C9"
                     },
                     {
                       "kind": "span",
@@ -29218,7 +29218,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 852,
+                  "number": 855,
                   "children": [
                     {
                       "kind": "span",
@@ -29234,7 +29234,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 853,
+                  "number": 856,
                   "children": [
                     {
                       "kind": "span",
@@ -29245,7 +29245,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DELAY_LS",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L853C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L856C7"
                     },
                     {
                       "kind": "span",
@@ -29266,7 +29266,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "NAK_POLL_DELAY_LS_Field",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L846C12"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L849C12"
                     },
                     {
                       "kind": "span",
@@ -29312,7 +29312,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 854,
+                  "number": 857,
                   "children": [
                     {
                       "kind": "span",
@@ -29328,7 +29328,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 855,
+                  "number": 858,
                   "children": [
                     {
                       "kind": "span",
@@ -29339,7 +29339,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_10_15",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L855C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L858C7"
                     },
                     {
                       "kind": "span",
@@ -29406,7 +29406,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 856,
+                  "number": 859,
                   "children": [
                     {
                       "kind": "span",
@@ -29422,7 +29422,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 857,
+                  "number": 860,
                   "children": [
                     {
                       "kind": "span",
@@ -29433,7 +29433,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DELAY_FS",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L857C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L860C7"
                     },
                     {
                       "kind": "span",
@@ -29454,7 +29454,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "NAK_POLL_DELAY_FS_Field",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L847C12"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L850C12"
                     },
                     {
                       "kind": "span",
@@ -29500,7 +29500,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 858,
+                  "number": 861,
                   "children": [
                     {
                       "kind": "span",
@@ -29516,7 +29516,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 859,
+                  "number": 862,
                   "children": [
                     {
                       "kind": "span",
@@ -29527,7 +29527,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_26_31",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L859C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L862C7"
                     },
                     {
                       "kind": "span",
@@ -29594,7 +29594,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 860,
+                  "number": 863,
                   "children": [
                     {
                       "kind": "span",
@@ -29620,7 +29620,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 861,
+                  "number": 864,
                   "children": [
                     {
                       "kind": "span",
@@ -29641,7 +29641,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 862,
+                  "number": 865,
                   "children": [
                     {
                       "kind": "span",
@@ -29674,11 +29674,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "DELAY_LS",
-              "line": 853,
+              "line": 856,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.NAK_POLL_DELAY_LS_Field",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L846C12"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L849C12"
               },
               "description": [
                 {
@@ -29694,7 +29694,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_10_15",
-              "line": 855,
+              "line": 858,
               "column": 7,
               "type": {
                 "label": "HAL.UInt6",
@@ -29714,11 +29714,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DELAY_FS",
-              "line": 857,
+              "line": 860,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.NAK_POLL_DELAY_FS_Field",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L847C12"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L850C12"
               },
               "description": [
                 {
@@ -29734,7 +29734,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_26_31",
-              "line": 859,
+              "line": 862,
               "column": 7,
               "type": {
                 "label": "HAL.UInt6",
@@ -33090,7 +33090,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Bus in suspended state. Valid for device and host. Host"
+                      "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
                     }
                   ]
                 },
@@ -33106,7 +33106,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  and device will go into suspend if neither Keep Alive / SOF frames"
+                      "text": "--  in the field. Bus in suspended state. Valid for device and host. Host"
                     }
                   ]
                 },
@@ -33122,7 +33122,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  are enabled."
+                      "text": "--  and device will go into suspend if neither Keep Alive / SOF frames"
                     }
                   ]
                 },
@@ -33137,9 +33137,25 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  are enabled."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 251,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "SUSPENDED",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L250C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L251C7"
                     },
                     {
                       "kind": "span",
@@ -33190,7 +33206,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 251,
+                  "number": 252,
                   "children": [
                     {
                       "kind": "span",
@@ -33206,7 +33222,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 252,
+                  "number": 253,
                   "children": [
                     {
                       "kind": "span",
@@ -33217,7 +33233,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_5_7",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L252C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L253C7"
                     },
                     {
                       "kind": "span",
@@ -33284,7 +33300,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 253,
+                  "number": 254,
                   "children": [
                     {
                       "kind": "span",
@@ -33294,13 +33310,29 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Host: device speed. Disconnected = 00, LS = 01, FS = 10"
+                      "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 254,
+                  "number": 255,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  in the field. Host: device speed. Disconnected = 00, LS = 01, FS = 10"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 256,
                   "children": [
                     {
                       "kind": "span",
@@ -33311,7 +33343,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SPEED",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L254C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L256C7"
                     },
                     {
                       "kind": "span",
@@ -33378,7 +33410,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 255,
+                  "number": 257,
                   "children": [
                     {
                       "kind": "span",
@@ -33394,7 +33426,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 256,
+                  "number": 258,
                   "children": [
                     {
                       "kind": "span",
@@ -33405,7 +33437,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "VBUS_OVER_CURR",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L256C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L258C7"
                     },
                     {
                       "kind": "span",
@@ -33456,7 +33488,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 257,
+                  "number": 259,
                   "children": [
                     {
                       "kind": "span",
@@ -33472,7 +33504,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 258,
+                  "number": 260,
                   "children": [
                     {
                       "kind": "span",
@@ -33488,7 +33520,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 259,
+                  "number": 261,
                   "children": [
                     {
                       "kind": "span",
@@ -33504,7 +33536,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 260,
+                  "number": 262,
                   "children": [
                     {
                       "kind": "span",
@@ -33515,7 +33547,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RESUME",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L260C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L262C7"
                     },
                     {
                       "kind": "span",
@@ -33566,7 +33598,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 261,
+                  "number": 263,
                   "children": [
                     {
                       "kind": "span",
@@ -33582,7 +33614,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 262,
+                  "number": 264,
                   "children": [
                     {
                       "kind": "span",
@@ -33593,7 +33625,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_12_15",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L262C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L264C7"
                     },
                     {
                       "kind": "span",
@@ -33660,84 +33692,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 263,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read-only. Device: connected"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 264,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "CONNECTED",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L264C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 265,
                   "children": [
                     {
@@ -33764,7 +33718,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  in the field. Device: Setup packet received"
+                      "text": "--  in the field. Device: connected"
                     }
                   ]
                 },
@@ -33780,7 +33734,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "SETUP_REC",
+                      "text": "CONNECTED",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L267C7"
                     },
                     {
@@ -33858,7 +33812,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  in the field. Transaction complete.\\n\\n Raised by device if:\\n\\n * An"
+                      "text": "--  in the field. Device: Setup packet received"
                     }
                   ]
                 },
@@ -33873,110 +33827,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  IN or OUT packet is sent with the `LAST_BUFF` bit set in the buffer"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 271,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  control register\\n\\n Raised by host if:\\n\\n * A setup packet is sent"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 272,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  when no data in or data out transaction follows * An IN packet is"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 273,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  received and the `LAST_BUFF` bit is set in the buffer control"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 274,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  register * An IN packet is received with zero length * An OUT packet"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 275,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  is sent and the `LAST_BUFF` bit is set"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 276,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "TRANS_COMPLETE",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L276C7"
+                      "text": "SETUP_REC",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L270C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -34022,7 +33880,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 277,
+                  "number": 271,
                   "children": [
                     {
                       "kind": "span",
@@ -34038,6 +33896,102 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
+                  "number": 272,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  in the field. Transaction complete.\\n\\n Raised by device if:\\n\\n * An"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 273,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  IN or OUT packet is sent with the `LAST_BUFF` bit set in the buffer"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 274,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  control register\\n\\n Raised by host if:\\n\\n * A setup packet is sent"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 275,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  when no data in or data out transaction follows * An IN packet is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 276,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  received and the `LAST_BUFF` bit is set in the buffer control"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 277,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  register * An IN packet is received with zero length * An OUT packet"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
                   "number": 278,
                   "children": [
                     {
@@ -34048,7 +34002,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  in the field. Device: bus reset received"
+                      "text": "--  is sent and the `LAST_BUFF` bit is set"
                     }
                   ]
                 },
@@ -34064,13 +34018,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BUS_RESET",
+                      "text": "TRANS_COMPLETE",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L279C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "       "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -34126,7 +34080,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  unspecified"
+                      "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
                     }
                   ]
                 },
@@ -34141,9 +34095,103 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  in the field. Device: bus reset received"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 282,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BUS_RESET",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L282C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 283,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  unspecified"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 284,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_20_23",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L281C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L284C7"
                     },
                     {
                       "kind": "span",
@@ -34210,100 +34258,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 282,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 283,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  in the field. CRC Error. Raised by the Serial RX engine."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 284,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "CRC_ERROR",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L284C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 285,
                   "children": [
                     {
@@ -34330,7 +34284,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  in the field. Bit Stuff Error. Raised by the Serial RX engine."
+                      "text": "--  in the field. CRC Error. Raised by the Serial RX engine."
                     }
                   ]
                 },
@@ -34346,13 +34300,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BIT_STUFF_ERROR",
+                      "text": "CRC_ERROR",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L287C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -34424,13 +34378,107 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  in the field. RX overflow is raised by the Serial RX engine if the"
+                      "text": "--  in the field. Bit Stuff Error. Raised by the Serial RX engine."
                     }
                   ]
                 },
                 {
                   "kind": "line",
                   "number": 290,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BIT_STUFF_ERROR",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L290C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 291,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 292,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  in the field. RX overflow is raised by the Serial RX engine if the"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 293,
                   "children": [
                     {
                       "kind": "span",
@@ -34446,7 +34494,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 291,
+                  "number": 294,
                   "children": [
                     {
                       "kind": "span",
@@ -34457,7 +34505,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RX_OVERFLOW",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L291C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L294C7"
                     },
                     {
                       "kind": "span",
@@ -34508,7 +34556,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 292,
+                  "number": 295,
                   "children": [
                     {
                       "kind": "span",
@@ -34519,100 +34567,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "comment",
                       "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 293,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  in the field. RX timeout is raised by both the host and device if an"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 294,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  ACK is not received in the maximum time specified by the USB spec."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 295,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "RX_TIMEOUT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L295C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
                     }
                   ]
                 },
@@ -34628,7 +34582,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
+                      "text": "--  in the field. RX timeout is raised by both the host and device if an"
                     }
                   ]
                 },
@@ -34644,7 +34598,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  in the field. Host: NAK received"
+                      "text": "--  ACK is not received in the maximum time specified by the USB spec."
                     }
                   ]
                 },
@@ -34660,13 +34614,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "NAK_REC",
+                      "text": "RX_TIMEOUT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L298C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "         "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -34738,7 +34692,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  in the field. Host: STALL received"
+                      "text": "--  in the field. Host: NAK received"
                     }
                   ]
                 },
@@ -34754,13 +34708,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "STALL_REC",
+                      "text": "NAK_REC",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L301C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "       "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -34832,7 +34786,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  in the field. ACK received. Raised by both host and device."
+                      "text": "--  in the field. Host: STALL received"
                     }
                   ]
                 },
@@ -34848,13 +34802,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ACK_REC",
+                      "text": "STALL_REC",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L304C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "         "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -34926,7 +34880,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  in the field. Data Sequence Error.\\n\\n The device can raise a"
+                      "text": "--  in the field. ACK received. Raised by both host and device."
                     }
                   ]
                 },
@@ -34941,8 +34895,54 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  sequence error in the following conditions:\\n\\n * A SETUP packet is"
+                      "cssClass": "identifier",
+                      "text": "ACK_REC",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L307C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -34958,7 +34958,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  received followed by a DATA1 packet (data phase should always be"
+                      "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
                     }
                   ]
                 },
@@ -34974,7 +34974,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  DATA0) * An OUT packet is received from the host but doesn't match"
+                      "text": "--  in the field. Data Sequence Error.\\n\\n The device can raise a"
                     }
                   ]
                 },
@@ -34990,7 +34990,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  the data pid in the buffer control register read from DPSRAM\\n\\n The"
+                      "text": "--  sequence error in the following conditions:\\n\\n * A SETUP packet is"
                     }
                   ]
                 },
@@ -35006,7 +35006,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  host can raise a data sequence error in the following conditions:\\n\\n"
+                      "text": "--  received followed by a DATA1 packet (data phase should always be"
                     }
                   ]
                 },
@@ -35022,7 +35022,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  * An IN packet from the device has the wrong data PID"
+                      "text": "--  DATA0) * An OUT packet is received from the host but doesn't match"
                     }
                   ]
                 },
@@ -35037,9 +35037,57 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  the data pid in the buffer control register read from DPSRAM\\n\\n The"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 314,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  host can raise a data sequence error in the following conditions:\\n\\n"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 315,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  * An IN packet from the device has the wrong data PID"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 316,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "DATA_SEQ_ERROR",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L313C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L316C7"
                     },
                     {
                       "kind": "span",
@@ -35090,7 +35138,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 314,
+                  "number": 317,
                   "children": [
                     {
                       "kind": "span",
@@ -35116,7 +35164,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 315,
+                  "number": 318,
                   "children": [
                     {
                       "kind": "span",
@@ -35137,7 +35185,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 316,
+                  "number": 319,
                   "children": [
                     {
                       "kind": "span",
@@ -35217,7 +35265,11 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Read-only. Bus in suspended state. Valid for device and host. Host\n"
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field. Bus in suspended state. Valid for device and host. Host\n"
                     },
                     {
                       "kind": "span",
@@ -35233,7 +35285,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SUSPENDED",
-              "line": 250,
+              "line": 251,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -35252,7 +35304,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_5_7",
-              "line": 252,
+              "line": 253,
               "column": 7,
               "type": {
                 "label": "HAL.UInt3",
@@ -35264,7 +35316,11 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Read-only. Host: device speed. Disconnected = 00, LS = 01, FS = 10\n"
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field. Host: device speed. Disconnected = 00, LS = 01, FS = 10\n"
                     }
                   ]
                 }
@@ -35272,7 +35328,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPEED",
-              "line": 254,
+              "line": 256,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.SIE_STATUS_SPEED_Field",
@@ -35292,7 +35348,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "VBUS_OVER_CURR",
-              "line": 256,
+              "line": 258,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -35319,7 +35375,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "RESUME",
-              "line": 260,
+              "line": 262,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -35338,7 +35394,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_12_15",
-              "line": 262,
+              "line": 264,
               "column": 7,
               "type": {
                 "label": "HAL.UInt4",
@@ -35350,7 +35406,11 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Read-only. Device: connected\n"
+                      "text": "Write data bit of one shall clear (set to zero) the corresponding bit\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "in the field. Device: connected\n"
                     }
                   ]
                 }
@@ -35358,7 +35418,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "CONNECTED",
-              "line": 264,
+              "line": 267,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -35381,7 +35441,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SETUP_REC",
-              "line": 267,
+              "line": 270,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -35428,7 +35488,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "TRANS_COMPLETE",
-              "line": 276,
+              "line": 279,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -35451,7 +35511,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "BUS_RESET",
-              "line": 279,
+              "line": 282,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -35470,7 +35530,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_20_23",
-              "line": 281,
+              "line": 284,
               "column": 7,
               "type": {
                 "label": "HAL.UInt4",
@@ -35494,7 +35554,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "CRC_ERROR",
-              "line": 284,
+              "line": 287,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -35517,7 +35577,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "BIT_STUFF_ERROR",
-              "line": 287,
+              "line": 290,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -35544,7 +35604,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "RX_OVERFLOW",
-              "line": 291,
+              "line": 294,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -35571,7 +35631,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "RX_TIMEOUT",
-              "line": 295,
+              "line": 298,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -35594,7 +35654,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "NAK_REC",
-              "line": 298,
+              "line": 301,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -35617,7 +35677,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "STALL_REC",
-              "line": 301,
+              "line": 304,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -35640,7 +35700,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ACK_REC",
-              "line": 304,
+              "line": 307,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -35697,7 +35757,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DATA_SEQ_ERROR",
-              "line": 313,
+              "line": 316,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -36368,7 +36428,7 @@ GNATdoc.Documentation = {
         {
           "label": "USB_MUXING_Register",
           "qualifier": "",
-          "line": 1011,
+          "line": 1014,
           "column": 9,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -36379,7 +36439,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 1011,
+                  "number": 1014,
                   "children": [
                     {
                       "kind": "span",
@@ -36400,7 +36460,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USB_MUXING_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1011C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1014C9"
                     },
                     {
                       "kind": "span",
@@ -36426,192 +36486,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1012,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "TO_PHY",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1012C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1013,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "TO_EXTPHY",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1013C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1014,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "TO_DIGITAL_PAD",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1014C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 1015,
                   "children": [
                     {
@@ -36622,13 +36496,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "SOFTCON",
+                      "text": "TO_PHY",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1015C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "        "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -36683,8 +36557,54 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  unspecified"
+                      "cssClass": "identifier",
+                      "text": "TO_EXTPHY",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1016C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -36700,8 +36620,148 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reserved_4_31",
+                      "text": "TO_DIGITAL_PAD",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1017C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1018,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SOFTCON",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1018C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1019,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  unspecified"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1020,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Reserved_4_31",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1020C7"
                     },
                     {
                       "kind": "span",
@@ -36768,7 +36828,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1018,
+                  "number": 1021,
                   "children": [
                     {
                       "kind": "span",
@@ -36794,7 +36854,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1019,
+                  "number": 1022,
                   "children": [
                     {
                       "kind": "span",
@@ -36815,7 +36875,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1020,
+                  "number": 1023,
                   "children": [
                     {
                       "kind": "span",
@@ -36844,7 +36904,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "TO_PHY",
-              "line": 1012,
+              "line": 1015,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -36854,7 +36914,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "TO_EXTPHY",
-              "line": 1013,
+              "line": 1016,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -36864,7 +36924,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "TO_DIGITAL_PAD",
-              "line": 1014,
+              "line": 1017,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -36874,7 +36934,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SOFTCON",
-              "line": 1015,
+              "line": 1018,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -36893,7 +36953,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_4_31",
-              "line": 1017,
+              "line": 1020,
               "column": 7,
               "type": {
                 "label": "HAL.UInt28",
@@ -36907,7 +36967,7 @@ GNATdoc.Documentation = {
         {
           "label": "USB_PWR_Register",
           "qualifier": "",
-          "line": 1033,
+          "line": 1036,
           "column": 9,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -36918,7 +36978,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 1033,
+                  "number": 1036,
                   "children": [
                     {
                       "kind": "span",
@@ -36939,7 +36999,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USB_PWR_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1033C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1036C9"
                     },
                     {
                       "kind": "span",
@@ -36965,192 +37025,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1034,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "VBUS_EN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1034C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                 "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1035,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "VBUS_EN_OVERRIDE_EN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1035C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1036,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "VBUS_DETECT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1036C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "             "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 1037,
                   "children": [
                     {
@@ -37161,13 +37035,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "VBUS_DETECT_OVERRIDE_EN",
+                      "text": "VBUS_EN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1037C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "                 "
                     },
                     {
                       "kind": "span",
@@ -37223,13 +37097,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "OVERCURR_DETECT",
+                      "text": "VBUS_EN_OVERRIDE_EN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1038C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "         "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -37285,13 +37159,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "OVERCURR_DETECT_EN",
+                      "text": "VBUS_DETECT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1039C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
+                      "text": "             "
                     },
                     {
                       "kind": "span",
@@ -37346,8 +37220,54 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  unspecified"
+                      "cssClass": "identifier",
+                      "text": "VBUS_DETECT_OVERRIDE_EN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1040C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -37363,8 +37283,148 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reserved_6_31",
+                      "text": "OVERCURR_DETECT",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1041C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1042,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "OVERCURR_DETECT_EN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1042C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1043,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  unspecified"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1044,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Reserved_6_31",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1044C7"
                     },
                     {
                       "kind": "span",
@@ -37431,7 +37491,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1042,
+                  "number": 1045,
                   "children": [
                     {
                       "kind": "span",
@@ -37457,7 +37517,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1043,
+                  "number": 1046,
                   "children": [
                     {
                       "kind": "span",
@@ -37478,7 +37538,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1044,
+                  "number": 1047,
                   "children": [
                     {
                       "kind": "span",
@@ -37515,36 +37575,6 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "VBUS_EN",
-              "line": 1034,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "VBUS_EN_OVERRIDE_EN",
-              "line": 1035,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "VBUS_DETECT",
-              "line": 1036,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "VBUS_DETECT_OVERRIDE_EN",
               "line": 1037,
               "column": 7,
               "type": {
@@ -37554,7 +37584,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "OVERCURR_DETECT",
+              "label": "VBUS_EN_OVERRIDE_EN",
               "line": 1038,
               "column": 7,
               "type": {
@@ -37564,8 +37594,38 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "OVERCURR_DETECT_EN",
+              "label": "VBUS_DETECT",
               "line": 1039,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "VBUS_DETECT_OVERRIDE_EN",
+              "line": 1040,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "OVERCURR_DETECT",
+              "line": 1041,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "OVERCURR_DETECT_EN",
+              "line": 1042,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -37584,7 +37644,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_6_31",
-              "line": 1041,
+              "line": 1044,
               "column": 7,
               "type": {
                 "label": "HAL.UInt26",
@@ -37598,7 +37658,7 @@ GNATdoc.Documentation = {
         {
           "label": "USBCTRL_REGS_Periph",
           "qualifier": "",
-          "line": 1706,
+          "line": 1709,
           "column": 4,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -37609,7 +37669,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 1706,
+                  "number": 1709,
                   "children": [
                     {
                       "kind": "span",
@@ -37625,7 +37685,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1707,
+                  "number": 1710,
                   "children": [
                     {
                       "kind": "span",
@@ -37671,7 +37731,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1708,
+                  "number": 1711,
                   "children": [
                     {
                       "kind": "span",
@@ -37711,7 +37771,7 @@ GNATdoc.Documentation = {
         {
           "label": "USBCTRL_REGS_Peripheral",
           "qualifier": "",
-          "line": 1558,
+          "line": 1561,
           "column": 9,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -37722,7 +37782,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 1558,
+                  "number": 1561,
                   "children": [
                     {
                       "kind": "span",
@@ -37743,7 +37803,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USBCTRL_REGS_Peripheral",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1558C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1561C9"
                     },
                     {
                       "kind": "span",
@@ -37769,7 +37829,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1559,
+                  "number": 1562,
                   "children": [
                     {
                       "kind": "span",
@@ -37785,7 +37845,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1560,
+                  "number": 1563,
                   "children": [
                     {
                       "kind": "span",
@@ -37796,7 +37856,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADDR_ENDP",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1560C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1563C7"
                     },
                     {
                       "kind": "span",
@@ -37838,7 +37898,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1561,
+                  "number": 1564,
                   "children": [
                     {
                       "kind": "span",
@@ -37854,7 +37914,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1562,
+                  "number": 1565,
                   "children": [
                     {
                       "kind": "span",
@@ -37865,7 +37925,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADDR_ENDP1",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1562C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1565C7"
                     },
                     {
                       "kind": "span",
@@ -37907,7 +37967,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1563,
+                  "number": 1566,
                   "children": [
                     {
                       "kind": "span",
@@ -37923,7 +37983,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1564,
+                  "number": 1567,
                   "children": [
                     {
                       "kind": "span",
@@ -37934,7 +37994,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADDR_ENDP2",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1564C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1567C7"
                     },
                     {
                       "kind": "span",
@@ -37976,7 +38036,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1565,
+                  "number": 1568,
                   "children": [
                     {
                       "kind": "span",
@@ -37992,7 +38052,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1566,
+                  "number": 1569,
                   "children": [
                     {
                       "kind": "span",
@@ -38003,7 +38063,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADDR_ENDP3",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1566C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1569C7"
                     },
                     {
                       "kind": "span",
@@ -38045,7 +38105,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1567,
+                  "number": 1570,
                   "children": [
                     {
                       "kind": "span",
@@ -38061,7 +38121,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1568,
+                  "number": 1571,
                   "children": [
                     {
                       "kind": "span",
@@ -38072,7 +38132,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADDR_ENDP4",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1568C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1571C7"
                     },
                     {
                       "kind": "span",
@@ -38114,7 +38174,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1569,
+                  "number": 1572,
                   "children": [
                     {
                       "kind": "span",
@@ -38130,7 +38190,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1570,
+                  "number": 1573,
                   "children": [
                     {
                       "kind": "span",
@@ -38141,7 +38201,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADDR_ENDP5",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1570C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1573C7"
                     },
                     {
                       "kind": "span",
@@ -38183,7 +38243,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1571,
+                  "number": 1574,
                   "children": [
                     {
                       "kind": "span",
@@ -38199,7 +38259,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1572,
+                  "number": 1575,
                   "children": [
                     {
                       "kind": "span",
@@ -38210,7 +38270,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADDR_ENDP6",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1572C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1575C7"
                     },
                     {
                       "kind": "span",
@@ -38252,7 +38312,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1573,
+                  "number": 1576,
                   "children": [
                     {
                       "kind": "span",
@@ -38268,7 +38328,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1574,
+                  "number": 1577,
                   "children": [
                     {
                       "kind": "span",
@@ -38279,7 +38339,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADDR_ENDP7",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1574C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1577C7"
                     },
                     {
                       "kind": "span",
@@ -38321,7 +38381,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1575,
+                  "number": 1578,
                   "children": [
                     {
                       "kind": "span",
@@ -38337,7 +38397,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1576,
+                  "number": 1579,
                   "children": [
                     {
                       "kind": "span",
@@ -38348,7 +38408,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADDR_ENDP8",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1576C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1579C7"
                     },
                     {
                       "kind": "span",
@@ -38390,7 +38450,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1577,
+                  "number": 1580,
                   "children": [
                     {
                       "kind": "span",
@@ -38406,7 +38466,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1578,
+                  "number": 1581,
                   "children": [
                     {
                       "kind": "span",
@@ -38417,7 +38477,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADDR_ENDP9",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1578C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1581C7"
                     },
                     {
                       "kind": "span",
@@ -38459,7 +38519,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1579,
+                  "number": 1582,
                   "children": [
                     {
                       "kind": "span",
@@ -38475,7 +38535,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1580,
+                  "number": 1583,
                   "children": [
                     {
                       "kind": "span",
@@ -38486,7 +38546,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADDR_ENDP10",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1580C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1583C7"
                     },
                     {
                       "kind": "span",
@@ -38528,7 +38588,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1581,
+                  "number": 1584,
                   "children": [
                     {
                       "kind": "span",
@@ -38544,7 +38604,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1582,
+                  "number": 1585,
                   "children": [
                     {
                       "kind": "span",
@@ -38555,7 +38615,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADDR_ENDP11",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1582C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1585C7"
                     },
                     {
                       "kind": "span",
@@ -38597,7 +38657,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1583,
+                  "number": 1586,
                   "children": [
                     {
                       "kind": "span",
@@ -38613,7 +38673,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1584,
+                  "number": 1587,
                   "children": [
                     {
                       "kind": "span",
@@ -38624,7 +38684,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADDR_ENDP12",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1584C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1587C7"
                     },
                     {
                       "kind": "span",
@@ -38666,7 +38726,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1585,
+                  "number": 1588,
                   "children": [
                     {
                       "kind": "span",
@@ -38682,7 +38742,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1586,
+                  "number": 1589,
                   "children": [
                     {
                       "kind": "span",
@@ -38693,7 +38753,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADDR_ENDP13",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1586C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1589C7"
                     },
                     {
                       "kind": "span",
@@ -38735,7 +38795,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1587,
+                  "number": 1590,
                   "children": [
                     {
                       "kind": "span",
@@ -38751,7 +38811,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1588,
+                  "number": 1591,
                   "children": [
                     {
                       "kind": "span",
@@ -38762,7 +38822,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADDR_ENDP14",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1588C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1591C7"
                     },
                     {
                       "kind": "span",
@@ -38804,7 +38864,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1589,
+                  "number": 1592,
                   "children": [
                     {
                       "kind": "span",
@@ -38820,7 +38880,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1590,
+                  "number": 1593,
                   "children": [
                     {
                       "kind": "span",
@@ -38831,7 +38891,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADDR_ENDP15",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1590C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1593C7"
                     },
                     {
                       "kind": "span",
@@ -38873,7 +38933,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1591,
+                  "number": 1594,
                   "children": [
                     {
                       "kind": "span",
@@ -38889,7 +38949,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1592,
+                  "number": 1595,
                   "children": [
                     {
                       "kind": "span",
@@ -38900,7 +38960,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "MAIN_CTRL",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1592C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1595C7"
                     },
                     {
                       "kind": "span",
@@ -38942,7 +39002,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1593,
+                  "number": 1596,
                   "children": [
                     {
                       "kind": "span",
@@ -38958,7 +39018,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1594,
+                  "number": 1597,
                   "children": [
                     {
                       "kind": "span",
@@ -38974,7 +39034,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1595,
+                  "number": 1598,
                   "children": [
                     {
                       "kind": "span",
@@ -38990,7 +39050,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1596,
+                  "number": 1599,
                   "children": [
                     {
                       "kind": "span",
@@ -39001,7 +39061,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SOF_WR",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1596C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1599C7"
                     },
                     {
                       "kind": "span",
@@ -39043,7 +39103,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1597,
+                  "number": 1600,
                   "children": [
                     {
                       "kind": "span",
@@ -39059,7 +39119,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1598,
+                  "number": 1601,
                   "children": [
                     {
                       "kind": "span",
@@ -39075,7 +39135,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1599,
+                  "number": 1602,
                   "children": [
                     {
                       "kind": "span",
@@ -39091,7 +39151,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1600,
+                  "number": 1603,
                   "children": [
                     {
                       "kind": "span",
@@ -39102,7 +39162,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SOF_RD",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1600C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1603C7"
                     },
                     {
                       "kind": "span",
@@ -39144,7 +39204,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1601,
+                  "number": 1604,
                   "children": [
                     {
                       "kind": "span",
@@ -39160,7 +39220,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1602,
+                  "number": 1605,
                   "children": [
                     {
                       "kind": "span",
@@ -39171,7 +39231,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SIE_CTRL",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1602C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1605C7"
                     },
                     {
                       "kind": "span",
@@ -39213,7 +39273,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1603,
+                  "number": 1606,
                   "children": [
                     {
                       "kind": "span",
@@ -39229,7 +39289,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1604,
+                  "number": 1607,
                   "children": [
                     {
                       "kind": "span",
@@ -39240,7 +39300,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SIE_STATUS",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1604C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1607C7"
                     },
                     {
                       "kind": "span",
@@ -39282,7 +39342,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1605,
+                  "number": 1608,
                   "children": [
                     {
                       "kind": "span",
@@ -39298,7 +39358,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1606,
+                  "number": 1609,
                   "children": [
                     {
                       "kind": "span",
@@ -39309,7 +39369,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INT_EP_CTRL",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1606C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1609C7"
                     },
                     {
                       "kind": "span",
@@ -39340,60 +39400,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INT_EP_CTRL_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L346C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L349C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1607,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Buffer status register. A bit set here indicates that a buffer has"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1608,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  completed on the endpoint (if the buffer interrupt is enabled). It is"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1609,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  possible for 2 buffers to be completed, so clearing the buffer status"
                     }
                   ]
                 },
@@ -39409,7 +39421,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  bit may instantly re set it on the next clock cycle."
+                      "text": "--  Buffer status register. A bit set here indicates that a buffer has"
                     }
                   ]
                 },
@@ -39424,9 +39436,57 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  completed on the endpoint (if the buffer interrupt is enabled). It is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1612,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  possible for 2 buffers to be completed, so clearing the buffer status"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1613,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  bit may instantly re set it on the next clock cycle."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1614,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "BUFF_STATUS",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1611C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1614C7"
                     },
                     {
                       "kind": "span",
@@ -39457,7 +39517,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BUFF_STATUS_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L367C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L370C9"
                     },
                     {
                       "kind": "span",
@@ -39468,7 +39528,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1612,
+                  "number": 1615,
                   "children": [
                     {
                       "kind": "span",
@@ -39484,7 +39544,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1613,
+                  "number": 1616,
                   "children": [
                     {
                       "kind": "span",
@@ -39500,7 +39560,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1614,
+                  "number": 1617,
                   "children": [
                     {
                       "kind": "span",
@@ -39516,7 +39576,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1615,
+                  "number": 1618,
                   "children": [
                     {
                       "kind": "span",
@@ -39527,7 +39587,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BUFF_CPU_SHOULD_HANDLE",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1615C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1618C7"
                     },
                     {
                       "kind": "span",
@@ -39558,60 +39618,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BUFF_CPU_SHOULD_HANDLE_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L506C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L509C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1616,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Device only: Can be set to ignore the buffer control register for"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1617,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  this endpoint in case you would like to revoke a buffer. A NAK will"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1618,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  be sent for every access to the endpoint until this bit is cleared. A"
                     }
                   ]
                 },
@@ -39627,7 +39639,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  corresponding bit in `EP_ABORT_DONE` is set when it is safe to modify"
+                      "text": "--  Device only: Can be set to ignore the buffer control register for"
                     }
                   ]
                 },
@@ -39643,7 +39655,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  the buffer control register."
+                      "text": "--  this endpoint in case you would like to revoke a buffer. A NAK will"
                     }
                   ]
                 },
@@ -39658,9 +39670,57 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  be sent for every access to the endpoint until this bit is cleared. A"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1622,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  corresponding bit in `EP_ABORT_DONE` is set when it is safe to modify"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1623,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  the buffer control register."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1624,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "EP_ABORT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1621C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1624C7"
                     },
                     {
                       "kind": "span",
@@ -39691,7 +39751,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "EP_ABORT_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L615C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L618C9"
                     },
                     {
                       "kind": "span",
@@ -39702,7 +39762,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1622,
+                  "number": 1625,
                   "children": [
                     {
                       "kind": "span",
@@ -39718,7 +39778,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1623,
+                  "number": 1626,
                   "children": [
                     {
                       "kind": "span",
@@ -39734,7 +39794,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1624,
+                  "number": 1627,
                   "children": [
                     {
                       "kind": "span",
@@ -39750,7 +39810,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1625,
+                  "number": 1628,
                   "children": [
                     {
                       "kind": "span",
@@ -39761,7 +39821,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "EP_ABORT_DONE",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1625C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1628C7"
                     },
                     {
                       "kind": "span",
@@ -39792,60 +39852,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "EP_ABORT_DONE_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L690C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L693C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1626,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Device: this bit must be set in conjunction with the `STALL` bit in"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1627,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  the buffer control register to send a STALL on EP0. The device"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1628,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  controller clears these bits when a SETUP packet is received because"
                     }
                   ]
                 },
@@ -39861,7 +39873,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  the USB spec requires that a STALL condition is cleared when a SETUP"
+                      "text": "--  Device: this bit must be set in conjunction with the `STALL` bit in"
                     }
                   ]
                 },
@@ -39877,7 +39889,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  packet is received."
+                      "text": "--  the buffer control register to send a STALL on EP0. The device"
                     }
                   ]
                 },
@@ -39892,9 +39904,57 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  controller clears these bits when a SETUP packet is received because"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1632,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  the USB spec requires that a STALL condition is cleared when a SETUP"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1633,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  packet is received."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1634,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "EP_STALL_ARM",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1631C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1634C7"
                     },
                     {
                       "kind": "span",
@@ -39925,7 +39985,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "EP_STALL_ARM_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L831C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L834C9"
                     },
                     {
                       "kind": "span",
@@ -39936,7 +39996,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1632,
+                  "number": 1635,
                   "children": [
                     {
                       "kind": "span",
@@ -39952,7 +40012,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1633,
+                  "number": 1636,
                   "children": [
                     {
                       "kind": "span",
@@ -39968,7 +40028,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1634,
+                  "number": 1637,
                   "children": [
                     {
                       "kind": "span",
@@ -39979,7 +40039,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "NAK_POLL",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1634C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1637C7"
                     },
                     {
                       "kind": "span",
@@ -40010,7 +40070,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "NAK_POLL_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L851C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L854C9"
                     },
                     {
                       "kind": "span",
@@ -40021,7 +40081,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1635,
+                  "number": 1638,
                   "children": [
                     {
                       "kind": "span",
@@ -40037,7 +40097,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1636,
+                  "number": 1639,
                   "children": [
                     {
                       "kind": "span",
@@ -40053,7 +40113,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1637,
+                  "number": 1640,
                   "children": [
                     {
                       "kind": "span",
@@ -40069,7 +40129,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1638,
+                  "number": 1641,
                   "children": [
                     {
                       "kind": "span",
@@ -40080,7 +40140,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "EP_STATUS_STALL_NAK",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1638C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1641C7"
                     },
                     {
                       "kind": "span",
@@ -40111,7 +40171,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "EP_STATUS_STALL_NAK_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L874C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L877C9"
                     },
                     {
                       "kind": "span",
@@ -40122,7 +40182,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1639,
+                  "number": 1642,
                   "children": [
                     {
                       "kind": "span",
@@ -40138,7 +40198,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1640,
+                  "number": 1643,
                   "children": [
                     {
                       "kind": "span",
@@ -40149,7 +40209,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USB_MUXING",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1640C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1643C7"
                     },
                     {
                       "kind": "span",
@@ -40180,7 +40240,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USB_MUXING_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1011C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1014C9"
                     },
                     {
                       "kind": "span",
@@ -40191,7 +40251,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1641,
+                  "number": 1644,
                   "children": [
                     {
                       "kind": "span",
@@ -40207,7 +40267,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1642,
+                  "number": 1645,
                   "children": [
                     {
                       "kind": "span",
@@ -40223,7 +40283,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1643,
+                  "number": 1646,
                   "children": [
                     {
                       "kind": "span",
@@ -40239,7 +40299,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1644,
+                  "number": 1647,
                   "children": [
                     {
                       "kind": "span",
@@ -40250,7 +40310,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USB_PWR",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1644C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1647C7"
                     },
                     {
                       "kind": "span",
@@ -40281,7 +40341,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USB_PWR_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1033C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1036C9"
                     },
                     {
                       "kind": "span",
@@ -40292,7 +40352,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1645,
+                  "number": 1648,
                   "children": [
                     {
                       "kind": "span",
@@ -40308,7 +40368,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1646,
+                  "number": 1649,
                   "children": [
                     {
                       "kind": "span",
@@ -40324,7 +40384,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1647,
+                  "number": 1650,
                   "children": [
                     {
                       "kind": "span",
@@ -40340,7 +40400,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1648,
+                  "number": 1651,
                   "children": [
                     {
                       "kind": "span",
@@ -40351,7 +40411,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USBPHY_DIRECT",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1648C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1651C7"
                     },
                     {
                       "kind": "span",
@@ -40382,7 +40442,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USBPHY_DIRECT_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1059C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1062C9"
                     },
                     {
                       "kind": "span",
@@ -40393,7 +40453,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1649,
+                  "number": 1652,
                   "children": [
                     {
                       "kind": "span",
@@ -40409,7 +40469,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1650,
+                  "number": 1653,
                   "children": [
                     {
                       "kind": "span",
@@ -40420,7 +40480,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USBPHY_DIRECT_OVERRIDE",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1650C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1653C7"
                     },
                     {
                       "kind": "span",
@@ -40451,7 +40511,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USBPHY_DIRECT_OVERRIDE_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1149C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1152C9"
                     },
                     {
                       "kind": "span",
@@ -40462,7 +40522,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1651,
+                  "number": 1654,
                   "children": [
                     {
                       "kind": "span",
@@ -40478,7 +40538,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1652,
+                  "number": 1655,
                   "children": [
                     {
                       "kind": "span",
@@ -40489,7 +40549,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USBPHY_TRIM",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1652C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1655C7"
                     },
                     {
                       "kind": "span",
@@ -40520,7 +40580,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USBPHY_TRIM_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1195C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1198C9"
                     },
                     {
                       "kind": "span",
@@ -40531,7 +40591,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1653,
+                  "number": 1656,
                   "children": [
                     {
                       "kind": "span",
@@ -40547,7 +40607,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1654,
+                  "number": 1657,
                   "children": [
                     {
                       "kind": "span",
@@ -40558,7 +40618,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTR",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1654C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1657C7"
                     },
                     {
                       "kind": "span",
@@ -40589,7 +40649,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTR_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1220C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1223C9"
                     },
                     {
                       "kind": "span",
@@ -40600,7 +40660,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1655,
+                  "number": 1658,
                   "children": [
                     {
                       "kind": "span",
@@ -40616,7 +40676,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1656,
+                  "number": 1659,
                   "children": [
                     {
                       "kind": "span",
@@ -40627,7 +40687,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTE",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1656C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1659C7"
                     },
                     {
                       "kind": "span",
@@ -40658,7 +40718,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTE_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1304C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1307C9"
                     },
                     {
                       "kind": "span",
@@ -40669,7 +40729,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1657,
+                  "number": 1660,
                   "children": [
                     {
                       "kind": "span",
@@ -40685,7 +40745,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1658,
+                  "number": 1661,
                   "children": [
                     {
                       "kind": "span",
@@ -40696,7 +40756,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTF",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1658C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1661C7"
                     },
                     {
                       "kind": "span",
@@ -40727,7 +40787,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTF_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1387C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1390C9"
                     },
                     {
                       "kind": "span",
@@ -40738,7 +40798,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1659,
+                  "number": 1662,
                   "children": [
                     {
                       "kind": "span",
@@ -40754,7 +40814,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1660,
+                  "number": 1663,
                   "children": [
                     {
                       "kind": "span",
@@ -40765,7 +40825,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTS",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1660C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1663C7"
                     },
                     {
                       "kind": "span",
@@ -40796,7 +40856,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTS_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1470C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1473C9"
                     },
                     {
                       "kind": "span",
@@ -40807,7 +40867,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1661,
+                  "number": 1664,
                   "children": [
                     {
                       "kind": "span",
@@ -40833,7 +40893,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1662,
+                  "number": 1665,
                   "children": [
                     {
                       "kind": "span",
@@ -40872,7 +40932,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "ADDR_ENDP",
-              "line": 1560,
+              "line": 1563,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.ADDR_ENDP_Register",
@@ -40892,7 +40952,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADDR_ENDP1",
-              "line": 1562,
+              "line": 1565,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.ADDR_ENDP_Register_1",
@@ -40912,7 +40972,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADDR_ENDP2",
-              "line": 1564,
+              "line": 1567,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.ADDR_ENDP_Register_1",
@@ -40932,7 +40992,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADDR_ENDP3",
-              "line": 1566,
+              "line": 1569,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.ADDR_ENDP_Register_1",
@@ -40952,7 +41012,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADDR_ENDP4",
-              "line": 1568,
+              "line": 1571,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.ADDR_ENDP_Register_1",
@@ -40972,7 +41032,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADDR_ENDP5",
-              "line": 1570,
+              "line": 1573,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.ADDR_ENDP_Register_1",
@@ -40992,7 +41052,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADDR_ENDP6",
-              "line": 1572,
+              "line": 1575,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.ADDR_ENDP_Register_1",
@@ -41012,7 +41072,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADDR_ENDP7",
-              "line": 1574,
+              "line": 1577,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.ADDR_ENDP_Register_1",
@@ -41032,7 +41092,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADDR_ENDP8",
-              "line": 1576,
+              "line": 1579,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.ADDR_ENDP_Register_1",
@@ -41052,7 +41112,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADDR_ENDP9",
-              "line": 1578,
+              "line": 1581,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.ADDR_ENDP_Register_1",
@@ -41072,7 +41132,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADDR_ENDP10",
-              "line": 1580,
+              "line": 1583,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.ADDR_ENDP_Register_1",
@@ -41092,7 +41152,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADDR_ENDP11",
-              "line": 1582,
+              "line": 1585,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.ADDR_ENDP_Register_1",
@@ -41112,7 +41172,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADDR_ENDP12",
-              "line": 1584,
+              "line": 1587,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.ADDR_ENDP_Register_1",
@@ -41132,7 +41192,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADDR_ENDP13",
-              "line": 1586,
+              "line": 1589,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.ADDR_ENDP_Register_1",
@@ -41152,7 +41212,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADDR_ENDP14",
-              "line": 1588,
+              "line": 1591,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.ADDR_ENDP_Register_1",
@@ -41172,7 +41232,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADDR_ENDP15",
-              "line": 1590,
+              "line": 1593,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.ADDR_ENDP_Register_1",
@@ -41192,7 +41252,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "MAIN_CTRL",
-              "line": 1592,
+              "line": 1595,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.MAIN_CTRL_Register",
@@ -41220,7 +41280,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SOF_WR",
-              "line": 1596,
+              "line": 1599,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.SOF_WR_Register",
@@ -41248,7 +41308,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SOF_RD",
-              "line": 1600,
+              "line": 1603,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.SOF_RD_Register",
@@ -41268,7 +41328,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SIE_CTRL",
-              "line": 1602,
+              "line": 1605,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.SIE_CTRL_Register",
@@ -41288,7 +41348,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SIE_STATUS",
-              "line": 1604,
+              "line": 1607,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.SIE_STATUS_Register",
@@ -41308,11 +41368,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INT_EP_CTRL",
-              "line": 1606,
+              "line": 1609,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.INT_EP_CTRL_Register",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L346C9"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L349C9"
               },
               "description": [
                 {
@@ -41340,11 +41400,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "BUFF_STATUS",
-              "line": 1611,
+              "line": 1614,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.BUFF_STATUS_Register",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L367C9"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L370C9"
               },
               "description": [
                 {
@@ -41368,11 +41428,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "BUFF_CPU_SHOULD_HANDLE",
-              "line": 1615,
+              "line": 1618,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.BUFF_CPU_SHOULD_HANDLE_Register",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L506C9"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L509C9"
               },
               "description": [
                 {
@@ -41404,11 +41464,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP_ABORT",
-              "line": 1621,
+              "line": 1624,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.EP_ABORT_Register",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L615C9"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L618C9"
               },
               "description": [
                 {
@@ -41432,11 +41492,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP_ABORT_DONE",
-              "line": 1625,
+              "line": 1628,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.EP_ABORT_DONE_Register",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L690C9"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L693C9"
               },
               "description": [
                 {
@@ -41468,11 +41528,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP_STALL_ARM",
-              "line": 1631,
+              "line": 1634,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.EP_STALL_ARM_Register",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L831C9"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L834C9"
               },
               "description": [
                 {
@@ -41492,11 +41552,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "NAK_POLL",
-              "line": 1634,
+              "line": 1637,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.NAK_POLL_Register",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L851C9"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L854C9"
               },
               "description": [
                 {
@@ -41520,11 +41580,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EP_STATUS_STALL_NAK",
-              "line": 1638,
+              "line": 1641,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.EP_STATUS_STALL_NAK_Register",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L874C9"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L877C9"
               },
               "description": [
                 {
@@ -41540,11 +41600,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "USB_MUXING",
-              "line": 1640,
+              "line": 1643,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.USB_MUXING_Register",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1011C9"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1014C9"
               },
               "description": [
                 {
@@ -41568,11 +41628,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "USB_PWR",
-              "line": 1644,
+              "line": 1647,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.USB_PWR_Register",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1033C9"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1036C9"
               },
               "description": [
                 {
@@ -41596,11 +41656,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "USBPHY_DIRECT",
-              "line": 1648,
+              "line": 1651,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.USBPHY_DIRECT_Register",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1059C9"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1062C9"
               },
               "description": [
                 {
@@ -41616,11 +41676,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "USBPHY_DIRECT_OVERRIDE",
-              "line": 1650,
+              "line": 1653,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.USBPHY_DIRECT_OVERRIDE_Register",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1149C9"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1152C9"
               },
               "description": [
                 {
@@ -41636,11 +41696,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "USBPHY_TRIM",
-              "line": 1652,
+              "line": 1655,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.USBPHY_TRIM_Register",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1195C9"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1198C9"
               },
               "description": [
                 {
@@ -41656,11 +41716,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTR",
-              "line": 1654,
+              "line": 1657,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.INTR_Register",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1220C9"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1223C9"
               },
               "description": [
                 {
@@ -41676,11 +41736,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTE",
-              "line": 1656,
+              "line": 1659,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.INTE_Register",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1304C9"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1307C9"
               },
               "description": [
                 {
@@ -41696,11 +41756,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTF",
-              "line": 1658,
+              "line": 1661,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.INTF_Register",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1387C9"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1390C9"
               },
               "description": [
                 {
@@ -41716,11 +41776,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTS",
-              "line": 1660,
+              "line": 1663,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.INTS_Register",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1470C9"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1473C9"
               },
               "description": [
               ]
@@ -41730,7 +41790,7 @@ GNATdoc.Documentation = {
         {
           "label": "USBPHY_DIRECT_OVERRIDE_Register",
           "qualifier": "",
-          "line": 1149,
+          "line": 1152,
           "column": 9,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -41741,7 +41801,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 1149,
+                  "number": 1152,
                   "children": [
                     {
                       "kind": "span",
@@ -41762,7 +41822,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USBPHY_DIRECT_OVERRIDE_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1149C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1152C9"
                     },
                     {
                       "kind": "span",
@@ -41788,192 +41848,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1150,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DP_PULLUP_HISEL_OVERRIDE_EN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1150C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1151,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DM_PULLUP_HISEL_OVERRIDE_EN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1151C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1152,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DP_PULLUP_EN_OVERRIDE_EN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1152C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 1153,
                   "children": [
                     {
@@ -41984,13 +41858,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DP_PULLDN_EN_OVERRIDE_EN",
+                      "text": "DP_PULLUP_HISEL_OVERRIDE_EN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1153C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "    "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -42046,13 +41920,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DM_PULLDN_EN_OVERRIDE_EN",
+                      "text": "DM_PULLUP_HISEL_OVERRIDE_EN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1154C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "    "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -42108,13 +41982,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "TX_DP_OE_OVERRIDE_EN",
+                      "text": "DP_PULLUP_EN_OVERRIDE_EN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1155C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "        "
+                      "text": "    "
                     },
                     {
                       "kind": "span",
@@ -42170,13 +42044,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "TX_DM_OE_OVERRIDE_EN",
+                      "text": "DP_PULLDN_EN_OVERRIDE_EN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1156C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "        "
+                      "text": "    "
                     },
                     {
                       "kind": "span",
@@ -42232,13 +42106,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "TX_DP_OVERRIDE_EN",
+                      "text": "DM_PULLDN_EN_OVERRIDE_EN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1157C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "           "
+                      "text": "    "
                     },
                     {
                       "kind": "span",
@@ -42294,13 +42168,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "TX_DM_OVERRIDE_EN",
+                      "text": "TX_DP_OE_OVERRIDE_EN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1158C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "           "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -42356,13 +42230,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "RX_PD_OVERRIDE_EN",
+                      "text": "TX_DM_OE_OVERRIDE_EN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1159C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "           "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -42418,7 +42292,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "TX_PD_OVERRIDE_EN",
+                      "text": "TX_DP_OVERRIDE_EN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1160C7"
                     },
                     {
@@ -42480,13 +42354,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "TX_FSSLEW_OVERRIDE_EN",
+                      "text": "TX_DM_OVERRIDE_EN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1161C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "       "
+                      "text": "           "
                     },
                     {
                       "kind": "span",
@@ -42542,13 +42416,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DM_PULLUP_OVERRIDE_EN",
+                      "text": "RX_PD_OVERRIDE_EN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1162C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "       "
+                      "text": "           "
                     },
                     {
                       "kind": "span",
@@ -42603,30 +42477,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  unspecified"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1164,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reserved_13_14",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1164C7"
+                      "text": "TX_PD_OVERRIDE_EN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1163C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "              "
+                      "text": "           "
                     },
                     {
                       "kind": "span",
@@ -42641,8 +42499,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HAL.UInt2",
-                      "href": "docs/hal___spec.html#L39C9"
+                      "text": "Boolean"
                     },
                     {
                       "kind": "span",
@@ -42661,23 +42518,70 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "number",
-                      "text": "16"
+                      "cssClass": "identifier",
+                      "text": "False"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "#"
-                    },
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1164,
+                  "children": [
                     {
                       "kind": "span",
-                      "cssClass": "number",
-                      "text": "0"
+                      "cssClass": "text",
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "#"
+                      "text": "TX_FSSLEW_OVERRIDE_EN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1164C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
                     },
                     {
                       "kind": "span",
@@ -42698,13 +42602,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "TX_DIFFMODE_OVERRIDE_EN",
+                      "text": "DM_PULLUP_OVERRIDE_EN",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1165C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "     "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -42776,8 +42680,164 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reserved_16_31",
+                      "text": "Reserved_13_14",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1167C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "              "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt2",
+                      "href": "docs/hal___spec.html#L39C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1168,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "TX_DIFFMODE_OVERRIDE_EN",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1168C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1169,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  unspecified"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1170,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Reserved_16_31",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1170C7"
                     },
                     {
                       "kind": "span",
@@ -42844,7 +42904,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1168,
+                  "number": 1171,
                   "children": [
                     {
                       "kind": "span",
@@ -42870,7 +42930,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1169,
+                  "number": 1172,
                   "children": [
                     {
                       "kind": "span",
@@ -42891,7 +42951,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1170,
+                  "number": 1173,
                   "children": [
                     {
                       "kind": "span",
@@ -42920,36 +42980,6 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "DP_PULLUP_HISEL_OVERRIDE_EN",
-              "line": 1150,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "DM_PULLUP_HISEL_OVERRIDE_EN",
-              "line": 1151,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "DP_PULLUP_EN_OVERRIDE_EN",
-              "line": 1152,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "DP_PULLDN_EN_OVERRIDE_EN",
               "line": 1153,
               "column": 7,
               "type": {
@@ -42959,7 +42989,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "DM_PULLDN_EN_OVERRIDE_EN",
+              "label": "DM_PULLUP_HISEL_OVERRIDE_EN",
               "line": 1154,
               "column": 7,
               "type": {
@@ -42969,7 +42999,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "TX_DP_OE_OVERRIDE_EN",
+              "label": "DP_PULLUP_EN_OVERRIDE_EN",
               "line": 1155,
               "column": 7,
               "type": {
@@ -42979,7 +43009,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "TX_DM_OE_OVERRIDE_EN",
+              "label": "DP_PULLDN_EN_OVERRIDE_EN",
               "line": 1156,
               "column": 7,
               "type": {
@@ -42989,7 +43019,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "TX_DP_OVERRIDE_EN",
+              "label": "DM_PULLDN_EN_OVERRIDE_EN",
               "line": 1157,
               "column": 7,
               "type": {
@@ -42999,7 +43029,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "TX_DM_OVERRIDE_EN",
+              "label": "TX_DP_OE_OVERRIDE_EN",
               "line": 1158,
               "column": 7,
               "type": {
@@ -43009,7 +43039,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "RX_PD_OVERRIDE_EN",
+              "label": "TX_DM_OE_OVERRIDE_EN",
               "line": 1159,
               "column": 7,
               "type": {
@@ -43019,7 +43049,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "TX_PD_OVERRIDE_EN",
+              "label": "TX_DP_OVERRIDE_EN",
               "line": 1160,
               "column": 7,
               "type": {
@@ -43029,7 +43059,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "TX_FSSLEW_OVERRIDE_EN",
+              "label": "TX_DM_OVERRIDE_EN",
               "line": 1161,
               "column": 7,
               "type": {
@@ -43039,37 +43069,37 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "DM_PULLUP_OVERRIDE_EN",
+              "label": "RX_PD_OVERRIDE_EN",
               "line": 1162,
               "column": 7,
               "type": {
                 "label": "Boolean"
               },
               "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "unspecified\n"
-                    }
-                  ]
-                }
               ]
             },
             {
-              "label": "Reserved_13_14",
-              "line": 1164,
+              "label": "TX_PD_OVERRIDE_EN",
+              "line": 1163,
               "column": 7,
               "type": {
-                "label": "HAL.UInt2",
-                "docHref": "docs/hal___spec.html#L39C9"
+                "label": "Boolean"
               },
               "description": [
               ]
             },
             {
-              "label": "TX_DIFFMODE_OVERRIDE_EN",
+              "label": "TX_FSSLEW_OVERRIDE_EN",
+              "line": 1164,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "DM_PULLUP_OVERRIDE_EN",
               "line": 1165,
               "column": 7,
               "type": {
@@ -43088,8 +43118,38 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Reserved_16_31",
+              "label": "Reserved_13_14",
               "line": 1167,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt2",
+                "docHref": "docs/hal___spec.html#L39C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "TX_DIFFMODE_OVERRIDE_EN",
+              "line": 1168,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "unspecified\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Reserved_16_31",
+              "line": 1170,
               "column": 7,
               "type": {
                 "label": "HAL.UInt16",
@@ -43103,7 +43163,7 @@ GNATdoc.Documentation = {
         {
           "label": "USBPHY_DIRECT_Register",
           "qualifier": "",
-          "line": 1059,
+          "line": 1062,
           "column": 9,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -43114,7 +43174,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 1059,
+                  "number": 1062,
                   "children": [
                     {
                       "kind": "span",
@@ -43135,7 +43195,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USBPHY_DIRECT_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1059C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1062C9"
                     },
                     {
                       "kind": "span",
@@ -43161,7 +43221,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1060,
+                  "number": 1063,
                   "children": [
                     {
                       "kind": "span",
@@ -43177,7 +43237,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1061,
+                  "number": 1064,
                   "children": [
                     {
                       "kind": "span",
@@ -43193,7 +43253,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1062,
+                  "number": 1065,
                   "children": [
                     {
                       "kind": "span",
@@ -43204,7 +43264,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DP_PULLUP_HISEL",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1062C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1065C7"
                     },
                     {
                       "kind": "span",
@@ -43255,7 +43315,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1063,
+                  "number": 1066,
                   "children": [
                     {
                       "kind": "span",
@@ -43271,7 +43331,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1064,
+                  "number": 1067,
                   "children": [
                     {
                       "kind": "span",
@@ -43282,7 +43342,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DP_PULLUP_EN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1064C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1067C7"
                     },
                     {
                       "kind": "span",
@@ -43333,7 +43393,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1065,
+                  "number": 1068,
                   "children": [
                     {
                       "kind": "span",
@@ -43349,7 +43409,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1066,
+                  "number": 1069,
                   "children": [
                     {
                       "kind": "span",
@@ -43360,7 +43420,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DP_PULLDN_EN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1066C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1069C7"
                     },
                     {
                       "kind": "span",
@@ -43411,7 +43471,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1067,
+                  "number": 1070,
                   "children": [
                     {
                       "kind": "span",
@@ -43427,7 +43487,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1068,
+                  "number": 1071,
                   "children": [
                     {
                       "kind": "span",
@@ -43438,7 +43498,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_3_3",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1068C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1071C7"
                     },
                     {
                       "kind": "span",
@@ -43495,100 +43555,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "#"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1069,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Enable the second DM pull up resistor. 0 - Pull = Rpu2; 1 - Pull ="
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1070,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Rpu1 + Rpu2"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1071,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DM_PULLUP_HISEL",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1071C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
                     },
                     {
                       "kind": "span",
@@ -43609,7 +43575,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  DM pull up enable"
+                      "text": "--  Enable the second DM pull up resistor. 0 - Pull = Rpu2; 1 - Pull ="
                     }
                   ]
                 },
@@ -43624,9 +43590,103 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Rpu1 + Rpu2"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1074,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DM_PULLUP_HISEL",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1074C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1075,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  DM pull up enable"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1076,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "DM_PULLUP_EN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1073C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1076C7"
                     },
                     {
                       "kind": "span",
@@ -43677,7 +43737,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1074,
+                  "number": 1077,
                   "children": [
                     {
                       "kind": "span",
@@ -43693,7 +43753,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1075,
+                  "number": 1078,
                   "children": [
                     {
                       "kind": "span",
@@ -43704,7 +43764,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DM_PULLDN_EN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1075C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1078C7"
                     },
                     {
                       "kind": "span",
@@ -43755,7 +43815,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1076,
+                  "number": 1079,
                   "children": [
                     {
                       "kind": "span",
@@ -43771,7 +43831,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1077,
+                  "number": 1080,
                   "children": [
                     {
                       "kind": "span",
@@ -43782,7 +43842,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_7_7",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1077C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1080C7"
                     },
                     {
                       "kind": "span",
@@ -43849,7 +43909,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1078,
+                  "number": 1081,
                   "children": [
                     {
                       "kind": "span",
@@ -43865,7 +43925,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1079,
+                  "number": 1082,
                   "children": [
                     {
                       "kind": "span",
@@ -43881,7 +43941,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1080,
+                  "number": 1083,
                   "children": [
                     {
                       "kind": "span",
@@ -43897,100 +43957,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1081,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "TX_DP_OE",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1081C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "        "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1082,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Output enable. If TX_DIFFMODE=1, Ignored.\\n If TX_DIFFMODE=0, OE for"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1083,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  DPM only. 0 - DPM in Hi-Z state; 1 - DPM driving"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 1084,
                   "children": [
                     {
@@ -44001,7 +43967,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "TX_DM_OE",
+                      "text": "TX_DP_OE",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1084C7"
                     },
                     {
@@ -44063,7 +44029,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Output data. If TX_DIFFMODE=1, Drives DPP/DPM diff pair. TX_DP_OE=1"
+                      "text": "--  Output enable. If TX_DIFFMODE=1, Ignored.\\n If TX_DIFFMODE=0, OE for"
                     }
                   ]
                 },
@@ -44079,7 +44045,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  to enable drive. DPP=TX_DP, DPM=~TX_DP\\n If TX_DIFFMODE=0, Drives DPP"
+                      "text": "--  DPM only. 0 - DPM in Hi-Z state; 1 - DPM driving"
                     }
                   ]
                 },
@@ -44094,30 +44060,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  only. TX_DP_OE=1 to enable drive. DPP=TX_DP"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1088,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "TX_DP",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1088C7"
+                      "text": "TX_DM_OE",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1087C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "           "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -44163,6 +44113,22 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
+                  "number": 1088,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Output data. If TX_DIFFMODE=1, Drives DPP/DPM diff pair. TX_DP_OE=1"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
                   "number": 1089,
                   "children": [
                     {
@@ -44173,7 +44139,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Output data. TX_DIFFMODE=1, Ignored\\n TX_DIFFMODE=0, Drives DPM only."
+                      "text": "--  to enable drive. DPP=TX_DP, DPM=~TX_DP\\n If TX_DIFFMODE=0, Drives DPP"
                     }
                   ]
                 },
@@ -44189,7 +44155,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  TX_DM_OE=1 to enable drive. DPM=TX_DM"
+                      "text": "--  only. TX_DP_OE=1 to enable drive. DPP=TX_DP"
                     }
                   ]
                 },
@@ -44205,7 +44171,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "TX_DM",
+                      "text": "TX_DP",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1091C7"
                     },
                     {
@@ -44267,7 +44233,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  RX power down override (if override enable is set). 1 = powered down."
+                      "text": "--  Output data. TX_DIFFMODE=1, Ignored\\n TX_DIFFMODE=0, Drives DPM only."
                     }
                   ]
                 },
@@ -44282,9 +44248,25 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  TX_DM_OE=1 to enable drive. DPM=TX_DM"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1094,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "RX_PD",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1093C7"
+                      "text": "TX_DM",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1094C7"
                     },
                     {
                       "kind": "span",
@@ -44335,7 +44317,85 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1094,
+                  "number": 1095,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  RX power down override (if override enable is set). 1 = powered down."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1096,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "RX_PD",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1096C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "           "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1097,
                   "children": [
                     {
                       "kind": "span",
@@ -44351,7 +44411,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1095,
+                  "number": 1098,
                   "children": [
                     {
                       "kind": "span",
@@ -44362,7 +44422,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "TX_PD",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1095C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1098C7"
                     },
                     {
                       "kind": "span",
@@ -44413,7 +44473,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1096,
+                  "number": 1099,
                   "children": [
                     {
                       "kind": "span",
@@ -44429,100 +44489,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1097,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "TX_FSSLEW",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1097C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1098,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  TX_DIFFMODE=0: Single ended mode\\n TX_DIFFMODE=1: Differential drive"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1099,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  mode (TX_DM, TX_DM_OE ignored)"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 1100,
                   "children": [
                     {
@@ -44533,13 +44499,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "TX_DIFFMODE",
+                      "text": "TX_FSSLEW",
                       "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1100C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "     "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -44595,7 +44561,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read-only. Differential RX"
+                      "text": "--  TX_DIFFMODE=0: Single ended mode\\n TX_DIFFMODE=1: Differential drive"
                     }
                   ]
                 },
@@ -44610,9 +44576,103 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  mode (TX_DM, TX_DM_OE ignored)"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1103,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "TX_DIFFMODE",
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1103C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1104,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Read-only. Differential RX"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1105,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "RX_DD",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1102C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1105C7"
                     },
                     {
                       "kind": "span",
@@ -44663,7 +44723,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1103,
+                  "number": 1106,
                   "children": [
                     {
                       "kind": "span",
@@ -44679,7 +44739,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1104,
+                  "number": 1107,
                   "children": [
                     {
                       "kind": "span",
@@ -44690,7 +44750,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RX_DP",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1104C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1107C7"
                     },
                     {
                       "kind": "span",
@@ -44741,7 +44801,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1105,
+                  "number": 1108,
                   "children": [
                     {
                       "kind": "span",
@@ -44757,7 +44817,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1106,
+                  "number": 1109,
                   "children": [
                     {
                       "kind": "span",
@@ -44768,7 +44828,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RX_DM",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1106C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1109C7"
                     },
                     {
                       "kind": "span",
@@ -44819,7 +44879,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1107,
+                  "number": 1110,
                   "children": [
                     {
                       "kind": "span",
@@ -44835,7 +44895,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1108,
+                  "number": 1111,
                   "children": [
                     {
                       "kind": "span",
@@ -44846,7 +44906,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DP_OVCN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1108C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1111C7"
                     },
                     {
                       "kind": "span",
@@ -44897,7 +44957,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1109,
+                  "number": 1112,
                   "children": [
                     {
                       "kind": "span",
@@ -44913,7 +44973,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1110,
+                  "number": 1113,
                   "children": [
                     {
                       "kind": "span",
@@ -44924,7 +44984,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DM_OVCN",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1110C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1113C7"
                     },
                     {
                       "kind": "span",
@@ -44975,7 +45035,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1111,
+                  "number": 1114,
                   "children": [
                     {
                       "kind": "span",
@@ -44991,7 +45051,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1112,
+                  "number": 1115,
                   "children": [
                     {
                       "kind": "span",
@@ -45002,7 +45062,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DP_OVV",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1112C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1115C7"
                     },
                     {
                       "kind": "span",
@@ -45053,7 +45113,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1113,
+                  "number": 1116,
                   "children": [
                     {
                       "kind": "span",
@@ -45069,7 +45129,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1114,
+                  "number": 1117,
                   "children": [
                     {
                       "kind": "span",
@@ -45080,7 +45140,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DM_OVV",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1114C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1117C7"
                     },
                     {
                       "kind": "span",
@@ -45131,7 +45191,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1115,
+                  "number": 1118,
                   "children": [
                     {
                       "kind": "span",
@@ -45147,7 +45207,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1116,
+                  "number": 1119,
                   "children": [
                     {
                       "kind": "span",
@@ -45158,7 +45218,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_23_31",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1116C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1119C7"
                     },
                     {
                       "kind": "span",
@@ -45225,7 +45285,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1117,
+                  "number": 1120,
                   "children": [
                     {
                       "kind": "span",
@@ -45251,7 +45311,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1118,
+                  "number": 1121,
                   "children": [
                     {
                       "kind": "span",
@@ -45272,7 +45332,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1119,
+                  "number": 1122,
                   "children": [
                     {
                       "kind": "span",
@@ -45309,7 +45369,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "DP_PULLUP_HISEL",
-              "line": 1062,
+              "line": 1065,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45328,7 +45388,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DP_PULLUP_EN",
-              "line": 1064,
+              "line": 1067,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45347,7 +45407,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DP_PULLDN_EN",
-              "line": 1066,
+              "line": 1069,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45366,7 +45426,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_3_3",
-              "line": 1068,
+              "line": 1071,
               "column": 7,
               "type": {
                 "label": "HAL.Bit",
@@ -45390,7 +45450,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DM_PULLUP_HISEL",
-              "line": 1071,
+              "line": 1074,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45409,7 +45469,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DM_PULLUP_EN",
-              "line": 1073,
+              "line": 1076,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45428,7 +45488,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DM_PULLDN_EN",
-              "line": 1075,
+              "line": 1078,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45447,7 +45507,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_7_7",
-              "line": 1077,
+              "line": 1080,
               "column": 7,
               "type": {
                 "label": "HAL.Bit",
@@ -45475,7 +45535,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "TX_DP_OE",
-              "line": 1081,
+              "line": 1084,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45498,7 +45558,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "TX_DM_OE",
-              "line": 1084,
+              "line": 1087,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45525,7 +45585,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "TX_DP",
-              "line": 1088,
+              "line": 1091,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45548,7 +45608,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "TX_DM",
-              "line": 1091,
+              "line": 1094,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45567,7 +45627,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "RX_PD",
-              "line": 1093,
+              "line": 1096,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45586,7 +45646,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "TX_PD",
-              "line": 1095,
+              "line": 1098,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45605,7 +45665,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "TX_FSSLEW",
-              "line": 1097,
+              "line": 1100,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45628,7 +45688,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "TX_DIFFMODE",
-              "line": 1100,
+              "line": 1103,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45647,7 +45707,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "RX_DD",
-              "line": 1102,
+              "line": 1105,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45666,7 +45726,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "RX_DP",
-              "line": 1104,
+              "line": 1107,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45685,7 +45745,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "RX_DM",
-              "line": 1106,
+              "line": 1109,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45704,7 +45764,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DP_OVCN",
-              "line": 1108,
+              "line": 1111,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45723,7 +45783,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DM_OVCN",
-              "line": 1110,
+              "line": 1113,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45742,7 +45802,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DP_OVV",
-              "line": 1112,
+              "line": 1115,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45761,7 +45821,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DM_OVV",
-              "line": 1114,
+              "line": 1117,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -45780,7 +45840,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_23_31",
-              "line": 1116,
+              "line": 1119,
               "column": 7,
               "type": {
                 "label": "HAL.UInt9",
@@ -45794,7 +45854,7 @@ GNATdoc.Documentation = {
         {
           "label": "USBPHY_TRIM_Register",
           "qualifier": "",
-          "line": 1195,
+          "line": 1198,
           "column": 9,
           "src": "srcs/rp2040_svd-usbctrl_regs.ads.html",
           "summary": [
@@ -45805,7 +45865,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 1195,
+                  "number": 1198,
                   "children": [
                     {
                       "kind": "span",
@@ -45826,7 +45886,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USBPHY_TRIM_Register",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1195C9"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1198C9"
                     },
                     {
                       "kind": "span",
@@ -45852,7 +45912,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1196,
+                  "number": 1199,
                   "children": [
                     {
                       "kind": "span",
@@ -45868,7 +45928,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1197,
+                  "number": 1200,
                   "children": [
                     {
                       "kind": "span",
@@ -45884,7 +45944,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1198,
+                  "number": 1201,
                   "children": [
                     {
                       "kind": "span",
@@ -45900,7 +45960,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1199,
+                  "number": 1202,
                   "children": [
                     {
                       "kind": "span",
@@ -45911,7 +45971,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DP_PULLDN_TRIM",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1199C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1202C7"
                     },
                     {
                       "kind": "span",
@@ -45932,7 +45992,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USBPHY_TRIM_DP_PULLDN_TRIM_Field",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1191C12"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1194C12"
                     },
                     {
                       "kind": "span",
@@ -45978,7 +46038,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1200,
+                  "number": 1203,
                   "children": [
                     {
                       "kind": "span",
@@ -45994,7 +46054,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1201,
+                  "number": 1204,
                   "children": [
                     {
                       "kind": "span",
@@ -46005,7 +46065,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_5_7",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1201C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1204C7"
                     },
                     {
                       "kind": "span",
@@ -46072,7 +46132,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1202,
+                  "number": 1205,
                   "children": [
                     {
                       "kind": "span",
@@ -46088,7 +46148,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1203,
+                  "number": 1206,
                   "children": [
                     {
                       "kind": "span",
@@ -46104,7 +46164,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1204,
+                  "number": 1207,
                   "children": [
                     {
                       "kind": "span",
@@ -46120,7 +46180,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1205,
+                  "number": 1208,
                   "children": [
                     {
                       "kind": "span",
@@ -46131,7 +46191,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DM_PULLDN_TRIM",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1205C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1208C7"
                     },
                     {
                       "kind": "span",
@@ -46152,7 +46212,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USBPHY_TRIM_DM_PULLDN_TRIM_Field",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1192C12"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1195C12"
                     },
                     {
                       "kind": "span",
@@ -46198,7 +46258,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1206,
+                  "number": 1209,
                   "children": [
                     {
                       "kind": "span",
@@ -46214,7 +46274,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1207,
+                  "number": 1210,
                   "children": [
                     {
                       "kind": "span",
@@ -46225,7 +46285,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_13_31",
-                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1207C7"
+                      "href": "docs/rp2040_svd__usbctrl_regs___spec.html#L1210C7"
                     },
                     {
                       "kind": "span",
@@ -46292,7 +46352,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1208,
+                  "number": 1211,
                   "children": [
                     {
                       "kind": "span",
@@ -46318,7 +46378,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1209,
+                  "number": 1212,
                   "children": [
                     {
                       "kind": "span",
@@ -46339,7 +46399,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1210,
+                  "number": 1213,
                   "children": [
                     {
                       "kind": "span",
@@ -46368,11 +46428,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "DP_PULLDN_TRIM",
-              "line": 1199,
+              "line": 1202,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.USBPHY_TRIM_DP_PULLDN_TRIM_Field",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1191C12"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1194C12"
               },
               "description": [
                 {
@@ -46388,7 +46448,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_5_7",
-              "line": 1201,
+              "line": 1204,
               "column": 7,
               "type": {
                 "label": "HAL.UInt3",
@@ -46416,11 +46476,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DM_PULLDN_TRIM",
-              "line": 1205,
+              "line": 1208,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.USBCTRL_REGS.USBPHY_TRIM_DM_PULLDN_TRIM_Field",
-                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1192C12"
+                "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1195C12"
               },
               "description": [
                 {
@@ -46436,7 +46496,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_13_31",
-              "line": 1207,
+              "line": 1210,
               "column": 7,
               "type": {
                 "label": "HAL.UInt19",

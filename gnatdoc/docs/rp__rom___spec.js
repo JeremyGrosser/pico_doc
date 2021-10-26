@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "copyright_string",
           "qualifier": "",
-          "line": 155,
+          "line": 152,
           "column": 4,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 155,
+                  "number": 152,
                   "children": [
                     {
                       "kind": "span",
@@ -63,7 +63,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 156,
+                  "number": 153,
                   "children": [
                     {
                       "kind": "span",
@@ -84,7 +84,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 157,
+                  "number": 154,
                   "children": [
                     {
                       "kind": "span",
@@ -118,7 +118,7 @@ GNATdoc.Documentation = {
         {
           "label": "git_revision",
           "qualifier": "",
-          "line": 159,
+          "line": 156,
           "column": 4,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -129,7 +129,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 159,
+                  "number": 156,
                   "children": [
                     {
                       "kind": "span",
@@ -170,7 +170,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 160,
+                  "number": 157,
                   "children": [
                     {
                       "kind": "span",
@@ -191,7 +191,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 161,
+                  "number": 158,
                   "children": [
                     {
                       "kind": "span",

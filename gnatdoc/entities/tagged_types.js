@@ -2,11 +2,11 @@ GNATdoc.EntitiesCategory = {
   "label": "Tagged Types",
   "entities": [
     {
-      "label": "Default_HID_Class",
-      "docHref": "docs/usb__device__hid___spec.html#L36C9",
+      "label": "Abstract_HID_Class",
+      "docHref": "docs/usb__device__hid___spec.html#L34C9",
       "declared": "USB.Device.HID",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb-device-hid.ads.html#L36"
+      "srcHref": "srcs/usb-device-hid.ads.html#L34"
     },
     {
       "label": "Default_MIDI_Class",
@@ -24,10 +24,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Delays",
-      "docHref": "docs/rp__systick___spec.html#L10C9",
+      "docHref": "docs/rp__systick___spec.html#L21C9",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L10"
+      "srcHref": "srcs/rp-systick.ads.html#L21"
     },
     {
       "label": "Delays",
@@ -49,6 +49,34 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.I2C_Master",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-i2c_master.ads.html#L17"
+    },
+    {
+      "label": "Instance",
+      "docHref": "docs/usb__device__hid__gamepad___spec.html#L40C9",
+      "declared": "USB.Device.HID.Gamepad",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-device-hid-gamepad.ads.html#L40"
+    },
+    {
+      "label": "Instance",
+      "docHref": "docs/usb__device__hid__joystick___spec.html#L40C9",
+      "declared": "USB.Device.HID.Joystick",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-device-hid-joystick.ads.html#L40"
+    },
+    {
+      "label": "Instance",
+      "docHref": "docs/usb__device__hid__keyboard___spec.html#L38C9",
+      "declared": "USB.Device.HID.Keyboard",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-device-hid-keyboard.ads.html#L38"
+    },
+    {
+      "label": "Instance",
+      "docHref": "docs/usb__device__hid__mouse___spec.html#L38C9",
+      "declared": "USB.Device.HID.Mouse",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-device-hid-mouse.ads.html#L38"
     },
     {
       "label": "PIO_Device",

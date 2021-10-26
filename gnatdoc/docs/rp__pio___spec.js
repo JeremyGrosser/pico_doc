@@ -151,7 +151,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SM0_CLKDIV_INT_Field",
-                      "href": "docs/rp2040_svd__pio___spec.html#L801C12"
+                      "href": "docs/rp2040_svd__pio___spec.html#L833C12"
                     },
                     {
                       "kind": "span",
@@ -472,6 +472,602 @@ GNATdoc.Documentation = {
                       "cssClass": "identifier",
                       "text": "UInt16",
                       "href": "docs/hal___spec.html#L66C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "PIO_IRQ_Flag",
+          "qualifier": "",
+          "line": 209,
+          "column": 9,
+          "src": "srcs/rp-pio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 209,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_IRQ_Flag",
+                      "href": "docs/rp__pio___spec.html#L209C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 210,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SM0_RXNEMPTY",
+                      "href": "docs/rp__pio___spec.html#L210C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SM1_RXNEMPTY",
+                      "href": "docs/rp__pio___spec.html#L210C21"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SM2_RXNEMPTY",
+                      "href": "docs/rp__pio___spec.html#L210C35"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SM3_RXNEMPTY",
+                      "href": "docs/rp__pio___spec.html#L210C49"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 211,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  FIFO RX Not Empty flag for each State Machine"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 212,
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 213,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SM0_TXNFULL",
+                      "href": "docs/rp__pio___spec.html#L213C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SM1_TXNFULL",
+                      "href": "docs/rp__pio___spec.html#L213C20"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SM2_TXNFULL",
+                      "href": "docs/rp__pio___spec.html#L213C33"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SM3_TXNFULL",
+                      "href": "docs/rp__pio___spec.html#L213C46"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 214,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  FIFO TX Not Full flag for each State Machine"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 215,
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 216,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SM_IRQ0",
+                      "href": "docs/rp__pio___spec.html#L216C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SM_IRQ1",
+                      "href": "docs/rp__pio___spec.html#L216C16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SM_IRQ2",
+                      "href": "docs/rp__pio___spec.html#L216C25"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SM_IRQ3",
+                      "href": "docs/rp__pio___spec.html#L216C34"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 217,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  4 Lower State Machine IRQs. These are not tied to a given state"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 218,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  machine, any state machine can trigger any of the flags. The upper"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 219,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  4 state machine IRQ are not routed to system-level interrupt."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 220,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/rp__pio___spec.html#L209C9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "SM0_RXNEMPTY",
+              "line": 210,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "SM1_RXNEMPTY",
+              "line": 210,
+              "column": 21,
+              "description": [
+              ]
+            },
+            {
+              "label": "SM2_RXNEMPTY",
+              "line": 210,
+              "column": 35,
+              "description": [
+              ]
+            },
+            {
+              "label": "SM3_RXNEMPTY",
+              "line": 210,
+              "column": 49,
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "FIFO RX Not Empty flag for each State Machine\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "SM0_TXNFULL",
+              "line": 213,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "SM1_TXNFULL",
+              "line": 213,
+              "column": 20,
+              "description": [
+              ]
+            },
+            {
+              "label": "SM2_TXNFULL",
+              "line": 213,
+              "column": 33,
+              "description": [
+              ]
+            },
+            {
+              "label": "SM3_TXNFULL",
+              "line": 213,
+              "column": 46,
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "FIFO TX Not Full flag for each State Machine\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "SM_IRQ0",
+              "line": 216,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "SM_IRQ1",
+              "line": 216,
+              "column": 16,
+              "description": [
+              ]
+            },
+            {
+              "label": "SM_IRQ2",
+              "line": 216,
+              "column": 25,
+              "description": [
+              ]
+            },
+            {
+              "label": "SM_IRQ3",
+              "line": 216,
+              "column": 34,
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "4 Lower State Machine IRQs. These are not tied to a given state\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "machine, any state machine can trigger any of the flags. The upper\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "4 state machine IRQ are not routed to system-level interrupt.\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "PIO_IRQ_ID",
+          "qualifier": "",
+          "line": 207,
+          "column": 9,
+          "src": "srcs/rp-pio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 207,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_IRQ_ID",
+                      "href": "docs/rp__pio___spec.html#L207C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "range"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "1"
                     },
                     {
                       "kind": "span",
@@ -902,6 +1498,104 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "number",
                       "text": "3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "PIO_SM_IRQ_Flag",
+          "qualifier": "",
+          "line": 254,
+          "column": 9,
+          "src": "srcs/rp-pio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 254,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_SM_IRQ_Flag",
+                      "href": "docs/rp__pio___spec.html#L254C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "range"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "7"
                     },
                     {
                       "kind": "span",
@@ -1697,7 +2391,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Peripheral",
-                      "href": "docs/rp__pio___spec.html#L245C9"
+                      "href": "docs/rp__pio___spec.html#L311C9"
                     },
                     {
                       "kind": "span",
@@ -1831,7 +2525,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_SM_Config",
-                      "href": "docs/rp__pio___spec.html#L217C9"
+                      "href": "docs/rp__pio___spec.html#L283C9"
                     },
                     {
                       "kind": "span",
@@ -1942,7 +2636,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_SM_Config",
-                      "href": "docs/rp__pio___spec.html#L217C9"
+                      "href": "docs/rp__pio___spec.html#L283C9"
                     },
                     {
                       "kind": "span",
@@ -2179,7 +2873,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_SM_Config",
-                      "href": "docs/rp__pio___spec.html#L217C9"
+                      "href": "docs/rp__pio___spec.html#L283C9"
                     },
                     {
                       "kind": "span",
@@ -2362,7 +3056,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_SM_Config",
-                      "href": "docs/rp__pio___spec.html#L217C9"
+                      "href": "docs/rp__pio___spec.html#L283C9"
                     },
                     {
                       "kind": "span",
@@ -2545,7 +3239,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_SM_Config",
-                      "href": "docs/rp__pio___spec.html#L217C9"
+                      "href": "docs/rp__pio___spec.html#L283C9"
                     },
                     {
                       "kind": "span",
@@ -2778,7 +3472,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_SM_Config",
-                      "href": "docs/rp__pio___spec.html#L217C9"
+                      "href": "docs/rp__pio___spec.html#L283C9"
                     },
                     {
                       "kind": "span",
@@ -2961,7 +3655,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_SM_Config",
-                      "href": "docs/rp__pio___spec.html#L217C9"
+                      "href": "docs/rp__pio___spec.html#L283C9"
                     },
                     {
                       "kind": "span",
@@ -3248,7 +3942,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_SM_Config",
-                      "href": "docs/rp__pio___spec.html#L217C9"
+                      "href": "docs/rp__pio___spec.html#L283C9"
                     },
                     {
                       "kind": "span",
@@ -3431,7 +4125,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_SM_Config",
-                      "href": "docs/rp__pio___spec.html#L217C9"
+                      "href": "docs/rp__pio___spec.html#L283C9"
                     },
                     {
                       "kind": "span",
@@ -3668,7 +4362,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_SM_Config",
-                      "href": "docs/rp__pio___spec.html#L217C9"
+                      "href": "docs/rp__pio___spec.html#L283C9"
                     },
                     {
                       "kind": "span",
@@ -3905,7 +4599,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_SM_Config",
-                      "href": "docs/rp__pio___spec.html#L217C9"
+                      "href": "docs/rp__pio___spec.html#L283C9"
                     },
                     {
                       "kind": "span",
@@ -4192,7 +4886,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_SM_Config",
-                      "href": "docs/rp__pio___spec.html#L217C9"
+                      "href": "docs/rp__pio___spec.html#L283C9"
                     },
                     {
                       "kind": "span",
@@ -4479,7 +5173,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_SM_Config",
-                      "href": "docs/rp__pio___spec.html#L217C9"
+                      "href": "docs/rp__pio___spec.html#L283C9"
                     },
                     {
                       "kind": "span",
@@ -4716,7 +5410,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_SM_Config",
-                      "href": "docs/rp__pio___spec.html#L217C9"
+                      "href": "docs/rp__pio___spec.html#L283C9"
                     },
                     {
                       "kind": "span",
@@ -5003,7 +5697,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_SM_Config",
-                      "href": "docs/rp__pio___spec.html#L217C9"
+                      "href": "docs/rp__pio___spec.html#L283C9"
                     },
                     {
                       "kind": "span",
@@ -5186,7 +5880,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_SM_Config",
-                      "href": "docs/rp__pio___spec.html#L217C9"
+                      "href": "docs/rp__pio___spec.html#L283C9"
                     },
                     {
                       "kind": "span",
@@ -5331,6 +6025,192 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
+          "label": "Ack_SM_IRQ",
+          "qualifier": "",
+          "line": 256,
+          "column": 14,
+          "src": "srcs/rp-pio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 256,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Ack_SM_IRQ",
+                      "href": "docs/rp__pio___spec.html#L256C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__pio___spec.html#L256C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Device",
+                      "href": "docs/rp__pio___spec.html#L337C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 257,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Flag",
+                      "href": "docs/rp__pio___spec.html#L257C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_SM_IRQ_Flag",
+                      "href": "docs/rp__pio___spec.html#L254C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Acknolege a state-machine-level IRQ\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 256,
+              "column": 26,
+              "type": {
+                "label": "RP.PIO.PIO_Device",
+                "docHref": "docs/rp__pio___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Flag",
+              "line": 257,
+              "column": 26,
+              "type": {
+                "label": "RP.PIO.PIO_SM_IRQ_Flag",
+                "docHref": "docs/rp__pio___spec.html#L254C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
           "label": "Clear_FIFOs",
           "qualifier": "",
           "line": 148,
@@ -5428,7 +6308,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",
@@ -5507,6 +6387,432 @@ GNATdoc.Documentation = {
               "type": {
                 "label": "RP.PIO.PIO_SM",
                 "docHref": "docs/rp__pio___spec.html#L20C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Clear_Force_IRQ_Flag",
+          "qualifier": "",
+          "line": 249,
+          "column": 14,
+          "src": "srcs/rp-pio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 249,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Clear_Force_IRQ_Flag",
+                      "href": "docs/rp__pio___spec.html#L249C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__pio___spec.html#L249C36"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Device",
+                      "href": "docs/rp__pio___spec.html#L337C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 250,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                                   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "IRQ",
+                      "href": "docs/rp__pio___spec.html#L250C36"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_IRQ_ID",
+                      "href": "docs/rp__pio___spec.html#L207C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 251,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                                   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Flag",
+                      "href": "docs/rp__pio___spec.html#L251C36"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_IRQ_Flag",
+                      "href": "docs/rp__pio___spec.html#L209C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Clear force a system-level IRQ\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 249,
+              "column": 36,
+              "type": {
+                "label": "RP.PIO.PIO_Device",
+                "docHref": "docs/rp__pio___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "IRQ",
+              "line": 250,
+              "column": 36,
+              "type": {
+                "label": "RP.PIO.PIO_IRQ_ID",
+                "docHref": "docs/rp__pio___spec.html#L207C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Flag",
+              "line": 251,
+              "column": 36,
+              "type": {
+                "label": "RP.PIO.PIO_IRQ_Flag",
+                "docHref": "docs/rp__pio___spec.html#L209C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Clear_Force_SM_IRQ",
+          "qualifier": "",
+          "line": 269,
+          "column": 14,
+          "src": "srcs/rp-pio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 269,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Clear_Force_SM_IRQ",
+                      "href": "docs/rp__pio___spec.html#L269C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__pio___spec.html#L269C34"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Device",
+                      "href": "docs/rp__pio___spec.html#L337C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 270,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                                 "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Flag",
+                      "href": "docs/rp__pio___spec.html#L270C34"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_SM_IRQ_Flag",
+                      "href": "docs/rp__pio___spec.html#L254C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Clear force a state-machine-level IRQ\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 269,
+              "column": 34,
+              "type": {
+                "label": "RP.PIO.PIO_Device",
+                "docHref": "docs/rp__pio___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Flag",
+              "line": 270,
+              "column": 34,
+              "type": {
+                "label": "RP.PIO.PIO_SM_IRQ_Flag",
+                "docHref": "docs/rp__pio___spec.html#L254C9"
               },
               "description": [
               ]
@@ -5611,7 +6917,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",
@@ -5636,6 +6942,423 @@ GNATdoc.Documentation = {
               "type": {
                 "label": "RP.PIO.PIO_Device",
                 "docHref": "docs/rp__pio___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Disable_IRQ",
+          "qualifier": "",
+          "line": 225,
+          "column": 14,
+          "src": "srcs/rp-pio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 225,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Disable_IRQ",
+                      "href": "docs/rp__pio___spec.html#L225C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__pio___spec.html#L225C27"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Device",
+                      "href": "docs/rp__pio___spec.html#L337C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 226,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "IRQ",
+                      "href": "docs/rp__pio___spec.html#L226C27"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_IRQ_ID",
+                      "href": "docs/rp__pio___spec.html#L207C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 225,
+              "column": 27,
+              "type": {
+                "label": "RP.PIO.PIO_Device",
+                "docHref": "docs/rp__pio___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "IRQ",
+              "line": 226,
+              "column": 27,
+              "type": {
+                "label": "RP.PIO.PIO_IRQ_ID",
+                "docHref": "docs/rp__pio___spec.html#L207C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Disable_IRQ_Flag",
+          "qualifier": "",
+          "line": 233,
+          "column": 14,
+          "src": "srcs/rp-pio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 233,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Disable_IRQ_Flag",
+                      "href": "docs/rp__pio___spec.html#L233C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__pio___spec.html#L233C32"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Device",
+                      "href": "docs/rp__pio___spec.html#L337C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 234,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                               "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "IRQ",
+                      "href": "docs/rp__pio___spec.html#L234C32"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_IRQ_ID",
+                      "href": "docs/rp__pio___spec.html#L207C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 235,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                               "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Flag",
+                      "href": "docs/rp__pio___spec.html#L235C32"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_IRQ_Flag",
+                      "href": "docs/rp__pio___spec.html#L209C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Disable a system-level IRQ\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 233,
+              "column": 32,
+              "type": {
+                "label": "RP.PIO.PIO_Device",
+                "docHref": "docs/rp__pio___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "IRQ",
+              "line": 234,
+              "column": 32,
+              "type": {
+                "label": "RP.PIO.PIO_IRQ_ID",
+                "docHref": "docs/rp__pio___spec.html#L207C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Flag",
+              "line": 235,
+              "column": 32,
+              "type": {
+                "label": "RP.PIO.PIO_IRQ_Flag",
+                "docHref": "docs/rp__pio___spec.html#L209C9"
               },
               "description": [
               ]
@@ -5740,7 +7463,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",
@@ -5765,6 +7488,423 @@ GNATdoc.Documentation = {
               "type": {
                 "label": "RP.PIO.PIO_Device",
                 "docHref": "docs/rp__pio___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Enable_IRQ",
+          "qualifier": "",
+          "line": 222,
+          "column": 14,
+          "src": "srcs/rp-pio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 222,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Enable_IRQ",
+                      "href": "docs/rp__pio___spec.html#L222C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__pio___spec.html#L222C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Device",
+                      "href": "docs/rp__pio___spec.html#L337C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 223,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "IRQ",
+                      "href": "docs/rp__pio___spec.html#L223C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_IRQ_ID",
+                      "href": "docs/rp__pio___spec.html#L207C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 222,
+              "column": 26,
+              "type": {
+                "label": "RP.PIO.PIO_Device",
+                "docHref": "docs/rp__pio___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "IRQ",
+              "line": 223,
+              "column": 26,
+              "type": {
+                "label": "RP.PIO.PIO_IRQ_ID",
+                "docHref": "docs/rp__pio___spec.html#L207C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Enable_IRQ_Flag",
+          "qualifier": "",
+          "line": 228,
+          "column": 14,
+          "src": "srcs/rp-pio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 228,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Enable_IRQ_Flag",
+                      "href": "docs/rp__pio___spec.html#L228C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__pio___spec.html#L228C31"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Device",
+                      "href": "docs/rp__pio___spec.html#L337C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 229,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                              "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "IRQ",
+                      "href": "docs/rp__pio___spec.html#L229C31"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_IRQ_ID",
+                      "href": "docs/rp__pio___spec.html#L207C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 230,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                              "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Flag",
+                      "href": "docs/rp__pio___spec.html#L230C31"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_IRQ_Flag",
+                      "href": "docs/rp__pio___spec.html#L209C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Enable a system-level IRQ\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 228,
+              "column": 31,
+              "type": {
+                "label": "RP.PIO.PIO_Device",
+                "docHref": "docs/rp__pio___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "IRQ",
+              "line": 229,
+              "column": 31,
+              "type": {
+                "label": "RP.PIO.PIO_IRQ_ID",
+                "docHref": "docs/rp__pio___spec.html#L207C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Flag",
+              "line": 230,
+              "column": 31,
+              "type": {
+                "label": "RP.PIO.PIO_IRQ_Flag",
+                "docHref": "docs/rp__pio___spec.html#L209C9"
               },
               "description": [
               ]
@@ -5849,7 +7989,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",
@@ -6005,7 +8145,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",
@@ -6145,6 +8285,432 @@ GNATdoc.Documentation = {
           ]
         },
         {
+          "label": "Force_IRQ_Flag",
+          "qualifier": "",
+          "line": 244,
+          "column": 14,
+          "src": "srcs/rp-pio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 244,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Force_IRQ_Flag",
+                      "href": "docs/rp__pio___spec.html#L244C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__pio___spec.html#L244C30"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Device",
+                      "href": "docs/rp__pio___spec.html#L337C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 245,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                             "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "IRQ",
+                      "href": "docs/rp__pio___spec.html#L245C30"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_IRQ_ID",
+                      "href": "docs/rp__pio___spec.html#L207C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 246,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                             "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Flag",
+                      "href": "docs/rp__pio___spec.html#L246C30"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_IRQ_Flag",
+                      "href": "docs/rp__pio___spec.html#L209C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Force a system-level IRQ\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 244,
+              "column": 30,
+              "type": {
+                "label": "RP.PIO.PIO_Device",
+                "docHref": "docs/rp__pio___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "IRQ",
+              "line": 245,
+              "column": 30,
+              "type": {
+                "label": "RP.PIO.PIO_IRQ_ID",
+                "docHref": "docs/rp__pio___spec.html#L207C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Flag",
+              "line": 246,
+              "column": 30,
+              "type": {
+                "label": "RP.PIO.PIO_IRQ_Flag",
+                "docHref": "docs/rp__pio___spec.html#L209C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Force_SM_IRQ",
+          "qualifier": "",
+          "line": 265,
+          "column": 14,
+          "src": "srcs/rp-pio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 265,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Force_SM_IRQ",
+                      "href": "docs/rp__pio___spec.html#L265C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__pio___spec.html#L265C28"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Device",
+                      "href": "docs/rp__pio___spec.html#L337C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 266,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                           "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Flag",
+                      "href": "docs/rp__pio___spec.html#L266C28"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_SM_IRQ_Flag",
+                      "href": "docs/rp__pio___spec.html#L254C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Force a state-machine-level IRQ\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 265,
+              "column": 28,
+              "type": {
+                "label": "RP.PIO.PIO_Device",
+                "docHref": "docs/rp__pio___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Flag",
+              "line": 266,
+              "column": 28,
+              "type": {
+                "label": "RP.PIO.PIO_SM_IRQ_Flag",
+                "docHref": "docs/rp__pio___spec.html#L254C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
           "label": "Get",
           "qualifier": "",
           "line": 187,
@@ -6242,7 +8808,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",
@@ -6489,7 +9055,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",
@@ -6716,7 +9282,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",
@@ -6768,6 +9334,272 @@ GNATdoc.Documentation = {
               "type": {
                 "label": "RP.PIO.PIO_Device",
                 "docHref": "docs/rp__pio___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "IRQ_Flag_Status",
+          "qualifier": "",
+          "line": 238,
+          "column": 13,
+          "src": "srcs/rp-pio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 238,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "IRQ_Flag_Status",
+                      "href": "docs/rp__pio___spec.html#L238C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__pio___spec.html#L238C30"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Device",
+                      "href": "docs/rp__pio___spec.html#L337C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 239,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                             "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "IRQ",
+                      "href": "docs/rp__pio___spec.html#L239C30"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_IRQ_ID",
+                      "href": "docs/rp__pio___spec.html#L207C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 240,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                             "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Flag",
+                      "href": "docs/rp__pio___spec.html#L240C30"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_IRQ_Flag",
+                      "href": "docs/rp__pio___spec.html#L209C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 241,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                             "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Return True if a system-level IRQ is signaled (after masking and forcing)\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 238,
+              "column": 30,
+              "type": {
+                "label": "RP.PIO.PIO_Device",
+                "docHref": "docs/rp__pio___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "IRQ",
+              "line": 239,
+              "column": 30,
+              "type": {
+                "label": "RP.PIO.PIO_IRQ_ID",
+                "docHref": "docs/rp__pio___spec.html#L207C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Flag",
+              "line": 240,
+              "column": 30,
+              "type": {
+                "label": "RP.PIO.PIO_IRQ_Flag",
+                "docHref": "docs/rp__pio___spec.html#L209C9"
               },
               "description": [
               ]
@@ -6872,7 +9704,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",
@@ -6984,7 +9816,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Pre => (Offset + Prog'Length) <= PIO_Address'Last"
+                      "text": " Pre => (Offset + Prog'Length - 1) <= PIO_Address'Last"
                     },
                     {
                       "kind": "span",
@@ -7130,7 +9962,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",
@@ -7367,7 +10199,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",
@@ -7584,7 +10416,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",
@@ -7793,7 +10625,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",
@@ -7879,7 +10711,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_SM_Config",
-                      "href": "docs/rp__pio___spec.html#L217C9"
+                      "href": "docs/rp__pio___spec.html#L283C9"
                     },
                     {
                       "kind": "span",
@@ -8030,7 +10862,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",
@@ -8265,7 +11097,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",
@@ -8448,7 +11280,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",
@@ -8739,7 +11571,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",
@@ -8868,7 +11700,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_SM_Config",
-                      "href": "docs/rp__pio___spec.html#L217C9"
+                      "href": "docs/rp__pio___spec.html#L283C9"
                     },
                     {
                       "kind": "span",
@@ -8926,6 +11758,218 @@ GNATdoc.Documentation = {
               "type": {
                 "label": "RP.PIO.PIO_SM_Config",
                 "docHref": "docs/rp__pio___spec.html#L25C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "SM_IRQ_Status",
+          "qualifier": "",
+          "line": 260,
+          "column": 13,
+          "src": "srcs/rp-pio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 260,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SM_IRQ_Status",
+                      "href": "docs/rp__pio___spec.html#L260C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__pio___spec.html#L260C28"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Device",
+                      "href": "docs/rp__pio___spec.html#L337C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 261,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                           "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Flag",
+                      "href": "docs/rp__pio___spec.html#L261C28"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_SM_IRQ_Flag",
+                      "href": "docs/rp__pio___spec.html#L254C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 262,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                           "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Return True if a state-machine-level IRQ is signaled\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 260,
+              "column": 28,
+              "type": {
+                "label": "RP.PIO.PIO_Device",
+                "docHref": "docs/rp__pio___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Flag",
+              "line": 261,
+              "column": 28,
+              "type": {
+                "label": "RP.PIO.PIO_SM_IRQ_Flag",
+                "docHref": "docs/rp__pio___spec.html#L254C9"
               },
               "description": [
               ]
@@ -9010,7 +12054,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",

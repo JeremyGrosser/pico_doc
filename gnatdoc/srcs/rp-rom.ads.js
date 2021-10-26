@@ -3411,7 +3411,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  2.8.3.2. Fast Floating Point Library"
+          "text": "--  2.8.3.3. Bootrom Data"
         }
       ]
     },
@@ -3427,51 +3427,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  TODO"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 152,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 153,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  2.8.3.3. Bootrom Data"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 154,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--  TODO these read as null strings?"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 155,
+      "number": 152,
       "children": [
         {
           "kind": "span",
@@ -3482,7 +3444,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "copyright_string",
-          "href": "docs/rp__rom___spec.html#L155C4"
+          "href": "docs/rp__rom___spec.html#L152C4"
         },
         {
           "kind": "span",
@@ -3518,7 +3480,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 156,
+      "number": 153,
       "children": [
         {
           "kind": "span",
@@ -3539,7 +3501,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 157,
+      "number": 154,
       "children": [
         {
           "kind": "span",
@@ -3555,13 +3517,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 158,
+      "number": 155,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 159,
+      "number": 156,
       "children": [
         {
           "kind": "span",
@@ -3572,7 +3534,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "git_revision",
-          "href": "docs/rp__rom___spec.html#L159C4"
+          "href": "docs/rp__rom___spec.html#L156C4"
         },
         {
           "kind": "span",
@@ -3608,7 +3570,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 160,
+      "number": 157,
       "children": [
         {
           "kind": "span",
@@ -3629,7 +3591,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 161,
+      "number": 158,
       "children": [
         {
           "kind": "span",
@@ -3645,7 +3607,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 162,
+      "number": 159,
       "children": [
         {
           "kind": "span",

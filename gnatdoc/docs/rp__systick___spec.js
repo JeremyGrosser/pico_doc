@@ -9,9 +9,9 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "Delays",
+          "label": "Time",
           "qualifier": "",
-          "line": 10,
+          "line": 11,
           "column": 9,
           "src": "srcs/rp-systick.ads.html",
           "summary": [
@@ -22,7 +22,91 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 10,
+                  "number": 11,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Time",
+                      "href": "docs/rp__systick___spec.html#L11C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "new"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "UInt24",
+                      "href": "docs/hal___spec.html#L81C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "label": "Simple types"
+    },
+    {
+      "entities": [
+        {
+          "label": "Delays",
+          "qualifier": "",
+          "line": 21,
+          "column": 9,
+          "src": "srcs/rp-systick.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 21,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +127,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Delays",
-                      "href": "docs/rp__systick___spec.html#L10C9"
+                      "href": "docs/rp__systick___spec.html#L21C9"
                     },
                     {
                       "kind": "span",
@@ -110,7 +194,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/rp__systick___spec.html#L10C9"
+                      "href": "docs/rp__systick___spec.html#L21C9"
                     }
                   ]
                 }
@@ -130,9 +214,223 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
+          "label": "Clock",
+          "qualifier": "",
+          "line": 14,
+          "column": 13,
+          "src": "srcs/rp-systick.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 14,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Clock",
+                      "href": "docs/rp__systick___spec.html#L14C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 15,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Time",
+                      "href": "docs/rp__systick___spec.html#L11C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Milliseconds",
+          "qualifier": "",
+          "line": 17,
+          "column": 13,
+          "src": "srcs/rp-systick.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 17,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Milliseconds",
+                      "href": "docs/rp__systick___spec.html#L17C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 18,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "T",
+                      "href": "docs/rp__systick___spec.html#L18C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Natural"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 19,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Time",
+                      "href": "docs/rp__systick___spec.html#L11C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "T",
+              "line": 18,
+              "column": 8,
+              "type": {
+                "label": "Natural"
+              },
+              "description": [
+              ]
+            }
+          ]
+        }
+      ],
+      "label": "Subprograms"
+    },
+    {
+      "entities": [
+        {
           "label": "Delay_Microseconds",
           "qualifier": "",
-          "line": 23,
+          "line": 34,
           "column": 14,
           "src": "srcs/rp-systick.ads.html",
           "summary": [
@@ -143,7 +441,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 23,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -159,7 +457,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 24,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -185,7 +483,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 25,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -201,7 +499,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__systick___spec.html#L25C8"
+                      "href": "docs/rp__systick___spec.html#L36C8"
                     },
                     {
                       "kind": "span",
@@ -252,7 +550,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 26,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -293,7 +591,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 27,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -323,18 +621,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 24,
+              "line": 35,
               "column": 8,
               "type": {
                 "label": "RP.SysTick.Delays",
-                "docHref": "docs/rp__systick___spec.html#L10C9"
+                "docHref": "docs/rp__systick___spec.html#L21C9"
               },
               "description": [
               ]
             },
             {
               "label": "Us",
-              "line": 25,
+              "line": 36,
               "column": 8,
               "type": {
                 "label": "Integer"
@@ -347,7 +645,7 @@ GNATdoc.Documentation = {
         {
           "label": "Delay_Milliseconds",
           "qualifier": "",
-          "line": 29,
+          "line": 40,
           "column": 14,
           "src": "srcs/rp-systick.ads.html",
           "summary": [
@@ -358,7 +656,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 29,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -374,7 +672,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 30,
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
@@ -400,7 +698,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -416,7 +714,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__systick___spec.html#L31C8"
+                      "href": "docs/rp__systick___spec.html#L42C8"
                     },
                     {
                       "kind": "span",
@@ -467,7 +765,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -508,7 +806,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -538,18 +836,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 30,
+              "line": 41,
               "column": 8,
               "type": {
                 "label": "RP.SysTick.Delays",
-                "docHref": "docs/rp__systick___spec.html#L10C9"
+                "docHref": "docs/rp__systick___spec.html#L21C9"
               },
               "description": [
               ]
             },
             {
               "label": "Ms",
-              "line": 31,
+              "line": 42,
               "column": 8,
               "type": {
                 "label": "Integer"
@@ -562,7 +860,7 @@ GNATdoc.Documentation = {
         {
           "label": "Delay_Seconds",
           "qualifier": "",
-          "line": 35,
+          "line": 46,
           "column": 14,
           "src": "srcs/rp-systick.ads.html",
           "summary": [
@@ -573,7 +871,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -589,7 +887,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -615,7 +913,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -631,7 +929,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__systick___spec.html#L37C8"
+                      "href": "docs/rp__systick___spec.html#L48C8"
                     },
                     {
                       "kind": "span",
@@ -682,7 +980,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -723,7 +1021,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -753,18 +1051,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 36,
+              "line": 47,
               "column": 8,
               "type": {
                 "label": "RP.SysTick.Delays",
-                "docHref": "docs/rp__systick___spec.html#L10C9"
+                "docHref": "docs/rp__systick___spec.html#L21C9"
               },
               "description": [
               ]
             },
             {
               "label": "S",
-              "line": 37,
+              "line": 48,
               "column": 8,
               "type": {
                 "label": "Integer"
@@ -777,7 +1075,7 @@ GNATdoc.Documentation = {
         {
           "label": "Disable",
           "qualifier": "",
-          "line": 15,
+          "line": 26,
           "column": 14,
           "src": "srcs/rp-systick.ads.html",
           "summary": [
@@ -788,7 +1086,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 15,
+                  "number": 26,
                   "children": [
                     {
                       "kind": "span",
@@ -809,13 +1107,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Disable",
-                      "href": "docs/rp__systick___spec.html#L15C14"
+                      "href": "docs/rp__systick___spec.html#L26C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 16,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -831,7 +1129,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__systick___spec.html#L16C8"
+                      "href": "docs/rp__systick___spec.html#L27C8"
                     },
                     {
                       "kind": "span",
@@ -872,7 +1170,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Delays",
-                      "href": "docs/rp__systick___spec.html#L10C9"
+                      "href": "docs/rp__systick___spec.html#L21C9"
                     },
                     {
                       "kind": "span",
@@ -892,11 +1190,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 16,
+              "line": 27,
               "column": 8,
               "type": {
                 "label": "RP.SysTick.Delays",
-                "docHref": "docs/rp__systick___spec.html#L10C9"
+                "docHref": "docs/rp__systick___spec.html#L21C9"
               },
               "description": [
               ]
@@ -906,7 +1204,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enable",
           "qualifier": "",
-          "line": 12,
+          "line": 23,
           "column": 14,
           "src": "srcs/rp-systick.ads.html",
           "summary": [
@@ -917,7 +1215,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 12,
+                  "number": 23,
                   "children": [
                     {
                       "kind": "span",
@@ -938,13 +1236,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enable",
-                      "href": "docs/rp__systick___spec.html#L12C14"
+                      "href": "docs/rp__systick___spec.html#L23C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 13,
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -960,7 +1258,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__systick___spec.html#L13C8"
+                      "href": "docs/rp__systick___spec.html#L24C8"
                     },
                     {
                       "kind": "span",
@@ -1001,7 +1299,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Delays",
-                      "href": "docs/rp__systick___spec.html#L10C9"
+                      "href": "docs/rp__systick___spec.html#L21C9"
                     },
                     {
                       "kind": "span",
@@ -1021,11 +1319,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 13,
+              "line": 24,
               "column": 8,
               "type": {
                 "label": "RP.SysTick.Delays",
-                "docHref": "docs/rp__systick___spec.html#L10C9"
+                "docHref": "docs/rp__systick___spec.html#L21C9"
               },
               "description": [
               ]
@@ -1035,7 +1333,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enabled",
           "qualifier": "",
-          "line": 18,
+          "line": 29,
           "column": 13,
           "src": "srcs/rp-systick.ads.html",
           "summary": [
@@ -1046,7 +1344,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 18,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -1067,13 +1365,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enabled",
-                      "href": "docs/rp__systick___spec.html#L18C13"
+                      "href": "docs/rp__systick___spec.html#L29C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 19,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -1089,7 +1387,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__systick___spec.html#L19C8"
+                      "href": "docs/rp__systick___spec.html#L30C8"
                     },
                     {
                       "kind": "span",
@@ -1130,7 +1428,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Delays",
-                      "href": "docs/rp__systick___spec.html#L10C9"
+                      "href": "docs/rp__systick___spec.html#L21C9"
                     },
                     {
                       "kind": "span",
@@ -1141,7 +1439,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 20,
+                  "number": 31,
                   "children": [
                     {
                       "kind": "span",
@@ -1176,11 +1474,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 19,
+              "line": 30,
               "column": 8,
               "type": {
                 "label": "RP.SysTick.Delays",
-                "docHref": "docs/rp__systick___spec.html#L10C9"
+                "docHref": "docs/rp__systick___spec.html#L21C9"
               },
               "description": [
               ]

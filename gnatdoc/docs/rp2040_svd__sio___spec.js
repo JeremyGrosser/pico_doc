@@ -80,7 +80,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_HI_OE_CLR_GPIO_HI_OE_CLR_Field",
           "qualifier": "",
-          "line": 317,
+          "line": 325,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -91,7 +91,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 317,
+                  "number": 325,
                   "children": [
                     {
                       "kind": "span",
@@ -112,7 +112,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_CLR_GPIO_HI_OE_CLR_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L317C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L325C12"
                     },
                     {
                       "kind": "span",
@@ -149,7 +149,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_HI_OE_GPIO_HI_OE_Field",
           "qualifier": "",
-          "line": 279,
+          "line": 286,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -160,7 +160,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 279,
+                  "number": 286,
                   "children": [
                     {
                       "kind": "span",
@@ -181,7 +181,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_GPIO_HI_OE_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L279C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L286C12"
                     },
                     {
                       "kind": "span",
@@ -218,7 +218,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_HI_OE_SET_GPIO_HI_OE_SET_Field",
           "qualifier": "",
-          "line": 300,
+          "line": 307,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -229,7 +229,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 300,
+                  "number": 307,
                   "children": [
                     {
                       "kind": "span",
@@ -250,7 +250,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_SET_GPIO_HI_OE_SET_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L300C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L307C12"
                     },
                     {
                       "kind": "span",
@@ -287,7 +287,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_HI_OE_XOR_GPIO_HI_OE_XOR_Field",
           "qualifier": "",
-          "line": 335,
+          "line": 343,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -298,7 +298,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 335,
+                  "number": 343,
                   "children": [
                     {
                       "kind": "span",
@@ -319,7 +319,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_XOR_GPIO_HI_OE_XOR_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L335C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L343C12"
                     },
                     {
                       "kind": "span",
@@ -356,7 +356,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_HI_OUT_CLR_GPIO_HI_OUT_CLR_Field",
           "qualifier": "",
-          "line": 243,
+          "line": 250,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -367,7 +367,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 243,
+                  "number": 250,
                   "children": [
                     {
                       "kind": "span",
@@ -388,7 +388,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_CLR_GPIO_HI_OUT_CLR_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L243C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L250C12"
                     },
                     {
                       "kind": "span",
@@ -425,7 +425,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_HI_OUT_GPIO_HI_OUT_Field",
           "qualifier": "",
-          "line": 204,
+          "line": 210,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -436,7 +436,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 204,
+                  "number": 210,
                   "children": [
                     {
                       "kind": "span",
@@ -457,7 +457,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_GPIO_HI_OUT_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L204C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L210C12"
                     },
                     {
                       "kind": "span",
@@ -494,7 +494,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_HI_OUT_SET_GPIO_HI_OUT_SET_Field",
           "qualifier": "",
-          "line": 226,
+          "line": 232,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -505,7 +505,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 226,
+                  "number": 232,
                   "children": [
                     {
                       "kind": "span",
@@ -526,7 +526,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_SET_GPIO_HI_OUT_SET_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L226C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L232C12"
                     },
                     {
                       "kind": "span",
@@ -563,7 +563,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_HI_OUT_XOR_GPIO_HI_OUT_XOR_Field",
           "qualifier": "",
-          "line": 261,
+          "line": 268,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -574,7 +574,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 261,
+                  "number": 268,
                   "children": [
                     {
                       "kind": "span",
@@ -595,7 +595,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_XOR_GPIO_HI_OUT_XOR_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L261C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L268C12"
                     },
                     {
                       "kind": "span",
@@ -701,7 +701,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_OE_CLR_GPIO_OE_CLR_Field",
           "qualifier": "",
-          "line": 170,
+          "line": 174,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -712,7 +712,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 170,
+                  "number": 174,
                   "children": [
                     {
                       "kind": "span",
@@ -733,7 +733,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_CLR_GPIO_OE_CLR_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L170C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L174C12"
                     },
                     {
                       "kind": "span",
@@ -770,7 +770,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_OE_GPIO_OE_Field",
           "qualifier": "",
-          "line": 132,
+          "line": 135,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -781,7 +781,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 132,
+                  "number": 135,
                   "children": [
                     {
                       "kind": "span",
@@ -802,7 +802,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_GPIO_OE_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L132C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L135C12"
                     },
                     {
                       "kind": "span",
@@ -839,7 +839,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_OE_SET_GPIO_OE_SET_Field",
           "qualifier": "",
-          "line": 153,
+          "line": 156,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -850,7 +850,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 153,
+                  "number": 156,
                   "children": [
                     {
                       "kind": "span",
@@ -871,7 +871,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_SET_GPIO_OE_SET_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L153C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L156C12"
                     },
                     {
                       "kind": "span",
@@ -908,7 +908,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_OE_XOR_GPIO_OE_XOR_Field",
           "qualifier": "",
-          "line": 187,
+          "line": 192,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -919,7 +919,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 187,
+                  "number": 192,
                   "children": [
                     {
                       "kind": "span",
@@ -940,7 +940,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_XOR_GPIO_OE_XOR_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L187C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L192C12"
                     },
                     {
                       "kind": "span",
@@ -977,7 +977,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_OUT_CLR_GPIO_OUT_CLR_Field",
           "qualifier": "",
-          "line": 98,
+          "line": 99,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -988,7 +988,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 98,
+                  "number": 99,
                   "children": [
                     {
                       "kind": "span",
@@ -1009,7 +1009,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OUT_CLR_GPIO_OUT_CLR_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L98C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L99C12"
                     },
                     {
                       "kind": "span",
@@ -1184,7 +1184,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_OUT_XOR_GPIO_OUT_XOR_Field",
           "qualifier": "",
-          "line": 115,
+          "line": 117,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -1195,7 +1195,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 115,
+                  "number": 117,
                   "children": [
                     {
                       "kind": "span",
@@ -1216,7 +1216,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OUT_XOR_GPIO_OUT_XOR_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L115C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L117C12"
                     },
                     {
                       "kind": "span",
@@ -1253,7 +1253,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP0_ACCUM0_ADD_INTERP0_ACCUM0_ADD_Field",
           "qualifier": "",
-          "line": 556,
+          "line": 564,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -1264,7 +1264,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 556,
+                  "number": 564,
                   "children": [
                     {
                       "kind": "span",
@@ -1285,7 +1285,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_ACCUM0_ADD_INTERP0_ACCUM0_ADD_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L556C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L564C12"
                     },
                     {
                       "kind": "span",
@@ -1322,7 +1322,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP0_ACCUM1_ADD_INTERP0_ACCUM1_ADD_Field",
           "qualifier": "",
-          "line": 574,
+          "line": 582,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -1333,7 +1333,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 574,
+                  "number": 582,
                   "children": [
                     {
                       "kind": "span",
@@ -1354,7 +1354,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_ACCUM1_ADD_INTERP0_ACCUM1_ADD_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L574C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L582C12"
                     },
                     {
                       "kind": "span",
@@ -1391,7 +1391,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP0_CTRL_LANE0_FORCE_MSB_Field",
           "qualifier": "",
-          "line": 418,
+          "line": 426,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -1402,7 +1402,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 418,
+                  "number": 426,
                   "children": [
                     {
                       "kind": "span",
@@ -1423,7 +1423,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE0_FORCE_MSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L418C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L426C12"
                     },
                     {
                       "kind": "span",
@@ -1460,7 +1460,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP0_CTRL_LANE0_MASK_LSB_Field",
           "qualifier": "",
-          "line": 416,
+          "line": 424,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -1471,7 +1471,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 416,
+                  "number": 424,
                   "children": [
                     {
                       "kind": "span",
@@ -1492,7 +1492,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE0_MASK_LSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L416C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L424C12"
                     },
                     {
                       "kind": "span",
@@ -1529,7 +1529,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP0_CTRL_LANE0_MASK_MSB_Field",
           "qualifier": "",
-          "line": 417,
+          "line": 425,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -1540,7 +1540,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 417,
+                  "number": 425,
                   "children": [
                     {
                       "kind": "span",
@@ -1561,7 +1561,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE0_MASK_MSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L417C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L425C12"
                     },
                     {
                       "kind": "span",
@@ -1598,7 +1598,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP0_CTRL_LANE0_OVERF_Field_Array",
           "qualifier": "",
-          "line": 421,
+          "line": 429,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -1609,7 +1609,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 421,
+                  "number": 429,
                   "children": [
                     {
                       "kind": "span",
@@ -1630,7 +1630,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE0_OVERF_Field_Array",
-                      "href": "docs/rp2040_svd__sio___spec.html#L421C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L429C9"
                     },
                     {
                       "kind": "span",
@@ -1716,7 +1716,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 422,
+                  "number": 430,
                   "children": [
                     {
                       "kind": "span",
@@ -1756,7 +1756,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP0_CTRL_LANE0_SHIFT_Field",
           "qualifier": "",
-          "line": 415,
+          "line": 423,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -1767,7 +1767,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 415,
+                  "number": 423,
                   "children": [
                     {
                       "kind": "span",
@@ -1788,7 +1788,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE0_SHIFT_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L415C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L423C12"
                     },
                     {
                       "kind": "span",
@@ -1825,7 +1825,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP0_CTRL_LANE1_FORCE_MSB_Field",
           "qualifier": "",
-          "line": 509,
+          "line": 517,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -1836,7 +1836,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 509,
+                  "number": 517,
                   "children": [
                     {
                       "kind": "span",
@@ -1857,7 +1857,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE1_FORCE_MSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L509C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L517C12"
                     },
                     {
                       "kind": "span",
@@ -1894,7 +1894,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP0_CTRL_LANE1_MASK_LSB_Field",
           "qualifier": "",
-          "line": 507,
+          "line": 515,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -1905,7 +1905,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 507,
+                  "number": 515,
                   "children": [
                     {
                       "kind": "span",
@@ -1926,7 +1926,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE1_MASK_LSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L507C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L515C12"
                     },
                     {
                       "kind": "span",
@@ -1963,7 +1963,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP0_CTRL_LANE1_MASK_MSB_Field",
           "qualifier": "",
-          "line": 508,
+          "line": 516,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -1974,7 +1974,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 508,
+                  "number": 516,
                   "children": [
                     {
                       "kind": "span",
@@ -1995,7 +1995,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE1_MASK_MSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L508C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L516C12"
                     },
                     {
                       "kind": "span",
@@ -2032,7 +2032,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP0_CTRL_LANE1_SHIFT_Field",
           "qualifier": "",
-          "line": 506,
+          "line": 514,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -2043,7 +2043,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 506,
+                  "number": 514,
                   "children": [
                     {
                       "kind": "span",
@@ -2064,7 +2064,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE1_SHIFT_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L506C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L514C12"
                     },
                     {
                       "kind": "span",
@@ -2101,7 +2101,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP1_ACCUM0_ADD_INTERP1_ACCUM0_ADD_Field",
           "qualifier": "",
-          "line": 729,
+          "line": 737,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -2112,7 +2112,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 729,
+                  "number": 737,
                   "children": [
                     {
                       "kind": "span",
@@ -2133,7 +2133,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_ACCUM0_ADD_INTERP1_ACCUM0_ADD_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L729C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L737C12"
                     },
                     {
                       "kind": "span",
@@ -2170,7 +2170,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP1_ACCUM1_ADD_INTERP1_ACCUM1_ADD_Field",
           "qualifier": "",
-          "line": 747,
+          "line": 755,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -2181,7 +2181,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 747,
+                  "number": 755,
                   "children": [
                     {
                       "kind": "span",
@@ -2202,7 +2202,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_ACCUM1_ADD_INTERP1_ACCUM1_ADD_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L747C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L755C12"
                     },
                     {
                       "kind": "span",
@@ -2239,7 +2239,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP1_CTRL_LANE0_FORCE_MSB_Field",
           "qualifier": "",
-          "line": 595,
+          "line": 603,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -2250,7 +2250,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 595,
+                  "number": 603,
                   "children": [
                     {
                       "kind": "span",
@@ -2271,7 +2271,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE0_FORCE_MSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L595C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L603C12"
                     },
                     {
                       "kind": "span",
@@ -2308,7 +2308,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP1_CTRL_LANE0_MASK_LSB_Field",
           "qualifier": "",
-          "line": 593,
+          "line": 601,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -2319,7 +2319,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 593,
+                  "number": 601,
                   "children": [
                     {
                       "kind": "span",
@@ -2340,7 +2340,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE0_MASK_LSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L593C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L601C12"
                     },
                     {
                       "kind": "span",
@@ -2377,7 +2377,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP1_CTRL_LANE0_MASK_MSB_Field",
           "qualifier": "",
-          "line": 594,
+          "line": 602,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -2388,7 +2388,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 594,
+                  "number": 602,
                   "children": [
                     {
                       "kind": "span",
@@ -2409,7 +2409,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE0_MASK_MSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L594C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L602C12"
                     },
                     {
                       "kind": "span",
@@ -2446,7 +2446,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP1_CTRL_LANE0_OVERF_Field_Array",
           "qualifier": "",
-          "line": 598,
+          "line": 606,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -2457,7 +2457,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 598,
+                  "number": 606,
                   "children": [
                     {
                       "kind": "span",
@@ -2478,7 +2478,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE0_OVERF_Field_Array",
-                      "href": "docs/rp2040_svd__sio___spec.html#L598C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L606C9"
                     },
                     {
                       "kind": "span",
@@ -2564,7 +2564,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 599,
+                  "number": 607,
                   "children": [
                     {
                       "kind": "span",
@@ -2604,7 +2604,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP1_CTRL_LANE0_SHIFT_Field",
           "qualifier": "",
-          "line": 592,
+          "line": 600,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -2615,7 +2615,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 592,
+                  "number": 600,
                   "children": [
                     {
                       "kind": "span",
@@ -2636,7 +2636,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE0_SHIFT_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L592C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L600C12"
                     },
                     {
                       "kind": "span",
@@ -2673,7 +2673,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP1_CTRL_LANE1_FORCE_MSB_Field",
           "qualifier": "",
-          "line": 682,
+          "line": 690,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -2684,7 +2684,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 682,
+                  "number": 690,
                   "children": [
                     {
                       "kind": "span",
@@ -2705,7 +2705,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE1_FORCE_MSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L682C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L690C12"
                     },
                     {
                       "kind": "span",
@@ -2742,7 +2742,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP1_CTRL_LANE1_MASK_LSB_Field",
           "qualifier": "",
-          "line": 680,
+          "line": 688,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -2753,7 +2753,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 680,
+                  "number": 688,
                   "children": [
                     {
                       "kind": "span",
@@ -2774,7 +2774,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE1_MASK_LSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L680C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L688C12"
                     },
                     {
                       "kind": "span",
@@ -2811,7 +2811,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP1_CTRL_LANE1_MASK_MSB_Field",
           "qualifier": "",
-          "line": 681,
+          "line": 689,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -2822,7 +2822,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 681,
+                  "number": 689,
                   "children": [
                     {
                       "kind": "span",
@@ -2843,7 +2843,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE1_MASK_MSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L681C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L689C12"
                     },
                     {
                       "kind": "span",
@@ -2880,7 +2880,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP1_CTRL_LANE1_SHIFT_Field",
           "qualifier": "",
-          "line": 679,
+          "line": 687,
           "column": 12,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -2891,7 +2891,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 679,
+                  "number": 687,
                   "children": [
                     {
                       "kind": "span",
@@ -2912,7 +2912,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE1_SHIFT_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L679C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L687C12"
                     },
                     {
                       "kind": "span",
@@ -2954,7 +2954,7 @@ GNATdoc.Documentation = {
         {
           "label": "DIV_CSR_Register",
           "qualifier": "",
-          "line": 390,
+          "line": 398,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -2965,7 +2965,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 390,
+                  "number": 398,
                   "children": [
                     {
                       "kind": "span",
@@ -2986,7 +2986,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DIV_CSR_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L390C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L398C9"
                     },
                     {
                       "kind": "span",
@@ -3012,7 +3012,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 391,
+                  "number": 399,
                   "children": [
                     {
                       "kind": "span",
@@ -3028,7 +3028,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 392,
+                  "number": 400,
                   "children": [
                     {
                       "kind": "span",
@@ -3044,7 +3044,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 393,
+                  "number": 401,
                   "children": [
                     {
                       "kind": "span",
@@ -3060,7 +3060,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 394,
+                  "number": 402,
                   "children": [
                     {
                       "kind": "span",
@@ -3076,7 +3076,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 395,
+                  "number": 403,
                   "children": [
                     {
                       "kind": "span",
@@ -3092,7 +3092,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 396,
+                  "number": 404,
                   "children": [
                     {
                       "kind": "span",
@@ -3103,7 +3103,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "READY",
-                      "href": "docs/rp2040_svd__sio___spec.html#L396C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L404C7"
                     },
                     {
                       "kind": "span",
@@ -3134,7 +3134,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 397,
+                  "number": 405,
                   "children": [
                     {
                       "kind": "span",
@@ -3150,7 +3150,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 398,
+                  "number": 406,
                   "children": [
                     {
                       "kind": "span",
@@ -3166,7 +3166,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 399,
+                  "number": 407,
                   "children": [
                     {
                       "kind": "span",
@@ -3182,7 +3182,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 400,
+                  "number": 408,
                   "children": [
                     {
                       "kind": "span",
@@ -3198,7 +3198,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 401,
+                  "number": 409,
                   "children": [
                     {
                       "kind": "span",
@@ -3214,7 +3214,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 402,
+                  "number": 410,
                   "children": [
                     {
                       "kind": "span",
@@ -3225,7 +3225,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DIRTY",
-                      "href": "docs/rp2040_svd__sio___spec.html#L402C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L410C7"
                     },
                     {
                       "kind": "span",
@@ -3256,7 +3256,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 403,
+                  "number": 411,
                   "children": [
                     {
                       "kind": "span",
@@ -3272,7 +3272,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 404,
+                  "number": 412,
                   "children": [
                     {
                       "kind": "span",
@@ -3283,7 +3283,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_2_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L404C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L412C7"
                     },
                     {
                       "kind": "span",
@@ -3315,7 +3315,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 405,
+                  "number": 413,
                   "children": [
                     {
                       "kind": "span",
@@ -3341,7 +3341,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 406,
+                  "number": 414,
                   "children": [
                     {
                       "kind": "span",
@@ -3362,7 +3362,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 407,
+                  "number": 415,
                   "children": [
                     {
                       "kind": "span",
@@ -3391,7 +3391,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "READY",
-              "line": 396,
+              "line": 404,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -3426,7 +3426,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DIRTY",
-              "line": 402,
+              "line": 410,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -3445,7 +3445,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_2_31",
-              "line": 404,
+              "line": 412,
               "column": 7,
               "type": {
                 "label": "HAL.UInt30",
@@ -3459,7 +3459,7 @@ GNATdoc.Documentation = {
         {
           "label": "FIFO_ST_Register",
           "qualifier": "",
-          "line": 360,
+          "line": 368,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -3470,7 +3470,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 360,
+                  "number": 368,
                   "children": [
                     {
                       "kind": "span",
@@ -3491,7 +3491,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "FIFO_ST_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L360C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L368C9"
                     },
                     {
                       "kind": "span",
@@ -3517,7 +3517,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 361,
+                  "number": 369,
                   "children": [
                     {
                       "kind": "span",
@@ -3533,7 +3533,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 362,
+                  "number": 370,
                   "children": [
                     {
                       "kind": "span",
@@ -3549,7 +3549,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 363,
+                  "number": 371,
                   "children": [
                     {
                       "kind": "span",
@@ -3560,7 +3560,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "VLD",
-                      "href": "docs/rp2040_svd__sio___spec.html#L363C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L371C7"
                     },
                     {
                       "kind": "span",
@@ -3611,7 +3611,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 364,
+                  "number": 372,
                   "children": [
                     {
                       "kind": "span",
@@ -3627,7 +3627,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 365,
+                  "number": 373,
                   "children": [
                     {
                       "kind": "span",
@@ -3643,7 +3643,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 366,
+                  "number": 374,
                   "children": [
                     {
                       "kind": "span",
@@ -3654,7 +3654,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RDY",
-                      "href": "docs/rp2040_svd__sio___spec.html#L366C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L374C7"
                     },
                     {
                       "kind": "span",
@@ -3705,7 +3705,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 367,
+                  "number": 375,
                   "children": [
                     {
                       "kind": "span",
@@ -3721,7 +3721,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 368,
+                  "number": 376,
                   "children": [
                     {
                       "kind": "span",
@@ -3737,7 +3737,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 369,
+                  "number": 377,
                   "children": [
                     {
                       "kind": "span",
@@ -3753,7 +3753,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 370,
+                  "number": 378,
                   "children": [
                     {
                       "kind": "span",
@@ -3764,7 +3764,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "WOF",
-                      "href": "docs/rp2040_svd__sio___spec.html#L370C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L378C7"
                     },
                     {
                       "kind": "span",
@@ -3815,7 +3815,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 371,
+                  "number": 379,
                   "children": [
                     {
                       "kind": "span",
@@ -3831,7 +3831,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 372,
+                  "number": 380,
                   "children": [
                     {
                       "kind": "span",
@@ -3847,7 +3847,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 373,
+                  "number": 381,
                   "children": [
                     {
                       "kind": "span",
@@ -3863,7 +3863,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 374,
+                  "number": 382,
                   "children": [
                     {
                       "kind": "span",
@@ -3874,7 +3874,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ROE",
-                      "href": "docs/rp2040_svd__sio___spec.html#L374C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L382C7"
                     },
                     {
                       "kind": "span",
@@ -3925,7 +3925,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 375,
+                  "number": 383,
                   "children": [
                     {
                       "kind": "span",
@@ -3941,7 +3941,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 376,
+                  "number": 384,
                   "children": [
                     {
                       "kind": "span",
@@ -3952,7 +3952,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_4_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L376C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L384C7"
                     },
                     {
                       "kind": "span",
@@ -4019,7 +4019,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 377,
+                  "number": 385,
                   "children": [
                     {
                       "kind": "span",
@@ -4045,7 +4045,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 378,
+                  "number": 386,
                   "children": [
                     {
                       "kind": "span",
@@ -4066,7 +4066,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 379,
+                  "number": 387,
                   "children": [
                     {
                       "kind": "span",
@@ -4119,7 +4119,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "VLD",
-              "line": 363,
+              "line": 371,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4142,7 +4142,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "RDY",
-              "line": 366,
+              "line": 374,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4169,7 +4169,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "WOF",
-              "line": 370,
+              "line": 378,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4196,7 +4196,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ROE",
-              "line": 374,
+              "line": 382,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -4215,7 +4215,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_4_31",
-              "line": 376,
+              "line": 384,
               "column": 7,
               "type": {
                 "label": "HAL.UInt28",
@@ -4531,7 +4531,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_HI_OE_CLR_Register",
           "qualifier": "",
-          "line": 320,
+          "line": 328,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -4542,7 +4542,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 320,
+                  "number": 328,
                   "children": [
                     {
                       "kind": "span",
@@ -4563,7 +4563,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_CLR_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L320C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L328C9"
                     },
                     {
                       "kind": "span",
@@ -4589,7 +4589,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 321,
+                  "number": 329,
                   "children": [
                     {
                       "kind": "span",
@@ -4599,13 +4599,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Perform an atomic bit-clear on GPIO_HI_OE, i.e. `GPIO_HI_OE &="
+                      "text": "--  Write-only. Perform an atomic bit-clear on GPIO_HI_OE, i.e."
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 322,
+                  "number": 330,
                   "children": [
                     {
                       "kind": "span",
@@ -4615,13 +4615,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  ~wdata`"
+                      "text": "--  `GPIO_HI_OE &= ~wdata`"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 323,
+                  "number": 331,
                   "children": [
                     {
                       "kind": "span",
@@ -4632,7 +4632,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_CLR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L323C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L331C7"
                     },
                     {
                       "kind": "span",
@@ -4653,7 +4653,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_CLR_GPIO_HI_OE_CLR_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L317C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L325C12"
                     },
                     {
                       "kind": "span",
@@ -4699,7 +4699,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 324,
+                  "number": 332,
                   "children": [
                     {
                       "kind": "span",
@@ -4715,7 +4715,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 325,
+                  "number": 333,
                   "children": [
                     {
                       "kind": "span",
@@ -4726,7 +4726,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_6_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L325C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L333C7"
                     },
                     {
                       "kind": "span",
@@ -4793,7 +4793,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 326,
+                  "number": 334,
                   "children": [
                     {
                       "kind": "span",
@@ -4819,7 +4819,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 327,
+                  "number": 335,
                   "children": [
                     {
                       "kind": "span",
@@ -4840,7 +4840,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 328,
+                  "number": 336,
                   "children": [
                     {
                       "kind": "span",
@@ -4869,11 +4869,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "GPIO_HI_OE_CLR",
-              "line": 323,
+              "line": 331,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_HI_OE_CLR_GPIO_HI_OE_CLR_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L317C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L325C12"
               },
               "description": [
                 {
@@ -4889,7 +4889,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_6_31",
-              "line": 325,
+              "line": 333,
               "column": 7,
               "type": {
                 "label": "HAL.UInt26",
@@ -4903,7 +4903,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_HI_OE_Register",
           "qualifier": "",
-          "line": 282,
+          "line": 289,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -4914,7 +4914,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 282,
+                  "number": 289,
                   "children": [
                     {
                       "kind": "span",
@@ -4935,7 +4935,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L282C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L289C9"
                     },
                     {
                       "kind": "span",
@@ -4961,7 +4961,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 283,
+                  "number": 290,
                   "children": [
                     {
                       "kind": "span",
@@ -4977,7 +4977,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 284,
+                  "number": 291,
                   "children": [
                     {
                       "kind": "span",
@@ -4993,7 +4993,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 285,
+                  "number": 292,
                   "children": [
                     {
                       "kind": "span",
@@ -5009,7 +5009,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 286,
+                  "number": 293,
                   "children": [
                     {
                       "kind": "span",
@@ -5025,7 +5025,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 287,
+                  "number": 294,
                   "children": [
                     {
                       "kind": "span",
@@ -5041,7 +5041,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 288,
+                  "number": 295,
                   "children": [
                     {
                       "kind": "span",
@@ -5052,7 +5052,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE",
-                      "href": "docs/rp2040_svd__sio___spec.html#L288C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L295C7"
                     },
                     {
                       "kind": "span",
@@ -5073,7 +5073,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_GPIO_HI_OE_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L279C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L286C12"
                     },
                     {
                       "kind": "span",
@@ -5119,7 +5119,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 289,
+                  "number": 296,
                   "children": [
                     {
                       "kind": "span",
@@ -5135,7 +5135,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 290,
+                  "number": 297,
                   "children": [
                     {
                       "kind": "span",
@@ -5146,7 +5146,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_6_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L290C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L297C7"
                     },
                     {
                       "kind": "span",
@@ -5213,7 +5213,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 291,
+                  "number": 298,
                   "children": [
                     {
                       "kind": "span",
@@ -5239,7 +5239,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 292,
+                  "number": 299,
                   "children": [
                     {
                       "kind": "span",
@@ -5260,7 +5260,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 293,
+                  "number": 300,
                   "children": [
                     {
                       "kind": "span",
@@ -5289,11 +5289,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "GPIO_HI_OE",
-              "line": 288,
+              "line": 295,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_HI_OE_GPIO_HI_OE_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L279C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L286C12"
               },
               "description": [
                 {
@@ -5309,7 +5309,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_6_31",
-              "line": 290,
+              "line": 297,
               "column": 7,
               "type": {
                 "label": "HAL.UInt26",
@@ -5323,7 +5323,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_HI_OE_SET_Register",
           "qualifier": "",
-          "line": 303,
+          "line": 310,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -5334,7 +5334,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 303,
+                  "number": 310,
                   "children": [
                     {
                       "kind": "span",
@@ -5355,7 +5355,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_SET_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L303C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L310C9"
                     },
                     {
                       "kind": "span",
@@ -5381,7 +5381,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 304,
+                  "number": 311,
                   "children": [
                     {
                       "kind": "span",
@@ -5391,13 +5391,29 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Perform an atomic bit-set on GPIO_HI_OE, i.e. `GPIO_HI_OE |= wdata`"
+                      "text": "--  Write-only. Perform an atomic bit-set on GPIO_HI_OE, i.e. `GPIO_HI_OE"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 305,
+                  "number": 312,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  |= wdata`"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 313,
                   "children": [
                     {
                       "kind": "span",
@@ -5408,7 +5424,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_SET",
-                      "href": "docs/rp2040_svd__sio___spec.html#L305C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L313C7"
                     },
                     {
                       "kind": "span",
@@ -5429,7 +5445,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_SET_GPIO_HI_OE_SET_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L300C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L307C12"
                     },
                     {
                       "kind": "span",
@@ -5475,7 +5491,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 306,
+                  "number": 314,
                   "children": [
                     {
                       "kind": "span",
@@ -5491,7 +5507,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 307,
+                  "number": 315,
                   "children": [
                     {
                       "kind": "span",
@@ -5502,7 +5518,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_6_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L307C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L315C7"
                     },
                     {
                       "kind": "span",
@@ -5569,7 +5585,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 308,
+                  "number": 316,
                   "children": [
                     {
                       "kind": "span",
@@ -5595,7 +5611,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 309,
+                  "number": 317,
                   "children": [
                     {
                       "kind": "span",
@@ -5616,7 +5632,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 310,
+                  "number": 318,
                   "children": [
                     {
                       "kind": "span",
@@ -5645,11 +5661,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "GPIO_HI_OE_SET",
-              "line": 305,
+              "line": 313,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_HI_OE_SET_GPIO_HI_OE_SET_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L300C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L307C12"
               },
               "description": [
                 {
@@ -5665,7 +5681,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_6_31",
-              "line": 307,
+              "line": 315,
               "column": 7,
               "type": {
                 "label": "HAL.UInt26",
@@ -5679,7 +5695,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_HI_OE_XOR_Register",
           "qualifier": "",
-          "line": 338,
+          "line": 346,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -5690,7 +5706,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 338,
+                  "number": 346,
                   "children": [
                     {
                       "kind": "span",
@@ -5711,7 +5727,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_XOR_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L338C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L346C9"
                     },
                     {
                       "kind": "span",
@@ -5737,7 +5753,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 339,
+                  "number": 347,
                   "children": [
                     {
                       "kind": "span",
@@ -5747,13 +5763,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Perform an atomic bitwise XOR on GPIO_HI_OE, i.e. `GPIO_HI_OE ^="
+                      "text": "--  Write-only. Perform an atomic bitwise XOR on GPIO_HI_OE, i.e."
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 340,
+                  "number": 348,
                   "children": [
                     {
                       "kind": "span",
@@ -5763,13 +5779,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  wdata`"
+                      "text": "--  `GPIO_HI_OE ^= wdata`"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 341,
+                  "number": 349,
                   "children": [
                     {
                       "kind": "span",
@@ -5780,7 +5796,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_XOR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L341C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L349C7"
                     },
                     {
                       "kind": "span",
@@ -5801,7 +5817,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_XOR_GPIO_HI_OE_XOR_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L335C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L343C12"
                     },
                     {
                       "kind": "span",
@@ -5847,7 +5863,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 342,
+                  "number": 350,
                   "children": [
                     {
                       "kind": "span",
@@ -5863,7 +5879,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 343,
+                  "number": 351,
                   "children": [
                     {
                       "kind": "span",
@@ -5874,7 +5890,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_6_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L343C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L351C7"
                     },
                     {
                       "kind": "span",
@@ -5941,7 +5957,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 344,
+                  "number": 352,
                   "children": [
                     {
                       "kind": "span",
@@ -5967,7 +5983,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 345,
+                  "number": 353,
                   "children": [
                     {
                       "kind": "span",
@@ -5988,7 +6004,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 346,
+                  "number": 354,
                   "children": [
                     {
                       "kind": "span",
@@ -6017,11 +6033,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "GPIO_HI_OE_XOR",
-              "line": 341,
+              "line": 349,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_HI_OE_XOR_GPIO_HI_OE_XOR_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L335C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L343C12"
               },
               "description": [
                 {
@@ -6037,7 +6053,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_6_31",
-              "line": 343,
+              "line": 351,
               "column": 7,
               "type": {
                 "label": "HAL.UInt26",
@@ -6051,7 +6067,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_HI_OUT_CLR_Register",
           "qualifier": "",
-          "line": 246,
+          "line": 253,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -6062,7 +6078,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 246,
+                  "number": 253,
                   "children": [
                     {
                       "kind": "span",
@@ -6083,7 +6099,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_CLR_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L246C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L253C9"
                     },
                     {
                       "kind": "span",
@@ -6109,7 +6125,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 247,
+                  "number": 254,
                   "children": [
                     {
                       "kind": "span",
@@ -6119,13 +6135,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Perform an atomic bit-clear on GPIO_HI_OUT, i.e. `GPIO_HI_OUT &="
+                      "text": "--  Write-only. Perform an atomic bit-clear on GPIO_HI_OUT, i.e."
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 248,
+                  "number": 255,
                   "children": [
                     {
                       "kind": "span",
@@ -6135,13 +6151,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  ~wdata`"
+                      "text": "--  `GPIO_HI_OUT &= ~wdata`"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 249,
+                  "number": 256,
                   "children": [
                     {
                       "kind": "span",
@@ -6152,7 +6168,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_CLR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L249C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L256C7"
                     },
                     {
                       "kind": "span",
@@ -6173,7 +6189,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_CLR_GPIO_HI_OUT_CLR_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L243C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L250C12"
                     },
                     {
                       "kind": "span",
@@ -6219,7 +6235,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 250,
+                  "number": 257,
                   "children": [
                     {
                       "kind": "span",
@@ -6235,7 +6251,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 251,
+                  "number": 258,
                   "children": [
                     {
                       "kind": "span",
@@ -6246,7 +6262,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_6_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L251C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L258C7"
                     },
                     {
                       "kind": "span",
@@ -6313,7 +6329,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 252,
+                  "number": 259,
                   "children": [
                     {
                       "kind": "span",
@@ -6339,7 +6355,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 253,
+                  "number": 260,
                   "children": [
                     {
                       "kind": "span",
@@ -6360,7 +6376,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 254,
+                  "number": 261,
                   "children": [
                     {
                       "kind": "span",
@@ -6389,11 +6405,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "GPIO_HI_OUT_CLR",
-              "line": 249,
+              "line": 256,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_HI_OUT_CLR_GPIO_HI_OUT_CLR_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L243C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L250C12"
               },
               "description": [
                 {
@@ -6409,7 +6425,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_6_31",
-              "line": 251,
+              "line": 258,
               "column": 7,
               "type": {
                 "label": "HAL.UInt26",
@@ -6423,7 +6439,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_HI_OUT_Register",
           "qualifier": "",
-          "line": 207,
+          "line": 213,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -6434,7 +6450,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 207,
+                  "number": 213,
                   "children": [
                     {
                       "kind": "span",
@@ -6455,7 +6471,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L207C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L213C9"
                     },
                     {
                       "kind": "span",
@@ -6481,7 +6497,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 208,
+                  "number": 214,
                   "children": [
                     {
                       "kind": "span",
@@ -6497,7 +6513,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 209,
+                  "number": 215,
                   "children": [
                     {
                       "kind": "span",
@@ -6513,7 +6529,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 210,
+                  "number": 216,
                   "children": [
                     {
                       "kind": "span",
@@ -6529,7 +6545,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 211,
+                  "number": 217,
                   "children": [
                     {
                       "kind": "span",
@@ -6545,7 +6561,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 212,
+                  "number": 218,
                   "children": [
                     {
                       "kind": "span",
@@ -6561,7 +6577,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 213,
+                  "number": 219,
                   "children": [
                     {
                       "kind": "span",
@@ -6577,7 +6593,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 214,
+                  "number": 220,
                   "children": [
                     {
                       "kind": "span",
@@ -6588,7 +6604,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT",
-                      "href": "docs/rp2040_svd__sio___spec.html#L214C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L220C7"
                     },
                     {
                       "kind": "span",
@@ -6609,7 +6625,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_GPIO_HI_OUT_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L204C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L210C12"
                     },
                     {
                       "kind": "span",
@@ -6655,7 +6671,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 215,
+                  "number": 221,
                   "children": [
                     {
                       "kind": "span",
@@ -6671,7 +6687,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 216,
+                  "number": 222,
                   "children": [
                     {
                       "kind": "span",
@@ -6682,7 +6698,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_6_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L216C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L222C7"
                     },
                     {
                       "kind": "span",
@@ -6749,7 +6765,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 217,
+                  "number": 223,
                   "children": [
                     {
                       "kind": "span",
@@ -6775,7 +6791,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 218,
+                  "number": 224,
                   "children": [
                     {
                       "kind": "span",
@@ -6796,7 +6812,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 219,
+                  "number": 225,
                   "children": [
                     {
                       "kind": "span",
@@ -6825,11 +6841,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "GPIO_HI_OUT",
-              "line": 214,
+              "line": 220,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_HI_OUT_GPIO_HI_OUT_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L204C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L210C12"
               },
               "description": [
                 {
@@ -6845,7 +6861,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_6_31",
-              "line": 216,
+              "line": 222,
               "column": 7,
               "type": {
                 "label": "HAL.UInt26",
@@ -6859,7 +6875,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_HI_OUT_SET_Register",
           "qualifier": "",
-          "line": 229,
+          "line": 235,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -6870,7 +6886,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 229,
+                  "number": 235,
                   "children": [
                     {
                       "kind": "span",
@@ -6891,7 +6907,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_SET_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L229C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L235C9"
                     },
                     {
                       "kind": "span",
@@ -6917,7 +6933,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 230,
+                  "number": 236,
                   "children": [
                     {
                       "kind": "span",
@@ -6927,13 +6943,29 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Perform an atomic bit-set on GPIO_HI_OUT, i.e. `GPIO_HI_OUT |= wdata`"
+                      "text": "--  Write-only. Perform an atomic bit-set on GPIO_HI_OUT, i.e."
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 231,
+                  "number": 237,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  `GPIO_HI_OUT |= wdata`"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 238,
                   "children": [
                     {
                       "kind": "span",
@@ -6944,7 +6976,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_SET",
-                      "href": "docs/rp2040_svd__sio___spec.html#L231C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L238C7"
                     },
                     {
                       "kind": "span",
@@ -6965,7 +6997,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_SET_GPIO_HI_OUT_SET_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L226C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L232C12"
                     },
                     {
                       "kind": "span",
@@ -7011,7 +7043,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 232,
+                  "number": 239,
                   "children": [
                     {
                       "kind": "span",
@@ -7027,7 +7059,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 233,
+                  "number": 240,
                   "children": [
                     {
                       "kind": "span",
@@ -7038,7 +7070,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_6_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L233C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L240C7"
                     },
                     {
                       "kind": "span",
@@ -7105,7 +7137,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 234,
+                  "number": 241,
                   "children": [
                     {
                       "kind": "span",
@@ -7131,7 +7163,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 235,
+                  "number": 242,
                   "children": [
                     {
                       "kind": "span",
@@ -7152,7 +7184,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 236,
+                  "number": 243,
                   "children": [
                     {
                       "kind": "span",
@@ -7181,11 +7213,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "GPIO_HI_OUT_SET",
-              "line": 231,
+              "line": 238,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_HI_OUT_SET_GPIO_HI_OUT_SET_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L226C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L232C12"
               },
               "description": [
                 {
@@ -7201,7 +7233,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_6_31",
-              "line": 233,
+              "line": 240,
               "column": 7,
               "type": {
                 "label": "HAL.UInt26",
@@ -7215,7 +7247,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_HI_OUT_XOR_Register",
           "qualifier": "",
-          "line": 264,
+          "line": 271,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -7226,7 +7258,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 264,
+                  "number": 271,
                   "children": [
                     {
                       "kind": "span",
@@ -7247,7 +7279,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_XOR_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L264C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L271C9"
                     },
                     {
                       "kind": "span",
@@ -7273,7 +7305,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 265,
+                  "number": 272,
                   "children": [
                     {
                       "kind": "span",
@@ -7283,13 +7315,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Perform an atomic bitwise XOR on GPIO_HI_OUT, i.e. `GPIO_HI_OUT ^="
+                      "text": "--  Write-only. Perform an atomic bitwise XOR on GPIO_HI_OUT, i.e."
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 266,
+                  "number": 273,
                   "children": [
                     {
                       "kind": "span",
@@ -7299,13 +7331,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  wdata`"
+                      "text": "--  `GPIO_HI_OUT ^= wdata`"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 267,
+                  "number": 274,
                   "children": [
                     {
                       "kind": "span",
@@ -7316,7 +7348,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_XOR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L267C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L274C7"
                     },
                     {
                       "kind": "span",
@@ -7337,7 +7369,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_XOR_GPIO_HI_OUT_XOR_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L261C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L268C12"
                     },
                     {
                       "kind": "span",
@@ -7383,7 +7415,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 268,
+                  "number": 275,
                   "children": [
                     {
                       "kind": "span",
@@ -7399,7 +7431,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 269,
+                  "number": 276,
                   "children": [
                     {
                       "kind": "span",
@@ -7410,7 +7442,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_6_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L269C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L276C7"
                     },
                     {
                       "kind": "span",
@@ -7477,7 +7509,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 270,
+                  "number": 277,
                   "children": [
                     {
                       "kind": "span",
@@ -7503,7 +7535,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 271,
+                  "number": 278,
                   "children": [
                     {
                       "kind": "span",
@@ -7524,7 +7556,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 272,
+                  "number": 279,
                   "children": [
                     {
                       "kind": "span",
@@ -7553,11 +7585,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "GPIO_HI_OUT_XOR",
-              "line": 267,
+              "line": 274,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_HI_OUT_XOR_GPIO_HI_OUT_XOR_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L261C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L268C12"
               },
               "description": [
                 {
@@ -7573,7 +7605,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_6_31",
-              "line": 269,
+              "line": 276,
               "column": 7,
               "type": {
                 "label": "HAL.UInt26",
@@ -7873,7 +7905,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_OE_CLR_Register",
           "qualifier": "",
-          "line": 173,
+          "line": 177,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -7884,7 +7916,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 173,
+                  "number": 177,
                   "children": [
                     {
                       "kind": "span",
@@ -7905,7 +7937,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_CLR_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L173C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L177C9"
                     },
                     {
                       "kind": "span",
@@ -7931,7 +7963,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 174,
+                  "number": 178,
                   "children": [
                     {
                       "kind": "span",
@@ -7941,13 +7973,29 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Perform an atomic bit-clear on GPIO_OE, i.e. `GPIO_OE &= ~wdata`"
+                      "text": "--  Write-only. Perform an atomic bit-clear on GPIO_OE, i.e. `GPIO_OE &="
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 175,
+                  "number": 179,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  ~wdata`"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 180,
                   "children": [
                     {
                       "kind": "span",
@@ -7958,7 +8006,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_CLR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L175C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L180C7"
                     },
                     {
                       "kind": "span",
@@ -7979,7 +8027,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_CLR_GPIO_OE_CLR_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L170C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L174C12"
                     },
                     {
                       "kind": "span",
@@ -8025,7 +8073,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 176,
+                  "number": 181,
                   "children": [
                     {
                       "kind": "span",
@@ -8041,7 +8089,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 177,
+                  "number": 182,
                   "children": [
                     {
                       "kind": "span",
@@ -8052,7 +8100,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_30_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L177C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L182C7"
                     },
                     {
                       "kind": "span",
@@ -8119,7 +8167,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 178,
+                  "number": 183,
                   "children": [
                     {
                       "kind": "span",
@@ -8145,7 +8193,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 179,
+                  "number": 184,
                   "children": [
                     {
                       "kind": "span",
@@ -8166,7 +8214,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 180,
+                  "number": 185,
                   "children": [
                     {
                       "kind": "span",
@@ -8195,11 +8243,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "GPIO_OE_CLR",
-              "line": 175,
+              "line": 180,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_OE_CLR_GPIO_OE_CLR_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L170C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L174C12"
               },
               "description": [
                 {
@@ -8215,7 +8263,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_30_31",
-              "line": 177,
+              "line": 182,
               "column": 7,
               "type": {
                 "label": "HAL.UInt2",
@@ -8229,7 +8277,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_OE_Register",
           "qualifier": "",
-          "line": 135,
+          "line": 138,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -8240,7 +8288,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 135,
+                  "number": 138,
                   "children": [
                     {
                       "kind": "span",
@@ -8261,7 +8309,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L135C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L138C9"
                     },
                     {
                       "kind": "span",
@@ -8287,7 +8335,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 136,
+                  "number": 139,
                   "children": [
                     {
                       "kind": "span",
@@ -8303,7 +8351,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 137,
+                  "number": 140,
                   "children": [
                     {
                       "kind": "span",
@@ -8319,7 +8367,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 138,
+                  "number": 141,
                   "children": [
                     {
                       "kind": "span",
@@ -8335,7 +8383,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 139,
+                  "number": 142,
                   "children": [
                     {
                       "kind": "span",
@@ -8351,7 +8399,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 140,
+                  "number": 143,
                   "children": [
                     {
                       "kind": "span",
@@ -8367,7 +8415,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 141,
+                  "number": 144,
                   "children": [
                     {
                       "kind": "span",
@@ -8378,7 +8426,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE",
-                      "href": "docs/rp2040_svd__sio___spec.html#L141C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L144C7"
                     },
                     {
                       "kind": "span",
@@ -8399,7 +8447,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_GPIO_OE_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L132C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L135C12"
                     },
                     {
                       "kind": "span",
@@ -8445,7 +8493,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 142,
+                  "number": 145,
                   "children": [
                     {
                       "kind": "span",
@@ -8461,7 +8509,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 143,
+                  "number": 146,
                   "children": [
                     {
                       "kind": "span",
@@ -8472,7 +8520,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_30_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L143C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L146C7"
                     },
                     {
                       "kind": "span",
@@ -8539,7 +8587,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 144,
+                  "number": 147,
                   "children": [
                     {
                       "kind": "span",
@@ -8565,7 +8613,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 145,
+                  "number": 148,
                   "children": [
                     {
                       "kind": "span",
@@ -8586,7 +8634,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 146,
+                  "number": 149,
                   "children": [
                     {
                       "kind": "span",
@@ -8615,11 +8663,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "GPIO_OE",
-              "line": 141,
+              "line": 144,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_OE_GPIO_OE_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L132C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L135C12"
               },
               "description": [
                 {
@@ -8635,7 +8683,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_30_31",
-              "line": 143,
+              "line": 146,
               "column": 7,
               "type": {
                 "label": "HAL.UInt2",
@@ -8649,7 +8697,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_OE_SET_Register",
           "qualifier": "",
-          "line": 156,
+          "line": 159,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -8660,7 +8708,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 156,
+                  "number": 159,
                   "children": [
                     {
                       "kind": "span",
@@ -8681,7 +8729,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_SET_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L156C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L159C9"
                     },
                     {
                       "kind": "span",
@@ -8707,7 +8755,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 157,
+                  "number": 160,
                   "children": [
                     {
                       "kind": "span",
@@ -8717,13 +8765,29 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Perform an atomic bit-set on GPIO_OE, i.e. `GPIO_OE |= wdata`"
+                      "text": "--  Write-only. Perform an atomic bit-set on GPIO_OE, i.e. `GPIO_OE |="
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 158,
+                  "number": 161,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  wdata`"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 162,
                   "children": [
                     {
                       "kind": "span",
@@ -8734,7 +8798,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_SET",
-                      "href": "docs/rp2040_svd__sio___spec.html#L158C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L162C7"
                     },
                     {
                       "kind": "span",
@@ -8755,7 +8819,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_SET_GPIO_OE_SET_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L153C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L156C12"
                     },
                     {
                       "kind": "span",
@@ -8801,7 +8865,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 159,
+                  "number": 163,
                   "children": [
                     {
                       "kind": "span",
@@ -8817,7 +8881,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 160,
+                  "number": 164,
                   "children": [
                     {
                       "kind": "span",
@@ -8828,7 +8892,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_30_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L160C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L164C7"
                     },
                     {
                       "kind": "span",
@@ -8895,7 +8959,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 161,
+                  "number": 165,
                   "children": [
                     {
                       "kind": "span",
@@ -8921,7 +8985,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 162,
+                  "number": 166,
                   "children": [
                     {
                       "kind": "span",
@@ -8942,7 +9006,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 163,
+                  "number": 167,
                   "children": [
                     {
                       "kind": "span",
@@ -8971,11 +9035,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "GPIO_OE_SET",
-              "line": 158,
+              "line": 162,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_OE_SET_GPIO_OE_SET_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L153C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L156C12"
               },
               "description": [
                 {
@@ -8991,7 +9055,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_30_31",
-              "line": 160,
+              "line": 164,
               "column": 7,
               "type": {
                 "label": "HAL.UInt2",
@@ -9005,7 +9069,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_OE_XOR_Register",
           "qualifier": "",
-          "line": 190,
+          "line": 195,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -9016,7 +9080,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 190,
+                  "number": 195,
                   "children": [
                     {
                       "kind": "span",
@@ -9037,7 +9101,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_XOR_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L190C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L195C9"
                     },
                     {
                       "kind": "span",
@@ -9063,7 +9127,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 191,
+                  "number": 196,
                   "children": [
                     {
                       "kind": "span",
@@ -9073,13 +9137,29 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Perform an atomic bitwise XOR on GPIO_OE, i.e. `GPIO_OE ^= wdata`"
+                      "text": "--  Write-only. Perform an atomic bitwise XOR on GPIO_OE, i.e. `GPIO_OE"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 192,
+                  "number": 197,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  ^= wdata`"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 198,
                   "children": [
                     {
                       "kind": "span",
@@ -9090,7 +9170,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_XOR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L192C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L198C7"
                     },
                     {
                       "kind": "span",
@@ -9111,7 +9191,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_XOR_GPIO_OE_XOR_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L187C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L192C12"
                     },
                     {
                       "kind": "span",
@@ -9157,7 +9237,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 193,
+                  "number": 199,
                   "children": [
                     {
                       "kind": "span",
@@ -9173,7 +9253,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 194,
+                  "number": 200,
                   "children": [
                     {
                       "kind": "span",
@@ -9184,7 +9264,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_30_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L194C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L200C7"
                     },
                     {
                       "kind": "span",
@@ -9251,7 +9331,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 195,
+                  "number": 201,
                   "children": [
                     {
                       "kind": "span",
@@ -9277,7 +9357,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 196,
+                  "number": 202,
                   "children": [
                     {
                       "kind": "span",
@@ -9298,7 +9378,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 197,
+                  "number": 203,
                   "children": [
                     {
                       "kind": "span",
@@ -9327,11 +9407,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "GPIO_OE_XOR",
-              "line": 192,
+              "line": 198,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_OE_XOR_GPIO_OE_XOR_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L187C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L192C12"
               },
               "description": [
                 {
@@ -9347,7 +9427,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_30_31",
-              "line": 194,
+              "line": 200,
               "column": 7,
               "type": {
                 "label": "HAL.UInt2",
@@ -9361,7 +9441,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_OUT_CLR_Register",
           "qualifier": "",
-          "line": 101,
+          "line": 102,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -9372,7 +9452,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 101,
+                  "number": 102,
                   "children": [
                     {
                       "kind": "span",
@@ -9393,7 +9473,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OUT_CLR_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L101C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L102C9"
                     },
                     {
                       "kind": "span",
@@ -9419,7 +9499,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 102,
+                  "number": 103,
                   "children": [
                     {
                       "kind": "span",
@@ -9429,13 +9509,29 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Perform an atomic bit-clear on GPIO_OUT, i.e. `GPIO_OUT &= ~wdata`"
+                      "text": "--  Write-only. Perform an atomic bit-clear on GPIO_OUT, i.e. `GPIO_OUT"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 103,
+                  "number": 104,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  &= ~wdata`"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 105,
                   "children": [
                     {
                       "kind": "span",
@@ -9446,7 +9542,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OUT_CLR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L103C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L105C7"
                     },
                     {
                       "kind": "span",
@@ -9467,101 +9563,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OUT_CLR_GPIO_OUT_CLR_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L98C12"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "number",
-                      "text": "16"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "#"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "number",
-                      "text": "0"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "#"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 104,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  unspecified"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 105,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Reserved_30_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L105C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt2",
-                      "href": "docs/hal___spec.html#L39C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L99C12"
                     },
                     {
                       "kind": "span",
@@ -9612,6 +9614,100 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  unspecified"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 107,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Reserved_30_31",
+                      "href": "docs/rp2040_svd__sio___spec.html#L107C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt2",
+                      "href": "docs/hal___spec.html#L39C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 108,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
                       "text": "   "
                     },
                     {
@@ -9633,7 +9729,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 107,
+                  "number": 109,
                   "children": [
                     {
                       "kind": "span",
@@ -9654,7 +9750,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 108,
+                  "number": 110,
                   "children": [
                     {
                       "kind": "span",
@@ -9683,11 +9779,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "GPIO_OUT_CLR",
-              "line": 103,
+              "line": 105,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_OUT_CLR_GPIO_OUT_CLR_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L98C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L99C12"
               },
               "description": [
                 {
@@ -9703,7 +9799,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_30_31",
-              "line": 105,
+              "line": 107,
               "column": 7,
               "type": {
                 "label": "HAL.UInt2",
@@ -10221,7 +10317,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Perform an atomic bit-set on GPIO_OUT, i.e. `GPIO_OUT |= wdata`"
+                      "text": "--  Write-only. Perform an atomic bit-set on GPIO_OUT, i.e. `GPIO_OUT |="
                     }
                   ]
                 },
@@ -10236,9 +10332,25 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  wdata`"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 87,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OUT_SET",
-                      "href": "docs/rp2040_svd__sio___spec.html#L86C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L87C7"
                     },
                     {
                       "kind": "span",
@@ -10305,7 +10417,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 87,
+                  "number": 88,
                   "children": [
                     {
                       "kind": "span",
@@ -10321,7 +10433,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 88,
+                  "number": 89,
                   "children": [
                     {
                       "kind": "span",
@@ -10332,7 +10444,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_30_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L88C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L89C7"
                     },
                     {
                       "kind": "span",
@@ -10399,7 +10511,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 89,
+                  "number": 90,
                   "children": [
                     {
                       "kind": "span",
@@ -10425,7 +10537,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 90,
+                  "number": 91,
                   "children": [
                     {
                       "kind": "span",
@@ -10446,7 +10558,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 91,
+                  "number": 92,
                   "children": [
                     {
                       "kind": "span",
@@ -10475,7 +10587,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "GPIO_OUT_SET",
-              "line": 86,
+              "line": 87,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_OUT_SET_GPIO_OUT_SET_Field",
@@ -10495,7 +10607,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_30_31",
-              "line": 88,
+              "line": 89,
               "column": 7,
               "type": {
                 "label": "HAL.UInt2",
@@ -10509,7 +10621,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_OUT_XOR_Register",
           "qualifier": "",
-          "line": 118,
+          "line": 120,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -10520,7 +10632,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 118,
+                  "number": 120,
                   "children": [
                     {
                       "kind": "span",
@@ -10541,7 +10653,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OUT_XOR_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L118C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L120C9"
                     },
                     {
                       "kind": "span",
@@ -10567,7 +10679,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 119,
+                  "number": 121,
                   "children": [
                     {
                       "kind": "span",
@@ -10577,13 +10689,29 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Perform an atomic bitwise XOR on GPIO_OUT, i.e. `GPIO_OUT ^= wdata`"
+                      "text": "--  Write-only. Perform an atomic bitwise XOR on GPIO_OUT, i.e. `GPIO_OUT"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 120,
+                  "number": 122,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  ^= wdata`"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 123,
                   "children": [
                     {
                       "kind": "span",
@@ -10594,7 +10722,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OUT_XOR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L120C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L123C7"
                     },
                     {
                       "kind": "span",
@@ -10615,7 +10743,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OUT_XOR_GPIO_OUT_XOR_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L115C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L117C12"
                     },
                     {
                       "kind": "span",
@@ -10661,7 +10789,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 121,
+                  "number": 124,
                   "children": [
                     {
                       "kind": "span",
@@ -10677,7 +10805,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 122,
+                  "number": 125,
                   "children": [
                     {
                       "kind": "span",
@@ -10688,7 +10816,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_30_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L122C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L125C7"
                     },
                     {
                       "kind": "span",
@@ -10755,7 +10883,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 123,
+                  "number": 126,
                   "children": [
                     {
                       "kind": "span",
@@ -10781,7 +10909,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 124,
+                  "number": 127,
                   "children": [
                     {
                       "kind": "span",
@@ -10802,7 +10930,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 125,
+                  "number": 128,
                   "children": [
                     {
                       "kind": "span",
@@ -10831,11 +10959,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "GPIO_OUT_XOR",
-              "line": 120,
+              "line": 123,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_OUT_XOR_GPIO_OUT_XOR_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L115C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L117C12"
               },
               "description": [
                 {
@@ -10851,7 +10979,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_30_31",
-              "line": 122,
+              "line": 125,
               "column": 7,
               "type": {
                 "label": "HAL.UInt2",
@@ -10865,7 +10993,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP0_ACCUM0_ADD_Register",
           "qualifier": "",
-          "line": 560,
+          "line": 568,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -10876,7 +11004,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 560,
+                  "number": 568,
                   "children": [
                     {
                       "kind": "span",
@@ -10897,7 +11025,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_ACCUM0_ADD_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L560C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L568C9"
                     },
                     {
                       "kind": "span",
@@ -10923,7 +11051,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 561,
+                  "number": 569,
                   "children": [
                     {
                       "kind": "span",
@@ -10934,7 +11062,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_ACCUM0_ADD",
-                      "href": "docs/rp2040_svd__sio___spec.html#L561C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L569C7"
                     },
                     {
                       "kind": "span",
@@ -10955,7 +11083,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_ACCUM0_ADD_INTERP0_ACCUM0_ADD_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L556C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L564C12"
                     },
                     {
                       "kind": "span",
@@ -10971,7 +11099,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 562,
+                  "number": 570,
                   "children": [
                     {
                       "kind": "span",
@@ -11007,7 +11135,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 563,
+                  "number": 571,
                   "children": [
                     {
                       "kind": "span",
@@ -11023,7 +11151,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 564,
+                  "number": 572,
                   "children": [
                     {
                       "kind": "span",
@@ -11034,7 +11162,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_24_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L564C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L572C7"
                     },
                     {
                       "kind": "span",
@@ -11101,7 +11229,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 565,
+                  "number": 573,
                   "children": [
                     {
                       "kind": "span",
@@ -11127,7 +11255,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 566,
+                  "number": 574,
                   "children": [
                     {
                       "kind": "span",
@@ -11148,7 +11276,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 567,
+                  "number": 575,
                   "children": [
                     {
                       "kind": "span",
@@ -11181,11 +11309,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "INTERP0_ACCUM0_ADD",
-              "line": 561,
+              "line": 569,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP0_ACCUM0_ADD_INTERP0_ACCUM0_ADD_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L556C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L564C12"
               },
               "description": [
                 {
@@ -11201,7 +11329,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_24_31",
-              "line": 564,
+              "line": 572,
               "column": 7,
               "type": {
                 "label": "HAL.UInt8",
@@ -11215,7 +11343,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP0_ACCUM1_ADD_Register",
           "qualifier": "",
-          "line": 578,
+          "line": 586,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -11226,7 +11354,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 578,
+                  "number": 586,
                   "children": [
                     {
                       "kind": "span",
@@ -11247,7 +11375,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_ACCUM1_ADD_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L578C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L586C9"
                     },
                     {
                       "kind": "span",
@@ -11273,7 +11401,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 579,
+                  "number": 587,
                   "children": [
                     {
                       "kind": "span",
@@ -11284,7 +11412,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_ACCUM1_ADD",
-                      "href": "docs/rp2040_svd__sio___spec.html#L579C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L587C7"
                     },
                     {
                       "kind": "span",
@@ -11305,7 +11433,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_ACCUM1_ADD_INTERP0_ACCUM1_ADD_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L574C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L582C12"
                     },
                     {
                       "kind": "span",
@@ -11321,7 +11449,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 580,
+                  "number": 588,
                   "children": [
                     {
                       "kind": "span",
@@ -11357,7 +11485,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 581,
+                  "number": 589,
                   "children": [
                     {
                       "kind": "span",
@@ -11373,7 +11501,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 582,
+                  "number": 590,
                   "children": [
                     {
                       "kind": "span",
@@ -11384,7 +11512,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_24_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L582C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L590C7"
                     },
                     {
                       "kind": "span",
@@ -11451,7 +11579,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 583,
+                  "number": 591,
                   "children": [
                     {
                       "kind": "span",
@@ -11477,7 +11605,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 584,
+                  "number": 592,
                   "children": [
                     {
                       "kind": "span",
@@ -11498,7 +11626,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 585,
+                  "number": 593,
                   "children": [
                     {
                       "kind": "span",
@@ -11531,11 +11659,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "INTERP0_ACCUM1_ADD",
-              "line": 579,
+              "line": 587,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP0_ACCUM1_ADD_INTERP0_ACCUM1_ADD_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L574C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L582C12"
               },
               "description": [
                 {
@@ -11551,7 +11679,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_24_31",
-              "line": 582,
+              "line": 590,
               "column": 7,
               "type": {
                 "label": "HAL.UInt8",
@@ -11565,7 +11693,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP0_CTRL_LANE0_OVERF_Field",
           "qualifier": "",
-          "line": 425,
+          "line": 433,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -11576,7 +11704,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 425,
+                  "number": 433,
                   "children": [
                     {
                       "kind": "span",
@@ -11597,13 +11725,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE0_OVERF_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L425C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L433C9"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 426,
+                  "number": 434,
                   "children": [
                     {
                       "kind": "span",
@@ -11619,7 +11747,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "As_Array",
-                      "href": "docs/rp2040_svd__sio___spec.html#L426C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L434C7"
                     },
                     {
                       "kind": "span",
@@ -11670,7 +11798,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 427,
+                  "number": 435,
                   "children": [
                     {
                       "kind": "span",
@@ -11696,7 +11824,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 428,
+                  "number": 436,
                   "children": [
                     {
                       "kind": "span",
@@ -11732,7 +11860,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 429,
+                  "number": 437,
                   "children": [
                     {
                       "kind": "span",
@@ -11768,7 +11896,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 430,
+                  "number": 438,
                   "children": [
                     {
                       "kind": "span",
@@ -11784,7 +11912,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 431,
+                  "number": 439,
                   "children": [
                     {
                       "kind": "span",
@@ -11795,7 +11923,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Val",
-                      "href": "docs/rp2040_svd__sio___spec.html#L431C13"
+                      "href": "docs/rp2040_svd__sio___spec.html#L439C13"
                     },
                     {
                       "kind": "span",
@@ -11827,7 +11955,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 432,
+                  "number": 440,
                   "children": [
                     {
                       "kind": "span",
@@ -11863,7 +11991,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 433,
+                  "number": 441,
                   "children": [
                     {
                       "kind": "span",
@@ -11879,7 +12007,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 434,
+                  "number": 442,
                   "children": [
                     {
                       "kind": "span",
@@ -11890,7 +12018,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Arr",
-                      "href": "docs/rp2040_svd__sio___spec.html#L434C13"
+                      "href": "docs/rp2040_svd__sio___spec.html#L442C13"
                     },
                     {
                       "kind": "span",
@@ -11911,7 +12039,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE0_OVERF_Field_Array",
-                      "href": "docs/rp2040_svd__sio___spec.html#L421C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L429C9"
                     },
                     {
                       "kind": "span",
@@ -11922,7 +12050,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 435,
+                  "number": 443,
                   "children": [
                     {
                       "kind": "span",
@@ -11953,7 +12081,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 436,
+                  "number": 444,
                   "children": [
                     {
                       "kind": "span",
@@ -11979,7 +12107,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 437,
+                  "number": 445,
                   "children": [
                     {
                       "kind": "span",
@@ -12018,7 +12146,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "As_Array",
-              "line": 426,
+              "line": 434,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -12028,7 +12156,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Val",
-              "line": 431,
+              "line": 439,
               "column": 13,
               "type": {
                 "label": "HAL.UInt3",
@@ -12048,11 +12176,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Arr",
-              "line": 434,
+              "line": 442,
               "column": 13,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP0_CTRL_LANE0_OVERF_Field_Array",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L421C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L429C9"
               },
               "description": [
                 {
@@ -12071,7 +12199,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP0_CTRL_LANE0_Register",
           "qualifier": "",
-          "line": 445,
+          "line": 453,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -12082,7 +12210,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 445,
+                  "number": 453,
                   "children": [
                     {
                       "kind": "span",
@@ -12103,7 +12231,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE0_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L445C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L453C9"
                     },
                     {
                       "kind": "span",
@@ -12129,7 +12257,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 446,
+                  "number": 454,
                   "children": [
                     {
                       "kind": "span",
@@ -12145,7 +12273,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 447,
+                  "number": 455,
                   "children": [
                     {
                       "kind": "span",
@@ -12156,7 +12284,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SHIFT",
-                      "href": "docs/rp2040_svd__sio___spec.html#L447C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L455C7"
                     },
                     {
                       "kind": "span",
@@ -12177,7 +12305,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE0_SHIFT_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L415C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L423C12"
                     },
                     {
                       "kind": "span",
@@ -12223,7 +12351,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 448,
+                  "number": 456,
                   "children": [
                     {
                       "kind": "span",
@@ -12239,7 +12367,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 449,
+                  "number": 457,
                   "children": [
                     {
                       "kind": "span",
@@ -12250,7 +12378,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "MASK_LSB",
-                      "href": "docs/rp2040_svd__sio___spec.html#L449C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L457C7"
                     },
                     {
                       "kind": "span",
@@ -12271,7 +12399,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE0_MASK_LSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L416C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L424C12"
                     },
                     {
                       "kind": "span",
@@ -12317,7 +12445,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 450,
+                  "number": 458,
                   "children": [
                     {
                       "kind": "span",
@@ -12333,7 +12461,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 451,
+                  "number": 459,
                   "children": [
                     {
                       "kind": "span",
@@ -12349,7 +12477,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 452,
+                  "number": 460,
                   "children": [
                     {
                       "kind": "span",
@@ -12360,7 +12488,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "MASK_MSB",
-                      "href": "docs/rp2040_svd__sio___spec.html#L452C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L460C7"
                     },
                     {
                       "kind": "span",
@@ -12381,7 +12509,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE0_MASK_MSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L417C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L425C12"
                     },
                     {
                       "kind": "span",
@@ -12427,7 +12555,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 453,
+                  "number": 461,
                   "children": [
                     {
                       "kind": "span",
@@ -12443,7 +12571,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 454,
+                  "number": 462,
                   "children": [
                     {
                       "kind": "span",
@@ -12459,7 +12587,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 455,
+                  "number": 463,
                   "children": [
                     {
                       "kind": "span",
@@ -12475,7 +12603,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 456,
+                  "number": 464,
                   "children": [
                     {
                       "kind": "span",
@@ -12486,7 +12614,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SIGNED",
-                      "href": "docs/rp2040_svd__sio___spec.html#L456C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L464C7"
                     },
                     {
                       "kind": "span",
@@ -12537,7 +12665,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 457,
+                  "number": 465,
                   "children": [
                     {
                       "kind": "span",
@@ -12553,7 +12681,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 458,
+                  "number": 466,
                   "children": [
                     {
                       "kind": "span",
@@ -12569,7 +12697,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 459,
+                  "number": 467,
                   "children": [
                     {
                       "kind": "span",
@@ -12585,7 +12713,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 460,
+                  "number": 468,
                   "children": [
                     {
                       "kind": "span",
@@ -12596,7 +12724,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CROSS_INPUT",
-                      "href": "docs/rp2040_svd__sio___spec.html#L460C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L468C7"
                     },
                     {
                       "kind": "span",
@@ -12647,7 +12775,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 461,
+                  "number": 469,
                   "children": [
                     {
                       "kind": "span",
@@ -12663,7 +12791,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 462,
+                  "number": 470,
                   "children": [
                     {
                       "kind": "span",
@@ -12679,7 +12807,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 463,
+                  "number": 471,
                   "children": [
                     {
                       "kind": "span",
@@ -12690,7 +12818,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CROSS_RESULT",
-                      "href": "docs/rp2040_svd__sio___spec.html#L463C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L471C7"
                     },
                     {
                       "kind": "span",
@@ -12741,7 +12869,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 464,
+                  "number": 472,
                   "children": [
                     {
                       "kind": "span",
@@ -12757,7 +12885,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 465,
+                  "number": 473,
                   "children": [
                     {
                       "kind": "span",
@@ -12773,7 +12901,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 466,
+                  "number": 474,
                   "children": [
                     {
                       "kind": "span",
@@ -12784,7 +12912,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADD_RAW",
-                      "href": "docs/rp2040_svd__sio___spec.html#L466C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L474C7"
                     },
                     {
                       "kind": "span",
@@ -12835,7 +12963,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 467,
+                  "number": 475,
                   "children": [
                     {
                       "kind": "span",
@@ -12851,7 +12979,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 468,
+                  "number": 476,
                   "children": [
                     {
                       "kind": "span",
@@ -12867,7 +12995,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 469,
+                  "number": 477,
                   "children": [
                     {
                       "kind": "span",
@@ -12883,7 +13011,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 470,
+                  "number": 478,
                   "children": [
                     {
                       "kind": "span",
@@ -12894,7 +13022,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "FORCE_MSB",
-                      "href": "docs/rp2040_svd__sio___spec.html#L470C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L478C7"
                     },
                     {
                       "kind": "span",
@@ -12915,7 +13043,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE0_FORCE_MSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L418C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L426C12"
                     },
                     {
                       "kind": "span",
@@ -12961,7 +13089,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 471,
+                  "number": 479,
                   "children": [
                     {
                       "kind": "span",
@@ -12977,7 +13105,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 472,
+                  "number": 480,
                   "children": [
                     {
                       "kind": "span",
@@ -12993,7 +13121,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 473,
+                  "number": 481,
                   "children": [
                     {
                       "kind": "span",
@@ -13009,7 +13137,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 474,
+                  "number": 482,
                   "children": [
                     {
                       "kind": "span",
@@ -13025,7 +13153,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 475,
+                  "number": 483,
                   "children": [
                     {
                       "kind": "span",
@@ -13041,7 +13169,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 476,
+                  "number": 484,
                   "children": [
                     {
                       "kind": "span",
@@ -13057,7 +13185,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 477,
+                  "number": 485,
                   "children": [
                     {
                       "kind": "span",
@@ -13073,7 +13201,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 478,
+                  "number": 486,
                   "children": [
                     {
                       "kind": "span",
@@ -13089,7 +13217,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 479,
+                  "number": 487,
                   "children": [
                     {
                       "kind": "span",
@@ -13100,7 +13228,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BLEND",
-                      "href": "docs/rp2040_svd__sio___spec.html#L479C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L487C7"
                     },
                     {
                       "kind": "span",
@@ -13151,7 +13279,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 480,
+                  "number": 488,
                   "children": [
                     {
                       "kind": "span",
@@ -13167,7 +13295,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 481,
+                  "number": 489,
                   "children": [
                     {
                       "kind": "span",
@@ -13178,7 +13306,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_22_22",
-                      "href": "docs/rp2040_svd__sio___spec.html#L481C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L489C7"
                     },
                     {
                       "kind": "span",
@@ -13245,7 +13373,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 482,
+                  "number": 490,
                   "children": [
                     {
                       "kind": "span",
@@ -13261,7 +13389,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 483,
+                  "number": 491,
                   "children": [
                     {
                       "kind": "span",
@@ -13272,7 +13400,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "OVERF",
-                      "href": "docs/rp2040_svd__sio___spec.html#L483C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L491C7"
                     },
                     {
                       "kind": "span",
@@ -13293,7 +13421,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE0_OVERF_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L425C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L433C9"
                     },
                     {
                       "kind": "span",
@@ -13309,7 +13437,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 484,
+                  "number": 492,
                   "children": [
                     {
                       "kind": "span",
@@ -13410,7 +13538,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 485,
+                  "number": 493,
                   "children": [
                     {
                       "kind": "span",
@@ -13426,7 +13554,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 486,
+                  "number": 494,
                   "children": [
                     {
                       "kind": "span",
@@ -13437,7 +13565,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_26_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L486C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L494C7"
                     },
                     {
                       "kind": "span",
@@ -13504,7 +13632,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 487,
+                  "number": 495,
                   "children": [
                     {
                       "kind": "span",
@@ -13530,7 +13658,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 488,
+                  "number": 496,
                   "children": [
                     {
                       "kind": "span",
@@ -13551,7 +13679,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 489,
+                  "number": 497,
                   "children": [
                     {
                       "kind": "span",
@@ -13580,11 +13708,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "SHIFT",
-              "line": 447,
+              "line": 455,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP0_CTRL_LANE0_SHIFT_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L415C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L423C12"
               },
               "description": [
                 {
@@ -13600,11 +13728,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "MASK_LSB",
-              "line": 449,
+              "line": 457,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP0_CTRL_LANE0_MASK_LSB_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L416C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L424C12"
               },
               "description": [
                 {
@@ -13624,11 +13752,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "MASK_MSB",
-              "line": 452,
+              "line": 460,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP0_CTRL_LANE0_MASK_MSB_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L417C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L425C12"
               },
               "description": [
                 {
@@ -13652,7 +13780,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SIGNED",
-              "line": 456,
+              "line": 464,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -13679,7 +13807,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "CROSS_INPUT",
-              "line": 460,
+              "line": 468,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -13702,7 +13830,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "CROSS_RESULT",
-              "line": 463,
+              "line": 471,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -13725,7 +13853,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADD_RAW",
-              "line": 466,
+              "line": 474,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -13752,11 +13880,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "FORCE_MSB",
-              "line": 470,
+              "line": 478,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP0_CTRL_LANE0_FORCE_MSB_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L418C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L426C12"
               },
               "description": [
                 {
@@ -13800,7 +13928,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "BLEND",
-              "line": 479,
+              "line": 487,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -13819,7 +13947,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_22_22",
-              "line": 481,
+              "line": 489,
               "column": 7,
               "type": {
                 "label": "HAL.Bit",
@@ -13839,11 +13967,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "OVERF",
-              "line": 483,
+              "line": 491,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP0_CTRL_LANE0_OVERF_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L425C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L433C9"
               },
               "description": [
                 {
@@ -13859,7 +13987,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_26_31",
-              "line": 486,
+              "line": 494,
               "column": 7,
               "type": {
                 "label": "HAL.UInt6",
@@ -13873,7 +14001,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP0_CTRL_LANE1_Register",
           "qualifier": "",
-          "line": 512,
+          "line": 520,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -13884,7 +14012,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 512,
+                  "number": 520,
                   "children": [
                     {
                       "kind": "span",
@@ -13905,7 +14033,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE1_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L512C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L520C9"
                     },
                     {
                       "kind": "span",
@@ -13931,7 +14059,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 513,
+                  "number": 521,
                   "children": [
                     {
                       "kind": "span",
@@ -13947,7 +14075,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 514,
+                  "number": 522,
                   "children": [
                     {
                       "kind": "span",
@@ -13958,7 +14086,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SHIFT",
-                      "href": "docs/rp2040_svd__sio___spec.html#L514C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L522C7"
                     },
                     {
                       "kind": "span",
@@ -13979,7 +14107,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE1_SHIFT_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L506C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L514C12"
                     },
                     {
                       "kind": "span",
@@ -14025,7 +14153,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 515,
+                  "number": 523,
                   "children": [
                     {
                       "kind": "span",
@@ -14041,7 +14169,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 516,
+                  "number": 524,
                   "children": [
                     {
                       "kind": "span",
@@ -14052,7 +14180,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "MASK_LSB",
-                      "href": "docs/rp2040_svd__sio___spec.html#L516C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L524C7"
                     },
                     {
                       "kind": "span",
@@ -14073,7 +14201,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE1_MASK_LSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L507C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L515C12"
                     },
                     {
                       "kind": "span",
@@ -14119,7 +14247,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 517,
+                  "number": 525,
                   "children": [
                     {
                       "kind": "span",
@@ -14135,7 +14263,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 518,
+                  "number": 526,
                   "children": [
                     {
                       "kind": "span",
@@ -14151,7 +14279,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 519,
+                  "number": 527,
                   "children": [
                     {
                       "kind": "span",
@@ -14162,7 +14290,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "MASK_MSB",
-                      "href": "docs/rp2040_svd__sio___spec.html#L519C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L527C7"
                     },
                     {
                       "kind": "span",
@@ -14183,7 +14311,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE1_MASK_MSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L508C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L516C12"
                     },
                     {
                       "kind": "span",
@@ -14229,7 +14357,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 520,
+                  "number": 528,
                   "children": [
                     {
                       "kind": "span",
@@ -14245,7 +14373,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 521,
+                  "number": 529,
                   "children": [
                     {
                       "kind": "span",
@@ -14261,7 +14389,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 522,
+                  "number": 530,
                   "children": [
                     {
                       "kind": "span",
@@ -14277,7 +14405,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 523,
+                  "number": 531,
                   "children": [
                     {
                       "kind": "span",
@@ -14288,7 +14416,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SIGNED",
-                      "href": "docs/rp2040_svd__sio___spec.html#L523C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L531C7"
                     },
                     {
                       "kind": "span",
@@ -14339,7 +14467,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 524,
+                  "number": 532,
                   "children": [
                     {
                       "kind": "span",
@@ -14355,7 +14483,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 525,
+                  "number": 533,
                   "children": [
                     {
                       "kind": "span",
@@ -14371,7 +14499,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 526,
+                  "number": 534,
                   "children": [
                     {
                       "kind": "span",
@@ -14387,7 +14515,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 527,
+                  "number": 535,
                   "children": [
                     {
                       "kind": "span",
@@ -14398,7 +14526,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CROSS_INPUT",
-                      "href": "docs/rp2040_svd__sio___spec.html#L527C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L535C7"
                     },
                     {
                       "kind": "span",
@@ -14449,7 +14577,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 528,
+                  "number": 536,
                   "children": [
                     {
                       "kind": "span",
@@ -14465,7 +14593,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 529,
+                  "number": 537,
                   "children": [
                     {
                       "kind": "span",
@@ -14481,7 +14609,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 530,
+                  "number": 538,
                   "children": [
                     {
                       "kind": "span",
@@ -14492,7 +14620,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CROSS_RESULT",
-                      "href": "docs/rp2040_svd__sio___spec.html#L530C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L538C7"
                     },
                     {
                       "kind": "span",
@@ -14543,7 +14671,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 531,
+                  "number": 539,
                   "children": [
                     {
                       "kind": "span",
@@ -14559,7 +14687,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 532,
+                  "number": 540,
                   "children": [
                     {
                       "kind": "span",
@@ -14575,7 +14703,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 533,
+                  "number": 541,
                   "children": [
                     {
                       "kind": "span",
@@ -14586,7 +14714,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADD_RAW",
-                      "href": "docs/rp2040_svd__sio___spec.html#L533C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L541C7"
                     },
                     {
                       "kind": "span",
@@ -14637,7 +14765,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 534,
+                  "number": 542,
                   "children": [
                     {
                       "kind": "span",
@@ -14653,7 +14781,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 535,
+                  "number": 543,
                   "children": [
                     {
                       "kind": "span",
@@ -14669,7 +14797,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 536,
+                  "number": 544,
                   "children": [
                     {
                       "kind": "span",
@@ -14685,7 +14813,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 537,
+                  "number": 545,
                   "children": [
                     {
                       "kind": "span",
@@ -14696,7 +14824,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "FORCE_MSB",
-                      "href": "docs/rp2040_svd__sio___spec.html#L537C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L545C7"
                     },
                     {
                       "kind": "span",
@@ -14717,7 +14845,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP0_CTRL_LANE1_FORCE_MSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L509C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L517C12"
                     },
                     {
                       "kind": "span",
@@ -14763,7 +14891,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 538,
+                  "number": 546,
                   "children": [
                     {
                       "kind": "span",
@@ -14779,7 +14907,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 539,
+                  "number": 547,
                   "children": [
                     {
                       "kind": "span",
@@ -14790,7 +14918,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_21_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L539C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L547C7"
                     },
                     {
                       "kind": "span",
@@ -14857,7 +14985,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 540,
+                  "number": 548,
                   "children": [
                     {
                       "kind": "span",
@@ -14883,7 +15011,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 541,
+                  "number": 549,
                   "children": [
                     {
                       "kind": "span",
@@ -14904,7 +15032,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 542,
+                  "number": 550,
                   "children": [
                     {
                       "kind": "span",
@@ -14933,11 +15061,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "SHIFT",
-              "line": 514,
+              "line": 522,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP0_CTRL_LANE1_SHIFT_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L506C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L514C12"
               },
               "description": [
                 {
@@ -14953,11 +15081,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "MASK_LSB",
-              "line": 516,
+              "line": 524,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP0_CTRL_LANE1_MASK_LSB_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L507C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L515C12"
               },
               "description": [
                 {
@@ -14977,11 +15105,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "MASK_MSB",
-              "line": 519,
+              "line": 527,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP0_CTRL_LANE1_MASK_MSB_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L508C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L516C12"
               },
               "description": [
                 {
@@ -15005,7 +15133,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SIGNED",
-              "line": 523,
+              "line": 531,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -15032,7 +15160,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "CROSS_INPUT",
-              "line": 527,
+              "line": 535,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -15055,7 +15183,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "CROSS_RESULT",
-              "line": 530,
+              "line": 538,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -15078,7 +15206,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADD_RAW",
-              "line": 533,
+              "line": 541,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -15105,11 +15233,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "FORCE_MSB",
-              "line": 537,
+              "line": 545,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP0_CTRL_LANE1_FORCE_MSB_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L509C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L517C12"
               },
               "description": [
                 {
@@ -15125,7 +15253,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_21_31",
-              "line": 539,
+              "line": 547,
               "column": 7,
               "type": {
                 "label": "HAL.UInt11",
@@ -15139,7 +15267,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP1_ACCUM0_ADD_Register",
           "qualifier": "",
-          "line": 733,
+          "line": 741,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -15150,7 +15278,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 733,
+                  "number": 741,
                   "children": [
                     {
                       "kind": "span",
@@ -15171,7 +15299,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_ACCUM0_ADD_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L733C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L741C9"
                     },
                     {
                       "kind": "span",
@@ -15197,7 +15325,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 734,
+                  "number": 742,
                   "children": [
                     {
                       "kind": "span",
@@ -15208,7 +15336,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_ACCUM0_ADD",
-                      "href": "docs/rp2040_svd__sio___spec.html#L734C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L742C7"
                     },
                     {
                       "kind": "span",
@@ -15229,7 +15357,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_ACCUM0_ADD_INTERP1_ACCUM0_ADD_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L729C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L737C12"
                     },
                     {
                       "kind": "span",
@@ -15245,7 +15373,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 735,
+                  "number": 743,
                   "children": [
                     {
                       "kind": "span",
@@ -15281,7 +15409,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 736,
+                  "number": 744,
                   "children": [
                     {
                       "kind": "span",
@@ -15297,7 +15425,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 737,
+                  "number": 745,
                   "children": [
                     {
                       "kind": "span",
@@ -15308,7 +15436,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_24_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L737C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L745C7"
                     },
                     {
                       "kind": "span",
@@ -15375,7 +15503,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 738,
+                  "number": 746,
                   "children": [
                     {
                       "kind": "span",
@@ -15401,7 +15529,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 739,
+                  "number": 747,
                   "children": [
                     {
                       "kind": "span",
@@ -15422,7 +15550,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 740,
+                  "number": 748,
                   "children": [
                     {
                       "kind": "span",
@@ -15455,11 +15583,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "INTERP1_ACCUM0_ADD",
-              "line": 734,
+              "line": 742,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP1_ACCUM0_ADD_INTERP1_ACCUM0_ADD_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L729C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L737C12"
               },
               "description": [
                 {
@@ -15475,7 +15603,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_24_31",
-              "line": 737,
+              "line": 745,
               "column": 7,
               "type": {
                 "label": "HAL.UInt8",
@@ -15489,7 +15617,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP1_ACCUM1_ADD_Register",
           "qualifier": "",
-          "line": 751,
+          "line": 759,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -15500,7 +15628,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 751,
+                  "number": 759,
                   "children": [
                     {
                       "kind": "span",
@@ -15521,7 +15649,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_ACCUM1_ADD_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L751C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L759C9"
                     },
                     {
                       "kind": "span",
@@ -15547,7 +15675,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 752,
+                  "number": 760,
                   "children": [
                     {
                       "kind": "span",
@@ -15558,7 +15686,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_ACCUM1_ADD",
-                      "href": "docs/rp2040_svd__sio___spec.html#L752C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L760C7"
                     },
                     {
                       "kind": "span",
@@ -15579,7 +15707,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_ACCUM1_ADD_INTERP1_ACCUM1_ADD_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L747C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L755C12"
                     },
                     {
                       "kind": "span",
@@ -15595,7 +15723,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 753,
+                  "number": 761,
                   "children": [
                     {
                       "kind": "span",
@@ -15631,7 +15759,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 754,
+                  "number": 762,
                   "children": [
                     {
                       "kind": "span",
@@ -15647,7 +15775,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 755,
+                  "number": 763,
                   "children": [
                     {
                       "kind": "span",
@@ -15658,7 +15786,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_24_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L755C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L763C7"
                     },
                     {
                       "kind": "span",
@@ -15725,7 +15853,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 756,
+                  "number": 764,
                   "children": [
                     {
                       "kind": "span",
@@ -15751,7 +15879,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 757,
+                  "number": 765,
                   "children": [
                     {
                       "kind": "span",
@@ -15772,7 +15900,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 758,
+                  "number": 766,
                   "children": [
                     {
                       "kind": "span",
@@ -15805,11 +15933,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "INTERP1_ACCUM1_ADD",
-              "line": 752,
+              "line": 760,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP1_ACCUM1_ADD_INTERP1_ACCUM1_ADD_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L747C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L755C12"
               },
               "description": [
                 {
@@ -15825,7 +15953,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_24_31",
-              "line": 755,
+              "line": 763,
               "column": 7,
               "type": {
                 "label": "HAL.UInt8",
@@ -15839,7 +15967,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP1_CTRL_LANE0_OVERF_Field",
           "qualifier": "",
-          "line": 602,
+          "line": 610,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -15850,7 +15978,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 602,
+                  "number": 610,
                   "children": [
                     {
                       "kind": "span",
@@ -15871,13 +15999,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE0_OVERF_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L602C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L610C9"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 603,
+                  "number": 611,
                   "children": [
                     {
                       "kind": "span",
@@ -15893,7 +16021,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "As_Array",
-                      "href": "docs/rp2040_svd__sio___spec.html#L603C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L611C7"
                     },
                     {
                       "kind": "span",
@@ -15944,7 +16072,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 604,
+                  "number": 612,
                   "children": [
                     {
                       "kind": "span",
@@ -15970,7 +16098,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 605,
+                  "number": 613,
                   "children": [
                     {
                       "kind": "span",
@@ -16006,7 +16134,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 606,
+                  "number": 614,
                   "children": [
                     {
                       "kind": "span",
@@ -16042,7 +16170,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 607,
+                  "number": 615,
                   "children": [
                     {
                       "kind": "span",
@@ -16058,7 +16186,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 608,
+                  "number": 616,
                   "children": [
                     {
                       "kind": "span",
@@ -16069,7 +16197,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Val",
-                      "href": "docs/rp2040_svd__sio___spec.html#L608C13"
+                      "href": "docs/rp2040_svd__sio___spec.html#L616C13"
                     },
                     {
                       "kind": "span",
@@ -16101,7 +16229,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 609,
+                  "number": 617,
                   "children": [
                     {
                       "kind": "span",
@@ -16137,7 +16265,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 610,
+                  "number": 618,
                   "children": [
                     {
                       "kind": "span",
@@ -16153,7 +16281,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 611,
+                  "number": 619,
                   "children": [
                     {
                       "kind": "span",
@@ -16164,7 +16292,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Arr",
-                      "href": "docs/rp2040_svd__sio___spec.html#L611C13"
+                      "href": "docs/rp2040_svd__sio___spec.html#L619C13"
                     },
                     {
                       "kind": "span",
@@ -16185,7 +16313,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE0_OVERF_Field_Array",
-                      "href": "docs/rp2040_svd__sio___spec.html#L598C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L606C9"
                     },
                     {
                       "kind": "span",
@@ -16196,7 +16324,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 612,
+                  "number": 620,
                   "children": [
                     {
                       "kind": "span",
@@ -16227,7 +16355,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 613,
+                  "number": 621,
                   "children": [
                     {
                       "kind": "span",
@@ -16253,7 +16381,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 614,
+                  "number": 622,
                   "children": [
                     {
                       "kind": "span",
@@ -16292,7 +16420,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "As_Array",
-              "line": 603,
+              "line": 611,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -16302,7 +16430,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Val",
-              "line": 608,
+              "line": 616,
               "column": 13,
               "type": {
                 "label": "HAL.UInt3",
@@ -16322,11 +16450,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Arr",
-              "line": 611,
+              "line": 619,
               "column": 13,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP1_CTRL_LANE0_OVERF_Field_Array",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L598C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L606C9"
               },
               "description": [
                 {
@@ -16345,7 +16473,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP1_CTRL_LANE0_Register",
           "qualifier": "",
-          "line": 622,
+          "line": 630,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -16356,7 +16484,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 622,
+                  "number": 630,
                   "children": [
                     {
                       "kind": "span",
@@ -16377,7 +16505,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE0_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L622C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L630C9"
                     },
                     {
                       "kind": "span",
@@ -16403,7 +16531,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 623,
+                  "number": 631,
                   "children": [
                     {
                       "kind": "span",
@@ -16419,7 +16547,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 624,
+                  "number": 632,
                   "children": [
                     {
                       "kind": "span",
@@ -16430,7 +16558,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SHIFT",
-                      "href": "docs/rp2040_svd__sio___spec.html#L624C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L632C7"
                     },
                     {
                       "kind": "span",
@@ -16451,7 +16579,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE0_SHIFT_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L592C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L600C12"
                     },
                     {
                       "kind": "span",
@@ -16497,7 +16625,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 625,
+                  "number": 633,
                   "children": [
                     {
                       "kind": "span",
@@ -16513,7 +16641,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 626,
+                  "number": 634,
                   "children": [
                     {
                       "kind": "span",
@@ -16524,7 +16652,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "MASK_LSB",
-                      "href": "docs/rp2040_svd__sio___spec.html#L626C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L634C7"
                     },
                     {
                       "kind": "span",
@@ -16545,7 +16673,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE0_MASK_LSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L593C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L601C12"
                     },
                     {
                       "kind": "span",
@@ -16591,7 +16719,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 627,
+                  "number": 635,
                   "children": [
                     {
                       "kind": "span",
@@ -16607,7 +16735,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 628,
+                  "number": 636,
                   "children": [
                     {
                       "kind": "span",
@@ -16623,7 +16751,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 629,
+                  "number": 637,
                   "children": [
                     {
                       "kind": "span",
@@ -16634,7 +16762,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "MASK_MSB",
-                      "href": "docs/rp2040_svd__sio___spec.html#L629C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L637C7"
                     },
                     {
                       "kind": "span",
@@ -16655,7 +16783,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE0_MASK_MSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L594C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L602C12"
                     },
                     {
                       "kind": "span",
@@ -16701,7 +16829,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 630,
+                  "number": 638,
                   "children": [
                     {
                       "kind": "span",
@@ -16717,7 +16845,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 631,
+                  "number": 639,
                   "children": [
                     {
                       "kind": "span",
@@ -16733,7 +16861,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 632,
+                  "number": 640,
                   "children": [
                     {
                       "kind": "span",
@@ -16749,7 +16877,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 633,
+                  "number": 641,
                   "children": [
                     {
                       "kind": "span",
@@ -16760,7 +16888,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SIGNED",
-                      "href": "docs/rp2040_svd__sio___spec.html#L633C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L641C7"
                     },
                     {
                       "kind": "span",
@@ -16811,7 +16939,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 634,
+                  "number": 642,
                   "children": [
                     {
                       "kind": "span",
@@ -16827,7 +16955,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 635,
+                  "number": 643,
                   "children": [
                     {
                       "kind": "span",
@@ -16843,7 +16971,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 636,
+                  "number": 644,
                   "children": [
                     {
                       "kind": "span",
@@ -16859,7 +16987,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 637,
+                  "number": 645,
                   "children": [
                     {
                       "kind": "span",
@@ -16870,7 +16998,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CROSS_INPUT",
-                      "href": "docs/rp2040_svd__sio___spec.html#L637C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L645C7"
                     },
                     {
                       "kind": "span",
@@ -16921,7 +17049,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 638,
+                  "number": 646,
                   "children": [
                     {
                       "kind": "span",
@@ -16937,7 +17065,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 639,
+                  "number": 647,
                   "children": [
                     {
                       "kind": "span",
@@ -16953,7 +17081,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 640,
+                  "number": 648,
                   "children": [
                     {
                       "kind": "span",
@@ -16964,7 +17092,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CROSS_RESULT",
-                      "href": "docs/rp2040_svd__sio___spec.html#L640C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L648C7"
                     },
                     {
                       "kind": "span",
@@ -17015,7 +17143,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 641,
+                  "number": 649,
                   "children": [
                     {
                       "kind": "span",
@@ -17031,7 +17159,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 642,
+                  "number": 650,
                   "children": [
                     {
                       "kind": "span",
@@ -17047,7 +17175,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 643,
+                  "number": 651,
                   "children": [
                     {
                       "kind": "span",
@@ -17058,7 +17186,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADD_RAW",
-                      "href": "docs/rp2040_svd__sio___spec.html#L643C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L651C7"
                     },
                     {
                       "kind": "span",
@@ -17109,7 +17237,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 644,
+                  "number": 652,
                   "children": [
                     {
                       "kind": "span",
@@ -17125,7 +17253,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 645,
+                  "number": 653,
                   "children": [
                     {
                       "kind": "span",
@@ -17141,7 +17269,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 646,
+                  "number": 654,
                   "children": [
                     {
                       "kind": "span",
@@ -17157,7 +17285,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 647,
+                  "number": 655,
                   "children": [
                     {
                       "kind": "span",
@@ -17168,7 +17296,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "FORCE_MSB",
-                      "href": "docs/rp2040_svd__sio___spec.html#L647C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L655C7"
                     },
                     {
                       "kind": "span",
@@ -17189,7 +17317,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE0_FORCE_MSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L595C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L603C12"
                     },
                     {
                       "kind": "span",
@@ -17235,7 +17363,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 648,
+                  "number": 656,
                   "children": [
                     {
                       "kind": "span",
@@ -17251,7 +17379,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 649,
+                  "number": 657,
                   "children": [
                     {
                       "kind": "span",
@@ -17262,7 +17390,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_21_21",
-                      "href": "docs/rp2040_svd__sio___spec.html#L649C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L657C7"
                     },
                     {
                       "kind": "span",
@@ -17329,7 +17457,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 650,
+                  "number": 658,
                   "children": [
                     {
                       "kind": "span",
@@ -17345,7 +17473,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 651,
+                  "number": 659,
                   "children": [
                     {
                       "kind": "span",
@@ -17361,7 +17489,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 652,
+                  "number": 660,
                   "children": [
                     {
                       "kind": "span",
@@ -17377,7 +17505,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 653,
+                  "number": 661,
                   "children": [
                     {
                       "kind": "span",
@@ -17393,7 +17521,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 654,
+                  "number": 662,
                   "children": [
                     {
                       "kind": "span",
@@ -17404,7 +17532,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CLAMP",
-                      "href": "docs/rp2040_svd__sio___spec.html#L654C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L662C7"
                     },
                     {
                       "kind": "span",
@@ -17455,7 +17583,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 655,
+                  "number": 663,
                   "children": [
                     {
                       "kind": "span",
@@ -17471,7 +17599,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 656,
+                  "number": 664,
                   "children": [
                     {
                       "kind": "span",
@@ -17482,7 +17610,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "OVERF",
-                      "href": "docs/rp2040_svd__sio___spec.html#L656C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L664C7"
                     },
                     {
                       "kind": "span",
@@ -17503,7 +17631,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE0_OVERF_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L602C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L610C9"
                     },
                     {
                       "kind": "span",
@@ -17519,7 +17647,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 657,
+                  "number": 665,
                   "children": [
                     {
                       "kind": "span",
@@ -17620,7 +17748,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 658,
+                  "number": 666,
                   "children": [
                     {
                       "kind": "span",
@@ -17636,7 +17764,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 659,
+                  "number": 667,
                   "children": [
                     {
                       "kind": "span",
@@ -17647,7 +17775,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_26_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L659C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L667C7"
                     },
                     {
                       "kind": "span",
@@ -17714,7 +17842,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 660,
+                  "number": 668,
                   "children": [
                     {
                       "kind": "span",
@@ -17740,7 +17868,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 661,
+                  "number": 669,
                   "children": [
                     {
                       "kind": "span",
@@ -17761,7 +17889,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 662,
+                  "number": 670,
                   "children": [
                     {
                       "kind": "span",
@@ -17790,11 +17918,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "SHIFT",
-              "line": 624,
+              "line": 632,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP1_CTRL_LANE0_SHIFT_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L592C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L600C12"
               },
               "description": [
                 {
@@ -17810,11 +17938,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "MASK_LSB",
-              "line": 626,
+              "line": 634,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP1_CTRL_LANE0_MASK_LSB_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L593C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L601C12"
               },
               "description": [
                 {
@@ -17834,11 +17962,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "MASK_MSB",
-              "line": 629,
+              "line": 637,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP1_CTRL_LANE0_MASK_MSB_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L594C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L602C12"
               },
               "description": [
                 {
@@ -17862,7 +17990,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SIGNED",
-              "line": 633,
+              "line": 641,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -17889,7 +18017,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "CROSS_INPUT",
-              "line": 637,
+              "line": 645,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -17912,7 +18040,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "CROSS_RESULT",
-              "line": 640,
+              "line": 648,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -17935,7 +18063,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADD_RAW",
-              "line": 643,
+              "line": 651,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -17962,11 +18090,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "FORCE_MSB",
-              "line": 647,
+              "line": 655,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP1_CTRL_LANE0_FORCE_MSB_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L595C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L603C12"
               },
               "description": [
                 {
@@ -17982,7 +18110,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_21_21",
-              "line": 649,
+              "line": 657,
               "column": 7,
               "type": {
                 "label": "HAL.Bit",
@@ -18014,7 +18142,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "CLAMP",
-              "line": 654,
+              "line": 662,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -18033,11 +18161,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "OVERF",
-              "line": 656,
+              "line": 664,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP1_CTRL_LANE0_OVERF_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L602C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L610C9"
               },
               "description": [
                 {
@@ -18053,7 +18181,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_26_31",
-              "line": 659,
+              "line": 667,
               "column": 7,
               "type": {
                 "label": "HAL.UInt6",
@@ -18067,7 +18195,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP1_CTRL_LANE1_Register",
           "qualifier": "",
-          "line": 685,
+          "line": 693,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -18078,7 +18206,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 685,
+                  "number": 693,
                   "children": [
                     {
                       "kind": "span",
@@ -18099,7 +18227,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE1_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L685C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L693C9"
                     },
                     {
                       "kind": "span",
@@ -18125,7 +18253,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 686,
+                  "number": 694,
                   "children": [
                     {
                       "kind": "span",
@@ -18141,7 +18269,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 687,
+                  "number": 695,
                   "children": [
                     {
                       "kind": "span",
@@ -18152,7 +18280,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SHIFT",
-                      "href": "docs/rp2040_svd__sio___spec.html#L687C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L695C7"
                     },
                     {
                       "kind": "span",
@@ -18173,7 +18301,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE1_SHIFT_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L679C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L687C12"
                     },
                     {
                       "kind": "span",
@@ -18219,7 +18347,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 688,
+                  "number": 696,
                   "children": [
                     {
                       "kind": "span",
@@ -18235,7 +18363,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 689,
+                  "number": 697,
                   "children": [
                     {
                       "kind": "span",
@@ -18246,7 +18374,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "MASK_LSB",
-                      "href": "docs/rp2040_svd__sio___spec.html#L689C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L697C7"
                     },
                     {
                       "kind": "span",
@@ -18267,7 +18395,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE1_MASK_LSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L680C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L688C12"
                     },
                     {
                       "kind": "span",
@@ -18313,7 +18441,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 690,
+                  "number": 698,
                   "children": [
                     {
                       "kind": "span",
@@ -18329,7 +18457,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 691,
+                  "number": 699,
                   "children": [
                     {
                       "kind": "span",
@@ -18345,7 +18473,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 692,
+                  "number": 700,
                   "children": [
                     {
                       "kind": "span",
@@ -18356,7 +18484,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "MASK_MSB",
-                      "href": "docs/rp2040_svd__sio___spec.html#L692C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L700C7"
                     },
                     {
                       "kind": "span",
@@ -18377,7 +18505,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE1_MASK_MSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L681C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L689C12"
                     },
                     {
                       "kind": "span",
@@ -18423,7 +18551,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 693,
+                  "number": 701,
                   "children": [
                     {
                       "kind": "span",
@@ -18439,7 +18567,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 694,
+                  "number": 702,
                   "children": [
                     {
                       "kind": "span",
@@ -18455,7 +18583,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 695,
+                  "number": 703,
                   "children": [
                     {
                       "kind": "span",
@@ -18471,7 +18599,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 696,
+                  "number": 704,
                   "children": [
                     {
                       "kind": "span",
@@ -18482,7 +18610,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SIGNED",
-                      "href": "docs/rp2040_svd__sio___spec.html#L696C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L704C7"
                     },
                     {
                       "kind": "span",
@@ -18533,7 +18661,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 697,
+                  "number": 705,
                   "children": [
                     {
                       "kind": "span",
@@ -18549,7 +18677,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 698,
+                  "number": 706,
                   "children": [
                     {
                       "kind": "span",
@@ -18565,7 +18693,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 699,
+                  "number": 707,
                   "children": [
                     {
                       "kind": "span",
@@ -18581,7 +18709,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 700,
+                  "number": 708,
                   "children": [
                     {
                       "kind": "span",
@@ -18592,7 +18720,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CROSS_INPUT",
-                      "href": "docs/rp2040_svd__sio___spec.html#L700C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L708C7"
                     },
                     {
                       "kind": "span",
@@ -18643,7 +18771,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 701,
+                  "number": 709,
                   "children": [
                     {
                       "kind": "span",
@@ -18659,7 +18787,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 702,
+                  "number": 710,
                   "children": [
                     {
                       "kind": "span",
@@ -18675,7 +18803,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 703,
+                  "number": 711,
                   "children": [
                     {
                       "kind": "span",
@@ -18686,7 +18814,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CROSS_RESULT",
-                      "href": "docs/rp2040_svd__sio___spec.html#L703C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L711C7"
                     },
                     {
                       "kind": "span",
@@ -18737,7 +18865,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 704,
+                  "number": 712,
                   "children": [
                     {
                       "kind": "span",
@@ -18753,7 +18881,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 705,
+                  "number": 713,
                   "children": [
                     {
                       "kind": "span",
@@ -18769,7 +18897,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 706,
+                  "number": 714,
                   "children": [
                     {
                       "kind": "span",
@@ -18780,7 +18908,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADD_RAW",
-                      "href": "docs/rp2040_svd__sio___spec.html#L706C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L714C7"
                     },
                     {
                       "kind": "span",
@@ -18831,7 +18959,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 707,
+                  "number": 715,
                   "children": [
                     {
                       "kind": "span",
@@ -18847,7 +18975,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 708,
+                  "number": 716,
                   "children": [
                     {
                       "kind": "span",
@@ -18863,7 +18991,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 709,
+                  "number": 717,
                   "children": [
                     {
                       "kind": "span",
@@ -18879,7 +19007,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 710,
+                  "number": 718,
                   "children": [
                     {
                       "kind": "span",
@@ -18890,7 +19018,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "FORCE_MSB",
-                      "href": "docs/rp2040_svd__sio___spec.html#L710C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L718C7"
                     },
                     {
                       "kind": "span",
@@ -18911,7 +19039,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP1_CTRL_LANE1_FORCE_MSB_Field",
-                      "href": "docs/rp2040_svd__sio___spec.html#L682C12"
+                      "href": "docs/rp2040_svd__sio___spec.html#L690C12"
                     },
                     {
                       "kind": "span",
@@ -18957,7 +19085,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 711,
+                  "number": 719,
                   "children": [
                     {
                       "kind": "span",
@@ -18973,7 +19101,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 712,
+                  "number": 720,
                   "children": [
                     {
                       "kind": "span",
@@ -18984,7 +19112,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_21_31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L712C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L720C7"
                     },
                     {
                       "kind": "span",
@@ -19051,7 +19179,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 713,
+                  "number": 721,
                   "children": [
                     {
                       "kind": "span",
@@ -19077,7 +19205,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 714,
+                  "number": 722,
                   "children": [
                     {
                       "kind": "span",
@@ -19098,7 +19226,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 715,
+                  "number": 723,
                   "children": [
                     {
                       "kind": "span",
@@ -19127,11 +19255,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "SHIFT",
-              "line": 687,
+              "line": 695,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP1_CTRL_LANE1_SHIFT_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L679C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L687C12"
               },
               "description": [
                 {
@@ -19147,11 +19275,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "MASK_LSB",
-              "line": 689,
+              "line": 697,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP1_CTRL_LANE1_MASK_LSB_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L680C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L688C12"
               },
               "description": [
                 {
@@ -19171,11 +19299,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "MASK_MSB",
-              "line": 692,
+              "line": 700,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP1_CTRL_LANE1_MASK_MSB_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L681C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L689C12"
               },
               "description": [
                 {
@@ -19199,7 +19327,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SIGNED",
-              "line": 696,
+              "line": 704,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -19226,7 +19354,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "CROSS_INPUT",
-              "line": 700,
+              "line": 708,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -19249,7 +19377,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "CROSS_RESULT",
-              "line": 703,
+              "line": 711,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -19272,7 +19400,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADD_RAW",
-              "line": 706,
+              "line": 714,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -19299,11 +19427,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "FORCE_MSB",
-              "line": 710,
+              "line": 718,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP1_CTRL_LANE1_FORCE_MSB_Field",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L682C12"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L690C12"
               },
               "description": [
                 {
@@ -19319,7 +19447,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_21_31",
-              "line": 712,
+              "line": 720,
               "column": 7,
               "type": {
                 "label": "HAL.UInt11",
@@ -19333,7 +19461,7 @@ GNATdoc.Documentation = {
         {
           "label": "SIO_Periph",
           "qualifier": "",
-          "line": 1236,
+          "line": 1244,
           "column": 4,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -19344,7 +19472,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 1236,
+                  "number": 1244,
                   "children": [
                     {
                       "kind": "span",
@@ -19360,7 +19488,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1237,
+                  "number": 1245,
                   "children": [
                     {
                       "kind": "span",
@@ -19376,7 +19504,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1238,
+                  "number": 1246,
                   "children": [
                     {
                       "kind": "span",
@@ -19422,7 +19550,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1239,
+                  "number": 1247,
                   "children": [
                     {
                       "kind": "span",
@@ -19466,7 +19594,7 @@ GNATdoc.Documentation = {
         {
           "label": "SIO_Peripheral",
           "qualifier": "",
-          "line": 771,
+          "line": 779,
           "column": 9,
           "src": "srcs/rp2040_svd-sio.ads.html",
           "summary": [
@@ -19477,7 +19605,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 771,
+                  "number": 779,
                   "children": [
                     {
                       "kind": "span",
@@ -19498,7 +19626,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SIO_Peripheral",
-                      "href": "docs/rp2040_svd__sio___spec.html#L771C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L779C9"
                     },
                     {
                       "kind": "span",
@@ -19524,7 +19652,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 772,
+                  "number": 780,
                   "children": [
                     {
                       "kind": "span",
@@ -19540,7 +19668,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 773,
+                  "number": 781,
                   "children": [
                     {
                       "kind": "span",
@@ -19556,7 +19684,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 774,
+                  "number": 782,
                   "children": [
                     {
                       "kind": "span",
@@ -19567,7 +19695,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CPUID",
-                      "href": "docs/rp2040_svd__sio___spec.html#L774C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L782C7"
                     },
                     {
                       "kind": "span",
@@ -19609,7 +19737,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 775,
+                  "number": 783,
                   "children": [
                     {
                       "kind": "span",
@@ -19625,7 +19753,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 776,
+                  "number": 784,
                   "children": [
                     {
                       "kind": "span",
@@ -19636,7 +19764,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_IN",
-                      "href": "docs/rp2040_svd__sio___spec.html#L776C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L784C7"
                     },
                     {
                       "kind": "span",
@@ -19678,7 +19806,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 777,
+                  "number": 785,
                   "children": [
                     {
                       "kind": "span",
@@ -19694,7 +19822,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 778,
+                  "number": 786,
                   "children": [
                     {
                       "kind": "span",
@@ -19705,7 +19833,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_IN",
-                      "href": "docs/rp2040_svd__sio___spec.html#L778C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L786C7"
                     },
                     {
                       "kind": "span",
@@ -19747,7 +19875,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 779,
+                  "number": 787,
                   "children": [
                     {
                       "kind": "span",
@@ -19763,7 +19891,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 780,
+                  "number": 788,
                   "children": [
                     {
                       "kind": "span",
@@ -19774,7 +19902,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OUT",
-                      "href": "docs/rp2040_svd__sio___spec.html#L780C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L788C7"
                     },
                     {
                       "kind": "span",
@@ -19816,7 +19944,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 781,
+                  "number": 789,
                   "children": [
                     {
                       "kind": "span",
@@ -19832,7 +19960,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 782,
+                  "number": 790,
                   "children": [
                     {
                       "kind": "span",
@@ -19843,7 +19971,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OUT_SET",
-                      "href": "docs/rp2040_svd__sio___spec.html#L782C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L790C7"
                     },
                     {
                       "kind": "span",
@@ -19885,7 +20013,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 783,
+                  "number": 791,
                   "children": [
                     {
                       "kind": "span",
@@ -19901,7 +20029,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 784,
+                  "number": 792,
                   "children": [
                     {
                       "kind": "span",
@@ -19912,7 +20040,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OUT_CLR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L784C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L792C7"
                     },
                     {
                       "kind": "span",
@@ -19943,7 +20071,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OUT_CLR_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L101C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L102C9"
                     },
                     {
                       "kind": "span",
@@ -19954,7 +20082,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 785,
+                  "number": 793,
                   "children": [
                     {
                       "kind": "span",
@@ -19970,7 +20098,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 786,
+                  "number": 794,
                   "children": [
                     {
                       "kind": "span",
@@ -19981,7 +20109,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OUT_XOR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L786C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L794C7"
                     },
                     {
                       "kind": "span",
@@ -20012,7 +20140,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OUT_XOR_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L118C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L120C9"
                     },
                     {
                       "kind": "span",
@@ -20023,7 +20151,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 787,
+                  "number": 795,
                   "children": [
                     {
                       "kind": "span",
@@ -20039,7 +20167,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 788,
+                  "number": 796,
                   "children": [
                     {
                       "kind": "span",
@@ -20050,7 +20178,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE",
-                      "href": "docs/rp2040_svd__sio___spec.html#L788C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L796C7"
                     },
                     {
                       "kind": "span",
@@ -20081,7 +20209,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L135C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L138C9"
                     },
                     {
                       "kind": "span",
@@ -20092,7 +20220,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 789,
+                  "number": 797,
                   "children": [
                     {
                       "kind": "span",
@@ -20108,7 +20236,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 790,
+                  "number": 798,
                   "children": [
                     {
                       "kind": "span",
@@ -20119,7 +20247,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_SET",
-                      "href": "docs/rp2040_svd__sio___spec.html#L790C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L798C7"
                     },
                     {
                       "kind": "span",
@@ -20150,7 +20278,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_SET_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L156C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L159C9"
                     },
                     {
                       "kind": "span",
@@ -20161,7 +20289,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 791,
+                  "number": 799,
                   "children": [
                     {
                       "kind": "span",
@@ -20177,7 +20305,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 792,
+                  "number": 800,
                   "children": [
                     {
                       "kind": "span",
@@ -20188,7 +20316,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_CLR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L792C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L800C7"
                     },
                     {
                       "kind": "span",
@@ -20219,7 +20347,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_CLR_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L173C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L177C9"
                     },
                     {
                       "kind": "span",
@@ -20230,7 +20358,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 793,
+                  "number": 801,
                   "children": [
                     {
                       "kind": "span",
@@ -20246,7 +20374,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 794,
+                  "number": 802,
                   "children": [
                     {
                       "kind": "span",
@@ -20257,7 +20385,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_XOR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L794C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L802C7"
                     },
                     {
                       "kind": "span",
@@ -20288,7 +20416,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_OE_XOR_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L190C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L195C9"
                     },
                     {
                       "kind": "span",
@@ -20299,7 +20427,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 795,
+                  "number": 803,
                   "children": [
                     {
                       "kind": "span",
@@ -20315,7 +20443,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 796,
+                  "number": 804,
                   "children": [
                     {
                       "kind": "span",
@@ -20326,7 +20454,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT",
-                      "href": "docs/rp2040_svd__sio___spec.html#L796C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L804C7"
                     },
                     {
                       "kind": "span",
@@ -20357,7 +20485,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L207C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L213C9"
                     },
                     {
                       "kind": "span",
@@ -20368,7 +20496,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 797,
+                  "number": 805,
                   "children": [
                     {
                       "kind": "span",
@@ -20384,7 +20512,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 798,
+                  "number": 806,
                   "children": [
                     {
                       "kind": "span",
@@ -20395,7 +20523,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_SET",
-                      "href": "docs/rp2040_svd__sio___spec.html#L798C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L806C7"
                     },
                     {
                       "kind": "span",
@@ -20426,7 +20554,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_SET_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L229C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L235C9"
                     },
                     {
                       "kind": "span",
@@ -20437,7 +20565,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 799,
+                  "number": 807,
                   "children": [
                     {
                       "kind": "span",
@@ -20453,7 +20581,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 800,
+                  "number": 808,
                   "children": [
                     {
                       "kind": "span",
@@ -20464,7 +20592,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_CLR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L800C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L808C7"
                     },
                     {
                       "kind": "span",
@@ -20495,7 +20623,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_CLR_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L246C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L253C9"
                     },
                     {
                       "kind": "span",
@@ -20506,7 +20634,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 801,
+                  "number": 809,
                   "children": [
                     {
                       "kind": "span",
@@ -20522,7 +20650,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 802,
+                  "number": 810,
                   "children": [
                     {
                       "kind": "span",
@@ -20533,7 +20661,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_XOR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L802C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L810C7"
                     },
                     {
                       "kind": "span",
@@ -20564,7 +20692,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OUT_XOR_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L264C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L271C9"
                     },
                     {
                       "kind": "span",
@@ -20575,7 +20703,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 803,
+                  "number": 811,
                   "children": [
                     {
                       "kind": "span",
@@ -20591,7 +20719,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 804,
+                  "number": 812,
                   "children": [
                     {
                       "kind": "span",
@@ -20602,7 +20730,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE",
-                      "href": "docs/rp2040_svd__sio___spec.html#L804C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L812C7"
                     },
                     {
                       "kind": "span",
@@ -20633,7 +20761,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L282C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L289C9"
                     },
                     {
                       "kind": "span",
@@ -20644,7 +20772,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 805,
+                  "number": 813,
                   "children": [
                     {
                       "kind": "span",
@@ -20660,7 +20788,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 806,
+                  "number": 814,
                   "children": [
                     {
                       "kind": "span",
@@ -20671,7 +20799,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_SET",
-                      "href": "docs/rp2040_svd__sio___spec.html#L806C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L814C7"
                     },
                     {
                       "kind": "span",
@@ -20702,7 +20830,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_SET_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L303C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L310C9"
                     },
                     {
                       "kind": "span",
@@ -20713,7 +20841,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 807,
+                  "number": 815,
                   "children": [
                     {
                       "kind": "span",
@@ -20729,7 +20857,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 808,
+                  "number": 816,
                   "children": [
                     {
                       "kind": "span",
@@ -20740,7 +20868,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_CLR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L808C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L816C7"
                     },
                     {
                       "kind": "span",
@@ -20771,7 +20899,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_CLR_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L320C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L328C9"
                     },
                     {
                       "kind": "span",
@@ -20782,7 +20910,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 809,
+                  "number": 817,
                   "children": [
                     {
                       "kind": "span",
@@ -20798,7 +20926,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 810,
+                  "number": 818,
                   "children": [
                     {
                       "kind": "span",
@@ -20809,7 +20937,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_XOR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L810C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L818C7"
                     },
                     {
                       "kind": "span",
@@ -20840,7 +20968,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_HI_OE_XOR_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L338C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L346C9"
                     },
                     {
                       "kind": "span",
@@ -20851,7 +20979,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 811,
+                  "number": 819,
                   "children": [
                     {
                       "kind": "span",
@@ -20867,7 +20995,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 812,
+                  "number": 820,
                   "children": [
                     {
                       "kind": "span",
@@ -20883,7 +21011,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 813,
+                  "number": 821,
                   "children": [
                     {
                       "kind": "span",
@@ -20899,7 +21027,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 814,
+                  "number": 822,
                   "children": [
                     {
                       "kind": "span",
@@ -20915,7 +21043,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 815,
+                  "number": 823,
                   "children": [
                     {
                       "kind": "span",
@@ -20931,7 +21059,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 816,
+                  "number": 824,
                   "children": [
                     {
                       "kind": "span",
@@ -20947,7 +21075,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 817,
+                  "number": 825,
                   "children": [
                     {
                       "kind": "span",
@@ -20963,7 +21091,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 818,
+                  "number": 826,
                   "children": [
                     {
                       "kind": "span",
@@ -20974,7 +21102,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "FIFO_ST",
-                      "href": "docs/rp2040_svd__sio___spec.html#L818C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L826C7"
                     },
                     {
                       "kind": "span",
@@ -21005,7 +21133,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "FIFO_ST_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L360C9"
+                      "href": "docs/rp2040_svd__sio___spec.html#L368C9"
                     },
                     {
                       "kind": "span",
@@ -21016,7 +21144,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 819,
+                  "number": 827,
                   "children": [
                     {
                       "kind": "span",
@@ -21032,7 +21160,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 820,
+                  "number": 828,
                   "children": [
                     {
                       "kind": "span",
@@ -21043,7 +21171,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "FIFO_WR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L820C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L828C7"
                     },
                     {
                       "kind": "span",
@@ -21085,7 +21213,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 821,
+                  "number": 829,
                   "children": [
                     {
                       "kind": "span",
@@ -21101,7 +21229,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 822,
+                  "number": 830,
                   "children": [
                     {
                       "kind": "span",
@@ -21112,7 +21240,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "FIFO_RD",
-                      "href": "docs/rp2040_svd__sio___spec.html#L822C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L830C7"
                     },
                     {
                       "kind": "span",
@@ -21154,7 +21282,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 823,
+                  "number": 831,
                   "children": [
                     {
                       "kind": "span",
@@ -21170,7 +21298,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 824,
+                  "number": 832,
                   "children": [
                     {
                       "kind": "span",
@@ -21186,7 +21314,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 825,
+                  "number": 833,
                   "children": [
                     {
                       "kind": "span",
@@ -21197,7 +21325,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SPINLOCK_ST",
-                      "href": "docs/rp2040_svd__sio___spec.html#L825C7"
+                      "href": "docs/rp2040_svd__sio___spec.html#L833C7"
                     },
                     {
                       "kind": "span",
@@ -21239,7 +21367,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 826,
+                  "number": 834,
                   "children": [
                     {
                       "kind": "span",
@@ -21255,7 +21383,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 827,
+                  "number": 835,
                   "children": [
                     {
                       "kind": "span",
@@ -21271,171 +21399,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 828,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  calculation. The results appear in QUOTIENT, REMAINDER.\\n"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 829,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  UDIVIDEND/SDIVIDEND are aliases of the same internal register. The U"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 830,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  alias starts an\\n unsigned calculation, and the S alias starts a"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 831,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  signed calculation."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 832,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DIV_UDIVIDEND",
-                      "href": "docs/rp2040_svd__sio___spec.html#L832C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 833,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Divider unsigned divisor\\n Write to the DIVISOR operand of the"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 834,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  divider, i.e. the q in `p / q`.\\n Any operand write starts a new"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 835,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  calculation. The results appear in QUOTIENT, REMAINDER.\\n"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 836,
                   "children": [
                     {
@@ -21446,7 +21409,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  UDIVIDEND/SDIVIDEND are aliases of the same internal register. The U"
+                      "text": "--  calculation. The results appear in QUOTIENT, REMAINDER.\\n"
                     }
                   ]
                 },
@@ -21462,7 +21425,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  alias starts an\\n unsigned calculation, and the S alias starts a"
+                      "text": "--  UDIVIDEND/SDIVIDEND are aliases of the same internal register. The U"
                     }
                   ]
                 },
@@ -21478,7 +21441,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  signed calculation."
+                      "text": "--  alias starts an\\n unsigned calculation, and the S alias starts a"
                     }
                   ]
                 },
@@ -21493,14 +21456,30 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  signed calculation."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 840,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DIV_UDIVISOR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L839C7"
+                      "text": "DIV_UDIVIDEND",
+                      "href": "docs/rp2040_svd__sio___spec.html#L840C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "       "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -21532,22 +21511,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 840,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Divider signed dividend\\n The same as UDIVIDEND, but starts a signed"
                     }
                   ]
                 },
@@ -21563,7 +21526,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  calculation, rather than unsigned."
+                      "text": "--  Divider unsigned divisor\\n Write to the DIVISOR operand of the"
                     }
                   ]
                 },
@@ -21578,45 +21541,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DIV_SDIVIDEND",
-                      "href": "docs/rp2040_svd__sio___spec.html#L842C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  divider, i.e. the q in `p / q`.\\n Any operand write starts a new"
                     }
                   ]
                 },
@@ -21632,7 +21558,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Divider signed divisor\\n The same as UDIVISOR, but starts a signed"
+                      "text": "--  calculation. The results appear in QUOTIENT, REMAINDER.\\n"
                     }
                   ]
                 },
@@ -21648,7 +21574,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  calculation, rather than unsigned."
+                      "text": "--  UDIVIDEND/SDIVIDEND are aliases of the same internal register. The U"
                     }
                   ]
                 },
@@ -21663,45 +21589,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DIV_SDIVISOR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L845C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  alias starts an\\n unsigned calculation, and the S alias starts a"
                     }
                   ]
                 },
@@ -21717,7 +21606,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Divider result quotient\\n The result of `DIVIDEND / DIVISOR`"
+                      "text": "--  signed calculation."
                     }
                   ]
                 },
@@ -21732,121 +21621,9 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  (division). Contents undefined while CSR_READY is low.\\n For signed"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 848,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  calculations, QUOTIENT is negative when the signs of DIVIDEND and"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 849,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  DIVISOR differ.\\n This register can be written to directly, for"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 850,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  context save/restore purposes. This halts any\\n in-progress"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 851,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  calculation and sets the CSR_READY and CSR_DIRTY flags.\\n Reading"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 852,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  from QUOTIENT clears the CSR_DIRTY flag, so should read results in"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 853,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  the order\\n REMAINDER, QUOTIENT if CSR_DIRTY is used."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 854,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DIV_QUOTIENT",
-                      "href": "docs/rp2040_svd__sio___spec.html#L854C7"
+                      "text": "DIV_UDIVISOR",
+                      "href": "docs/rp2040_svd__sio___spec.html#L847C7"
                     },
                     {
                       "kind": "span",
@@ -21888,6 +21665,192 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
+                  "number": 848,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Divider signed dividend\\n The same as UDIVIDEND, but starts a signed"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 849,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  calculation, rather than unsigned."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 850,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DIV_SDIVIDEND",
+                      "href": "docs/rp2040_svd__sio___spec.html#L850C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 851,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Divider signed divisor\\n The same as UDIVISOR, but starts a signed"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 852,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  calculation, rather than unsigned."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 853,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DIV_SDIVISOR",
+                      "href": "docs/rp2040_svd__sio___spec.html#L853C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 854,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Divider result quotient\\n The result of `DIVIDEND / DIVISOR`"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
                   "number": 855,
                   "children": [
                     {
@@ -21898,7 +21861,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Divider result remainder\\n The result of `DIVIDEND % DIVISOR`"
+                      "text": "--  (division). Contents undefined while CSR_READY is low.\\n For signed"
                     }
                   ]
                 },
@@ -21914,7 +21877,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  (modulo). Contents undefined while CSR_READY is low.\\n For signed"
+                      "text": "--  calculations, QUOTIENT is negative when the signs of DIVIDEND and"
                     }
                   ]
                 },
@@ -21930,7 +21893,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  calculations, REMAINDER is negative only when DIVIDEND is negative.\\n"
+                      "text": "--  DIVISOR differ.\\n This register can be written to directly, for"
                     }
                   ]
                 },
@@ -21946,7 +21909,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  This register can be written to directly, for context save/restore"
+                      "text": "--  context save/restore purposes. This halts any\\n in-progress"
                     }
                   ]
                 },
@@ -21962,7 +21925,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  purposes. This halts any\\n in-progress calculation and sets the"
+                      "text": "--  calculation and sets the CSR_READY and CSR_DIRTY flags.\\n Reading"
                     }
                   ]
                 },
@@ -21978,7 +21941,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  CSR_READY and CSR_DIRTY flags."
+                      "text": "--  from QUOTIENT clears the CSR_DIRTY flag, so should read results in"
                     }
                   ]
                 },
@@ -21993,14 +21956,30 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DIV_REMAINDER",
-                      "href": "docs/rp2040_svd__sio___spec.html#L861C7"
-                    },
+                      "cssClass": "comment",
+                      "text": "--  the order\\n REMAINDER, QUOTIENT if CSR_DIRTY is used."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 862,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
                       "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DIV_QUOTIENT",
+                      "href": "docs/rp2040_svd__sio___spec.html#L862C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -22037,22 +22016,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 862,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Control and status register for divider."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 863,
                   "children": [
                     {
@@ -22062,45 +22025,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DIV_CSR",
-                      "href": "docs/rp2040_svd__sio___spec.html#L863C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "            "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DIV_CSR_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L390C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  Divider result remainder\\n The result of `DIVIDEND % DIVISOR`"
                     }
                   ]
                 },
@@ -22116,7 +22042,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read/write access to accumulator 0"
+                      "text": "--  (modulo). Contents undefined while CSR_READY is low.\\n For signed"
                     }
                   ]
                 },
@@ -22131,45 +22057,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "INTERP0_ACCUM0",
-                      "href": "docs/rp2040_svd__sio___spec.html#L865C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  calculations, REMAINDER is negative only when DIVIDEND is negative.\\n"
                     }
                   ]
                 },
@@ -22185,7 +22074,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read/write access to accumulator 1"
+                      "text": "--  This register can be written to directly, for context save/restore"
                     }
                   ]
                 },
@@ -22200,45 +22089,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "INTERP0_ACCUM1",
-                      "href": "docs/rp2040_svd__sio___spec.html#L867C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  purposes. This halts any\\n in-progress calculation and sets the"
                     }
                   ]
                 },
@@ -22254,7 +22106,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read/write access to BASE0 register."
+                      "text": "--  CSR_READY and CSR_DIRTY flags."
                     }
                   ]
                 },
@@ -22270,7 +22122,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP0_BASE0",
+                      "text": "DIV_REMAINDER",
                       "href": "docs/rp2040_svd__sio___spec.html#L869C7"
                     },
                     {
@@ -22323,7 +22175,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read/write access to BASE1 register."
+                      "text": "--  Control and status register for divider."
                     }
                   ]
                 },
@@ -22339,13 +22191,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP0_BASE1",
+                      "text": "DIV_CSR",
                       "href": "docs/rp2040_svd__sio___spec.html#L871C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
+                      "text": "            "
                     },
                     {
                       "kind": "span",
@@ -22370,8 +22222,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
+                      "text": "DIV_CSR_Register",
+                      "href": "docs/rp2040_svd__sio___spec.html#L398C9"
                     },
                     {
                       "kind": "span",
@@ -22392,7 +22244,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read/write access to BASE2 register."
+                      "text": "--  Read/write access to accumulator 0"
                     }
                   ]
                 },
@@ -22408,13 +22260,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP0_BASE2",
+                      "text": "INTERP0_ACCUM0",
                       "href": "docs/rp2040_svd__sio___spec.html#L873C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -22461,7 +22313,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read LANE0 result, and simultaneously write lane results to both"
+                      "text": "--  Read/write access to accumulator 1"
                     }
                   ]
                 },
@@ -22476,30 +22328,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  accumulators (POP)."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 876,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP0_POP_LANE0",
-                      "href": "docs/rp2040_svd__sio___spec.html#L876C7"
+                      "text": "INTERP0_ACCUM1",
+                      "href": "docs/rp2040_svd__sio___spec.html#L875C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -22536,7 +22372,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 877,
+                  "number": 876,
                   "children": [
                     {
                       "kind": "span",
@@ -22546,7 +22382,60 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read LANE1 result, and simultaneously write lane results to both"
+                      "text": "--  Read/write access to BASE0 register."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 877,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "INTERP0_BASE0",
+                      "href": "docs/rp2040_svd__sio___spec.html#L877C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -22562,7 +22451,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  accumulators (POP)."
+                      "text": "--  Read/write access to BASE1 register."
                     }
                   ]
                 },
@@ -22578,13 +22467,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP0_POP_LANE1",
+                      "text": "INTERP0_BASE1",
                       "href": "docs/rp2040_svd__sio___spec.html#L879C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -22631,7 +22520,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read FULL result, and simultaneously write lane results to both"
+                      "text": "--  Read/write access to BASE2 register."
                     }
                   ]
                 },
@@ -22646,30 +22535,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  accumulators (POP)."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 882,
-                  "children": [
+                      "cssClass": "identifier",
+                      "text": "INTERP0_BASE2",
+                      "href": "docs/rp2040_svd__sio___spec.html#L881C7"
+                    },
                     {
                       "kind": "span",
                       "cssClass": "text",
                       "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "INTERP0_POP_FULL",
-                      "href": "docs/rp2040_svd__sio___spec.html#L882C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -22706,6 +22579,22 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
+                  "number": 882,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Read LANE0 result, and simultaneously write lane results to both"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
                   "number": 883,
                   "children": [
                     {
@@ -22716,7 +22605,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read LANE0 result, without altering any internal state (PEEK)."
+                      "text": "--  accumulators (POP)."
                     }
                   ]
                 },
@@ -22732,13 +22621,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP0_PEEK_LANE0",
+                      "text": "INTERP0_POP_LANE0",
                       "href": "docs/rp2040_svd__sio___spec.html#L884C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -22785,7 +22674,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read LANE1 result, without altering any internal state (PEEK)."
+                      "text": "--  Read LANE1 result, and simultaneously write lane results to both"
                     }
                   ]
                 },
@@ -22800,45 +22689,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "INTERP0_PEEK_LANE1",
-                      "href": "docs/rp2040_svd__sio___spec.html#L886C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  accumulators (POP)."
                     }
                   ]
                 },
@@ -22853,25 +22705,9 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read FULL result, without altering any internal state (PEEK)."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 888,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP0_PEEK_FULL",
-                      "href": "docs/rp2040_svd__sio___spec.html#L888C7"
+                      "text": "INTERP0_POP_LANE1",
+                      "href": "docs/rp2040_svd__sio___spec.html#L887C7"
                     },
                     {
                       "kind": "span",
@@ -22913,6 +22749,22 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
+                  "number": 888,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Read FULL result, and simultaneously write lane results to both"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
                   "number": 889,
                   "children": [
                     {
@@ -22923,7 +22775,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Control register for lane 0"
+                      "text": "--  accumulators (POP)."
                     }
                   ]
                 },
@@ -22939,13 +22791,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP0_CTRL_LANE0",
+                      "text": "INTERP0_POP_FULL",
                       "href": "docs/rp2040_svd__sio___spec.html#L890C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -22970,8 +22822,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP0_CTRL_LANE0_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L445C9"
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
                     },
                     {
                       "kind": "span",
@@ -22992,7 +22844,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Control register for lane 1"
+                      "text": "--  Read LANE0 result, without altering any internal state (PEEK)."
                     }
                   ]
                 },
@@ -23008,7 +22860,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP0_CTRL_LANE1",
+                      "text": "INTERP0_PEEK_LANE0",
                       "href": "docs/rp2040_svd__sio___spec.html#L892C7"
                     },
                     {
@@ -23039,8 +22891,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP0_CTRL_LANE1_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L512C9"
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
                     },
                     {
                       "kind": "span",
@@ -23061,7 +22913,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Values written here are atomically added to ACCUM0\\n Reading yields"
+                      "text": "--  Read LANE1 result, without altering any internal state (PEEK)."
                     }
                   ]
                 },
@@ -23076,25 +22928,9 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  lane 0's raw shift and mask value (BASE0 not added)."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 895,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP0_ACCUM0_ADD",
-                      "href": "docs/rp2040_svd__sio___spec.html#L895C7"
+                      "text": "INTERP0_PEEK_LANE1",
+                      "href": "docs/rp2040_svd__sio___spec.html#L894C7"
                     },
                     {
                       "kind": "span",
@@ -23124,13 +22960,29 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP0_ACCUM0_ADD_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L560C9"
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 895,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Read FULL result, without altering any internal state (PEEK)."
                     }
                   ]
                 },
@@ -23145,8 +22997,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Values written here are atomically added to ACCUM1\\n Reading yields"
+                      "cssClass": "identifier",
+                      "text": "INTERP0_PEEK_FULL",
+                      "href": "docs/rp2040_svd__sio___spec.html#L896C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -23162,7 +23051,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lane 1's raw shift and mask value (BASE1 not added)."
+                      "text": "--  Control register for lane 0"
                     }
                   ]
                 },
@@ -23178,7 +23067,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP0_ACCUM1_ADD",
+                      "text": "INTERP0_CTRL_LANE0",
                       "href": "docs/rp2040_svd__sio___spec.html#L898C7"
                     },
                     {
@@ -23209,8 +23098,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP0_ACCUM1_ADD_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L578C9"
+                      "text": "INTERP0_CTRL_LANE0_Register",
+                      "href": "docs/rp2040_svd__sio___spec.html#L453C9"
                     },
                     {
                       "kind": "span",
@@ -23231,7 +23120,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  On write, the lower 16 bits go to BASE0, upper bits to BASE1"
+                      "text": "--  Control register for lane 1"
                     }
                   ]
                 },
@@ -23246,8 +23135,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  simultaneously.\\n Each half is sign-extended to 32 bits if that"
+                      "cssClass": "identifier",
+                      "text": "INTERP0_CTRL_LANE1",
+                      "href": "docs/rp2040_svd__sio___spec.html#L900C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "INTERP0_CTRL_LANE1_Register",
+                      "href": "docs/rp2040_svd__sio___spec.html#L520C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -23263,7 +23189,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lane's SIGNED flag is set."
+                      "text": "--  Values written here are atomically added to ACCUM0\\n Reading yields"
                     }
                   ]
                 },
@@ -23278,45 +23204,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "INTERP0_BASE_1AND0",
-                      "href": "docs/rp2040_svd__sio___spec.html#L902C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  lane 0's raw shift and mask value (BASE0 not added)."
                     }
                   ]
                 },
@@ -23331,30 +23220,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read/write access to accumulator 0"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 904,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP1_ACCUM0",
-                      "href": "docs/rp2040_svd__sio___spec.html#L904C7"
+                      "text": "INTERP0_ACCUM0_ADD",
+                      "href": "docs/rp2040_svd__sio___spec.html#L903C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "     "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -23379,13 +23252,29 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
+                      "text": "INTERP0_ACCUM0_ADD_Register",
+                      "href": "docs/rp2040_svd__sio___spec.html#L568C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 904,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Values written here are atomically added to ACCUM1\\n Reading yields"
                     }
                   ]
                 },
@@ -23401,7 +23290,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read/write access to accumulator 1"
+                      "text": "--  lane 1's raw shift and mask value (BASE1 not added)."
                     }
                   ]
                 },
@@ -23417,13 +23306,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP1_ACCUM1",
+                      "text": "INTERP0_ACCUM1_ADD",
                       "href": "docs/rp2040_svd__sio___spec.html#L906C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "     "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -23448,8 +23337,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
+                      "text": "INTERP0_ACCUM1_ADD_Register",
+                      "href": "docs/rp2040_svd__sio___spec.html#L586C9"
                     },
                     {
                       "kind": "span",
@@ -23470,7 +23359,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read/write access to BASE0 register."
+                      "text": "--  On write, the lower 16 bits go to BASE0, upper bits to BASE1"
                     }
                   ]
                 },
@@ -23485,45 +23374,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "INTERP1_BASE0",
-                      "href": "docs/rp2040_svd__sio___spec.html#L908C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  simultaneously.\\n Each half is sign-extended to 32 bits if that"
                     }
                   ]
                 },
@@ -23539,7 +23391,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read/write access to BASE1 register."
+                      "text": "--  lane's SIGNED flag is set."
                     }
                   ]
                 },
@@ -23555,13 +23407,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP1_BASE1",
+                      "text": "INTERP0_BASE_1AND0",
                       "href": "docs/rp2040_svd__sio___spec.html#L910C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -23608,7 +23460,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read/write access to BASE2 register."
+                      "text": "--  Read/write access to accumulator 0"
                     }
                   ]
                 },
@@ -23624,13 +23476,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP1_BASE2",
+                      "text": "INTERP1_ACCUM0",
                       "href": "docs/rp2040_svd__sio___spec.html#L912C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -23677,7 +23529,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read LANE0 result, and simultaneously write lane results to both"
+                      "text": "--  Read/write access to accumulator 1"
                     }
                   ]
                 },
@@ -23692,30 +23544,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  accumulators (POP)."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 915,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP1_POP_LANE0",
-                      "href": "docs/rp2040_svd__sio___spec.html#L915C7"
+                      "text": "INTERP1_ACCUM1",
+                      "href": "docs/rp2040_svd__sio___spec.html#L914C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -23752,7 +23588,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 916,
+                  "number": 915,
                   "children": [
                     {
                       "kind": "span",
@@ -23762,7 +23598,60 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read LANE1 result, and simultaneously write lane results to both"
+                      "text": "--  Read/write access to BASE0 register."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 916,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "INTERP1_BASE0",
+                      "href": "docs/rp2040_svd__sio___spec.html#L916C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -23778,7 +23667,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  accumulators (POP)."
+                      "text": "--  Read/write access to BASE1 register."
                     }
                   ]
                 },
@@ -23794,13 +23683,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP1_POP_LANE1",
+                      "text": "INTERP1_BASE1",
                       "href": "docs/rp2040_svd__sio___spec.html#L918C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -23847,7 +23736,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read FULL result, and simultaneously write lane results to both"
+                      "text": "--  Read/write access to BASE2 register."
                     }
                   ]
                 },
@@ -23862,30 +23751,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  accumulators (POP)."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 921,
-                  "children": [
+                      "cssClass": "identifier",
+                      "text": "INTERP1_BASE2",
+                      "href": "docs/rp2040_svd__sio___spec.html#L920C7"
+                    },
                     {
                       "kind": "span",
                       "cssClass": "text",
                       "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "INTERP1_POP_FULL",
-                      "href": "docs/rp2040_svd__sio___spec.html#L921C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -23922,6 +23795,22 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
+                  "number": 921,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Read LANE0 result, and simultaneously write lane results to both"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
                   "number": 922,
                   "children": [
                     {
@@ -23932,7 +23821,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read LANE0 result, without altering any internal state (PEEK)."
+                      "text": "--  accumulators (POP)."
                     }
                   ]
                 },
@@ -23948,13 +23837,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP1_PEEK_LANE0",
+                      "text": "INTERP1_POP_LANE0",
                       "href": "docs/rp2040_svd__sio___spec.html#L923C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -24001,7 +23890,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Read LANE1 result, without altering any internal state (PEEK)."
+                      "text": "--  Read LANE1 result, and simultaneously write lane results to both"
                     }
                   ]
                 },
@@ -24016,45 +23905,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "INTERP1_PEEK_LANE1",
-                      "href": "docs/rp2040_svd__sio___spec.html#L925C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  accumulators (POP)."
                     }
                   ]
                 },
@@ -24069,25 +23921,9 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read FULL result, without altering any internal state (PEEK)."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 927,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP1_PEEK_FULL",
-                      "href": "docs/rp2040_svd__sio___spec.html#L927C7"
+                      "text": "INTERP1_POP_LANE1",
+                      "href": "docs/rp2040_svd__sio___spec.html#L926C7"
                     },
                     {
                       "kind": "span",
@@ -24129,6 +23965,22 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
+                  "number": 927,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Read FULL result, and simultaneously write lane results to both"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
                   "number": 928,
                   "children": [
                     {
@@ -24139,7 +23991,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Control register for lane 0"
+                      "text": "--  accumulators (POP)."
                     }
                   ]
                 },
@@ -24155,13 +24007,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP1_CTRL_LANE0",
+                      "text": "INTERP1_POP_FULL",
                       "href": "docs/rp2040_svd__sio___spec.html#L929C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -24186,8 +24038,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP1_CTRL_LANE0_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L622C9"
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
                     },
                     {
                       "kind": "span",
@@ -24208,7 +24060,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Control register for lane 1"
+                      "text": "--  Read LANE0 result, without altering any internal state (PEEK)."
                     }
                   ]
                 },
@@ -24224,7 +24076,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP1_CTRL_LANE1",
+                      "text": "INTERP1_PEEK_LANE0",
                       "href": "docs/rp2040_svd__sio___spec.html#L931C7"
                     },
                     {
@@ -24255,8 +24107,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP1_CTRL_LANE1_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L685C9"
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
                     },
                     {
                       "kind": "span",
@@ -24277,7 +24129,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Values written here are atomically added to ACCUM0\\n Reading yields"
+                      "text": "--  Read LANE1 result, without altering any internal state (PEEK)."
                     }
                   ]
                 },
@@ -24292,25 +24144,9 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  lane 0's raw shift and mask value (BASE0 not added)."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 934,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP1_ACCUM0_ADD",
-                      "href": "docs/rp2040_svd__sio___spec.html#L934C7"
+                      "text": "INTERP1_PEEK_LANE1",
+                      "href": "docs/rp2040_svd__sio___spec.html#L933C7"
                     },
                     {
                       "kind": "span",
@@ -24340,13 +24176,29 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP1_ACCUM0_ADD_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L733C9"
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 934,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Read FULL result, without altering any internal state (PEEK)."
                     }
                   ]
                 },
@@ -24361,8 +24213,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Values written here are atomically added to ACCUM1\\n Reading yields"
+                      "cssClass": "identifier",
+                      "text": "INTERP1_PEEK_FULL",
+                      "href": "docs/rp2040_svd__sio___spec.html#L935C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -24378,7 +24267,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lane 1's raw shift and mask value (BASE1 not added)."
+                      "text": "--  Control register for lane 0"
                     }
                   ]
                 },
@@ -24394,7 +24283,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP1_ACCUM1_ADD",
+                      "text": "INTERP1_CTRL_LANE0",
                       "href": "docs/rp2040_svd__sio___spec.html#L937C7"
                     },
                     {
@@ -24425,8 +24314,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP1_ACCUM1_ADD_Register",
-                      "href": "docs/rp2040_svd__sio___spec.html#L751C9"
+                      "text": "INTERP1_CTRL_LANE0_Register",
+                      "href": "docs/rp2040_svd__sio___spec.html#L630C9"
                     },
                     {
                       "kind": "span",
@@ -24447,7 +24336,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  On write, the lower 16 bits go to BASE0, upper bits to BASE1"
+                      "text": "--  Control register for lane 1"
                     }
                   ]
                 },
@@ -24462,8 +24351,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  simultaneously.\\n Each half is sign-extended to 32 bits if that"
+                      "cssClass": "identifier",
+                      "text": "INTERP1_CTRL_LANE1",
+                      "href": "docs/rp2040_svd__sio___spec.html#L939C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "INTERP1_CTRL_LANE1_Register",
+                      "href": "docs/rp2040_svd__sio___spec.html#L693C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -24479,7 +24405,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lane's SIGNED flag is set."
+                      "text": "--  Values written here are atomically added to ACCUM0\\n Reading yields"
                     }
                   ]
                 },
@@ -24494,9 +24420,25 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  lane 0's raw shift and mask value (BASE0 not added)."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 942,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "INTERP1_BASE_1AND0",
-                      "href": "docs/rp2040_svd__sio___spec.html#L941C7"
+                      "text": "INTERP1_ACCUM0_ADD",
+                      "href": "docs/rp2040_svd__sio___spec.html#L942C7"
                     },
                     {
                       "kind": "span",
@@ -24526,29 +24468,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
+                      "text": "INTERP1_ACCUM0_ADD_Register",
+                      "href": "docs/rp2040_svd__sio___spec.html#L741C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 942,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -24564,7 +24490,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "text": "--  Values written here are atomically added to ACCUM1\\n Reading yields"
                     }
                   ]
                 },
@@ -24580,7 +24506,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  lane 1's raw shift and mask value (BASE1 not added)."
                     }
                   ]
                 },
@@ -24595,8 +24521,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "cssClass": "identifier",
+                      "text": "INTERP1_ACCUM1_ADD",
+                      "href": "docs/rp2040_svd__sio___spec.html#L945C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "INTERP1_ACCUM1_ADD_Register",
+                      "href": "docs/rp2040_svd__sio___spec.html#L759C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -24612,7 +24575,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  On write, the lower 16 bits go to BASE0, upper bits to BASE1"
                     }
                   ]
                 },
@@ -24627,45 +24590,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK0",
-                      "href": "docs/rp2040_svd__sio___spec.html#L947C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "          "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  simultaneously.\\n Each half is sign-extended to 32 bits if that"
                     }
                   ]
                 },
@@ -24681,7 +24607,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  lane's SIGNED flag is set."
                     }
                   ]
                 },
@@ -24696,8 +24622,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "INTERP1_BASE_1AND0",
+                      "href": "docs/rp2040_svd__sio___spec.html#L949C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -24713,7 +24676,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -24729,7 +24692,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -24745,7 +24708,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -24760,45 +24723,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK1",
-                      "href": "docs/rp2040_svd__sio___spec.html#L953C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "          "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -24814,7 +24740,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -24829,8 +24755,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK0",
+                      "href": "docs/rp2040_svd__sio___spec.html#L955C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -24846,7 +24809,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -24862,7 +24825,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -24878,7 +24841,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -24893,45 +24856,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK2",
-                      "href": "docs/rp2040_svd__sio___spec.html#L959C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "          "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -24947,7 +24873,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -24962,8 +24888,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK1",
+                      "href": "docs/rp2040_svd__sio___spec.html#L961C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -24979,7 +24942,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -24995,7 +24958,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -25011,7 +24974,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -25026,45 +24989,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK3",
-                      "href": "docs/rp2040_svd__sio___spec.html#L965C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "          "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -25080,7 +25006,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -25095,8 +25021,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK2",
+                      "href": "docs/rp2040_svd__sio___spec.html#L967C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -25112,7 +25075,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -25128,7 +25091,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -25144,7 +25107,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -25159,45 +25122,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK4",
-                      "href": "docs/rp2040_svd__sio___spec.html#L971C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "          "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -25213,7 +25139,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -25228,8 +25154,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK3",
+                      "href": "docs/rp2040_svd__sio___spec.html#L973C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -25245,7 +25208,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -25261,7 +25224,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -25277,7 +25240,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -25292,45 +25255,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK5",
-                      "href": "docs/rp2040_svd__sio___spec.html#L977C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "          "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -25346,7 +25272,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -25361,8 +25287,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK4",
+                      "href": "docs/rp2040_svd__sio___spec.html#L979C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -25378,7 +25341,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -25394,7 +25357,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -25410,7 +25373,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -25425,45 +25388,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK6",
-                      "href": "docs/rp2040_svd__sio___spec.html#L983C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "          "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -25479,7 +25405,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -25494,8 +25420,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK5",
+                      "href": "docs/rp2040_svd__sio___spec.html#L985C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -25511,7 +25474,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -25527,7 +25490,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -25543,7 +25506,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -25558,45 +25521,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK7",
-                      "href": "docs/rp2040_svd__sio___spec.html#L989C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "          "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -25612,7 +25538,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -25627,8 +25553,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK6",
+                      "href": "docs/rp2040_svd__sio___spec.html#L991C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -25644,7 +25607,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -25660,7 +25623,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -25676,7 +25639,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -25691,45 +25654,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK8",
-                      "href": "docs/rp2040_svd__sio___spec.html#L995C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "          "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -25745,7 +25671,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -25760,73 +25686,9 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 998,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 999,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1000,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1001,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "SPINLOCK9",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1001C7"
+                      "text": "SPINLOCK7",
+                      "href": "docs/rp2040_svd__sio___spec.html#L997C7"
                     },
                     {
                       "kind": "span",
@@ -25868,7 +25730,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1002,
+                  "number": 998,
                   "children": [
                     {
                       "kind": "span",
@@ -25884,7 +25746,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1003,
+                  "number": 999,
                   "children": [
                     {
                       "kind": "span",
@@ -25895,6 +25757,107 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "comment",
                       "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1000,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1001,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1002,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  value returned on success is 0x1 << lock number."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1003,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK8",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1003C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -25910,7 +25873,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -25926,7 +25889,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -25942,7 +25905,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -25957,45 +25920,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK10",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1007C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -26011,7 +25937,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -26026,8 +25952,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK9",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1009C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -26043,7 +26006,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -26059,7 +26022,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -26075,7 +26038,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -26090,45 +26053,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK11",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1013C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -26144,7 +26070,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -26159,8 +26085,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK10",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1015C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -26176,7 +26139,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -26192,7 +26155,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -26208,7 +26171,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -26223,45 +26186,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK12",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1019C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -26277,7 +26203,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -26292,8 +26218,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK11",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1021C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -26309,7 +26272,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -26325,7 +26288,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -26341,7 +26304,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -26356,45 +26319,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK13",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1025C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -26410,7 +26336,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -26425,8 +26351,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK12",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1027C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -26442,7 +26405,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -26458,7 +26421,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -26474,7 +26437,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -26489,45 +26452,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK14",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1031C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -26543,7 +26469,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -26558,8 +26484,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK13",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1033C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -26575,7 +26538,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -26591,7 +26554,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -26607,7 +26570,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -26622,45 +26585,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK15",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1037C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -26676,7 +26602,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -26691,8 +26617,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK14",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1039C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -26708,7 +26671,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -26724,7 +26687,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -26740,7 +26703,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -26755,45 +26718,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK16",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1043C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -26809,7 +26735,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -26824,8 +26750,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK15",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1045C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -26841,7 +26804,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -26857,7 +26820,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -26873,7 +26836,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -26888,45 +26851,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK17",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1049C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -26942,7 +26868,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -26957,8 +26883,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK16",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1051C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -26974,7 +26937,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -26990,7 +26953,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -27006,7 +26969,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -27021,45 +26984,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK18",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1055C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -27075,7 +27001,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -27090,8 +27016,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK17",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1057C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -27107,7 +27070,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -27123,7 +27086,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -27139,7 +27102,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -27154,45 +27117,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK19",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1061C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -27208,7 +27134,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -27223,8 +27149,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK18",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1063C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -27240,7 +27203,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -27256,7 +27219,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -27272,7 +27235,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -27287,45 +27250,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK20",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1067C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -27341,7 +27267,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -27356,8 +27282,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK19",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1069C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -27373,7 +27336,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -27389,7 +27352,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -27405,7 +27368,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -27420,45 +27383,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK21",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1073C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -27474,7 +27400,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -27489,8 +27415,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK20",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1075C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -27506,7 +27469,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -27522,7 +27485,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -27538,7 +27501,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -27553,45 +27516,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK22",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1079C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -27607,7 +27533,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -27622,8 +27548,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK21",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1081C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -27639,7 +27602,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -27655,7 +27618,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -27671,7 +27634,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -27686,45 +27649,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK23",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1085C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -27740,7 +27666,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -27755,8 +27681,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK22",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1087C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -27772,7 +27735,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -27788,7 +27751,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -27804,7 +27767,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -27819,45 +27782,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK24",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1091C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -27873,7 +27799,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -27888,8 +27814,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK23",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1093C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -27905,7 +27868,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -27921,7 +27884,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -27937,7 +27900,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -27952,45 +27915,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK25",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1097C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -28006,7 +27932,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -28021,8 +27947,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK24",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1099C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -28038,7 +28001,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -28054,7 +28017,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -28070,7 +28033,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -28085,45 +28048,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK26",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1103C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -28139,7 +28065,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -28154,8 +28080,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK25",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1105C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -28171,7 +28134,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -28187,7 +28150,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -28203,7 +28166,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -28218,45 +28181,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK27",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1109C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -28272,7 +28198,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -28287,8 +28213,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK26",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1111C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -28304,7 +28267,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -28320,7 +28283,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -28336,7 +28299,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -28351,45 +28314,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK28",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1115C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -28405,7 +28331,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -28420,8 +28346,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK27",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1117C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -28437,7 +28400,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -28453,7 +28416,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -28469,7 +28432,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
@@ -28484,45 +28447,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK29",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1121C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
                     }
                   ]
                 },
@@ -28538,7 +28464,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                      "text": "--  value returned on success is 0x1 << lock number."
                     }
                   ]
                 },
@@ -28553,8 +28479,45 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK28",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1123C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -28570,7 +28533,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
                     }
                   ]
                 },
@@ -28586,7 +28549,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
                     }
                   ]
                 },
@@ -28602,114 +28565,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  value returned on success is 0x1 << lock number."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1127,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPINLOCK30",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1127C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1128,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1129,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 1130,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
                       "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 1131,
+                  "number": 1127,
                   "children": [
                     {
                       "kind": "span",
@@ -28725,7 +28587,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1132,
+                  "number": 1128,
                   "children": [
                     {
                       "kind": "span",
@@ -28741,7 +28603,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1133,
+                  "number": 1129,
                   "children": [
                     {
                       "kind": "span",
@@ -28751,8 +28613,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "SPINLOCK31",
-                      "href": "docs/rp2040_svd__sio___spec.html#L1133C7"
+                      "text": "SPINLOCK29",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1129C7"
                     },
                     {
                       "kind": "span",
@@ -28794,7 +28656,273 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
+                  "number": 1130,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1131,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1132,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1133,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
                   "number": 1134,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  value returned on success is 0x1 << lock number."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1135,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK30",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1135C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1136,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Reading from a spinlock address will:\\n - Return 0 if lock is already"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1137,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  locked\\n - Otherwise return nonzero, and simultaneously claim the"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1138,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  lock\\n\\n Writing (any value) releases the lock.\\n If core 0 and core"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1139,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  1 attempt to claim the same lock simultaneously, core 0 wins.\\n The"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1140,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  value returned on success is 0x1 << lock number."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1141,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SPINLOCK31",
+                      "href": "docs/rp2040_svd__sio___spec.html#L1141C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt32",
+                      "href": "docs/hal___spec.html#L97C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 1142,
                   "children": [
                     {
                       "kind": "span",
@@ -28820,7 +28948,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 1135,
+                  "number": 1143,
                   "children": [
                     {
                       "kind": "span",
@@ -28863,7 +28991,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "CPUID",
-              "line": 774,
+              "line": 782,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -28883,7 +29011,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "GPIO_IN",
-              "line": 776,
+              "line": 784,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_IN_Register",
@@ -28903,7 +29031,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "GPIO_HI_IN",
-              "line": 778,
+              "line": 786,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_HI_IN_Register",
@@ -28923,7 +29051,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "GPIO_OUT",
-              "line": 780,
+              "line": 788,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_OUT_Register",
@@ -28943,7 +29071,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "GPIO_OUT_SET",
-              "line": 782,
+              "line": 790,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_OUT_SET_Register",
@@ -28963,11 +29091,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "GPIO_OUT_CLR",
-              "line": 784,
+              "line": 792,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_OUT_CLR_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L101C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L102C9"
               },
               "description": [
                 {
@@ -28983,11 +29111,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "GPIO_OUT_XOR",
-              "line": 786,
+              "line": 794,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_OUT_XOR_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L118C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L120C9"
               },
               "description": [
                 {
@@ -29003,11 +29131,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "GPIO_OE",
-              "line": 788,
+              "line": 796,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_OE_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L135C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L138C9"
               },
               "description": [
                 {
@@ -29023,11 +29151,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "GPIO_OE_SET",
-              "line": 790,
+              "line": 798,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_OE_SET_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L156C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L159C9"
               },
               "description": [
                 {
@@ -29043,11 +29171,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "GPIO_OE_CLR",
-              "line": 792,
+              "line": 800,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_OE_CLR_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L173C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L177C9"
               },
               "description": [
                 {
@@ -29063,11 +29191,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "GPIO_OE_XOR",
-              "line": 794,
+              "line": 802,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_OE_XOR_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L190C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L195C9"
               },
               "description": [
                 {
@@ -29083,11 +29211,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "GPIO_HI_OUT",
-              "line": 796,
+              "line": 804,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_HI_OUT_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L207C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L213C9"
               },
               "description": [
                 {
@@ -29103,11 +29231,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "GPIO_HI_OUT_SET",
-              "line": 798,
+              "line": 806,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_HI_OUT_SET_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L229C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L235C9"
               },
               "description": [
                 {
@@ -29123,11 +29251,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "GPIO_HI_OUT_CLR",
-              "line": 800,
+              "line": 808,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_HI_OUT_CLR_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L246C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L253C9"
               },
               "description": [
                 {
@@ -29143,11 +29271,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "GPIO_HI_OUT_XOR",
-              "line": 802,
+              "line": 810,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_HI_OUT_XOR_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L264C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L271C9"
               },
               "description": [
                 {
@@ -29163,11 +29291,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "GPIO_HI_OE",
-              "line": 804,
+              "line": 812,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_HI_OE_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L282C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L289C9"
               },
               "description": [
                 {
@@ -29183,11 +29311,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "GPIO_HI_OE_SET",
-              "line": 806,
+              "line": 814,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_HI_OE_SET_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L303C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L310C9"
               },
               "description": [
                 {
@@ -29203,11 +29331,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "GPIO_HI_OE_CLR",
-              "line": 808,
+              "line": 816,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_HI_OE_CLR_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L320C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L328C9"
               },
               "description": [
                 {
@@ -29223,11 +29351,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "GPIO_HI_OE_XOR",
-              "line": 810,
+              "line": 818,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.GPIO_HI_OE_XOR_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L338C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L346C9"
               },
               "description": [
                 {
@@ -29267,11 +29395,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "FIFO_ST",
-              "line": 818,
+              "line": 826,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.FIFO_ST_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L360C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L368C9"
               },
               "description": [
                 {
@@ -29287,7 +29415,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "FIFO_WR",
-              "line": 820,
+              "line": 828,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29307,7 +29435,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "FIFO_RD",
-              "line": 822,
+              "line": 830,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29331,7 +29459,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK_ST",
-              "line": 825,
+              "line": 833,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29371,7 +29499,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DIV_UDIVIDEND",
-              "line": 832,
+              "line": 840,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29411,7 +29539,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DIV_UDIVISOR",
-              "line": 839,
+              "line": 847,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29435,7 +29563,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DIV_SDIVIDEND",
-              "line": 842,
+              "line": 850,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29459,7 +29587,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DIV_SDIVISOR",
-              "line": 845,
+              "line": 853,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29507,7 +29635,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DIV_QUOTIENT",
-              "line": 854,
+              "line": 862,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29547,7 +29675,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DIV_REMAINDER",
-              "line": 861,
+              "line": 869,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29567,11 +29695,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DIV_CSR",
-              "line": 863,
+              "line": 871,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.DIV_CSR_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L390C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L398C9"
               },
               "description": [
                 {
@@ -29587,7 +29715,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP0_ACCUM0",
-              "line": 865,
+              "line": 873,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29607,7 +29735,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP0_ACCUM1",
-              "line": 867,
+              "line": 875,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29627,7 +29755,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP0_BASE0",
-              "line": 869,
+              "line": 877,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29647,7 +29775,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP0_BASE1",
-              "line": 871,
+              "line": 879,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29667,7 +29795,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP0_BASE2",
-              "line": 873,
+              "line": 881,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29691,7 +29819,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP0_POP_LANE0",
-              "line": 876,
+              "line": 884,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29715,7 +29843,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP0_POP_LANE1",
-              "line": 879,
+              "line": 887,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29739,7 +29867,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP0_POP_FULL",
-              "line": 882,
+              "line": 890,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29759,7 +29887,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP0_PEEK_LANE0",
-              "line": 884,
+              "line": 892,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29779,7 +29907,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP0_PEEK_LANE1",
-              "line": 886,
+              "line": 894,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29799,7 +29927,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP0_PEEK_FULL",
-              "line": 888,
+              "line": 896,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29819,11 +29947,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP0_CTRL_LANE0",
-              "line": 890,
+              "line": 898,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP0_CTRL_LANE0_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L445C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L453C9"
               },
               "description": [
                 {
@@ -29839,11 +29967,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP0_CTRL_LANE1",
-              "line": 892,
+              "line": 900,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP0_CTRL_LANE1_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L512C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L520C9"
               },
               "description": [
                 {
@@ -29863,11 +29991,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP0_ACCUM0_ADD",
-              "line": 895,
+              "line": 903,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP0_ACCUM0_ADD_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L560C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L568C9"
               },
               "description": [
                 {
@@ -29887,11 +30015,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP0_ACCUM1_ADD",
-              "line": 898,
+              "line": 906,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP0_ACCUM1_ADD_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L578C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L586C9"
               },
               "description": [
                 {
@@ -29915,7 +30043,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP0_BASE_1AND0",
-              "line": 902,
+              "line": 910,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29935,7 +30063,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP1_ACCUM0",
-              "line": 904,
+              "line": 912,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29955,7 +30083,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP1_ACCUM1",
-              "line": 906,
+              "line": 914,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29975,7 +30103,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP1_BASE0",
-              "line": 908,
+              "line": 916,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -29995,7 +30123,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP1_BASE1",
-              "line": 910,
+              "line": 918,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30015,7 +30143,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP1_BASE2",
-              "line": 912,
+              "line": 920,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30039,7 +30167,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP1_POP_LANE0",
-              "line": 915,
+              "line": 923,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30063,7 +30191,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP1_POP_LANE1",
-              "line": 918,
+              "line": 926,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30087,7 +30215,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP1_POP_FULL",
-              "line": 921,
+              "line": 929,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30107,7 +30235,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP1_PEEK_LANE0",
-              "line": 923,
+              "line": 931,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30127,7 +30255,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP1_PEEK_LANE1",
-              "line": 925,
+              "line": 933,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30147,7 +30275,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP1_PEEK_FULL",
-              "line": 927,
+              "line": 935,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30167,11 +30295,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP1_CTRL_LANE0",
-              "line": 929,
+              "line": 937,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP1_CTRL_LANE0_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L622C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L630C9"
               },
               "description": [
                 {
@@ -30187,11 +30315,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP1_CTRL_LANE1",
-              "line": 931,
+              "line": 939,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP1_CTRL_LANE1_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L685C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L693C9"
               },
               "description": [
                 {
@@ -30211,11 +30339,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP1_ACCUM0_ADD",
-              "line": 934,
+              "line": 942,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP1_ACCUM0_ADD_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L733C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L741C9"
               },
               "description": [
                 {
@@ -30235,11 +30363,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP1_ACCUM1_ADD",
-              "line": 937,
+              "line": 945,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.SIO.INTERP1_ACCUM1_ADD_Register",
-                "docHref": "docs/rp2040_svd__sio___spec.html#L751C9"
+                "docHref": "docs/rp2040_svd__sio___spec.html#L759C9"
               },
               "description": [
                 {
@@ -30263,7 +30391,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "INTERP1_BASE_1AND0",
-              "line": 941,
+              "line": 949,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30299,7 +30427,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK0",
-              "line": 947,
+              "line": 955,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30335,7 +30463,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK1",
-              "line": 953,
+              "line": 961,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30371,7 +30499,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK2",
-              "line": 959,
+              "line": 967,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30407,7 +30535,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK3",
-              "line": 965,
+              "line": 973,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30443,7 +30571,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK4",
-              "line": 971,
+              "line": 979,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30479,7 +30607,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK5",
-              "line": 977,
+              "line": 985,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30515,7 +30643,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK6",
-              "line": 983,
+              "line": 991,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30551,7 +30679,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK7",
-              "line": 989,
+              "line": 997,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30587,7 +30715,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK8",
-              "line": 995,
+              "line": 1003,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30623,7 +30751,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK9",
-              "line": 1001,
+              "line": 1009,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30659,7 +30787,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK10",
-              "line": 1007,
+              "line": 1015,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30695,7 +30823,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK11",
-              "line": 1013,
+              "line": 1021,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30731,7 +30859,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK12",
-              "line": 1019,
+              "line": 1027,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30767,7 +30895,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK13",
-              "line": 1025,
+              "line": 1033,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30803,7 +30931,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK14",
-              "line": 1031,
+              "line": 1039,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30839,7 +30967,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK15",
-              "line": 1037,
+              "line": 1045,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30875,7 +31003,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK16",
-              "line": 1043,
+              "line": 1051,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30911,7 +31039,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK17",
-              "line": 1049,
+              "line": 1057,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30947,7 +31075,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK18",
-              "line": 1055,
+              "line": 1063,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -30983,7 +31111,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK19",
-              "line": 1061,
+              "line": 1069,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -31019,7 +31147,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK20",
-              "line": 1067,
+              "line": 1075,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -31055,7 +31183,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK21",
-              "line": 1073,
+              "line": 1081,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -31091,7 +31219,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK22",
-              "line": 1079,
+              "line": 1087,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -31127,7 +31255,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK23",
-              "line": 1085,
+              "line": 1093,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -31163,7 +31291,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK24",
-              "line": 1091,
+              "line": 1099,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -31199,7 +31327,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK25",
-              "line": 1097,
+              "line": 1105,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -31235,7 +31363,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK26",
-              "line": 1103,
+              "line": 1111,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -31271,7 +31399,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK27",
-              "line": 1109,
+              "line": 1117,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -31307,7 +31435,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK28",
-              "line": 1115,
+              "line": 1123,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -31343,7 +31471,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK29",
-              "line": 1121,
+              "line": 1129,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -31379,7 +31507,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK30",
-              "line": 1127,
+              "line": 1135,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -31415,7 +31543,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SPINLOCK31",
-              "line": 1133,
+              "line": 1141,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",

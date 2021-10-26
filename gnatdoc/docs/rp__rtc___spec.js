@@ -130,6 +130,148 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
+          "label": "Configure",
+          "qualifier": "",
+          "line": 14,
+          "column": 14,
+          "src": "srcs/rp-rtc.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 14,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Configure",
+                      "href": "docs/rp__rtc___spec.html#L14C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 15,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__rtc___spec.html#L15C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "RTC_Device",
+                      "href": "docs/rp__rtc___spec.html#L10C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Configure the RTC and start it.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "If the RTC is already running, Initialize resets the time to zero.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 15,
+              "column": 8,
+              "type": {
+                "label": "RP.RTC.RTC_Device",
+                "docHref": "docs/rp__rtc___spec.html#L10C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
           "label": "Get",
           "qualifier": "",
           "line": 34,
@@ -684,148 +826,6 @@ GNATdoc.Documentation = {
             {
               "label": "This",
               "line": 41,
-              "column": 8,
-              "type": {
-                "label": "RP.RTC.RTC_Device",
-                "docHref": "docs/rp__rtc___spec.html#L10C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Initialize",
-          "qualifier": "",
-          "line": 14,
-          "column": 14,
-          "src": "srcs/rp-rtc.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 14,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Initialize",
-                      "href": "docs/rp__rtc___spec.html#L14C14"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 15,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "This",
-                      "href": "docs/rp__rtc___spec.html#L15C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "in"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "out"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "RTC_Device",
-                      "href": "docs/rp__rtc___spec.html#L10C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Configure the RTC and start it.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "If the RTC is already running, Initialize resets the time to zero.\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "This",
-              "line": 15,
               "column": 8,
               "type": {
                 "label": "RP.RTC.RTC_Device",

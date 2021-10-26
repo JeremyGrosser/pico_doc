@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "COUNT_COUNT_Field",
           "qualifier": "",
-          "line": 152,
+          "line": 151,
           "column": 12,
           "src": "srcs/rp2040_svd-xosc.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 152,
+                  "number": 151,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "COUNT_COUNT_Field",
-                      "href": "docs/rp2040_svd__xosc___spec.html#L152C12"
+                      "href": "docs/rp2040_svd__xosc___spec.html#L151C12"
                     },
                     {
                       "kind": "span",
@@ -861,7 +861,7 @@ GNATdoc.Documentation = {
         {
           "label": "COUNT_Register",
           "qualifier": "",
-          "line": 157,
+          "line": 156,
           "column": 9,
           "src": "srcs/rp2040_svd-xosc.ads.html",
           "summary": [
@@ -872,7 +872,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 157,
+                  "number": 156,
                   "children": [
                     {
                       "kind": "span",
@@ -893,7 +893,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "COUNT_Register",
-                      "href": "docs/rp2040_svd__xosc___spec.html#L157C9"
+                      "href": "docs/rp2040_svd__xosc___spec.html#L156C9"
                     },
                     {
                       "kind": "span",
@@ -919,7 +919,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 158,
+                  "number": 157,
                   "children": [
                     {
                       "kind": "span",
@@ -930,7 +930,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "COUNT",
-                      "href": "docs/rp2040_svd__xosc___spec.html#L158C7"
+                      "href": "docs/rp2040_svd__xosc___spec.html#L157C7"
                     },
                     {
                       "kind": "span",
@@ -951,7 +951,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "COUNT_COUNT_Field",
-                      "href": "docs/rp2040_svd__xosc___spec.html#L152C12"
+                      "href": "docs/rp2040_svd__xosc___spec.html#L151C12"
                     },
                     {
                       "kind": "span",
@@ -997,7 +997,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 159,
+                  "number": 158,
                   "children": [
                     {
                       "kind": "span",
@@ -1013,7 +1013,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 160,
+                  "number": 159,
                   "children": [
                     {
                       "kind": "span",
@@ -1024,7 +1024,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_8_31",
-                      "href": "docs/rp2040_svd__xosc___spec.html#L160C7"
+                      "href": "docs/rp2040_svd__xosc___spec.html#L159C7"
                     },
                     {
                       "kind": "span",
@@ -1091,7 +1091,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 161,
+                  "number": 160,
                   "children": [
                     {
                       "kind": "span",
@@ -1117,7 +1117,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 162,
+                  "number": 161,
                   "children": [
                     {
                       "kind": "span",
@@ -1138,7 +1138,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 163,
+                  "number": 162,
                   "children": [
                     {
                       "kind": "span",
@@ -1175,11 +1175,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "COUNT",
-              "line": 158,
+              "line": 157,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.XOSC.COUNT_COUNT_Field",
-                "docHref": "docs/rp2040_svd__xosc___spec.html#L152C12"
+                "docHref": "docs/rp2040_svd__xosc___spec.html#L151C12"
               },
               "description": [
                 {
@@ -1195,7 +1195,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_8_31",
-              "line": 160,
+              "line": 159,
               "column": 7,
               "type": {
                 "label": "HAL.UInt24",
@@ -1837,7 +1837,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  in multiples of 256*xtal_period. Set to 0xc4 at reset (approx 50 000"
+                      "text": "--  in multiples of 256*xtal_period. The reset value of 0xc4 corresponds"
                     }
                   ]
                 },
@@ -1853,7 +1853,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  cycles)"
+                      "text": "--  to approx 50 000 cycles."
                     }
                   ]
                 },
@@ -1921,7 +1921,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "number",
-                      "text": "0"
+                      "text": "C4"
                     },
                     {
                       "kind": "span",
@@ -2057,7 +2057,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  user given that the delay can be programmed directly. Set to 0 at"
+                      "text": "--  user given that the delay can be programmed directly."
                     }
                   ]
                 },
@@ -2072,25 +2072,9 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  reset."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 138,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "X4",
-                      "href": "docs/rp2040_svd__xosc___spec.html#L138C7"
+                      "href": "docs/rp2040_svd__xosc___spec.html#L137C7"
                     },
                     {
                       "kind": "span",
@@ -2141,7 +2125,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 139,
+                  "number": 138,
                   "children": [
                     {
                       "kind": "span",
@@ -2157,7 +2141,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 140,
+                  "number": 139,
                   "children": [
                     {
                       "kind": "span",
@@ -2168,7 +2152,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_21_31",
-                      "href": "docs/rp2040_svd__xosc___spec.html#L140C7"
+                      "href": "docs/rp2040_svd__xosc___spec.html#L139C7"
                     },
                     {
                       "kind": "span",
@@ -2235,7 +2219,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 141,
+                  "number": 140,
                   "children": [
                     {
                       "kind": "span",
@@ -2261,7 +2245,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 142,
+                  "number": 141,
                   "children": [
                     {
                       "kind": "span",
@@ -2282,7 +2266,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 143,
+                  "number": 142,
                   "children": [
                     {
                       "kind": "span",
@@ -2347,11 +2331,7 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "text": "user given that the delay can be programmed directly. Set to 0 at\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "reset.\n"
+                      "text": "user given that the delay can be programmed directly.\n"
                     }
                   ]
                 }
@@ -2359,7 +2339,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "X4",
-              "line": 138,
+              "line": 137,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -2378,7 +2358,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_21_31",
-              "line": 140,
+              "line": 139,
               "column": 7,
               "type": {
                 "label": "HAL.UInt11",
@@ -3312,7 +3292,7 @@ GNATdoc.Documentation = {
         {
           "label": "XOSC_Periph",
           "qualifier": "",
-          "line": 204,
+          "line": 203,
           "column": 4,
           "src": "srcs/rp2040_svd-xosc.ads.html",
           "summary": [
@@ -3323,7 +3303,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 204,
+                  "number": 203,
                   "children": [
                     {
                       "kind": "span",
@@ -3339,7 +3319,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 205,
+                  "number": 204,
                   "children": [
                     {
                       "kind": "span",
@@ -3385,7 +3365,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 206,
+                  "number": 205,
                   "children": [
                     {
                       "kind": "span",
@@ -3425,7 +3405,7 @@ GNATdoc.Documentation = {
         {
           "label": "XOSC_Peripheral",
           "qualifier": "",
-          "line": 175,
+          "line": 174,
           "column": 9,
           "src": "srcs/rp2040_svd-xosc.ads.html",
           "summary": [
@@ -3436,7 +3416,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 175,
+                  "number": 174,
                   "children": [
                     {
                       "kind": "span",
@@ -3457,7 +3437,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "XOSC_Peripheral",
-                      "href": "docs/rp2040_svd__xosc___spec.html#L175C9"
+                      "href": "docs/rp2040_svd__xosc___spec.html#L174C9"
                     },
                     {
                       "kind": "span",
@@ -3483,7 +3463,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 176,
+                  "number": 175,
                   "children": [
                     {
                       "kind": "span",
@@ -3499,7 +3479,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 177,
+                  "number": 176,
                   "children": [
                     {
                       "kind": "span",
@@ -3510,7 +3490,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CTRL",
-                      "href": "docs/rp2040_svd__xosc___spec.html#L177C7"
+                      "href": "docs/rp2040_svd__xosc___spec.html#L176C7"
                     },
                     {
                       "kind": "span",
@@ -3552,7 +3532,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 178,
+                  "number": 177,
                   "children": [
                     {
                       "kind": "span",
@@ -3568,7 +3548,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 179,
+                  "number": 178,
                   "children": [
                     {
                       "kind": "span",
@@ -3579,7 +3559,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "STATUS",
-                      "href": "docs/rp2040_svd__xosc___spec.html#L179C7"
+                      "href": "docs/rp2040_svd__xosc___spec.html#L178C7"
                     },
                     {
                       "kind": "span",
@@ -3621,7 +3601,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 180,
+                  "number": 179,
                   "children": [
                     {
                       "kind": "span",
@@ -3637,7 +3617,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 181,
+                  "number": 180,
                   "children": [
                     {
                       "kind": "span",
@@ -3653,7 +3633,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 182,
+                  "number": 181,
                   "children": [
                     {
                       "kind": "span",
@@ -3669,7 +3649,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 183,
+                  "number": 182,
                   "children": [
                     {
                       "kind": "span",
@@ -3685,7 +3665,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 184,
+                  "number": 183,
                   "children": [
                     {
                       "kind": "span",
@@ -3701,7 +3681,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 185,
+                  "number": 184,
                   "children": [
                     {
                       "kind": "span",
@@ -3712,7 +3692,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DORMANT",
-                      "href": "docs/rp2040_svd__xosc___spec.html#L185C7"
+                      "href": "docs/rp2040_svd__xosc___spec.html#L184C7"
                     },
                     {
                       "kind": "span",
@@ -3754,7 +3734,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 186,
+                  "number": 185,
                   "children": [
                     {
                       "kind": "span",
@@ -3770,7 +3750,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 187,
+                  "number": 186,
                   "children": [
                     {
                       "kind": "span",
@@ -3781,7 +3761,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "STARTUP",
-                      "href": "docs/rp2040_svd__xosc___spec.html#L187C7"
+                      "href": "docs/rp2040_svd__xosc___spec.html#L186C7"
                     },
                     {
                       "kind": "span",
@@ -3823,7 +3803,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 188,
+                  "number": 187,
                   "children": [
                     {
                       "kind": "span",
@@ -3839,7 +3819,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 189,
+                  "number": 188,
                   "children": [
                     {
                       "kind": "span",
@@ -3855,7 +3835,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 190,
+                  "number": 189,
                   "children": [
                     {
                       "kind": "span",
@@ -3871,7 +3851,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 191,
+                  "number": 190,
                   "children": [
                     {
                       "kind": "span",
@@ -3882,7 +3862,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "COUNT",
-                      "href": "docs/rp2040_svd__xosc___spec.html#L191C7"
+                      "href": "docs/rp2040_svd__xosc___spec.html#L190C7"
                     },
                     {
                       "kind": "span",
@@ -3913,7 +3893,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "COUNT_Register",
-                      "href": "docs/rp2040_svd__xosc___spec.html#L157C9"
+                      "href": "docs/rp2040_svd__xosc___spec.html#L156C9"
                     },
                     {
                       "kind": "span",
@@ -3924,7 +3904,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 192,
+                  "number": 191,
                   "children": [
                     {
                       "kind": "span",
@@ -3950,7 +3930,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 193,
+                  "number": 192,
                   "children": [
                     {
                       "kind": "span",
@@ -3989,7 +3969,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "CTRL",
-              "line": 177,
+              "line": 176,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.XOSC.CTRL_Register",
@@ -4009,7 +3989,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "STATUS",
-              "line": 179,
+              "line": 178,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.XOSC.STATUS_Register",
@@ -4045,7 +4025,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DORMANT",
-              "line": 185,
+              "line": 184,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -4065,7 +4045,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "STARTUP",
-              "line": 187,
+              "line": 186,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.XOSC.STARTUP_Register",
@@ -4093,11 +4073,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "COUNT",
-              "line": 191,
+              "line": 190,
               "column": 7,
               "type": {
                 "label": "RP2040_SVD.XOSC.COUNT_Register",
-                "docHref": "docs/rp2040_svd__xosc___spec.html#L157C9"
+                "docHref": "docs/rp2040_svd__xosc___spec.html#L156C9"
               },
               "description": [
               ]

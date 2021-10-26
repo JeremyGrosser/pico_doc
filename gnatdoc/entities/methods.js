@@ -2,6 +2,13 @@ GNATdoc.EntitiesCategory = {
   "label": "Dispatching Subprograms",
   "entities": [
     {
+      "label": "Ack_SM_IRQ",
+      "docHref": "docs/rp__pio___spec.html#L256C14",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L256"
+    },
+    {
       "label": "Active_Touch_Points",
       "docHref": "docs/hal__touch_panel___spec.html#L62C13",
       "declared": "HAL.Touch_Panel",
@@ -49,6 +56,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.PIO",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-pio.ads.html#L148"
+    },
+    {
+      "label": "Clear_Force_IRQ_Flag",
+      "docHref": "docs/rp__pio___spec.html#L249C14",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L249"
+    },
+    {
+      "label": "Clear_Force_SM_IRQ",
+      "docHref": "docs/rp__pio___spec.html#L269C14",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L269"
     },
     {
       "label": "Close",
@@ -105,6 +126,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.GPIO",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-gpio.ads.html#L58"
+    },
+    {
+      "label": "Configure",
+      "docHref": "docs/rp__i2c_master___spec.html#L22C14",
+      "declared": "RP.I2C_Master",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-i2c_master.ads.html#L22"
+    },
+    {
+      "label": "Configure",
+      "docHref": "docs/rp__rtc___spec.html#L14C14",
+      "declared": "RP.RTC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-rtc.ads.html#L14"
     },
     {
       "label": "Configure",
@@ -220,10 +255,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Delay_Microseconds",
-      "docHref": "docs/rp__systick___spec.html#L23C14",
+      "docHref": "docs/rp__systick___spec.html#L34C14",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L23"
+      "srcHref": "srcs/rp-systick.ads.html#L34"
     },
     {
       "label": "Delay_Microseconds",
@@ -248,10 +283,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Delay_Milliseconds",
-      "docHref": "docs/rp__systick___spec.html#L29C14",
+      "docHref": "docs/rp__systick___spec.html#L40C14",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L29"
+      "srcHref": "srcs/rp-systick.ads.html#L40"
     },
     {
       "label": "Delay_Milliseconds",
@@ -269,10 +304,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Delay_Seconds",
-      "docHref": "docs/rp__systick___spec.html#L35C14",
+      "docHref": "docs/rp__systick___spec.html#L46C14",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L35"
+      "srcHref": "srcs/rp-systick.ads.html#L46"
     },
     {
       "label": "Delay_Seconds",
@@ -297,10 +332,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Disable",
-      "docHref": "docs/rp__systick___spec.html#L15C14",
+      "docHref": "docs/rp__systick___spec.html#L26C14",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L15"
+      "srcHref": "srcs/rp-systick.ads.html#L26"
     },
     {
       "label": "Disable",
@@ -315,6 +350,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.GPIO",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-gpio.ads.html#L80"
+    },
+    {
+      "label": "Disable_IRQ",
+      "docHref": "docs/rp__pio___spec.html#L225C14",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L225"
+    },
+    {
+      "label": "Disable_IRQ_Flag",
+      "docHref": "docs/rp__pio___spec.html#L233C14",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L233"
     },
     {
       "label": "Draw_Circle",
@@ -388,13 +437,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__i2c_master___spec.html#L22C14",
-      "declared": "RP.I2C_Master",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-i2c_master.ads.html#L22"
-    },
-    {
-      "label": "Enable",
       "docHref": "docs/rp__pio___spec.html#L39C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
@@ -402,10 +444,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__systick___spec.html#L12C14",
+      "docHref": "docs/rp__systick___spec.html#L23C14",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L12"
+      "srcHref": "srcs/rp-systick.ads.html#L23"
     },
     {
       "label": "Enable",
@@ -422,6 +464,20 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp-gpio.ads.html#L76"
     },
     {
+      "label": "Enable_IRQ",
+      "docHref": "docs/rp__pio___spec.html#L222C14",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L222"
+    },
+    {
+      "label": "Enable_IRQ_Flag",
+      "docHref": "docs/rp__pio___spec.html#L228C14",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L228"
+    },
+    {
       "label": "Enabled",
       "docHref": "docs/rp__pio___spec.html#L144C13",
       "declared": "RP.PIO",
@@ -430,10 +486,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enabled",
-      "docHref": "docs/rp__systick___spec.html#L18C13",
+      "docHref": "docs/rp__systick___spec.html#L29C13",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L18"
+      "srcHref": "srcs/rp-systick.ads.html#L29"
     },
     {
       "label": "Enabled",
@@ -553,6 +609,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "HAL.Filesystem",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-filesystem.ads.html#L209"
+    },
+    {
+      "label": "Force_IRQ_Flag",
+      "docHref": "docs/rp__pio___spec.html#L244C14",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L244"
+    },
+    {
+      "label": "Force_SM_IRQ",
+      "docHref": "docs/rp__pio___spec.html#L265C14",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L265"
     },
     {
       "label": "Frame_Time",
@@ -703,13 +773,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Initialize",
-      "docHref": "docs/rp__rtc___spec.html#L14C14",
-      "declared": "RP.RTC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rtc.ads.html#L14"
-    },
-    {
-      "label": "Initialize",
       "docHref": "docs/rp__usb_device___spec.html#L13C14",
       "declared": "RP.USB_Device",
       "declared_qualifier": "",
@@ -744,11 +807,25 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/usb-device.ads.html#L46"
     },
     {
+      "label": "IRQ_Flag_Status",
+      "docHref": "docs/rp__pio___spec.html#L238C13",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L238"
+    },
+    {
       "label": "Is_Hidden",
       "docHref": "docs/hal__filesystem___spec.html#L151C13",
       "declared": "HAL.Filesystem",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-filesystem.ads.html#L151"
+    },
+    {
+      "label": "Is_On",
+      "docHref": "docs/usb__device__hid__keyboard___spec.html#L62C13",
+      "declared": "USB.Device.HID.Keyboard",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-device-hid-keyboard.ads.html#L62"
     },
     {
       "label": "Is_Read_Only",
@@ -770,6 +847,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "HAL.Filesystem",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-filesystem.ads.html#L155"
+    },
+    {
+      "label": "Key_Codes_Full",
+      "docHref": "docs/usb__device__hid__keyboard___spec.html#L49C13",
+      "declared": "USB.Device.HID.Keyboard",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-device-hid-keyboard.ads.html#L49"
     },
     {
       "label": "Line_Coding",
@@ -808,10 +892,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Master_Receive",
-      "docHref": "docs/rp__i2c_master___spec.html#L37C14",
+      "docHref": "docs/rp__i2c_master___spec.html#L38C14",
       "declared": "RP.I2C_Master",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-i2c_master.ads.html#L37"
+      "srcHref": "srcs/rp-i2c_master.ads.html#L38"
     },
     {
       "label": "Master_Transmit",
@@ -822,10 +906,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Master_Transmit",
-      "docHref": "docs/rp__i2c_master___spec.html#L29C14",
+      "docHref": "docs/rp__i2c_master___spec.html#L30C14",
       "declared": "RP.I2C_Master",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-i2c_master.ads.html#L29"
+      "srcHref": "srcs/rp-i2c_master.ads.html#L30"
     },
     {
       "label": "Max_Layers",
@@ -843,10 +927,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Mem_Read",
-      "docHref": "docs/rp__i2c_master___spec.html#L55C14",
+      "docHref": "docs/rp__i2c_master___spec.html#L56C14",
       "declared": "RP.I2C_Master",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-i2c_master.ads.html#L55"
+      "srcHref": "srcs/rp-i2c_master.ads.html#L56"
     },
     {
       "label": "Mem_Write",
@@ -857,10 +941,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Mem_Write",
-      "docHref": "docs/rp__i2c_master___spec.html#L45C14",
+      "docHref": "docs/rp__i2c_master___spec.html#L46C14",
       "declared": "RP.I2C_Master",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-i2c_master.ads.html#L45"
+      "srcHref": "srcs/rp-i2c_master.ads.html#L46"
     },
     {
       "label": "Memory_Address",
@@ -996,6 +1080,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp-gpio.ads.html#L101"
     },
     {
+      "label": "Push_Key_Code",
+      "docHref": "docs/usb__device__hid__keyboard___spec.html#L53C14",
+      "declared": "USB.Device.HID.Keyboard",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-device-hid-keyboard.ads.html#L53"
+    },
+    {
       "label": "Put",
       "docHref": "docs/rp__pio___spec.html#L177C14",
       "declared": "RP.PIO",
@@ -1067,10 +1158,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Ready",
-      "docHref": "docs/usb__device__hid___spec.html#L46C13",
+      "docHref": "docs/usb__device__hid___spec.html#L43C13",
       "declared": "USB.Device.HID",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb-device-hid.ads.html#L46"
+      "srcHref": "srcs/usb-device-hid.ads.html#L43"
     },
     {
       "label": "Receive",
@@ -1190,6 +1281,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "Semihosting.Filesystem",
       "declared_qualifier": "",
       "srcHref": "srcs/semihosting-filesystem.ads.html#L75"
+    },
+    {
+      "label": "Report_Descriptor",
+      "docHref": "docs/usb__device__hid___spec.html#L38C13",
+      "declared": "USB.Device.HID",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-device-hid.ads.html#L38"
     },
     {
       "label": "Request_Buffer",
@@ -1319,10 +1417,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Send_Report",
-      "docHref": "docs/usb__device__hid___spec.html#L49C14",
+      "docHref": "docs/usb__device__hid___spec.html#L46C14",
       "declared": "USB.Device.HID",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb-device-hid.ads.html#L49"
+      "srcHref": "srcs/usb-device-hid.ads.html#L46"
     },
     {
       "label": "Set",
@@ -1381,6 +1479,20 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp-usb_device.ads.html#L72"
     },
     {
+      "label": "Set_Axis",
+      "docHref": "docs/usb__device__hid__gamepad___spec.html#L46C14",
+      "declared": "USB.Device.HID.Gamepad",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-device-hid-gamepad.ads.html#L46"
+    },
+    {
+      "label": "Set_Axis",
+      "docHref": "docs/usb__device__hid__joystick___spec.html#L46C14",
+      "declared": "USB.Device.HID.Joystick",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-device-hid-joystick.ads.html#L46"
+    },
+    {
       "label": "Set_Background",
       "docHref": "docs/hal__framebuffer___spec.html#L80C14",
       "declared": "HAL.Framebuffer",
@@ -1402,11 +1514,25 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/hal-sdmmc.ads.html#L398"
     },
     {
-      "label": "Set_Click",
-      "docHref": "docs/usb__device__hid___spec.html#L42C14",
-      "declared": "USB.Device.HID",
+      "label": "Set_Buttons",
+      "docHref": "docs/usb__device__hid__gamepad___spec.html#L51C14",
+      "declared": "USB.Device.HID.Gamepad",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb-device-hid.ads.html#L42"
+      "srcHref": "srcs/usb-device-hid-gamepad.ads.html#L51"
+    },
+    {
+      "label": "Set_Buttons",
+      "docHref": "docs/usb__device__hid__joystick___spec.html#L51C14",
+      "declared": "USB.Device.HID.Joystick",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-device-hid-joystick.ads.html#L51"
+    },
+    {
+      "label": "Set_Click",
+      "docHref": "docs/usb__device__hid__mouse___spec.html#L46C14",
+      "declared": "USB.Device.HID.Mouse",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-device-hid-mouse.ads.html#L46"
     },
     {
       "label": "Set_Clock",
@@ -1472,11 +1598,18 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp-gpio.ads.html#L96"
     },
     {
-      "label": "Set_Move",
-      "docHref": "docs/usb__device__hid___spec.html#L38C14",
-      "declared": "USB.Device.HID",
+      "label": "Set_Modifier",
+      "docHref": "docs/usb__device__hid__keyboard___spec.html#L45C14",
+      "declared": "USB.Device.HID.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb-device-hid.ads.html#L38"
+      "srcHref": "srcs/usb-device-hid-keyboard.ads.html#L45"
+    },
+    {
+      "label": "Set_Move",
+      "docHref": "docs/usb__device__hid__mouse___spec.html#L42C14",
+      "declared": "USB.Device.HID.Mouse",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-device-hid-mouse.ads.html#L42"
     },
     {
       "label": "Set_Orientation",
@@ -1535,6 +1668,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp-gpio.ads.html#L106"
     },
     {
+      "label": "Set_Report",
+      "docHref": "docs/usb__device__hid___spec.html#L51C13",
+      "declared": "USB.Device.HID",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-device-hid.ads.html#L51"
+    },
+    {
       "label": "Set_Source",
       "docHref": "docs/hal__bitmap___spec.html#L142C14",
       "declared": "HAL.Bitmap",
@@ -1582,6 +1722,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.PIO",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-pio.ads.html#L152"
+    },
+    {
+      "label": "SM_IRQ_Status",
+      "docHref": "docs/rp__pio___spec.html#L260C13",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L260"
     },
     {
       "label": "Source",

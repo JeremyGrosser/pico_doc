@@ -280,7 +280,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Initialize",
+          "text": "Configure",
           "href": "docs/rp__rtc___spec.html#L14C14"
         }
       ]

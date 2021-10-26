@@ -413,7 +413,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I2C_Master_Port",
-                      "href": "docs/rp__i2c_master___spec.html#L66C9"
+                      "href": "docs/rp__i2c_master___spec.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -444,7 +444,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP2040_SVD.I2C.I2C0_Periph",
-                      "href": "docs/rp2040_svd__i2c___spec.html#L3150C4"
+                      "href": "docs/rp2040_svd__i2c___spec.html#L3317C4"
                     },
                     {
                       "kind": "span",
@@ -528,7 +528,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I2C_Master_Port",
-                      "href": "docs/rp__i2c_master___spec.html#L66C9"
+                      "href": "docs/rp__i2c_master___spec.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -559,7 +559,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP2040_SVD.I2C.I2C1_Periph",
-                      "href": "docs/rp2040_svd__i2c___spec.html#L3152C4"
+                      "href": "docs/rp2040_svd__i2c___spec.html#L3319C4"
                     },
                     {
                       "kind": "span",
@@ -823,7 +823,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP.PIO.PIO_Peripheral",
-                      "href": "docs/rp__pio___spec.html#L245C9"
+                      "href": "docs/rp__pio___spec.html#L311C9"
                     }
                   ]
                 },
@@ -913,7 +913,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP.PIO.PIO_Peripheral",
-                      "href": "docs/rp__pio___spec.html#L245C9"
+                      "href": "docs/rp__pio___spec.html#L311C9"
                     }
                   ]
                 },
@@ -1003,7 +1003,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",
@@ -1118,7 +1118,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L271C9"
+                      "href": "docs/rp__pio___spec.html#L337C9"
                     },
                     {
                       "kind": "span",
@@ -1563,7 +1563,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP.SysTick.Delays",
-                      "href": "docs/rp__systick___spec.html#L10C9"
+                      "href": "docs/rp__systick___spec.html#L21C9"
                     },
                     {
                       "kind": "span",

@@ -505,6 +505,26 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/usb__device__hid___spec.html"
   },
   {
+    "label": "USB.Device.HID.Gamepad",
+    "qualifier": "",
+    "file": "docs/usb__device__hid__gamepad___spec.html"
+  },
+  {
+    "label": "USB.Device.HID.Joystick",
+    "qualifier": "",
+    "file": "docs/usb__device__hid__joystick___spec.html"
+  },
+  {
+    "label": "USB.Device.HID.Keyboard",
+    "qualifier": "",
+    "file": "docs/usb__device__hid__keyboard___spec.html"
+  },
+  {
+    "label": "USB.Device.HID.Mouse",
+    "qualifier": "",
+    "file": "docs/usb__device__hid__mouse___spec.html"
+  },
+  {
     "label": "USB.Device.MIDI",
     "qualifier": "",
     "file": "docs/usb__device__midi___spec.html"

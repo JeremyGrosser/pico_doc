@@ -94,10 +94,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Basic_RAM_Allocator",
-      "docHref": "docs/usb__utils___spec.html#L44C9",
+      "docHref": "docs/usb__utils___spec.html#L50C9",
       "declared": "USB.Utils",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb-utils.ads.html#L44"
+      "srcHref": "srcs/usb-utils.ads.html#L50"
     },
     {
       "label": "BAUDR_Register",
@@ -171,17 +171,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "BUFF_CPU_SHOULD_HANDLE_Register",
-      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L506C9",
+      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L509C9",
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L506"
+      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L509"
     },
     {
       "label": "BUFF_STATUS_Register",
-      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L367C9",
+      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L370C9",
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L367"
+      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L370"
     },
     {
       "label": "Buffer",
@@ -346,10 +346,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "CH10_DBG_CTDREQ_Register",
-      "docHref": "docs/rp2040_svd__dma___spec.html#L2528C9",
+      "docHref": "docs/rp2040_svd__dma___spec.html#L2538C9",
       "declared": "RP2040_SVD.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2528"
+      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2538"
     },
     {
       "label": "CH11_CTRL_TRIG_Register",
@@ -360,10 +360,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "CH11_DBG_CTDREQ_Register",
-      "docHref": "docs/rp2040_svd__dma___spec.html#L2548C9",
+      "docHref": "docs/rp2040_svd__dma___spec.html#L2559C9",
       "declared": "RP2040_SVD.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2548"
+      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2559"
     },
     {
       "label": "CH1_CC_Register",
@@ -395,10 +395,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "CH1_DBG_CTDREQ_Register",
-      "docHref": "docs/rp2040_svd__dma___spec.html#L2348C9",
+      "docHref": "docs/rp2040_svd__dma___spec.html#L2349C9",
       "declared": "RP2040_SVD.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2348"
+      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2349"
     },
     {
       "label": "CH1_DIV_Register",
@@ -444,10 +444,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "CH2_DBG_CTDREQ_Register",
-      "docHref": "docs/rp2040_svd__dma___spec.html#L2368C9",
+      "docHref": "docs/rp2040_svd__dma___spec.html#L2370C9",
       "declared": "RP2040_SVD.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2368"
+      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2370"
     },
     {
       "label": "CH2_DIV_Register",
@@ -493,10 +493,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "CH3_DBG_CTDREQ_Register",
-      "docHref": "docs/rp2040_svd__dma___spec.html#L2388C9",
+      "docHref": "docs/rp2040_svd__dma___spec.html#L2391C9",
       "declared": "RP2040_SVD.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2388"
+      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2391"
     },
     {
       "label": "CH3_DIV_Register",
@@ -542,10 +542,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "CH4_DBG_CTDREQ_Register",
-      "docHref": "docs/rp2040_svd__dma___spec.html#L2408C9",
+      "docHref": "docs/rp2040_svd__dma___spec.html#L2412C9",
       "declared": "RP2040_SVD.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2408"
+      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2412"
     },
     {
       "label": "CH4_DIV_Register",
@@ -591,10 +591,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "CH5_DBG_CTDREQ_Register",
-      "docHref": "docs/rp2040_svd__dma___spec.html#L2428C9",
+      "docHref": "docs/rp2040_svd__dma___spec.html#L2433C9",
       "declared": "RP2040_SVD.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2428"
+      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2433"
     },
     {
       "label": "CH5_DIV_Register",
@@ -640,10 +640,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "CH6_DBG_CTDREQ_Register",
-      "docHref": "docs/rp2040_svd__dma___spec.html#L2448C9",
+      "docHref": "docs/rp2040_svd__dma___spec.html#L2454C9",
       "declared": "RP2040_SVD.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2448"
+      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2454"
     },
     {
       "label": "CH6_DIV_Register",
@@ -689,10 +689,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "CH7_DBG_CTDREQ_Register",
-      "docHref": "docs/rp2040_svd__dma___spec.html#L2468C9",
+      "docHref": "docs/rp2040_svd__dma___spec.html#L2475C9",
       "declared": "RP2040_SVD.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2468"
+      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2475"
     },
     {
       "label": "CH7_DIV_Register",
@@ -717,10 +717,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "CH8_DBG_CTDREQ_Register",
-      "docHref": "docs/rp2040_svd__dma___spec.html#L2488C9",
+      "docHref": "docs/rp2040_svd__dma___spec.html#L2496C9",
       "declared": "RP2040_SVD.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2488"
+      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2496"
     },
     {
       "label": "CH9_CTRL_TRIG_Register",
@@ -731,10 +731,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "CH9_DBG_CTDREQ_Register",
-      "docHref": "docs/rp2040_svd__dma___spec.html#L2508C9",
+      "docHref": "docs/rp2040_svd__dma___spec.html#L2517C9",
       "declared": "RP2040_SVD.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2508"
+      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2517"
     },
     {
       "label": "CHAN_ABORT_Register",
@@ -976,10 +976,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "COUNT_Register",
-      "docHref": "docs/rp2040_svd__xosc___spec.html#L157C9",
+      "docHref": "docs/rp2040_svd__xosc___spec.html#L156C9",
       "declared": "RP2040_SVD.XOSC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-xosc.ads.html#L157"
+      "srcHref": "srcs/rp2040_svd-xosc.ads.html#L156"
     },
     {
       "label": "CPUID_Register",
@@ -1333,10 +1333,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "DIV_CSR_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L390C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L398C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L390"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L398"
     },
     {
       "label": "DIV_Register",
@@ -1361,17 +1361,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "DMA_Periph",
-      "docHref": "docs/rp2040_svd__dma___spec.html#L3616C4",
+      "docHref": "docs/rp2040_svd__dma___spec.html#L3628C4",
       "declared": "RP2040_SVD.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-dma.ads.html#L3616"
+      "srcHref": "srcs/rp2040_svd-dma.ads.html#L3628"
     },
     {
       "label": "DMA_Peripheral",
-      "docHref": "docs/rp2040_svd__dma___spec.html#L2567C9",
+      "docHref": "docs/rp2040_svd__dma___spec.html#L2579C9",
       "declared": "RP2040_SVD.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2567"
+      "srcHref": "srcs/rp2040_svd-dma.ads.html#L2579"
     },
     {
       "label": "DMA_Status",
@@ -2040,17 +2040,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "EP_ABORT_DONE_Register",
-      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L690C9",
+      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L693C9",
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L690"
+      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L693"
     },
     {
       "label": "EP_ABORT_Register",
-      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L615C9",
+      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L618C9",
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L615"
+      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L618"
     },
     {
       "label": "EP_Addr",
@@ -2061,17 +2061,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "EP_STALL_ARM_Register",
-      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L831C9",
+      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L834C9",
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L831"
+      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L834"
     },
     {
       "label": "EP_STATUS_STALL_NAK_Register",
-      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L874C9",
+      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L877C9",
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L874"
+      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L877"
     },
     {
       "label": "FBDIV_INT_Register",
@@ -2166,10 +2166,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "FIFO_ST_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L360C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L368C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L360"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L368"
     },
     {
       "label": "Firebrick",
@@ -2733,59 +2733,59 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "GPIO_HI_OE_CLR_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L320C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L328C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L320"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L328"
     },
     {
       "label": "GPIO_HI_OE_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L282C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L289C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L282"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L289"
     },
     {
       "label": "GPIO_HI_OE_SET_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L303C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L310C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L303"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L310"
     },
     {
       "label": "GPIO_HI_OE_XOR_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L338C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L346C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L338"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L346"
     },
     {
       "label": "GPIO_HI_OUT_CLR_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L246C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L253C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L246"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L253"
     },
     {
       "label": "GPIO_HI_OUT_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L207C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L213C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L207"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L213"
     },
     {
       "label": "GPIO_HI_OUT_SET_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L229C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L235C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L229"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L235"
     },
     {
       "label": "GPIO_HI_OUT_XOR_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L264C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L271C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L264"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L271"
     },
     {
       "label": "GPIO_IN_Register",
@@ -2796,38 +2796,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "GPIO_OE_CLR_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L173C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L177C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L173"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L177"
     },
     {
       "label": "GPIO_OE_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L135C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L138C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L135"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L138"
     },
     {
       "label": "GPIO_OE_SET_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L156C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L159C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L156"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L159"
     },
     {
       "label": "GPIO_OE_XOR_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L190C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L195C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L190"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L195"
     },
     {
       "label": "GPIO_OUT_CLR_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L101C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L102C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L101"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L102"
     },
     {
       "label": "GPIO_OUT_Register",
@@ -2845,10 +2845,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "GPIO_OUT_XOR_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L118C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L120C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L118"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L120"
     },
     {
       "label": "GPIO_QSPI_SCLK_CTRL_Register",
@@ -3006,17 +3006,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "I2C0_Periph",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L3150C4",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L3317C4",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L3150"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L3317"
     },
     {
       "label": "I2C1_Periph",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L3152C4",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L3319C4",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L3152"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L3319"
     },
     {
       "label": "I2C_0",
@@ -3034,290 +3034,290 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "I2C_Peripheral",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L2904C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L3023C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2904"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L3023"
     },
     {
       "label": "IC_ACK_GENERAL_CALL_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L2660C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L2731C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2660"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2731"
     },
     {
       "label": "IC_CLR_ACTIVITY_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L1662C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L1733C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1662"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1733"
     },
     {
       "label": "IC_CLR_GEN_CALL_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L1715C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L1786C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1715"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1786"
     },
     {
       "label": "IC_CLR_INTR_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L1543C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L1614C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1543"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1614"
     },
     {
       "label": "IC_CLR_RD_REQ_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L1610C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L1681C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1610"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1681"
     },
     {
       "label": "IC_CLR_RESTART_DET_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L2839C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L2910C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2839"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2910"
     },
     {
       "label": "IC_CLR_RX_DONE_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L1646C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L1717C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1646"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1717"
     },
     {
       "label": "IC_CLR_RX_OVER_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L1578C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L1649C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1578"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1649"
     },
     {
       "label": "IC_CLR_RX_UNDER_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L1562C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L1633C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1562"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1633"
     },
     {
       "label": "IC_CLR_START_DET_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L1699C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L1770C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1699"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1770"
     },
     {
       "label": "IC_CLR_STOP_DET_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L1683C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L1754C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1683"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1754"
     },
     {
       "label": "IC_CLR_TX_ABRT_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L1626C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L1697C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1626"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1697"
     },
     {
       "label": "IC_CLR_TX_OVER_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L1594C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L1665C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1594"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1665"
     },
     {
       "label": "IC_COMP_PARAM_1_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L2864C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L2935C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2864"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2935"
     },
     {
       "label": "IC_CON_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L173C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L244C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L173"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L244"
     },
     {
       "label": "IC_DATA_CMD_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L466C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L537C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L466"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L537"
     },
     {
       "label": "IC_DMA_CR_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L2549C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L2620C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2549"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2620"
     },
     {
       "label": "IC_DMA_RDLR_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L2592C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L2663C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2592"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2663"
     },
     {
       "label": "IC_DMA_TDLR_Register",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L2642C9",
+      "declared": "RP2040_SVD.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2642"
+    },
+    {
+      "label": "IC_ENABLE_Register",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L1867C9",
+      "declared": "RP2040_SVD.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1867"
+    },
+    {
+      "label": "IC_ENABLE_STATUS_Register",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L2823C9",
+      "declared": "RP2040_SVD.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2823"
+    },
+    {
+      "label": "IC_FS_SCL_HCNT_Register",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L673C9",
+      "declared": "RP2040_SVD.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L673"
+    },
+    {
+      "label": "IC_FS_SCL_LCNT_Register",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L704C9",
+      "declared": "RP2040_SVD.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L704"
+    },
+    {
+      "label": "IC_FS_SPKLEN_Register",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L2886C9",
+      "declared": "RP2040_SVD.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2886"
+    },
+    {
+      "label": "IC_INTR_MASK_Register",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L1116C9",
+      "declared": "RP2040_SVD.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1116"
+    },
+    {
+      "label": "IC_INTR_STAT_Register",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L894C9",
+      "declared": "RP2040_SVD.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L894"
+    },
+    {
+      "label": "IC_RAW_INTR_STAT_Register",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L1425C9",
+      "declared": "RP2040_SVD.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1425"
+    },
+    {
+      "label": "IC_RX_TL_Register",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L1569C9",
+      "declared": "RP2040_SVD.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1569"
+    },
+    {
+      "label": "IC_RXFLR_Register",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L2108C9",
+      "declared": "RP2040_SVD.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2108"
+    },
+    {
+      "label": "IC_SAR_Register",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L421C9",
+      "declared": "RP2040_SVD.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L421"
+    },
+    {
+      "label": "IC_SDA_HOLD_Register",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L2140C9",
+      "declared": "RP2040_SVD.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2140"
+    },
+    {
+      "label": "IC_SDA_SETUP_Register",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L2697C9",
+      "declared": "RP2040_SVD.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2697"
+    },
+    {
+      "label": "IC_SLV_DATA_NACK_ONLY_Register",
       "docHref": "docs/rp2040_svd__i2c___spec.html#L2571C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
       "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2571"
     },
     {
-      "label": "IC_ENABLE_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L1796C9",
-      "declared": "RP2040_SVD.I2C",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1796"
-    },
-    {
-      "label": "IC_ENABLE_STATUS_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L2752C9",
-      "declared": "RP2040_SVD.I2C",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2752"
-    },
-    {
-      "label": "IC_FS_SCL_HCNT_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L602C9",
-      "declared": "RP2040_SVD.I2C",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L602"
-    },
-    {
-      "label": "IC_FS_SCL_LCNT_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L633C9",
-      "declared": "RP2040_SVD.I2C",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L633"
-    },
-    {
-      "label": "IC_FS_SPKLEN_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L2815C9",
-      "declared": "RP2040_SVD.I2C",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2815"
-    },
-    {
-      "label": "IC_INTR_MASK_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L1045C9",
-      "declared": "RP2040_SVD.I2C",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1045"
-    },
-    {
-      "label": "IC_INTR_STAT_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L823C9",
-      "declared": "RP2040_SVD.I2C",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L823"
-    },
-    {
-      "label": "IC_RAW_INTR_STAT_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L1354C9",
-      "declared": "RP2040_SVD.I2C",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1354"
-    },
-    {
-      "label": "IC_RX_TL_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L1498C9",
-      "declared": "RP2040_SVD.I2C",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1498"
-    },
-    {
-      "label": "IC_RXFLR_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L2037C9",
-      "declared": "RP2040_SVD.I2C",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2037"
-    },
-    {
-      "label": "IC_SAR_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L350C9",
-      "declared": "RP2040_SVD.I2C",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L350"
-    },
-    {
-      "label": "IC_SDA_HOLD_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L2069C9",
-      "declared": "RP2040_SVD.I2C",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2069"
-    },
-    {
-      "label": "IC_SDA_SETUP_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L2626C9",
-      "declared": "RP2040_SVD.I2C",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2626"
-    },
-    {
-      "label": "IC_SLV_DATA_NACK_ONLY_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L2500C9",
-      "declared": "RP2040_SVD.I2C",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2500"
-    },
-    {
       "label": "IC_SS_SCL_HCNT_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L544C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L615C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L544"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L615"
     },
     {
       "label": "IC_SS_SCL_LCNT_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L575C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L646C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L575"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L646"
     },
     {
       "label": "IC_STATUS_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L1952C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L2023C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1952"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2023"
     },
     {
       "label": "IC_TAR_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L310C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L381C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L310"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L381"
     },
     {
       "label": "IC_TX_ABRT_SOURCE_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L2347C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L2418C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2347"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2418"
     },
     {
       "label": "IC_TX_TL_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L1522C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L1593C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1522"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L1593"
     },
     {
       "label": "IC_TXFLR_Register",
-      "docHref": "docs/rp2040_svd__i2c___spec.html#L2014C9",
+      "docHref": "docs/rp2040_svd__i2c___spec.html#L2085C9",
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2014"
+      "srcHref": "srcs/rp2040_svd-i2c.ads.html#L2085"
     },
     {
       "label": "ICR_Register",
@@ -3370,227 +3370,227 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "INSTR_MEM10_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L451C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L461C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L451"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L461"
     },
     {
       "label": "INSTR_MEM11_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L467C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L478C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L467"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L478"
     },
     {
       "label": "INSTR_MEM12_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L483C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L495C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L483"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L495"
     },
     {
       "label": "INSTR_MEM13_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L499C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L512C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L499"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L512"
     },
     {
       "label": "INSTR_MEM14_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L515C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L529C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L515"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L529"
     },
     {
       "label": "INSTR_MEM15_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L531C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L546C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L531"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L546"
     },
     {
       "label": "INSTR_MEM16_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L547C9",
-      "declared": "RP2040_SVD.PIO",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L547"
-    },
-    {
-      "label": "INSTR_MEM17_Register",
       "docHref": "docs/rp2040_svd__pio___spec.html#L563C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
       "srcHref": "srcs/rp2040_svd-pio.ads.html#L563"
     },
     {
-      "label": "INSTR_MEM18_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L579C9",
+      "label": "INSTR_MEM17_Register",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L580C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L579"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L580"
+    },
+    {
+      "label": "INSTR_MEM18_Register",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L597C9",
+      "declared": "RP2040_SVD.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L597"
     },
     {
       "label": "INSTR_MEM19_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L595C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L614C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L595"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L614"
     },
     {
       "label": "INSTR_MEM1_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L307C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L308C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L307"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L308"
     },
     {
       "label": "INSTR_MEM20_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L611C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L631C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L611"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L631"
     },
     {
       "label": "INSTR_MEM21_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L627C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L648C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L627"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L648"
     },
     {
       "label": "INSTR_MEM22_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L643C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L665C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L643"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L665"
     },
     {
       "label": "INSTR_MEM23_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L659C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L682C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L659"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L682"
     },
     {
       "label": "INSTR_MEM24_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L675C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L699C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L675"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L699"
     },
     {
       "label": "INSTR_MEM25_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L691C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L716C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L691"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L716"
     },
     {
       "label": "INSTR_MEM26_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L707C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L733C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L707"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L733"
     },
     {
       "label": "INSTR_MEM27_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L723C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L750C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L723"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L750"
     },
     {
       "label": "INSTR_MEM28_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L739C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L767C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L739"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L767"
     },
     {
       "label": "INSTR_MEM29_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L755C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L784C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L755"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L784"
     },
     {
       "label": "INSTR_MEM2_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L323C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L325C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L323"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L325"
     },
     {
       "label": "INSTR_MEM30_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L771C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L801C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L771"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L801"
     },
     {
       "label": "INSTR_MEM31_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L787C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L818C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L787"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L818"
     },
     {
       "label": "INSTR_MEM3_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L339C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L342C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L339"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L342"
     },
     {
       "label": "INSTR_MEM4_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L355C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L359C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L355"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L359"
     },
     {
       "label": "INSTR_MEM5_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L371C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L376C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L371"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L376"
     },
     {
       "label": "INSTR_MEM6_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L387C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L393C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L387"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L393"
     },
     {
       "label": "INSTR_MEM7_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L403C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L410C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L403"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L410"
     },
     {
       "label": "INSTR_MEM8_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L419C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L427C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L419"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L427"
     },
     {
       "label": "INSTR_MEM9_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L435C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L444C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L435"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L444"
     },
     {
       "label": "INT_EP_CTRL_Register",
-      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L346C9",
+      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L349C9",
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L346"
+      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L349"
     },
     {
       "label": "INTE0_Register",
@@ -3650,80 +3650,80 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "INTE_Register",
-      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1304C9",
+      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1307C9",
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1304"
+      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1307"
     },
     {
       "label": "INTERP0_ACCUM0_ADD_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L560C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L568C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L560"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L568"
     },
     {
       "label": "INTERP0_ACCUM1_ADD_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L578C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L586C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L578"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L586"
     },
     {
       "label": "INTERP0_CTRL_LANE0_OVERF_Field",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L425C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L433C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L425"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L433"
     },
     {
       "label": "INTERP0_CTRL_LANE0_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L445C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L453C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L445"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L453"
     },
     {
       "label": "INTERP0_CTRL_LANE1_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L512C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L520C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L512"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L520"
     },
     {
       "label": "INTERP1_ACCUM0_ADD_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L733C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L741C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L733"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L741"
     },
     {
       "label": "INTERP1_ACCUM1_ADD_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L751C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L759C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L751"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L759"
     },
     {
       "label": "INTERP1_CTRL_LANE0_OVERF_Field",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L602C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L610C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L602"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L610"
     },
     {
       "label": "INTERP1_CTRL_LANE0_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L622C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L630C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L622"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L630"
     },
     {
       "label": "INTERP1_CTRL_LANE1_Register",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L685C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L693C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L685"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L693"
     },
     {
       "label": "INTERP_0",
@@ -3804,10 +3804,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "INTF_Register",
-      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1387C9",
+      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1390C9",
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1387"
+      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1390"
     },
     {
       "label": "INTR0_Register",
@@ -3874,10 +3874,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "INTR_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1793C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1825C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1793"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1825"
     },
     {
       "label": "INTR_Register",
@@ -3902,17 +3902,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "INTR_Register",
-      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1220C9",
+      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1223C9",
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1220"
+      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1223"
     },
     {
       "label": "INTR_SM_Field",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1773C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1805C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1773"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1805"
     },
     {
       "label": "INTS0_Register",
@@ -3972,10 +3972,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "INTS_Register",
-      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1470C9",
+      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1473C9",
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1470"
+      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1473"
     },
     {
       "label": "IO_BANK0_Periph",
@@ -4007,87 +4007,87 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "IRQ0_INTE_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1856C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1888C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1856"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1888"
     },
     {
       "label": "IRQ0_INTE_SM_Field",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1836C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1868C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1836"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1868"
     },
     {
       "label": "IRQ0_INTF_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1911C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1943C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1911"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1943"
     },
     {
       "label": "IRQ0_INTF_SM_Field",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1891C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1923C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1891"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1923"
     },
     {
       "label": "IRQ0_INTS_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1966C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1998C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1966"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1998"
     },
     {
       "label": "IRQ0_INTS_SM_Field",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1946C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1978C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1946"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1978"
     },
     {
       "label": "IRQ1_INTE_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L2029C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L2061C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L2029"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L2061"
     },
     {
       "label": "IRQ1_INTE_SM_Field",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L2009C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L2041C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L2009"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L2041"
     },
     {
       "label": "IRQ1_INTF_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L2084C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L2116C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L2084"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L2116"
     },
     {
       "label": "IRQ1_INTF_SM_Field",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L2064C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L2096C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L2064"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L2096"
     },
     {
       "label": "IRQ1_INTS_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L2139C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L2171C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L2139"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L2171"
     },
     {
       "label": "IRQ1_INTS_SM_Field",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L2119C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L2151C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L2119"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L2151"
     },
     {
       "label": "IRQ_FORCE_Register",
@@ -4490,10 +4490,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "NAK_POLL_Register",
-      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L851C9",
+      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L854C9",
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L851"
+      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L854"
     },
     {
       "label": "Navajo_White",
@@ -4699,6 +4699,27 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/hal-bitmap.ads.html#L407"
     },
     {
+      "label": "Parent",
+      "docHref": "docs/usb__device__hid__gamepad___spec.html#L38C12",
+      "declared": "USB.Device.HID.Gamepad",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-device-hid-gamepad.ads.html#L38"
+    },
+    {
+      "label": "Parent",
+      "docHref": "docs/usb__device__hid__joystick___spec.html#L38C12",
+      "declared": "USB.Device.HID.Joystick",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-device-hid-joystick.ads.html#L38"
+    },
+    {
+      "label": "Parent",
+      "docHref": "docs/usb__device__hid__keyboard___spec.html#L37C12",
+      "declared": "USB.Device.HID.Keyboard",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-device-hid-keyboard.ads.html#L37"
+    },
+    {
       "label": "PAUSE_Register",
       "docHref": "docs/rp2040_svd__timer___spec.html#L100C9",
       "declared": "RP2040_SVD.TIMER",
@@ -4798,10 +4819,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PIO0_Periph",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L2499C4",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L2531C4",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L2499"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L2531"
     },
     {
       "label": "PIO1_Periph",
@@ -4812,10 +4833,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PIO1_Periph",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L2501C4",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L2533C4",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L2501"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L2533"
     },
     {
       "label": "PIO_0",
@@ -4840,10 +4861,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PIO_Peripheral",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L2182C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L2214C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L2182"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L2214"
     },
     {
       "label": "PIO_SM_Config",
@@ -5659,17 +5680,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "SIO_Periph",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L1236C4",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L1244C4",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L1236"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L1244"
     },
     {
       "label": "SIO_Peripheral",
-      "docHref": "docs/rp2040_svd__sio___spec.html#L771C9",
+      "docHref": "docs/rp2040_svd__sio___spec.html#L779C9",
       "declared": "RP2040_SVD.SIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-sio.ads.html#L771"
+      "srcHref": "srcs/rp2040_svd-sio.ads.html#L779"
     },
     {
       "label": "Sky_Blue",
@@ -5750,171 +5771,171 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "SM0_ADDR_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L956C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L988C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L956"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L988"
     },
     {
       "label": "SM0_CLKDIV_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L805C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L837C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L805"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L837"
     },
     {
       "label": "SM0_EXECCTRL_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L842C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L874C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L842"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L874"
     },
     {
       "label": "SM0_INSTR_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L975C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1007C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L975"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1007"
     },
     {
       "label": "SM0_PINCTRL_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L997C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1029C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L997"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1029"
     },
     {
       "label": "SM0_SHIFTCTRL_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L907C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L939C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L907"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L939"
     },
     {
       "label": "SM1_ADDR_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1198C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1230C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1198"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1230"
     },
     {
       "label": "SM1_CLKDIV_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1047C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1079C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1047"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1079"
     },
     {
       "label": "SM1_EXECCTRL_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1084C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1116C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1084"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1116"
     },
     {
       "label": "SM1_INSTR_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1217C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1249C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1217"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1249"
     },
     {
       "label": "SM1_PINCTRL_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1239C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1271C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1239"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1271"
     },
     {
       "label": "SM1_SHIFTCTRL_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1149C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1181C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1149"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1181"
     },
     {
       "label": "SM2_ADDR_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1440C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1472C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1440"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1472"
     },
     {
       "label": "SM2_CLKDIV_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1289C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1321C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1289"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1321"
     },
     {
       "label": "SM2_EXECCTRL_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1326C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1358C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1326"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1358"
     },
     {
       "label": "SM2_INSTR_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1459C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1491C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1459"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1491"
     },
     {
       "label": "SM2_PINCTRL_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1481C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1513C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1481"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1513"
     },
     {
       "label": "SM2_SHIFTCTRL_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1391C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1423C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1391"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1423"
     },
     {
       "label": "SM3_ADDR_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1682C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1714C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1682"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1714"
     },
     {
       "label": "SM3_CLKDIV_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1531C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1563C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1531"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1563"
     },
     {
       "label": "SM3_EXECCTRL_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1568C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1600C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1568"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1600"
     },
     {
       "label": "SM3_INSTR_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1701C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1733C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1701"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1733"
     },
     {
       "label": "SM3_PINCTRL_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1723C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1755C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1723"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1755"
     },
     {
       "label": "SM3_SHIFTCTRL_Register",
-      "docHref": "docs/rp2040_svd__pio___spec.html#L1633C9",
+      "docHref": "docs/rp2040_svd__pio___spec.html#L1665C9",
       "declared": "RP2040_SVD.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1633"
+      "srcHref": "srcs/rp2040_svd-pio.ads.html#L1665"
     },
     {
       "label": "SNIFF_CTRL_Register",
@@ -6688,17 +6709,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "USB_MUXING_Register",
-      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1011C9",
+      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1014C9",
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1011"
+      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1014"
     },
     {
       "label": "USB_PWR_Register",
-      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1033C9",
+      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1036C9",
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1033"
+      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1036"
     },
     {
       "label": "USBCTRL_DPRAM_Periph",
@@ -6716,38 +6737,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "USBCTRL_REGS_Periph",
-      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1706C4",
+      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1709C4",
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1706"
+      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1709"
     },
     {
       "label": "USBCTRL_REGS_Peripheral",
-      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1558C9",
+      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1561C9",
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1558"
+      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1561"
     },
     {
       "label": "USBPHY_DIRECT_OVERRIDE_Register",
-      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1149C9",
+      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1152C9",
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1149"
+      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1152"
     },
     {
       "label": "USBPHY_DIRECT_Register",
-      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1059C9",
+      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1062C9",
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1059"
+      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1062"
     },
     {
       "label": "USBPHY_TRIM_Register",
-      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1195C9",
+      "docHref": "docs/rp2040_svd__usbctrl_regs___spec.html#L1198C9",
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1195"
+      "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L1198"
     },
     {
       "label": "Violet",
@@ -6989,17 +7010,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "XOSC_Periph",
-      "docHref": "docs/rp2040_svd__xosc___spec.html#L204C4",
+      "docHref": "docs/rp2040_svd__xosc___spec.html#L203C4",
       "declared": "RP2040_SVD.XOSC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-xosc.ads.html#L204"
+      "srcHref": "srcs/rp2040_svd-xosc.ads.html#L203"
     },
     {
       "label": "XOSC_Peripheral",
-      "docHref": "docs/rp2040_svd__xosc___spec.html#L175C9",
+      "docHref": "docs/rp2040_svd__xosc___spec.html#L174C9",
       "declared": "RP2040_SVD.XOSC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_svd-xosc.ads.html#L175"
+      "srcHref": "srcs/rp2040_svd-xosc.ads.html#L174"
     },
     {
       "label": "Yellow",

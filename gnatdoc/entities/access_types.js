@@ -140,6 +140,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.PWM",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-pwm.ads.html#L40"
+    },
+    {
+      "label": "Report_Descriptor_Access",
+      "docHref": "docs/usb__device__hid___spec.html#L37C9",
+      "declared": "USB.Device.HID",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb-device-hid.ads.html#L37"
     }
   ]
 };

@@ -17,7 +17,7 @@ GNATdoc.InheritanceIndex = [
     "inherited": [
       {
         "label": "Delays",
-        "docHref": "docs/rp__systick___spec.html#L10C9"
+        "docHref": "docs/rp__systick___spec.html#L21C9"
       },
       {
         "label": "Delays",
@@ -128,8 +128,26 @@ GNATdoc.InheritanceIndex = [
     "docHref": "docs/usb__device___spec.html#L110C9",
     "inherited": [
       {
-        "label": "Default_HID_Class",
-        "docHref": "docs/usb__device__hid___spec.html#L36C9"
+        "label": "Abstract_HID_Class",
+        "docHref": "docs/usb__device__hid___spec.html#L34C9",
+        "inherited": [
+          {
+            "label": "Instance",
+            "docHref": "docs/usb__device__hid__gamepad___spec.html#L40C9"
+          },
+          {
+            "label": "Instance",
+            "docHref": "docs/usb__device__hid__joystick___spec.html#L40C9"
+          },
+          {
+            "label": "Instance",
+            "docHref": "docs/usb__device__hid__keyboard___spec.html#L38C9"
+          },
+          {
+            "label": "Instance",
+            "docHref": "docs/usb__device__hid__mouse___spec.html#L38C9"
+          }
+        ]
       },
       {
         "label": "Default_MIDI_Class",

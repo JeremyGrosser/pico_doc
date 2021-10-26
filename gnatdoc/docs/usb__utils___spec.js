@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Basic_RAM_Allocator",
           "qualifier": "",
-          "line": 44,
+          "line": 50,
           "column": 9,
           "src": "srcs/usb-utils.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Basic_RAM_Allocator",
-                      "href": "docs/usb__utils___spec.html#L44C9"
+                      "href": "docs/usb__utils___spec.html#L50C9"
                     },
                     {
                       "kind": "span",
@@ -59,7 +59,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Size",
-                      "href": "docs/usb__utils___spec.html#L44C30"
+                      "href": "docs/usb__utils___spec.html#L50C30"
                     },
                     {
                       "kind": "span",
@@ -119,7 +119,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Size",
-              "line": 44,
+              "line": 50,
               "column": 30,
               "type": {
                 "label": "Positive"
@@ -137,7 +137,7 @@ GNATdoc.Documentation = {
         {
           "label": "Allocate",
           "qualifier": "",
-          "line": 46,
+          "line": 52,
           "column": 13,
           "src": "srcs/usb-utils.ads.html",
           "summary": [
@@ -148,7 +148,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 52,
                   "children": [
                     {
                       "kind": "span",
@@ -169,7 +169,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Allocate",
-                      "href": "docs/usb__utils___spec.html#L46C13"
+                      "href": "docs/usb__utils___spec.html#L52C13"
                     },
                     {
                       "kind": "span",
@@ -185,7 +185,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/usb__utils___spec.html#L46C23"
+                      "href": "docs/usb__utils___spec.html#L52C23"
                     },
                     {
                       "kind": "span",
@@ -226,7 +226,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Basic_RAM_Allocator",
-                      "href": "docs/usb__utils___spec.html#L53C9"
+                      "href": "docs/usb__utils___spec.html#L59C9"
                     },
                     {
                       "kind": "span",
@@ -237,7 +237,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 53,
                   "children": [
                     {
                       "kind": "span",
@@ -248,7 +248,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Alignment",
-                      "href": "docs/usb__utils___spec.html#L47C23"
+                      "href": "docs/usb__utils___spec.html#L53C23"
                     },
                     {
                       "kind": "span",
@@ -280,7 +280,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -291,7 +291,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Len",
-                      "href": "docs/usb__utils___spec.html#L48C23"
+                      "href": "docs/usb__utils___spec.html#L54C23"
                     },
                     {
                       "kind": "span",
@@ -323,7 +323,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -358,18 +358,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 46,
+              "line": 52,
               "column": 23,
               "type": {
                 "label": "USB.Utils.Basic_RAM_Allocator",
-                "docHref": "docs/usb__utils___spec.html#L44C9"
+                "docHref": "docs/usb__utils___spec.html#L50C9"
               },
               "description": [
               ]
             },
             {
               "label": "Alignment",
-              "line": 47,
+              "line": 53,
               "column": 23,
               "type": {
                 "label": "HAL.UInt8",
@@ -380,7 +380,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Len",
-              "line": 48,
+              "line": 54,
               "column": 23,
               "type": {
                 "label": "HAL.UInt11",
@@ -394,7 +394,7 @@ GNATdoc.Documentation = {
         {
           "label": "Copy",
           "qualifier": "",
-          "line": 36,
+          "line": 42,
           "column": 14,
           "src": "srcs/usb-utils.ads.html",
           "summary": [
@@ -405,7 +405,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -426,7 +426,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Copy",
-                      "href": "docs/usb__utils___spec.html#L36C14"
+                      "href": "docs/usb__utils___spec.html#L42C14"
                     },
                     {
                       "kind": "span",
@@ -442,7 +442,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Src",
-                      "href": "docs/usb__utils___spec.html#L36C20"
+                      "href": "docs/usb__utils___spec.html#L42C20"
                     },
                     {
                       "kind": "span",
@@ -458,7 +458,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Dst",
-                      "href": "docs/usb__utils___spec.html#L36C25"
+                      "href": "docs/usb__utils___spec.html#L42C25"
                     },
                     {
                       "kind": "span",
@@ -494,7 +494,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count",
-                      "href": "docs/usb__utils___spec.html#L36C47"
+                      "href": "docs/usb__utils___spec.html#L42C47"
                     },
                     {
                       "kind": "span",
@@ -534,7 +534,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Src",
-              "line": 36,
+              "line": 42,
               "column": 20,
               "type": {
                 "label": "Address"
@@ -544,7 +544,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Dst",
-              "line": 36,
+              "line": 42,
               "column": 25,
               "type": {
                 "label": "Address"
@@ -554,7 +554,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Count",
-              "line": 36,
+              "line": 42,
               "column": 47,
               "type": {
                 "label": "Natural"
@@ -567,7 +567,7 @@ GNATdoc.Documentation = {
         {
           "label": "Copy",
           "qualifier": "",
-          "line": 37,
+          "line": 43,
           "column": 14,
           "src": "srcs/usb-utils.ads.html",
           "summary": [
@@ -578,7 +578,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -599,7 +599,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Copy",
-                      "href": "docs/usb__utils___spec.html#L37C14"
+                      "href": "docs/usb__utils___spec.html#L43C14"
                     },
                     {
                       "kind": "span",
@@ -615,7 +615,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Src",
-                      "href": "docs/usb__utils___spec.html#L37C20"
+                      "href": "docs/usb__utils___spec.html#L43C20"
                     },
                     {
                       "kind": "span",
@@ -631,7 +631,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Dst",
-                      "href": "docs/usb__utils___spec.html#L37C25"
+                      "href": "docs/usb__utils___spec.html#L43C25"
                     },
                     {
                       "kind": "span",
@@ -667,7 +667,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count",
-                      "href": "docs/usb__utils___spec.html#L37C47"
+                      "href": "docs/usb__utils___spec.html#L43C47"
                     },
                     {
                       "kind": "span",
@@ -708,7 +708,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Src",
-              "line": 37,
+              "line": 43,
               "column": 20,
               "type": {
                 "label": "Address"
@@ -718,7 +718,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Dst",
-              "line": 37,
+              "line": 43,
               "column": 25,
               "type": {
                 "label": "Address"
@@ -728,7 +728,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Count",
-              "line": 37,
+              "line": 43,
               "column": 47,
               "type": {
                 "label": "HAL.UInt32",
@@ -742,7 +742,7 @@ GNATdoc.Documentation = {
         {
           "label": "Copy",
           "qualifier": "",
-          "line": 38,
+          "line": 44,
           "column": 14,
           "src": "srcs/usb-utils.ads.html",
           "summary": [
@@ -753,7 +753,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -774,7 +774,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Copy",
-                      "href": "docs/usb__utils___spec.html#L38C14"
+                      "href": "docs/usb__utils___spec.html#L44C14"
                     },
                     {
                       "kind": "span",
@@ -790,7 +790,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Src",
-                      "href": "docs/usb__utils___spec.html#L38C20"
+                      "href": "docs/usb__utils___spec.html#L44C20"
                     },
                     {
                       "kind": "span",
@@ -806,7 +806,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Dst",
-                      "href": "docs/usb__utils___spec.html#L38C25"
+                      "href": "docs/usb__utils___spec.html#L44C25"
                     },
                     {
                       "kind": "span",
@@ -842,7 +842,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count",
-                      "href": "docs/usb__utils___spec.html#L38C47"
+                      "href": "docs/usb__utils___spec.html#L44C47"
                     },
                     {
                       "kind": "span",
@@ -883,7 +883,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Src",
-              "line": 38,
+              "line": 44,
               "column": 20,
               "type": {
                 "label": "Address"
@@ -893,7 +893,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Dst",
-              "line": 38,
+              "line": 44,
               "column": 25,
               "type": {
                 "label": "Address"
@@ -903,11 +903,478 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Count",
-              "line": 38,
+              "line": 44,
               "column": 47,
               "type": {
                 "label": "HAL.UInt11",
                 "docHref": "docs/hal___spec.html#L56C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "High",
+          "qualifier": "",
+          "line": 36,
+          "column": 13,
+          "src": "srcs/usb-utils.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 36,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "High",
+                      "href": "docs/usb__utils___spec.html#L36C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "V",
+                      "href": "docs/usb__utils___spec.html#L36C19"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "UInt16",
+                      "href": "docs/hal___spec.html#L66C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "UInt8",
+                      "href": "docs/hal___spec.html#L53C9"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 37,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "UInt8",
+                      "href": "docs/hal___spec.html#L53C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Shift_Right"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "V"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "and"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "FF"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "V",
+              "line": 36,
+              "column": 19,
+              "type": {
+                "label": "HAL.UInt16",
+                "docHref": "docs/hal___spec.html#L66C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Low",
+          "qualifier": "",
+          "line": 39,
+          "column": 13,
+          "src": "srcs/usb-utils.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 39,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Low",
+                      "href": "docs/usb__utils___spec.html#L39C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "V",
+                      "href": "docs/usb__utils___spec.html#L39C18"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "UInt16",
+                      "href": "docs/hal___spec.html#L66C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "UInt8",
+                      "href": "docs/hal___spec.html#L53C9"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 40,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "UInt8",
+                      "href": "docs/hal___spec.html#L53C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "V"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "and"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "FF"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "V",
+              "line": 39,
+              "column": 18,
+              "type": {
+                "label": "HAL.UInt16",
+                "docHref": "docs/hal___spec.html#L66C9"
               },
               "description": [
               ]

@@ -72462,7 +72462,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only."
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
         }
       ]
     },
@@ -72477,9 +72477,25 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  in the field."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2331,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "CH0_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L2330C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2331C7"
         },
         {
           "kind": "span",
@@ -72504,6 +72520,41 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -72511,7 +72562,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2331,
+      "number": 2332,
       "children": [
         {
           "kind": "span",
@@ -72527,7 +72578,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2332,
+      "number": 2333,
       "children": [
         {
           "kind": "span",
@@ -72538,7 +72589,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_6_31",
-          "href": "docs/rp2040_svd__dma___spec.html#L2332C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2333C7"
         },
         {
           "kind": "span",
@@ -72563,6 +72614,41 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -72570,7 +72656,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2333,
+      "number": 2334,
       "children": [
         {
           "kind": "span",
@@ -72596,7 +72682,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2334,
+      "number": 2335,
       "children": [
         {
           "kind": "span",
@@ -72617,7 +72703,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2335,
+      "number": 2336,
       "children": [
         {
           "kind": "span",
@@ -72633,13 +72719,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2336,
+      "number": 2337,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2337,
+      "number": 2338,
       "children": [
         {
           "kind": "span",
@@ -72686,7 +72772,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2338,
+      "number": 2339,
       "children": [
         {
           "kind": "span",
@@ -72767,7 +72853,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2339,
+      "number": 2340,
       "children": [
         {
           "kind": "span",
@@ -72848,7 +72934,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2340,
+      "number": 2341,
       "children": [
         {
           "kind": "span",
@@ -72879,13 +72965,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2341,
+      "number": 2342,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2342,
+      "number": 2343,
       "children": [
         {
           "kind": "span",
@@ -72906,7 +72992,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH1_DBG_CTDREQ_CH1_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2342C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2343C12"
         },
         {
           "kind": "span",
@@ -72938,13 +73024,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2343,
+      "number": 2344,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2344,
+      "number": 2345,
       "children": [
         {
           "kind": "span",
@@ -72960,7 +73046,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2345,
+      "number": 2346,
       "children": [
         {
           "kind": "span",
@@ -72976,7 +73062,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2346,
+      "number": 2347,
       "children": [
         {
           "kind": "span",
@@ -72992,7 +73078,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2347,
+      "number": 2348,
       "children": [
         {
           "kind": "span",
@@ -73008,7 +73094,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2348,
+      "number": 2349,
       "children": [
         {
           "kind": "span",
@@ -73029,7 +73115,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH1_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2348C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2349C9"
         },
         {
           "kind": "span",
@@ -73055,7 +73141,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2349,
+      "number": 2350,
       "children": [
         {
           "kind": "span",
@@ -73065,13 +73151,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only."
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 2350,
+      "number": 2351,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  in the field."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2352,
       "children": [
         {
           "kind": "span",
@@ -73082,7 +73184,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH1_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L2350C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2352C7"
         },
         {
           "kind": "span",
@@ -73103,7 +73205,42 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH1_DBG_CTDREQ_CH1_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2342C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2343C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
         },
         {
           "kind": "span",
@@ -73114,7 +73251,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2351,
+      "number": 2353,
       "children": [
         {
           "kind": "span",
@@ -73130,7 +73267,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2352,
+      "number": 2354,
       "children": [
         {
           "kind": "span",
@@ -73141,7 +73278,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_6_31",
-          "href": "docs/rp2040_svd__dma___spec.html#L2352C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2354C7"
         },
         {
           "kind": "span",
@@ -73166,6 +73303,41 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -73173,7 +73345,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2353,
+      "number": 2355,
       "children": [
         {
           "kind": "span",
@@ -73199,7 +73371,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2354,
+      "number": 2356,
       "children": [
         {
           "kind": "span",
@@ -73220,7 +73392,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2355,
+      "number": 2357,
       "children": [
         {
           "kind": "span",
@@ -73236,13 +73408,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2356,
+      "number": 2358,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2357,
+      "number": 2359,
       "children": [
         {
           "kind": "span",
@@ -73263,7 +73435,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH1_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2348C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2349C9"
         },
         {
           "kind": "span",
@@ -73289,7 +73461,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2358,
+      "number": 2360,
       "children": [
         {
           "kind": "span",
@@ -73370,7 +73542,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2359,
+      "number": 2361,
       "children": [
         {
           "kind": "span",
@@ -73451,7 +73623,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2360,
+      "number": 2362,
       "children": [
         {
           "kind": "span",
@@ -73482,13 +73654,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2361,
+      "number": 2363,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2362,
+      "number": 2364,
       "children": [
         {
           "kind": "span",
@@ -73509,7 +73681,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH2_DBG_CTDREQ_CH2_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2362C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2364C12"
         },
         {
           "kind": "span",
@@ -73541,13 +73713,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2363,
+      "number": 2365,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2364,
+      "number": 2366,
       "children": [
         {
           "kind": "span",
@@ -73563,7 +73735,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2365,
+      "number": 2367,
       "children": [
         {
           "kind": "span",
@@ -73579,7 +73751,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2366,
+      "number": 2368,
       "children": [
         {
           "kind": "span",
@@ -73595,7 +73767,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2367,
+      "number": 2369,
       "children": [
         {
           "kind": "span",
@@ -73611,7 +73783,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2368,
+      "number": 2370,
       "children": [
         {
           "kind": "span",
@@ -73632,7 +73804,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH2_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2368C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2370C9"
         },
         {
           "kind": "span",
@@ -73658,7 +73830,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2369,
+      "number": 2371,
       "children": [
         {
           "kind": "span",
@@ -73668,13 +73840,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only."
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 2370,
+      "number": 2372,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  in the field."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2373,
       "children": [
         {
           "kind": "span",
@@ -73685,7 +73873,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH2_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L2370C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2373C7"
         },
         {
           "kind": "span",
@@ -73706,7 +73894,42 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH2_DBG_CTDREQ_CH2_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2362C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2364C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
         },
         {
           "kind": "span",
@@ -73717,7 +73940,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2371,
+      "number": 2374,
       "children": [
         {
           "kind": "span",
@@ -73733,7 +73956,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2372,
+      "number": 2375,
       "children": [
         {
           "kind": "span",
@@ -73744,7 +73967,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_6_31",
-          "href": "docs/rp2040_svd__dma___spec.html#L2372C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2375C7"
         },
         {
           "kind": "span",
@@ -73769,6 +73992,41 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -73776,7 +74034,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2373,
+      "number": 2376,
       "children": [
         {
           "kind": "span",
@@ -73802,7 +74060,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2374,
+      "number": 2377,
       "children": [
         {
           "kind": "span",
@@ -73823,7 +74081,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2375,
+      "number": 2378,
       "children": [
         {
           "kind": "span",
@@ -73839,13 +74097,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2376,
+      "number": 2379,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2377,
+      "number": 2380,
       "children": [
         {
           "kind": "span",
@@ -73866,7 +74124,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH2_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2368C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2370C9"
         },
         {
           "kind": "span",
@@ -73892,7 +74150,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2378,
+      "number": 2381,
       "children": [
         {
           "kind": "span",
@@ -73973,7 +74231,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2379,
+      "number": 2382,
       "children": [
         {
           "kind": "span",
@@ -74054,7 +74312,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2380,
+      "number": 2383,
       "children": [
         {
           "kind": "span",
@@ -74085,13 +74343,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2381,
+      "number": 2384,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2382,
+      "number": 2385,
       "children": [
         {
           "kind": "span",
@@ -74112,7 +74370,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH3_DBG_CTDREQ_CH3_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2382C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2385C12"
         },
         {
           "kind": "span",
@@ -74144,13 +74402,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2383,
+      "number": 2386,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2384,
+      "number": 2387,
       "children": [
         {
           "kind": "span",
@@ -74166,7 +74424,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2385,
+      "number": 2388,
       "children": [
         {
           "kind": "span",
@@ -74182,7 +74440,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2386,
+      "number": 2389,
       "children": [
         {
           "kind": "span",
@@ -74198,7 +74456,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2387,
+      "number": 2390,
       "children": [
         {
           "kind": "span",
@@ -74214,7 +74472,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2388,
+      "number": 2391,
       "children": [
         {
           "kind": "span",
@@ -74235,7 +74493,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH3_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2388C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2391C9"
         },
         {
           "kind": "span",
@@ -74261,7 +74519,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2389,
+      "number": 2392,
       "children": [
         {
           "kind": "span",
@@ -74271,13 +74529,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only."
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 2390,
+      "number": 2393,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  in the field."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2394,
       "children": [
         {
           "kind": "span",
@@ -74288,7 +74562,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH3_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L2390C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2394C7"
         },
         {
           "kind": "span",
@@ -74309,7 +74583,42 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH3_DBG_CTDREQ_CH3_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2382C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2385C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
         },
         {
           "kind": "span",
@@ -74320,7 +74629,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2391,
+      "number": 2395,
       "children": [
         {
           "kind": "span",
@@ -74336,7 +74645,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2392,
+      "number": 2396,
       "children": [
         {
           "kind": "span",
@@ -74347,7 +74656,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_6_31",
-          "href": "docs/rp2040_svd__dma___spec.html#L2392C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2396C7"
         },
         {
           "kind": "span",
@@ -74372,6 +74681,41 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -74379,7 +74723,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2393,
+      "number": 2397,
       "children": [
         {
           "kind": "span",
@@ -74405,7 +74749,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2394,
+      "number": 2398,
       "children": [
         {
           "kind": "span",
@@ -74426,7 +74770,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2395,
+      "number": 2399,
       "children": [
         {
           "kind": "span",
@@ -74442,13 +74786,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2396,
+      "number": 2400,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2397,
+      "number": 2401,
       "children": [
         {
           "kind": "span",
@@ -74469,7 +74813,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH3_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2388C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2391C9"
         },
         {
           "kind": "span",
@@ -74495,7 +74839,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2398,
+      "number": 2402,
       "children": [
         {
           "kind": "span",
@@ -74576,7 +74920,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2399,
+      "number": 2403,
       "children": [
         {
           "kind": "span",
@@ -74657,7 +75001,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2400,
+      "number": 2404,
       "children": [
         {
           "kind": "span",
@@ -74688,13 +75032,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2401,
+      "number": 2405,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2402,
+      "number": 2406,
       "children": [
         {
           "kind": "span",
@@ -74715,7 +75059,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH4_DBG_CTDREQ_CH4_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2402C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2406C12"
         },
         {
           "kind": "span",
@@ -74747,13 +75091,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2403,
+      "number": 2407,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2404,
+      "number": 2408,
       "children": [
         {
           "kind": "span",
@@ -74769,7 +75113,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2405,
+      "number": 2409,
       "children": [
         {
           "kind": "span",
@@ -74785,7 +75129,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2406,
+      "number": 2410,
       "children": [
         {
           "kind": "span",
@@ -74801,7 +75145,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2407,
+      "number": 2411,
       "children": [
         {
           "kind": "span",
@@ -74817,7 +75161,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2408,
+      "number": 2412,
       "children": [
         {
           "kind": "span",
@@ -74838,7 +75182,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH4_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2408C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2412C9"
         },
         {
           "kind": "span",
@@ -74864,7 +75208,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2409,
+      "number": 2413,
       "children": [
         {
           "kind": "span",
@@ -74874,13 +75218,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only."
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 2410,
+      "number": 2414,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  in the field."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2415,
       "children": [
         {
           "kind": "span",
@@ -74891,7 +75251,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH4_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L2410C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2415C7"
         },
         {
           "kind": "span",
@@ -74912,7 +75272,42 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH4_DBG_CTDREQ_CH4_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2402C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2406C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
         },
         {
           "kind": "span",
@@ -74923,7 +75318,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2411,
+      "number": 2416,
       "children": [
         {
           "kind": "span",
@@ -74939,7 +75334,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2412,
+      "number": 2417,
       "children": [
         {
           "kind": "span",
@@ -74950,7 +75345,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_6_31",
-          "href": "docs/rp2040_svd__dma___spec.html#L2412C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2417C7"
         },
         {
           "kind": "span",
@@ -74975,6 +75370,41 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -74982,7 +75412,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2413,
+      "number": 2418,
       "children": [
         {
           "kind": "span",
@@ -75008,7 +75438,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2414,
+      "number": 2419,
       "children": [
         {
           "kind": "span",
@@ -75029,7 +75459,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2415,
+      "number": 2420,
       "children": [
         {
           "kind": "span",
@@ -75045,13 +75475,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2416,
+      "number": 2421,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2417,
+      "number": 2422,
       "children": [
         {
           "kind": "span",
@@ -75072,7 +75502,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH4_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2408C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2412C9"
         },
         {
           "kind": "span",
@@ -75098,7 +75528,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2418,
+      "number": 2423,
       "children": [
         {
           "kind": "span",
@@ -75179,7 +75609,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2419,
+      "number": 2424,
       "children": [
         {
           "kind": "span",
@@ -75260,7 +75690,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2420,
+      "number": 2425,
       "children": [
         {
           "kind": "span",
@@ -75291,13 +75721,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2421,
+      "number": 2426,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2422,
+      "number": 2427,
       "children": [
         {
           "kind": "span",
@@ -75318,7 +75748,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH5_DBG_CTDREQ_CH5_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2422C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2427C12"
         },
         {
           "kind": "span",
@@ -75350,13 +75780,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2423,
+      "number": 2428,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2424,
+      "number": 2429,
       "children": [
         {
           "kind": "span",
@@ -75372,7 +75802,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2425,
+      "number": 2430,
       "children": [
         {
           "kind": "span",
@@ -75388,7 +75818,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2426,
+      "number": 2431,
       "children": [
         {
           "kind": "span",
@@ -75404,7 +75834,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2427,
+      "number": 2432,
       "children": [
         {
           "kind": "span",
@@ -75420,7 +75850,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2428,
+      "number": 2433,
       "children": [
         {
           "kind": "span",
@@ -75441,7 +75871,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH5_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2428C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2433C9"
         },
         {
           "kind": "span",
@@ -75467,7 +75897,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2429,
+      "number": 2434,
       "children": [
         {
           "kind": "span",
@@ -75477,13 +75907,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only."
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 2430,
+      "number": 2435,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  in the field."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2436,
       "children": [
         {
           "kind": "span",
@@ -75494,7 +75940,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH5_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L2430C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2436C7"
         },
         {
           "kind": "span",
@@ -75515,7 +75961,42 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH5_DBG_CTDREQ_CH5_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2422C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2427C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
         },
         {
           "kind": "span",
@@ -75526,7 +76007,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2431,
+      "number": 2437,
       "children": [
         {
           "kind": "span",
@@ -75542,7 +76023,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2432,
+      "number": 2438,
       "children": [
         {
           "kind": "span",
@@ -75553,7 +76034,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_6_31",
-          "href": "docs/rp2040_svd__dma___spec.html#L2432C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2438C7"
         },
         {
           "kind": "span",
@@ -75578,6 +76059,41 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -75585,7 +76101,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2433,
+      "number": 2439,
       "children": [
         {
           "kind": "span",
@@ -75611,7 +76127,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2434,
+      "number": 2440,
       "children": [
         {
           "kind": "span",
@@ -75632,7 +76148,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2435,
+      "number": 2441,
       "children": [
         {
           "kind": "span",
@@ -75648,13 +76164,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2436,
+      "number": 2442,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2437,
+      "number": 2443,
       "children": [
         {
           "kind": "span",
@@ -75675,7 +76191,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH5_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2428C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2433C9"
         },
         {
           "kind": "span",
@@ -75701,7 +76217,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2438,
+      "number": 2444,
       "children": [
         {
           "kind": "span",
@@ -75782,7 +76298,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2439,
+      "number": 2445,
       "children": [
         {
           "kind": "span",
@@ -75863,7 +76379,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2440,
+      "number": 2446,
       "children": [
         {
           "kind": "span",
@@ -75894,13 +76410,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2441,
+      "number": 2447,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2442,
+      "number": 2448,
       "children": [
         {
           "kind": "span",
@@ -75921,7 +76437,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH6_DBG_CTDREQ_CH6_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2442C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2448C12"
         },
         {
           "kind": "span",
@@ -75953,13 +76469,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2443,
+      "number": 2449,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2444,
+      "number": 2450,
       "children": [
         {
           "kind": "span",
@@ -75975,7 +76491,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2445,
+      "number": 2451,
       "children": [
         {
           "kind": "span",
@@ -75991,7 +76507,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2446,
+      "number": 2452,
       "children": [
         {
           "kind": "span",
@@ -76007,7 +76523,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2447,
+      "number": 2453,
       "children": [
         {
           "kind": "span",
@@ -76023,7 +76539,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2448,
+      "number": 2454,
       "children": [
         {
           "kind": "span",
@@ -76044,7 +76560,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH6_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2448C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2454C9"
         },
         {
           "kind": "span",
@@ -76070,7 +76586,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2449,
+      "number": 2455,
       "children": [
         {
           "kind": "span",
@@ -76080,13 +76596,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only."
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 2450,
+      "number": 2456,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  in the field."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2457,
       "children": [
         {
           "kind": "span",
@@ -76097,7 +76629,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH6_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L2450C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2457C7"
         },
         {
           "kind": "span",
@@ -76118,7 +76650,42 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH6_DBG_CTDREQ_CH6_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2442C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2448C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
         },
         {
           "kind": "span",
@@ -76129,7 +76696,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2451,
+      "number": 2458,
       "children": [
         {
           "kind": "span",
@@ -76145,7 +76712,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2452,
+      "number": 2459,
       "children": [
         {
           "kind": "span",
@@ -76156,7 +76723,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_6_31",
-          "href": "docs/rp2040_svd__dma___spec.html#L2452C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2459C7"
         },
         {
           "kind": "span",
@@ -76181,6 +76748,41 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -76188,7 +76790,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2453,
+      "number": 2460,
       "children": [
         {
           "kind": "span",
@@ -76214,7 +76816,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2454,
+      "number": 2461,
       "children": [
         {
           "kind": "span",
@@ -76235,7 +76837,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2455,
+      "number": 2462,
       "children": [
         {
           "kind": "span",
@@ -76251,13 +76853,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2456,
+      "number": 2463,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2457,
+      "number": 2464,
       "children": [
         {
           "kind": "span",
@@ -76278,7 +76880,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH6_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2448C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2454C9"
         },
         {
           "kind": "span",
@@ -76304,7 +76906,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2458,
+      "number": 2465,
       "children": [
         {
           "kind": "span",
@@ -76385,7 +76987,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2459,
+      "number": 2466,
       "children": [
         {
           "kind": "span",
@@ -76466,7 +77068,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2460,
+      "number": 2467,
       "children": [
         {
           "kind": "span",
@@ -76497,13 +77099,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2461,
+      "number": 2468,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2462,
+      "number": 2469,
       "children": [
         {
           "kind": "span",
@@ -76524,7 +77126,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH7_DBG_CTDREQ_CH7_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2462C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2469C12"
         },
         {
           "kind": "span",
@@ -76556,13 +77158,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2463,
+      "number": 2470,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2464,
+      "number": 2471,
       "children": [
         {
           "kind": "span",
@@ -76578,7 +77180,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2465,
+      "number": 2472,
       "children": [
         {
           "kind": "span",
@@ -76594,7 +77196,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2466,
+      "number": 2473,
       "children": [
         {
           "kind": "span",
@@ -76610,7 +77212,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2467,
+      "number": 2474,
       "children": [
         {
           "kind": "span",
@@ -76626,7 +77228,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2468,
+      "number": 2475,
       "children": [
         {
           "kind": "span",
@@ -76647,7 +77249,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH7_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2468C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2475C9"
         },
         {
           "kind": "span",
@@ -76673,7 +77275,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2469,
+      "number": 2476,
       "children": [
         {
           "kind": "span",
@@ -76683,13 +77285,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only."
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 2470,
+      "number": 2477,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  in the field."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2478,
       "children": [
         {
           "kind": "span",
@@ -76700,7 +77318,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH7_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L2470C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2478C7"
         },
         {
           "kind": "span",
@@ -76721,7 +77339,42 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH7_DBG_CTDREQ_CH7_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2462C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2469C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
         },
         {
           "kind": "span",
@@ -76732,7 +77385,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2471,
+      "number": 2479,
       "children": [
         {
           "kind": "span",
@@ -76748,7 +77401,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2472,
+      "number": 2480,
       "children": [
         {
           "kind": "span",
@@ -76759,7 +77412,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_6_31",
-          "href": "docs/rp2040_svd__dma___spec.html#L2472C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2480C7"
         },
         {
           "kind": "span",
@@ -76784,6 +77437,41 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -76791,7 +77479,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2473,
+      "number": 2481,
       "children": [
         {
           "kind": "span",
@@ -76817,7 +77505,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2474,
+      "number": 2482,
       "children": [
         {
           "kind": "span",
@@ -76838,7 +77526,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2475,
+      "number": 2483,
       "children": [
         {
           "kind": "span",
@@ -76854,13 +77542,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2476,
+      "number": 2484,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2477,
+      "number": 2485,
       "children": [
         {
           "kind": "span",
@@ -76881,7 +77569,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH7_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2468C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2475C9"
         },
         {
           "kind": "span",
@@ -76907,7 +77595,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2478,
+      "number": 2486,
       "children": [
         {
           "kind": "span",
@@ -76988,7 +77676,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2479,
+      "number": 2487,
       "children": [
         {
           "kind": "span",
@@ -77069,7 +77757,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2480,
+      "number": 2488,
       "children": [
         {
           "kind": "span",
@@ -77100,13 +77788,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2481,
+      "number": 2489,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2482,
+      "number": 2490,
       "children": [
         {
           "kind": "span",
@@ -77127,7 +77815,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH8_DBG_CTDREQ_CH8_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2482C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2490C12"
         },
         {
           "kind": "span",
@@ -77159,13 +77847,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2483,
+      "number": 2491,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2484,
+      "number": 2492,
       "children": [
         {
           "kind": "span",
@@ -77181,7 +77869,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2485,
+      "number": 2493,
       "children": [
         {
           "kind": "span",
@@ -77197,7 +77885,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2486,
+      "number": 2494,
       "children": [
         {
           "kind": "span",
@@ -77213,7 +77901,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2487,
+      "number": 2495,
       "children": [
         {
           "kind": "span",
@@ -77229,7 +77917,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2488,
+      "number": 2496,
       "children": [
         {
           "kind": "span",
@@ -77250,7 +77938,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH8_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2488C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2496C9"
         },
         {
           "kind": "span",
@@ -77276,7 +77964,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2489,
+      "number": 2497,
       "children": [
         {
           "kind": "span",
@@ -77286,13 +77974,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only."
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 2490,
+      "number": 2498,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  in the field."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2499,
       "children": [
         {
           "kind": "span",
@@ -77303,7 +78007,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH8_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L2490C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2499C7"
         },
         {
           "kind": "span",
@@ -77324,7 +78028,42 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH8_DBG_CTDREQ_CH8_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2482C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2490C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
         },
         {
           "kind": "span",
@@ -77335,7 +78074,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2491,
+      "number": 2500,
       "children": [
         {
           "kind": "span",
@@ -77351,7 +78090,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2492,
+      "number": 2501,
       "children": [
         {
           "kind": "span",
@@ -77362,7 +78101,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_6_31",
-          "href": "docs/rp2040_svd__dma___spec.html#L2492C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2501C7"
         },
         {
           "kind": "span",
@@ -77387,6 +78126,41 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -77394,7 +78168,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2493,
+      "number": 2502,
       "children": [
         {
           "kind": "span",
@@ -77420,7 +78194,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2494,
+      "number": 2503,
       "children": [
         {
           "kind": "span",
@@ -77441,7 +78215,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2495,
+      "number": 2504,
       "children": [
         {
           "kind": "span",
@@ -77457,13 +78231,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2496,
+      "number": 2505,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2497,
+      "number": 2506,
       "children": [
         {
           "kind": "span",
@@ -77484,7 +78258,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH8_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2488C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2496C9"
         },
         {
           "kind": "span",
@@ -77510,7 +78284,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2498,
+      "number": 2507,
       "children": [
         {
           "kind": "span",
@@ -77591,7 +78365,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2499,
+      "number": 2508,
       "children": [
         {
           "kind": "span",
@@ -77672,7 +78446,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2500,
+      "number": 2509,
       "children": [
         {
           "kind": "span",
@@ -77703,13 +78477,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2501,
+      "number": 2510,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2502,
+      "number": 2511,
       "children": [
         {
           "kind": "span",
@@ -77730,7 +78504,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH9_DBG_CTDREQ_CH9_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2502C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2511C12"
         },
         {
           "kind": "span",
@@ -77762,13 +78536,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2503,
+      "number": 2512,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2504,
+      "number": 2513,
       "children": [
         {
           "kind": "span",
@@ -77784,7 +78558,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2505,
+      "number": 2514,
       "children": [
         {
           "kind": "span",
@@ -77800,7 +78574,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2506,
+      "number": 2515,
       "children": [
         {
           "kind": "span",
@@ -77816,7 +78590,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2507,
+      "number": 2516,
       "children": [
         {
           "kind": "span",
@@ -77832,7 +78606,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2508,
+      "number": 2517,
       "children": [
         {
           "kind": "span",
@@ -77853,7 +78627,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH9_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2508C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2517C9"
         },
         {
           "kind": "span",
@@ -77879,7 +78653,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2509,
+      "number": 2518,
       "children": [
         {
           "kind": "span",
@@ -77889,13 +78663,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only."
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 2510,
+      "number": 2519,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  in the field."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2520,
       "children": [
         {
           "kind": "span",
@@ -77906,7 +78696,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH9_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L2510C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2520C7"
         },
         {
           "kind": "span",
@@ -77927,7 +78717,42 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH9_DBG_CTDREQ_CH9_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2502C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2511C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
         },
         {
           "kind": "span",
@@ -77938,7 +78763,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2511,
+      "number": 2521,
       "children": [
         {
           "kind": "span",
@@ -77954,7 +78779,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2512,
+      "number": 2522,
       "children": [
         {
           "kind": "span",
@@ -77965,7 +78790,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_6_31",
-          "href": "docs/rp2040_svd__dma___spec.html#L2512C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2522C7"
         },
         {
           "kind": "span",
@@ -77990,6 +78815,41 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -77997,7 +78857,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2513,
+      "number": 2523,
       "children": [
         {
           "kind": "span",
@@ -78023,7 +78883,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2514,
+      "number": 2524,
       "children": [
         {
           "kind": "span",
@@ -78044,7 +78904,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2515,
+      "number": 2525,
       "children": [
         {
           "kind": "span",
@@ -78060,13 +78920,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2516,
+      "number": 2526,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2517,
+      "number": 2527,
       "children": [
         {
           "kind": "span",
@@ -78087,7 +78947,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH9_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2508C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2517C9"
         },
         {
           "kind": "span",
@@ -78113,7 +78973,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2518,
+      "number": 2528,
       "children": [
         {
           "kind": "span",
@@ -78194,7 +79054,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2519,
+      "number": 2529,
       "children": [
         {
           "kind": "span",
@@ -78275,7 +79135,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2520,
+      "number": 2530,
       "children": [
         {
           "kind": "span",
@@ -78306,13 +79166,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2521,
+      "number": 2531,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2522,
+      "number": 2532,
       "children": [
         {
           "kind": "span",
@@ -78333,7 +79193,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH10_DBG_CTDREQ_CH10_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2522C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2532C12"
         },
         {
           "kind": "span",
@@ -78365,13 +79225,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2523,
+      "number": 2533,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2524,
+      "number": 2534,
       "children": [
         {
           "kind": "span",
@@ -78387,7 +79247,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2525,
+      "number": 2535,
       "children": [
         {
           "kind": "span",
@@ -78403,7 +79263,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2526,
+      "number": 2536,
       "children": [
         {
           "kind": "span",
@@ -78419,7 +79279,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2527,
+      "number": 2537,
       "children": [
         {
           "kind": "span",
@@ -78435,7 +79295,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2528,
+      "number": 2538,
       "children": [
         {
           "kind": "span",
@@ -78456,7 +79316,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH10_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2528C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2538C9"
         },
         {
           "kind": "span",
@@ -78482,7 +79342,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2529,
+      "number": 2539,
       "children": [
         {
           "kind": "span",
@@ -78492,13 +79352,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only."
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 2530,
+      "number": 2540,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  in the field."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2541,
       "children": [
         {
           "kind": "span",
@@ -78509,7 +79385,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH10_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L2530C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2541C7"
         },
         {
           "kind": "span",
@@ -78530,7 +79406,42 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH10_DBG_CTDREQ_CH10_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2522C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2532C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
         },
         {
           "kind": "span",
@@ -78541,7 +79452,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2531,
+      "number": 2542,
       "children": [
         {
           "kind": "span",
@@ -78557,7 +79468,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2532,
+      "number": 2543,
       "children": [
         {
           "kind": "span",
@@ -78568,7 +79479,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_6_31",
-          "href": "docs/rp2040_svd__dma___spec.html#L2532C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2543C7"
         },
         {
           "kind": "span",
@@ -78593,6 +79504,41 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -78600,7 +79546,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2533,
+      "number": 2544,
       "children": [
         {
           "kind": "span",
@@ -78626,7 +79572,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2534,
+      "number": 2545,
       "children": [
         {
           "kind": "span",
@@ -78647,7 +79593,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2535,
+      "number": 2546,
       "children": [
         {
           "kind": "span",
@@ -78663,13 +79609,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2536,
+      "number": 2547,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2537,
+      "number": 2548,
       "children": [
         {
           "kind": "span",
@@ -78690,7 +79636,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH10_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2528C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2538C9"
         },
         {
           "kind": "span",
@@ -78716,7 +79662,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2538,
+      "number": 2549,
       "children": [
         {
           "kind": "span",
@@ -78797,7 +79743,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2539,
+      "number": 2550,
       "children": [
         {
           "kind": "span",
@@ -78878,7 +79824,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2540,
+      "number": 2551,
       "children": [
         {
           "kind": "span",
@@ -78909,13 +79855,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2541,
+      "number": 2552,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2542,
+      "number": 2553,
       "children": [
         {
           "kind": "span",
@@ -78936,7 +79882,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH11_DBG_CTDREQ_CH11_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2542C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2553C12"
         },
         {
           "kind": "span",
@@ -78968,13 +79914,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2543,
+      "number": 2554,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2544,
+      "number": 2555,
       "children": [
         {
           "kind": "span",
@@ -78990,7 +79936,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2545,
+      "number": 2556,
       "children": [
         {
           "kind": "span",
@@ -79006,7 +79952,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2546,
+      "number": 2557,
       "children": [
         {
           "kind": "span",
@@ -79022,7 +79968,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2547,
+      "number": 2558,
       "children": [
         {
           "kind": "span",
@@ -79038,7 +79984,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2548,
+      "number": 2559,
       "children": [
         {
           "kind": "span",
@@ -79059,7 +80005,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH11_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2548C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2559C9"
         },
         {
           "kind": "span",
@@ -79085,7 +80031,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2549,
+      "number": 2560,
       "children": [
         {
           "kind": "span",
@@ -79095,13 +80041,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Read-only."
+          "text": "--  Write data bit of one shall clear (set to zero) the corresponding bit"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 2550,
+      "number": 2561,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  in the field."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2562,
       "children": [
         {
           "kind": "span",
@@ -79112,7 +80074,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH11_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L2550C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2562C7"
         },
         {
           "kind": "span",
@@ -79133,7 +80095,42 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH11_DBG_CTDREQ_CH11_DBG_CTDREQ_Field",
-          "href": "docs/rp2040_svd__dma___spec.html#L2542C12"
+          "href": "docs/rp2040_svd__dma___spec.html#L2553C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
         },
         {
           "kind": "span",
@@ -79144,7 +80141,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2551,
+      "number": 2563,
       "children": [
         {
           "kind": "span",
@@ -79160,7 +80157,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2552,
+      "number": 2564,
       "children": [
         {
           "kind": "span",
@@ -79171,7 +80168,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reserved_6_31",
-          "href": "docs/rp2040_svd__dma___spec.html#L2552C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2564C7"
         },
         {
           "kind": "span",
@@ -79196,6 +80193,41 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "#"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -79203,7 +80235,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2553,
+      "number": 2565,
       "children": [
         {
           "kind": "span",
@@ -79229,7 +80261,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2554,
+      "number": 2566,
       "children": [
         {
           "kind": "span",
@@ -79250,7 +80282,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2555,
+      "number": 2567,
       "children": [
         {
           "kind": "span",
@@ -79266,13 +80298,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2556,
+      "number": 2568,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2557,
+      "number": 2569,
       "children": [
         {
           "kind": "span",
@@ -79293,7 +80325,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH11_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2548C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2559C9"
         },
         {
           "kind": "span",
@@ -79319,7 +80351,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2558,
+      "number": 2570,
       "children": [
         {
           "kind": "span",
@@ -79400,7 +80432,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2559,
+      "number": 2571,
       "children": [
         {
           "kind": "span",
@@ -79481,7 +80513,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2560,
+      "number": 2572,
       "children": [
         {
           "kind": "span",
@@ -79512,13 +80544,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2561,
+      "number": 2573,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2562,
+      "number": 2574,
       "children": [
         {
           "kind": "span",
@@ -79534,7 +80566,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2563,
+      "number": 2575,
       "children": [
         {
           "kind": "span",
@@ -79550,7 +80582,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2564,
+      "number": 2576,
       "children": [
         {
           "kind": "span",
@@ -79566,13 +80598,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2565,
+      "number": 2577,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 2566,
+      "number": 2578,
       "children": [
         {
           "kind": "span",
@@ -79588,7 +80620,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2567,
+      "number": 2579,
       "children": [
         {
           "kind": "span",
@@ -79609,7 +80641,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA_Peripheral",
-          "href": "docs/rp2040_svd__dma___spec.html#L2567C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2579C9"
         },
         {
           "kind": "span",
@@ -79635,7 +80667,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2568,
+      "number": 2580,
       "children": [
         {
           "kind": "span",
@@ -79651,7 +80683,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2569,
+      "number": 2581,
       "children": [
         {
           "kind": "span",
@@ -79667,7 +80699,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2570,
+      "number": 2582,
       "children": [
         {
           "kind": "span",
@@ -79683,7 +80715,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2571,
+      "number": 2583,
       "children": [
         {
           "kind": "span",
@@ -79694,7 +80726,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH0_READ_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L2571C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2583C7"
         },
         {
           "kind": "span",
@@ -79736,7 +80768,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2572,
+      "number": 2584,
       "children": [
         {
           "kind": "span",
@@ -79752,7 +80784,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2573,
+      "number": 2585,
       "children": [
         {
           "kind": "span",
@@ -79768,7 +80800,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2574,
+      "number": 2586,
       "children": [
         {
           "kind": "span",
@@ -79784,7 +80816,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2575,
+      "number": 2587,
       "children": [
         {
           "kind": "span",
@@ -79795,7 +80827,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH0_WRITE_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L2575C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2587C7"
         },
         {
           "kind": "span",
@@ -79837,7 +80869,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2576,
+      "number": 2588,
       "children": [
         {
           "kind": "span",
@@ -79853,7 +80885,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2577,
+      "number": 2589,
       "children": [
         {
           "kind": "span",
@@ -79869,7 +80901,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2578,
+      "number": 2590,
       "children": [
         {
           "kind": "span",
@@ -79885,7 +80917,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2579,
+      "number": 2591,
       "children": [
         {
           "kind": "span",
@@ -79901,7 +80933,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2580,
+      "number": 2592,
       "children": [
         {
           "kind": "span",
@@ -79917,7 +80949,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2581,
+      "number": 2593,
       "children": [
         {
           "kind": "span",
@@ -79933,7 +80965,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2582,
+      "number": 2594,
       "children": [
         {
           "kind": "span",
@@ -79949,7 +80981,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2583,
+      "number": 2595,
       "children": [
         {
           "kind": "span",
@@ -79965,7 +80997,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2584,
+      "number": 2596,
       "children": [
         {
           "kind": "span",
@@ -79981,7 +81013,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2585,
+      "number": 2597,
       "children": [
         {
           "kind": "span",
@@ -79997,7 +81029,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2586,
+      "number": 2598,
       "children": [
         {
           "kind": "span",
@@ -80013,7 +81045,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2587,
+      "number": 2599,
       "children": [
         {
           "kind": "span",
@@ -80029,7 +81061,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2588,
+      "number": 2600,
       "children": [
         {
           "kind": "span",
@@ -80045,7 +81077,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2589,
+      "number": 2601,
       "children": [
         {
           "kind": "span",
@@ -80061,383 +81093,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2590,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH0_TRANS_COUNT",
-          "href": "docs/rp2040_svd__dma___spec.html#L2590C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "           "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2591,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  DMA Channel 0 Control and Status"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2592,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH0_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2592C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "             "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH0_CTRL_TRIG_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L74C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2593,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Alias for channel 0 CTRL register"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2594,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH0_AL1_CTRL",
-          "href": "docs/rp2040_svd__dma___spec.html#L2594C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "              "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2595,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Alias for channel 0 READ_ADDR register"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2596,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH0_AL1_READ_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L2596C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2597,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Alias for channel 0 WRITE_ADDR register"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2598,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH0_AL1_WRITE_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L2598C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2599,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Alias for channel 0 TRANS_COUNT register\\n This is a trigger register"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2600,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2601,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 2602,
       "children": [
         {
@@ -80448,13 +81103,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH0_AL1_TRANS_COUNT_TRIG",
+          "text": "CH0_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2602C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "           "
         },
         {
           "kind": "span",
@@ -80501,7 +81156,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 0 CTRL register"
+          "text": "--  DMA Channel 0 Control and Status"
         }
       ]
     },
@@ -80517,13 +81172,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH0_AL2_CTRL",
+          "text": "CH0_CTRL_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L2604C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -80548,8 +81203,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
+          "text": "CH0_CTRL_TRIG_Register",
+          "href": "docs/rp2040_svd__dma___spec.html#L74C9"
         },
         {
           "kind": "span",
@@ -80570,7 +81225,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 0 TRANS_COUNT register"
+          "text": "--  Alias for channel 0 CTRL register"
         }
       ]
     },
@@ -80586,13 +81241,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH0_AL2_TRANS_COUNT",
+          "text": "CH0_AL1_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2606C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -80655,7 +81310,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH0_AL2_READ_ADDR",
+          "text": "CH0_AL1_READ_ADDR",
           "href": "docs/rp2040_svd__dma___spec.html#L2608C7"
         },
         {
@@ -80708,7 +81363,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 0 WRITE_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 0 WRITE_ADDR register"
         }
       ]
     },
@@ -80723,46 +81378,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2611,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2612,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH0_AL2_WRITE_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2612C7"
+          "text": "CH0_AL1_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2610C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "        "
         },
         {
           "kind": "span",
@@ -80799,6 +81422,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 2611,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 0 TRANS_COUNT register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2612,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 2613,
       "children": [
         {
@@ -80809,7 +81464,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 0 CTRL register"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -80825,13 +81480,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH0_AL3_CTRL",
+          "text": "CH0_AL1_TRANS_COUNT_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L2614C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -80878,7 +81533,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 0 WRITE_ADDR register"
+          "text": "--  Alias for channel 0 CTRL register"
         }
       ]
     },
@@ -80894,13 +81549,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH0_AL3_WRITE_ADDR",
+          "text": "CH0_AL2_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2616C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "        "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -80963,7 +81618,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH0_AL3_TRANS_COUNT",
+          "text": "CH0_AL2_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2618C7"
         },
         {
@@ -81016,7 +81671,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 0 READ_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 0 READ_ADDR register"
         }
       ]
     },
@@ -81031,46 +81686,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2621,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2622,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH0_AL3_READ_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2622C7"
+          "text": "CH0_AL2_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2620C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "    "
+          "text": "         "
         },
         {
           "kind": "span",
@@ -81107,6 +81730,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 2621,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 0 WRITE_ADDR register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2622,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 2623,
       "children": [
         {
@@ -81117,7 +81772,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 1 Read Address pointer\\n This register updates"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -81132,8 +81787,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a read completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH0_AL2_WRITE_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L2624C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -81149,7 +81841,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be read by this channel."
+          "text": "--  Alias for channel 0 CTRL register"
         }
       ]
     },
@@ -81165,13 +81857,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH1_READ_ADDR",
+          "text": "CH0_AL3_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2626C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "             "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -81218,7 +81910,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 1 Write Address pointer\\n This register updates"
+          "text": "--  Alias for channel 0 WRITE_ADDR register"
         }
       ]
     },
@@ -81233,8 +81925,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a write completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH0_AL3_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2628C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -81250,7 +81979,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be written by this channel."
+          "text": "--  Alias for channel 0 TRANS_COUNT register"
         }
       ]
     },
@@ -81266,13 +81995,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH1_WRITE_ADDR",
+          "text": "CH0_AL3_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2630C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "            "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -81319,7 +82048,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 1 Transfer Count\\n Program the number of bus transfers a"
+          "text": "--  Alias for channel 0 READ_ADDR register\\n This is a trigger register"
         }
       ]
     },
@@ -81335,7 +82064,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  channel will perform before halting. Note that, if transfers are"
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
         }
       ]
     },
@@ -81351,7 +82080,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  larger than one byte in size, this is not equal to the number of"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -81366,190 +82095,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2635,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  active, reading this register shows the number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2636,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  remaining, updating automatically each time a write transfer"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2637,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2638,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2639,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  value is copied into the live transfer counter. The channel can be"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2640,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  started multiple times, and will perform the same number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2641,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2642,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2643,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  the written value is used immediately as the length of the new"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2644,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer sequence, as well as being written to RELOAD."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2645,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH1_TRANS_COUNT",
-          "href": "docs/rp2040_svd__dma___spec.html#L2645C7"
+          "text": "CH0_AL3_READ_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L2634C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "    "
         },
         {
           "kind": "span",
@@ -81586,7 +82139,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2646,
+      "number": 2635,
       "children": [
         {
           "kind": "span",
@@ -81596,13 +82149,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 1 Control and Status"
+          "text": "--  DMA Channel 1 Read Address pointer\\n This register updates"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 2647,
+      "number": 2636,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a read completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2637,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be read by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2638,
       "children": [
         {
           "kind": "span",
@@ -81612,8 +82197,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH1_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2647C7"
+          "text": "CH1_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2638C7"
         },
         {
           "kind": "span",
@@ -81643,13 +82228,194 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH1_CTRL_TRIG_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L240C9"
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2639,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 1 Write Address pointer\\n This register updates"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2640,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a write completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2641,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be written by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2642,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "CH1_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2642C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "            "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2643,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 1 Transfer Count\\n Program the number of bus transfers a"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2644,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  channel will perform before halting. Note that, if transfers are"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2645,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  larger than one byte in size, this is not equal to the number of"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2646,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2647,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  active, reading this register shows the number of transfers"
         }
       ]
     },
@@ -81665,7 +82431,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 1 CTRL register"
+          "text": "--  remaining, updating automatically each time a write transfer"
         }
       ]
     },
@@ -81680,45 +82446,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH1_AL1_CTRL",
-          "href": "docs/rp2040_svd__dma___spec.html#L2649C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "              "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
         }
       ]
     },
@@ -81734,7 +82463,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 1 READ_ADDR register"
+          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
         }
       ]
     },
@@ -81749,45 +82478,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH1_AL1_READ_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L2651C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  value is copied into the live transfer counter. The channel can be"
         }
       ]
     },
@@ -81803,7 +82495,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 1 WRITE_ADDR register"
+          "text": "--  started multiple times, and will perform the same number of transfers"
         }
       ]
     },
@@ -81818,45 +82510,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH1_AL1_WRITE_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L2653C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
         }
       ]
     },
@@ -81872,7 +82527,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 1 TRANS_COUNT register\\n This is a trigger register"
+          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
         }
       ]
     },
@@ -81888,7 +82543,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+          "text": "--  the written value is used immediately as the length of the new"
         }
       ]
     },
@@ -81904,7 +82559,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  start the channel."
+          "text": "--  transfer sequence, as well as being written to RELOAD."
         }
       ]
     },
@@ -81920,13 +82575,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH1_AL1_TRANS_COUNT_TRIG",
+          "text": "CH1_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2657C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "           "
         },
         {
           "kind": "span",
@@ -81973,7 +82628,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 1 CTRL register"
+          "text": "--  DMA Channel 1 Control and Status"
         }
       ]
     },
@@ -81989,13 +82644,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH1_AL2_CTRL",
+          "text": "CH1_CTRL_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L2659C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -82020,8 +82675,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
+          "text": "CH1_CTRL_TRIG_Register",
+          "href": "docs/rp2040_svd__dma___spec.html#L240C9"
         },
         {
           "kind": "span",
@@ -82042,7 +82697,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 1 TRANS_COUNT register"
+          "text": "--  Alias for channel 1 CTRL register"
         }
       ]
     },
@@ -82058,13 +82713,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH1_AL2_TRANS_COUNT",
+          "text": "CH1_AL1_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2661C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -82127,7 +82782,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH1_AL2_READ_ADDR",
+          "text": "CH1_AL1_READ_ADDR",
           "href": "docs/rp2040_svd__dma___spec.html#L2663C7"
         },
         {
@@ -82180,7 +82835,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 1 WRITE_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 1 WRITE_ADDR register"
         }
       ]
     },
@@ -82195,46 +82850,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2666,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2667,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH1_AL2_WRITE_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2667C7"
+          "text": "CH1_AL1_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2665C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "        "
         },
         {
           "kind": "span",
@@ -82271,6 +82894,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 2666,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 1 TRANS_COUNT register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2667,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 2668,
       "children": [
         {
@@ -82281,7 +82936,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 1 CTRL register"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -82297,13 +82952,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH1_AL3_CTRL",
+          "text": "CH1_AL1_TRANS_COUNT_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L2669C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -82350,7 +83005,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 1 WRITE_ADDR register"
+          "text": "--  Alias for channel 1 CTRL register"
         }
       ]
     },
@@ -82366,13 +83021,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH1_AL3_WRITE_ADDR",
+          "text": "CH1_AL2_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2671C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "        "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -82435,7 +83090,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH1_AL3_TRANS_COUNT",
+          "text": "CH1_AL2_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2673C7"
         },
         {
@@ -82488,7 +83143,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 1 READ_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 1 READ_ADDR register"
         }
       ]
     },
@@ -82503,46 +83158,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2676,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2677,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH1_AL3_READ_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2677C7"
+          "text": "CH1_AL2_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2675C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "    "
+          "text": "         "
         },
         {
           "kind": "span",
@@ -82579,6 +83202,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 2676,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 1 WRITE_ADDR register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2677,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 2678,
       "children": [
         {
@@ -82589,7 +83244,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 2 Read Address pointer\\n This register updates"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -82604,8 +83259,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a read completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH1_AL2_WRITE_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L2679C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -82621,7 +83313,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be read by this channel."
+          "text": "--  Alias for channel 1 CTRL register"
         }
       ]
     },
@@ -82637,13 +83329,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH2_READ_ADDR",
+          "text": "CH1_AL3_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2681C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "             "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -82690,7 +83382,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 2 Write Address pointer\\n This register updates"
+          "text": "--  Alias for channel 1 WRITE_ADDR register"
         }
       ]
     },
@@ -82705,8 +83397,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a write completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH1_AL3_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2683C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -82722,7 +83451,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be written by this channel."
+          "text": "--  Alias for channel 1 TRANS_COUNT register"
         }
       ]
     },
@@ -82738,13 +83467,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH2_WRITE_ADDR",
+          "text": "CH1_AL3_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2685C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "            "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -82791,7 +83520,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 2 Transfer Count\\n Program the number of bus transfers a"
+          "text": "--  Alias for channel 1 READ_ADDR register\\n This is a trigger register"
         }
       ]
     },
@@ -82807,7 +83536,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  channel will perform before halting. Note that, if transfers are"
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
         }
       ]
     },
@@ -82823,7 +83552,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  larger than one byte in size, this is not equal to the number of"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -82838,190 +83567,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2690,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  active, reading this register shows the number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2691,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  remaining, updating automatically each time a write transfer"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2692,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2693,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2694,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  value is copied into the live transfer counter. The channel can be"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2695,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  started multiple times, and will perform the same number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2696,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2697,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2698,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  the written value is used immediately as the length of the new"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2699,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer sequence, as well as being written to RELOAD."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2700,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH2_TRANS_COUNT",
-          "href": "docs/rp2040_svd__dma___spec.html#L2700C7"
+          "text": "CH1_AL3_READ_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L2689C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "    "
         },
         {
           "kind": "span",
@@ -83058,7 +83611,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2701,
+      "number": 2690,
       "children": [
         {
           "kind": "span",
@@ -83068,13 +83621,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 2 Control and Status"
+          "text": "--  DMA Channel 2 Read Address pointer\\n This register updates"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 2702,
+      "number": 2691,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a read completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2692,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be read by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2693,
       "children": [
         {
           "kind": "span",
@@ -83084,8 +83669,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH2_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2702C7"
+          "text": "CH2_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2693C7"
         },
         {
           "kind": "span",
@@ -83115,13 +83700,194 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH2_CTRL_TRIG_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L406C9"
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2694,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 2 Write Address pointer\\n This register updates"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2695,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a write completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2696,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be written by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2697,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "CH2_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2697C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "            "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2698,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 2 Transfer Count\\n Program the number of bus transfers a"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2699,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  channel will perform before halting. Note that, if transfers are"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2700,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  larger than one byte in size, this is not equal to the number of"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2701,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2702,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  active, reading this register shows the number of transfers"
         }
       ]
     },
@@ -83137,7 +83903,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 2 CTRL register"
+          "text": "--  remaining, updating automatically each time a write transfer"
         }
       ]
     },
@@ -83152,45 +83918,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH2_AL1_CTRL",
-          "href": "docs/rp2040_svd__dma___spec.html#L2704C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "              "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
         }
       ]
     },
@@ -83206,7 +83935,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 2 READ_ADDR register"
+          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
         }
       ]
     },
@@ -83221,45 +83950,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH2_AL1_READ_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L2706C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  value is copied into the live transfer counter. The channel can be"
         }
       ]
     },
@@ -83275,7 +83967,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 2 WRITE_ADDR register"
+          "text": "--  started multiple times, and will perform the same number of transfers"
         }
       ]
     },
@@ -83290,45 +83982,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH2_AL1_WRITE_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L2708C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
         }
       ]
     },
@@ -83344,7 +83999,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 2 TRANS_COUNT register\\n This is a trigger register"
+          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
         }
       ]
     },
@@ -83360,7 +84015,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+          "text": "--  the written value is used immediately as the length of the new"
         }
       ]
     },
@@ -83376,7 +84031,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  start the channel."
+          "text": "--  transfer sequence, as well as being written to RELOAD."
         }
       ]
     },
@@ -83392,13 +84047,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH2_AL1_TRANS_COUNT_TRIG",
+          "text": "CH2_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2712C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "           "
         },
         {
           "kind": "span",
@@ -83445,7 +84100,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 2 CTRL register"
+          "text": "--  DMA Channel 2 Control and Status"
         }
       ]
     },
@@ -83461,13 +84116,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH2_AL2_CTRL",
+          "text": "CH2_CTRL_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L2714C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -83492,8 +84147,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
+          "text": "CH2_CTRL_TRIG_Register",
+          "href": "docs/rp2040_svd__dma___spec.html#L406C9"
         },
         {
           "kind": "span",
@@ -83514,7 +84169,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 2 TRANS_COUNT register"
+          "text": "--  Alias for channel 2 CTRL register"
         }
       ]
     },
@@ -83530,13 +84185,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH2_AL2_TRANS_COUNT",
+          "text": "CH2_AL1_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2716C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -83599,7 +84254,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH2_AL2_READ_ADDR",
+          "text": "CH2_AL1_READ_ADDR",
           "href": "docs/rp2040_svd__dma___spec.html#L2718C7"
         },
         {
@@ -83652,7 +84307,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 2 WRITE_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 2 WRITE_ADDR register"
         }
       ]
     },
@@ -83667,46 +84322,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2721,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2722,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH2_AL2_WRITE_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2722C7"
+          "text": "CH2_AL1_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2720C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "        "
         },
         {
           "kind": "span",
@@ -83743,6 +84366,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 2721,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 2 TRANS_COUNT register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2722,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 2723,
       "children": [
         {
@@ -83753,7 +84408,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 2 CTRL register"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -83769,13 +84424,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH2_AL3_CTRL",
+          "text": "CH2_AL1_TRANS_COUNT_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L2724C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -83822,7 +84477,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 2 WRITE_ADDR register"
+          "text": "--  Alias for channel 2 CTRL register"
         }
       ]
     },
@@ -83838,13 +84493,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH2_AL3_WRITE_ADDR",
+          "text": "CH2_AL2_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2726C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "        "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -83907,7 +84562,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH2_AL3_TRANS_COUNT",
+          "text": "CH2_AL2_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2728C7"
         },
         {
@@ -83960,7 +84615,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 2 READ_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 2 READ_ADDR register"
         }
       ]
     },
@@ -83975,46 +84630,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2731,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2732,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH2_AL3_READ_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2732C7"
+          "text": "CH2_AL2_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2730C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "    "
+          "text": "         "
         },
         {
           "kind": "span",
@@ -84051,6 +84674,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 2731,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 2 WRITE_ADDR register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2732,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 2733,
       "children": [
         {
@@ -84061,7 +84716,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 3 Read Address pointer\\n This register updates"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -84076,8 +84731,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a read completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH2_AL2_WRITE_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L2734C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -84093,7 +84785,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be read by this channel."
+          "text": "--  Alias for channel 2 CTRL register"
         }
       ]
     },
@@ -84109,13 +84801,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH3_READ_ADDR",
+          "text": "CH2_AL3_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2736C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "             "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -84162,7 +84854,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 3 Write Address pointer\\n This register updates"
+          "text": "--  Alias for channel 2 WRITE_ADDR register"
         }
       ]
     },
@@ -84177,8 +84869,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a write completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH2_AL3_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2738C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -84194,7 +84923,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be written by this channel."
+          "text": "--  Alias for channel 2 TRANS_COUNT register"
         }
       ]
     },
@@ -84210,13 +84939,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH3_WRITE_ADDR",
+          "text": "CH2_AL3_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2740C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "            "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -84263,7 +84992,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 3 Transfer Count\\n Program the number of bus transfers a"
+          "text": "--  Alias for channel 2 READ_ADDR register\\n This is a trigger register"
         }
       ]
     },
@@ -84279,7 +85008,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  channel will perform before halting. Note that, if transfers are"
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
         }
       ]
     },
@@ -84295,7 +85024,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  larger than one byte in size, this is not equal to the number of"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -84310,190 +85039,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2745,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  active, reading this register shows the number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2746,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  remaining, updating automatically each time a write transfer"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2747,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2748,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2749,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  value is copied into the live transfer counter. The channel can be"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2750,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  started multiple times, and will perform the same number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2751,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2752,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2753,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  the written value is used immediately as the length of the new"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2754,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer sequence, as well as being written to RELOAD."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2755,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH3_TRANS_COUNT",
-          "href": "docs/rp2040_svd__dma___spec.html#L2755C7"
+          "text": "CH2_AL3_READ_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L2744C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "    "
         },
         {
           "kind": "span",
@@ -84530,7 +85083,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2756,
+      "number": 2745,
       "children": [
         {
           "kind": "span",
@@ -84540,13 +85093,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 3 Control and Status"
+          "text": "--  DMA Channel 3 Read Address pointer\\n This register updates"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 2757,
+      "number": 2746,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a read completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2747,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be read by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2748,
       "children": [
         {
           "kind": "span",
@@ -84556,8 +85141,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH3_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2757C7"
+          "text": "CH3_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2748C7"
         },
         {
           "kind": "span",
@@ -84587,13 +85172,194 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH3_CTRL_TRIG_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L572C9"
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2749,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 3 Write Address pointer\\n This register updates"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2750,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a write completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2751,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be written by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2752,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "CH3_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2752C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "            "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2753,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 3 Transfer Count\\n Program the number of bus transfers a"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2754,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  channel will perform before halting. Note that, if transfers are"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2755,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  larger than one byte in size, this is not equal to the number of"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2756,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2757,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  active, reading this register shows the number of transfers"
         }
       ]
     },
@@ -84609,7 +85375,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 3 CTRL register"
+          "text": "--  remaining, updating automatically each time a write transfer"
         }
       ]
     },
@@ -84624,45 +85390,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH3_AL1_CTRL",
-          "href": "docs/rp2040_svd__dma___spec.html#L2759C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "              "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
         }
       ]
     },
@@ -84678,7 +85407,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 3 READ_ADDR register"
+          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
         }
       ]
     },
@@ -84693,45 +85422,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH3_AL1_READ_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L2761C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  value is copied into the live transfer counter. The channel can be"
         }
       ]
     },
@@ -84747,7 +85439,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 3 WRITE_ADDR register"
+          "text": "--  started multiple times, and will perform the same number of transfers"
         }
       ]
     },
@@ -84762,45 +85454,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH3_AL1_WRITE_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L2763C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
         }
       ]
     },
@@ -84816,7 +85471,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 3 TRANS_COUNT register\\n This is a trigger register"
+          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
         }
       ]
     },
@@ -84832,7 +85487,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+          "text": "--  the written value is used immediately as the length of the new"
         }
       ]
     },
@@ -84848,7 +85503,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  start the channel."
+          "text": "--  transfer sequence, as well as being written to RELOAD."
         }
       ]
     },
@@ -84864,13 +85519,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH3_AL1_TRANS_COUNT_TRIG",
+          "text": "CH3_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2767C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "           "
         },
         {
           "kind": "span",
@@ -84917,7 +85572,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 3 CTRL register"
+          "text": "--  DMA Channel 3 Control and Status"
         }
       ]
     },
@@ -84933,13 +85588,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH3_AL2_CTRL",
+          "text": "CH3_CTRL_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L2769C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -84964,8 +85619,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
+          "text": "CH3_CTRL_TRIG_Register",
+          "href": "docs/rp2040_svd__dma___spec.html#L572C9"
         },
         {
           "kind": "span",
@@ -84986,7 +85641,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 3 TRANS_COUNT register"
+          "text": "--  Alias for channel 3 CTRL register"
         }
       ]
     },
@@ -85002,13 +85657,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH3_AL2_TRANS_COUNT",
+          "text": "CH3_AL1_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2771C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -85071,7 +85726,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH3_AL2_READ_ADDR",
+          "text": "CH3_AL1_READ_ADDR",
           "href": "docs/rp2040_svd__dma___spec.html#L2773C7"
         },
         {
@@ -85124,7 +85779,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 3 WRITE_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 3 WRITE_ADDR register"
         }
       ]
     },
@@ -85139,46 +85794,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2776,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2777,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH3_AL2_WRITE_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2777C7"
+          "text": "CH3_AL1_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2775C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "        "
         },
         {
           "kind": "span",
@@ -85215,6 +85838,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 2776,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 3 TRANS_COUNT register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2777,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 2778,
       "children": [
         {
@@ -85225,7 +85880,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 3 CTRL register"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -85241,13 +85896,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH3_AL3_CTRL",
+          "text": "CH3_AL1_TRANS_COUNT_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L2779C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -85294,7 +85949,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 3 WRITE_ADDR register"
+          "text": "--  Alias for channel 3 CTRL register"
         }
       ]
     },
@@ -85310,13 +85965,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH3_AL3_WRITE_ADDR",
+          "text": "CH3_AL2_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2781C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "        "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -85379,7 +86034,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH3_AL3_TRANS_COUNT",
+          "text": "CH3_AL2_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2783C7"
         },
         {
@@ -85432,7 +86087,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 3 READ_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 3 READ_ADDR register"
         }
       ]
     },
@@ -85447,46 +86102,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2786,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2787,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH3_AL3_READ_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2787C7"
+          "text": "CH3_AL2_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2785C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "    "
+          "text": "         "
         },
         {
           "kind": "span",
@@ -85523,6 +86146,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 2786,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 3 WRITE_ADDR register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2787,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 2788,
       "children": [
         {
@@ -85533,7 +86188,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 4 Read Address pointer\\n This register updates"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -85548,8 +86203,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a read completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH3_AL2_WRITE_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L2789C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -85565,7 +86257,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be read by this channel."
+          "text": "--  Alias for channel 3 CTRL register"
         }
       ]
     },
@@ -85581,13 +86273,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH4_READ_ADDR",
+          "text": "CH3_AL3_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2791C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "             "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -85634,7 +86326,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 4 Write Address pointer\\n This register updates"
+          "text": "--  Alias for channel 3 WRITE_ADDR register"
         }
       ]
     },
@@ -85649,8 +86341,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a write completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH3_AL3_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2793C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -85666,7 +86395,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be written by this channel."
+          "text": "--  Alias for channel 3 TRANS_COUNT register"
         }
       ]
     },
@@ -85682,13 +86411,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH4_WRITE_ADDR",
+          "text": "CH3_AL3_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2795C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "            "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -85735,7 +86464,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 4 Transfer Count\\n Program the number of bus transfers a"
+          "text": "--  Alias for channel 3 READ_ADDR register\\n This is a trigger register"
         }
       ]
     },
@@ -85751,7 +86480,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  channel will perform before halting. Note that, if transfers are"
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
         }
       ]
     },
@@ -85767,7 +86496,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  larger than one byte in size, this is not equal to the number of"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -85782,190 +86511,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2800,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  active, reading this register shows the number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2801,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  remaining, updating automatically each time a write transfer"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2802,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2803,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2804,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  value is copied into the live transfer counter. The channel can be"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2805,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  started multiple times, and will perform the same number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2806,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2807,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2808,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  the written value is used immediately as the length of the new"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2809,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer sequence, as well as being written to RELOAD."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2810,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH4_TRANS_COUNT",
-          "href": "docs/rp2040_svd__dma___spec.html#L2810C7"
+          "text": "CH3_AL3_READ_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L2799C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "    "
         },
         {
           "kind": "span",
@@ -86002,7 +86555,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2811,
+      "number": 2800,
       "children": [
         {
           "kind": "span",
@@ -86012,13 +86565,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 4 Control and Status"
+          "text": "--  DMA Channel 4 Read Address pointer\\n This register updates"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 2812,
+      "number": 2801,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a read completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2802,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be read by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2803,
       "children": [
         {
           "kind": "span",
@@ -86028,8 +86613,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH4_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2812C7"
+          "text": "CH4_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2803C7"
         },
         {
           "kind": "span",
@@ -86059,13 +86644,194 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH4_CTRL_TRIG_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L738C9"
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2804,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 4 Write Address pointer\\n This register updates"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2805,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a write completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2806,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be written by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2807,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "CH4_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2807C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "            "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2808,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 4 Transfer Count\\n Program the number of bus transfers a"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2809,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  channel will perform before halting. Note that, if transfers are"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2810,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  larger than one byte in size, this is not equal to the number of"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2811,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2812,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  active, reading this register shows the number of transfers"
         }
       ]
     },
@@ -86081,7 +86847,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 4 CTRL register"
+          "text": "--  remaining, updating automatically each time a write transfer"
         }
       ]
     },
@@ -86096,45 +86862,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH4_AL1_CTRL",
-          "href": "docs/rp2040_svd__dma___spec.html#L2814C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "              "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
         }
       ]
     },
@@ -86150,7 +86879,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 4 READ_ADDR register"
+          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
         }
       ]
     },
@@ -86165,45 +86894,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH4_AL1_READ_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L2816C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  value is copied into the live transfer counter. The channel can be"
         }
       ]
     },
@@ -86219,7 +86911,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 4 WRITE_ADDR register"
+          "text": "--  started multiple times, and will perform the same number of transfers"
         }
       ]
     },
@@ -86234,45 +86926,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH4_AL1_WRITE_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L2818C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
         }
       ]
     },
@@ -86288,7 +86943,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 4 TRANS_COUNT register\\n This is a trigger register"
+          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
         }
       ]
     },
@@ -86304,7 +86959,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+          "text": "--  the written value is used immediately as the length of the new"
         }
       ]
     },
@@ -86320,7 +86975,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  start the channel."
+          "text": "--  transfer sequence, as well as being written to RELOAD."
         }
       ]
     },
@@ -86336,13 +86991,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH4_AL1_TRANS_COUNT_TRIG",
+          "text": "CH4_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2822C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "           "
         },
         {
           "kind": "span",
@@ -86389,7 +87044,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 4 CTRL register"
+          "text": "--  DMA Channel 4 Control and Status"
         }
       ]
     },
@@ -86405,13 +87060,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH4_AL2_CTRL",
+          "text": "CH4_CTRL_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L2824C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -86436,8 +87091,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
+          "text": "CH4_CTRL_TRIG_Register",
+          "href": "docs/rp2040_svd__dma___spec.html#L738C9"
         },
         {
           "kind": "span",
@@ -86458,7 +87113,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 4 TRANS_COUNT register"
+          "text": "--  Alias for channel 4 CTRL register"
         }
       ]
     },
@@ -86474,13 +87129,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH4_AL2_TRANS_COUNT",
+          "text": "CH4_AL1_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2826C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -86543,7 +87198,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH4_AL2_READ_ADDR",
+          "text": "CH4_AL1_READ_ADDR",
           "href": "docs/rp2040_svd__dma___spec.html#L2828C7"
         },
         {
@@ -86596,7 +87251,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 4 WRITE_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 4 WRITE_ADDR register"
         }
       ]
     },
@@ -86611,46 +87266,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2831,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2832,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH4_AL2_WRITE_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2832C7"
+          "text": "CH4_AL1_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2830C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "        "
         },
         {
           "kind": "span",
@@ -86687,6 +87310,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 2831,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 4 TRANS_COUNT register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2832,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 2833,
       "children": [
         {
@@ -86697,7 +87352,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 4 CTRL register"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -86713,13 +87368,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH4_AL3_CTRL",
+          "text": "CH4_AL1_TRANS_COUNT_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L2834C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -86766,7 +87421,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 4 WRITE_ADDR register"
+          "text": "--  Alias for channel 4 CTRL register"
         }
       ]
     },
@@ -86782,13 +87437,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH4_AL3_WRITE_ADDR",
+          "text": "CH4_AL2_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2836C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "        "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -86851,7 +87506,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH4_AL3_TRANS_COUNT",
+          "text": "CH4_AL2_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2838C7"
         },
         {
@@ -86904,7 +87559,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 4 READ_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 4 READ_ADDR register"
         }
       ]
     },
@@ -86919,46 +87574,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2841,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2842,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH4_AL3_READ_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2842C7"
+          "text": "CH4_AL2_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2840C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "    "
+          "text": "         "
         },
         {
           "kind": "span",
@@ -86995,6 +87618,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 2841,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 4 WRITE_ADDR register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2842,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 2843,
       "children": [
         {
@@ -87005,7 +87660,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 5 Read Address pointer\\n This register updates"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -87020,8 +87675,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a read completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH4_AL2_WRITE_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L2844C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -87037,7 +87729,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be read by this channel."
+          "text": "--  Alias for channel 4 CTRL register"
         }
       ]
     },
@@ -87053,13 +87745,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH5_READ_ADDR",
+          "text": "CH4_AL3_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2846C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "             "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -87106,7 +87798,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 5 Write Address pointer\\n This register updates"
+          "text": "--  Alias for channel 4 WRITE_ADDR register"
         }
       ]
     },
@@ -87121,8 +87813,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a write completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH4_AL3_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2848C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -87138,7 +87867,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be written by this channel."
+          "text": "--  Alias for channel 4 TRANS_COUNT register"
         }
       ]
     },
@@ -87154,13 +87883,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH5_WRITE_ADDR",
+          "text": "CH4_AL3_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2850C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "            "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -87207,7 +87936,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 5 Transfer Count\\n Program the number of bus transfers a"
+          "text": "--  Alias for channel 4 READ_ADDR register\\n This is a trigger register"
         }
       ]
     },
@@ -87223,7 +87952,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  channel will perform before halting. Note that, if transfers are"
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
         }
       ]
     },
@@ -87239,7 +87968,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  larger than one byte in size, this is not equal to the number of"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -87254,190 +87983,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2855,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  active, reading this register shows the number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2856,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  remaining, updating automatically each time a write transfer"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2857,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2858,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2859,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  value is copied into the live transfer counter. The channel can be"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2860,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  started multiple times, and will perform the same number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2861,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2862,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2863,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  the written value is used immediately as the length of the new"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2864,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer sequence, as well as being written to RELOAD."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2865,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH5_TRANS_COUNT",
-          "href": "docs/rp2040_svd__dma___spec.html#L2865C7"
+          "text": "CH4_AL3_READ_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L2854C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "    "
         },
         {
           "kind": "span",
@@ -87474,7 +88027,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2866,
+      "number": 2855,
       "children": [
         {
           "kind": "span",
@@ -87484,13 +88037,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 5 Control and Status"
+          "text": "--  DMA Channel 5 Read Address pointer\\n This register updates"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 2867,
+      "number": 2856,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a read completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2857,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be read by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2858,
       "children": [
         {
           "kind": "span",
@@ -87500,8 +88085,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH5_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2867C7"
+          "text": "CH5_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2858C7"
         },
         {
           "kind": "span",
@@ -87531,13 +88116,194 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH5_CTRL_TRIG_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L904C9"
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2859,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 5 Write Address pointer\\n This register updates"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2860,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a write completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2861,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be written by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2862,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "CH5_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2862C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "            "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2863,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 5 Transfer Count\\n Program the number of bus transfers a"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2864,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  channel will perform before halting. Note that, if transfers are"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2865,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  larger than one byte in size, this is not equal to the number of"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2866,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2867,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  active, reading this register shows the number of transfers"
         }
       ]
     },
@@ -87553,7 +88319,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 5 CTRL register"
+          "text": "--  remaining, updating automatically each time a write transfer"
         }
       ]
     },
@@ -87568,45 +88334,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH5_AL1_CTRL",
-          "href": "docs/rp2040_svd__dma___spec.html#L2869C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "              "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
         }
       ]
     },
@@ -87622,7 +88351,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 5 READ_ADDR register"
+          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
         }
       ]
     },
@@ -87637,45 +88366,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH5_AL1_READ_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L2871C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  value is copied into the live transfer counter. The channel can be"
         }
       ]
     },
@@ -87691,7 +88383,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 5 WRITE_ADDR register"
+          "text": "--  started multiple times, and will perform the same number of transfers"
         }
       ]
     },
@@ -87706,45 +88398,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH5_AL1_WRITE_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L2873C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
         }
       ]
     },
@@ -87760,7 +88415,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 5 TRANS_COUNT register\\n This is a trigger register"
+          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
         }
       ]
     },
@@ -87776,7 +88431,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+          "text": "--  the written value is used immediately as the length of the new"
         }
       ]
     },
@@ -87792,7 +88447,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  start the channel."
+          "text": "--  transfer sequence, as well as being written to RELOAD."
         }
       ]
     },
@@ -87808,13 +88463,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH5_AL1_TRANS_COUNT_TRIG",
+          "text": "CH5_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2877C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "           "
         },
         {
           "kind": "span",
@@ -87861,7 +88516,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 5 CTRL register"
+          "text": "--  DMA Channel 5 Control and Status"
         }
       ]
     },
@@ -87877,13 +88532,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH5_AL2_CTRL",
+          "text": "CH5_CTRL_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L2879C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -87908,8 +88563,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
+          "text": "CH5_CTRL_TRIG_Register",
+          "href": "docs/rp2040_svd__dma___spec.html#L904C9"
         },
         {
           "kind": "span",
@@ -87930,7 +88585,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 5 TRANS_COUNT register"
+          "text": "--  Alias for channel 5 CTRL register"
         }
       ]
     },
@@ -87946,13 +88601,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH5_AL2_TRANS_COUNT",
+          "text": "CH5_AL1_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2881C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -88015,7 +88670,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH5_AL2_READ_ADDR",
+          "text": "CH5_AL1_READ_ADDR",
           "href": "docs/rp2040_svd__dma___spec.html#L2883C7"
         },
         {
@@ -88068,7 +88723,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 5 WRITE_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 5 WRITE_ADDR register"
         }
       ]
     },
@@ -88083,46 +88738,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2886,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2887,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH5_AL2_WRITE_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2887C7"
+          "text": "CH5_AL1_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2885C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "        "
         },
         {
           "kind": "span",
@@ -88159,6 +88782,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 2886,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 5 TRANS_COUNT register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2887,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 2888,
       "children": [
         {
@@ -88169,7 +88824,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 5 CTRL register"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -88185,13 +88840,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH5_AL3_CTRL",
+          "text": "CH5_AL1_TRANS_COUNT_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L2889C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -88238,7 +88893,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 5 WRITE_ADDR register"
+          "text": "--  Alias for channel 5 CTRL register"
         }
       ]
     },
@@ -88254,13 +88909,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH5_AL3_WRITE_ADDR",
+          "text": "CH5_AL2_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2891C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "        "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -88323,7 +88978,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH5_AL3_TRANS_COUNT",
+          "text": "CH5_AL2_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2893C7"
         },
         {
@@ -88376,7 +89031,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 5 READ_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 5 READ_ADDR register"
         }
       ]
     },
@@ -88391,46 +89046,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2896,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2897,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH5_AL3_READ_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2897C7"
+          "text": "CH5_AL2_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2895C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "    "
+          "text": "         "
         },
         {
           "kind": "span",
@@ -88467,6 +89090,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 2896,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 5 WRITE_ADDR register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2897,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 2898,
       "children": [
         {
@@ -88477,7 +89132,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 6 Read Address pointer\\n This register updates"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -88492,8 +89147,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a read completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH5_AL2_WRITE_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L2899C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -88509,7 +89201,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be read by this channel."
+          "text": "--  Alias for channel 5 CTRL register"
         }
       ]
     },
@@ -88525,13 +89217,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH6_READ_ADDR",
+          "text": "CH5_AL3_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2901C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "             "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -88578,7 +89270,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 6 Write Address pointer\\n This register updates"
+          "text": "--  Alias for channel 5 WRITE_ADDR register"
         }
       ]
     },
@@ -88593,8 +89285,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a write completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH5_AL3_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2903C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -88610,7 +89339,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be written by this channel."
+          "text": "--  Alias for channel 5 TRANS_COUNT register"
         }
       ]
     },
@@ -88626,13 +89355,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH6_WRITE_ADDR",
+          "text": "CH5_AL3_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2905C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "            "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -88679,7 +89408,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 6 Transfer Count\\n Program the number of bus transfers a"
+          "text": "--  Alias for channel 5 READ_ADDR register\\n This is a trigger register"
         }
       ]
     },
@@ -88695,7 +89424,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  channel will perform before halting. Note that, if transfers are"
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
         }
       ]
     },
@@ -88711,7 +89440,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  larger than one byte in size, this is not equal to the number of"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -88726,190 +89455,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2910,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  active, reading this register shows the number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2911,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  remaining, updating automatically each time a write transfer"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2912,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2913,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2914,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  value is copied into the live transfer counter. The channel can be"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2915,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  started multiple times, and will perform the same number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2916,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2917,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2918,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  the written value is used immediately as the length of the new"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2919,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer sequence, as well as being written to RELOAD."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2920,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH6_TRANS_COUNT",
-          "href": "docs/rp2040_svd__dma___spec.html#L2920C7"
+          "text": "CH5_AL3_READ_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L2909C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "    "
         },
         {
           "kind": "span",
@@ -88946,7 +89499,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2921,
+      "number": 2910,
       "children": [
         {
           "kind": "span",
@@ -88956,13 +89509,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 6 Control and Status"
+          "text": "--  DMA Channel 6 Read Address pointer\\n This register updates"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 2922,
+      "number": 2911,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a read completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2912,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be read by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2913,
       "children": [
         {
           "kind": "span",
@@ -88972,8 +89557,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH6_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2922C7"
+          "text": "CH6_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2913C7"
         },
         {
           "kind": "span",
@@ -89003,13 +89588,194 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH6_CTRL_TRIG_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L1070C9"
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2914,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 6 Write Address pointer\\n This register updates"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2915,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a write completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2916,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be written by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2917,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "CH6_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2917C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "            "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2918,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 6 Transfer Count\\n Program the number of bus transfers a"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2919,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  channel will perform before halting. Note that, if transfers are"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2920,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  larger than one byte in size, this is not equal to the number of"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2921,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2922,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  active, reading this register shows the number of transfers"
         }
       ]
     },
@@ -89025,7 +89791,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 6 CTRL register"
+          "text": "--  remaining, updating automatically each time a write transfer"
         }
       ]
     },
@@ -89040,45 +89806,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH6_AL1_CTRL",
-          "href": "docs/rp2040_svd__dma___spec.html#L2924C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "              "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
         }
       ]
     },
@@ -89094,7 +89823,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 6 READ_ADDR register"
+          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
         }
       ]
     },
@@ -89109,45 +89838,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH6_AL1_READ_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L2926C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  value is copied into the live transfer counter. The channel can be"
         }
       ]
     },
@@ -89163,7 +89855,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 6 WRITE_ADDR register"
+          "text": "--  started multiple times, and will perform the same number of transfers"
         }
       ]
     },
@@ -89178,45 +89870,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH6_AL1_WRITE_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L2928C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
         }
       ]
     },
@@ -89232,7 +89887,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 6 TRANS_COUNT register\\n This is a trigger register"
+          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
         }
       ]
     },
@@ -89248,7 +89903,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+          "text": "--  the written value is used immediately as the length of the new"
         }
       ]
     },
@@ -89264,7 +89919,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  start the channel."
+          "text": "--  transfer sequence, as well as being written to RELOAD."
         }
       ]
     },
@@ -89280,13 +89935,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH6_AL1_TRANS_COUNT_TRIG",
+          "text": "CH6_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2932C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "           "
         },
         {
           "kind": "span",
@@ -89333,7 +89988,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 6 CTRL register"
+          "text": "--  DMA Channel 6 Control and Status"
         }
       ]
     },
@@ -89349,13 +90004,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH6_AL2_CTRL",
+          "text": "CH6_CTRL_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L2934C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -89380,8 +90035,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
+          "text": "CH6_CTRL_TRIG_Register",
+          "href": "docs/rp2040_svd__dma___spec.html#L1070C9"
         },
         {
           "kind": "span",
@@ -89402,7 +90057,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 6 TRANS_COUNT register"
+          "text": "--  Alias for channel 6 CTRL register"
         }
       ]
     },
@@ -89418,13 +90073,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH6_AL2_TRANS_COUNT",
+          "text": "CH6_AL1_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2936C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -89487,7 +90142,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH6_AL2_READ_ADDR",
+          "text": "CH6_AL1_READ_ADDR",
           "href": "docs/rp2040_svd__dma___spec.html#L2938C7"
         },
         {
@@ -89540,7 +90195,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 6 WRITE_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 6 WRITE_ADDR register"
         }
       ]
     },
@@ -89555,46 +90210,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2941,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2942,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH6_AL2_WRITE_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2942C7"
+          "text": "CH6_AL1_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2940C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "        "
         },
         {
           "kind": "span",
@@ -89631,6 +90254,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 2941,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 6 TRANS_COUNT register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2942,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 2943,
       "children": [
         {
@@ -89641,7 +90296,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 6 CTRL register"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -89657,13 +90312,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH6_AL3_CTRL",
+          "text": "CH6_AL1_TRANS_COUNT_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L2944C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -89710,7 +90365,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 6 WRITE_ADDR register"
+          "text": "--  Alias for channel 6 CTRL register"
         }
       ]
     },
@@ -89726,13 +90381,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH6_AL3_WRITE_ADDR",
+          "text": "CH6_AL2_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2946C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "        "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -89795,7 +90450,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH6_AL3_TRANS_COUNT",
+          "text": "CH6_AL2_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2948C7"
         },
         {
@@ -89848,7 +90503,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 6 READ_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 6 READ_ADDR register"
         }
       ]
     },
@@ -89863,46 +90518,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2951,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2952,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH6_AL3_READ_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2952C7"
+          "text": "CH6_AL2_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2950C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "    "
+          "text": "         "
         },
         {
           "kind": "span",
@@ -89939,6 +90562,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 2951,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 6 WRITE_ADDR register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2952,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 2953,
       "children": [
         {
@@ -89949,7 +90604,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 7 Read Address pointer\\n This register updates"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -89964,8 +90619,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a read completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH6_AL2_WRITE_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L2954C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -89981,7 +90673,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be read by this channel."
+          "text": "--  Alias for channel 6 CTRL register"
         }
       ]
     },
@@ -89997,13 +90689,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH7_READ_ADDR",
+          "text": "CH6_AL3_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2956C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "             "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -90050,7 +90742,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 7 Write Address pointer\\n This register updates"
+          "text": "--  Alias for channel 6 WRITE_ADDR register"
         }
       ]
     },
@@ -90065,8 +90757,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a write completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH6_AL3_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2958C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -90082,7 +90811,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be written by this channel."
+          "text": "--  Alias for channel 6 TRANS_COUNT register"
         }
       ]
     },
@@ -90098,13 +90827,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH7_WRITE_ADDR",
+          "text": "CH6_AL3_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2960C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "            "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -90151,7 +90880,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 7 Transfer Count\\n Program the number of bus transfers a"
+          "text": "--  Alias for channel 6 READ_ADDR register\\n This is a trigger register"
         }
       ]
     },
@@ -90167,7 +90896,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  channel will perform before halting. Note that, if transfers are"
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
         }
       ]
     },
@@ -90183,7 +90912,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  larger than one byte in size, this is not equal to the number of"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -90198,190 +90927,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2965,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  active, reading this register shows the number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2966,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  remaining, updating automatically each time a write transfer"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2967,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2968,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2969,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  value is copied into the live transfer counter. The channel can be"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2970,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  started multiple times, and will perform the same number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2971,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2972,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2973,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  the written value is used immediately as the length of the new"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2974,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer sequence, as well as being written to RELOAD."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2975,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH7_TRANS_COUNT",
-          "href": "docs/rp2040_svd__dma___spec.html#L2975C7"
+          "text": "CH6_AL3_READ_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L2964C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "    "
         },
         {
           "kind": "span",
@@ -90418,7 +90971,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2976,
+      "number": 2965,
       "children": [
         {
           "kind": "span",
@@ -90428,13 +90981,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 7 Control and Status"
+          "text": "--  DMA Channel 7 Read Address pointer\\n This register updates"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 2977,
+      "number": 2966,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a read completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2967,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be read by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2968,
       "children": [
         {
           "kind": "span",
@@ -90444,8 +91029,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH7_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2977C7"
+          "text": "CH7_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2968C7"
         },
         {
           "kind": "span",
@@ -90475,13 +91060,194 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH7_CTRL_TRIG_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L1236C9"
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2969,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 7 Write Address pointer\\n This register updates"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2970,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a write completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2971,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be written by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2972,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "CH7_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2972C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "            "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2973,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 7 Transfer Count\\n Program the number of bus transfers a"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2974,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  channel will perform before halting. Note that, if transfers are"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2975,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  larger than one byte in size, this is not equal to the number of"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2976,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2977,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  active, reading this register shows the number of transfers"
         }
       ]
     },
@@ -90497,7 +91263,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 7 CTRL register"
+          "text": "--  remaining, updating automatically each time a write transfer"
         }
       ]
     },
@@ -90512,45 +91278,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH7_AL1_CTRL",
-          "href": "docs/rp2040_svd__dma___spec.html#L2979C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "              "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
         }
       ]
     },
@@ -90566,7 +91295,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 7 READ_ADDR register"
+          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
         }
       ]
     },
@@ -90581,45 +91310,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH7_AL1_READ_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L2981C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  value is copied into the live transfer counter. The channel can be"
         }
       ]
     },
@@ -90635,7 +91327,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 7 WRITE_ADDR register"
+          "text": "--  started multiple times, and will perform the same number of transfers"
         }
       ]
     },
@@ -90650,45 +91342,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH7_AL1_WRITE_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L2983C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
         }
       ]
     },
@@ -90704,7 +91359,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 7 TRANS_COUNT register\\n This is a trigger register"
+          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
         }
       ]
     },
@@ -90720,7 +91375,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+          "text": "--  the written value is used immediately as the length of the new"
         }
       ]
     },
@@ -90736,7 +91391,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  start the channel."
+          "text": "--  transfer sequence, as well as being written to RELOAD."
         }
       ]
     },
@@ -90752,13 +91407,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH7_AL1_TRANS_COUNT_TRIG",
+          "text": "CH7_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L2987C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "           "
         },
         {
           "kind": "span",
@@ -90805,7 +91460,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 7 CTRL register"
+          "text": "--  DMA Channel 7 Control and Status"
         }
       ]
     },
@@ -90821,13 +91476,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH7_AL2_CTRL",
+          "text": "CH7_CTRL_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L2989C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -90852,8 +91507,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
+          "text": "CH7_CTRL_TRIG_Register",
+          "href": "docs/rp2040_svd__dma___spec.html#L1236C9"
         },
         {
           "kind": "span",
@@ -90874,7 +91529,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 7 TRANS_COUNT register"
+          "text": "--  Alias for channel 7 CTRL register"
         }
       ]
     },
@@ -90890,13 +91545,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH7_AL2_TRANS_COUNT",
+          "text": "CH7_AL1_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L2991C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -90959,7 +91614,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH7_AL2_READ_ADDR",
+          "text": "CH7_AL1_READ_ADDR",
           "href": "docs/rp2040_svd__dma___spec.html#L2993C7"
         },
         {
@@ -91012,7 +91667,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 7 WRITE_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 7 WRITE_ADDR register"
         }
       ]
     },
@@ -91027,46 +91682,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2996,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 2997,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH7_AL2_WRITE_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2997C7"
+          "text": "CH7_AL1_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L2995C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "        "
         },
         {
           "kind": "span",
@@ -91103,6 +91726,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 2996,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 7 TRANS_COUNT register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2997,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 2998,
       "children": [
         {
@@ -91113,7 +91768,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 7 CTRL register"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -91129,13 +91784,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH7_AL3_CTRL",
+          "text": "CH7_AL1_TRANS_COUNT_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L2999C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -91182,7 +91837,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 7 WRITE_ADDR register"
+          "text": "--  Alias for channel 7 CTRL register"
         }
       ]
     },
@@ -91198,13 +91853,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH7_AL3_WRITE_ADDR",
+          "text": "CH7_AL2_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L3001C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "        "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -91267,7 +91922,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH7_AL3_TRANS_COUNT",
+          "text": "CH7_AL2_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L3003C7"
         },
         {
@@ -91320,7 +91975,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 7 READ_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 7 READ_ADDR register"
         }
       ]
     },
@@ -91335,46 +91990,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3006,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3007,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH7_AL3_READ_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L3007C7"
+          "text": "CH7_AL2_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3005C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "    "
+          "text": "         "
         },
         {
           "kind": "span",
@@ -91411,6 +92034,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 3006,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 7 WRITE_ADDR register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3007,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 3008,
       "children": [
         {
@@ -91421,7 +92076,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 8 Read Address pointer\\n This register updates"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -91436,8 +92091,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a read completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH7_AL2_WRITE_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L3009C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -91453,7 +92145,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be read by this channel."
+          "text": "--  Alias for channel 7 CTRL register"
         }
       ]
     },
@@ -91469,13 +92161,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH8_READ_ADDR",
+          "text": "CH7_AL3_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L3011C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "             "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -91522,7 +92214,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 8 Write Address pointer\\n This register updates"
+          "text": "--  Alias for channel 7 WRITE_ADDR register"
         }
       ]
     },
@@ -91537,8 +92229,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a write completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH7_AL3_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3013C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -91554,7 +92283,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be written by this channel."
+          "text": "--  Alias for channel 7 TRANS_COUNT register"
         }
       ]
     },
@@ -91570,13 +92299,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH8_WRITE_ADDR",
+          "text": "CH7_AL3_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L3015C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "            "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -91623,7 +92352,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 8 Transfer Count\\n Program the number of bus transfers a"
+          "text": "--  Alias for channel 7 READ_ADDR register\\n This is a trigger register"
         }
       ]
     },
@@ -91639,7 +92368,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  channel will perform before halting. Note that, if transfers are"
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
         }
       ]
     },
@@ -91655,7 +92384,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  larger than one byte in size, this is not equal to the number of"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -91670,190 +92399,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3020,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  active, reading this register shows the number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3021,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  remaining, updating automatically each time a write transfer"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3022,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3023,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3024,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  value is copied into the live transfer counter. The channel can be"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3025,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  started multiple times, and will perform the same number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3026,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3027,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3028,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  the written value is used immediately as the length of the new"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3029,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer sequence, as well as being written to RELOAD."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3030,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH8_TRANS_COUNT",
-          "href": "docs/rp2040_svd__dma___spec.html#L3030C7"
+          "text": "CH7_AL3_READ_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L3019C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "    "
         },
         {
           "kind": "span",
@@ -91890,7 +92443,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3031,
+      "number": 3020,
       "children": [
         {
           "kind": "span",
@@ -91900,13 +92453,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 8 Control and Status"
+          "text": "--  DMA Channel 8 Read Address pointer\\n This register updates"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 3032,
+      "number": 3021,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a read completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3022,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be read by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3023,
       "children": [
         {
           "kind": "span",
@@ -91916,8 +92501,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH8_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L3032C7"
+          "text": "CH8_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3023C7"
         },
         {
           "kind": "span",
@@ -91947,13 +92532,194 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH8_CTRL_TRIG_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L1402C9"
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3024,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 8 Write Address pointer\\n This register updates"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3025,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a write completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3026,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be written by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3027,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "CH8_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3027C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "            "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3028,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 8 Transfer Count\\n Program the number of bus transfers a"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3029,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  channel will perform before halting. Note that, if transfers are"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3030,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  larger than one byte in size, this is not equal to the number of"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3031,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3032,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  active, reading this register shows the number of transfers"
         }
       ]
     },
@@ -91969,7 +92735,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 8 CTRL register"
+          "text": "--  remaining, updating automatically each time a write transfer"
         }
       ]
     },
@@ -91984,45 +92750,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH8_AL1_CTRL",
-          "href": "docs/rp2040_svd__dma___spec.html#L3034C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "              "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
         }
       ]
     },
@@ -92038,7 +92767,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 8 READ_ADDR register"
+          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
         }
       ]
     },
@@ -92053,45 +92782,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH8_AL1_READ_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3036C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  value is copied into the live transfer counter. The channel can be"
         }
       ]
     },
@@ -92107,7 +92799,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 8 WRITE_ADDR register"
+          "text": "--  started multiple times, and will perform the same number of transfers"
         }
       ]
     },
@@ -92122,45 +92814,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH8_AL1_WRITE_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3038C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
         }
       ]
     },
@@ -92176,7 +92831,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 8 TRANS_COUNT register\\n This is a trigger register"
+          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
         }
       ]
     },
@@ -92192,7 +92847,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+          "text": "--  the written value is used immediately as the length of the new"
         }
       ]
     },
@@ -92208,7 +92863,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  start the channel."
+          "text": "--  transfer sequence, as well as being written to RELOAD."
         }
       ]
     },
@@ -92224,13 +92879,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH8_AL1_TRANS_COUNT_TRIG",
+          "text": "CH8_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L3042C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "           "
         },
         {
           "kind": "span",
@@ -92277,7 +92932,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 8 CTRL register"
+          "text": "--  DMA Channel 8 Control and Status"
         }
       ]
     },
@@ -92293,13 +92948,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH8_AL2_CTRL",
+          "text": "CH8_CTRL_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L3044C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -92324,8 +92979,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
+          "text": "CH8_CTRL_TRIG_Register",
+          "href": "docs/rp2040_svd__dma___spec.html#L1402C9"
         },
         {
           "kind": "span",
@@ -92346,7 +93001,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 8 TRANS_COUNT register"
+          "text": "--  Alias for channel 8 CTRL register"
         }
       ]
     },
@@ -92362,13 +93017,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH8_AL2_TRANS_COUNT",
+          "text": "CH8_AL1_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L3046C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -92431,7 +93086,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH8_AL2_READ_ADDR",
+          "text": "CH8_AL1_READ_ADDR",
           "href": "docs/rp2040_svd__dma___spec.html#L3048C7"
         },
         {
@@ -92484,7 +93139,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 8 WRITE_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 8 WRITE_ADDR register"
         }
       ]
     },
@@ -92499,46 +93154,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3051,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3052,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH8_AL2_WRITE_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L3052C7"
+          "text": "CH8_AL1_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3050C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "        "
         },
         {
           "kind": "span",
@@ -92575,6 +93198,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 3051,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 8 TRANS_COUNT register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3052,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 3053,
       "children": [
         {
@@ -92585,7 +93240,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 8 CTRL register"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -92601,13 +93256,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH8_AL3_CTRL",
+          "text": "CH8_AL1_TRANS_COUNT_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L3054C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -92654,7 +93309,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 8 WRITE_ADDR register"
+          "text": "--  Alias for channel 8 CTRL register"
         }
       ]
     },
@@ -92670,13 +93325,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH8_AL3_WRITE_ADDR",
+          "text": "CH8_AL2_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L3056C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "        "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -92739,7 +93394,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH8_AL3_TRANS_COUNT",
+          "text": "CH8_AL2_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L3058C7"
         },
         {
@@ -92792,7 +93447,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 8 READ_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 8 READ_ADDR register"
         }
       ]
     },
@@ -92807,46 +93462,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3061,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3062,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH8_AL3_READ_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L3062C7"
+          "text": "CH8_AL2_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3060C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "    "
+          "text": "         "
         },
         {
           "kind": "span",
@@ -92883,6 +93506,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 3061,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 8 WRITE_ADDR register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3062,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 3063,
       "children": [
         {
@@ -92893,7 +93548,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 9 Read Address pointer\\n This register updates"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -92908,8 +93563,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a read completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH8_AL2_WRITE_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L3064C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -92925,7 +93617,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be read by this channel."
+          "text": "--  Alias for channel 8 CTRL register"
         }
       ]
     },
@@ -92941,13 +93633,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH9_READ_ADDR",
+          "text": "CH8_AL3_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L3066C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "             "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -92994,7 +93686,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 9 Write Address pointer\\n This register updates"
+          "text": "--  Alias for channel 8 WRITE_ADDR register"
         }
       ]
     },
@@ -93009,8 +93701,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a write completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH8_AL3_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3068C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -93026,7 +93755,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be written by this channel."
+          "text": "--  Alias for channel 8 TRANS_COUNT register"
         }
       ]
     },
@@ -93042,13 +93771,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH9_WRITE_ADDR",
+          "text": "CH8_AL3_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L3070C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "            "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -93095,7 +93824,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 9 Transfer Count\\n Program the number of bus transfers a"
+          "text": "--  Alias for channel 8 READ_ADDR register\\n This is a trigger register"
         }
       ]
     },
@@ -93111,7 +93840,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  channel will perform before halting. Note that, if transfers are"
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
         }
       ]
     },
@@ -93127,7 +93856,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  larger than one byte in size, this is not equal to the number of"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -93142,190 +93871,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3075,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  active, reading this register shows the number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3076,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  remaining, updating automatically each time a write transfer"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3077,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3078,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3079,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  value is copied into the live transfer counter. The channel can be"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3080,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  started multiple times, and will perform the same number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3081,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3082,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3083,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  the written value is used immediately as the length of the new"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3084,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer sequence, as well as being written to RELOAD."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3085,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH9_TRANS_COUNT",
-          "href": "docs/rp2040_svd__dma___spec.html#L3085C7"
+          "text": "CH8_AL3_READ_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L3074C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "    "
         },
         {
           "kind": "span",
@@ -93362,7 +93915,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3086,
+      "number": 3075,
       "children": [
         {
           "kind": "span",
@@ -93372,13 +93925,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 9 Control and Status"
+          "text": "--  DMA Channel 9 Read Address pointer\\n This register updates"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 3087,
+      "number": 3076,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a read completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3077,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be read by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3078,
       "children": [
         {
           "kind": "span",
@@ -93388,8 +93973,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH9_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L3087C7"
+          "text": "CH9_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3078C7"
         },
         {
           "kind": "span",
@@ -93419,13 +94004,194 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH9_CTRL_TRIG_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L1568C9"
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3079,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 9 Write Address pointer\\n This register updates"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3080,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a write completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3081,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be written by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3082,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "CH9_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3082C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "            "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3083,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 9 Transfer Count\\n Program the number of bus transfers a"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3084,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  channel will perform before halting. Note that, if transfers are"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3085,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  larger than one byte in size, this is not equal to the number of"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3086,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3087,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  active, reading this register shows the number of transfers"
         }
       ]
     },
@@ -93441,7 +94207,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 9 CTRL register"
+          "text": "--  remaining, updating automatically each time a write transfer"
         }
       ]
     },
@@ -93456,45 +94222,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH9_AL1_CTRL",
-          "href": "docs/rp2040_svd__dma___spec.html#L3089C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "              "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
         }
       ]
     },
@@ -93510,7 +94239,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 9 READ_ADDR register"
+          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
         }
       ]
     },
@@ -93525,45 +94254,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH9_AL1_READ_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3091C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  value is copied into the live transfer counter. The channel can be"
         }
       ]
     },
@@ -93579,7 +94271,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 9 WRITE_ADDR register"
+          "text": "--  started multiple times, and will perform the same number of transfers"
         }
       ]
     },
@@ -93594,45 +94286,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH9_AL1_WRITE_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3093C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
         }
       ]
     },
@@ -93648,7 +94303,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 9 TRANS_COUNT register\\n This is a trigger register"
+          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
         }
       ]
     },
@@ -93664,7 +94319,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+          "text": "--  the written value is used immediately as the length of the new"
         }
       ]
     },
@@ -93680,7 +94335,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  start the channel."
+          "text": "--  transfer sequence, as well as being written to RELOAD."
         }
       ]
     },
@@ -93696,13 +94351,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH9_AL1_TRANS_COUNT_TRIG",
+          "text": "CH9_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L3097C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "           "
         },
         {
           "kind": "span",
@@ -93749,7 +94404,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 9 CTRL register"
+          "text": "--  DMA Channel 9 Control and Status"
         }
       ]
     },
@@ -93765,13 +94420,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH9_AL2_CTRL",
+          "text": "CH9_CTRL_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L3099C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -93796,8 +94451,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
+          "text": "CH9_CTRL_TRIG_Register",
+          "href": "docs/rp2040_svd__dma___spec.html#L1568C9"
         },
         {
           "kind": "span",
@@ -93818,7 +94473,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 9 TRANS_COUNT register"
+          "text": "--  Alias for channel 9 CTRL register"
         }
       ]
     },
@@ -93834,13 +94489,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH9_AL2_TRANS_COUNT",
+          "text": "CH9_AL1_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L3101C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -93903,7 +94558,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH9_AL2_READ_ADDR",
+          "text": "CH9_AL1_READ_ADDR",
           "href": "docs/rp2040_svd__dma___spec.html#L3103C7"
         },
         {
@@ -93956,7 +94611,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 9 WRITE_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 9 WRITE_ADDR register"
         }
       ]
     },
@@ -93971,46 +94626,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3106,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3107,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH9_AL2_WRITE_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L3107C7"
+          "text": "CH9_AL1_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3105C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "        "
         },
         {
           "kind": "span",
@@ -94047,6 +94670,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 3106,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 9 TRANS_COUNT register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3107,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 3108,
       "children": [
         {
@@ -94057,7 +94712,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 9 CTRL register"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -94073,13 +94728,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH9_AL3_CTRL",
+          "text": "CH9_AL1_TRANS_COUNT_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L3109C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "              "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -94126,7 +94781,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 9 WRITE_ADDR register"
+          "text": "--  Alias for channel 9 CTRL register"
         }
       ]
     },
@@ -94142,13 +94797,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH9_AL3_WRITE_ADDR",
+          "text": "CH9_AL2_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L3111C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "        "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -94211,7 +94866,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH9_AL3_TRANS_COUNT",
+          "text": "CH9_AL2_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L3113C7"
         },
         {
@@ -94264,7 +94919,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 9 READ_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 9 READ_ADDR register"
         }
       ]
     },
@@ -94279,46 +94934,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3116,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3117,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH9_AL3_READ_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L3117C7"
+          "text": "CH9_AL2_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3115C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "    "
+          "text": "         "
         },
         {
           "kind": "span",
@@ -94355,6 +94978,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 3116,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 9 WRITE_ADDR register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3117,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 3118,
       "children": [
         {
@@ -94365,7 +95020,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 10 Read Address pointer\\n This register updates"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -94380,8 +95035,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a read completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH9_AL2_WRITE_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L3119C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -94397,7 +95089,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be read by this channel."
+          "text": "--  Alias for channel 9 CTRL register"
         }
       ]
     },
@@ -94413,13 +95105,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH10_READ_ADDR",
+          "text": "CH9_AL3_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L3121C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "            "
+          "text": "              "
         },
         {
           "kind": "span",
@@ -94466,7 +95158,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 10 Write Address pointer\\n This register updates"
+          "text": "--  Alias for channel 9 WRITE_ADDR register"
         }
       ]
     },
@@ -94481,8 +95173,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a write completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH9_AL3_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3123C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -94498,7 +95227,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be written by this channel."
+          "text": "--  Alias for channel 9 TRANS_COUNT register"
         }
       ]
     },
@@ -94514,13 +95243,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH10_WRITE_ADDR",
+          "text": "CH9_AL3_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L3125C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -94567,7 +95296,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 10 Transfer Count\\n Program the number of bus transfers a"
+          "text": "--  Alias for channel 9 READ_ADDR register\\n This is a trigger register"
         }
       ]
     },
@@ -94583,7 +95312,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  channel will perform before halting. Note that, if transfers are"
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
         }
       ]
     },
@@ -94599,7 +95328,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  larger than one byte in size, this is not equal to the number of"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -94614,190 +95343,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3130,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  active, reading this register shows the number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3131,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  remaining, updating automatically each time a write transfer"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3132,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3133,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3134,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  value is copied into the live transfer counter. The channel can be"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3135,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  started multiple times, and will perform the same number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3136,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3137,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3138,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  the written value is used immediately as the length of the new"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3139,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer sequence, as well as being written to RELOAD."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3140,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH10_TRANS_COUNT",
-          "href": "docs/rp2040_svd__dma___spec.html#L3140C7"
+          "text": "CH9_AL3_READ_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L3129C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "          "
+          "text": "    "
         },
         {
           "kind": "span",
@@ -94834,7 +95387,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3141,
+      "number": 3130,
       "children": [
         {
           "kind": "span",
@@ -94844,13 +95397,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 10 Control and Status"
+          "text": "--  DMA Channel 10 Read Address pointer\\n This register updates"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 3142,
+      "number": 3131,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a read completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3132,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be read by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3133,
       "children": [
         {
           "kind": "span",
@@ -94860,8 +95445,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH10_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L3142C7"
+          "text": "CH10_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3133C7"
         },
         {
           "kind": "span",
@@ -94891,13 +95476,194 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH10_CTRL_TRIG_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L1734C9"
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3134,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 10 Write Address pointer\\n This register updates"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3135,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a write completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3136,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be written by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3137,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "CH10_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3137C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "           "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3138,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 10 Transfer Count\\n Program the number of bus transfers a"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3139,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  channel will perform before halting. Note that, if transfers are"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3140,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  larger than one byte in size, this is not equal to the number of"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3141,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3142,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  active, reading this register shows the number of transfers"
         }
       ]
     },
@@ -94913,7 +95679,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 10 CTRL register"
+          "text": "--  remaining, updating automatically each time a write transfer"
         }
       ]
     },
@@ -94928,45 +95694,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH10_AL1_CTRL",
-          "href": "docs/rp2040_svd__dma___spec.html#L3144C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "             "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
         }
       ]
     },
@@ -94982,7 +95711,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 10 READ_ADDR register"
+          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
         }
       ]
     },
@@ -94997,45 +95726,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH10_AL1_READ_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3146C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  value is copied into the live transfer counter. The channel can be"
         }
       ]
     },
@@ -95051,7 +95743,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 10 WRITE_ADDR register"
+          "text": "--  started multiple times, and will perform the same number of transfers"
         }
       ]
     },
@@ -95066,45 +95758,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH10_AL1_WRITE_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3148C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
         }
       ]
     },
@@ -95120,7 +95775,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 10 TRANS_COUNT register\\n This is a trigger"
+          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
         }
       ]
     },
@@ -95136,7 +95791,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  register (0xc). Writing a nonzero value will\\n reload the channel"
+          "text": "--  the written value is used immediately as the length of the new"
         }
       ]
     },
@@ -95152,7 +95807,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  counter and start the channel."
+          "text": "--  transfer sequence, as well as being written to RELOAD."
         }
       ]
     },
@@ -95168,13 +95823,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH10_AL1_TRANS_COUNT_TRIG",
+          "text": "CH10_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L3152C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "          "
         },
         {
           "kind": "span",
@@ -95221,7 +95876,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 10 CTRL register"
+          "text": "--  DMA Channel 10 Control and Status"
         }
       ]
     },
@@ -95237,13 +95892,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH10_AL2_CTRL",
+          "text": "CH10_CTRL_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L3154C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "             "
+          "text": "            "
         },
         {
           "kind": "span",
@@ -95268,8 +95923,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
+          "text": "CH10_CTRL_TRIG_Register",
+          "href": "docs/rp2040_svd__dma___spec.html#L1734C9"
         },
         {
           "kind": "span",
@@ -95290,7 +95945,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 10 TRANS_COUNT register"
+          "text": "--  Alias for channel 10 CTRL register"
         }
       ]
     },
@@ -95306,13 +95961,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH10_AL2_TRANS_COUNT",
+          "text": "CH10_AL1_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L3156C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "      "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -95375,7 +96030,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH10_AL2_READ_ADDR",
+          "text": "CH10_AL1_READ_ADDR",
           "href": "docs/rp2040_svd__dma___spec.html#L3158C7"
         },
         {
@@ -95428,7 +96083,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 10 WRITE_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 10 WRITE_ADDR register"
         }
       ]
     },
@@ -95443,46 +96098,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3161,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3162,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH10_AL2_WRITE_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L3162C7"
+          "text": "CH10_AL1_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3160C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -95519,6 +96142,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 3161,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 10 TRANS_COUNT register\\n This is a trigger"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3162,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  register (0xc). Writing a nonzero value will\\n reload the channel"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 3163,
       "children": [
         {
@@ -95529,7 +96184,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 10 CTRL register"
+          "text": "--  counter and start the channel."
         }
       ]
     },
@@ -95545,13 +96200,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH10_AL3_CTRL",
+          "text": "CH10_AL1_TRANS_COUNT_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L3164C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "             "
+          "text": " "
         },
         {
           "kind": "span",
@@ -95598,7 +96253,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 10 WRITE_ADDR register"
+          "text": "--  Alias for channel 10 CTRL register"
         }
       ]
     },
@@ -95614,13 +96269,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH10_AL3_WRITE_ADDR",
+          "text": "CH10_AL2_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L3166C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -95683,7 +96338,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH10_AL3_TRANS_COUNT",
+          "text": "CH10_AL2_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L3168C7"
         },
         {
@@ -95736,7 +96391,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 10 READ_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 10 READ_ADDR register"
         }
       ]
     },
@@ -95751,46 +96406,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3171,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3172,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH10_AL3_READ_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L3172C7"
+          "text": "CH10_AL2_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3170C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "        "
         },
         {
           "kind": "span",
@@ -95827,6 +96450,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 3171,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 10 WRITE_ADDR register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3172,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 3173,
       "children": [
         {
@@ -95837,7 +96492,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 11 Read Address pointer\\n This register updates"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -95852,8 +96507,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a read completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH10_AL2_WRITE_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L3174C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -95869,7 +96561,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be read by this channel."
+          "text": "--  Alias for channel 10 CTRL register"
         }
       ]
     },
@@ -95885,13 +96577,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH11_READ_ADDR",
+          "text": "CH10_AL3_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L3176C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "            "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -95938,7 +96630,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 11 Write Address pointer\\n This register updates"
+          "text": "--  Alias for channel 10 WRITE_ADDR register"
         }
       ]
     },
@@ -95953,8 +96645,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  automatically each time a write completes. The current value is the"
+          "cssClass": "identifier",
+          "text": "CH10_AL3_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3178C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -95970,7 +96699,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  next address to be written by this channel."
+          "text": "--  Alias for channel 10 TRANS_COUNT register"
         }
       ]
     },
@@ -95986,13 +96715,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH11_WRITE_ADDR",
+          "text": "CH10_AL3_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L3180C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "      "
         },
         {
           "kind": "span",
@@ -96039,7 +96768,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 11 Transfer Count\\n Program the number of bus transfers a"
+          "text": "--  Alias for channel 10 READ_ADDR register\\n This is a trigger register"
         }
       ]
     },
@@ -96055,7 +96784,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  channel will perform before halting. Note that, if transfers are"
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
         }
       ]
     },
@@ -96071,7 +96800,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  larger than one byte in size, this is not equal to the number of"
+          "text": "--  start the channel."
         }
       ]
     },
@@ -96086,190 +96815,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3185,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  active, reading this register shows the number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3186,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  remaining, updating automatically each time a write transfer"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3187,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3188,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3189,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  value is copied into the live transfer counter. The channel can be"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3190,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  started multiple times, and will perform the same number of transfers"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3191,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3192,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3193,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  the written value is used immediately as the length of the new"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3194,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  transfer sequence, as well as being written to RELOAD."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3195,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH11_TRANS_COUNT",
-          "href": "docs/rp2040_svd__dma___spec.html#L3195C7"
+          "text": "CH10_AL3_READ_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L3184C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "          "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -96306,7 +96859,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3196,
+      "number": 3185,
       "children": [
         {
           "kind": "span",
@@ -96316,13 +96869,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  DMA Channel 11 Control and Status"
+          "text": "--  DMA Channel 11 Read Address pointer\\n This register updates"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 3197,
+      "number": 3186,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a read completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3187,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be read by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3188,
       "children": [
         {
           "kind": "span",
@@ -96332,8 +96917,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH11_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L3197C7"
+          "text": "CH11_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3188C7"
         },
         {
           "kind": "span",
@@ -96363,13 +96948,194 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH11_CTRL_TRIG_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L1900C9"
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3189,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 11 Write Address pointer\\n This register updates"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3190,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  automatically each time a write completes. The current value is the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3191,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  next address to be written by this channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3192,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "CH11_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3192C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "           "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3193,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  DMA Channel 11 Transfer Count\\n Program the number of bus transfers a"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3194,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  channel will perform before halting. Note that, if transfers are"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3195,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  larger than one byte in size, this is not equal to the number of"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3196,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  bytes transferred (see CTRL_DATA_SIZE).\\n\\n When the channel is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3197,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  active, reading this register shows the number of transfers"
         }
       ]
     },
@@ -96385,7 +97151,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 11 CTRL register"
+          "text": "--  remaining, updating automatically each time a write transfer"
         }
       ]
     },
@@ -96400,45 +97166,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH11_AL1_CTRL",
-          "href": "docs/rp2040_svd__dma___spec.html#L3199C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "             "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  completes.\\n\\n Writing this register sets the RELOAD value for the"
         }
       ]
     },
@@ -96454,7 +97183,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 11 READ_ADDR register"
+          "text": "--  transfer counter. Each time this channel is triggered, the RELOAD"
         }
       ]
     },
@@ -96469,45 +97198,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH11_AL1_READ_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3201C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  value is copied into the live transfer counter. The channel can be"
         }
       ]
     },
@@ -96523,7 +97215,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 11 WRITE_ADDR register"
+          "text": "--  started multiple times, and will perform the same number of transfers"
         }
       ]
     },
@@ -96538,45 +97230,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "CH11_AL1_WRITE_ADDR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3203C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  each time, as programmed by most recent write.\\n\\n The RELOAD value"
         }
       ]
     },
@@ -96592,7 +97247,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 11 TRANS_COUNT register\\n This is a trigger"
+          "text": "--  can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger,"
         }
       ]
     },
@@ -96608,7 +97263,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  register (0xc). Writing a nonzero value will\\n reload the channel"
+          "text": "--  the written value is used immediately as the length of the new"
         }
       ]
     },
@@ -96624,7 +97279,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  counter and start the channel."
+          "text": "--  transfer sequence, as well as being written to RELOAD."
         }
       ]
     },
@@ -96640,13 +97295,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH11_AL1_TRANS_COUNT_TRIG",
+          "text": "CH11_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L3207C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "          "
         },
         {
           "kind": "span",
@@ -96693,7 +97348,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 11 CTRL register"
+          "text": "--  DMA Channel 11 Control and Status"
         }
       ]
     },
@@ -96709,13 +97364,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH11_AL2_CTRL",
+          "text": "CH11_CTRL_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L3209C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "             "
+          "text": "            "
         },
         {
           "kind": "span",
@@ -96740,8 +97395,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
+          "text": "CH11_CTRL_TRIG_Register",
+          "href": "docs/rp2040_svd__dma___spec.html#L1900C9"
         },
         {
           "kind": "span",
@@ -96762,7 +97417,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 11 TRANS_COUNT register"
+          "text": "--  Alias for channel 11 CTRL register"
         }
       ]
     },
@@ -96778,13 +97433,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH11_AL2_TRANS_COUNT",
+          "text": "CH11_AL1_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L3211C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "      "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -96847,7 +97502,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH11_AL2_READ_ADDR",
+          "text": "CH11_AL1_READ_ADDR",
           "href": "docs/rp2040_svd__dma___spec.html#L3213C7"
         },
         {
@@ -96900,7 +97555,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 11 WRITE_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 11 WRITE_ADDR register"
         }
       ]
     },
@@ -96915,46 +97570,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3216,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  start the channel."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3217,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "CH11_AL2_WRITE_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L3217C7"
+          "text": "CH11_AL1_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3215C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -96991,6 +97614,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 3216,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 11 TRANS_COUNT register\\n This is a trigger"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3217,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  register (0xc). Writing a nonzero value will\\n reload the channel"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 3218,
       "children": [
         {
@@ -97001,7 +97656,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 11 CTRL register"
+          "text": "--  counter and start the channel."
         }
       ]
     },
@@ -97017,13 +97672,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH11_AL3_CTRL",
+          "text": "CH11_AL1_TRANS_COUNT_TRIG",
           "href": "docs/rp2040_svd__dma___spec.html#L3219C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "             "
+          "text": " "
         },
         {
           "kind": "span",
@@ -97070,7 +97725,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 11 WRITE_ADDR register"
+          "text": "--  Alias for channel 11 CTRL register"
         }
       ]
     },
@@ -97086,13 +97741,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH11_AL3_WRITE_ADDR",
+          "text": "CH11_AL2_CTRL",
           "href": "docs/rp2040_svd__dma___spec.html#L3221C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "             "
         },
         {
           "kind": "span",
@@ -97155,7 +97810,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "CH11_AL3_TRANS_COUNT",
+          "text": "CH11_AL2_TRANS_COUNT",
           "href": "docs/rp2040_svd__dma___spec.html#L3223C7"
         },
         {
@@ -97208,7 +97863,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Alias for channel 11 READ_ADDR register\\n This is a trigger register"
+          "text": "--  Alias for channel 11 READ_ADDR register"
         }
       ]
     },
@@ -97223,8 +97878,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+          "cssClass": "identifier",
+          "text": "CH11_AL2_READ_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3225C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -97240,7 +97932,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  start the channel."
+          "text": "--  Alias for channel 11 WRITE_ADDR register\\n This is a trigger register"
         }
       ]
     },
@@ -97255,9 +97947,349 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3228,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  start the channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3229,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "CH11_AL2_WRITE_ADDR_TRIG",
+          "href": "docs/rp2040_svd__dma___spec.html#L3229C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3230,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 11 CTRL register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3231,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "CH11_AL3_CTRL",
+          "href": "docs/rp2040_svd__dma___spec.html#L3231C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "             "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3232,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 11 WRITE_ADDR register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3233,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "CH11_AL3_WRITE_ADDR",
+          "href": "docs/rp2040_svd__dma___spec.html#L3233C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3234,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 11 TRANS_COUNT register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3235,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "CH11_AL3_TRANS_COUNT",
+          "href": "docs/rp2040_svd__dma___spec.html#L3235C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3236,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Alias for channel 11 READ_ADDR register\\n This is a trigger register"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3237,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  (0xc). Writing a nonzero value will\\n reload the channel counter and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3238,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  start the channel."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3239,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "CH11_AL3_READ_ADDR_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L3227C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3239C7"
         },
         {
           "kind": "span",
@@ -97299,7 +98331,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3228,
+      "number": 3240,
       "children": [
         {
           "kind": "span",
@@ -97315,7 +98347,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3229,
+      "number": 3241,
       "children": [
         {
           "kind": "span",
@@ -97326,7 +98358,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3229C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3241C7"
         },
         {
           "kind": "span",
@@ -97368,7 +98400,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3230,
+      "number": 3242,
       "children": [
         {
           "kind": "span",
@@ -97384,7 +98416,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3231,
+      "number": 3243,
       "children": [
         {
           "kind": "span",
@@ -97395,7 +98427,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTE0",
-          "href": "docs/rp2040_svd__dma___spec.html#L3231C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3243C7"
         },
         {
           "kind": "span",
@@ -97437,7 +98469,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3232,
+      "number": 3244,
       "children": [
         {
           "kind": "span",
@@ -97453,7 +98485,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3233,
+      "number": 3245,
       "children": [
         {
           "kind": "span",
@@ -97464,7 +98496,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTF0",
-          "href": "docs/rp2040_svd__dma___spec.html#L3233C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3245C7"
         },
         {
           "kind": "span",
@@ -97506,7 +98538,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3234,
+      "number": 3246,
       "children": [
         {
           "kind": "span",
@@ -97522,7 +98554,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3235,
+      "number": 3247,
       "children": [
         {
           "kind": "span",
@@ -97533,7 +98565,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTS0",
-          "href": "docs/rp2040_svd__dma___spec.html#L3235C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3247C7"
         },
         {
           "kind": "span",
@@ -97575,7 +98607,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3236,
+      "number": 3248,
       "children": [
         {
           "kind": "span",
@@ -97591,7 +98623,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3237,
+      "number": 3249,
       "children": [
         {
           "kind": "span",
@@ -97602,7 +98634,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTE1",
-          "href": "docs/rp2040_svd__dma___spec.html#L3237C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3249C7"
         },
         {
           "kind": "span",
@@ -97644,7 +98676,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3238,
+      "number": 3250,
       "children": [
         {
           "kind": "span",
@@ -97660,7 +98692,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3239,
+      "number": 3251,
       "children": [
         {
           "kind": "span",
@@ -97671,7 +98703,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTF1",
-          "href": "docs/rp2040_svd__dma___spec.html#L3239C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3251C7"
         },
         {
           "kind": "span",
@@ -97713,7 +98745,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3240,
+      "number": 3252,
       "children": [
         {
           "kind": "span",
@@ -97729,7 +98761,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3241,
+      "number": 3253,
       "children": [
         {
           "kind": "span",
@@ -97740,7 +98772,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTS1",
-          "href": "docs/rp2040_svd__dma___spec.html#L3241C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3253C7"
         },
         {
           "kind": "span",
@@ -97782,272 +98814,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3242,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Pacing (X/Y) Fractional Timer\\n The pacing timer produces TREQ"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3243,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  assertions at a rate set by ((X/Y) * sys_clk). This equation is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3244,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  evaluated every sys_clk cycles and therefore can only generate TREQs"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3245,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  at a rate of 1 per sys_clk (i.e. permanent TREQ) or less."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3246,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "TIMER0",
-          "href": "docs/rp2040_svd__dma___spec.html#L3246C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "                    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "TIMER_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2156C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3247,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Pacing (X/Y) Fractional Timer\\n The pacing timer produces TREQ"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3248,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  assertions at a rate set by ((X/Y) * sys_clk). This equation is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3249,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  evaluated every sys_clk cycles and therefore can only generate TREQs"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3250,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  at a rate of 1 per sys_clk (i.e. permanent TREQ) or less."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3251,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "TIMER1",
-          "href": "docs/rp2040_svd__dma___spec.html#L3251C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "                    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "TIMER_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2156C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3252,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Pacing (X/Y) Fractional Timer\\n The pacing timer produces TREQ"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3253,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  assertions at a rate set by ((X/Y) * sys_clk). This equation is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 3254,
       "children": [
         {
@@ -98058,7 +98824,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  evaluated every sys_clk cycles and therefore can only generate TREQs"
+          "text": "--  Pacing (X/Y) Fractional Timer\\n The pacing timer produces TREQ"
         }
       ]
     },
@@ -98074,98 +98840,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  at a rate of 1 per sys_clk (i.e. permanent TREQ) or less."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3256,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "TIMER2",
-          "href": "docs/rp2040_svd__dma___spec.html#L3256C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "                    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "TIMER_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2156C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3257,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Pacing (X/Y) Fractional Timer\\n The pacing timer produces TREQ"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 3258,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--  assertions at a rate set by ((X/Y) * sys_clk). This equation is"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 3259,
+      "number": 3256,
       "children": [
         {
           "kind": "span",
@@ -98181,7 +98862,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3260,
+      "number": 3257,
       "children": [
         {
           "kind": "span",
@@ -98197,7 +98878,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3261,
+      "number": 3258,
       "children": [
         {
           "kind": "span",
@@ -98207,8 +98888,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "TIMER3",
-          "href": "docs/rp2040_svd__dma___spec.html#L3261C7"
+          "text": "TIMER0",
+          "href": "docs/rp2040_svd__dma___spec.html#L3258C7"
         },
         {
           "kind": "span",
@@ -98250,6 +98931,54 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 3259,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Pacing (X/Y) Fractional Timer\\n The pacing timer produces TREQ"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3260,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  assertions at a rate set by ((X/Y) * sys_clk). This equation is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3261,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  evaluated every sys_clk cycles and therefore can only generate TREQs"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 3262,
       "children": [
         {
@@ -98260,7 +98989,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Trigger one or more channels simultaneously"
+          "text": "--  at a rate of 1 per sys_clk (i.e. permanent TREQ) or less."
         }
       ]
     },
@@ -98276,8 +99005,311 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "MULTI_CHAN_TRIGGER",
+          "text": "TIMER1",
           "href": "docs/rp2040_svd__dma___spec.html#L3263C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "TIMER_Register",
+          "href": "docs/rp2040_svd__dma___spec.html#L2156C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3264,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Pacing (X/Y) Fractional Timer\\n The pacing timer produces TREQ"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3265,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  assertions at a rate set by ((X/Y) * sys_clk). This equation is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3266,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  evaluated every sys_clk cycles and therefore can only generate TREQs"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3267,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  at a rate of 1 per sys_clk (i.e. permanent TREQ) or less."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3268,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "TIMER2",
+          "href": "docs/rp2040_svd__dma___spec.html#L3268C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "TIMER_Register",
+          "href": "docs/rp2040_svd__dma___spec.html#L2156C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3269,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Pacing (X/Y) Fractional Timer\\n The pacing timer produces TREQ"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3270,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  assertions at a rate set by ((X/Y) * sys_clk). This equation is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3271,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  evaluated every sys_clk cycles and therefore can only generate TREQs"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3272,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  at a rate of 1 per sys_clk (i.e. permanent TREQ) or less."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3273,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "TIMER3",
+          "href": "docs/rp2040_svd__dma___spec.html#L3273C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "TIMER_Register",
+          "href": "docs/rp2040_svd__dma___spec.html#L2156C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3274,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Trigger one or more channels simultaneously"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3275,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "MULTI_CHAN_TRIGGER",
+          "href": "docs/rp2040_svd__dma___spec.html#L3275C7"
         },
         {
           "kind": "span",
@@ -98319,7 +99351,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3264,
+      "number": 3276,
       "children": [
         {
           "kind": "span",
@@ -98335,7 +99367,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3265,
+      "number": 3277,
       "children": [
         {
           "kind": "span",
@@ -98346,7 +99378,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SNIFF_CTRL",
-          "href": "docs/rp2040_svd__dma___spec.html#L3265C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3277C7"
         },
         {
           "kind": "span",
@@ -98388,7 +99420,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3266,
+      "number": 3278,
       "children": [
         {
           "kind": "span",
@@ -98404,7 +99436,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3267,
+      "number": 3279,
       "children": [
         {
           "kind": "span",
@@ -98420,7 +99452,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3268,
+      "number": 3280,
       "children": [
         {
           "kind": "span",
@@ -98436,7 +99468,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3269,
+      "number": 3281,
       "children": [
         {
           "kind": "span",
@@ -98452,7 +99484,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3270,
+      "number": 3282,
       "children": [
         {
           "kind": "span",
@@ -98468,7 +99500,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3271,
+      "number": 3283,
       "children": [
         {
           "kind": "span",
@@ -98479,7 +99511,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SNIFF_DATA",
-          "href": "docs/rp2040_svd__dma___spec.html#L3271C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3283C7"
         },
         {
           "kind": "span",
@@ -98521,7 +99553,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3272,
+      "number": 3284,
       "children": [
         {
           "kind": "span",
@@ -98537,7 +99569,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3273,
+      "number": 3285,
       "children": [
         {
           "kind": "span",
@@ -98548,7 +99580,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "FIFO_LEVELS",
-          "href": "docs/rp2040_svd__dma___spec.html#L3273C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3285C7"
         },
         {
           "kind": "span",
@@ -98590,7 +99622,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3274,
+      "number": 3286,
       "children": [
         {
           "kind": "span",
@@ -98606,7 +99638,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3275,
+      "number": 3287,
       "children": [
         {
           "kind": "span",
@@ -98617,7 +99649,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CHAN_ABORT",
-          "href": "docs/rp2040_svd__dma___spec.html#L3275C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3287C7"
         },
         {
           "kind": "span",
@@ -98659,7 +99691,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3276,
+      "number": 3288,
       "children": [
         {
           "kind": "span",
@@ -98675,7 +99707,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3277,
+      "number": 3289,
       "children": [
         {
           "kind": "span",
@@ -98691,7 +99723,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3278,
+      "number": 3290,
       "children": [
         {
           "kind": "span",
@@ -98707,7 +99739,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3279,
+      "number": 3291,
       "children": [
         {
           "kind": "span",
@@ -98718,7 +99750,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "N_CHANNELS",
-          "href": "docs/rp2040_svd__dma___spec.html#L3279C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3291C7"
         },
         {
           "kind": "span",
@@ -98760,7 +99792,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3280,
+      "number": 3292,
       "children": [
         {
           "kind": "span",
@@ -98776,7 +99808,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3281,
+      "number": 3293,
       "children": [
         {
           "kind": "span",
@@ -98792,7 +99824,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3282,
+      "number": 3294,
       "children": [
         {
           "kind": "span",
@@ -98808,7 +99840,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3283,
+      "number": 3295,
       "children": [
         {
           "kind": "span",
@@ -98824,7 +99856,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3284,
+      "number": 3296,
       "children": [
         {
           "kind": "span",
@@ -98835,7 +99867,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH0_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3284C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3296C7"
         },
         {
           "kind": "span",
@@ -98877,7 +99909,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3285,
+      "number": 3297,
       "children": [
         {
           "kind": "span",
@@ -98893,7 +99925,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3286,
+      "number": 3298,
       "children": [
         {
           "kind": "span",
@@ -98909,7 +99941,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3287,
+      "number": 3299,
       "children": [
         {
           "kind": "span",
@@ -98920,7 +99952,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH0_DBG_TCR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3287C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3299C7"
         },
         {
           "kind": "span",
@@ -98962,7 +99994,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3288,
+      "number": 3300,
       "children": [
         {
           "kind": "span",
@@ -98978,7 +100010,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3289,
+      "number": 3301,
       "children": [
         {
           "kind": "span",
@@ -98994,7 +100026,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3290,
+      "number": 3302,
       "children": [
         {
           "kind": "span",
@@ -99010,7 +100042,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3291,
+      "number": 3303,
       "children": [
         {
           "kind": "span",
@@ -99026,7 +100058,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3292,
+      "number": 3304,
       "children": [
         {
           "kind": "span",
@@ -99037,7 +100069,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH1_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3292C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3304C7"
         },
         {
           "kind": "span",
@@ -99068,7 +100100,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH1_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2348C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2349C9"
         },
         {
           "kind": "span",
@@ -99079,7 +100111,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3293,
+      "number": 3305,
       "children": [
         {
           "kind": "span",
@@ -99095,7 +100127,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3294,
+      "number": 3306,
       "children": [
         {
           "kind": "span",
@@ -99111,7 +100143,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3295,
+      "number": 3307,
       "children": [
         {
           "kind": "span",
@@ -99122,7 +100154,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH1_DBG_TCR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3295C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3307C7"
         },
         {
           "kind": "span",
@@ -99164,7 +100196,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3296,
+      "number": 3308,
       "children": [
         {
           "kind": "span",
@@ -99180,7 +100212,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3297,
+      "number": 3309,
       "children": [
         {
           "kind": "span",
@@ -99196,7 +100228,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3298,
+      "number": 3310,
       "children": [
         {
           "kind": "span",
@@ -99212,7 +100244,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3299,
+      "number": 3311,
       "children": [
         {
           "kind": "span",
@@ -99228,7 +100260,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3300,
+      "number": 3312,
       "children": [
         {
           "kind": "span",
@@ -99239,7 +100271,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH2_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3300C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3312C7"
         },
         {
           "kind": "span",
@@ -99270,7 +100302,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH2_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2368C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2370C9"
         },
         {
           "kind": "span",
@@ -99281,7 +100313,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3301,
+      "number": 3313,
       "children": [
         {
           "kind": "span",
@@ -99297,7 +100329,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3302,
+      "number": 3314,
       "children": [
         {
           "kind": "span",
@@ -99313,7 +100345,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3303,
+      "number": 3315,
       "children": [
         {
           "kind": "span",
@@ -99324,7 +100356,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH2_DBG_TCR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3303C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3315C7"
         },
         {
           "kind": "span",
@@ -99366,7 +100398,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3304,
+      "number": 3316,
       "children": [
         {
           "kind": "span",
@@ -99382,7 +100414,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3305,
+      "number": 3317,
       "children": [
         {
           "kind": "span",
@@ -99398,7 +100430,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3306,
+      "number": 3318,
       "children": [
         {
           "kind": "span",
@@ -99414,7 +100446,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3307,
+      "number": 3319,
       "children": [
         {
           "kind": "span",
@@ -99430,7 +100462,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3308,
+      "number": 3320,
       "children": [
         {
           "kind": "span",
@@ -99441,7 +100473,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH3_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3308C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3320C7"
         },
         {
           "kind": "span",
@@ -99472,7 +100504,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH3_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2388C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2391C9"
         },
         {
           "kind": "span",
@@ -99483,7 +100515,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3309,
+      "number": 3321,
       "children": [
         {
           "kind": "span",
@@ -99499,7 +100531,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3310,
+      "number": 3322,
       "children": [
         {
           "kind": "span",
@@ -99515,7 +100547,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3311,
+      "number": 3323,
       "children": [
         {
           "kind": "span",
@@ -99526,7 +100558,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH3_DBG_TCR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3311C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3323C7"
         },
         {
           "kind": "span",
@@ -99568,7 +100600,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3312,
+      "number": 3324,
       "children": [
         {
           "kind": "span",
@@ -99584,7 +100616,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3313,
+      "number": 3325,
       "children": [
         {
           "kind": "span",
@@ -99600,7 +100632,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3314,
+      "number": 3326,
       "children": [
         {
           "kind": "span",
@@ -99616,7 +100648,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3315,
+      "number": 3327,
       "children": [
         {
           "kind": "span",
@@ -99632,7 +100664,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3316,
+      "number": 3328,
       "children": [
         {
           "kind": "span",
@@ -99643,7 +100675,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH4_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3316C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3328C7"
         },
         {
           "kind": "span",
@@ -99674,7 +100706,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH4_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2408C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2412C9"
         },
         {
           "kind": "span",
@@ -99685,7 +100717,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3317,
+      "number": 3329,
       "children": [
         {
           "kind": "span",
@@ -99701,7 +100733,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3318,
+      "number": 3330,
       "children": [
         {
           "kind": "span",
@@ -99717,7 +100749,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3319,
+      "number": 3331,
       "children": [
         {
           "kind": "span",
@@ -99728,7 +100760,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH4_DBG_TCR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3319C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3331C7"
         },
         {
           "kind": "span",
@@ -99770,7 +100802,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3320,
+      "number": 3332,
       "children": [
         {
           "kind": "span",
@@ -99786,7 +100818,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3321,
+      "number": 3333,
       "children": [
         {
           "kind": "span",
@@ -99802,7 +100834,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3322,
+      "number": 3334,
       "children": [
         {
           "kind": "span",
@@ -99818,7 +100850,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3323,
+      "number": 3335,
       "children": [
         {
           "kind": "span",
@@ -99834,7 +100866,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3324,
+      "number": 3336,
       "children": [
         {
           "kind": "span",
@@ -99845,7 +100877,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH5_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3324C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3336C7"
         },
         {
           "kind": "span",
@@ -99876,7 +100908,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH5_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2428C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2433C9"
         },
         {
           "kind": "span",
@@ -99887,7 +100919,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3325,
+      "number": 3337,
       "children": [
         {
           "kind": "span",
@@ -99903,7 +100935,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3326,
+      "number": 3338,
       "children": [
         {
           "kind": "span",
@@ -99919,7 +100951,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3327,
+      "number": 3339,
       "children": [
         {
           "kind": "span",
@@ -99930,7 +100962,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH5_DBG_TCR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3327C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3339C7"
         },
         {
           "kind": "span",
@@ -99972,7 +101004,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3328,
+      "number": 3340,
       "children": [
         {
           "kind": "span",
@@ -99988,7 +101020,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3329,
+      "number": 3341,
       "children": [
         {
           "kind": "span",
@@ -100004,7 +101036,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3330,
+      "number": 3342,
       "children": [
         {
           "kind": "span",
@@ -100020,7 +101052,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3331,
+      "number": 3343,
       "children": [
         {
           "kind": "span",
@@ -100036,7 +101068,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3332,
+      "number": 3344,
       "children": [
         {
           "kind": "span",
@@ -100047,7 +101079,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH6_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3332C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3344C7"
         },
         {
           "kind": "span",
@@ -100078,7 +101110,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH6_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2448C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2454C9"
         },
         {
           "kind": "span",
@@ -100089,7 +101121,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3333,
+      "number": 3345,
       "children": [
         {
           "kind": "span",
@@ -100105,7 +101137,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3334,
+      "number": 3346,
       "children": [
         {
           "kind": "span",
@@ -100121,7 +101153,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3335,
+      "number": 3347,
       "children": [
         {
           "kind": "span",
@@ -100132,7 +101164,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH6_DBG_TCR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3335C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3347C7"
         },
         {
           "kind": "span",
@@ -100174,7 +101206,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3336,
+      "number": 3348,
       "children": [
         {
           "kind": "span",
@@ -100190,7 +101222,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3337,
+      "number": 3349,
       "children": [
         {
           "kind": "span",
@@ -100206,7 +101238,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3338,
+      "number": 3350,
       "children": [
         {
           "kind": "span",
@@ -100222,7 +101254,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3339,
+      "number": 3351,
       "children": [
         {
           "kind": "span",
@@ -100238,7 +101270,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3340,
+      "number": 3352,
       "children": [
         {
           "kind": "span",
@@ -100249,7 +101281,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH7_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3340C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3352C7"
         },
         {
           "kind": "span",
@@ -100280,7 +101312,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH7_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2468C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2475C9"
         },
         {
           "kind": "span",
@@ -100291,7 +101323,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3341,
+      "number": 3353,
       "children": [
         {
           "kind": "span",
@@ -100307,7 +101339,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3342,
+      "number": 3354,
       "children": [
         {
           "kind": "span",
@@ -100323,7 +101355,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3343,
+      "number": 3355,
       "children": [
         {
           "kind": "span",
@@ -100334,7 +101366,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH7_DBG_TCR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3343C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3355C7"
         },
         {
           "kind": "span",
@@ -100376,7 +101408,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3344,
+      "number": 3356,
       "children": [
         {
           "kind": "span",
@@ -100392,7 +101424,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3345,
+      "number": 3357,
       "children": [
         {
           "kind": "span",
@@ -100408,7 +101440,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3346,
+      "number": 3358,
       "children": [
         {
           "kind": "span",
@@ -100424,7 +101456,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3347,
+      "number": 3359,
       "children": [
         {
           "kind": "span",
@@ -100440,7 +101472,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3348,
+      "number": 3360,
       "children": [
         {
           "kind": "span",
@@ -100451,7 +101483,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH8_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3348C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3360C7"
         },
         {
           "kind": "span",
@@ -100482,7 +101514,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH8_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2488C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2496C9"
         },
         {
           "kind": "span",
@@ -100493,7 +101525,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3349,
+      "number": 3361,
       "children": [
         {
           "kind": "span",
@@ -100509,7 +101541,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3350,
+      "number": 3362,
       "children": [
         {
           "kind": "span",
@@ -100525,7 +101557,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3351,
+      "number": 3363,
       "children": [
         {
           "kind": "span",
@@ -100536,7 +101568,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH8_DBG_TCR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3351C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3363C7"
         },
         {
           "kind": "span",
@@ -100578,7 +101610,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3352,
+      "number": 3364,
       "children": [
         {
           "kind": "span",
@@ -100594,7 +101626,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3353,
+      "number": 3365,
       "children": [
         {
           "kind": "span",
@@ -100610,7 +101642,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3354,
+      "number": 3366,
       "children": [
         {
           "kind": "span",
@@ -100626,7 +101658,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3355,
+      "number": 3367,
       "children": [
         {
           "kind": "span",
@@ -100642,7 +101674,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3356,
+      "number": 3368,
       "children": [
         {
           "kind": "span",
@@ -100653,7 +101685,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH9_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3356C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3368C7"
         },
         {
           "kind": "span",
@@ -100684,7 +101716,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH9_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2508C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2517C9"
         },
         {
           "kind": "span",
@@ -100695,7 +101727,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3357,
+      "number": 3369,
       "children": [
         {
           "kind": "span",
@@ -100711,7 +101743,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3358,
+      "number": 3370,
       "children": [
         {
           "kind": "span",
@@ -100727,7 +101759,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3359,
+      "number": 3371,
       "children": [
         {
           "kind": "span",
@@ -100738,7 +101770,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH9_DBG_TCR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3359C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3371C7"
         },
         {
           "kind": "span",
@@ -100780,7 +101812,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3360,
+      "number": 3372,
       "children": [
         {
           "kind": "span",
@@ -100796,7 +101828,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3361,
+      "number": 3373,
       "children": [
         {
           "kind": "span",
@@ -100812,7 +101844,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3362,
+      "number": 3374,
       "children": [
         {
           "kind": "span",
@@ -100828,7 +101860,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3363,
+      "number": 3375,
       "children": [
         {
           "kind": "span",
@@ -100844,7 +101876,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3364,
+      "number": 3376,
       "children": [
         {
           "kind": "span",
@@ -100855,7 +101887,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH10_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3364C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3376C7"
         },
         {
           "kind": "span",
@@ -100886,7 +101918,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH10_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2528C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2538C9"
         },
         {
           "kind": "span",
@@ -100897,7 +101929,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3365,
+      "number": 3377,
       "children": [
         {
           "kind": "span",
@@ -100913,7 +101945,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3366,
+      "number": 3378,
       "children": [
         {
           "kind": "span",
@@ -100929,7 +101961,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3367,
+      "number": 3379,
       "children": [
         {
           "kind": "span",
@@ -100940,7 +101972,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH10_DBG_TCR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3367C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3379C7"
         },
         {
           "kind": "span",
@@ -100982,7 +102014,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3368,
+      "number": 3380,
       "children": [
         {
           "kind": "span",
@@ -100998,7 +102030,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3369,
+      "number": 3381,
       "children": [
         {
           "kind": "span",
@@ -101014,7 +102046,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3370,
+      "number": 3382,
       "children": [
         {
           "kind": "span",
@@ -101030,7 +102062,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3371,
+      "number": 3383,
       "children": [
         {
           "kind": "span",
@@ -101046,7 +102078,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3372,
+      "number": 3384,
       "children": [
         {
           "kind": "span",
@@ -101057,7 +102089,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH11_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3372C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3384C7"
         },
         {
           "kind": "span",
@@ -101088,7 +102120,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH11_DBG_CTDREQ_Register",
-          "href": "docs/rp2040_svd__dma___spec.html#L2548C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2559C9"
         },
         {
           "kind": "span",
@@ -101099,7 +102131,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3373,
+      "number": 3385,
       "children": [
         {
           "kind": "span",
@@ -101115,7 +102147,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3374,
+      "number": 3386,
       "children": [
         {
           "kind": "span",
@@ -101131,7 +102163,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3375,
+      "number": 3387,
       "children": [
         {
           "kind": "span",
@@ -101142,7 +102174,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH11_DBG_TCR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3375C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3387C7"
         },
         {
           "kind": "span",
@@ -101184,7 +102216,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3376,
+      "number": 3388,
       "children": [
         {
           "kind": "span",
@@ -101210,7 +102242,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3377,
+      "number": 3389,
       "children": [
         {
           "kind": "span",
@@ -101236,13 +102268,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3378,
+      "number": 3390,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 3379,
+      "number": 3391,
       "children": [
         {
           "kind": "span",
@@ -101263,7 +102295,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA_Peripheral",
-          "href": "docs/rp2040_svd__dma___spec.html#L2567C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2579C9"
         },
         {
           "kind": "span",
@@ -101289,7 +102321,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3380,
+      "number": 3392,
       "children": [
         {
           "kind": "span",
@@ -101385,7 +102417,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3381,
+      "number": 3393,
       "children": [
         {
           "kind": "span",
@@ -101481,7 +102513,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3382,
+      "number": 3394,
       "children": [
         {
           "kind": "span",
@@ -101577,7 +102609,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3383,
+      "number": 3395,
       "children": [
         {
           "kind": "span",
@@ -101588,7 +102620,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH0_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2592C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2604C7"
         },
         {
           "kind": "span",
@@ -101674,7 +102706,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3384,
+      "number": 3396,
       "children": [
         {
           "kind": "span",
@@ -101770,7 +102802,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3385,
+      "number": 3397,
       "children": [
         {
           "kind": "span",
@@ -101866,7 +102898,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3386,
+      "number": 3398,
       "children": [
         {
           "kind": "span",
@@ -101962,7 +102994,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3387,
+      "number": 3399,
       "children": [
         {
           "kind": "span",
@@ -102058,7 +103090,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3388,
+      "number": 3400,
       "children": [
         {
           "kind": "span",
@@ -102154,7 +103186,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3389,
+      "number": 3401,
       "children": [
         {
           "kind": "span",
@@ -102250,7 +103282,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3390,
+      "number": 3402,
       "children": [
         {
           "kind": "span",
@@ -102346,7 +103378,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3391,
+      "number": 3403,
       "children": [
         {
           "kind": "span",
@@ -102442,7 +103474,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3392,
+      "number": 3404,
       "children": [
         {
           "kind": "span",
@@ -102538,7 +103570,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3393,
+      "number": 3405,
       "children": [
         {
           "kind": "span",
@@ -102634,7 +103666,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3394,
+      "number": 3406,
       "children": [
         {
           "kind": "span",
@@ -102730,7 +103762,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3395,
+      "number": 3407,
       "children": [
         {
           "kind": "span",
@@ -102826,7 +103858,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3396,
+      "number": 3408,
       "children": [
         {
           "kind": "span",
@@ -102922,7 +103954,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3397,
+      "number": 3409,
       "children": [
         {
           "kind": "span",
@@ -103018,7 +104050,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3398,
+      "number": 3410,
       "children": [
         {
           "kind": "span",
@@ -103114,7 +104146,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3399,
+      "number": 3411,
       "children": [
         {
           "kind": "span",
@@ -103125,7 +104157,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH1_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2647C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2659C7"
         },
         {
           "kind": "span",
@@ -103211,7 +104243,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3400,
+      "number": 3412,
       "children": [
         {
           "kind": "span",
@@ -103307,7 +104339,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3401,
+      "number": 3413,
       "children": [
         {
           "kind": "span",
@@ -103403,7 +104435,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3402,
+      "number": 3414,
       "children": [
         {
           "kind": "span",
@@ -103499,7 +104531,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3403,
+      "number": 3415,
       "children": [
         {
           "kind": "span",
@@ -103595,7 +104627,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3404,
+      "number": 3416,
       "children": [
         {
           "kind": "span",
@@ -103691,7 +104723,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3405,
+      "number": 3417,
       "children": [
         {
           "kind": "span",
@@ -103787,7 +104819,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3406,
+      "number": 3418,
       "children": [
         {
           "kind": "span",
@@ -103883,7 +104915,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3407,
+      "number": 3419,
       "children": [
         {
           "kind": "span",
@@ -103979,7 +105011,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3408,
+      "number": 3420,
       "children": [
         {
           "kind": "span",
@@ -104075,7 +105107,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3409,
+      "number": 3421,
       "children": [
         {
           "kind": "span",
@@ -104171,7 +105203,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3410,
+      "number": 3422,
       "children": [
         {
           "kind": "span",
@@ -104267,7 +105299,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3411,
+      "number": 3423,
       "children": [
         {
           "kind": "span",
@@ -104363,7 +105395,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3412,
+      "number": 3424,
       "children": [
         {
           "kind": "span",
@@ -104459,7 +105491,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3413,
+      "number": 3425,
       "children": [
         {
           "kind": "span",
@@ -104555,7 +105587,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3414,
+      "number": 3426,
       "children": [
         {
           "kind": "span",
@@ -104651,7 +105683,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3415,
+      "number": 3427,
       "children": [
         {
           "kind": "span",
@@ -104662,7 +105694,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH2_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2702C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2714C7"
         },
         {
           "kind": "span",
@@ -104748,7 +105780,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3416,
+      "number": 3428,
       "children": [
         {
           "kind": "span",
@@ -104844,7 +105876,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3417,
+      "number": 3429,
       "children": [
         {
           "kind": "span",
@@ -104940,7 +105972,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3418,
+      "number": 3430,
       "children": [
         {
           "kind": "span",
@@ -105036,7 +106068,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3419,
+      "number": 3431,
       "children": [
         {
           "kind": "span",
@@ -105132,7 +106164,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3420,
+      "number": 3432,
       "children": [
         {
           "kind": "span",
@@ -105228,7 +106260,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3421,
+      "number": 3433,
       "children": [
         {
           "kind": "span",
@@ -105324,7 +106356,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3422,
+      "number": 3434,
       "children": [
         {
           "kind": "span",
@@ -105420,7 +106452,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3423,
+      "number": 3435,
       "children": [
         {
           "kind": "span",
@@ -105516,7 +106548,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3424,
+      "number": 3436,
       "children": [
         {
           "kind": "span",
@@ -105612,7 +106644,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3425,
+      "number": 3437,
       "children": [
         {
           "kind": "span",
@@ -105708,7 +106740,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3426,
+      "number": 3438,
       "children": [
         {
           "kind": "span",
@@ -105804,7 +106836,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3427,
+      "number": 3439,
       "children": [
         {
           "kind": "span",
@@ -105900,7 +106932,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3428,
+      "number": 3440,
       "children": [
         {
           "kind": "span",
@@ -105996,7 +107028,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3429,
+      "number": 3441,
       "children": [
         {
           "kind": "span",
@@ -106092,7 +107124,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3430,
+      "number": 3442,
       "children": [
         {
           "kind": "span",
@@ -106188,7 +107220,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3431,
+      "number": 3443,
       "children": [
         {
           "kind": "span",
@@ -106199,7 +107231,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH3_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2757C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2769C7"
         },
         {
           "kind": "span",
@@ -106285,7 +107317,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3432,
+      "number": 3444,
       "children": [
         {
           "kind": "span",
@@ -106381,7 +107413,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3433,
+      "number": 3445,
       "children": [
         {
           "kind": "span",
@@ -106477,7 +107509,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3434,
+      "number": 3446,
       "children": [
         {
           "kind": "span",
@@ -106573,7 +107605,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3435,
+      "number": 3447,
       "children": [
         {
           "kind": "span",
@@ -106669,7 +107701,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3436,
+      "number": 3448,
       "children": [
         {
           "kind": "span",
@@ -106765,7 +107797,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3437,
+      "number": 3449,
       "children": [
         {
           "kind": "span",
@@ -106861,7 +107893,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3438,
+      "number": 3450,
       "children": [
         {
           "kind": "span",
@@ -106957,7 +107989,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3439,
+      "number": 3451,
       "children": [
         {
           "kind": "span",
@@ -107053,7 +108085,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3440,
+      "number": 3452,
       "children": [
         {
           "kind": "span",
@@ -107149,7 +108181,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3441,
+      "number": 3453,
       "children": [
         {
           "kind": "span",
@@ -107245,7 +108277,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3442,
+      "number": 3454,
       "children": [
         {
           "kind": "span",
@@ -107341,7 +108373,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3443,
+      "number": 3455,
       "children": [
         {
           "kind": "span",
@@ -107437,7 +108469,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3444,
+      "number": 3456,
       "children": [
         {
           "kind": "span",
@@ -107533,7 +108565,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3445,
+      "number": 3457,
       "children": [
         {
           "kind": "span",
@@ -107629,7 +108661,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3446,
+      "number": 3458,
       "children": [
         {
           "kind": "span",
@@ -107725,7 +108757,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3447,
+      "number": 3459,
       "children": [
         {
           "kind": "span",
@@ -107736,7 +108768,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH4_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2812C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2824C7"
         },
         {
           "kind": "span",
@@ -107822,7 +108854,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3448,
+      "number": 3460,
       "children": [
         {
           "kind": "span",
@@ -107918,7 +108950,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3449,
+      "number": 3461,
       "children": [
         {
           "kind": "span",
@@ -108014,7 +109046,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3450,
+      "number": 3462,
       "children": [
         {
           "kind": "span",
@@ -108110,7 +109142,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3451,
+      "number": 3463,
       "children": [
         {
           "kind": "span",
@@ -108206,7 +109238,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3452,
+      "number": 3464,
       "children": [
         {
           "kind": "span",
@@ -108302,7 +109334,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3453,
+      "number": 3465,
       "children": [
         {
           "kind": "span",
@@ -108398,7 +109430,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3454,
+      "number": 3466,
       "children": [
         {
           "kind": "span",
@@ -108494,7 +109526,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3455,
+      "number": 3467,
       "children": [
         {
           "kind": "span",
@@ -108590,7 +109622,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3456,
+      "number": 3468,
       "children": [
         {
           "kind": "span",
@@ -108686,7 +109718,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3457,
+      "number": 3469,
       "children": [
         {
           "kind": "span",
@@ -108782,7 +109814,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3458,
+      "number": 3470,
       "children": [
         {
           "kind": "span",
@@ -108878,7 +109910,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3459,
+      "number": 3471,
       "children": [
         {
           "kind": "span",
@@ -108974,7 +110006,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3460,
+      "number": 3472,
       "children": [
         {
           "kind": "span",
@@ -109070,7 +110102,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3461,
+      "number": 3473,
       "children": [
         {
           "kind": "span",
@@ -109166,7 +110198,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3462,
+      "number": 3474,
       "children": [
         {
           "kind": "span",
@@ -109262,7 +110294,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3463,
+      "number": 3475,
       "children": [
         {
           "kind": "span",
@@ -109273,7 +110305,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH5_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2867C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2879C7"
         },
         {
           "kind": "span",
@@ -109359,7 +110391,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3464,
+      "number": 3476,
       "children": [
         {
           "kind": "span",
@@ -109455,7 +110487,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3465,
+      "number": 3477,
       "children": [
         {
           "kind": "span",
@@ -109551,7 +110583,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3466,
+      "number": 3478,
       "children": [
         {
           "kind": "span",
@@ -109647,7 +110679,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3467,
+      "number": 3479,
       "children": [
         {
           "kind": "span",
@@ -109743,7 +110775,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3468,
+      "number": 3480,
       "children": [
         {
           "kind": "span",
@@ -109839,7 +110871,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3469,
+      "number": 3481,
       "children": [
         {
           "kind": "span",
@@ -109935,7 +110967,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3470,
+      "number": 3482,
       "children": [
         {
           "kind": "span",
@@ -110031,7 +111063,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3471,
+      "number": 3483,
       "children": [
         {
           "kind": "span",
@@ -110127,7 +111159,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3472,
+      "number": 3484,
       "children": [
         {
           "kind": "span",
@@ -110223,7 +111255,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3473,
+      "number": 3485,
       "children": [
         {
           "kind": "span",
@@ -110319,7 +111351,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3474,
+      "number": 3486,
       "children": [
         {
           "kind": "span",
@@ -110415,7 +111447,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3475,
+      "number": 3487,
       "children": [
         {
           "kind": "span",
@@ -110511,7 +111543,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3476,
+      "number": 3488,
       "children": [
         {
           "kind": "span",
@@ -110607,7 +111639,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3477,
+      "number": 3489,
       "children": [
         {
           "kind": "span",
@@ -110703,7 +111735,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3478,
+      "number": 3490,
       "children": [
         {
           "kind": "span",
@@ -110799,7 +111831,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3479,
+      "number": 3491,
       "children": [
         {
           "kind": "span",
@@ -110810,7 +111842,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH6_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2922C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2934C7"
         },
         {
           "kind": "span",
@@ -110896,7 +111928,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3480,
+      "number": 3492,
       "children": [
         {
           "kind": "span",
@@ -110992,7 +112024,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3481,
+      "number": 3493,
       "children": [
         {
           "kind": "span",
@@ -111088,7 +112120,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3482,
+      "number": 3494,
       "children": [
         {
           "kind": "span",
@@ -111184,7 +112216,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3483,
+      "number": 3495,
       "children": [
         {
           "kind": "span",
@@ -111280,7 +112312,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3484,
+      "number": 3496,
       "children": [
         {
           "kind": "span",
@@ -111376,7 +112408,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3485,
+      "number": 3497,
       "children": [
         {
           "kind": "span",
@@ -111472,7 +112504,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3486,
+      "number": 3498,
       "children": [
         {
           "kind": "span",
@@ -111568,7 +112600,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3487,
+      "number": 3499,
       "children": [
         {
           "kind": "span",
@@ -111664,7 +112696,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3488,
+      "number": 3500,
       "children": [
         {
           "kind": "span",
@@ -111760,7 +112792,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3489,
+      "number": 3501,
       "children": [
         {
           "kind": "span",
@@ -111856,7 +112888,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3490,
+      "number": 3502,
       "children": [
         {
           "kind": "span",
@@ -111952,7 +112984,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3491,
+      "number": 3503,
       "children": [
         {
           "kind": "span",
@@ -112048,7 +113080,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3492,
+      "number": 3504,
       "children": [
         {
           "kind": "span",
@@ -112144,7 +113176,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3493,
+      "number": 3505,
       "children": [
         {
           "kind": "span",
@@ -112240,7 +113272,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3494,
+      "number": 3506,
       "children": [
         {
           "kind": "span",
@@ -112336,7 +113368,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3495,
+      "number": 3507,
       "children": [
         {
           "kind": "span",
@@ -112347,7 +113379,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH7_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L2977C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L2989C7"
         },
         {
           "kind": "span",
@@ -112433,7 +113465,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3496,
+      "number": 3508,
       "children": [
         {
           "kind": "span",
@@ -112529,7 +113561,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3497,
+      "number": 3509,
       "children": [
         {
           "kind": "span",
@@ -112625,7 +113657,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3498,
+      "number": 3510,
       "children": [
         {
           "kind": "span",
@@ -112721,7 +113753,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3499,
+      "number": 3511,
       "children": [
         {
           "kind": "span",
@@ -112817,7 +113849,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3500,
+      "number": 3512,
       "children": [
         {
           "kind": "span",
@@ -112913,7 +113945,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3501,
+      "number": 3513,
       "children": [
         {
           "kind": "span",
@@ -113009,7 +114041,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3502,
+      "number": 3514,
       "children": [
         {
           "kind": "span",
@@ -113105,7 +114137,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3503,
+      "number": 3515,
       "children": [
         {
           "kind": "span",
@@ -113201,7 +114233,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3504,
+      "number": 3516,
       "children": [
         {
           "kind": "span",
@@ -113297,7 +114329,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3505,
+      "number": 3517,
       "children": [
         {
           "kind": "span",
@@ -113393,7 +114425,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3506,
+      "number": 3518,
       "children": [
         {
           "kind": "span",
@@ -113489,7 +114521,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3507,
+      "number": 3519,
       "children": [
         {
           "kind": "span",
@@ -113585,7 +114617,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3508,
+      "number": 3520,
       "children": [
         {
           "kind": "span",
@@ -113681,7 +114713,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3509,
+      "number": 3521,
       "children": [
         {
           "kind": "span",
@@ -113777,7 +114809,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3510,
+      "number": 3522,
       "children": [
         {
           "kind": "span",
@@ -113873,7 +114905,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3511,
+      "number": 3523,
       "children": [
         {
           "kind": "span",
@@ -113884,7 +114916,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH8_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L3032C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3044C7"
         },
         {
           "kind": "span",
@@ -113970,7 +115002,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3512,
+      "number": 3524,
       "children": [
         {
           "kind": "span",
@@ -114066,7 +115098,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3513,
+      "number": 3525,
       "children": [
         {
           "kind": "span",
@@ -114162,7 +115194,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3514,
+      "number": 3526,
       "children": [
         {
           "kind": "span",
@@ -114258,7 +115290,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3515,
+      "number": 3527,
       "children": [
         {
           "kind": "span",
@@ -114354,7 +115386,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3516,
+      "number": 3528,
       "children": [
         {
           "kind": "span",
@@ -114450,7 +115482,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3517,
+      "number": 3529,
       "children": [
         {
           "kind": "span",
@@ -114546,7 +115578,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3518,
+      "number": 3530,
       "children": [
         {
           "kind": "span",
@@ -114642,7 +115674,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3519,
+      "number": 3531,
       "children": [
         {
           "kind": "span",
@@ -114738,7 +115770,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3520,
+      "number": 3532,
       "children": [
         {
           "kind": "span",
@@ -114834,7 +115866,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3521,
+      "number": 3533,
       "children": [
         {
           "kind": "span",
@@ -114930,7 +115962,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3522,
+      "number": 3534,
       "children": [
         {
           "kind": "span",
@@ -115026,7 +116058,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3523,
+      "number": 3535,
       "children": [
         {
           "kind": "span",
@@ -115122,7 +116154,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3524,
+      "number": 3536,
       "children": [
         {
           "kind": "span",
@@ -115218,7 +116250,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3525,
+      "number": 3537,
       "children": [
         {
           "kind": "span",
@@ -115314,7 +116346,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3526,
+      "number": 3538,
       "children": [
         {
           "kind": "span",
@@ -115410,7 +116442,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3527,
+      "number": 3539,
       "children": [
         {
           "kind": "span",
@@ -115421,7 +116453,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH9_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L3087C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3099C7"
         },
         {
           "kind": "span",
@@ -115507,7 +116539,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3528,
+      "number": 3540,
       "children": [
         {
           "kind": "span",
@@ -115603,7 +116635,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3529,
+      "number": 3541,
       "children": [
         {
           "kind": "span",
@@ -115699,7 +116731,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3530,
+      "number": 3542,
       "children": [
         {
           "kind": "span",
@@ -115795,7 +116827,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3531,
+      "number": 3543,
       "children": [
         {
           "kind": "span",
@@ -115891,7 +116923,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3532,
+      "number": 3544,
       "children": [
         {
           "kind": "span",
@@ -115987,7 +117019,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3533,
+      "number": 3545,
       "children": [
         {
           "kind": "span",
@@ -116083,7 +117115,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3534,
+      "number": 3546,
       "children": [
         {
           "kind": "span",
@@ -116179,7 +117211,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3535,
+      "number": 3547,
       "children": [
         {
           "kind": "span",
@@ -116275,7 +117307,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3536,
+      "number": 3548,
       "children": [
         {
           "kind": "span",
@@ -116371,7 +117403,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3537,
+      "number": 3549,
       "children": [
         {
           "kind": "span",
@@ -116467,7 +117499,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3538,
+      "number": 3550,
       "children": [
         {
           "kind": "span",
@@ -116563,7 +117595,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3539,
+      "number": 3551,
       "children": [
         {
           "kind": "span",
@@ -116659,7 +117691,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3540,
+      "number": 3552,
       "children": [
         {
           "kind": "span",
@@ -116755,7 +117787,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3541,
+      "number": 3553,
       "children": [
         {
           "kind": "span",
@@ -116851,7 +117883,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3542,
+      "number": 3554,
       "children": [
         {
           "kind": "span",
@@ -116947,7 +117979,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3543,
+      "number": 3555,
       "children": [
         {
           "kind": "span",
@@ -116958,7 +117990,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH10_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L3142C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3154C7"
         },
         {
           "kind": "span",
@@ -117044,7 +118076,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3544,
+      "number": 3556,
       "children": [
         {
           "kind": "span",
@@ -117140,7 +118172,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3545,
+      "number": 3557,
       "children": [
         {
           "kind": "span",
@@ -117236,7 +118268,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3546,
+      "number": 3558,
       "children": [
         {
           "kind": "span",
@@ -117332,7 +118364,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3547,
+      "number": 3559,
       "children": [
         {
           "kind": "span",
@@ -117428,7 +118460,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3548,
+      "number": 3560,
       "children": [
         {
           "kind": "span",
@@ -117524,7 +118556,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3549,
+      "number": 3561,
       "children": [
         {
           "kind": "span",
@@ -117620,7 +118652,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3550,
+      "number": 3562,
       "children": [
         {
           "kind": "span",
@@ -117716,7 +118748,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3551,
+      "number": 3563,
       "children": [
         {
           "kind": "span",
@@ -117812,7 +118844,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3552,
+      "number": 3564,
       "children": [
         {
           "kind": "span",
@@ -117908,7 +118940,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3553,
+      "number": 3565,
       "children": [
         {
           "kind": "span",
@@ -118004,7 +119036,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3554,
+      "number": 3566,
       "children": [
         {
           "kind": "span",
@@ -118100,7 +119132,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3555,
+      "number": 3567,
       "children": [
         {
           "kind": "span",
@@ -118196,7 +119228,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3556,
+      "number": 3568,
       "children": [
         {
           "kind": "span",
@@ -118292,7 +119324,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3557,
+      "number": 3569,
       "children": [
         {
           "kind": "span",
@@ -118388,7 +119420,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3558,
+      "number": 3570,
       "children": [
         {
           "kind": "span",
@@ -118484,7 +119516,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3559,
+      "number": 3571,
       "children": [
         {
           "kind": "span",
@@ -118495,7 +119527,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH11_CTRL_TRIG",
-          "href": "docs/rp2040_svd__dma___spec.html#L3197C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3209C7"
         },
         {
           "kind": "span",
@@ -118581,7 +119613,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3560,
+      "number": 3572,
       "children": [
         {
           "kind": "span",
@@ -118677,7 +119709,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3561,
+      "number": 3573,
       "children": [
         {
           "kind": "span",
@@ -118773,7 +119805,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3562,
+      "number": 3574,
       "children": [
         {
           "kind": "span",
@@ -118869,7 +119901,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3563,
+      "number": 3575,
       "children": [
         {
           "kind": "span",
@@ -118965,7 +119997,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3564,
+      "number": 3576,
       "children": [
         {
           "kind": "span",
@@ -119061,7 +120093,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3565,
+      "number": 3577,
       "children": [
         {
           "kind": "span",
@@ -119157,7 +120189,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3566,
+      "number": 3578,
       "children": [
         {
           "kind": "span",
@@ -119253,7 +120285,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3567,
+      "number": 3579,
       "children": [
         {
           "kind": "span",
@@ -119349,7 +120381,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3568,
+      "number": 3580,
       "children": [
         {
           "kind": "span",
@@ -119445,7 +120477,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3569,
+      "number": 3581,
       "children": [
         {
           "kind": "span",
@@ -119541,7 +120573,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3570,
+      "number": 3582,
       "children": [
         {
           "kind": "span",
@@ -119637,7 +120669,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3571,
+      "number": 3583,
       "children": [
         {
           "kind": "span",
@@ -119733,7 +120765,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3572,
+      "number": 3584,
       "children": [
         {
           "kind": "span",
@@ -119744,7 +120776,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTR",
-          "href": "docs/rp2040_svd__dma___spec.html#L3229C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3241C7"
         },
         {
           "kind": "span",
@@ -119830,7 +120862,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3573,
+      "number": 3585,
       "children": [
         {
           "kind": "span",
@@ -119841,7 +120873,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTE0",
-          "href": "docs/rp2040_svd__dma___spec.html#L3231C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3243C7"
         },
         {
           "kind": "span",
@@ -119927,7 +120959,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3574,
+      "number": 3586,
       "children": [
         {
           "kind": "span",
@@ -119938,7 +120970,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTF0",
-          "href": "docs/rp2040_svd__dma___spec.html#L3233C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3245C7"
         },
         {
           "kind": "span",
@@ -120024,7 +121056,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3575,
+      "number": 3587,
       "children": [
         {
           "kind": "span",
@@ -120035,7 +121067,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTS0",
-          "href": "docs/rp2040_svd__dma___spec.html#L3235C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3247C7"
         },
         {
           "kind": "span",
@@ -120121,7 +121153,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3576,
+      "number": 3588,
       "children": [
         {
           "kind": "span",
@@ -120132,7 +121164,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTE1",
-          "href": "docs/rp2040_svd__dma___spec.html#L3237C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3249C7"
         },
         {
           "kind": "span",
@@ -120218,7 +121250,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3577,
+      "number": 3589,
       "children": [
         {
           "kind": "span",
@@ -120229,7 +121261,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTF1",
-          "href": "docs/rp2040_svd__dma___spec.html#L3239C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3251C7"
         },
         {
           "kind": "span",
@@ -120315,7 +121347,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3578,
+      "number": 3590,
       "children": [
         {
           "kind": "span",
@@ -120326,7 +121358,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTS1",
-          "href": "docs/rp2040_svd__dma___spec.html#L3241C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3253C7"
         },
         {
           "kind": "span",
@@ -120412,7 +121444,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3579,
+      "number": 3591,
       "children": [
         {
           "kind": "span",
@@ -120423,7 +121455,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TIMER0",
-          "href": "docs/rp2040_svd__dma___spec.html#L3246C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3258C7"
         },
         {
           "kind": "span",
@@ -120509,7 +121541,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3580,
+      "number": 3592,
       "children": [
         {
           "kind": "span",
@@ -120520,7 +121552,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TIMER1",
-          "href": "docs/rp2040_svd__dma___spec.html#L3251C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3263C7"
         },
         {
           "kind": "span",
@@ -120606,7 +121638,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3581,
+      "number": 3593,
       "children": [
         {
           "kind": "span",
@@ -120617,7 +121649,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TIMER2",
-          "href": "docs/rp2040_svd__dma___spec.html#L3256C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3268C7"
         },
         {
           "kind": "span",
@@ -120703,7 +121735,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3582,
+      "number": 3594,
       "children": [
         {
           "kind": "span",
@@ -120714,7 +121746,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TIMER3",
-          "href": "docs/rp2040_svd__dma___spec.html#L3261C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3273C7"
         },
         {
           "kind": "span",
@@ -120800,7 +121832,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3583,
+      "number": 3595,
       "children": [
         {
           "kind": "span",
@@ -120811,7 +121843,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "MULTI_CHAN_TRIGGER",
-          "href": "docs/rp2040_svd__dma___spec.html#L3263C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3275C7"
         },
         {
           "kind": "span",
@@ -120897,7 +121929,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3584,
+      "number": 3596,
       "children": [
         {
           "kind": "span",
@@ -120908,7 +121940,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SNIFF_CTRL",
-          "href": "docs/rp2040_svd__dma___spec.html#L3265C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3277C7"
         },
         {
           "kind": "span",
@@ -120994,7 +122026,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3585,
+      "number": 3597,
       "children": [
         {
           "kind": "span",
@@ -121090,7 +122122,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3586,
+      "number": 3598,
       "children": [
         {
           "kind": "span",
@@ -121101,7 +122133,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "FIFO_LEVELS",
-          "href": "docs/rp2040_svd__dma___spec.html#L3273C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3285C7"
         },
         {
           "kind": "span",
@@ -121187,7 +122219,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3587,
+      "number": 3599,
       "children": [
         {
           "kind": "span",
@@ -121198,7 +122230,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CHAN_ABORT",
-          "href": "docs/rp2040_svd__dma___spec.html#L3275C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3287C7"
         },
         {
           "kind": "span",
@@ -121284,7 +122316,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3588,
+      "number": 3600,
       "children": [
         {
           "kind": "span",
@@ -121295,7 +122327,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "N_CHANNELS",
-          "href": "docs/rp2040_svd__dma___spec.html#L3279C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3291C7"
         },
         {
           "kind": "span",
@@ -121381,7 +122413,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3589,
+      "number": 3601,
       "children": [
         {
           "kind": "span",
@@ -121392,7 +122424,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH0_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3284C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3296C7"
         },
         {
           "kind": "span",
@@ -121478,7 +122510,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3590,
+      "number": 3602,
       "children": [
         {
           "kind": "span",
@@ -121574,7 +122606,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3591,
+      "number": 3603,
       "children": [
         {
           "kind": "span",
@@ -121585,7 +122617,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH1_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3292C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3304C7"
         },
         {
           "kind": "span",
@@ -121671,7 +122703,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3592,
+      "number": 3604,
       "children": [
         {
           "kind": "span",
@@ -121767,7 +122799,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3593,
+      "number": 3605,
       "children": [
         {
           "kind": "span",
@@ -121778,7 +122810,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH2_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3300C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3312C7"
         },
         {
           "kind": "span",
@@ -121864,7 +122896,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3594,
+      "number": 3606,
       "children": [
         {
           "kind": "span",
@@ -121960,7 +122992,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3595,
+      "number": 3607,
       "children": [
         {
           "kind": "span",
@@ -121971,7 +123003,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH3_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3308C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3320C7"
         },
         {
           "kind": "span",
@@ -122057,7 +123089,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3596,
+      "number": 3608,
       "children": [
         {
           "kind": "span",
@@ -122153,7 +123185,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3597,
+      "number": 3609,
       "children": [
         {
           "kind": "span",
@@ -122164,7 +123196,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH4_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3316C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3328C7"
         },
         {
           "kind": "span",
@@ -122250,7 +123282,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3598,
+      "number": 3610,
       "children": [
         {
           "kind": "span",
@@ -122346,7 +123378,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3599,
+      "number": 3611,
       "children": [
         {
           "kind": "span",
@@ -122357,7 +123389,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH5_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3324C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3336C7"
         },
         {
           "kind": "span",
@@ -122443,7 +123475,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3600,
+      "number": 3612,
       "children": [
         {
           "kind": "span",
@@ -122539,7 +123571,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3601,
+      "number": 3613,
       "children": [
         {
           "kind": "span",
@@ -122550,7 +123582,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH6_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3332C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3344C7"
         },
         {
           "kind": "span",
@@ -122636,7 +123668,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3602,
+      "number": 3614,
       "children": [
         {
           "kind": "span",
@@ -122732,7 +123764,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3603,
+      "number": 3615,
       "children": [
         {
           "kind": "span",
@@ -122743,7 +123775,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH7_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3340C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3352C7"
         },
         {
           "kind": "span",
@@ -122829,7 +123861,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3604,
+      "number": 3616,
       "children": [
         {
           "kind": "span",
@@ -122925,7 +123957,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3605,
+      "number": 3617,
       "children": [
         {
           "kind": "span",
@@ -122936,7 +123968,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH8_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3348C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3360C7"
         },
         {
           "kind": "span",
@@ -123022,7 +124054,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3606,
+      "number": 3618,
       "children": [
         {
           "kind": "span",
@@ -123118,7 +124150,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3607,
+      "number": 3619,
       "children": [
         {
           "kind": "span",
@@ -123129,7 +124161,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH9_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3356C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3368C7"
         },
         {
           "kind": "span",
@@ -123215,7 +124247,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3608,
+      "number": 3620,
       "children": [
         {
           "kind": "span",
@@ -123311,7 +124343,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3609,
+      "number": 3621,
       "children": [
         {
           "kind": "span",
@@ -123322,7 +124354,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH10_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3364C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3376C7"
         },
         {
           "kind": "span",
@@ -123408,7 +124440,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3610,
+      "number": 3622,
       "children": [
         {
           "kind": "span",
@@ -123504,7 +124536,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3611,
+      "number": 3623,
       "children": [
         {
           "kind": "span",
@@ -123515,7 +124547,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CH11_DBG_CTDREQ",
-          "href": "docs/rp2040_svd__dma___spec.html#L3372C7"
+          "href": "docs/rp2040_svd__dma___spec.html#L3384C7"
         },
         {
           "kind": "span",
@@ -123601,7 +124633,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3612,
+      "number": 3624,
       "children": [
         {
           "kind": "span",
@@ -123697,7 +124729,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3613,
+      "number": 3625,
       "children": [
         {
           "kind": "span",
@@ -123728,13 +124760,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3614,
+      "number": 3626,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 3615,
+      "number": 3627,
       "children": [
         {
           "kind": "span",
@@ -123750,7 +124782,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3616,
+      "number": 3628,
       "children": [
         {
           "kind": "span",
@@ -123761,7 +124793,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA_Periph",
-          "href": "docs/rp2040_svd__dma___spec.html#L3616C4"
+          "href": "docs/rp2040_svd__dma___spec.html#L3628C4"
         },
         {
           "kind": "span",
@@ -123792,13 +124824,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA_Peripheral",
-          "href": "docs/rp2040_svd__dma___spec.html#L2567C9"
+          "href": "docs/rp2040_svd__dma___spec.html#L2579C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 3617,
+      "number": 3629,
       "children": [
         {
           "kind": "span",
@@ -123824,13 +124856,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3618,
+      "number": 3630,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 3619,
+      "number": 3631,
       "children": [
         {
           "kind": "span",

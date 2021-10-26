@@ -1,5 +1,5 @@
 GNATdoc.Documentation = {
-  "label": "HAL.Time",
+  "label": "USB.Device.HID.Mouse",
   "qualifier": "",
   "summary": [
   ],
@@ -9,208 +9,11 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "Any_Delays",
-          "qualifier": "",
-          "line": 36,
-          "column": 9,
-          "src": "srcs/hal-time.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 36,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Any_Delays",
-                      "href": "docs/hal__time___spec.html#L36C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "access"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "all"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Delays",
-                      "href": "docs/hal__time___spec.html#L34C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "'"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Class"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "label": "Access types"
-    },
-    {
-      "entities": [
-        {
-          "label": "Delays",
-          "qualifier": "",
-          "line": 34,
-          "column": 9,
-          "src": "srcs/hal-time.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 34,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Delays",
-                      "href": "docs/hal__time___spec.html#L34C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "limited"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "interface"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "inherited": [
-            {
-              "label": "Delays",
-              "docHref": "docs/rp__timer___spec.html#L17C9"
-            },
-            {
-              "label": "Delays",
-              "docHref": "docs/rp__systick___spec.html#L21C9"
-            }
-          ]
-        }
-      ],
-      "label": "Interface types"
-    },
-    {
-      "entities": [
-        {
-          "label": "Delay_Microseconds",
+          "label": "Instance",
           "qualifier": "",
           "line": 38,
-          "column": 14,
-          "src": "srcs/hal-time.ads.html",
+          "column": 9,
+          "src": "srcs/usb-device-hid-mouse.ads.html",
           "summary": [
           ],
           "description": [
@@ -229,7 +32,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "procedure"
+                      "text": "type"
                     },
                     {
                       "kind": "span",
@@ -239,70 +42,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Delay_Microseconds",
-                      "href": "docs/hal__time___spec.html#L38C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "This",
-                      "href": "docs/hal__time___spec.html#L38C34"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "in"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "out"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Delays",
-                      "href": "docs/hal__time___spec.html#L34C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "text": "Instance",
+                      "href": "docs/usb__device__hid__mouse___spec.html#L38C9"
                     }
                   ]
                 },
@@ -313,43 +54,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                                 "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Us",
-                      "href": "docs/hal__time___spec.html#L39C34"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
                       "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Integer"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -364,7 +69,64 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "abstract"
+                      "text": "new"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Abstract_HID_Class",
+                      "href": "docs/usb__device__hid___spec.html#L64C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Mouse_Report_Size"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 40,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "private"
                     },
                     {
                       "kind": "span",
@@ -376,36 +138,24 @@ GNATdoc.Documentation = {
               ]
             }
           ],
-          "parameters": [
+          "inherits": [
             {
-              "label": "This",
-              "line": 38,
-              "column": 34,
-              "type": {
-                "label": "HAL.Time.Delays",
-                "docHref": "docs/hal__time___spec.html#L34C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Us",
-              "line": 39,
-              "column": 34,
-              "type": {
-                "label": "Integer"
-              },
-              "description": [
-              ]
+              "label": "Abstract_HID_Class",
+              "docHref": "docs/usb__device__hid___spec.html#L34C9"
             }
           ]
-        },
+        }
+      ],
+      "label": "Tagged types"
+    },
+    {
+      "entities": [
         {
-          "label": "Delay_Milliseconds",
+          "label": "Set_Click",
           "qualifier": "",
-          "line": 41,
+          "line": 46,
           "column": 14,
-          "src": "srcs/hal-time.ads.html",
+          "src": "srcs/usb-device-hid-mouse.ads.html",
           "summary": [
           ],
           "description": [
@@ -414,7 +164,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -434,8 +184,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Delay_Milliseconds",
-                      "href": "docs/hal__time___spec.html#L41C14"
+                      "text": "Set_Click",
+                      "href": "docs/usb__device__hid__mouse___spec.html#L46C14"
                     },
                     {
                       "kind": "span",
@@ -451,7 +201,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__time___spec.html#L41C34"
+                      "href": "docs/usb__device__hid__mouse___spec.html#L46C25"
                     },
                     {
                       "kind": "span",
@@ -491,8 +241,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Delays",
-                      "href": "docs/hal__time___spec.html#L34C9"
+                      "text": "Instance",
+                      "href": "docs/usb__device__hid__mouse___spec.html#L52C9"
                     },
                     {
                       "kind": "span",
@@ -501,6 +251,173 @@ GNATdoc.Documentation = {
                     }
                   ]
                 },
+                {
+                  "kind": "line",
+                  "number": 47,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Btn1",
+                      "href": "docs/usb__device__hid__mouse___spec.html#L47C25"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Btn2",
+                      "href": "docs/usb__device__hid__mouse___spec.html#L47C31"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Btn3",
+                      "href": "docs/usb__device__hid__mouse___spec.html#L47C37"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Set the mouse buttons state\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 46,
+              "column": 25,
+              "type": {
+                "label": "USB.Device.HID.Mouse.Instance",
+                "docHref": "docs/usb__device__hid__mouse___spec.html#L38C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Btn1",
+              "line": 47,
+              "column": 25,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Btn2",
+              "line": 47,
+              "column": 31,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Btn3",
+              "line": 47,
+              "column": 37,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Set_Move",
+          "qualifier": "",
+          "line": 42,
+          "column": 14,
+          "src": "srcs/usb-device-hid-mouse.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
                 {
                   "kind": "line",
                   "number": 42,
@@ -508,112 +425,6 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                                 "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Ms",
-                      "href": "docs/hal__time___spec.html#L42C34"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Integer"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "abstract"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "This",
-              "line": 41,
-              "column": 34,
-              "type": {
-                "label": "HAL.Time.Delays",
-                "docHref": "docs/hal__time___spec.html#L34C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Ms",
-              "line": 42,
-              "column": 34,
-              "type": {
-                "label": "Integer"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Delay_Seconds",
-          "qualifier": "",
-          "line": 44,
-          "column": 14,
-          "src": "srcs/hal-time.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 44,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
                       "text": "   "
                     },
                     {
@@ -629,13 +440,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Delay_Seconds",
-                      "href": "docs/hal__time___spec.html#L44C14"
+                      "text": "Set_Move",
+                      "href": "docs/usb__device__hid__mouse___spec.html#L42C14"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -646,7 +457,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__time___spec.html#L44C34"
+                      "href": "docs/usb__device__hid__mouse___spec.html#L42C24"
                     },
                     {
                       "kind": "span",
@@ -686,8 +497,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Delays",
-                      "href": "docs/hal__time___spec.html#L34C9"
+                      "text": "Instance",
+                      "href": "docs/usb__device__hid__mouse___spec.html#L52C9"
                     },
                     {
                       "kind": "span",
@@ -698,23 +509,39 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                                 "
+                      "text": "                       "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "S",
-                      "href": "docs/hal__time___spec.html#L45C34"
+                      "text": "X",
+                      "href": "docs/usb__device__hid__mouse___spec.html#L43C24"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "    "
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Y",
+                      "href": "docs/usb__device__hid__mouse___spec.html#L43C27"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -729,32 +556,12 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Integer"
+                      "text": "Interfaces.Integer_8"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "abstract"
                     },
                     {
                       "kind": "span",
@@ -764,26 +571,45 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Set the relative movement of the mouse cursor\n"
+                }
+              ]
             }
           ],
           "parameters": [
             {
               "label": "This",
-              "line": 44,
-              "column": 34,
+              "line": 42,
+              "column": 24,
               "type": {
-                "label": "HAL.Time.Delays",
-                "docHref": "docs/hal__time___spec.html#L34C9"
+                "label": "USB.Device.HID.Mouse.Instance",
+                "docHref": "docs/usb__device__hid__mouse___spec.html#L38C9"
               },
               "description": [
               ]
             },
             {
-              "label": "S",
-              "line": 45,
-              "column": 34,
+              "label": "X",
+              "line": 43,
+              "column": 24,
               "type": {
-                "label": "Integer"
+                "label": "Integer_8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Y",
+              "line": 43,
+              "column": 27,
+              "type": {
+                "label": "Integer_8"
               },
               "description": [
               ]

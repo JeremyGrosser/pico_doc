@@ -1,5 +1,5 @@
 GNATdoc.Documentation = {
-  "label": "USB.Device.HID",
+  "label": "USB.Device.HID.Keyboard",
   "qualifier": "",
   "summary": [
   ],
@@ -9,11 +9,453 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "Report_Descriptor_Access",
+          "label": "LEDs",
+          "qualifier": "",
+          "line": 60,
+          "column": 9,
+          "src": "srcs/usb-device-hid-keyboard.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 60,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "LEDs",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L60C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Num_Lock",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L60C18"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Caps_Lock",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L60C28"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Scroll_Lock",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L60C39"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Compose",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L60C52"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Kana",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L60C61"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L60C9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "Num_Lock",
+              "line": 60,
+              "column": 18,
+              "description": [
+              ]
+            },
+            {
+              "label": "Caps_Lock",
+              "line": 60,
+              "column": 28,
+              "description": [
+              ]
+            },
+            {
+              "label": "Scroll_Lock",
+              "line": 60,
+              "column": 39,
+              "description": [
+              ]
+            },
+            {
+              "label": "Compose",
+              "line": 60,
+              "column": 52,
+              "description": [
+              ]
+            },
+            {
+              "label": "Kana",
+              "line": 60,
+              "column": 61,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Modifiers",
+          "qualifier": "",
+          "line": 42,
+          "column": 9,
+          "src": "srcs/usb-device-hid-keyboard.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 42,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Modifiers",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L42C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Ctrl_Left",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L42C23"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Shift_Left",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L42C34"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Alt_Left",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L42C46"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Meta_Left",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L42C56"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 43,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Ctrl_Right",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L43C23"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Shift_Right",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L43C35"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Alt_Right",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L43C48"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Meta_Right",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L43C59"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L42C9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "Ctrl_Left",
+              "line": 42,
+              "column": 23,
+              "description": [
+              ]
+            },
+            {
+              "label": "Shift_Left",
+              "line": 42,
+              "column": 34,
+              "description": [
+              ]
+            },
+            {
+              "label": "Alt_Left",
+              "line": 42,
+              "column": 46,
+              "description": [
+              ]
+            },
+            {
+              "label": "Meta_Left",
+              "line": 42,
+              "column": 56,
+              "description": [
+              ]
+            },
+            {
+              "label": "Ctrl_Right",
+              "line": 43,
+              "column": 23,
+              "description": [
+              ]
+            },
+            {
+              "label": "Shift_Right",
+              "line": 43,
+              "column": 35,
+              "description": [
+              ]
+            },
+            {
+              "label": "Alt_Right",
+              "line": 43,
+              "column": 48,
+              "description": [
+              ]
+            },
+            {
+              "label": "Meta_Right",
+              "line": 43,
+              "column": 59,
+              "description": [
+              ]
+            }
+          ]
+        }
+      ],
+      "label": "Simple types"
+    },
+    {
+      "entities": [
+        {
+          "label": "Parent",
           "qualifier": "",
           "line": 37,
-          "column": 9,
-          "src": "srcs/usb-device-hid.ads.html",
+          "column": 12,
+          "src": "srcs/usb-device-hid-keyboard.ads.html",
           "summary": [
           ],
           "description": [
@@ -32,7 +474,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "type"
+                      "text": "subtype"
                     },
                     {
                       "kind": "span",
@@ -42,8 +484,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Report_Descriptor_Access",
-                      "href": "docs/usb__device__hid___spec.html#L37C9"
+                      "text": "Parent",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L37C12"
                     },
                     {
                       "kind": "span",
@@ -62,29 +504,9 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "access"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "constant"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "UInt8_Array",
-                      "href": "docs/hal___spec.html#L162C9"
+                      "text": "Abstract_HID_Class",
+                      "href": "docs/usb__device__hid___spec.html#L64C9"
                     },
                     {
                       "kind": "span",
@@ -98,16 +520,16 @@ GNATdoc.Documentation = {
           ]
         }
       ],
-      "label": "Access types"
+      "label": "Record types"
     },
     {
       "entities": [
         {
-          "label": "Abstract_HID_Class",
+          "label": "Instance",
           "qualifier": "",
-          "line": 34,
+          "line": 38,
           "column": 9,
-          "src": "srcs/usb-device-hid.ads.html",
+          "src": "srcs/usb-device-hid-keyboard.ads.html",
           "summary": [
           ],
           "description": [
@@ -116,7 +538,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -136,75 +558,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Abstract_HID_Class",
-                      "href": "docs/usb__device__hid___spec.html#L34C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Report_Size",
-                      "href": "docs/usb__device__hid___spec.html#L34C29"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Positive"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "number",
-                      "text": "1"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
+                      "text": "Instance",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L38C9"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -215,26 +576,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "keyword",
                       "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "abstract"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "limited"
                     },
                     {
                       "kind": "span",
@@ -254,13 +595,39 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "USB_Device_Class",
-                      "href": "docs/usb__device___spec.html#L110C9"
+                      "text": "Parent",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L37C12"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
                       "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Keyboard_Report_Size"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 40,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -289,38 +656,8 @@ GNATdoc.Documentation = {
           ],
           "inherits": [
             {
-              "label": "USB_Device_Class",
-              "docHref": "docs/usb__device___spec.html#L110C9"
-            }
-          ],
-          "inherited": [
-            {
-              "label": "Instance",
-              "docHref": "docs/usb__device__hid__keyboard___spec.html#L38C9"
-            },
-            {
-              "label": "Instance",
-              "docHref": "docs/usb__device__hid__mouse___spec.html#L38C9"
-            },
-            {
-              "label": "Instance",
-              "docHref": "docs/usb__device__hid__gamepad___spec.html#L40C9"
-            },
-            {
-              "label": "Instance",
-              "docHref": "docs/usb__device__hid__joystick___spec.html#L40C9"
-            }
-          ],
-          "fields": [
-            {
-              "label": "Report_Size",
-              "line": 34,
-              "column": 29,
-              "type": {
-                "label": "Positive"
-              },
-              "description": [
-              ]
+              "label": "Abstract_HID_Class",
+              "docHref": "docs/usb__device__hid___spec.html#L34C9"
             }
           ]
         }
@@ -330,11 +667,11 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "Ready",
+          "label": "Is_On",
           "qualifier": "",
-          "line": 43,
+          "line": 62,
           "column": 13,
-          "src": "srcs/usb-device-hid.ads.html",
+          "src": "srcs/usb-device-hid-keyboard.ads.html",
           "summary": [
           ],
           "description": [
@@ -343,7 +680,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -363,8 +700,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Ready",
-                      "href": "docs/usb__device__hid___spec.html#L43C13"
+                      "text": "Is_On",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L62C13"
                     },
                     {
                       "kind": "span",
@@ -380,7 +717,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/usb__device__hid___spec.html#L43C20"
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L62C20"
                     },
                     {
                       "kind": "span",
@@ -399,18 +736,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "in"
+                      "cssClass": "identifier",
+                      "text": "Instance",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L83C9"
                     },
                     {
                       "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "out"
+                      "cssClass": "identifier",
+                      "text": ";"
                     },
                     {
                       "kind": "span",
@@ -420,8 +753,29 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Abstract_HID_Class",
-                      "href": "docs/usb__device__hid___spec.html#L64C9"
+                      "text": "L",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L62C37"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "LEDs",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L60C9"
                     },
                     {
                       "kind": "span",
@@ -462,7 +816,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "The class is ready to send a report\n"
+                  "text": "Return True if the Host request the given LED to be lit\n"
                 }
               ]
             }
@@ -470,11 +824,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 43,
+              "line": 62,
               "column": 20,
               "type": {
-                "label": "USB.Device.HID.Abstract_HID_Class",
-                "docHref": "docs/usb__device__hid___spec.html#L34C9"
+                "label": "USB.Device.HID.Keyboard.Instance",
+                "docHref": "docs/usb__device__hid__keyboard___spec.html#L38C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "L",
+              "line": 62,
+              "column": 37,
+              "type": {
+                "label": "USB.Device.HID.Keyboard.LEDs",
+                "docHref": "docs/usb__device__hid__keyboard___spec.html#L60C9"
               },
               "description": [
               ]
@@ -482,11 +847,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Report_Descriptor",
+          "label": "Key_Codes_Full",
           "qualifier": "",
-          "line": 38,
+          "line": 49,
           "column": 13,
-          "src": "srcs/usb-device-hid.ads.html",
+          "src": "srcs/usb-device-hid-keyboard.ads.html",
           "summary": [
           ],
           "description": [
@@ -495,7 +860,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -515,8 +880,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Report_Descriptor",
-                      "href": "docs/usb__device__hid___spec.html#L38C13"
+                      "text": "Key_Codes_Full",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L49C13"
                     },
                     {
                       "kind": "span",
@@ -532,7 +897,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/usb__device__hid___spec.html#L38C32"
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L49C29"
                     },
                     {
                       "kind": "span",
@@ -552,24 +917,18 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Abstract_HID_Class",
-                      "href": "docs/usb__device__hid___spec.html#L64C9"
+                      "text": "Instance",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L83C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 39,
-                  "children": [
+                    },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                               "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -583,55 +942,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "not"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "null"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Report_Descriptor_Access",
-                      "href": "docs/usb__device__hid___spec.html#L37C9"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 40,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "abstract"
+                      "text": "Boolean"
                     },
                     {
                       "kind": "span",
@@ -647,7 +959,11 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "HID implementations must return an access to their report descriptor\n"
+                  "text": "Return True if there is no more room for keycode in the report\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "(Max_Key_Codes).\n"
                 }
               ]
             }
@@ -655,11 +971,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 38,
-              "column": 32,
+              "line": 49,
+              "column": 29,
               "type": {
-                "label": "USB.Device.HID.Abstract_HID_Class",
-                "docHref": "docs/usb__device__hid___spec.html#L34C9"
+                "label": "USB.Device.HID.Keyboard.Instance",
+                "docHref": "docs/usb__device__hid__keyboard___spec.html#L38C9"
               },
               "description": [
               ]
@@ -667,11 +983,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Send_Report",
+          "label": "Push_Key_Code",
           "qualifier": "",
-          "line": 46,
+          "line": 53,
           "column": 14,
-          "src": "srcs/usb-device-hid.ads.html",
+          "src": "srcs/usb-device-hid-keyboard.ads.html",
           "summary": [
           ],
           "description": [
@@ -680,7 +996,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 53,
                   "children": [
                     {
                       "kind": "span",
@@ -700,8 +1016,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Send_Report",
-                      "href": "docs/usb__device__hid___spec.html#L46C14"
+                      "text": "Push_Key_Code",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L53C14"
                     },
                     {
                       "kind": "span",
@@ -717,7 +1033,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/usb__device__hid___spec.html#L46C27"
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L53C29"
                     },
                     {
                       "kind": "span",
@@ -757,331 +1073,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Abstract_HID_Class",
-                      "href": "docs/usb__device__hid___spec.html#L64C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 47,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                          "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "UDC",
-                      "href": "docs/usb__device__hid___spec.html#L47C27"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "in"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "out"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "USB_Device_Controller",
-                      "href": "docs/usb__hal__device___spec.html#L34C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "'"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Class"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 48,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Pre => This.Ready"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Send a report to the host\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "This",
-              "line": 46,
-              "column": 27,
-              "type": {
-                "label": "USB.Device.HID.Abstract_HID_Class",
-                "docHref": "docs/usb__device__hid___spec.html#L34C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "UDC",
-              "line": 47,
-              "column": 27,
-              "type": {
-                "label": "USB.HAL.Device.USB_Device_Controller",
-                "docHref": "docs/usb__hal__device___spec.html#L34C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_Report",
-          "qualifier": "",
-          "line": 51,
-          "column": 13,
-          "src": "srcs/usb-device-hid.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 51,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_Report",
-                      "href": "docs/usb__device__hid___spec.html#L51C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "This",
-                      "href": "docs/usb__device__hid___spec.html#L51C25"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "in"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "out"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Abstract_HID_Class",
-                      "href": "docs/usb__device__hid___spec.html#L64C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 52,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                        "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Typ",
-                      "href": "docs/usb__device__hid___spec.html#L52C25"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "        "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "UInt8",
-                      "href": "docs/hal___spec.html#L53C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 53,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                        "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ID",
-                      "href": "docs/usb__device__hid___spec.html#L53C25"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "        "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "UInt8",
-                      "href": "docs/hal___spec.html#L53C9"
+                      "text": "Instance",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L83C9"
                     },
                     {
                       "kind": "span",
@@ -1097,13 +1090,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                        "
+                      "text": "                            "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Data",
-                      "href": "docs/usb__device__hid___spec.html#L54C25"
+                      "text": "Code",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L54C29"
                     },
                     {
                       "kind": "span",
@@ -1118,13 +1111,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "        "
+                      "text": " "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "UInt8_Array",
-                      "href": "docs/hal___spec.html#L162C9"
+                      "text": "UInt8",
+                      "href": "docs/hal___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -1140,59 +1133,27 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                        "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "return"
+                      "text": "with"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Setup_Request_Answer",
-                      "href": "docs/usb___spec.html#L157C9"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 56,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
+                      "text": " Pre => "
                     },
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "is"
+                      "text": "not"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Not_Supported"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
+                      "text": " Key_Codes_Full (This)"
                     },
                     {
                       "kind": "span",
@@ -1208,11 +1169,16 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Called when the Host sends a Set_Report control transfer. For instance\n"
-                },
+                  "text": "Push keycode in the report, if not full.\n"
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
                 {
                   "kind": "span",
-                  "text": "for LED status on a keyboard.\n"
+                  "text": "Upon return from the Send_Report procedure, the stack is cleared.\n"
                 }
               ]
             }
@@ -1220,44 +1186,271 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 51,
-              "column": 25,
-              "type": {
-                "label": "USB.Device.HID.Abstract_HID_Class",
-                "docHref": "docs/usb__device__hid___spec.html#L34C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Typ",
-              "line": 52,
-              "column": 25,
-              "type": {
-                "label": "HAL.UInt8",
-                "docHref": "docs/hal___spec.html#L53C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "ID",
               "line": 53,
-              "column": 25,
+              "column": 29,
+              "type": {
+                "label": "USB.Device.HID.Keyboard.Instance",
+                "docHref": "docs/usb__device__hid__keyboard___spec.html#L38C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Code",
+              "line": 54,
+              "column": 29,
               "type": {
                 "label": "HAL.UInt8",
                 "docHref": "docs/hal___spec.html#L53C9"
               },
               "description": [
               ]
+            }
+          ]
+        },
+        {
+          "label": "Set_Modifier",
+          "qualifier": "",
+          "line": 45,
+          "column": 14,
+          "src": "srcs/usb-device-hid-keyboard.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 45,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Set_Modifier",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L45C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L45C28"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Instance",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L83C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 46,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                           "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "M",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L46C28"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Modifiers",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L42C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 47,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                           "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Value",
+                      "href": "docs/usb__device__hid__keyboard___spec.html#L47C28"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "True"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 45,
+              "column": 28,
+              "type": {
+                "label": "USB.Device.HID.Keyboard.Instance",
+                "docHref": "docs/usb__device__hid__keyboard___spec.html#L38C9"
+              },
+              "description": [
+              ]
             },
             {
-              "label": "Data",
-              "line": 54,
-              "column": 25,
+              "label": "M",
+              "line": 46,
+              "column": 28,
               "type": {
-                "label": "HAL.UInt8_Array",
-                "docHref": "docs/hal___spec.html#L162C9"
+                "label": "USB.Device.HID.Keyboard.Modifiers",
+                "docHref": "docs/usb__device__hid__keyboard___spec.html#L42C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Value",
+              "line": 47,
+              "column": 28,
+              "type": {
+                "label": "Boolean"
               },
               "description": [
               ]
