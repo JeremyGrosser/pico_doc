@@ -3,10 +3,10 @@
 ==== New features
 
 ===== Documentation
-Documentation has been written for most of the drivers and is now available at https://pico-doc.synack.me/[pico-doc.synack.me].
+Documentation has been written for most of the drivers and is available at https://pico-doc.synack.me/[pico-doc.synack.me].
 
 ===== USB device controller
-The `RP.USB_Device` driver now implements the `USB.HAL.Device.USB_Device_Controller` interface. This adds a dependency on the https://github.com/Fabien-Chouteau/usb_embedded[usb_embedded] crate, which in turn depends on https://github.com/Fabien-Chouteau/bbqueue-spark[bbqueue-spark] and https://github.com/Fabien-Chouteau/atomic[atomic]. This driver does not support USB host mode or double buffering.
+The `RP.USB_Device` driver implements the `USB.HAL.Device.USB_Device_Controller` interface. This adds a dependency on the https://github.com/Fabien-Chouteau/usb_embedded[usb_embedded] crate, which in turn depends on https://github.com/Fabien-Chouteau/bbqueue-spark[bbqueue-spark] and https://github.com/Fabien-Chouteau/atomic[atomic]. This driver does not support USB host mode or double buffering.
 
 The upstream SVD was updated to include USB_DPRAM registers, so all of the RP2040_SVD packages have been regenerated from source.
 
@@ -14,19 +14,19 @@ The upstream SVD was updated to include USB_DPRAM registers, so all of the RP204
 xref:round_robin[RP.ADC.Set_Round_Robin] can be used to select multiple ADC channels to be read sequentially. xref:continuous_conversion[RP.ADC.Set_Mode (Free_Running)] will cause the ADC to continuously sample the selected channels. Paired with DMA, this means the ADC can run at up to 500,000 samples per second.
 
 ===== Ada boot2 code
-Thanks to https://github.com/damaki[Daniel King], we now have a working implementation of xref:boot_code[boot2 in Ada]. boot2 has been moved from pico_bsp to rp2040_hal and the flash chip may be selected with the `Flash_Chip` Alire configuration variable.
+Thanks to https://github.com/damaki[Daniel King], we have a working implementation of xref:boot_code[boot2 in Ada]. boot2 has been moved from pico_bsp to rp2040_hal and the flash chip may be selected with the `Flash_Chip` Alire configuration variable.
 
 ===== PWM duty cycle may be set for one channel at a time
-`RP.PWM.Set_Duty_Cycle` now takes a `Channel` argument so that a single PWM channel's duty cycle may be updated without affecting the other. If `Channel` is not specified, the duty cycle for both channels must be specified.
+`RP.PWM.Set_Duty_Cycle` takes a `Channel` argument so that a single PWM channel's duty cycle may be updated without affecting the other. If `Channel` is not specified, the duty cycle for both channels must be specified.
 
 ===== Default values for SPI and UART configuration
-`Default_SPI_Configuration` and `Default_UART_Configuration` constants are now available and are used if no arguments are supplied to `RP.SPI.Configure` or `RP.UART.Configure`.
+`Default_SPI_Configuration` and `Default_UART_Configuration` constants are available and are used if no arguments are supplied to `RP.SPI.Configure` or `RP.UART.Configure`.
 
 ===== SysTick improvements
-`RP.SysTick.Clock` now reports the 24-bit monotonic counter.
+`RP.SysTick.Clock` reports the 24-bit monotonic counter.
 
 ===== PIO interrupts
-`RP.PIO` now includes procedures for configuring and using interrupts from the PIO peripheral. Thanks to @Fabien-Chouteau for contributing these changes.
+`RP.PIO` includes procedures for configuring and using interrupts from the PIO peripheral. Thanks to @Fabien-Chouteau for contributing these changes.
 
 ==== Breaking changes
 
@@ -37,7 +37,7 @@ In order to make driver usage more consistent, the following procedures have bee
 - RP.RTC.Initialize -> RP.RTC.Configure
 
 ===== Toolchain dependency
-rp2040_hal now depends on the `gnat_arm_elf` toolchain in Alire. While the GNAT Community toolchains should continue to work, the FSF GNAT toolchain is the only one we will test going forward.
+rp2040_hal depends on the `gnat_arm_elf` toolchain in Alire. While the GNAT Community toolchains should continue to work, the FSF GNAT toolchain is the only one we will test going forward.
 
 ===== Startup code conflicts with Ravenscar runtimes
 `crt0.S` and `package Runtime` have been moved from pico_bsp into rp2040_hal. If rp2040_hal is used as a dependency of a project built with one of the Ravenscar runtimes, rp2040_hal's startup code will conflict with that provided by the runtime. The `Use_Startup = false` Alire configuration variable will prevent rp2040_hal from compiling and linking it's startup code.
@@ -48,13 +48,13 @@ rp2040_hal now depends on the `gnat_arm_elf` toolchain in Alire. While the GNAT 
 Some Adafruit Feather RP2040 boards have higher than expected capacitance on the XOSC traces and need a bit more time for the oscillator to stabilize. The `XOSC_Startup_Delay` parameter was added to `RP.Clock.Initialize` to allow BSPs to override the default startup delay. The default value should still be fine for most boards.
 
 ===== Clarify PWM frequency range
-`RP.PWM.Set_Frequency` now has a precondition that fails if a frequency that cannot be represented by the clock divider is requested.
+`RP.PWM.Set_Frequency` has a precondition that fails if a frequency that cannot be represented by the clock divider is requested.
 
 ===== Fixed crash when maximum PWM divider is specified
 If `Divider'Last` was passed to `RP.PWM.Set_Divider`, the fixed point value would be rounded rather than truncated when calculating the integer part of the divider. This edge case has been fixed.
 
 ===== PIO relative JMP instruction addressing
-If a PIO program is loaded at an offset other than zero, the JMP instructions need to be modified to point to the correct addresses. `RP.PIO.Load` now does this rewriting. Thanks to @Fabien-Chouteau for this fix!
+If a PIO program is loaded at an offset other than zero, the JMP instructions need to be modified to point to the correct addresses. `RP.PIO.Load` does this rewriting. Thanks to @Fabien-Chouteau for this fix!
 
 ===== RP.Timer.Clock could get stuck in an infinite loop
 Fix contributed by @Fabien-Chouteau.
@@ -75,7 +75,7 @@ A CircleCI project has been setup to compile `rp2040_hal` upon commit and email 
 ==== Breaking changes
 
 ===== Delay_Microseconds no longer uses interrupts
-`RP.Timer.Delay_Microseconds` now polls the timer registers in a busy loop, rather than setting up an alarm interrupt. This should make shorter (< 10 microsecond) delays more accurate as interrupt latency is no longer a factor. `RP.Timer.Delay_Until` can still be used to perform interrupt-based delays with microsecond precision.
+`RP.Timer.Delay_Microseconds` polls the timer registers in a busy loop, rather than setting up an alarm interrupt. This should make shorter (< 10 microsecond) delays more accurate as interrupt latency is no longer a factor. `RP.Timer.Delay_Until` can still be used to perform interrupt-based delays with microsecond precision.
 
 ==== Bugs fixed
 
