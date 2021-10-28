@@ -696,7 +696,7 @@ begin
     RP.DMA.Configure
         (Channel => Channel,
          Config  =>
-            (Transfer_Size   => Transfer_8,
+            (Data_Size       => Transfer_8,
              Increment_Read  => True,
              Increment_Write => False,
              Trigger         => SPI0_TX,
