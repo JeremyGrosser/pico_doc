@@ -1,3 +1,30 @@
+=== 1.0.0
+
+==== New features
+
+===== DMA IRQ management
+`RP.DMA` can now configure interrupt masks for each DMA channel. If `DMA_Configuration.Quiet = False`, the interrupt will fire when a transfer is completed.
+
+===== Unit tests
+We've begun writing tests for rp2040_hal with the https://docs.adacore.com/live/wave/aunit/html/aunit_cb/aunit_cb.html[AUnit Testing Framework]. Currently, there are tests for Clock, UART, SPI, GPIO, and DMA. These tests have already led to several bug fixes and we will continue to work toward more complete unit test coverage.
+
+==== Breaking changes
+None.
+
+==== Bugs fixed
+
+===== GPIO.Mode returned incorrect values
+GPIO.Mode was returning the mode of the wrong pin.
+
+===== PWM divider edge cases
+The minimum and maximum PWM divider values were calculated incorrectly. The calculation and constraints on `RP.PWM.Divider` have been fixed.
+
+===== RP.DMA.Status returned incorrect Transfers_Remaining
+The DMA alias register layouts were incorrect. The only visible effect of this error was that RP.DMA.Status returned an incorrect value for Transfers_Remaining.
+
+===== Some DMA triggers didn't work
+The DREQ register values did not have a representation clause specified, which caused triggers internal to the DMA peripheral (pacing timers and permanent triggers) to be nonfunctional.
+
 === 0.7.0
 
 ==== New features
