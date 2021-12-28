@@ -1,4 +1,4 @@
-All source code in rp2040_hal, pico_bsp, and pico_examples is available under the https://opensource.org/licenses/BSD-3-Clause[BSD-3-Clause] license. Some portions (https://github.com/JeremyGrosser/rp2040_hal/tree/master/src/svd[SVD definitions], https://github.com/JeremyGrosser/pico_bsp/tree/master/zfp_startup[startup code]) of these libraries are copied or generated from https://github.com/raspberrypi/pico-sdk[pico-sdk] and are Copyright &copy; Raspberry Pi (Trading) Ltd. and distributed under the same BSD-3-Clause license.
+All source code in rp2040_hal, pico_bsp, and pico_examples is available under the https://opensource.org/licenses/BSD-3-Clause[BSD-3-Clause] license. Some portions (eg. https://github.com/JeremyGrosser/rp2040_hal/tree/master/src/svd[SVD definitions]) of these libraries are copied or generated from https://github.com/raspberrypi/pico-sdk[pico-sdk] and are Copyright &copy; Raspberry Pi (Trading) Ltd. and distributed under the same BSD-3-Clause license.
 
 This documentation is made available under a http://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike 4.0 International License].
 
