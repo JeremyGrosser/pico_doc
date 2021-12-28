@@ -668,6 +668,10 @@ declare
 begin
     Set_Sample_Rate (48_000);
     Set_Mode (Free_Running);
+    --  DMA would be better here, see the adc_continuous example.
+    loop
+        Sample := RP.ADC.Read;
+    end loop;
 end;
 ----
 
