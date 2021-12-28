@@ -62,7 +62,7 @@ alr build
 If the build was successful, there will be an ELF binary in `./bin/hello_pico`.
 
 === Flashing the Pico
-video::g3sGKoLafew[youtube,width=426,height=240,role=right]
+https://www.youtube.com/watch?v=g3sGKoLafew[Raspberry Pi SWD Debug Setup (YouTube)]
 
 There are several ways to get your compiled code onto the Pico. It is highly recommended that you setup a Serial Wire Debug (SWD) debugger so that you can run GDB. The following video shows how to setup a Raspberry Pi Zero as a SWD debugger, but other debug adapters like the https://www.segger.com/products/debug-probes/j-link/[Segger J-Link] should work.
 
@@ -592,18 +592,23 @@ Before ADC measurements can be done, the ADC clock must be enabled and a GPIO pi
 ==== Configuring the ADC
 [source,ada]
 ----
-RP.GPIO.Enable;
-Pico.GP26.Configure (Analog);
+with RP.ADC;  use RP.ADC;
+with RP.Clock;
+with RP.GPIO;
+with Pico;
 
-RP.Clock.Enable (RP.Clock.ADC);
-
-declare
-    use RP.ADC;
+procedure ADC_Example is
     Channel : ADC_Channel := To_ADC_Channel (Pico.GP26);
     Value   : Analog_Value;
 begin
-    RP.ADC.Configure (Chan);
-    Value := RP.ADC.Read (Channel);
+    RP.Clock.Initialize (Pico.XOSC_Frequency);
+    RP.Clock.Enable (RP.Clock.ADC);
+    Pico.GP26.Configure (RP.GPIO.Analog);
+    RP.ADC.Configure (Channel);
+
+    loop
+        Value := RP.ADC.Read (Channel);
+    end loop;
 end;
 ----
 
