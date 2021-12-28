@@ -1060,10 +1060,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Checksum_Algorithm",
-      "docHref": "docs/rp__dma___spec.html#L86C9",
+      "docHref": "docs/rp__dma___spec.html#L133C9",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L86"
+      "srcHref": "srcs/rp-dma.ads.html#L133"
     },
     {
       "label": "CHIP_ID_MANUFACTURER_Field",
@@ -1736,6 +1736,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.DMA",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-dma.ads.html#L13"
+    },
+    {
+      "label": "DMA_IRQ_Id",
+      "docHref": "docs/rp__dma___spec.html#L154C12",
+      "declared": "RP.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-dma.ads.html#L154"
     },
     {
       "label": "DMA_Request_Trigger",
@@ -6317,10 +6324,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Microseconds",
-      "docHref": "docs/rp__uart___spec.html#L52C12",
+      "docHref": "docs/rp__uart___spec.html#L53C12",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L52"
+      "srcHref": "srcs/rp-uart.ads.html#L53"
     },
     {
       "label": "Microvolts",
@@ -8354,10 +8361,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "UART_FIFO_Status",
-      "docHref": "docs/rp__uart___spec.html#L37C9",
+      "docHref": "docs/rp__uart___spec.html#L38C9",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L37"
+      "srcHref": "srcs/rp-uart.ads.html#L38"
     },
     {
       "label": "UART_Number",

@@ -1260,8 +1260,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "Divider_Fraction"
+          "cssClass": "number",
+          "text": "1.0"
         },
         {
           "kind": "span",
@@ -1312,26 +1312,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "-"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Divider_Fraction"
         },
         {
           "kind": "span",
@@ -4082,27 +4062,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Natural"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 136,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " Pre => Enabled (Slice)"
         },
         {
           "kind": "span",
@@ -4113,13 +4072,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 137,
+      "number": 136,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 138,
+      "number": 137,
       "children": [
         {
           "kind": "span",
@@ -4140,13 +4099,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Set_Count",
-          "href": "docs/rp__pwm___spec.html#L138C14"
+          "href": "docs/rp__pwm___spec.html#L137C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 139,
+      "number": 138,
       "children": [
         {
           "kind": "span",
@@ -4162,7 +4121,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Slice",
-          "href": "docs/rp__pwm___spec.html#L139C8"
+          "href": "docs/rp__pwm___spec.html#L138C8"
         },
         {
           "kind": "span",
@@ -4194,7 +4153,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 140,
+      "number": 139,
       "children": [
         {
           "kind": "span",
@@ -4205,7 +4164,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Value",
-          "href": "docs/rp__pwm___spec.html#L140C8"
+          "href": "docs/rp__pwm___spec.html#L139C8"
         },
         {
           "kind": "span",
@@ -4237,7 +4196,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 141,
+      "number": 140,
       "children": [
         {
           "kind": "span",
@@ -4263,13 +4222,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 142,
+      "number": 141,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 143,
+      "number": 142,
       "children": [
         {
           "kind": "span",
@@ -4290,13 +4249,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Attach",
-          "href": "docs/rp__pwm___spec.html#L143C14"
+          "href": "docs/rp__pwm___spec.html#L142C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 144,
+      "number": 143,
       "children": [
         {
           "kind": "span",
@@ -4312,7 +4271,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Slice",
-          "href": "docs/rp__pwm___spec.html#L144C8"
+          "href": "docs/rp__pwm___spec.html#L143C8"
         },
         {
           "kind": "span",
@@ -4344,7 +4303,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 145,
+      "number": 144,
       "children": [
         {
           "kind": "span",
@@ -4355,7 +4314,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Handler",
-          "href": "docs/rp__pwm___spec.html#L145C8"
+          "href": "docs/rp__pwm___spec.html#L144C8"
         },
         {
           "kind": "span",
@@ -4387,7 +4346,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 146,
+      "number": 145,
       "children": [
         {
           "kind": "span",
@@ -4413,13 +4372,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 147,
+      "number": 146,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 148,
+      "number": 147,
       "children": [
         {
           "kind": "span",
@@ -4430,13 +4389,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 149,
+      "number": 148,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 214,
+      "number": 213,
       "children": [
         {
           "kind": "span",

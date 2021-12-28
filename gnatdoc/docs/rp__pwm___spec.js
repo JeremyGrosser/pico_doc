@@ -178,8 +178,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Divider_Fraction"
+                      "cssClass": "number",
+                      "text": "1.0"
                     },
                     {
                       "kind": "span",
@@ -230,26 +230,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "-"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Divider_Fraction"
                     },
                     {
                       "kind": "span",
@@ -1269,7 +1249,7 @@ GNATdoc.Documentation = {
         {
           "label": "Attach",
           "qualifier": "",
-          "line": 143,
+          "line": 142,
           "column": 14,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -1280,7 +1260,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 143,
+                  "number": 142,
                   "children": [
                     {
                       "kind": "span",
@@ -1301,13 +1281,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Attach",
-                      "href": "docs/rp__pwm___spec.html#L143C14"
+                      "href": "docs/rp__pwm___spec.html#L142C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 144,
+                  "number": 143,
                   "children": [
                     {
                       "kind": "span",
@@ -1323,7 +1303,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L144C8"
+                      "href": "docs/rp__pwm___spec.html#L143C8"
                     },
                     {
                       "kind": "span",
@@ -1355,7 +1335,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 145,
+                  "number": 144,
                   "children": [
                     {
                       "kind": "span",
@@ -1366,7 +1346,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Handler",
-                      "href": "docs/rp__pwm___spec.html#L145C8"
+                      "href": "docs/rp__pwm___spec.html#L144C8"
                     },
                     {
                       "kind": "span",
@@ -1398,7 +1378,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 146,
+                  "number": 145,
                   "children": [
                     {
                       "kind": "span",
@@ -1428,7 +1408,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Slice",
-              "line": 144,
+              "line": 143,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Slice",
@@ -1439,7 +1419,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Handler",
-              "line": 145,
+              "line": 144,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Interrupt_Handler",
@@ -1560,27 +1540,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Natural"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 136,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Pre => Enabled (Slice)"
                     },
                     {
                       "kind": "span",
@@ -2463,7 +2422,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Count",
           "qualifier": "",
-          "line": 138,
+          "line": 137,
           "column": 14,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -2474,7 +2433,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 138,
+                  "number": 137,
                   "children": [
                     {
                       "kind": "span",
@@ -2495,13 +2454,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Count",
-                      "href": "docs/rp__pwm___spec.html#L138C14"
+                      "href": "docs/rp__pwm___spec.html#L137C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 139,
+                  "number": 138,
                   "children": [
                     {
                       "kind": "span",
@@ -2517,7 +2476,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L139C8"
+                      "href": "docs/rp__pwm___spec.html#L138C8"
                     },
                     {
                       "kind": "span",
@@ -2549,7 +2508,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 140,
+                  "number": 139,
                   "children": [
                     {
                       "kind": "span",
@@ -2560,7 +2519,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Value",
-                      "href": "docs/rp__pwm___spec.html#L140C8"
+                      "href": "docs/rp__pwm___spec.html#L139C8"
                     },
                     {
                       "kind": "span",
@@ -2592,7 +2551,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 141,
+                  "number": 140,
                   "children": [
                     {
                       "kind": "span",
@@ -2622,7 +2581,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Slice",
-              "line": 139,
+              "line": 138,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Slice",
@@ -2633,7 +2592,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Value",
-              "line": 140,
+              "line": 139,
               "column": 8,
               "type": {
                 "label": "RP.PWM.Period",

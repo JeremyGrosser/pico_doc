@@ -1284,10 +1284,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Default_UART_Configuration",
-      "docHref": "docs/rp__uart___spec.html#L35C4",
+      "docHref": "docs/rp__uart___spec.html#L36C4",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L35"
+      "srcHref": "srcs/rp-uart.ads.html#L36"
     },
     {
       "label": "DEMCR_Register",
@@ -1354,10 +1354,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "DMA_Configuration",
-      "docHref": "docs/rp__dma___spec.html#L40C9",
+      "docHref": "docs/rp__dma___spec.html#L87C9",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L40"
+      "srcHref": "srcs/rp-dma.ads.html#L87"
     },
     {
       "label": "DMA_Periph",
@@ -1375,10 +1375,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "DMA_Status",
-      "docHref": "docs/rp__dma___spec.html#L55C9",
+      "docHref": "docs/rp__dma___spec.html#L102C9",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L55"
+      "srcHref": "srcs/rp-dma.ads.html#L102"
     },
     {
       "label": "DMACR_Register",

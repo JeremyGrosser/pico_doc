@@ -16,6 +16,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/hal-bitmap.ads.html#L77"
     },
     {
+      "label": "Ack_IRQ",
+      "docHref": "docs/rp__dma___spec.html#L162C14",
+      "declared": "RP.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-dma.ads.html#L162"
+    },
+    {
       "label": "Add",
       "docHref": "docs/atomic__signed___spec.html#L66C14",
       "declared": "Atomic.Signed",
@@ -87,10 +94,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Attach",
-      "docHref": "docs/rp__pwm___spec.html#L143C14",
+      "docHref": "docs/rp__pwm___spec.html#L142C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L143"
+      "srcHref": "srcs/rp-pwm.ads.html#L142"
     },
     {
       "label": "Bits_Per_Pixel",
@@ -101,17 +108,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Busy",
-      "docHref": "docs/rp__dma___spec.html#L78C13",
+      "docHref": "docs/rp__dma___spec.html#L125C13",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L78"
+      "srcHref": "srcs/rp-dma.ads.html#L125"
     },
     {
       "label": "Checksum",
-      "docHref": "docs/rp__dma___spec.html#L104C13",
+      "docHref": "docs/rp__dma___spec.html#L151C13",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L104"
+      "srcHref": "srcs/rp-dma.ads.html#L151"
     },
     {
       "label": "Clean_DCache",
@@ -248,10 +255,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Configure",
-      "docHref": "docs/rp__dma___spec.html#L66C14",
+      "docHref": "docs/rp__dma___spec.html#L113C14",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L66"
+      "srcHref": "srcs/rp-dma.ads.html#L113"
     },
     {
       "label": "Configure",
@@ -381,10 +388,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Disable",
-      "docHref": "docs/rp__dma___spec.html#L75C14",
+      "docHref": "docs/rp__dma___spec.html#L122C14",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L75"
+      "srcHref": "srcs/rp-dma.ads.html#L122"
     },
     {
       "label": "Disable",
@@ -434,6 +441,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "Cortex_M.NVIC",
       "declared_qualifier": "",
       "srcHref": "srcs/cortex_m-nvic.ads.html#L61"
+    },
+    {
+      "label": "Disable_IRQ",
+      "docHref": "docs/rp__dma___spec.html#L159C14",
+      "declared": "RP.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-dma.ads.html#L159"
     },
     {
       "label": "DSB",
@@ -521,10 +535,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__dma___spec.html#L64C14",
+      "docHref": "docs/rp__dma___spec.html#L111C14",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L64"
+      "srcHref": "srcs/rp-dma.ads.html#L111"
     },
     {
       "label": "Enable",
@@ -556,10 +570,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enable_Checksum",
-      "docHref": "docs/rp__dma___spec.html#L94C14",
+      "docHref": "docs/rp__dma___spec.html#L141C14",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L94"
+      "srcHref": "srcs/rp-dma.ads.html#L141"
     },
     {
       "label": "Enable_D_Cache",
@@ -588,6 +602,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "Cortex_M.NVIC",
       "declared_qualifier": "",
       "srcHref": "srcs/cortex_m-nvic.ads.html#L59"
+    },
+    {
+      "label": "Enable_IRQ",
+      "docHref": "docs/rp__dma___spec.html#L156C14",
+      "declared": "RP.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-dma.ads.html#L156"
     },
     {
       "label": "Enabled",
@@ -1136,6 +1157,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/cortex_m-cache.ads.html#L63"
     },
     {
+      "label": "IRQ_Status",
+      "docHref": "docs/rp__dma___spec.html#L165C13",
+      "declared": "RP.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-dma.ads.html#L165"
+    },
+    {
       "label": "Leave",
       "docHref": "docs/atomic__critical_section___spec.html#L13C14",
       "declared": "Atomic.Critical_Section",
@@ -1613,10 +1641,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Checksum",
-      "docHref": "docs/rp__dma___spec.html#L101C14",
+      "docHref": "docs/rp__dma___spec.html#L148C14",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L101"
+      "srcHref": "srcs/rp-dma.ads.html#L148"
     },
     {
       "label": "Set_Clkdiv_Int_Frac",
@@ -1641,10 +1669,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Count",
-      "docHref": "docs/rp__pwm___spec.html#L138C14",
+      "docHref": "docs/rp__pwm___spec.html#L137C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L138"
+      "srcHref": "srcs/rp-pwm.ads.html#L137"
     },
     {
       "label": "Set_Divider",
@@ -1900,10 +1928,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Start",
-      "docHref": "docs/rp__dma___spec.html#L70C14",
+      "docHref": "docs/rp__dma___spec.html#L117C14",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L70"
+      "srcHref": "srcs/rp-dma.ads.html#L117"
     },
     {
       "label": "State",
@@ -1949,10 +1977,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Status",
-      "docHref": "docs/rp__dma___spec.html#L82C13",
+      "docHref": "docs/rp__dma___spec.html#L129C13",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L82"
+      "srcHref": "srcs/rp-dma.ads.html#L129"
     },
     {
       "label": "Store",
