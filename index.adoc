@@ -121,7 +121,7 @@ The loop toggles the LED on and off every 250 milliseconds. Use `alr build` to r
 - https://github.com/JeremyGrosser/pico_examples[pico_examples] demonstrates the functionality of rp2040_hal and pico_bsp and serves as a template for new projects.
 
 === Versioning
-Releases are tagged and added to the Alire index regularly. The API provided by these drivers should not be considered stable until a 1.0.0 release is tagged. Until then, breaking changes are allowed. After 1.0.0, we plan to follow the https://devhints.io/semver[Semver] pattern for version numbers.
+Releases are tagged and added to the Alire index regularly. We follow the https://devhints.io/semver[Semver] pattern, so the API provided by these drivers can be considered stable unless the major version number changes.
 
 This documentation relates to the `master` branch of the source repositories and may differ from what's available in Alire. If you need to use unreleased features or fixes, you can pin your project to the master branch. The master branch is unstable and may break your code, so this is not recommended unless you have a good reason.
 
