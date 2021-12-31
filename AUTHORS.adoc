@@ -1,0 +1,4 @@
+[%hardbreaks]
+Jeremy Grosser <jeremy@synack.me>
+Fabien Chouteau <fabien.chouteau@gmail.com>
+Daniel King <damaki.gh@gmail.com>

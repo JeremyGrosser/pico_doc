@@ -885,5 +885,8 @@ Bugs and usability issues may be reported by opening a https://github.com/Jeremy
 == License
 include::LICENSE.adoc[]
 
+== Authors
+include::AUTHORS.adoc[]
+
 == Change log
 include::CHANGELOG.adoc[]
