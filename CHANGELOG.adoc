@@ -1,3 +1,21 @@
+=== 1.1.0
+
+==== New features
+
+===== Interrupt proxy
+Interrupts are now proxied through the `RP_Interrupts` package, which is only included if the configuration `Use_Startup = true`, which is the default. This means the drivers can now be used with a Ravenscar runtime or other RTOS without clobbering the runtime's interrupt handlers.
+
+===== Build mode is now set to optimize by default
+Previously, debug symbols were included in every build and optimization was disabled by default. Now that we're calling this a stable release, debug mode on every build seems unnecessary.
+
+==== Bugs fixed
+
+===== SPI Transmit returned too early
+If `Blocking = True`, RP.SPI.Transmit should not return before the last bit is clocked out. The `Transmit_Status` function was only testing the FIFO status registers, but not testing the `SSPSR.BSY` flag, which indicates that the SPI clock is active. A new `Busy` state has been added to the `SPI_FIFO_Status` enum and the `Transmit_Status` and `Receive_Status` functions have been updated to test for it.
+
+===== UART Transmit returned too early
+Effectively the same bug as SPI.
+
 === 1.0.0
 
 ==== New features
