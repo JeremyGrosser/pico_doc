@@ -8,6 +8,9 @@ Interrupts are now proxied through the `RP_Interrupts` package, which is only in
 ===== Build mode is now set to optimize by default
 Previously, debug symbols were included in every build and optimization was disabled by default. Now that we're calling this a stable release, debug mode on every build seems unnecessary.
 
+===== Dependencies only use the major version
+Up to this point, the version numbers of rp2040_hal, pico_bsp, and pico_examples were kept in sync. Now that we have a stable release, it's not necessary to bump the BSP and examples for every release. Therefore, pico_bsp has been updated to depend on version `^1` of rp2040_hal, meaning any 1.x.x release. Similarly pico_examples depends on `^1` of pico_bsp. rp2040_hal has also been updated to depend on the major and minor versions of its dependencies, eg. `gnat_arm_elf = "^11.2"`.
+
 ==== Bugs fixed
 
 ===== SPI Transmit returned too early
