@@ -224,12 +224,6 @@ type GPIO_Point is new HAL.GPIO.GPIO_Point with record
 end record;
 ----
 
-The GPIO peripheral must be enabled before configuring and manipulating pin states.
-[source,ada]
-----
-RP.GPIO.Enable;
-----
-
 ==== Naming pins
 BSP packages contain names for pins that map to a schematic net name or silkscreened label familiar to the user. For example, `package Pico` contains the following definitions that match the board's documentation.
 [source,ada]
