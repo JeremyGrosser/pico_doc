@@ -16,5 +16,3 @@ asciidoctor:
     icons: font
     imagesdir: /img
     stylesdir: /css
-    #allow-uri-read: true
-    #cache-uri: true
