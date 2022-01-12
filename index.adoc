@@ -567,7 +567,7 @@ begin
     Enable (P.Slice);
 end PWM_Demo;
 ----
-In this example, the PWM slice is configured to run at 10 MHz with an interval of 10,000. The output frequency is `(Frequency / Interval)`. In this case, 1 KHz. The output will be high as long as the counter is less than or equal to Period, after which it transitions to low until the counter reaches Interval. The counter then resets to zero and begins again. In this example, the period is half of the interval, so the output has a 50% duty cycle. If the period is greater than or equal to the interval, the output is high for the entire cycle. If period is zero, the output is low for the entire cycle. Each channel's output may be inverted using the `Set_Invert` procedure.
+In this example, the PWM slice is configured to run at 10 MHz with an interval of 10,000. The output frequency is `(Frequency / Interval)`. In this case, 1 KHz. The output will be high as long as the counter is less than or equal to the value passed to `Set_Duty_Cycle`, after which it transitions to low until the counter reaches `Interval`. The counter then resets to zero and begins again. In this example, the duty cycle is half of the interval, so the output has a 50% duty cycle. If the duty cycle is greater than or equal to the interval, the output is high for the entire cycle. If duty cycle is zero, the output is low for the entire cycle. Each channel's output may be inverted using the `Set_Invert` procedure.
 
 All of these parameters may be changed while the clock is running to modulate the output. See section 4.5.2.1. Pulse Width Modulation of the RP2040 datasheet for specifics about when changes to a running PWM slice take effect.
 
