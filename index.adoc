@@ -301,7 +301,7 @@ end;
 === Timing
 
 ==== Timer
-The Timer peripheral runs at 1 MHz (1 microsecond per tick) and counts up from zero at power on. The counter is 64 bits wide and will not overflow in your lifetime. The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-timer.ads[RP.Timer] package defines several procedures for getting the current timer value and delaying for a period of time. This package implements the https://github.com/Fabien-Chouteau/hal/blob/master/src/hal-time.ads[HAL.Time] interface.
+The Timer peripheral runs at 1 MHz (1 microsecond per tick) and counts up from zero at power on. The counter is 64 bits wide and https://www.wolframalpha.com/input/?i=2**64+microseconds+in+years[will not overflow in your lifetime]. The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-timer.ads[RP.Timer] package defines several procedures for getting the current timer value and delaying for a period of time. This package implements the https://github.com/Fabien-Chouteau/hal/blob/master/src/hal-time.ads[HAL.Time] interface.
 
 `Clock` returns the current value of the timer, microseconds since power on.
 [source,ada]
