@@ -209,7 +209,7 @@ Some boards, like the Adafruit Feather RP2040, have higher capacitance on the cr
 RP.Clock.Initialize
     (XOSC_Frequency     => 12_000_000,
      XOSC_Startup_Delay => 768_000);
---  roughly 64ms ((1.0 / 12_000_000) * 768_000)
+--  roughly 64ms ((1.0 / 12_000_000.0) * 768_000.0)
 ----
 
 === GPIO
