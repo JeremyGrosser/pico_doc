@@ -145,15 +145,7 @@ image::clock_tree.png[Clock tree,link="/img/clock_tree.png",title="Clock tree"]
 
 See section 2.15 of the https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf[RP2040 datasheet] for a detailed description of the clock hierarchy.
 
-[source,ada]
-----
-procedure RP.Clock.Initialize
-    (XOSC_Frequency     : XOSC_Hertz := 0;
-     XOSC_Startup_Delay : XOSC_Cycles := 12_032);
-----
-Some oscillators may need a longer startup delay. If your system clock doesn't run at the frequency you expect, try adjusting this. NXP's https://www.nxp.com/docs/en/application-note/AN3208.pdf[Crystal Oscillator Troubleshooting Guide] has some good advice if you're building a custom board.
-
-[cols="1,1,1",title="Clock configuration after Initialize"]
+[cols="1,1,1",title="Clock configuration after RP.Clock.Initialize"]
 |===
 |Name
 |Frequency
@@ -208,6 +200,16 @@ declare
 begin
     Put_Line (Divider'Image);
 end;
+----
+
+Some boards, like the Adafruit Feather RP2040, have higher capacitance on the crystal oscillator and need to set a longer `XOSC_Startup_Delay` to compensate.
+
+[source,ada]
+----
+RP.Clock.Initialize
+    (XOSC_Frequency     => 12_000_000,
+     XOSC_Startup_Delay => 768_000);
+--  roughly 64ms ((1.0 / 12_000_000) * 768_000)
 ----
 
 === GPIO
