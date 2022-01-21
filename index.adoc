@@ -164,7 +164,7 @@ See section 2.15 of the https://datasheets.raspberrypi.org/rp2040/rp2040-datashe
 |Yes
 
 |clk_rtc
-|1 MHz
+|46.875 KHz
 |No
 
 |clk_usb
