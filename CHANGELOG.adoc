@@ -1,5 +1,24 @@
 === 1.1.1 (UNRELEASED)
 
+==== New features
+
+===== External clock output
+The RP2040 can expose any of the internal clocks to an external pin. For example,
+[source,ada]
+----
+with RP.Clock; use RP.Clock;
+with RP.GPIO;
+with Pico;
+
+procedure Main is
+begin
+    RP.GPIO.Configure (Pico.GP21, RP.GPIO.Pull_Up, RP.GPIO.CLOCK);
+    Set_Source (GPOUT0, SYS);
+    Enable (GPOUT0);
+end Main;
+----
+See *1.4.3 GPIO_Functions* in the RP2040 datasheet to determine the mapping between GPOUT channels and GPIO pins. I didn't add a lookup table for this mapping to RP.Clock as that would introduce a dependency on RP.GPIO, which may be undesirable.
+
 ==== Bugs fixed
 
 ===== RTC drift
