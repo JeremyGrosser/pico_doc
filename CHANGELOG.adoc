@@ -1,3 +1,13 @@
+=== 1.1.1 (UNRELEASED)
+
+==== Bugs fixed
+
+===== RTC drift
+The RTC's internal divider value was off by one. The RTC should drift a lot less now.
+
+===== Frequency counter fractions
+The `RP.Clock.Frequency` return value did not include the value of the `FRAC` register. `RP.Clock` currently does not support any sort of frequency scaling, so `FRAC` should always be zero. This change shouldn't change the behavior of existing code.
+
 === 1.1.0
 
 ==== New features
