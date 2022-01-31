@@ -30,7 +30,7 @@ The RTC's internal divider value was off by one. The RTC should drift a lot less
 ===== Frequency counter fractions
 The `RP.Clock.Frequency` return value did not include the value of the `FRAC` register. `RP.Clock` currently does not support any sort of frequency scaling, so `FRAC` should always be zero. This change shouldn't change the behavior of existing code.
 
-===== RP.ADC.Disable did not disabled clk_adc
+===== RP.ADC.Disable did not disable clk_adc
 To save power, clk_adc is now disabled whenever the ADC peripheral is disabled.
 
 === 1.1.0
