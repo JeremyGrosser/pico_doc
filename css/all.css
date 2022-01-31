@@ -691,7 +691,6 @@ pre.pygments .tok-ss { color: #a31515 } /* Literal.String.Symbol */@font-face {
     font-weight: 700;
     src: url("/font/IBMPlexMono-Bold.woff2") format("woff2");
 }
-
 body {
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 400;
