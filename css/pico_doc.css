@@ -1,4 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,200;0,400;0,700;1,400&display=swap');
+@font-face {
+    font-family: "IBM Plex Sans";
+    font-weight: 200;
+    src: url("/font/IBMPlexSans-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+    src: url("/font/IBMPlexSans-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+    font-style: italic;
+    src: url("/font/IBMPlexSans-Italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "IBM Plex Sans";
+    font-weight: 700;
+    src: url("/font/IBMPlexSans-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    src: url("/font/IBMPlexMono-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "IBM Plex Mono";
+    font-weight: 700;
+    src: url("/font/IBMPlexMono-Bold.woff2") format("woff2");
+}
 
 body {
     font-family: "IBM Plex Sans", sans-serif;
@@ -59,7 +94,7 @@ hr, .sect1 + .sect1 {
 
 .overbar {
     text-decoration: overline;
-    font-weight: bold;
+    font-weight: 700;
     color: #7f0a0c;
 }
 
