@@ -6,6 +6,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - Rakefile
+  - minify.sh
 asciidoc: {}
 asciidoctor:
   base_dir: :docdir
