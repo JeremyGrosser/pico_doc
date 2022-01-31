@@ -19,6 +19,9 @@ end Main;
 ----
 See *1.4.3 GPIO_Functions* in the RP2040 datasheet to determine the mapping between GPOUT channels and GPIO pins. I didn't add a lookup table for this mapping to RP.Clock as that would introduce a dependency on RP.GPIO, which may be undesirable.
 
+===== DMA pacing timers
+The DMA peripheral has four internal timers that can be configured as a trigger source for any DMA channel. These pacing timers have a fractional divider connected to clk_sys. The trigger rate is defined as `clk_sys * (X / Y)`. X and Y are 32 bit unsigned integers and can be configured with the new `RP.DMA.Set_Pacing_Timer` procedure.
+
 ==== Bugs fixed
 
 ===== RTC drift
@@ -26,6 +29,9 @@ The RTC's internal divider value was off by one. The RTC should drift a lot less
 
 ===== Frequency counter fractions
 The `RP.Clock.Frequency` return value did not include the value of the `FRAC` register. `RP.Clock` currently does not support any sort of frequency scaling, so `FRAC` should always be zero. This change shouldn't change the behavior of existing code.
+
+===== RP.ADC.Disable did not disabled clk_adc
+To save power, clk_adc is now disabled whenever the ADC peripheral is disabled.
 
 === 1.1.0
 
