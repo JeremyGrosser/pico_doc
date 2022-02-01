@@ -869,8 +869,42 @@ The GNAT user guide includes a https://gcc.gnu.org/onlinedocs/gnat_ugn/Alphabeti
    end Linker;
 ----
 
-=== Ravenscar runtimes
-There is a https://github.com/AdaCore/bb-runtimes/pull/55[pull request] to add ravenscar-sfp and ravenscar-full runtime support for the RP2040 to bb-runtimes. At the moment, these patches are not distributed with any toolchain. Building these runtimes is a bit tricky, so if you really need this and can't figure out how get it working, xref:community_support[come say hi on Gitter].
+=== Runtime profiles
+The http://www.ada-auth.org/standards/rm12_w_tc1/html/RM-TOC.html[Ada language standard] requires compilers to support many features, not all of which are possible or desirable on constrained embedded devices. The `pragma Restrictions` directive can be used to prevent applications from using certain features. Profiles are pre-defined lists of Restrictions.
+
+A Runtime is an implementation of a profile. The GNAT ARM toolchain includes several runtimes, which are maintained in the https://github.com/AdaCore/bb-runtimes[bb-runtimes] repository.
+
+==== Zero Footprint (ZFP)
+Zero Footprint profiles minimize the amount of support code required to run Ada on bare metal. rp2040_hal targets the `zfp-cortex-m0p` runtime. ZFP runtimes do not support dynamic memory allocation, tasking, or exception propagation. A detailed discussion of ZFP restrictions can be found in https://docs.adacore.com/gnathie_ug-docs/html/gnathie_ug/gnathie_ug/the_predefined_profiles.html#the-zero-footprint-profile[this GNAT User's Guide Supplement] from AdaCore.
+
+==== The Ravenscar profile
+http://www.ada-auth.org/standards/rm12_w_tc1/html/RM-D-13.html[The Ravenscar Profile] is less restrictive than ZFP, notably including support for tasking and multiprocessing.
+
+[quote, John Barnes, Rationale for Ada 2005 section 5.4]
+____
+The purpose of the Ravenscar profile is to restrict the use of many tasking facilities so that the effect of the program is predictable. The profile was defined by the International Real-Time Ada Workshops which met twice at the remote village of Ravenscar on the coast of Yorkshire in North-East England. A general description of the principles and use of the profile in high integrity systems will be found in an ISO/IEC Technical Report and so we shall not cover that material here.
+
+It is reputed that the hotel in which the workshops were held was originally built as a retreat for King George III to keep a mistress. Another odd rumour is that he ordered all the natural trees to be removed and replaced by metallic ones whose metal leaves clattered in the wind. It also seems that Henry Bolingbroke landed at Ravenscar in July 1399 on his way to take the throne as Henry IV. Ravenscar is mentioned several times by Shakespeare in Act II of King Richard II; it is spelt Ravenspurg which is slightly confusing – maybe we need the ability to rename profile identifiers.
+____
+
+There is a port of bb-runtimes for the RP2040, but it has not been merged into bb-runtimes yet and is not distributed with the GNAT ARM toolchain. However, projects can still use the Ravenscar runtime by depending on the https://github.com/JeremyGrosser/ravenscar_full_rp2040[ravenscar_full_rp2040] Alire crate. This crate is not included in the Alire index as it is expected to be deprecated once RP2040 support is merged into bb-runtimes.
+
+[source,shell]
+----
+alr with ravenscar_full_rp2040 --use=https://github.com/JeremyGrosser/ravenscar_full_rp2040
+----
+
+The Ravenscar runtime includes it's own startup and linker scripts for the RP2040. This conflicts with those provided by rp2040_hal, so you need to add a directive to alire.toml
+
+[source,toml]
+----
+[configuration.values]
+rp2040_hal.Use_Startup = false
+----
+
+Next, modify your .gpr project file to use the Ravenscar runtime and remove any references to rp2040_hal's Linker_Switches. https://github.com/JeremyGrosser/the_grid/blob/tasks/the_grid.gpr[Example Ravenscar project].
+
+Once your project is configured, you should be able to make use of tasking, multiprocessing, and protected types. The https://learn.adacore.com/courses/Ada_For_The_Embedded_C_Developer/chapters/03_Concurrency.html[Concurrency and Real-Time] document provides several examples.
 
 == API reference
 We have link:/gnatdoc/index.html[generated API documentation] but in most cases it's easier to just https://github.com/JeremyGrosser/rp2040_hal/tree/master/src/drivers[read the .ads files] in rp2040_hal.
