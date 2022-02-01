@@ -202,16 +202,6 @@ begin
 end;
 ----
 
-Some boards, like the Adafruit Feather RP2040, have higher capacitance on the crystal oscillator and need to set a longer `XOSC_Startup_Delay` to compensate.
-
-[source,ada]
-----
-RP.Clock.Initialize
-    (XOSC_Frequency     => 12_000_000,
-     XOSC_Startup_Delay => 768_000);
---  roughly 64ms ((1.0 / 12_000_000.0) * 768_000.0)
-----
-
 === GPIO
 image::pad-config.png[IO pad diagram,title="IO pad diagram",link="/img/pad-config.png"]
 The RP2040 has 29 GPIO pins. The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-gpio.ads[RP.GPIO] package implements the abstract https://github.com/Fabien-Chouteau/hal/blob/master/src/hal-gpio.ads[HAL.GPIO] interface.
@@ -824,6 +814,17 @@ rp2040_hal.Use_Startup = false
 It is unlikely that your custom board has the same pinout as the Pico. Most BSP crates will include a package that defines symbolic names for GPIO pins that match a schematic net name or silkscreen that a user of your board would recognize.
 
 The https://github.com/JeremyGrosser/pico_examples/blob/master/feather_rp2040_bsp/src/feather_rp2040.ads[Adafruit Feather RP2040 example] provides pin definitions for a custom board.
+
+==== XOSC startup delay
+Some boards, like the Adafruit Feather RP2040, have higher capacitance on the crystal oscillator traces and need to set a longer `XOSC_Startup_Delay` to compensate.
+
+[source,ada]
+----
+RP.Clock.Initialize
+    (XOSC_Frequency     => 12_000_000,
+     XOSC_Startup_Delay => 768_000);
+--  roughly 64ms ((1.0 / 12_000_000.0) * 768_000.0)
+----
 
 === Optimization
 While compile-time optimizations are no substitute for efficient algorithms, GCC can usually make your code fast and small enough for all but the most demanding tasks. Flags can be passed to the compiler and linker in a gpr project file using the `Switches` option.
