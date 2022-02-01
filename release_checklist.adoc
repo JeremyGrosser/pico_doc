@@ -1,0 +1,30 @@
+= Release checklist
+This checklist is used by maintainers to release a new version of rp2040_hal, pico_bsp, or pico_examples.
+
+== Before release
+
+* [ ] Ensure copyright and license headers are added to any new source files
+* [ ] All unit tests build and pass on a Pico
+* [ ] pico_examples build successfully when pinned to HEAD of rp2040_hal and pico_bsp
+* [ ] Remove all pins from alire.toml
+
+== For each crate that contains changes
+
+* [ ] Increment version in alire.toml and commit
+* [ ] Create a signed git tag for the new version
+* [ ] Push master and tags to github
+* [ ] alr publish
+
+== Add the new release to alire-index
+
+* [ ] Update your alire-index checkout to match the upstream stable-1.1 branch
+* [ ] Copy alire/releases/${CRATE_NAME}-${CRATE_VERSION}.toml to the alire-index checkout
+* [ ] Commit, review, and push the alire-index diff, open a pull request to merge.
+
+== After alire-index merge
+
+* [ ] alr index --update-all
+* [ ] Ensure that pico_examples builds against the new versions with no pins
+* [ ] Regenerate gnatdoc in pico_doc
+* [ ] Update CHANGELOG.adoc and rebuild documentation site
+* [ ] Create a version tag in pico_doc
