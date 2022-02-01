@@ -1,3 +1,10 @@
+=== 1.2.1
+
+==== Bugs fixed
+
+===== RP.ROM.Floating_Point used C_float
+The use of C_float in the spec for RP.ROM.Floating_Point required quite a bit of type casting to/from Float in normal use. The public interface of RP.ROM.Floating_Point has been changed to use the Float type and conversions to/from C_float are performed in the package body.
+
 === 1.2.0
 
 ==== New features
