@@ -22,6 +22,15 @@ See *1.4.3 GPIO_Functions* in the RP2040 datasheet to determine the mapping betw
 ===== DMA pacing timers
 The DMA peripheral has four internal timers that can be configured as a trigger source for any DMA channel. These pacing timers have a fractional divider connected to clk_sys. The trigger rate is defined as `clk_sys * (X / Y)`. X and Y are 32 bit unsigned integers and can be configured with the new `RP.DMA.Set_Pacing_Timer` procedure.
 
+===== ROM floating point
+The `RP.ROM` and `RP.ROM.Floating_Point` packages have undergone a significant refactor that enables the use of the ROM floating point library in lieu of gcc's soft float functions in most cases.
+
+The `RP.ROM.rom_id` symbol has been removed, as it pointed to an incorrect value. `RP.ROM.Header.Version` and `RP.ROM.Header.Magic` should be used to identify the ROM instead.
+
+`src/startup/crt0.S` *must* branch to the `rp_rom_float_initialize` after copying .data and .bss but before calling any other initialization. If you have copied or modified `crt0.S` in your project, you will need to integrate these changes.
+
+The `rom_hword_as_ptr` symbol has been removed. We now use a `type Short_Address` to represent the ROM's lookup table offsets and convert it to `System.Address` where needed. This is an implementation detail and shouldn't affect users of this library.
+
 ==== Bugs fixed
 
 ===== RTC drift
