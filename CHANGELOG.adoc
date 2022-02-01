@@ -1,4 +1,4 @@
-=== 1.2.0 (next release)
+=== 1.2.0
 
 ==== New features
 
