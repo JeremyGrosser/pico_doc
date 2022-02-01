@@ -31,13 +31,13 @@ The `RP.ROM.rom_id` symbol has been removed, as it pointed to an incorrect value
 
 The `rom_hword_as_ptr` symbol has been removed. We now use a `type Short_Address` to represent the ROM's lookup table offsets and convert it to `System.Address` where needed. This is an implementation detail and shouldn't affect users of this library.
 
+===== Frequency counter accuracy
+`RP.Clock.Frequency` now has two optional arguments: `Rounded : Boolean` and `Accuracy : UInt4`. The default behavior enables rounding and maximum accuracy, making the frequency counter results very stable. This replicates the behavior of pico-sdk. If rounding is disabled, then the counter results include some error, between 64 Hz and 2048 KHz, depending on the value of Accuracy. Higher values for Accuracy increase the counter sampling time.
+
 ==== Bugs fixed
 
 ===== RTC drift
 The RTC's internal divider value was off by one. The RTC should drift a lot less now.
-
-===== Frequency counter fractions
-The `RP.Clock.Frequency` return value did not include the value of the `FRAC` register. `RP.Clock` currently does not support any sort of frequency scaling, so `FRAC` should always be zero. This change shouldn't change the behavior of existing code.
 
 ===== RP.ADC.Disable did not disable clk_adc
 To save power, clk_adc is now disabled whenever the ADC peripheral is disabled.
