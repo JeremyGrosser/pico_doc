@@ -252,7 +252,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "If the RTC is already running, Initialize resets the time to zero.\n"
+                  "text": "If the RTC is already running, this procedure resets the time to zero.\n"
                 }
               ]
             }

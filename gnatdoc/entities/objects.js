@@ -289,13 +289,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/hal-sdmmc.ads.html#L310"
     },
     {
-      "label": "copyright_string",
-      "docHref": "docs/rp__rom___spec.html#L152C4",
-      "declared": "RP.ROM",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L152"
-    },
-    {
       "label": "Croatian",
       "docHref": "docs/usb__lang___spec.html#L37C4",
       "declared": "USB.Lang",
@@ -520,13 +513,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/cortex_m-dwt.ads.html#L57"
     },
     {
-      "label": "fplib_start",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L50C4",
-      "declared": "RP.ROM.Floating_Point",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L50"
-    },
-    {
       "label": "French_Belgian",
       "docHref": "docs/usb__lang___spec.html#L60C4",
       "declared": "USB.Lang",
@@ -619,10 +605,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "git_revision",
-      "docHref": "docs/rp__rom___spec.html#L156C4",
+      "docHref": "docs/rp__rom___spec.html#L168C4",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L156"
+      "srcHref": "srcs/rp-rom.ads.html#L168"
     },
     {
       "label": "Go_Idle_State",
@@ -759,10 +745,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Initialized",
-      "docHref": "docs/rp__pwm___spec.html#L43C4",
+      "docHref": "docs/rp__pwm___spec.html#L44C4",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L43"
+      "srcHref": "srcs/rp-pwm.ads.html#L44"
     },
     {
       "label": "INTERP0_Base",
@@ -1225,13 +1211,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP2040_SVD",
       "declared_qualifier": "",
       "srcHref": "srcs/rp2040_svd.ads.html#L25"
-    },
-    {
-      "label": "rom_id",
-      "docHref": "docs/rp__rom___spec.html#L12C4",
-      "declared": "RP.ROM",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L12"
     },
     {
       "label": "Romanian",

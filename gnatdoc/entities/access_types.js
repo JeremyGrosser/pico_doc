@@ -128,18 +128,25 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/usb-hal-device.ads.html#L35"
     },
     {
+      "label": "Interrupt_Handler",
+      "docHref": "docs/rp_interrupts___spec.html#L16C9",
+      "declared": "RP_Interrupts",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp_interrupts.ads.html#L16"
+    },
+    {
       "label": "Interrupt_Procedure",
-      "docHref": "docs/rp__gpio___spec.html#L50C9",
+      "docHref": "docs/rp__gpio___spec.html#L51C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L50"
+      "srcHref": "srcs/rp-gpio.ads.html#L51"
     },
     {
       "label": "PWM_Interrupt_Handler",
-      "docHref": "docs/rp__pwm___spec.html#L40C9",
+      "docHref": "docs/rp__pwm___spec.html#L41C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L40"
+      "srcHref": "srcs/rp-pwm.ads.html#L41"
     },
     {
       "label": "Report_Descriptor_Access",

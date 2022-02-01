@@ -254,7 +254,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  If the RTC is already running, Initialize resets the time to zero."
+          "text": "--  If the RTC is already running, this procedure resets the time to zero."
         }
       ]
     },

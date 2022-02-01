@@ -193,8 +193,24 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Invalid",
+                      "text": "Busy",
                       "href": "docs/rp__uart___spec.html#L38C53"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Invalid",
+                      "href": "docs/rp__uart___spec.html#L38C59"
                     },
                     {
                       "kind": "span",
@@ -235,9 +251,16 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Invalid",
+              "label": "Busy",
               "line": 38,
               "column": 53,
+              "description": [
+              ]
+            },
+            {
+              "label": "Invalid",
+              "line": 38,
+              "column": 59,
               "description": [
               ]
             }
@@ -896,7 +919,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Hertz",
-                      "href": "docs/rp___spec.html#L9C12"
+                      "href": "docs/rp___spec.html#L11C12"
                     },
                     {
                       "kind": "span",
@@ -1375,7 +1398,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "RP.Hertz",
-                "docHref": "docs/rp___spec.html#L9C12"
+                "docHref": "docs/rp___spec.html#L11C12"
               },
               "description": [
               ]

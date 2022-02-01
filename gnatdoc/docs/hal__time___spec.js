@@ -192,7 +192,7 @@ GNATdoc.Documentation = {
           "inherited": [
             {
               "label": "Delays",
-              "docHref": "docs/rp__timer___spec.html#L17C9"
+              "docHref": "docs/rp__timer___spec.html#L18C9"
             },
             {
               "label": "Delays",

@@ -850,7 +850,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Full",
+          "text": "Busy",
           "href": "docs/rp__spi___spec.html#L21C46"
         },
         {
@@ -866,8 +866,24 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Invalid",
+          "text": "Full",
           "href": "docs/rp__spi___spec.html#L21C52"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Invalid",
+          "href": "docs/rp__spi___spec.html#L21C58"
         },
         {
           "kind": "span",
@@ -1032,7 +1048,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Hertz",
-          "href": "docs/rp___spec.html#L9C12"
+          "href": "docs/rp___spec.html#L11C12"
         },
         {
           "kind": "span",
@@ -1768,7 +1784,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Hertz",
-          "href": "docs/rp___spec.html#L9C12"
+          "href": "docs/rp___spec.html#L11C12"
         },
         {
           "kind": "span",

@@ -66,10 +66,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Advance_Phase",
-      "docHref": "docs/rp__pwm___spec.html#L125C14",
+      "docHref": "docs/rp__pwm___spec.html#L126C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L125"
+      "srcHref": "srcs/rp-pwm.ads.html#L126"
     },
     {
       "label": "Allocate",
@@ -94,10 +94,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Attach",
-      "docHref": "docs/rp__pwm___spec.html#L142C14",
+      "docHref": "docs/rp__pwm___spec.html#L143C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L142"
+      "srcHref": "srcs/rp-pwm.ads.html#L143"
+    },
+    {
+      "label": "Attach_Handler",
+      "docHref": "docs/rp_interrupts___spec.html#L20C14",
+      "declared": "RP_Interrupts",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp_interrupts.ads.html#L20"
     },
     {
       "label": "Bits_Per_Pixel",
@@ -157,10 +164,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Clock",
-      "docHref": "docs/rp__timer___spec.html#L14C13",
+      "docHref": "docs/rp__timer___spec.html#L15C13",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L14"
+      "srcHref": "srcs/rp-timer.ads.html#L15"
     },
     {
       "label": "Close",
@@ -171,10 +178,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "clz32",
-      "docHref": "docs/rp__rom___spec.html#L60C13",
+      "docHref": "docs/rp__rom___spec.html#L74C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L60"
+      "srcHref": "srcs/rp-rom.ads.html#L74"
     },
     {
       "label": "Commit",
@@ -269,10 +276,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "connect_internal_flash",
-      "docHref": "docs/rp__rom___spec.html#L94C14",
+      "docHref": "docs/rp__rom___spec.html#L108C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L94"
+      "srcHref": "srcs/rp-rom.ads.html#L108"
     },
     {
       "label": "Control_In",
@@ -310,11 +317,18 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/usb-utils.ads.html#L44"
     },
     {
+      "label": "copyright_string",
+      "docHref": "docs/rp__rom___spec.html#L165C13",
+      "declared": "RP.ROM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-rom.ads.html#L165"
+    },
+    {
       "label": "Count",
-      "docHref": "docs/rp__pwm___spec.html#L133C13",
+      "docHref": "docs/rp__pwm___spec.html#L134C13",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L133"
+      "srcHref": "srcs/rp-pwm.ads.html#L134"
     },
     {
       "label": "Counted_To_Zero",
@@ -332,10 +346,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "ctz32",
-      "docHref": "docs/rp__rom___spec.html#L67C13",
+      "docHref": "docs/rp__rom___spec.html#L81C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L67"
+      "srcHref": "srcs/rp-rom.ads.html#L81"
     },
     {
       "label": "D_Cache_Enabled",
@@ -353,17 +367,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "debug_trampoline",
-      "docHref": "docs/rp__rom___spec.html#L132C14",
+      "docHref": "docs/rp__rom___spec.html#L146C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L132"
+      "srcHref": "srcs/rp-rom.ads.html#L146"
     },
     {
       "label": "Default_SM_Config",
-      "docHref": "docs/rp__pio___spec.html#L123C13",
+      "docHref": "docs/rp__pio___spec.html#L124C13",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L123"
+      "srcHref": "srcs/rp-pio.ads.html#L124"
     },
     {
       "label": "Disable",
@@ -381,10 +395,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Disable",
-      "docHref": "docs/rp__clock___spec.html#L38C14",
+      "docHref": "docs/rp__clock___spec.html#L40C14",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L38"
+      "srcHref": "srcs/rp-clock.ads.html#L40"
     },
     {
       "label": "Disable",
@@ -395,17 +409,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Disable",
-      "docHref": "docs/rp__pwm___spec.html#L98C14",
+      "docHref": "docs/rp__pwm___spec.html#L99C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L98"
+      "srcHref": "srcs/rp-pwm.ads.html#L99"
     },
     {
       "label": "Disable",
-      "docHref": "docs/rp__pwm___spec.html#L106C14",
+      "docHref": "docs/rp__pwm___spec.html#L107C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L106"
+      "srcHref": "srcs/rp-pwm.ads.html#L107"
     },
     {
       "label": "Disable",
@@ -528,10 +542,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__clock___spec.html#L35C14",
+      "docHref": "docs/rp__clock___spec.html#L37C14",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L35"
+      "srcHref": "srcs/rp-clock.ads.html#L37"
     },
     {
       "label": "Enable",
@@ -542,24 +556,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__gpio___spec.html#L54C14",
+      "docHref": "docs/rp__gpio___spec.html#L55C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L54"
+      "srcHref": "srcs/rp-gpio.ads.html#L55"
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__pwm___spec.html#L94C14",
+      "docHref": "docs/rp__pwm___spec.html#L95C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L94"
+      "srcHref": "srcs/rp-pwm.ads.html#L95"
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__pwm___spec.html#L102C14",
+      "docHref": "docs/rp__pwm___spec.html#L103C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L102"
+      "srcHref": "srcs/rp-pwm.ads.html#L103"
     },
     {
       "label": "Enable",
@@ -626,24 +640,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enabled",
-      "docHref": "docs/rp__clock___spec.html#L41C13",
+      "docHref": "docs/rp__clock___spec.html#L61C13",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L41"
+      "srcHref": "srcs/rp-clock.ads.html#L61"
     },
     {
       "label": "Enabled",
-      "docHref": "docs/rp__gpio___spec.html#L56C13",
+      "docHref": "docs/rp__gpio___spec.html#L57C13",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L56"
+      "srcHref": "srcs/rp-gpio.ads.html#L57"
     },
     {
       "label": "Enabled",
-      "docHref": "docs/rp__pwm___spec.html#L110C13",
+      "docHref": "docs/rp__pwm___spec.html#L111C13",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L110"
+      "srcHref": "srcs/rp-pwm.ads.html#L111"
     },
     {
       "label": "Enter",
@@ -689,38 +703,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "fadd",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L59C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L17C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L59"
-    },
-    {
-      "label": "fatan2",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L192C13",
-      "declared": "RP.ROM.Floating_Point",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L192"
-    },
-    {
-      "label": "fcmp",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L185C13",
-      "declared": "RP.ROM.Floating_Point",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L185"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L17"
     },
     {
       "label": "fcos",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L148C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L70C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L148"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L70"
     },
     {
       "label": "fdiv",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L77C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L25C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L77"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L25"
     },
     {
       "label": "Fetch_Add",
@@ -836,10 +836,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "fexp",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L169C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L74C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L169"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L74"
     },
     {
       "label": "FIFO_Address",
@@ -856,165 +856,130 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/usb-device.ads.html#L123"
     },
     {
-      "label": "fix2float",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L125C13",
-      "declared": "RP.ROM.Floating_Point",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L125"
-    },
-    {
-      "label": "fix642float",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L206C13",
-      "declared": "RP.ROM.Floating_Point",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L206"
-    },
-    {
       "label": "flash_enter_cmd_xip",
-      "docHref": "docs/rp__rom___spec.html#L126C14",
+      "docHref": "docs/rp__rom___spec.html#L140C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L126"
+      "srcHref": "srcs/rp-rom.ads.html#L140"
     },
     {
       "label": "flash_exit_xip",
-      "docHref": "docs/rp__rom___spec.html#L99C14",
-      "declared": "RP.ROM",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L99"
-    },
-    {
-      "label": "flash_flush_cache",
-      "docHref": "docs/rp__rom___spec.html#L121C14",
-      "declared": "RP.ROM",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L121"
-    },
-    {
-      "label": "flash_range_erase",
-      "docHref": "docs/rp__rom___spec.html#L104C14",
-      "declared": "RP.ROM",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L104"
-    },
-    {
-      "label": "flash_range_program",
       "docHref": "docs/rp__rom___spec.html#L113C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-rom.ads.html#L113"
     },
     {
+      "label": "flash_flush_cache",
+      "docHref": "docs/rp__rom___spec.html#L135C14",
+      "declared": "RP.ROM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-rom.ads.html#L135"
+    },
+    {
+      "label": "flash_range_erase",
+      "docHref": "docs/rp__rom___spec.html#L118C14",
+      "declared": "RP.ROM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-rom.ads.html#L118"
+    },
+    {
+      "label": "flash_range_program",
+      "docHref": "docs/rp__rom___spec.html#L127C14",
+      "declared": "RP.ROM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-rom.ads.html#L127"
+    },
+    {
       "label": "fln",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L176C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L76C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L176"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L76"
     },
     {
       "label": "float2double",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L249C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L60C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L249"
-    },
-    {
-      "label": "float2fix",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L95C13",
-      "declared": "RP.ROM.Floating_Point",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L95"
-    },
-    {
-      "label": "float2fix64",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L228C13",
-      "declared": "RP.ROM.Floating_Point",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L228"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L60"
     },
     {
       "label": "float2int",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L89C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L50C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L89"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L50"
     },
     {
       "label": "float2int64",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L221C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L54C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L221"
-    },
-    {
-      "label": "float2ufix",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L110C13",
-      "declared": "RP.ROM.Floating_Point",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L110"
-    },
-    {
-      "label": "float2ufix64",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L242C13",
-      "declared": "RP.ROM.Floating_Point",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L242"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L54"
     },
     {
       "label": "float2uint",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L103C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L56C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L103"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L56"
     },
     {
       "label": "float2uint64",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L235C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L58C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L235"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L58"
     },
     {
       "label": "fmul",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L71C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L23C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L71"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L23"
     },
     {
       "label": "Frequency",
-      "docHref": "docs/rp__clock___spec.html#L45C13",
+      "docHref": "docs/rp__clock___spec.html#L66C13",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L45"
+      "srcHref": "srcs/rp-clock.ads.html#L66"
+    },
+    {
+      "label": "frsub",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L21C13",
+      "declared": "RP.ROM.Floating_Point",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L21"
     },
     {
       "label": "fsin",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L155C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L68C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L155"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L68"
     },
     {
       "label": "fsqrt",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L83C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L63C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L83"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L63"
     },
     {
       "label": "fsub",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L65C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L19C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L65"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L19"
     },
     {
       "label": "ftan",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L162C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L72C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L162"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L72"
     },
     {
       "label": "Get_Class_Info",
@@ -1050,13 +1015,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "Cortex_M.Debug",
       "declared_qualifier": "",
       "srcHref": "srcs/cortex_m-debug.ads.html#L34"
-    },
-    {
-      "label": "HardFault_Handler",
-      "docHref": "docs/runtime___spec.html#L11C14",
-      "declared": "Runtime",
-      "declared_qualifier": "",
-      "srcHref": "srcs/runtime.ads.html#L11"
     },
     {
       "label": "High",
@@ -1123,31 +1081,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Initialize",
-      "docHref": "docs/rp__clock___spec.html#L19C14",
+      "docHref": "docs/rp__clock___spec.html#L20C14",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L19"
+      "srcHref": "srcs/rp-clock.ads.html#L20"
     },
     {
       "label": "Initialize",
-      "docHref": "docs/rp__pwm___spec.html#L45C14",
+      "docHref": "docs/rp__pwm___spec.html#L46C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L45"
+      "srcHref": "srcs/rp-pwm.ads.html#L46"
+    },
+    {
+      "label": "Initialize",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L7C14",
+      "declared": "RP.ROM.Floating_Point",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L7"
     },
     {
       "label": "int2float",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L118C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L38C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L118"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L38"
     },
     {
       "label": "int642float",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L199C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L43C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L199"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L43"
     },
     {
       "label": "Invalidate_DCache",
@@ -1155,6 +1120,27 @@ GNATdoc.EntitiesCategory = {
       "declared": "Cortex_M.Cache",
       "declared_qualifier": "",
       "srcHref": "srcs/cortex_m-cache.ads.html#L63"
+    },
+    {
+      "label": "IRQ_Handler",
+      "docHref": "docs/rp__gpio___spec.html#L131C14",
+      "declared": "RP.GPIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-gpio.ads.html#L131"
+    },
+    {
+      "label": "IRQ_Handler",
+      "docHref": "docs/rp__pwm___spec.html#L149C14",
+      "declared": "RP.PWM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pwm.ads.html#L149"
+    },
+    {
+      "label": "IRQ_Handler",
+      "docHref": "docs/rp__timer___spec.html#L60C14",
+      "declared": "RP.Timer",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-timer.ads.html#L60"
     },
     {
       "label": "IRQ_Status",
@@ -1305,17 +1291,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "memset",
-      "docHref": "docs/rp__rom___spec.html#L75C13",
+      "docHref": "docs/rp__rom___spec.html#L89C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L75"
+      "srcHref": "srcs/rp-rom.ads.html#L89"
     },
     {
       "label": "memset4",
-      "docHref": "docs/rp__rom___spec.html#L84C13",
+      "docHref": "docs/rp__rom___spec.html#L98C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L84"
+      "srcHref": "srcs/rp-rom.ads.html#L98"
     },
     {
       "label": "Milliseconds",
@@ -1326,10 +1312,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Milliseconds",
-      "docHref": "docs/rp__timer___spec.html#L30C13",
+      "docHref": "docs/rp__timer___spec.html#L31C13",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L30"
+      "srcHref": "srcs/rp-timer.ads.html#L31"
     },
     {
       "label": "NAND",
@@ -1395,13 +1381,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/atomic-unsigned.ads.html#L234"
     },
     {
-      "label": "OS_Exit",
-      "docHref": "docs/runtime___spec.html#L6C14",
-      "declared": "Runtime",
-      "declared_qualifier": "",
-      "srcHref": "srcs/runtime.ads.html#L6"
-    },
-    {
       "label": "Pending",
       "docHref": "docs/cortex_m__nvic___spec.html#L65C13",
       "declared": "Cortex_M.NVIC",
@@ -1410,10 +1389,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "popcount32",
-      "docHref": "docs/rp__rom___spec.html#L46C13",
+      "docHref": "docs/rp__rom___spec.html#L60C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L46"
+      "srcHref": "srcs/rp-rom.ads.html#L60"
     },
     {
       "label": "Read",
@@ -1550,66 +1529,59 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "reset_to_usb_boot",
-      "docHref": "docs/rp__rom___spec.html#L138C14",
+      "docHref": "docs/rp__rom___spec.html#L152C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L138"
+      "srcHref": "srcs/rp-rom.ads.html#L152"
     },
     {
       "label": "Retard_Phase",
-      "docHref": "docs/rp__pwm___spec.html#L129C14",
+      "docHref": "docs/rp__pwm___spec.html#L130C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L129"
+      "srcHref": "srcs/rp-pwm.ads.html#L130"
     },
     {
       "label": "reverse32",
-      "docHref": "docs/rp__rom___spec.html#L53C13",
+      "docHref": "docs/rp__rom___spec.html#L67C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L53"
+      "srcHref": "srcs/rp-rom.ads.html#L67"
     },
     {
-      "label": "rom_data_lookup",
-      "docHref": "docs/rp__rom___spec.html#L41C13",
+      "label": "ROM_Data_Lookup",
+      "docHref": "docs/rp__rom___spec.html#L55C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L41"
+      "srcHref": "srcs/rp-rom.ads.html#L55"
     },
     {
-      "label": "rom_func_lookup",
-      "docHref": "docs/rp__rom___spec.html#L34C13",
+      "label": "ROM_Func_Lookup",
+      "docHref": "docs/rp__rom___spec.html#L48C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L34"
+      "srcHref": "srcs/rp-rom.ads.html#L48"
     },
     {
-      "label": "rom_hword_as_ptr",
-      "docHref": "docs/rp__rom___spec.html#L17C13",
+      "label": "ROM_Table_Code",
+      "docHref": "docs/rp__rom___spec.html#L39C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L17"
+      "srcHref": "srcs/rp-rom.ads.html#L39"
     },
     {
-      "label": "rom_table_code",
-      "docHref": "docs/rp__rom___spec.html#L29C13",
+      "label": "ROM_Table_Lookup",
+      "docHref": "docs/rp__rom___spec.html#L43C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L29"
-    },
-    {
-      "label": "rom_table_lookup",
-      "docHref": "docs/rp__rom___spec.html#L21C13",
-      "declared": "RP.ROM",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L21"
+      "srcHref": "srcs/rp-rom.ads.html#L43"
     },
     {
       "label": "ROSC_Frequency",
-      "docHref": "docs/rp__clock___spec.html#L56C13",
+      "docHref": "docs/rp__clock___spec.html#L83C13",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L56"
+      "srcHref": "srcs/rp-clock.ads.html#L83"
     },
     {
       "label": "Seek",
@@ -1648,31 +1620,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Clkdiv_Int_Frac",
-      "docHref": "docs/rp__pio___spec.html#L77C14",
+      "docHref": "docs/rp__pio___spec.html#L78C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L77"
+      "srcHref": "srcs/rp-pio.ads.html#L78"
     },
     {
       "label": "Set_Clock_Divider",
-      "docHref": "docs/rp__pio___spec.html#L73C14",
+      "docHref": "docs/rp__pio___spec.html#L74C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L73"
+      "srcHref": "srcs/rp-pio.ads.html#L74"
     },
     {
       "label": "Set_Clock_Frequency",
-      "docHref": "docs/rp__pio___spec.html#L69C14",
+      "docHref": "docs/rp__pio___spec.html#L70C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L69"
+      "srcHref": "srcs/rp-pio.ads.html#L70"
     },
     {
       "label": "Set_Count",
-      "docHref": "docs/rp__pwm___spec.html#L137C14",
+      "docHref": "docs/rp__pwm___spec.html#L138C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L137"
+      "srcHref": "srcs/rp-pwm.ads.html#L138"
     },
     {
       "label": "Set_Divider",
@@ -1683,73 +1655,80 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Divider",
-      "docHref": "docs/rp__pwm___spec.html#L58C14",
+      "docHref": "docs/rp__clock___spec.html#L57C14",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L57"
+    },
+    {
+      "label": "Set_Divider",
+      "docHref": "docs/rp__pwm___spec.html#L59C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L58"
+      "srcHref": "srcs/rp-pwm.ads.html#L59"
     },
     {
       "label": "Set_Duty_Cycle",
-      "docHref": "docs/rp__pwm___spec.html#L82C14",
+      "docHref": "docs/rp__pwm___spec.html#L83C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L82"
+      "srcHref": "srcs/rp-pwm.ads.html#L83"
     },
     {
       "label": "Set_Duty_Cycle",
-      "docHref": "docs/rp__pwm___spec.html#L88C14",
+      "docHref": "docs/rp__pwm___spec.html#L89C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L88"
+      "srcHref": "srcs/rp-pwm.ads.html#L89"
     },
     {
       "label": "Set_FIFO_Join",
-      "docHref": "docs/rp__pio___spec.html#L105C14",
+      "docHref": "docs/rp__pio___spec.html#L106C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L105"
+      "srcHref": "srcs/rp-pio.ads.html#L106"
     },
     {
       "label": "Set_Frequency",
-      "docHref": "docs/rp__pwm___spec.html#L66C14",
+      "docHref": "docs/rp__pwm___spec.html#L67C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L66"
+      "srcHref": "srcs/rp-pwm.ads.html#L67"
     },
     {
       "label": "Set_In_Pins",
-      "docHref": "docs/rp__pio___spec.html#L55C14",
+      "docHref": "docs/rp__pio___spec.html#L56C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L55"
+      "srcHref": "srcs/rp-pio.ads.html#L56"
     },
     {
       "label": "Set_In_Shift",
-      "docHref": "docs/rp__pio___spec.html#L93C14",
+      "docHref": "docs/rp__pio___spec.html#L94C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L93"
+      "srcHref": "srcs/rp-pio.ads.html#L94"
     },
     {
       "label": "Set_Interval",
-      "docHref": "docs/rp__pwm___spec.html#L74C14",
+      "docHref": "docs/rp__pwm___spec.html#L75C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L74"
+      "srcHref": "srcs/rp-pwm.ads.html#L75"
     },
     {
       "label": "Set_Invert",
-      "docHref": "docs/rp__pwm___spec.html#L114C14",
+      "docHref": "docs/rp__pwm___spec.html#L115C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L114"
+      "srcHref": "srcs/rp-pwm.ads.html#L115"
     },
     {
       "label": "Set_Jmp_Pin",
-      "docHref": "docs/rp__pio___spec.html#L87C14",
+      "docHref": "docs/rp__pio___spec.html#L88C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L87"
+      "srcHref": "srcs/rp-pio.ads.html#L88"
     },
     {
       "label": "Set_Mode",
@@ -1760,38 +1739,45 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Mode",
-      "docHref": "docs/rp__pwm___spec.html#L52C14",
+      "docHref": "docs/rp__pwm___spec.html#L53C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L52"
+      "srcHref": "srcs/rp-pwm.ads.html#L53"
     },
     {
       "label": "Set_MOV_Status",
-      "docHref": "docs/rp__pio___spec.html#L118C14",
+      "docHref": "docs/rp__pio___spec.html#L119C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L118"
+      "srcHref": "srcs/rp-pio.ads.html#L119"
     },
     {
       "label": "Set_Out_Pins",
-      "docHref": "docs/rp__pio___spec.html#L45C14",
+      "docHref": "docs/rp__pio___spec.html#L46C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L45"
+      "srcHref": "srcs/rp-pio.ads.html#L46"
     },
     {
       "label": "Set_Out_Shift",
-      "docHref": "docs/rp__pio___spec.html#L99C14",
+      "docHref": "docs/rp__pio___spec.html#L100C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L99"
+      "srcHref": "srcs/rp-pio.ads.html#L100"
     },
     {
       "label": "Set_Out_Special",
-      "docHref": "docs/rp__pio___spec.html#L110C14",
+      "docHref": "docs/rp__pio___spec.html#L111C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L110"
+      "srcHref": "srcs/rp-pio.ads.html#L111"
+    },
+    {
+      "label": "Set_Pacing_Timer",
+      "docHref": "docs/rp__dma___spec.html#L172C14",
+      "declared": "RP.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-dma.ads.html#L172"
     },
     {
       "label": "Set_Pending",
@@ -1802,10 +1788,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Phase_Correction",
-      "docHref": "docs/rp__pwm___spec.html#L120C14",
+      "docHref": "docs/rp__pwm___spec.html#L121C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L120"
+      "srcHref": "srcs/rp-pwm.ads.html#L121"
     },
     {
       "label": "Set_Priority",
@@ -1837,31 +1823,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Set_Pins",
-      "docHref": "docs/rp__pio___spec.html#L50C14",
+      "docHref": "docs/rp__pio___spec.html#L51C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L50"
+      "srcHref": "srcs/rp-pio.ads.html#L51"
     },
     {
       "label": "Set_Sideset",
-      "docHref": "docs/rp__pio___spec.html#L63C14",
+      "docHref": "docs/rp__pio___spec.html#L64C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L63"
+      "srcHref": "srcs/rp-pio.ads.html#L64"
     },
     {
       "label": "Set_Sideset_Pins",
-      "docHref": "docs/rp__pio___spec.html#L59C14",
+      "docHref": "docs/rp__pio___spec.html#L60C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L59"
+      "srcHref": "srcs/rp-pio.ads.html#L60"
+    },
+    {
+      "label": "Set_Source",
+      "docHref": "docs/rp__clock___spec.html#L46C14",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L46"
     },
     {
       "label": "Set_Wrap",
-      "docHref": "docs/rp__pio___spec.html#L82C14",
+      "docHref": "docs/rp__pio___spec.html#L83C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L82"
+      "srcHref": "srcs/rp-pio.ads.html#L83"
     },
     {
       "label": "Setup",
@@ -2068,10 +2061,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "To_PWM",
-      "docHref": "docs/rp__pwm___spec.html#L48C13",
+      "docHref": "docs/rp__pwm___spec.html#L49C13",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L48"
+      "srcHref": "srcs/rp-pwm.ads.html#L49"
     },
     {
       "label": "To_USB_String",
@@ -2088,25 +2081,18 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/usb-device.ads.html#L146"
     },
     {
-      "label": "ufix2float",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L140C13",
-      "declared": "RP.ROM.Floating_Point",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L140"
-    },
-    {
       "label": "uint2float",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L133C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L45C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L133"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L45"
     },
     {
       "label": "uint642float",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L214C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L47C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L214"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L47"
     },
     {
       "label": "Valid_Read_Slice",
@@ -2145,10 +2131,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "wait_for_vector",
-      "docHref": "docs/rp__rom___spec.html#L145C14",
+      "docHref": "docs/rp__rom___spec.html#L159C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L145"
+      "srcHref": "srcs/rp-rom.ads.html#L159"
     },
     {
       "label": "Write",

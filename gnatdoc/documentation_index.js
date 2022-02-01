@@ -470,9 +470,9 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/rp2040_svd__xosc___spec.html"
   },
   {
-    "label": "Runtime",
+    "label": "RP_Interrupts",
     "qualifier": "",
-    "file": "docs/runtime___spec.html"
+    "file": "docs/rp_interrupts___spec.html"
   },
   {
     "label": "Semihosting",

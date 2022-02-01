@@ -31,17 +31,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Delays",
-      "docHref": "docs/rp__timer___spec.html#L17C9",
+      "docHref": "docs/rp__timer___spec.html#L18C9",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L17"
+      "srcHref": "srcs/rp-timer.ads.html#L18"
     },
     {
       "label": "GPIO_Point",
-      "docHref": "docs/rp__gpio___spec.html#L18C9",
+      "docHref": "docs/rp__gpio___spec.html#L19C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L18"
+      "srcHref": "srcs/rp-gpio.ads.html#L19"
     },
     {
       "label": "I2C_Master_Port",
@@ -80,10 +80,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PIO_Device",
-      "docHref": "docs/rp__pio___spec.html#L15C9",
+      "docHref": "docs/rp__pio___spec.html#L16C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L15"
+      "srcHref": "srcs/rp-pio.ads.html#L16"
     },
     {
       "label": "RTC_Device",
@@ -115,10 +115,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "USB_Device_Controller",
-      "docHref": "docs/rp__usb_device___spec.html#L10C9",
+      "docHref": "docs/rp__usb_device___spec.html#L15C9",
       "declared": "RP.USB_Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-usb_device.ads.html#L10"
+      "srcHref": "srcs/rp-usb_device.ads.html#L15"
     },
     {
       "label": "USB_Device_Stack",

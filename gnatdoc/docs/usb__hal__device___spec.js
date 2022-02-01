@@ -1073,7 +1073,7 @@ GNATdoc.Documentation = {
           "inherited": [
             {
               "label": "USB_Device_Controller",
-              "docHref": "docs/rp__usb_device___spec.html#L10C9"
+              "docHref": "docs/rp__usb_device___spec.html#L15C9"
             }
           ]
         }

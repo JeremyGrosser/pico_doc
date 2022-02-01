@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Clock_Id",
           "qualifier": "",
-          "line": 32,
+          "line": 33,
           "column": 9,
           "src": "srcs/rp-clock.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 33,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Clock_Id",
-                      "href": "docs/rp__clock___spec.html#L32C9"
+                      "href": "docs/rp__clock___spec.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -59,7 +59,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -75,7 +75,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPOUT0",
-                      "href": "docs/rp__clock___spec.html#L33C8"
+                      "href": "docs/rp__clock___spec.html#L34C8"
                     },
                     {
                       "kind": "span",
@@ -91,7 +91,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPOUT1",
-                      "href": "docs/rp__clock___spec.html#L33C16"
+                      "href": "docs/rp__clock___spec.html#L34C16"
                     },
                     {
                       "kind": "span",
@@ -107,7 +107,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPOUT2",
-                      "href": "docs/rp__clock___spec.html#L33C24"
+                      "href": "docs/rp__clock___spec.html#L34C24"
                     },
                     {
                       "kind": "span",
@@ -123,7 +123,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPOUT3",
-                      "href": "docs/rp__clock___spec.html#L33C32"
+                      "href": "docs/rp__clock___spec.html#L34C32"
                     },
                     {
                       "kind": "span",
@@ -139,7 +139,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "REF",
-                      "href": "docs/rp__clock___spec.html#L33C40"
+                      "href": "docs/rp__clock___spec.html#L34C40"
                     },
                     {
                       "kind": "span",
@@ -155,7 +155,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SYS",
-                      "href": "docs/rp__clock___spec.html#L33C45"
+                      "href": "docs/rp__clock___spec.html#L34C45"
                     },
                     {
                       "kind": "span",
@@ -171,7 +171,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PERI",
-                      "href": "docs/rp__clock___spec.html#L33C50"
+                      "href": "docs/rp__clock___spec.html#L34C50"
                     },
                     {
                       "kind": "span",
@@ -187,7 +187,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USB",
-                      "href": "docs/rp__clock___spec.html#L33C56"
+                      "href": "docs/rp__clock___spec.html#L34C56"
                     },
                     {
                       "kind": "span",
@@ -203,7 +203,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC",
-                      "href": "docs/rp__clock___spec.html#L33C61"
+                      "href": "docs/rp__clock___spec.html#L34C61"
                     },
                     {
                       "kind": "span",
@@ -219,7 +219,109 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RTC",
-                      "href": "docs/rp__clock___spec.html#L33C66"
+                      "href": "docs/rp__clock___spec.html#L34C66"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 35,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PLL_SYS",
+                      "href": "docs/rp__clock___spec.html#L35C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GPIN0",
+                      "href": "docs/rp__clock___spec.html#L35C17"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GPIN1",
+                      "href": "docs/rp__clock___spec.html#L35C24"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PLL_USB",
+                      "href": "docs/rp__clock___spec.html#L35C31"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ROSC",
+                      "href": "docs/rp__clock___spec.html#L35C40"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "XOSC",
+                      "href": "docs/rp__clock___spec.html#L35C46"
                     },
                     {
                       "kind": "span",
@@ -230,7 +332,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/rp__clock___spec.html#L32C9"
+                      "href": "docs/rp__clock___spec.html#L33C9"
                     }
                   ]
                 }
@@ -240,80 +342,122 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "GPOUT0",
-              "line": 33,
+              "line": 34,
               "column": 8,
               "description": [
               ]
             },
             {
               "label": "GPOUT1",
-              "line": 33,
+              "line": 34,
               "column": 16,
               "description": [
               ]
             },
             {
               "label": "GPOUT2",
-              "line": 33,
+              "line": 34,
               "column": 24,
               "description": [
               ]
             },
             {
               "label": "GPOUT3",
-              "line": 33,
+              "line": 34,
               "column": 32,
               "description": [
               ]
             },
             {
               "label": "REF",
-              "line": 33,
+              "line": 34,
               "column": 40,
               "description": [
               ]
             },
             {
               "label": "SYS",
-              "line": 33,
+              "line": 34,
               "column": 45,
               "description": [
               ]
             },
             {
               "label": "PERI",
-              "line": 33,
+              "line": 34,
               "column": 50,
               "description": [
               ]
             },
             {
               "label": "USB",
-              "line": 33,
+              "line": 34,
               "column": 56,
               "description": [
               ]
             },
             {
               "label": "ADC",
-              "line": 33,
+              "line": 34,
               "column": 61,
               "description": [
               ]
             },
             {
               "label": "RTC",
-              "line": 33,
+              "line": 34,
               "column": 66,
+              "description": [
+              ]
+            },
+            {
+              "label": "PLL_SYS",
+              "line": 35,
+              "column": 8,
+              "description": [
+              ]
+            },
+            {
+              "label": "GPIN0",
+              "line": 35,
+              "column": 17,
+              "description": [
+              ]
+            },
+            {
+              "label": "GPIN1",
+              "line": 35,
+              "column": 24,
+              "description": [
+              ]
+            },
+            {
+              "label": "PLL_USB",
+              "line": 35,
+              "column": 31,
+              "description": [
+              ]
+            },
+            {
+              "label": "ROSC",
+              "line": 35,
+              "column": 40,
+              "description": [
+              ]
+            },
+            {
+              "label": "XOSC",
+              "line": 35,
+              "column": 46,
               "description": [
               ]
             }
           ]
         },
         {
-          "label": "XOSC_Cycles",
+          "label": "Countable_Clock_Id",
           "qualifier": "",
-          "line": 17,
+          "line": 65,
           "column": 12,
           "src": "srcs/rp-clock.ads.html",
           "summary": [
@@ -324,7 +468,543 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 17,
+                  "number": 65,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "subtype"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Countable_Clock_Id",
+                      "href": "docs/rp__clock___spec.html#L65C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Clock_Id",
+                      "href": "docs/rp__clock___spec.html#L33C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "range"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "REF"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "RTC"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "GP_Divider",
+          "qualifier": "",
+          "line": 52,
+          "column": 9,
+          "src": "srcs/rp-clock.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 52,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GP_Divider",
+                      "href": "docs/rp__clock___spec.html#L52C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "delta"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GP_Divider_Fraction"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "range"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0.0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "2.0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "**"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "24"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "-"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GP_Divider_Fraction"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 53,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Small => GP_Divider_Fraction,"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 54,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "           Size  => 32"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "If GP_Divider is 0.0, then it represents (2.0 ** 16)\n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "GP_Output",
+          "qualifier": "",
+          "line": 43,
+          "column": 12,
+          "src": "srcs/rp-clock.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 43,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "subtype"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GP_Output",
+                      "href": "docs/rp__clock___spec.html#L43C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Clock_Id",
+                      "href": "docs/rp__clock___spec.html#L33C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "range"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GPOUT0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GPOUT3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "GP_Source",
+          "qualifier": "",
+          "line": 44,
+          "column": 12,
+          "src": "srcs/rp-clock.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 44,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "subtype"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GP_Source",
+                      "href": "docs/rp__clock___spec.html#L44C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Clock_Id",
+                      "href": "docs/rp__clock___spec.html#L33C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "range"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "REF"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "XOSC"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "XOSC_Cycles",
+          "qualifier": "",
+          "line": 18,
+          "column": 12,
+          "src": "srcs/rp-clock.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 18,
                   "children": [
                     {
                       "kind": "span",
@@ -345,7 +1025,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "XOSC_Cycles",
-                      "href": "docs/rp__clock___spec.html#L17C12"
+                      "href": "docs/rp__clock___spec.html#L18C12"
                     },
                     {
                       "kind": "span",
@@ -381,7 +1061,7 @@ GNATdoc.Documentation = {
         {
           "label": "XOSC_Hertz",
           "qualifier": "",
-          "line": 13,
+          "line": 14,
           "column": 12,
           "src": "srcs/rp-clock.ads.html",
           "summary": [
@@ -392,7 +1072,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 13,
+                  "number": 14,
                   "children": [
                     {
                       "kind": "span",
@@ -413,7 +1093,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "XOSC_Hertz",
-                      "href": "docs/rp__clock___spec.html#L13C12"
+                      "href": "docs/rp__clock___spec.html#L14C12"
                     },
                     {
                       "kind": "span",
@@ -434,7 +1114,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Hertz",
-                      "href": "docs/rp___spec.html#L9C12"
+                      "href": "docs/rp___spec.html#L11C12"
                     },
                     {
                       "kind": "span",
@@ -480,7 +1160,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 14,
+                  "number": 15,
                   "children": [
                     {
                       "kind": "span",
@@ -535,7 +1215,7 @@ GNATdoc.Documentation = {
         {
           "label": "Disable",
           "qualifier": "",
-          "line": 38,
+          "line": 40,
           "column": 14,
           "src": "srcs/rp-clock.ads.html",
           "summary": [
@@ -546,7 +1226,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -567,13 +1247,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Disable",
-                      "href": "docs/rp__clock___spec.html#L38C14"
+                      "href": "docs/rp__clock___spec.html#L40C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
@@ -589,7 +1269,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CID",
-                      "href": "docs/rp__clock___spec.html#L39C8"
+                      "href": "docs/rp__clock___spec.html#L41C8"
                     },
                     {
                       "kind": "span",
@@ -610,7 +1290,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Clock_Id",
-                      "href": "docs/rp__clock___spec.html#L32C9"
+                      "href": "docs/rp__clock___spec.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -630,11 +1310,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "CID",
-              "line": 39,
+              "line": 41,
               "column": 8,
               "type": {
                 "label": "RP.Clock.Clock_Id",
-                "docHref": "docs/rp__clock___spec.html#L32C9"
+                "docHref": "docs/rp__clock___spec.html#L33C9"
               },
               "description": [
               ]
@@ -644,7 +1324,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enable",
           "qualifier": "",
-          "line": 35,
+          "line": 37,
           "column": 14,
           "src": "srcs/rp-clock.ads.html",
           "summary": [
@@ -655,7 +1335,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -676,13 +1356,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enable",
-                      "href": "docs/rp__clock___spec.html#L35C14"
+                      "href": "docs/rp__clock___spec.html#L37C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -698,7 +1378,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CID",
-                      "href": "docs/rp__clock___spec.html#L36C8"
+                      "href": "docs/rp__clock___spec.html#L38C8"
                     },
                     {
                       "kind": "span",
@@ -719,7 +1399,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Clock_Id",
-                      "href": "docs/rp__clock___spec.html#L32C9"
+                      "href": "docs/rp__clock___spec.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -739,11 +1419,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "CID",
-              "line": 36,
+              "line": 38,
               "column": 8,
               "type": {
                 "label": "RP.Clock.Clock_Id",
-                "docHref": "docs/rp__clock___spec.html#L32C9"
+                "docHref": "docs/rp__clock___spec.html#L33C9"
               },
               "description": [
               ]
@@ -753,7 +1433,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enabled",
           "qualifier": "",
-          "line": 41,
+          "line": 61,
           "column": 13,
           "src": "srcs/rp-clock.ads.html",
           "summary": [
@@ -764,7 +1444,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 61,
                   "children": [
                     {
                       "kind": "span",
@@ -785,13 +1465,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enabled",
-                      "href": "docs/rp__clock___spec.html#L41C13"
+                      "href": "docs/rp__clock___spec.html#L61C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -807,7 +1487,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CID",
-                      "href": "docs/rp__clock___spec.html#L42C8"
+                      "href": "docs/rp__clock___spec.html#L62C8"
                     },
                     {
                       "kind": "span",
@@ -828,7 +1508,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Clock_Id",
-                      "href": "docs/rp__clock___spec.html#L32C9"
+                      "href": "docs/rp__clock___spec.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -839,7 +1519,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 63,
                   "children": [
                     {
                       "kind": "span",
@@ -874,11 +1554,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "CID",
-              "line": 42,
+              "line": 62,
               "column": 8,
               "type": {
                 "label": "RP.Clock.Clock_Id",
-                "docHref": "docs/rp__clock___spec.html#L32C9"
+                "docHref": "docs/rp__clock___spec.html#L33C9"
               },
               "description": [
               ]
@@ -888,7 +1568,7 @@ GNATdoc.Documentation = {
         {
           "label": "Frequency",
           "qualifier": "",
-          "line": 45,
+          "line": 66,
           "column": 13,
           "src": "srcs/rp-clock.ads.html",
           "summary": [
@@ -899,7 +1579,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 66,
                   "children": [
                     {
                       "kind": "span",
@@ -920,13 +1600,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frequency",
-                      "href": "docs/rp__clock___spec.html#L45C13"
+                      "href": "docs/rp__clock___spec.html#L66C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 67,
                   "children": [
                     {
                       "kind": "span",
@@ -942,7 +1622,112 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CID",
-                      "href": "docs/rp__clock___spec.html#L46C8"
+                      "href": "docs/rp__clock___spec.html#L67C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Countable_Clock_Id",
+                      "href": "docs/rp__clock___spec.html#L65C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 68,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Rounded",
+                      "href": "docs/rp__clock___spec.html#L68C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "True"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 69,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Accuracy",
+                      "href": "docs/rp__clock___spec.html#L69C8"
                     },
                     {
                       "kind": "span",
@@ -962,8 +1747,28 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Clock_Id",
-                      "href": "docs/rp__clock___spec.html#L32C9"
+                      "text": "UInt4",
+                      "href": "docs/hal___spec.html#L43C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "15"
                     },
                     {
                       "kind": "span",
@@ -974,7 +1779,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 70,
                   "children": [
                     {
                       "kind": "span",
@@ -995,7 +1800,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Hertz",
-                      "href": "docs/rp___spec.html#L9C12"
+                      "href": "docs/rp___spec.html#L11C12"
                     },
                     {
                       "kind": "span",
@@ -1005,16 +1810,62 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "By default, the fractional part of the frequency counter result register\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "is ignored. Setting Rounded = False includes the fractional frequency,\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "which may include as much as 2048 KHz of error, depending on the\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "value of Accuracy. Higher Accuracy values take longer to measure the\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "clock, but produce more accurate results.\n"
+                }
+              ]
             }
           ],
           "parameters": [
             {
               "label": "CID",
-              "line": 46,
+              "line": 67,
               "column": 8,
               "type": {
-                "label": "RP.Clock.Clock_Id",
-                "docHref": "docs/rp__clock___spec.html#L32C9"
+                "label": "RP.Clock.Countable_Clock_Id",
+                "docHref": "docs/rp__clock___spec.html#L65C12"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Rounded",
+              "line": 68,
+              "column": 8,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Accuracy",
+              "line": 69,
+              "column": 8,
+              "type": {
+                "label": "HAL.UInt4",
+                "docHref": "docs/hal___spec.html#L43C9"
               },
               "description": [
               ]
@@ -1024,7 +1875,7 @@ GNATdoc.Documentation = {
         {
           "label": "Initialize",
           "qualifier": "",
-          "line": 19,
+          "line": 20,
           "column": 14,
           "src": "srcs/rp-clock.ads.html",
           "summary": [
@@ -1035,7 +1886,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 19,
+                  "number": 20,
                   "children": [
                     {
                       "kind": "span",
@@ -1056,13 +1907,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Initialize",
-                      "href": "docs/rp__clock___spec.html#L19C14"
+                      "href": "docs/rp__clock___spec.html#L20C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 20,
+                  "number": 21,
                   "children": [
                     {
                       "kind": "span",
@@ -1078,7 +1929,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "XOSC_Frequency",
-                      "href": "docs/rp__clock___spec.html#L20C8"
+                      "href": "docs/rp__clock___spec.html#L21C8"
                     },
                     {
                       "kind": "span",
@@ -1099,7 +1950,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "XOSC_Hertz",
-                      "href": "docs/rp__clock___spec.html#L13C12"
+                      "href": "docs/rp__clock___spec.html#L14C12"
                     },
                     {
                       "kind": "span",
@@ -1130,7 +1981,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 21,
+                  "number": 22,
                   "children": [
                     {
                       "kind": "span",
@@ -1141,7 +1992,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "XOSC_Startup_Delay",
-                      "href": "docs/rp__clock___spec.html#L21C8"
+                      "href": "docs/rp__clock___spec.html#L22C8"
                     },
                     {
                       "kind": "span",
@@ -1162,7 +2013,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "XOSC_Cycles",
-                      "href": "docs/rp__clock___spec.html#L17C12"
+                      "href": "docs/rp__clock___spec.html#L18C12"
                     },
                     {
                       "kind": "span",
@@ -1193,7 +2044,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 22,
+                  "number": 23,
                   "children": [
                     {
                       "kind": "span",
@@ -1214,7 +2065,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 23,
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -1267,22 +2118,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "XOSC_Frequency",
-              "line": 20,
+              "line": 21,
               "column": 8,
               "type": {
                 "label": "RP.Clock.XOSC_Hertz",
-                "docHref": "docs/rp__clock___spec.html#L13C12"
+                "docHref": "docs/rp__clock___spec.html#L14C12"
               },
               "description": [
               ]
             },
             {
               "label": "XOSC_Startup_Delay",
-              "line": 21,
+              "line": 22,
               "column": 8,
               "type": {
                 "label": "RP.Clock.XOSC_Cycles",
-                "docHref": "docs/rp__clock___spec.html#L17C12"
+                "docHref": "docs/rp__clock___spec.html#L18C12"
               },
               "description": [
               ]
@@ -1292,7 +2143,7 @@ GNATdoc.Documentation = {
         {
           "label": "ROSC_Frequency",
           "qualifier": "",
-          "line": 56,
+          "line": 83,
           "column": 13,
           "src": "srcs/rp-clock.ads.html",
           "summary": [
@@ -1303,7 +2154,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 83,
                   "children": [
                     {
                       "kind": "span",
@@ -1324,7 +2175,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ROSC_Frequency",
-                      "href": "docs/rp__clock___spec.html#L56C13"
+                      "href": "docs/rp__clock___spec.html#L83C13"
                     },
                     {
                       "kind": "span",
@@ -1345,7 +2196,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Hertz",
-                      "href": "docs/rp___spec.html#L9C12"
+                      "href": "docs/rp___spec.html#L11C12"
                     },
                     {
                       "kind": "span",
@@ -1399,6 +2250,341 @@ GNATdoc.Documentation = {
                   "kind": "span",
                   "text": "2.15.2.1.1. Mitigating ROSC frequency variation due to process\n"
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Set_Divider",
+          "qualifier": "",
+          "line": 57,
+          "column": 14,
+          "src": "srcs/rp-clock.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 57,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Set_Divider",
+                      "href": "docs/rp__clock___spec.html#L57C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 58,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GP",
+                      "href": "docs/rp__clock___spec.html#L58C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GP_Output",
+                      "href": "docs/rp__clock___spec.html#L43C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 59,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Div",
+                      "href": "docs/rp__clock___spec.html#L59C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GP_Divider",
+                      "href": "docs/rp__clock___spec.html#L52C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "GP",
+              "line": 58,
+              "column": 8,
+              "type": {
+                "label": "RP.Clock.GP_Output",
+                "docHref": "docs/rp__clock___spec.html#L43C12"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Div",
+              "line": 59,
+              "column": 8,
+              "type": {
+                "label": "RP.Clock.GP_Divider",
+                "docHref": "docs/rp__clock___spec.html#L52C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Set_Source",
+          "qualifier": "",
+          "line": 46,
+          "column": 14,
+          "src": "srcs/rp-clock.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 46,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Set_Source",
+                      "href": "docs/rp__clock___spec.html#L46C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 47,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GP",
+                      "href": "docs/rp__clock___spec.html#L47C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GP_Output",
+                      "href": "docs/rp__clock___spec.html#L43C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 48,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Source",
+                      "href": "docs/rp__clock___spec.html#L48C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GP_Source",
+                      "href": "docs/rp__clock___spec.html#L44C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "GP will glitch if enabled while changing sources\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "GP",
+              "line": 47,
+              "column": 8,
+              "type": {
+                "label": "RP.Clock.GP_Output",
+                "docHref": "docs/rp__clock___spec.html#L43C12"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Source",
+              "line": 48,
+              "column": 8,
+              "type": {
+                "label": "RP.Clock.GP_Source",
+                "docHref": "docs/rp__clock___spec.html#L44C12"
+              },
+              "description": [
               ]
             }
           ]

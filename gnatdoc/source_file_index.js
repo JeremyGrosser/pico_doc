@@ -376,8 +376,8 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/rp2040_svd.ads.html"
   },
   {
-    "label": "runtime.ads",
-    "srcHref": "srcs/runtime.ads.html"
+    "label": "rp_interrupts.ads",
+    "srcHref": "srcs/rp_interrupts.ads.html"
   },
   {
     "label": "semihosting-filesystem.ads",

@@ -100,7 +100,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Full",
+                      "text": "Busy",
                       "href": "docs/rp__spi___spec.html#L21C46"
                     },
                     {
@@ -116,8 +116,24 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Invalid",
+                      "text": "Full",
                       "href": "docs/rp__spi___spec.html#L21C52"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Invalid",
+                      "href": "docs/rp__spi___spec.html#L21C58"
                     },
                     {
                       "kind": "span",
@@ -151,16 +167,23 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Full",
+              "label": "Busy",
               "line": 21,
               "column": 46,
               "description": [
               ]
             },
             {
-              "label": "Invalid",
+              "label": "Full",
               "line": 21,
               "column": 52,
+              "description": [
+              ]
+            },
+            {
+              "label": "Invalid",
+              "line": 21,
+              "column": 58,
               "description": [
               ]
             }
@@ -890,7 +913,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Hertz",
-                      "href": "docs/rp___spec.html#L9C12"
+                      "href": "docs/rp___spec.html#L11C12"
                     },
                     {
                       "kind": "span",
@@ -1233,7 +1256,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "RP.Hertz",
-                "docHref": "docs/rp___spec.html#L9C12"
+                "docHref": "docs/rp___spec.html#L11C12"
               },
               "description": [
               ]
@@ -2992,7 +3015,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Hertz",
-                      "href": "docs/rp___spec.html#L9C12"
+                      "href": "docs/rp___spec.html#L11C12"
                     },
                     {
                       "kind": "span",
@@ -3048,7 +3071,7 @@ GNATdoc.Documentation = {
               "column": 8,
               "type": {
                 "label": "RP.Hertz",
-                "docHref": "docs/rp___spec.html#L9C12"
+                "docHref": "docs/rp___spec.html#L11C12"
               },
               "description": [
               ]

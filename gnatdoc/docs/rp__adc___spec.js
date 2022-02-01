@@ -2462,7 +2462,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Hertz",
-                      "href": "docs/rp___spec.html#L9C12"
+                      "href": "docs/rp___spec.html#L11C12"
                     },
                     {
                       "kind": "span",
@@ -2526,7 +2526,7 @@ GNATdoc.Documentation = {
               "column": 8,
               "type": {
                 "label": "RP.Hertz",
-                "docHref": "docs/rp___spec.html#L9C12"
+                "docHref": "docs/rp___spec.html#L11C12"
               },
               "description": [
               ]
@@ -3002,7 +3002,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP.GPIO.GPIO_Point",
-                      "href": "docs/rp__gpio___spec.html#L18C9"
+                      "href": "docs/rp__gpio___spec.html#L19C9"
                     },
                     {
                       "kind": "span",
@@ -3084,7 +3084,7 @@ GNATdoc.Documentation = {
               "column": 8,
               "type": {
                 "label": "RP.GPIO.GPIO_Point",
-                "docHref": "docs/rp__gpio___spec.html#L18C9"
+                "docHref": "docs/rp__gpio___spec.html#L19C9"
               },
               "description": [
               ]

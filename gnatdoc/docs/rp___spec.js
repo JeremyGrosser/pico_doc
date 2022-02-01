@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Hertz",
           "qualifier": "",
-          "line": 9,
+          "line": 11,
           "column": 12,
           "src": "srcs/rp.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 9,
+                  "number": 11,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Hertz",
-                      "href": "docs/rp___spec.html#L9C12"
+                      "href": "docs/rp___spec.html#L11C12"
                     },
                     {
                       "kind": "span",

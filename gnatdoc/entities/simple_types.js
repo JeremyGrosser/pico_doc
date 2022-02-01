@@ -52,10 +52,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "ADC_Pin",
-      "docHref": "docs/rp__gpio___spec.html#L16C12",
+      "docHref": "docs/rp__gpio___spec.html#L17C12",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L16"
+      "srcHref": "srcs/rp-gpio.ads.html#L17"
     },
     {
       "label": "ADC_Sample_Bits",
@@ -1347,10 +1347,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Clock_Id",
-      "docHref": "docs/rp__clock___spec.html#L32C9",
+      "docHref": "docs/rp__clock___spec.html#L33C9",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L32"
+      "srcHref": "srcs/rp-clock.ads.html#L33"
     },
     {
       "label": "Clock_Source",
@@ -1386,6 +1386,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP2040_SVD.XOSC",
       "declared_qualifier": "",
       "srcHref": "srcs/rp2040_svd-xosc.ads.html#L151"
+    },
+    {
+      "label": "Countable_Clock_Id",
+      "docHref": "docs/rp__clock___spec.html#L65C12",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L65"
     },
     {
       "label": "CPUID_ARCHITECTURE_Field",
@@ -1718,17 +1725,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Divider",
-      "docHref": "docs/rp__pio___spec.html#L35C9",
+      "docHref": "docs/rp__pio___spec.html#L36C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L35"
+      "srcHref": "srcs/rp-pio.ads.html#L36"
     },
     {
       "label": "Divider",
-      "docHref": "docs/rp__pwm___spec.html#L36C9",
+      "docHref": "docs/rp__pwm___spec.html#L37C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L36"
+      "srcHref": "srcs/rp-pwm.ads.html#L37"
     },
     {
       "label": "DMA_Channel_Id",
@@ -1750,6 +1757,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.DMA",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-dma.ads.html#L24"
+    },
+    {
+      "label": "DMA_Timer_Id",
+      "docHref": "docs/rp__dma___spec.html#L170C12",
+      "declared": "RP.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-dma.ads.html#L170"
     },
     {
       "label": "DMARDLR_DMARDL_Field",
@@ -3327,6 +3341,27 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp2040_svd-pio.ads.html#L74"
     },
     {
+      "label": "GP_Divider",
+      "docHref": "docs/rp__clock___spec.html#L52C9",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L52"
+    },
+    {
+      "label": "GP_Output",
+      "docHref": "docs/rp__clock___spec.html#L43C12",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L43"
+    },
+    {
+      "label": "GP_Source",
+      "docHref": "docs/rp__clock___spec.html#L44C12",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L44"
+    },
+    {
       "label": "GPIO0_CTRL_FUNCSEL_Field",
       "docHref": "docs/rp2040_svd__io_bank0___spec.html#L78C9",
       "declared": "RP2040_SVD.IO_BANK0",
@@ -4392,17 +4427,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "GPIO_Config_Mode",
-      "docHref": "docs/rp__gpio___spec.html#L23C9",
+      "docHref": "docs/rp__gpio___spec.html#L24C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L23"
+      "srcHref": "srcs/rp-gpio.ads.html#L24"
     },
     {
       "label": "GPIO_Function",
-      "docHref": "docs/rp__gpio___spec.html#L25C9",
+      "docHref": "docs/rp__gpio___spec.html#L26C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L25"
+      "srcHref": "srcs/rp-gpio.ads.html#L26"
     },
     {
       "label": "GPIO_HI_IN_GPIO_HI_IN_Field",
@@ -4539,17 +4574,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "GPIO_Pin",
-      "docHref": "docs/rp__gpio___spec.html#L15C9",
+      "docHref": "docs/rp__gpio___spec.html#L16C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L15"
+      "srcHref": "srcs/rp-gpio.ads.html#L16"
     },
     {
       "label": "GPIO_Pull_Mode",
-      "docHref": "docs/rp__gpio___spec.html#L28C9",
+      "docHref": "docs/rp__gpio___spec.html#L29C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L28"
+      "srcHref": "srcs/rp-gpio.ads.html#L29"
     },
     {
       "label": "GPIO_Pull_Resistor",
@@ -4791,10 +4826,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Hertz",
-      "docHref": "docs/rp___spec.html#L9C12",
+      "docHref": "docs/rp___spec.html#L11C12",
       "declared": "RP",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp.ads.html#L9"
+      "srcHref": "srcs/rp.ads.html#L11"
     },
     {
       "label": "I2C_Address",
@@ -6071,11 +6106,25 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/cortex_m-nvic.ads.html#L52"
     },
     {
+      "label": "Interrupt_ID",
+      "docHref": "docs/rp_interrupts___spec.html#L14C12",
+      "declared": "RP_Interrupts",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp_interrupts.ads.html#L14"
+    },
+    {
       "label": "Interrupt_Priority",
       "docHref": "docs/cortex_m__nvic___spec.html#L53C9",
       "declared": "Cortex_M.NVIC",
       "declared_qualifier": "",
       "srcHref": "srcs/cortex_m-nvic.ads.html#L53"
+    },
+    {
+      "label": "Interrupt_Priority",
+      "docHref": "docs/rp_interrupts___spec.html#L15C12",
+      "declared": "RP_Interrupts",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp_interrupts.ads.html#L15"
     },
     {
       "label": "Interrupt_State",
@@ -6086,10 +6135,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Interrupt_Triggers",
-      "docHref": "docs/rp__gpio___spec.html#L42C9",
+      "docHref": "docs/rp__gpio___spec.html#L43C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L42"
+      "srcHref": "srcs/rp-gpio.ads.html#L43"
     },
     {
       "label": "INTF0_INTF0_Field",
@@ -6293,6 +6342,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP2040_SVD.WATCHDOG",
       "declared_qualifier": "",
       "srcHref": "srcs/rp2040_svd-watchdog.ads.html#L79"
+    },
+    {
+      "label": "Magic_Field",
+      "docHref": "docs/rp__rom___spec.html#L15C9",
+      "declared": "RP.ROM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-rom.ads.html#L15"
     },
     {
       "label": "Manufacturing_Month",
@@ -6730,10 +6786,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Period",
-      "docHref": "docs/rp__pwm___spec.html#L38C12",
+      "docHref": "docs/rp__pwm___spec.html#L39C12",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L38"
+      "srcHref": "srcs/rp-pwm.ads.html#L39"
     },
     {
       "label": "PHASE_PASSWD_Field",
@@ -6751,80 +6807,80 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Pin_Count",
-      "docHref": "docs/rp__pio___spec.html#L31C12",
+      "docHref": "docs/rp__pio___spec.html#L32C12",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L31"
+      "srcHref": "srcs/rp-pio.ads.html#L32"
     },
     {
       "label": "PIO_Address",
-      "docHref": "docs/rp__pio___spec.html#L27C12",
-      "declared": "RP.PIO",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L27"
-    },
-    {
-      "label": "PIO_Instruction",
       "docHref": "docs/rp__pio___spec.html#L28C12",
       "declared": "RP.PIO",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-pio.ads.html#L28"
     },
     {
-      "label": "PIO_IRQ_Flag",
-      "docHref": "docs/rp__pio___spec.html#L209C9",
+      "label": "PIO_Instruction",
+      "docHref": "docs/rp__pio___spec.html#L29C12",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L209"
+      "srcHref": "srcs/rp-pio.ads.html#L29"
+    },
+    {
+      "label": "PIO_IRQ_Flag",
+      "docHref": "docs/rp__pio___spec.html#L210C9",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L210"
     },
     {
       "label": "PIO_IRQ_ID",
-      "docHref": "docs/rp__pio___spec.html#L207C9",
+      "docHref": "docs/rp__pio___spec.html#L208C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L207"
+      "srcHref": "srcs/rp-pio.ads.html#L208"
     },
     {
       "label": "PIO_MOV_Status_Type",
-      "docHref": "docs/rp__pio___spec.html#L116C9",
+      "docHref": "docs/rp__pio___spec.html#L117C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L116"
+      "srcHref": "srcs/rp-pio.ads.html#L117"
     },
     {
       "label": "PIO_Number",
-      "docHref": "docs/rp__pio___spec.html#L14C12",
+      "docHref": "docs/rp__pio___spec.html#L15C12",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L14"
+      "srcHref": "srcs/rp-pio.ads.html#L15"
     },
     {
       "label": "PIO_Pin_Direction",
-      "docHref": "docs/rp__pio___spec.html#L158C9",
+      "docHref": "docs/rp__pio___spec.html#L159C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L158"
+      "srcHref": "srcs/rp-pio.ads.html#L159"
     },
     {
       "label": "PIO_SM",
-      "docHref": "docs/rp__pio___spec.html#L20C9",
-      "declared": "RP.PIO",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L20"
-    },
-    {
-      "label": "PIO_SM_IRQ_Flag",
-      "docHref": "docs/rp__pio___spec.html#L254C9",
-      "declared": "RP.PIO",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L254"
-    },
-    {
-      "label": "PIO_SM_Mask",
       "docHref": "docs/rp__pio___spec.html#L21C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-pio.ads.html#L21"
+    },
+    {
+      "label": "PIO_SM_IRQ_Flag",
+      "docHref": "docs/rp__pio___spec.html#L255C9",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L255"
+    },
+    {
+      "label": "PIO_SM_Mask",
+      "docHref": "docs/rp__pio___spec.html#L22C9",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L22"
     },
     {
       "label": "Point_Array",
@@ -6877,38 +6933,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Program",
-      "docHref": "docs/rp__pio___spec.html#L29C9",
+      "docHref": "docs/rp__pio___spec.html#L30C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L29"
+      "srcHref": "srcs/rp-pio.ads.html#L30"
     },
     {
       "label": "PWM_Channel",
+      "docHref": "docs/rp__pwm___spec.html#L15C9",
+      "declared": "RP.PWM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pwm.ads.html#L15"
+    },
+    {
+      "label": "PWM_Divider_Mode",
+      "docHref": "docs/rp__pwm___spec.html#L17C9",
+      "declared": "RP.PWM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pwm.ads.html#L17"
+    },
+    {
+      "label": "PWM_Slice",
       "docHref": "docs/rp__pwm___spec.html#L14C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-pwm.ads.html#L14"
     },
     {
-      "label": "PWM_Divider_Mode",
-      "docHref": "docs/rp__pwm___spec.html#L16C9",
-      "declared": "RP.PWM",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L16"
-    },
-    {
-      "label": "PWM_Slice",
-      "docHref": "docs/rp__pwm___spec.html#L13C9",
-      "declared": "RP.PWM",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L13"
-    },
-    {
       "label": "PWM_Slice_Array",
-      "docHref": "docs/rp__pwm___spec.html#L33C9",
+      "docHref": "docs/rp__pwm___spec.html#L34C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L33"
+      "srcHref": "srcs/rp-pwm.ads.html#L34"
     },
     {
       "label": "Request_Type_Recipient",
@@ -7269,10 +7325,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Shift_Threshold",
-      "docHref": "docs/rp__pio___spec.html#L91C12",
+      "docHref": "docs/rp__pio___spec.html#L92C12",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L91"
+      "srcHref": "srcs/rp-pio.ads.html#L92"
+    },
+    {
+      "label": "Short_Address",
+      "docHref": "docs/rp__rom___spec.html#L12C9",
+      "declared": "RP.ROM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-rom.ads.html#L12"
     },
     {
       "label": "SHPR2_PRI_11_Field",
@@ -7318,10 +7381,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Sideset_Bit_Count",
-      "docHref": "docs/rp__pio___spec.html#L32C12",
+      "docHref": "docs/rp__pio___spec.html#L33C12",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L32"
+      "srcHref": "srcs/rp-pio.ads.html#L33"
     },
     {
       "label": "SIE_STATUS_LINE_STATE_Field",
@@ -8248,6 +8311,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp2040_svd-ppb.ads.html#L55"
     },
     {
+      "label": "Table_Code",
+      "docHref": "docs/rp__rom___spec.html#L18C9",
+      "declared": "RP.ROM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-rom.ads.html#L18"
+    },
+    {
       "label": "Tfr_Kind",
       "docHref": "docs/hal__sdmmc___spec.html#L295C9",
       "declared": "HAL.SDMMC",
@@ -8277,10 +8347,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Time",
-      "docHref": "docs/rp__timer___spec.html#L10C9",
+      "docHref": "docs/rp__timer___spec.html#L11C9",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L10"
+      "srcHref": "srcs/rp-timer.ads.html#L11"
     },
     {
       "label": "TIMER_X_Field",
@@ -9138,17 +9208,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "XOSC_Cycles",
-      "docHref": "docs/rp__clock___spec.html#L17C12",
+      "docHref": "docs/rp__clock___spec.html#L18C12",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L17"
+      "srcHref": "srcs/rp-clock.ads.html#L18"
     },
     {
       "label": "XOSC_Hertz",
-      "docHref": "docs/rp__clock___spec.html#L13C12",
+      "docHref": "docs/rp__clock___spec.html#L14C12",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L13"
+      "srcHref": "srcs/rp-clock.ads.html#L14"
     }
   ]
 };

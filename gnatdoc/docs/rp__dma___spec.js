@@ -1779,6 +1779,115 @@ GNATdoc.Documentation = {
           ]
         },
         {
+          "label": "DMA_Timer_Id",
+          "qualifier": "",
+          "line": 170,
+          "column": 12,
+          "src": "srcs/rp-dma.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 170,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "subtype"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_Timer_Id",
+                      "href": "docs/rp__dma___spec.html#L170C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_Request_Trigger",
+                      "href": "docs/rp__dma___spec.html#L24C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "range"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "TIMER0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "TIMER3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "label": "Ring_Wrap_Select",
           "qualifier": "",
           "line": 20,
@@ -5407,6 +5516,217 @@ GNATdoc.Documentation = {
               "type": {
                 "label": "HAL.UInt32",
                 "docHref": "docs/hal___spec.html#L97C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Set_Pacing_Timer",
+          "qualifier": "",
+          "line": 172,
+          "column": 14,
+          "src": "srcs/rp-dma.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 172,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Set_Pacing_Timer",
+                      "href": "docs/rp__dma___spec.html#L172C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 173,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Timer",
+                      "href": "docs/rp__dma___spec.html#L173C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_Timer_Id",
+                      "href": "docs/rp__dma___spec.html#L170C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 174,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "X",
+                      "href": "docs/rp__dma___spec.html#L174C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Y",
+                      "href": "docs/rp__dma___spec.html#L174C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt16",
+                      "href": "docs/hal___spec.html#L66C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The pacing timer produces TREQ assertions at a rate set by ((X/Y) *\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "sys_clk). This equation is evaluated every sys_clk cycles and therefore\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "can only generate TREQs at a rate of 1 per sys_clk (i.e. permanent TREQ)\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "or less.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Timer",
+              "line": 173,
+              "column": 8,
+              "type": {
+                "label": "RP.DMA.DMA_Timer_Id",
+                "docHref": "docs/rp__dma___spec.html#L170C12"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "X",
+              "line": 174,
+              "column": 8,
+              "type": {
+                "label": "HAL.UInt16",
+                "docHref": "docs/hal___spec.html#L66C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Y",
+              "line": 174,
+              "column": 11,
+              "type": {
+                "label": "HAL.UInt16",
+                "docHref": "docs/hal___spec.html#L66C9"
               },
               "description": [
               ]

@@ -75,16 +75,6 @@ GNATdoc.SourceFile = {
           "cssClass": "identifier",
           "text": "RP",
           "href": "docs/rp___spec.html#L6C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
         }
       ]
     },
@@ -99,9 +89,46 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Preelaborate"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 8,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 9,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "Not_Implemented",
-          "href": "docs/rp___spec.html#L7C4"
+          "href": "docs/rp___spec.html#L9C4"
         },
         {
           "kind": "span",
@@ -132,13 +159,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 8,
+      "number": 10,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 9,
+      "number": 11,
       "children": [
         {
           "kind": "span",
@@ -159,7 +186,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Hertz",
-          "href": "docs/rp___spec.html#L9C12"
+          "href": "docs/rp___spec.html#L11C12"
         },
         {
           "kind": "span",
@@ -190,7 +217,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 10,
+      "number": 12,
       "children": [
         {
           "kind": "span",

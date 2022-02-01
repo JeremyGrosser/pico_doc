@@ -86,7 +86,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Hertz",
-                      "href": "docs/rp___spec.html#L9C12"
+                      "href": "docs/rp___spec.html#L11C12"
                     },
                     {
                       "kind": "span",
@@ -119,7 +119,7 @@ GNATdoc.Documentation = {
               "column": 8,
               "type": {
                 "label": "RP.Hertz",
-                "docHref": "docs/rp___spec.html#L9C12"
+                "docHref": "docs/rp___spec.html#L11C12"
               },
               "description": [
               ]

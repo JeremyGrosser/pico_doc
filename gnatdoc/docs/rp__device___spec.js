@@ -823,7 +823,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP.PIO.PIO_Peripheral",
-                      "href": "docs/rp__pio___spec.html#L311C9"
+                      "href": "docs/rp__pio___spec.html#L317C9"
                     }
                   ]
                 },
@@ -913,7 +913,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP.PIO.PIO_Peripheral",
-                      "href": "docs/rp__pio___spec.html#L311C9"
+                      "href": "docs/rp__pio___spec.html#L317C9"
                     }
                   ]
                 },
@@ -1003,7 +1003,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L337C9"
+                      "href": "docs/rp__pio___spec.html#L343C9"
                     },
                     {
                       "kind": "span",
@@ -1118,7 +1118,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L337C9"
+                      "href": "docs/rp__pio___spec.html#L343C9"
                     },
                     {
                       "kind": "span",
@@ -1632,7 +1632,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP.Timer.Delays",
-                      "href": "docs/rp__timer___spec.html#L17C9"
+                      "href": "docs/rp__timer___spec.html#L18C9"
                     },
                     {
                       "kind": "span",
@@ -1931,7 +1931,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP.USB_Device.USB_Device_Controller",
-                      "href": "docs/rp__usb_device___spec.html#L95C9"
+                      "href": "docs/rp__usb_device___spec.html#L100C9"
                     },
                     {
                       "kind": "span",

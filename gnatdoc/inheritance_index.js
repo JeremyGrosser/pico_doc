@@ -21,7 +21,7 @@ GNATdoc.InheritanceIndex = [
       },
       {
         "label": "Delays",
-        "docHref": "docs/rp__timer___spec.html#L17C9"
+        "docHref": "docs/rp__timer___spec.html#L18C9"
       }
     ]
   },
@@ -63,7 +63,7 @@ GNATdoc.InheritanceIndex = [
     "inherited": [
       {
         "label": "GPIO_Point",
-        "docHref": "docs/rp__gpio___spec.html#L18C9"
+        "docHref": "docs/rp__gpio___spec.html#L19C9"
       }
     ]
   },
@@ -83,7 +83,7 @@ GNATdoc.InheritanceIndex = [
   },
   {
     "label": "PIO_Device",
-    "docHref": "docs/rp__pio___spec.html#L15C9"
+    "docHref": "docs/rp__pio___spec.html#L16C9"
   },
   {
     "label": "RTC_Device",
@@ -165,7 +165,7 @@ GNATdoc.InheritanceIndex = [
     "inherited": [
       {
         "label": "USB_Device_Controller",
-        "docHref": "docs/rp__usb_device___spec.html#L10C9"
+        "docHref": "docs/rp__usb_device___spec.html#L15C9"
       }
     ]
   },

@@ -2991,6 +2991,20 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/hal-bitmap.ads.html#L423"
     },
     {
+      "label": "Header",
+      "docHref": "docs/rp__rom___spec.html#L36C4",
+      "declared": "RP.ROM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-rom.ads.html#L36"
+    },
+    {
+      "label": "Header_Fields",
+      "docHref": "docs/rp__rom___spec.html#L23C9",
+      "declared": "RP.ROM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-rom.ads.html#L23"
+    },
+    {
       "label": "Honeydew",
       "docHref": "docs/hal__bitmap___spec.html#L417C4",
       "declared": "HAL.Bitmap",
@@ -4854,10 +4868,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PIO_Peripheral",
-      "docHref": "docs/rp__pio___spec.html#L13C9",
+      "docHref": "docs/rp__pio___spec.html#L14C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L13"
+      "srcHref": "srcs/rp-pio.ads.html#L14"
     },
     {
       "label": "PIO_Peripheral",
@@ -4868,10 +4882,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PIO_SM_Config",
-      "docHref": "docs/rp__pio___spec.html#L25C9",
+      "docHref": "docs/rp__pio___spec.html#L26C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L25"
+      "srcHref": "srcs/rp-pio.ads.html#L26"
     },
     {
       "label": "PLATFORM_Register",
@@ -5218,10 +5232,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PWM_Point",
-      "docHref": "docs/rp__pwm___spec.html#L28C9",
+      "docHref": "docs/rp__pwm___spec.html#L29C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L28"
+      "srcHref": "srcs/rp-pwm.ads.html#L29"
     },
     {
       "label": "PWR_Register",
@@ -5964,20 +5978,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
       "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L105"
-    },
-    {
-      "label": "Soft_Float_Table",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L55C4",
-      "declared": "RP.ROM.Floating_Point",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L55"
-    },
-    {
-      "label": "Soft_Float_Table_Fields",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L11C9",
-      "declared": "RP.ROM.Floating_Point",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L11"
     },
     {
       "label": "SPI0_Periph",
