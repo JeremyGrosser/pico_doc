@@ -746,15 +746,14 @@ The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-inter
 The RP2040's ROM contains a library of useful functions that can be accessed via a symbol lookup table. The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-rom.ads[RP.ROM] package provides an Ada binding to this library.
 
 ==== Floating point library
-The RP2040's ROM includes a set of floating point functions using the https://en.wikipedia.org/wiki/CORDIC[CORDIC algorithm], implemented in assembly. The Cortex-M0+ has no hardware floating point unit, so if you need to do floating point math, this is as fast as it's gonna get. GCC will use it's own math library by default, which will generally be slower as fetching code from flash is slower than ROM access.
+The RP2040's ROM includes a set of floating point functions using the https://en.wikipedia.org/wiki/CORDIC[CORDIC algorithm], implemented in assembly. The Cortex-M0+ has no hardware floating point unit, so if you need to do floating point math, this is as fast as it's gonna get. These functions are connected to `__aeabi` symbols by https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-rom-floating_point.ads[RP.ROM.Floating_Point], meaning that most floating point operations are accelerated by default.
 
-https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-rom-floating_point.ads[RP.ROM.Floating_Point]
+The trigonometry functions (fsin, fcos, ftan, etc) only work properly if the argument is in the range -128.0 .. 128.0, so these are not used for acceleration by default. You can call these functions directly if your application can accept these limitations. We plan to provide wrapper functions that take care of this in the near future.
+
 [source,ada]
 ----
-A : constant Float := RP.ROM.Floating_Point.fdiv (24.0, 2.0)
+A : constant Float := RP.ROM.Floating_Point.fsin (24.0);
 ----
-
-GCC uses weak `__aeabi_` symbols to point to the floating point functions. These symbols can be overridden to point to the ROM functions if you prefer to use those for all floating point math operations. The Ravenscar runtimes do this for you. See https://github.com/damaki/bb-runtimes/blob/rp2040-boards/arm/rpi/rp2040/s-bootro.ads[s-bootro.ads] and https://github.com/damaki/bb-runtimes/blob/rp2040-boards/arm/rpi/rp2040/s-bootro.adb[s-bootro.adb] for examples of how to override these symbols.
 
 === Custom board support
 The focus of this project is to support the RP2040 on the Raspberry Pi Pico development board, but these libraries are portable to any board that uses the RP2040 chip. We recommend creating a new `yourboardname_bsp` Alire crate that contains boot code, pin definitions, and peripheral drivers for your custom board's components.
