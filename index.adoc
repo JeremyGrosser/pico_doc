@@ -887,7 +887,7 @@ The purpose of the Ravenscar profile is to restrict the use of many tasking faci
 It is reputed that the hotel in which the workshops were held was originally built as a retreat for King George III to keep a mistress. Another odd rumour is that he ordered all the natural trees to be removed and replaced by metallic ones whose metal leaves clattered in the wind. It also seems that Henry Bolingbroke landed at Ravenscar in July 1399 on his way to take the throne as Henry IV. Ravenscar is mentioned several times by Shakespeare in Act II of King Richard II; it is spelt Ravenspurg which is slightly confusing – maybe we need the ability to rename profile identifiers.
 ____
 
-There is a port of bb-runtimes for the RP2040, but it has not been merged into bb-runtimes yet and is not distributed with the GNAT ARM toolchain. However, projects can still use the Ravenscar runtime by depending on the https://github.com/JeremyGrosser/ravenscar_full_rp2040[ravenscar_full_rp2040] Alire crate. This crate is not included in the Alire index as it is expected to be deprecated once RP2040 support is merged into bb-runtimes.
+There is a port of Ravenscar for the RP2040 in the bb-runtimes repository, but it has not yet been merged and is not distributed with the GNAT ARM toolchain. However, projects can still use the Ravenscar runtime by depending on the https://github.com/JeremyGrosser/ravenscar_full_rp2040[ravenscar_full_rp2040] Alire crate. This crate is not included in the Alire index as it is expected to be deprecated once RP2040 support is merged into bb-runtimes.
 
 [source,shell]
 ----
