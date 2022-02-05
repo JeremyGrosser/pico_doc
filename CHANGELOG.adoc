@@ -1,5 +1,10 @@
 === Next release
 
+==== New features
+
+==== SysTick Delay_Until
+The SysTick driver now has a Delay_Until procedure with functionality similar to `RP.Timer.Delay_Until`. All SysTick delays are tested to be accurate within +/- 1ms.
+
 ==== Bugs fixed
 
 ===== SysTick returned incorrect values
