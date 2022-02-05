@@ -338,7 +338,7 @@ end;
 ----
 
 ==== SysTick
-https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-systick.ads[RP.SysTick] implements the https://github.com/Fabien-Chouteau/hal/blob/master/src/hal-gpio.ads[HAL.Time] interface using the standard 24-bit SysTick timer included with each ARM Cortex-M0+ core. SysTick runs at 1 KHz (1 millisecond per tick). `Delay_Microseconds` is not supported with this driver. Interrupts are used to implement all of the delay procedures. As the timer is only 24 bits wide, it will overflow every 4.66 hours. The `RP.SysTick` driver will handle overflow correctly as long as your delay is shorter than that.
+https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-systick.ads[RP.SysTick] implements the https://github.com/Fabien-Chouteau/hal/blob/master/src/hal-gpio.ads[HAL.Time] interface using the standard 24-bit SysTick timer included with each ARM Cortex-M0+ core. SysTick is configured to generate an interrupt every 1 millisecond (1 KHz). `Delay_Microseconds` is not supported with this driver. Interrupts are used to implement all of the delay procedures. The interrupt handler increments a 64 bit variable. `RP.SysTick.Clock` returns the current value of that variable, rather than the hardware counter.
 
 `RP.SysTick` is *not recommended* as long as `RP.Timer` can be used. SysTick is provided for programs that need portability to other ARM microcontrollers.
 
