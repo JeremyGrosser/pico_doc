@@ -1,3 +1,10 @@
+=== Next release
+
+==== Bugs fixed
+
+===== SysTick returned incorrect values
+`RP.SysTick.Clock` was returning the value of the `CURRENT` register, not the ticks counted by the 1ms interrupt handler. `RP.SysTick.Clock` now returns the ticks value, which is the number of milliseconds since SysTick was enabled.
+
 === 1.2.1
 
 ==== Bugs fixed
