@@ -2,12 +2,14 @@
     font-family: "IBM Plex Sans";
     font-weight: 200;
     src: url("/font/IBMPlexSans-ExtraLight.woff2") format("woff2");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "IBM Plex Sans";
     font-weight: 400;
     src: url("/font/IBMPlexSans-Regular.woff2") format("woff2");
+    font-display: swap;
 }
 
 @font-face {
@@ -15,22 +17,26 @@
     font-weight: 400;
     font-style: italic;
     src: url("/font/IBMPlexSans-Italic.woff2") format("woff2");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "IBM Plex Sans";
     font-weight: 700;
     src: url("/font/IBMPlexSans-Bold.woff2") format("woff2");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "IBM Plex Mono";
     font-weight: 400;
     src: url("/font/IBMPlexMono-Regular.woff2") format("woff2");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "IBM Plex Mono";
     font-weight: 700;
     src: url("/font/IBMPlexMono-Bold.woff2") format("woff2");
+    font-display: swap;
 }
