@@ -8,6 +8,9 @@ The SysTick driver now has a Delay_Until procedure with functionality similar to
 ===== Flash programming
 The `RP.Flash` package can erase and program the flash chip connected to the RP2040's XIP interface, which is where code executes from. Note that Erase must be called before Program. See https://github.com/JeremyGrosser/rp2040_hal/blob/master/tests/src/flash_tests.adb[tests/src/flash_tests.adb] for example usage.
 
+===== PIO instruction encoding
+The `RP.PIO.Encoding` package contains a record with representation clause for each PIO opcode. The `Encode` function returns `PIO_Instruction` which can be used to fill a `RP.PIO.Program` array. See the `pio_assemble` example.
+
 ==== Bugs fixed
 
 ===== SysTick returned incorrect values
