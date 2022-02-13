@@ -11,10 +11,28 @@ The `RP.Flash` package can erase and program the flash chip connected to the RP2
 ===== PIO instruction encoding
 The `RP.PIO.Encoding` package contains a record with representation clause for each PIO opcode. The `Encode` function returns `PIO_Instruction` which can be used to fill a `RP.PIO.Program` array. See the `pio_assemble` example.
 
+===== WS2812B and Audio_I2S drivers
+A PIO program that implements the wire protocol for WS2812 RGB LEDs has been added as a child package of RP.PIO. The Audio_I2S driver was moved to rp2040_hal from pico_bsp.
+
+===== Testing enhancements
+New unit tests for SPI, RTC, and Flash functions were added. GNATcoverage is now supported for tests.
+
 ==== Bugs fixed
 
 ===== SysTick returned incorrect values
 `RP.SysTick.Clock` was returning the value of the `CURRENT` register, not the ticks counted by the 1ms interrupt handler. `RP.SysTick.Clock` now returns the ticks value, which is the number of milliseconds since SysTick was enabled.
+
+===== RP.RTC.Get_Date was out of range
+Get_Date would throw a ConstraintError if the hardware RTC year was 0.
+
+===== RP.ROM.Floating_Point used V2 boot ROM
+RP.ROM.Floating_Point did not check the boot ROM version before calling functions that are only available in V2. These calls have been removed.
+
+- int642float
+- uint642float
+- float2int64
+- float2uint64
+- float2double
 
 === 1.2.1
 
