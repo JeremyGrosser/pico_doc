@@ -721,7 +721,7 @@ pioasm -p Hello -o ada src/hello.pio gen/hello.ads
 
 The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-pio.ads[RP.PIO] driver is very similar to the interface of the pico-sdk C API, as most available example code and documentation for PIO use that nomenclature. The https://github.com/JeremyGrosser/pico_examples/tree/master/pio_blink[pio_blink] example demonstrates loading an assembled PIO program and executing it.
 
-A more involved example is the https://github.com/JeremyGrosser/pico_bsp/blob/master/src/pico-audio_i2s.adb[Pico.Audio_I2S] driver, which uses PIO to generate an I2S audio stream for use with the https://github.com/JeremyGrosser/pico_examples/blob/master/pimoroni_audio_pack/src/main.adb[Pimoroni Audio Pack example]. The PIO program in this example was copied from the https://github.com/raspberrypi/pico-extras[raspberrypi/pico-extras] repository and it's C startup code ported to Ada.
+A more involved example is the https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-pio-audio_i2s.adb[RP.PIO.Audio_I2S] driver, which uses PIO to generate an I2S audio stream for use with the https://github.com/JeremyGrosser/pico_examples/blob/master/pimoroni_audio_pack/src/main.adb[Pimoroni Audio Pack example]. The PIO program in this example was copied from the https://github.com/raspberrypi/pico-extras[raspberrypi/pico-extras] repository and it's C startup code ported to Ada.
 
 === Interpolator
 image::interp.png[Interpolator data flow,link="/img/interp.png",title="Interpolator data flow"]
