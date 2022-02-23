@@ -345,8 +345,6 @@ https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-systick.a
 ==== Real Time Clock (RTC)
 The RTC tracks the date and time in years, months, days, day of week, hours, minutes, and seconds.
 
-Due to issues with clock configuration, this RTC implementation is only accurate to within a few minutes per day. It is recommended that you use an external RTC or reference clock if the RTC cannot be synchronized on a regular basis. We hope to improve this in the future.
-
 The RTC is not running by default, but once initialized, will continue running as long as power is supplied. This means the time can persist through a reset. In most cases, you'll want to check if the RTC is already running before initializing it.
 [source,ada]
 ----
