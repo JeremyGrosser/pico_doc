@@ -511,7 +511,7 @@ begin
 
     --  The address and data format vary widely depending on the I2C slave
     --  device you're connected to. See your I2C slave's datasheet for details.
-    Port.I2C_Master_Transmit
+    Port.Master_Transmit
         (Addr   => 16#42#,
          Data   => Data,
          Status => Status);
@@ -603,9 +603,9 @@ If a known reference voltage is applied to the `ADC_VREF` pin, the `Read_Microvo
 ----
 declare
     use RP.ADC;
-    mV : Microvolts;
+    uV : Microvolts;
 begin
-    mV := RP.ADC.Read_Microvolts
+    uV := RP.ADC.Read_Microvolts
         (Channel => 0,
          VREF    => 3_300_000);
 end;
