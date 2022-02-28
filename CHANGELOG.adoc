@@ -14,7 +14,7 @@ The SysTick driver now has a Delay_Until procedure with functionality similar to
 ===== Flash programming
 The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-flash.ads[RP.Flash] package can erase and program the flash chip connected to the RP2040's XIP interface, which is where code executes from. Note that Erase must be called before Program. See https://github.com/JeremyGrosser/rp2040_hal/blob/master/tests/src/flash_tests.adb[tests/src/flash_tests.adb] for example usage.
 
-Thanks to Fabien Chouteau for contributing this driver.
+Thanks to Fabien Chouteau for https://github.com/JeremyGrosser/rp2040_hal/issues/10[contributing this driver].
 
 ===== PIO instruction encoding
 The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-pio-encoding.ads[RP.PIO.Encoding] package contains a record with representation clause for each PIO opcode. The `Encode` function returns `PIO_Instruction` which can be used to fill a `RP.PIO.Program` array. See the https://github.com/JeremyGrosser/pico_examples/blob/master/pio_assemble/src/main.adb[pio_assemble] example.
@@ -30,7 +30,7 @@ New unit tests for SPI, RTC, and Flash functions were added. GNATcoverage is now
 ===== I2C Mem_Write sent a repeated start after the address
 The I2C Mem_Write procedure was sending a repeated start between the memory address and the data to be written. This caused issues for some I2C EEPROMs. Mem_Write has been changed to send the memory address and data both in one Master_Transmit call.
 
-Thanks to Holger Rodriguez for reporting this issue.
+Thanks to Holger Rodriguez for reporting https://github.com/JeremyGrosser/rp2040_hal/issues/33[this issue].
 
 ===== SysTick returned incorrect values
 `RP.SysTick.Clock` was returning the value of the `CURRENT` register, not the ticks counted by the 1ms interrupt handler. `RP.SysTick.Clock` now returns the ticks value, which is the number of milliseconds since SysTick was enabled.
