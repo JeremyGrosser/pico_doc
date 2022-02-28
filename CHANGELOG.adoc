@@ -23,7 +23,7 @@ The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-pio-e
 A https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-pio-ws2812.ads[PIO program] that implements the wire protocol for WS2812 RGB LEDs has been added as a child package of RP.PIO. The Audio_I2S driver was moved to rp2040_hal from pico_bsp.
 
 ===== Testing enhancements
-New unit tests for SPI, RTC, and Flash functions were added. GNATcoverage is now supported for tests.
+New unit tests for SPI, RTC, and Flash functions were added. https://docs.adacore.com/gnatcoverage-docs/html/gnatcov.html[GNATcoverage] is now supported for tests and reports 52% https://docs.adacore.com/gnatcoverage-docs/html/gnatcov/cov_source.html#core-notions-and-reporting-level-stmt-decision[stmt+decision] coverage for rp2040_hal.
 
 ==== Bugs fixed
 
