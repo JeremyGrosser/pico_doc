@@ -1,4 +1,5 @@
-=== Next release
+=== 1.3.0
+Feburary 28, 2022
 
 ==== New features
 
@@ -11,13 +12,15 @@ Note that if Increment_Read or Increment_Write are True, then repeated calls to 
 The SysTick driver now has a Delay_Until procedure with functionality similar to `RP.Timer.Delay_Until`. All SysTick delays are tested to be accurate within +/- 1ms.
 
 ===== Flash programming
-The `RP.Flash` package can erase and program the flash chip connected to the RP2040's XIP interface, which is where code executes from. Note that Erase must be called before Program. See https://github.com/JeremyGrosser/rp2040_hal/blob/master/tests/src/flash_tests.adb[tests/src/flash_tests.adb] for example usage.
+The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-flash.ads[RP.Flash] package can erase and program the flash chip connected to the RP2040's XIP interface, which is where code executes from. Note that Erase must be called before Program. See https://github.com/JeremyGrosser/rp2040_hal/blob/master/tests/src/flash_tests.adb[tests/src/flash_tests.adb] for example usage.
+
+Thanks to Fabien Chouteau for contributing this driver.
 
 ===== PIO instruction encoding
-The `RP.PIO.Encoding` package contains a record with representation clause for each PIO opcode. The `Encode` function returns `PIO_Instruction` which can be used to fill a `RP.PIO.Program` array. See the `pio_assemble` example.
+The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-pio-encoding.ads[RP.PIO.Encoding] package contains a record with representation clause for each PIO opcode. The `Encode` function returns `PIO_Instruction` which can be used to fill a `RP.PIO.Program` array. See the https://github.com/JeremyGrosser/pico_examples/blob/master/pio_assemble/src/main.adb[pio_assemble] example.
 
 ===== WS2812B and Audio_I2S drivers
-A PIO program that implements the wire protocol for WS2812 RGB LEDs has been added as a child package of RP.PIO. The Audio_I2S driver was moved to rp2040_hal from pico_bsp.
+A https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-pio-ws2812.ads[PIO program] that implements the wire protocol for WS2812 RGB LEDs has been added as a child package of RP.PIO. The Audio_I2S driver was moved to rp2040_hal from pico_bsp.
 
 ===== Testing enhancements
 New unit tests for SPI, RTC, and Flash functions were added. GNATcoverage is now supported for tests.
@@ -26,6 +29,8 @@ New unit tests for SPI, RTC, and Flash functions were added. GNATcoverage is now
 
 ===== I2C Mem_Write sent a repeated start after the address
 The I2C Mem_Write procedure was sending a repeated start between the memory address and the data to be written. This caused issues for some I2C EEPROMs. Mem_Write has been changed to send the memory address and data both in one Master_Transmit call.
+
+Thanks to Holger Rodriguez for reporting this issue.
 
 ===== SysTick returned incorrect values
 `RP.SysTick.Clock` was returning the value of the `CURRENT` register, not the ticks counted by the 1ms interrupt handler. `RP.SysTick.Clock` now returns the ticks value, which is the number of milliseconds since SysTick was enabled.
@@ -42,7 +47,11 @@ RP.ROM.Floating_Point did not check the boot ROM version before calling function
 - float2uint64
 - float2double
 
+===== boot2 license was clarification
+The boot2 directory contained source code that included a GPLv3 with runtime exception license in a comment header. These files were copied from a pull request to bb-runtimes that has not been merged. Daniel King (the original author of these files) gave permission to relicense as BSD-3-Clause, in line with the rest of rp2040_hal.
+
 === 1.2.1
+Feburary 1, 2022
 
 ==== Bugs fixed
 
@@ -50,6 +59,7 @@ RP.ROM.Floating_Point did not check the boot ROM version before calling function
 The use of C_float in the spec for RP.ROM.Floating_Point required quite a bit of type casting to/from Float in normal use. The public interface of RP.ROM.Floating_Point has been changed to use the Float type and conversions to/from C_float are performed in the package body.
 
 === 1.2.0
+Feburary 1, 2022
 
 ==== New features
 
@@ -94,6 +104,7 @@ The RTC's internal divider value was off by one. The RTC should drift a lot less
 To save power, clk_adc is now disabled whenever the ADC peripheral is disabled.
 
 === 1.1.0
+January 7, 2022
 
 ==== New features
 
@@ -115,6 +126,7 @@ If `Blocking = True`, RP.SPI.Transmit should not return before the last bit is c
 Effectively the same bug as SPI.
 
 === 1.0.0
+December 26, 2021
 
 ==== New features
 
@@ -142,6 +154,7 @@ The DMA alias register layouts were incorrect. The only visible effect of this e
 The DREQ register values did not have a representation clause specified, which caused triggers internal to the DMA peripheral (pacing timers and permanent triggers) to be nonfunctional.
 
 === 0.7.0
+October 26, 2021
 
 ==== New features
 
@@ -203,6 +216,7 @@ If a PIO program is loaded at an offset other than zero, the JMP instructions ne
 Fix contributed by @Fabien-Chouteau.
 
 === 0.6.0
+September 12, 2021
 
 ==== New features
 
@@ -232,6 +246,7 @@ If RP.PWM.Initialize was not called before configuring PWM slices, the configura
 If `RP.ADC.Configure (Temperature_Sensor)` was not called before `RP.ADC.Temperature`, incorrect temperature readings would be returned. `RP.ADC.Temperature` now ensures the temperature sensor is configured on every call, eliminating the need to call Configure for the temperature sensor.
 
 === 0.5.0
+July 19, 2021
 
 ==== New features
 
@@ -282,6 +297,7 @@ The UART driver has been modified to use RP.Timer to implement timeouts and moni
 The SPI Transmit procedure would return immediately after the last byte was written to the FIFO, but before the FIFO became empty. This behavior breaks some drivers that depend on all bytes being clocked out before proceeding. A configuration flag for Blocking behavior has been added and defaults to True.
 
 === 0.4.0
+June 11, 2021
 
 ==== New features
 
