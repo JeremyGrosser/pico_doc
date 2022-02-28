@@ -17,10 +17,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Ack_IRQ",
-      "docHref": "docs/rp__dma___spec.html#L162C14",
+      "docHref": "docs/rp__dma___spec.html#L175C14",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L162"
+      "srcHref": "srcs/rp-dma.ads.html#L175"
     },
     {
       "label": "Add",
@@ -115,17 +115,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Busy",
-      "docHref": "docs/rp__dma___spec.html#L125C13",
+      "docHref": "docs/rp__dma___spec.html#L138C13",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L125"
+      "srcHref": "srcs/rp-dma.ads.html#L138"
     },
     {
       "label": "Checksum",
-      "docHref": "docs/rp__dma___spec.html#L151C13",
+      "docHref": "docs/rp__dma___spec.html#L164C13",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L151"
+      "srcHref": "srcs/rp-dma.ads.html#L164"
     },
     {
       "label": "Clean_DCache",
@@ -157,10 +157,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Clock",
-      "docHref": "docs/rp__systick___spec.html#L14C13",
+      "docHref": "docs/rp__systick___spec.html#L16C13",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L14"
+      "srcHref": "srcs/rp-systick.ads.html#L16"
     },
     {
       "label": "Clock",
@@ -374,10 +374,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Default_SM_Config",
-      "docHref": "docs/rp__pio___spec.html#L124C13",
+      "docHref": "docs/rp__pio___spec.html#L125C13",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L124"
+      "srcHref": "srcs/rp-pio.ads.html#L125"
     },
     {
       "label": "Disable",
@@ -402,10 +402,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Disable",
-      "docHref": "docs/rp__dma___spec.html#L122C14",
+      "docHref": "docs/rp__dma___spec.html#L135C14",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L122"
+      "srcHref": "srcs/rp-dma.ads.html#L135"
     },
     {
       "label": "Disable",
@@ -458,10 +458,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Disable_IRQ",
-      "docHref": "docs/rp__dma___spec.html#L159C14",
+      "docHref": "docs/rp__dma___spec.html#L172C14",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L159"
+      "srcHref": "srcs/rp-dma.ads.html#L172"
     },
     {
       "label": "DSB",
@@ -584,10 +584,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enable_Checksum",
-      "docHref": "docs/rp__dma___spec.html#L141C14",
+      "docHref": "docs/rp__dma___spec.html#L154C14",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L141"
+      "srcHref": "srcs/rp-dma.ads.html#L154"
     },
     {
       "label": "Enable_D_Cache",
@@ -619,10 +619,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enable_IRQ",
-      "docHref": "docs/rp__dma___spec.html#L156C14",
+      "docHref": "docs/rp__dma___spec.html#L169C14",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L156"
+      "srcHref": "srcs/rp-dma.ads.html#L169"
     },
     {
       "label": "Enabled",
@@ -665,6 +665,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "Atomic.Critical_Section",
       "declared_qualifier": "",
       "srcHref": "srcs/atomic-critical_section.ads.html#L10"
+    },
+    {
+      "label": "Erase",
+      "docHref": "docs/rp__flash___spec.html#L40C14",
+      "declared": "RP.Flash",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-flash.ads.html#L40"
     },
     {
       "label": "Errno",
@@ -710,10 +717,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "fcos",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L70C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L60C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L70"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L60"
     },
     {
       "label": "fdiv",
@@ -836,10 +843,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "fexp",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L74C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L64C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L74"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L64"
     },
     {
       "label": "FIFO_Address",
@@ -892,45 +899,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "fln",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L76C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L66C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L76"
-    },
-    {
-      "label": "float2double",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L60C13",
-      "declared": "RP.ROM.Floating_Point",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L60"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L66"
     },
     {
       "label": "float2int",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L46C13",
+      "declared": "RP.ROM.Floating_Point",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L46"
+    },
+    {
+      "label": "float2uint",
       "docHref": "docs/rp__rom__floating_point___spec.html#L50C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-rom-floating_point.ads.html#L50"
-    },
-    {
-      "label": "float2int64",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L54C13",
-      "declared": "RP.ROM.Floating_Point",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L54"
-    },
-    {
-      "label": "float2uint",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L56C13",
-      "declared": "RP.ROM.Floating_Point",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L56"
-    },
-    {
-      "label": "float2uint64",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L58C13",
-      "declared": "RP.ROM.Floating_Point",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L58"
     },
     {
       "label": "fmul",
@@ -955,17 +941,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "fsin",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L68C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L58C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L68"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L58"
     },
     {
       "label": "fsqrt",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L63C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L53C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L63"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L53"
     },
     {
       "label": "fsub",
@@ -976,10 +962,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "ftan",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L72C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L62C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L72"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L62"
     },
     {
       "label": "Get_Class_Info",
@@ -987,6 +973,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "USB.Device",
       "declared_qualifier": "",
       "srcHref": "srcs/usb-device.ads.html#L118"
+    },
+    {
+      "label": "git_revision",
+      "docHref": "docs/rp__rom___spec.html#L168C13",
+      "declared": "RP.ROM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-rom.ads.html#L168"
     },
     {
       "label": "Grant",
@@ -1052,6 +1045,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/usb.ads.html#L96"
     },
     {
+      "label": "In_Flash",
+      "docHref": "docs/rp__flash___spec.html#L21C13",
+      "declared": "RP.Flash",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-flash.ads.html#L21"
+    },
+    {
       "label": "Init",
       "docHref": "docs/atomic__signed___spec.html#L21C13",
       "declared": "Atomic.Signed",
@@ -1108,13 +1108,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp-rom-floating_point.ads.html#L38"
     },
     {
-      "label": "int642float",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L43C13",
-      "declared": "RP.ROM.Floating_Point",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L43"
-    },
-    {
       "label": "Invalidate_DCache",
       "docHref": "docs/cortex_m__cache___spec.html#L63C14",
       "declared": "Cortex_M.Cache",
@@ -1144,10 +1137,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "IRQ_Status",
-      "docHref": "docs/rp__dma___spec.html#L165C13",
+      "docHref": "docs/rp__dma___spec.html#L178C13",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L165"
+      "srcHref": "srcs/rp-dma.ads.html#L178"
     },
     {
       "label": "Leave",
@@ -1305,10 +1298,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Milliseconds",
-      "docHref": "docs/rp__systick___spec.html#L17C13",
+      "docHref": "docs/rp__systick___spec.html#L19C13",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L17"
+      "srcHref": "srcs/rp-systick.ads.html#L19"
     },
     {
       "label": "Milliseconds",
@@ -1393,6 +1386,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.ROM",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-rom.ads.html#L60"
+    },
+    {
+      "label": "Program",
+      "docHref": "docs/rp__flash___spec.html#L50C14",
+      "declared": "RP.Flash",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-flash.ads.html#L50"
     },
     {
       "label": "Read",
@@ -1613,31 +1613,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Checksum",
-      "docHref": "docs/rp__dma___spec.html#L148C14",
+      "docHref": "docs/rp__dma___spec.html#L161C14",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L148"
+      "srcHref": "srcs/rp-dma.ads.html#L161"
     },
     {
       "label": "Set_Clkdiv_Int_Frac",
-      "docHref": "docs/rp__pio___spec.html#L78C14",
+      "docHref": "docs/rp__pio___spec.html#L79C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L78"
+      "srcHref": "srcs/rp-pio.ads.html#L79"
     },
     {
       "label": "Set_Clock_Divider",
-      "docHref": "docs/rp__pio___spec.html#L74C14",
+      "docHref": "docs/rp__pio___spec.html#L75C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L74"
+      "srcHref": "srcs/rp-pio.ads.html#L75"
     },
     {
       "label": "Set_Clock_Frequency",
-      "docHref": "docs/rp__pio___spec.html#L70C14",
+      "docHref": "docs/rp__pio___spec.html#L71C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L70"
+      "srcHref": "srcs/rp-pio.ads.html#L71"
     },
     {
       "label": "Set_Count",
@@ -1683,10 +1683,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_FIFO_Join",
-      "docHref": "docs/rp__pio___spec.html#L106C14",
+      "docHref": "docs/rp__pio___spec.html#L107C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L106"
+      "srcHref": "srcs/rp-pio.ads.html#L107"
     },
     {
       "label": "Set_Frequency",
@@ -1697,17 +1697,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_In_Pins",
-      "docHref": "docs/rp__pio___spec.html#L56C14",
+      "docHref": "docs/rp__pio___spec.html#L57C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L56"
+      "srcHref": "srcs/rp-pio.ads.html#L57"
     },
     {
       "label": "Set_In_Shift",
-      "docHref": "docs/rp__pio___spec.html#L94C14",
+      "docHref": "docs/rp__pio___spec.html#L95C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L94"
+      "srcHref": "srcs/rp-pio.ads.html#L95"
     },
     {
       "label": "Set_Interval",
@@ -1725,10 +1725,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Jmp_Pin",
-      "docHref": "docs/rp__pio___spec.html#L88C14",
+      "docHref": "docs/rp__pio___spec.html#L89C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L88"
+      "srcHref": "srcs/rp-pio.ads.html#L89"
     },
     {
       "label": "Set_Mode",
@@ -1746,38 +1746,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_MOV_Status",
-      "docHref": "docs/rp__pio___spec.html#L119C14",
+      "docHref": "docs/rp__pio___spec.html#L120C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L119"
+      "srcHref": "srcs/rp-pio.ads.html#L120"
     },
     {
       "label": "Set_Out_Pins",
-      "docHref": "docs/rp__pio___spec.html#L46C14",
+      "docHref": "docs/rp__pio___spec.html#L47C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L46"
+      "srcHref": "srcs/rp-pio.ads.html#L47"
     },
     {
       "label": "Set_Out_Shift",
-      "docHref": "docs/rp__pio___spec.html#L100C14",
+      "docHref": "docs/rp__pio___spec.html#L101C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L100"
+      "srcHref": "srcs/rp-pio.ads.html#L101"
     },
     {
       "label": "Set_Out_Special",
-      "docHref": "docs/rp__pio___spec.html#L111C14",
+      "docHref": "docs/rp__pio___spec.html#L112C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L111"
+      "srcHref": "srcs/rp-pio.ads.html#L112"
     },
     {
       "label": "Set_Pacing_Timer",
-      "docHref": "docs/rp__dma___spec.html#L172C14",
+      "docHref": "docs/rp__dma___spec.html#L185C14",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L172"
+      "srcHref": "srcs/rp-dma.ads.html#L185"
     },
     {
       "label": "Set_Pending",
@@ -1823,24 +1823,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Set_Pins",
-      "docHref": "docs/rp__pio___spec.html#L51C14",
+      "docHref": "docs/rp__pio___spec.html#L52C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L51"
+      "srcHref": "srcs/rp-pio.ads.html#L52"
     },
     {
       "label": "Set_Sideset",
-      "docHref": "docs/rp__pio___spec.html#L64C14",
+      "docHref": "docs/rp__pio___spec.html#L65C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L64"
+      "srcHref": "srcs/rp-pio.ads.html#L65"
     },
     {
       "label": "Set_Sideset_Pins",
-      "docHref": "docs/rp__pio___spec.html#L60C14",
+      "docHref": "docs/rp__pio___spec.html#L61C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L60"
+      "srcHref": "srcs/rp-pio.ads.html#L61"
     },
     {
       "label": "Set_Source",
@@ -1851,10 +1851,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Wrap",
-      "docHref": "docs/rp__pio___spec.html#L83C14",
+      "docHref": "docs/rp__pio___spec.html#L84C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L83"
+      "srcHref": "srcs/rp-pio.ads.html#L84"
     },
     {
       "label": "Setup",
@@ -1862,6 +1862,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "USB.Device.Control",
       "declared_qualifier": "",
       "srcHref": "srcs/usb-device-control.ads.html#L34"
+    },
+    {
+      "label": "Setup",
+      "docHref": "docs/rp__dma___spec.html#L117C14",
+      "declared": "RP.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-dma.ads.html#L117"
     },
     {
       "label": "Setup_Read_Request",
@@ -1921,10 +1928,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Start",
-      "docHref": "docs/rp__dma___spec.html#L117C14",
+      "docHref": "docs/rp__dma___spec.html#L122C14",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L117"
+      "srcHref": "srcs/rp-dma.ads.html#L122"
+    },
+    {
+      "label": "Start",
+      "docHref": "docs/rp__dma___spec.html#L129C14",
+      "declared": "RP.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-dma.ads.html#L129"
     },
     {
       "label": "State",
@@ -1970,10 +1984,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Status",
-      "docHref": "docs/rp__dma___spec.html#L129C13",
+      "docHref": "docs/rp__dma___spec.html#L142C13",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L129"
+      "srcHref": "srcs/rp-dma.ads.html#L142"
     },
     {
       "label": "Store",
@@ -2053,11 +2067,32 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/atomic.ads.html#L56"
     },
     {
+      "label": "Ticks_Per_Second",
+      "docHref": "docs/rp__systick___spec.html#L13C13",
+      "declared": "RP.SysTick",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-systick.ads.html#L13"
+    },
+    {
       "label": "To_ADC_Channel",
       "docHref": "docs/rp__adc___spec.html#L95C13",
       "declared": "RP.ADC",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-adc.ads.html#L95"
+    },
+    {
+      "label": "To_Address",
+      "docHref": "docs/rp__flash___spec.html#L17C13",
+      "declared": "RP.Flash",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-flash.ads.html#L17"
+    },
+    {
+      "label": "To_Flash_Offset",
+      "docHref": "docs/rp__flash___spec.html#L25C13",
+      "declared": "RP.Flash",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-flash.ads.html#L25"
     },
     {
       "label": "To_PWM",
@@ -2082,17 +2117,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "uint2float",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L45C13",
+      "docHref": "docs/rp__rom__floating_point___spec.html#L43C13",
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L45"
-    },
-    {
-      "label": "uint642float",
-      "docHref": "docs/rp__rom__floating_point___spec.html#L47C13",
-      "declared": "RP.ROM.Floating_Point",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom-floating_point.ads.html#L47"
+      "srcHref": "srcs/rp-rom-floating_point.ads.html#L43"
     },
     {
       "label": "Valid_Read_Slice",

@@ -180,6 +180,10 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/rp-dma.ads.html"
   },
   {
+    "label": "rp-flash.ads",
+    "srcHref": "srcs/rp-flash.ads.html"
+  },
+  {
     "label": "rp-gpio.ads",
     "srcHref": "srcs/rp-gpio.ads.html"
   },
@@ -190,6 +194,26 @@ GNATdoc.SourceFileIndex = [
   {
     "label": "rp-interpolator.ads",
     "srcHref": "srcs/rp-interpolator.ads.html"
+  },
+  {
+    "label": "rp-pio-audio_i2s.ads",
+    "srcHref": "srcs/rp-pio-audio_i2s.ads.html"
+  },
+  {
+    "label": "rp-pio-audio_i2s_pio.ads",
+    "srcHref": "srcs/rp-pio-audio_i2s_pio.ads.html"
+  },
+  {
+    "label": "rp-pio-encoding.ads",
+    "srcHref": "srcs/rp-pio-encoding.ads.html"
+  },
+  {
+    "label": "rp-pio-ws2812.ads",
+    "srcHref": "srcs/rp-pio-ws2812.ads.html"
+  },
+  {
+    "label": "rp-pio-ws2812_pio.ads",
+    "srcHref": "srcs/rp-pio-ws2812_pio.ads.html"
   },
   {
     "label": "rp-pio.ads",

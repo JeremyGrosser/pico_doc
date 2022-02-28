@@ -628,7 +628,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPI_Port",
-          "href": "docs/rp__spi___spec.html#L91C9"
+          "href": "docs/rp__spi___spec.html#L92C9"
         },
         {
           "kind": "span",
@@ -727,7 +727,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPI_Port",
-          "href": "docs/rp__spi___spec.html#L91C9"
+          "href": "docs/rp__spi___spec.html#L92C9"
         },
         {
           "kind": "span",
@@ -1240,7 +1240,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.PIO.PIO_Peripheral",
-          "href": "docs/rp__pio___spec.html#L317C9"
+          "href": "docs/rp__pio___spec.html#L328C9"
         }
       ]
     },
@@ -1314,7 +1314,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.PIO.PIO_Peripheral",
-          "href": "docs/rp__pio___spec.html#L317C9"
+          "href": "docs/rp__pio___spec.html#L328C9"
         }
       ]
     },
@@ -1388,7 +1388,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L343C9"
+          "href": "docs/rp__pio___spec.html#L354C9"
         },
         {
           "kind": "span",
@@ -1487,7 +1487,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L343C9"
+          "href": "docs/rp__pio___spec.html#L354C9"
         },
         {
           "kind": "span",
@@ -1980,7 +1980,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.SysTick.Delays",
-          "href": "docs/rp__systick___spec.html#L21C9"
+          "href": "docs/rp__systick___spec.html#L23C9"
         },
         {
           "kind": "span",

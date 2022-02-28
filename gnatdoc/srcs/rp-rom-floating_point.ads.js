@@ -324,7 +324,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         },
         {
           "kind": "span",
@@ -349,7 +349,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         }
       ]
     },
@@ -454,7 +454,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         },
         {
           "kind": "span",
@@ -479,7 +479,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         }
       ]
     },
@@ -584,7 +584,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         },
         {
           "kind": "span",
@@ -609,7 +609,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         }
       ]
     },
@@ -714,7 +714,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         },
         {
           "kind": "span",
@@ -739,7 +739,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         }
       ]
     },
@@ -844,7 +844,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         },
         {
           "kind": "span",
@@ -869,7 +869,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         }
       ]
     },
@@ -1139,7 +1139,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         }
       ]
     },
@@ -1229,7 +1229,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "int642float",
+          "text": "uint2float",
           "href": "docs/rp__rom__floating_point___spec.html#L43C13"
         },
         {
@@ -1246,121 +1246,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "V",
-          "href": "docs/rp__rom__floating_point___spec.html#L43C26"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "long_long"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C_float"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 44,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " Export, Convention => C, External_Name => \"__aeabi_l2f\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 45,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "uint2float",
-          "href": "docs/rp__rom__floating_point___spec.html#L45C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "V",
-          "href": "docs/rp__rom__floating_point___spec.html#L45C25"
+          "href": "docs/rp__rom__floating_point___spec.html#L43C25"
         },
         {
           "kind": "span",
@@ -1405,13 +1291,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -1437,7 +1323,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 47,
+      "number": 45,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 46,
       "children": [
         {
           "kind": "span",
@@ -1457,8 +1349,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "uint642float",
-          "href": "docs/rp__rom__floating_point___spec.html#L47C13"
+          "text": "float2int",
+          "href": "docs/rp__rom__floating_point___spec.html#L46C13"
         },
         {
           "kind": "span",
@@ -1474,7 +1366,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "V",
-          "href": "docs/rp__rom__floating_point___spec.html#L47C27"
+          "href": "docs/rp__rom__floating_point___spec.html#L46C24"
         },
         {
           "kind": "span",
@@ -1494,7 +1386,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "unsigned_long_long"
+          "text": "Float"
         },
         {
           "kind": "span",
@@ -1519,13 +1411,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "int"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 47,
       "children": [
         {
           "kind": "span",
@@ -1540,12 +1432,28 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " Export, Convention => C, External_Name => \"__aeabi_ul2f\""
+          "text": " Export, Convention => C, External_Name => \"__aeabi_f2iz\""
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 48,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  pico-sdk rewrites this one too"
         }
       ]
     },
@@ -1577,7 +1485,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "float2int",
+          "text": "float2uint",
           "href": "docs/rp__rom__floating_point___spec.html#L50C13"
         },
         {
@@ -1594,7 +1502,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "V",
-          "href": "docs/rp__rom__floating_point___spec.html#L50C24"
+          "href": "docs/rp__rom__floating_point___spec.html#L50C25"
         },
         {
           "kind": "span",
@@ -1614,257 +1522,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "int"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 51,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " Export, Convention => C, External_Name => \"__aeabi_f2iz\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 52,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  pico-sdk rewrites this one too"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 53,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 54,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "float2int64",
-          "href": "docs/rp__rom__floating_point___spec.html#L54C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "V",
-          "href": "docs/rp__rom__floating_point___spec.html#L54C26"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C_float"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "long_long"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 55,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " Export, Convention => C, External_Name => \"__aeabi_f2lz\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 56,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "float2uint",
-          "href": "docs/rp__rom__floating_point___spec.html#L56C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "V",
-          "href": "docs/rp__rom__floating_point___spec.html#L56C25"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         },
         {
           "kind": "span",
@@ -1895,7 +1553,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 57,
+      "number": 51,
       "children": [
         {
           "kind": "span",
@@ -1921,241 +1579,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 58,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "float2uint64",
-          "href": "docs/rp__rom__floating_point___spec.html#L58C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "V",
-          "href": "docs/rp__rom__floating_point___spec.html#L58C27"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C_float"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "unsigned_long_long"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 59,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " Export, Convention => C, External_Name => \"__aeabi_f2ulz\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 60,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "float2double",
-          "href": "docs/rp__rom__floating_point___spec.html#L60C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "V",
-          "href": "docs/rp__rom__floating_point___spec.html#L60C27"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C_float"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "double"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 61,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " Export, Convention => C, External_Name => \"__aeabi_f2d\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 62,
+      "number": 52,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -2176,7 +1606,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "fsqrt",
-          "href": "docs/rp__rom__floating_point___spec.html#L63C13"
+          "href": "docs/rp__rom__floating_point___spec.html#L53C13"
         },
         {
           "kind": "span",
@@ -2192,7 +1622,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "V",
-          "href": "docs/rp__rom__floating_point___spec.html#L63C20"
+          "href": "docs/rp__rom__floating_point___spec.html#L53C20"
         },
         {
           "kind": "span",
@@ -2212,7 +1642,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         },
         {
           "kind": "span",
@@ -2237,13 +1667,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 64,
+      "number": 54,
       "children": [
         {
           "kind": "span",
@@ -2269,13 +1699,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 65,
+      "number": 55,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 66,
+      "number": 56,
       "children": [
         {
           "kind": "span",
@@ -2291,7 +1721,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 67,
+      "number": 57,
       "children": [
         {
           "kind": "span",
@@ -2307,7 +1737,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 68,
+      "number": 58,
       "children": [
         {
           "kind": "span",
@@ -2328,7 +1758,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "fsin",
-          "href": "docs/rp__rom__floating_point___spec.html#L68C13"
+          "href": "docs/rp__rom__floating_point___spec.html#L58C13"
         },
         {
           "kind": "span",
@@ -2344,7 +1774,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "V",
-          "href": "docs/rp__rom__floating_point___spec.html#L68C19"
+          "href": "docs/rp__rom__floating_point___spec.html#L58C19"
         },
         {
           "kind": "span",
@@ -2364,7 +1794,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         },
         {
           "kind": "span",
@@ -2389,7 +1819,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         },
         {
           "kind": "span",
@@ -2400,7 +1830,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 69,
+      "number": 59,
       "children": [
         {
           "kind": "span",
@@ -2416,7 +1846,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 70,
+      "number": 60,
       "children": [
         {
           "kind": "span",
@@ -2437,7 +1867,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "fcos",
-          "href": "docs/rp__rom__floating_point___spec.html#L70C13"
+          "href": "docs/rp__rom__floating_point___spec.html#L60C13"
         },
         {
           "kind": "span",
@@ -2453,7 +1883,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "V",
-          "href": "docs/rp__rom__floating_point___spec.html#L70C19"
+          "href": "docs/rp__rom__floating_point___spec.html#L60C19"
         },
         {
           "kind": "span",
@@ -2473,7 +1903,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         },
         {
           "kind": "span",
@@ -2498,7 +1928,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         },
         {
           "kind": "span",
@@ -2509,7 +1939,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 71,
+      "number": 61,
       "children": [
         {
           "kind": "span",
@@ -2525,7 +1955,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 72,
+      "number": 62,
       "children": [
         {
           "kind": "span",
@@ -2546,7 +1976,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ftan",
-          "href": "docs/rp__rom__floating_point___spec.html#L72C13"
+          "href": "docs/rp__rom__floating_point___spec.html#L62C13"
         },
         {
           "kind": "span",
@@ -2562,7 +1992,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "V",
-          "href": "docs/rp__rom__floating_point___spec.html#L72C19"
+          "href": "docs/rp__rom__floating_point___spec.html#L62C19"
         },
         {
           "kind": "span",
@@ -2582,7 +2012,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         },
         {
           "kind": "span",
@@ -2607,7 +2037,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         },
         {
           "kind": "span",
@@ -2618,7 +2048,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 73,
+      "number": 63,
       "children": [
         {
           "kind": "span",
@@ -2634,7 +2064,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 74,
+      "number": 64,
       "children": [
         {
           "kind": "span",
@@ -2655,7 +2085,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "fexp",
-          "href": "docs/rp__rom__floating_point___spec.html#L74C13"
+          "href": "docs/rp__rom__floating_point___spec.html#L64C13"
         },
         {
           "kind": "span",
@@ -2671,7 +2101,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "V",
-          "href": "docs/rp__rom__floating_point___spec.html#L74C19"
+          "href": "docs/rp__rom__floating_point___spec.html#L64C19"
         },
         {
           "kind": "span",
@@ -2691,7 +2121,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         },
         {
           "kind": "span",
@@ -2716,7 +2146,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         },
         {
           "kind": "span",
@@ -2727,7 +2157,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 75,
+      "number": 65,
       "children": [
         {
           "kind": "span",
@@ -2743,7 +2173,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 76,
+      "number": 66,
       "children": [
         {
           "kind": "span",
@@ -2764,7 +2194,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "fln",
-          "href": "docs/rp__rom__floating_point___spec.html#L76C13"
+          "href": "docs/rp__rom__floating_point___spec.html#L66C13"
         },
         {
           "kind": "span",
@@ -2780,7 +2210,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "V",
-          "href": "docs/rp__rom__floating_point___spec.html#L76C18"
+          "href": "docs/rp__rom__floating_point___spec.html#L66C18"
         },
         {
           "kind": "span",
@@ -2800,7 +2230,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         },
         {
           "kind": "span",
@@ -2825,7 +2255,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_float"
+          "text": "Float"
         },
         {
           "kind": "span",
@@ -2836,7 +2266,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 77,
+      "number": 67,
       "children": [
         {
           "kind": "span",
@@ -2852,7 +2282,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 78,
+      "number": 68,
       "children": [
         {
           "kind": "span",

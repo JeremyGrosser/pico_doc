@@ -3,10 +3,10 @@ GNATdoc.EntitiesCategory = {
   "entities": [
     {
       "label": "Ack_SM_IRQ",
-      "docHref": "docs/rp__pio___spec.html#L257C14",
+      "docHref": "docs/rp__pio___spec.html#L258C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L257"
+      "srcHref": "srcs/rp-pio.ads.html#L258"
     },
     {
       "label": "Active_Touch_Points",
@@ -51,25 +51,32 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp-gpio.ads.html#L121"
     },
     {
+      "label": "Clear",
+      "docHref": "docs/rp__pio__ws2812___spec.html#L39C14",
+      "declared": "RP.PIO.WS2812",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-ws2812.ads.html#L39"
+    },
+    {
       "label": "Clear_FIFOs",
-      "docHref": "docs/rp__pio___spec.html#L149C14",
+      "docHref": "docs/rp__pio___spec.html#L150C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L149"
+      "srcHref": "srcs/rp-pio.ads.html#L150"
     },
     {
       "label": "Clear_Force_IRQ_Flag",
-      "docHref": "docs/rp__pio___spec.html#L250C14",
+      "docHref": "docs/rp__pio___spec.html#L251C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L250"
+      "srcHref": "srcs/rp-pio.ads.html#L251"
     },
     {
       "label": "Clear_Force_SM_IRQ",
-      "docHref": "docs/rp__pio___spec.html#L270C14",
+      "docHref": "docs/rp__pio___spec.html#L271C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L270"
+      "srcHref": "srcs/rp-pio.ads.html#L271"
     },
     {
       "label": "Close",
@@ -143,10 +150,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Configure",
-      "docHref": "docs/rp__spi___spec.html#L34C14",
+      "docHref": "docs/rp__spi___spec.html#L35C14",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L34"
+      "srcHref": "srcs/rp-spi.ads.html#L35"
     },
     {
       "label": "Configure",
@@ -234,10 +241,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Data_Size",
-      "docHref": "docs/rp__spi___spec.html#L45C13",
+      "docHref": "docs/rp__spi___spec.html#L46C13",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L45"
+      "srcHref": "srcs/rp-spi.ads.html#L46"
     },
     {
       "label": "Data_Size",
@@ -255,10 +262,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Delay_Microseconds",
-      "docHref": "docs/rp__systick___spec.html#L34C14",
+      "docHref": "docs/rp__systick___spec.html#L36C14",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L34"
+      "srcHref": "srcs/rp-systick.ads.html#L36"
     },
     {
       "label": "Delay_Microseconds",
@@ -283,10 +290,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Delay_Milliseconds",
-      "docHref": "docs/rp__systick___spec.html#L40C14",
+      "docHref": "docs/rp__systick___spec.html#L42C14",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L40"
+      "srcHref": "srcs/rp-systick.ads.html#L42"
     },
     {
       "label": "Delay_Milliseconds",
@@ -304,10 +311,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Delay_Seconds",
-      "docHref": "docs/rp__systick___spec.html#L46C14",
+      "docHref": "docs/rp__systick___spec.html#L48C14",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L46"
+      "srcHref": "srcs/rp-systick.ads.html#L48"
     },
     {
       "label": "Delay_Seconds",
@@ -318,6 +325,13 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Delay_Until",
+      "docHref": "docs/rp__systick___spec.html#L53C14",
+      "declared": "RP.SysTick",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-systick.ads.html#L53"
+    },
+    {
+      "label": "Delay_Until",
       "docHref": "docs/rp__timer___spec.html#L35C14",
       "declared": "RP.Timer",
       "declared_qualifier": "",
@@ -325,17 +339,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Disable",
-      "docHref": "docs/rp__pio___spec.html#L43C14",
+      "docHref": "docs/rp__pio___spec.html#L44C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L43"
+      "srcHref": "srcs/rp-pio.ads.html#L44"
     },
     {
       "label": "Disable",
-      "docHref": "docs/rp__systick___spec.html#L26C14",
+      "docHref": "docs/rp__systick___spec.html#L28C14",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L26"
+      "srcHref": "srcs/rp-systick.ads.html#L28"
     },
     {
       "label": "Disable",
@@ -343,6 +357,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.Timer",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-timer.ads.html#L28"
+    },
+    {
+      "label": "Disable_DMA",
+      "docHref": "docs/rp__pio__ws2812___spec.html#L35C14",
+      "declared": "RP.PIO.WS2812",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-ws2812.ads.html#L35"
     },
     {
       "label": "Disable_Interrupt",
@@ -353,17 +374,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Disable_IRQ",
-      "docHref": "docs/rp__pio___spec.html#L226C14",
+      "docHref": "docs/rp__pio___spec.html#L227C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L226"
+      "srcHref": "srcs/rp-pio.ads.html#L227"
     },
     {
       "label": "Disable_IRQ_Flag",
-      "docHref": "docs/rp__pio___spec.html#L234C14",
+      "docHref": "docs/rp__pio___spec.html#L235C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L234"
+      "srcHref": "srcs/rp-pio.ads.html#L235"
+    },
+    {
+      "label": "DMA_Enabled",
+      "docHref": "docs/rp__pio__ws2812___spec.html#L24C13",
+      "declared": "RP.PIO.WS2812",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-ws2812.ads.html#L24"
+    },
+    {
+      "label": "DMA_RX_Trigger",
+      "docHref": "docs/rp__pio___spec.html#L280C13",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L280"
+    },
+    {
+      "label": "DMA_TX_Trigger",
+      "docHref": "docs/rp__pio___spec.html#L275C13",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L275"
     },
     {
       "label": "Draw_Circle",
@@ -437,17 +479,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__pio___spec.html#L40C14",
+      "docHref": "docs/rp__pio___spec.html#L41C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L40"
+      "srcHref": "srcs/rp-pio.ads.html#L41"
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__systick___spec.html#L23C14",
+      "docHref": "docs/rp__systick___spec.html#L25C14",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L23"
+      "srcHref": "srcs/rp-systick.ads.html#L25"
     },
     {
       "label": "Enable",
@@ -455,6 +497,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.Timer",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-timer.ads.html#L25"
+    },
+    {
+      "label": "Enable_DMA",
+      "docHref": "docs/rp__pio__ws2812___spec.html#L30C14",
+      "declared": "RP.PIO.WS2812",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-ws2812.ads.html#L30"
     },
     {
       "label": "Enable_Interrupt",
@@ -465,31 +514,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enable_IRQ",
-      "docHref": "docs/rp__pio___spec.html#L223C14",
+      "docHref": "docs/rp__pio___spec.html#L224C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L223"
+      "srcHref": "srcs/rp-pio.ads.html#L224"
     },
     {
       "label": "Enable_IRQ_Flag",
-      "docHref": "docs/rp__pio___spec.html#L229C14",
+      "docHref": "docs/rp__pio___spec.html#L230C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L229"
+      "srcHref": "srcs/rp-pio.ads.html#L230"
     },
     {
       "label": "Enabled",
-      "docHref": "docs/rp__pio___spec.html#L145C13",
+      "docHref": "docs/rp__pio___spec.html#L146C13",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L145"
+      "srcHref": "srcs/rp-pio.ads.html#L146"
     },
     {
       "label": "Enabled",
-      "docHref": "docs/rp__systick___spec.html#L29C13",
+      "docHref": "docs/rp__systick___spec.html#L31C13",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L29"
+      "srcHref": "srcs/rp-systick.ads.html#L31"
     },
     {
       "label": "Enabled",
@@ -556,17 +605,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Execute",
-      "docHref": "docs/rp__pio___spec.html#L167C14",
+      "docHref": "docs/rp__pio___spec.html#L168C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L167"
+      "srcHref": "srcs/rp-pio.ads.html#L168"
     },
     {
       "label": "FIFO_Address",
-      "docHref": "docs/rp__spi___spec.html#L57C13",
+      "docHref": "docs/rp__spi___spec.html#L58C13",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L57"
+      "srcHref": "srcs/rp-spi.ads.html#L58"
     },
     {
       "label": "FIFO_Address",
@@ -612,17 +661,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Force_IRQ_Flag",
-      "docHref": "docs/rp__pio___spec.html#L245C14",
+      "docHref": "docs/rp__pio___spec.html#L246C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L245"
+      "srcHref": "srcs/rp-pio.ads.html#L246"
     },
     {
       "label": "Force_SM_IRQ",
-      "docHref": "docs/rp__pio___spec.html#L266C14",
+      "docHref": "docs/rp__pio___spec.html#L267C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L266"
+      "srcHref": "srcs/rp-pio.ads.html#L267"
     },
     {
       "label": "Frame_Time",
@@ -647,17 +696,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Get",
-      "docHref": "docs/rp__pio___spec.html#L188C14",
+      "docHref": "docs/rp__pio___spec.html#L189C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L188"
+      "srcHref": "srcs/rp-pio.ads.html#L189"
     },
     {
       "label": "Get",
-      "docHref": "docs/rp__pio___spec.html#L193C14",
+      "docHref": "docs/rp__pio___spec.html#L194C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L193"
+      "srcHref": "srcs/rp-pio.ads.html#L194"
     },
     {
       "label": "Get",
@@ -731,10 +780,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "GPIO_Function",
-      "docHref": "docs/rp__pio___spec.html#L132C13",
+      "docHref": "docs/rp__pio___spec.html#L133C13",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L132"
+      "srcHref": "srcs/rp-pio.ads.html#L133"
     },
     {
       "label": "Height",
@@ -773,6 +822,20 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Initialize",
+      "docHref": "docs/rp__pio__audio_i2s___spec.html#L29C14",
+      "declared": "RP.PIO.Audio_I2S",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-audio_i2s.ads.html#L29"
+    },
+    {
+      "label": "Initialize",
+      "docHref": "docs/rp__pio__ws2812___spec.html#L26C14",
+      "declared": "RP.PIO.WS2812",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-ws2812.ads.html#L26"
+    },
+    {
+      "label": "Initialize",
       "docHref": "docs/rp__usb_device___spec.html#L18C14",
       "declared": "RP.USB_Device",
       "declared_qualifier": "",
@@ -807,11 +870,18 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/usb-device.ads.html#L46"
     },
     {
+      "label": "Initialized",
+      "docHref": "docs/rp__pio__ws2812___spec.html#L23C13",
+      "declared": "RP.PIO.WS2812",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-ws2812.ads.html#L23"
+    },
+    {
       "label": "IRQ_Flag_Status",
-      "docHref": "docs/rp__pio___spec.html#L239C13",
+      "docHref": "docs/rp__pio___spec.html#L240C13",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L239"
+      "srcHref": "srcs/rp-pio.ads.html#L240"
     },
     {
       "label": "Is_Hidden",
@@ -871,10 +941,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Load",
-      "docHref": "docs/rp__pio___spec.html#L172C14",
+      "docHref": "docs/rp__pio___spec.html#L173C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L172"
+      "srcHref": "srcs/rp-pio.ads.html#L173"
     },
     {
       "label": "Mapped_In_RAM",
@@ -1088,17 +1158,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Put",
-      "docHref": "docs/rp__pio___spec.html#L178C14",
+      "docHref": "docs/rp__pio___spec.html#L179C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L178"
+      "srcHref": "srcs/rp-pio.ads.html#L179"
     },
     {
       "label": "Put",
-      "docHref": "docs/rp__pio___spec.html#L183C14",
+      "docHref": "docs/rp__pio___spec.html#L184C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L183"
+      "srcHref": "srcs/rp-pio.ads.html#L184"
     },
     {
       "label": "Read",
@@ -1207,17 +1277,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Receive",
-      "docHref": "docs/rp__spi___spec.html#L76C14",
-      "declared": "RP.SPI",
+      "docHref": "docs/rp__pio__audio_i2s___spec.html#L51C14",
+      "declared": "RP.PIO.Audio_I2S",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L76"
+      "srcHref": "srcs/rp-pio-audio_i2s.ads.html#L51"
     },
     {
       "label": "Receive",
-      "docHref": "docs/rp__spi___spec.html#L83C14",
+      "docHref": "docs/rp__spi___spec.html#L77C14",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L83"
+      "srcHref": "srcs/rp-spi.ads.html#L77"
+    },
+    {
+      "label": "Receive",
+      "docHref": "docs/rp__spi___spec.html#L84C14",
+      "declared": "RP.SPI",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-spi.ads.html#L84"
     },
     {
       "label": "Receive",
@@ -1235,10 +1312,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Receive_Status",
-      "docHref": "docs/rp__spi___spec.html#L53C13",
+      "docHref": "docs/rp__spi___spec.html#L54C13",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L53"
+      "srcHref": "srcs/rp-spi.ads.html#L54"
     },
     {
       "label": "Receive_Status",
@@ -1382,10 +1459,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "RX_FIFO_Address",
-      "docHref": "docs/rp__pio___spec.html#L203C13",
+      "docHref": "docs/rp__pio___spec.html#L204C13",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L203"
+      "srcHref": "srcs/rp-pio.ads.html#L204"
     },
     {
       "label": "Seek",
@@ -1543,24 +1620,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Config",
-      "docHref": "docs/rp__pio___spec.html#L127C14",
+      "docHref": "docs/rp__pio___spec.html#L128C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L127"
+      "srcHref": "srcs/rp-pio.ads.html#L128"
     },
     {
       "label": "Set_Enabled",
-      "docHref": "docs/rp__pio___spec.html#L136C14",
+      "docHref": "docs/rp__pio___spec.html#L137C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L136"
+      "srcHref": "srcs/rp-pio.ads.html#L137"
     },
     {
       "label": "Set_Enabled",
-      "docHref": "docs/rp__pio___spec.html#L141C14",
+      "docHref": "docs/rp__pio___spec.html#L142C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L141"
+      "srcHref": "srcs/rp-pio.ads.html#L142"
     },
     {
       "label": "Set_Frequency",
@@ -1568,6 +1645,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "HAL.Audio",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-audio.ads.html#L63"
+    },
+    {
+      "label": "Set_Frequency",
+      "docHref": "docs/rp__pio__audio_i2s___spec.html#L35C14",
+      "declared": "RP.PIO.Audio_I2S",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-audio_i2s.ads.html#L35"
+    },
+    {
+      "label": "Set_HSV",
+      "docHref": "docs/rp__pio__ws2812___spec.html#L47C14",
+      "declared": "RP.PIO.WS2812",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-ws2812.ads.html#L47"
     },
     {
       "label": "Set_Interrupt_Handler",
@@ -1620,10 +1711,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Pin_Direction",
-      "docHref": "docs/rp__pio___spec.html#L161C14",
+      "docHref": "docs/rp__pio___spec.html#L162C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L161"
+      "srcHref": "srcs/rp-pio.ads.html#L162"
     },
     {
       "label": "Set_Pixel",
@@ -1675,6 +1766,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/usb-device-hid.ads.html#L51"
     },
     {
+      "label": "Set_RGB",
+      "docHref": "docs/rp__pio__ws2812___spec.html#L42C14",
+      "declared": "RP.PIO.WS2812",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-ws2812.ads.html#L42"
+    },
+    {
       "label": "Set_Source",
       "docHref": "docs/hal__bitmap___spec.html#L142C14",
       "declared": "HAL.Bitmap",
@@ -1690,10 +1788,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Speed",
-      "docHref": "docs/rp__spi___spec.html#L38C14",
+      "docHref": "docs/rp__spi___spec.html#L39C14",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L38"
+      "srcHref": "srcs/rp-spi.ads.html#L39"
     },
     {
       "label": "Set_Stick_Parity",
@@ -1718,17 +1816,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "SM_Initialize",
-      "docHref": "docs/rp__pio___spec.html#L153C14",
+      "docHref": "docs/rp__pio___spec.html#L154C14",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L153"
+      "srcHref": "srcs/rp-pio.ads.html#L154"
     },
     {
       "label": "SM_IRQ_Status",
-      "docHref": "docs/rp__pio___spec.html#L261C13",
+      "docHref": "docs/rp__pio___spec.html#L262C13",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L261"
+      "srcHref": "srcs/rp-pio.ads.html#L262"
     },
     {
       "label": "Source",
@@ -1858,17 +1956,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Transmit",
-      "docHref": "docs/rp__spi___spec.html#L62C14",
-      "declared": "RP.SPI",
+      "docHref": "docs/rp__pio__audio_i2s___spec.html#L43C14",
+      "declared": "RP.PIO.Audio_I2S",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L62"
+      "srcHref": "srcs/rp-pio-audio_i2s.ads.html#L43"
     },
     {
       "label": "Transmit",
-      "docHref": "docs/rp__spi___spec.html#L69C14",
+      "docHref": "docs/rp__spi___spec.html#L63C14",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L69"
+      "srcHref": "srcs/rp-spi.ads.html#L63"
+    },
+    {
+      "label": "Transmit",
+      "docHref": "docs/rp__spi___spec.html#L70C14",
+      "declared": "RP.SPI",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-spi.ads.html#L70"
     },
     {
       "label": "Transmit",
@@ -1886,10 +1991,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Transmit_Status",
-      "docHref": "docs/rp__spi___spec.html#L49C13",
+      "docHref": "docs/rp__spi___spec.html#L50C13",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L49"
+      "srcHref": "srcs/rp-spi.ads.html#L50"
     },
     {
       "label": "Transmit_Status",
@@ -1907,10 +2012,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "TX_FIFO_Address",
-      "docHref": "docs/rp__pio___spec.html#L198C13",
+      "docHref": "docs/rp__pio___spec.html#L199C13",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L198"
+      "srcHref": "srcs/rp-pio.ads.html#L199"
     },
     {
       "label": "Unlink",
@@ -1925,6 +2030,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "HAL.Filesystem",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-filesystem.ads.html#L106"
+    },
+    {
+      "label": "Update",
+      "docHref": "docs/rp__pio__ws2812___spec.html#L52C14",
+      "declared": "RP.PIO.WS2812",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-ws2812.ads.html#L52"
     },
     {
       "label": "Update_Layer",

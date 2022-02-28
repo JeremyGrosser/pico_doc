@@ -170,6 +170,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/usb-lang.ads.html#L23"
     },
     {
+      "label": "Audio_I2s_Program_Instructions",
+      "docHref": "docs/rp__pio__audio_i2s_pio___spec.html#L20C4",
+      "declared": "RP.PIO.Audio_I2S_PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-audio_i2s_pio.ads.html#L20"
+    },
+    {
       "label": "Azeri_Cyrillic",
       "docHref": "docs/usb__lang___spec.html#L25C4",
       "declared": "USB.Lang",
@@ -602,13 +609,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "USB.Lang",
       "declared_qualifier": "",
       "srcHref": "srcs/usb-lang.ads.html#L67"
-    },
-    {
-      "label": "git_revision",
-      "docHref": "docs/rp__rom___spec.html#L168C4",
-      "declared": "RP.ROM",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L168"
     },
     {
       "label": "Go_Idle_State",
@@ -1904,6 +1904,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-sdmmc.ads.html#L244"
+    },
+    {
+      "label": "Ws2812_Program_Instructions",
+      "docHref": "docs/rp__pio__ws2812_pio___spec.html#L22C4",
+      "declared": "RP.PIO.WS2812_PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-ws2812_pio.ads.html#L22"
     },
     {
       "label": "XIP_CTRL_Base",

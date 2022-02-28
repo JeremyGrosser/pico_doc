@@ -1,5 +1,5 @@
 GNATdoc.Documentation = {
-  "label": "HAL.Audio",
+  "label": "RP.Flash",
   "qualifier": "",
   "summary": [
   ],
@@ -9,11 +9,11 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "Audio_Buffer",
+          "label": "Flash_Offset",
           "qualifier": "",
-          "line": 36,
+          "line": 15,
           "column": 9,
-          "src": "srcs/hal-audio.ads.html",
+          "src": "srcs/rp-flash.ads.html",
           "summary": [
           ],
           "description": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 15,
                   "children": [
                     {
                       "kind": "span",
@@ -42,8 +42,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Audio_Buffer",
-                      "href": "docs/hal__audio___spec.html#L36C9"
+                      "text": "Flash_Offset",
+                      "href": "docs/rp__flash___spec.html#L15C9"
                     },
                     {
                       "kind": "span",
@@ -54,493 +54,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "keyword",
                       "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "array"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Natural"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "range"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "<>"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "of"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Integer_16"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 37,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Component_Size => 16, Alignment => 16"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Audio_Frequency",
-          "qualifier": "",
-          "line": 41,
-          "column": 9,
-          "src": "srcs/hal-audio.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 41,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Audio_Frequency",
-                      "href": "docs/hal__audio___spec.html#L41C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 42,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Audio_Freq_8kHz",
-                      "href": "docs/hal__audio___spec.html#L42C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 43,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Audio_Freq_11kHz",
-                      "href": "docs/hal__audio___spec.html#L43C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 44,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Audio_Freq_16kHz",
-                      "href": "docs/hal__audio___spec.html#L44C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 45,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Audio_Freq_22kHz",
-                      "href": "docs/hal__audio___spec.html#L45C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 46,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Audio_Freq_32kHz",
-                      "href": "docs/hal__audio___spec.html#L46C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 47,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Audio_Freq_44kHz",
-                      "href": "docs/hal__audio___spec.html#L47C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 48,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Audio_Freq_48kHz",
-                      "href": "docs/hal__audio___spec.html#L48C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 49,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Audio_Freq_96kHz",
-                      "href": "docs/hal__audio___spec.html#L49C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 50,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Size => 32"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "literals": [
-            {
-              "label": "Audio_Freq_8kHz",
-              "line": 42,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Audio_Freq_11kHz",
-              "line": 43,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Audio_Freq_16kHz",
-              "line": 44,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Audio_Freq_22kHz",
-              "line": 45,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Audio_Freq_32kHz",
-              "line": 46,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Audio_Freq_44kHz",
-              "line": 47,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Audio_Freq_48kHz",
-              "line": 48,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Audio_Freq_96kHz",
-              "line": 49,
-              "column": 7,
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Audio_Volume",
-          "qualifier": "",
-          "line": 39,
-          "column": 9,
-          "src": "srcs/hal-audio.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 39,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Audio_Volume",
-                      "href": "docs/hal__audio___spec.html#L39C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "new"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Natural"
                     },
                     {
                       "kind": "span",
@@ -579,8 +92,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "number",
-                      "text": "100"
+                      "cssClass": "identifier",
+                      "text": "Flash_Size"
                     },
                     {
                       "kind": "span",
@@ -599,100 +112,11 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "Audio_Stream",
+          "label": "Erase",
           "qualifier": "",
-          "line": 61,
-          "column": 9,
-          "src": "srcs/hal-audio.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 61,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Audio_Stream",
-                      "href": "docs/hal__audio___spec.html#L61C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "limited"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "interface"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "inherited": [
-            {
-              "label": "I2S_Device",
-              "docHref": "docs/rp__pio__audio_i2s___spec.html#L18C9"
-            }
-          ]
-        }
-      ],
-      "label": "Interface types"
-    },
-    {
-      "entities": [
-        {
-          "label": "Receive",
-          "qualifier": "",
-          "line": 69,
+          "line": 40,
           "column": 14,
-          "src": "srcs/hal-audio.ads.html",
+          "src": "srcs/rp-flash.ads.html",
           "summary": [
           ],
           "description": [
@@ -701,7 +125,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 69,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -721,232 +145,15 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Receive",
-                      "href": "docs/hal__audio___spec.html#L69C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "This",
-                      "href": "docs/hal__audio___spec.html#L69C23"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "in"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "out"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Audio_Stream",
-                      "href": "docs/hal__audio___spec.html#L61C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "text": "Erase",
+                      "href": "docs/rp__flash___spec.html#L40C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 70,
+                  "number": 41,
                   "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Data",
-                      "href": "docs/hal__audio___spec.html#L70C23"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "out"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Audio_Buffer",
-                      "href": "docs/hal__audio___spec.html#L36C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "abstract"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "This",
-              "line": 69,
-              "column": 23,
-              "type": {
-                "label": "HAL.Audio.Audio_Stream",
-                "docHref": "docs/hal__audio___spec.html#L61C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Data",
-              "line": 70,
-              "column": 23,
-              "type": {
-                "label": "HAL.Audio.Audio_Buffer",
-                "docHref": "docs/hal__audio___spec.html#L36C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_Frequency",
-          "qualifier": "",
-          "line": 63,
-          "column": 14,
-          "src": "srcs/hal-audio.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 63,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_Frequency",
-                      "href": "docs/hal__audio___spec.html#L63C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "This",
-                      "href": "docs/hal__audio___spec.html#L63C29"
-                    },
                     {
                       "kind": "span",
                       "cssClass": "text",
@@ -955,27 +162,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ":"
+                      "text": "("
                     },
                     {
                       "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "in"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "out"
+                      "cssClass": "identifier",
+                      "text": "Offset",
+                      "href": "docs/rp__flash___spec.html#L41C8"
                     },
                     {
                       "kind": "span",
@@ -985,8 +178,18 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Audio_Stream",
-                      "href": "docs/hal__audio___spec.html#L61C9"
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Flash_Offset",
+                      "href": "docs/rp__flash___spec.html#L15C9"
                     },
                     {
                       "kind": "span",
@@ -997,18 +200,18 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 64,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                            "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Frequency",
-                      "href": "docs/hal__audio___spec.html#L64C29"
+                      "text": "Length",
+                      "href": "docs/rp__flash___spec.html#L42C8"
                     },
                     {
                       "kind": "span",
@@ -1028,13 +231,179 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Audio_Frequency",
-                      "href": "docs/hal__audio___spec.html#L41C9"
+                      "text": "Natural"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 43,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " No_Inline, Linker_Section => \".time_critical\","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 44,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          Pre => (Length "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "mod"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Sector_Size) = 0"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 45,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                 "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "and"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " (Offset "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "mod"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Sector_Size) = 0"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 46,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                 "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "and"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Offset + Flash_Offset (Length) <= Flash_Offset'Last"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Erase Length bytes of flash starting at Offset bytes from\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "the beginning of flash. Length and Offset must be multiples of 4096.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Offset",
+              "line": 41,
+              "column": 8,
+              "type": {
+                "label": "RP.Flash.Flash_Offset",
+                "docHref": "docs/rp__flash___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Length",
+              "line": 42,
+              "column": 8,
+              "type": {
+                "label": "Natural"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "In_Flash",
+          "qualifier": "",
+          "line": 21,
+          "column": 13,
+          "src": "srcs/rp-flash.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 21,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
                     },
                     {
                       "kind": "span",
@@ -1043,8 +412,31 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
+                      "cssClass": "identifier",
+                      "text": "In_Flash",
+                      "href": "docs/rp__flash___spec.html#L21C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 22,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Addr",
+                      "href": "docs/rp__flash___spec.html#L22C8"
                     },
                     {
                       "kind": "span",
@@ -1053,8 +445,49 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "System.Address"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 23,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "keyword",
-                      "text": "abstract"
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
                     },
                     {
                       "kind": "span",
@@ -1068,23 +501,11 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "This",
-              "line": 63,
-              "column": 29,
+              "label": "Addr",
+              "line": 22,
+              "column": 8,
               "type": {
-                "label": "HAL.Audio.Audio_Stream",
-                "docHref": "docs/hal__audio___spec.html#L61C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Frequency",
-              "line": 64,
-              "column": 29,
-              "type": {
-                "label": "HAL.Audio.Audio_Frequency",
-                "docHref": "docs/hal__audio___spec.html#L41C9"
+                "label": "Address"
               },
               "description": [
               ]
@@ -1092,11 +513,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Transmit",
+          "label": "Program",
           "qualifier": "",
-          "line": 66,
+          "line": 50,
           "column": 14,
-          "src": "srcs/hal-audio.ads.html",
+          "src": "srcs/rp-flash.ads.html",
           "summary": [
           ],
           "description": [
@@ -1105,7 +526,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 66,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -1125,13 +546,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Transmit",
-                      "href": "docs/hal__audio___spec.html#L66C14"
-                    },
+                      "text": "Program",
+                      "href": "docs/rp__flash___spec.html#L50C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 51,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -1141,8 +568,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "This",
-                      "href": "docs/hal__audio___spec.html#L66C24"
+                      "text": "Offset",
+                      "href": "docs/rp__flash___spec.html#L51C8"
                     },
                     {
                       "kind": "span",
@@ -1161,29 +588,9 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "in"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "out"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Audio_Stream",
-                      "href": "docs/hal__audio___spec.html#L61C9"
+                      "text": "Flash_Offset",
+                      "href": "docs/rp__flash___spec.html#L15C9"
                     },
                     {
                       "kind": "span",
@@ -1194,18 +601,18 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 67,
+                  "number": 52,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                       "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Data",
-                      "href": "docs/hal__audio___spec.html#L67C24"
+                      "text": "Source",
+                      "href": "docs/rp__flash___spec.html#L52C8"
                     },
                     {
                       "kind": "span",
@@ -1225,13 +632,164 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Audio_Buffer",
-                      "href": "docs/hal__audio___spec.html#L36C9"
+                      "text": "System.Address"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 53,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Length",
+                      "href": "docs/rp__flash___spec.html#L53C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Natural"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 54,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " No_Inline, Linker_Section => \".time_critical\","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 55,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     Pre => (Length "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "mod"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Page_Size) = 0"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 56,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "            "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "and"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " (Offset "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "mod"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Page_Size) = 0"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 57,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "            "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "and"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Offset + Flash_Offset (Length) <= Flash_Offset'Last"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 58,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "            "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "and"
                     },
                     {
                       "kind": "span",
@@ -1241,7 +799,95 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "is"
+                      "text": "not"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " In_Flash (Source)"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Program Length bytes of flash starting at Offset bytes from the beginning\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "of flash using the Source buffer. Length must be a multiple of 256.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Offset",
+              "line": 51,
+              "column": 8,
+              "type": {
+                "label": "RP.Flash.Flash_Offset",
+                "docHref": "docs/rp__flash___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Source",
+              "line": 52,
+              "column": 8,
+              "type": {
+                "label": "Address"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Length",
+              "line": 53,
+              "column": 8,
+              "type": {
+                "label": "Natural"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "To_Address",
+          "qualifier": "",
+          "line": 17,
+          "column": 13,
+          "src": "srcs/rp-flash.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 17,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
                     },
                     {
                       "kind": "span",
@@ -1250,8 +896,83 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "To_Address",
+                      "href": "docs/rp__flash___spec.html#L17C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 18,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Offset",
+                      "href": "docs/rp__flash___spec.html#L18C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Flash_Offset",
+                      "href": "docs/rp__flash___spec.html#L15C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 19,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "keyword",
-                      "text": "abstract"
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "System.Address"
                     },
                     {
                       "kind": "span",
@@ -1265,23 +986,167 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "This",
-              "line": 66,
-              "column": 24,
+              "label": "Offset",
+              "line": 18,
+              "column": 8,
               "type": {
-                "label": "HAL.Audio.Audio_Stream",
-                "docHref": "docs/hal__audio___spec.html#L61C9"
+                "label": "RP.Flash.Flash_Offset",
+                "docHref": "docs/rp__flash___spec.html#L15C9"
               },
               "description": [
               ]
-            },
+            }
+          ]
+        },
+        {
+          "label": "To_Flash_Offset",
+          "qualifier": "",
+          "line": 25,
+          "column": 13,
+          "src": "srcs/rp-flash.ads.html",
+          "summary": [
+          ],
+          "description": [
             {
-              "label": "Data",
-              "line": 67,
-              "column": 24,
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 25,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "To_Flash_Offset",
+                      "href": "docs/rp__flash___spec.html#L25C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 26,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Addr",
+                      "href": "docs/rp__flash___spec.html#L26C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "System.Address"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 27,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Flash_Offset",
+                      "href": "docs/rp__flash___spec.html#L15C9"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 28,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pre => In_Flash (Addr)"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Addr",
+              "line": 26,
+              "column": 8,
               "type": {
-                "label": "HAL.Audio.Audio_Buffer",
-                "docHref": "docs/hal__audio___spec.html#L36C9"
+                "label": "Address"
               },
               "description": [
               ]
@@ -1289,7 +1154,7 @@ GNATdoc.Documentation = {
           ]
         }
       ],
-      "label": "Dispatching subprograms"
+      "label": "Subprograms"
     }
   ]
 };

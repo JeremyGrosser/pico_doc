@@ -230,6 +230,11 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/rp__device___spec.html"
   },
   {
+    "label": "RP.Flash",
+    "qualifier": "",
+    "file": "docs/rp__flash___spec.html"
+  },
+  {
     "label": "RP.GPIO",
     "qualifier": "",
     "file": "docs/rp__gpio___spec.html"
@@ -248,6 +253,31 @@ GNATdoc.DocumentationIndex = [
     "label": "RP.PIO",
     "qualifier": "",
     "file": "docs/rp__pio___spec.html"
+  },
+  {
+    "label": "RP.PIO.Audio_I2S",
+    "qualifier": "",
+    "file": "docs/rp__pio__audio_i2s___spec.html"
+  },
+  {
+    "label": "RP.PIO.Audio_I2S_PIO",
+    "qualifier": "",
+    "file": "docs/rp__pio__audio_i2s_pio___spec.html"
+  },
+  {
+    "label": "RP.PIO.Encoding",
+    "qualifier": "",
+    "file": "docs/rp__pio__encoding___spec.html"
+  },
+  {
+    "label": "RP.PIO.WS2812",
+    "qualifier": "",
+    "file": "docs/rp__pio__ws2812___spec.html"
+  },
+  {
+    "label": "RP.PIO.WS2812_PIO",
+    "qualifier": "",
+    "file": "docs/rp__pio__ws2812_pio___spec.html"
   },
   {
     "label": "RP.PWM",

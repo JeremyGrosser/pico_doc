@@ -1,5 +1,5 @@
 GNATdoc.Documentation = {
-  "label": "RP.DMA",
+  "label": "RP.PIO.Encoding",
   "qualifier": "",
   "summary": [
   ],
@@ -9,11 +9,11 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "Checksum_Algorithm",
+          "label": "JMP_Condition",
           "qualifier": "",
-          "line": 146,
+          "line": 10,
           "column": 9,
-          "src": "srcs/rp-dma.ads.html",
+          "src": "srcs/rp-pio-encoding.ads.html",
           "summary": [
           ],
           "description": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 146,
+                  "number": 10,
                   "children": [
                     {
                       "kind": "span",
@@ -42,8 +42,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Checksum_Algorithm",
-                      "href": "docs/rp__dma___spec.html#L146C9"
+                      "text": "JMP_Condition",
+                      "href": "docs/rp__pio__encoding___spec.html#L10C9"
                     },
                     {
                       "kind": "span",
@@ -59,7 +59,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 147,
+                  "number": 11,
                   "children": [
                     {
                       "kind": "span",
@@ -74,29 +74,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "CRC_32",
-                      "href": "docs/rp__dma___spec.html#L147C8"
+                      "text": "Always",
+                      "href": "docs/rp__pio__encoding___spec.html#L11C8"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  CRC-32 (IEEE802.3 polynomial)"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 148,
+                  "number": 12,
                   "children": [
                     {
                       "kind": "span",
@@ -106,8 +96,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "CRC_32R",
-                      "href": "docs/rp__dma___spec.html#L148C8"
+                      "text": "Scratch_X_Zero",
+                      "href": "docs/rp__pio__encoding___spec.html#L12C8"
                     },
                     {
                       "kind": "span",
@@ -117,253 +107,15 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "              "
                     },
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  CRC-32 (IEEE802.3 polynomial) with bit reversed data"
+                      "text": "--  !X"
                     }
                   ]
                 },
-                {
-                  "kind": "line",
-                  "number": 149,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "CRC_16",
-                      "href": "docs/rp__dma___spec.html#L149C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  CRC-16-CCITT"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 150,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "CRC_16R",
-                      "href": "docs/rp__dma___spec.html#L150C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  CRC-16-CCITT with bit reversed data"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 151,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EVEN",
-                      "href": "docs/rp__dma___spec.html#L151C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  XOR reduction over all data. == 1 if total 1 population count is odd"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 152,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SUM",
-                      "href": "docs/rp__dma___spec.html#L152C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/rp__dma___spec.html#L146C9"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Calculate a simple 32-bit checksum (addition with 32 bit accumulator)\n"
-                }
-              ]
-            }
-          ],
-          "literals": [
-            {
-              "label": "CRC_32",
-              "line": 147,
-              "column": 8,
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "CRC-32 (IEEE802.3 polynomial)\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "CRC_32R",
-              "line": 148,
-              "column": 8,
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "CRC-32 (IEEE802.3 polynomial) with bit reversed data\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "CRC_16",
-              "line": 149,
-              "column": 8,
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "CRC-16-CCITT\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "CRC_16R",
-              "line": 150,
-              "column": 8,
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "CRC-16-CCITT with bit reversed data\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "EVEN",
-              "line": 151,
-              "column": 8,
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "XOR reduction over all data. == 1 if total 1 population count is odd\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "SUM",
-              "line": 152,
-              "column": 8,
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "DMA_Channel_Id",
-          "qualifier": "",
-          "line": 13,
-          "column": 9,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
                 {
                   "kind": "line",
                   "number": 13,
@@ -371,63 +123,18 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "range"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "number",
-                      "text": "0"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
+                      "text": "Scratch_X_Nonzero_Decrement",
+                      "href": "docs/rp__pio__encoding___spec.html#L13C8"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ".."
+                      "text": ","
                     },
                     {
                       "kind": "span",
@@ -436,8 +143,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "number",
-                      "text": "11"
+                      "cssClass": "comment",
+                      "text": "--  X--"
                     }
                   ]
                 },
@@ -448,328 +155,34 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Size => 4"
+                      "text": "       "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "DMA_IRQ_Id",
-          "qualifier": "",
-          "line": 167,
-          "column": 12,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 167,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "subtype"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
+                      "text": "Scratch_Y_Zero",
+                      "href": "docs/rp__pio__encoding___spec.html#L14C8"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DMA_IRQ_Id",
-                      "href": "docs/rp__dma___spec.html#L167C12"
+                      "text": ","
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "              "
                     },
                     {
                       "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Natural"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "range"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "number",
-                      "text": "0"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ".."
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "number",
-                      "text": "1"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "DMA_Request_Trigger",
-          "qualifier": "",
-          "line": 24,
-          "column": 9,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 24,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Request_Trigger",
-                      "href": "docs/rp__dma___spec.html#L24C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
+                      "cssClass": "comment",
+                      "text": "--  !Y"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 25,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO0_TX0",
-                      "href": "docs/rp__dma___spec.html#L25C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO0_TX1",
-                      "href": "docs/rp__dma___spec.html#L25C18"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO0_TX2",
-                      "href": "docs/rp__dma___spec.html#L25C28"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO0_TX3",
-                      "href": "docs/rp__dma___spec.html#L25C38"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO0_RX0",
-                      "href": "docs/rp__dma___spec.html#L25C48"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO0_RX1",
-                      "href": "docs/rp__dma___spec.html#L25C58"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO0_RX2",
-                      "href": "docs/rp__dma___spec.html#L25C68"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO0_RX3",
-                      "href": "docs/rp__dma___spec.html#L25C78"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 26,
+                  "number": 15,
                   "children": [
                     {
                       "kind": "span",
@@ -779,8 +192,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "PIO1_TX0",
-                      "href": "docs/rp__dma___spec.html#L26C8"
+                      "text": "Scratch_Y_Nonzero_Decrement",
+                      "href": "docs/rp__pio__encoding___spec.html#L15C8"
                     },
                     {
                       "kind": "span",
@@ -794,1243 +207,11 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO1_TX1",
-                      "href": "docs/rp__dma___spec.html#L26C18"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO1_TX2",
-                      "href": "docs/rp__dma___spec.html#L26C28"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO1_TX3",
-                      "href": "docs/rp__dma___spec.html#L26C38"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO1_RX0",
-                      "href": "docs/rp__dma___spec.html#L26C48"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO1_RX1",
-                      "href": "docs/rp__dma___spec.html#L26C58"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO1_RX2",
-                      "href": "docs/rp__dma___spec.html#L26C68"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO1_RX3",
-                      "href": "docs/rp__dma___spec.html#L26C78"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "comment",
+                      "text": "--  Y--"
                     }
                   ]
                 },
-                {
-                  "kind": "line",
-                  "number": 27,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPI0_TX",
-                      "href": "docs/rp__dma___spec.html#L27C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPI0_RX",
-                      "href": "docs/rp__dma___spec.html#L27C17"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 28,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPI1_TX",
-                      "href": "docs/rp__dma___spec.html#L28C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPI1_RX",
-                      "href": "docs/rp__dma___spec.html#L28C17"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 29,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "UART0_TX",
-                      "href": "docs/rp__dma___spec.html#L29C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "UART0_RX",
-                      "href": "docs/rp__dma___spec.html#L29C18"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 30,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "UART1_TX",
-                      "href": "docs/rp__dma___spec.html#L30C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "UART1_RX",
-                      "href": "docs/rp__dma___spec.html#L30C18"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 31,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_WRAP0",
-                      "href": "docs/rp__dma___spec.html#L31C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_WRAP1",
-                      "href": "docs/rp__dma___spec.html#L31C19"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_WRAP2",
-                      "href": "docs/rp__dma___spec.html#L31C30"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_WRAP3",
-                      "href": "docs/rp__dma___spec.html#L31C41"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_WRAP4",
-                      "href": "docs/rp__dma___spec.html#L31C52"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_WRAP5",
-                      "href": "docs/rp__dma___spec.html#L31C63"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_WRAP6",
-                      "href": "docs/rp__dma___spec.html#L31C74"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_WRAP7",
-                      "href": "docs/rp__dma___spec.html#L31C85"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 32,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "I2C0_TX",
-                      "href": "docs/rp__dma___spec.html#L32C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "I2C0_RX",
-                      "href": "docs/rp__dma___spec.html#L32C17"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 33,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "I2C1_TX",
-                      "href": "docs/rp__dma___spec.html#L33C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "I2C1_RX",
-                      "href": "docs/rp__dma___spec.html#L33C17"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 34,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ADC",
-                      "href": "docs/rp__dma___spec.html#L34C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 35,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "XIP_STREAM",
-                      "href": "docs/rp__dma___spec.html#L35C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "XIP_SSITX",
-                      "href": "docs/rp__dma___spec.html#L35C20"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "XIP_SSIRX",
-                      "href": "docs/rp__dma___spec.html#L35C31"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 36,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "TIMER0",
-                      "href": "docs/rp__dma___spec.html#L36C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "TIMER1",
-                      "href": "docs/rp__dma___spec.html#L36C16"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "TIMER2",
-                      "href": "docs/rp__dma___spec.html#L36C24"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "TIMER3",
-                      "href": "docs/rp__dma___spec.html#L36C32"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 37,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PERMANENT",
-                      "href": "docs/rp__dma___spec.html#L37C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 38,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Size => 6"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "literals": [
-            {
-              "label": "PIO0_TX0",
-              "line": 25,
-              "column": 8,
-              "description": [
-              ]
-            },
-            {
-              "label": "PIO0_TX1",
-              "line": 25,
-              "column": 18,
-              "description": [
-              ]
-            },
-            {
-              "label": "PIO0_TX2",
-              "line": 25,
-              "column": 28,
-              "description": [
-              ]
-            },
-            {
-              "label": "PIO0_TX3",
-              "line": 25,
-              "column": 38,
-              "description": [
-              ]
-            },
-            {
-              "label": "PIO0_RX0",
-              "line": 25,
-              "column": 48,
-              "description": [
-              ]
-            },
-            {
-              "label": "PIO0_RX1",
-              "line": 25,
-              "column": 58,
-              "description": [
-              ]
-            },
-            {
-              "label": "PIO0_RX2",
-              "line": 25,
-              "column": 68,
-              "description": [
-              ]
-            },
-            {
-              "label": "PIO0_RX3",
-              "line": 25,
-              "column": 78,
-              "description": [
-              ]
-            },
-            {
-              "label": "PIO1_TX0",
-              "line": 26,
-              "column": 8,
-              "description": [
-              ]
-            },
-            {
-              "label": "PIO1_TX1",
-              "line": 26,
-              "column": 18,
-              "description": [
-              ]
-            },
-            {
-              "label": "PIO1_TX2",
-              "line": 26,
-              "column": 28,
-              "description": [
-              ]
-            },
-            {
-              "label": "PIO1_TX3",
-              "line": 26,
-              "column": 38,
-              "description": [
-              ]
-            },
-            {
-              "label": "PIO1_RX0",
-              "line": 26,
-              "column": 48,
-              "description": [
-              ]
-            },
-            {
-              "label": "PIO1_RX1",
-              "line": 26,
-              "column": 58,
-              "description": [
-              ]
-            },
-            {
-              "label": "PIO1_RX2",
-              "line": 26,
-              "column": 68,
-              "description": [
-              ]
-            },
-            {
-              "label": "PIO1_RX3",
-              "line": 26,
-              "column": 78,
-              "description": [
-              ]
-            },
-            {
-              "label": "SPI0_TX",
-              "line": 27,
-              "column": 8,
-              "description": [
-              ]
-            },
-            {
-              "label": "SPI0_RX",
-              "line": 27,
-              "column": 17,
-              "description": [
-              ]
-            },
-            {
-              "label": "SPI1_TX",
-              "line": 28,
-              "column": 8,
-              "description": [
-              ]
-            },
-            {
-              "label": "SPI1_RX",
-              "line": 28,
-              "column": 17,
-              "description": [
-              ]
-            },
-            {
-              "label": "UART0_TX",
-              "line": 29,
-              "column": 8,
-              "description": [
-              ]
-            },
-            {
-              "label": "UART0_RX",
-              "line": 29,
-              "column": 18,
-              "description": [
-              ]
-            },
-            {
-              "label": "UART1_TX",
-              "line": 30,
-              "column": 8,
-              "description": [
-              ]
-            },
-            {
-              "label": "UART1_RX",
-              "line": 30,
-              "column": 18,
-              "description": [
-              ]
-            },
-            {
-              "label": "PWM_WRAP0",
-              "line": 31,
-              "column": 8,
-              "description": [
-              ]
-            },
-            {
-              "label": "PWM_WRAP1",
-              "line": 31,
-              "column": 19,
-              "description": [
-              ]
-            },
-            {
-              "label": "PWM_WRAP2",
-              "line": 31,
-              "column": 30,
-              "description": [
-              ]
-            },
-            {
-              "label": "PWM_WRAP3",
-              "line": 31,
-              "column": 41,
-              "description": [
-              ]
-            },
-            {
-              "label": "PWM_WRAP4",
-              "line": 31,
-              "column": 52,
-              "description": [
-              ]
-            },
-            {
-              "label": "PWM_WRAP5",
-              "line": 31,
-              "column": 63,
-              "description": [
-              ]
-            },
-            {
-              "label": "PWM_WRAP6",
-              "line": 31,
-              "column": 74,
-              "description": [
-              ]
-            },
-            {
-              "label": "PWM_WRAP7",
-              "line": 31,
-              "column": 85,
-              "description": [
-              ]
-            },
-            {
-              "label": "I2C0_TX",
-              "line": 32,
-              "column": 8,
-              "description": [
-              ]
-            },
-            {
-              "label": "I2C0_RX",
-              "line": 32,
-              "column": 17,
-              "description": [
-              ]
-            },
-            {
-              "label": "I2C1_TX",
-              "line": 33,
-              "column": 8,
-              "description": [
-              ]
-            },
-            {
-              "label": "I2C1_RX",
-              "line": 33,
-              "column": 17,
-              "description": [
-              ]
-            },
-            {
-              "label": "ADC",
-              "line": 34,
-              "column": 8,
-              "description": [
-              ]
-            },
-            {
-              "label": "XIP_STREAM",
-              "line": 35,
-              "column": 8,
-              "description": [
-              ]
-            },
-            {
-              "label": "XIP_SSITX",
-              "line": 35,
-              "column": 20,
-              "description": [
-              ]
-            },
-            {
-              "label": "XIP_SSIRX",
-              "line": 35,
-              "column": 31,
-              "description": [
-              ]
-            },
-            {
-              "label": "TIMER0",
-              "line": 36,
-              "column": 8,
-              "description": [
-              ]
-            },
-            {
-              "label": "TIMER1",
-              "line": 36,
-              "column": 16,
-              "description": [
-              ]
-            },
-            {
-              "label": "TIMER2",
-              "line": 36,
-              "column": 24,
-              "description": [
-              ]
-            },
-            {
-              "label": "TIMER3",
-              "line": 36,
-              "column": 32,
-              "description": [
-              ]
-            },
-            {
-              "label": "PERMANENT",
-              "line": 37,
-              "column": 8,
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "DMA_Timer_Id",
-          "qualifier": "",
-          "line": 183,
-          "column": 12,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 183,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "subtype"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Timer_Id",
-                      "href": "docs/rp__dma___spec.html#L183C12"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Request_Trigger",
-                      "href": "docs/rp__dma___spec.html#L24C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "range"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "TIMER0"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ".."
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "TIMER3"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Ring_Wrap_Select",
-          "qualifier": "",
-          "line": 20,
-          "column": 9,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 20,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Ring_Wrap_Select",
-                      "href": "docs/rp__dma___spec.html#L20C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Wrap_Read",
-                      "href": "docs/rp__dma___spec.html#L20C30"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Wrap_Write",
-                      "href": "docs/rp__dma___spec.html#L20C41"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 21,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Size => 1"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "literals": [
-            {
-              "label": "Wrap_Read",
-              "line": 20,
-              "column": 30,
-              "description": [
-              ]
-            },
-            {
-              "label": "Wrap_Write",
-              "line": 20,
-              "column": 41,
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Transfer_Width",
-          "qualifier": "",
-          "line": 16,
-          "column": 9,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
                 {
                   "kind": "line",
                   "number": 16,
@@ -2038,49 +219,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Transfer_Width",
-                      "href": "docs/rp__dma___spec.html#L16C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Transfer_8",
-                      "href": "docs/rp__dma___spec.html#L16C28"
+                      "text": "X_Notequal_Y",
+                      "href": "docs/rp__pio__encoding___spec.html#L16C8"
                     },
                     {
                       "kind": "span",
@@ -2090,34 +235,12 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "                "
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Transfer_16",
-                      "href": "docs/rp__dma___spec.html#L16C40"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Transfer_32",
-                      "href": "docs/rp__dma___spec.html#L16C53"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
+                      "cssClass": "comment",
+                      "text": "--  X!=Y"
                     }
                   ]
                 },
@@ -2128,7 +251,321 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Input_Pin",
+                      "href": "docs/rp__pio__encoding___spec.html#L17C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  PIN"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 18,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "OSRE_Not_Empty",
+                      "href": "docs/rp__pio__encoding___spec.html#L18C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "              "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  !OSRE"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 19,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "Always",
+              "line": 11,
+              "column": 8,
+              "description": [
+              ]
+            },
+            {
+              "label": "Scratch_X_Zero",
+              "line": 12,
+              "column": 8,
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "!X\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Scratch_X_Nonzero_Decrement",
+              "line": 13,
+              "column": 8,
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "X--\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Scratch_Y_Zero",
+              "line": 14,
+              "column": 8,
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "!Y\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Scratch_Y_Nonzero_Decrement",
+              "line": 15,
+              "column": 8,
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Y--\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "X_Notequal_Y",
+              "line": 16,
+              "column": 8,
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "X!=Y\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Input_Pin",
+              "line": 17,
+              "column": 8,
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "PIN\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "OSRE_Not_Empty",
+              "line": 18,
+              "column": 8,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "MOV_Operation",
+          "qualifier": "",
+          "line": 154,
+          "column": 9,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 154,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "MOV_Operation",
+                      "href": "docs/rp__pio__encoding___spec.html#L154C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 155,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
                       "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "None",
+                      "href": "docs/rp__pio__encoding___spec.html#L155C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Invert",
+                      "href": "docs/rp__pio__encoding___spec.html#L155C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Bit_Reverse",
+                      "href": "docs/rp__pio__encoding___spec.html#L155C22"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 156,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -2152,39 +589,34 @@ GNATdoc.Documentation = {
           ],
           "literals": [
             {
-              "label": "Transfer_8",
-              "line": 16,
-              "column": 28,
+              "label": "None",
+              "line": 155,
+              "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Transfer_16",
-              "line": 16,
-              "column": 40,
+              "label": "Invert",
+              "line": 155,
+              "column": 14,
               "description": [
               ]
             },
             {
-              "label": "Transfer_32",
-              "line": 16,
-              "column": 53,
+              "label": "Bit_Reverse",
+              "line": 155,
+              "column": 22,
               "description": [
               ]
             }
           ]
-        }
-      ],
-      "label": "Simple types"
-    },
-    {
-      "entities": [
+        },
         {
-          "label": "DMA_Configuration",
+          "label": "MOV_Target",
           "qualifier": "",
-          "line": 87,
+          "line": 142,
           "column": 9,
-          "src": "srcs/rp-dma.ads.html",
+          "src": "srcs/rp-pio-encoding.ads.html",
           "summary": [
           ],
           "description": [
@@ -2193,7 +625,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 87,
+                  "number": 142,
                   "children": [
                     {
                       "kind": "span",
@@ -2213,8 +645,1117 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DMA_Configuration",
-                      "href": "docs/rp__dma___spec.html#L87C9"
+                      "text": "MOV_Target",
+                      "href": "docs/rp__pio__encoding___spec.html#L142C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 143,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PINS",
+                      "href": "docs/rp__pio__encoding___spec.html#L143C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "X",
+                      "href": "docs/rp__pio__encoding___spec.html#L143C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Y",
+                      "href": "docs/rp__pio__encoding___spec.html#L143C17"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "EXEC",
+                      "href": "docs/rp__pio__encoding___spec.html#L143C20"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PC",
+                      "href": "docs/rp__pio__encoding___spec.html#L143C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ISR",
+                      "href": "docs/rp__pio__encoding___spec.html#L143C30"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "OSR",
+                      "href": "docs/rp__pio__encoding___spec.html#L143C35"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 144,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "PINS",
+              "line": 143,
+              "column": 8,
+              "description": [
+              ]
+            },
+            {
+              "label": "X",
+              "line": 143,
+              "column": 14,
+              "description": [
+              ]
+            },
+            {
+              "label": "Y",
+              "line": 143,
+              "column": 17,
+              "description": [
+              ]
+            },
+            {
+              "label": "EXEC",
+              "line": 143,
+              "column": 20,
+              "description": [
+              ]
+            },
+            {
+              "label": "PC",
+              "line": 143,
+              "column": 26,
+              "description": [
+              ]
+            },
+            {
+              "label": "ISR",
+              "line": 143,
+              "column": 30,
+              "description": [
+              ]
+            },
+            {
+              "label": "OSR",
+              "line": 143,
+              "column": 35,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "SET_Destination",
+          "qualifier": "",
+          "line": 192,
+          "column": 9,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 192,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SET_Destination",
+                      "href": "docs/rp__pio__encoding___spec.html#L192C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 193,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PINS",
+                      "href": "docs/rp__pio__encoding___spec.html#L193C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "X",
+                      "href": "docs/rp__pio__encoding___spec.html#L193C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Y",
+                      "href": "docs/rp__pio__encoding___spec.html#L193C17"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PINDIRS",
+                      "href": "docs/rp__pio__encoding___spec.html#L193C20"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 194,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "PINS",
+              "line": 193,
+              "column": 8,
+              "description": [
+              ]
+            },
+            {
+              "label": "X",
+              "line": 193,
+              "column": 14,
+              "description": [
+              ]
+            },
+            {
+              "label": "Y",
+              "line": 193,
+              "column": 17,
+              "description": [
+              ]
+            },
+            {
+              "label": "PINDIRS",
+              "line": 193,
+              "column": 20,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "SHIFT_IN_Source",
+          "qualifier": "",
+          "line": 55,
+          "column": 9,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 55,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SHIFT_IN_Source",
+                      "href": "docs/rp__pio__encoding___spec.html#L55C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 56,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PINS",
+                      "href": "docs/rp__pio__encoding___spec.html#L56C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "X",
+                      "href": "docs/rp__pio__encoding___spec.html#L56C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Y",
+                      "href": "docs/rp__pio__encoding___spec.html#L56C17"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ZERO",
+                      "href": "docs/rp__pio__encoding___spec.html#L56C20"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ISR",
+                      "href": "docs/rp__pio__encoding___spec.html#L56C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "OSR",
+                      "href": "docs/rp__pio__encoding___spec.html#L56C31"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 57,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "PINS",
+              "line": 56,
+              "column": 8,
+              "description": [
+              ]
+            },
+            {
+              "label": "X",
+              "line": 56,
+              "column": 14,
+              "description": [
+              ]
+            },
+            {
+              "label": "Y",
+              "line": 56,
+              "column": 17,
+              "description": [
+              ]
+            },
+            {
+              "label": "ZERO",
+              "line": 56,
+              "column": 20,
+              "description": [
+              ]
+            },
+            {
+              "label": "ISR",
+              "line": 56,
+              "column": 26,
+              "description": [
+              ]
+            },
+            {
+              "label": "OSR",
+              "line": 56,
+              "column": 31,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "SHIFT_OUT_Destination",
+          "qualifier": "",
+          "line": 80,
+          "column": 9,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 80,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SHIFT_OUT_Destination",
+                      "href": "docs/rp__pio__encoding___spec.html#L80C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 81,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PINS",
+                      "href": "docs/rp__pio__encoding___spec.html#L81C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "X",
+                      "href": "docs/rp__pio__encoding___spec.html#L81C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Y",
+                      "href": "docs/rp__pio__encoding___spec.html#L81C17"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DISCARD",
+                      "href": "docs/rp__pio__encoding___spec.html#L81C20"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PINDIRS",
+                      "href": "docs/rp__pio__encoding___spec.html#L81C29"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PC",
+                      "href": "docs/rp__pio__encoding___spec.html#L81C38"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ISR",
+                      "href": "docs/rp__pio__encoding___spec.html#L81C42"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "EXEC",
+                      "href": "docs/rp__pio__encoding___spec.html#L81C47"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 82,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "PINS",
+              "line": 81,
+              "column": 8,
+              "description": [
+              ]
+            },
+            {
+              "label": "X",
+              "line": 81,
+              "column": 14,
+              "description": [
+              ]
+            },
+            {
+              "label": "Y",
+              "line": 81,
+              "column": 17,
+              "description": [
+              ]
+            },
+            {
+              "label": "DISCARD",
+              "line": 81,
+              "column": 20,
+              "description": [
+              ]
+            },
+            {
+              "label": "PINDIRS",
+              "line": 81,
+              "column": 29,
+              "description": [
+              ]
+            },
+            {
+              "label": "PC",
+              "line": 81,
+              "column": 38,
+              "description": [
+              ]
+            },
+            {
+              "label": "ISR",
+              "line": 81,
+              "column": 42,
+              "description": [
+              ]
+            },
+            {
+              "label": "EXEC",
+              "line": 81,
+              "column": 47,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "WAIT_Source",
+          "qualifier": "",
+          "line": 35,
+          "column": 9,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 35,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "WAIT_Source",
+                      "href": "docs/rp__pio__encoding___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 36,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GPIO",
+                      "href": "docs/rp__pio__encoding___spec.html#L36C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIN",
+                      "href": "docs/rp__pio__encoding___spec.html#L36C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "WAIT_IRQ",
+                      "href": "docs/rp__pio__encoding___spec.html#L36C19"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 37,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 2"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "GPIO",
+              "line": 36,
+              "column": 8,
+              "description": [
+              ]
+            },
+            {
+              "label": "PIN",
+              "line": 36,
+              "column": 14,
+              "description": [
+              ]
+            },
+            {
+              "label": "WAIT_IRQ",
+              "line": 36,
+              "column": 19,
+              "description": [
+              ]
+            }
+          ]
+        }
+      ],
+      "label": "Simple types"
+    },
+    {
+      "entities": [
+        {
+          "label": "IRQ",
+          "qualifier": "",
+          "line": 174,
+          "column": 9,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 174,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "IRQ",
+                      "href": "docs/rp__pio__encoding___spec.html#L174C9"
                     },
                     {
                       "kind": "span",
@@ -2240,7 +1781,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 88,
+                  "number": 175,
                   "children": [
                     {
                       "kind": "span",
@@ -2250,13 +1791,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "High_Priority",
-                      "href": "docs/rp__dma___spec.html#L88C7"
+                      "text": "Opcode",
+                      "href": "docs/rp__pio__encoding___spec.html#L175C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -2271,7 +1812,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Boolean"
+                      "text": "HAL.UInt3",
+                      "href": "docs/hal___spec.html#L41C9"
                     },
                     {
                       "kind": "span",
@@ -2290,29 +1832,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "number",
+                      "text": "2"
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "False"
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "110"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Schedule this channel before others"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 89,
+                  "number": 176,
                   "children": [
                     {
                       "kind": "span",
@@ -2322,81 +1869,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Data_Size",
-                      "href": "docs/rp__dma___spec.html#L89C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Transfer_Width",
-                      "href": "docs/rp__dma___spec.html#L16C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Transfer_8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Bits per transfer (byte, halfword, word)"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 90,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Increment_Read",
-                      "href": "docs/rp__dma___spec.html#L90C7"
+                      "text": "Delay_Sideset",
+                      "href": "docs/rp__pio__encoding___spec.html#L176C7"
                     },
                     {
                       "kind": "span",
@@ -2416,152 +1890,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Increment read address after transfer"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 91,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Increment_Write",
-                      "href": "docs/rp__dma___spec.html#L91C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Increment write address after transfer"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 92,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Ring_Size",
-                      "href": "docs/rp__dma___spec.html#L92C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt4",
-                      "href": "docs/hal___spec.html#L43C9"
+                      "text": "HAL.UInt5",
+                      "href": "docs/hal___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -2587,22 +1917,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Ring buffer size"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 93,
+                  "number": 177,
                   "children": [
                     {
                       "kind": "span",
@@ -2612,315 +1932,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Ring_Wrap",
-                      "href": "docs/rp__dma___spec.html#L93C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Ring_Wrap_Select",
-                      "href": "docs/rp__dma___spec.html#L20C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Wrap_Read"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Read or write buffer is a ring buffer"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 94,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Chain_To",
-                      "href": "docs/rp__dma___spec.html#L94C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "        "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "number",
-                      "text": "0"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Trigger another channel after transfer."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 95,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                                                            "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Set to *this channel* to disable chaining."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 96,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Trigger",
-                      "href": "docs/rp__dma___spec.html#L96C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Request_Trigger",
-                      "href": "docs/rp__dma___spec.html#L24C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PERMANENT"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Trigger a transfer on this signal"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 97,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Quiet",
-                      "href": "docs/rp__dma___spec.html#L97C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "           "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Disable interrupts"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 98,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Byte_Swap",
-                      "href": "docs/rp__dma___spec.html#L98C7"
+                      "text": "Opcode_2",
+                      "href": "docs/rp__pio__encoding___spec.html#L177C7"
                     },
                     {
                       "kind": "span",
@@ -2966,22 +1979,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Reverse byte order"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 99,
+                  "number": 178,
                   "children": [
                     {
                       "kind": "span",
@@ -2991,581 +1994,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sniff",
-                      "href": "docs/rp__dma___spec.html#L99C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "           "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Send data to sniff checksum"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 100,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "end"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "record"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/rp__dma___spec.html#L87C9"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "fields": [
-            {
-              "label": "High_Priority",
-              "line": 88,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Schedule this channel before others\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Data_Size",
-              "line": 89,
-              "column": 7,
-              "type": {
-                "label": "RP.DMA.Transfer_Width",
-                "docHref": "docs/rp__dma___spec.html#L16C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Bits per transfer (byte, halfword, word)\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Increment_Read",
-              "line": 90,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Increment read address after transfer\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Increment_Write",
-              "line": 91,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Increment write address after transfer\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Ring_Size",
-              "line": 92,
-              "column": 7,
-              "type": {
-                "label": "HAL.UInt4",
-                "docHref": "docs/hal___spec.html#L43C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Ring buffer size\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Ring_Wrap",
-              "line": 93,
-              "column": 7,
-              "type": {
-                "label": "RP.DMA.Ring_Wrap_Select",
-                "docHref": "docs/rp__dma___spec.html#L20C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Read or write buffer is a ring buffer\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Chain_To",
-              "line": 94,
-              "column": 7,
-              "type": {
-                "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Trigger another channel after transfer.\n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": "Set to *this channel* to disable chaining.\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Trigger",
-              "line": 96,
-              "column": 7,
-              "type": {
-                "label": "RP.DMA.DMA_Request_Trigger",
-                "docHref": "docs/rp__dma___spec.html#L24C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Trigger a transfer on this signal\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Quiet",
-              "line": 97,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Disable interrupts\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Byte_Swap",
-              "line": 98,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Reverse byte order\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Sniff",
-              "line": 99,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Send data to sniff checksum\n"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "DMA_Status",
-          "qualifier": "",
-          "line": 102,
-          "column": 9,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 102,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Status",
-                      "href": "docs/rp__dma___spec.html#L102C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "record"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 103,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Enabled",
-                      "href": "docs/rp__dma___spec.html#L103C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "             "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 104,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Busy",
-                      "href": "docs/rp__dma___spec.html#L104C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 105,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Write_Error",
-                      "href": "docs/rp__dma___spec.html#L105C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 106,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Read_Error",
-                      "href": "docs/rp__dma___spec.html#L106C7"
+                      "text": "Clear",
+                      "href": "docs/rp__pio__encoding___spec.html#L178C7"
                     },
                     {
                       "kind": "span",
@@ -3616,7 +2046,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 107,
+                  "number": 179,
                   "children": [
                     {
                       "kind": "span",
@@ -3626,8 +2056,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "AHB_Error",
-                      "href": "docs/rp__dma___spec.html#L107C7"
+                      "text": "Wait",
+                      "href": "docs/rp__pio__encoding___spec.html#L179C7"
                     },
                     {
                       "kind": "span",
@@ -3678,7 +2108,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 108,
+                  "number": 180,
                   "children": [
                     {
                       "kind": "span",
@@ -3688,13 +2118,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Transfers_Remaining",
-                      "href": "docs/rp__dma___spec.html#L108C7"
+                      "text": "Index",
+                      "href": "docs/rp__pio__encoding___spec.html#L180C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "          "
                     },
                     {
                       "kind": "span",
@@ -3709,7 +2139,1809 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Natural"
+                      "text": "HAL.UInt5",
+                      "href": "docs/hal___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 181,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 182,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "Opcode",
+              "line": 175,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt3",
+                "docHref": "docs/hal___spec.html#L41C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Delay_Sideset",
+              "line": 176,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt5",
+                "docHref": "docs/hal___spec.html#L45C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Opcode_2",
+              "line": 177,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Clear",
+              "line": 178,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Wait",
+              "line": 179,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Index",
+              "line": 180,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt5",
+                "docHref": "docs/hal___spec.html#L45C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "JMP",
+          "qualifier": "",
+          "line": 21,
+          "column": 9,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 21,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "JMP",
+                      "href": "docs/rp__pio__encoding___spec.html#L21C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 22,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Opcode",
+                      "href": "docs/rp__pio__encoding___spec.html#L22C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt3",
+                      "href": "docs/hal___spec.html#L41C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "2"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "000"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 23,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Delay_Sideset",
+                      "href": "docs/rp__pio__encoding___spec.html#L23C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt5",
+                      "href": "docs/hal___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 24,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Condition",
+                      "href": "docs/rp__pio__encoding___spec.html#L24C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "JMP_Condition",
+                      "href": "docs/rp__pio__encoding___spec.html#L10C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Always"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 25,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/rp__pio__encoding___spec.html#L25C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt5",
+                      "href": "docs/hal___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 26,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 27,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "Opcode",
+              "line": 22,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt3",
+                "docHref": "docs/hal___spec.html#L41C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Delay_Sideset",
+              "line": 23,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt5",
+                "docHref": "docs/hal___spec.html#L45C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Condition",
+              "line": 24,
+              "column": 7,
+              "type": {
+                "label": "RP.PIO.Encoding.JMP_Condition",
+                "docHref": "docs/rp__pio__encoding___spec.html#L10C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Address",
+              "line": 25,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt5",
+                "docHref": "docs/hal___spec.html#L45C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "MOV",
+          "qualifier": "",
+          "line": 158,
+          "column": 9,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 158,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "MOV",
+                      "href": "docs/rp__pio__encoding___spec.html#L158C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 159,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Opcode",
+                      "href": "docs/rp__pio__encoding___spec.html#L159C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt3",
+                      "href": "docs/hal___spec.html#L41C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "2"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "101"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 160,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Delay_Sideset",
+                      "href": "docs/rp__pio__encoding___spec.html#L160C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt5",
+                      "href": "docs/hal___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 161,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Destination",
+                      "href": "docs/rp__pio__encoding___spec.html#L161C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "MOV_Target",
+                      "href": "docs/rp__pio__encoding___spec.html#L142C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PINS"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 162,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Operation",
+                      "href": "docs/rp__pio__encoding___spec.html#L162C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "MOV_Operation",
+                      "href": "docs/rp__pio__encoding___spec.html#L154C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "None"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 163,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Source",
+                      "href": "docs/rp__pio__encoding___spec.html#L163C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "MOV_Target",
+                      "href": "docs/rp__pio__encoding___spec.html#L142C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PINS"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 164,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 165,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "Opcode",
+              "line": 159,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt3",
+                "docHref": "docs/hal___spec.html#L41C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Delay_Sideset",
+              "line": 160,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt5",
+                "docHref": "docs/hal___spec.html#L45C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Destination",
+              "line": 161,
+              "column": 7,
+              "type": {
+                "label": "RP.PIO.Encoding.MOV_Target",
+                "docHref": "docs/rp__pio__encoding___spec.html#L142C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Operation",
+              "line": 162,
+              "column": 7,
+              "type": {
+                "label": "RP.PIO.Encoding.MOV_Operation",
+                "docHref": "docs/rp__pio__encoding___spec.html#L154C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Source",
+              "line": 163,
+              "column": 7,
+              "type": {
+                "label": "RP.PIO.Encoding.MOV_Target",
+                "docHref": "docs/rp__pio__encoding___spec.html#L142C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "PULL",
+          "qualifier": "",
+          "line": 124,
+          "column": 9,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 124,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PULL",
+                      "href": "docs/rp__pio__encoding___spec.html#L124C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 125,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Opcode",
+                      "href": "docs/rp__pio__encoding___spec.html#L125C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt3",
+                      "href": "docs/hal___spec.html#L41C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "2"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "100"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 126,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Delay_Sideset",
+                      "href": "docs/rp__pio__encoding___spec.html#L126C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt5",
+                      "href": "docs/hal___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 127,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Opcode_2",
+                      "href": "docs/rp__pio__encoding___spec.html#L127C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "True"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 128,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "If_Empty",
+                      "href": "docs/rp__pio__encoding___spec.html#L128C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 129,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Block",
+                      "href": "docs/rp__pio__encoding___spec.html#L129C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 130,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Opcode_3",
+                      "href": "docs/rp__pio__encoding___spec.html#L130C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt5",
+                      "href": "docs/hal___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 131,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 132,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "Opcode",
+              "line": 125,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt3",
+                "docHref": "docs/hal___spec.html#L41C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Delay_Sideset",
+              "line": 126,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt5",
+                "docHref": "docs/hal___spec.html#L45C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Opcode_2",
+              "line": 127,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "If_Empty",
+              "line": 128,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Block",
+              "line": 129,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Opcode_3",
+              "line": 130,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt5",
+                "docHref": "docs/hal___spec.html#L45C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "PUSH",
+          "qualifier": "",
+          "line": 106,
+          "column": 9,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 106,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PUSH",
+                      "href": "docs/rp__pio__encoding___spec.html#L106C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 107,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Opcode",
+                      "href": "docs/rp__pio__encoding___spec.html#L107C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt3",
+                      "href": "docs/hal___spec.html#L41C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "2"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "100"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 108,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Delay_Sideset",
+                      "href": "docs/rp__pio__encoding___spec.html#L108C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt5",
+                      "href": "docs/hal___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -3745,6 +3977,255 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Opcode_2",
+                      "href": "docs/rp__pio__encoding___spec.html#L109C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 110,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "If_Full",
+                      "href": "docs/rp__pio__encoding___spec.html#L110C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 111,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Block",
+                      "href": "docs/rp__pio__encoding___spec.html#L111C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 112,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Opcode_3",
+                      "href": "docs/rp__pio__encoding___spec.html#L112C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt5",
+                      "href": "docs/hal___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 113,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
                       "text": "   "
                     },
                     {
@@ -3761,489 +4242,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "keyword",
                       "text": "record"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/rp__dma___spec.html#L102C9"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "fields": [
-            {
-              "label": "Enabled",
-              "line": 103,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Busy",
-              "line": 104,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Write_Error",
-              "line": 105,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Read_Error",
-              "line": 106,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "AHB_Error",
-              "line": 107,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Transfers_Remaining",
-              "line": 108,
-              "column": 7,
-              "type": {
-                "label": "Natural"
-              },
-              "description": [
-              ]
-            }
-          ]
-        }
-      ],
-      "label": "Record types"
-    },
-    {
-      "entities": [
-        {
-          "label": "Ack_IRQ",
-          "qualifier": "",
-          "line": 175,
-          "column": 14,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 175,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Ack_IRQ",
-                      "href": "docs/rp__dma___spec.html#L175C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L175C23"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 176,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "IRQ",
-                      "href": "docs/rp__dma___spec.html#L176C23"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_IRQ_Id",
-                      "href": "docs/rp__dma___spec.html#L167C12"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Channel",
-              "line": 175,
-              "column": 23,
-              "type": {
-                "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "IRQ",
-              "line": 176,
-              "column": 23,
-              "type": {
-                "label": "RP.DMA.DMA_IRQ_Id",
-                "docHref": "docs/rp__dma___spec.html#L167C12"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Busy",
-          "qualifier": "",
-          "line": 138,
-          "column": 13,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 138,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Busy",
-                      "href": "docs/rp__dma___spec.html#L138C13"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 139,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L139C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 140,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Channel",
-              "line": 139,
-              "column": 8,
-              "type": {
-                "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Checksum",
-          "qualifier": "",
-          "line": 164,
-          "column": 13,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 164,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Checksum",
-                      "href": "docs/rp__dma___spec.html#L164C13"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 165,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Configure",
-          "qualifier": "",
-          "line": 113,
-          "column": 14,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 113,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Configure",
-                      "href": "docs/rp__dma___spec.html#L113C14"
                     }
                   ]
                 },
@@ -4258,83 +4256,13 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L114C8"
+                      "cssClass": "keyword",
+                      "text": "with"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 115,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Config",
-                      "href": "docs/rp__dma___spec.html#L115C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Configuration",
-                      "href": "docs/rp__dma___spec.html#L87C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
+                      "text": " Size => 16"
                     },
                     {
                       "kind": "span",
@@ -4346,25 +4274,66 @@ GNATdoc.Documentation = {
               ]
             }
           ],
-          "parameters": [
+          "fields": [
             {
-              "label": "Channel",
-              "line": 114,
-              "column": 8,
+              "label": "Opcode",
+              "line": 107,
+              "column": 7,
               "type": {
-                "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
+                "label": "HAL.UInt3",
+                "docHref": "docs/hal___spec.html#L41C9"
               },
               "description": [
               ]
             },
             {
-              "label": "Config",
-              "line": 115,
-              "column": 8,
+              "label": "Delay_Sideset",
+              "line": 108,
+              "column": 7,
               "type": {
-                "label": "RP.DMA.DMA_Configuration",
-                "docHref": "docs/rp__dma___spec.html#L87C9"
+                "label": "HAL.UInt5",
+                "docHref": "docs/hal___spec.html#L45C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Opcode_2",
+              "line": 109,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "If_Full",
+              "line": 110,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Block",
+              "line": 111,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Opcode_3",
+              "line": 112,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt5",
+                "docHref": "docs/hal___spec.html#L45C9"
               },
               "description": [
               ]
@@ -4372,11 +4341,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Disable",
+          "label": "SET",
           "qualifier": "",
-          "line": 135,
-          "column": 14,
-          "src": "srcs/rp-dma.ads.html",
+          "line": 201,
+          "column": 9,
+          "src": "srcs/rp-pio-encoding.ads.html",
           "summary": [
           ],
           "description": [
@@ -4385,7 +4354,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 135,
+                  "number": 201,
                   "children": [
                     {
                       "kind": "span",
@@ -4395,7 +4364,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "procedure"
+                      "text": "type"
                     },
                     {
                       "kind": "span",
@@ -4405,14 +4374,34 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Disable",
-                      "href": "docs/rp__dma___spec.html#L135C14"
+                      "text": "SET",
+                      "href": "docs/rp__pio__encoding___spec.html#L201C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 136,
+                  "number": 202,
                   "children": [
                     {
                       "kind": "span",
@@ -4422,18 +4411,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L136C8"
+                      "text": "Opcode",
+                      "href": "docs/rp__pio__encoding___spec.html#L202C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -4448,407 +4432,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Channel",
-              "line": 136,
-              "column": 8,
-              "type": {
-                "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Disable_IRQ",
-          "qualifier": "",
-          "line": 172,
-          "column": 14,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 172,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Disable_IRQ",
-                      "href": "docs/rp__dma___spec.html#L172C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L172C27"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 173,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                          "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "IRQ",
-                      "href": "docs/rp__dma___spec.html#L173C27"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_IRQ_Id",
-                      "href": "docs/rp__dma___spec.html#L167C12"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Channel",
-              "line": 172,
-              "column": 27,
-              "type": {
-                "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "IRQ",
-              "line": 173,
-              "column": 27,
-              "type": {
-                "label": "RP.DMA.DMA_IRQ_Id",
-                "docHref": "docs/rp__dma___spec.html#L167C12"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Enable",
-          "qualifier": "",
-          "line": 111,
-          "column": 14,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 111,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Enable",
-                      "href": "docs/rp__dma___spec.html#L111C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Enable_Checksum",
-          "qualifier": "",
-          "line": 154,
-          "column": 14,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 154,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Enable_Checksum",
-                      "href": "docs/rp__dma___spec.html#L154C14"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 155,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L155C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 156,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Algorithm",
-                      "href": "docs/rp__dma___spec.html#L156C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Checksum_Algorithm",
-                      "href": "docs/rp__dma___spec.html#L146C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 157,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Byte_Swap",
-                      "href": "docs/rp__dma___spec.html#L157C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
+                      "text": "HAL.UInt3",
+                      "href": "docs/hal___spec.html#L41C9"
                     },
                     {
                       "kind": "span",
@@ -4867,8 +4452,23 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "number",
+                      "text": "2"
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "False"
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "111"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
                     },
                     {
                       "kind": "span",
@@ -4879,18 +4479,18 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 158,
+                  "number": 203,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "       "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reversed",
-                      "href": "docs/rp__dma___spec.html#L158C8"
+                      "text": "Delay_Sideset",
+                      "href": "docs/rp__pio__encoding___spec.html#L203C7"
                     },
                     {
                       "kind": "span",
@@ -4910,7 +4510,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Boolean"
+                      "text": "HAL.UInt5",
+                      "href": "docs/hal___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -4929,8 +4530,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
+                      "cssClass": "number",
+                      "text": "0"
                     },
                     {
                       "kind": "span",
@@ -4941,520 +4542,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 159,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Inverted",
-                      "href": "docs/rp__dma___spec.html#L159C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Channel",
-              "line": 155,
-              "column": 8,
-              "type": {
-                "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Algorithm",
-              "line": 156,
-              "column": 8,
-              "type": {
-                "label": "RP.DMA.Checksum_Algorithm",
-                "docHref": "docs/rp__dma___spec.html#L146C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Byte_Swap",
-              "line": 157,
-              "column": 8,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Reversed",
-              "line": 158,
-              "column": 8,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Inverted",
-              "line": 159,
-              "column": 8,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Enable_IRQ",
-          "qualifier": "",
-          "line": 169,
-          "column": 14,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 169,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Enable_IRQ",
-                      "href": "docs/rp__dma___spec.html#L169C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L169C26"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 170,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "IRQ",
-                      "href": "docs/rp__dma___spec.html#L170C26"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_IRQ_Id",
-                      "href": "docs/rp__dma___spec.html#L167C12"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Channel",
-              "line": 169,
-              "column": 26,
-              "type": {
-                "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "IRQ",
-              "line": 170,
-              "column": 26,
-              "type": {
-                "label": "RP.DMA.DMA_IRQ_Id",
-                "docHref": "docs/rp__dma___spec.html#L167C12"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "IRQ_Status",
-          "qualifier": "",
-          "line": 178,
-          "column": 13,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 178,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "IRQ_Status",
-                      "href": "docs/rp__dma___spec.html#L178C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L178C25"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 179,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                        "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "IRQ",
-                      "href": "docs/rp__dma___spec.html#L179C25"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_IRQ_Id",
-                      "href": "docs/rp__dma___spec.html#L167C12"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 180,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                        "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Return True if the IRQ is triggered\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Channel",
-              "line": 178,
-              "column": 25,
-              "type": {
-                "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "IRQ",
-              "line": 179,
-              "column": 25,
-              "type": {
-                "label": "RP.DMA.DMA_IRQ_Id",
-                "docHref": "docs/rp__dma___spec.html#L167C12"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_Checksum",
-          "qualifier": "",
-          "line": 161,
-          "column": 14,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 161,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_Checksum",
-                      "href": "docs/rp__dma___spec.html#L161C14"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 162,
+                  "number": 204,
                   "children": [
                     {
                       "kind": "span",
@@ -5464,434 +4552,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Value",
-                      "href": "docs/rp__dma___spec.html#L162C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Value",
-              "line": 162,
-              "column": 8,
-              "type": {
-                "label": "HAL.UInt32",
-                "docHref": "docs/hal___spec.html#L97C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_Pacing_Timer",
-          "qualifier": "",
-          "line": 185,
-          "column": 14,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 185,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_Pacing_Timer",
-                      "href": "docs/rp__dma___spec.html#L185C14"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 186,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Timer",
-                      "href": "docs/rp__dma___spec.html#L186C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Timer_Id",
-                      "href": "docs/rp__dma___spec.html#L183C12"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 187,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "X",
-                      "href": "docs/rp__dma___spec.html#L187C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Y",
-                      "href": "docs/rp__dma___spec.html#L187C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HAL.UInt16",
-                      "href": "docs/hal___spec.html#L66C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "The pacing timer produces TREQ assertions at a rate set by ((X/Y) *\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sys_clk). This equation is evaluated every sys_clk cycles and therefore\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "can only generate TREQs at a rate of 1 per sys_clk (i.e. permanent TREQ)\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "or less.\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Timer",
-              "line": 186,
-              "column": 8,
-              "type": {
-                "label": "RP.DMA.DMA_Timer_Id",
-                "docHref": "docs/rp__dma___spec.html#L183C12"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "X",
-              "line": 187,
-              "column": 8,
-              "type": {
-                "label": "HAL.UInt16",
-                "docHref": "docs/hal___spec.html#L66C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Y",
-              "line": 187,
-              "column": 11,
-              "type": {
-                "label": "HAL.UInt16",
-                "docHref": "docs/hal___spec.html#L66C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Setup",
-          "qualifier": "",
-          "line": 117,
-          "column": 14,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 117,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Setup",
-                      "href": "docs/rp__dma___spec.html#L117C14"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 118,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L118C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 119,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "From",
-                      "href": "docs/rp__dma___spec.html#L119C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "To",
-                      "href": "docs/rp__dma___spec.html#L119C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "System.Address"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 120,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Count",
-                      "href": "docs/rp__dma___spec.html#L120C8"
+                      "text": "Destination",
+                      "href": "docs/rp__pio__encoding___spec.html#L204C7"
                     },
                     {
                       "kind": "span",
@@ -5911,94 +4573,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Channel",
-              "line": 118,
-              "column": 8,
-              "type": {
-                "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "From",
-              "line": 119,
-              "column": 8,
-              "type": {
-                "label": "Address"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "To",
-              "line": 119,
-              "column": 14,
-              "type": {
-                "label": "Address"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Count",
-              "line": 120,
-              "column": 8,
-              "type": {
-                "label": "HAL.UInt32",
-                "docHref": "docs/hal___spec.html#L97C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Start",
-          "qualifier": "",
-          "line": 122,
-          "column": 14,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 122,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
+                      "text": "SET_Destination",
+                      "href": "docs/rp__pio__encoding___spec.html#L192C9"
                     },
                     {
                       "kind": "span",
@@ -6008,14 +4584,28 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Start",
-                      "href": "docs/rp__dma___spec.html#L122C14"
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PINS"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 123,
+                  "number": 205,
                   "children": [
                     {
                       "kind": "span",
@@ -6025,18 +4615,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L123C8"
+                      "text": "Data",
+                      "href": "docs/rp__pio__encoding___spec.html#L205C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "           "
                     },
                     {
                       "kind": "span",
@@ -6051,84 +4636,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Setup must be called before Start. If you call Start more than once and\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Increment_Read or Increment_Write are True, these pointers are *not*\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "reset to their initial Setup values, unless you've configured the\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "channel with Ring_Wrap and Ring_Size.\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Channel",
-              "line": 123,
-              "column": 8,
-              "type": {
-                "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Start",
-          "qualifier": "",
-          "line": 129,
-          "column": 14,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 129,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
+                      "text": "HAL.UInt5",
+                      "href": "docs/hal___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -6138,14 +4647,189 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Start",
-                      "href": "docs/rp__dma___spec.html#L129C14"
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 130,
+                  "number": 206,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 207,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "Opcode",
+              "line": 202,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt3",
+                "docHref": "docs/hal___spec.html#L41C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Delay_Sideset",
+              "line": 203,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt5",
+                "docHref": "docs/hal___spec.html#L45C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Destination",
+              "line": 204,
+              "column": 7,
+              "type": {
+                "label": "RP.PIO.Encoding.SET_Destination",
+                "docHref": "docs/rp__pio__encoding___spec.html#L192C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Data",
+              "line": 205,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt5",
+                "docHref": "docs/hal___spec.html#L45C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "SHIFT_IN",
+          "qualifier": "",
+          "line": 66,
+          "column": 9,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 66,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SHIFT_IN",
+                      "href": "docs/rp__pio__encoding___spec.html#L66C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 67,
                   "children": [
                     {
                       "kind": "span",
@@ -6155,13 +4839,86 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "("
+                      "text": "Opcode",
+                      "href": "docs/rp__pio__encoding___spec.html#L67C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L130C8"
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt3",
+                      "href": "docs/hal___spec.html#L41C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "2"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "010"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 68,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Delay_Sideset",
+                      "href": "docs/rp__pio__encoding___spec.html#L68C7"
                     },
                     {
                       "kind": "span",
@@ -6181,8 +4938,28 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
+                      "text": "HAL.UInt5",
+                      "href": "docs/hal___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
                     },
                     {
                       "kind": "span",
@@ -6193,39 +4970,23 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 131,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "       "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "From",
-                      "href": "docs/rp__dma___spec.html#L131C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "text": "Source",
+                      "href": "docs/rp__pio__encoding___spec.html#L69C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "To",
-                      "href": "docs/rp__dma___spec.html#L131C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -6240,7 +5001,28 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "System.Address"
+                      "text": "SHIFT_IN_Source",
+                      "href": "docs/rp__pio__encoding___spec.html#L55C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PINS"
                     },
                     {
                       "kind": "span",
@@ -6251,18 +5033,382 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 132,
+                  "number": 70,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "       "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Count",
-                      "href": "docs/rp__dma___spec.html#L132C8"
+                      "text": "Bit_Count",
+                      "href": "docs/rp__pio__encoding___spec.html#L70C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt5",
+                      "href": "docs/hal___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  0 = 32"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 71,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 72,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "Opcode",
+              "line": 67,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt3",
+                "docHref": "docs/hal___spec.html#L41C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Delay_Sideset",
+              "line": 68,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt5",
+                "docHref": "docs/hal___spec.html#L45C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Source",
+              "line": 69,
+              "column": 7,
+              "type": {
+                "label": "RP.PIO.Encoding.SHIFT_IN_Source",
+                "docHref": "docs/rp__pio__encoding___spec.html#L55C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Bit_Count",
+              "line": 70,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt5",
+                "docHref": "docs/hal___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "0 = 32\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "SHIFT_OUT",
+          "qualifier": "",
+          "line": 92,
+          "column": 9,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 92,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SHIFT_OUT",
+                      "href": "docs/rp__pio__encoding___spec.html#L92C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 93,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Opcode",
+                      "href": "docs/rp__pio__encoding___spec.html#L93C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt3",
+                      "href": "docs/hal___spec.html#L41C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "2"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "011"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 94,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Delay_Sideset",
+                      "href": "docs/rp__pio__encoding___spec.html#L94C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt5",
+                      "href": "docs/hal___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 95,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Destination",
+                      "href": "docs/rp__pio__encoding___spec.html#L95C7"
                     },
                     {
                       "kind": "span",
@@ -6282,103 +5428,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HAL.UInt32",
-                      "href": "docs/hal___spec.html#L97C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "This version of Start performs the Setup for you.\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Channel",
-              "line": 130,
-              "column": 8,
-              "type": {
-                "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "From",
-              "line": 131,
-              "column": 8,
-              "type": {
-                "label": "Address"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "To",
-              "line": 131,
-              "column": 14,
-              "type": {
-                "label": "Address"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Count",
-              "line": 132,
-              "column": 8,
-              "type": {
-                "label": "HAL.UInt32",
-                "docHref": "docs/hal___spec.html#L97C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Status",
-          "qualifier": "",
-          "line": 142,
-          "column": 13,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 142,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
+                      "text": "SHIFT_OUT_Destination",
+                      "href": "docs/rp__pio__encoding___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -6388,14 +5439,28 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Status",
-                      "href": "docs/rp__dma___spec.html#L142C13"
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PINS"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 143,
+                  "number": 96,
                   "children": [
                     {
                       "kind": "span",
@@ -6405,18 +5470,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L143C8"
+                      "text": "Bit_Count",
+                      "href": "docs/rp__pio__encoding___spec.html#L96C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -6431,19 +5491,55 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
+                      "text": "HAL.UInt5",
+                      "href": "docs/hal___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ")"
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  0 = 32"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 144,
+                  "number": 97,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 98,
                   "children": [
                     {
                       "kind": "span",
@@ -6453,18 +5549,12 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "return"
+                      "text": "with"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Status",
-                      "href": "docs/rp__dma___spec.html#L102C9"
+                      "text": " Size => 16"
                     },
                     {
                       "kind": "span",
@@ -6476,14 +5566,556 @@ GNATdoc.Documentation = {
               ]
             }
           ],
-          "parameters": [
+          "fields": [
             {
-              "label": "Channel",
-              "line": 143,
-              "column": 8,
+              "label": "Opcode",
+              "line": 93,
+              "column": 7,
               "type": {
-                "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
+                "label": "HAL.UInt3",
+                "docHref": "docs/hal___spec.html#L41C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Delay_Sideset",
+              "line": 94,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt5",
+                "docHref": "docs/hal___spec.html#L45C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Destination",
+              "line": 95,
+              "column": 7,
+              "type": {
+                "label": "RP.PIO.Encoding.SHIFT_OUT_Destination",
+                "docHref": "docs/rp__pio__encoding___spec.html#L80C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Bit_Count",
+              "line": 96,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt5",
+                "docHref": "docs/hal___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "0 = 32\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "WAIT",
+          "qualifier": "",
+          "line": 39,
+          "column": 9,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 39,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "WAIT",
+                      "href": "docs/rp__pio__encoding___spec.html#L39C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 40,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Opcode",
+                      "href": "docs/rp__pio__encoding___spec.html#L40C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt3",
+                      "href": "docs/hal___spec.html#L41C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "2"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "001"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "#"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 41,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Delay_Sideset",
+                      "href": "docs/rp__pio__encoding___spec.html#L41C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt5",
+                      "href": "docs/hal___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 42,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Polarity",
+                      "href": "docs/rp__pio__encoding___spec.html#L42C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 43,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Source",
+                      "href": "docs/rp__pio__encoding___spec.html#L43C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "WAIT_Source",
+                      "href": "docs/rp__pio__encoding___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GPIO"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 44,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Index",
+                      "href": "docs/rp__pio__encoding___spec.html#L44C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt5",
+                      "href": "docs/hal___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 45,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 46,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "Opcode",
+              "line": 40,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt3",
+                "docHref": "docs/hal___spec.html#L41C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Delay_Sideset",
+              "line": 41,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt5",
+                "docHref": "docs/hal___spec.html#L45C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Polarity",
+              "line": 42,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Source",
+              "line": 43,
+              "column": 7,
+              "type": {
+                "label": "RP.PIO.Encoding.WAIT_Source",
+                "docHref": "docs/rp__pio__encoding___spec.html#L35C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Index",
+              "line": 44,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt5",
+                "docHref": "docs/hal___spec.html#L45C9"
               },
               "description": [
               ]
@@ -6491,7 +6123,1047 @@ GNATdoc.Documentation = {
           ]
         }
       ],
-      "label": "Subprograms"
+      "label": "Record types"
+    },
+    {
+      "entities": [
+        {
+          "label": "Encode",
+          "qualifier": "(generic instantiation)",
+          "line": 215,
+          "column": 13,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 215,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Encode",
+                      "href": "docs/rp__pio__encoding___spec.html#L215C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "new"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Ada.Unchecked_Conversion"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "JMP",
+                      "href": "docs/rp__pio__encoding___spec.html#L21C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Instruction",
+                      "href": "docs/rp__pio___spec.html#L30C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Encode",
+          "qualifier": "(generic instantiation)",
+          "line": 216,
+          "column": 13,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 216,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Encode",
+                      "href": "docs/rp__pio__encoding___spec.html#L216C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "new"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Ada.Unchecked_Conversion"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "WAIT",
+                      "href": "docs/rp__pio__encoding___spec.html#L39C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Instruction",
+                      "href": "docs/rp__pio___spec.html#L30C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Encode",
+          "qualifier": "(generic instantiation)",
+          "line": 217,
+          "column": 13,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 217,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Encode",
+                      "href": "docs/rp__pio__encoding___spec.html#L217C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "new"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Ada.Unchecked_Conversion"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SHIFT_IN",
+                      "href": "docs/rp__pio__encoding___spec.html#L66C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Instruction",
+                      "href": "docs/rp__pio___spec.html#L30C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Encode",
+          "qualifier": "(generic instantiation)",
+          "line": 218,
+          "column": 13,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 218,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Encode",
+                      "href": "docs/rp__pio__encoding___spec.html#L218C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "new"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Ada.Unchecked_Conversion"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SHIFT_OUT",
+                      "href": "docs/rp__pio__encoding___spec.html#L92C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Instruction",
+                      "href": "docs/rp__pio___spec.html#L30C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Encode",
+          "qualifier": "(generic instantiation)",
+          "line": 219,
+          "column": 13,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 219,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Encode",
+                      "href": "docs/rp__pio__encoding___spec.html#L219C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "new"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Ada.Unchecked_Conversion"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PUSH",
+                      "href": "docs/rp__pio__encoding___spec.html#L106C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Instruction",
+                      "href": "docs/rp__pio___spec.html#L30C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Encode",
+          "qualifier": "(generic instantiation)",
+          "line": 220,
+          "column": 13,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 220,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Encode",
+                      "href": "docs/rp__pio__encoding___spec.html#L220C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "new"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Ada.Unchecked_Conversion"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PULL",
+                      "href": "docs/rp__pio__encoding___spec.html#L124C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Instruction",
+                      "href": "docs/rp__pio___spec.html#L30C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Encode",
+          "qualifier": "(generic instantiation)",
+          "line": 221,
+          "column": 13,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 221,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Encode",
+                      "href": "docs/rp__pio__encoding___spec.html#L221C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "new"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Ada.Unchecked_Conversion"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "MOV",
+                      "href": "docs/rp__pio__encoding___spec.html#L158C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Instruction",
+                      "href": "docs/rp__pio___spec.html#L30C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Encode",
+          "qualifier": "(generic instantiation)",
+          "line": 222,
+          "column": 13,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 222,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Encode",
+                      "href": "docs/rp__pio__encoding___spec.html#L222C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "new"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Ada.Unchecked_Conversion"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "IRQ",
+                      "href": "docs/rp__pio__encoding___spec.html#L174C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Instruction",
+                      "href": "docs/rp__pio___spec.html#L30C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Encode",
+          "qualifier": "(generic instantiation)",
+          "line": 223,
+          "column": 13,
+          "src": "srcs/rp-pio-encoding.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 223,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Encode",
+                      "href": "docs/rp__pio__encoding___spec.html#L223C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "new"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Ada.Unchecked_Conversion"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SET",
+                      "href": "docs/rp__pio__encoding___spec.html#L201C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Instruction",
+                      "href": "docs/rp__pio___spec.html#L30C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "label": "Generic instantiations"
     }
   ]
 };

@@ -24,10 +24,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Delays",
-      "docHref": "docs/rp__systick___spec.html#L21C9",
+      "docHref": "docs/rp__systick___spec.html#L23C9",
       "declared": "RP.SysTick",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L21"
+      "srcHref": "srcs/rp-systick.ads.html#L23"
     },
     {
       "label": "Delays",
@@ -49,6 +49,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.I2C_Master",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-i2c_master.ads.html#L17"
+    },
+    {
+      "label": "I2S_Device",
+      "docHref": "docs/rp__pio__audio_i2s___spec.html#L18C9",
+      "declared": "RP.PIO.Audio_I2S",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-audio_i2s.ads.html#L18"
     },
     {
       "label": "Instance",
@@ -80,10 +87,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PIO_Device",
-      "docHref": "docs/rp__pio___spec.html#L16C9",
+      "docHref": "docs/rp__pio___spec.html#L17C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L16"
+      "srcHref": "srcs/rp-pio.ads.html#L17"
     },
     {
       "label": "RTC_Device",
@@ -105,6 +112,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.SPI",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-spi.ads.html#L13"
+    },
+    {
+      "label": "Strip",
+      "docHref": "docs/rp__pio__ws2812___spec.html#L11C9",
+      "declared": "RP.PIO.WS2812",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-ws2812.ads.html#L11"
     },
     {
       "label": "UART_Port",

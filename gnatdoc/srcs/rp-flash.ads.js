@@ -19,7 +19,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Copyright 2021 (C) Jeremy Grosser"
+          "text": "--  Copyright (C) 2022 Fabien Chouteau <fabien.chouteau@gmail.com>"
         }
       ]
     },
@@ -73,32 +73,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "use"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL"
+          "text": "System"
         },
         {
           "kind": "span",
@@ -111,37 +86,11 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 7,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.Time"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
       "kind": "line",
       "number": 8,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 9,
       "children": [
         {
           "kind": "span",
@@ -156,8 +105,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "RP.SysTick",
-          "href": "docs/rp__systick___spec.html#L9C12"
+          "text": "RP.Flash",
+          "href": "docs/rp__flash___spec.html#L8C12"
         },
         {
           "kind": "span",
@@ -173,8 +122,110 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 9,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
       "number": 10,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Flash_Size",
+          "href": "docs/rp__flash___spec.html#L10C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "*"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "1024"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "*"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "1024"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
@@ -188,55 +239,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "type"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Time",
-          "href": "docs/rp__systick___spec.html#L11C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "new"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "UInt64",
-          "href": "docs/hal___spec.html#L160C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  XIP maps up to 16 MB of flash. Actual flash chip may be smaller."
         }
       ]
     },
@@ -244,6 +248,62 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 12,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Page_Size",
+          "href": "docs/rp__flash___spec.html#L12C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "256"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
@@ -257,171 +317,9 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "Ticks_Per_Second",
-          "href": "docs/rp__systick___spec.html#L13C13"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 14,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Time",
-          "href": "docs/rp__systick___spec.html#L11C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 15,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 16,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Clock",
-          "href": "docs/rp__systick___spec.html#L16C13"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 17,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Time",
-          "href": "docs/rp__systick___spec.html#L11C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 18,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 19,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Milliseconds",
-          "href": "docs/rp__systick___spec.html#L19C13"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 20,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "T",
-          "href": "docs/rp__systick___spec.html#L20C8"
+          "text": "Sector_Size",
+          "href": "docs/rp__flash___spec.html#L13C4"
         },
         {
           "kind": "span",
@@ -440,29 +338,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "Natural"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 21,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
           "cssClass": "keyword",
-          "text": "return"
+          "text": "constant"
         },
         {
           "kind": "span",
@@ -472,8 +349,17 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Time",
-          "href": "docs/rp__systick___spec.html#L11C9"
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "4096"
         },
         {
           "kind": "span",
@@ -484,13 +370,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 22,
+      "number": 14,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 23,
+      "number": 15,
       "children": [
         {
           "kind": "span",
@@ -510,8 +396,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L23C9"
+          "text": "Flash_Offset",
+          "href": "docs/rp__flash___spec.html#L15C9"
         },
         {
           "kind": "span",
@@ -531,7 +417,17 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "new"
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
         },
         {
           "kind": "span",
@@ -541,66 +437,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL.Time.Delays",
-          "href": "docs/hal__time___spec.html#L34C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "null"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "record"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";",
-          "href": "docs/rp__systick___spec.html#L23C9"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 24,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 25,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
+          "text": ".."
         },
         {
           "kind": "span",
@@ -610,76 +447,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Enable",
-          "href": "docs/rp__systick___spec.html#L25C14"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 26,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "This",
-          "href": "docs/rp__systick___spec.html#L26C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "in"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L23C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
+          "text": "Flash_Size"
         },
         {
           "kind": "span",
@@ -690,119 +458,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 27,
+      "number": 16,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 28,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Disable",
-          "href": "docs/rp__systick___spec.html#L28C14"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 29,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "This",
-          "href": "docs/rp__systick___spec.html#L29C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "in"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L23C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 30,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 31,
+      "number": 17,
       "children": [
         {
           "kind": "span",
@@ -822,14 +484,14 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Enabled",
-          "href": "docs/rp__systick___spec.html#L31C13"
+          "text": "To_Address",
+          "href": "docs/rp__flash___spec.html#L17C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 32,
+      "number": 18,
       "children": [
         {
           "kind": "span",
@@ -844,8 +506,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "This",
-          "href": "docs/rp__systick___spec.html#L32C8"
+          "text": "Offset",
+          "href": "docs/rp__flash___spec.html#L18C8"
         },
         {
           "kind": "span",
@@ -864,29 +526,9 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "in"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L23C9"
+          "text": "Flash_Offset",
+          "href": "docs/rp__flash___spec.html#L15C9"
         },
         {
           "kind": "span",
@@ -897,7 +539,118 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 33,
+      "number": 19,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "System.Address"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 20,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 21,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "In_Flash",
+          "href": "docs/rp__flash___spec.html#L21C13"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 22,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Addr",
+          "href": "docs/rp__flash___spec.html#L22C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "System.Address"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 23,
       "children": [
         {
           "kind": "span",
@@ -928,8 +681,221 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 24,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 25,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "To_Flash_Offset",
+          "href": "docs/rp__flash___spec.html#L25C13"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 26,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Addr",
+          "href": "docs/rp__flash___spec.html#L26C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "System.Address"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 27,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Flash_Offset",
+          "href": "docs/rp__flash___spec.html#L15C9"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 28,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Pre => In_Flash (Addr)"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 29,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 30,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  At some point during the execution of the procedures of this package"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 31,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  the flash memory will be turned off. Any code that access the flash"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 32,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  will trigger a fault."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 33,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 34,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  This is why the procedures are flagged No_Inline and their code located"
+        }
       ]
     },
     {
@@ -943,8 +909,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "overriding"
+          "cssClass": "comment",
+          "text": "--  in RAM (using the linker section \".time_critical\")."
         }
       ]
     },
@@ -959,19 +925,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Delay_Microseconds",
-          "href": "docs/rp__systick___spec.html#L36C14"
+          "cssClass": "comment",
+          "text": "--"
         }
       ]
     },
@@ -982,64 +937,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "      "
+          "text": "   "
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "This",
-          "href": "docs/rp__systick___spec.html#L37C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "in"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L23C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  Any interrupt that may execute from flash must be masked. If a second"
         }
       ]
     },
@@ -1050,38 +953,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Us",
-          "href": "docs/rp__systick___spec.html#L38C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
           "text": "   "
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Integer"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
+          "cssClass": "comment",
+          "text": "--  core is running, make sure it only executes code in RAM or bootrom."
         }
       ]
     },
@@ -1089,53 +966,11 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 39,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " Pre => Enabled (This)"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
       "kind": "line",
       "number": 40,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 41,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "overriding"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 42,
       "children": [
         {
           "kind": "span",
@@ -1155,14 +990,14 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Delay_Milliseconds",
-          "href": "docs/rp__systick___spec.html#L42C14"
+          "text": "Erase",
+          "href": "docs/rp__flash___spec.html#L40C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 41,
       "children": [
         {
           "kind": "span",
@@ -1177,8 +1012,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "This",
-          "href": "docs/rp__systick___spec.html#L43C8"
+          "text": "Offset",
+          "href": "docs/rp__flash___spec.html#L41C8"
         },
         {
           "kind": "span",
@@ -1197,29 +1032,9 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "in"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L23C9"
+          "text": "Flash_Offset",
+          "href": "docs/rp__flash___spec.html#L15C9"
         },
         {
           "kind": "span",
@@ -1230,7 +1045,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 42,
       "children": [
         {
           "kind": "span",
@@ -1240,13 +1055,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Ms",
-          "href": "docs/rp__systick___spec.html#L44C8"
+          "text": "Length",
+          "href": "docs/rp__flash___spec.html#L42C8"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": " "
         },
         {
           "kind": "span",
@@ -1261,7 +1076,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Integer"
+          "text": "Natural"
         },
         {
           "kind": "span",
@@ -1272,12 +1087,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 43,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "     "
         },
         {
           "kind": "span",
@@ -1287,12 +1102,59 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " Pre => Enabled (This)"
+          "text": " No_Inline, Linker_Section => \".time_critical\","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 44,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "          Pre => (Length "
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "keyword",
+          "text": "mod"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Sector_Size) = 0"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 45,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                 "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "and"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " (Offset "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "mod"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Sector_Size) = 0"
         }
       ]
     },
@@ -1300,6 +1162,26 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 46,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                 "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "and"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Offset + Flash_Offset (Length) <= Flash_Offset'Last"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
@@ -1313,8 +1195,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "overriding"
+          "cssClass": "comment",
+          "text": "--  Erase Length bytes of flash starting at Offset bytes from"
         }
       ]
     },
@@ -1329,6 +1211,28 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  the beginning of flash. Length and Offset must be multiples of 4096."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 49,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 50,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
           "cssClass": "keyword",
           "text": "procedure"
         },
@@ -1340,14 +1244,14 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Delay_Seconds",
-          "href": "docs/rp__systick___spec.html#L48C14"
+          "text": "Program",
+          "href": "docs/rp__flash___spec.html#L50C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 49,
+      "number": 51,
       "children": [
         {
           "kind": "span",
@@ -1362,8 +1266,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "This",
-          "href": "docs/rp__systick___spec.html#L49C8"
+          "text": "Offset",
+          "href": "docs/rp__flash___spec.html#L51C8"
         },
         {
           "kind": "span",
@@ -1382,97 +1286,9 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "in"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L23C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 50,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "S",
-          "href": "docs/rp__systick___spec.html#L50C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Integer"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 51,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " Pre => Enabled (This)"
+          "text": "Flash_Offset",
+          "href": "docs/rp__flash___spec.html#L15C9"
         },
         {
           "kind": "span",
@@ -1485,54 +1301,16 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 52,
       "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 53,
-      "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
+          "text": "       "
         },
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Delay_Until",
-          "href": "docs/rp__systick___spec.html#L53C14"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 54,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "This",
-          "href": "docs/rp__systick___spec.html#L54C8"
+          "text": "Source",
+          "href": "docs/rp__flash___spec.html#L52C8"
         },
         {
           "kind": "span",
@@ -1551,29 +1329,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "in"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L23C9"
+          "text": "System.Address"
         },
         {
           "kind": "span",
@@ -1584,7 +1341,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 55,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -1594,13 +1351,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "T",
-          "href": "docs/rp__systick___spec.html#L55C8"
+          "text": "Length",
+          "href": "docs/rp__flash___spec.html#L53C8"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "    "
+          "text": " "
         },
         {
           "kind": "span",
@@ -1615,8 +1372,238 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Time",
-          "href": "docs/rp__systick___spec.html#L11C9"
+          "text": "Natural"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 54,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " No_Inline, Linker_Section => \".time_critical\","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 55,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     Pre => (Length "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "mod"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Page_Size) = 0"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 56,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "            "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "and"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " (Offset "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "mod"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Page_Size) = 0"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 57,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "            "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "and"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Offset + Flash_Offset (Length) <= Flash_Offset'Last"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 58,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "            "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "and"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "not"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " In_Flash (Source)"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 59,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Program Length bytes of flash starting at Offset bytes from the beginning"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 60,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  of flash using the Source buffer. Length must be a multiple of 256."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 61,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 62,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "private"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 63,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 64,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "pragma"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "To_Address"
         },
         {
           "kind": "span",
@@ -1632,30 +1619,45 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 56,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 57,
+      "number": 65,
       "children": [
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "private"
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  This function is potentially used by subprograms running in RAM or ROM."
         }
       ]
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 66,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  We have always inlined to make sure it is usable in both cases."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 67,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 72,
       "children": [
         {
           "kind": "span",
@@ -1670,7 +1672,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "RP.SysTick"
+          "text": "RP.Flash"
         },
         {
           "kind": "span",
@@ -1680,5 +1682,5 @@ GNATdoc.SourceFile = {
       ]
     }
   ],
-  "label": "rp-systick.ads"
+  "label": "rp-flash.ads"
 };

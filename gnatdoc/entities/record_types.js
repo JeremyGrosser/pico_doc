@@ -1277,10 +1277,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Default_SPI_Configuration",
-      "docHref": "docs/rp__spi___spec.html#L32C4",
+      "docHref": "docs/rp__spi___spec.html#L33C4",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L32"
+      "srcHref": "srcs/rp-spi.ads.html#L33"
     },
     {
       "label": "Default_UART_Configuration",
@@ -4020,6 +4020,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp2040_svd-io_qspi.ads.html#L1759"
     },
     {
+      "label": "IRQ",
+      "docHref": "docs/rp__pio__encoding___spec.html#L174C9",
+      "declared": "RP.PIO.Encoding",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L174"
+    },
+    {
       "label": "IRQ0_INTE_Register",
       "docHref": "docs/rp2040_svd__pio___spec.html#L1888C9",
       "declared": "RP2040_SVD.PIO",
@@ -4144,6 +4151,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-bitmap.ads.html#L418"
+    },
+    {
+      "label": "JMP",
+      "docHref": "docs/rp__pio__encoding___spec.html#L21C9",
+      "declared": "RP.PIO.Encoding",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L21"
     },
     {
       "label": "Khaki",
@@ -4438,6 +4452,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-bitmap.ads.html#L400"
+    },
+    {
+      "label": "MOV",
+      "docHref": "docs/rp__pio__encoding___spec.html#L158C9",
+      "declared": "RP.PIO.Encoding",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L158"
     },
     {
       "label": "MPU_CTRL_Register",
@@ -4868,10 +4889,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PIO_Peripheral",
-      "docHref": "docs/rp__pio___spec.html#L14C9",
+      "docHref": "docs/rp__pio___spec.html#L15C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L14"
+      "srcHref": "srcs/rp-pio.ads.html#L15"
     },
     {
       "label": "PIO_Peripheral",
@@ -4882,10 +4903,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PIO_SM_Config",
-      "docHref": "docs/rp__pio___spec.html#L26C9",
+      "docHref": "docs/rp__pio___spec.html#L27C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L26"
+      "srcHref": "srcs/rp-pio.ads.html#L27"
     },
     {
       "label": "PLATFORM_Register",
@@ -5210,11 +5231,25 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp2040_svd-psm.ads.html#L370"
     },
     {
+      "label": "PULL",
+      "docHref": "docs/rp__pio__encoding___spec.html#L124C9",
+      "declared": "RP.PIO.Encoding",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L124"
+    },
+    {
       "label": "Purple",
       "docHref": "docs/hal__bitmap___spec.html#L372C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-bitmap.ads.html#L372"
+    },
+    {
+      "label": "PUSH",
+      "docHref": "docs/rp__pio__encoding___spec.html#L106C9",
+      "declared": "RP.PIO.Encoding",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L106"
     },
     {
       "label": "PWM_Periph",
@@ -5595,6 +5630,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp2040_svd-xip_ssi.ads.html#L216"
     },
     {
+      "label": "SET",
+      "docHref": "docs/rp__pio__encoding___spec.html#L201C9",
+      "declared": "RP.PIO.Encoding",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L201"
+    },
+    {
       "label": "SETUP_0_Register",
       "docHref": "docs/rp2040_svd__rtc___spec.html#L44C9",
       "declared": "RP2040_SVD.RTC",
@@ -5635,6 +5677,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP2040_SVD.PPB",
       "declared_qualifier": "",
       "srcHref": "srcs/rp2040_svd-ppb.ads.html#L742"
+    },
+    {
+      "label": "SHIFT_IN",
+      "docHref": "docs/rp__pio__encoding___spec.html#L66C9",
+      "declared": "RP.PIO.Encoding",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L66"
+    },
+    {
+      "label": "SHIFT_OUT",
+      "docHref": "docs/rp__pio__encoding___spec.html#L92C9",
+      "declared": "RP.PIO.Encoding",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L92"
     },
     {
       "label": "SHPR2_Register",
@@ -6818,6 +6874,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP2040_SVD.PPB",
       "declared_qualifier": "",
       "srcHref": "srcs/rp2040_svd-ppb.ads.html#L569"
+    },
+    {
+      "label": "WAIT",
+      "docHref": "docs/rp__pio__encoding___spec.html#L39C9",
+      "declared": "RP.PIO.Encoding",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L39"
     },
     {
       "label": "WAKE_EN0_clk_sys_i2c_Field",

@@ -1059,11 +1059,18 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp2040_svd-dma.ads.html#L2280"
     },
     {
+      "label": "Channel_Count",
+      "docHref": "docs/rp__pio__audio_i2s___spec.html#L16C12",
+      "declared": "RP.PIO.Audio_I2S",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-audio_i2s.ads.html#L16"
+    },
+    {
       "label": "Checksum_Algorithm",
-      "docHref": "docs/rp__dma___spec.html#L133C9",
+      "docHref": "docs/rp__dma___spec.html#L146C9",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L133"
+      "srcHref": "srcs/rp-dma.ads.html#L146"
     },
     {
       "label": "CHIP_ID_MANUFACTURER_Field",
@@ -1725,10 +1732,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Divider",
-      "docHref": "docs/rp__pio___spec.html#L36C9",
+      "docHref": "docs/rp__pio___spec.html#L37C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L36"
+      "srcHref": "srcs/rp-pio.ads.html#L37"
     },
     {
       "label": "Divider",
@@ -1746,10 +1753,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "DMA_IRQ_Id",
-      "docHref": "docs/rp__dma___spec.html#L154C12",
+      "docHref": "docs/rp__dma___spec.html#L167C12",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L154"
+      "srcHref": "srcs/rp-dma.ads.html#L167"
     },
     {
       "label": "DMA_Request_Trigger",
@@ -1760,10 +1767,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "DMA_Timer_Id",
-      "docHref": "docs/rp__dma___spec.html#L170C12",
+      "docHref": "docs/rp__dma___spec.html#L183C12",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L170"
+      "srcHref": "srcs/rp-dma.ads.html#L183"
     },
     {
       "label": "DMARDLR_DMARDL_Field",
@@ -3150,6 +3157,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "Semihosting",
       "declared_qualifier": "",
       "srcHref": "srcs/semihosting.ads.html#L39"
+    },
+    {
+      "label": "Flash_Offset",
+      "docHref": "docs/rp__flash___spec.html#L15C9",
+      "declared": "RP.Flash",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-flash.ads.html#L15"
     },
     {
       "label": "FLEVEL_RX0_Field",
@@ -6309,6 +6323,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp2040_svd-rtc.ads.html#L184"
     },
     {
+      "label": "JMP_Condition",
+      "docHref": "docs/rp__pio__encoding___spec.html#L10C9",
+      "declared": "RP.PIO.Encoding",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L10"
+    },
+    {
       "label": "Lane",
       "docHref": "docs/rp__interpolator___spec.html#L108C9",
       "declared": "RP.Interpolator",
@@ -6405,6 +6426,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "USB.Device.HID.Keyboard",
       "declared_qualifier": "",
       "srcHref": "srcs/usb-device-hid-keyboard.ads.html#L42"
+    },
+    {
+      "label": "MOV_Operation",
+      "docHref": "docs/rp__pio__encoding___spec.html#L154C9",
+      "declared": "RP.PIO.Encoding",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L154"
+    },
+    {
+      "label": "MOV_Target",
+      "docHref": "docs/rp__pio__encoding___spec.html#L142C9",
+      "declared": "RP.PIO.Encoding",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L142"
     },
     {
       "label": "MPU_RASR_ATTRS_Field",
@@ -6807,80 +6842,80 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Pin_Count",
-      "docHref": "docs/rp__pio___spec.html#L32C12",
+      "docHref": "docs/rp__pio___spec.html#L33C12",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L32"
+      "srcHref": "srcs/rp-pio.ads.html#L33"
     },
     {
       "label": "PIO_Address",
-      "docHref": "docs/rp__pio___spec.html#L28C12",
-      "declared": "RP.PIO",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L28"
-    },
-    {
-      "label": "PIO_Instruction",
       "docHref": "docs/rp__pio___spec.html#L29C12",
       "declared": "RP.PIO",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-pio.ads.html#L29"
     },
     {
-      "label": "PIO_IRQ_Flag",
-      "docHref": "docs/rp__pio___spec.html#L210C9",
+      "label": "PIO_Instruction",
+      "docHref": "docs/rp__pio___spec.html#L30C12",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L210"
+      "srcHref": "srcs/rp-pio.ads.html#L30"
+    },
+    {
+      "label": "PIO_IRQ_Flag",
+      "docHref": "docs/rp__pio___spec.html#L211C9",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L211"
     },
     {
       "label": "PIO_IRQ_ID",
-      "docHref": "docs/rp__pio___spec.html#L208C9",
+      "docHref": "docs/rp__pio___spec.html#L209C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L208"
+      "srcHref": "srcs/rp-pio.ads.html#L209"
     },
     {
       "label": "PIO_MOV_Status_Type",
-      "docHref": "docs/rp__pio___spec.html#L117C9",
+      "docHref": "docs/rp__pio___spec.html#L118C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L117"
+      "srcHref": "srcs/rp-pio.ads.html#L118"
     },
     {
       "label": "PIO_Number",
-      "docHref": "docs/rp__pio___spec.html#L15C12",
+      "docHref": "docs/rp__pio___spec.html#L16C12",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L15"
+      "srcHref": "srcs/rp-pio.ads.html#L16"
     },
     {
       "label": "PIO_Pin_Direction",
-      "docHref": "docs/rp__pio___spec.html#L159C9",
+      "docHref": "docs/rp__pio___spec.html#L160C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L159"
+      "srcHref": "srcs/rp-pio.ads.html#L160"
     },
     {
       "label": "PIO_SM",
-      "docHref": "docs/rp__pio___spec.html#L21C9",
-      "declared": "RP.PIO",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L21"
-    },
-    {
-      "label": "PIO_SM_IRQ_Flag",
-      "docHref": "docs/rp__pio___spec.html#L255C9",
-      "declared": "RP.PIO",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L255"
-    },
-    {
-      "label": "PIO_SM_Mask",
       "docHref": "docs/rp__pio___spec.html#L22C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-pio.ads.html#L22"
+    },
+    {
+      "label": "PIO_SM_IRQ_Flag",
+      "docHref": "docs/rp__pio___spec.html#L256C9",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L256"
+    },
+    {
+      "label": "PIO_SM_Mask",
+      "docHref": "docs/rp__pio___spec.html#L23C9",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L23"
     },
     {
       "label": "Point_Array",
@@ -6933,10 +6968,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Program",
-      "docHref": "docs/rp__pio___spec.html#L30C9",
+      "docHref": "docs/rp__pio___spec.html#L31C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L30"
+      "srcHref": "srcs/rp-pio.ads.html#L31"
     },
     {
       "label": "PWM_Channel",
@@ -7226,6 +7261,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/hal-filesystem.ads.html#L63"
     },
     {
+      "label": "SET_Destination",
+      "docHref": "docs/rp__pio__encoding___spec.html#L192C9",
+      "declared": "RP.PIO.Encoding",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L192"
+    },
+    {
       "label": "SETUP_0_DAY_Field",
       "docHref": "docs/rp2040_svd__rtc___spec.html#L39C12",
       "declared": "RP2040_SVD.RTC",
@@ -7324,11 +7366,25 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/semihosting.ads.html#L37"
     },
     {
+      "label": "SHIFT_IN_Source",
+      "docHref": "docs/rp__pio__encoding___spec.html#L55C9",
+      "declared": "RP.PIO.Encoding",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L55"
+    },
+    {
+      "label": "SHIFT_OUT_Destination",
+      "docHref": "docs/rp__pio__encoding___spec.html#L80C9",
+      "declared": "RP.PIO.Encoding",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L80"
+    },
+    {
       "label": "Shift_Threshold",
-      "docHref": "docs/rp__pio___spec.html#L92C12",
+      "docHref": "docs/rp__pio___spec.html#L93C12",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L92"
+      "srcHref": "srcs/rp-pio.ads.html#L93"
     },
     {
       "label": "Short_Address",
@@ -7381,10 +7437,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Sideset_Bit_Count",
-      "docHref": "docs/rp__pio___spec.html#L33C12",
+      "docHref": "docs/rp__pio___spec.html#L34C12",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L33"
+      "srcHref": "srcs/rp-pio.ads.html#L34"
     },
     {
       "label": "SIE_STATUS_LINE_STATE_Field",
@@ -9121,6 +9177,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "HAL.Framebuffer",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-framebuffer.ads.html#L42"
+    },
+    {
+      "label": "WAIT_Source",
+      "docHref": "docs/rp__pio__encoding___spec.html#L35C9",
+      "declared": "RP.PIO.Encoding",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L35"
     },
     {
       "label": "WAKE_EN0_clk_sys_i2c_Field_Array",

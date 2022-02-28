@@ -9,105 +9,6 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "git_revision",
-          "qualifier": "",
-          "line": 168,
-          "column": 4,
-          "src": "srcs/rp-rom.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 168,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "git_revision"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "constant"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Unsigned_32"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 169,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Import,"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 170,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "        Address => ROM_Data_Lookup (ROM_Table_Code ('G', 'R'))"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "label": "Constants and variables"
-    },
-    {
-      "entities": [
-        {
           "label": "Magic_Field",
           "qualifier": "",
           "line": 15,
@@ -476,7 +377,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "aliased"
+                      "text": "constant"
                     },
                     {
                       "kind": "span",
@@ -2104,7 +2005,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "System.Address"
+                      "text": "Unsigned_32"
                     },
                     {
                       "kind": "span",
@@ -2296,7 +2197,7 @@ GNATdoc.Documentation = {
               "line": 119,
               "column": 8,
               "type": {
-                "label": "Address"
+                "label": "Unsigned_32"
               },
               "description": [
               ]
@@ -2583,6 +2484,80 @@ GNATdoc.Documentation = {
                 "label": "size_t"
               },
               "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "git_revision",
+          "qualifier": "",
+          "line": 168,
+          "column": 13,
+          "src": "srcs/rp-rom.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 168,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "git_revision",
+                      "href": "docs/rp__rom___spec.html#L168C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 169,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Unsigned_32"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
               ]
             }
           ]

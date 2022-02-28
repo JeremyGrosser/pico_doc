@@ -1082,7 +1082,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "aliased"
+          "text": "constant"
         },
         {
           "kind": "span",
@@ -3045,7 +3045,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "System.Address"
+          "text": "Unsigned_32"
         },
         {
           "kind": "span",
@@ -4063,39 +4063,19 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "git_revision",
-          "href": "docs/rp__rom___spec.html#L168C4"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "constant"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Unsigned_32"
+          "href": "docs/rp__rom___spec.html#L168C13"
         }
       ]
     },
@@ -4106,28 +4086,22 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "      "
         },
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "with"
+          "text": "return"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " Import,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 170,
-      "children": [
+          "text": " "
+        },
         {
           "kind": "span",
-          "cssClass": "text",
-          "text": "        Address => ROM_Data_Lookup (ROM_Table_Code ('G', 'R'))"
+          "cssClass": "identifier",
+          "text": "Unsigned_32"
         },
         {
           "kind": "span",
@@ -4138,13 +4112,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 171,
+      "number": 170,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 172,
+      "number": 171,
       "children": [
         {
           "kind": "span",

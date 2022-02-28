@@ -19,7 +19,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Copyright 2021 (C) Jeremy Grosser"
+          "text": "--  Copyright 2021 (C) Jeremy Grosser <jeremy@synack.me>"
         }
       ]
     },
@@ -73,32 +73,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "use"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL"
+          "text": "RP.GPIO"
         },
         {
           "kind": "span",
@@ -124,7 +99,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL.Time"
+          "text": "RP.DMA"
         },
         {
           "kind": "span",
@@ -146,6 +121,64 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.Audio"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 10,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 11,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 12,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
           "text": "package"
         },
         {
@@ -156,8 +189,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "RP.SysTick",
-          "href": "docs/rp__systick___spec.html#L9C12"
+          "text": "RP.PIO.Audio_I2S",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L12C16"
         },
         {
           "kind": "span",
@@ -169,108 +202,12 @@ GNATdoc.SourceFile = {
           "cssClass": "keyword",
           "text": "is"
         }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 10,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 11,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "type"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Time",
-          "href": "docs/rp__systick___spec.html#L11C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "new"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "UInt64",
-          "href": "docs/hal___spec.html#L160C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 12,
-      "children": [
       ]
     },
     {
       "kind": "line",
       "number": 13,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Ticks_Per_Second",
-          "href": "docs/rp__systick___spec.html#L13C13"
-        }
       ]
     },
     {
@@ -280,28 +217,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "      "
+          "text": "   "
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Time",
-          "href": "docs/rp__systick___spec.html#L11C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  There is only one LRCLK signal, so any more than two channels will need"
         }
       ]
     },
@@ -309,6 +230,16 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 15,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  some external multiplexing logic."
+        }
       ]
     },
     {
@@ -323,7 +254,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "function"
+          "text": "subtype"
         },
         {
           "kind": "span",
@@ -333,8 +264,73 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Clock",
-          "href": "docs/rp__systick___spec.html#L16C13"
+          "text": "Channel_Count",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L16C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Positive"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "1"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "2"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -342,155 +338,11 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 17,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Time",
-          "href": "docs/rp__systick___spec.html#L11C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
       "kind": "line",
       "number": 18,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 19,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Milliseconds",
-          "href": "docs/rp__systick___spec.html#L19C13"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 20,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "T",
-          "href": "docs/rp__systick___spec.html#L20C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Natural"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 21,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Time",
-          "href": "docs/rp__systick___spec.html#L11C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 22,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 23,
       "children": [
         {
           "kind": "span",
@@ -510,39 +362,39 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L23C9"
-        },
+          "text": "I2S_Device",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L18C9"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 19,
+      "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "new"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
+          "text": "      "
         },
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL.Time.Delays",
-          "href": "docs/hal__time___spec.html#L34C9"
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Data"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
         },
         {
           "kind": "span",
@@ -552,7 +404,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "with"
+          "text": "not"
         },
         {
           "kind": "span",
@@ -572,35 +424,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "record"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";",
-          "href": "docs/rp__systick___spec.html#L23C9"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 24,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 25,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
+          "text": "access"
         },
         {
           "kind": "span",
@@ -610,8 +434,368 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Enable",
-          "href": "docs/rp__systick___spec.html#L25C14"
+          "text": "RP.GPIO.GPIO_Point",
+          "href": "docs/rp__gpio___spec.html#L19C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 20,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "BCLK"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "not"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "null"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "RP.GPIO.GPIO_Point",
+          "href": "docs/rp__gpio___spec.html#L19C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 21,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "LRCLK"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "not"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "null"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "RP.GPIO.GPIO_Point",
+          "href": "docs/rp__gpio___spec.html#L19C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 22,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PIO"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "         "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "not"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "null"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "RP.PIO.PIO_Device",
+          "href": "docs/rp__pio___spec.html#L354C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "'"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Class"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 23,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "SM",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L23C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "          "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "RP.PIO.PIO_SM",
+          "href": "docs/rp__pio___spec.html#L22C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 24,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Channels",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L24C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Channel_Count",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L16C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 25,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "DMA_Channel",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L25C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "RP.DMA.DMA_Channel_Id",
+          "href": "docs/rp__dma___spec.html#L13C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -622,18 +806,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "      "
+          "text": "       "
         },
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "This",
-          "href": "docs/rp__systick___spec.html#L26C8"
+          "text": "Buffer_Size",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L26C8"
         },
         {
           "kind": "span",
@@ -652,34 +831,80 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "in"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L23C9"
+          "text": "Positive"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 27,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "limited"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "new"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.Audio.Audio_Stream",
+          "href": "docs/hal__audio___spec.html#L61C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "private"
         },
         {
           "kind": "span",
@@ -690,13 +915,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 27,
+      "number": 28,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 28,
+      "number": 29,
       "children": [
         {
           "kind": "span",
@@ -716,14 +941,14 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Disable",
-          "href": "docs/rp__systick___spec.html#L28C14"
+          "text": "Initialize",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L29C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 29,
+      "number": 30,
       "children": [
         {
           "kind": "span",
@@ -739,12 +964,12 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__systick___spec.html#L29C8"
+          "href": "docs/rp__pio__audio_i2s___spec.html#L30C8"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "      "
         },
         {
           "kind": "span",
@@ -779,13 +1004,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L23C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
+          "text": "I2S_Device",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L62C9"
         },
         {
           "kind": "span",
@@ -796,23 +1016,18 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 30,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 31,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "       "
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
+          "cssClass": "identifier",
+          "text": "Frequency",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L31C8"
         },
         {
           "kind": "span",
@@ -822,8 +1037,23 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Enabled",
-          "href": "docs/rp__systick___spec.html#L31C13"
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.Audio.Audio_Frequency",
+          "href": "docs/hal__audio___spec.html#L41C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -834,23 +1064,18 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "      "
+          "text": "       "
         },
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "This",
-          "href": "docs/rp__systick___spec.html#L32C8"
+          "text": "Channels",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L32C8"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -864,18 +1089,9 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "in"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
+          "cssClass": "identifier",
+          "text": "Channel_Count",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L16C12"
         },
         {
           "kind": "span",
@@ -885,39 +1101,22 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L23C9"
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "1"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ")"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 33,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
         },
         {
           "kind": "span",
@@ -928,8 +1127,24 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 33,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
       "number": 34,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "overriding"
+        }
       ]
     },
     {
@@ -944,22 +1159,6 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "overriding"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 36,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
           "text": "procedure"
         },
         {
@@ -970,14 +1169,14 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Delay_Microseconds",
-          "href": "docs/rp__systick___spec.html#L36C14"
+          "text": "Set_Frequency",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L35C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 36,
       "children": [
         {
           "kind": "span",
@@ -993,12 +1192,12 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__systick___spec.html#L37C8"
+          "href": "docs/rp__pio__audio_i2s___spec.html#L36C8"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "      "
         },
         {
           "kind": "span",
@@ -1033,8 +1232,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L23C9"
+          "text": "I2S_Device",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L62C9"
         },
         {
           "kind": "span",
@@ -1045,7 +1244,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -1055,13 +1254,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Us",
-          "href": "docs/rp__systick___spec.html#L38C8"
+          "text": "Frequency",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L37C8"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": " "
         },
         {
           "kind": "span",
@@ -1076,13 +1275,25 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Integer"
+          "text": "HAL.Audio.Audio_Frequency",
+          "href": "docs/hal__audio___spec.html#L41C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 38,
+      "children": [
       ]
     },
     {
@@ -1096,18 +1307,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " Pre => Enabled (This)"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--  Copies Data into the buffer and starts a DMA transfer. If a DMA transfer"
         }
       ]
     },
@@ -1115,6 +1316,16 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 40,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  is already in progress, Transmit will wait for it to finish before"
+        }
       ]
     },
     {
@@ -1128,8 +1339,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "overriding"
+          "cssClass": "comment",
+          "text": "--  modifying the buffer."
         }
       ]
     },
@@ -1145,6 +1356,22 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "keyword",
+          "text": "overriding"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 43,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
           "text": "procedure"
         },
         {
@@ -1155,14 +1382,14 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Delay_Milliseconds",
-          "href": "docs/rp__systick___spec.html#L42C14"
+          "text": "Transmit",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L43C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -1178,7 +1405,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__systick___spec.html#L43C8"
+          "href": "docs/rp__pio__audio_i2s___spec.html#L44C8"
         },
         {
           "kind": "span",
@@ -1218,8 +1445,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L23C9"
+          "text": "I2S_Device",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L62C9"
         },
         {
           "kind": "span",
@@ -1230,7 +1457,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 45,
       "children": [
         {
           "kind": "span",
@@ -1240,13 +1467,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Ms",
-          "href": "docs/rp__systick___spec.html#L44C8"
+          "text": "Data",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L45C8"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": " "
         },
         {
           "kind": "span",
@@ -1261,7 +1488,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Integer"
+          "text": "HAL.Audio.Audio_Buffer",
+          "href": "docs/hal__audio___spec.html#L36C9"
         },
         {
           "kind": "span",
@@ -1272,12 +1500,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 46,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "    "
         },
         {
           "kind": "span",
@@ -1287,7 +1515,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " Pre => Enabled (This)"
+          "text": " Pre => Data'Length <= This.Buffer_Size"
         },
         {
           "kind": "span",
@@ -1298,13 +1526,45 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 47,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 47,
+      "number": 48,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  The PIO program currently does not support I2S receive. This function"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 49,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  will block on RX FIFO forever."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -1320,143 +1580,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 48,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Delay_Seconds",
-          "href": "docs/rp__systick___spec.html#L48C14"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 49,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "This",
-          "href": "docs/rp__systick___spec.html#L49C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "in"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L23C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 50,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "S",
-          "href": "docs/rp__systick___spec.html#L50C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Integer"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 51,
       "children": [
         {
@@ -1467,38 +1590,6 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " Pre => Enabled (This)"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 52,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 53,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
           "text": "procedure"
         },
         {
@@ -1509,14 +1600,14 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Delay_Until",
-          "href": "docs/rp__systick___spec.html#L53C14"
+          "text": "Receive",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L51C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 54,
+      "number": 52,
       "children": [
         {
           "kind": "span",
@@ -1532,7 +1623,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__systick___spec.html#L54C8"
+          "href": "docs/rp__pio__audio_i2s___spec.html#L52C8"
         },
         {
           "kind": "span",
@@ -1572,8 +1663,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Delays",
-          "href": "docs/rp__systick___spec.html#L23C9"
+          "text": "I2S_Device",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L62C9"
         },
         {
           "kind": "span",
@@ -1584,7 +1675,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 55,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -1594,13 +1685,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "T",
-          "href": "docs/rp__systick___spec.html#L55C8"
+          "text": "Data",
+          "href": "docs/rp__pio__audio_i2s___spec.html#L53C8"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "    "
+          "text": " "
         },
         {
           "kind": "span",
@@ -1614,9 +1705,19 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "keyword",
+          "text": "out"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
-          "text": "Time",
-          "href": "docs/rp__systick___spec.html#L11C9"
+          "text": "HAL.Audio.Audio_Buffer",
+          "href": "docs/hal__audio___spec.html#L36C9"
         },
         {
           "kind": "span",
@@ -1627,6 +1728,23 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 54,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 55,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "private"
         }
       ]
     },
@@ -1642,20 +1760,19 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "private"
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Init copied from audio_i2s.pio and translated to Ada"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 58,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 67,
+      "number": 76,
       "children": [
         {
           "kind": "span",
@@ -1670,7 +1787,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "RP.SysTick"
+          "text": "RP.PIO.Audio_I2S"
         },
         {
           "kind": "span",
@@ -1680,5 +1797,5 @@ GNATdoc.SourceFile = {
       ]
     }
   ],
-  "label": "rp-systick.ads"
+  "label": "rp-pio-audio_i2s.ads"
 };

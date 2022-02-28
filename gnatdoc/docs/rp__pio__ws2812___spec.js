@@ -1,37 +1,19 @@
 GNATdoc.Documentation = {
-  "label": "RP.ROM.Floating_Point",
+  "label": "RP.PIO.WS2812",
   "qualifier": "",
   "summary": [
   ],
   "description": [
-    {
-      "kind": "paragraph",
-      "children": [
-        {
-          "kind": "span",
-          "text": "Copyright (C) 2022 Jeremy Grosser <jeremy@synack.me>\n"
-        }
-      ]
-    },
-    {
-      "kind": "paragraph",
-      "children": [
-        {
-          "kind": "span",
-          "text": "SPDX-License-Identifier: BSD-3-Clause\n"
-        }
-      ]
-    }
   ],
   "entities": [
     {
       "entities": [
         {
-          "label": "fadd",
+          "label": "Strip",
           "qualifier": "",
-          "line": 17,
-          "column": 13,
-          "src": "srcs/rp-rom-floating_point.ads.html",
+          "line": 11,
+          "column": 9,
+          "src": "srcs/rp-pio-ws2812.ads.html",
           "summary": [
           ],
           "description": [
@@ -40,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 17,
+                  "number": 11,
                   "children": [
                     {
                       "kind": "span",
@@ -50,7 +32,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "function"
+                      "text": "type"
                     },
                     {
                       "kind": "span",
@@ -60,13 +42,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "fadd",
-                      "href": "docs/rp__rom__floating_point___spec.html#L17C13"
-                    },
+                      "text": "Strip",
+                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 12,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -76,13 +64,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "A",
-                      "href": "docs/rp__rom__floating_point___spec.html#L17C19"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "text": "Pin"
                     },
                     {
                       "kind": "span",
@@ -92,8 +74,185 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "B",
-                      "href": "docs/rp__rom__floating_point___spec.html#L17C22"
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "not"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "null"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "RP.GPIO.GPIO_Point",
+                      "href": "docs/rp__gpio___spec.html#L19C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 13,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "not"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "null"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Device",
+                      "href": "docs/rp__pio___spec.html#L354C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 14,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SM",
+                      "href": "docs/rp__pio__ws2812___spec.html#L14C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_SM",
+                      "href": "docs/rp__pio___spec.html#L22C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 15,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Number_Of_LEDs",
+                      "href": "docs/rp__pio__ws2812___spec.html#L15C8"
                     },
                     {
                       "kind": "span",
@@ -113,12 +272,28 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Float"
+                      "text": "Positive"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 16,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
                     },
                     {
                       "kind": "span",
@@ -128,7 +303,44 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "return"
+                      "text": "tagged"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 17,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Data",
+                      "href": "docs/rp__pio__ws2812___spec.html#L17C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
                     },
                     {
                       "kind": "span",
@@ -138,7 +350,53 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Float"
+                      "text": "HAL.UInt32_Array",
+                      "href": "docs/hal___spec.html#L164C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "1"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Number_Of_LEDs"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -153,13 +411,580 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Initialized",
+                      "href": "docs/rp__pio__ws2812___spec.html#L18C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 19,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_Ready",
+                      "href": "docs/rp__pio__ws2812___spec.html#L19C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 20,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_Chan",
+                      "href": "docs/rp__pio__ws2812___spec.html#L20C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "RP.DMA.DMA_Channel_Id",
+                      "href": "docs/rp__dma___spec.html#L13C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 21,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "Number_Of_LEDs",
+              "line": 15,
+              "column": 8,
+              "type": {
+                "label": "Positive"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "SM",
+              "line": 14,
+              "column": 8,
+              "type": {
+                "label": "RP.PIO.PIO_SM",
+                "docHref": "docs/rp__pio___spec.html#L22C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Data",
+              "line": 17,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt32_Array",
+                "docHref": "docs/hal___spec.html#L164C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Initialized",
+              "line": 18,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "DMA_Ready",
+              "line": 19,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "DMA_Chan",
+              "line": 20,
+              "column": 7,
+              "type": {
+                "label": "RP.DMA.DMA_Channel_Id",
+                "docHref": "docs/rp__dma___spec.html#L13C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        }
+      ],
+      "label": "Tagged types"
+    },
+    {
+      "entities": [
+        {
+          "label": "Clear",
+          "qualifier": "",
+          "line": 39,
+          "column": 14,
+          "src": "srcs/rp-pio-ws2812.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 39,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Clear",
+                      "href": "docs/rp__pio__ws2812___spec.html#L39C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__pio__ws2812___spec.html#L39C21"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Strip",
+                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Turn off all LEDs\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 39,
+              "column": 21,
+              "type": {
+                "label": "RP.PIO.WS2812.Strip",
+                "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Disable_DMA",
+          "qualifier": "",
+          "line": 35,
+          "column": 14,
+          "src": "srcs/rp-pio-ws2812.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 35,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Disable_DMA",
+                      "href": "docs/rp__pio__ws2812___spec.html#L35C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__pio__ws2812___spec.html#L35C27"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Strip",
+                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 36,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "keyword",
                       "text": "with"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Export, Convention => C, External_Name => \"__aeabi_fadd\""
+                      "text": " Pre => Initialized (This) "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "and"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "then"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " DMA_Enabled (This),"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 37,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         Post => Initialized (This) "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "and"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "then"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "not"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " DMA_Enabled (This)"
                     },
                     {
                       "kind": "span",
@@ -169,38 +994,16 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Run-time ABI for the Arm\u00AE Architecture\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "https://github.com/ARM-software/abi-aa/blob/main/rtabi32/rtabi32.rst\n"
-                }
-              ]
             }
           ],
           "parameters": [
             {
-              "label": "A",
-              "line": 17,
-              "column": 19,
+              "label": "This",
+              "line": 35,
+              "column": 27,
               "type": {
-                "label": "Float"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "B",
-              "line": 17,
-              "column": 22,
-              "type": {
-                "label": "Float"
+                "label": "RP.PIO.WS2812.Strip",
+                "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
               },
               "description": [
               ]
@@ -208,11 +1011,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "fcos",
+          "label": "DMA_Enabled",
           "qualifier": "",
-          "line": 60,
+          "line": 24,
           "column": 13,
-          "src": "srcs/rp-rom-floating_point.ads.html",
+          "src": "srcs/rp-pio-ws2812.ads.html",
           "summary": [
           ],
           "description": [
@@ -221,7 +1024,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 60,
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -241,8 +1044,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "fcos",
-                      "href": "docs/rp__rom__floating_point___spec.html#L60C13"
+                      "text": "DMA_Enabled",
+                      "href": "docs/rp__pio__ws2812___spec.html#L24C13"
                     },
                     {
                       "kind": "span",
@@ -257,8 +1060,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "V",
-                      "href": "docs/rp__rom__floating_point___spec.html#L60C19"
+                      "text": "This",
+                      "href": "docs/rp__pio__ws2812___spec.html#L24C26"
                     },
                     {
                       "kind": "span",
@@ -278,7 +1081,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Float"
+                      "text": "Strip",
+                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
                     },
                     {
                       "kind": "span",
@@ -303,7 +1107,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Float"
+                      "text": "Boolean"
                     },
                     {
                       "kind": "span",
@@ -313,24 +1117,16 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "with Export, Convention => C, External_Name => \"cosf\";\n"
-                }
-              ]
             }
           ],
           "parameters": [
             {
-              "label": "V",
-              "line": 60,
-              "column": 19,
+              "label": "This",
+              "line": 24,
+              "column": 26,
               "type": {
-                "label": "Float"
+                "label": "RP.PIO.WS2812.Strip",
+                "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
               },
               "description": [
               ]
@@ -338,11 +1134,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "fdiv",
+          "label": "Enable_DMA",
           "qualifier": "",
-          "line": 25,
-          "column": 13,
-          "src": "srcs/rp-rom-floating_point.ads.html",
+          "line": 30,
+          "column": 14,
+          "src": "srcs/rp-pio-ws2812.ads.html",
           "summary": [
           ],
           "description": [
@@ -351,7 +1147,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 25,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -361,7 +1157,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "function"
+                      "text": "procedure"
                     },
                     {
                       "kind": "span",
@@ -371,8 +1167,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "fdiv",
-                      "href": "docs/rp__rom__floating_point___spec.html#L25C13"
+                      "text": "Enable_DMA",
+                      "href": "docs/rp__pio__ws2812___spec.html#L30C14"
                     },
                     {
                       "kind": "span",
@@ -387,13 +1183,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "A",
-                      "href": "docs/rp__rom__floating_point___spec.html#L25C19"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "text": "This",
+                      "href": "docs/rp__pio__ws2812___spec.html#L30C26"
                     },
                     {
                       "kind": "span",
@@ -403,8 +1194,60 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "B",
-                      "href": "docs/rp__rom__floating_point___spec.html#L25C22"
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Strip",
+                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 31,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Chan",
+                      "href": "docs/rp__pio__ws2812___spec.html#L31C26"
                     },
                     {
                       "kind": "span",
@@ -424,12 +1267,50 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Float"
+                      "text": "RP.DMA.DMA_Channel_Id",
+                      "href": "docs/rp__dma___spec.html#L13C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 32,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pre => Initialized (This),"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 33,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         Post => Initialized (This) "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "and"
                     },
                     {
                       "kind": "span",
@@ -439,20 +1320,60 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "return"
+                      "text": "then"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": " DMA_Enabled (This)"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Float"
+                      "text": ";"
                     }
                   ]
-                },
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 30,
+              "column": 26,
+              "type": {
+                "label": "RP.PIO.WS2812.Strip",
+                "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Chan",
+              "line": 31,
+              "column": 26,
+              "type": {
+                "label": "RP.DMA.DMA_Channel_Id",
+                "docHref": "docs/rp__dma___spec.html#L13C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Initialize",
+          "qualifier": "",
+          "line": 26,
+          "column": 14,
+          "src": "srcs/rp-pio-ws2812.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
                 {
                   "kind": "line",
                   "number": 26,
@@ -460,76 +1381,12 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Export, Convention => C, External_Name => \"__aeabi_fdiv\""
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "A",
-              "line": 25,
-              "column": 19,
-              "type": {
-                "label": "Float"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "B",
-              "line": 25,
-              "column": 22,
-              "type": {
-                "label": "Float"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "fexp",
-          "qualifier": "",
-          "line": 64,
-          "column": 13,
-          "src": "srcs/rp-rom-floating_point.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 64,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
                       "text": "   "
                     },
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "function"
+                      "text": "procedure"
                     },
                     {
                       "kind": "span",
@@ -539,8 +1396,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "fexp",
-                      "href": "docs/rp__rom__floating_point___spec.html#L64C13"
+                      "text": "Initialize",
+                      "href": "docs/rp__pio__ws2812___spec.html#L26C14"
                     },
                     {
                       "kind": "span",
@@ -555,13 +1412,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "V",
-                      "href": "docs/rp__rom__floating_point___spec.html#L64C19"
+                      "text": "This",
+                      "href": "docs/rp__pio__ws2812___spec.html#L26C26"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -575,13 +1432,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Float"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
+                      "cssClass": "keyword",
+                      "text": "in"
                     },
                     {
                       "kind": "span",
@@ -591,7 +1443,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "return"
+                      "text": "out"
                     },
                     {
                       "kind": "span",
@@ -601,373 +1453,30 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Float"
+                      "text": "Strip",
+                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "with Export, Convention => C, External_Name => \"expf\";\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "V",
-              "line": 64,
-              "column": 19,
-              "type": {
-                "label": "Float"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "fln",
-          "qualifier": "",
-          "line": 66,
-          "column": 13,
-          "src": "srcs/rp-rom-floating_point.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 66,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "fln",
-                      "href": "docs/rp__rom__floating_point___spec.html#L66C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "V",
-                      "href": "docs/rp__rom__floating_point___spec.html#L66C18"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Float"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Float"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "with Export, Convention => C, External_Name => \"logf\";\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "V",
-              "line": 66,
-              "column": 18,
-              "type": {
-                "label": "Float"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "float2int",
-          "qualifier": "",
-          "line": 46,
-          "column": 13,
-          "src": "srcs/rp-rom-floating_point.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 46,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "float2int",
-                      "href": "docs/rp__rom__floating_point___spec.html#L46C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "V",
-                      "href": "docs/rp__rom__floating_point___spec.html#L46C24"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Float"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "int"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Export, Convention => C, External_Name => \"__aeabi_f2iz\""
+                      "text": "                         "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "pico-sdk rewrites this one too\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "V",
-              "line": 46,
-              "column": 24,
-              "type": {
-                "label": "Float"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "float2uint",
-          "qualifier": "",
-          "line": 50,
-          "column": 13,
-          "src": "srcs/rp-rom-floating_point.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 50,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "float2uint",
-                      "href": "docs/rp__rom__floating_point___spec.html#L50C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "V",
-                      "href": "docs/rp__rom__floating_point___spec.html#L50C25"
+                      "text": "ASM_Offset",
+                      "href": "docs/rp__pio__ws2812___spec.html#L27C26"
                     },
                     {
                       "kind": "span",
@@ -982,48 +1491,49 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO_Address",
+                      "href": "docs/rp__pio___spec.html#L29C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
                       "text": " "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Float"
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "unsigned"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -1033,7 +1543,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Export, Convention => C, External_Name => \"__aeabi_f2uiz\""
+                      "text": " Post => Initialized (This)"
                     },
                     {
                       "kind": "span",
@@ -1047,11 +1557,23 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "V",
-              "line": 50,
-              "column": 25,
+              "label": "This",
+              "line": 26,
+              "column": 26,
               "type": {
-                "label": "Float"
+                "label": "RP.PIO.WS2812.Strip",
+                "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "ASM_Offset",
+              "line": 27,
+              "column": 26,
+              "type": {
+                "label": "RP.PIO.PIO_Address",
+                "docHref": "docs/rp__pio___spec.html#L29C12"
               },
               "description": [
               ]
@@ -1059,11 +1581,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "fmul",
+          "label": "Initialized",
           "qualifier": "",
           "line": 23,
           "column": 13,
-          "src": "srcs/rp-rom-floating_point.ads.html",
+          "src": "srcs/rp-pio-ws2812.ads.html",
           "summary": [
           ],
           "description": [
@@ -1092,8 +1614,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "fmul",
-                      "href": "docs/rp__rom__floating_point___spec.html#L23C13"
+                      "text": "Initialized",
+                      "href": "docs/rp__pio__ws2812___spec.html#L23C13"
                     },
                     {
                       "kind": "span",
@@ -1108,24 +1630,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "A",
-                      "href": "docs/rp__rom__floating_point___spec.html#L23C19"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "B",
-                      "href": "docs/rp__rom__floating_point___spec.html#L23C22"
+                      "text": "This",
+                      "href": "docs/rp__pio__ws2812___spec.html#L23C26"
                     },
                     {
                       "kind": "span",
@@ -1145,7 +1651,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Float"
+                      "text": "Strip",
+                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
                     },
                     {
                       "kind": "span",
@@ -1170,28 +1677,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Float"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 24,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Export, Convention => C, External_Name => \"__aeabi_fmul\""
+                      "text": "Boolean"
                     },
                     {
                       "kind": "span",
@@ -1205,21 +1691,12 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "A",
+              "label": "This",
               "line": 23,
-              "column": 19,
+              "column": 26,
               "type": {
-                "label": "Float"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "B",
-              "line": 23,
-              "column": 22,
-              "type": {
-                "label": "Float"
+                "label": "RP.PIO.WS2812.Strip",
+                "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
               },
               "description": [
               ]
@@ -1227,749 +1704,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "frsub",
+          "label": "Set_HSV",
           "qualifier": "",
-          "line": 21,
-          "column": 13,
-          "src": "srcs/rp-rom-floating_point.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 21,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "frsub",
-                      "href": "docs/rp__rom__floating_point___spec.html#L21C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "A",
-                      "href": "docs/rp__rom__floating_point___spec.html#L21C20"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "B",
-                      "href": "docs/rp__rom__floating_point___spec.html#L21C23"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Float"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Float"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 22,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Export, Convention => C, External_Name => \"__aeabi_frsub\""
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "A",
-              "line": 21,
-              "column": 20,
-              "type": {
-                "label": "Float"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "B",
-              "line": 21,
-              "column": 23,
-              "type": {
-                "label": "Float"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "fsin",
-          "qualifier": "",
-          "line": 58,
-          "column": 13,
-          "src": "srcs/rp-rom-floating_point.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 58,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "fsin",
-                      "href": "docs/rp__rom__floating_point___spec.html#L58C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "V",
-                      "href": "docs/rp__rom__floating_point___spec.html#L58C19"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Float"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Float"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "with Export, Convention => C, External_Name => \"sinf\";\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "V",
-              "line": 58,
-              "column": 19,
-              "type": {
-                "label": "Float"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "fsqrt",
-          "qualifier": "",
-          "line": 53,
-          "column": 13,
-          "src": "srcs/rp-rom-floating_point.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 53,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "fsqrt",
-                      "href": "docs/rp__rom__floating_point___spec.html#L53C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "V",
-                      "href": "docs/rp__rom__floating_point___spec.html#L53C20"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Float"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Float"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 54,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Export, Convention => C, External_Name => \"sqrtf\""
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "V",
-              "line": 53,
-              "column": 20,
-              "type": {
-                "label": "Float"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "fsub",
-          "qualifier": "",
-          "line": 19,
-          "column": 13,
-          "src": "srcs/rp-rom-floating_point.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 19,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "fsub",
-                      "href": "docs/rp__rom__floating_point___spec.html#L19C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "A",
-                      "href": "docs/rp__rom__floating_point___spec.html#L19C19"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "B",
-                      "href": "docs/rp__rom__floating_point___spec.html#L19C22"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Float"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Float"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 20,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Export, Convention => C, External_Name => \"__aeabi_fsub\""
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "A",
-              "line": 19,
-              "column": 19,
-              "type": {
-                "label": "Float"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "B",
-              "line": 19,
-              "column": 22,
-              "type": {
-                "label": "Float"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "ftan",
-          "qualifier": "",
-          "line": 62,
-          "column": 13,
-          "src": "srcs/rp-rom-floating_point.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 62,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ftan",
-                      "href": "docs/rp__rom__floating_point___spec.html#L62C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "V",
-                      "href": "docs/rp__rom__floating_point___spec.html#L62C19"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Float"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Float"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "with Export, Convention => C, External_Name => \"tanf\";\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "V",
-              "line": 62,
-              "column": 19,
-              "type": {
-                "label": "Float"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Initialize",
-          "qualifier": "",
-          "line": 7,
+          "line": 47,
           "column": 14,
-          "src": "srcs/rp-rom-floating_point.ads.html",
+          "src": "srcs/rp-pio-ws2812.ads.html",
           "summary": [
           ],
           "description": [
@@ -1978,7 +1717,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 7,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -1998,14 +1737,193 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Initialize",
-                      "href": "docs/rp__rom__floating_point___spec.html#L7C14"
+                      "text": "Set_HSV",
+                      "href": "docs/rp__pio__ws2812___spec.html#L47C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__pio__ws2812___spec.html#L47C23"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Strip",
+                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 8,
+                  "number": 48,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Id",
+                      "href": "docs/rp__pio__ws2812___spec.html#L48C23"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Positive"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 49,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "H",
+                      "href": "docs/rp__pio__ws2812___spec.html#L49C23"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "S",
+                      "href": "docs/rp__pio__ws2812___spec.html#L49C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "V",
+                      "href": "docs/rp__pio__ws2812___spec.html#L49C29"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt8",
+                      "href": "docs/hal___spec.html#L53C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -2020,29 +1938,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Export,"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 9,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "          Convention    => C,"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 10,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "          External_Name => \"rp_rom_float_initialize\""
+                      "text": " Pre => Id <= This.Number_Of_LEDs"
                     },
                     {
                       "kind": "span",
@@ -2050,177 +1946,61 @@ GNATdoc.Documentation = {
                       "text": ";"
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "rp_rom_float_initialize must be called before any of the __aeabi\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "functions, which means it needs to be called before elaboration.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "crt0.S takes care of this, unless Use_Startup=false.\n"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "int2float",
-          "qualifier": "",
-          "line": 38,
-          "column": 13,
-          "src": "srcs/rp-rom-floating_point.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 38,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "int2float",
-                      "href": "docs/rp__rom__floating_point___spec.html#L38C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "V",
-                      "href": "docs/rp__rom__floating_point___spec.html#L38C24"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "int"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Float"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 39,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Export, Convention => C, External_Name => \"__aeabi_i2f\""
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "pico-sdk doesn't use int2float and instead implements __aeabi_i2f in\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "software. Maybe the ROM is missing an edge case?\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "V",
-              "line": 38,
-              "column": 24,
+              "label": "This",
+              "line": 47,
+              "column": 23,
               "type": {
-                "label": "int"
+                "label": "RP.PIO.WS2812.Strip",
+                "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Id",
+              "line": 48,
+              "column": 23,
+              "type": {
+                "label": "Positive"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "H",
+              "line": 49,
+              "column": 23,
+              "type": {
+                "label": "HAL.UInt8",
+                "docHref": "docs/hal___spec.html#L53C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "S",
+              "line": 49,
+              "column": 26,
+              "type": {
+                "label": "HAL.UInt8",
+                "docHref": "docs/hal___spec.html#L53C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "V",
+              "line": 49,
+              "column": 29,
+              "type": {
+                "label": "HAL.UInt8",
+                "docHref": "docs/hal___spec.html#L53C9"
               },
               "description": [
               ]
@@ -2228,11 +2008,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "uint2float",
+          "label": "Set_RGB",
           "qualifier": "",
-          "line": 43,
-          "column": 13,
-          "src": "srcs/rp-rom-floating_point.ads.html",
+          "line": 42,
+          "column": 14,
+          "src": "srcs/rp-pio-ws2812.ads.html",
           "summary": [
           ],
           "description": [
@@ -2241,7 +2021,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -2251,7 +2031,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "function"
+                      "text": "procedure"
                     },
                     {
                       "kind": "span",
@@ -2261,8 +2041,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "uint2float",
-                      "href": "docs/rp__rom__floating_point___spec.html#L43C13"
+                      "text": "Set_RGB",
+                      "href": "docs/rp__pio__ws2812___spec.html#L42C14"
                     },
                     {
                       "kind": "span",
@@ -2277,13 +2057,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "V",
-                      "href": "docs/rp__rom__floating_point___spec.html#L43C25"
+                      "text": "This",
+                      "href": "docs/rp__pio__ws2812___spec.html#L42C23"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "    "
                     },
                     {
                       "kind": "span",
@@ -2297,13 +2077,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "unsigned"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
+                      "cssClass": "keyword",
+                      "text": "in"
                     },
                     {
                       "kind": "span",
@@ -2313,7 +2088,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "return"
+                      "text": "out"
                     },
                     {
                       "kind": "span",
@@ -2323,7 +2098,55 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Float"
+                      "text": "Strip",
+                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 43,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Id",
+                      "href": "docs/rp__pio__ws2812___spec.html#L43C23"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Positive"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -2334,7 +2157,82 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
+                      "text": "                      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "R",
+                      "href": "docs/rp__pio__ws2812___spec.html#L44C23"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "G",
+                      "href": "docs/rp__pio__ws2812___spec.html#L44C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "B",
+                      "href": "docs/rp__pio__ws2812___spec.html#L44C29"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.UInt8",
+                      "href": "docs/hal___spec.html#L53C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 45,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -2344,7 +2242,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Export, Convention => C, External_Name => \"__aeabi_ui2f\""
+                      "text": " Pre => Id <= This.Number_Of_LEDs"
                     },
                     {
                       "kind": "span",
@@ -2358,11 +2256,261 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "V",
-              "line": 43,
-              "column": 25,
+              "label": "This",
+              "line": 42,
+              "column": 23,
               "type": {
-                "label": "unsigned"
+                "label": "RP.PIO.WS2812.Strip",
+                "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Id",
+              "line": 43,
+              "column": 23,
+              "type": {
+                "label": "Positive"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "R",
+              "line": 44,
+              "column": 23,
+              "type": {
+                "label": "HAL.UInt8",
+                "docHref": "docs/hal___spec.html#L53C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "G",
+              "line": 44,
+              "column": 26,
+              "type": {
+                "label": "HAL.UInt8",
+                "docHref": "docs/hal___spec.html#L53C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "B",
+              "line": 44,
+              "column": 29,
+              "type": {
+                "label": "HAL.UInt8",
+                "docHref": "docs/hal___spec.html#L53C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Update",
+          "qualifier": "",
+          "line": 52,
+          "column": 14,
+          "src": "srcs/rp-pio-ws2812.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 52,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Update",
+                      "href": "docs/rp__pio__ws2812___spec.html#L52C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__pio__ws2812___spec.html#L52C22"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Strip",
+                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 53,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Blocking",
+                      "href": "docs/rp__pio__ws2812___spec.html#L53C22"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 54,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pre => Initialized (This)"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 52,
+              "column": 22,
+              "type": {
+                "label": "RP.PIO.WS2812.Strip",
+                "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Blocking",
+              "line": 53,
+              "column": 22,
+              "type": {
+                "label": "Boolean"
               },
               "description": [
               ]
@@ -2370,7 +2518,7 @@ GNATdoc.Documentation = {
           ]
         }
       ],
-      "label": "Subprograms"
+      "label": "Dispatching subprograms"
     }
   ]
 };

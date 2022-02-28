@@ -1,7 +1,13 @@
 GNATdoc.InheritanceIndex = [
   {
     "label": "Audio_Stream",
-    "docHref": "docs/hal__audio___spec.html#L61C9"
+    "docHref": "docs/hal__audio___spec.html#L61C9",
+    "inherited": [
+      {
+        "label": "I2S_Device",
+        "docHref": "docs/rp__pio__audio_i2s___spec.html#L18C9"
+      }
+    ]
   },
   {
     "label": "Bitmap_Buffer",
@@ -17,7 +23,7 @@ GNATdoc.InheritanceIndex = [
     "inherited": [
       {
         "label": "Delays",
-        "docHref": "docs/rp__systick___spec.html#L21C9"
+        "docHref": "docs/rp__systick___spec.html#L23C9"
       },
       {
         "label": "Delays",
@@ -83,7 +89,7 @@ GNATdoc.InheritanceIndex = [
   },
   {
     "label": "PIO_Device",
-    "docHref": "docs/rp__pio___spec.html#L16C9"
+    "docHref": "docs/rp__pio___spec.html#L17C9"
   },
   {
     "label": "RTC_Device",
@@ -108,6 +114,10 @@ GNATdoc.InheritanceIndex = [
         "docHref": "docs/rp__spi___spec.html#L13C9"
       }
     ]
+  },
+  {
+    "label": "Strip",
+    "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
   },
   {
     "label": "Touch_Panel_Device",
