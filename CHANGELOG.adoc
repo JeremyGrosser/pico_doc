@@ -47,7 +47,7 @@ RP.ROM.Floating_Point did not check the boot ROM version before calling function
 - float2uint64
 - float2double
 
-===== boot2 license was clarification
+===== boot2 license clarification
 The boot2 directory contained source code that included a GPLv3 with runtime exception license in a comment header. These files were copied from a pull request to bb-runtimes that has not been merged. Daniel King (the original author of these files) gave permission to relicense as BSD-3-Clause, in line with the rest of rp2040_hal.
 
 === 1.2.1
