@@ -2,6 +2,11 @@
 
 ==== New features
 
+===== DMA Setup can be performed without triggering a transfer
+When chaining DMA channels, it's often useful to set the From and To addresses of a channel without triggering it immediately. Previously, RP.DMA.Start both set these addresses and triggered a transfer. Now, RP.DMA.Setup performs this configuration and RP.DMA.Start with only a Channel argument will trigger the transfer. If From, To, and Count are passed as arguments to Start, then the old behavior is maintained.
+
+Note that if Increment_Read or Increment_Write are True, then repeated calls to RP.DMA.Start will *not* reset the From and To addresses, they will continue from where the last transfer left off, unless Ring_Wrap and Ring_Size are configured for the DMA channel.
+
 ===== SysTick Delay_Until
 The SysTick driver now has a Delay_Until procedure with functionality similar to `RP.Timer.Delay_Until`. All SysTick delays are tested to be accurate within +/- 1ms.
 
@@ -18,6 +23,9 @@ A PIO program that implements the wire protocol for WS2812 RGB LEDs has been add
 New unit tests for SPI, RTC, and Flash functions were added. GNATcoverage is now supported for tests.
 
 ==== Bugs fixed
+
+===== I2C Mem_Write sent a repeated start after the address
+The I2C Mem_Write procedure was sending a repeated start between the memory address and the data to be written. This caused issues for some I2C EEPROMs. Mem_Write has been changed to send the memory address and data both in one Master_Transmit call.
 
 ===== SysTick returned incorrect values
 `RP.SysTick.Clock` was returning the value of the `CURRENT` register, not the ticks counted by the 1ms interrupt handler. `RP.SysTick.Clock` now returns the ticks value, which is the number of milliseconds since SysTick was enabled.
