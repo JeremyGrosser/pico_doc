@@ -2042,7 +2042,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "          External_Name => \"rp_rom_float_initialize\""
+                      "text": "          External_Name => \"__gnat_initialize_bootrom\""
                     },
                     {
                       "kind": "span",
@@ -2058,7 +2058,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "rp_rom_float_initialize must be called before any of the __aeabi\n"
+                  "text": "__gnat_initialize_bootrom must be called before any of the __aeabi\n"
                 },
                 {
                   "kind": "span",

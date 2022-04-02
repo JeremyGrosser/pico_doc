@@ -235,6 +235,11 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/rp__flash___spec.html"
   },
   {
+    "label": "RP.Flash.Cache",
+    "qualifier": "",
+    "file": "docs/rp__flash__cache___spec.html"
+  },
+  {
     "label": "RP.GPIO",
     "qualifier": "",
     "file": "docs/rp__gpio___spec.html"
@@ -248,6 +253,21 @@ GNATdoc.DocumentationIndex = [
     "label": "RP.Interpolator",
     "qualifier": "",
     "file": "docs/rp__interpolator___spec.html"
+  },
+  {
+    "label": "RP.Multicore",
+    "qualifier": "",
+    "file": "docs/rp__multicore___spec.html"
+  },
+  {
+    "label": "RP.Multicore.FIFO",
+    "qualifier": "",
+    "file": "docs/rp__multicore__fifo___spec.html"
+  },
+  {
+    "label": "RP.Multicore.Spinlocks",
+    "qualifier": "",
+    "file": "docs/rp__multicore__spinlocks___spec.html"
   },
   {
     "label": "RP.PIO",

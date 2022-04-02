@@ -171,10 +171,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Audio_I2s_Program_Instructions",
-      "docHref": "docs/rp__pio__audio_i2s_pio___spec.html#L20C4",
+      "docHref": "docs/rp__pio__audio_i2s_pio___spec.html#L25C4",
       "declared": "RP.PIO.Audio_I2S_PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-audio_i2s_pio.ads.html#L20"
+      "srcHref": "srcs/rp-pio-audio_i2s_pio.ads.html#L25"
     },
     {
       "label": "Azeri_Cyrillic",
@@ -1907,10 +1907,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Ws2812_Program_Instructions",
-      "docHref": "docs/rp__pio__ws2812_pio___spec.html#L22C4",
+      "docHref": "docs/rp__pio__ws2812_pio___spec.html#L27C4",
       "declared": "RP.PIO.WS2812_PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-ws2812_pio.ads.html#L22"
+      "srcHref": "srcs/rp-pio-ws2812_pio.ads.html#L27"
     },
     {
       "label": "XIP_CTRL_Base",

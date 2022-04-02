@@ -180,6 +180,10 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/rp-dma.ads.html"
   },
   {
+    "label": "rp-flash-cache.ads",
+    "srcHref": "srcs/rp-flash-cache.ads.html"
+  },
+  {
     "label": "rp-flash.ads",
     "srcHref": "srcs/rp-flash.ads.html"
   },
@@ -194,6 +198,18 @@ GNATdoc.SourceFileIndex = [
   {
     "label": "rp-interpolator.ads",
     "srcHref": "srcs/rp-interpolator.ads.html"
+  },
+  {
+    "label": "rp-multicore-fifo.ads",
+    "srcHref": "srcs/rp-multicore-fifo.ads.html"
+  },
+  {
+    "label": "rp-multicore-spinlocks.ads",
+    "srcHref": "srcs/rp-multicore-spinlocks.ads.html"
+  },
+  {
+    "label": "rp-multicore.ads",
+    "srcHref": "srcs/rp-multicore.ads.html"
   },
   {
     "label": "rp-pio-audio_i2s.ads",

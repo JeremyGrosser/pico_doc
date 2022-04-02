@@ -628,7 +628,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPI_Port",
-          "href": "docs/rp__spi___spec.html#L92C9"
+          "href": "docs/rp__spi___spec.html#L121C9"
         },
         {
           "kind": "span",
@@ -727,7 +727,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPI_Port",
-          "href": "docs/rp__spi___spec.html#L92C9"
+          "href": "docs/rp__spi___spec.html#L121C9"
         },
         {
           "kind": "span",
@@ -1036,7 +1036,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "UART_Port",
-          "href": "docs/rp__uart___spec.html#L122C9"
+          "href": "docs/rp__uart___spec.html#L170C9"
         },
         {
           "kind": "span",
@@ -1135,7 +1135,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "UART_Port",
-          "href": "docs/rp__uart___spec.html#L122C9"
+          "href": "docs/rp__uart___spec.html#L170C9"
         },
         {
           "kind": "span",

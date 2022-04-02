@@ -79,6 +79,20 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp-pio.ads.html#L271"
     },
     {
+      "label": "Clear_IRQ",
+      "docHref": "docs/rp__spi___spec.html#L104C14",
+      "declared": "RP.SPI",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-spi.ads.html#L104"
+    },
+    {
+      "label": "Clear_IRQ",
+      "docHref": "docs/rp__uart___spec.html#L153C14",
+      "declared": "RP.UART",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-uart.ads.html#L153"
+    },
+    {
       "label": "Close",
       "docHref": "docs/semihosting__filesystem___spec.html#L106C14",
       "declared": "Semihosting.Filesystem",
@@ -157,10 +171,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Configure",
-      "docHref": "docs/rp__uart___spec.html#L40C14",
+      "docHref": "docs/rp__uart___spec.html#L41C14",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L40"
+      "srcHref": "srcs/rp-uart.ads.html#L41"
     },
     {
       "label": "Controller",
@@ -248,10 +262,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Data_Size",
-      "docHref": "docs/rp__uart___spec.html#L88C13",
+      "docHref": "docs/rp__uart___spec.html#L89C13",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L88"
+      "srcHref": "srcs/rp-uart.ads.html#L89"
     },
     {
       "label": "Delay_Microseconds",
@@ -378,6 +392,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.PIO",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-pio.ads.html#L227"
+    },
+    {
+      "label": "Disable_IRQ",
+      "docHref": "docs/rp__spi___spec.html#L100C14",
+      "declared": "RP.SPI",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-spi.ads.html#L100"
+    },
+    {
+      "label": "Disable_IRQ",
+      "docHref": "docs/rp__uart___spec.html#L149C14",
+      "declared": "RP.UART",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-uart.ads.html#L149"
     },
     {
       "label": "Disable_IRQ_Flag",
@@ -520,6 +548,20 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp-pio.ads.html#L224"
     },
     {
+      "label": "Enable_IRQ",
+      "docHref": "docs/rp__spi___spec.html#L96C14",
+      "declared": "RP.SPI",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-spi.ads.html#L96"
+    },
+    {
+      "label": "Enable_IRQ",
+      "docHref": "docs/rp__uart___spec.html#L145C14",
+      "declared": "RP.UART",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-uart.ads.html#L145"
+    },
+    {
       "label": "Enable_IRQ_Flag",
       "docHref": "docs/rp__pio___spec.html#L230C14",
       "declared": "RP.PIO",
@@ -619,10 +661,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "FIFO_Address",
-      "docHref": "docs/rp__uart___spec.html#L83C13",
+      "docHref": "docs/rp__uart___spec.html#L84C13",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L83"
+      "srcHref": "srcs/rp-uart.ads.html#L84"
     },
     {
       "label": "Fill",
@@ -675,10 +717,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Frame_Time",
-      "docHref": "docs/rp__uart___spec.html#L61C13",
+      "docHref": "docs/rp__uart___spec.html#L62C13",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L61"
+      "srcHref": "srcs/rp-uart.ads.html#L62"
     },
     {
       "label": "Get",
@@ -954,6 +996,20 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/hal-bitmap.ads.html#L134"
     },
     {
+      "label": "Masked_IRQ_Status",
+      "docHref": "docs/rp__spi___spec.html#L108C13",
+      "declared": "RP.SPI",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-spi.ads.html#L108"
+    },
+    {
+      "label": "Masked_IRQ_Status",
+      "docHref": "docs/rp__uart___spec.html#L157C13",
+      "declared": "RP.UART",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-uart.ads.html#L157"
+    },
+    {
       "label": "Master_Receive",
       "docHref": "docs/hal__i2c___spec.html#L59C14",
       "declared": "HAL.I2C",
@@ -1171,6 +1227,20 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp-pio.ads.html#L184"
     },
     {
+      "label": "RAW_IRQ_Status",
+      "docHref": "docs/rp__spi___spec.html#L113C13",
+      "declared": "RP.SPI",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-spi.ads.html#L113"
+    },
+    {
+      "label": "RAW_IRQ_Status",
+      "docHref": "docs/rp__uart___spec.html#L162C13",
+      "declared": "RP.UART",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-uart.ads.html#L162"
+    },
+    {
       "label": "Read",
       "docHref": "docs/hal__block_drivers___spec.html#L42C13",
       "declared": "HAL.Block_Drivers",
@@ -1298,17 +1368,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Receive",
-      "docHref": "docs/rp__uart___spec.html#L107C14",
+      "docHref": "docs/rp__uart___spec.html#L108C14",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L107"
+      "srcHref": "srcs/rp-uart.ads.html#L108"
     },
     {
       "label": "Receive",
-      "docHref": "docs/rp__uart___spec.html#L114C14",
+      "docHref": "docs/rp__uart___spec.html#L115C14",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L114"
+      "srcHref": "srcs/rp-uart.ads.html#L115"
     },
     {
       "label": "Receive_Status",
@@ -1319,10 +1389,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Receive_Status",
-      "docHref": "docs/rp__uart___spec.html#L79C13",
+      "docHref": "docs/rp__uart___spec.html#L80C13",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L79"
+      "srcHref": "srcs/rp-uart.ads.html#L80"
     },
     {
       "label": "Register_Class",
@@ -1480,10 +1550,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Send_Break",
-      "docHref": "docs/rp__uart___spec.html#L69C14",
+      "docHref": "docs/rp__uart___spec.html#L70C14",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L69"
+      "srcHref": "srcs/rp-uart.ads.html#L70"
     },
     {
       "label": "Send_Cmd",
@@ -1638,6 +1708,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.PIO",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-pio.ads.html#L142"
+    },
+    {
+      "label": "Set_FIFO_IRQ_Level",
+      "docHref": "docs/rp__uart___spec.html#L127C14",
+      "declared": "RP.UART",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-uart.ads.html#L127"
     },
     {
       "label": "Set_Frequency",
@@ -1795,10 +1872,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Stick_Parity",
-      "docHref": "docs/rp__uart___spec.html#L48C14",
+      "docHref": "docs/rp__uart___spec.html#L49C14",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L48"
+      "srcHref": "srcs/rp-uart.ads.html#L49"
     },
     {
       "label": "Size",
@@ -1900,10 +1977,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Symbol_Time",
-      "docHref": "docs/rp__uart___spec.html#L56C13",
+      "docHref": "docs/rp__uart___spec.html#L57C13",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L56"
+      "srcHref": "srcs/rp-uart.ads.html#L57"
     },
     {
       "label": "Toggle",
@@ -1977,17 +2054,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Transmit",
-      "docHref": "docs/rp__uart___spec.html#L93C14",
+      "docHref": "docs/rp__uart___spec.html#L94C14",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L93"
+      "srcHref": "srcs/rp-uart.ads.html#L94"
     },
     {
       "label": "Transmit",
-      "docHref": "docs/rp__uart___spec.html#L100C14",
+      "docHref": "docs/rp__uart___spec.html#L101C14",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L100"
+      "srcHref": "srcs/rp-uart.ads.html#L101"
     },
     {
       "label": "Transmit_Status",
@@ -1998,10 +2075,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Transmit_Status",
-      "docHref": "docs/rp__uart___spec.html#L75C13",
+      "docHref": "docs/rp__uart___spec.html#L76C13",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L75"
+      "srcHref": "srcs/rp-uart.ads.html#L76"
     },
     {
       "label": "Truncate_File",

@@ -16,6 +16,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/hal-bitmap.ads.html#L77"
     },
     {
+      "label": "Access_Count",
+      "docHref": "docs/rp__flash__cache___spec.html#L25C13",
+      "declared": "RP.Flash.Cache",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-flash-cache.ads.html#L25"
+    },
+    {
       "label": "Ack_IRQ",
       "docHref": "docs/rp__dma___spec.html#L175C14",
       "declared": "RP.DMA",
@@ -178,10 +185,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "clz32",
-      "docHref": "docs/rp__rom___spec.html#L74C13",
+      "docHref": "docs/rp__rom___spec.html#L75C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L74"
+      "srcHref": "srcs/rp-rom.ads.html#L75"
     },
     {
       "label": "Commit",
@@ -276,10 +283,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "connect_internal_flash",
-      "docHref": "docs/rp__rom___spec.html#L108C14",
+      "docHref": "docs/rp__rom___spec.html#L109C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L108"
+      "srcHref": "srcs/rp-rom.ads.html#L109"
     },
     {
       "label": "Control_In",
@@ -318,10 +325,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "copyright_string",
-      "docHref": "docs/rp__rom___spec.html#L165C13",
+      "docHref": "docs/rp__rom___spec.html#L166C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L165"
+      "srcHref": "srcs/rp-rom.ads.html#L166"
     },
     {
       "label": "Count",
@@ -345,11 +352,18 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/cortex_m-systick.ads.html#L51"
     },
     {
+      "label": "CPU_Id",
+      "docHref": "docs/rp__multicore___spec.html#L27C13",
+      "declared": "RP.Multicore",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-multicore.ads.html#L27"
+    },
+    {
       "label": "ctz32",
-      "docHref": "docs/rp__rom___spec.html#L81C13",
+      "docHref": "docs/rp__rom___spec.html#L82C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L81"
+      "srcHref": "srcs/rp-rom.ads.html#L82"
     },
     {
       "label": "D_Cache_Enabled",
@@ -367,10 +381,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "debug_trampoline",
-      "docHref": "docs/rp__rom___spec.html#L146C14",
+      "docHref": "docs/rp__rom___spec.html#L147C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L146"
+      "srcHref": "srcs/rp-rom.ads.html#L147"
     },
     {
       "label": "Default_SM_Config",
@@ -406,6 +420,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.DMA",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-dma.ads.html#L135"
+    },
+    {
+      "label": "Disable",
+      "docHref": "docs/rp__flash__cache___spec.html#L10C14",
+      "declared": "RP.Flash.Cache",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-flash-cache.ads.html#L10"
     },
     {
       "label": "Disable",
@@ -462,6 +483,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.DMA",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-dma.ads.html#L172"
+    },
+    {
+      "label": "Drain",
+      "docHref": "docs/rp__multicore__fifo___spec.html#L20C14",
+      "declared": "RP.Multicore.FIFO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-multicore-fifo.ads.html#L20"
     },
     {
       "label": "DSB",
@@ -553,6 +581,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.DMA",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-dma.ads.html#L111"
+    },
+    {
+      "label": "Enable",
+      "docHref": "docs/rp__flash__cache___spec.html#L9C14",
+      "declared": "RP.Flash.Cache",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-flash-cache.ads.html#L9"
     },
     {
       "label": "Enable",
@@ -864,38 +899,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "flash_enter_cmd_xip",
-      "docHref": "docs/rp__rom___spec.html#L140C14",
+      "docHref": "docs/rp__rom___spec.html#L141C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L140"
+      "srcHref": "srcs/rp-rom.ads.html#L141"
     },
     {
       "label": "flash_exit_xip",
-      "docHref": "docs/rp__rom___spec.html#L113C14",
+      "docHref": "docs/rp__rom___spec.html#L114C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L113"
+      "srcHref": "srcs/rp-rom.ads.html#L114"
     },
     {
       "label": "flash_flush_cache",
-      "docHref": "docs/rp__rom___spec.html#L135C14",
+      "docHref": "docs/rp__rom___spec.html#L136C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L135"
+      "srcHref": "srcs/rp-rom.ads.html#L136"
     },
     {
       "label": "flash_range_erase",
-      "docHref": "docs/rp__rom___spec.html#L118C14",
+      "docHref": "docs/rp__rom___spec.html#L119C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L118"
+      "srcHref": "srcs/rp-rom.ads.html#L119"
     },
     {
       "label": "flash_range_program",
-      "docHref": "docs/rp__rom___spec.html#L127C14",
+      "docHref": "docs/rp__rom___spec.html#L128C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L127"
+      "srcHref": "srcs/rp-rom.ads.html#L128"
     },
     {
       "label": "fln",
@@ -917,6 +952,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-rom-floating_point.ads.html#L50"
+    },
+    {
+      "label": "Flush",
+      "docHref": "docs/rp__flash__cache___spec.html#L17C14",
+      "declared": "RP.Flash.Cache",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-flash-cache.ads.html#L17"
     },
     {
       "label": "fmul",
@@ -976,10 +1018,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "git_revision",
-      "docHref": "docs/rp__rom___spec.html#L168C13",
+      "docHref": "docs/rp__rom___spec.html#L169C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L168"
+      "srcHref": "srcs/rp-rom.ads.html#L169"
     },
     {
       "label": "Grant",
@@ -1015,6 +1057,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "USB.Utils",
       "declared_qualifier": "",
       "srcHref": "srcs/usb-utils.ads.html#L36"
+    },
+    {
+      "label": "Hit_Count",
+      "docHref": "docs/rp__flash__cache___spec.html#L22C13",
+      "declared": "RP.Flash.Cache",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-flash-cache.ads.html#L22"
     },
     {
       "label": "I_Cache_Enabled",
@@ -1143,6 +1192,27 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp-dma.ads.html#L178"
     },
     {
+      "label": "Is_Enabled",
+      "docHref": "docs/rp__flash__cache___spec.html#L14C13",
+      "declared": "RP.Flash.Cache",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-flash-cache.ads.html#L14"
+    },
+    {
+      "label": "Launch_Core1",
+      "docHref": "docs/rp__multicore___spec.html#L11C14",
+      "declared": "RP.Multicore",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-multicore.ads.html#L11"
+    },
+    {
+      "label": "Launch_Core1",
+      "docHref": "docs/rp__multicore___spec.html#L22C14",
+      "declared": "RP.Multicore",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-multicore.ads.html#L22"
+    },
+    {
       "label": "Leave",
       "docHref": "docs/atomic__critical_section___spec.html#L13C14",
       "declared": "Atomic.Critical_Section",
@@ -1162,6 +1232,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "Atomic.Unsigned",
       "declared_qualifier": "",
       "srcHref": "srcs/atomic-unsigned.ads.html#L32"
+    },
+    {
+      "label": "Locked",
+      "docHref": "docs/rp__multicore__spinlocks___spec.html#L22C13",
+      "declared": "RP.Multicore.Spinlocks",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-multicore-spinlocks.ads.html#L22"
     },
     {
       "label": "Log",
@@ -1284,17 +1361,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "memset",
-      "docHref": "docs/rp__rom___spec.html#L89C13",
+      "docHref": "docs/rp__rom___spec.html#L90C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L89"
+      "srcHref": "srcs/rp-rom.ads.html#L90"
     },
     {
       "label": "memset4",
-      "docHref": "docs/rp__rom___spec.html#L98C13",
+      "docHref": "docs/rp__rom___spec.html#L99C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L98"
+      "srcHref": "srcs/rp-rom.ads.html#L99"
     },
     {
       "label": "Milliseconds",
@@ -1381,11 +1458,25 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/cortex_m-nvic.ads.html#L65"
     },
     {
+      "label": "Pop_Blocking",
+      "docHref": "docs/rp__multicore__fifo___spec.html#L15C13",
+      "declared": "RP.Multicore.FIFO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-multicore-fifo.ads.html#L15"
+    },
+    {
       "label": "popcount32",
-      "docHref": "docs/rp__rom___spec.html#L60C13",
+      "docHref": "docs/rp__rom___spec.html#L61C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L60"
+      "srcHref": "srcs/rp-rom.ads.html#L61"
+    },
+    {
+      "label": "Power_Down",
+      "docHref": "docs/rp__flash__cache___spec.html#L11C14",
+      "declared": "RP.Flash.Cache",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-flash-cache.ads.html#L11"
     },
     {
       "label": "Program",
@@ -1393,6 +1484,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.Flash",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-flash.ads.html#L50"
+    },
+    {
+      "label": "Push_Blocking",
+      "docHref": "docs/rp__multicore__fifo___spec.html#L14C14",
+      "declared": "RP.Multicore.FIFO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-multicore-fifo.ads.html#L14"
     },
     {
       "label": "Read",
@@ -1500,6 +1598,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/bbqueue.ads.html#L84"
     },
     {
+      "label": "Release",
+      "docHref": "docs/rp__multicore__spinlocks___spec.html#L19C14",
+      "declared": "RP.Multicore.Spinlocks",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-multicore-spinlocks.ads.html#L19"
+    },
+    {
       "label": "Reload",
       "docHref": "docs/rp__watchdog___spec.html#L12C14",
       "declared": "RP.Watchdog",
@@ -1512,6 +1617,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "Semihosting",
       "declared_qualifier": "",
       "srcHref": "srcs/semihosting.ads.html#L64"
+    },
+    {
+      "label": "Reset_Counters",
+      "docHref": "docs/rp__flash__cache___spec.html#L28C14",
+      "declared": "RP.Flash.Cache",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-flash-cache.ads.html#L28"
     },
     {
       "label": "Reset_Peripheral",
@@ -1529,10 +1641,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "reset_to_usb_boot",
-      "docHref": "docs/rp__rom___spec.html#L152C14",
+      "docHref": "docs/rp__rom___spec.html#L153C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L152"
+      "srcHref": "srcs/rp-rom.ads.html#L153"
     },
     {
       "label": "Retard_Phase",
@@ -1543,17 +1655,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "reverse32",
-      "docHref": "docs/rp__rom___spec.html#L67C13",
+      "docHref": "docs/rp__rom___spec.html#L68C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L67"
+      "srcHref": "srcs/rp-rom.ads.html#L68"
     },
     {
       "label": "ROM_Data_Lookup",
-      "docHref": "docs/rp__rom___spec.html#L55C13",
+      "docHref": "docs/rp__rom___spec.html#L56C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L55"
+      "srcHref": "srcs/rp-rom.ads.html#L56"
     },
     {
       "label": "ROM_Func_Lookup",
@@ -1582,6 +1694,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.Clock",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-clock.ads.html#L83"
+    },
+    {
+      "label": "RX_Ready",
+      "docHref": "docs/rp__multicore__fifo___spec.html#L11C13",
+      "declared": "RP.Multicore.FIFO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-multicore-fifo.ads.html#L11"
     },
     {
       "label": "Seek",
@@ -2116,6 +2235,34 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/usb-device.ads.html#L146"
     },
     {
+      "label": "Try_Lock",
+      "docHref": "docs/rp__multicore__spinlocks___spec.html#L12C13",
+      "declared": "RP.Multicore.Spinlocks",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-multicore-spinlocks.ads.html#L12"
+    },
+    {
+      "label": "Try_Pop",
+      "docHref": "docs/rp__multicore__fifo___spec.html#L18C13",
+      "declared": "RP.Multicore.FIFO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-multicore-fifo.ads.html#L18"
+    },
+    {
+      "label": "Try_Push",
+      "docHref": "docs/rp__multicore__fifo___spec.html#L17C13",
+      "declared": "RP.Multicore.FIFO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-multicore-fifo.ads.html#L17"
+    },
+    {
+      "label": "TX_Ready",
+      "docHref": "docs/rp__multicore__fifo___spec.html#L12C13",
+      "declared": "RP.Multicore.FIFO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-multicore-fifo.ads.html#L12"
+    },
+    {
       "label": "uint2float",
       "docHref": "docs/rp__rom__floating_point___spec.html#L43C13",
       "declared": "RP.ROM.Floating_Point",
@@ -2159,10 +2306,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "wait_for_vector",
-      "docHref": "docs/rp__rom___spec.html#L159C14",
+      "docHref": "docs/rp__rom___spec.html#L160C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L159"
+      "srcHref": "srcs/rp-rom.ads.html#L160"
+    },
+    {
+      "label": "Wait_Lock",
+      "docHref": "docs/rp__multicore__spinlocks___spec.html#L16C14",
+      "declared": "RP.Multicore.Spinlocks",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-multicore-spinlocks.ads.html#L16"
     },
     {
       "label": "Write",

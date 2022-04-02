@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Ws2812_Program_Instructions",
           "qualifier": "",
-          "line": 22,
+          "line": 27,
           "column": 4,
           "src": "srcs/rp-pio-ws2812_pio.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 22,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -73,7 +73,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 23,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
@@ -89,7 +89,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 24,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -135,7 +135,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 25,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -181,7 +181,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 26,
+                  "number": 31,
                   "children": [
                     {
                       "kind": "span",
@@ -227,7 +227,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 27,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",

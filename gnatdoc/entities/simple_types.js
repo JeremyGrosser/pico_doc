@@ -3096,6 +3096,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp2040_svd-pio.ads.html#L113"
     },
     {
+      "label": "FIFO_IRQ_Level",
+      "docHref": "docs/rp__uart___spec.html#L121C9",
+      "declared": "RP.UART",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-uart.ads.html#L121"
+    },
+    {
       "label": "FIFO_LEVELS_RAF_LVL_Field",
       "docHref": "docs/rp2040_svd__dma___spec.html#L2257C12",
       "declared": "RP2040_SVD.DMA",
@@ -6365,6 +6372,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp2040_svd-watchdog.ads.html#L79"
     },
     {
+      "label": "Lock_Id",
+      "docHref": "docs/rp__multicore__spinlocks___spec.html#L10C9",
+      "declared": "RP.Multicore.Spinlocks",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-multicore-spinlocks.ads.html#L10"
+    },
+    {
       "label": "Magic_Field",
       "docHref": "docs/rp__rom___spec.html#L15C9",
       "declared": "RP.ROM",
@@ -6401,10 +6415,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Microseconds",
-      "docHref": "docs/rp__uart___spec.html#L53C12",
+      "docHref": "docs/rp__uart___spec.html#L54C12",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L53"
+      "srcHref": "srcs/rp-uart.ads.html#L54"
     },
     {
       "label": "Microvolts",
@@ -8108,6 +8122,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp-spi.ads.html#L21"
     },
     {
+      "label": "SPI_IRQ_Flag",
+      "docHref": "docs/rp__spi___spec.html#L90C9",
+      "declared": "RP.SPI",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-spi.ads.html#L90"
+    },
+    {
       "label": "SPI_Number",
       "docHref": "docs/rp__spi___spec.html#L12C12",
       "declared": "RP.SPI",
@@ -8487,10 +8508,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "UART_FIFO_Status",
-      "docHref": "docs/rp__uart___spec.html#L38C9",
+      "docHref": "docs/rp__uart___spec.html#L39C9",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L38"
+      "srcHref": "srcs/rp-uart.ads.html#L39"
+    },
+    {
+      "label": "UART_IRQ_Flag",
+      "docHref": "docs/rp__uart___spec.html#L135C9",
+      "declared": "RP.UART",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-uart.ads.html#L135"
     },
     {
       "label": "UART_Number",

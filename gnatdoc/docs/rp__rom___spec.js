@@ -1023,7 +1023,7 @@ GNATdoc.Documentation = {
         {
           "label": "clz32",
           "qualifier": "",
-          "line": 74,
+          "line": 75,
           "column": 13,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -1034,7 +1034,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 74,
+                  "number": 75,
                   "children": [
                     {
                       "kind": "span",
@@ -1055,13 +1055,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "clz32",
-                      "href": "docs/rp__rom___spec.html#L74C13"
+                      "href": "docs/rp__rom___spec.html#L75C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 75,
+                  "number": 76,
                   "children": [
                     {
                       "kind": "span",
@@ -1077,7 +1077,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Value",
-                      "href": "docs/rp__rom___spec.html#L75C8"
+                      "href": "docs/rp__rom___spec.html#L76C8"
                     },
                     {
                       "kind": "span",
@@ -1108,7 +1108,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 76,
+                  "number": 77,
                   "children": [
                     {
                       "kind": "span",
@@ -1134,7 +1134,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 77,
+                  "number": 78,
                   "children": [
                     {
                       "kind": "span",
@@ -1155,7 +1155,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 78,
+                  "number": 79,
                   "children": [
                     {
                       "kind": "span",
@@ -1166,7 +1166,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 79,
+                  "number": 80,
                   "children": [
                     {
                       "kind": "span",
@@ -1186,7 +1186,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Value",
-              "line": 75,
+              "line": 76,
               "column": 8,
               "type": {
                 "label": "Unsigned_32"
@@ -1199,7 +1199,7 @@ GNATdoc.Documentation = {
         {
           "label": "connect_internal_flash",
           "qualifier": "",
-          "line": 108,
+          "line": 109,
           "column": 14,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -1210,7 +1210,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 108,
+                  "number": 109,
                   "children": [
                     {
                       "kind": "span",
@@ -1231,13 +1231,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "connect_internal_flash",
-                      "href": "docs/rp__rom___spec.html#L108C14"
+                      "href": "docs/rp__rom___spec.html#L109C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 109,
+                  "number": 110,
                   "children": [
                     {
                       "kind": "span",
@@ -1258,7 +1258,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 110,
+                  "number": 111,
                   "children": [
                     {
                       "kind": "span",
@@ -1269,7 +1269,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 111,
+                  "number": 112,
                   "children": [
                     {
                       "kind": "span",
@@ -1299,7 +1299,7 @@ GNATdoc.Documentation = {
         {
           "label": "copyright_string",
           "qualifier": "",
-          "line": 165,
+          "line": 166,
           "column": 13,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -1310,7 +1310,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 165,
+                  "number": 166,
                   "children": [
                     {
                       "kind": "span",
@@ -1331,13 +1331,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "copyright_string",
-                      "href": "docs/rp__rom___spec.html#L165C13"
+                      "href": "docs/rp__rom___spec.html#L166C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 166,
+                  "number": 167,
                   "children": [
                     {
                       "kind": "span",
@@ -1382,7 +1382,7 @@ GNATdoc.Documentation = {
         {
           "label": "ctz32",
           "qualifier": "",
-          "line": 81,
+          "line": 82,
           "column": 13,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -1393,7 +1393,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 81,
+                  "number": 82,
                   "children": [
                     {
                       "kind": "span",
@@ -1414,13 +1414,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ctz32",
-                      "href": "docs/rp__rom___spec.html#L81C13"
+                      "href": "docs/rp__rom___spec.html#L82C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 82,
+                  "number": 83,
                   "children": [
                     {
                       "kind": "span",
@@ -1436,7 +1436,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Value",
-                      "href": "docs/rp__rom___spec.html#L82C8"
+                      "href": "docs/rp__rom___spec.html#L83C8"
                     },
                     {
                       "kind": "span",
@@ -1467,7 +1467,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 83,
+                  "number": 84,
                   "children": [
                     {
                       "kind": "span",
@@ -1493,7 +1493,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 84,
+                  "number": 85,
                   "children": [
                     {
                       "kind": "span",
@@ -1514,7 +1514,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 85,
+                  "number": 86,
                   "children": [
                     {
                       "kind": "span",
@@ -1525,7 +1525,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 86,
+                  "number": 87,
                   "children": [
                     {
                       "kind": "span",
@@ -1545,7 +1545,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Value",
-              "line": 82,
+              "line": 83,
               "column": 8,
               "type": {
                 "label": "Unsigned_32"
@@ -1558,7 +1558,7 @@ GNATdoc.Documentation = {
         {
           "label": "debug_trampoline",
           "qualifier": "",
-          "line": 146,
+          "line": 147,
           "column": 14,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -1569,7 +1569,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 146,
+                  "number": 147,
                   "children": [
                     {
                       "kind": "span",
@@ -1590,13 +1590,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "debug_trampoline",
-                      "href": "docs/rp__rom___spec.html#L146C14"
+                      "href": "docs/rp__rom___spec.html#L147C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 147,
+                  "number": 148,
                   "children": [
                     {
                       "kind": "span",
@@ -1617,7 +1617,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 148,
+                  "number": 149,
                   "children": [
                     {
                       "kind": "span",
@@ -1628,7 +1628,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 149,
+                  "number": 150,
                   "children": [
                     {
                       "kind": "span",
@@ -1658,7 +1658,7 @@ GNATdoc.Documentation = {
         {
           "label": "flash_enter_cmd_xip",
           "qualifier": "",
-          "line": 140,
+          "line": 141,
           "column": 14,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -1669,7 +1669,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 140,
+                  "number": 141,
                   "children": [
                     {
                       "kind": "span",
@@ -1690,13 +1690,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "flash_enter_cmd_xip",
-                      "href": "docs/rp__rom___spec.html#L140C14"
+                      "href": "docs/rp__rom___spec.html#L141C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 141,
+                  "number": 142,
                   "children": [
                     {
                       "kind": "span",
@@ -1717,7 +1717,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 142,
+                  "number": 143,
                   "children": [
                     {
                       "kind": "span",
@@ -1728,7 +1728,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 143,
+                  "number": 144,
                   "children": [
                     {
                       "kind": "span",
@@ -1749,7 +1749,7 @@ GNATdoc.Documentation = {
         {
           "label": "flash_exit_xip",
           "qualifier": "",
-          "line": 113,
+          "line": 114,
           "column": 14,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -1760,7 +1760,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 113,
+                  "number": 114,
                   "children": [
                     {
                       "kind": "span",
@@ -1781,13 +1781,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "flash_exit_xip",
-                      "href": "docs/rp__rom___spec.html#L113C14"
+                      "href": "docs/rp__rom___spec.html#L114C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 114,
+                  "number": 115,
                   "children": [
                     {
                       "kind": "span",
@@ -1808,7 +1808,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 115,
+                  "number": 116,
                   "children": [
                     {
                       "kind": "span",
@@ -1819,7 +1819,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 116,
+                  "number": 117,
                   "children": [
                     {
                       "kind": "span",
@@ -1840,7 +1840,7 @@ GNATdoc.Documentation = {
         {
           "label": "flash_flush_cache",
           "qualifier": "",
-          "line": 135,
+          "line": 136,
           "column": 14,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -1851,7 +1851,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 135,
+                  "number": 136,
                   "children": [
                     {
                       "kind": "span",
@@ -1872,13 +1872,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "flash_flush_cache",
-                      "href": "docs/rp__rom___spec.html#L135C14"
+                      "href": "docs/rp__rom___spec.html#L136C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 136,
+                  "number": 137,
                   "children": [
                     {
                       "kind": "span",
@@ -1899,7 +1899,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 137,
+                  "number": 138,
                   "children": [
                     {
                       "kind": "span",
@@ -1910,7 +1910,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 138,
+                  "number": 139,
                   "children": [
                     {
                       "kind": "span",
@@ -1931,7 +1931,7 @@ GNATdoc.Documentation = {
         {
           "label": "flash_range_erase",
           "qualifier": "",
-          "line": 118,
+          "line": 119,
           "column": 14,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -1942,7 +1942,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 118,
+                  "number": 119,
                   "children": [
                     {
                       "kind": "span",
@@ -1963,13 +1963,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "flash_range_erase",
-                      "href": "docs/rp__rom___spec.html#L118C14"
+                      "href": "docs/rp__rom___spec.html#L119C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 119,
+                  "number": 120,
                   "children": [
                     {
                       "kind": "span",
@@ -1985,7 +1985,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Addr",
-                      "href": "docs/rp__rom___spec.html#L119C8"
+                      "href": "docs/rp__rom___spec.html#L120C8"
                     },
                     {
                       "kind": "span",
@@ -2016,7 +2016,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 120,
+                  "number": 121,
                   "children": [
                     {
                       "kind": "span",
@@ -2027,7 +2027,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count",
-                      "href": "docs/rp__rom___spec.html#L120C8"
+                      "href": "docs/rp__rom___spec.html#L121C8"
                     },
                     {
                       "kind": "span",
@@ -2058,7 +2058,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 121,
+                  "number": 122,
                   "children": [
                     {
                       "kind": "span",
@@ -2069,7 +2069,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Block_Size",
-                      "href": "docs/rp__rom___spec.html#L121C8"
+                      "href": "docs/rp__rom___spec.html#L122C8"
                     },
                     {
                       "kind": "span",
@@ -2100,7 +2100,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 122,
+                  "number": 123,
                   "children": [
                     {
                       "kind": "span",
@@ -2111,7 +2111,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Block_Cmd",
-                      "href": "docs/rp__rom___spec.html#L122C8"
+                      "href": "docs/rp__rom___spec.html#L123C8"
                     },
                     {
                       "kind": "span",
@@ -2142,7 +2142,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 123,
+                  "number": 124,
                   "children": [
                     {
                       "kind": "span",
@@ -2163,7 +2163,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 124,
+                  "number": 125,
                   "children": [
                     {
                       "kind": "span",
@@ -2174,7 +2174,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 125,
+                  "number": 126,
                   "children": [
                     {
                       "kind": "span",
@@ -2194,7 +2194,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Addr",
-              "line": 119,
+              "line": 120,
               "column": 8,
               "type": {
                 "label": "Unsigned_32"
@@ -2204,7 +2204,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Count",
-              "line": 120,
+              "line": 121,
               "column": 8,
               "type": {
                 "label": "size_t"
@@ -2214,7 +2214,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Block_Size",
-              "line": 121,
+              "line": 122,
               "column": 8,
               "type": {
                 "label": "Unsigned_32"
@@ -2224,7 +2224,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Block_Cmd",
-              "line": 122,
+              "line": 123,
               "column": 8,
               "type": {
                 "label": "Unsigned_8"
@@ -2237,7 +2237,7 @@ GNATdoc.Documentation = {
         {
           "label": "flash_range_program",
           "qualifier": "",
-          "line": 127,
+          "line": 128,
           "column": 14,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -2248,7 +2248,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 127,
+                  "number": 128,
                   "children": [
                     {
                       "kind": "span",
@@ -2269,13 +2269,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "flash_range_program",
-                      "href": "docs/rp__rom___spec.html#L127C14"
+                      "href": "docs/rp__rom___spec.html#L128C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 128,
+                  "number": 129,
                   "children": [
                     {
                       "kind": "span",
@@ -2291,48 +2291,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Addr",
-                      "href": "docs/rp__rom___spec.html#L128C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "System.Address"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 129,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Data",
                       "href": "docs/rp__rom___spec.html#L129C8"
                     },
                     {
@@ -2374,8 +2332,50 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Count",
+                      "text": "Data",
                       "href": "docs/rp__rom___spec.html#L130C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "System.Address"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 131,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Count",
+                      "href": "docs/rp__rom___spec.html#L131C8"
                     },
                     {
                       "kind": "span",
@@ -2406,7 +2406,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 131,
+                  "number": 132,
                   "children": [
                     {
                       "kind": "span",
@@ -2427,7 +2427,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 132,
+                  "number": 133,
                   "children": [
                     {
                       "kind": "span",
@@ -2438,7 +2438,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 133,
+                  "number": 134,
                   "children": [
                     {
                       "kind": "span",
@@ -2458,16 +2458,6 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Addr",
-              "line": 128,
-              "column": 8,
-              "type": {
-                "label": "Address"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Data",
               "line": 129,
               "column": 8,
               "type": {
@@ -2477,8 +2467,18 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Count",
+              "label": "Data",
               "line": 130,
+              "column": 8,
+              "type": {
+                "label": "Address"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Count",
+              "line": 131,
               "column": 8,
               "type": {
                 "label": "size_t"
@@ -2491,7 +2491,7 @@ GNATdoc.Documentation = {
         {
           "label": "git_revision",
           "qualifier": "",
-          "line": 168,
+          "line": 169,
           "column": 13,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -2502,7 +2502,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 168,
+                  "number": 169,
                   "children": [
                     {
                       "kind": "span",
@@ -2523,13 +2523,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "git_revision",
-                      "href": "docs/rp__rom___spec.html#L168C13"
+                      "href": "docs/rp__rom___spec.html#L169C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 169,
+                  "number": 170,
                   "children": [
                     {
                       "kind": "span",
@@ -2565,7 +2565,7 @@ GNATdoc.Documentation = {
         {
           "label": "memset",
           "qualifier": "",
-          "line": 89,
+          "line": 90,
           "column": 13,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -2576,7 +2576,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 89,
+                  "number": 90,
                   "children": [
                     {
                       "kind": "span",
@@ -2597,13 +2597,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "memset",
-                      "href": "docs/rp__rom___spec.html#L89C13"
+                      "href": "docs/rp__rom___spec.html#L90C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 90,
+                  "number": 91,
                   "children": [
                     {
                       "kind": "span",
@@ -2619,7 +2619,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Ptr",
-                      "href": "docs/rp__rom___spec.html#L90C8"
+                      "href": "docs/rp__rom___spec.html#L91C8"
                     },
                     {
                       "kind": "span",
@@ -2650,7 +2650,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 91,
+                  "number": 92,
                   "children": [
                     {
                       "kind": "span",
@@ -2661,7 +2661,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "C",
-                      "href": "docs/rp__rom___spec.html#L91C8"
+                      "href": "docs/rp__rom___spec.html#L92C8"
                     },
                     {
                       "kind": "span",
@@ -2692,7 +2692,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 92,
+                  "number": 93,
                   "children": [
                     {
                       "kind": "span",
@@ -2703,7 +2703,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "N",
-                      "href": "docs/rp__rom___spec.html#L92C8"
+                      "href": "docs/rp__rom___spec.html#L93C8"
                     },
                     {
                       "kind": "span",
@@ -2734,7 +2734,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 93,
+                  "number": 94,
                   "children": [
                     {
                       "kind": "span",
@@ -2760,7 +2760,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 94,
+                  "number": 95,
                   "children": [
                     {
                       "kind": "span",
@@ -2781,7 +2781,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 95,
+                  "number": 96,
                   "children": [
                     {
                       "kind": "span",
@@ -2792,7 +2792,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 96,
+                  "number": 97,
                   "children": [
                     {
                       "kind": "span",
@@ -2821,7 +2821,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Ptr",
-              "line": 90,
+              "line": 91,
               "column": 8,
               "type": {
                 "label": "Address"
@@ -2831,7 +2831,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "C",
-              "line": 91,
+              "line": 92,
               "column": 8,
               "type": {
                 "label": "Unsigned_8"
@@ -2841,7 +2841,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "N",
-              "line": 92,
+              "line": 93,
               "column": 8,
               "type": {
                 "label": "Unsigned_32"
@@ -2854,7 +2854,7 @@ GNATdoc.Documentation = {
         {
           "label": "memset4",
           "qualifier": "",
-          "line": 98,
+          "line": 99,
           "column": 13,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -2865,7 +2865,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 98,
+                  "number": 99,
                   "children": [
                     {
                       "kind": "span",
@@ -2886,13 +2886,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "memset4",
-                      "href": "docs/rp__rom___spec.html#L98C13"
+                      "href": "docs/rp__rom___spec.html#L99C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 99,
+                  "number": 100,
                   "children": [
                     {
                       "kind": "span",
@@ -2908,7 +2908,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Ptr",
-                      "href": "docs/rp__rom___spec.html#L99C8"
+                      "href": "docs/rp__rom___spec.html#L100C8"
                     },
                     {
                       "kind": "span",
@@ -2939,7 +2939,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 100,
+                  "number": 101,
                   "children": [
                     {
                       "kind": "span",
@@ -2950,7 +2950,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "C",
-                      "href": "docs/rp__rom___spec.html#L100C8"
+                      "href": "docs/rp__rom___spec.html#L101C8"
                     },
                     {
                       "kind": "span",
@@ -2981,7 +2981,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 101,
+                  "number": 102,
                   "children": [
                     {
                       "kind": "span",
@@ -2992,7 +2992,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "N",
-                      "href": "docs/rp__rom___spec.html#L101C8"
+                      "href": "docs/rp__rom___spec.html#L102C8"
                     },
                     {
                       "kind": "span",
@@ -3023,7 +3023,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 102,
+                  "number": 103,
                   "children": [
                     {
                       "kind": "span",
@@ -3049,7 +3049,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 103,
+                  "number": 104,
                   "children": [
                     {
                       "kind": "span",
@@ -3070,7 +3070,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 104,
+                  "number": 105,
                   "children": [
                     {
                       "kind": "span",
@@ -3081,7 +3081,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 105,
+                  "number": 106,
                   "children": [
                     {
                       "kind": "span",
@@ -3101,7 +3101,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Ptr",
-              "line": 99,
+              "line": 100,
               "column": 8,
               "type": {
                 "label": "Address"
@@ -3111,7 +3111,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "C",
-              "line": 100,
+              "line": 101,
               "column": 8,
               "type": {
                 "label": "Unsigned_8"
@@ -3121,7 +3121,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "N",
-              "line": 101,
+              "line": 102,
               "column": 8,
               "type": {
                 "label": "Unsigned_32"
@@ -3134,7 +3134,7 @@ GNATdoc.Documentation = {
         {
           "label": "popcount32",
           "qualifier": "",
-          "line": 60,
+          "line": 61,
           "column": 13,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -3145,7 +3145,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 60,
+                  "number": 61,
                   "children": [
                     {
                       "kind": "span",
@@ -3166,13 +3166,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "popcount32",
-                      "href": "docs/rp__rom___spec.html#L60C13"
+                      "href": "docs/rp__rom___spec.html#L61C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 61,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -3188,7 +3188,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Value",
-                      "href": "docs/rp__rom___spec.html#L61C8"
+                      "href": "docs/rp__rom___spec.html#L62C8"
                     },
                     {
                       "kind": "span",
@@ -3219,7 +3219,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 62,
+                  "number": 63,
                   "children": [
                     {
                       "kind": "span",
@@ -3245,7 +3245,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 63,
+                  "number": 64,
                   "children": [
                     {
                       "kind": "span",
@@ -3266,7 +3266,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 64,
+                  "number": 65,
                   "children": [
                     {
                       "kind": "span",
@@ -3277,7 +3277,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 65,
+                  "number": 66,
                   "children": [
                     {
                       "kind": "span",
@@ -3306,7 +3306,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Value",
-              "line": 61,
+              "line": 62,
               "column": 8,
               "type": {
                 "label": "Unsigned_32"
@@ -3319,7 +3319,7 @@ GNATdoc.Documentation = {
         {
           "label": "reset_to_usb_boot",
           "qualifier": "",
-          "line": 152,
+          "line": 153,
           "column": 14,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -3330,7 +3330,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 152,
+                  "number": 153,
                   "children": [
                     {
                       "kind": "span",
@@ -3351,13 +3351,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "reset_to_usb_boot",
-                      "href": "docs/rp__rom___spec.html#L152C14"
+                      "href": "docs/rp__rom___spec.html#L153C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 153,
+                  "number": 154,
                   "children": [
                     {
                       "kind": "span",
@@ -3373,7 +3373,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Activity_Pin_Mask",
-                      "href": "docs/rp__rom___spec.html#L153C8"
+                      "href": "docs/rp__rom___spec.html#L154C8"
                     },
                     {
                       "kind": "span",
@@ -3404,7 +3404,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 154,
+                  "number": 155,
                   "children": [
                     {
                       "kind": "span",
@@ -3415,7 +3415,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Disable_Interface_Mask",
-                      "href": "docs/rp__rom___spec.html#L154C8"
+                      "href": "docs/rp__rom___spec.html#L155C8"
                     },
                     {
                       "kind": "span",
@@ -3446,7 +3446,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 155,
+                  "number": 156,
                   "children": [
                     {
                       "kind": "span",
@@ -3467,7 +3467,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 156,
+                  "number": 157,
                   "children": [
                     {
                       "kind": "span",
@@ -3478,7 +3478,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 157,
+                  "number": 158,
                   "children": [
                     {
                       "kind": "span",
@@ -3507,7 +3507,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "GPIO_Activity_Pin_Mask",
-              "line": 153,
+              "line": 154,
               "column": 8,
               "type": {
                 "label": "Unsigned_32"
@@ -3517,7 +3517,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Disable_Interface_Mask",
-              "line": 154,
+              "line": 155,
               "column": 8,
               "type": {
                 "label": "Unsigned_32"
@@ -3530,7 +3530,7 @@ GNATdoc.Documentation = {
         {
           "label": "reverse32",
           "qualifier": "",
-          "line": 67,
+          "line": 68,
           "column": 13,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -3541,7 +3541,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 67,
+                  "number": 68,
                   "children": [
                     {
                       "kind": "span",
@@ -3562,13 +3562,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "reverse32",
-                      "href": "docs/rp__rom___spec.html#L67C13"
+                      "href": "docs/rp__rom___spec.html#L68C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 68,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",
@@ -3584,7 +3584,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Value",
-                      "href": "docs/rp__rom___spec.html#L68C8"
+                      "href": "docs/rp__rom___spec.html#L69C8"
                     },
                     {
                       "kind": "span",
@@ -3615,7 +3615,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 69,
+                  "number": 70,
                   "children": [
                     {
                       "kind": "span",
@@ -3641,7 +3641,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 70,
+                  "number": 71,
                   "children": [
                     {
                       "kind": "span",
@@ -3662,7 +3662,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 72,
                   "children": [
                     {
                       "kind": "span",
@@ -3673,7 +3673,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 72,
+                  "number": 73,
                   "children": [
                     {
                       "kind": "span",
@@ -3693,7 +3693,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Value",
-              "line": 68,
+              "line": 69,
               "column": 8,
               "type": {
                 "label": "Unsigned_32"
@@ -3706,7 +3706,7 @@ GNATdoc.Documentation = {
         {
           "label": "ROM_Data_Lookup",
           "qualifier": "",
-          "line": 55,
+          "line": 56,
           "column": 13,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -3717,7 +3717,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 55,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -3738,13 +3738,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ROM_Data_Lookup",
-                      "href": "docs/rp__rom___spec.html#L55C13"
+                      "href": "docs/rp__rom___spec.html#L56C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 57,
                   "children": [
                     {
                       "kind": "span",
@@ -3760,7 +3760,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Code",
-                      "href": "docs/rp__rom___spec.html#L56C8"
+                      "href": "docs/rp__rom___spec.html#L57C8"
                     },
                     {
                       "kind": "span",
@@ -3792,7 +3792,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 57,
+                  "number": 58,
                   "children": [
                     {
                       "kind": "span",
@@ -3827,7 +3827,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Code",
-              "line": 56,
+              "line": 57,
               "column": 8,
               "type": {
                 "label": "RP.ROM.Table_Code",
@@ -4366,7 +4366,7 @@ GNATdoc.Documentation = {
         {
           "label": "wait_for_vector",
           "qualifier": "",
-          "line": 159,
+          "line": 160,
           "column": 14,
           "src": "srcs/rp-rom.ads.html",
           "summary": [
@@ -4377,7 +4377,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 159,
+                  "number": 160,
                   "children": [
                     {
                       "kind": "span",
@@ -4398,13 +4398,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "wait_for_vector",
-                      "href": "docs/rp__rom___spec.html#L159C14"
+                      "href": "docs/rp__rom___spec.html#L160C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 160,
+                  "number": 161,
                   "children": [
                     {
                       "kind": "span",
@@ -4425,7 +4425,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 161,
+                  "number": 162,
                   "children": [
                     {
                       "kind": "span",
@@ -4436,7 +4436,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 162,
+                  "number": 163,
                   "children": [
                     {
                       "kind": "span",

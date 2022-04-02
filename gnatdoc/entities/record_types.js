@@ -1284,10 +1284,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Default_UART_Configuration",
-      "docHref": "docs/rp__uart___spec.html#L36C4",
+      "docHref": "docs/rp__uart___spec.html#L37C4",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L36"
+      "srcHref": "srcs/rp-uart.ads.html#L37"
     },
     {
       "label": "DEMCR_Register",
