@@ -19,8 +19,8 @@ Assuming you are running Linux on x86_64, the following commands should work.
 
 [source,shell]
 ----
-curl -L -O https://github.com/alire-project/alire/releases/download/v1.1.0/alr-1.1.0-bin-x86_64-linux.zip
-unzip alr-1.1.0-bin-x86_64-linux.zip
+curl -L -O https://github.com/alire-project/alire/releases/download/v1.1.2/alr-1.1.2-bin-x86_64-linux.zip
+unzip alr-1.1.2-bin-x86_64-linux.zip
 sudo cp bin/alr /usr/local/bin
 ----
 
