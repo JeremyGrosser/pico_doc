@@ -1,3 +1,11 @@
+=== 1.4.1
+April 2, 2022
+
+==== Bugs fixed
+
+===== ROM weak symbols were overridden by the toolchain
+The ROM `__aeabi` symbols were made weak in order to allow users to override them, but this caused the toolchain's symbols to take precedence. The change to make these symbols weak has been reverted with this release.
+
 === 1.4.0
 April 2, 2022
 
