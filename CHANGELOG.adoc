@@ -1,3 +1,22 @@
+=== Next release
+
+==== New features
+
+===== Dynamic clock configuration
+TODO: PLL documentation
+
+==== Breaking changes
+
+===== RP.SysTick has been removed
+While testing new clock configurations, I discovered that the SysTick tests have been broken since commit cec9af51c9eb86b8daf7c37f79b4fb9221e1ecfe. The SysTick interrupt was not firing as expected, so the `RP.SysTick.Delay_Until` procedure would hang indefinitely. 
+
+The fix would be to enable the SysTick IRQ (15) in the NVIC. However, when I tried to do this, the PendSV interrupt was also triggered, which led to a crash because this interrupt is not defined. PendSV is meant to be used by an RTOS to implement context switching, so we don't really want to provide a handler for it in the rp2040_hal library.
+
+I've chosen to remove RP.SysTick from rp2040_hal, rather than fix the interrupt for the following reasons:
+- SysTick's CVR and RELOAD registers are too small to accomodate a 1 KHz tick rate with a 250 MHz system clock, which we want to support.
+- Most ARM Cortex-M compatible RTOS libraries will configure SysTick and PendSV on their own, conflicting with rp2040_hal's implementation.
+- SysTick doesn't do anything that we can't already do with RP.Timer.
+
 === 1.4.1
 April 2, 2022
 
