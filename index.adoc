@@ -825,9 +825,14 @@ RP.Clock.Initialize
 ----
 
 === Optimization
-While compile-time optimizations are no substitute for efficient algorithms, GCC can usually make your code fast and small enough for all but the most demanding tasks. Flags can be passed to the compiler and linker in a gpr project file using the `Switches` option.
 
-The GNAT user guide includes a https://gcc.gnu.org/onlinedocs/gnat_ugn/Alphabetical-List-of-All-Switches.html[list of all available switches]. The example below shows the ones I use most frequently.
+==== Binary size
+The RP2040's XIP cache is only 16 KB and reads from flash ROM are fairly slow compared to CPU cycle time and memory access. The `RP.Flash.Cache.Disable` procedure can be used to temporarily disable the cache and measure its performance impact on your program.
+
+The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/devices/RP2040/rp-device.ads[RP.Device] package instantiates every driver and device on the chip during elaboration. This has the side effect of forcing the linker to include the code for every driver's elaboration in your binary, even if they're not used. This adds nearly 25 KB of code for things like the USB and PIO drivers, even if you aren't using those features. If you want to reduce binary size, you can copy only the peripherals you actually use from RP.Device into your own project.
+
+==== Switches
+While compile-time optimizations are no substitute for efficient algorithms, GCC can usually make your code fast and small enough for all but the most demanding tasks. Flags can be passed to the compiler and linker in a gpr project file using the `Switches` option. The GNAT user guide includes a https://gcc.gnu.org/onlinedocs/gnat_ugn/Alphabetical-List-of-All-Switches.html[list of all available switches]. The example below shows the ones I use most frequently.
 
 [source,ada]
 ----
