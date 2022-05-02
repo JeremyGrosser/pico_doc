@@ -1,9 +1,15 @@
-=== Next release
+=== 1.5.0
 
 ==== New features
 
 ===== Dynamic clock configuration
-TODO: PLL documentation
+RP.Clock now exposes procedures for configuring the PLLs and changing the system clock source. Predefined PLL_Config constants are provided for common operating frequencies up to 250 MHz. While changing the system clock is now possible, it is not currently recommended. Several unit tests are currently failing with non-default clock configuration and reconfiguring peripherals after changing the clock frequency is expected to cause problems. We expect to fix these issues in the near future.
+
+===== RTC delays
+The RTC can now be used to delay until a specific time and date with https://github.com/JeremyGrosser/rp2040_hal/blob/8dd05895a816dba9c047cde4e3726062b599caa5/src/drivers/rp-rtc.ads#L38[RP.RTC.Delay_Until]. The RTC should be configured before calling Delay_Until. The RTC is accurate to within a second and synchronization between the RTC and CPU clocks may add approximately 42 microseconds before and after the delay.
+
+===== PWM DMA helper
+`RP.PWM.Compare_Reg_Address` returns the address of the compare register. This address can be set as the destination of a DMA transfer to very quickly modulate PWM output (to generate audio, for example). The compare register is 32 bits wide, containing two 16 bit values, channel A in the low bits and channel B in the high bits. If you configure DMA for 16 bit transfers, the same value will be written to both channels simultaneously. There is no way to write one PWM channel without modifying the other with DMA.
 
 ==== Breaking changes
 
@@ -17,6 +23,13 @@ I've chosen to remove RP.SysTick from rp2040_hal, rather than fix the interrupt 
  - SysTick's CVR and RELOAD registers are too small to accomodate a 1 KHz tick rate with a 250 MHz system clock, which we want to support.
  - Most ARM Cortex-M compatible RTOS libraries will configure SysTick and PendSV on their own, conflicting with rp2040_hal's implementation.
  - SysTick doesn't do anything that we can't already do with RP.Timer.
+
+===== RP_Interrupts implments weak handlers for all user interrupts
+crt0.S defines a weak `isr_irqN` symbol for every user interrupt. Previously, the default handler for these interrupts would call the `bkpt` instruction, causing a debug break or reset if no debugger is attached.
+
+Now, the `isr_irqN` symbols are defined as weak references to `__gnat_irq_trap` which is implemented by `RP_Interrupts.Interrupt_Request_Handler`. This handler does a lookup into an array of `access procedure` populated by calls to `RP_Interrupts.Attach_Handler`. If no handler is defined for an interrupt, the `Program_Error` exception is raised with a descriptive message. As ZFP runtimes do not allow exceptions to propagate, this will result in a reset.
+
+If you need to define a custom interrupt handler, you can either use `RP_Interrupts.Attach_Handler` or export one of the `isr_irqN` symbols with the `External_Name` aspect. See the https://github.com/JeremyGrosser/pico_examples/tree/master/uart_interrupt/src[uart_interrupt example].
 
 === 1.4.1
 April 2, 2022
