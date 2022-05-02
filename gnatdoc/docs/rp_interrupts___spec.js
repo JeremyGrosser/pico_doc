@@ -254,7 +254,7 @@ GNATdoc.Documentation = {
         {
           "label": "Attach_Handler",
           "qualifier": "",
-          "line": 20,
+          "line": 18,
           "column": 14,
           "src": "srcs/rp_interrupts.ads.html",
           "summary": [
@@ -265,7 +265,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 20,
+                  "number": 18,
                   "children": [
                     {
                       "kind": "span",
@@ -286,13 +286,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Attach_Handler",
-                      "href": "docs/rp_interrupts___spec.html#L20C14"
+                      "href": "docs/rp_interrupts___spec.html#L18C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 21,
+                  "number": 19,
                   "children": [
                     {
                       "kind": "span",
@@ -308,7 +308,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Handler",
-                      "href": "docs/rp_interrupts___spec.html#L21C8"
+                      "href": "docs/rp_interrupts___spec.html#L19C8"
                     },
                     {
                       "kind": "span",
@@ -360,7 +360,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 22,
+                  "number": 20,
                   "children": [
                     {
                       "kind": "span",
@@ -371,7 +371,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Id",
-                      "href": "docs/rp_interrupts___spec.html#L22C8"
+                      "href": "docs/rp_interrupts___spec.html#L20C8"
                     },
                     {
                       "kind": "span",
@@ -403,7 +403,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 23,
+                  "number": 21,
                   "children": [
                     {
                       "kind": "span",
@@ -414,7 +414,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Prio",
-                      "href": "docs/rp_interrupts___spec.html#L23C8"
+                      "href": "docs/rp_interrupts___spec.html#L21C8"
                     },
                     {
                       "kind": "span",
@@ -446,7 +446,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 24,
+                  "number": 22,
                   "children": [
                     {
                       "kind": "span",
@@ -471,25 +471,12 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "The Handler argument is ignored. The drivers only use three interrupts\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "right now, it's not worth setting up a lookup table yet.\n"
-                }
-              ]
             }
           ],
           "parameters": [
             {
               "label": "Handler",
-              "line": 21,
+              "line": 19,
               "column": 8,
               "type": {
                 "label": "RP_Interrupts.Interrupt_Handler",
@@ -500,7 +487,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Id",
-              "line": 22,
+              "line": 20,
               "column": 8,
               "type": {
                 "label": "RP_Interrupts.Interrupt_ID",
@@ -511,13 +498,104 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Prio",
-              "line": 23,
+              "line": 21,
               "column": 8,
               "type": {
                 "label": "RP_Interrupts.Interrupt_Priority",
                 "docHref": "docs/rp_interrupts___spec.html#L15C12"
               },
               "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Interrupt_Request_Handler",
+          "qualifier": "",
+          "line": 24,
+          "column": 14,
+          "src": "srcs/rp_interrupts.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 24,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Interrupt_Request_Handler",
+                      "href": "docs/rp_interrupts___spec.html#L24C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 25,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Export,"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 26,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        Convention => Asm,"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 27,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        External_Name => \"__gnat_irq_trap\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
               ]
             }
           ]

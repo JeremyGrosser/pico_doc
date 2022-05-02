@@ -426,38 +426,6 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  The Handler argument is ignored. The drivers only use three interrupts"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 19,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  right now, it's not worth setting up a lookup table yet."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 20,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
           "cssClass": "keyword",
           "text": "procedure"
         },
@@ -470,13 +438,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Attach_Handler",
-          "href": "docs/rp_interrupts___spec.html#L20C14"
+          "href": "docs/rp_interrupts___spec.html#L18C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 21,
+      "number": 19,
       "children": [
         {
           "kind": "span",
@@ -492,7 +460,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Handler",
-          "href": "docs/rp_interrupts___spec.html#L21C8"
+          "href": "docs/rp_interrupts___spec.html#L19C8"
         },
         {
           "kind": "span",
@@ -544,7 +512,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 22,
+      "number": 20,
       "children": [
         {
           "kind": "span",
@@ -555,7 +523,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Id",
-          "href": "docs/rp_interrupts___spec.html#L22C8"
+          "href": "docs/rp_interrupts___spec.html#L20C8"
         },
         {
           "kind": "span",
@@ -587,7 +555,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 23,
+      "number": 21,
       "children": [
         {
           "kind": "span",
@@ -598,7 +566,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Prio",
-          "href": "docs/rp_interrupts___spec.html#L23C8"
+          "href": "docs/rp_interrupts___spec.html#L21C8"
         },
         {
           "kind": "span",
@@ -630,7 +598,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 24,
+      "number": 22,
       "children": [
         {
           "kind": "span",
@@ -656,8 +624,56 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 23,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 24,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Interrupt_Request_Handler",
+          "href": "docs/rp_interrupts___spec.html#L24C14"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 25,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Export,"
+        }
       ]
     },
     {
@@ -666,8 +682,8 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "private"
+          "cssClass": "text",
+          "text": "        Convention => Asm,"
         }
       ]
     },
@@ -675,65 +691,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 27,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        External_Name => \"__gnat_irq_trap\""
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 28,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  These procedures are just calls into the appropriate drivers'"
-        }
       ]
     },
     {
       "kind": "line",
       "number": 29,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  IRQ_Handler procedures. We proxy these handlers here so that we can use"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 30,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  a different implementation on Ravenscar runtimes."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 31,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 47,
       "children": [
         {
           "kind": "span",

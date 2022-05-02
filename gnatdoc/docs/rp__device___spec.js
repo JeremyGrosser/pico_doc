@@ -270,7 +270,7 @@ GNATdoc.Documentation = {
         {
           "label": "ADC",
           "qualifier": "",
-          "line": 51,
+          "line": 50,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -281,7 +281,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -292,7 +292,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC",
-                      "href": "docs/rp__device___spec.html#L51C4"
+                      "href": "docs/rp__device___spec.html#L50C4"
                     },
                     {
                       "kind": "span",
@@ -329,7 +329,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 51,
                   "children": [
                     {
                       "kind": "span",
@@ -1180,7 +1180,7 @@ GNATdoc.Documentation = {
         {
           "label": "RTC",
           "qualifier": "",
-          "line": 48,
+          "line": 47,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -1191,7 +1191,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -1202,7 +1202,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RTC",
-                      "href": "docs/rp__device___spec.html#L48C4"
+                      "href": "docs/rp__device___spec.html#L47C4"
                     },
                     {
                       "kind": "span",
@@ -1233,7 +1233,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP.RTC.RTC_Device",
-                      "href": "docs/rp__rtc___spec.html#L10C9"
+                      "href": "docs/rp__rtc___spec.html#L11C9"
                     },
                     {
                       "kind": "span",
@@ -1508,7 +1508,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "SysTick",
+          "label": "Timer",
           "qualifier": "",
           "line": 46,
           "column": 4,
@@ -1531,77 +1531,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "SysTick",
-                      "href": "docs/rp__device___spec.html#L46C4"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "RP.SysTick.Delays",
-                      "href": "docs/rp__systick___spec.html#L23C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Timer",
-          "qualifier": "",
-          "line": 47,
-          "column": 4,
-          "src": "srcs/rp-device.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 47,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
                       "text": "Timer",
-                      "href": "docs/rp__device___spec.html#L47C4"
+                      "href": "docs/rp__device___spec.html#L46C4"
                     },
                     {
                       "kind": "span",
@@ -1878,7 +1809,7 @@ GNATdoc.Documentation = {
         {
           "label": "UDC",
           "qualifier": "",
-          "line": 49,
+          "line": 48,
           "column": 4,
           "src": "srcs/rp-device.ads.html",
           "summary": [
@@ -1889,7 +1820,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -1900,7 +1831,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "UDC",
-                      "href": "docs/rp__device___spec.html#L49C4"
+                      "href": "docs/rp__device___spec.html#L48C4"
                     },
                     {
                       "kind": "span",

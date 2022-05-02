@@ -193,10 +193,6 @@ GNATdoc.Documentation = {
             {
               "label": "Delays",
               "docHref": "docs/rp__timer___spec.html#L18C9"
-            },
-            {
-              "label": "Delays",
-              "docHref": "docs/rp__systick___spec.html#L23C9"
             }
           ]
         }

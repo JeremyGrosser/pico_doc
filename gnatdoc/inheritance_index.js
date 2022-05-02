@@ -23,10 +23,6 @@ GNATdoc.InheritanceIndex = [
     "inherited": [
       {
         "label": "Delays",
-        "docHref": "docs/rp__systick___spec.html#L23C9"
-      },
-      {
-        "label": "Delays",
         "docHref": "docs/rp__timer___spec.html#L18C9"
       }
     ]
@@ -97,7 +93,7 @@ GNATdoc.InheritanceIndex = [
     "inherited": [
       {
         "label": "RTC_Device",
-        "docHref": "docs/rp__rtc___spec.html#L10C9"
+        "docHref": "docs/rp__rtc___spec.html#L11C9"
       }
     ]
   },

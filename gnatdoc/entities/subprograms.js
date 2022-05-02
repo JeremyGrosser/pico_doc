@@ -73,10 +73,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Advance_Phase",
-      "docHref": "docs/rp__pwm___spec.html#L126C14",
+      "docHref": "docs/rp__pwm___spec.html#L128C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L126"
+      "srcHref": "srcs/rp-pwm.ads.html#L128"
     },
     {
       "label": "Allocate",
@@ -101,17 +101,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Attach",
-      "docHref": "docs/rp__pwm___spec.html#L143C14",
+      "docHref": "docs/rp__pwm___spec.html#L145C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L143"
+      "srcHref": "srcs/rp-pwm.ads.html#L145"
     },
     {
       "label": "Attach_Handler",
-      "docHref": "docs/rp_interrupts___spec.html#L20C14",
+      "docHref": "docs/rp_interrupts___spec.html#L18C14",
       "declared": "RP_Interrupts",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp_interrupts.ads.html#L20"
+      "srcHref": "srcs/rp_interrupts.ads.html#L18"
     },
     {
       "label": "Bits_Per_Pixel",
@@ -164,13 +164,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Clock",
-      "docHref": "docs/rp__systick___spec.html#L16C13",
-      "declared": "RP.SysTick",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L16"
-    },
-    {
-      "label": "Clock",
       "docHref": "docs/rp__timer___spec.html#L15C13",
       "declared": "RP.Timer",
       "declared_qualifier": "",
@@ -185,10 +178,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "clz32",
-      "docHref": "docs/rp__rom___spec.html#L75C13",
+      "docHref": "docs/rp__rom___spec.html#L74C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L75"
+      "srcHref": "srcs/rp-rom.ads.html#L74"
     },
     {
       "label": "Commit",
@@ -240,6 +233,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/atomic-unsigned.ads.html#L189"
     },
     {
+      "label": "Compare_Reg_Address",
+      "docHref": "docs/rp__pwm___spec.html#L154C13",
+      "declared": "RP.PWM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pwm.ads.html#L154"
+    },
+    {
       "label": "Configure",
       "docHref": "docs/cortex_m__systick___spec.html#L38C14",
       "declared": "Cortex_M.Systick",
@@ -282,11 +282,18 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp-watchdog.ads.html#L8"
     },
     {
+      "label": "Configure_PLL",
+      "docHref": "docs/rp__clock___spec.html#L115C14",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L115"
+    },
+    {
       "label": "connect_internal_flash",
-      "docHref": "docs/rp__rom___spec.html#L109C14",
+      "docHref": "docs/rp__rom___spec.html#L108C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L109"
+      "srcHref": "srcs/rp-rom.ads.html#L108"
     },
     {
       "label": "Control_In",
@@ -325,17 +332,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "copyright_string",
-      "docHref": "docs/rp__rom___spec.html#L166C13",
+      "docHref": "docs/rp__rom___spec.html#L165C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L166"
+      "srcHref": "srcs/rp-rom.ads.html#L165"
     },
     {
       "label": "Count",
-      "docHref": "docs/rp__pwm___spec.html#L134C13",
+      "docHref": "docs/rp__pwm___spec.html#L136C13",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L134"
+      "srcHref": "srcs/rp-pwm.ads.html#L136"
     },
     {
       "label": "Counted_To_Zero",
@@ -360,10 +367,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "ctz32",
-      "docHref": "docs/rp__rom___spec.html#L82C13",
+      "docHref": "docs/rp__rom___spec.html#L81C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L82"
+      "srcHref": "srcs/rp-rom.ads.html#L81"
     },
     {
       "label": "D_Cache_Enabled",
@@ -381,10 +388,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "debug_trampoline",
-      "docHref": "docs/rp__rom___spec.html#L147C14",
+      "docHref": "docs/rp__rom___spec.html#L146C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L147"
+      "srcHref": "srcs/rp-rom.ads.html#L146"
     },
     {
       "label": "Default_SM_Config",
@@ -430,17 +437,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Disable",
-      "docHref": "docs/rp__pwm___spec.html#L99C14",
+      "docHref": "docs/rp__pwm___spec.html#L101C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L99"
+      "srcHref": "srcs/rp-pwm.ads.html#L101"
     },
     {
       "label": "Disable",
-      "docHref": "docs/rp__pwm___spec.html#L107C14",
+      "docHref": "docs/rp__pwm___spec.html#L109C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L107"
+      "srcHref": "srcs/rp-pwm.ads.html#L109"
     },
     {
       "label": "Disable",
@@ -598,17 +605,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__pwm___spec.html#L95C14",
+      "docHref": "docs/rp__pwm___spec.html#L97C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L95"
+      "srcHref": "srcs/rp-pwm.ads.html#L97"
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__pwm___spec.html#L103C14",
+      "docHref": "docs/rp__pwm___spec.html#L105C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L103"
+      "srcHref": "srcs/rp-pwm.ads.html#L105"
     },
     {
       "label": "Enable",
@@ -689,10 +696,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enabled",
-      "docHref": "docs/rp__pwm___spec.html#L111C13",
+      "docHref": "docs/rp__pwm___spec.html#L113C13",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L111"
+      "srcHref": "srcs/rp-pwm.ads.html#L113"
     },
     {
       "label": "Enter",
@@ -899,38 +906,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "flash_enter_cmd_xip",
-      "docHref": "docs/rp__rom___spec.html#L141C14",
+      "docHref": "docs/rp__rom___spec.html#L140C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L141"
+      "srcHref": "srcs/rp-rom.ads.html#L140"
     },
     {
       "label": "flash_exit_xip",
-      "docHref": "docs/rp__rom___spec.html#L114C14",
+      "docHref": "docs/rp__rom___spec.html#L113C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L114"
+      "srcHref": "srcs/rp-rom.ads.html#L113"
     },
     {
       "label": "flash_flush_cache",
-      "docHref": "docs/rp__rom___spec.html#L136C14",
+      "docHref": "docs/rp__rom___spec.html#L135C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L136"
+      "srcHref": "srcs/rp-rom.ads.html#L135"
     },
     {
       "label": "flash_range_erase",
-      "docHref": "docs/rp__rom___spec.html#L119C14",
+      "docHref": "docs/rp__rom___spec.html#L118C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L119"
+      "srcHref": "srcs/rp-rom.ads.html#L118"
     },
     {
       "label": "flash_range_program",
-      "docHref": "docs/rp__rom___spec.html#L128C14",
+      "docHref": "docs/rp__rom___spec.html#L127C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L128"
+      "srcHref": "srcs/rp-rom.ads.html#L127"
     },
     {
       "label": "fln",
@@ -969,10 +976,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Frequency",
-      "docHref": "docs/rp__clock___spec.html#L66C13",
+      "docHref": "docs/rp__clock___spec.html#L125C13",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L66"
+      "srcHref": "srcs/rp-clock.ads.html#L125"
     },
     {
       "label": "frsub",
@@ -1018,10 +1025,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "git_revision",
-      "docHref": "docs/rp__rom___spec.html#L169C13",
+      "docHref": "docs/rp__rom___spec.html#L168C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L169"
+      "srcHref": "srcs/rp-rom.ads.html#L168"
     },
     {
       "label": "Grant",
@@ -1137,10 +1144,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Initialize",
-      "docHref": "docs/rp__pwm___spec.html#L46C14",
+      "docHref": "docs/rp__pwm___spec.html#L48C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L46"
+      "srcHref": "srcs/rp-pwm.ads.html#L48"
     },
     {
       "label": "Initialize",
@@ -1155,6 +1162,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.ROM.Floating_Point",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-rom-floating_point.ads.html#L38"
+    },
+    {
+      "label": "Interrupt_Request_Handler",
+      "docHref": "docs/rp_interrupts___spec.html#L24C14",
+      "declared": "RP_Interrupts",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp_interrupts.ads.html#L24"
     },
     {
       "label": "Invalidate_DCache",
@@ -1172,10 +1186,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "IRQ_Handler",
-      "docHref": "docs/rp__pwm___spec.html#L149C14",
+      "docHref": "docs/rp__pwm___spec.html#L151C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L149"
+      "srcHref": "srcs/rp-pwm.ads.html#L151"
+    },
+    {
+      "label": "IRQ_Handler",
+      "docHref": "docs/rp__rtc___spec.html#L67C14",
+      "declared": "RP.RTC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-rtc.ads.html#L67"
     },
     {
       "label": "IRQ_Handler",
@@ -1361,24 +1382,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "memset",
-      "docHref": "docs/rp__rom___spec.html#L90C13",
+      "docHref": "docs/rp__rom___spec.html#L89C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L90"
+      "srcHref": "srcs/rp-rom.ads.html#L89"
     },
     {
       "label": "memset4",
-      "docHref": "docs/rp__rom___spec.html#L99C13",
+      "docHref": "docs/rp__rom___spec.html#L98C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L99"
-    },
-    {
-      "label": "Milliseconds",
-      "docHref": "docs/rp__systick___spec.html#L19C13",
-      "declared": "RP.SysTick",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L19"
+      "srcHref": "srcs/rp-rom.ads.html#L98"
     },
     {
       "label": "Milliseconds",
@@ -1466,10 +1480,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "popcount32",
-      "docHref": "docs/rp__rom___spec.html#L61C13",
+      "docHref": "docs/rp__rom___spec.html#L60C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L61"
+      "srcHref": "srcs/rp-rom.ads.html#L60"
     },
     {
       "label": "Power_Down",
@@ -1641,31 +1655,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "reset_to_usb_boot",
-      "docHref": "docs/rp__rom___spec.html#L153C14",
+      "docHref": "docs/rp__rom___spec.html#L152C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L153"
+      "srcHref": "srcs/rp-rom.ads.html#L152"
     },
     {
       "label": "Retard_Phase",
-      "docHref": "docs/rp__pwm___spec.html#L130C14",
+      "docHref": "docs/rp__pwm___spec.html#L132C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L130"
+      "srcHref": "srcs/rp-pwm.ads.html#L132"
     },
     {
       "label": "reverse32",
-      "docHref": "docs/rp__rom___spec.html#L68C13",
+      "docHref": "docs/rp__rom___spec.html#L67C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L68"
+      "srcHref": "srcs/rp-rom.ads.html#L67"
     },
     {
       "label": "ROM_Data_Lookup",
-      "docHref": "docs/rp__rom___spec.html#L56C13",
+      "docHref": "docs/rp__rom___spec.html#L55C13",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L56"
+      "srcHref": "srcs/rp-rom.ads.html#L55"
     },
     {
       "label": "ROM_Func_Lookup",
@@ -1690,10 +1704,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "ROSC_Frequency",
-      "docHref": "docs/rp__clock___spec.html#L83C13",
+      "docHref": "docs/rp__clock___spec.html#L142C13",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L83"
+      "srcHref": "srcs/rp-clock.ads.html#L142"
     },
     {
       "label": "RX_Ready",
@@ -1760,10 +1774,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Count",
-      "docHref": "docs/rp__pwm___spec.html#L138C14",
+      "docHref": "docs/rp__pwm___spec.html#L140C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L138"
+      "srcHref": "srcs/rp-pwm.ads.html#L140"
     },
     {
       "label": "Set_Divider",
@@ -1781,24 +1795,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Divider",
-      "docHref": "docs/rp__pwm___spec.html#L59C14",
+      "docHref": "docs/rp__pwm___spec.html#L61C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L59"
+      "srcHref": "srcs/rp-pwm.ads.html#L61"
     },
     {
       "label": "Set_Duty_Cycle",
-      "docHref": "docs/rp__pwm___spec.html#L83C14",
+      "docHref": "docs/rp__pwm___spec.html#L85C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L83"
+      "srcHref": "srcs/rp-pwm.ads.html#L85"
     },
     {
       "label": "Set_Duty_Cycle",
-      "docHref": "docs/rp__pwm___spec.html#L89C14",
+      "docHref": "docs/rp__pwm___spec.html#L91C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L89"
+      "srcHref": "srcs/rp-pwm.ads.html#L91"
     },
     {
       "label": "Set_FIFO_Join",
@@ -1809,10 +1823,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Frequency",
-      "docHref": "docs/rp__pwm___spec.html#L67C14",
+      "docHref": "docs/rp__pwm___spec.html#L69C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L67"
+      "srcHref": "srcs/rp-pwm.ads.html#L69"
     },
     {
       "label": "Set_In_Pins",
@@ -1830,17 +1844,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Interval",
-      "docHref": "docs/rp__pwm___spec.html#L75C14",
+      "docHref": "docs/rp__pwm___spec.html#L77C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L75"
+      "srcHref": "srcs/rp-pwm.ads.html#L77"
     },
     {
       "label": "Set_Invert",
-      "docHref": "docs/rp__pwm___spec.html#L115C14",
+      "docHref": "docs/rp__pwm___spec.html#L117C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L115"
+      "srcHref": "srcs/rp-pwm.ads.html#L117"
     },
     {
       "label": "Set_Jmp_Pin",
@@ -1858,10 +1872,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Mode",
-      "docHref": "docs/rp__pwm___spec.html#L53C14",
+      "docHref": "docs/rp__pwm___spec.html#L55C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L53"
+      "srcHref": "srcs/rp-pwm.ads.html#L55"
     },
     {
       "label": "Set_MOV_Status",
@@ -1907,10 +1921,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Phase_Correction",
-      "docHref": "docs/rp__pwm___spec.html#L121C14",
+      "docHref": "docs/rp__pwm___spec.html#L123C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L121"
+      "srcHref": "srcs/rp-pwm.ads.html#L123"
     },
     {
       "label": "Set_Priority",
@@ -1967,6 +1981,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.Clock",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-clock.ads.html#L46"
+    },
+    {
+      "label": "Set_SYS_Source",
+      "docHref": "docs/rp__clock___spec.html#L66C14",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L66"
     },
     {
       "label": "Set_Wrap",
@@ -2186,13 +2207,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/atomic.ads.html#L56"
     },
     {
-      "label": "Ticks_Per_Second",
-      "docHref": "docs/rp__systick___spec.html#L13C13",
-      "declared": "RP.SysTick",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L13"
-    },
-    {
       "label": "To_ADC_Channel",
       "docHref": "docs/rp__adc___spec.html#L95C13",
       "declared": "RP.ADC",
@@ -2215,10 +2229,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "To_PWM",
-      "docHref": "docs/rp__pwm___spec.html#L49C13",
+      "docHref": "docs/rp__pwm___spec.html#L51C13",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L49"
+      "srcHref": "srcs/rp-pwm.ads.html#L51"
     },
     {
       "label": "To_USB_String",
@@ -2306,10 +2320,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "wait_for_vector",
-      "docHref": "docs/rp__rom___spec.html#L160C14",
+      "docHref": "docs/rp__rom___spec.html#L159C14",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L160"
+      "srcHref": "srcs/rp-rom.ads.html#L159"
     },
     {
       "label": "Wait_Lock",

@@ -157,10 +157,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Configure",
-      "docHref": "docs/rp__rtc___spec.html#L14C14",
+      "docHref": "docs/rp__rtc___spec.html#L15C14",
       "declared": "RP.RTC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rtc.ads.html#L14"
+      "srcHref": "srcs/rp-rtc.ads.html#L15"
     },
     {
       "label": "Configure",
@@ -276,13 +276,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Delay_Microseconds",
-      "docHref": "docs/rp__systick___spec.html#L36C14",
-      "declared": "RP.SysTick",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L36"
-    },
-    {
-      "label": "Delay_Microseconds",
       "docHref": "docs/rp__timer___spec.html#L43C14",
       "declared": "RP.Timer",
       "declared_qualifier": "",
@@ -304,13 +297,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Delay_Milliseconds",
-      "docHref": "docs/rp__systick___spec.html#L42C14",
-      "declared": "RP.SysTick",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L42"
-    },
-    {
-      "label": "Delay_Milliseconds",
       "docHref": "docs/rp__timer___spec.html#L48C14",
       "declared": "RP.Timer",
       "declared_qualifier": "",
@@ -325,13 +311,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Delay_Seconds",
-      "docHref": "docs/rp__systick___spec.html#L48C14",
-      "declared": "RP.SysTick",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L48"
-    },
-    {
-      "label": "Delay_Seconds",
       "docHref": "docs/rp__timer___spec.html#L54C14",
       "declared": "RP.Timer",
       "declared_qualifier": "",
@@ -339,10 +318,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Delay_Until",
-      "docHref": "docs/rp__systick___spec.html#L53C14",
-      "declared": "RP.SysTick",
+      "docHref": "docs/rp__rtc___spec.html#L38C14",
+      "declared": "RP.RTC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L53"
+      "srcHref": "srcs/rp-rtc.ads.html#L38"
     },
     {
       "label": "Delay_Until",
@@ -357,13 +336,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.PIO",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-pio.ads.html#L44"
-    },
-    {
-      "label": "Disable",
-      "docHref": "docs/rp__systick___spec.html#L28C14",
-      "declared": "RP.SysTick",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L28"
     },
     {
       "label": "Disable",
@@ -514,13 +486,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__systick___spec.html#L25C14",
-      "declared": "RP.SysTick",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L25"
-    },
-    {
-      "label": "Enable",
       "docHref": "docs/rp__timer___spec.html#L25C14",
       "declared": "RP.Timer",
       "declared_qualifier": "",
@@ -574,13 +539,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.PIO",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-pio.ads.html#L146"
-    },
-    {
-      "label": "Enabled",
-      "docHref": "docs/rp__systick___spec.html#L31C13",
-      "declared": "RP.SysTick",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L31"
     },
     {
       "label": "Enabled",
@@ -752,10 +710,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Get",
-      "docHref": "docs/rp__rtc___spec.html#L34C14",
+      "docHref": "docs/rp__rtc___spec.html#L52C14",
       "declared": "RP.RTC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rtc.ads.html#L34"
+      "srcHref": "srcs/rp-rtc.ads.html#L52"
     },
     {
       "label": "Get_All_Touch_Points",
@@ -773,10 +731,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Get_Date",
-      "docHref": "docs/rp__rtc___spec.html#L45C13",
+      "docHref": "docs/rp__rtc___spec.html#L63C13",
       "declared": "RP.RTC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rtc.ads.html#L45"
+      "srcHref": "srcs/rp-rtc.ads.html#L63"
     },
     {
       "label": "Get_FS",
@@ -808,10 +766,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Get_Time",
-      "docHref": "docs/rp__rtc___spec.html#L40C13",
+      "docHref": "docs/rp__rtc___spec.html#L58C13",
       "declared": "RP.RTC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rtc.ads.html#L40"
+      "srcHref": "srcs/rp-rtc.ads.html#L58"
     },
     {
       "label": "Get_Touch_Point",
@@ -1144,10 +1102,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Pause",
-      "docHref": "docs/rp__rtc___spec.html#L21C14",
+      "docHref": "docs/rp__rtc___spec.html#L22C14",
       "declared": "RP.RTC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rtc.ads.html#L21"
+      "srcHref": "srcs/rp-rtc.ads.html#L22"
     },
     {
       "label": "Pixel",
@@ -1501,10 +1459,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Resume",
-      "docHref": "docs/rp__rtc___spec.html#L24C14",
+      "docHref": "docs/rp__rtc___spec.html#L25C14",
       "declared": "RP.RTC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rtc.ads.html#L24"
+      "srcHref": "srcs/rp-rtc.ads.html#L25"
     },
     {
       "label": "Root_Node",
@@ -1522,10 +1480,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Running",
-      "docHref": "docs/rp__rtc___spec.html#L17C13",
+      "docHref": "docs/rp__rtc___spec.html#L18C13",
       "declared": "RP.RTC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rtc.ads.html#L17"
+      "srcHref": "srcs/rp-rtc.ads.html#L18"
     },
     {
       "label": "RX_FIFO_Address",
@@ -1606,10 +1564,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set",
-      "docHref": "docs/rp__rtc___spec.html#L28C14",
+      "docHref": "docs/rp__rtc___spec.html#L46C14",
       "declared": "RP.RTC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rtc.ads.html#L28"
+      "srcHref": "srcs/rp-rtc.ads.html#L46"
     },
     {
       "label": "Set_Address",

@@ -745,10 +745,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Initialized",
-      "docHref": "docs/rp__pwm___spec.html#L44C4",
+      "docHref": "docs/rp__pwm___spec.html#L46C4",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L44"
+      "srcHref": "srcs/rp-pwm.ads.html#L46"
     },
     {
       "label": "INTERP0_Base",

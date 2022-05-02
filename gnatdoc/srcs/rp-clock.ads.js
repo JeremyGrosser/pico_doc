@@ -2290,8 +2290,2352 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Countable_Clock_Id",
+          "text": "SYS_Clock_Id",
           "href": "docs/rp__clock___spec.html#L65C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Clock_Id",
+          "href": "docs/rp__clock___spec.html#L33C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_SYS"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "XOSC"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 66,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Set_SYS_Source",
+          "href": "docs/rp__clock___spec.html#L66C14"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 67,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Source",
+          "href": "docs/rp__clock___spec.html#L67C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "SYS_Clock_Id",
+          "href": "docs/rp__clock___spec.html#L65C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 68,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 69,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "subtype"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_Clock_Id",
+          "href": "docs/rp__clock___spec.html#L69C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Clock_Id",
+          "href": "docs/rp__clock___spec.html#L33C9"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 70,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Static_Predicate => PLL_Clock_Id "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "in"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " PLL_SYS | PLL_USB"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 71,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "subtype"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_FREF_Field",
+          "href": "docs/rp__clock___spec.html#L71C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Hertz",
+          "href": "docs/rp___spec.html#L11C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "5_000_000"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "800_000_000"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 72,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "subtype"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_REFDIV_Field",
+          "href": "docs/rp__clock___spec.html#L72C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "UInt6",
+          "href": "docs/hal___spec.html#L47C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "1"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "63"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 73,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "subtype"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_FBDIV_Field",
+          "href": "docs/rp__clock___spec.html#L73C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "UInt12",
+          "href": "docs/hal___spec.html#L58C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "320"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 74,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "subtype"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_POSTDIV_Field",
+          "href": "docs/rp__clock___spec.html#L74C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "UInt3",
+          "href": "docs/hal___spec.html#L41C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "1"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 75,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_Config",
+          "href": "docs/rp__clock___spec.html#L75C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "record"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 76,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "FREF",
+          "href": "docs/rp__clock___spec.html#L76C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_FREF_Field",
+          "href": "docs/rp__clock___spec.html#L71C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 77,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "REFDIV",
+          "href": "docs/rp__clock___spec.html#L77C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_REFDIV_Field",
+          "href": "docs/rp__clock___spec.html#L72C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 78,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "FBDIV",
+          "href": "docs/rp__clock___spec.html#L78C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_FBDIV_Field",
+          "href": "docs/rp__clock___spec.html#L73C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 79,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "POSTDIV1",
+          "href": "docs/rp__clock___spec.html#L79C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_POSTDIV_Field",
+          "href": "docs/rp__clock___spec.html#L74C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 80,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "POSTDIV2",
+          "href": "docs/rp__clock___spec.html#L80C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_POSTDIV_Field",
+          "href": "docs/rp__clock___spec.html#L74C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 81,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "end"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "record"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";",
+          "href": "docs/rp__clock___spec.html#L75C9"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 82,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  2.18.2. Calculating PLL parameters"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 83,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  PLL = (FREF / REFDIV) * FBDIV / (POSTDIV1 / POSTDIV2)"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 84,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Common configurations are included below."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 85,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Use pico-sdk/src/rp2_common/hardware_clocks/scripts/vcocalc.py"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 86,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 87,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_48_MHz",
+          "href": "docs/rp__clock___spec.html#L87C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_Config",
+          "href": "docs/rp__clock___spec.html#L75C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 88,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "FREF"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "12_000_000"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 89,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "REFDIV"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "1"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 90,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "FBDIV"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "120"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 91,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "POSTDIV1"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "6"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 92,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "POSTDIV2"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "5"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 93,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 94,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_125_MHz",
+          "href": "docs/rp__clock___spec.html#L94C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_Config",
+          "href": "docs/rp__clock___spec.html#L75C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 95,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "FREF"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "12_000_000"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 96,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "REFDIV"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "1"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 97,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "FBDIV"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "125"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 98,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "POSTDIV1"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "6"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 99,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "POSTDIV2"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "2"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 100,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 101,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_133_MHz",
+          "href": "docs/rp__clock___spec.html#L101C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_Config",
+          "href": "docs/rp__clock___spec.html#L75C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 102,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "FREF"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "12_000_000"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 103,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "REFDIV"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "1"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 104,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "FBDIV"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "133"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 105,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "POSTDIV1"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "6"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 106,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "POSTDIV2"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "2"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 107,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 108,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_250_MHz",
+          "href": "docs/rp__clock___spec.html#L108C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_Config",
+          "href": "docs/rp__clock___spec.html#L75C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 109,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "FREF"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "12_000_000"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 110,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "REFDIV"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "1"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 111,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "FBDIV"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "125"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 112,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "POSTDIV1"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "6"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 113,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "POSTDIV2"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "1"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 114,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 115,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Configure_PLL",
+          "href": "docs/rp__clock___spec.html#L115C14"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 116,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL",
+          "href": "docs/rp__clock___spec.html#L116C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_Clock_Id",
+          "href": "docs/rp__clock___spec.html#L69C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 117,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Config",
+          "href": "docs/rp__clock___spec.html#L117C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PLL_Config",
+          "href": "docs/rp__clock___spec.html#L75C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 118,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Pre => Config.POSTDIV1 >= Config.POSTDIV2"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 119,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "               "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "and"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " (Integer (Config.FREF) / Integer (Config.REFDIV)) >= 5_000_000"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 120,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "               "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "and"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " (Integer (Config.FREF) / Integer (Config.REFDIV)) * Integer (Config.FBDIV)"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 121,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "in"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " 400_000_000 .. 1_600_000_000"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 122,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Remember to switch clk_sys to another source before modifying PLL_SYS"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 123,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 124,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "subtype"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Countable_Clock_Id",
+          "href": "docs/rp__clock___spec.html#L124C12"
         },
         {
           "kind": "span",
@@ -2363,7 +4707,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 66,
+      "number": 125,
       "children": [
         {
           "kind": "span",
@@ -2384,13 +4728,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Frequency",
-          "href": "docs/rp__clock___spec.html#L66C13"
+          "href": "docs/rp__clock___spec.html#L125C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 67,
+      "number": 126,
       "children": [
         {
           "kind": "span",
@@ -2406,7 +4750,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CID",
-          "href": "docs/rp__clock___spec.html#L67C8"
+          "href": "docs/rp__clock___spec.html#L126C8"
         },
         {
           "kind": "span",
@@ -2427,7 +4771,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Countable_Clock_Id",
-          "href": "docs/rp__clock___spec.html#L65C12"
+          "href": "docs/rp__clock___spec.html#L124C12"
         },
         {
           "kind": "span",
@@ -2438,7 +4782,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 68,
+      "number": 127,
       "children": [
         {
           "kind": "span",
@@ -2449,7 +4793,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Rounded",
-          "href": "docs/rp__clock___spec.html#L68C8"
+          "href": "docs/rp__clock___spec.html#L127C8"
         },
         {
           "kind": "span",
@@ -2500,7 +4844,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 69,
+      "number": 128,
       "children": [
         {
           "kind": "span",
@@ -2511,7 +4855,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Accuracy",
-          "href": "docs/rp__clock___spec.html#L69C8"
+          "href": "docs/rp__clock___spec.html#L128C8"
         },
         {
           "kind": "span",
@@ -2563,7 +4907,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 70,
+      "number": 129,
       "children": [
         {
           "kind": "span",
@@ -2595,7 +4939,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 71,
+      "number": 130,
       "children": [
         {
           "kind": "span",
@@ -2611,7 +4955,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 72,
+      "number": 131,
       "children": [
         {
           "kind": "span",
@@ -2627,7 +4971,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 73,
+      "number": 132,
       "children": [
         {
           "kind": "span",
@@ -2643,7 +4987,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 74,
+      "number": 133,
       "children": [
         {
           "kind": "span",
@@ -2659,7 +5003,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 75,
+      "number": 134,
       "children": [
         {
           "kind": "span",
@@ -2675,13 +5019,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 76,
+      "number": 135,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 77,
+      "number": 136,
       "children": [
         {
           "kind": "span",
@@ -2697,7 +5041,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 78,
+      "number": 137,
       "children": [
         {
           "kind": "span",
@@ -2713,7 +5057,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 79,
+      "number": 138,
       "children": [
         {
           "kind": "span",
@@ -2729,7 +5073,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 80,
+      "number": 139,
       "children": [
         {
           "kind": "span",
@@ -2745,7 +5089,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 81,
+      "number": 140,
       "children": [
         {
           "kind": "span",
@@ -2761,7 +5105,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 82,
+      "number": 141,
       "children": [
         {
           "kind": "span",
@@ -2777,7 +5121,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 83,
+      "number": 142,
       "children": [
         {
           "kind": "span",
@@ -2798,7 +5142,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ROSC_Frequency",
-          "href": "docs/rp__clock___spec.html#L83C13"
+          "href": "docs/rp__clock___spec.html#L142C13"
         },
         {
           "kind": "span",
@@ -2830,13 +5174,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 84,
+      "number": 143,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 85,
+      "number": 144,
       "children": [
         {
           "kind": "span",
@@ -2847,13 +5191,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 86,
+      "number": 145,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 266,
+      "number": 313,
       "children": [
         {
           "kind": "span",

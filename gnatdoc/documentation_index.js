@@ -330,11 +330,6 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/rp__spi___spec.html"
   },
   {
-    "label": "RP.SysTick",
-    "qualifier": "",
-    "file": "docs/rp__systick___spec.html"
-  },
-  {
     "label": "RP.Timer",
     "qualifier": "",
     "file": "docs/rp__timer___spec.html"

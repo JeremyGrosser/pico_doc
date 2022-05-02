@@ -143,10 +143,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PWM_Interrupt_Handler",
-      "docHref": "docs/rp__pwm___spec.html#L41C9",
+      "docHref": "docs/rp__pwm___spec.html#L43C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L41"
+      "srcHref": "srcs/rp-pwm.ads.html#L43"
     },
     {
       "label": "Report_Descriptor_Access",

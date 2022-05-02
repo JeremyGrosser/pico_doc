@@ -260,10 +260,6 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/rp-spi.ads.html"
   },
   {
-    "label": "rp-systick.ads",
-    "srcHref": "srcs/rp-systick.ads.html"
-  },
-  {
     "label": "rp-timer.ads",
     "srcHref": "srcs/rp-timer.ads.html"
   },

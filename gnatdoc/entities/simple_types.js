@@ -1396,10 +1396,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Countable_Clock_Id",
-      "docHref": "docs/rp__clock___spec.html#L65C12",
+      "docHref": "docs/rp__clock___spec.html#L124C12",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L65"
+      "srcHref": "srcs/rp-clock.ads.html#L124"
     },
     {
       "label": "CPUID_ARCHITECTURE_Field",
@@ -1739,10 +1739,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Divider",
-      "docHref": "docs/rp__pwm___spec.html#L37C9",
+      "docHref": "docs/rp__pwm___spec.html#L39C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L37"
+      "srcHref": "srcs/rp-pwm.ads.html#L39"
     },
     {
       "label": "DMA_Channel_Id",
@@ -6835,10 +6835,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Period",
-      "docHref": "docs/rp__pwm___spec.html#L39C12",
+      "docHref": "docs/rp__pwm___spec.html#L41C12",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L39"
+      "srcHref": "srcs/rp-pwm.ads.html#L41"
     },
     {
       "label": "PHASE_PASSWD_Field",
@@ -6932,6 +6932,41 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp-pio.ads.html#L23"
     },
     {
+      "label": "PLL_Clock_Id",
+      "docHref": "docs/rp__clock___spec.html#L69C12",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L69"
+    },
+    {
+      "label": "PLL_FBDIV_Field",
+      "docHref": "docs/rp__clock___spec.html#L73C12",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L73"
+    },
+    {
+      "label": "PLL_FREF_Field",
+      "docHref": "docs/rp__clock___spec.html#L71C12",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L71"
+    },
+    {
+      "label": "PLL_POSTDIV_Field",
+      "docHref": "docs/rp__clock___spec.html#L74C12",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L74"
+    },
+    {
+      "label": "PLL_REFDIV_Field",
+      "docHref": "docs/rp__clock___spec.html#L72C12",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L72"
+    },
+    {
       "label": "Point_Array",
       "docHref": "docs/hal__bitmap___spec.html#L72C9",
       "declared": "HAL.Bitmap",
@@ -6989,31 +7024,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PWM_Channel",
-      "docHref": "docs/rp__pwm___spec.html#L15C9",
-      "declared": "RP.PWM",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L15"
-    },
-    {
-      "label": "PWM_Divider_Mode",
       "docHref": "docs/rp__pwm___spec.html#L17C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-pwm.ads.html#L17"
     },
     {
-      "label": "PWM_Slice",
-      "docHref": "docs/rp__pwm___spec.html#L14C9",
+      "label": "PWM_Divider_Mode",
+      "docHref": "docs/rp__pwm___spec.html#L19C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L14"
+      "srcHref": "srcs/rp-pwm.ads.html#L19"
+    },
+    {
+      "label": "PWM_Slice",
+      "docHref": "docs/rp__pwm___spec.html#L16C9",
+      "declared": "RP.PWM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pwm.ads.html#L16"
     },
     {
       "label": "PWM_Slice_Array",
-      "docHref": "docs/rp__pwm___spec.html#L34C9",
+      "docHref": "docs/rp__pwm___spec.html#L36C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L34"
+      "srcHref": "srcs/rp-pwm.ads.html#L36"
     },
     {
       "label": "Request_Type_Recipient",
@@ -8346,6 +8381,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp2040_svd-pads_bank0.ads.html#L139"
     },
     {
+      "label": "SYS_Clock_Id",
+      "docHref": "docs/rp__clock___spec.html#L65C12",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L65"
+    },
+    {
       "label": "SYST_CALIB_TENMS_Field",
       "docHref": "docs/cortex_m_svd__systick___spec.html#L115C12",
       "declared": "Cortex_M_SVD.SysTick",
@@ -8414,13 +8456,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP2040_SVD.WATCHDOG",
       "declared_qualifier": "",
       "srcHref": "srcs/rp2040_svd-watchdog.ads.html#L117"
-    },
-    {
-      "label": "Time",
-      "docHref": "docs/rp__systick___spec.html#L11C9",
-      "declared": "RP.SysTick",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-systick.ads.html#L11"
     },
     {
       "label": "Time",

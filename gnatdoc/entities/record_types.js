@@ -3,10 +3,10 @@ GNATdoc.EntitiesCategory = {
   "entities": [
     {
       "label": "ADC",
-      "docHref": "docs/rp__device___spec.html#L51C4",
+      "docHref": "docs/rp__device___spec.html#L50C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L51"
+      "srcHref": "srcs/rp-device.ads.html#L50"
     },
     {
       "label": "ADC_Periph",
@@ -4923,6 +4923,41 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp2040_svd-tbman.ads.html#L24"
     },
     {
+      "label": "PLL_125_MHz",
+      "docHref": "docs/rp__clock___spec.html#L94C4",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L94"
+    },
+    {
+      "label": "PLL_133_MHz",
+      "docHref": "docs/rp__clock___spec.html#L101C4",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L101"
+    },
+    {
+      "label": "PLL_250_MHz",
+      "docHref": "docs/rp__clock___spec.html#L108C4",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L108"
+    },
+    {
+      "label": "PLL_48_MHz",
+      "docHref": "docs/rp__clock___spec.html#L87C4",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L87"
+    },
+    {
+      "label": "PLL_Config",
+      "docHref": "docs/rp__clock___spec.html#L75C9",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L75"
+    },
+    {
       "label": "PLL_Peripheral",
       "docHref": "docs/rp2040_svd__pll___spec.html#L135C9",
       "declared": "RP2040_SVD.PLL",
@@ -5267,10 +5302,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PWM_Point",
-      "docHref": "docs/rp__pwm___spec.html#L29C9",
+      "docHref": "docs/rp__pwm___spec.html#L31C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L29"
+      "srcHref": "srcs/rp-pwm.ads.html#L31"
     },
     {
       "label": "PWR_Register",
@@ -5470,10 +5505,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "RTC",
-      "docHref": "docs/rp__device___spec.html#L48C4",
+      "docHref": "docs/rp__device___spec.html#L47C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L48"
+      "srcHref": "srcs/rp-device.ads.html#L47"
     },
     {
       "label": "RTC_0_Register",
@@ -5488,6 +5523,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP2040_SVD.RTC",
       "declared_qualifier": "",
       "srcHref": "srcs/rp2040_svd-rtc.ads.html#L239"
+    },
+    {
+      "label": "RTC_Alarm_Mask",
+      "docHref": "docs/rp__rtc___spec.html#L28C9",
+      "declared": "RP.RTC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-rtc.ads.html#L28"
     },
     {
       "label": "RTC_Date",
@@ -6393,13 +6435,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp2040_svd-ppb.ads.html#L65"
     },
     {
-      "label": "SysTick",
-      "docHref": "docs/rp__device___spec.html#L46C4",
-      "declared": "RP.Device",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L46"
-    },
-    {
       "label": "SysTick_Periph",
       "docHref": "docs/cortex_m_svd__systick___spec.html#L187C4",
       "declared": "Cortex_M_SVD.SysTick",
@@ -6457,10 +6492,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Timer",
-      "docHref": "docs/rp__device___spec.html#L47C4",
+      "docHref": "docs/rp__device___spec.html#L46C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L47"
+      "srcHref": "srcs/rp-device.ads.html#L46"
     },
     {
       "label": "TIMER_Periph",
@@ -6744,10 +6779,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "UDC",
-      "docHref": "docs/rp__device___spec.html#L49C4",
+      "docHref": "docs/rp__device___spec.html#L48C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L49"
+      "srcHref": "srcs/rp-device.ads.html#L48"
     },
     {
       "label": "UDC_Event",
