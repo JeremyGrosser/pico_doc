@@ -28,3 +28,4 @@ This checklist is used by maintainers to release a new version of rp2040_hal, pi
 * [ ] Regenerate gnatdoc in pico_doc
 * [ ] Update CHANGELOG.adoc and rebuild documentation site
 * [ ] Create a version tag in pico_doc
+* [ ] Flush CDN cache for pico-doc
