@@ -1,4 +1,27 @@
+=== 1.6.0
+_Next release_
+
+==== New features
+
+===== GPIO drive strength
+`RP.GPIO.Configure` now takes a `Drive` argument to control GPIO drive strength, up to 12mA per pin. This should be used with caution as the sum of all current sourced or sinked by GPIO and QSPI pins may not exceed 50mA.
+
+===== New unit tests
+New unit tests were added for GPIO interrupts, DMA interrupts, and RP.Reset timeouts.
+
+===== Coverage test script is more reliable
+The coverage test script will now exit and report an error if any build or test step fails. Test output is printed after completion, regardless of error status.
+
+==== Bugs fixed
+
+===== Fixed warnings about unused units
+The Alire 1.2.0 release candidate enables a few warnings that were previously ignored. These warnings were fixed by removing references to unused units.
+
+===== DMA pacing timer tests were never run
+The DMA pacing timer test was added to the test suite incorrectly and were never being run. This test is now enabled and needed some minor fixes to pass. No changes to the DMA driver were needed.
+
 === 1.5.0
+May 2, 2022
 
 ==== New features
 
