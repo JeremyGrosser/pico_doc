@@ -20,6 +20,9 @@ The Alire 1.2.0 release candidate enables a few warnings that were previously ig
 ===== DMA pacing timer tests were never run
 The DMA pacing timer test was added to the test suite incorrectly and were never being run. This test is now enabled and needed some minor fixes to pass. No changes to the DMA driver were needed.
 
+===== RP.PIO.Get would block forever
+The Get procedure was incorrectly inverting the FIFO status register when polling to determine if there was data available. This caused it to block indefinitely if called while there was data in the FIFO. The FSTAT register type has been redefined to clarify the use of these registers and prevent this type of error in the future.
+
 === 1.5.0
 May 2, 2022
 
