@@ -1,5 +1,5 @@
 === 1.6.0
-_Next release_
+June 6, 2022
 
 ==== New features
 
