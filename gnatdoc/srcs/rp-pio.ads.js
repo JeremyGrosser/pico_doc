@@ -633,7 +633,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Peripheral",
-          "href": "docs/rp__pio___spec.html#L328C9"
+          "href": "docs/rp__pio___spec.html#L356C9"
         },
         {
           "kind": "span",
@@ -1795,7 +1795,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -1901,7 +1901,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -2050,7 +2050,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GPIO_Pin",
-          "href": "docs/rp__gpio___spec.html#L16C9"
+          "href": "docs/rp__gpio___spec.html#L15C9"
         },
         {
           "kind": "span",
@@ -2242,7 +2242,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GPIO_Pin",
-          "href": "docs/rp__gpio___spec.html#L16C9"
+          "href": "docs/rp__gpio___spec.html#L15C9"
         },
         {
           "kind": "span",
@@ -2434,7 +2434,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GPIO_Pin",
-          "href": "docs/rp__gpio___spec.html#L16C9"
+          "href": "docs/rp__gpio___spec.html#L15C9"
         },
         {
           "kind": "span",
@@ -2583,7 +2583,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GPIO_Pin",
-          "href": "docs/rp__gpio___spec.html#L16C9"
+          "href": "docs/rp__gpio___spec.html#L15C9"
         },
         {
           "kind": "span",
@@ -3647,7 +3647,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GPIO_Pin",
-          "href": "docs/rp__gpio___spec.html#L16C9"
+          "href": "docs/rp__gpio___spec.html#L15C9"
         },
         {
           "kind": "span",
@@ -4634,7 +4634,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GPIO_Pin",
-          "href": "docs/rp__gpio___spec.html#L16C9"
+          "href": "docs/rp__gpio___spec.html#L15C9"
         },
         {
           "kind": "span",
@@ -5083,7 +5083,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -5255,7 +5255,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -5287,7 +5287,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.GPIO.GPIO_Function",
-          "href": "docs/rp__gpio___spec.html#L26C9"
+          "href": "docs/rp__gpio___spec.html#L25C9"
         },
         {
           "kind": "span",
@@ -5388,7 +5388,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -5579,7 +5579,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -5708,7 +5708,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -5841,7 +5841,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -5990,7 +5990,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -6311,7 +6311,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -6397,7 +6397,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GPIO_Pin",
-          "href": "docs/rp__gpio___spec.html#L16C9"
+          "href": "docs/rp__gpio___spec.html#L15C9"
         },
         {
           "kind": "span",
@@ -6546,7 +6546,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -6738,7 +6738,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -6951,7 +6951,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -7143,7 +7143,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -7335,7 +7335,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -7537,7 +7537,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -7719,7 +7719,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -7874,7 +7874,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -8498,7 +8498,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -8641,7 +8641,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -8784,7 +8784,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -8986,7 +8986,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -9188,7 +9188,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -9416,7 +9416,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -9618,7 +9618,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -9908,7 +9908,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -10067,7 +10067,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -10252,7 +10252,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -10411,7 +10411,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -10556,7 +10556,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -10712,7 +10712,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",
@@ -10821,7 +10821,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 373,
+      "number": 401,
       "children": [
         {
           "kind": "span",

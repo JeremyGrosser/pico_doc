@@ -65,7 +65,7 @@ GNATdoc.InheritanceIndex = [
     "inherited": [
       {
         "label": "GPIO_Point",
-        "docHref": "docs/rp__gpio___spec.html#L19C9"
+        "docHref": "docs/rp__gpio___spec.html#L18C9"
       }
     ]
   },

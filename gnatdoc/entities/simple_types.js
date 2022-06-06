@@ -52,10 +52,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "ADC_Pin",
-      "docHref": "docs/rp__gpio___spec.html#L17C12",
+      "docHref": "docs/rp__gpio___spec.html#L16C12",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L17"
+      "srcHref": "srcs/rp-gpio.ads.html#L16"
     },
     {
       "label": "ADC_Sample_Bits",
@@ -1354,10 +1354,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Clock_Id",
-      "docHref": "docs/rp__clock___spec.html#L33C9",
+      "docHref": "docs/rp__clock___spec.html#L32C9",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L33"
+      "srcHref": "srcs/rp-clock.ads.html#L32"
     },
     {
       "label": "Clock_Source",
@@ -1396,10 +1396,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Countable_Clock_Id",
-      "docHref": "docs/rp__clock___spec.html#L124C12",
+      "docHref": "docs/rp__clock___spec.html#L123C12",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L124"
+      "srcHref": "srcs/rp-clock.ads.html#L123"
     },
     {
       "label": "CPUID_ARCHITECTURE_Field",
@@ -3363,24 +3363,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "GP_Divider",
-      "docHref": "docs/rp__clock___spec.html#L52C9",
+      "docHref": "docs/rp__clock___spec.html#L51C9",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L52"
+      "srcHref": "srcs/rp-clock.ads.html#L51"
     },
     {
       "label": "GP_Output",
+      "docHref": "docs/rp__clock___spec.html#L42C12",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L42"
+    },
+    {
+      "label": "GP_Source",
       "docHref": "docs/rp__clock___spec.html#L43C12",
       "declared": "RP.Clock",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-clock.ads.html#L43"
-    },
-    {
-      "label": "GP_Source",
-      "docHref": "docs/rp__clock___spec.html#L44C12",
-      "declared": "RP.Clock",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L44"
     },
     {
       "label": "GPIO0_CTRL_FUNCSEL_Field",
@@ -4448,17 +4448,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "GPIO_Config_Mode",
-      "docHref": "docs/rp__gpio___spec.html#L24C9",
+      "docHref": "docs/rp__gpio___spec.html#L23C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L24"
+      "srcHref": "srcs/rp-gpio.ads.html#L23"
+    },
+    {
+      "label": "GPIO_Drive",
+      "docHref": "docs/rp__gpio___spec.html#L30C9",
+      "declared": "RP.GPIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-gpio.ads.html#L30"
     },
     {
       "label": "GPIO_Function",
-      "docHref": "docs/rp__gpio___spec.html#L26C9",
+      "docHref": "docs/rp__gpio___spec.html#L25C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L26"
+      "srcHref": "srcs/rp-gpio.ads.html#L25"
     },
     {
       "label": "GPIO_HI_IN_GPIO_HI_IN_Field",
@@ -4595,17 +4602,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "GPIO_Pin",
-      "docHref": "docs/rp__gpio___spec.html#L16C9",
+      "docHref": "docs/rp__gpio___spec.html#L15C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L16"
+      "srcHref": "srcs/rp-gpio.ads.html#L15"
     },
     {
       "label": "GPIO_Pull_Mode",
-      "docHref": "docs/rp__gpio___spec.html#L29C9",
+      "docHref": "docs/rp__gpio___spec.html#L28C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L29"
+      "srcHref": "srcs/rp-gpio.ads.html#L28"
     },
     {
       "label": "GPIO_Pull_Resistor",
@@ -6156,10 +6163,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Interrupt_Triggers",
-      "docHref": "docs/rp__gpio___spec.html#L43C9",
+      "docHref": "docs/rp__gpio___spec.html#L44C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L43"
+      "srcHref": "srcs/rp-gpio.ads.html#L44"
     },
     {
       "label": "INTF0_INTF0_Field",
@@ -6933,38 +6940,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PLL_Clock_Id",
-      "docHref": "docs/rp__clock___spec.html#L69C12",
+      "docHref": "docs/rp__clock___spec.html#L68C12",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L69"
+      "srcHref": "srcs/rp-clock.ads.html#L68"
     },
     {
       "label": "PLL_FBDIV_Field",
+      "docHref": "docs/rp__clock___spec.html#L72C12",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L72"
+    },
+    {
+      "label": "PLL_FREF_Field",
+      "docHref": "docs/rp__clock___spec.html#L70C12",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L70"
+    },
+    {
+      "label": "PLL_POSTDIV_Field",
       "docHref": "docs/rp__clock___spec.html#L73C12",
       "declared": "RP.Clock",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-clock.ads.html#L73"
     },
     {
-      "label": "PLL_FREF_Field",
+      "label": "PLL_REFDIV_Field",
       "docHref": "docs/rp__clock___spec.html#L71C12",
       "declared": "RP.Clock",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-clock.ads.html#L71"
-    },
-    {
-      "label": "PLL_POSTDIV_Field",
-      "docHref": "docs/rp__clock___spec.html#L74C12",
-      "declared": "RP.Clock",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L74"
-    },
-    {
-      "label": "PLL_REFDIV_Field",
-      "docHref": "docs/rp__clock___spec.html#L72C12",
-      "declared": "RP.Clock",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L72"
     },
     {
       "label": "Point_Array",
@@ -8382,10 +8389,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "SYS_Clock_Id",
-      "docHref": "docs/rp__clock___spec.html#L65C12",
+      "docHref": "docs/rp__clock___spec.html#L64C12",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L65"
+      "srcHref": "srcs/rp-clock.ads.html#L64"
     },
     {
       "label": "SYST_CALIB_TENMS_Field",
@@ -9334,17 +9341,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "XOSC_Cycles",
-      "docHref": "docs/rp__clock___spec.html#L18C12",
+      "docHref": "docs/rp__clock___spec.html#L17C12",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L18"
+      "srcHref": "srcs/rp-clock.ads.html#L17"
     },
     {
       "label": "XOSC_Hertz",
-      "docHref": "docs/rp__clock___spec.html#L14C12",
+      "docHref": "docs/rp__clock___spec.html#L13C12",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L14"
+      "srcHref": "srcs/rp-clock.ads.html#L13"
     }
   ]
 };

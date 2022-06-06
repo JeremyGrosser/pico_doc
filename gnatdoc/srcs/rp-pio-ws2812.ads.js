@@ -247,7 +247,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.GPIO.GPIO_Point",
-          "href": "docs/rp__gpio___spec.html#L19C9"
+          "href": "docs/rp__gpio___spec.html#L18C9"
         },
         {
           "kind": "span",
@@ -319,7 +319,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L354C9"
+          "href": "docs/rp__pio___spec.html#L382C9"
         },
         {
           "kind": "span",

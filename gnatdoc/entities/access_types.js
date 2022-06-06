@@ -136,10 +136,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Interrupt_Procedure",
-      "docHref": "docs/rp__gpio___spec.html#L51C9",
+      "docHref": "docs/rp__gpio___spec.html#L52C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L51"
+      "srcHref": "srcs/rp-gpio.ads.html#L52"
     },
     {
       "label": "PWM_Interrupt_Handler",

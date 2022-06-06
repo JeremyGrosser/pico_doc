@@ -283,10 +283,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Configure_PLL",
-      "docHref": "docs/rp__clock___spec.html#L115C14",
+      "docHref": "docs/rp__clock___spec.html#L114C14",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L115"
+      "srcHref": "srcs/rp-clock.ads.html#L114"
     },
     {
       "label": "connect_internal_flash",
@@ -416,10 +416,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Disable",
-      "docHref": "docs/rp__clock___spec.html#L40C14",
+      "docHref": "docs/rp__clock___spec.html#L39C14",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L40"
+      "srcHref": "srcs/rp-clock.ads.html#L39"
     },
     {
       "label": "Disable",
@@ -577,10 +577,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__clock___spec.html#L37C14",
+      "docHref": "docs/rp__clock___spec.html#L36C14",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L37"
+      "srcHref": "srcs/rp-clock.ads.html#L36"
     },
     {
       "label": "Enable",
@@ -598,10 +598,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__gpio___spec.html#L55C14",
+      "docHref": "docs/rp__gpio___spec.html#L56C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L55"
+      "srcHref": "srcs/rp-gpio.ads.html#L56"
     },
     {
       "label": "Enable",
@@ -682,17 +682,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enabled",
-      "docHref": "docs/rp__clock___spec.html#L61C13",
+      "docHref": "docs/rp__clock___spec.html#L60C13",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L61"
+      "srcHref": "srcs/rp-clock.ads.html#L60"
     },
     {
       "label": "Enabled",
-      "docHref": "docs/rp__gpio___spec.html#L57C13",
+      "docHref": "docs/rp__gpio___spec.html#L58C13",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L57"
+      "srcHref": "srcs/rp-gpio.ads.html#L58"
     },
     {
       "label": "Enabled",
@@ -976,10 +976,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Frequency",
-      "docHref": "docs/rp__clock___spec.html#L125C13",
+      "docHref": "docs/rp__clock___spec.html#L124C13",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L125"
+      "srcHref": "srcs/rp-clock.ads.html#L124"
     },
     {
       "label": "frsub",
@@ -1137,10 +1137,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Initialize",
-      "docHref": "docs/rp__clock___spec.html#L20C14",
+      "docHref": "docs/rp__clock___spec.html#L19C14",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L20"
+      "srcHref": "srcs/rp-clock.ads.html#L19"
     },
     {
       "label": "Initialize",
@@ -1179,10 +1179,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "IRQ_Handler",
-      "docHref": "docs/rp__gpio___spec.html#L131C14",
+      "docHref": "docs/rp__gpio___spec.html#L133C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L131"
+      "srcHref": "srcs/rp-gpio.ads.html#L133"
     },
     {
       "label": "IRQ_Handler",
@@ -1704,10 +1704,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "ROSC_Frequency",
-      "docHref": "docs/rp__clock___spec.html#L142C13",
+      "docHref": "docs/rp__clock___spec.html#L141C13",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L142"
+      "srcHref": "srcs/rp-clock.ads.html#L141"
     },
     {
       "label": "RX_Ready",
@@ -1788,10 +1788,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Divider",
-      "docHref": "docs/rp__clock___spec.html#L57C14",
+      "docHref": "docs/rp__clock___spec.html#L56C14",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L57"
+      "srcHref": "srcs/rp-clock.ads.html#L56"
     },
     {
       "label": "Set_Divider",
@@ -1977,17 +1977,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Source",
-      "docHref": "docs/rp__clock___spec.html#L46C14",
+      "docHref": "docs/rp__clock___spec.html#L45C14",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L46"
+      "srcHref": "srcs/rp-clock.ads.html#L45"
     },
     {
       "label": "Set_SYS_Source",
-      "docHref": "docs/rp__clock___spec.html#L66C14",
+      "docHref": "docs/rp__clock___spec.html#L65C14",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L66"
+      "srcHref": "srcs/rp-clock.ads.html#L65"
     },
     {
       "label": "Set_Wrap",

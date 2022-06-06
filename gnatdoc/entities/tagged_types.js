@@ -31,10 +31,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "GPIO_Point",
-      "docHref": "docs/rp__gpio___spec.html#L19C9",
+      "docHref": "docs/rp__gpio___spec.html#L18C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L19"
+      "srcHref": "srcs/rp-gpio.ads.html#L18"
     },
     {
       "label": "I2C_Master_Port",

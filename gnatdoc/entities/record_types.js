@@ -3,10 +3,10 @@ GNATdoc.EntitiesCategory = {
   "entities": [
     {
       "label": "ADC",
-      "docHref": "docs/rp__device___spec.html#L50C4",
+      "docHref": "docs/rp__device___spec.html#L49C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L50"
+      "srcHref": "srcs/rp-device.ads.html#L49"
     },
     {
       "label": "ADC_Periph",
@@ -3034,17 +3034,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "I2C_0",
+      "docHref": "docs/rp__device___spec.html#L25C4",
+      "declared": "RP.Device",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-device.ads.html#L25"
+    },
+    {
+      "label": "I2C_1",
       "docHref": "docs/rp__device___spec.html#L26C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-device.ads.html#L26"
-    },
-    {
-      "label": "I2C_1",
-      "docHref": "docs/rp__device___spec.html#L27C4",
-      "declared": "RP.Device",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L27"
     },
     {
       "label": "I2C_Peripheral",
@@ -3741,17 +3741,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "INTERP_0",
-      "docHref": "docs/rp__device___spec.html#L41C4",
+      "docHref": "docs/rp__device___spec.html#L40C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L41"
+      "srcHref": "srcs/rp-device.ads.html#L40"
     },
     {
       "label": "INTERP_1",
-      "docHref": "docs/rp__device___spec.html#L43C4",
+      "docHref": "docs/rp__device___spec.html#L42C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L43"
+      "srcHref": "srcs/rp-device.ads.html#L42"
     },
     {
       "label": "INTERP_Peripheral",
@@ -4847,10 +4847,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PIO0_Periph",
-      "docHref": "docs/rp__device___spec.html#L32C4",
+      "docHref": "docs/rp__device___spec.html#L31C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L32"
+      "srcHref": "srcs/rp-device.ads.html#L31"
     },
     {
       "label": "PIO0_Periph",
@@ -4861,10 +4861,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PIO1_Periph",
-      "docHref": "docs/rp__device___spec.html#L34C4",
+      "docHref": "docs/rp__device___spec.html#L33C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L34"
+      "srcHref": "srcs/rp-device.ads.html#L33"
     },
     {
       "label": "PIO1_Periph",
@@ -4875,17 +4875,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PIO_0",
+      "docHref": "docs/rp__device___spec.html#L35C4",
+      "declared": "RP.Device",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-device.ads.html#L35"
+    },
+    {
+      "label": "PIO_1",
       "docHref": "docs/rp__device___spec.html#L36C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-device.ads.html#L36"
-    },
-    {
-      "label": "PIO_1",
-      "docHref": "docs/rp__device___spec.html#L37C4",
-      "declared": "RP.Device",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L37"
     },
     {
       "label": "PIO_Peripheral",
@@ -4924,38 +4924,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PLL_125_MHz",
-      "docHref": "docs/rp__clock___spec.html#L94C4",
+      "docHref": "docs/rp__clock___spec.html#L93C4",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L94"
+      "srcHref": "srcs/rp-clock.ads.html#L93"
     },
     {
       "label": "PLL_133_MHz",
-      "docHref": "docs/rp__clock___spec.html#L101C4",
+      "docHref": "docs/rp__clock___spec.html#L100C4",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L101"
+      "srcHref": "srcs/rp-clock.ads.html#L100"
     },
     {
       "label": "PLL_250_MHz",
-      "docHref": "docs/rp__clock___spec.html#L108C4",
+      "docHref": "docs/rp__clock___spec.html#L107C4",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L108"
+      "srcHref": "srcs/rp-clock.ads.html#L107"
     },
     {
       "label": "PLL_48_MHz",
-      "docHref": "docs/rp__clock___spec.html#L87C4",
+      "docHref": "docs/rp__clock___spec.html#L86C4",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L87"
+      "srcHref": "srcs/rp-clock.ads.html#L86"
     },
     {
       "label": "PLL_Config",
-      "docHref": "docs/rp__clock___spec.html#L75C9",
+      "docHref": "docs/rp__clock___spec.html#L74C9",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L75"
+      "srcHref": "srcs/rp-clock.ads.html#L74"
     },
     {
       "label": "PLL_Peripheral",
@@ -5505,10 +5505,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "RTC",
-      "docHref": "docs/rp__device___spec.html#L47C4",
+      "docHref": "docs/rp__device___spec.html#L46C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L47"
+      "srcHref": "srcs/rp-device.ads.html#L46"
     },
     {
       "label": "RTC_0_Register",
@@ -6093,17 +6093,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "SPI_0",
+      "docHref": "docs/rp__device___spec.html#L22C4",
+      "declared": "RP.Device",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-device.ads.html#L22"
+    },
+    {
+      "label": "SPI_1",
       "docHref": "docs/rp__device___spec.html#L23C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-device.ads.html#L23"
-    },
-    {
-      "label": "SPI_1",
-      "docHref": "docs/rp__device___spec.html#L24C4",
-      "declared": "RP.Device",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L24"
     },
     {
       "label": "SPI_Configuration",
@@ -6492,10 +6492,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Timer",
-      "docHref": "docs/rp__device___spec.html#L46C4",
+      "docHref": "docs/rp__device___spec.html#L45C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L46"
+      "srcHref": "srcs/rp-device.ads.html#L45"
     },
     {
       "label": "TIMER_Periph",
@@ -6590,17 +6590,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "UART_0",
+      "docHref": "docs/rp__device___spec.html#L28C4",
+      "declared": "RP.Device",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-device.ads.html#L28"
+    },
+    {
+      "label": "UART_1",
       "docHref": "docs/rp__device___spec.html#L29C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-device.ads.html#L29"
-    },
-    {
-      "label": "UART_1",
-      "docHref": "docs/rp__device___spec.html#L30C4",
-      "declared": "RP.Device",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L30"
     },
     {
       "label": "UART_Configuration",
@@ -6779,10 +6779,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "UDC",
-      "docHref": "docs/rp__device___spec.html#L48C4",
+      "docHref": "docs/rp__device___spec.html#L47C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L48"
+      "srcHref": "srcs/rp-device.ads.html#L47"
     },
     {
       "label": "UDC_Event",

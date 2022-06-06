@@ -752,17 +752,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "INTERP0_Base",
+      "docHref": "docs/rp__device___spec.html#L38C4",
+      "declared": "RP.Device",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-device.ads.html#L38"
+    },
+    {
+      "label": "INTERP1_Base",
       "docHref": "docs/rp__device___spec.html#L39C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-device.ads.html#L39"
-    },
-    {
-      "label": "INTERP1_Base",
-      "docHref": "docs/rp__device___spec.html#L40C4",
-      "declared": "RP.Device",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L40"
     },
     {
       "label": "Invalid",

@@ -45,10 +45,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Clear",
-      "docHref": "docs/rp__gpio___spec.html#L121C14",
+      "docHref": "docs/rp__gpio___spec.html#L123C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L121"
+      "srcHref": "srcs/rp-gpio.ads.html#L123"
     },
     {
       "label": "Clear",
@@ -143,10 +143,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Configure",
-      "docHref": "docs/rp__gpio___spec.html#L59C14",
+      "docHref": "docs/rp__gpio___spec.html#L60C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L59"
+      "srcHref": "srcs/rp-gpio.ads.html#L60"
     },
     {
       "label": "Configure",
@@ -353,10 +353,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Disable_Interrupt",
-      "docHref": "docs/rp__gpio___spec.html#L81C14",
+      "docHref": "docs/rp__gpio___spec.html#L83C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L81"
+      "srcHref": "srcs/rp-gpio.ads.html#L83"
     },
     {
       "label": "Disable_IRQ",
@@ -500,10 +500,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enable_Interrupt",
-      "docHref": "docs/rp__gpio___spec.html#L77C14",
+      "docHref": "docs/rp__gpio___spec.html#L79C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L77"
+      "srcHref": "srcs/rp-gpio.ads.html#L79"
     },
     {
       "label": "Enable_IRQ",
@@ -689,10 +689,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Get",
-      "docHref": "docs/rp__gpio___spec.html#L68C13",
+      "docHref": "docs/rp__gpio___spec.html#L70C13",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L68"
+      "srcHref": "srcs/rp-gpio.ads.html#L70"
     },
     {
       "label": "Get",
@@ -1053,10 +1053,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Mode",
-      "docHref": "docs/rp__gpio___spec.html#L92C13",
+      "docHref": "docs/rp__gpio___spec.html#L94C13",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L92"
+      "srcHref": "srcs/rp-gpio.ads.html#L94"
     },
     {
       "label": "Offset",
@@ -1158,10 +1158,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Pull_Resistor",
-      "docHref": "docs/rp__gpio___spec.html#L102C13",
+      "docHref": "docs/rp__gpio___spec.html#L104C13",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L102"
+      "srcHref": "srcs/rp-gpio.ads.html#L104"
     },
     {
       "label": "Push_Key_Code",
@@ -1550,17 +1550,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set",
-      "docHref": "docs/rp__gpio___spec.html#L112C13",
+      "docHref": "docs/rp__gpio___spec.html#L114C13",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L112"
+      "srcHref": "srcs/rp-gpio.ads.html#L114"
     },
     {
       "label": "Set",
-      "docHref": "docs/rp__gpio___spec.html#L117C14",
+      "docHref": "docs/rp__gpio___spec.html#L119C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L117"
+      "srcHref": "srcs/rp-gpio.ads.html#L119"
     },
     {
       "label": "Set",
@@ -1697,10 +1697,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Interrupt_Handler",
-      "docHref": "docs/rp__gpio___spec.html#L73C14",
+      "docHref": "docs/rp__gpio___spec.html#L75C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L73"
+      "srcHref": "srcs/rp-gpio.ads.html#L75"
     },
     {
       "label": "Set_Mode",
@@ -1718,10 +1718,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Mode",
-      "docHref": "docs/rp__gpio___spec.html#L97C14",
+      "docHref": "docs/rp__gpio___spec.html#L99C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L97"
+      "srcHref": "srcs/rp-gpio.ads.html#L99"
     },
     {
       "label": "Set_Modifier",
@@ -1788,10 +1788,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Pull_Resistor",
-      "docHref": "docs/rp__gpio___spec.html#L107C14",
+      "docHref": "docs/rp__gpio___spec.html#L109C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L107"
+      "srcHref": "srcs/rp-gpio.ads.html#L109"
     },
     {
       "label": "Set_Report",
@@ -1907,10 +1907,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Support",
-      "docHref": "docs/rp__gpio___spec.html#L86C13",
+      "docHref": "docs/rp__gpio___spec.html#L88C13",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L86"
+      "srcHref": "srcs/rp-gpio.ads.html#L88"
     },
     {
       "label": "Supported",
@@ -1949,10 +1949,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Toggle",
-      "docHref": "docs/rp__gpio___spec.html#L125C14",
+      "docHref": "docs/rp__gpio___spec.html#L127C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L125"
+      "srcHref": "srcs/rp-gpio.ads.html#L127"
     },
     {
       "label": "Transmit",
