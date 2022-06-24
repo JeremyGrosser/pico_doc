@@ -204,7 +204,7 @@ end;
 
 === GPIO
 image::pad-config.png[IO pad diagram,title="IO pad diagram",link="/img/pad-config.png"]
-The RP2040 has 29 GPIO pins. The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-gpio.ads[RP.GPIO] package implements the abstract https://github.com/Fabien-Chouteau/hal/blob/master/src/hal-gpio.ads[HAL.GPIO] interface.
+The RP2040 has 30 GPIO pins. The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-gpio.ads[RP.GPIO] package implements the abstract https://github.com/Fabien-Chouteau/hal/blob/master/src/hal-gpio.ads[HAL.GPIO] interface.
 
 [source,ada]
 ----
