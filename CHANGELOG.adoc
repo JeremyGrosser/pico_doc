@@ -1,3 +1,48 @@
+=== 2.0.0 (next release)
+Release date TBD
+
+==== New features
+
+===== Preelaboration
+Most of the drivers in rp2040_hal now have the `with Preelaborate` aspect, which ensures that no initialization code will be executed implicitly at startup.
+
+===== I2C rewrite
+`RP.I2C` has been rewritten to support both controller (master) and target (slave) operation. The new driver allows fine control over bus timing, repeated start, and error handling. `RP.I2C_Master` implements the `HAL.I2C` interface for applications that need to be portable or have less stringent timing and error handling requirements.
+
+===== Recalculated PLL VCO frequencies
+For some of the predefined `RP.Clock.PLL_Config` settings, the divider values have been recalculated to use lower VCO frequencies, which should reduce power consumption.
+
+===== Busy wait
+`RP.Timer.Busy_Wait_Until` will poll the timer until the specified deadline, without putting the device to sleep or triggering an interrupt.
+
+===== Unique Id
+The RP2040 has no unique id or serial number, but the external QSPI flash it boots from does. `RP.Flash.Unique_Id` reads a 64-bit "RUID" from the flash chip. The XIP peripheral must be disabled in order to execute this command, so `RP.Flash.Unique_Id` contains a critical section that disables interrupts.
+
+===== RTC improvements
+RTC alarms can now be Set or Disabled without blocking. This allows more flexible configuration of low power modes.
+
+==== Breaking changes
+
+===== GNAT 12 toolchain
+The GNAT toolchain dependency has been updated to version 12. Several new compile time warnings were fixed. The `zfp-cortex-m0p` runtime has been renamed to `light-cortex-m0p` with this new toolchain, you will need to update the `Runtime ("Ada")` directive in your project file.
+
+===== I2C device instances
+`RP.Device.I2C_0`, and `RP.Device.I2C_1` are now instances of `RP.I2C.I2C_Port`. `RP.Device.I2CM_0` and `RP.Device.I2CM_1` instantiate the `RP.I2C_Master.I2C_Master_Port` driver. If you're updating an application from a previous version of rp2040_hal, you may need to switch to the I2CM definitions.
+
+===== Alire 1.2 build profiles
+rp2040_hal.gpr has been recreated using Alire 1.2, which now supports https://alire.ada.dev/docs/#build-profiles-and-switches[build profiles].
+
+===== PWM count return type
+`RP.PWM.Count` now returns a modular `HAL.UInt16` value, rather than `Natural`, to better reflect the size and overflow behavior of the hardware counter.
+
+==== Bugs fixed
+
+===== Increased XOSC startup delay
+The default value for the `XOSC_Startup_Delay` argument of `RP.Clock.Initialize` has been increased to approximately 64 milliseconds to increase reliability on some third party boards.
+
+===== USB device reliability
+A number of changes were made to fix `RP.USB_Device` behavior when used in an interrupt handler. Thanks to https://github.com/Fabien-Chouteau[@Fabien-Chouteau] for these patches.
+
 === 1.6.0
 June 6, 2022
 

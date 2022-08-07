@@ -1,5 +1,7 @@
 = Ada on the Raspberry Pi Pico
 
+*This is the documentation for the development version. Most users should refer to the https://pico-doc.synack.me/[stable documentation].*
+
 image::pico.jpg[Raspberry Pi Pico,width=400,role="related right",title="Raspberry Pi Pico",caption="",link="/img/pico.jpg"]
 
 This project provides libraries and examples for the https://en.wikipedia.org/wiki/Ada_(programming_language)[Ada programming language] on the https://www.raspberrypi.org/documentation/microcontrollers/rp2040.html[RP2040] microcontroller and the https://www.raspberrypi.org/products/raspberry-pi-pico/[Raspberry Pi Pico] development board.
@@ -44,7 +46,7 @@ with "config/hello_pico_config.gpr";
 with "pico_bsp.gpr";
 project Hello_Pico is
     for Target use "arm-eabi";
-    for Runtime ("Ada") use "zfp-cortex-m0p";
+    for Runtime ("Ada") use "light-cortex-m0p";
     package Linker is
         for Switches ("Ada") use Pico_BSP.Linker_Switches;
     end Linker;
@@ -56,8 +58,11 @@ Build the project.
 
 [source,shell]
 ----
-alr build
+alr build --development
 ----
+
+[sidebar]
+Alire https://alire.ada.dev/docs/#build-profiles-and-switches[build profiles] affect various compile flags and runtime options. Add `--development`, `--validation`, or `--release` to the `alr build` command to select a default build profile.
 
 If the build was successful, there will be an ELF binary in `./bin/hello_pico`.
 
@@ -69,7 +74,8 @@ There are several ways to get your compiled code onto the Pico. It is highly rec
 Using GDB, you can load the ELF binary and run it. If you are not using an OpenOCD based debugger, these commands may be slightly different. Consult your debugger's documentation if this doesn't work.
 
 ----
-alr exec arm-eabi-gdb bin/hello_pico
+eval $(alr printenv)
+arm-eabi-gdb bin/hello_pico
 target extended-remote localhost:3333
 monitor arm semihosting enable
 load
@@ -476,11 +482,12 @@ end SPI_Example;
 ----
 
 ==== I2C
-The I2C peripheral is similar to the other serial interfaces in operation but is more complicated due to the state machine that controls the bus. The I2C hardware takes care of most of this complexity for you. Pull-up resistors should be added to the SCL and SDA signals. While the RP2040's internal GPIO pull-ups may be sufficient, this is not recommended as bus shorts and fault conditions can drive too much current through the pull-ups and cause damage. External 4.7k ohm resistors are usually sufficient, but this value may need to be adjusted to keep the rise time within spec. See the https://www.nxp.com/docs/en/user-guide/UM10204.pdf[I2C bus specification] for more information.
+The I2C peripheral is similar to the other serial interfaces in operation but is more complicated due to the state machine that controls the bus. Pull-up resistors should be added to the SCL and SDA signals. External 4.7k ohm resistors are usually sufficient, but this value may need to be adjusted to keep the rise time within spec. See the https://www.nxp.com/docs/en/user-guide/UM10204.pdf[I2C bus specification] for more information.
 
 The RP2040 datasheet recommends enabling https://en.wikipedia.org/wiki/Schmitt_trigger[Schmitt triggering] for the I2C pins.
 
-This driver only supports I2C master mode. The hardware is capable of I2C slave operation as well, but we haven't written a driver for this yet.
+===== HAL interface
+The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-i2c_master.ads[RP.I2C_Master] package implements the https://github.com/AdaCore/Ada_Drivers_Library/blob/master/hal/src/hal-i2c.ads[HAL.I2C] interface. RP.I2C_Master is less flexible than RP.I2C, but is more portable and may be easier to use depending on your application. Target (slave) operation is not supported by the HAL interface.
 
 [source,ada]
 ----
@@ -492,7 +499,7 @@ with HAL.I2C;
 with Pico;
 
 procedure I2C_Demo is
-    Port   : RP.I2C_Master.I2C_Master_Port renames RP.Device.I2C_0;
+    Port   : RP.I2C_Master.I2C_Master_Port renames RP.Device.I2CM_0;
     SDA    : RP.GPIO.GPIO_Point renames Pico.GP0;
     SCL    : RP.GPIO.GPIO_Point renames Pico.GP1;
     Data   : HAL.I2C.I2C_Data_8b (1 .. 2) := (others => 0);
@@ -512,6 +519,42 @@ begin
          Status => Status);
 end I2C_Demo;
 ----
+
+===== Low level interface
+The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-i2c.ads[RP.I2C] package implements a lower level interface, supporting both controller (master) and target (slave) modes. The following example writes a register address to a target device, then reads a single byte value. The `Stop` argument to `Start_Write` ensures that the controller does not release the bus between the write and read and instead performs a repeated start.
+
+[source,ada]
+----
+declare
+   Port        : RP.I2C.I2C_Port renames RP.Device.I2C_0;
+   Target_Addr : constant HAL.UInt7 := 2#1110110#; --  BME280 default address
+   REG_CHIP_ID : constant HAL.UInt8 := 16#D0#;
+   Chip_Id     : HAL.UInt8;
+
+   use type RP.I2C.I2C_Status;
+   Status : RP.I2C.I2C_Status;
+begin
+   Port.Configure ((Role => RP.I2C.Controller, Timing => RP.I2C.Standard_Mode));
+   Port.Set_Address (Target_Addr);
+   Port.Enable;
+   Port.Start_Write (Length => 1, Stop => False);
+   Port.Write (REG_CHIP_ID, Status);
+   if Status /= RP.I2C.Ok then
+      --  The I2C_State record returned from RP.I2C.Status (Port) may contain
+      --  additional information about the cause of the error.
+      Port.Abort_Write;
+      Port.Clear_Error;
+      return;
+   end if;
+   Port.Start_Read (Length => 1, Stop => True);
+   Port.Read (Chip_Id, Status);
+end;
+----
+
+See https://github.com/JeremyGrosser/pico_examples/blob/master/i2c_demo/src/i2c_demo.adb[i2c_demo] for a more complete example.
+
+===== Bus timing
+`RP.I2C` defines constants for Standard Mode, Fast Mode, and Fast Mode Plus clock timing in nanoseconds. For accurate timing, these constants need to be modified with `Rise` and `Fall` fields relative to the speed of your bus.
 
 === USB device controller
 The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-usb_device.ads[RP.USB_Device] package implements the https://github.com/Fabien-Chouteau/usb_embedded/blob/main/src/usb-hal-device.ads[USB.HAL.Device.USB_Device_Controller] interface from the https://github.com/Fabien-Chouteau/usb_embedded[usb_embedded] crate.
