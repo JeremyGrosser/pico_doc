@@ -1,7 +1,5 @@
 = Ada on the Raspberry Pi Pico
 
-*This is the documentation for the development version. Most users should refer to the https://pico-doc.synack.me/[stable documentation].*
-
 image::pico.jpg[Raspberry Pi Pico,width=400,role="related right",title="Raspberry Pi Pico",caption="",link="/img/pico.jpg"]
 
 This project provides libraries and examples for the https://en.wikipedia.org/wiki/Ada_(programming_language)[Ada programming language] on the https://www.raspberrypi.org/documentation/microcontrollers/rp2040.html[RP2040] microcontroller and the https://www.raspberrypi.org/products/raspberry-pi-pico/[Raspberry Pi Pico] development board.
