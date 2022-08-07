@@ -413,6 +413,43 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "keyword",
+          "text": "pragma"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Preelaborate"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 36,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 37,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
           "text": "type"
         },
         {
@@ -424,7 +461,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Status_Code",
-          "href": "docs/hal__filesystem___spec.html#L35C9"
+          "href": "docs/hal__filesystem___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -440,7 +477,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 36,
+      "number": 38,
       "children": [
         {
           "kind": "span",
@@ -456,66 +493,12 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OK",
-          "href": "docs/hal__filesystem___spec.html#L36C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 37,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Non_Empty_Directory",
-          "href": "docs/hal__filesystem___spec.html#L37C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 38,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Disk_Error",
           "href": "docs/hal__filesystem___spec.html#L38C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  A hardware error occurred in the low level disk I/O"
         }
       ]
     },
@@ -531,7 +514,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Disk_Full",
+          "text": "Non_Empty_Directory",
           "href": "docs/hal__filesystem___spec.html#L39C7"
         },
         {
@@ -553,13 +536,23 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Internal_Error",
+          "text": "Disk_Error",
           "href": "docs/hal__filesystem___spec.html#L40C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  A hardware error occurred in the low level disk I/O"
         }
       ]
     },
@@ -575,7 +568,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Drive_Not_Ready",
+          "text": "Disk_Full",
           "href": "docs/hal__filesystem___spec.html#L41C7"
         },
         {
@@ -597,7 +590,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "No_Such_File",
+          "text": "Internal_Error",
           "href": "docs/hal__filesystem___spec.html#L42C7"
         },
         {
@@ -619,7 +612,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "No_Such_Path",
+          "text": "Drive_Not_Ready",
           "href": "docs/hal__filesystem___spec.html#L43C7"
         },
         {
@@ -641,23 +634,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Not_Mounted",
+          "text": "No_Such_File",
           "href": "docs/hal__filesystem___spec.html#L44C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  The mount point is invalid"
         }
       ]
     },
@@ -673,7 +656,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Invalid_Name",
+          "text": "No_Such_Path",
           "href": "docs/hal__filesystem___spec.html#L45C7"
         },
         {
@@ -695,13 +678,23 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Access_Denied",
+          "text": "Not_Mounted",
           "href": "docs/hal__filesystem___spec.html#L46C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  The mount point is invalid"
         }
       ]
     },
@@ -717,7 +710,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Already_Exists",
+          "text": "Invalid_Name",
           "href": "docs/hal__filesystem___spec.html#L47C7"
         },
         {
@@ -739,7 +732,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Invalid_Object_Entry",
+          "text": "Access_Denied",
           "href": "docs/hal__filesystem___spec.html#L48C7"
         },
         {
@@ -761,7 +754,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Write_Protected",
+          "text": "Already_Exists",
           "href": "docs/hal__filesystem___spec.html#L49C7"
         },
         {
@@ -783,7 +776,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Invalid_Drive",
+          "text": "Invalid_Object_Entry",
           "href": "docs/hal__filesystem___spec.html#L50C7"
         },
         {
@@ -805,23 +798,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "No_Filesystem",
+          "text": "Write_Protected",
           "href": "docs/hal__filesystem___spec.html#L51C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  The volume is not a FAT volume"
         }
       ]
     },
@@ -837,7 +820,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Locked",
+          "text": "Invalid_Drive",
           "href": "docs/hal__filesystem___spec.html#L52C7"
         },
         {
@@ -859,7 +842,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Too_Many_Open_Files",
+          "text": "No_Filesystem",
           "href": "docs/hal__filesystem___spec.html#L53C7"
         },
         {
@@ -875,7 +858,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  All available handles are used"
+          "text": "--  The volume is not a FAT volume"
         }
       ]
     },
@@ -891,7 +874,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Invalid_Parameter",
+          "text": "Locked",
           "href": "docs/hal__filesystem___spec.html#L54C7"
         },
         {
@@ -913,13 +896,23 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Input_Output_Error",
+          "text": "Too_Many_Open_Files",
           "href": "docs/hal__filesystem___spec.html#L55C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  All available handles are used"
         }
       ]
     },
@@ -935,7 +928,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "No_MBR_Found",
+          "text": "Invalid_Parameter",
           "href": "docs/hal__filesystem___spec.html#L56C7"
         },
         {
@@ -957,7 +950,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "No_Partition_Found",
+          "text": "Input_Output_Error",
           "href": "docs/hal__filesystem___spec.html#L57C7"
         },
         {
@@ -979,7 +972,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "No_More_Entries",
+          "text": "No_MBR_Found",
           "href": "docs/hal__filesystem___spec.html#L58C7"
         },
         {
@@ -1001,7 +994,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Read_Only_File_System",
+          "text": "No_Partition_Found",
           "href": "docs/hal__filesystem___spec.html#L59C7"
         },
         {
@@ -1023,8 +1016,52 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Operation_Not_Permitted",
+          "text": "No_More_Entries",
           "href": "docs/hal__filesystem___spec.html#L60C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 61,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Read_Only_File_System",
+          "href": "docs/hal__filesystem___spec.html#L61C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 62,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Operation_Not_Permitted",
+          "href": "docs/hal__filesystem___spec.html#L62C7"
         },
         {
           "kind": "span",
@@ -1035,19 +1072,19 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/hal__filesystem___spec.html#L35C9"
+          "href": "docs/hal__filesystem___spec.html#L37C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 61,
+      "number": 63,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 62,
+      "number": 64,
       "children": [
         {
           "kind": "span",
@@ -1068,7 +1105,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Mode",
-          "href": "docs/hal__filesystem___spec.html#L62C9"
+          "href": "docs/hal__filesystem___spec.html#L64C9"
         },
         {
           "kind": "span",
@@ -1094,7 +1131,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Read_Only",
-          "href": "docs/hal__filesystem___spec.html#L62C23"
+          "href": "docs/hal__filesystem___spec.html#L64C23"
         },
         {
           "kind": "span",
@@ -1110,7 +1147,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Write_Only",
-          "href": "docs/hal__filesystem___spec.html#L62C34"
+          "href": "docs/hal__filesystem___spec.html#L64C34"
         },
         {
           "kind": "span",
@@ -1126,7 +1163,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Read_Write",
-          "href": "docs/hal__filesystem___spec.html#L62C46"
+          "href": "docs/hal__filesystem___spec.html#L64C46"
         },
         {
           "kind": "span",
@@ -1137,13 +1174,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/hal__filesystem___spec.html#L62C9"
+          "href": "docs/hal__filesystem___spec.html#L64C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 65,
       "children": [
         {
           "kind": "span",
@@ -1164,7 +1201,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Seek_Mode",
-          "href": "docs/hal__filesystem___spec.html#L63C9"
+          "href": "docs/hal__filesystem___spec.html#L65C9"
         },
         {
           "kind": "span",
@@ -1180,7 +1217,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 64,
+      "number": 66,
       "children": [
         {
           "kind": "span",
@@ -1196,7 +1233,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 65,
+      "number": 67,
       "children": [
         {
           "kind": "span",
@@ -1212,44 +1249,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 66,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "From_Start",
-          "href": "docs/hal__filesystem___spec.html#L66C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 67,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Seek from the end of the file, backward"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 68,
       "children": [
         {
@@ -1260,7 +1259,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "From_End",
+          "text": "From_Start",
           "href": "docs/hal__filesystem___spec.html#L68C7"
         },
         {
@@ -1282,7 +1281,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Seek from the current position, forward"
+          "text": "--  Seek from the end of the file, backward"
         }
       ]
     },
@@ -1298,7 +1297,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Forward",
+          "text": "From_End",
           "href": "docs/hal__filesystem___spec.html#L70C7"
         },
         {
@@ -1320,7 +1319,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Seek from the current position, backward"
+          "text": "--  Seek from the current position, forward"
         }
       ]
     },
@@ -1336,8 +1335,46 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Backward",
+          "text": "Forward",
           "href": "docs/hal__filesystem___spec.html#L72C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 73,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Seek from the current position, backward"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 74,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Backward",
+          "href": "docs/hal__filesystem___spec.html#L74C7"
         },
         {
           "kind": "span",
@@ -1348,19 +1385,19 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/hal__filesystem___spec.html#L63C9"
+          "href": "docs/hal__filesystem___spec.html#L65C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 73,
+      "number": 75,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 74,
+      "number": 76,
       "children": [
         {
           "kind": "span",
@@ -1381,7 +1418,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Size",
-          "href": "docs/hal__filesystem___spec.html#L74C9"
+          "href": "docs/hal__filesystem___spec.html#L76C9"
         },
         {
           "kind": "span",
@@ -1423,7 +1460,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 75,
+      "number": 77,
       "children": [
         {
           "kind": "span",
@@ -1439,7 +1476,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 76,
+      "number": 78,
       "children": [
         {
           "kind": "span",
@@ -1455,7 +1492,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 77,
+      "number": 79,
       "children": [
         {
           "kind": "span",
@@ -1471,13 +1508,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 78,
+      "number": 80,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 79,
+      "number": 81,
       "children": [
         {
           "kind": "span",
@@ -1498,7 +1535,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Filesystem_Driver",
-          "href": "docs/hal__filesystem___spec.html#L79C9"
+          "href": "docs/hal__filesystem___spec.html#L81C9"
         },
         {
           "kind": "span",
@@ -1535,95 +1572,6 @@ GNATdoc.SourceFile = {
           "cssClass": "identifier",
           "text": ";"
         }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 80,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "type"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Any_Filesystem_Driver",
-          "href": "docs/hal__filesystem___spec.html#L80C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "access"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "all"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Filesystem_Driver",
-          "href": "docs/hal__filesystem___spec.html#L79C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "'"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Class"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 81,
-      "children": [
       ]
     },
     {
@@ -1648,70 +1596,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Directory_Handle",
+          "text": "Any_Filesystem_Driver",
           "href": "docs/hal__filesystem___spec.html#L82C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "limited"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "interface"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 83,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "type"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Any_Directory_Handle",
-          "href": "docs/hal__filesystem___spec.html#L83C9"
         },
         {
           "kind": "span",
@@ -1751,8 +1637,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Directory_Handle",
-          "href": "docs/hal__filesystem___spec.html#L82C9"
+          "text": "Filesystem_Driver",
+          "href": "docs/hal__filesystem___spec.html#L81C9"
         },
         {
           "kind": "span",
@@ -1773,8 +1659,70 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 83,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
       "number": 84,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Directory_Handle",
+          "href": "docs/hal__filesystem___spec.html#L84C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "limited"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "interface"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
@@ -1799,8 +1747,97 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "File_Handle",
+          "text": "Any_Directory_Handle",
           "href": "docs/hal__filesystem___spec.html#L85C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "all"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Directory_Handle",
+          "href": "docs/hal__filesystem___spec.html#L84C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "'"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Class"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 86,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 87,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "File_Handle",
+          "href": "docs/hal__filesystem___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -1841,7 +1878,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 86,
+      "number": 88,
       "children": [
         {
           "kind": "span",
@@ -1862,7 +1899,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Any_File_Handle",
-          "href": "docs/hal__filesystem___spec.html#L86C9"
+          "href": "docs/hal__filesystem___spec.html#L88C9"
         },
         {
           "kind": "span",
@@ -1903,7 +1940,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Handle",
-          "href": "docs/hal__filesystem___spec.html#L85C9"
+          "href": "docs/hal__filesystem___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -1924,13 +1961,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 87,
+      "number": 89,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 88,
+      "number": 90,
       "children": [
         {
           "kind": "span",
@@ -1951,7 +1988,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Node_Handle",
-          "href": "docs/hal__filesystem___spec.html#L88C9"
+          "href": "docs/hal__filesystem___spec.html#L90C9"
         },
         {
           "kind": "span",
@@ -1982,7 +2019,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 89,
+      "number": 91,
       "children": [
         {
           "kind": "span",
@@ -2003,7 +2040,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Any_Node_Handle",
-          "href": "docs/hal__filesystem___spec.html#L89C9"
+          "href": "docs/hal__filesystem___spec.html#L91C9"
         },
         {
           "kind": "span",
@@ -2044,7 +2081,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Node_Handle",
-          "href": "docs/hal__filesystem___spec.html#L88C9"
+          "href": "docs/hal__filesystem___spec.html#L90C9"
         },
         {
           "kind": "span",
@@ -2065,40 +2102,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 90,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 91,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "---------------------------"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 92,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Directory operations --"
-        }
       ]
     },
     {
@@ -2121,11 +2126,43 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 94,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Directory operations --"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 95,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "---------------------------"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 96,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 97,
       "children": [
         {
           "kind": "span",
@@ -2146,13 +2183,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Open",
-          "href": "docs/hal__filesystem___spec.html#L95C13"
+          "href": "docs/hal__filesystem___spec.html#L97C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 96,
+      "number": 98,
       "children": [
         {
           "kind": "span",
@@ -2168,7 +2205,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L96C7"
+          "href": "docs/hal__filesystem___spec.html#L98C7"
         },
         {
           "kind": "span",
@@ -2209,7 +2246,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Filesystem_Driver",
-          "href": "docs/hal__filesystem___spec.html#L79C9"
+          "href": "docs/hal__filesystem___spec.html#L81C9"
         },
         {
           "kind": "span",
@@ -2220,7 +2257,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 97,
+      "number": 99,
       "children": [
         {
           "kind": "span",
@@ -2231,7 +2268,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Path",
-          "href": "docs/hal__filesystem___spec.html#L97C7"
+          "href": "docs/hal__filesystem___spec.html#L99C7"
         },
         {
           "kind": "span",
@@ -2262,7 +2299,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 98,
+      "number": 100,
       "children": [
         {
           "kind": "span",
@@ -2273,7 +2310,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Handle",
-          "href": "docs/hal__filesystem___spec.html#L98C7"
+          "href": "docs/hal__filesystem___spec.html#L100C7"
         },
         {
           "kind": "span",
@@ -2304,7 +2341,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Any_Directory_Handle",
-          "href": "docs/hal__filesystem___spec.html#L83C9"
+          "href": "docs/hal__filesystem___spec.html#L85C9"
         },
         {
           "kind": "span",
@@ -2315,7 +2352,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 99,
+      "number": 101,
       "children": [
         {
           "kind": "span",
@@ -2336,7 +2373,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Status_Code",
-          "href": "docs/hal__filesystem___spec.html#L35C9"
+          "href": "docs/hal__filesystem___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -2367,7 +2404,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 100,
+      "number": 102,
       "children": [
         {
           "kind": "span",
@@ -2383,13 +2420,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 101,
+      "number": 103,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 102,
+      "number": 104,
       "children": [
         {
           "kind": "span",
@@ -2410,7 +2447,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Create_File",
-          "href": "docs/hal__filesystem___spec.html#L102C13"
+          "href": "docs/hal__filesystem___spec.html#L104C13"
         },
         {
           "kind": "span",
@@ -2426,7 +2463,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L102C26"
+          "href": "docs/hal__filesystem___spec.html#L104C26"
         },
         {
           "kind": "span",
@@ -2467,7 +2504,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Filesystem_Driver",
-          "href": "docs/hal__filesystem___spec.html#L79C9"
+          "href": "docs/hal__filesystem___spec.html#L81C9"
         },
         {
           "kind": "span",
@@ -2478,7 +2515,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 103,
+      "number": 105,
       "children": [
         {
           "kind": "span",
@@ -2489,7 +2526,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Path",
-          "href": "docs/hal__filesystem___spec.html#L103C26"
+          "href": "docs/hal__filesystem___spec.html#L105C26"
         },
         {
           "kind": "span",
@@ -2520,7 +2557,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 104,
+      "number": 106,
       "children": [
         {
           "kind": "span",
@@ -2541,7 +2578,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Status_Code",
-          "href": "docs/hal__filesystem___spec.html#L35C9"
+          "href": "docs/hal__filesystem___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -2572,13 +2609,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 105,
+      "number": 107,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 106,
+      "number": 108,
       "children": [
         {
           "kind": "span",
@@ -2599,7 +2636,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Unlink",
-          "href": "docs/hal__filesystem___spec.html#L106C13"
+          "href": "docs/hal__filesystem___spec.html#L108C13"
         },
         {
           "kind": "span",
@@ -2615,7 +2652,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L106C21"
+          "href": "docs/hal__filesystem___spec.html#L108C21"
         },
         {
           "kind": "span",
@@ -2656,7 +2693,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Filesystem_Driver",
-          "href": "docs/hal__filesystem___spec.html#L79C9"
+          "href": "docs/hal__filesystem___spec.html#L81C9"
         },
         {
           "kind": "span",
@@ -2667,7 +2704,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 107,
+      "number": 109,
       "children": [
         {
           "kind": "span",
@@ -2678,7 +2715,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Path",
-          "href": "docs/hal__filesystem___spec.html#L107C21"
+          "href": "docs/hal__filesystem___spec.html#L109C21"
         },
         {
           "kind": "span",
@@ -2709,7 +2746,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 108,
+      "number": 110,
       "children": [
         {
           "kind": "span",
@@ -2730,7 +2767,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Status_Code",
-          "href": "docs/hal__filesystem___spec.html#L35C9"
+          "href": "docs/hal__filesystem___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -2761,7 +2798,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 109,
+      "number": 111,
       "children": [
         {
           "kind": "span",
@@ -2777,13 +2814,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 110,
+      "number": 112,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 111,
+      "number": 113,
       "children": [
         {
           "kind": "span",
@@ -2804,7 +2841,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Remove_Directory",
-          "href": "docs/hal__filesystem___spec.html#L111C13"
+          "href": "docs/hal__filesystem___spec.html#L113C13"
         },
         {
           "kind": "span",
@@ -2820,7 +2857,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L111C31"
+          "href": "docs/hal__filesystem___spec.html#L113C31"
         },
         {
           "kind": "span",
@@ -2861,7 +2898,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Filesystem_Driver",
-          "href": "docs/hal__filesystem___spec.html#L79C9"
+          "href": "docs/hal__filesystem___spec.html#L81C9"
         },
         {
           "kind": "span",
@@ -2872,7 +2909,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 112,
+      "number": 114,
       "children": [
         {
           "kind": "span",
@@ -2883,7 +2920,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Path",
-          "href": "docs/hal__filesystem___spec.html#L112C31"
+          "href": "docs/hal__filesystem___spec.html#L114C31"
         },
         {
           "kind": "span",
@@ -2914,7 +2951,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 113,
+      "number": 115,
       "children": [
         {
           "kind": "span",
@@ -2935,7 +2972,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Status_Code",
-          "href": "docs/hal__filesystem___spec.html#L35C9"
+          "href": "docs/hal__filesystem___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -2966,7 +3003,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 114,
+      "number": 116,
       "children": [
         {
           "kind": "span",
@@ -2982,13 +3019,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 115,
+      "number": 117,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 116,
+      "number": 118,
       "children": [
         {
           "kind": "span",
@@ -3009,13 +3046,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Get_FS",
-          "href": "docs/hal__filesystem___spec.html#L116C13"
+          "href": "docs/hal__filesystem___spec.html#L118C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 117,
+      "number": 119,
       "children": [
         {
           "kind": "span",
@@ -3031,7 +3068,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L117C7"
+          "href": "docs/hal__filesystem___spec.html#L119C7"
         },
         {
           "kind": "span",
@@ -3052,7 +3089,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Directory_Handle",
-          "href": "docs/hal__filesystem___spec.html#L82C9"
+          "href": "docs/hal__filesystem___spec.html#L84C9"
         },
         {
           "kind": "span",
@@ -3078,13 +3115,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Any_Filesystem_Driver",
-          "href": "docs/hal__filesystem___spec.html#L80C9"
+          "href": "docs/hal__filesystem___spec.html#L82C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 118,
+      "number": 120,
       "children": [
         {
           "kind": "span",
@@ -3115,7 +3152,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 119,
+      "number": 121,
       "children": [
         {
           "kind": "span",
@@ -3131,13 +3168,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 120,
+      "number": 122,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 121,
+      "number": 123,
       "children": [
         {
           "kind": "span",
@@ -3158,13 +3195,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Root_Node",
-          "href": "docs/hal__filesystem___spec.html#L121C13"
+          "href": "docs/hal__filesystem___spec.html#L123C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 122,
+      "number": 124,
       "children": [
         {
           "kind": "span",
@@ -3180,7 +3217,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L122C7"
+          "href": "docs/hal__filesystem___spec.html#L124C7"
         },
         {
           "kind": "span",
@@ -3221,7 +3258,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Filesystem_Driver",
-          "href": "docs/hal__filesystem___spec.html#L79C9"
+          "href": "docs/hal__filesystem___spec.html#L81C9"
         },
         {
           "kind": "span",
@@ -3232,7 +3269,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 123,
+      "number": 125,
       "children": [
         {
           "kind": "span",
@@ -3243,7 +3280,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "As",
-          "href": "docs/hal__filesystem___spec.html#L123C7"
+          "href": "docs/hal__filesystem___spec.html#L125C7"
         },
         {
           "kind": "span",
@@ -3274,7 +3311,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 124,
+      "number": 126,
       "children": [
         {
           "kind": "span",
@@ -3285,7 +3322,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Handle",
-          "href": "docs/hal__filesystem___spec.html#L124C7"
+          "href": "docs/hal__filesystem___spec.html#L126C7"
         },
         {
           "kind": "span",
@@ -3316,7 +3353,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Any_Node_Handle",
-          "href": "docs/hal__filesystem___spec.html#L89C9"
+          "href": "docs/hal__filesystem___spec.html#L91C9"
         },
         {
           "kind": "span",
@@ -3327,7 +3364,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 125,
+      "number": 127,
       "children": [
         {
           "kind": "span",
@@ -3348,7 +3385,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Status_Code",
-          "href": "docs/hal__filesystem___spec.html#L35C9"
+          "href": "docs/hal__filesystem___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -3379,7 +3416,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 126,
+      "number": 128,
       "children": [
         {
           "kind": "span",
@@ -3395,13 +3432,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 127,
+      "number": 129,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 128,
+      "number": 130,
       "children": [
         {
           "kind": "span",
@@ -3422,13 +3459,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Read",
-          "href": "docs/hal__filesystem___spec.html#L128C13"
+          "href": "docs/hal__filesystem___spec.html#L130C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 129,
+      "number": 131,
       "children": [
         {
           "kind": "span",
@@ -3444,7 +3481,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L129C7"
+          "href": "docs/hal__filesystem___spec.html#L131C7"
         },
         {
           "kind": "span",
@@ -3485,7 +3522,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Directory_Handle",
-          "href": "docs/hal__filesystem___spec.html#L82C9"
+          "href": "docs/hal__filesystem___spec.html#L84C9"
         },
         {
           "kind": "span",
@@ -3496,7 +3533,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 130,
+      "number": 132,
       "children": [
         {
           "kind": "span",
@@ -3507,7 +3544,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Handle",
-          "href": "docs/hal__filesystem___spec.html#L130C7"
+          "href": "docs/hal__filesystem___spec.html#L132C7"
         },
         {
           "kind": "span",
@@ -3538,7 +3575,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Any_Node_Handle",
-          "href": "docs/hal__filesystem___spec.html#L89C9"
+          "href": "docs/hal__filesystem___spec.html#L91C9"
         },
         {
           "kind": "span",
@@ -3549,7 +3586,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 131,
+      "number": 133,
       "children": [
         {
           "kind": "span",
@@ -3570,7 +3607,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Status_Code",
-          "href": "docs/hal__filesystem___spec.html#L35C9"
+          "href": "docs/hal__filesystem___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -3601,7 +3638,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 132,
+      "number": 134,
       "children": [
         {
           "kind": "span",
@@ -3617,7 +3654,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 133,
+      "number": 135,
       "children": [
         {
           "kind": "span",
@@ -3633,13 +3670,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 134,
+      "number": 136,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 135,
+      "number": 137,
       "children": [
         {
           "kind": "span",
@@ -3660,7 +3697,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reset",
-          "href": "docs/hal__filesystem___spec.html#L135C14"
+          "href": "docs/hal__filesystem___spec.html#L137C14"
         },
         {
           "kind": "span",
@@ -3676,7 +3713,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L135C21"
+          "href": "docs/hal__filesystem___spec.html#L137C21"
         },
         {
           "kind": "span",
@@ -3717,7 +3754,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Directory_Handle",
-          "href": "docs/hal__filesystem___spec.html#L82C9"
+          "href": "docs/hal__filesystem___spec.html#L84C9"
         },
         {
           "kind": "span",
@@ -3753,7 +3790,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 136,
+      "number": 138,
       "children": [
         {
           "kind": "span",
@@ -3769,13 +3806,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 137,
+      "number": 139,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 138,
+      "number": 140,
       "children": [
         {
           "kind": "span",
@@ -3796,7 +3833,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Close",
-          "href": "docs/hal__filesystem___spec.html#L138C14"
+          "href": "docs/hal__filesystem___spec.html#L140C14"
         },
         {
           "kind": "span",
@@ -3812,7 +3849,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L138C21"
+          "href": "docs/hal__filesystem___spec.html#L140C21"
         },
         {
           "kind": "span",
@@ -3853,7 +3890,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Directory_Handle",
-          "href": "docs/hal__filesystem___spec.html#L82C9"
+          "href": "docs/hal__filesystem___spec.html#L84C9"
         },
         {
           "kind": "span",
@@ -3889,7 +3926,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 139,
+      "number": 141,
       "children": [
         {
           "kind": "span",
@@ -3905,40 +3942,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 140,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 141,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "---------------------"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 142,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- Node operations --"
-        }
       ]
     },
     {
@@ -3961,6 +3966,16 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 144,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- Node operations --"
+        }
       ]
     },
     {
@@ -3974,107 +3989,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Get_FS",
-          "href": "docs/hal__filesystem___spec.html#L145C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L145C21"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Node_Handle",
-          "href": "docs/hal__filesystem___spec.html#L88C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Any_Filesystem_Driver",
-          "href": "docs/hal__filesystem___spec.html#L80C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "abstract"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "---------------------"
         }
       ]
     },
@@ -4106,7 +4022,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Basename",
+          "text": "Get_FS",
           "href": "docs/hal__filesystem___spec.html#L147C13"
         },
         {
@@ -4123,7 +4039,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L147C23"
+          "href": "docs/hal__filesystem___spec.html#L147C21"
         },
         {
           "kind": "span",
@@ -4144,7 +4060,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Node_Handle",
-          "href": "docs/hal__filesystem___spec.html#L88C9"
+          "href": "docs/hal__filesystem___spec.html#L90C9"
         },
         {
           "kind": "span",
@@ -4169,7 +4085,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "String"
+          "text": "Any_Filesystem_Driver",
+          "href": "docs/hal__filesystem___spec.html#L82C9"
         },
         {
           "kind": "span",
@@ -4226,7 +4143,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Is_Read_Only",
+          "text": "Basename",
           "href": "docs/hal__filesystem___spec.html#L149C13"
         },
         {
@@ -4243,7 +4160,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L149C27"
+          "href": "docs/hal__filesystem___spec.html#L149C23"
         },
         {
           "kind": "span",
@@ -4264,7 +4181,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Node_Handle",
-          "href": "docs/hal__filesystem___spec.html#L88C9"
+          "href": "docs/hal__filesystem___spec.html#L90C9"
         },
         {
           "kind": "span",
@@ -4289,7 +4206,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Boolean"
+          "text": "String"
         },
         {
           "kind": "span",
@@ -4346,7 +4263,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Is_Hidden",
+          "text": "Is_Read_Only",
           "href": "docs/hal__filesystem___spec.html#L151C13"
         },
         {
@@ -4363,7 +4280,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L151C24"
+          "href": "docs/hal__filesystem___spec.html#L151C27"
         },
         {
           "kind": "span",
@@ -4384,7 +4301,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Node_Handle",
-          "href": "docs/hal__filesystem___spec.html#L88C9"
+          "href": "docs/hal__filesystem___spec.html#L90C9"
         },
         {
           "kind": "span",
@@ -4466,7 +4383,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Is_Subdirectory",
+          "text": "Is_Hidden",
           "href": "docs/hal__filesystem___spec.html#L153C13"
         },
         {
@@ -4483,7 +4400,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L153C30"
+          "href": "docs/hal__filesystem___spec.html#L153C24"
         },
         {
           "kind": "span",
@@ -4504,7 +4421,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Node_Handle",
-          "href": "docs/hal__filesystem___spec.html#L88C9"
+          "href": "docs/hal__filesystem___spec.html#L90C9"
         },
         {
           "kind": "span",
@@ -4586,7 +4503,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Is_Symlink",
+          "text": "Is_Subdirectory",
           "href": "docs/hal__filesystem___spec.html#L155C13"
         },
         {
@@ -4603,7 +4520,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L155C25"
+          "href": "docs/hal__filesystem___spec.html#L155C30"
         },
         {
           "kind": "span",
@@ -4624,7 +4541,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Node_Handle",
-          "href": "docs/hal__filesystem___spec.html#L88C9"
+          "href": "docs/hal__filesystem___spec.html#L90C9"
         },
         {
           "kind": "span",
@@ -4706,7 +4623,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Size",
+          "text": "Is_Symlink",
           "href": "docs/hal__filesystem___spec.html#L157C13"
         },
         {
@@ -4723,7 +4640,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L157C19"
+          "href": "docs/hal__filesystem___spec.html#L157C25"
         },
         {
           "kind": "span",
@@ -4744,7 +4661,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Node_Handle",
-          "href": "docs/hal__filesystem___spec.html#L88C9"
+          "href": "docs/hal__filesystem___spec.html#L90C9"
         },
         {
           "kind": "span",
@@ -4769,8 +4686,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "File_Size",
-          "href": "docs/hal__filesystem___spec.html#L74C9"
+          "text": "Boolean"
         },
         {
           "kind": "span",
@@ -4817,7 +4733,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "procedure"
+          "text": "function"
         },
         {
           "kind": "span",
@@ -4827,8 +4743,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Close",
-          "href": "docs/hal__filesystem___spec.html#L159C14"
+          "text": "Size",
+          "href": "docs/hal__filesystem___spec.html#L159C13"
         },
         {
           "kind": "span",
@@ -4844,7 +4760,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L159C21"
+          "href": "docs/hal__filesystem___spec.html#L159C19"
         },
         {
           "kind": "span",
@@ -4863,34 +4779,35 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "in"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
           "text": "Node_Handle",
-          "href": "docs/hal__filesystem___spec.html#L88C9"
+          "href": "docs/hal__filesystem___spec.html#L90C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "File_Size",
+          "href": "docs/hal__filesystem___spec.html#L76C9"
         },
         {
           "kind": "span",
@@ -4936,8 +4853,106 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "---------------------"
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Close",
+          "href": "docs/hal__filesystem___spec.html#L161C14"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "This",
+          "href": "docs/hal__filesystem___spec.html#L161C21"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "in"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "out"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Node_Handle",
+          "href": "docs/hal__filesystem___spec.html#L90C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "abstract"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -4945,16 +4960,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 162,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- File operations --"
-        }
       ]
     },
     {
@@ -4977,11 +4982,43 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 164,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- File operations --"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 165,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "---------------------"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 166,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 167,
       "children": [
         {
           "kind": "span",
@@ -5002,13 +5039,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Open",
-          "href": "docs/hal__filesystem___spec.html#L165C13"
+          "href": "docs/hal__filesystem___spec.html#L167C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 166,
+      "number": 168,
       "children": [
         {
           "kind": "span",
@@ -5024,7 +5061,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L166C7"
+          "href": "docs/hal__filesystem___spec.html#L168C7"
         },
         {
           "kind": "span",
@@ -5065,92 +5102,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Filesystem_Driver",
-          "href": "docs/hal__filesystem___spec.html#L79C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 167,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Path",
-          "href": "docs/hal__filesystem___spec.html#L167C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "String"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 168,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Mode",
-          "href": "docs/hal__filesystem___spec.html#L168C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "File_Mode",
-          "href": "docs/hal__filesystem___spec.html#L62C9"
+          "href": "docs/hal__filesystem___spec.html#L81C9"
         },
         {
           "kind": "span",
@@ -5171,210 +5123,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Handle",
+          "text": "Path",
           "href": "docs/hal__filesystem___spec.html#L169C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Any_File_Handle",
-          "href": "docs/hal__filesystem___spec.html#L86C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 170,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Status_Code",
-          "href": "docs/hal__filesystem___spec.html#L35C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "abstract"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 171,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Open a new File Handle at the given Filesystem_Driver Path"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 172,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 173,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Open",
-          "href": "docs/hal__filesystem___spec.html#L173C13"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 174,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L174C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Node_Handle",
-          "href": "docs/hal__filesystem___spec.html#L88C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 175,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Name",
-          "href": "docs/hal__filesystem___spec.html#L175C7"
         },
         {
           "kind": "span",
@@ -5405,7 +5155,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 176,
+      "number": 170,
       "children": [
         {
           "kind": "span",
@@ -5416,7 +5166,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Mode",
-          "href": "docs/hal__filesystem___spec.html#L176C7"
+          "href": "docs/hal__filesystem___spec.html#L170C7"
         },
         {
           "kind": "span",
@@ -5437,7 +5187,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Mode",
-          "href": "docs/hal__filesystem___spec.html#L62C9"
+          "href": "docs/hal__filesystem___spec.html#L64C9"
         },
         {
           "kind": "span",
@@ -5448,7 +5198,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 177,
+      "number": 171,
       "children": [
         {
           "kind": "span",
@@ -5459,7 +5209,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Handle",
-          "href": "docs/hal__filesystem___spec.html#L177C7"
+          "href": "docs/hal__filesystem___spec.html#L171C7"
         },
         {
           "kind": "span",
@@ -5490,7 +5240,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Any_File_Handle",
-          "href": "docs/hal__filesystem___spec.html#L86C9"
+          "href": "docs/hal__filesystem___spec.html#L88C9"
         },
         {
           "kind": "span",
@@ -5501,7 +5251,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 178,
+      "number": 172,
       "children": [
         {
           "kind": "span",
@@ -5522,7 +5272,294 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Status_Code",
-          "href": "docs/hal__filesystem___spec.html#L35C9"
+          "href": "docs/hal__filesystem___spec.html#L37C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "abstract"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 173,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Open a new File Handle at the given Filesystem_Driver Path"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 174,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 175,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Open",
+          "href": "docs/hal__filesystem___spec.html#L175C13"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 176,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "This",
+          "href": "docs/hal__filesystem___spec.html#L176C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Node_Handle",
+          "href": "docs/hal__filesystem___spec.html#L90C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 177,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Name",
+          "href": "docs/hal__filesystem___spec.html#L177C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "String"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 178,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Mode",
+          "href": "docs/hal__filesystem___spec.html#L178C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "File_Mode",
+          "href": "docs/hal__filesystem___spec.html#L64C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 179,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Handle",
+          "href": "docs/hal__filesystem___spec.html#L179C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "out"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Any_File_Handle",
+          "href": "docs/hal__filesystem___spec.html#L88C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 180,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Status_Code",
+          "href": "docs/hal__filesystem___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -5548,7 +5585,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 179,
+      "number": 181,
       "children": [
         {
           "kind": "span",
@@ -5574,13 +5611,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 180,
+      "number": 182,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 181,
+      "number": 183,
       "children": [
         {
           "kind": "span",
@@ -5601,13 +5638,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Get_FS",
-          "href": "docs/hal__filesystem___spec.html#L181C13"
+          "href": "docs/hal__filesystem___spec.html#L183C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 182,
+      "number": 184,
       "children": [
         {
           "kind": "span",
@@ -5623,7 +5660,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L182C7"
+          "href": "docs/hal__filesystem___spec.html#L184C7"
         },
         {
           "kind": "span",
@@ -5664,7 +5701,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Handle",
-          "href": "docs/hal__filesystem___spec.html#L85C9"
+          "href": "docs/hal__filesystem___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -5690,7 +5727,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Any_Filesystem_Driver",
-          "href": "docs/hal__filesystem___spec.html#L80C9"
+          "href": "docs/hal__filesystem___spec.html#L82C9"
         },
         {
           "kind": "span",
@@ -5721,13 +5758,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 183,
+      "number": 185,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 184,
+      "number": 186,
       "children": [
         {
           "kind": "span",
@@ -5748,13 +5785,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Size",
-          "href": "docs/hal__filesystem___spec.html#L184C13"
+          "href": "docs/hal__filesystem___spec.html#L186C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 185,
+      "number": 187,
       "children": [
         {
           "kind": "span",
@@ -5770,7 +5807,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L185C7"
+          "href": "docs/hal__filesystem___spec.html#L187C7"
         },
         {
           "kind": "span",
@@ -5791,7 +5828,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Handle",
-          "href": "docs/hal__filesystem___spec.html#L85C9"
+          "href": "docs/hal__filesystem___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -5817,7 +5854,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Size",
-          "href": "docs/hal__filesystem___spec.html#L74C9"
+          "href": "docs/hal__filesystem___spec.html#L76C9"
         },
         {
           "kind": "span",
@@ -5848,13 +5885,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 186,
+      "number": 188,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 187,
+      "number": 189,
       "children": [
         {
           "kind": "span",
@@ -5875,13 +5912,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Mode",
-          "href": "docs/hal__filesystem___spec.html#L187C13"
+          "href": "docs/hal__filesystem___spec.html#L189C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 188,
+      "number": 190,
       "children": [
         {
           "kind": "span",
@@ -5897,7 +5934,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L188C7"
+          "href": "docs/hal__filesystem___spec.html#L190C7"
         },
         {
           "kind": "span",
@@ -5918,7 +5955,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Handle",
-          "href": "docs/hal__filesystem___spec.html#L85C9"
+          "href": "docs/hal__filesystem___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -5944,7 +5981,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Mode",
-          "href": "docs/hal__filesystem___spec.html#L62C9"
+          "href": "docs/hal__filesystem___spec.html#L64C9"
         },
         {
           "kind": "span",
@@ -5975,13 +6012,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 189,
+      "number": 191,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 190,
+      "number": 192,
       "children": [
         {
           "kind": "span",
@@ -6002,13 +6039,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Read",
-          "href": "docs/hal__filesystem___spec.html#L190C13"
+          "href": "docs/hal__filesystem___spec.html#L192C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 191,
+      "number": 193,
       "children": [
         {
           "kind": "span",
@@ -6024,7 +6061,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L191C7"
+          "href": "docs/hal__filesystem___spec.html#L193C7"
         },
         {
           "kind": "span",
@@ -6065,7 +6102,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Handle",
-          "href": "docs/hal__filesystem___spec.html#L85C9"
+          "href": "docs/hal__filesystem___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -6076,7 +6113,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 192,
+      "number": 194,
       "children": [
         {
           "kind": "span",
@@ -6087,7 +6124,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Addr",
-          "href": "docs/hal__filesystem___spec.html#L192C7"
+          "href": "docs/hal__filesystem___spec.html#L194C7"
         },
         {
           "kind": "span",
@@ -6118,7 +6155,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 193,
+      "number": 195,
       "children": [
         {
           "kind": "span",
@@ -6129,7 +6166,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Length",
-          "href": "docs/hal__filesystem___spec.html#L193C7"
+          "href": "docs/hal__filesystem___spec.html#L195C7"
         },
         {
           "kind": "span",
@@ -6170,7 +6207,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Size",
-          "href": "docs/hal__filesystem___spec.html#L74C9"
+          "href": "docs/hal__filesystem___spec.html#L76C9"
         },
         {
           "kind": "span",
@@ -6181,7 +6218,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 194,
+      "number": 196,
       "children": [
         {
           "kind": "span",
@@ -6202,7 +6239,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Status_Code",
-          "href": "docs/hal__filesystem___spec.html#L35C9"
+          "href": "docs/hal__filesystem___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -6228,7 +6265,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 195,
+      "number": 197,
       "children": [
         {
           "kind": "span",
@@ -6264,13 +6301,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 196,
+      "number": 198,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 197,
+      "number": 199,
       "children": [
         {
           "kind": "span",
@@ -6291,13 +6328,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Write",
-          "href": "docs/hal__filesystem___spec.html#L197C13"
+          "href": "docs/hal__filesystem___spec.html#L199C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 198,
+      "number": 200,
       "children": [
         {
           "kind": "span",
@@ -6313,7 +6350,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L198C7"
+          "href": "docs/hal__filesystem___spec.html#L200C7"
         },
         {
           "kind": "span",
@@ -6354,7 +6391,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Handle",
-          "href": "docs/hal__filesystem___spec.html#L85C9"
+          "href": "docs/hal__filesystem___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -6365,7 +6402,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 199,
+      "number": 201,
       "children": [
         {
           "kind": "span",
@@ -6376,7 +6413,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Addr",
-          "href": "docs/hal__filesystem___spec.html#L199C7"
+          "href": "docs/hal__filesystem___spec.html#L201C7"
         },
         {
           "kind": "span",
@@ -6407,7 +6444,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 200,
+      "number": 202,
       "children": [
         {
           "kind": "span",
@@ -6418,7 +6455,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Length",
-          "href": "docs/hal__filesystem___spec.html#L200C7"
+          "href": "docs/hal__filesystem___spec.html#L202C7"
         },
         {
           "kind": "span",
@@ -6439,7 +6476,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Size",
-          "href": "docs/hal__filesystem___spec.html#L74C9"
+          "href": "docs/hal__filesystem___spec.html#L76C9"
         },
         {
           "kind": "span",
@@ -6450,7 +6487,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 201,
+      "number": 203,
       "children": [
         {
           "kind": "span",
@@ -6471,7 +6508,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Status_Code",
-          "href": "docs/hal__filesystem___spec.html#L35C9"
+          "href": "docs/hal__filesystem___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -6497,7 +6534,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 202,
+      "number": 204,
       "children": [
         {
           "kind": "span",
@@ -6513,7 +6550,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 203,
+      "number": 205,
       "children": [
         {
           "kind": "span",
@@ -6539,13 +6576,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 204,
+      "number": 206,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 205,
+      "number": 207,
       "children": [
         {
           "kind": "span",
@@ -6566,13 +6603,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Offset",
-          "href": "docs/hal__filesystem___spec.html#L205C13"
+          "href": "docs/hal__filesystem___spec.html#L207C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 206,
+      "number": 208,
       "children": [
         {
           "kind": "span",
@@ -6588,7 +6625,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L206C7"
+          "href": "docs/hal__filesystem___spec.html#L208C7"
         },
         {
           "kind": "span",
@@ -6609,7 +6646,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Handle",
-          "href": "docs/hal__filesystem___spec.html#L85C9"
+          "href": "docs/hal__filesystem___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -6620,7 +6657,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 207,
+      "number": 209,
       "children": [
         {
           "kind": "span",
@@ -6641,7 +6678,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Size",
-          "href": "docs/hal__filesystem___spec.html#L74C9"
+          "href": "docs/hal__filesystem___spec.html#L76C9"
         },
         {
           "kind": "span",
@@ -6672,13 +6709,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 208,
+      "number": 210,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 209,
+      "number": 211,
       "children": [
         {
           "kind": "span",
@@ -6699,13 +6736,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flush",
-          "href": "docs/hal__filesystem___spec.html#L209C13"
+          "href": "docs/hal__filesystem___spec.html#L211C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 210,
+      "number": 212,
       "children": [
         {
           "kind": "span",
@@ -6721,7 +6758,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L210C7"
+          "href": "docs/hal__filesystem___spec.html#L212C7"
         },
         {
           "kind": "span",
@@ -6762,7 +6799,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Handle",
-          "href": "docs/hal__filesystem___spec.html#L85C9"
+          "href": "docs/hal__filesystem___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -6773,7 +6810,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 211,
+      "number": 213,
       "children": [
         {
           "kind": "span",
@@ -6794,7 +6831,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Status_Code",
-          "href": "docs/hal__filesystem___spec.html#L35C9"
+          "href": "docs/hal__filesystem___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -6825,13 +6862,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 212,
+      "number": 214,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 213,
+      "number": 215,
       "children": [
         {
           "kind": "span",
@@ -6852,13 +6889,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Seek",
-          "href": "docs/hal__filesystem___spec.html#L213C13"
+          "href": "docs/hal__filesystem___spec.html#L215C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 214,
+      "number": 216,
       "children": [
         {
           "kind": "span",
@@ -6874,7 +6911,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L214C7"
+          "href": "docs/hal__filesystem___spec.html#L216C7"
         },
         {
           "kind": "span",
@@ -6915,7 +6952,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Handle",
-          "href": "docs/hal__filesystem___spec.html#L85C9"
+          "href": "docs/hal__filesystem___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -6926,7 +6963,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 215,
+      "number": 217,
       "children": [
         {
           "kind": "span",
@@ -6937,7 +6974,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Origin",
-          "href": "docs/hal__filesystem___spec.html#L215C7"
+          "href": "docs/hal__filesystem___spec.html#L217C7"
         },
         {
           "kind": "span",
@@ -6958,7 +6995,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Seek_Mode",
-          "href": "docs/hal__filesystem___spec.html#L63C9"
+          "href": "docs/hal__filesystem___spec.html#L65C9"
         },
         {
           "kind": "span",
@@ -6969,7 +7006,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 216,
+      "number": 218,
       "children": [
         {
           "kind": "span",
@@ -6980,7 +7017,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Amount",
-          "href": "docs/hal__filesystem___spec.html#L216C7"
+          "href": "docs/hal__filesystem___spec.html#L218C7"
         },
         {
           "kind": "span",
@@ -7021,7 +7058,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Size",
-          "href": "docs/hal__filesystem___spec.html#L74C9"
+          "href": "docs/hal__filesystem___spec.html#L76C9"
         },
         {
           "kind": "span",
@@ -7032,7 +7069,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 217,
+      "number": 219,
       "children": [
         {
           "kind": "span",
@@ -7053,127 +7090,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Status_Code",
-          "href": "docs/hal__filesystem___spec.html#L35C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "abstract"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 218,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 219,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Close",
-          "href": "docs/hal__filesystem___spec.html#L219C14"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L219C21"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "in"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "File_Handle",
-          "href": "docs/hal__filesystem___spec.html#L85C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
+          "href": "docs/hal__filesystem___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -7219,8 +7136,106 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "-------------------"
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Close",
+          "href": "docs/hal__filesystem___spec.html#L221C14"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "This",
+          "href": "docs/hal__filesystem___spec.html#L221C21"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "in"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "out"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "File_Handle",
+          "href": "docs/hal__filesystem___spec.html#L87C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "abstract"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -7228,16 +7243,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 222,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- FS operations --"
-        }
       ]
     },
     {
@@ -7260,11 +7265,43 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 224,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- FS operations --"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 225,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-------------------"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 226,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 227,
       "children": [
         {
           "kind": "span",
@@ -7285,7 +7322,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Close",
-          "href": "docs/hal__filesystem___spec.html#L225C14"
+          "href": "docs/hal__filesystem___spec.html#L227C14"
         },
         {
           "kind": "span",
@@ -7301,7 +7338,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__filesystem___spec.html#L225C21"
+          "href": "docs/hal__filesystem___spec.html#L227C21"
         },
         {
           "kind": "span",
@@ -7342,7 +7379,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Filesystem_Driver",
-          "href": "docs/hal__filesystem___spec.html#L79C9"
+          "href": "docs/hal__filesystem___spec.html#L81C9"
         },
         {
           "kind": "span",
@@ -7378,13 +7415,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 226,
+      "number": 228,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 227,
+      "number": 229,
       "children": [
         {
           "kind": "span",

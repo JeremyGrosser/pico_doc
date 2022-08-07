@@ -405,11 +405,42 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 35,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "pragma"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Preelaborate"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 36,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -430,7 +461,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Clock_Source",
-          "href": "docs/cortex_m__systick___spec.html#L36C9"
+          "href": "docs/cortex_m__systick___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -456,7 +487,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CPU_Clock",
-          "href": "docs/cortex_m__systick___spec.html#L36C26"
+          "href": "docs/cortex_m__systick___spec.html#L37C26"
         },
         {
           "kind": "span",
@@ -472,7 +503,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "External_Clock",
-          "href": "docs/cortex_m__systick___spec.html#L36C37"
+          "href": "docs/cortex_m__systick___spec.html#L37C37"
         },
         {
           "kind": "span",
@@ -483,19 +514,19 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/cortex_m__systick___spec.html#L36C9"
+          "href": "docs/cortex_m__systick___spec.html#L37C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 38,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 39,
       "children": [
         {
           "kind": "span",
@@ -516,7 +547,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Configure",
-          "href": "docs/cortex_m__systick___spec.html#L38C14"
+          "href": "docs/cortex_m__systick___spec.html#L39C14"
         },
         {
           "kind": "span",
@@ -532,7 +563,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Source",
-          "href": "docs/cortex_m__systick___spec.html#L38C25"
+          "href": "docs/cortex_m__systick___spec.html#L39C25"
         },
         {
           "kind": "span",
@@ -553,7 +584,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Clock_Source",
-          "href": "docs/cortex_m__systick___spec.html#L36C9"
+          "href": "docs/cortex_m__systick___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -564,7 +595,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 40,
       "children": [
         {
           "kind": "span",
@@ -575,7 +606,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Generate_Interrupt",
-          "href": "docs/cortex_m__systick___spec.html#L39C25"
+          "href": "docs/cortex_m__systick___spec.html#L40C25"
         },
         {
           "kind": "span",
@@ -606,7 +637,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 41,
       "children": [
         {
           "kind": "span",
@@ -617,7 +648,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reload_Value",
-          "href": "docs/cortex_m__systick___spec.html#L40C25"
+          "href": "docs/cortex_m__systick___spec.html#L41C25"
         },
         {
           "kind": "span",
@@ -654,13 +685,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 42,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -681,7 +712,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Enable",
-          "href": "docs/cortex_m__systick___spec.html#L42C14"
+          "href": "docs/cortex_m__systick___spec.html#L43C14"
         },
         {
           "kind": "span",
@@ -692,7 +723,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -708,13 +739,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 45,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 46,
       "children": [
         {
           "kind": "span",
@@ -735,7 +766,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Disable",
-          "href": "docs/cortex_m__systick___spec.html#L45C14"
+          "href": "docs/cortex_m__systick___spec.html#L46C14"
         },
         {
           "kind": "span",
@@ -746,7 +777,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 47,
       "children": [
         {
           "kind": "span",
@@ -762,13 +793,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 47,
+      "number": 48,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 49,
       "children": [
         {
           "kind": "span",
@@ -789,7 +820,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Counted_To_Zero",
-          "href": "docs/cortex_m__systick___spec.html#L48C13"
+          "href": "docs/cortex_m__systick___spec.html#L49C13"
         },
         {
           "kind": "span",
@@ -820,7 +851,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 49,
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -836,13 +867,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 51,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 52,
       "children": [
         {
           "kind": "span",
@@ -863,7 +894,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Counter",
-          "href": "docs/cortex_m__systick___spec.html#L51C13"
+          "href": "docs/cortex_m__systick___spec.html#L52C13"
         },
         {
           "kind": "span",
@@ -895,7 +926,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 52,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -911,13 +942,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 53,
+      "number": 54,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 54,
+      "number": 55,
       "children": [
         {
           "kind": "span",

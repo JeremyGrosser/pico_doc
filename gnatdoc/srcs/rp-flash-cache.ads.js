@@ -107,16 +107,6 @@ GNATdoc.SourceFile = {
           "cssClass": "identifier",
           "text": "RP.Flash.Cache",
           "href": "docs/rp__flash__cache___spec.html#L8C18"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
         }
       ]
     },
@@ -132,7 +122,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "procedure"
+          "text": "with"
         },
         {
           "kind": "span",
@@ -142,13 +132,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Enable",
-          "href": "docs/rp__flash__cache___spec.html#L9C14"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "text": "Preelaborate"
         }
       ]
     },
@@ -158,29 +142,8 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
           "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Disable",
-          "href": "docs/rp__flash__cache___spec.html#L10C14"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "text": "is"
         }
       ]
     },
@@ -206,7 +169,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Power_Down",
+          "text": "Enable",
           "href": "docs/rp__flash__cache___spec.html#L11C14"
         },
         {
@@ -227,8 +190,24 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Power_Down implies Disable, cache state is retained while powered down"
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Disable",
+          "href": "docs/rp__flash__cache___spec.html#L12C14"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -236,11 +215,59 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 13,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Power_Down",
+          "href": "docs/rp__flash__cache___spec.html#L13C14"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 14,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Power_Down implies Disable, cache state is retained while powered down"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 15,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 16,
       "children": [
         {
           "kind": "span",
@@ -261,13 +288,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Is_Enabled",
-          "href": "docs/rp__flash__cache___spec.html#L14C13"
+          "href": "docs/rp__flash__cache___spec.html#L16C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 15,
+      "number": 17,
       "children": [
         {
           "kind": "span",
@@ -298,13 +325,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 16,
+      "number": 18,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 17,
+      "number": 19,
       "children": [
         {
           "kind": "span",
@@ -325,13 +352,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flush",
-          "href": "docs/rp__flash__cache___spec.html#L17C14"
+          "href": "docs/rp__flash__cache___spec.html#L19C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 18,
+      "number": 20,
       "children": [
         {
           "kind": "span",
@@ -347,7 +374,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Wait",
-          "href": "docs/rp__flash__cache___spec.html#L18C8"
+          "href": "docs/rp__flash__cache___spec.html#L20C8"
         },
         {
           "kind": "span",
@@ -403,7 +430,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 19,
+      "number": 21,
       "children": [
         {
           "kind": "span",
@@ -419,7 +446,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 20,
+      "number": 22,
       "children": [
         {
           "kind": "span",
@@ -435,13 +462,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 21,
+      "number": 23,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 22,
+      "number": 24,
       "children": [
         {
           "kind": "span",
@@ -462,13 +489,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Hit_Count",
-          "href": "docs/rp__flash__cache___spec.html#L22C13"
+          "href": "docs/rp__flash__cache___spec.html#L24C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 23,
+      "number": 25,
       "children": [
         {
           "kind": "span",
@@ -500,13 +527,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 24,
+      "number": 26,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 25,
+      "number": 27,
       "children": [
         {
           "kind": "span",
@@ -527,13 +554,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Access_Count",
-          "href": "docs/rp__flash__cache___spec.html#L25C13"
+          "href": "docs/rp__flash__cache___spec.html#L27C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 26,
+      "number": 28,
       "children": [
         {
           "kind": "span",
@@ -565,13 +592,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 27,
+      "number": 29,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 28,
+      "number": 30,
       "children": [
         {
           "kind": "span",
@@ -592,7 +619,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reset_Counters",
-          "href": "docs/rp__flash__cache___spec.html#L28C14"
+          "href": "docs/rp__flash__cache___spec.html#L30C14"
         },
         {
           "kind": "span",
@@ -603,13 +630,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 29,
+      "number": 31,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 30,
+      "number": 32,
       "children": [
         {
           "kind": "span",

@@ -209,12 +209,39 @@ GNATdoc.SourceFile = {
           "cssClass": "identifier",
           "text": "RP.Timer",
           "href": "docs/rp__timer___spec.html#L10C12"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 11,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
         },
         {
           "kind": "span",
           "cssClass": "text",
           "text": " "
         },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Preelaborate"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 12,
+      "children": [
         {
           "kind": "span",
           "cssClass": "keyword",
@@ -224,7 +251,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 11,
+      "number": 13,
       "children": [
         {
           "kind": "span",
@@ -245,7 +272,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Time",
-          "href": "docs/rp__timer___spec.html#L11C9"
+          "href": "docs/rp__timer___spec.html#L13C9"
         },
         {
           "kind": "span",
@@ -287,7 +314,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 12,
+      "number": 14,
       "children": [
         {
           "kind": "span",
@@ -298,7 +325,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Ticks_Per_Second",
-          "href": "docs/rp__timer___spec.html#L12C4"
+          "href": "docs/rp__timer___spec.html#L14C4"
         },
         {
           "kind": "span",
@@ -349,13 +376,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 13,
+      "number": 15,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 14,
+      "number": 16,
       "children": [
         {
           "kind": "span",
@@ -371,7 +398,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 15,
+      "number": 17,
       "children": [
         {
           "kind": "span",
@@ -392,13 +419,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Clock",
-          "href": "docs/rp__timer___spec.html#L15C13"
+          "href": "docs/rp__timer___spec.html#L17C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 16,
+      "number": 18,
       "children": [
         {
           "kind": "span",
@@ -419,7 +446,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Time",
-          "href": "docs/rp__timer___spec.html#L11C9"
+          "href": "docs/rp__timer___spec.html#L13C9"
         },
         {
           "kind": "span",
@@ -430,13 +457,141 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 17,
+      "number": 19,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 18,
+      "number": 20,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Waste CPU cycles until Clock reaches the given Deadline. This procedure"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 21,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  is useful in situations where interrupt based delays will not work,"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 22,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  e.g. an interrupt handler."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 23,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Busy_Wait_Until",
+          "href": "docs/rp__timer___spec.html#L23C14"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Deadline",
+          "href": "docs/rp__timer___spec.html#L23C31"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Time",
+          "href": "docs/rp__timer___spec.html#L13C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 24,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 25,
       "children": [
         {
           "kind": "span",
@@ -457,7 +612,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delays",
-          "href": "docs/rp__timer___spec.html#L18C9"
+          "href": "docs/rp__timer___spec.html#L25C9"
         },
         {
           "kind": "span",
@@ -488,7 +643,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "HAL.Time.Delays",
-          "href": "docs/hal__time___spec.html#L34C9"
+          "href": "docs/hal__time___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -524,19 +679,19 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/rp__timer___spec.html#L18C9"
+          "href": "docs/rp__timer___spec.html#L25C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 19,
+      "number": 26,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 20,
+      "number": 27,
       "children": [
         {
           "kind": "span",
@@ -557,13 +712,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Enabled",
-          "href": "docs/rp__timer___spec.html#L20C13"
+          "href": "docs/rp__timer___spec.html#L27C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 21,
+      "number": 28,
       "children": [
         {
           "kind": "span",
@@ -579,7 +734,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__timer___spec.html#L21C8"
+          "href": "docs/rp__timer___spec.html#L28C8"
         },
         {
           "kind": "span",
@@ -600,7 +755,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delays",
-          "href": "docs/rp__timer___spec.html#L18C9"
+          "href": "docs/rp__timer___spec.html#L25C9"
         },
         {
           "kind": "span",
@@ -611,7 +766,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 22,
+      "number": 29,
       "children": [
         {
           "kind": "span",
@@ -642,13 +797,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 23,
+      "number": 30,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 24,
+      "number": 31,
       "children": [
         {
           "kind": "span",
@@ -664,7 +819,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 25,
+      "number": 32,
       "children": [
         {
           "kind": "span",
@@ -685,266 +840,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Enable",
-          "href": "docs/rp__timer___spec.html#L25C14"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 26,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "This",
-          "href": "docs/rp__timer___spec.html#L26C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "in"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Delays",
-          "href": "docs/rp__timer___spec.html#L18C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 27,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 28,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Disable",
-          "href": "docs/rp__timer___spec.html#L28C14"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 29,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "This",
-          "href": "docs/rp__timer___spec.html#L29C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "in"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Delays",
-          "href": "docs/rp__timer___spec.html#L18C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 30,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 31,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Milliseconds",
-          "href": "docs/rp__timer___spec.html#L31C13"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 32,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "T",
-          "href": "docs/rp__timer___spec.html#L32C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Natural"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
+          "href": "docs/rp__timer___spec.html#L32C14"
         }
       ]
     },
@@ -959,8 +855,14 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "This",
+          "href": "docs/rp__timer___spec.html#L33C8"
         },
         {
           "kind": "span",
@@ -970,8 +872,43 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Time",
-          "href": "docs/rp__timer___spec.html#L11C9"
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "in"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "out"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Delays",
+          "href": "docs/rp__timer___spec.html#L25C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
         },
         {
           "kind": "span",
@@ -1008,7 +945,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Delay_Until",
+          "text": "Disable",
           "href": "docs/rp__timer___spec.html#L35C14"
         }
       ]
@@ -1072,7 +1009,12 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delays",
-          "href": "docs/rp__timer___spec.html#L18C9"
+          "href": "docs/rp__timer___spec.html#L25C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
         },
         {
           "kind": "span",
@@ -1085,21 +1027,59 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 37,
       "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 38,
+      "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Milliseconds",
+          "href": "docs/rp__timer___spec.html#L38C13"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 39,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": "T",
-          "href": "docs/rp__timer___spec.html#L37C8"
+          "href": "docs/rp__timer___spec.html#L39C8"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "    "
+          "text": " "
         },
         {
           "kind": "span",
@@ -1114,8 +1094,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Time",
-          "href": "docs/rp__timer___spec.html#L11C9"
+          "text": "Natural"
         },
         {
           "kind": "span",
@@ -1126,22 +1105,28 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 40,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "      "
         },
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "with"
+          "text": "return"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " Pre => Enabled (This)"
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Time",
+          "href": "docs/rp__timer___spec.html#L13C9"
         },
         {
           "kind": "span",
@@ -1152,61 +1137,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 39,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 40,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Microsecond delays are assumed to be relatively short and are"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 41,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  implemented with a polling loop rather than interrupts"
-        }
       ]
     },
     {
       "kind": "line",
       "number": 42,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "overriding"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -1226,14 +1163,14 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Delay_Microseconds",
-          "href": "docs/rp__timer___spec.html#L43C14"
+          "text": "Delay_Until",
+          "href": "docs/rp__timer___spec.html#L42C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -1249,7 +1186,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__timer___spec.html#L44C8"
+          "href": "docs/rp__timer___spec.html#L43C8"
         },
         {
           "kind": "span",
@@ -1290,7 +1227,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delays",
-          "href": "docs/rp__timer___spec.html#L18C9"
+          "href": "docs/rp__timer___spec.html#L25C9"
         },
         {
           "kind": "span",
@@ -1301,7 +1238,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -1311,13 +1248,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Us",
-          "href": "docs/rp__timer___spec.html#L45C8"
+          "text": "T",
+          "href": "docs/rp__timer___spec.html#L44C8"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "    "
         },
         {
           "kind": "span",
@@ -1332,12 +1269,34 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Integer"
+          "text": "Time",
+          "href": "docs/rp__timer___spec.html#L13C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 45,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Pre => Enabled (This)"
         },
         {
           "kind": "span",
@@ -1363,6 +1322,38 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Microsecond delays are assumed to be relatively short and are"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 48,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  implemented with a polling loop rather than interrupts"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 49,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
           "cssClass": "keyword",
           "text": "overriding"
         }
@@ -1370,7 +1361,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -1390,14 +1381,14 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Delay_Milliseconds",
-          "href": "docs/rp__timer___spec.html#L48C14"
+          "text": "Delay_Microseconds",
+          "href": "docs/rp__timer___spec.html#L50C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 49,
+      "number": 51,
       "children": [
         {
           "kind": "span",
@@ -1413,7 +1404,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__timer___spec.html#L49C8"
+          "href": "docs/rp__timer___spec.html#L51C8"
         },
         {
           "kind": "span",
@@ -1454,7 +1445,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delays",
-          "href": "docs/rp__timer___spec.html#L18C9"
+          "href": "docs/rp__timer___spec.html#L25C9"
         },
         {
           "kind": "span",
@@ -1465,7 +1456,171 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 52,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Us",
+          "href": "docs/rp__timer___spec.html#L52C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Integer"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 53,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 54,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "overriding"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 55,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Delay_Milliseconds",
+          "href": "docs/rp__timer___spec.html#L55C14"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 56,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "This",
+          "href": "docs/rp__timer___spec.html#L56C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "in"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "out"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Delays",
+          "href": "docs/rp__timer___spec.html#L25C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 57,
       "children": [
         {
           "kind": "span",
@@ -1476,7 +1631,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Ms",
-          "href": "docs/rp__timer___spec.html#L50C8"
+          "href": "docs/rp__timer___spec.html#L57C8"
         },
         {
           "kind": "span",
@@ -1507,7 +1662,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 58,
       "children": [
         {
           "kind": "span",
@@ -1533,13 +1688,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 52,
+      "number": 59,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 53,
+      "number": 60,
       "children": [
         {
           "kind": "span",
@@ -1555,7 +1710,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 54,
+      "number": 61,
       "children": [
         {
           "kind": "span",
@@ -1576,13 +1731,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delay_Seconds",
-          "href": "docs/rp__timer___spec.html#L54C14"
+          "href": "docs/rp__timer___spec.html#L61C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 55,
+      "number": 62,
       "children": [
         {
           "kind": "span",
@@ -1598,7 +1753,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__timer___spec.html#L55C8"
+          "href": "docs/rp__timer___spec.html#L62C8"
         },
         {
           "kind": "span",
@@ -1639,7 +1794,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delays",
-          "href": "docs/rp__timer___spec.html#L18C9"
+          "href": "docs/rp__timer___spec.html#L25C9"
         },
         {
           "kind": "span",
@@ -1650,7 +1805,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 63,
       "children": [
         {
           "kind": "span",
@@ -1661,7 +1816,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "S",
-          "href": "docs/rp__timer___spec.html#L56C8"
+          "href": "docs/rp__timer___spec.html#L63C8"
         },
         {
           "kind": "span",
@@ -1692,7 +1847,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 57,
+      "number": 64,
       "children": [
         {
           "kind": "span",
@@ -1718,13 +1873,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 65,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 59,
+      "number": 66,
       "children": [
         {
           "kind": "span",
@@ -1740,7 +1895,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 60,
+      "number": 67,
       "children": [
         {
           "kind": "span",
@@ -1761,13 +1916,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "IRQ_Handler",
-          "href": "docs/rp__timer___spec.html#L60C14"
+          "href": "docs/rp__timer___spec.html#L67C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 61,
+      "number": 68,
       "children": [
         {
           "kind": "span",
@@ -1783,7 +1938,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Id",
-          "href": "docs/rp__timer___spec.html#L61C8"
+          "href": "docs/rp__timer___spec.html#L68C8"
         },
         {
           "kind": "span",
@@ -1804,7 +1959,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP_Interrupts.Interrupt_ID",
-          "href": "docs/rp_interrupts___spec.html#L14C12"
+          "href": "docs/rp_interrupts___spec.html#L16C12"
         },
         {
           "kind": "span",
@@ -1820,13 +1975,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 62,
+      "number": 69,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 70,
       "children": [
         {
           "kind": "span",

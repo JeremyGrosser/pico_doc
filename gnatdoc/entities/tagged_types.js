@@ -17,38 +17,45 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Default_Serial_Class",
-      "docHref": "docs/usb__device__serial___spec.html#L37C9",
+      "docHref": "docs/usb__device__serial___spec.html#L38C9",
       "declared": "USB.Device.Serial",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb-device-serial.ads.html#L37"
+      "srcHref": "srcs/usb-device-serial.ads.html#L38"
     },
     {
       "label": "Delays",
-      "docHref": "docs/rp__timer___spec.html#L18C9",
+      "docHref": "docs/rp__timer___spec.html#L25C9",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L18"
+      "srcHref": "srcs/rp-timer.ads.html#L25"
     },
     {
       "label": "GPIO_Point",
-      "docHref": "docs/rp__gpio___spec.html#L18C9",
+      "docHref": "docs/rp__gpio___spec.html#L20C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L18"
+      "srcHref": "srcs/rp-gpio.ads.html#L20"
     },
     {
       "label": "I2C_Master_Port",
-      "docHref": "docs/rp__i2c_master___spec.html#L17C9",
+      "docHref": "docs/rp__i2c_master___spec.html#L21C9",
       "declared": "RP.I2C_Master",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-i2c_master.ads.html#L17"
+      "srcHref": "srcs/rp-i2c_master.ads.html#L21"
+    },
+    {
+      "label": "I2C_Port",
+      "docHref": "docs/rp__i2c___spec.html#L10C9",
+      "declared": "RP.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-i2c.ads.html#L10"
     },
     {
       "label": "I2S_Device",
-      "docHref": "docs/rp__pio__audio_i2s___spec.html#L18C9",
+      "docHref": "docs/rp__pio__audio_i2s___spec.html#L20C9",
       "declared": "RP.PIO.Audio_I2S",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-audio_i2s.ads.html#L18"
+      "srcHref": "srcs/rp-pio-audio_i2s.ads.html#L20"
     },
     {
       "label": "Instance",
@@ -80,45 +87,45 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PIO_Device",
-      "docHref": "docs/rp__pio___spec.html#L17C9",
+      "docHref": "docs/rp__pio___spec.html#L19C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L17"
+      "srcHref": "srcs/rp-pio.ads.html#L19"
     },
     {
       "label": "RTC_Device",
-      "docHref": "docs/rp__rtc___spec.html#L11C9",
+      "docHref": "docs/rp__rtc___spec.html#L13C9",
       "declared": "RP.RTC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rtc.ads.html#L11"
+      "srcHref": "srcs/rp-rtc.ads.html#L13"
     },
     {
       "label": "SHFS",
-      "docHref": "docs/semihosting__filesystem___spec.html#L42C9",
+      "docHref": "docs/semihosting__filesystem___spec.html#L43C9",
       "declared": "Semihosting.Filesystem",
       "declared_qualifier": "",
-      "srcHref": "srcs/semihosting-filesystem.ads.html#L42"
+      "srcHref": "srcs/semihosting-filesystem.ads.html#L43"
     },
     {
       "label": "SPI_Port",
-      "docHref": "docs/rp__spi___spec.html#L13C9",
+      "docHref": "docs/rp__spi___spec.html#L15C9",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L13"
+      "srcHref": "srcs/rp-spi.ads.html#L15"
     },
     {
       "label": "Strip",
-      "docHref": "docs/rp__pio__ws2812___spec.html#L11C9",
+      "docHref": "docs/rp__pio__ws2812___spec.html#L13C9",
       "declared": "RP.PIO.WS2812",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-ws2812.ads.html#L11"
+      "srcHref": "srcs/rp-pio-ws2812.ads.html#L13"
     },
     {
       "label": "UART_Port",
-      "docHref": "docs/rp__uart___spec.html#L15C9",
+      "docHref": "docs/rp__uart___spec.html#L38C9",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L15"
+      "srcHref": "srcs/rp-uart.ads.html#L38"
     },
     {
       "label": "USB_Device_Controller",

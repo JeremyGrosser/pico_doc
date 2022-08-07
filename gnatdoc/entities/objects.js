@@ -3,10 +3,10 @@ GNATdoc.EntitiesCategory = {
   "entities": [
     {
       "label": "Acmd_Desc",
-      "docHref": "docs/hal__sdmmc___spec.html#L366C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L367C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L366"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L367"
     },
     {
       "label": "ADC_Base",
@@ -30,18 +30,81 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/usb-lang.ads.html#L5"
     },
     {
+      "label": "Alire_Host_Arch",
+      "docHref": "docs/cortex_m_config___spec.html#L13C4",
+      "declared": "Cortex_M_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/cortex_m_config.ads.html#L13"
+    },
+    {
+      "label": "Alire_Host_Arch",
+      "docHref": "docs/usb_embedded_config___spec.html#L13C4",
+      "declared": "Usb_Embedded_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb_embedded_config.ads.html#L13"
+    },
+    {
+      "label": "Alire_Host_Arch",
+      "docHref": "docs/rp2040_hal_config___spec.html#L13C4",
+      "declared": "Rp2040_Hal_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_hal_config.ads.html#L13"
+    },
+    {
+      "label": "Alire_Host_Distro",
+      "docHref": "docs/cortex_m_config___spec.html#L15C4",
+      "declared": "Cortex_M_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/cortex_m_config.ads.html#L15"
+    },
+    {
+      "label": "Alire_Host_Distro",
+      "docHref": "docs/usb_embedded_config___spec.html#L15C4",
+      "declared": "Usb_Embedded_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb_embedded_config.ads.html#L15"
+    },
+    {
+      "label": "Alire_Host_Distro",
+      "docHref": "docs/rp2040_hal_config___spec.html#L15C4",
+      "declared": "Rp2040_Hal_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_hal_config.ads.html#L15"
+    },
+    {
+      "label": "Alire_Host_OS",
+      "docHref": "docs/cortex_m_config___spec.html#L11C4",
+      "declared": "Cortex_M_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/cortex_m_config.ads.html#L11"
+    },
+    {
+      "label": "Alire_Host_OS",
+      "docHref": "docs/usb_embedded_config___spec.html#L11C4",
+      "declared": "Usb_Embedded_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb_embedded_config.ads.html#L11"
+    },
+    {
+      "label": "Alire_Host_OS",
+      "docHref": "docs/rp2040_hal_config___spec.html#L11C4",
+      "declared": "Rp2040_Hal_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_hal_config.ads.html#L11"
+    },
+    {
       "label": "All_Send_CID",
-      "docHref": "docs/hal__sdmmc___spec.html#L203C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L204C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L203"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L204"
     },
     {
       "label": "App_Cmd",
-      "docHref": "docs/hal__sdmmc___spec.html#L259C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L260C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L259"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L260"
     },
     {
       "label": "Arabic_Algeria",
@@ -171,10 +234,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Audio_I2s_Program_Instructions",
-      "docHref": "docs/rp__pio__audio_i2s_pio___spec.html#L25C4",
+      "docHref": "docs/rp__pio__audio_i2s_pio___spec.html#L24C4",
       "declared": "RP.PIO.Audio_I2S_PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-audio_i2s_pio.ads.html#L25"
+      "srcHref": "srcs/rp-pio-audio_i2s_pio.ads.html#L24"
     },
     {
       "label": "Azeri_Cyrillic",
@@ -210,6 +273,27 @@ GNATdoc.EntitiesCategory = {
       "declared": "USB.Lang",
       "declared_qualifier": "",
       "srcHref": "srcs/usb-lang.ads.html#L28"
+    },
+    {
+      "label": "Build_Profile",
+      "docHref": "docs/cortex_m_config___spec.html#L18C4",
+      "declared": "Cortex_M_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/cortex_m_config.ads.html#L18"
+    },
+    {
+      "label": "Build_Profile",
+      "docHref": "docs/usb_embedded_config___spec.html#L34C4",
+      "declared": "Usb_Embedded_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb_embedded_config.ads.html#L34"
+    },
+    {
+      "label": "Build_Profile",
+      "docHref": "docs/rp2040_hal_config___spec.html#L23C4",
+      "declared": "Rp2040_Hal_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_hal_config.ads.html#L23"
     },
     {
       "label": "Bulgarian",
@@ -283,17 +367,66 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Clr_Write_Prot",
-      "docHref": "docs/hal__sdmmc___spec.html#L249C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L250C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L249"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L250"
     },
     {
       "label": "Cmd_Desc",
-      "docHref": "docs/hal__sdmmc___spec.html#L310C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L311C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L310"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L311"
+    },
+    {
+      "label": "core",
+      "docHref": "docs/cortex_m_config___spec.html#L21C4",
+      "declared": "Cortex_M_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/cortex_m_config.ads.html#L21"
+    },
+    {
+      "label": "Crate_Name",
+      "docHref": "docs/cortex_m_config___spec.html#L9C4",
+      "declared": "Cortex_M_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/cortex_m_config.ads.html#L9"
+    },
+    {
+      "label": "Crate_Name",
+      "docHref": "docs/usb_embedded_config___spec.html#L9C4",
+      "declared": "Usb_Embedded_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb_embedded_config.ads.html#L9"
+    },
+    {
+      "label": "Crate_Name",
+      "docHref": "docs/rp2040_hal_config___spec.html#L9C4",
+      "declared": "Rp2040_Hal_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_hal_config.ads.html#L9"
+    },
+    {
+      "label": "Crate_Version",
+      "docHref": "docs/cortex_m_config___spec.html#L8C4",
+      "declared": "Cortex_M_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/cortex_m_config.ads.html#L8"
+    },
+    {
+      "label": "Crate_Version",
+      "docHref": "docs/usb_embedded_config___spec.html#L8C4",
+      "declared": "Usb_Embedded_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb_embedded_config.ads.html#L8"
+    },
+    {
+      "label": "Crate_Version",
+      "docHref": "docs/rp2040_hal_config___spec.html#L8C4",
+      "declared": "Rp2040_Hal_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_hal_config.ads.html#L8"
     },
     {
       "label": "Croatian",
@@ -325,10 +458,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Deselect_Card",
-      "docHref": "docs/hal__sdmmc___spec.html#L222C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L223C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L222"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L223"
     },
     {
       "label": "DMA_Base",
@@ -451,24 +584,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Erase",
+      "docHref": "docs/hal__sdmmc___spec.html#L256C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L256"
+    },
+    {
+      "label": "Erase_Grp_End",
       "docHref": "docs/hal__sdmmc___spec.html#L255C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-sdmmc.ads.html#L255"
     },
     {
-      "label": "Erase_Grp_End",
+      "label": "Erase_Grp_Start",
       "docHref": "docs/hal__sdmmc___spec.html#L254C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-sdmmc.ads.html#L254"
-    },
-    {
-      "label": "Erase_Grp_Start",
-      "docHref": "docs/hal__sdmmc___spec.html#L253C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L253"
     },
     {
       "label": "Estonian",
@@ -493,10 +626,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Fast_IO",
-      "docHref": "docs/hal__sdmmc___spec.html#L256C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L257C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L256"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L257"
     },
     {
       "label": "Finnish",
@@ -506,18 +639,25 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/usb-lang.ads.html#L58"
     },
     {
+      "label": "Flash_Chip",
+      "docHref": "docs/rp2040_hal_config___spec.html#L20C4",
+      "declared": "Rp2040_Hal_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_hal_config.ads.html#L20"
+    },
+    {
       "label": "Four_Comparators_Watchpoints_And_Triggers",
-      "docHref": "docs/cortex_m__dwt___spec.html#L56C4",
+      "docHref": "docs/cortex_m__dwt___spec.html#L58C4",
       "declared": "Cortex_M.DWT",
       "declared_qualifier": "",
-      "srcHref": "srcs/cortex_m-dwt.ads.html#L56"
+      "srcHref": "srcs/cortex_m-dwt.ads.html#L58"
     },
     {
       "label": "Four_Comparators_Watchpoints_Only",
-      "docHref": "docs/cortex_m__dwt___spec.html#L57C4",
+      "docHref": "docs/cortex_m__dwt___spec.html#L60C4",
       "declared": "Cortex_M.DWT",
       "declared_qualifier": "",
-      "srcHref": "srcs/cortex_m-dwt.ads.html#L57"
+      "srcHref": "srcs/cortex_m-dwt.ads.html#L60"
     },
     {
       "label": "French_Belgian",
@@ -563,10 +703,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Gen_Cmd",
-      "docHref": "docs/hal__sdmmc___spec.html#L260C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L261C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L260"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L261"
     },
     {
       "label": "Georgian",
@@ -612,24 +752,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Go_Idle_State",
-      "docHref": "docs/hal__sdmmc___spec.html#L195C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L196C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L195"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L196"
     },
     {
       "label": "Go_Inactive_State",
-      "docHref": "docs/hal__sdmmc___spec.html#L237C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L238C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L237"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L238"
     },
     {
       "label": "Go_IRQ_State",
-      "docHref": "docs/hal__sdmmc___spec.html#L257C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L258C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L257"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L258"
     },
     {
       "label": "Greek",
@@ -696,17 +836,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "HS_Bustest_Read",
-      "docHref": "docs/hal__sdmmc___spec.html#L236C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L237C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L236"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L237"
     },
     {
       "label": "HS_Bustest_Write",
-      "docHref": "docs/hal__sdmmc___spec.html#L241C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L242C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L241"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L242"
     },
     {
       "label": "Hungarian",
@@ -745,24 +885,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Initialized",
-      "docHref": "docs/rp__pwm___spec.html#L46C4",
+      "docHref": "docs/rp__pwm___spec.html#L48C4",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L46"
+      "srcHref": "srcs/rp-pwm.ads.html#L48"
     },
     {
       "label": "INTERP0_Base",
-      "docHref": "docs/rp__device___spec.html#L38C4",
+      "docHref": "docs/rp__device___spec.html#L46C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L38"
+      "srcHref": "srcs/rp-device.ads.html#L46"
     },
     {
       "label": "INTERP1_Base",
-      "docHref": "docs/rp__device___spec.html#L39C4",
+      "docHref": "docs/rp__device___spec.html#L47C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L39"
+      "srcHref": "srcs/rp-device.ads.html#L47"
     },
     {
       "label": "Invalid",
@@ -773,24 +913,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Invalid_String_Id",
-      "docHref": "docs/usb___spec.html#L100C4",
+      "docHref": "docs/usb___spec.html#L105C4",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L100"
+      "srcHref": "srcs/usb.ads.html#L105"
     },
     {
       "label": "Invert_X",
-      "docHref": "docs/hal__touch_panel___spec.html#L44C4",
-      "declared": "HAL.Touch_Panel",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-touch_panel.ads.html#L44"
-    },
-    {
-      "label": "Invert_Y",
       "docHref": "docs/hal__touch_panel___spec.html#L45C4",
       "declared": "HAL.Touch_Panel",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-touch_panel.ads.html#L45"
+    },
+    {
+      "label": "Invert_Y",
+      "docHref": "docs/hal__touch_panel___spec.html#L46C4",
+      "declared": "HAL.Touch_Panel",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-touch_panel.ads.html#L46"
     },
     {
       "label": "IO_BANK0_Base",
@@ -885,17 +1025,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Lock_Unlock",
-      "docHref": "docs/hal__sdmmc___spec.html#L258C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L259C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L258"
-    },
-    {
-      "label": "Logs_Enabled",
-      "docHref": "docs/usb___spec.html#L162C4",
-      "declared": "USB",
-      "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L162"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L259"
     },
     {
       "label": "Macedonian",
@@ -976,10 +1109,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "One_Comparator_Watchpoints",
-      "docHref": "docs/cortex_m__dwt___spec.html#L55C4",
+      "docHref": "docs/cortex_m__dwt___spec.html#L56C4",
       "declared": "Cortex_M.DWT",
       "declared_qualifier": "",
-      "srcHref": "srcs/cortex_m-dwt.ads.html#L55"
+      "srcHref": "srcs/cortex_m-dwt.ads.html#L56"
     },
     {
       "label": "Only_One_Comparator",
@@ -990,87 +1123,87 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "OPEN_FLAG_A",
-      "docHref": "docs/semihosting___spec.html#L49C4",
-      "declared": "Semihosting",
-      "declared_qualifier": "",
-      "srcHref": "srcs/semihosting.ads.html#L49"
-    },
-    {
-      "label": "OPEN_FLAG_A_PLUS",
-      "docHref": "docs/semihosting___spec.html#L51C4",
-      "declared": "Semihosting",
-      "declared_qualifier": "",
-      "srcHref": "srcs/semihosting.ads.html#L51"
-    },
-    {
-      "label": "OPEN_FLAG_A_PLUS_B",
-      "docHref": "docs/semihosting___spec.html#L52C4",
-      "declared": "Semihosting",
-      "declared_qualifier": "",
-      "srcHref": "srcs/semihosting.ads.html#L52"
-    },
-    {
-      "label": "OPEN_FLAG_AB",
       "docHref": "docs/semihosting___spec.html#L50C4",
       "declared": "Semihosting",
       "declared_qualifier": "",
       "srcHref": "srcs/semihosting.ads.html#L50"
     },
     {
+      "label": "OPEN_FLAG_A_PLUS",
+      "docHref": "docs/semihosting___spec.html#L52C4",
+      "declared": "Semihosting",
+      "declared_qualifier": "",
+      "srcHref": "srcs/semihosting.ads.html#L52"
+    },
+    {
+      "label": "OPEN_FLAG_A_PLUS_B",
+      "docHref": "docs/semihosting___spec.html#L53C4",
+      "declared": "Semihosting",
+      "declared_qualifier": "",
+      "srcHref": "srcs/semihosting.ads.html#L53"
+    },
+    {
+      "label": "OPEN_FLAG_AB",
+      "docHref": "docs/semihosting___spec.html#L51C4",
+      "declared": "Semihosting",
+      "declared_qualifier": "",
+      "srcHref": "srcs/semihosting.ads.html#L51"
+    },
+    {
       "label": "OPEN_FLAG_R",
-      "docHref": "docs/semihosting___spec.html#L41C4",
-      "declared": "Semihosting",
-      "declared_qualifier": "",
-      "srcHref": "srcs/semihosting.ads.html#L41"
-    },
-    {
-      "label": "OPEN_FLAG_R_PLUS",
-      "docHref": "docs/semihosting___spec.html#L43C4",
-      "declared": "Semihosting",
-      "declared_qualifier": "",
-      "srcHref": "srcs/semihosting.ads.html#L43"
-    },
-    {
-      "label": "OPEN_FLAG_R_PLUS_B",
-      "docHref": "docs/semihosting___spec.html#L44C4",
-      "declared": "Semihosting",
-      "declared_qualifier": "",
-      "srcHref": "srcs/semihosting.ads.html#L44"
-    },
-    {
-      "label": "OPEN_FLAG_RB",
       "docHref": "docs/semihosting___spec.html#L42C4",
       "declared": "Semihosting",
       "declared_qualifier": "",
       "srcHref": "srcs/semihosting.ads.html#L42"
     },
     {
-      "label": "OPEN_FLAG_W",
+      "label": "OPEN_FLAG_R_PLUS",
+      "docHref": "docs/semihosting___spec.html#L44C4",
+      "declared": "Semihosting",
+      "declared_qualifier": "",
+      "srcHref": "srcs/semihosting.ads.html#L44"
+    },
+    {
+      "label": "OPEN_FLAG_R_PLUS_B",
       "docHref": "docs/semihosting___spec.html#L45C4",
       "declared": "Semihosting",
       "declared_qualifier": "",
       "srcHref": "srcs/semihosting.ads.html#L45"
     },
     {
-      "label": "OPEN_FLAG_W_PLUS",
-      "docHref": "docs/semihosting___spec.html#L47C4",
+      "label": "OPEN_FLAG_RB",
+      "docHref": "docs/semihosting___spec.html#L43C4",
       "declared": "Semihosting",
       "declared_qualifier": "",
-      "srcHref": "srcs/semihosting.ads.html#L47"
+      "srcHref": "srcs/semihosting.ads.html#L43"
     },
     {
-      "label": "OPEN_FLAG_W_PLUS_B",
+      "label": "OPEN_FLAG_W",
+      "docHref": "docs/semihosting___spec.html#L46C4",
+      "declared": "Semihosting",
+      "declared_qualifier": "",
+      "srcHref": "srcs/semihosting.ads.html#L46"
+    },
+    {
+      "label": "OPEN_FLAG_W_PLUS",
       "docHref": "docs/semihosting___spec.html#L48C4",
       "declared": "Semihosting",
       "declared_qualifier": "",
       "srcHref": "srcs/semihosting.ads.html#L48"
     },
     {
-      "label": "OPEN_FLAG_WB",
-      "docHref": "docs/semihosting___spec.html#L46C4",
+      "label": "OPEN_FLAG_W_PLUS_B",
+      "docHref": "docs/semihosting___spec.html#L49C4",
       "declared": "Semihosting",
       "declared_qualifier": "",
-      "srcHref": "srcs/semihosting.ads.html#L46"
+      "srcHref": "srcs/semihosting.ads.html#L49"
+    },
+    {
+      "label": "OPEN_FLAG_WB",
+      "docHref": "docs/semihosting___spec.html#L47C4",
+      "declared": "Semihosting",
+      "declared_qualifier": "",
+      "srcHref": "srcs/semihosting.ads.html#L47"
     },
     {
       "label": "Oriya",
@@ -1151,17 +1284,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Prog_CID",
-      "docHref": "docs/hal__sdmmc___spec.html#L246C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L246"
-    },
-    {
-      "label": "Prog_CSD",
       "docHref": "docs/hal__sdmmc___spec.html#L247C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-sdmmc.ads.html#L247"
+    },
+    {
+      "label": "Prog_CSD",
+      "docHref": "docs/hal__sdmmc___spec.html#L248C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L248"
     },
     {
       "label": "PSM_Base",
@@ -1186,24 +1319,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Read_Dat_Until_Stop",
-      "docHref": "docs/hal__sdmmc___spec.html#L233C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L234C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L233"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L234"
     },
     {
       "label": "Read_Multi_Block",
+      "docHref": "docs/hal__sdmmc___spec.html#L241C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L241"
+    },
+    {
+      "label": "Read_Single_Block",
       "docHref": "docs/hal__sdmmc___spec.html#L240C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-sdmmc.ads.html#L240"
-    },
-    {
-      "label": "Read_Single_Block",
-      "docHref": "docs/hal__sdmmc___spec.html#L239C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L239"
     },
     {
       "label": "RESETS_Base",
@@ -1256,192 +1389,192 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "SD_App_Change_Secure_Area",
-      "docHref": "docs/hal__sdmmc___spec.html#L280C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L280"
-    },
-    {
-      "label": "SD_App_Get_CER_RES1",
-      "docHref": "docs/hal__sdmmc___spec.html#L279C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L279"
-    },
-    {
-      "label": "SD_App_Get_CER_RN2",
-      "docHref": "docs/hal__sdmmc___spec.html#L277C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L277"
-    },
-    {
-      "label": "SD_App_Get_MID",
-      "docHref": "docs/hal__sdmmc___spec.html#L275C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L275"
-    },
-    {
-      "label": "SD_App_Get_MKB",
-      "docHref": "docs/hal__sdmmc___spec.html#L274C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L274"
-    },
-    {
-      "label": "SD_App_Secure_Erase",
-      "docHref": "docs/hal__sdmmc___spec.html#L272C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L272"
-    },
-    {
-      "label": "SD_App_Secure_Read_Multi_Block",
-      "docHref": "docs/hal__sdmmc___spec.html#L268C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L268"
-    },
-    {
-      "label": "SD_App_Secure_Write_Multi_Block",
-      "docHref": "docs/hal__sdmmc___spec.html#L271C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L271"
-    },
-    {
-      "label": "SD_App_Send_Num_Write_Blocks",
-      "docHref": "docs/hal__sdmmc___spec.html#L269C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L269"
-    },
-    {
-      "label": "SD_App_Send_Op_Cond",
-      "docHref": "docs/hal__sdmmc___spec.html#L273C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L273"
-    },
-    {
-      "label": "SD_App_Send_SCR",
       "docHref": "docs/hal__sdmmc___spec.html#L281C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-sdmmc.ads.html#L281"
     },
     {
-      "label": "SD_App_Set_Bus_Width",
-      "docHref": "docs/hal__sdmmc___spec.html#L266C4",
+      "label": "SD_App_Get_CER_RES1",
+      "docHref": "docs/hal__sdmmc___spec.html#L280C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L266"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L280"
     },
     {
-      "label": "SD_App_Set_CER_RES2",
+      "label": "SD_App_Get_CER_RN2",
       "docHref": "docs/hal__sdmmc___spec.html#L278C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-sdmmc.ads.html#L278"
     },
     {
-      "label": "SD_App_Set_CER_RN1",
+      "label": "SD_App_Get_MID",
       "docHref": "docs/hal__sdmmc___spec.html#L276C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-sdmmc.ads.html#L276"
     },
     {
-      "label": "SD_App_Set_Write_Block_Erase_Count",
+      "label": "SD_App_Get_MKB",
+      "docHref": "docs/hal__sdmmc___spec.html#L275C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L275"
+    },
+    {
+      "label": "SD_App_Secure_Erase",
+      "docHref": "docs/hal__sdmmc___spec.html#L273C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L273"
+    },
+    {
+      "label": "SD_App_Secure_Read_Multi_Block",
+      "docHref": "docs/hal__sdmmc___spec.html#L269C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L269"
+    },
+    {
+      "label": "SD_App_Secure_Write_Multi_Block",
+      "docHref": "docs/hal__sdmmc___spec.html#L272C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L272"
+    },
+    {
+      "label": "SD_App_Send_Num_Write_Blocks",
       "docHref": "docs/hal__sdmmc___spec.html#L270C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-sdmmc.ads.html#L270"
     },
     {
-      "label": "SD_App_Status",
+      "label": "SD_App_Send_Op_Cond",
+      "docHref": "docs/hal__sdmmc___spec.html#L274C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L274"
+    },
+    {
+      "label": "SD_App_Send_SCR",
+      "docHref": "docs/hal__sdmmc___spec.html#L282C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L282"
+    },
+    {
+      "label": "SD_App_Set_Bus_Width",
       "docHref": "docs/hal__sdmmc___spec.html#L267C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-sdmmc.ads.html#L267"
     },
     {
+      "label": "SD_App_Set_CER_RES2",
+      "docHref": "docs/hal__sdmmc___spec.html#L279C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L279"
+    },
+    {
+      "label": "SD_App_Set_CER_RN1",
+      "docHref": "docs/hal__sdmmc___spec.html#L277C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L277"
+    },
+    {
+      "label": "SD_App_Set_Write_Block_Erase_Count",
+      "docHref": "docs/hal__sdmmc___spec.html#L271C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L271"
+    },
+    {
+      "label": "SD_App_Status",
+      "docHref": "docs/hal__sdmmc___spec.html#L268C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L268"
+    },
+    {
       "label": "SD_Erase_Grp_End",
+      "docHref": "docs/hal__sdmmc___spec.html#L253C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L253"
+    },
+    {
+      "label": "SD_Erase_Grp_Start",
       "docHref": "docs/hal__sdmmc___spec.html#L252C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-sdmmc.ads.html#L252"
     },
     {
-      "label": "SD_Erase_Grp_Start",
+      "label": "SDMMC_Send_Op_Cond",
+      "docHref": "docs/hal__sdmmc___spec.html#L215C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L215"
+    },
+    {
+      "label": "Select_Card",
+      "docHref": "docs/hal__sdmmc___spec.html#L222C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L222"
+    },
+    {
+      "label": "Send_CID",
+      "docHref": "docs/hal__sdmmc___spec.html#L232C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L232"
+    },
+    {
+      "label": "Send_CSD",
+      "docHref": "docs/hal__sdmmc___spec.html#L229C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L229"
+    },
+    {
+      "label": "Send_If_Cond",
+      "docHref": "docs/hal__sdmmc___spec.html#L226C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L226"
+    },
+    {
+      "label": "Send_Op_Cond",
+      "docHref": "docs/hal__sdmmc___spec.html#L200C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L200"
+    },
+    {
+      "label": "Send_Relative_Addr",
+      "docHref": "docs/hal__sdmmc___spec.html#L207C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L207"
+    },
+    {
+      "label": "Send_Status",
+      "docHref": "docs/hal__sdmmc___spec.html#L236C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L236"
+    },
+    {
+      "label": "Send_Write_Prot",
       "docHref": "docs/hal__sdmmc___spec.html#L251C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-sdmmc.ads.html#L251"
-    },
-    {
-      "label": "SDMMC_Send_Op_Cond",
-      "docHref": "docs/hal__sdmmc___spec.html#L214C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L214"
-    },
-    {
-      "label": "Select_Card",
-      "docHref": "docs/hal__sdmmc___spec.html#L221C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L221"
-    },
-    {
-      "label": "Send_CID",
-      "docHref": "docs/hal__sdmmc___spec.html#L231C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L231"
-    },
-    {
-      "label": "Send_CSD",
-      "docHref": "docs/hal__sdmmc___spec.html#L228C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L228"
-    },
-    {
-      "label": "Send_If_Cond",
-      "docHref": "docs/hal__sdmmc___spec.html#L225C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L225"
-    },
-    {
-      "label": "Send_Op_Cond",
-      "docHref": "docs/hal__sdmmc___spec.html#L199C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L199"
-    },
-    {
-      "label": "Send_Relative_Addr",
-      "docHref": "docs/hal__sdmmc___spec.html#L206C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L206"
-    },
-    {
-      "label": "Send_Status",
-      "docHref": "docs/hal__sdmmc___spec.html#L235C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L235"
-    },
-    {
-      "label": "Send_Write_Prot",
-      "docHref": "docs/hal__sdmmc___spec.html#L250C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L250"
     },
     {
       "label": "Serbian_Cyrillic",
@@ -1459,31 +1592,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Block_Count",
-      "docHref": "docs/hal__sdmmc___spec.html#L243C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L244C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L243"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L244"
     },
     {
       "label": "Set_Blocklen",
-      "docHref": "docs/hal__sdmmc___spec.html#L238C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L239C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L238"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L239"
     },
     {
       "label": "Set_DSR",
-      "docHref": "docs/hal__sdmmc___spec.html#L209C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L210C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L209"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L210"
     },
     {
       "label": "Set_Write_Prot",
-      "docHref": "docs/hal__sdmmc___spec.html#L248C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L249C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L248"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L249"
     },
     {
       "label": "Sindhi",
@@ -1669,10 +1802,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Stop_Transmission",
-      "docHref": "docs/hal__sdmmc___spec.html#L234C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L235C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L234"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L235"
     },
     {
       "label": "Sutu",
@@ -1690,10 +1823,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Swap_XY",
-      "docHref": "docs/hal__touch_panel___spec.html#L46C4",
+      "docHref": "docs/hal__touch_panel___spec.html#L47C4",
       "declared": "HAL.Touch_Panel",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-touch_panel.ads.html#L46"
+      "srcHref": "srcs/hal-touch_panel.ads.html#L47"
     },
     {
       "label": "Swedish",
@@ -1711,10 +1844,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Switch_Func",
-      "docHref": "docs/hal__sdmmc___spec.html#L217C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L218C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L217"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L218"
     },
     {
       "label": "SYSCFG_Base",
@@ -1767,10 +1900,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Temperature_Sensor",
-      "docHref": "docs/rp__adc___spec.html#L27C4",
+      "docHref": "docs/rp__adc___spec.html#L29C4",
       "declared": "RP.ADC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-adc.ads.html#L27"
+      "srcHref": "srcs/rp-adc.ads.html#L29"
     },
     {
       "label": "Thai",
@@ -1843,6 +1976,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp2040_svd.ads.html#L51"
     },
     {
+      "label": "Use_Startup",
+      "docHref": "docs/rp2040_hal_config___spec.html#L17C4",
+      "declared": "Rp2040_Hal_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_hal_config.ads.html#L17"
+    },
+    {
       "label": "Uzbek_Cyrillic",
       "docHref": "docs/usb__lang___spec.html#L144C4",
       "declared": "USB.Lang",
@@ -1858,10 +1998,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Verbose",
-      "docHref": "docs/usb___spec.html#L161C4",
+      "docHref": "docs/usb___spec.html#L167C4",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L161"
+      "srcHref": "srcs/usb.ads.html#L167"
     },
     {
       "label": "Vietnamese",
@@ -1886,31 +2026,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Write_Dat_Until_Stop",
-      "docHref": "docs/hal__sdmmc___spec.html#L242C4",
+      "docHref": "docs/hal__sdmmc___spec.html#L243C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L242"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L243"
     },
     {
       "label": "Write_Multi_Block",
+      "docHref": "docs/hal__sdmmc___spec.html#L246C4",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L246"
+    },
+    {
+      "label": "Write_Single_Block",
       "docHref": "docs/hal__sdmmc___spec.html#L245C4",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-sdmmc.ads.html#L245"
     },
     {
-      "label": "Write_Single_Block",
-      "docHref": "docs/hal__sdmmc___spec.html#L244C4",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L244"
-    },
-    {
       "label": "Ws2812_Program_Instructions",
-      "docHref": "docs/rp__pio__ws2812_pio___spec.html#L27C4",
+      "docHref": "docs/rp__pio__ws2812_pio___spec.html#L26C4",
       "declared": "RP.PIO.WS2812_PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-ws2812_pio.ads.html#L27"
+      "srcHref": "srcs/rp-pio-ws2812_pio.ads.html#L26"
     },
     {
       "label": "XIP_CTRL_Base",

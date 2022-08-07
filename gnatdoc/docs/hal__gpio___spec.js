@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Capability",
           "qualifier": "",
-          "line": 34,
+          "line": 35,
           "column": 9,
           "src": "srcs/hal-gpio.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Capability",
-                      "href": "docs/hal__gpio___spec.html#L34C9"
+                      "href": "docs/hal__gpio___spec.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -69,7 +69,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Unknown_Mode",
-                      "href": "docs/hal__gpio___spec.html#L34C24"
+                      "href": "docs/hal__gpio___spec.html#L35C24"
                     },
                     {
                       "kind": "span",
@@ -85,7 +85,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Input",
-                      "href": "docs/hal__gpio___spec.html#L34C38"
+                      "href": "docs/hal__gpio___spec.html#L35C38"
                     },
                     {
                       "kind": "span",
@@ -101,7 +101,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Output",
-                      "href": "docs/hal__gpio___spec.html#L34C45"
+                      "href": "docs/hal__gpio___spec.html#L35C45"
                     },
                     {
                       "kind": "span",
@@ -122,7 +122,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -133,7 +133,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Floating",
-                      "href": "docs/hal__gpio___spec.html#L35C24"
+                      "href": "docs/hal__gpio___spec.html#L36C24"
                     },
                     {
                       "kind": "span",
@@ -149,7 +149,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Pull_Up",
-                      "href": "docs/hal__gpio___spec.html#L35C34"
+                      "href": "docs/hal__gpio___spec.html#L36C34"
                     },
                     {
                       "kind": "span",
@@ -165,7 +165,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Pull_Down",
-                      "href": "docs/hal__gpio___spec.html#L35C43"
+                      "href": "docs/hal__gpio___spec.html#L36C43"
                     },
                     {
                       "kind": "span",
@@ -176,7 +176,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/hal__gpio___spec.html#L34C9"
+                      "href": "docs/hal__gpio___spec.html#L35C9"
                     }
                   ]
                 }
@@ -195,21 +195,21 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Unknown_Mode",
-              "line": 34,
+              "line": 35,
               "column": 24,
               "description": [
               ]
             },
             {
               "label": "Input",
-              "line": 34,
+              "line": 35,
               "column": 38,
               "description": [
               ]
             },
             {
               "label": "Output",
-              "line": 34,
+              "line": 35,
               "column": 45,
               "description": [
                 {
@@ -225,21 +225,21 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Floating",
-              "line": 35,
+              "line": 36,
               "column": 24,
               "description": [
               ]
             },
             {
               "label": "Pull_Up",
-              "line": 35,
+              "line": 36,
               "column": 34,
               "description": [
               ]
             },
             {
               "label": "Pull_Down",
-              "line": 35,
+              "line": 36,
               "column": 43,
               "description": [
               ]
@@ -249,7 +249,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_Config_Mode",
           "qualifier": "",
-          "line": 42,
+          "line": 43,
           "column": 12,
           "src": "srcs/hal-gpio.ads.html",
           "summary": [
@@ -260,7 +260,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -281,7 +281,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Config_Mode",
-                      "href": "docs/hal__gpio___spec.html#L42C12"
+                      "href": "docs/hal__gpio___spec.html#L43C12"
                     },
                     {
                       "kind": "span",
@@ -302,7 +302,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Mode",
-                      "href": "docs/hal__gpio___spec.html#L37C12"
+                      "href": "docs/hal__gpio___spec.html#L38C12"
                     },
                     {
                       "kind": "span",
@@ -367,7 +367,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_Mode",
           "qualifier": "",
-          "line": 37,
+          "line": 38,
           "column": 12,
           "src": "srcs/hal-gpio.ads.html",
           "summary": [
@@ -378,7 +378,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -399,7 +399,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Mode",
-                      "href": "docs/hal__gpio___spec.html#L37C12"
+                      "href": "docs/hal__gpio___spec.html#L38C12"
                     },
                     {
                       "kind": "span",
@@ -420,7 +420,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Capability",
-                      "href": "docs/hal__gpio___spec.html#L34C9"
+                      "href": "docs/hal__gpio___spec.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -493,7 +493,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_Pull_Resistor",
           "qualifier": "",
-          "line": 45,
+          "line": 46,
           "column": 12,
           "src": "srcs/hal-gpio.ads.html",
           "summary": [
@@ -504,7 +504,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -525,7 +525,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Pull_Resistor",
-                      "href": "docs/hal__gpio___spec.html#L45C12"
+                      "href": "docs/hal__gpio___spec.html#L46C12"
                     },
                     {
                       "kind": "span",
@@ -546,7 +546,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Capability",
-                      "href": "docs/hal__gpio___spec.html#L34C9"
+                      "href": "docs/hal__gpio___spec.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -607,7 +607,7 @@ GNATdoc.Documentation = {
         {
           "label": "Any_GPIO_Point",
           "qualifier": "",
-          "line": 49,
+          "line": 50,
           "column": 9,
           "src": "srcs/hal-gpio.ads.html",
           "summary": [
@@ -618,7 +618,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -639,7 +639,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Any_GPIO_Point",
-                      "href": "docs/hal__gpio___spec.html#L49C9"
+                      "href": "docs/hal__gpio___spec.html#L50C9"
                     },
                     {
                       "kind": "span",
@@ -680,7 +680,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Point",
-                      "href": "docs/hal__gpio___spec.html#L47C9"
+                      "href": "docs/hal__gpio___spec.html#L48C9"
                     },
                     {
                       "kind": "span",
@@ -711,7 +711,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_Point",
           "qualifier": "",
-          "line": 47,
+          "line": 48,
           "column": 9,
           "src": "srcs/hal-gpio.ads.html",
           "summary": [
@@ -722,7 +722,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -743,7 +743,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Point",
-                      "href": "docs/hal__gpio___spec.html#L47C9"
+                      "href": "docs/hal__gpio___spec.html#L48C9"
                     },
                     {
                       "kind": "span",
@@ -788,7 +788,7 @@ GNATdoc.Documentation = {
           "inherited": [
             {
               "label": "GPIO_Point",
-              "docHref": "docs/rp__gpio___spec.html#L18C9"
+              "docHref": "docs/rp__gpio___spec.html#L20C9"
             }
           ]
         }
@@ -800,7 +800,7 @@ GNATdoc.Documentation = {
         {
           "label": "Clear",
           "qualifier": "",
-          "line": 90,
+          "line": 91,
           "column": 14,
           "src": "srcs/hal-gpio.ads.html",
           "summary": [
@@ -811,7 +811,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 90,
+                  "number": 91,
                   "children": [
                     {
                       "kind": "span",
@@ -832,7 +832,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Clear",
-                      "href": "docs/hal__gpio___spec.html#L90C14"
+                      "href": "docs/hal__gpio___spec.html#L91C14"
                     },
                     {
                       "kind": "span",
@@ -848,7 +848,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__gpio___spec.html#L90C21"
+                      "href": "docs/hal__gpio___spec.html#L91C21"
                     },
                     {
                       "kind": "span",
@@ -889,7 +889,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Point",
-                      "href": "docs/hal__gpio___spec.html#L47C9"
+                      "href": "docs/hal__gpio___spec.html#L48C9"
                     },
                     {
                       "kind": "span",
@@ -929,11 +929,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 90,
+              "line": 91,
               "column": 21,
               "type": {
                 "label": "HAL.GPIO.GPIO_Point",
-                "docHref": "docs/hal__gpio___spec.html#L47C9"
+                "docHref": "docs/hal__gpio___spec.html#L48C9"
               },
               "description": [
               ]
@@ -943,7 +943,7 @@ GNATdoc.Documentation = {
         {
           "label": "Mode",
           "qualifier": "",
-          "line": 57,
+          "line": 58,
           "column": 13,
           "src": "srcs/hal-gpio.ads.html",
           "summary": [
@@ -954,7 +954,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 57,
+                  "number": 58,
                   "children": [
                     {
                       "kind": "span",
@@ -975,7 +975,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Mode",
-                      "href": "docs/hal__gpio___spec.html#L57C13"
+                      "href": "docs/hal__gpio___spec.html#L58C13"
                     },
                     {
                       "kind": "span",
@@ -991,7 +991,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__gpio___spec.html#L57C19"
+                      "href": "docs/hal__gpio___spec.html#L58C19"
                     },
                     {
                       "kind": "span",
@@ -1012,7 +1012,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Point",
-                      "href": "docs/hal__gpio___spec.html#L47C9"
+                      "href": "docs/hal__gpio___spec.html#L48C9"
                     },
                     {
                       "kind": "span",
@@ -1038,7 +1038,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Mode",
-                      "href": "docs/hal__gpio___spec.html#L37C12"
+                      "href": "docs/hal__gpio___spec.html#L38C12"
                     },
                     {
                       "kind": "span",
@@ -1082,11 +1082,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 57,
+              "line": 58,
               "column": 19,
               "type": {
                 "label": "HAL.GPIO.GPIO_Point",
-                "docHref": "docs/hal__gpio___spec.html#L47C9"
+                "docHref": "docs/hal__gpio___spec.html#L48C9"
               },
               "description": [
               ]
@@ -1096,7 +1096,7 @@ GNATdoc.Documentation = {
         {
           "label": "Pull_Resistor",
           "qualifier": "",
-          "line": 66,
+          "line": 67,
           "column": 13,
           "src": "srcs/hal-gpio.ads.html",
           "summary": [
@@ -1107,7 +1107,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 66,
+                  "number": 67,
                   "children": [
                     {
                       "kind": "span",
@@ -1128,7 +1128,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Pull_Resistor",
-                      "href": "docs/hal__gpio___spec.html#L66C13"
+                      "href": "docs/hal__gpio___spec.html#L67C13"
                     },
                     {
                       "kind": "span",
@@ -1144,7 +1144,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__gpio___spec.html#L66C28"
+                      "href": "docs/hal__gpio___spec.html#L67C28"
                     },
                     {
                       "kind": "span",
@@ -1165,7 +1165,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Point",
-                      "href": "docs/hal__gpio___spec.html#L47C9"
+                      "href": "docs/hal__gpio___spec.html#L48C9"
                     },
                     {
                       "kind": "span",
@@ -1176,7 +1176,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 67,
+                  "number": 68,
                   "children": [
                     {
                       "kind": "span",
@@ -1197,7 +1197,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Pull_Resistor",
-                      "href": "docs/hal__gpio___spec.html#L45C12"
+                      "href": "docs/hal__gpio___spec.html#L46C12"
                     },
                     {
                       "kind": "span",
@@ -1241,11 +1241,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 66,
+              "line": 67,
               "column": 28,
               "type": {
                 "label": "HAL.GPIO.GPIO_Point",
-                "docHref": "docs/hal__gpio___spec.html#L47C9"
+                "docHref": "docs/hal__gpio___spec.html#L48C9"
               },
               "description": [
               ]
@@ -1255,7 +1255,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set",
           "qualifier": "",
-          "line": 76,
+          "line": 77,
           "column": 13,
           "src": "srcs/hal-gpio.ads.html",
           "summary": [
@@ -1266,7 +1266,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 76,
+                  "number": 77,
                   "children": [
                     {
                       "kind": "span",
@@ -1287,7 +1287,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set",
-                      "href": "docs/hal__gpio___spec.html#L76C13"
+                      "href": "docs/hal__gpio___spec.html#L77C13"
                     },
                     {
                       "kind": "span",
@@ -1303,7 +1303,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__gpio___spec.html#L76C18"
+                      "href": "docs/hal__gpio___spec.html#L77C18"
                     },
                     {
                       "kind": "span",
@@ -1324,7 +1324,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Point",
-                      "href": "docs/hal__gpio___spec.html#L47C9"
+                      "href": "docs/hal__gpio___spec.html#L48C9"
                     },
                     {
                       "kind": "span",
@@ -1406,11 +1406,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 76,
+              "line": 77,
               "column": 18,
               "type": {
                 "label": "HAL.GPIO.GPIO_Point",
-                "docHref": "docs/hal__gpio___spec.html#L47C9"
+                "docHref": "docs/hal__gpio___spec.html#L48C9"
               },
               "description": [
               ]
@@ -1420,7 +1420,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set",
           "qualifier": "",
-          "line": 88,
+          "line": 89,
           "column": 14,
           "src": "srcs/hal-gpio.ads.html",
           "summary": [
@@ -1431,7 +1431,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 88,
+                  "number": 89,
                   "children": [
                     {
                       "kind": "span",
@@ -1452,7 +1452,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set",
-                      "href": "docs/hal__gpio___spec.html#L88C14"
+                      "href": "docs/hal__gpio___spec.html#L89C14"
                     },
                     {
                       "kind": "span",
@@ -1468,7 +1468,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__gpio___spec.html#L88C19"
+                      "href": "docs/hal__gpio___spec.html#L89C19"
                     },
                     {
                       "kind": "span",
@@ -1509,7 +1509,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Point",
-                      "href": "docs/hal__gpio___spec.html#L47C9"
+                      "href": "docs/hal__gpio___spec.html#L48C9"
                     },
                     {
                       "kind": "span",
@@ -1549,11 +1549,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 88,
+              "line": 89,
               "column": 19,
               "type": {
                 "label": "HAL.GPIO.GPIO_Point",
-                "docHref": "docs/hal__gpio___spec.html#L47C9"
+                "docHref": "docs/hal__gpio___spec.html#L48C9"
               },
               "description": [
               ]
@@ -1563,7 +1563,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Mode",
           "qualifier": "",
-          "line": 60,
+          "line": 61,
           "column": 14,
           "src": "srcs/hal-gpio.ads.html",
           "summary": [
@@ -1574,7 +1574,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 60,
+                  "number": 61,
                   "children": [
                     {
                       "kind": "span",
@@ -1595,7 +1595,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Mode",
-                      "href": "docs/hal__gpio___spec.html#L60C14"
+                      "href": "docs/hal__gpio___spec.html#L61C14"
                     },
                     {
                       "kind": "span",
@@ -1611,7 +1611,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__gpio___spec.html#L60C24"
+                      "href": "docs/hal__gpio___spec.html#L61C24"
                     },
                     {
                       "kind": "span",
@@ -1652,7 +1652,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Point",
-                      "href": "docs/hal__gpio___spec.html#L47C9"
+                      "href": "docs/hal__gpio___spec.html#L48C9"
                     },
                     {
                       "kind": "span",
@@ -1663,7 +1663,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 61,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -1674,7 +1674,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Mode",
-                      "href": "docs/hal__gpio___spec.html#L61C24"
+                      "href": "docs/hal__gpio___spec.html#L62C24"
                     },
                     {
                       "kind": "span",
@@ -1695,7 +1695,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Config_Mode",
-                      "href": "docs/hal__gpio___spec.html#L42C12"
+                      "href": "docs/hal__gpio___spec.html#L43C12"
                     },
                     {
                       "kind": "span",
@@ -1706,7 +1706,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 62,
+                  "number": 63,
                   "children": [
                     {
                       "kind": "span",
@@ -1732,7 +1732,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 63,
+                  "number": 64,
                   "children": [
                     {
                       "kind": "span",
@@ -1771,22 +1771,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 60,
+              "line": 61,
               "column": 24,
               "type": {
                 "label": "HAL.GPIO.GPIO_Point",
-                "docHref": "docs/hal__gpio___spec.html#L47C9"
+                "docHref": "docs/hal__gpio___spec.html#L48C9"
               },
               "description": [
               ]
             },
             {
               "label": "Mode",
-              "line": 61,
+              "line": 62,
               "column": 24,
               "type": {
                 "label": "HAL.GPIO.GPIO_Config_Mode",
-                "docHref": "docs/hal__gpio___spec.html#L42C12"
+                "docHref": "docs/hal__gpio___spec.html#L43C12"
               },
               "description": [
               ]
@@ -1796,7 +1796,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Pull_Resistor",
           "qualifier": "",
-          "line": 70,
+          "line": 71,
           "column": 14,
           "src": "srcs/hal-gpio.ads.html",
           "summary": [
@@ -1807,7 +1807,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 70,
+                  "number": 71,
                   "children": [
                     {
                       "kind": "span",
@@ -1828,7 +1828,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Pull_Resistor",
-                      "href": "docs/hal__gpio___spec.html#L70C14"
+                      "href": "docs/hal__gpio___spec.html#L71C14"
                     },
                     {
                       "kind": "span",
@@ -1844,7 +1844,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__gpio___spec.html#L70C33"
+                      "href": "docs/hal__gpio___spec.html#L71C33"
                     },
                     {
                       "kind": "span",
@@ -1885,7 +1885,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Point",
-                      "href": "docs/hal__gpio___spec.html#L47C9"
+                      "href": "docs/hal__gpio___spec.html#L48C9"
                     },
                     {
                       "kind": "span",
@@ -1896,7 +1896,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 72,
                   "children": [
                     {
                       "kind": "span",
@@ -1907,7 +1907,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Pull",
-                      "href": "docs/hal__gpio___spec.html#L71C33"
+                      "href": "docs/hal__gpio___spec.html#L72C33"
                     },
                     {
                       "kind": "span",
@@ -1928,7 +1928,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Pull_Resistor",
-                      "href": "docs/hal__gpio___spec.html#L45C12"
+                      "href": "docs/hal__gpio___spec.html#L46C12"
                     },
                     {
                       "kind": "span",
@@ -1939,7 +1939,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 72,
+                  "number": 73,
                   "children": [
                     {
                       "kind": "span",
@@ -1965,7 +1965,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 73,
+                  "number": 74,
                   "children": [
                     {
                       "kind": "span",
@@ -2004,22 +2004,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 70,
+              "line": 71,
               "column": 33,
               "type": {
                 "label": "HAL.GPIO.GPIO_Point",
-                "docHref": "docs/hal__gpio___spec.html#L47C9"
+                "docHref": "docs/hal__gpio___spec.html#L48C9"
               },
               "description": [
               ]
             },
             {
               "label": "Pull",
-              "line": 71,
+              "line": 72,
               "column": 33,
               "type": {
                 "label": "HAL.GPIO.GPIO_Pull_Resistor",
-                "docHref": "docs/hal__gpio___spec.html#L45C12"
+                "docHref": "docs/hal__gpio___spec.html#L46C12"
               },
               "description": [
               ]
@@ -2029,7 +2029,7 @@ GNATdoc.Documentation = {
         {
           "label": "Support",
           "qualifier": "",
-          "line": 51,
+          "line": 52,
           "column": 13,
           "src": "srcs/hal-gpio.ads.html",
           "summary": [
@@ -2040,7 +2040,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 52,
                   "children": [
                     {
                       "kind": "span",
@@ -2061,7 +2061,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Support",
-                      "href": "docs/hal__gpio___spec.html#L51C13"
+                      "href": "docs/hal__gpio___spec.html#L52C13"
                     },
                     {
                       "kind": "span",
@@ -2077,49 +2077,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__gpio___spec.html#L51C22"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "GPIO_Point",
-                      "href": "docs/hal__gpio___spec.html#L47C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 52,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Capa",
                       "href": "docs/hal__gpio___spec.html#L52C22"
                     },
                     {
@@ -2140,8 +2097,51 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
+                      "text": "GPIO_Point",
+                      "href": "docs/hal__gpio___spec.html#L48C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 53,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Capa",
+                      "href": "docs/hal__gpio___spec.html#L53C22"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
                       "text": "Capability",
-                      "href": "docs/hal__gpio___spec.html#L34C9"
+                      "href": "docs/hal__gpio___spec.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -2152,7 +2152,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -2178,7 +2178,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -2222,22 +2222,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 51,
+              "line": 52,
               "column": 22,
               "type": {
                 "label": "HAL.GPIO.GPIO_Point",
-                "docHref": "docs/hal__gpio___spec.html#L47C9"
+                "docHref": "docs/hal__gpio___spec.html#L48C9"
               },
               "description": [
               ]
             },
             {
               "label": "Capa",
-              "line": 52,
+              "line": 53,
               "column": 22,
               "type": {
                 "label": "HAL.GPIO.Capability",
-                "docHref": "docs/hal__gpio___spec.html#L34C9"
+                "docHref": "docs/hal__gpio___spec.html#L35C9"
               },
               "description": [
               ]
@@ -2247,7 +2247,7 @@ GNATdoc.Documentation = {
         {
           "label": "Toggle",
           "qualifier": "",
-          "line": 92,
+          "line": 93,
           "column": 14,
           "src": "srcs/hal-gpio.ads.html",
           "summary": [
@@ -2258,7 +2258,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 92,
+                  "number": 93,
                   "children": [
                     {
                       "kind": "span",
@@ -2279,7 +2279,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Toggle",
-                      "href": "docs/hal__gpio___spec.html#L92C14"
+                      "href": "docs/hal__gpio___spec.html#L93C14"
                     },
                     {
                       "kind": "span",
@@ -2295,7 +2295,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__gpio___spec.html#L92C22"
+                      "href": "docs/hal__gpio___spec.html#L93C22"
                     },
                     {
                       "kind": "span",
@@ -2336,7 +2336,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Point",
-                      "href": "docs/hal__gpio___spec.html#L47C9"
+                      "href": "docs/hal__gpio___spec.html#L48C9"
                     },
                     {
                       "kind": "span",
@@ -2367,7 +2367,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 93,
+                  "number": 94,
                   "children": [
                     {
                       "kind": "span",
@@ -2397,11 +2397,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 92,
+              "line": 93,
               "column": 22,
               "type": {
                 "label": "HAL.GPIO.GPIO_Point",
-                "docHref": "docs/hal__gpio___spec.html#L47C9"
+                "docHref": "docs/hal__gpio___spec.html#L48C9"
               },
               "description": [
               ]

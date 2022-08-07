@@ -578,11 +578,42 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 48,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "pragma"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Preelaborate"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 49,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -593,7 +624,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "NVIC_PRIO_BITS",
-          "href": "docs/cortex_m__nvic___spec.html#L49C4"
+          "href": "docs/cortex_m__nvic___spec.html#L50C4"
         },
         {
           "kind": "span",
@@ -644,7 +675,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 51,
       "children": [
         {
           "kind": "span",
@@ -660,13 +691,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 52,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 52,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -687,7 +718,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Interrupt_ID",
-          "href": "docs/cortex_m__nvic___spec.html#L52C9"
+          "href": "docs/cortex_m__nvic___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -768,7 +799,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 53,
+      "number": 54,
       "children": [
         {
           "kind": "span",
@@ -789,7 +820,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Interrupt_Priority",
-          "href": "docs/cortex_m__nvic___spec.html#L53C9"
+          "href": "docs/cortex_m__nvic___spec.html#L54C9"
         },
         {
           "kind": "span",
@@ -911,13 +942,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 54,
+      "number": 55,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 55,
+      "number": 56,
       "children": [
         {
           "kind": "span",
@@ -938,13 +969,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Set_Priority",
-          "href": "docs/cortex_m__nvic___spec.html#L55C14"
+          "href": "docs/cortex_m__nvic___spec.html#L56C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 57,
       "children": [
         {
           "kind": "span",
@@ -960,7 +991,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "IRQn",
-          "href": "docs/cortex_m__nvic___spec.html#L56C7"
+          "href": "docs/cortex_m__nvic___spec.html#L57C7"
         },
         {
           "kind": "span",
@@ -981,7 +1012,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Interrupt_ID",
-          "href": "docs/cortex_m__nvic___spec.html#L52C9"
+          "href": "docs/cortex_m__nvic___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -992,7 +1023,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 57,
+      "number": 58,
       "children": [
         {
           "kind": "span",
@@ -1003,7 +1034,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Priority",
-          "href": "docs/cortex_m__nvic___spec.html#L57C7"
+          "href": "docs/cortex_m__nvic___spec.html#L58C7"
         },
         {
           "kind": "span",
@@ -1024,6 +1055,101 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Interrupt_Priority",
+          "href": "docs/cortex_m__nvic___spec.html#L54C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Inline"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 59,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 60,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Enable_Interrupt",
+          "href": "docs/cortex_m__nvic___spec.html#L60C14"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "IRQn",
+          "href": "docs/cortex_m__nvic___spec.html#L60C32"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Interrupt_ID",
           "href": "docs/cortex_m__nvic___spec.html#L53C9"
         },
         {
@@ -1055,108 +1181,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 58,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 59,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Enable_Interrupt",
-          "href": "docs/cortex_m__nvic___spec.html#L59C14"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "IRQn",
-          "href": "docs/cortex_m__nvic___spec.html#L59C32"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Interrupt_ID",
-          "href": "docs/cortex_m__nvic___spec.html#L52C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " Inline"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 60,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 61,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 62,
       "children": [
         {
           "kind": "span",
@@ -1177,7 +1208,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Disable_Interrupt",
-          "href": "docs/cortex_m__nvic___spec.html#L61C14"
+          "href": "docs/cortex_m__nvic___spec.html#L62C14"
         },
         {
           "kind": "span",
@@ -1193,7 +1224,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "IRQn",
-          "href": "docs/cortex_m__nvic___spec.html#L61C33"
+          "href": "docs/cortex_m__nvic___spec.html#L62C33"
         },
         {
           "kind": "span",
@@ -1214,7 +1245,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Interrupt_ID",
-          "href": "docs/cortex_m__nvic___spec.html#L52C9"
+          "href": "docs/cortex_m__nvic___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -1245,13 +1276,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 62,
+      "number": 63,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 64,
       "children": [
         {
           "kind": "span",
@@ -1272,7 +1303,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Enabled",
-          "href": "docs/cortex_m__nvic___spec.html#L63C13"
+          "href": "docs/cortex_m__nvic___spec.html#L64C13"
         },
         {
           "kind": "span",
@@ -1288,7 +1319,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "IRQn",
-          "href": "docs/cortex_m__nvic___spec.html#L63C22"
+          "href": "docs/cortex_m__nvic___spec.html#L64C22"
         },
         {
           "kind": "span",
@@ -1309,7 +1340,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Interrupt_ID",
-          "href": "docs/cortex_m__nvic___spec.html#L52C9"
+          "href": "docs/cortex_m__nvic___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -1360,13 +1391,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 64,
+      "number": 65,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 65,
+      "number": 66,
       "children": [
         {
           "kind": "span",
@@ -1387,7 +1418,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Pending",
-          "href": "docs/cortex_m__nvic___spec.html#L65C13"
+          "href": "docs/cortex_m__nvic___spec.html#L66C13"
         },
         {
           "kind": "span",
@@ -1403,7 +1434,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "IRQn",
-          "href": "docs/cortex_m__nvic___spec.html#L65C22"
+          "href": "docs/cortex_m__nvic___spec.html#L66C22"
         },
         {
           "kind": "span",
@@ -1424,7 +1455,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Interrupt_ID",
-          "href": "docs/cortex_m__nvic___spec.html#L52C9"
+          "href": "docs/cortex_m__nvic___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -1475,13 +1506,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 66,
+      "number": 67,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 67,
+      "number": 68,
       "children": [
         {
           "kind": "span",
@@ -1502,7 +1533,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Set_Pending",
-          "href": "docs/cortex_m__nvic___spec.html#L67C14"
+          "href": "docs/cortex_m__nvic___spec.html#L68C14"
         },
         {
           "kind": "span",
@@ -1518,7 +1549,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "IRQn",
-          "href": "docs/cortex_m__nvic___spec.html#L67C27"
+          "href": "docs/cortex_m__nvic___spec.html#L68C27"
         },
         {
           "kind": "span",
@@ -1539,7 +1570,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Interrupt_ID",
-          "href": "docs/cortex_m__nvic___spec.html#L52C9"
+          "href": "docs/cortex_m__nvic___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -1570,13 +1601,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 68,
+      "number": 69,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 69,
+      "number": 70,
       "children": [
         {
           "kind": "span",
@@ -1597,7 +1628,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Clear_Pending",
-          "href": "docs/cortex_m__nvic___spec.html#L69C14"
+          "href": "docs/cortex_m__nvic___spec.html#L70C14"
         },
         {
           "kind": "span",
@@ -1613,7 +1644,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "IRQn",
-          "href": "docs/cortex_m__nvic___spec.html#L69C29"
+          "href": "docs/cortex_m__nvic___spec.html#L70C29"
         },
         {
           "kind": "span",
@@ -1634,7 +1665,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Interrupt_ID",
-          "href": "docs/cortex_m__nvic___spec.html#L52C9"
+          "href": "docs/cortex_m__nvic___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -1665,13 +1696,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 70,
+      "number": 71,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 71,
+      "number": 72,
       "children": [
         {
           "kind": "span",

@@ -4,6 +4,23 @@ GNATdoc.Documentation = {
   "summary": [
   ],
   "description": [
+    {
+      "kind": "paragraph",
+      "children": [
+        {
+          "kind": "span",
+          "text": "----------\n"
+        },
+        {
+          "kind": "span",
+          "text": "Ws2812 --\n"
+        },
+        {
+          "kind": "span",
+          "text": "----------\n"
+        }
+      ]
+    }
   ],
   "entities": [
     {
@@ -11,7 +28,7 @@ GNATdoc.Documentation = {
         {
           "label": "Ws2812_Program_Instructions",
           "qualifier": "",
-          "line": 27,
+          "line": 26,
           "column": 4,
           "src": "srcs/rp-pio-ws2812_pio.ads.html",
           "summary": [
@@ -22,7 +39,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 27,
+                  "number": 26,
                   "children": [
                     {
                       "kind": "span",
@@ -73,7 +90,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 28,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -89,7 +106,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 29,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
@@ -135,7 +152,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 30,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -181,7 +198,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -227,7 +244,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 31,
                   "children": [
                     {
                       "kind": "span",

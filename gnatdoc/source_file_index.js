@@ -64,6 +64,10 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/cortex_m-dwt.ads.html"
   },
   {
+    "label": "cortex_m-hints.ads",
+    "srcHref": "srcs/cortex_m-hints.ads.html"
+  },
+  {
     "label": "cortex_m-nvic.ads",
     "srcHref": "srcs/cortex_m-nvic.ads.html"
   },
@@ -74,6 +78,10 @@ GNATdoc.SourceFileIndex = [
   {
     "label": "cortex_m.ads",
     "srcHref": "srcs/cortex_m.ads.html"
+  },
+  {
+    "label": "cortex_m_config.ads",
+    "srcHref": "srcs/cortex_m_config.ads.html"
   },
   {
     "label": "cortex_m_svd-debug.ads",
@@ -192,6 +200,10 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/rp-gpio.ads.html"
   },
   {
+    "label": "rp-i2c.ads",
+    "srcHref": "srcs/rp-i2c.ads.html"
+  },
+  {
     "label": "rp-i2c_master.ads",
     "srcHref": "srcs/rp-i2c_master.ads.html"
   },
@@ -278,6 +290,10 @@ GNATdoc.SourceFileIndex = [
   {
     "label": "rp.ads",
     "srcHref": "srcs/rp.ads.html"
+  },
+  {
+    "label": "rp2040_hal_config.ads",
+    "srcHref": "srcs/rp2040_hal_config.ads.html"
   },
   {
     "label": "rp2040_svd-adc.ads",
@@ -486,5 +502,9 @@ GNATdoc.SourceFileIndex = [
   {
     "label": "usb.ads",
     "srcHref": "srcs/usb.ads.html"
+  },
+  {
+    "label": "usb_embedded_config.ads",
+    "srcHref": "srcs/usb_embedded_config.ads.html"
   }
 ];

@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Halting_Debug_Enabled",
           "qualifier": "",
-          "line": 34,
+          "line": 35,
           "column": 13,
           "src": "srcs/cortex_m-debug.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Halting_Debug_Enabled",
-                      "href": "docs/cortex_m__debug___spec.html#L34C13"
+                      "href": "docs/cortex_m__debug___spec.html#L35C13"
                     },
                     {
                       "kind": "span",

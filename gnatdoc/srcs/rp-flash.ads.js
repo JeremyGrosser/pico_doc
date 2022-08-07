@@ -73,7 +73,32 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "System"
+          "text": "HAL"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "use"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL"
         },
         {
           "kind": "span",
@@ -86,11 +111,37 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 7,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "System"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 8,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 9,
       "children": [
         {
           "kind": "span",
@@ -106,24 +157,8 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.Flash",
-          "href": "docs/rp__flash___spec.html#L8C12"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
+          "href": "docs/rp__flash___spec.html#L9C12"
         }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 9,
-      "children": [
       ]
     },
     {
@@ -137,9 +172,52 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Preelaborate"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 11,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 12,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 13,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "Flash_Size",
-          "href": "docs/rp__flash___spec.html#L10C4"
+          "href": "docs/rp__flash___spec.html#L13C4"
         },
         {
           "kind": "span",
@@ -230,7 +308,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 11,
+      "number": 14,
       "children": [
         {
           "kind": "span",
@@ -246,7 +324,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 12,
+      "number": 15,
       "children": [
         {
           "kind": "span",
@@ -257,7 +335,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Page_Size",
-          "href": "docs/rp__flash___spec.html#L12C4"
+          "href": "docs/rp__flash___spec.html#L15C4"
         },
         {
           "kind": "span",
@@ -308,7 +386,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 13,
+      "number": 16,
       "children": [
         {
           "kind": "span",
@@ -319,7 +397,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sector_Size",
-          "href": "docs/rp__flash___spec.html#L13C4"
+          "href": "docs/rp__flash___spec.html#L16C4"
         },
         {
           "kind": "span",
@@ -370,13 +448,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 14,
+      "number": 17,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 15,
+      "number": 18,
       "children": [
         {
           "kind": "span",
@@ -397,7 +475,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flash_Offset",
-          "href": "docs/rp__flash___spec.html#L15C9"
+          "href": "docs/rp__flash___spec.html#L18C9"
         },
         {
           "kind": "span",
@@ -458,13 +536,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 16,
+      "number": 19,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 17,
+      "number": 20,
       "children": [
         {
           "kind": "span",
@@ -485,13 +563,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "To_Address",
-          "href": "docs/rp__flash___spec.html#L17C13"
+          "href": "docs/rp__flash___spec.html#L20C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 18,
+      "number": 21,
       "children": [
         {
           "kind": "span",
@@ -507,7 +585,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Offset",
-          "href": "docs/rp__flash___spec.html#L18C8"
+          "href": "docs/rp__flash___spec.html#L21C8"
         },
         {
           "kind": "span",
@@ -528,7 +606,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flash_Offset",
-          "href": "docs/rp__flash___spec.html#L15C9"
+          "href": "docs/rp__flash___spec.html#L18C9"
         },
         {
           "kind": "span",
@@ -539,7 +617,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 19,
+      "number": 22,
       "children": [
         {
           "kind": "span",
@@ -570,13 +648,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 20,
+      "number": 23,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 21,
+      "number": 24,
       "children": [
         {
           "kind": "span",
@@ -597,13 +675,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "In_Flash",
-          "href": "docs/rp__flash___spec.html#L21C13"
+          "href": "docs/rp__flash___spec.html#L24C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 22,
+      "number": 25,
       "children": [
         {
           "kind": "span",
@@ -619,7 +697,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Addr",
-          "href": "docs/rp__flash___spec.html#L22C8"
+          "href": "docs/rp__flash___spec.html#L25C8"
         },
         {
           "kind": "span",
@@ -650,7 +728,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 23,
+      "number": 26,
       "children": [
         {
           "kind": "span",
@@ -681,13 +759,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 24,
+      "number": 27,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 25,
+      "number": 28,
       "children": [
         {
           "kind": "span",
@@ -708,13 +786,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "To_Flash_Offset",
-          "href": "docs/rp__flash___spec.html#L25C13"
+          "href": "docs/rp__flash___spec.html#L28C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 26,
+      "number": 29,
       "children": [
         {
           "kind": "span",
@@ -730,7 +808,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Addr",
-          "href": "docs/rp__flash___spec.html#L26C8"
+          "href": "docs/rp__flash___spec.html#L29C8"
         },
         {
           "kind": "span",
@@ -761,7 +839,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 27,
+      "number": 30,
       "children": [
         {
           "kind": "span",
@@ -782,13 +860,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flash_Offset",
-          "href": "docs/rp__flash___spec.html#L15C9"
+          "href": "docs/rp__flash___spec.html#L18C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 28,
+      "number": 31,
       "children": [
         {
           "kind": "span",
@@ -814,13 +892,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 29,
+      "number": 32,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 30,
+      "number": 33,
       "children": [
         {
           "kind": "span",
@@ -836,7 +914,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 31,
+      "number": 34,
       "children": [
         {
           "kind": "span",
@@ -852,54 +930,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 32,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  will trigger a fault."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 33,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 34,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  This is why the procedures are flagged No_Inline and their code located"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 35,
       "children": [
         {
@@ -910,7 +940,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  in RAM (using the linker section \".time_critical\")."
+          "text": "--  will trigger a fault."
         }
       ]
     },
@@ -942,7 +972,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Any interrupt that may execute from flash must be masked. If a second"
+          "text": "--  This is why the procedures are flagged No_Inline and their code located"
         }
       ]
     },
@@ -958,7 +988,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  core is running, make sure it only executes code in RAM or bootrom."
+          "text": "--  in RAM (using the linker section \".time_critical\")."
         }
       ]
     },
@@ -966,11 +996,59 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 39,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 40,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Any interrupt that may execute from flash must be masked. If a second"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 41,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  core is running, make sure it only executes code in RAM or bootrom."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 42,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -991,13 +1069,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Erase",
-          "href": "docs/rp__flash___spec.html#L40C14"
+          "href": "docs/rp__flash___spec.html#L43C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -1013,7 +1091,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Offset",
-          "href": "docs/rp__flash___spec.html#L41C8"
+          "href": "docs/rp__flash___spec.html#L44C8"
         },
         {
           "kind": "span",
@@ -1034,7 +1112,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flash_Offset",
-          "href": "docs/rp__flash___spec.html#L15C9"
+          "href": "docs/rp__flash___spec.html#L18C9"
         },
         {
           "kind": "span",
@@ -1045,7 +1123,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 45,
       "children": [
         {
           "kind": "span",
@@ -1056,7 +1134,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Length",
-          "href": "docs/rp__flash___spec.html#L42C8"
+          "href": "docs/rp__flash___spec.html#L45C8"
         },
         {
           "kind": "span",
@@ -1087,7 +1165,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 46,
       "children": [
         {
           "kind": "span",
@@ -1108,7 +1186,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 47,
       "children": [
         {
           "kind": "span",
@@ -1129,7 +1207,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 48,
       "children": [
         {
           "kind": "span",
@@ -1160,7 +1238,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 49,
       "children": [
         {
           "kind": "span",
@@ -1186,7 +1264,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 47,
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -1202,7 +1280,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 51,
       "children": [
         {
           "kind": "span",
@@ -1218,13 +1296,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 49,
+      "number": 52,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -1245,13 +1323,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Program",
-          "href": "docs/rp__flash___spec.html#L50C14"
+          "href": "docs/rp__flash___spec.html#L53C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 54,
       "children": [
         {
           "kind": "span",
@@ -1267,7 +1345,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Offset",
-          "href": "docs/rp__flash___spec.html#L51C8"
+          "href": "docs/rp__flash___spec.html#L54C8"
         },
         {
           "kind": "span",
@@ -1288,7 +1366,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flash_Offset",
-          "href": "docs/rp__flash___spec.html#L15C9"
+          "href": "docs/rp__flash___spec.html#L18C9"
         },
         {
           "kind": "span",
@@ -1299,7 +1377,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 52,
+      "number": 55,
       "children": [
         {
           "kind": "span",
@@ -1310,7 +1388,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Source",
-          "href": "docs/rp__flash___spec.html#L52C8"
+          "href": "docs/rp__flash___spec.html#L55C8"
         },
         {
           "kind": "span",
@@ -1341,7 +1419,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 53,
+      "number": 56,
       "children": [
         {
           "kind": "span",
@@ -1352,7 +1430,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Length",
-          "href": "docs/rp__flash___spec.html#L53C8"
+          "href": "docs/rp__flash___spec.html#L56C8"
         },
         {
           "kind": "span",
@@ -1383,7 +1461,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 54,
+      "number": 57,
       "children": [
         {
           "kind": "span",
@@ -1404,7 +1482,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 55,
+      "number": 58,
       "children": [
         {
           "kind": "span",
@@ -1425,7 +1503,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 59,
       "children": [
         {
           "kind": "span",
@@ -1456,7 +1534,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 57,
+      "number": 60,
       "children": [
         {
           "kind": "span",
@@ -1477,7 +1555,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 61,
       "children": [
         {
           "kind": "span",
@@ -1513,7 +1591,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 59,
+      "number": 62,
       "children": [
         {
           "kind": "span",
@@ -1529,7 +1607,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 60,
+      "number": 63,
       "children": [
         {
           "kind": "span",
@@ -1545,13 +1623,94 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 61,
+      "number": 64,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 62,
+      "number": 65,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Unique_Id",
+          "href": "docs/rp__flash___spec.html#L65C13"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 66,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "UInt64",
+          "href": "docs/hal___spec.html#L160C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 67,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Read the Unique Id (4Bh) from the flash chip"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 68,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 69,
       "children": [
         {
           "kind": "span",
@@ -1562,13 +1721,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 70,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 64,
+      "number": 71,
       "children": [
         {
           "kind": "span",
@@ -1619,7 +1778,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 65,
+      "number": 72,
       "children": [
         {
           "kind": "span",
@@ -1635,7 +1794,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 66,
+      "number": 73,
       "children": [
         {
           "kind": "span",
@@ -1651,13 +1810,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 67,
+      "number": 74,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 72,
+      "number": 79,
       "children": [
         {
           "kind": "span",

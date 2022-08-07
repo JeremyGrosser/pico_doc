@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Audio_Buffer",
           "qualifier": "",
-          "line": 36,
+          "line": 37,
           "column": 9,
           "src": "srcs/hal-audio.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Audio_Buffer",
-                      "href": "docs/hal__audio___spec.html#L36C9"
+                      "href": "docs/hal__audio___spec.html#L37C9"
                     },
                     {
                       "kind": "span",
@@ -129,7 +129,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -144,7 +144,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Component_Size => 16, Alignment => 16"
+                      "text": " Component_Size => 16, Alignment => 2"
                     },
                     {
                       "kind": "span",
@@ -160,7 +160,7 @@ GNATdoc.Documentation = {
         {
           "label": "Audio_Frequency",
           "qualifier": "",
-          "line": 41,
+          "line": 42,
           "column": 9,
           "src": "srcs/hal-audio.ads.html",
           "summary": [
@@ -171,7 +171,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -192,7 +192,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Audio_Frequency",
-                      "href": "docs/hal__audio___spec.html#L41C9"
+                      "href": "docs/hal__audio___spec.html#L42C9"
                     },
                     {
                       "kind": "span",
@@ -208,7 +208,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -224,28 +224,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Audio_Freq_8kHz",
-                      "href": "docs/hal__audio___spec.html#L42C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 43,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Audio_Freq_11kHz",
                       "href": "docs/hal__audio___spec.html#L43C7"
                     },
                     {
@@ -267,7 +245,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Audio_Freq_16kHz",
+                      "text": "Audio_Freq_11kHz",
                       "href": "docs/hal__audio___spec.html#L44C7"
                     },
                     {
@@ -289,7 +267,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Audio_Freq_22kHz",
+                      "text": "Audio_Freq_16kHz",
                       "href": "docs/hal__audio___spec.html#L45C7"
                     },
                     {
@@ -311,7 +289,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Audio_Freq_32kHz",
+                      "text": "Audio_Freq_22kHz",
                       "href": "docs/hal__audio___spec.html#L46C7"
                     },
                     {
@@ -333,7 +311,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Audio_Freq_44kHz",
+                      "text": "Audio_Freq_32kHz",
                       "href": "docs/hal__audio___spec.html#L47C7"
                     },
                     {
@@ -355,7 +333,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Audio_Freq_48kHz",
+                      "text": "Audio_Freq_44kHz",
                       "href": "docs/hal__audio___spec.html#L48C7"
                     },
                     {
@@ -377,8 +355,30 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Audio_Freq_96kHz",
+                      "text": "Audio_Freq_48kHz",
                       "href": "docs/hal__audio___spec.html#L49C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 50,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Audio_Freq_96kHz",
+                      "href": "docs/hal__audio___spec.html#L50C7"
                     },
                     {
                       "kind": "span",
@@ -389,7 +389,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 51,
                   "children": [
                     {
                       "kind": "span",
@@ -419,56 +419,56 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Audio_Freq_8kHz",
-              "line": 42,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Audio_Freq_11kHz",
               "line": 43,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Audio_Freq_16kHz",
+              "label": "Audio_Freq_11kHz",
               "line": 44,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Audio_Freq_22kHz",
+              "label": "Audio_Freq_16kHz",
               "line": 45,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Audio_Freq_32kHz",
+              "label": "Audio_Freq_22kHz",
               "line": 46,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Audio_Freq_44kHz",
+              "label": "Audio_Freq_32kHz",
               "line": 47,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Audio_Freq_48kHz",
+              "label": "Audio_Freq_44kHz",
               "line": 48,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Audio_Freq_96kHz",
+              "label": "Audio_Freq_48kHz",
               "line": 49,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Audio_Freq_96kHz",
+              "line": 50,
               "column": 7,
               "description": [
               ]
@@ -478,7 +478,7 @@ GNATdoc.Documentation = {
         {
           "label": "Audio_Volume",
           "qualifier": "",
-          "line": 39,
+          "line": 40,
           "column": 9,
           "src": "srcs/hal-audio.ads.html",
           "summary": [
@@ -489,7 +489,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -510,7 +510,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Audio_Volume",
-                      "href": "docs/hal__audio___spec.html#L39C9"
+                      "href": "docs/hal__audio___spec.html#L40C9"
                     },
                     {
                       "kind": "span",
@@ -601,7 +601,7 @@ GNATdoc.Documentation = {
         {
           "label": "Audio_Stream",
           "qualifier": "",
-          "line": 61,
+          "line": 62,
           "column": 9,
           "src": "srcs/hal-audio.ads.html",
           "summary": [
@@ -612,7 +612,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 61,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -633,7 +633,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Audio_Stream",
-                      "href": "docs/hal__audio___spec.html#L61C9"
+                      "href": "docs/hal__audio___spec.html#L62C9"
                     },
                     {
                       "kind": "span",
@@ -678,7 +678,7 @@ GNATdoc.Documentation = {
           "inherited": [
             {
               "label": "I2S_Device",
-              "docHref": "docs/rp__pio__audio_i2s___spec.html#L18C9"
+              "docHref": "docs/rp__pio__audio_i2s___spec.html#L20C9"
             }
           ]
         }
@@ -690,7 +690,7 @@ GNATdoc.Documentation = {
         {
           "label": "Receive",
           "qualifier": "",
-          "line": 69,
+          "line": 70,
           "column": 14,
           "src": "srcs/hal-audio.ads.html",
           "summary": [
@@ -701,7 +701,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 69,
+                  "number": 70,
                   "children": [
                     {
                       "kind": "span",
@@ -722,7 +722,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Receive",
-                      "href": "docs/hal__audio___spec.html#L69C14"
+                      "href": "docs/hal__audio___spec.html#L70C14"
                     },
                     {
                       "kind": "span",
@@ -738,7 +738,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__audio___spec.html#L69C23"
+                      "href": "docs/hal__audio___spec.html#L70C23"
                     },
                     {
                       "kind": "span",
@@ -779,7 +779,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Audio_Stream",
-                      "href": "docs/hal__audio___spec.html#L61C9"
+                      "href": "docs/hal__audio___spec.html#L62C9"
                     },
                     {
                       "kind": "span",
@@ -790,7 +790,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 70,
+                  "number": 71,
                   "children": [
                     {
                       "kind": "span",
@@ -801,7 +801,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Data",
-                      "href": "docs/hal__audio___spec.html#L70C23"
+                      "href": "docs/hal__audio___spec.html#L71C23"
                     },
                     {
                       "kind": "span",
@@ -832,7 +832,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Audio_Buffer",
-                      "href": "docs/hal__audio___spec.html#L36C9"
+                      "href": "docs/hal__audio___spec.html#L37C9"
                     },
                     {
                       "kind": "span",
@@ -872,22 +872,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 69,
+              "line": 70,
               "column": 23,
               "type": {
                 "label": "HAL.Audio.Audio_Stream",
-                "docHref": "docs/hal__audio___spec.html#L61C9"
+                "docHref": "docs/hal__audio___spec.html#L62C9"
               },
               "description": [
               ]
             },
             {
               "label": "Data",
-              "line": 70,
+              "line": 71,
               "column": 23,
               "type": {
                 "label": "HAL.Audio.Audio_Buffer",
-                "docHref": "docs/hal__audio___spec.html#L36C9"
+                "docHref": "docs/hal__audio___spec.html#L37C9"
               },
               "description": [
               ]
@@ -897,7 +897,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Frequency",
           "qualifier": "",
-          "line": 63,
+          "line": 64,
           "column": 14,
           "src": "srcs/hal-audio.ads.html",
           "summary": [
@@ -908,7 +908,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 63,
+                  "number": 64,
                   "children": [
                     {
                       "kind": "span",
@@ -929,7 +929,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Frequency",
-                      "href": "docs/hal__audio___spec.html#L63C14"
+                      "href": "docs/hal__audio___spec.html#L64C14"
                     },
                     {
                       "kind": "span",
@@ -945,7 +945,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__audio___spec.html#L63C29"
+                      "href": "docs/hal__audio___spec.html#L64C29"
                     },
                     {
                       "kind": "span",
@@ -986,7 +986,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Audio_Stream",
-                      "href": "docs/hal__audio___spec.html#L61C9"
+                      "href": "docs/hal__audio___spec.html#L62C9"
                     },
                     {
                       "kind": "span",
@@ -997,7 +997,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 64,
+                  "number": 65,
                   "children": [
                     {
                       "kind": "span",
@@ -1008,7 +1008,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frequency",
-                      "href": "docs/hal__audio___spec.html#L64C29"
+                      "href": "docs/hal__audio___spec.html#L65C29"
                     },
                     {
                       "kind": "span",
@@ -1029,7 +1029,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Audio_Frequency",
-                      "href": "docs/hal__audio___spec.html#L41C9"
+                      "href": "docs/hal__audio___spec.html#L42C9"
                     },
                     {
                       "kind": "span",
@@ -1069,22 +1069,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 63,
+              "line": 64,
               "column": 29,
               "type": {
                 "label": "HAL.Audio.Audio_Stream",
-                "docHref": "docs/hal__audio___spec.html#L61C9"
+                "docHref": "docs/hal__audio___spec.html#L62C9"
               },
               "description": [
               ]
             },
             {
               "label": "Frequency",
-              "line": 64,
+              "line": 65,
               "column": 29,
               "type": {
                 "label": "HAL.Audio.Audio_Frequency",
-                "docHref": "docs/hal__audio___spec.html#L41C9"
+                "docHref": "docs/hal__audio___spec.html#L42C9"
               },
               "description": [
               ]
@@ -1094,7 +1094,7 @@ GNATdoc.Documentation = {
         {
           "label": "Transmit",
           "qualifier": "",
-          "line": 66,
+          "line": 67,
           "column": 14,
           "src": "srcs/hal-audio.ads.html",
           "summary": [
@@ -1105,7 +1105,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 66,
+                  "number": 67,
                   "children": [
                     {
                       "kind": "span",
@@ -1126,7 +1126,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transmit",
-                      "href": "docs/hal__audio___spec.html#L66C14"
+                      "href": "docs/hal__audio___spec.html#L67C14"
                     },
                     {
                       "kind": "span",
@@ -1142,7 +1142,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__audio___spec.html#L66C24"
+                      "href": "docs/hal__audio___spec.html#L67C24"
                     },
                     {
                       "kind": "span",
@@ -1183,7 +1183,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Audio_Stream",
-                      "href": "docs/hal__audio___spec.html#L61C9"
+                      "href": "docs/hal__audio___spec.html#L62C9"
                     },
                     {
                       "kind": "span",
@@ -1194,7 +1194,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 67,
+                  "number": 68,
                   "children": [
                     {
                       "kind": "span",
@@ -1205,7 +1205,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Data",
-                      "href": "docs/hal__audio___spec.html#L67C24"
+                      "href": "docs/hal__audio___spec.html#L68C24"
                     },
                     {
                       "kind": "span",
@@ -1226,7 +1226,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Audio_Buffer",
-                      "href": "docs/hal__audio___spec.html#L36C9"
+                      "href": "docs/hal__audio___spec.html#L37C9"
                     },
                     {
                       "kind": "span",
@@ -1266,22 +1266,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 66,
+              "line": 67,
               "column": 24,
               "type": {
                 "label": "HAL.Audio.Audio_Stream",
-                "docHref": "docs/hal__audio___spec.html#L61C9"
+                "docHref": "docs/hal__audio___spec.html#L62C9"
               },
               "description": [
               ]
             },
             {
               "label": "Data",
-              "line": 67,
+              "line": 68,
               "column": 24,
               "type": {
                 "label": "HAL.Audio.Audio_Buffer",
-                "docHref": "docs/hal__audio___spec.html#L36C9"
+                "docHref": "docs/hal__audio___spec.html#L37C9"
               },
               "description": [
               ]

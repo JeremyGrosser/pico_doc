@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "ACCUM_Register",
           "qualifier": "",
-          "line": 110,
+          "line": 112,
           "column": 9,
           "src": "srcs/rp-interpolator.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 110,
+                  "number": 112,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ACCUM_Register",
-                      "href": "docs/rp__interpolator___spec.html#L110C9"
+                      "href": "docs/rp__interpolator___spec.html#L112C9"
                     },
                     {
                       "kind": "span",
@@ -79,7 +79,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Lane",
-                      "href": "docs/rp__interpolator___spec.html#L108C9"
+                      "href": "docs/rp__interpolator___spec.html#L110C9"
                     },
                     {
                       "kind": "span",
@@ -161,7 +161,7 @@ GNATdoc.Documentation = {
         {
           "label": "ADD_Register",
           "qualifier": "",
-          "line": 113,
+          "line": 115,
           "column": 9,
           "src": "srcs/rp-interpolator.ads.html",
           "summary": [
@@ -172,7 +172,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 113,
+                  "number": 115,
                   "children": [
                     {
                       "kind": "span",
@@ -193,7 +193,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADD_Register",
-                      "href": "docs/rp__interpolator___spec.html#L113C9"
+                      "href": "docs/rp__interpolator___spec.html#L115C9"
                     },
                     {
                       "kind": "span",
@@ -229,7 +229,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Lane",
-                      "href": "docs/rp__interpolator___spec.html#L108C9"
+                      "href": "docs/rp__interpolator___spec.html#L110C9"
                     },
                     {
                       "kind": "span",
@@ -301,7 +301,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 114,
+                  "number": 116,
                   "children": [
                     {
                       "kind": "span",
@@ -332,7 +332,7 @@ GNATdoc.Documentation = {
         {
           "label": "CTRL_Register",
           "qualifier": "",
-          "line": 112,
+          "line": 114,
           "column": 9,
           "src": "srcs/rp-interpolator.ads.html",
           "summary": [
@@ -343,7 +343,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 112,
+                  "number": 114,
                   "children": [
                     {
                       "kind": "span",
@@ -364,7 +364,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CTRL_Register",
-                      "href": "docs/rp__interpolator___spec.html#L112C9"
+                      "href": "docs/rp__interpolator___spec.html#L114C9"
                     },
                     {
                       "kind": "span",
@@ -400,7 +400,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Lane",
-                      "href": "docs/rp__interpolator___spec.html#L108C9"
+                      "href": "docs/rp__interpolator___spec.html#L110C9"
                     },
                     {
                       "kind": "span",
@@ -466,7 +466,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Lane_Config",
-                      "href": "docs/rp__interpolator___spec.html#L21C9"
+                      "href": "docs/rp__interpolator___spec.html#L23C9"
                     },
                     {
                       "kind": "span",
@@ -482,7 +482,7 @@ GNATdoc.Documentation = {
         {
           "label": "Lane",
           "qualifier": "",
-          "line": 108,
+          "line": 110,
           "column": 9,
           "src": "srcs/rp-interpolator.ads.html",
           "summary": [
@@ -493,7 +493,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 108,
+                  "number": 110,
                   "children": [
                     {
                       "kind": "span",
@@ -514,7 +514,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Lane",
-                      "href": "docs/rp__interpolator___spec.html#L108C9"
+                      "href": "docs/rp__interpolator___spec.html#L110C9"
                     },
                     {
                       "kind": "span",
@@ -593,7 +593,7 @@ GNATdoc.Documentation = {
         {
           "label": "LANE_Register",
           "qualifier": "",
-          "line": 111,
+          "line": 113,
           "column": 9,
           "src": "srcs/rp-interpolator.ads.html",
           "summary": [
@@ -604,7 +604,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 111,
+                  "number": 113,
                   "children": [
                     {
                       "kind": "span",
@@ -625,7 +625,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "LANE_Register",
-                      "href": "docs/rp__interpolator___spec.html#L111C9"
+                      "href": "docs/rp__interpolator___spec.html#L113C9"
                     },
                     {
                       "kind": "span",
@@ -661,7 +661,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Lane",
-                      "href": "docs/rp__interpolator___spec.html#L108C9"
+                      "href": "docs/rp__interpolator___spec.html#L110C9"
                     },
                     {
                       "kind": "span",
@@ -708,7 +708,7 @@ GNATdoc.Documentation = {
         {
           "label": "INTERP_Peripheral",
           "qualifier": "",
-          "line": 119,
+          "line": 121,
           "column": 9,
           "src": "srcs/rp-interpolator.ads.html",
           "summary": [
@@ -719,7 +719,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 119,
+                  "number": 121,
                   "children": [
                     {
                       "kind": "span",
@@ -740,7 +740,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "INTERP_Peripheral",
-                      "href": "docs/rp__interpolator___spec.html#L119C9"
+                      "href": "docs/rp__interpolator___spec.html#L121C9"
                     },
                     {
                       "kind": "span",
@@ -766,7 +766,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 120,
+                  "number": 122,
                   "children": [
                     {
                       "kind": "span",
@@ -777,7 +777,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ACCUM",
-                      "href": "docs/rp__interpolator___spec.html#L120C7"
+                      "href": "docs/rp__interpolator___spec.html#L122C7"
                     },
                     {
                       "kind": "span",
@@ -798,93 +798,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ACCUM_Register",
-                      "href": "docs/rp__interpolator___spec.html#L110C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 121,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BASE",
-                      "href": "docs/rp__interpolator___spec.html#L121C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "        "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "LANE_Register",
-                      "href": "docs/rp__interpolator___spec.html#L111C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 122,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "POP",
-                      "href": "docs/rp__interpolator___spec.html#L122C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "LANE_Register",
-                      "href": "docs/rp__interpolator___spec.html#L111C9"
+                      "href": "docs/rp__interpolator___spec.html#L112C9"
                     },
                     {
                       "kind": "span",
@@ -905,7 +819,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "PEEK",
+                      "text": "BASE",
                       "href": "docs/rp__interpolator___spec.html#L123C7"
                     },
                     {
@@ -927,7 +841,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "LANE_Register",
-                      "href": "docs/rp__interpolator___spec.html#L111C9"
+                      "href": "docs/rp__interpolator___spec.html#L113C9"
                     },
                     {
                       "kind": "span",
@@ -948,13 +862,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "CTRL",
+                      "text": "POP",
                       "href": "docs/rp__interpolator___spec.html#L124C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "        "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -969,8 +883,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "CTRL_Register",
-                      "href": "docs/rp__interpolator___spec.html#L112C9"
+                      "text": "LANE_Register",
+                      "href": "docs/rp__interpolator___spec.html#L113C9"
                     },
                     {
                       "kind": "span",
@@ -991,13 +905,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ADD",
+                      "text": "PEEK",
                       "href": "docs/rp__interpolator___spec.html#L125C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "         "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -1012,7 +926,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ADD_Register",
+                      "text": "LANE_Register",
                       "href": "docs/rp__interpolator___spec.html#L113C9"
                     },
                     {
@@ -1034,8 +948,94 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BASE_1AND0",
+                      "text": "CTRL",
                       "href": "docs/rp__interpolator___spec.html#L126C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "CTRL_Register",
+                      "href": "docs/rp__interpolator___spec.html#L114C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 127,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ADD",
+                      "href": "docs/rp__interpolator___spec.html#L127C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ADD_Register",
+                      "href": "docs/rp__interpolator___spec.html#L115C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 128,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BASE_1AND0",
+                      "href": "docs/rp__interpolator___spec.html#L128C7"
                     },
                     {
                       "kind": "span",
@@ -1067,7 +1067,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 127,
+                  "number": 129,
                   "children": [
                     {
                       "kind": "span",
@@ -1093,7 +1093,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 128,
+                  "number": 130,
                   "children": [
                     {
                       "kind": "span",
@@ -1114,7 +1114,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 129,
+                  "number": 131,
                   "children": [
                     {
                       "kind": "span",
@@ -1151,73 +1151,73 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "ACCUM",
-              "line": 120,
-              "column": 7,
-              "type": {
-                "label": "RP.Interpolator.ACCUM_Register",
-                "docHref": "docs/rp__interpolator___spec.html#L110C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "BASE",
-              "line": 121,
-              "column": 7,
-              "type": {
-                "label": "RP.Interpolator.LANE_Register",
-                "docHref": "docs/rp__interpolator___spec.html#L111C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "POP",
               "line": 122,
               "column": 7,
               "type": {
-                "label": "RP.Interpolator.LANE_Register",
-                "docHref": "docs/rp__interpolator___spec.html#L111C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "PEEK",
-              "line": 123,
-              "column": 7,
-              "type": {
-                "label": "RP.Interpolator.LANE_Register",
-                "docHref": "docs/rp__interpolator___spec.html#L111C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "CTRL",
-              "line": 124,
-              "column": 7,
-              "type": {
-                "label": "RP.Interpolator.CTRL_Register",
+                "label": "RP.Interpolator.ACCUM_Register",
                 "docHref": "docs/rp__interpolator___spec.html#L112C9"
               },
               "description": [
               ]
             },
             {
-              "label": "ADD",
-              "line": 125,
+              "label": "BASE",
+              "line": 123,
               "column": 7,
               "type": {
-                "label": "RP.Interpolator.ADD_Register",
+                "label": "RP.Interpolator.LANE_Register",
                 "docHref": "docs/rp__interpolator___spec.html#L113C9"
               },
               "description": [
               ]
             },
             {
-              "label": "BASE_1AND0",
+              "label": "POP",
+              "line": 124,
+              "column": 7,
+              "type": {
+                "label": "RP.Interpolator.LANE_Register",
+                "docHref": "docs/rp__interpolator___spec.html#L113C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "PEEK",
+              "line": 125,
+              "column": 7,
+              "type": {
+                "label": "RP.Interpolator.LANE_Register",
+                "docHref": "docs/rp__interpolator___spec.html#L113C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "CTRL",
               "line": 126,
+              "column": 7,
+              "type": {
+                "label": "RP.Interpolator.CTRL_Register",
+                "docHref": "docs/rp__interpolator___spec.html#L114C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "ADD",
+              "line": 127,
+              "column": 7,
+              "type": {
+                "label": "RP.Interpolator.ADD_Register",
+                "docHref": "docs/rp__interpolator___spec.html#L115C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "BASE_1AND0",
+              "line": 128,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -1231,7 +1231,7 @@ GNATdoc.Documentation = {
         {
           "label": "Lane_Config",
           "qualifier": "",
-          "line": 21,
+          "line": 23,
           "column": 9,
           "src": "srcs/rp-interpolator.ads.html",
           "summary": [
@@ -1242,7 +1242,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 21,
+                  "number": 23,
                   "children": [
                     {
                       "kind": "span",
@@ -1263,7 +1263,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Lane_Config",
-                      "href": "docs/rp__interpolator___spec.html#L21C9"
+                      "href": "docs/rp__interpolator___spec.html#L23C9"
                     },
                     {
                       "kind": "span",
@@ -1289,7 +1289,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 22,
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -1305,7 +1305,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 23,
+                  "number": 25,
                   "children": [
                     {
                       "kind": "span",
@@ -1316,7 +1316,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SHIFT",
-                      "href": "docs/rp__interpolator___spec.html#L23C7"
+                      "href": "docs/rp__interpolator___spec.html#L25C7"
                     },
                     {
                       "kind": "span",
@@ -1368,13 +1368,13 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 24,
+                  "number": 26,
                   "children": [
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 25,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -1390,7 +1390,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 26,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
@@ -1401,7 +1401,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "MASK_LSB",
-                      "href": "docs/rp__interpolator___spec.html#L26C7"
+                      "href": "docs/rp__interpolator___spec.html#L28C7"
                     },
                     {
                       "kind": "span",
@@ -1453,13 +1453,13 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 27,
+                  "number": 29,
                   "children": [
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 28,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -1475,7 +1475,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 29,
+                  "number": 31,
                   "children": [
                     {
                       "kind": "span",
@@ -1491,7 +1491,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 30,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -1507,7 +1507,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 33,
                   "children": [
                     {
                       "kind": "span",
@@ -1523,7 +1523,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -1539,7 +1539,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -1550,7 +1550,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "MASK_MSB",
-                      "href": "docs/rp__interpolator___spec.html#L33C7"
+                      "href": "docs/rp__interpolator___spec.html#L35C7"
                     },
                     {
                       "kind": "span",
@@ -1602,13 +1602,13 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 36,
                   "children": [
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -1624,7 +1624,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -1640,7 +1640,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -1651,7 +1651,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SIGNED",
-                      "href": "docs/rp__interpolator___spec.html#L37C7"
+                      "href": "docs/rp__interpolator___spec.html#L39C7"
                     },
                     {
                       "kind": "span",
@@ -1702,13 +1702,13 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 40,
                   "children": [
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
@@ -1724,7 +1724,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -1740,7 +1740,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -1751,7 +1751,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CROSS_INPUT",
-                      "href": "docs/rp__interpolator___spec.html#L41C7"
+                      "href": "docs/rp__interpolator___spec.html#L43C7"
                     },
                     {
                       "kind": "span",
@@ -1802,13 +1802,13 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 44,
                   "children": [
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 45,
                   "children": [
                     {
                       "kind": "span",
@@ -1824,7 +1824,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -1840,7 +1840,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -1851,7 +1851,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CROSS_RESULT",
-                      "href": "docs/rp__interpolator___spec.html#L45C7"
+                      "href": "docs/rp__interpolator___spec.html#L47C7"
                     },
                     {
                       "kind": "span",
@@ -1902,13 +1902,13 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 48,
                   "children": [
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -1924,7 +1924,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -1940,7 +1940,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 51,
                   "children": [
                     {
                       "kind": "span",
@@ -1951,7 +1951,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADD_RAW",
-                      "href": "docs/rp__interpolator___spec.html#L49C7"
+                      "href": "docs/rp__interpolator___spec.html#L51C7"
                     },
                     {
                       "kind": "span",
@@ -2002,13 +2002,13 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 52,
                   "children": [
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 53,
                   "children": [
                     {
                       "kind": "span",
@@ -2024,7 +2024,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -2035,7 +2035,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "FORCE_MSB",
-                      "href": "docs/rp__interpolator___spec.html#L52C7"
+                      "href": "docs/rp__interpolator___spec.html#L54C7"
                     },
                     {
                       "kind": "span",
@@ -2087,13 +2087,13 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 55,
                   "children": [
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -2109,38 +2109,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 55,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 56,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  LANE1 result is a linear interpolation between BASE0 and BASE1,"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 57,
                   "children": [
                     {
@@ -2151,7 +2119,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  controlled by the 8 LSBs of lane 1 shift and mask value (a fractional"
+                      "text": "--"
                     }
                   ]
                 },
@@ -2167,7 +2135,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  number between 0 and 255/256ths)"
+                      "text": "--  LANE1 result is a linear interpolation between BASE0 and BASE1,"
                     }
                   ]
                 },
@@ -2183,7 +2151,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--"
+                      "text": "--  controlled by the 8 LSBs of lane 1 shift and mask value (a fractional"
                     }
                   ]
                 },
@@ -2199,7 +2167,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  LANE0 result does not have BASE0 added (yields only the 8 LSBs of"
+                      "text": "--  number between 0 and 255/256ths)"
                     }
                   ]
                 },
@@ -2215,7 +2183,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  lane 1 shift+mask value)"
+                      "text": "--"
                     }
                   ]
                 },
@@ -2231,7 +2199,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--"
+                      "text": "--  LANE0 result does not have BASE0 added (yields only the 8 LSBs of"
                     }
                   ]
                 },
@@ -2247,7 +2215,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  FULL result does not have lane 1 shift+mask value added (BASE2 + lane 0 shift+mask)"
+                      "text": "--  lane 1 shift+mask value)"
                     }
                   ]
                 },
@@ -2279,7 +2247,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  LANE1 SIGNED flag controls whether the interpolation is signed or unsigned."
+                      "text": "--  FULL result does not have lane 1 shift+mask value added (BASE2 + lane 0 shift+mask)"
                     }
                   ]
                 },
@@ -2294,9 +2262,41 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 67,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  LANE1 SIGNED flag controls whether the interpolation is signed or unsigned."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 68,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "BLEND",
-                      "href": "docs/rp__interpolator___spec.html#L66C7"
+                      "href": "docs/rp__interpolator___spec.html#L68C7"
                     },
                     {
                       "kind": "span",
@@ -2347,13 +2347,13 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 67,
+                  "number": 69,
                   "children": [
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 68,
+                  "number": 70,
                   "children": [
                     {
                       "kind": "span",
@@ -2369,38 +2369,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 69,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 70,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  LANE0 result is shifted and masked ACCUM0, clamped by a lower bound"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 71,
                   "children": [
                     {
@@ -2411,7 +2379,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  of BASE0 and upper bound of BASE1."
+                      "text": "--"
                     }
                   ]
                 },
@@ -2427,7 +2395,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--"
+                      "text": "--  LANE0 result is shifted and masked ACCUM0, clamped by a lower bound"
                     }
                   ]
                 },
@@ -2443,7 +2411,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Signedness of these comparisons is determined by CTRL (0).SIGNED"
+                      "text": "--  of BASE0 and upper bound of BASE1."
                     }
                   ]
                 },
@@ -2458,9 +2426,41 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 75,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Signedness of these comparisons is determined by CTRL (0).SIGNED"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 76,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "CLAMP",
-                      "href": "docs/rp__interpolator___spec.html#L74C7"
+                      "href": "docs/rp__interpolator___spec.html#L76C7"
                     },
                     {
                       "kind": "span",
@@ -2511,13 +2511,13 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 75,
+                  "number": 77,
                   "children": [
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 76,
+                  "number": 78,
                   "children": [
                     {
                       "kind": "span",
@@ -2533,7 +2533,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 77,
+                  "number": 79,
                   "children": [
                     {
                       "kind": "span",
@@ -2549,7 +2549,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 78,
+                  "number": 80,
                   "children": [
                     {
                       "kind": "span",
@@ -2565,7 +2565,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 79,
+                  "number": 81,
                   "children": [
                     {
                       "kind": "span",
@@ -2576,7 +2576,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "OVERF",
-                      "href": "docs/rp__interpolator___spec.html#L79C7"
+                      "href": "docs/rp__interpolator___spec.html#L81C7"
                     },
                     {
                       "kind": "span",
@@ -2627,13 +2627,13 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 80,
+                  "number": 82,
                   "children": [
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 81,
+                  "number": 83,
                   "children": [
                     {
                       "kind": "span",
@@ -2649,7 +2649,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 82,
+                  "number": 84,
                   "children": [
                     {
                       "kind": "span",
@@ -2660,7 +2660,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "OVERF1",
-                      "href": "docs/rp__interpolator___spec.html#L82C7"
+                      "href": "docs/rp__interpolator___spec.html#L84C7"
                     },
                     {
                       "kind": "span",
@@ -2711,13 +2711,13 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 83,
+                  "number": 85,
                   "children": [
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 84,
+                  "number": 86,
                   "children": [
                     {
                       "kind": "span",
@@ -2733,7 +2733,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 85,
+                  "number": 87,
                   "children": [
                     {
                       "kind": "span",
@@ -2744,7 +2744,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "OVERF0",
-                      "href": "docs/rp__interpolator___spec.html#L85C7"
+                      "href": "docs/rp__interpolator___spec.html#L87C7"
                     },
                     {
                       "kind": "span",
@@ -2795,7 +2795,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 86,
+                  "number": 88,
                   "children": [
                     {
                       "kind": "span",
@@ -2821,7 +2821,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 87,
+                  "number": 89,
                   "children": [
                     {
                       "kind": "span",
@@ -2842,7 +2842,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 88,
+                  "number": 90,
                   "children": [
                     {
                       "kind": "span",
@@ -2862,7 +2862,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "SHIFT",
-              "line": 23,
+              "line": 25,
               "column": 7,
               "type": {
                 "label": "HAL.UInt5",
@@ -2882,7 +2882,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "MASK_LSB",
-              "line": 26,
+              "line": 28,
               "column": 7,
               "type": {
                 "label": "HAL.UInt5",
@@ -2902,7 +2902,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "MASK_MSB",
-              "line": 33,
+              "line": 35,
               "column": 7,
               "type": {
                 "label": "HAL.UInt5",
@@ -2939,7 +2939,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SIGNED",
-              "line": 37,
+              "line": 39,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -2962,7 +2962,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "CROSS_INPUT",
-              "line": 41,
+              "line": 43,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -2985,7 +2985,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "CROSS_RESULT",
-              "line": 45,
+              "line": 47,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -3008,7 +3008,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ADD_RAW",
-              "line": 49,
+              "line": 51,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -3031,7 +3031,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "FORCE_MSB",
-              "line": 52,
+              "line": 54,
               "column": 7,
               "type": {
                 "label": "HAL.UInt2",
@@ -3051,7 +3051,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "BLEND",
-              "line": 66,
+              "line": 68,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -3118,7 +3118,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "CLAMP",
-              "line": 74,
+              "line": 76,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -3159,7 +3159,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "OVERF",
-              "line": 79,
+              "line": 81,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -3187,7 +3187,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "OVERF1",
-              "line": 82,
+              "line": 84,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -3206,7 +3206,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "OVERF0",
-              "line": 85,
+              "line": 87,
               "column": 7,
               "type": {
                 "label": "Boolean"

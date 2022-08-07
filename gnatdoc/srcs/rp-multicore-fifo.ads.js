@@ -113,12 +113,39 @@ GNATdoc.SourceFile = {
           "cssClass": "identifier",
           "text": "RP.Multicore.FIFO",
           "href": "docs/rp__multicore__fifo___spec.html#L9C22"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 10,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
         },
         {
           "kind": "span",
           "cssClass": "text",
           "text": " "
         },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Preelaborate"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 11,
+      "children": [
         {
           "kind": "span",
           "cssClass": "keyword",
@@ -128,13 +155,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 10,
+      "number": 12,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 11,
+      "number": 13,
       "children": [
         {
           "kind": "span",
@@ -155,7 +182,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RX_Ready",
-          "href": "docs/rp__multicore__fifo___spec.html#L11C13"
+          "href": "docs/rp__multicore__fifo___spec.html#L13C13"
         },
         {
           "kind": "span",
@@ -186,7 +213,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 12,
+      "number": 14,
       "children": [
         {
           "kind": "span",
@@ -207,7 +234,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TX_Ready",
-          "href": "docs/rp__multicore__fifo___spec.html#L12C13"
+          "href": "docs/rp__multicore__fifo___spec.html#L14C13"
         },
         {
           "kind": "span",
@@ -238,13 +265,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 13,
+      "number": 15,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 14,
+      "number": 16,
       "children": [
         {
           "kind": "span",
@@ -265,7 +292,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Push_Blocking",
-          "href": "docs/rp__multicore__fifo___spec.html#L14C14"
+          "href": "docs/rp__multicore__fifo___spec.html#L16C14"
         },
         {
           "kind": "span",
@@ -281,7 +308,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "V",
-          "href": "docs/rp__multicore__fifo___spec.html#L14C29"
+          "href": "docs/rp__multicore__fifo___spec.html#L16C29"
         },
         {
           "kind": "span",
@@ -314,65 +341,6 @@ GNATdoc.SourceFile = {
           "cssClass": "identifier",
           "text": ";"
         }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 15,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Pop_Blocking",
-          "href": "docs/rp__multicore__fifo___spec.html#L15C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "HAL.UInt32",
-          "href": "docs/hal___spec.html#L97C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 16,
-      "children": [
       ]
     },
     {
@@ -397,8 +365,67 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Try_Push",
+          "text": "Pop_Blocking",
           "href": "docs/rp__multicore__fifo___spec.html#L17C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt32",
+          "href": "docs/hal___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 18,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 19,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Try_Push",
+          "href": "docs/rp__multicore__fifo___spec.html#L19C13"
         },
         {
           "kind": "span",
@@ -414,7 +441,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "V",
-          "href": "docs/rp__multicore__fifo___spec.html#L17C23"
+          "href": "docs/rp__multicore__fifo___spec.html#L19C23"
         },
         {
           "kind": "span",
@@ -471,7 +498,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 18,
+      "number": 20,
       "children": [
         {
           "kind": "span",
@@ -492,7 +519,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Try_Pop",
-          "href": "docs/rp__multicore__fifo___spec.html#L18C13"
+          "href": "docs/rp__multicore__fifo___spec.html#L20C13"
         },
         {
           "kind": "span",
@@ -508,7 +535,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "V",
-          "href": "docs/rp__multicore__fifo___spec.html#L18C22"
+          "href": "docs/rp__multicore__fifo___spec.html#L20C22"
         },
         {
           "kind": "span",
@@ -575,13 +602,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 19,
+      "number": 21,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 20,
+      "number": 22,
       "children": [
         {
           "kind": "span",
@@ -602,7 +629,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Drain",
-          "href": "docs/rp__multicore__fifo___spec.html#L20C14"
+          "href": "docs/rp__multicore__fifo___spec.html#L22C14"
         },
         {
           "kind": "span",
@@ -613,13 +640,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 21,
+      "number": 23,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 22,
+      "number": 24,
       "children": [
         {
           "kind": "span",
@@ -635,7 +662,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 23,
+      "number": 25,
       "children": [
         {
           "kind": "span",
@@ -651,7 +678,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 24,
+      "number": 26,
       "children": [
         {
           "kind": "span",
@@ -667,7 +694,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 25,
+      "number": 27,
       "children": [
         {
           "kind": "span",
@@ -683,7 +710,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 26,
+      "number": 28,
       "children": [
         {
           "kind": "span",
@@ -699,7 +726,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 27,
+      "number": 29,
       "children": [
         {
           "kind": "span",
@@ -750,7 +777,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 28,
+      "number": 30,
       "children": [
         {
           "kind": "span",
@@ -801,7 +828,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 29,
+      "number": 31,
       "children": [
         {
           "kind": "span",
@@ -852,7 +879,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 30,
+      "number": 32,
       "children": [
         {
           "kind": "span",
@@ -903,7 +930,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 31,
+      "number": 33,
       "children": [
         {
           "kind": "span",
@@ -954,7 +981,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 32,
+      "number": 34,
       "children": [
         {
           "kind": "span",
@@ -1005,7 +1032,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 33,
+      "number": 35,
       "children": [
         {
           "kind": "span",
@@ -1056,13 +1083,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 34,
+      "number": 36,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 35,
+      "number": 37,
       "children": [
         {
           "kind": "span",

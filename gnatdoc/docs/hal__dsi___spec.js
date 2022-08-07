@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "DSI_Data",
           "qualifier": "",
-          "line": 38,
+          "line": 39,
           "column": 9,
           "src": "srcs/hal-dsi.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DSI_Data",
-                      "href": "docs/hal__dsi___spec.html#L38C9"
+                      "href": "docs/hal__dsi___spec.html#L39C9"
                     },
                     {
                       "kind": "span",
@@ -140,7 +140,7 @@ GNATdoc.Documentation = {
         {
           "label": "DSI_Long_Write_Packet_Data_Type",
           "qualifier": "",
-          "line": 56,
+          "line": 57,
           "column": 12,
           "src": "srcs/hal-dsi.ads.html",
           "summary": [
@@ -151,7 +151,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 57,
                   "children": [
                     {
                       "kind": "span",
@@ -172,7 +172,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DSI_Long_Write_Packet_Data_Type",
-                      "href": "docs/hal__dsi___spec.html#L56C12"
+                      "href": "docs/hal__dsi___spec.html#L57C12"
                     },
                     {
                       "kind": "span",
@@ -193,7 +193,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DSI_Pkt_Data_Type",
-                      "href": "docs/hal__dsi___spec.html#L40C9"
+                      "href": "docs/hal__dsi___spec.html#L41C9"
                     },
                     {
                       "kind": "span",
@@ -209,7 +209,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 57,
+                  "number": 58,
                   "children": [
                     {
                       "kind": "span",
@@ -255,7 +255,7 @@ GNATdoc.Documentation = {
         {
           "label": "DSI_Pkt_Data_Type",
           "qualifier": "",
-          "line": 40,
+          "line": 41,
           "column": 9,
           "src": "srcs/hal-dsi.ads.html",
           "summary": [
@@ -266,7 +266,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
@@ -287,7 +287,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DSI_Pkt_Data_Type",
-                      "href": "docs/hal__dsi___spec.html#L40C9"
+                      "href": "docs/hal__dsi___spec.html#L41C9"
                     },
                     {
                       "kind": "span",
@@ -303,7 +303,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -319,7 +319,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DCS_Short_Pkt_Write_P0",
-                      "href": "docs/hal__dsi___spec.html#L41C7"
+                      "href": "docs/hal__dsi___spec.html#L42C7"
                     },
                     {
                       "kind": "span",
@@ -340,7 +340,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -351,7 +351,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DCS_Short_Pkt_Write_P1",
-                      "href": "docs/hal__dsi___spec.html#L42C7"
+                      "href": "docs/hal__dsi___spec.html#L43C7"
                     },
                     {
                       "kind": "span",
@@ -372,7 +372,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -383,7 +383,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Gen_Short_Pkt_Write_P0",
-                      "href": "docs/hal__dsi___spec.html#L43C7"
+                      "href": "docs/hal__dsi___spec.html#L44C7"
                     },
                     {
                       "kind": "span",
@@ -404,7 +404,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 45,
                   "children": [
                     {
                       "kind": "span",
@@ -415,7 +415,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Gen_Short_Pkt_Write_P1",
-                      "href": "docs/hal__dsi___spec.html#L44C7"
+                      "href": "docs/hal__dsi___spec.html#L45C7"
                     },
                     {
                       "kind": "span",
@@ -436,7 +436,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -447,7 +447,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Gen_Short_Pkt_Write_P2",
-                      "href": "docs/hal__dsi___spec.html#L45C7"
+                      "href": "docs/hal__dsi___spec.html#L46C7"
                     },
                     {
                       "kind": "span",
@@ -468,7 +468,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -479,7 +479,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DCS_Long_Pkt_Write",
-                      "href": "docs/hal__dsi___spec.html#L46C7"
+                      "href": "docs/hal__dsi___spec.html#L47C7"
                     },
                     {
                       "kind": "span",
@@ -500,7 +500,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -511,7 +511,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Gen_Long_Pkt_Write",
-                      "href": "docs/hal__dsi___spec.html#L47C7"
+                      "href": "docs/hal__dsi___spec.html#L48C7"
                     },
                     {
                       "kind": "span",
@@ -532,7 +532,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -543,7 +543,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DCS_Short_Pkt_Read",
-                      "href": "docs/hal__dsi___spec.html#L48C7"
+                      "href": "docs/hal__dsi___spec.html#L49C7"
                     },
                     {
                       "kind": "span",
@@ -564,7 +564,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -575,7 +575,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Gen_Short_Pkg_Read_P0",
-                      "href": "docs/hal__dsi___spec.html#L49C7"
+                      "href": "docs/hal__dsi___spec.html#L50C7"
                     },
                     {
                       "kind": "span",
@@ -596,7 +596,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 51,
                   "children": [
                     {
                       "kind": "span",
@@ -607,7 +607,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Gen_Short_Pkg_Read_P1",
-                      "href": "docs/hal__dsi___spec.html#L50C7"
+                      "href": "docs/hal__dsi___spec.html#L51C7"
                     },
                     {
                       "kind": "span",
@@ -628,7 +628,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 52,
                   "children": [
                     {
                       "kind": "span",
@@ -639,7 +639,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Gen_Short_Pkg_Read_P2",
-                      "href": "docs/hal__dsi___spec.html#L51C7"
+                      "href": "docs/hal__dsi___spec.html#L52C7"
                     },
                     {
                       "kind": "span",
@@ -650,7 +650,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/hal__dsi___spec.html#L40C9"
+                      "href": "docs/hal__dsi___spec.html#L41C9"
                     }
                   ]
                 }
@@ -669,7 +669,7 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "DCS_Short_Pkt_Write_P0",
-              "line": 41,
+              "line": 42,
               "column": 7,
               "description": [
                 {
@@ -685,7 +685,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DCS_Short_Pkt_Write_P1",
-              "line": 42,
+              "line": 43,
               "column": 7,
               "description": [
                 {
@@ -701,7 +701,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Gen_Short_Pkt_Write_P0",
-              "line": 43,
+              "line": 44,
               "column": 7,
               "description": [
                 {
@@ -717,7 +717,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Gen_Short_Pkt_Write_P1",
-              "line": 44,
+              "line": 45,
               "column": 7,
               "description": [
                 {
@@ -733,7 +733,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Gen_Short_Pkt_Write_P2",
-              "line": 45,
+              "line": 46,
               "column": 7,
               "description": [
                 {
@@ -749,7 +749,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DCS_Long_Pkt_Write",
-              "line": 46,
+              "line": 47,
               "column": 7,
               "description": [
                 {
@@ -765,7 +765,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Gen_Long_Pkt_Write",
-              "line": 47,
+              "line": 48,
               "column": 7,
               "description": [
                 {
@@ -781,7 +781,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DCS_Short_Pkt_Read",
-              "line": 48,
+              "line": 49,
               "column": 7,
               "description": [
                 {
@@ -797,7 +797,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Gen_Short_Pkg_Read_P0",
-              "line": 49,
+              "line": 50,
               "column": 7,
               "description": [
                 {
@@ -813,7 +813,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Gen_Short_Pkg_Read_P1",
-              "line": 50,
+              "line": 51,
               "column": 7,
               "description": [
                 {
@@ -829,7 +829,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Gen_Short_Pkg_Read_P2",
-              "line": 51,
+              "line": 52,
               "column": 7,
               "description": [
               ]
@@ -839,7 +839,7 @@ GNATdoc.Documentation = {
         {
           "label": "DSI_Short_Write_Packet_Data_Type",
           "qualifier": "",
-          "line": 53,
+          "line": 54,
           "column": 12,
           "src": "srcs/hal-dsi.ads.html",
           "summary": [
@@ -850,7 +850,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -871,7 +871,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DSI_Short_Write_Packet_Data_Type",
-                      "href": "docs/hal__dsi___spec.html#L53C12"
+                      "href": "docs/hal__dsi___spec.html#L54C12"
                     },
                     {
                       "kind": "span",
@@ -892,7 +892,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DSI_Pkt_Data_Type",
-                      "href": "docs/hal__dsi___spec.html#L40C9"
+                      "href": "docs/hal__dsi___spec.html#L41C9"
                     },
                     {
                       "kind": "span",
@@ -908,7 +908,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -954,7 +954,7 @@ GNATdoc.Documentation = {
         {
           "label": "DSI_Virtual_Channel_ID",
           "qualifier": "",
-          "line": 36,
+          "line": 37,
           "column": 12,
           "src": "srcs/hal-dsi.ads.html",
           "summary": [
@@ -965,7 +965,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -986,7 +986,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DSI_Virtual_Channel_ID",
-                      "href": "docs/hal__dsi___spec.html#L36C12"
+                      "href": "docs/hal__dsi___spec.html#L37C12"
                     },
                     {
                       "kind": "span",
@@ -1028,7 +1028,7 @@ GNATdoc.Documentation = {
         {
           "label": "Any_DSI_Port",
           "qualifier": "",
-          "line": 61,
+          "line": 62,
           "column": 9,
           "src": "srcs/hal-dsi.ads.html",
           "summary": [
@@ -1039,7 +1039,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 61,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -1060,7 +1060,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Any_DSI_Port",
-                      "href": "docs/hal__dsi___spec.html#L61C9"
+                      "href": "docs/hal__dsi___spec.html#L62C9"
                     },
                     {
                       "kind": "span",
@@ -1101,7 +1101,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DSI_Port",
-                      "href": "docs/hal__dsi___spec.html#L59C9"
+                      "href": "docs/hal__dsi___spec.html#L60C9"
                     },
                     {
                       "kind": "span",
@@ -1132,7 +1132,7 @@ GNATdoc.Documentation = {
         {
           "label": "DSI_Port",
           "qualifier": "",
-          "line": 59,
+          "line": 60,
           "column": 9,
           "src": "srcs/hal-dsi.ads.html",
           "summary": [
@@ -1143,7 +1143,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 59,
+                  "number": 60,
                   "children": [
                     {
                       "kind": "span",
@@ -1164,7 +1164,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DSI_Port",
-                      "href": "docs/hal__dsi___spec.html#L59C9"
+                      "href": "docs/hal__dsi___spec.html#L60C9"
                     },
                     {
                       "kind": "span",
@@ -1215,7 +1215,7 @@ GNATdoc.Documentation = {
         {
           "label": "DSI_Long_Write",
           "qualifier": "",
-          "line": 70,
+          "line": 71,
           "column": 14,
           "src": "srcs/hal-dsi.ads.html",
           "summary": [
@@ -1226,7 +1226,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 70,
+                  "number": 71,
                   "children": [
                     {
                       "kind": "span",
@@ -1247,13 +1247,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DSI_Long_Write",
-                      "href": "docs/hal__dsi___spec.html#L70C14"
+                      "href": "docs/hal__dsi___spec.html#L71C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 72,
                   "children": [
                     {
                       "kind": "span",
@@ -1269,7 +1269,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Port",
-                      "href": "docs/hal__dsi___spec.html#L71C7"
+                      "href": "docs/hal__dsi___spec.html#L72C7"
                     },
                     {
                       "kind": "span",
@@ -1310,50 +1310,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DSI_Port",
-                      "href": "docs/hal__dsi___spec.html#L59C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 72,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Channel_Id",
-                      "href": "docs/hal__dsi___spec.html#L72C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DSI_Virtual_Channel_ID",
-                      "href": "docs/hal__dsi___spec.html#L36C12"
+                      "href": "docs/hal__dsi___spec.html#L60C9"
                     },
                     {
                       "kind": "span",
@@ -1374,13 +1331,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Mode",
+                      "text": "Channel_Id",
                       "href": "docs/hal__dsi___spec.html#L73C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "       "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -1395,8 +1352,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DSI_Long_Write_Packet_Data_Type",
-                      "href": "docs/hal__dsi___spec.html#L56C12"
+                      "text": "DSI_Virtual_Channel_ID",
+                      "href": "docs/hal__dsi___spec.html#L37C12"
                     },
                     {
                       "kind": "span",
@@ -1417,8 +1374,51 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Param1",
+                      "text": "Mode",
                       "href": "docs/hal__dsi___spec.html#L74C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DSI_Long_Write_Packet_Data_Type",
+                      "href": "docs/hal__dsi___spec.html#L57C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 75,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Param1",
+                      "href": "docs/hal__dsi___spec.html#L75C7"
                     },
                     {
                       "kind": "span",
@@ -1450,7 +1450,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 75,
+                  "number": 76,
                   "children": [
                     {
                       "kind": "span",
@@ -1461,7 +1461,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Parameters",
-                      "href": "docs/hal__dsi___spec.html#L75C7"
+                      "href": "docs/hal__dsi___spec.html#L76C7"
                     },
                     {
                       "kind": "span",
@@ -1482,7 +1482,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DSI_Data",
-                      "href": "docs/hal__dsi___spec.html#L38C9"
+                      "href": "docs/hal__dsi___spec.html#L39C9"
                     },
                     {
                       "kind": "span",
@@ -1522,40 +1522,40 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Port",
-              "line": 71,
+              "line": 72,
               "column": 7,
               "type": {
                 "label": "HAL.DSI.DSI_Port",
-                "docHref": "docs/hal__dsi___spec.html#L59C9"
+                "docHref": "docs/hal__dsi___spec.html#L60C9"
               },
               "description": [
               ]
             },
             {
               "label": "Channel_Id",
-              "line": 72,
+              "line": 73,
               "column": 7,
               "type": {
                 "label": "HAL.DSI.DSI_Virtual_Channel_ID",
-                "docHref": "docs/hal__dsi___spec.html#L36C12"
+                "docHref": "docs/hal__dsi___spec.html#L37C12"
               },
               "description": [
               ]
             },
             {
               "label": "Mode",
-              "line": 73,
+              "line": 74,
               "column": 7,
               "type": {
                 "label": "HAL.DSI.DSI_Long_Write_Packet_Data_Type",
-                "docHref": "docs/hal__dsi___spec.html#L56C12"
+                "docHref": "docs/hal__dsi___spec.html#L57C12"
               },
               "description": [
               ]
             },
             {
               "label": "Param1",
-              "line": 74,
+              "line": 75,
               "column": 7,
               "type": {
                 "label": "HAL.UInt8",
@@ -1566,11 +1566,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Parameters",
-              "line": 75,
+              "line": 76,
               "column": 7,
               "type": {
                 "label": "HAL.DSI.DSI_Data",
-                "docHref": "docs/hal__dsi___spec.html#L38C9"
+                "docHref": "docs/hal__dsi___spec.html#L39C9"
               },
               "description": [
               ]
@@ -1580,7 +1580,7 @@ GNATdoc.Documentation = {
         {
           "label": "DSI_Short_Write",
           "qualifier": "",
-          "line": 63,
+          "line": 64,
           "column": 14,
           "src": "srcs/hal-dsi.ads.html",
           "summary": [
@@ -1591,7 +1591,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 63,
+                  "number": 64,
                   "children": [
                     {
                       "kind": "span",
@@ -1612,13 +1612,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DSI_Short_Write",
-                      "href": "docs/hal__dsi___spec.html#L63C14"
+                      "href": "docs/hal__dsi___spec.html#L64C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 64,
+                  "number": 65,
                   "children": [
                     {
                       "kind": "span",
@@ -1634,7 +1634,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Port",
-                      "href": "docs/hal__dsi___spec.html#L64C7"
+                      "href": "docs/hal__dsi___spec.html#L65C7"
                     },
                     {
                       "kind": "span",
@@ -1675,50 +1675,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DSI_Port",
-                      "href": "docs/hal__dsi___spec.html#L59C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 65,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Channel_ID",
-                      "href": "docs/hal__dsi___spec.html#L65C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DSI_Virtual_Channel_ID",
-                      "href": "docs/hal__dsi___spec.html#L36C12"
+                      "href": "docs/hal__dsi___spec.html#L60C9"
                     },
                     {
                       "kind": "span",
@@ -1739,13 +1696,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Mode",
+                      "text": "Channel_ID",
                       "href": "docs/hal__dsi___spec.html#L66C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "       "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -1760,8 +1717,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DSI_Short_Write_Packet_Data_Type",
-                      "href": "docs/hal__dsi___spec.html#L53C12"
+                      "text": "DSI_Virtual_Channel_ID",
+                      "href": "docs/hal__dsi___spec.html#L37C12"
                     },
                     {
                       "kind": "span",
@@ -1782,13 +1739,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Param1",
+                      "text": "Mode",
                       "href": "docs/hal__dsi___spec.html#L67C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "     "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -1803,8 +1760,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "UInt8",
-                      "href": "docs/hal___spec.html#L53C9"
+                      "text": "DSI_Short_Write_Packet_Data_Type",
+                      "href": "docs/hal__dsi___spec.html#L54C12"
                     },
                     {
                       "kind": "span",
@@ -1825,7 +1782,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Param2",
+                      "text": "Param1",
                       "href": "docs/hal__dsi___spec.html#L68C7"
                     },
                     {
@@ -1852,6 +1809,49 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 69,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Param2",
+                      "href": "docs/hal__dsi___spec.html#L69C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "UInt8",
+                      "href": "docs/hal___spec.html#L53C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
                       "text": ")"
                     },
                     {
@@ -1887,40 +1887,40 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Port",
-              "line": 64,
+              "line": 65,
               "column": 7,
               "type": {
                 "label": "HAL.DSI.DSI_Port",
-                "docHref": "docs/hal__dsi___spec.html#L59C9"
+                "docHref": "docs/hal__dsi___spec.html#L60C9"
               },
               "description": [
               ]
             },
             {
               "label": "Channel_ID",
-              "line": 65,
+              "line": 66,
               "column": 7,
               "type": {
                 "label": "HAL.DSI.DSI_Virtual_Channel_ID",
-                "docHref": "docs/hal__dsi___spec.html#L36C12"
+                "docHref": "docs/hal__dsi___spec.html#L37C12"
               },
               "description": [
               ]
             },
             {
               "label": "Mode",
-              "line": 66,
+              "line": 67,
               "column": 7,
               "type": {
                 "label": "HAL.DSI.DSI_Short_Write_Packet_Data_Type",
-                "docHref": "docs/hal__dsi___spec.html#L53C12"
+                "docHref": "docs/hal__dsi___spec.html#L54C12"
               },
               "description": [
               ]
             },
             {
               "label": "Param1",
-              "line": 67,
+              "line": 68,
               "column": 7,
               "type": {
                 "label": "HAL.UInt8",
@@ -1931,7 +1931,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Param2",
-              "line": 68,
+              "line": 69,
               "column": 7,
               "type": {
                 "label": "HAL.UInt8",

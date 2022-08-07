@@ -209,31 +209,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "use"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "RP.SPI"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
         }
       ]
     },
@@ -245,31 +220,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "keyword",
           "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "RP.I2C_Master"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "use"
         },
         {
           "kind": "span",
@@ -305,32 +255,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "RP.UART"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "use"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "RP.UART"
+          "text": "RP.I2C"
         },
         {
           "kind": "span",
@@ -356,32 +281,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "RP.PIO"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "use"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "RP.PIO"
+          "text": "RP.UART"
         },
         {
           "kind": "span",
@@ -407,7 +307,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "RP.RTC"
+          "text": "RP.PIO"
         },
         {
           "kind": "span",
@@ -433,7 +333,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "RP.Interpolator"
+          "text": "RP.RTC"
         },
         {
           "kind": "span",
@@ -459,7 +359,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "RP.USB_Device"
+          "text": "RP.Interpolator"
         },
         {
           "kind": "span",
@@ -485,7 +385,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "RP.Timer"
+          "text": "RP.USB_Device"
         },
         {
           "kind": "span",
@@ -511,7 +411,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "System"
+          "text": "RP.Timer"
         },
         {
           "kind": "span",
@@ -524,11 +424,37 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 20,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "System"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 21,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 22,
       "children": [
         {
           "kind": "span",
@@ -544,7 +470,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.Device",
-          "href": "docs/rp__device___spec.html#L21C12"
+          "href": "docs/rp__device___spec.html#L22C12"
         },
         {
           "kind": "span",
@@ -560,7 +486,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 22,
+      "number": 23,
       "children": [
         {
           "kind": "span",
@@ -571,7 +497,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPI_0",
-          "href": "docs/rp__device___spec.html#L22C4"
+          "href": "docs/rp__device___spec.html#L23C4"
         },
         {
           "kind": "span",
@@ -601,8 +527,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "SPI_Port",
-          "href": "docs/rp__spi___spec.html#L121C9"
+          "text": "RP.SPI.SPI_Port",
+          "href": "docs/rp__spi___spec.html#L15C9"
         },
         {
           "kind": "span",
@@ -659,7 +585,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 23,
+      "number": 24,
       "children": [
         {
           "kind": "span",
@@ -670,7 +596,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPI_1",
-          "href": "docs/rp__device___spec.html#L23C4"
+          "href": "docs/rp__device___spec.html#L24C4"
         },
         {
           "kind": "span",
@@ -700,8 +626,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "SPI_Port",
-          "href": "docs/rp__spi___spec.html#L121C9"
+          "text": "RP.SPI.SPI_Port",
+          "href": "docs/rp__spi___spec.html#L15C9"
         },
         {
           "kind": "span",
@@ -758,13 +684,45 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 24,
+      "number": 25,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 25,
+      "number": 26,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  RP.I2C implements the low level interface and is recommended if you need"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 27,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  precise control over timing or repeated start conditions."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 28,
       "children": [
         {
           "kind": "span",
@@ -775,7 +733,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_0",
-          "href": "docs/rp__device___spec.html#L25C4"
+          "href": "docs/rp__device___spec.html#L28C4"
         },
         {
           "kind": "span",
@@ -805,8 +763,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "I2C_Master_Port",
-          "href": "docs/rp__i2c_master___spec.html#L67C9"
+          "text": "RP.I2C.I2C_Port",
+          "href": "docs/rp__i2c___spec.html#L222C9"
         },
         {
           "kind": "span",
@@ -863,7 +821,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 26,
+      "number": 29,
       "children": [
         {
           "kind": "span",
@@ -874,7 +832,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_1",
-          "href": "docs/rp__device___spec.html#L26C4"
+          "href": "docs/rp__device___spec.html#L29C4"
         },
         {
           "kind": "span",
@@ -904,8 +862,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "I2C_Master_Port",
-          "href": "docs/rp__i2c_master___spec.html#L67C9"
+          "text": "RP.I2C.I2C_Port",
+          "href": "docs/rp__i2c___spec.html#L222C9"
         },
         {
           "kind": "span",
@@ -962,13 +920,45 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 27,
+      "number": 30,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 28,
+      "number": 31,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  RP.I2C_Master implements the HAL.I2C interface and is recommended if"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 32,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  your application needs to be portable to other microcontrollers."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 33,
       "children": [
         {
           "kind": "span",
@@ -978,8 +968,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "UART_0",
-          "href": "docs/rp__device___spec.html#L28C4"
+          "text": "I2CM_0",
+          "href": "docs/rp__device___spec.html#L33C4"
         },
         {
           "kind": "span",
@@ -1009,8 +999,212 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "UART_Port",
-          "href": "docs/rp__uart___spec.html#L170C9"
+          "text": "RP.I2C_Master.I2C_Master_Port",
+          "href": "docs/rp__i2c_master___spec.html#L72C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "RP2040_SVD.I2C.I2C0_Periph",
+          "href": "docs/rp2040_svd__i2c___spec.html#L3317C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "'"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 34,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "I2CM_1",
+          "href": "docs/rp__device___spec.html#L34C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "RP.I2C_Master.I2C_Master_Port",
+          "href": "docs/rp__i2c_master___spec.html#L72C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "1"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "RP2040_SVD.I2C.I2C1_Periph",
+          "href": "docs/rp2040_svd__i2c___spec.html#L3319C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "'"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 35,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 36,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "UART_0",
+          "href": "docs/rp__device___spec.html#L36C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "RP.UART.UART_Port",
+          "href": "docs/rp__uart___spec.html#L38C9"
         },
         {
           "kind": "span",
@@ -1067,7 +1261,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 29,
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -1078,7 +1272,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "UART_1",
-          "href": "docs/rp__device___spec.html#L29C4"
+          "href": "docs/rp__device___spec.html#L37C4"
         },
         {
           "kind": "span",
@@ -1108,8 +1302,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "UART_Port",
-          "href": "docs/rp__uart___spec.html#L170C9"
+          "text": "RP.UART.UART_Port",
+          "href": "docs/rp__uart___spec.html#L38C9"
         },
         {
           "kind": "span",
@@ -1166,13 +1360,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 30,
+      "number": 38,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 31,
+      "number": 39,
       "children": [
         {
           "kind": "span",
@@ -1183,7 +1377,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO0_Periph",
-          "href": "docs/rp__device___spec.html#L31C4"
+          "href": "docs/rp__device___spec.html#L39C4"
         },
         {
           "kind": "span",
@@ -1214,13 +1408,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.PIO.PIO_Peripheral",
-          "href": "docs/rp__pio___spec.html#L356C9"
+          "href": "docs/rp__pio___spec.html#L358C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 32,
+      "number": 40,
       "children": [
         {
           "kind": "span",
@@ -1246,7 +1440,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 33,
+      "number": 41,
       "children": [
         {
           "kind": "span",
@@ -1257,7 +1451,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO1_Periph",
-          "href": "docs/rp__device___spec.html#L33C4"
+          "href": "docs/rp__device___spec.html#L41C4"
         },
         {
           "kind": "span",
@@ -1288,13 +1482,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.PIO.PIO_Peripheral",
-          "href": "docs/rp__pio___spec.html#L356C9"
+          "href": "docs/rp__pio___spec.html#L358C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 34,
+      "number": 42,
       "children": [
         {
           "kind": "span",
@@ -1320,7 +1514,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 35,
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -1331,7 +1525,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_0",
-          "href": "docs/rp__device___spec.html#L35C4"
+          "href": "docs/rp__device___spec.html#L43C4"
         },
         {
           "kind": "span",
@@ -1361,8 +1555,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L382C9"
+          "text": "RP.PIO.PIO_Device",
+          "href": "docs/rp__pio___spec.html#L19C9"
         },
         {
           "kind": "span",
@@ -1393,7 +1587,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO0_Periph",
-          "href": "docs/rp__device___spec.html#L31C4"
+          "href": "docs/rp__device___spec.html#L39C4"
         },
         {
           "kind": "span",
@@ -1419,7 +1613,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 36,
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -1430,7 +1624,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_1",
-          "href": "docs/rp__device___spec.html#L36C4"
+          "href": "docs/rp__device___spec.html#L44C4"
         },
         {
           "kind": "span",
@@ -1460,8 +1654,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "PIO_Device",
-          "href": "docs/rp__pio___spec.html#L382C9"
+          "text": "RP.PIO.PIO_Device",
+          "href": "docs/rp__pio___spec.html#L19C9"
         },
         {
           "kind": "span",
@@ -1492,7 +1686,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO1_Periph",
-          "href": "docs/rp__device___spec.html#L33C4"
+          "href": "docs/rp__device___spec.html#L41C4"
         },
         {
           "kind": "span",
@@ -1518,13 +1712,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 45,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 46,
       "children": [
         {
           "kind": "span",
@@ -1535,7 +1729,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTERP0_Base",
-          "href": "docs/rp__device___spec.html#L38C4"
+          "href": "docs/rp__device___spec.html#L46C4"
         },
         {
           "kind": "span",
@@ -1641,7 +1835,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 47,
       "children": [
         {
           "kind": "span",
@@ -1652,7 +1846,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTERP1_Base",
-          "href": "docs/rp__device___spec.html#L39C4"
+          "href": "docs/rp__device___spec.html#L47C4"
         },
         {
           "kind": "span",
@@ -1758,7 +1952,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 48,
       "children": [
         {
           "kind": "span",
@@ -1769,7 +1963,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTERP_0",
-          "href": "docs/rp__device___spec.html#L40C4"
+          "href": "docs/rp__device___spec.html#L48C4"
         },
         {
           "kind": "span",
@@ -1800,13 +1994,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.Interpolator.INTERP_Peripheral",
-          "href": "docs/rp__interpolator___spec.html#L119C9"
+          "href": "docs/rp__interpolator___spec.html#L121C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 49,
       "children": [
         {
           "kind": "span",
@@ -1832,7 +2026,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -1843,7 +2037,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "INTERP_1",
-          "href": "docs/rp__device___spec.html#L42C4"
+          "href": "docs/rp__device___spec.html#L50C4"
         },
         {
           "kind": "span",
@@ -1874,13 +2068,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.Interpolator.INTERP_Peripheral",
-          "href": "docs/rp__interpolator___spec.html#L119C9"
+          "href": "docs/rp__interpolator___spec.html#L121C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 51,
       "children": [
         {
           "kind": "span",
@@ -1906,13 +2100,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 52,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -1923,7 +2117,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Timer",
-          "href": "docs/rp__device___spec.html#L45C4"
+          "href": "docs/rp__device___spec.html#L53C4"
         },
         {
           "kind": "span",
@@ -1954,7 +2148,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.Timer.Delays",
-          "href": "docs/rp__timer___spec.html#L18C9"
+          "href": "docs/rp__timer___spec.html#L25C9"
         },
         {
           "kind": "span",
@@ -1965,7 +2159,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 54,
       "children": [
         {
           "kind": "span",
@@ -1976,7 +2170,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC",
-          "href": "docs/rp__device___spec.html#L46C4"
+          "href": "docs/rp__device___spec.html#L54C4"
         },
         {
           "kind": "span",
@@ -2007,7 +2201,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.RTC.RTC_Device",
-          "href": "docs/rp__rtc___spec.html#L11C9"
+          "href": "docs/rp__rtc___spec.html#L13C9"
         },
         {
           "kind": "span",
@@ -2018,7 +2212,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 47,
+      "number": 55,
       "children": [
         {
           "kind": "span",
@@ -2029,7 +2223,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "UDC",
-          "href": "docs/rp__device___spec.html#L47C4"
+          "href": "docs/rp__device___spec.html#L55C4"
         },
         {
           "kind": "span",
@@ -2060,7 +2254,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.USB_Device.USB_Device_Controller",
-          "href": "docs/rp__usb_device___spec.html#L100C9"
+          "href": "docs/rp__usb_device___spec.html#L97C9"
         },
         {
           "kind": "span",
@@ -2071,13 +2265,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 56,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 49,
+      "number": 57,
       "children": [
         {
           "kind": "span",
@@ -2088,7 +2282,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADC",
-          "href": "docs/rp__device___spec.html#L49C4"
+          "href": "docs/rp__device___spec.html#L57C4"
         },
         {
           "kind": "span",
@@ -2125,7 +2319,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 58,
       "children": [
         {
           "kind": "span",
@@ -2151,7 +2345,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 59,
       "children": [
         {
           "kind": "span",

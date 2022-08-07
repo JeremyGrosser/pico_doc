@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Display_Orientation",
           "qualifier": "",
-          "line": 39,
+          "line": 40,
           "column": 9,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Display_Orientation",
-                      "href": "docs/hal__framebuffer___spec.html#L39C9"
+                      "href": "docs/hal__framebuffer___spec.html#L40C9"
                     },
                     {
                       "kind": "span",
@@ -59,7 +59,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
@@ -75,7 +75,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Default",
-                      "href": "docs/hal__framebuffer___spec.html#L40C7"
+                      "href": "docs/hal__framebuffer___spec.html#L41C7"
                     },
                     {
                       "kind": "span",
@@ -91,7 +91,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Landscape",
-                      "href": "docs/hal__framebuffer___spec.html#L40C16"
+                      "href": "docs/hal__framebuffer___spec.html#L41C16"
                     },
                     {
                       "kind": "span",
@@ -107,7 +107,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Portrait",
-                      "href": "docs/hal__framebuffer___spec.html#L40C27"
+                      "href": "docs/hal__framebuffer___spec.html#L41C27"
                     },
                     {
                       "kind": "span",
@@ -118,7 +118,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/hal__framebuffer___spec.html#L39C9"
+                      "href": "docs/hal__framebuffer___spec.html#L40C9"
                     }
                   ]
                 }
@@ -128,21 +128,21 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Default",
-              "line": 40,
+              "line": 41,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "Landscape",
-              "line": 40,
+              "line": 41,
               "column": 16,
               "description": [
               ]
             },
             {
               "label": "Portrait",
-              "line": 40,
+              "line": 41,
               "column": 27,
               "description": [
               ]
@@ -152,7 +152,7 @@ GNATdoc.Documentation = {
         {
           "label": "FB_Color_Mode",
           "qualifier": "",
-          "line": 36,
+          "line": 37,
           "column": 12,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -163,7 +163,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -184,7 +184,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "FB_Color_Mode",
-                      "href": "docs/hal__framebuffer___spec.html#L36C12"
+                      "href": "docs/hal__framebuffer___spec.html#L37C12"
                     },
                     {
                       "kind": "span",
@@ -205,7 +205,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "HAL.Bitmap.Bitmap_Color_Mode",
-                      "href": "docs/hal__bitmap___spec.html#L43C9"
+                      "href": "docs/hal__bitmap___spec.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -221,7 +221,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -267,7 +267,7 @@ GNATdoc.Documentation = {
         {
           "label": "Wait_Mode",
           "qualifier": "",
-          "line": 42,
+          "line": 43,
           "column": 9,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -278,7 +278,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -299,7 +299,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Wait_Mode",
-                      "href": "docs/hal__framebuffer___spec.html#L42C9"
+                      "href": "docs/hal__framebuffer___spec.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -325,7 +325,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Polling",
-                      "href": "docs/hal__framebuffer___spec.html#L42C23"
+                      "href": "docs/hal__framebuffer___spec.html#L43C23"
                     },
                     {
                       "kind": "span",
@@ -341,7 +341,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Interrupt",
-                      "href": "docs/hal__framebuffer___spec.html#L42C32"
+                      "href": "docs/hal__framebuffer___spec.html#L43C32"
                     },
                     {
                       "kind": "span",
@@ -352,7 +352,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/hal__framebuffer___spec.html#L42C9"
+                      "href": "docs/hal__framebuffer___spec.html#L43C9"
                     }
                   ]
                 }
@@ -362,14 +362,14 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Polling",
-              "line": 42,
+              "line": 43,
               "column": 23,
               "description": [
               ]
             },
             {
               "label": "Interrupt",
-              "line": 42,
+              "line": 43,
               "column": 32,
               "description": [
               ]
@@ -384,7 +384,7 @@ GNATdoc.Documentation = {
         {
           "label": "Any_Frame_Buffer_Display",
           "qualifier": "",
-          "line": 46,
+          "line": 47,
           "column": 9,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -395,7 +395,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -416,7 +416,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Any_Frame_Buffer_Display",
-                      "href": "docs/hal__framebuffer___spec.html#L46C9"
+                      "href": "docs/hal__framebuffer___spec.html#L47C9"
                     },
                     {
                       "kind": "span",
@@ -457,7 +457,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frame_Buffer_Display",
-                      "href": "docs/hal__framebuffer___spec.html#L44C9"
+                      "href": "docs/hal__framebuffer___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -488,7 +488,7 @@ GNATdoc.Documentation = {
         {
           "label": "Frame_Buffer_Display",
           "qualifier": "",
-          "line": 44,
+          "line": 45,
           "column": 9,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -499,7 +499,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 45,
                   "children": [
                     {
                       "kind": "span",
@@ -520,7 +520,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frame_Buffer_Display",
-                      "href": "docs/hal__framebuffer___spec.html#L44C9"
+                      "href": "docs/hal__framebuffer___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -571,7 +571,7 @@ GNATdoc.Documentation = {
         {
           "label": "Color_Mode",
           "qualifier": "",
-          "line": 111,
+          "line": 112,
           "column": 13,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -582,7 +582,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 111,
+                  "number": 112,
                   "children": [
                     {
                       "kind": "span",
@@ -603,13 +603,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Color_Mode",
-                      "href": "docs/hal__framebuffer___spec.html#L111C13"
+                      "href": "docs/hal__framebuffer___spec.html#L112C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 112,
+                  "number": 113,
                   "children": [
                     {
                       "kind": "span",
@@ -625,7 +625,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__framebuffer___spec.html#L112C7"
+                      "href": "docs/hal__framebuffer___spec.html#L113C7"
                     },
                     {
                       "kind": "span",
@@ -646,7 +646,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frame_Buffer_Display",
-                      "href": "docs/hal__framebuffer___spec.html#L44C9"
+                      "href": "docs/hal__framebuffer___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -657,7 +657,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 113,
+                  "number": 114,
                   "children": [
                     {
                       "kind": "span",
@@ -668,7 +668,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Layer",
-                      "href": "docs/hal__framebuffer___spec.html#L113C7"
+                      "href": "docs/hal__framebuffer___spec.html#L114C7"
                     },
                     {
                       "kind": "span",
@@ -714,7 +714,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "FB_Color_Mode",
-                      "href": "docs/hal__framebuffer___spec.html#L36C12"
+                      "href": "docs/hal__framebuffer___spec.html#L37C12"
                     },
                     {
                       "kind": "span",
@@ -758,18 +758,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 112,
+              "line": 113,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.Frame_Buffer_Display",
-                "docHref": "docs/hal__framebuffer___spec.html#L44C9"
+                "docHref": "docs/hal__framebuffer___spec.html#L45C9"
               },
               "description": [
               ]
             },
             {
               "label": "Layer",
-              "line": 113,
+              "line": 114,
               "column": 7,
               "type": {
                 "label": "Positive"
@@ -782,7 +782,7 @@ GNATdoc.Documentation = {
         {
           "label": "Height",
           "qualifier": "",
-          "line": 71,
+          "line": 72,
           "column": 13,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -793,7 +793,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 72,
                   "children": [
                     {
                       "kind": "span",
@@ -814,13 +814,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Height",
-                      "href": "docs/hal__framebuffer___spec.html#L71C13"
+                      "href": "docs/hal__framebuffer___spec.html#L72C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 72,
+                  "number": 73,
                   "children": [
                     {
                       "kind": "span",
@@ -836,7 +836,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__framebuffer___spec.html#L72C7"
+                      "href": "docs/hal__framebuffer___spec.html#L73C7"
                     },
                     {
                       "kind": "span",
@@ -857,7 +857,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frame_Buffer_Display",
-                      "href": "docs/hal__framebuffer___spec.html#L44C9"
+                      "href": "docs/hal__framebuffer___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -917,11 +917,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 72,
+              "line": 73,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.Frame_Buffer_Display",
-                "docHref": "docs/hal__framebuffer___spec.html#L44C9"
+                "docHref": "docs/hal__framebuffer___spec.html#L45C9"
               },
               "description": [
               ]
@@ -931,7 +931,7 @@ GNATdoc.Documentation = {
         {
           "label": "Hidden_Buffer",
           "qualifier": "",
-          "line": 116,
+          "line": 117,
           "column": 13,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -942,7 +942,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 116,
+                  "number": 117,
                   "children": [
                     {
                       "kind": "span",
@@ -963,13 +963,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Hidden_Buffer",
-                      "href": "docs/hal__framebuffer___spec.html#L116C13"
+                      "href": "docs/hal__framebuffer___spec.html#L117C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 117,
+                  "number": 118,
                   "children": [
                     {
                       "kind": "span",
@@ -985,7 +985,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__framebuffer___spec.html#L117C7"
+                      "href": "docs/hal__framebuffer___spec.html#L118C7"
                     },
                     {
                       "kind": "span",
@@ -1026,7 +1026,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frame_Buffer_Display",
-                      "href": "docs/hal__framebuffer___spec.html#L44C9"
+                      "href": "docs/hal__framebuffer___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -1037,7 +1037,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 118,
+                  "number": 119,
                   "children": [
                     {
                       "kind": "span",
@@ -1048,7 +1048,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Layer",
-                      "href": "docs/hal__framebuffer___spec.html#L118C7"
+                      "href": "docs/hal__framebuffer___spec.html#L119C7"
                     },
                     {
                       "kind": "span",
@@ -1079,7 +1079,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 119,
+                  "number": 120,
                   "children": [
                     {
                       "kind": "span",
@@ -1120,7 +1120,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "HAL.Bitmap.Any_Bitmap_Buffer",
-                      "href": "docs/hal__bitmap___spec.html#L102C9"
+                      "href": "docs/hal__bitmap___spec.html#L103C9"
                     },
                     {
                       "kind": "span",
@@ -1164,18 +1164,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 117,
+              "line": 118,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.Frame_Buffer_Display",
-                "docHref": "docs/hal__framebuffer___spec.html#L44C9"
+                "docHref": "docs/hal__framebuffer___spec.html#L45C9"
               },
               "description": [
               ]
             },
             {
               "label": "Layer",
-              "line": 118,
+              "line": 119,
               "column": 7,
               "type": {
                 "label": "Positive"
@@ -1188,7 +1188,7 @@ GNATdoc.Documentation = {
         {
           "label": "Initialize_Layer",
           "qualifier": "",
-          "line": 83,
+          "line": 84,
           "column": 14,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -1199,7 +1199,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 83,
+                  "number": 84,
                   "children": [
                     {
                       "kind": "span",
@@ -1220,13 +1220,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Initialize_Layer",
-                      "href": "docs/hal__framebuffer___spec.html#L83C14"
+                      "href": "docs/hal__framebuffer___spec.html#L84C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 84,
+                  "number": 85,
                   "children": [
                     {
                       "kind": "span",
@@ -1242,7 +1242,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__framebuffer___spec.html#L84C7"
+                      "href": "docs/hal__framebuffer___spec.html#L85C7"
                     },
                     {
                       "kind": "span",
@@ -1283,7 +1283,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frame_Buffer_Display",
-                      "href": "docs/hal__framebuffer___spec.html#L44C9"
+                      "href": "docs/hal__framebuffer___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -1294,7 +1294,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 85,
+                  "number": 86,
                   "children": [
                     {
                       "kind": "span",
@@ -1305,7 +1305,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Layer",
-                      "href": "docs/hal__framebuffer___spec.html#L85C7"
+                      "href": "docs/hal__framebuffer___spec.html#L86C7"
                     },
                     {
                       "kind": "span",
@@ -1336,7 +1336,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 86,
+                  "number": 87,
                   "children": [
                     {
                       "kind": "span",
@@ -1347,7 +1347,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Mode",
-                      "href": "docs/hal__framebuffer___spec.html#L86C7"
+                      "href": "docs/hal__framebuffer___spec.html#L87C7"
                     },
                     {
                       "kind": "span",
@@ -1368,69 +1368,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "FB_Color_Mode",
-                      "href": "docs/hal__framebuffer___spec.html#L36C12"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 87,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "X",
-                      "href": "docs/hal__framebuffer___spec.html#L87C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Natural"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "number",
-                      "text": "0"
+                      "href": "docs/hal__framebuffer___spec.html#L37C12"
                     },
                     {
                       "kind": "span",
@@ -1451,7 +1389,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Y",
+                      "text": "X",
                       "href": "docs/hal__framebuffer___spec.html#L88C7"
                     },
                     {
@@ -1513,8 +1451,70 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Width",
+                      "text": "Y",
                       "href": "docs/hal__framebuffer___spec.html#L89C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Natural"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 90,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Width",
+                      "href": "docs/hal__framebuffer___spec.html#L90C7"
                     },
                     {
                       "kind": "span",
@@ -1575,7 +1575,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 90,
+                  "number": 91,
                   "children": [
                     {
                       "kind": "span",
@@ -1586,7 +1586,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Height",
-                      "href": "docs/hal__framebuffer___spec.html#L90C7"
+                      "href": "docs/hal__framebuffer___spec.html#L91C7"
                     },
                     {
                       "kind": "span",
@@ -1697,18 +1697,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 84,
+              "line": 85,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.Frame_Buffer_Display",
-                "docHref": "docs/hal__framebuffer___spec.html#L44C9"
+                "docHref": "docs/hal__framebuffer___spec.html#L45C9"
               },
               "description": [
               ]
             },
             {
               "label": "Layer",
-              "line": 85,
+              "line": 86,
               "column": 7,
               "type": {
                 "label": "Positive"
@@ -1718,27 +1718,17 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Mode",
-              "line": 86,
+              "line": 87,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.FB_Color_Mode",
-                "docHref": "docs/hal__framebuffer___spec.html#L36C12"
+                "docHref": "docs/hal__framebuffer___spec.html#L37C12"
               },
               "description": [
               ]
             },
             {
               "label": "X",
-              "line": 87,
-              "column": 7,
-              "type": {
-                "label": "Natural"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Y",
               "line": 88,
               "column": 7,
               "type": {
@@ -1748,8 +1738,18 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Width",
+              "label": "Y",
               "line": 89,
+              "column": 7,
+              "type": {
+                "label": "Natural"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Width",
+              "line": 90,
               "column": 7,
               "type": {
                 "label": "Positive"
@@ -1759,7 +1759,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Height",
-              "line": 90,
+              "line": 91,
               "column": 7,
               "type": {
                 "label": "Positive"
@@ -1772,7 +1772,7 @@ GNATdoc.Documentation = {
         {
           "label": "Initialized",
           "qualifier": "",
-          "line": 65,
+          "line": 66,
           "column": 13,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -1783,7 +1783,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 65,
+                  "number": 66,
                   "children": [
                     {
                       "kind": "span",
@@ -1804,13 +1804,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Initialized",
-                      "href": "docs/hal__framebuffer___spec.html#L65C13"
+                      "href": "docs/hal__framebuffer___spec.html#L66C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 66,
+                  "number": 67,
                   "children": [
                     {
                       "kind": "span",
@@ -1826,7 +1826,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__framebuffer___spec.html#L66C7"
+                      "href": "docs/hal__framebuffer___spec.html#L67C7"
                     },
                     {
                       "kind": "span",
@@ -1847,7 +1847,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frame_Buffer_Display",
-                      "href": "docs/hal__framebuffer___spec.html#L44C9"
+                      "href": "docs/hal__framebuffer___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -1907,11 +1907,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 66,
+              "line": 67,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.Frame_Buffer_Display",
-                "docHref": "docs/hal__framebuffer___spec.html#L44C9"
+                "docHref": "docs/hal__framebuffer___spec.html#L45C9"
               },
               "description": [
               ]
@@ -1921,7 +1921,7 @@ GNATdoc.Documentation = {
         {
           "label": "Initialized",
           "qualifier": "",
-          "line": 96,
+          "line": 97,
           "column": 13,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -1932,7 +1932,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 96,
+                  "number": 97,
                   "children": [
                     {
                       "kind": "span",
@@ -1953,13 +1953,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Initialized",
-                      "href": "docs/hal__framebuffer___spec.html#L96C13"
+                      "href": "docs/hal__framebuffer___spec.html#L97C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 97,
+                  "number": 98,
                   "children": [
                     {
                       "kind": "span",
@@ -1975,7 +1975,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__framebuffer___spec.html#L97C7"
+                      "href": "docs/hal__framebuffer___spec.html#L98C7"
                     },
                     {
                       "kind": "span",
@@ -1996,7 +1996,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frame_Buffer_Display",
-                      "href": "docs/hal__framebuffer___spec.html#L44C9"
+                      "href": "docs/hal__framebuffer___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -2007,7 +2007,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 98,
+                  "number": 99,
                   "children": [
                     {
                       "kind": "span",
@@ -2018,7 +2018,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Layer",
-                      "href": "docs/hal__framebuffer___spec.html#L98C7"
+                      "href": "docs/hal__framebuffer___spec.html#L99C7"
                     },
                     {
                       "kind": "span",
@@ -2098,18 +2098,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 97,
+              "line": 98,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.Frame_Buffer_Display",
-                "docHref": "docs/hal__framebuffer___spec.html#L44C9"
+                "docHref": "docs/hal__framebuffer___spec.html#L45C9"
               },
               "description": [
               ]
             },
             {
               "label": "Layer",
-              "line": 98,
+              "line": 99,
               "column": 7,
               "type": {
                 "label": "Positive"
@@ -2122,7 +2122,7 @@ GNATdoc.Documentation = {
         {
           "label": "Max_Layers",
           "qualifier": "",
-          "line": 48,
+          "line": 49,
           "column": 13,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -2133,7 +2133,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -2154,13 +2154,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Max_Layers",
-                      "href": "docs/hal__framebuffer___spec.html#L48C13"
+                      "href": "docs/hal__framebuffer___spec.html#L49C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -2176,7 +2176,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__framebuffer___spec.html#L49C7"
+                      "href": "docs/hal__framebuffer___spec.html#L50C7"
                     },
                     {
                       "kind": "span",
@@ -2197,7 +2197,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frame_Buffer_Display",
-                      "href": "docs/hal__framebuffer___spec.html#L44C9"
+                      "href": "docs/hal__framebuffer___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -2228,7 +2228,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 51,
                   "children": [
                     {
                       "kind": "span",
@@ -2263,11 +2263,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 49,
+              "line": 50,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.Frame_Buffer_Display",
-                "docHref": "docs/hal__framebuffer___spec.html#L44C9"
+                "docHref": "docs/hal__framebuffer___spec.html#L45C9"
               },
               "description": [
               ]
@@ -2277,7 +2277,7 @@ GNATdoc.Documentation = {
         {
           "label": "Pixel_Size",
           "qualifier": "",
-          "line": 122,
+          "line": 123,
           "column": 13,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -2288,7 +2288,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 122,
+                  "number": 123,
                   "children": [
                     {
                       "kind": "span",
@@ -2309,13 +2309,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Pixel_Size",
-                      "href": "docs/hal__framebuffer___spec.html#L122C13"
+                      "href": "docs/hal__framebuffer___spec.html#L123C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 123,
+                  "number": 124,
                   "children": [
                     {
                       "kind": "span",
@@ -2331,7 +2331,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Display",
-                      "href": "docs/hal__framebuffer___spec.html#L123C7"
+                      "href": "docs/hal__framebuffer___spec.html#L124C7"
                     },
                     {
                       "kind": "span",
@@ -2352,7 +2352,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frame_Buffer_Display",
-                      "href": "docs/hal__framebuffer___spec.html#L44C9"
+                      "href": "docs/hal__framebuffer___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -2363,7 +2363,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 124,
+                  "number": 125,
                   "children": [
                     {
                       "kind": "span",
@@ -2374,7 +2374,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Layer",
-                      "href": "docs/hal__framebuffer___spec.html#L124C7"
+                      "href": "docs/hal__framebuffer___spec.html#L125C7"
                     },
                     {
                       "kind": "span",
@@ -2463,18 +2463,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Display",
-              "line": 123,
+              "line": 124,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.Frame_Buffer_Display",
-                "docHref": "docs/hal__framebuffer___spec.html#L44C9"
+                "docHref": "docs/hal__framebuffer___spec.html#L45C9"
               },
               "description": [
               ]
             },
             {
               "label": "Layer",
-              "line": 124,
+              "line": 125,
               "column": 7,
               "type": {
                 "label": "Positive"
@@ -2487,7 +2487,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Background",
           "qualifier": "",
-          "line": 80,
+          "line": 81,
           "column": 14,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -2498,7 +2498,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 80,
+                  "number": 81,
                   "children": [
                     {
                       "kind": "span",
@@ -2519,13 +2519,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Background",
-                      "href": "docs/hal__framebuffer___spec.html#L80C14"
+                      "href": "docs/hal__framebuffer___spec.html#L81C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 81,
+                  "number": 82,
                   "children": [
                     {
                       "kind": "span",
@@ -2541,7 +2541,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__framebuffer___spec.html#L81C7"
+                      "href": "docs/hal__framebuffer___spec.html#L82C7"
                     },
                     {
                       "kind": "span",
@@ -2562,7 +2562,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frame_Buffer_Display",
-                      "href": "docs/hal__framebuffer___spec.html#L44C9"
+                      "href": "docs/hal__framebuffer___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -2578,7 +2578,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "R",
-                      "href": "docs/hal__framebuffer___spec.html#L81C36"
+                      "href": "docs/hal__framebuffer___spec.html#L82C36"
                     },
                     {
                       "kind": "span",
@@ -2594,7 +2594,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "G",
-                      "href": "docs/hal__framebuffer___spec.html#L81C39"
+                      "href": "docs/hal__framebuffer___spec.html#L82C39"
                     },
                     {
                       "kind": "span",
@@ -2610,7 +2610,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "B",
-                      "href": "docs/hal__framebuffer___spec.html#L81C42"
+                      "href": "docs/hal__framebuffer___spec.html#L82C42"
                     },
                     {
                       "kind": "span",
@@ -2671,18 +2671,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 81,
+              "line": 82,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.Frame_Buffer_Display",
-                "docHref": "docs/hal__framebuffer___spec.html#L44C9"
+                "docHref": "docs/hal__framebuffer___spec.html#L45C9"
               },
               "description": [
               ]
             },
             {
               "label": "R",
-              "line": 81,
+              "line": 82,
               "column": 36,
               "type": {
                 "label": "HAL.UInt8",
@@ -2693,7 +2693,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "G",
-              "line": 81,
+              "line": 82,
               "column": 39,
               "type": {
                 "label": "HAL.UInt8",
@@ -2704,7 +2704,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "B",
-              "line": 81,
+              "line": 82,
               "column": 42,
               "type": {
                 "label": "HAL.UInt8",
@@ -2718,7 +2718,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Mode",
           "qualifier": "",
-          "line": 61,
+          "line": 62,
           "column": 14,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -2729,7 +2729,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 61,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -2750,13 +2750,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Mode",
-                      "href": "docs/hal__framebuffer___spec.html#L61C14"
+                      "href": "docs/hal__framebuffer___spec.html#L62C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 62,
+                  "number": 63,
                   "children": [
                     {
                       "kind": "span",
@@ -2772,7 +2772,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__framebuffer___spec.html#L62C7"
+                      "href": "docs/hal__framebuffer___spec.html#L63C7"
                     },
                     {
                       "kind": "span",
@@ -2813,7 +2813,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frame_Buffer_Display",
-                      "href": "docs/hal__framebuffer___spec.html#L44C9"
+                      "href": "docs/hal__framebuffer___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -2824,7 +2824,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 63,
+                  "number": 64,
                   "children": [
                     {
                       "kind": "span",
@@ -2835,7 +2835,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Mode",
-                      "href": "docs/hal__framebuffer___spec.html#L63C7"
+                      "href": "docs/hal__framebuffer___spec.html#L64C7"
                     },
                     {
                       "kind": "span",
@@ -2856,7 +2856,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Wait_Mode",
-                      "href": "docs/hal__framebuffer___spec.html#L42C9"
+                      "href": "docs/hal__framebuffer___spec.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -2896,22 +2896,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 62,
+              "line": 63,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.Frame_Buffer_Display",
-                "docHref": "docs/hal__framebuffer___spec.html#L44C9"
+                "docHref": "docs/hal__framebuffer___spec.html#L45C9"
               },
               "description": [
               ]
             },
             {
               "label": "Mode",
-              "line": 63,
+              "line": 64,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.Wait_Mode",
-                "docHref": "docs/hal__framebuffer___spec.html#L42C9"
+                "docHref": "docs/hal__framebuffer___spec.html#L43C9"
               },
               "description": [
               ]
@@ -2921,7 +2921,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Orientation",
           "qualifier": "",
-          "line": 57,
+          "line": 58,
           "column": 14,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -2932,7 +2932,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 57,
+                  "number": 58,
                   "children": [
                     {
                       "kind": "span",
@@ -2953,13 +2953,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Orientation",
-                      "href": "docs/hal__framebuffer___spec.html#L57C14"
+                      "href": "docs/hal__framebuffer___spec.html#L58C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 58,
+                  "number": 59,
                   "children": [
                     {
                       "kind": "span",
@@ -2975,7 +2975,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__framebuffer___spec.html#L58C7"
+                      "href": "docs/hal__framebuffer___spec.html#L59C7"
                     },
                     {
                       "kind": "span",
@@ -3016,7 +3016,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frame_Buffer_Display",
-                      "href": "docs/hal__framebuffer___spec.html#L44C9"
+                      "href": "docs/hal__framebuffer___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -3027,7 +3027,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 59,
+                  "number": 60,
                   "children": [
                     {
                       "kind": "span",
@@ -3038,7 +3038,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Orientation",
-                      "href": "docs/hal__framebuffer___spec.html#L59C7"
+                      "href": "docs/hal__framebuffer___spec.html#L60C7"
                     },
                     {
                       "kind": "span",
@@ -3059,7 +3059,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Display_Orientation",
-                      "href": "docs/hal__framebuffer___spec.html#L39C9"
+                      "href": "docs/hal__framebuffer___spec.html#L40C9"
                     },
                     {
                       "kind": "span",
@@ -3099,22 +3099,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 58,
+              "line": 59,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.Frame_Buffer_Display",
-                "docHref": "docs/hal__framebuffer___spec.html#L44C9"
+                "docHref": "docs/hal__framebuffer___spec.html#L45C9"
               },
               "description": [
               ]
             },
             {
               "label": "Orientation",
-              "line": 59,
+              "line": 60,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.Display_Orientation",
-                "docHref": "docs/hal__framebuffer___spec.html#L39C9"
+                "docHref": "docs/hal__framebuffer___spec.html#L40C9"
               },
               "description": [
               ]
@@ -3124,7 +3124,7 @@ GNATdoc.Documentation = {
         {
           "label": "Supported",
           "qualifier": "",
-          "line": 52,
+          "line": 53,
           "column": 13,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -3135,7 +3135,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 53,
                   "children": [
                     {
                       "kind": "span",
@@ -3156,13 +3156,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Supported",
-                      "href": "docs/hal__framebuffer___spec.html#L52C13"
+                      "href": "docs/hal__framebuffer___spec.html#L53C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -3178,49 +3178,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__framebuffer___spec.html#L53C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Frame_Buffer_Display",
-                      "href": "docs/hal__framebuffer___spec.html#L44C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 54,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Mode",
                       "href": "docs/hal__framebuffer___spec.html#L54C7"
                     },
                     {
@@ -3241,8 +3198,51 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
+                      "text": "Frame_Buffer_Display",
+                      "href": "docs/hal__framebuffer___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 55,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Mode",
+                      "href": "docs/hal__framebuffer___spec.html#L55C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
                       "text": "FB_Color_Mode",
-                      "href": "docs/hal__framebuffer___spec.html#L36C12"
+                      "href": "docs/hal__framebuffer___spec.html#L37C12"
                     },
                     {
                       "kind": "span",
@@ -3273,7 +3273,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 55,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -3308,22 +3308,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 53,
+              "line": 54,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.Frame_Buffer_Display",
-                "docHref": "docs/hal__framebuffer___spec.html#L44C9"
+                "docHref": "docs/hal__framebuffer___spec.html#L45C9"
               },
               "description": [
               ]
             },
             {
               "label": "Mode",
-              "line": 54,
+              "line": 55,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.FB_Color_Mode",
-                "docHref": "docs/hal__framebuffer___spec.html#L36C12"
+                "docHref": "docs/hal__framebuffer___spec.html#L37C12"
               },
               "description": [
               ]
@@ -3333,7 +3333,7 @@ GNATdoc.Documentation = {
         {
           "label": "Swapped",
           "qualifier": "",
-          "line": 74,
+          "line": 75,
           "column": 13,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -3344,7 +3344,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 74,
+                  "number": 75,
                   "children": [
                     {
                       "kind": "span",
@@ -3365,13 +3365,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Swapped",
-                      "href": "docs/hal__framebuffer___spec.html#L74C13"
+                      "href": "docs/hal__framebuffer___spec.html#L75C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 75,
+                  "number": 76,
                   "children": [
                     {
                       "kind": "span",
@@ -3387,7 +3387,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__framebuffer___spec.html#L75C7"
+                      "href": "docs/hal__framebuffer___spec.html#L76C7"
                     },
                     {
                       "kind": "span",
@@ -3408,7 +3408,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frame_Buffer_Display",
-                      "href": "docs/hal__framebuffer___spec.html#L44C9"
+                      "href": "docs/hal__framebuffer___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -3485,11 +3485,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 75,
+              "line": 76,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.Frame_Buffer_Display",
-                "docHref": "docs/hal__framebuffer___spec.html#L44C9"
+                "docHref": "docs/hal__framebuffer___spec.html#L45C9"
               },
               "description": [
               ]
@@ -3499,7 +3499,7 @@ GNATdoc.Documentation = {
         {
           "label": "Update_Layer",
           "qualifier": "",
-          "line": 100,
+          "line": 101,
           "column": 14,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -3510,7 +3510,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 100,
+                  "number": 101,
                   "children": [
                     {
                       "kind": "span",
@@ -3531,13 +3531,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Update_Layer",
-                      "href": "docs/hal__framebuffer___spec.html#L100C14"
+                      "href": "docs/hal__framebuffer___spec.html#L101C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 101,
+                  "number": 102,
                   "children": [
                     {
                       "kind": "span",
@@ -3553,7 +3553,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__framebuffer___spec.html#L101C7"
+                      "href": "docs/hal__framebuffer___spec.html#L102C7"
                     },
                     {
                       "kind": "span",
@@ -3594,7 +3594,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frame_Buffer_Display",
-                      "href": "docs/hal__framebuffer___spec.html#L44C9"
+                      "href": "docs/hal__framebuffer___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -3605,7 +3605,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 102,
+                  "number": 103,
                   "children": [
                     {
                       "kind": "span",
@@ -3616,7 +3616,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Layer",
-                      "href": "docs/hal__framebuffer___spec.html#L102C7"
+                      "href": "docs/hal__framebuffer___spec.html#L103C7"
                     },
                     {
                       "kind": "span",
@@ -3647,7 +3647,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 103,
+                  "number": 104,
                   "children": [
                     {
                       "kind": "span",
@@ -3658,7 +3658,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Copy_Back",
-                      "href": "docs/hal__framebuffer___spec.html#L103C7"
+                      "href": "docs/hal__framebuffer___spec.html#L104C7"
                     },
                     {
                       "kind": "span",
@@ -3747,18 +3747,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 101,
+              "line": 102,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.Frame_Buffer_Display",
-                "docHref": "docs/hal__framebuffer___spec.html#L44C9"
+                "docHref": "docs/hal__framebuffer___spec.html#L45C9"
               },
               "description": [
               ]
             },
             {
               "label": "Layer",
-              "line": 102,
+              "line": 103,
               "column": 7,
               "type": {
                 "label": "Positive"
@@ -3768,7 +3768,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Copy_Back",
-              "line": 103,
+              "line": 104,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -3781,7 +3781,7 @@ GNATdoc.Documentation = {
         {
           "label": "Update_Layers",
           "qualifier": "",
-          "line": 106,
+          "line": 107,
           "column": 14,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -3792,7 +3792,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 106,
+                  "number": 107,
                   "children": [
                     {
                       "kind": "span",
@@ -3813,13 +3813,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Update_Layers",
-                      "href": "docs/hal__framebuffer___spec.html#L106C14"
+                      "href": "docs/hal__framebuffer___spec.html#L107C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 107,
+                  "number": 108,
                   "children": [
                     {
                       "kind": "span",
@@ -3835,7 +3835,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__framebuffer___spec.html#L107C7"
+                      "href": "docs/hal__framebuffer___spec.html#L108C7"
                     },
                     {
                       "kind": "span",
@@ -3876,7 +3876,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frame_Buffer_Display",
-                      "href": "docs/hal__framebuffer___spec.html#L44C9"
+                      "href": "docs/hal__framebuffer___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -3929,11 +3929,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 107,
+              "line": 108,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.Frame_Buffer_Display",
-                "docHref": "docs/hal__framebuffer___spec.html#L44C9"
+                "docHref": "docs/hal__framebuffer___spec.html#L45C9"
               },
               "description": [
               ]
@@ -3943,7 +3943,7 @@ GNATdoc.Documentation = {
         {
           "label": "Width",
           "qualifier": "",
-          "line": 68,
+          "line": 69,
           "column": 13,
           "src": "srcs/hal-framebuffer.ads.html",
           "summary": [
@@ -3954,7 +3954,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 68,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",
@@ -3975,13 +3975,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Width",
-                      "href": "docs/hal__framebuffer___spec.html#L68C13"
+                      "href": "docs/hal__framebuffer___spec.html#L69C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 69,
+                  "number": 70,
                   "children": [
                     {
                       "kind": "span",
@@ -3997,7 +3997,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__framebuffer___spec.html#L69C7"
+                      "href": "docs/hal__framebuffer___spec.html#L70C7"
                     },
                     {
                       "kind": "span",
@@ -4018,7 +4018,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frame_Buffer_Display",
-                      "href": "docs/hal__framebuffer___spec.html#L44C9"
+                      "href": "docs/hal__framebuffer___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -4078,11 +4078,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 69,
+              "line": 70,
               "column": 7,
               "type": {
                 "label": "HAL.Framebuffer.Frame_Buffer_Display",
-                "docHref": "docs/hal__framebuffer___spec.html#L44C9"
+                "docHref": "docs/hal__framebuffer___spec.html#L45C9"
               },
               "description": [
               ]

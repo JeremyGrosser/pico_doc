@@ -100,7 +100,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Preelaborate"
+          "text": "Pure"
         }
       ]
     },

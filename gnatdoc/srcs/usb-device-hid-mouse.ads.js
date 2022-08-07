@@ -535,7 +535,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Abstract_HID_Class",
-          "href": "docs/usb__device__hid___spec.html#L64C9"
+          "href": "docs/usb__device__hid___spec.html#L66C9"
         },
         {
           "kind": "span",

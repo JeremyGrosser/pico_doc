@@ -430,11 +430,42 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 35,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "pragma"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Preelaborate"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 36,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -455,7 +486,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Audio_Buffer",
-          "href": "docs/hal__audio___spec.html#L36C9"
+          "href": "docs/hal__audio___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -541,7 +572,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 38,
       "children": [
         {
           "kind": "span",
@@ -556,7 +587,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " Component_Size => 16, Alignment => 16"
+          "text": " Component_Size => 16, Alignment => 2"
         },
         {
           "kind": "span",
@@ -567,13 +598,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 39,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 40,
       "children": [
         {
           "kind": "span",
@@ -594,7 +625,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Audio_Volume",
-          "href": "docs/hal__audio___spec.html#L39C9"
+          "href": "docs/hal__audio___spec.html#L40C9"
         },
         {
           "kind": "span",
@@ -675,13 +706,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 41,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 42,
       "children": [
         {
           "kind": "span",
@@ -702,7 +733,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Audio_Frequency",
-          "href": "docs/hal__audio___spec.html#L41C9"
+          "href": "docs/hal__audio___spec.html#L42C9"
         },
         {
           "kind": "span",
@@ -718,7 +749,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -734,28 +765,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Audio_Freq_8kHz",
-          "href": "docs/hal__audio___spec.html#L42C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 43,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Audio_Freq_11kHz",
           "href": "docs/hal__audio___spec.html#L43C7"
         },
         {
@@ -777,7 +786,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Audio_Freq_16kHz",
+          "text": "Audio_Freq_11kHz",
           "href": "docs/hal__audio___spec.html#L44C7"
         },
         {
@@ -799,7 +808,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Audio_Freq_22kHz",
+          "text": "Audio_Freq_16kHz",
           "href": "docs/hal__audio___spec.html#L45C7"
         },
         {
@@ -821,7 +830,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Audio_Freq_32kHz",
+          "text": "Audio_Freq_22kHz",
           "href": "docs/hal__audio___spec.html#L46C7"
         },
         {
@@ -843,7 +852,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Audio_Freq_44kHz",
+          "text": "Audio_Freq_32kHz",
           "href": "docs/hal__audio___spec.html#L47C7"
         },
         {
@@ -865,7 +874,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Audio_Freq_48kHz",
+          "text": "Audio_Freq_44kHz",
           "href": "docs/hal__audio___spec.html#L48C7"
         },
         {
@@ -887,8 +896,30 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Audio_Freq_96kHz",
+          "text": "Audio_Freq_48kHz",
           "href": "docs/hal__audio___spec.html#L49C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 50,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Audio_Freq_96kHz",
+          "href": "docs/hal__audio___spec.html#L50C7"
         },
         {
           "kind": "span",
@@ -899,7 +930,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 51,
       "children": [
         {
           "kind": "span",
@@ -925,7 +956,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 52,
       "children": [
         {
           "kind": "span",
@@ -946,7 +977,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Audio_Frequency",
-          "href": "docs/hal__audio___spec.html#L41C9"
+          "href": "docs/hal__audio___spec.html#L42C9"
         },
         {
           "kind": "span",
@@ -962,7 +993,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 52,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -1008,7 +1039,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 53,
+      "number": 54,
       "children": [
         {
           "kind": "span",
@@ -1049,7 +1080,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 54,
+      "number": 55,
       "children": [
         {
           "kind": "span",
@@ -1090,7 +1121,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 55,
+      "number": 56,
       "children": [
         {
           "kind": "span",
@@ -1131,7 +1162,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 57,
       "children": [
         {
           "kind": "span",
@@ -1172,7 +1203,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 57,
+      "number": 58,
       "children": [
         {
           "kind": "span",
@@ -1213,7 +1244,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 59,
       "children": [
         {
           "kind": "span",
@@ -1254,7 +1285,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 59,
+      "number": 60,
       "children": [
         {
           "kind": "span",
@@ -1300,13 +1331,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 60,
+      "number": 61,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 61,
+      "number": 62,
       "children": [
         {
           "kind": "span",
@@ -1327,7 +1358,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Audio_Stream",
-          "href": "docs/hal__audio___spec.html#L61C9"
+          "href": "docs/hal__audio___spec.html#L62C9"
         },
         {
           "kind": "span",
@@ -1368,13 +1399,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 62,
+      "number": 63,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 64,
       "children": [
         {
           "kind": "span",
@@ -1395,7 +1426,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Set_Frequency",
-          "href": "docs/hal__audio___spec.html#L63C14"
+          "href": "docs/hal__audio___spec.html#L64C14"
         },
         {
           "kind": "span",
@@ -1411,7 +1442,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__audio___spec.html#L63C29"
+          "href": "docs/hal__audio___spec.html#L64C29"
         },
         {
           "kind": "span",
@@ -1452,7 +1483,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Audio_Stream",
-          "href": "docs/hal__audio___spec.html#L61C9"
+          "href": "docs/hal__audio___spec.html#L62C9"
         },
         {
           "kind": "span",
@@ -1463,7 +1494,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 64,
+      "number": 65,
       "children": [
         {
           "kind": "span",
@@ -1474,7 +1505,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Frequency",
-          "href": "docs/hal__audio___spec.html#L64C29"
+          "href": "docs/hal__audio___spec.html#L65C29"
         },
         {
           "kind": "span",
@@ -1495,7 +1526,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Audio_Frequency",
-          "href": "docs/hal__audio___spec.html#L41C9"
+          "href": "docs/hal__audio___spec.html#L42C9"
         },
         {
           "kind": "span",
@@ -1531,13 +1562,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 65,
+      "number": 66,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 66,
+      "number": 67,
       "children": [
         {
           "kind": "span",
@@ -1558,7 +1589,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transmit",
-          "href": "docs/hal__audio___spec.html#L66C14"
+          "href": "docs/hal__audio___spec.html#L67C14"
         },
         {
           "kind": "span",
@@ -1574,7 +1605,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__audio___spec.html#L66C24"
+          "href": "docs/hal__audio___spec.html#L67C24"
         },
         {
           "kind": "span",
@@ -1615,7 +1646,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Audio_Stream",
-          "href": "docs/hal__audio___spec.html#L61C9"
+          "href": "docs/hal__audio___spec.html#L62C9"
         },
         {
           "kind": "span",
@@ -1626,7 +1657,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 67,
+      "number": 68,
       "children": [
         {
           "kind": "span",
@@ -1637,7 +1668,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Data",
-          "href": "docs/hal__audio___spec.html#L67C24"
+          "href": "docs/hal__audio___spec.html#L68C24"
         },
         {
           "kind": "span",
@@ -1658,7 +1689,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Audio_Buffer",
-          "href": "docs/hal__audio___spec.html#L36C9"
+          "href": "docs/hal__audio___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -1694,13 +1725,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 68,
+      "number": 69,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 69,
+      "number": 70,
       "children": [
         {
           "kind": "span",
@@ -1721,7 +1752,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Receive",
-          "href": "docs/hal__audio___spec.html#L69C14"
+          "href": "docs/hal__audio___spec.html#L70C14"
         },
         {
           "kind": "span",
@@ -1737,7 +1768,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__audio___spec.html#L69C23"
+          "href": "docs/hal__audio___spec.html#L70C23"
         },
         {
           "kind": "span",
@@ -1778,7 +1809,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Audio_Stream",
-          "href": "docs/hal__audio___spec.html#L61C9"
+          "href": "docs/hal__audio___spec.html#L62C9"
         },
         {
           "kind": "span",
@@ -1789,7 +1820,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 70,
+      "number": 71,
       "children": [
         {
           "kind": "span",
@@ -1800,7 +1831,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Data",
-          "href": "docs/hal__audio___spec.html#L70C23"
+          "href": "docs/hal__audio___spec.html#L71C23"
         },
         {
           "kind": "span",
@@ -1831,7 +1862,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Audio_Buffer",
-          "href": "docs/hal__audio___spec.html#L36C9"
+          "href": "docs/hal__audio___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -1867,13 +1898,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 71,
+      "number": 72,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 72,
+      "number": 73,
       "children": [
         {
           "kind": "span",

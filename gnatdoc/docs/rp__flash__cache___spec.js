@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Access_Count",
           "qualifier": "",
-          "line": 25,
+          "line": 27,
           "column": 13,
           "src": "srcs/rp-flash-cache.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 25,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -43,13 +43,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Access_Count",
-                      "href": "docs/rp__flash__cache___spec.html#L25C13"
+                      "href": "docs/rp__flash__cache___spec.html#L27C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 26,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
@@ -86,7 +86,7 @@ GNATdoc.Documentation = {
         {
           "label": "Disable",
           "qualifier": "",
-          "line": 10,
+          "line": 12,
           "column": 14,
           "src": "srcs/rp-flash-cache.ads.html",
           "summary": [
@@ -97,7 +97,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 10,
+                  "number": 12,
                   "children": [
                     {
                       "kind": "span",
@@ -118,7 +118,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Disable",
-                      "href": "docs/rp__flash__cache___spec.html#L10C14"
+                      "href": "docs/rp__flash__cache___spec.html#L12C14"
                     },
                     {
                       "kind": "span",
@@ -134,7 +134,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enable",
           "qualifier": "",
-          "line": 9,
+          "line": 11,
           "column": 14,
           "src": "srcs/rp-flash-cache.ads.html",
           "summary": [
@@ -145,7 +145,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 9,
+                  "number": 11,
                   "children": [
                     {
                       "kind": "span",
@@ -166,7 +166,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enable",
-                      "href": "docs/rp__flash__cache___spec.html#L9C14"
+                      "href": "docs/rp__flash__cache___spec.html#L11C14"
                     },
                     {
                       "kind": "span",
@@ -182,7 +182,7 @@ GNATdoc.Documentation = {
         {
           "label": "Flush",
           "qualifier": "",
-          "line": 17,
+          "line": 19,
           "column": 14,
           "src": "srcs/rp-flash-cache.ads.html",
           "summary": [
@@ -193,7 +193,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 17,
+                  "number": 19,
                   "children": [
                     {
                       "kind": "span",
@@ -214,13 +214,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Flush",
-                      "href": "docs/rp__flash__cache___spec.html#L17C14"
+                      "href": "docs/rp__flash__cache___spec.html#L19C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 18,
+                  "number": 20,
                   "children": [
                     {
                       "kind": "span",
@@ -236,7 +236,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Wait",
-                      "href": "docs/rp__flash__cache___spec.html#L18C8"
+                      "href": "docs/rp__flash__cache___spec.html#L20C8"
                     },
                     {
                       "kind": "span",
@@ -309,7 +309,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Wait",
-              "line": 18,
+              "line": 20,
               "column": 8,
               "type": {
                 "label": "Boolean"
@@ -322,7 +322,7 @@ GNATdoc.Documentation = {
         {
           "label": "Hit_Count",
           "qualifier": "",
-          "line": 22,
+          "line": 24,
           "column": 13,
           "src": "srcs/rp-flash-cache.ads.html",
           "summary": [
@@ -333,7 +333,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 22,
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -354,13 +354,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Hit_Count",
-                      "href": "docs/rp__flash__cache___spec.html#L22C13"
+                      "href": "docs/rp__flash__cache___spec.html#L24C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 23,
+                  "number": 25,
                   "children": [
                     {
                       "kind": "span",
@@ -397,7 +397,7 @@ GNATdoc.Documentation = {
         {
           "label": "Is_Enabled",
           "qualifier": "",
-          "line": 14,
+          "line": 16,
           "column": 13,
           "src": "srcs/rp-flash-cache.ads.html",
           "summary": [
@@ -408,7 +408,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 14,
+                  "number": 16,
                   "children": [
                     {
                       "kind": "span",
@@ -429,13 +429,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Is_Enabled",
-                      "href": "docs/rp__flash__cache___spec.html#L14C13"
+                      "href": "docs/rp__flash__cache___spec.html#L16C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 15,
+                  "number": 17,
                   "children": [
                     {
                       "kind": "span",
@@ -471,7 +471,7 @@ GNATdoc.Documentation = {
         {
           "label": "Power_Down",
           "qualifier": "",
-          "line": 11,
+          "line": 13,
           "column": 14,
           "src": "srcs/rp-flash-cache.ads.html",
           "summary": [
@@ -482,7 +482,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 11,
+                  "number": 13,
                   "children": [
                     {
                       "kind": "span",
@@ -503,7 +503,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Power_Down",
-                      "href": "docs/rp__flash__cache___spec.html#L11C14"
+                      "href": "docs/rp__flash__cache___spec.html#L13C14"
                     },
                     {
                       "kind": "span",
@@ -528,7 +528,7 @@ GNATdoc.Documentation = {
         {
           "label": "Reset_Counters",
           "qualifier": "",
-          "line": 28,
+          "line": 30,
           "column": 14,
           "src": "srcs/rp-flash-cache.ads.html",
           "summary": [
@@ -539,7 +539,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 28,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -560,7 +560,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reset_Counters",
-                      "href": "docs/rp__flash__cache___spec.html#L28C14"
+                      "href": "docs/rp__flash__cache___spec.html#L30C14"
                     },
                     {
                       "kind": "span",

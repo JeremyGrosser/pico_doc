@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
         {
           "label": "Four_Comparators_Watchpoints_And_Triggers",
           "qualifier": "",
-          "line": 56,
+          "line": 58,
           "column": 4,
           "src": "srcs/cortex_m-dwt.ads.html",
           "summary": [
@@ -31,7 +31,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 58,
                   "children": [
                     {
                       "kind": "span",
@@ -77,11 +77,17 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ":="
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 59,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -126,7 +132,7 @@ GNATdoc.Documentation = {
         {
           "label": "Four_Comparators_Watchpoints_Only",
           "qualifier": "",
-          "line": 57,
+          "line": 60,
           "column": 4,
           "src": "srcs/cortex_m-dwt.ads.html",
           "summary": [
@@ -137,7 +143,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 57,
+                  "number": 60,
                   "children": [
                     {
                       "kind": "span",
@@ -183,11 +189,17 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ":="
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 61,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -335,7 +347,7 @@ GNATdoc.Documentation = {
         {
           "label": "One_Comparator_Watchpoints",
           "qualifier": "",
-          "line": 55,
+          "line": 56,
           "column": 4,
           "src": "srcs/cortex_m-dwt.ads.html",
           "summary": [
@@ -346,7 +358,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 55,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -392,11 +404,17 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ":="
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 57,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -498,11 +516,17 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ":="
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 55,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -552,7 +576,7 @@ GNATdoc.Documentation = {
         {
           "label": "Disable_DWT_Unit",
           "qualifier": "",
-          "line": 69,
+          "line": 73,
           "column": 14,
           "src": "srcs/cortex_m-dwt.ads.html",
           "summary": [
@@ -563,7 +587,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 69,
+                  "number": 73,
                   "children": [
                     {
                       "kind": "span",
@@ -584,7 +608,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Disable_DWT_Unit",
-                      "href": "docs/cortex_m__dwt___spec.html#L69C14"
+                      "href": "docs/cortex_m__dwt___spec.html#L73C14"
                     },
                     {
                       "kind": "span",
@@ -600,7 +624,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 70,
+                  "number": 74,
                   "children": [
                     {
                       "kind": "span",
@@ -621,7 +645,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 75,
                   "children": [
                     {
                       "kind": "span",
@@ -655,7 +679,7 @@ GNATdoc.Documentation = {
         {
           "label": "DWT_Reset_Value",
           "qualifier": "",
-          "line": 59,
+          "line": 63,
           "column": 13,
           "src": "srcs/cortex_m-dwt.ads.html",
           "summary": [
@@ -666,7 +690,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 59,
+                  "number": 63,
                   "children": [
                     {
                       "kind": "span",
@@ -687,7 +711,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DWT_Reset_Value",
-                      "href": "docs/cortex_m__dwt___spec.html#L59C13"
+                      "href": "docs/cortex_m__dwt___spec.html#L63C13"
                     },
                     {
                       "kind": "span",
@@ -752,7 +776,7 @@ GNATdoc.Documentation = {
         {
           "label": "DWT_Unit_Enabled",
           "qualifier": "",
-          "line": 75,
+          "line": 79,
           "column": 13,
           "src": "srcs/cortex_m-dwt.ads.html",
           "summary": [
@@ -763,7 +787,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 75,
+                  "number": 79,
                   "children": [
                     {
                       "kind": "span",
@@ -784,7 +808,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DWT_Unit_Enabled",
-                      "href": "docs/cortex_m__dwt___spec.html#L75C13"
+                      "href": "docs/cortex_m__dwt___spec.html#L79C13"
                     },
                     {
                       "kind": "span",
@@ -835,7 +859,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enable_DWT_Unit",
           "qualifier": "",
-          "line": 63,
+          "line": 67,
           "column": 14,
           "src": "srcs/cortex_m-dwt.ads.html",
           "summary": [
@@ -846,7 +870,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 63,
+                  "number": 67,
                   "children": [
                     {
                       "kind": "span",
@@ -867,7 +891,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enable_DWT_Unit",
-                      "href": "docs/cortex_m__dwt___spec.html#L63C14"
+                      "href": "docs/cortex_m__dwt___spec.html#L67C14"
                     },
                     {
                       "kind": "span",
@@ -883,7 +907,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 64,
+                  "number": 68,
                   "children": [
                     {
                       "kind": "span",
@@ -894,7 +918,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 65,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",

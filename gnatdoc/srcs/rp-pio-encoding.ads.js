@@ -107,12 +107,39 @@ GNATdoc.SourceFile = {
           "cssClass": "identifier",
           "text": "RP.PIO.Encoding",
           "href": "docs/rp__pio__encoding___spec.html#L8C16"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 9,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
         },
         {
           "kind": "span",
           "cssClass": "text",
           "text": " "
         },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Preelaborate"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 10,
+      "children": [
         {
           "kind": "span",
           "cssClass": "keyword",
@@ -122,13 +149,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 9,
+      "number": 11,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 10,
+      "number": 12,
       "children": [
         {
           "kind": "span",
@@ -149,7 +176,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "JMP_Condition",
-          "href": "docs/rp__pio__encoding___spec.html#L10C9"
+          "href": "docs/rp__pio__encoding___spec.html#L12C9"
         },
         {
           "kind": "span",
@@ -165,7 +192,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 11,
+      "number": 13,
       "children": [
         {
           "kind": "span",
@@ -181,7 +208,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Always",
-          "href": "docs/rp__pio__encoding___spec.html#L11C8"
+          "href": "docs/rp__pio__encoding___spec.html#L13C8"
         },
         {
           "kind": "span",
@@ -192,7 +219,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 12,
+      "number": 14,
       "children": [
         {
           "kind": "span",
@@ -203,7 +230,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Scratch_X_Zero",
-          "href": "docs/rp__pio__encoding___spec.html#L12C8"
+          "href": "docs/rp__pio__encoding___spec.html#L14C8"
         },
         {
           "kind": "span",
@@ -224,7 +251,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 13,
+      "number": 15,
       "children": [
         {
           "kind": "span",
@@ -235,7 +262,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Scratch_X_Nonzero_Decrement",
-          "href": "docs/rp__pio__encoding___spec.html#L13C8"
+          "href": "docs/rp__pio__encoding___spec.html#L15C8"
         },
         {
           "kind": "span",
@@ -256,7 +283,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 14,
+      "number": 16,
       "children": [
         {
           "kind": "span",
@@ -267,7 +294,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Scratch_Y_Zero",
-          "href": "docs/rp__pio__encoding___spec.html#L14C8"
+          "href": "docs/rp__pio__encoding___spec.html#L16C8"
         },
         {
           "kind": "span",
@@ -288,7 +315,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 15,
+      "number": 17,
       "children": [
         {
           "kind": "span",
@@ -299,7 +326,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Scratch_Y_Nonzero_Decrement",
-          "href": "docs/rp__pio__encoding___spec.html#L15C8"
+          "href": "docs/rp__pio__encoding___spec.html#L17C8"
         },
         {
           "kind": "span",
@@ -320,7 +347,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 16,
+      "number": 18,
       "children": [
         {
           "kind": "span",
@@ -331,7 +358,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "X_Notequal_Y",
-          "href": "docs/rp__pio__encoding___spec.html#L16C8"
+          "href": "docs/rp__pio__encoding___spec.html#L18C8"
         },
         {
           "kind": "span",
@@ -352,7 +379,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 17,
+      "number": 19,
       "children": [
         {
           "kind": "span",
@@ -363,7 +390,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Input_Pin",
-          "href": "docs/rp__pio__encoding___spec.html#L17C8"
+          "href": "docs/rp__pio__encoding___spec.html#L19C8"
         },
         {
           "kind": "span",
@@ -384,7 +411,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 18,
+      "number": 20,
       "children": [
         {
           "kind": "span",
@@ -395,7 +422,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OSRE_Not_Empty",
-          "href": "docs/rp__pio__encoding___spec.html#L18C8"
+          "href": "docs/rp__pio__encoding___spec.html#L20C8"
         },
         {
           "kind": "span",
@@ -416,7 +443,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 19,
+      "number": 21,
       "children": [
         {
           "kind": "span",
@@ -442,13 +469,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 20,
+      "number": 22,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 21,
+      "number": 23,
       "children": [
         {
           "kind": "span",
@@ -469,7 +496,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "JMP",
-          "href": "docs/rp__pio__encoding___spec.html#L21C9"
+          "href": "docs/rp__pio__encoding___spec.html#L23C9"
         },
         {
           "kind": "span",
@@ -495,7 +522,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 22,
+      "number": 24,
       "children": [
         {
           "kind": "span",
@@ -506,7 +533,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Opcode",
-          "href": "docs/rp__pio__encoding___spec.html#L22C7"
+          "href": "docs/rp__pio__encoding___spec.html#L24C7"
         },
         {
           "kind": "span",
@@ -573,7 +600,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 23,
+      "number": 25,
       "children": [
         {
           "kind": "span",
@@ -584,7 +611,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delay_Sideset",
-          "href": "docs/rp__pio__encoding___spec.html#L23C7"
+          "href": "docs/rp__pio__encoding___spec.html#L25C7"
         },
         {
           "kind": "span",
@@ -636,7 +663,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 24,
+      "number": 26,
       "children": [
         {
           "kind": "span",
@@ -647,7 +674,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Condition",
-          "href": "docs/rp__pio__encoding___spec.html#L24C7"
+          "href": "docs/rp__pio__encoding___spec.html#L26C7"
         },
         {
           "kind": "span",
@@ -668,7 +695,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "JMP_Condition",
-          "href": "docs/rp__pio__encoding___spec.html#L10C9"
+          "href": "docs/rp__pio__encoding___spec.html#L12C9"
         },
         {
           "kind": "span",
@@ -699,7 +726,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 25,
+      "number": 27,
       "children": [
         {
           "kind": "span",
@@ -710,7 +737,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/rp__pio__encoding___spec.html#L25C7"
+          "href": "docs/rp__pio__encoding___spec.html#L27C7"
         },
         {
           "kind": "span",
@@ -762,7 +789,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 26,
+      "number": 28,
       "children": [
         {
           "kind": "span",
@@ -788,7 +815,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 27,
+      "number": 29,
       "children": [
         {
           "kind": "span",
@@ -814,7 +841,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 28,
+      "number": 30,
       "children": [
         {
           "kind": "span",
@@ -835,7 +862,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "JMP",
-          "href": "docs/rp__pio__encoding___spec.html#L21C9"
+          "href": "docs/rp__pio__encoding___spec.html#L23C9"
         },
         {
           "kind": "span",
@@ -861,7 +888,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 29,
+      "number": 31,
       "children": [
         {
           "kind": "span",
@@ -942,7 +969,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 30,
+      "number": 32,
       "children": [
         {
           "kind": "span",
@@ -1023,7 +1050,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 31,
+      "number": 33,
       "children": [
         {
           "kind": "span",
@@ -1104,7 +1131,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 32,
+      "number": 34,
       "children": [
         {
           "kind": "span",
@@ -1185,7 +1212,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 33,
+      "number": 35,
       "children": [
         {
           "kind": "span",
@@ -1216,13 +1243,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 34,
+      "number": 36,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 35,
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -1243,7 +1270,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "WAIT_Source",
-          "href": "docs/rp__pio__encoding___spec.html#L35C9"
+          "href": "docs/rp__pio__encoding___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -1259,7 +1286,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 36,
+      "number": 38,
       "children": [
         {
           "kind": "span",
@@ -1275,7 +1302,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GPIO",
-          "href": "docs/rp__pio__encoding___spec.html#L36C8"
+          "href": "docs/rp__pio__encoding___spec.html#L38C8"
         },
         {
           "kind": "span",
@@ -1291,7 +1318,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIN",
-          "href": "docs/rp__pio__encoding___spec.html#L36C14"
+          "href": "docs/rp__pio__encoding___spec.html#L38C14"
         },
         {
           "kind": "span",
@@ -1307,7 +1334,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "WAIT_IRQ",
-          "href": "docs/rp__pio__encoding___spec.html#L36C19"
+          "href": "docs/rp__pio__encoding___spec.html#L38C19"
         },
         {
           "kind": "span",
@@ -1318,7 +1345,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 39,
       "children": [
         {
           "kind": "span",
@@ -1344,13 +1371,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 40,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 41,
       "children": [
         {
           "kind": "span",
@@ -1371,7 +1398,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "WAIT",
-          "href": "docs/rp__pio__encoding___spec.html#L39C9"
+          "href": "docs/rp__pio__encoding___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -1397,7 +1424,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 42,
       "children": [
         {
           "kind": "span",
@@ -1408,7 +1435,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Opcode",
-          "href": "docs/rp__pio__encoding___spec.html#L40C7"
+          "href": "docs/rp__pio__encoding___spec.html#L42C7"
         },
         {
           "kind": "span",
@@ -1475,7 +1502,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -1486,7 +1513,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delay_Sideset",
-          "href": "docs/rp__pio__encoding___spec.html#L41C7"
+          "href": "docs/rp__pio__encoding___spec.html#L43C7"
         },
         {
           "kind": "span",
@@ -1538,7 +1565,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -1549,7 +1576,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Polarity",
-          "href": "docs/rp__pio__encoding___spec.html#L42C7"
+          "href": "docs/rp__pio__encoding___spec.html#L44C7"
         },
         {
           "kind": "span",
@@ -1600,7 +1627,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 45,
       "children": [
         {
           "kind": "span",
@@ -1611,7 +1638,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Source",
-          "href": "docs/rp__pio__encoding___spec.html#L43C7"
+          "href": "docs/rp__pio__encoding___spec.html#L45C7"
         },
         {
           "kind": "span",
@@ -1632,7 +1659,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "WAIT_Source",
-          "href": "docs/rp__pio__encoding___spec.html#L35C9"
+          "href": "docs/rp__pio__encoding___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -1663,7 +1690,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 46,
       "children": [
         {
           "kind": "span",
@@ -1674,7 +1701,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Index",
-          "href": "docs/rp__pio__encoding___spec.html#L44C7"
+          "href": "docs/rp__pio__encoding___spec.html#L46C7"
         },
         {
           "kind": "span",
@@ -1726,7 +1753,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 47,
       "children": [
         {
           "kind": "span",
@@ -1752,7 +1779,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 48,
       "children": [
         {
           "kind": "span",
@@ -1778,7 +1805,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 47,
+      "number": 49,
       "children": [
         {
           "kind": "span",
@@ -1799,7 +1826,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "WAIT",
-          "href": "docs/rp__pio__encoding___spec.html#L39C9"
+          "href": "docs/rp__pio__encoding___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -1825,7 +1852,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -1906,7 +1933,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 49,
+      "number": 51,
       "children": [
         {
           "kind": "span",
@@ -1987,7 +2014,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 52,
       "children": [
         {
           "kind": "span",
@@ -2068,7 +2095,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -2149,7 +2176,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 52,
+      "number": 54,
       "children": [
         {
           "kind": "span",
@@ -2230,7 +2257,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 53,
+      "number": 55,
       "children": [
         {
           "kind": "span",
@@ -2261,13 +2288,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 54,
+      "number": 56,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 55,
+      "number": 57,
       "children": [
         {
           "kind": "span",
@@ -2288,7 +2315,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SHIFT_IN_Source",
-          "href": "docs/rp__pio__encoding___spec.html#L55C9"
+          "href": "docs/rp__pio__encoding___spec.html#L57C9"
         },
         {
           "kind": "span",
@@ -2304,7 +2331,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 58,
       "children": [
         {
           "kind": "span",
@@ -2320,7 +2347,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PINS",
-          "href": "docs/rp__pio__encoding___spec.html#L56C8"
+          "href": "docs/rp__pio__encoding___spec.html#L58C8"
         },
         {
           "kind": "span",
@@ -2336,7 +2363,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "X",
-          "href": "docs/rp__pio__encoding___spec.html#L56C14"
+          "href": "docs/rp__pio__encoding___spec.html#L58C14"
         },
         {
           "kind": "span",
@@ -2352,7 +2379,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Y",
-          "href": "docs/rp__pio__encoding___spec.html#L56C17"
+          "href": "docs/rp__pio__encoding___spec.html#L58C17"
         },
         {
           "kind": "span",
@@ -2368,7 +2395,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ZERO",
-          "href": "docs/rp__pio__encoding___spec.html#L56C20"
+          "href": "docs/rp__pio__encoding___spec.html#L58C20"
         },
         {
           "kind": "span",
@@ -2384,7 +2411,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ISR",
-          "href": "docs/rp__pio__encoding___spec.html#L56C26"
+          "href": "docs/rp__pio__encoding___spec.html#L58C26"
         },
         {
           "kind": "span",
@@ -2400,7 +2427,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OSR",
-          "href": "docs/rp__pio__encoding___spec.html#L56C31"
+          "href": "docs/rp__pio__encoding___spec.html#L58C31"
         },
         {
           "kind": "span",
@@ -2411,7 +2438,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 57,
+      "number": 59,
       "children": [
         {
           "kind": "span",
@@ -2437,7 +2464,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 60,
       "children": [
         {
           "kind": "span",
@@ -2458,7 +2485,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SHIFT_IN_Source",
-          "href": "docs/rp__pio__encoding___spec.html#L55C9"
+          "href": "docs/rp__pio__encoding___spec.html#L57C9"
         },
         {
           "kind": "span",
@@ -2474,7 +2501,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 59,
+      "number": 61,
       "children": [
         {
           "kind": "span",
@@ -2535,7 +2562,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 60,
+      "number": 62,
       "children": [
         {
           "kind": "span",
@@ -2591,7 +2618,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 61,
+      "number": 63,
       "children": [
         {
           "kind": "span",
@@ -2647,7 +2674,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 62,
+      "number": 64,
       "children": [
         {
           "kind": "span",
@@ -2703,7 +2730,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 65,
       "children": [
         {
           "kind": "span",
@@ -2759,7 +2786,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 64,
+      "number": 66,
       "children": [
         {
           "kind": "span",
@@ -2820,13 +2847,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 65,
+      "number": 67,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 66,
+      "number": 68,
       "children": [
         {
           "kind": "span",
@@ -2847,7 +2874,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SHIFT_IN",
-          "href": "docs/rp__pio__encoding___spec.html#L66C9"
+          "href": "docs/rp__pio__encoding___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -2873,7 +2900,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 67,
+      "number": 69,
       "children": [
         {
           "kind": "span",
@@ -2884,7 +2911,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Opcode",
-          "href": "docs/rp__pio__encoding___spec.html#L67C7"
+          "href": "docs/rp__pio__encoding___spec.html#L69C7"
         },
         {
           "kind": "span",
@@ -2951,7 +2978,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 68,
+      "number": 70,
       "children": [
         {
           "kind": "span",
@@ -2962,7 +2989,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delay_Sideset",
-          "href": "docs/rp__pio__encoding___spec.html#L68C7"
+          "href": "docs/rp__pio__encoding___spec.html#L70C7"
         },
         {
           "kind": "span",
@@ -3014,7 +3041,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 69,
+      "number": 71,
       "children": [
         {
           "kind": "span",
@@ -3025,7 +3052,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Source",
-          "href": "docs/rp__pio__encoding___spec.html#L69C7"
+          "href": "docs/rp__pio__encoding___spec.html#L71C7"
         },
         {
           "kind": "span",
@@ -3046,7 +3073,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SHIFT_IN_Source",
-          "href": "docs/rp__pio__encoding___spec.html#L55C9"
+          "href": "docs/rp__pio__encoding___spec.html#L57C9"
         },
         {
           "kind": "span",
@@ -3077,7 +3104,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 70,
+      "number": 72,
       "children": [
         {
           "kind": "span",
@@ -3088,7 +3115,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bit_Count",
-          "href": "docs/rp__pio__encoding___spec.html#L70C7"
+          "href": "docs/rp__pio__encoding___spec.html#L72C7"
         },
         {
           "kind": "span",
@@ -3130,7 +3157,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 71,
+      "number": 73,
       "children": [
         {
           "kind": "span",
@@ -3156,7 +3183,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 72,
+      "number": 74,
       "children": [
         {
           "kind": "span",
@@ -3182,7 +3209,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 73,
+      "number": 75,
       "children": [
         {
           "kind": "span",
@@ -3203,7 +3230,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SHIFT_IN",
-          "href": "docs/rp__pio__encoding___spec.html#L66C9"
+          "href": "docs/rp__pio__encoding___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -3229,7 +3256,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 74,
+      "number": 76,
       "children": [
         {
           "kind": "span",
@@ -3310,7 +3337,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 75,
+      "number": 77,
       "children": [
         {
           "kind": "span",
@@ -3391,7 +3418,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 76,
+      "number": 78,
       "children": [
         {
           "kind": "span",
@@ -3472,7 +3499,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 77,
+      "number": 79,
       "children": [
         {
           "kind": "span",
@@ -3553,7 +3580,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 78,
+      "number": 80,
       "children": [
         {
           "kind": "span",
@@ -3584,13 +3611,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 79,
+      "number": 81,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 80,
+      "number": 82,
       "children": [
         {
           "kind": "span",
@@ -3611,7 +3638,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SHIFT_OUT_Destination",
-          "href": "docs/rp__pio__encoding___spec.html#L80C9"
+          "href": "docs/rp__pio__encoding___spec.html#L82C9"
         },
         {
           "kind": "span",
@@ -3627,7 +3654,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 81,
+      "number": 83,
       "children": [
         {
           "kind": "span",
@@ -3643,7 +3670,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PINS",
-          "href": "docs/rp__pio__encoding___spec.html#L81C8"
+          "href": "docs/rp__pio__encoding___spec.html#L83C8"
         },
         {
           "kind": "span",
@@ -3659,7 +3686,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "X",
-          "href": "docs/rp__pio__encoding___spec.html#L81C14"
+          "href": "docs/rp__pio__encoding___spec.html#L83C14"
         },
         {
           "kind": "span",
@@ -3675,7 +3702,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Y",
-          "href": "docs/rp__pio__encoding___spec.html#L81C17"
+          "href": "docs/rp__pio__encoding___spec.html#L83C17"
         },
         {
           "kind": "span",
@@ -3691,7 +3718,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DISCARD",
-          "href": "docs/rp__pio__encoding___spec.html#L81C20"
+          "href": "docs/rp__pio__encoding___spec.html#L83C20"
         },
         {
           "kind": "span",
@@ -3707,7 +3734,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PINDIRS",
-          "href": "docs/rp__pio__encoding___spec.html#L81C29"
+          "href": "docs/rp__pio__encoding___spec.html#L83C29"
         },
         {
           "kind": "span",
@@ -3723,7 +3750,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PC",
-          "href": "docs/rp__pio__encoding___spec.html#L81C38"
+          "href": "docs/rp__pio__encoding___spec.html#L83C38"
         },
         {
           "kind": "span",
@@ -3739,7 +3766,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ISR",
-          "href": "docs/rp__pio__encoding___spec.html#L81C42"
+          "href": "docs/rp__pio__encoding___spec.html#L83C42"
         },
         {
           "kind": "span",
@@ -3755,7 +3782,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EXEC",
-          "href": "docs/rp__pio__encoding___spec.html#L81C47"
+          "href": "docs/rp__pio__encoding___spec.html#L83C47"
         },
         {
           "kind": "span",
@@ -3766,7 +3793,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 82,
+      "number": 84,
       "children": [
         {
           "kind": "span",
@@ -3792,7 +3819,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 83,
+      "number": 85,
       "children": [
         {
           "kind": "span",
@@ -3813,7 +3840,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SHIFT_OUT_Destination",
-          "href": "docs/rp__pio__encoding___spec.html#L80C9"
+          "href": "docs/rp__pio__encoding___spec.html#L82C9"
         },
         {
           "kind": "span",
@@ -3829,7 +3856,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 84,
+      "number": 86,
       "children": [
         {
           "kind": "span",
@@ -3890,7 +3917,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 85,
+      "number": 87,
       "children": [
         {
           "kind": "span",
@@ -3946,7 +3973,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 86,
+      "number": 88,
       "children": [
         {
           "kind": "span",
@@ -4002,7 +4029,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 87,
+      "number": 89,
       "children": [
         {
           "kind": "span",
@@ -4058,7 +4085,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 88,
+      "number": 90,
       "children": [
         {
           "kind": "span",
@@ -4114,7 +4141,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 89,
+      "number": 91,
       "children": [
         {
           "kind": "span",
@@ -4170,7 +4197,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 90,
+      "number": 92,
       "children": [
         {
           "kind": "span",
@@ -4226,7 +4253,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 91,
+      "number": 93,
       "children": [
         {
           "kind": "span",
@@ -4287,7 +4314,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 92,
+      "number": 94,
       "children": [
         {
           "kind": "span",
@@ -4308,7 +4335,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SHIFT_OUT",
-          "href": "docs/rp__pio__encoding___spec.html#L92C9"
+          "href": "docs/rp__pio__encoding___spec.html#L94C9"
         },
         {
           "kind": "span",
@@ -4334,7 +4361,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 93,
+      "number": 95,
       "children": [
         {
           "kind": "span",
@@ -4345,7 +4372,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Opcode",
-          "href": "docs/rp__pio__encoding___spec.html#L93C7"
+          "href": "docs/rp__pio__encoding___spec.html#L95C7"
         },
         {
           "kind": "span",
@@ -4412,7 +4439,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 94,
+      "number": 96,
       "children": [
         {
           "kind": "span",
@@ -4423,7 +4450,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delay_Sideset",
-          "href": "docs/rp__pio__encoding___spec.html#L94C7"
+          "href": "docs/rp__pio__encoding___spec.html#L96C7"
         },
         {
           "kind": "span",
@@ -4475,7 +4502,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 95,
+      "number": 97,
       "children": [
         {
           "kind": "span",
@@ -4486,7 +4513,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Destination",
-          "href": "docs/rp__pio__encoding___spec.html#L95C7"
+          "href": "docs/rp__pio__encoding___spec.html#L97C7"
         },
         {
           "kind": "span",
@@ -4507,7 +4534,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SHIFT_OUT_Destination",
-          "href": "docs/rp__pio__encoding___spec.html#L80C9"
+          "href": "docs/rp__pio__encoding___spec.html#L82C9"
         },
         {
           "kind": "span",
@@ -4538,7 +4565,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 96,
+      "number": 98,
       "children": [
         {
           "kind": "span",
@@ -4549,7 +4576,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bit_Count",
-          "href": "docs/rp__pio__encoding___spec.html#L96C7"
+          "href": "docs/rp__pio__encoding___spec.html#L98C7"
         },
         {
           "kind": "span",
@@ -4591,7 +4618,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 97,
+      "number": 99,
       "children": [
         {
           "kind": "span",
@@ -4617,7 +4644,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 98,
+      "number": 100,
       "children": [
         {
           "kind": "span",
@@ -4643,7 +4670,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 99,
+      "number": 101,
       "children": [
         {
           "kind": "span",
@@ -4664,7 +4691,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SHIFT_OUT",
-          "href": "docs/rp__pio__encoding___spec.html#L92C9"
+          "href": "docs/rp__pio__encoding___spec.html#L94C9"
         },
         {
           "kind": "span",
@@ -4690,7 +4717,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 100,
+      "number": 102,
       "children": [
         {
           "kind": "span",
@@ -4771,7 +4798,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 101,
+      "number": 103,
       "children": [
         {
           "kind": "span",
@@ -4852,7 +4879,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 102,
+      "number": 104,
       "children": [
         {
           "kind": "span",
@@ -4933,7 +4960,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 103,
+      "number": 105,
       "children": [
         {
           "kind": "span",
@@ -5014,7 +5041,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 104,
+      "number": 106,
       "children": [
         {
           "kind": "span",
@@ -5045,13 +5072,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 105,
+      "number": 107,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 106,
+      "number": 108,
       "children": [
         {
           "kind": "span",
@@ -5072,7 +5099,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PUSH",
-          "href": "docs/rp__pio__encoding___spec.html#L106C9"
+          "href": "docs/rp__pio__encoding___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -5098,7 +5125,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 107,
+      "number": 109,
       "children": [
         {
           "kind": "span",
@@ -5109,7 +5136,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Opcode",
-          "href": "docs/rp__pio__encoding___spec.html#L107C7"
+          "href": "docs/rp__pio__encoding___spec.html#L109C7"
         },
         {
           "kind": "span",
@@ -5176,7 +5203,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 108,
+      "number": 110,
       "children": [
         {
           "kind": "span",
@@ -5187,7 +5214,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delay_Sideset",
-          "href": "docs/rp__pio__encoding___spec.html#L108C7"
+          "href": "docs/rp__pio__encoding___spec.html#L110C7"
         },
         {
           "kind": "span",
@@ -5239,130 +5266,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 109,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Opcode_2",
-          "href": "docs/rp__pio__encoding___spec.html#L109C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 110,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "If_Full",
-          "href": "docs/rp__pio__encoding___spec.html#L110C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 111,
       "children": [
         {
@@ -5373,13 +5276,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Block",
+          "text": "Opcode_2",
           "href": "docs/rp__pio__encoding___spec.html#L111C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "          "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -5435,8 +5338,132 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Opcode_3",
+          "text": "If_Full",
           "href": "docs/rp__pio__encoding___spec.html#L112C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 113,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Block",
+          "href": "docs/rp__pio__encoding___spec.html#L113C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "          "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 114,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Opcode_3",
+          "href": "docs/rp__pio__encoding___spec.html#L114C7"
         },
         {
           "kind": "span",
@@ -5488,7 +5515,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 113,
+      "number": 115,
       "children": [
         {
           "kind": "span",
@@ -5514,7 +5541,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 114,
+      "number": 116,
       "children": [
         {
           "kind": "span",
@@ -5540,7 +5567,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 115,
+      "number": 117,
       "children": [
         {
           "kind": "span",
@@ -5561,7 +5588,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PUSH",
-          "href": "docs/rp__pio__encoding___spec.html#L106C9"
+          "href": "docs/rp__pio__encoding___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -5587,7 +5614,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 116,
+      "number": 118,
       "children": [
         {
           "kind": "span",
@@ -5668,7 +5695,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 117,
+      "number": 119,
       "children": [
         {
           "kind": "span",
@@ -5749,7 +5776,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 118,
+      "number": 120,
       "children": [
         {
           "kind": "span",
@@ -5830,7 +5857,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 119,
+      "number": 121,
       "children": [
         {
           "kind": "span",
@@ -5911,7 +5938,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 120,
+      "number": 122,
       "children": [
         {
           "kind": "span",
@@ -5992,7 +6019,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 121,
+      "number": 123,
       "children": [
         {
           "kind": "span",
@@ -6073,7 +6100,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 122,
+      "number": 124,
       "children": [
         {
           "kind": "span",
@@ -6104,13 +6131,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 123,
+      "number": 125,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 124,
+      "number": 126,
       "children": [
         {
           "kind": "span",
@@ -6131,7 +6158,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PULL",
-          "href": "docs/rp__pio__encoding___spec.html#L124C9"
+          "href": "docs/rp__pio__encoding___spec.html#L126C9"
         },
         {
           "kind": "span",
@@ -6157,7 +6184,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 125,
+      "number": 127,
       "children": [
         {
           "kind": "span",
@@ -6168,7 +6195,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Opcode",
-          "href": "docs/rp__pio__encoding___spec.html#L125C7"
+          "href": "docs/rp__pio__encoding___spec.html#L127C7"
         },
         {
           "kind": "span",
@@ -6235,7 +6262,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 126,
+      "number": 128,
       "children": [
         {
           "kind": "span",
@@ -6246,7 +6273,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delay_Sideset",
-          "href": "docs/rp__pio__encoding___spec.html#L126C7"
+          "href": "docs/rp__pio__encoding___spec.html#L128C7"
         },
         {
           "kind": "span",
@@ -6298,7 +6325,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 127,
+      "number": 129,
       "children": [
         {
           "kind": "span",
@@ -6309,7 +6336,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Opcode_2",
-          "href": "docs/rp__pio__encoding___spec.html#L127C7"
+          "href": "docs/rp__pio__encoding___spec.html#L129C7"
         },
         {
           "kind": "span",
@@ -6360,7 +6387,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 128,
+      "number": 130,
       "children": [
         {
           "kind": "span",
@@ -6371,7 +6398,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "If_Empty",
-          "href": "docs/rp__pio__encoding___spec.html#L128C7"
+          "href": "docs/rp__pio__encoding___spec.html#L130C7"
         },
         {
           "kind": "span",
@@ -6422,7 +6449,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 129,
+      "number": 131,
       "children": [
         {
           "kind": "span",
@@ -6433,7 +6460,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Block",
-          "href": "docs/rp__pio__encoding___spec.html#L129C7"
+          "href": "docs/rp__pio__encoding___spec.html#L131C7"
         },
         {
           "kind": "span",
@@ -6484,7 +6511,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 130,
+      "number": 132,
       "children": [
         {
           "kind": "span",
@@ -6495,7 +6522,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Opcode_3",
-          "href": "docs/rp__pio__encoding___spec.html#L130C7"
+          "href": "docs/rp__pio__encoding___spec.html#L132C7"
         },
         {
           "kind": "span",
@@ -6547,7 +6574,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 131,
+      "number": 133,
       "children": [
         {
           "kind": "span",
@@ -6573,7 +6600,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 132,
+      "number": 134,
       "children": [
         {
           "kind": "span",
@@ -6599,7 +6626,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 133,
+      "number": 135,
       "children": [
         {
           "kind": "span",
@@ -6620,7 +6647,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PULL",
-          "href": "docs/rp__pio__encoding___spec.html#L124C9"
+          "href": "docs/rp__pio__encoding___spec.html#L126C9"
         },
         {
           "kind": "span",
@@ -6646,7 +6673,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 134,
+      "number": 136,
       "children": [
         {
           "kind": "span",
@@ -6727,7 +6754,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 135,
+      "number": 137,
       "children": [
         {
           "kind": "span",
@@ -6808,7 +6835,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 136,
+      "number": 138,
       "children": [
         {
           "kind": "span",
@@ -6889,7 +6916,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 137,
+      "number": 139,
       "children": [
         {
           "kind": "span",
@@ -6970,7 +6997,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 138,
+      "number": 140,
       "children": [
         {
           "kind": "span",
@@ -7051,7 +7078,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 139,
+      "number": 141,
       "children": [
         {
           "kind": "span",
@@ -7132,7 +7159,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 140,
+      "number": 142,
       "children": [
         {
           "kind": "span",
@@ -7163,13 +7190,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 141,
+      "number": 143,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 142,
+      "number": 144,
       "children": [
         {
           "kind": "span",
@@ -7190,7 +7217,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "MOV_Target",
-          "href": "docs/rp__pio__encoding___spec.html#L142C9"
+          "href": "docs/rp__pio__encoding___spec.html#L144C9"
         },
         {
           "kind": "span",
@@ -7206,7 +7233,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 143,
+      "number": 145,
       "children": [
         {
           "kind": "span",
@@ -7222,7 +7249,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PINS",
-          "href": "docs/rp__pio__encoding___spec.html#L143C8"
+          "href": "docs/rp__pio__encoding___spec.html#L145C8"
         },
         {
           "kind": "span",
@@ -7238,7 +7265,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "X",
-          "href": "docs/rp__pio__encoding___spec.html#L143C14"
+          "href": "docs/rp__pio__encoding___spec.html#L145C14"
         },
         {
           "kind": "span",
@@ -7254,7 +7281,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Y",
-          "href": "docs/rp__pio__encoding___spec.html#L143C17"
+          "href": "docs/rp__pio__encoding___spec.html#L145C17"
         },
         {
           "kind": "span",
@@ -7270,7 +7297,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EXEC",
-          "href": "docs/rp__pio__encoding___spec.html#L143C20"
+          "href": "docs/rp__pio__encoding___spec.html#L145C20"
         },
         {
           "kind": "span",
@@ -7286,7 +7313,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PC",
-          "href": "docs/rp__pio__encoding___spec.html#L143C26"
+          "href": "docs/rp__pio__encoding___spec.html#L145C26"
         },
         {
           "kind": "span",
@@ -7302,7 +7329,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ISR",
-          "href": "docs/rp__pio__encoding___spec.html#L143C30"
+          "href": "docs/rp__pio__encoding___spec.html#L145C30"
         },
         {
           "kind": "span",
@@ -7318,7 +7345,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OSR",
-          "href": "docs/rp__pio__encoding___spec.html#L143C35"
+          "href": "docs/rp__pio__encoding___spec.html#L145C35"
         },
         {
           "kind": "span",
@@ -7329,7 +7356,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 144,
+      "number": 146,
       "children": [
         {
           "kind": "span",
@@ -7355,7 +7382,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 145,
+      "number": 147,
       "children": [
         {
           "kind": "span",
@@ -7376,7 +7403,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "MOV_Target",
-          "href": "docs/rp__pio__encoding___spec.html#L142C9"
+          "href": "docs/rp__pio__encoding___spec.html#L144C9"
         },
         {
           "kind": "span",
@@ -7392,7 +7419,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 146,
+      "number": 148,
       "children": [
         {
           "kind": "span",
@@ -7453,7 +7480,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 147,
+      "number": 149,
       "children": [
         {
           "kind": "span",
@@ -7509,7 +7536,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 148,
+      "number": 150,
       "children": [
         {
           "kind": "span",
@@ -7565,7 +7592,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 149,
+      "number": 151,
       "children": [
         {
           "kind": "span",
@@ -7621,7 +7648,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 150,
+      "number": 152,
       "children": [
         {
           "kind": "span",
@@ -7677,7 +7704,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 151,
+      "number": 153,
       "children": [
         {
           "kind": "span",
@@ -7733,7 +7760,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 152,
+      "number": 154,
       "children": [
         {
           "kind": "span",
@@ -7794,13 +7821,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 153,
+      "number": 155,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 154,
+      "number": 156,
       "children": [
         {
           "kind": "span",
@@ -7821,7 +7848,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "MOV_Operation",
-          "href": "docs/rp__pio__encoding___spec.html#L154C9"
+          "href": "docs/rp__pio__encoding___spec.html#L156C9"
         },
         {
           "kind": "span",
@@ -7837,7 +7864,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 155,
+      "number": 157,
       "children": [
         {
           "kind": "span",
@@ -7853,7 +7880,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "None",
-          "href": "docs/rp__pio__encoding___spec.html#L155C8"
+          "href": "docs/rp__pio__encoding___spec.html#L157C8"
         },
         {
           "kind": "span",
@@ -7869,7 +7896,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Invert",
-          "href": "docs/rp__pio__encoding___spec.html#L155C14"
+          "href": "docs/rp__pio__encoding___spec.html#L157C14"
         },
         {
           "kind": "span",
@@ -7885,7 +7912,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bit_Reverse",
-          "href": "docs/rp__pio__encoding___spec.html#L155C22"
+          "href": "docs/rp__pio__encoding___spec.html#L157C22"
         },
         {
           "kind": "span",
@@ -7896,7 +7923,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 156,
+      "number": 158,
       "children": [
         {
           "kind": "span",
@@ -7922,13 +7949,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 157,
+      "number": 159,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 158,
+      "number": 160,
       "children": [
         {
           "kind": "span",
@@ -7949,7 +7976,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "MOV",
-          "href": "docs/rp__pio__encoding___spec.html#L158C9"
+          "href": "docs/rp__pio__encoding___spec.html#L160C9"
         },
         {
           "kind": "span",
@@ -7975,7 +8002,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 159,
+      "number": 161,
       "children": [
         {
           "kind": "span",
@@ -7986,7 +8013,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Opcode",
-          "href": "docs/rp__pio__encoding___spec.html#L159C7"
+          "href": "docs/rp__pio__encoding___spec.html#L161C7"
         },
         {
           "kind": "span",
@@ -8053,7 +8080,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 160,
+      "number": 162,
       "children": [
         {
           "kind": "span",
@@ -8064,7 +8091,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delay_Sideset",
-          "href": "docs/rp__pio__encoding___spec.html#L160C7"
+          "href": "docs/rp__pio__encoding___spec.html#L162C7"
         },
         {
           "kind": "span",
@@ -8116,7 +8143,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 161,
+      "number": 163,
       "children": [
         {
           "kind": "span",
@@ -8127,7 +8154,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Destination",
-          "href": "docs/rp__pio__encoding___spec.html#L161C7"
+          "href": "docs/rp__pio__encoding___spec.html#L163C7"
         },
         {
           "kind": "span",
@@ -8148,133 +8175,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "MOV_Target",
-          "href": "docs/rp__pio__encoding___spec.html#L142C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "PINS"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 162,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Operation",
-          "href": "docs/rp__pio__encoding___spec.html#L162C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "MOV_Operation",
-          "href": "docs/rp__pio__encoding___spec.html#L154C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "None"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 163,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Source",
-          "href": "docs/rp__pio__encoding___spec.html#L163C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "MOV_Target",
-          "href": "docs/rp__pio__encoding___spec.html#L142C9"
+          "href": "docs/rp__pio__encoding___spec.html#L144C9"
         },
         {
           "kind": "span",
@@ -8310,6 +8211,132 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Operation",
+          "href": "docs/rp__pio__encoding___spec.html#L164C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "MOV_Operation",
+          "href": "docs/rp__pio__encoding___spec.html#L156C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "None"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 165,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Source",
+          "href": "docs/rp__pio__encoding___spec.html#L165C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "         "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "MOV_Target",
+          "href": "docs/rp__pio__encoding___spec.html#L144C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PINS"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 166,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
           "text": "   "
         },
         {
@@ -8331,7 +8358,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 165,
+      "number": 167,
       "children": [
         {
           "kind": "span",
@@ -8357,7 +8384,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 166,
+      "number": 168,
       "children": [
         {
           "kind": "span",
@@ -8378,7 +8405,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "MOV",
-          "href": "docs/rp__pio__encoding___spec.html#L158C9"
+          "href": "docs/rp__pio__encoding___spec.html#L160C9"
         },
         {
           "kind": "span",
@@ -8404,7 +8431,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 167,
+      "number": 169,
       "children": [
         {
           "kind": "span",
@@ -8485,7 +8512,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 168,
+      "number": 170,
       "children": [
         {
           "kind": "span",
@@ -8566,7 +8593,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 169,
+      "number": 171,
       "children": [
         {
           "kind": "span",
@@ -8647,7 +8674,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 170,
+      "number": 172,
       "children": [
         {
           "kind": "span",
@@ -8728,7 +8755,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 171,
+      "number": 173,
       "children": [
         {
           "kind": "span",
@@ -8809,7 +8836,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 172,
+      "number": 174,
       "children": [
         {
           "kind": "span",
@@ -8840,13 +8867,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 173,
+      "number": 175,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 174,
+      "number": 176,
       "children": [
         {
           "kind": "span",
@@ -8867,7 +8894,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "IRQ",
-          "href": "docs/rp__pio__encoding___spec.html#L174C9"
+          "href": "docs/rp__pio__encoding___spec.html#L176C9"
         },
         {
           "kind": "span",
@@ -8893,7 +8920,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 175,
+      "number": 177,
       "children": [
         {
           "kind": "span",
@@ -8904,7 +8931,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Opcode",
-          "href": "docs/rp__pio__encoding___spec.html#L175C7"
+          "href": "docs/rp__pio__encoding___spec.html#L177C7"
         },
         {
           "kind": "span",
@@ -8971,7 +8998,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 176,
+      "number": 178,
       "children": [
         {
           "kind": "span",
@@ -8982,7 +9009,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delay_Sideset",
-          "href": "docs/rp__pio__encoding___spec.html#L176C7"
+          "href": "docs/rp__pio__encoding___spec.html#L178C7"
         },
         {
           "kind": "span",
@@ -9034,130 +9061,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 177,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Opcode_2",
-          "href": "docs/rp__pio__encoding___spec.html#L177C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 178,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Clear",
-          "href": "docs/rp__pio__encoding___spec.html#L178C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "          "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "False"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 179,
       "children": [
         {
@@ -9168,13 +9071,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Wait",
+          "text": "Opcode_2",
           "href": "docs/rp__pio__encoding___spec.html#L179C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "           "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -9230,8 +9133,132 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Index",
+          "text": "Clear",
           "href": "docs/rp__pio__encoding___spec.html#L180C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "          "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 181,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Wait",
+          "href": "docs/rp__pio__encoding___spec.html#L181C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "           "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "False"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 182,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Index",
+          "href": "docs/rp__pio__encoding___spec.html#L182C7"
         },
         {
           "kind": "span",
@@ -9263,7 +9290,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 181,
+      "number": 183,
       "children": [
         {
           "kind": "span",
@@ -9289,7 +9316,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 182,
+      "number": 184,
       "children": [
         {
           "kind": "span",
@@ -9315,7 +9342,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 183,
+      "number": 185,
       "children": [
         {
           "kind": "span",
@@ -9336,7 +9363,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "IRQ",
-          "href": "docs/rp__pio__encoding___spec.html#L174C9"
+          "href": "docs/rp__pio__encoding___spec.html#L176C9"
         },
         {
           "kind": "span",
@@ -9362,7 +9389,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 184,
+      "number": 186,
       "children": [
         {
           "kind": "span",
@@ -9443,7 +9470,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 185,
+      "number": 187,
       "children": [
         {
           "kind": "span",
@@ -9524,7 +9551,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 186,
+      "number": 188,
       "children": [
         {
           "kind": "span",
@@ -9605,7 +9632,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 187,
+      "number": 189,
       "children": [
         {
           "kind": "span",
@@ -9686,7 +9713,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 188,
+      "number": 190,
       "children": [
         {
           "kind": "span",
@@ -9767,7 +9794,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 189,
+      "number": 191,
       "children": [
         {
           "kind": "span",
@@ -9848,7 +9875,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 190,
+      "number": 192,
       "children": [
         {
           "kind": "span",
@@ -9879,13 +9906,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 191,
+      "number": 193,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 192,
+      "number": 194,
       "children": [
         {
           "kind": "span",
@@ -9906,7 +9933,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SET_Destination",
-          "href": "docs/rp__pio__encoding___spec.html#L192C9"
+          "href": "docs/rp__pio__encoding___spec.html#L194C9"
         },
         {
           "kind": "span",
@@ -9922,7 +9949,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 193,
+      "number": 195,
       "children": [
         {
           "kind": "span",
@@ -9938,7 +9965,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PINS",
-          "href": "docs/rp__pio__encoding___spec.html#L193C8"
+          "href": "docs/rp__pio__encoding___spec.html#L195C8"
         },
         {
           "kind": "span",
@@ -9954,7 +9981,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "X",
-          "href": "docs/rp__pio__encoding___spec.html#L193C14"
+          "href": "docs/rp__pio__encoding___spec.html#L195C14"
         },
         {
           "kind": "span",
@@ -9970,7 +9997,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Y",
-          "href": "docs/rp__pio__encoding___spec.html#L193C17"
+          "href": "docs/rp__pio__encoding___spec.html#L195C17"
         },
         {
           "kind": "span",
@@ -9986,7 +10013,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PINDIRS",
-          "href": "docs/rp__pio__encoding___spec.html#L193C20"
+          "href": "docs/rp__pio__encoding___spec.html#L195C20"
         },
         {
           "kind": "span",
@@ -9997,7 +10024,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 194,
+      "number": 196,
       "children": [
         {
           "kind": "span",
@@ -10023,7 +10050,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 195,
+      "number": 197,
       "children": [
         {
           "kind": "span",
@@ -10044,7 +10071,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SET_Destination",
-          "href": "docs/rp__pio__encoding___spec.html#L192C9"
+          "href": "docs/rp__pio__encoding___spec.html#L194C9"
         },
         {
           "kind": "span",
@@ -10060,7 +10087,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 196,
+      "number": 198,
       "children": [
         {
           "kind": "span",
@@ -10121,7 +10148,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 197,
+      "number": 199,
       "children": [
         {
           "kind": "span",
@@ -10177,7 +10204,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 198,
+      "number": 200,
       "children": [
         {
           "kind": "span",
@@ -10233,7 +10260,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 199,
+      "number": 201,
       "children": [
         {
           "kind": "span",
@@ -10294,13 +10321,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 200,
+      "number": 202,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 201,
+      "number": 203,
       "children": [
         {
           "kind": "span",
@@ -10321,7 +10348,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SET",
-          "href": "docs/rp__pio__encoding___spec.html#L201C9"
+          "href": "docs/rp__pio__encoding___spec.html#L203C9"
         },
         {
           "kind": "span",
@@ -10347,7 +10374,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 202,
+      "number": 204,
       "children": [
         {
           "kind": "span",
@@ -10358,7 +10385,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Opcode",
-          "href": "docs/rp__pio__encoding___spec.html#L202C7"
+          "href": "docs/rp__pio__encoding___spec.html#L204C7"
         },
         {
           "kind": "span",
@@ -10425,7 +10452,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 203,
+      "number": 205,
       "children": [
         {
           "kind": "span",
@@ -10436,7 +10463,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delay_Sideset",
-          "href": "docs/rp__pio__encoding___spec.html#L203C7"
+          "href": "docs/rp__pio__encoding___spec.html#L205C7"
         },
         {
           "kind": "span",
@@ -10488,7 +10515,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 204,
+      "number": 206,
       "children": [
         {
           "kind": "span",
@@ -10499,7 +10526,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Destination",
-          "href": "docs/rp__pio__encoding___spec.html#L204C7"
+          "href": "docs/rp__pio__encoding___spec.html#L206C7"
         },
         {
           "kind": "span",
@@ -10520,7 +10547,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SET_Destination",
-          "href": "docs/rp__pio__encoding___spec.html#L192C9"
+          "href": "docs/rp__pio__encoding___spec.html#L194C9"
         },
         {
           "kind": "span",
@@ -10551,7 +10578,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 205,
+      "number": 207,
       "children": [
         {
           "kind": "span",
@@ -10562,7 +10589,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Data",
-          "href": "docs/rp__pio__encoding___spec.html#L205C7"
+          "href": "docs/rp__pio__encoding___spec.html#L207C7"
         },
         {
           "kind": "span",
@@ -10614,7 +10641,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 206,
+      "number": 208,
       "children": [
         {
           "kind": "span",
@@ -10640,7 +10667,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 207,
+      "number": 209,
       "children": [
         {
           "kind": "span",
@@ -10666,7 +10693,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 208,
+      "number": 210,
       "children": [
         {
           "kind": "span",
@@ -10687,7 +10714,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SET",
-          "href": "docs/rp__pio__encoding___spec.html#L201C9"
+          "href": "docs/rp__pio__encoding___spec.html#L203C9"
         },
         {
           "kind": "span",
@@ -10713,7 +10740,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 209,
+      "number": 211,
       "children": [
         {
           "kind": "span",
@@ -10794,7 +10821,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 210,
+      "number": 212,
       "children": [
         {
           "kind": "span",
@@ -10875,7 +10902,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 211,
+      "number": 213,
       "children": [
         {
           "kind": "span",
@@ -10956,7 +10983,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 212,
+      "number": 214,
       "children": [
         {
           "kind": "span",
@@ -11037,7 +11064,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 213,
+      "number": 215,
       "children": [
         {
           "kind": "span",
@@ -11068,206 +11095,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 214,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 215,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Encode",
-          "href": "docs/rp__pio__encoding___spec.html#L215C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "new"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Ada.Unchecked_Conversion"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "JMP",
-          "href": "docs/rp__pio__encoding___spec.html#L21C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "PIO_Instruction",
-          "href": "docs/rp__pio___spec.html#L30C12"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 216,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Encode",
-          "href": "docs/rp__pio__encoding___spec.html#L216C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "new"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Ada.Unchecked_Conversion"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "WAIT",
-          "href": "docs/rp__pio__encoding___spec.html#L39C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "PIO_Instruction",
-          "href": "docs/rp__pio___spec.html#L30C12"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
@@ -11338,8 +11167,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "SHIFT_IN",
-          "href": "docs/rp__pio__encoding___spec.html#L66C9"
+          "text": "JMP",
+          "href": "docs/rp__pio__encoding___spec.html#L23C9"
         },
         {
           "kind": "span",
@@ -11355,7 +11184,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Instruction",
-          "href": "docs/rp__pio___spec.html#L30C12"
+          "href": "docs/rp__pio___spec.html#L32C12"
         },
         {
           "kind": "span",
@@ -11437,8 +11266,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "SHIFT_OUT",
-          "href": "docs/rp__pio__encoding___spec.html#L92C9"
+          "text": "WAIT",
+          "href": "docs/rp__pio__encoding___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -11454,7 +11283,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Instruction",
-          "href": "docs/rp__pio___spec.html#L30C12"
+          "href": "docs/rp__pio___spec.html#L32C12"
         },
         {
           "kind": "span",
@@ -11536,8 +11365,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "PUSH",
-          "href": "docs/rp__pio__encoding___spec.html#L106C9"
+          "text": "SHIFT_IN",
+          "href": "docs/rp__pio__encoding___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -11553,7 +11382,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Instruction",
-          "href": "docs/rp__pio___spec.html#L30C12"
+          "href": "docs/rp__pio___spec.html#L32C12"
         },
         {
           "kind": "span",
@@ -11635,8 +11464,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "PULL",
-          "href": "docs/rp__pio__encoding___spec.html#L124C9"
+          "text": "SHIFT_OUT",
+          "href": "docs/rp__pio__encoding___spec.html#L94C9"
         },
         {
           "kind": "span",
@@ -11652,7 +11481,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Instruction",
-          "href": "docs/rp__pio___spec.html#L30C12"
+          "href": "docs/rp__pio___spec.html#L32C12"
         },
         {
           "kind": "span",
@@ -11734,8 +11563,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "MOV",
-          "href": "docs/rp__pio__encoding___spec.html#L158C9"
+          "text": "PUSH",
+          "href": "docs/rp__pio__encoding___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -11751,7 +11580,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Instruction",
-          "href": "docs/rp__pio___spec.html#L30C12"
+          "href": "docs/rp__pio___spec.html#L32C12"
         },
         {
           "kind": "span",
@@ -11833,8 +11662,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "IRQ",
-          "href": "docs/rp__pio__encoding___spec.html#L174C9"
+          "text": "PULL",
+          "href": "docs/rp__pio__encoding___spec.html#L126C9"
         },
         {
           "kind": "span",
@@ -11850,7 +11679,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Instruction",
-          "href": "docs/rp__pio___spec.html#L30C12"
+          "href": "docs/rp__pio___spec.html#L32C12"
         },
         {
           "kind": "span",
@@ -11932,8 +11761,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "SET",
-          "href": "docs/rp__pio__encoding___spec.html#L201C9"
+          "text": "MOV",
+          "href": "docs/rp__pio__encoding___spec.html#L160C9"
         },
         {
           "kind": "span",
@@ -11949,7 +11778,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO_Instruction",
-          "href": "docs/rp__pio___spec.html#L30C12"
+          "href": "docs/rp__pio___spec.html#L32C12"
         },
         {
           "kind": "span",
@@ -11967,11 +11796,209 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 224,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Encode",
+          "href": "docs/rp__pio__encoding___spec.html#L224C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "new"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Ada.Unchecked_Conversion"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "IRQ",
+          "href": "docs/rp__pio__encoding___spec.html#L176C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PIO_Instruction",
+          "href": "docs/rp__pio___spec.html#L32C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 225,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Encode",
+          "href": "docs/rp__pio__encoding___spec.html#L225C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "new"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Ada.Unchecked_Conversion"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "SET",
+          "href": "docs/rp__pio__encoding___spec.html#L203C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "PIO_Instruction",
+          "href": "docs/rp__pio___spec.html#L32C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 226,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 227,
       "children": [
         {
           "kind": "span",

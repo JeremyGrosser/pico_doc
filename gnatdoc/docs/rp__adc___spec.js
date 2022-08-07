@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Temperature_Sensor",
           "qualifier": "",
-          "line": 27,
+          "line": 29,
           "column": 4,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 27,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -98,7 +98,7 @@ GNATdoc.Documentation = {
         {
           "label": "ADC_Channel",
           "qualifier": "",
-          "line": 15,
+          "line": 17,
           "column": 12,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -109,7 +109,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 15,
+                  "number": 17,
                   "children": [
                     {
                       "kind": "span",
@@ -130,7 +130,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Channel",
-                      "href": "docs/rp__adc___spec.html#L15C12"
+                      "href": "docs/rp__adc___spec.html#L17C12"
                     },
                     {
                       "kind": "span",
@@ -206,7 +206,7 @@ GNATdoc.Documentation = {
         {
           "label": "ADC_Channels",
           "qualifier": "",
-          "line": 17,
+          "line": 19,
           "column": 9,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -217,7 +217,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 17,
+                  "number": 19,
                   "children": [
                     {
                       "kind": "span",
@@ -238,7 +238,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Channels",
-                      "href": "docs/rp__adc___spec.html#L17C9"
+                      "href": "docs/rp__adc___spec.html#L19C9"
                     },
                     {
                       "kind": "span",
@@ -274,7 +274,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Channel",
-                      "href": "docs/rp__adc___spec.html#L15C12"
+                      "href": "docs/rp__adc___spec.html#L17C12"
                     },
                     {
                       "kind": "span",
@@ -305,7 +305,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 18,
+                  "number": 20,
                   "children": [
                     {
                       "kind": "span",
@@ -326,7 +326,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 19,
+                  "number": 21,
                   "children": [
                     {
                       "kind": "span",
@@ -347,7 +347,7 @@ GNATdoc.Documentation = {
         {
           "label": "ADC_Divider",
           "qualifier": "",
-          "line": 56,
+          "line": 58,
           "column": 9,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -358,7 +358,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 58,
                   "children": [
                     {
                       "kind": "span",
@@ -379,7 +379,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Divider",
-                      "href": "docs/rp__adc___spec.html#L56C9"
+                      "href": "docs/rp__adc___spec.html#L58C9"
                     },
                     {
                       "kind": "span",
@@ -515,7 +515,7 @@ GNATdoc.Documentation = {
         {
           "label": "ADC_Mode",
           "qualifier": "",
-          "line": 43,
+          "line": 45,
           "column": 9,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -526,7 +526,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 45,
                   "children": [
                     {
                       "kind": "span",
@@ -547,7 +547,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Mode",
-                      "href": "docs/rp__adc___spec.html#L43C9"
+                      "href": "docs/rp__adc___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -573,7 +573,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "One_Shot",
-                      "href": "docs/rp__adc___spec.html#L43C22"
+                      "href": "docs/rp__adc___spec.html#L45C22"
                     },
                     {
                       "kind": "span",
@@ -589,7 +589,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Free_Running",
-                      "href": "docs/rp__adc___spec.html#L43C32"
+                      "href": "docs/rp__adc___spec.html#L45C32"
                     },
                     {
                       "kind": "span",
@@ -600,7 +600,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/rp__adc___spec.html#L43C9"
+                      "href": "docs/rp__adc___spec.html#L45C9"
                     }
                   ]
                 }
@@ -610,14 +610,14 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "One_Shot",
-              "line": 43,
+              "line": 45,
               "column": 22,
               "description": [
               ]
             },
             {
               "label": "Free_Running",
-              "line": 43,
+              "line": 45,
               "column": 32,
               "description": [
               ]
@@ -627,7 +627,7 @@ GNATdoc.Documentation = {
         {
           "label": "ADC_Sample_Bits",
           "qualifier": "",
-          "line": 67,
+          "line": 69,
           "column": 9,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -638,7 +638,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 67,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",
@@ -659,7 +659,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Sample_Bits",
-                      "href": "docs/rp__adc___spec.html#L67C9"
+                      "href": "docs/rp__adc___spec.html#L69C9"
                     },
                     {
                       "kind": "span",
@@ -695,7 +695,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 68,
+                  "number": 70,
                   "children": [
                     {
                       "kind": "span",
@@ -736,7 +736,7 @@ GNATdoc.Documentation = {
         {
           "label": "Analog_Value",
           "qualifier": "",
-          "line": 13,
+          "line": 15,
           "column": 12,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -747,7 +747,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 13,
+                  "number": 15,
                   "children": [
                     {
                       "kind": "span",
@@ -768,7 +768,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Analog_Value",
-                      "href": "docs/rp__adc___spec.html#L13C12"
+                      "href": "docs/rp__adc___spec.html#L15C12"
                     },
                     {
                       "kind": "span",
@@ -805,7 +805,7 @@ GNATdoc.Documentation = {
         {
           "label": "Celsius",
           "qualifier": "",
-          "line": 25,
+          "line": 27,
           "column": 9,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -816,7 +816,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 25,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -837,7 +837,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Celsius",
-                      "href": "docs/rp__adc___spec.html#L25C9"
+                      "href": "docs/rp__adc___spec.html#L27C9"
                     },
                     {
                       "kind": "span",
@@ -896,7 +896,7 @@ GNATdoc.Documentation = {
         {
           "label": "Microvolts",
           "qualifier": "",
-          "line": 21,
+          "line": 23,
           "column": 9,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -907,7 +907,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 21,
+                  "number": 23,
                   "children": [
                     {
                       "kind": "span",
@@ -928,7 +928,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Microvolts",
-                      "href": "docs/rp__adc___spec.html#L21C9"
+                      "href": "docs/rp__adc___spec.html#L23C9"
                     },
                     {
                       "kind": "span",
@@ -979,7 +979,7 @@ GNATdoc.Documentation = {
         {
           "label": "Configure",
           "qualifier": "",
-          "line": 35,
+          "line": 37,
           "column": 14,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -990,7 +990,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -1011,13 +1011,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Configure",
-                      "href": "docs/rp__adc___spec.html#L35C14"
+                      "href": "docs/rp__adc___spec.html#L37C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -1033,7 +1033,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/rp__adc___spec.html#L36C8"
+                      "href": "docs/rp__adc___spec.html#L38C8"
                     },
                     {
                       "kind": "span",
@@ -1054,7 +1054,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Channel",
-                      "href": "docs/rp__adc___spec.html#L15C12"
+                      "href": "docs/rp__adc___spec.html#L17C12"
                     },
                     {
                       "kind": "span",
@@ -1065,7 +1065,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -1104,11 +1104,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Channel",
-              "line": 36,
+              "line": 38,
               "column": 8,
               "type": {
                 "label": "RP.ADC.ADC_Channel",
-                "docHref": "docs/rp__adc___spec.html#L15C12"
+                "docHref": "docs/rp__adc___spec.html#L17C12"
               },
               "description": [
               ]
@@ -1118,7 +1118,7 @@ GNATdoc.Documentation = {
         {
           "label": "Configure",
           "qualifier": "",
-          "line": 39,
+          "line": 41,
           "column": 14,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -1129,7 +1129,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
@@ -1150,13 +1150,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Configure",
-                      "href": "docs/rp__adc___spec.html#L39C14"
+                      "href": "docs/rp__adc___spec.html#L41C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -1172,7 +1172,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channels",
-                      "href": "docs/rp__adc___spec.html#L40C8"
+                      "href": "docs/rp__adc___spec.html#L42C8"
                     },
                     {
                       "kind": "span",
@@ -1193,7 +1193,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Channels",
-                      "href": "docs/rp__adc___spec.html#L17C9"
+                      "href": "docs/rp__adc___spec.html#L19C9"
                     },
                     {
                       "kind": "span",
@@ -1204,7 +1204,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -1234,11 +1234,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Channels",
-              "line": 40,
+              "line": 42,
               "column": 8,
               "type": {
                 "label": "RP.ADC.ADC_Channels",
-                "docHref": "docs/rp__adc___spec.html#L17C9"
+                "docHref": "docs/rp__adc___spec.html#L19C9"
               },
               "description": [
               ]
@@ -1248,7 +1248,7 @@ GNATdoc.Documentation = {
         {
           "label": "Disable",
           "qualifier": "",
-          "line": 30,
+          "line": 32,
           "column": 14,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -1259,7 +1259,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 30,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -1280,7 +1280,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Disable",
-                      "href": "docs/rp__adc___spec.html#L30C14"
+                      "href": "docs/rp__adc___spec.html#L32C14"
                     },
                     {
                       "kind": "span",
@@ -1296,7 +1296,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enable",
           "qualifier": "",
-          "line": 29,
+          "line": 31,
           "column": 14,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -1307,7 +1307,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 29,
+                  "number": 31,
                   "children": [
                     {
                       "kind": "span",
@@ -1328,7 +1328,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enable",
-                      "href": "docs/rp__adc___spec.html#L29C14"
+                      "href": "docs/rp__adc___spec.html#L31C14"
                     },
                     {
                       "kind": "span",
@@ -1344,7 +1344,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enabled",
           "qualifier": "",
-          "line": 32,
+          "line": 34,
           "column": 13,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -1355,7 +1355,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -1376,7 +1376,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enabled",
-                      "href": "docs/rp__adc___spec.html#L32C13"
+                      "href": "docs/rp__adc___spec.html#L34C13"
                     },
                     {
                       "kind": "span",
@@ -1412,7 +1412,7 @@ GNATdoc.Documentation = {
         {
           "label": "FIFO_Address",
           "qualifier": "",
-          "line": 100,
+          "line": 102,
           "column": 13,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -1423,7 +1423,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 100,
+                  "number": 102,
                   "children": [
                     {
                       "kind": "span",
@@ -1444,13 +1444,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "FIFO_Address",
-                      "href": "docs/rp__adc___spec.html#L100C13"
+                      "href": "docs/rp__adc___spec.html#L102C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 101,
+                  "number": 103,
                   "children": [
                     {
                       "kind": "span",
@@ -1486,7 +1486,7 @@ GNATdoc.Documentation = {
         {
           "label": "Read",
           "qualifier": "",
-          "line": 74,
+          "line": 76,
           "column": 13,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -1497,7 +1497,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 74,
+                  "number": 76,
                   "children": [
                     {
                       "kind": "span",
@@ -1518,13 +1518,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Read",
-                      "href": "docs/rp__adc___spec.html#L74C13"
+                      "href": "docs/rp__adc___spec.html#L76C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 75,
+                  "number": 77,
                   "children": [
                     {
                       "kind": "span",
@@ -1540,7 +1540,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/rp__adc___spec.html#L75C8"
+                      "href": "docs/rp__adc___spec.html#L77C8"
                     },
                     {
                       "kind": "span",
@@ -1561,7 +1561,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Channel",
-                      "href": "docs/rp__adc___spec.html#L15C12"
+                      "href": "docs/rp__adc___spec.html#L17C12"
                     },
                     {
                       "kind": "span",
@@ -1572,7 +1572,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 76,
+                  "number": 78,
                   "children": [
                     {
                       "kind": "span",
@@ -1593,7 +1593,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Analog_Value",
-                      "href": "docs/rp__adc___spec.html#L13C12"
+                      "href": "docs/rp__adc___spec.html#L15C12"
                     },
                     {
                       "kind": "span",
@@ -1608,11 +1608,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Channel",
-              "line": 75,
+              "line": 77,
               "column": 8,
               "type": {
                 "label": "RP.ADC.ADC_Channel",
-                "docHref": "docs/rp__adc___spec.html#L15C12"
+                "docHref": "docs/rp__adc___spec.html#L17C12"
               },
               "description": [
               ]
@@ -1622,7 +1622,7 @@ GNATdoc.Documentation = {
         {
           "label": "Read",
           "qualifier": "",
-          "line": 78,
+          "line": 80,
           "column": 13,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -1633,7 +1633,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 78,
+                  "number": 80,
                   "children": [
                     {
                       "kind": "span",
@@ -1654,13 +1654,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Read",
-                      "href": "docs/rp__adc___spec.html#L78C13"
+                      "href": "docs/rp__adc___spec.html#L80C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 79,
+                  "number": 81,
                   "children": [
                     {
                       "kind": "span",
@@ -1681,7 +1681,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Analog_Value",
-                      "href": "docs/rp__adc___spec.html#L13C12"
+                      "href": "docs/rp__adc___spec.html#L15C12"
                     },
                     {
                       "kind": "span",
@@ -1697,7 +1697,7 @@ GNATdoc.Documentation = {
         {
           "label": "Read_Microvolts",
           "qualifier": "",
-          "line": 81,
+          "line": 83,
           "column": 13,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -1708,7 +1708,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 81,
+                  "number": 83,
                   "children": [
                     {
                       "kind": "span",
@@ -1729,13 +1729,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Read_Microvolts",
-                      "href": "docs/rp__adc___spec.html#L81C13"
+                      "href": "docs/rp__adc___spec.html#L83C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 82,
+                  "number": 84,
                   "children": [
                     {
                       "kind": "span",
@@ -1751,7 +1751,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/rp__adc___spec.html#L82C8"
+                      "href": "docs/rp__adc___spec.html#L84C8"
                     },
                     {
                       "kind": "span",
@@ -1772,7 +1772,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Channel",
-                      "href": "docs/rp__adc___spec.html#L15C12"
+                      "href": "docs/rp__adc___spec.html#L17C12"
                     },
                     {
                       "kind": "span",
@@ -1783,7 +1783,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 83,
+                  "number": 85,
                   "children": [
                     {
                       "kind": "span",
@@ -1794,7 +1794,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "VREF",
-                      "href": "docs/rp__adc___spec.html#L83C8"
+                      "href": "docs/rp__adc___spec.html#L85C8"
                     },
                     {
                       "kind": "span",
@@ -1815,7 +1815,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Microvolts",
-                      "href": "docs/rp__adc___spec.html#L21C9"
+                      "href": "docs/rp__adc___spec.html#L23C9"
                     },
                     {
                       "kind": "span",
@@ -1846,7 +1846,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 84,
+                  "number": 86,
                   "children": [
                     {
                       "kind": "span",
@@ -1867,7 +1867,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Microvolts",
-                      "href": "docs/rp__adc___spec.html#L21C9"
+                      "href": "docs/rp__adc___spec.html#L23C9"
                     },
                     {
                       "kind": "span",
@@ -1882,22 +1882,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Channel",
-              "line": 82,
+              "line": 84,
               "column": 8,
               "type": {
                 "label": "RP.ADC.ADC_Channel",
-                "docHref": "docs/rp__adc___spec.html#L15C12"
+                "docHref": "docs/rp__adc___spec.html#L17C12"
               },
               "description": [
               ]
             },
             {
               "label": "VREF",
-              "line": 83,
+              "line": 85,
               "column": 8,
               "type": {
                 "label": "RP.ADC.Microvolts",
-                "docHref": "docs/rp__adc___spec.html#L21C9"
+                "docHref": "docs/rp__adc___spec.html#L23C9"
               },
               "description": [
               ]
@@ -1907,7 +1907,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Divider",
           "qualifier": "",
-          "line": 59,
+          "line": 61,
           "column": 14,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -1918,7 +1918,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 59,
+                  "number": 61,
                   "children": [
                     {
                       "kind": "span",
@@ -1939,13 +1939,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Divider",
-                      "href": "docs/rp__adc___spec.html#L59C14"
+                      "href": "docs/rp__adc___spec.html#L61C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 60,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -1961,7 +1961,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Div",
-                      "href": "docs/rp__adc___spec.html#L60C8"
+                      "href": "docs/rp__adc___spec.html#L62C8"
                     },
                     {
                       "kind": "span",
@@ -1982,7 +1982,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Divider",
-                      "href": "docs/rp__adc___spec.html#L56C9"
+                      "href": "docs/rp__adc___spec.html#L58C9"
                     },
                     {
                       "kind": "span",
@@ -2011,11 +2011,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Div",
-              "line": 60,
+              "line": 62,
               "column": 8,
               "type": {
                 "label": "RP.ADC.ADC_Divider",
-                "docHref": "docs/rp__adc___spec.html#L56C9"
+                "docHref": "docs/rp__adc___spec.html#L58C9"
               },
               "description": [
               ]
@@ -2025,7 +2025,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Mode",
           "qualifier": "",
-          "line": 48,
+          "line": 50,
           "column": 14,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -2036,7 +2036,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -2057,13 +2057,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Mode",
-                      "href": "docs/rp__adc___spec.html#L48C14"
+                      "href": "docs/rp__adc___spec.html#L50C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 51,
                   "children": [
                     {
                       "kind": "span",
@@ -2079,7 +2079,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Mode",
-                      "href": "docs/rp__adc___spec.html#L49C8"
+                      "href": "docs/rp__adc___spec.html#L51C8"
                     },
                     {
                       "kind": "span",
@@ -2100,7 +2100,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Mode",
-                      "href": "docs/rp__adc___spec.html#L43C9"
+                      "href": "docs/rp__adc___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -2137,11 +2137,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Mode",
-              "line": 49,
+              "line": 51,
               "column": 8,
               "type": {
                 "label": "RP.ADC.ADC_Mode",
-                "docHref": "docs/rp__adc___spec.html#L43C9"
+                "docHref": "docs/rp__adc___spec.html#L45C9"
               },
               "description": [
               ]
@@ -2151,7 +2151,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Round_Robin",
           "qualifier": "",
-          "line": 52,
+          "line": 54,
           "column": 14,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -2162,7 +2162,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -2183,13 +2183,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Round_Robin",
-                      "href": "docs/rp__adc___spec.html#L52C14"
+                      "href": "docs/rp__adc___spec.html#L54C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -2205,7 +2205,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channels",
-                      "href": "docs/rp__adc___spec.html#L53C8"
+                      "href": "docs/rp__adc___spec.html#L55C8"
                     },
                     {
                       "kind": "span",
@@ -2226,7 +2226,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Channels",
-                      "href": "docs/rp__adc___spec.html#L17C9"
+                      "href": "docs/rp__adc___spec.html#L19C9"
                     },
                     {
                       "kind": "span",
@@ -2255,11 +2255,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Channels",
-              "line": 53,
+              "line": 55,
               "column": 8,
               "type": {
                 "label": "RP.ADC.ADC_Channels",
-                "docHref": "docs/rp__adc___spec.html#L17C9"
+                "docHref": "docs/rp__adc___spec.html#L19C9"
               },
               "description": [
               ]
@@ -2269,7 +2269,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Sample_Bits",
           "qualifier": "",
-          "line": 71,
+          "line": 73,
           "column": 14,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -2280,7 +2280,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 73,
                   "children": [
                     {
                       "kind": "span",
@@ -2301,13 +2301,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Sample_Bits",
-                      "href": "docs/rp__adc___spec.html#L71C14"
+                      "href": "docs/rp__adc___spec.html#L73C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 72,
+                  "number": 74,
                   "children": [
                     {
                       "kind": "span",
@@ -2323,7 +2323,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Bits",
-                      "href": "docs/rp__adc___spec.html#L72C8"
+                      "href": "docs/rp__adc___spec.html#L74C8"
                     },
                     {
                       "kind": "span",
@@ -2344,7 +2344,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Sample_Bits",
-                      "href": "docs/rp__adc___spec.html#L67C9"
+                      "href": "docs/rp__adc___spec.html#L69C9"
                     },
                     {
                       "kind": "span",
@@ -2373,11 +2373,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Bits",
-              "line": 72,
+              "line": 74,
               "column": 8,
               "type": {
                 "label": "RP.ADC.ADC_Sample_Bits",
-                "docHref": "docs/rp__adc___spec.html#L67C9"
+                "docHref": "docs/rp__adc___spec.html#L69C9"
               },
               "description": [
               ]
@@ -2387,7 +2387,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Sample_Rate",
           "qualifier": "",
-          "line": 63,
+          "line": 65,
           "column": 14,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -2398,7 +2398,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 63,
+                  "number": 65,
                   "children": [
                     {
                       "kind": "span",
@@ -2419,13 +2419,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Sample_Rate",
-                      "href": "docs/rp__adc___spec.html#L63C14"
+                      "href": "docs/rp__adc___spec.html#L65C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 64,
+                  "number": 66,
                   "children": [
                     {
                       "kind": "span",
@@ -2441,7 +2441,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Rate",
-                      "href": "docs/rp__adc___spec.html#L64C8"
+                      "href": "docs/rp__adc___spec.html#L66C8"
                     },
                     {
                       "kind": "span",
@@ -2473,7 +2473,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 65,
+                  "number": 67,
                   "children": [
                     {
                       "kind": "span",
@@ -2522,7 +2522,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Rate",
-              "line": 64,
+              "line": 66,
               "column": 8,
               "type": {
                 "label": "RP.Hertz",
@@ -2536,7 +2536,7 @@ GNATdoc.Documentation = {
         {
           "label": "Temperature",
           "qualifier": "",
-          "line": 88,
+          "line": 90,
           "column": 13,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -2547,7 +2547,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 88,
+                  "number": 90,
                   "children": [
                     {
                       "kind": "span",
@@ -2568,13 +2568,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Temperature",
-                      "href": "docs/rp__adc___spec.html#L88C13"
+                      "href": "docs/rp__adc___spec.html#L90C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 89,
+                  "number": 91,
                   "children": [
                     {
                       "kind": "span",
@@ -2590,7 +2590,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Ref_Temp",
-                      "href": "docs/rp__adc___spec.html#L89C8"
+                      "href": "docs/rp__adc___spec.html#L91C8"
                     },
                     {
                       "kind": "span",
@@ -2611,7 +2611,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Celsius",
-                      "href": "docs/rp__adc___spec.html#L25C9"
+                      "href": "docs/rp__adc___spec.html#L27C9"
                     },
                     {
                       "kind": "span",
@@ -2642,7 +2642,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 90,
+                  "number": 92,
                   "children": [
                     {
                       "kind": "span",
@@ -2653,7 +2653,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Vbe",
-                      "href": "docs/rp__adc___spec.html#L90C8"
+                      "href": "docs/rp__adc___spec.html#L92C8"
                     },
                     {
                       "kind": "span",
@@ -2674,7 +2674,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Microvolts",
-                      "href": "docs/rp__adc___spec.html#L21C9"
+                      "href": "docs/rp__adc___spec.html#L23C9"
                     },
                     {
                       "kind": "span",
@@ -2705,7 +2705,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 91,
+                  "number": 93,
                   "children": [
                     {
                       "kind": "span",
@@ -2716,7 +2716,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slope",
-                      "href": "docs/rp__adc___spec.html#L91C8"
+                      "href": "docs/rp__adc___spec.html#L93C8"
                     },
                     {
                       "kind": "span",
@@ -2737,7 +2737,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Microvolts",
-                      "href": "docs/rp__adc___spec.html#L21C9"
+                      "href": "docs/rp__adc___spec.html#L23C9"
                     },
                     {
                       "kind": "span",
@@ -2768,7 +2768,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 92,
+                  "number": 94,
                   "children": [
                     {
                       "kind": "span",
@@ -2779,7 +2779,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "VREF",
-                      "href": "docs/rp__adc___spec.html#L92C8"
+                      "href": "docs/rp__adc___spec.html#L94C8"
                     },
                     {
                       "kind": "span",
@@ -2800,7 +2800,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Microvolts",
-                      "href": "docs/rp__adc___spec.html#L21C9"
+                      "href": "docs/rp__adc___spec.html#L23C9"
                     },
                     {
                       "kind": "span",
@@ -2831,7 +2831,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 93,
+                  "number": 95,
                   "children": [
                     {
                       "kind": "span",
@@ -2852,7 +2852,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Celsius",
-                      "href": "docs/rp__adc___spec.html#L25C9"
+                      "href": "docs/rp__adc___spec.html#L27C9"
                     },
                     {
                       "kind": "span",
@@ -2880,44 +2880,44 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Ref_Temp",
-              "line": 89,
+              "line": 91,
               "column": 8,
               "type": {
                 "label": "RP.ADC.Celsius",
-                "docHref": "docs/rp__adc___spec.html#L25C9"
+                "docHref": "docs/rp__adc___spec.html#L27C9"
               },
               "description": [
               ]
             },
             {
               "label": "Vbe",
-              "line": 90,
+              "line": 92,
               "column": 8,
               "type": {
                 "label": "RP.ADC.Microvolts",
-                "docHref": "docs/rp__adc___spec.html#L21C9"
+                "docHref": "docs/rp__adc___spec.html#L23C9"
               },
               "description": [
               ]
             },
             {
               "label": "Slope",
-              "line": 91,
+              "line": 93,
               "column": 8,
               "type": {
                 "label": "RP.ADC.Microvolts",
-                "docHref": "docs/rp__adc___spec.html#L21C9"
+                "docHref": "docs/rp__adc___spec.html#L23C9"
               },
               "description": [
               ]
             },
             {
               "label": "VREF",
-              "line": 92,
+              "line": 94,
               "column": 8,
               "type": {
                 "label": "RP.ADC.Microvolts",
-                "docHref": "docs/rp__adc___spec.html#L21C9"
+                "docHref": "docs/rp__adc___spec.html#L23C9"
               },
               "description": [
               ]
@@ -2927,7 +2927,7 @@ GNATdoc.Documentation = {
         {
           "label": "To_ADC_Channel",
           "qualifier": "",
-          "line": 95,
+          "line": 97,
           "column": 13,
           "src": "srcs/rp-adc.ads.html",
           "summary": [
@@ -2938,7 +2938,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 95,
+                  "number": 97,
                   "children": [
                     {
                       "kind": "span",
@@ -2959,13 +2959,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "To_ADC_Channel",
-                      "href": "docs/rp__adc___spec.html#L95C13"
+                      "href": "docs/rp__adc___spec.html#L97C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 96,
+                  "number": 98,
                   "children": [
                     {
                       "kind": "span",
@@ -2981,7 +2981,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Point",
-                      "href": "docs/rp__adc___spec.html#L96C8"
+                      "href": "docs/rp__adc___spec.html#L98C8"
                     },
                     {
                       "kind": "span",
@@ -3002,7 +3002,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP.GPIO.GPIO_Point",
-                      "href": "docs/rp__gpio___spec.html#L18C9"
+                      "href": "docs/rp__gpio___spec.html#L20C9"
                     },
                     {
                       "kind": "span",
@@ -3013,7 +3013,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 97,
+                  "number": 99,
                   "children": [
                     {
                       "kind": "span",
@@ -3034,13 +3034,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Channel",
-                      "href": "docs/rp__adc___spec.html#L15C12"
+                      "href": "docs/rp__adc___spec.html#L17C12"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 98,
+                  "number": 100,
                   "children": [
                     {
                       "kind": "span",
@@ -3080,11 +3080,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Point",
-              "line": 96,
+              "line": 98,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.GPIO_Point",
-                "docHref": "docs/rp__gpio___spec.html#L18C9"
+                "docHref": "docs/rp__gpio___spec.html#L20C9"
               },
               "description": [
               ]

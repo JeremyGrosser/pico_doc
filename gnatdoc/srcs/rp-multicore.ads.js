@@ -158,12 +158,39 @@ GNATdoc.SourceFile = {
           "cssClass": "identifier",
           "text": "RP.Multicore",
           "href": "docs/rp__multicore___spec.html#L9C12"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 10,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
         },
         {
           "kind": "span",
           "cssClass": "text",
           "text": " "
         },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Preelaborate"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 11,
+      "children": [
         {
           "kind": "span",
           "cssClass": "keyword",
@@ -173,13 +200,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 10,
+      "number": 12,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 11,
+      "number": 13,
       "children": [
         {
           "kind": "span",
@@ -200,13 +227,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Launch_Core1",
-          "href": "docs/rp__multicore___spec.html#L11C14"
+          "href": "docs/rp__multicore___spec.html#L13C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 12,
+      "number": 14,
       "children": [
         {
           "kind": "span",
@@ -222,7 +249,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Trap_Vector",
-          "href": "docs/rp__multicore___spec.html#L12C8"
+          "href": "docs/rp__multicore___spec.html#L14C8"
         },
         {
           "kind": "span",
@@ -254,7 +281,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 13,
+      "number": 15,
       "children": [
         {
           "kind": "span",
@@ -265,7 +292,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Stack_Pointer",
-          "href": "docs/rp__multicore___spec.html#L13C8"
+          "href": "docs/rp__multicore___spec.html#L15C8"
         },
         {
           "kind": "span",
@@ -297,7 +324,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 14,
+      "number": 16,
       "children": [
         {
           "kind": "span",
@@ -308,7 +335,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Entry_Point",
-          "href": "docs/rp__multicore___spec.html#L14C8"
+          "href": "docs/rp__multicore___spec.html#L16C8"
         },
         {
           "kind": "span",
@@ -340,7 +367,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 15,
+      "number": 17,
       "children": [
         {
           "kind": "span",
@@ -376,7 +403,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 16,
+      "number": 18,
       "children": [
         {
           "kind": "span",
@@ -402,7 +429,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 17,
+      "number": 19,
       "children": [
         {
           "kind": "span",
@@ -418,7 +445,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 18,
+      "number": 20,
       "children": [
         {
           "kind": "span",
@@ -434,7 +461,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 19,
+      "number": 21,
       "children": [
         {
           "kind": "span",
@@ -450,7 +477,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 20,
+      "number": 22,
       "children": [
         {
           "kind": "span",
@@ -466,13 +493,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 21,
+      "number": 23,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 22,
+      "number": 24,
       "children": [
         {
           "kind": "span",
@@ -493,13 +520,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Launch_Core1",
-          "href": "docs/rp__multicore___spec.html#L22C14"
+          "href": "docs/rp__multicore___spec.html#L24C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 23,
+      "number": 25,
       "children": [
         {
           "kind": "span",
@@ -515,7 +542,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Trap_Vector",
-          "href": "docs/rp__multicore___spec.html#L23C8"
+          "href": "docs/rp__multicore___spec.html#L25C8"
         },
         {
           "kind": "span",
@@ -546,7 +573,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 24,
+      "number": 26,
       "children": [
         {
           "kind": "span",
@@ -557,7 +584,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Stack_Pointer",
-          "href": "docs/rp__multicore___spec.html#L24C8"
+          "href": "docs/rp__multicore___spec.html#L26C8"
         },
         {
           "kind": "span",
@@ -588,7 +615,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 25,
+      "number": 27,
       "children": [
         {
           "kind": "span",
@@ -599,7 +626,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Entry_Point",
-          "href": "docs/rp__multicore___spec.html#L25C8"
+          "href": "docs/rp__multicore___spec.html#L27C8"
         },
         {
           "kind": "span",
@@ -635,13 +662,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 26,
+      "number": 28,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 27,
+      "number": 29,
       "children": [
         {
           "kind": "span",
@@ -662,13 +689,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CPU_Id",
-          "href": "docs/rp__multicore___spec.html#L27C13"
+          "href": "docs/rp__multicore___spec.html#L29C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 28,
+      "number": 30,
       "children": [
         {
           "kind": "span",
@@ -699,7 +726,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 29,
+      "number": 31,
       "children": [
         {
           "kind": "span",
@@ -715,13 +742,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 30,
+      "number": 32,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 31,
+      "number": 33,
       "children": [
         {
           "kind": "span",

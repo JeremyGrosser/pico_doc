@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Block",
           "qualifier": "",
-          "line": 37,
+          "line": 38,
           "column": 12,
           "src": "srcs/hal-block_drivers.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Block",
-                      "href": "docs/hal__block_drivers___spec.html#L37C12"
+                      "href": "docs/hal__block_drivers___spec.html#L38C12"
                     },
                     {
                       "kind": "span",
@@ -85,7 +85,7 @@ GNATdoc.Documentation = {
         {
           "label": "Any_Block_Driver",
           "qualifier": "",
-          "line": 35,
+          "line": 36,
           "column": 9,
           "src": "srcs/hal-block_drivers.ads.html",
           "summary": [
@@ -96,7 +96,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -117,7 +117,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Any_Block_Driver",
-                      "href": "docs/hal__block_drivers___spec.html#L35C9"
+                      "href": "docs/hal__block_drivers___spec.html#L36C9"
                     },
                     {
                       "kind": "span",
@@ -158,7 +158,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Block_Driver",
-                      "href": "docs/hal__block_drivers___spec.html#L34C9"
+                      "href": "docs/hal__block_drivers___spec.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -189,7 +189,7 @@ GNATdoc.Documentation = {
         {
           "label": "Block_Driver",
           "qualifier": "",
-          "line": 34,
+          "line": 35,
           "column": 9,
           "src": "srcs/hal-block_drivers.ads.html",
           "summary": [
@@ -200,7 +200,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -221,7 +221,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Block_Driver",
-                      "href": "docs/hal__block_drivers___spec.html#L34C9"
+                      "href": "docs/hal__block_drivers___spec.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -272,7 +272,7 @@ GNATdoc.Documentation = {
         {
           "label": "Read",
           "qualifier": "",
-          "line": 42,
+          "line": 43,
           "column": 13,
           "src": "srcs/hal-block_drivers.ads.html",
           "summary": [
@@ -283,7 +283,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -304,13 +304,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Read",
-                      "href": "docs/hal__block_drivers___spec.html#L42C13"
+                      "href": "docs/hal__block_drivers___spec.html#L43C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -326,7 +326,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__block_drivers___spec.html#L43C7"
+                      "href": "docs/hal__block_drivers___spec.html#L44C7"
                     },
                     {
                       "kind": "span",
@@ -367,50 +367,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Block_Driver",
-                      "href": "docs/hal__block_drivers___spec.html#L34C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 44,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Block_Number",
-                      "href": "docs/hal__block_drivers___spec.html#L44C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "UInt64",
-                      "href": "docs/hal___spec.html#L160C9"
+                      "href": "docs/hal__block_drivers___spec.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -431,8 +388,51 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Data",
+                      "text": "Block_Number",
                       "href": "docs/hal__block_drivers___spec.html#L45C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "UInt64",
+                      "href": "docs/hal___spec.html#L160C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 46,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Data",
+                      "href": "docs/hal__block_drivers___spec.html#L46C7"
                     },
                     {
                       "kind": "span",
@@ -463,7 +463,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Block",
-                      "href": "docs/hal__block_drivers___spec.html#L37C12"
+                      "href": "docs/hal__block_drivers___spec.html#L38C12"
                     },
                     {
                       "kind": "span",
@@ -474,7 +474,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -520,7 +520,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -560,18 +560,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 43,
+              "line": 44,
               "column": 7,
               "type": {
                 "label": "HAL.Block_Drivers.Block_Driver",
-                "docHref": "docs/hal__block_drivers___spec.html#L34C9"
+                "docHref": "docs/hal__block_drivers___spec.html#L35C9"
               },
               "description": [
               ]
             },
             {
               "label": "Block_Number",
-              "line": 44,
+              "line": 45,
               "column": 7,
               "type": {
                 "label": "HAL.UInt64",
@@ -582,11 +582,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Data",
-              "line": 45,
+              "line": 46,
               "column": 7,
               "type": {
                 "label": "HAL.Block_Drivers.Block",
-                "docHref": "docs/hal__block_drivers___spec.html#L37C12"
+                "docHref": "docs/hal__block_drivers___spec.html#L38C12"
               },
               "description": [
               ]
@@ -596,7 +596,7 @@ GNATdoc.Documentation = {
         {
           "label": "Write",
           "qualifier": "",
-          "line": 49,
+          "line": 50,
           "column": 13,
           "src": "srcs/hal-block_drivers.ads.html",
           "summary": [
@@ -607,7 +607,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -628,13 +628,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Write",
-                      "href": "docs/hal__block_drivers___spec.html#L49C13"
+                      "href": "docs/hal__block_drivers___spec.html#L50C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 51,
                   "children": [
                     {
                       "kind": "span",
@@ -650,7 +650,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__block_drivers___spec.html#L50C7"
+                      "href": "docs/hal__block_drivers___spec.html#L51C7"
                     },
                     {
                       "kind": "span",
@@ -691,7 +691,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Block_Driver",
-                      "href": "docs/hal__block_drivers___spec.html#L34C9"
+                      "href": "docs/hal__block_drivers___spec.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -702,7 +702,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 52,
                   "children": [
                     {
                       "kind": "span",
@@ -713,7 +713,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Block_Number",
-                      "href": "docs/hal__block_drivers___spec.html#L51C7"
+                      "href": "docs/hal__block_drivers___spec.html#L52C7"
                     },
                     {
                       "kind": "span",
@@ -745,7 +745,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 53,
                   "children": [
                     {
                       "kind": "span",
@@ -756,7 +756,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Data",
-                      "href": "docs/hal__block_drivers___spec.html#L52C7"
+                      "href": "docs/hal__block_drivers___spec.html#L53C7"
                     },
                     {
                       "kind": "span",
@@ -777,7 +777,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Block",
-                      "href": "docs/hal__block_drivers___spec.html#L37C12"
+                      "href": "docs/hal__block_drivers___spec.html#L38C12"
                     },
                     {
                       "kind": "span",
@@ -788,7 +788,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -834,7 +834,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -874,18 +874,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 50,
+              "line": 51,
               "column": 7,
               "type": {
                 "label": "HAL.Block_Drivers.Block_Driver",
-                "docHref": "docs/hal__block_drivers___spec.html#L34C9"
+                "docHref": "docs/hal__block_drivers___spec.html#L35C9"
               },
               "description": [
               ]
             },
             {
               "label": "Block_Number",
-              "line": 51,
+              "line": 52,
               "column": 7,
               "type": {
                 "label": "HAL.UInt64",
@@ -896,11 +896,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Data",
-              "line": 52,
+              "line": 53,
               "column": 7,
               "type": {
                 "label": "HAL.Block_Drivers.Block",
-                "docHref": "docs/hal__block_drivers___spec.html#L37C12"
+                "docHref": "docs/hal__block_drivers___spec.html#L38C12"
               },
               "description": [
               ]

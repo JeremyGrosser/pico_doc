@@ -4,6 +4,23 @@ GNATdoc.Documentation = {
   "summary": [
   ],
   "description": [
+    {
+      "kind": "paragraph",
+      "children": [
+        {
+          "kind": "span",
+          "text": "-------------\n"
+        },
+        {
+          "kind": "span",
+          "text": "Audio_I2s --\n"
+        },
+        {
+          "kind": "span",
+          "text": "-------------\n"
+        }
+      ]
+    }
   ],
   "entities": [
     {
@@ -11,7 +28,7 @@ GNATdoc.Documentation = {
         {
           "label": "Audio_I2s_Program_Instructions",
           "qualifier": "",
-          "line": 25,
+          "line": 24,
           "column": 4,
           "src": "srcs/rp-pio-audio_i2s_pio.ads.html",
           "summary": [
@@ -22,7 +39,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 25,
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -73,7 +90,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 26,
+                  "number": 25,
                   "children": [
                     {
                       "kind": "span",
@@ -89,7 +106,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 27,
+                  "number": 26,
                   "children": [
                     {
                       "kind": "span",
@@ -135,7 +152,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 28,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -181,7 +198,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 29,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
@@ -227,7 +244,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 30,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -273,7 +290,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -319,7 +336,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 31,
                   "children": [
                     {
                       "kind": "span",
@@ -365,7 +382,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -411,7 +428,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 33,
                   "children": [
                     {
                       "kind": "span",

@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Clean_DCache",
           "qualifier": "",
-          "line": 53,
+          "line": 54,
           "column": 14,
           "src": "srcs/cortex_m-cache.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -43,13 +43,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Clean_DCache",
-                      "href": "docs/cortex_m__cache___spec.html#L53C14"
+                      "href": "docs/cortex_m__cache___spec.html#L54C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -65,7 +65,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Start",
-                      "href": "docs/cortex_m__cache___spec.html#L54C7"
+                      "href": "docs/cortex_m__cache___spec.html#L55C7"
                     },
                     {
                       "kind": "span",
@@ -96,7 +96,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 55,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -107,7 +107,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Len",
-                      "href": "docs/cortex_m__cache___spec.html#L55C7"
+                      "href": "docs/cortex_m__cache___spec.html#L56C7"
                     },
                     {
                       "kind": "span",
@@ -138,7 +138,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 57,
                   "children": [
                     {
                       "kind": "span",
@@ -193,7 +193,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Start",
-              "line": 54,
+              "line": 55,
               "column": 7,
               "type": {
                 "label": "Address"
@@ -203,7 +203,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Len",
-              "line": 55,
+              "line": 56,
               "column": 7,
               "type": {
                 "label": "Natural"
@@ -216,7 +216,7 @@ GNATdoc.Documentation = {
         {
           "label": "Clean_Invalidate_DCache",
           "qualifier": "",
-          "line": 74,
+          "line": 75,
           "column": 14,
           "src": "srcs/cortex_m-cache.ads.html",
           "summary": [
@@ -227,7 +227,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 74,
+                  "number": 75,
                   "children": [
                     {
                       "kind": "span",
@@ -248,13 +248,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Clean_Invalidate_DCache",
-                      "href": "docs/cortex_m__cache___spec.html#L74C14"
+                      "href": "docs/cortex_m__cache___spec.html#L75C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 75,
+                  "number": 76,
                   "children": [
                     {
                       "kind": "span",
@@ -270,7 +270,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Start",
-                      "href": "docs/cortex_m__cache___spec.html#L75C7"
+                      "href": "docs/cortex_m__cache___spec.html#L76C7"
                     },
                     {
                       "kind": "span",
@@ -301,7 +301,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 76,
+                  "number": 77,
                   "children": [
                     {
                       "kind": "span",
@@ -312,7 +312,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Len",
-                      "href": "docs/cortex_m__cache___spec.html#L76C7"
+                      "href": "docs/cortex_m__cache___spec.html#L77C7"
                     },
                     {
                       "kind": "span",
@@ -343,7 +343,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 77,
+                  "number": 78,
                   "children": [
                     {
                       "kind": "span",
@@ -382,7 +382,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Start",
-              "line": 75,
+              "line": 76,
               "column": 7,
               "type": {
                 "label": "Address"
@@ -392,7 +392,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Len",
-              "line": 76,
+              "line": 77,
               "column": 7,
               "type": {
                 "label": "Natural"
@@ -405,7 +405,7 @@ GNATdoc.Documentation = {
         {
           "label": "D_Cache_Enabled",
           "qualifier": "",
-          "line": 50,
+          "line": 51,
           "column": 13,
           "src": "srcs/cortex_m-cache.ads.html",
           "summary": [
@@ -416,7 +416,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 51,
                   "children": [
                     {
                       "kind": "span",
@@ -437,7 +437,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "D_Cache_Enabled",
-                      "href": "docs/cortex_m__cache___spec.html#L50C13"
+                      "href": "docs/cortex_m__cache___spec.html#L51C13"
                     },
                     {
                       "kind": "span",
@@ -463,7 +463,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 52,
                   "children": [
                     {
                       "kind": "span",
@@ -494,7 +494,7 @@ GNATdoc.Documentation = {
         {
           "label": "Disable_D_Cache",
           "qualifier": "",
-          "line": 45,
+          "line": 46,
           "column": 14,
           "src": "srcs/cortex_m-cache.ads.html",
           "summary": [
@@ -505,7 +505,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -526,7 +526,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Disable_D_Cache",
-                      "href": "docs/cortex_m__cache___spec.html#L45C14"
+                      "href": "docs/cortex_m__cache___spec.html#L46C14"
                     },
                     {
                       "kind": "span",
@@ -542,7 +542,7 @@ GNATdoc.Documentation = {
         {
           "label": "Disable_I_Cache",
           "qualifier": "",
-          "line": 43,
+          "line": 44,
           "column": 14,
           "src": "srcs/cortex_m-cache.ads.html",
           "summary": [
@@ -553,7 +553,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -574,7 +574,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Disable_I_Cache",
-                      "href": "docs/cortex_m__cache___spec.html#L43C14"
+                      "href": "docs/cortex_m__cache___spec.html#L44C14"
                     },
                     {
                       "kind": "span",
@@ -590,7 +590,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enable_D_Cache",
           "qualifier": "",
-          "line": 41,
+          "line": 42,
           "column": 14,
           "src": "srcs/cortex_m-cache.ads.html",
           "summary": [
@@ -601,7 +601,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -622,7 +622,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enable_D_Cache",
-                      "href": "docs/cortex_m__cache___spec.html#L41C14"
+                      "href": "docs/cortex_m__cache___spec.html#L42C14"
                     },
                     {
                       "kind": "span",
@@ -638,7 +638,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enable_I_Cache",
           "qualifier": "",
-          "line": 39,
+          "line": 40,
           "column": 14,
           "src": "srcs/cortex_m-cache.ads.html",
           "summary": [
@@ -649,7 +649,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -670,7 +670,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enable_I_Cache",
-                      "href": "docs/cortex_m__cache___spec.html#L39C14"
+                      "href": "docs/cortex_m__cache___spec.html#L40C14"
                     },
                     {
                       "kind": "span",
@@ -686,7 +686,7 @@ GNATdoc.Documentation = {
         {
           "label": "I_Cache_Enabled",
           "qualifier": "",
-          "line": 47,
+          "line": 48,
           "column": 13,
           "src": "srcs/cortex_m-cache.ads.html",
           "summary": [
@@ -697,7 +697,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -718,7 +718,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I_Cache_Enabled",
-                      "href": "docs/cortex_m__cache___spec.html#L47C13"
+                      "href": "docs/cortex_m__cache___spec.html#L48C13"
                     },
                     {
                       "kind": "span",
@@ -744,7 +744,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -775,7 +775,7 @@ GNATdoc.Documentation = {
         {
           "label": "Invalidate_DCache",
           "qualifier": "",
-          "line": 63,
+          "line": 64,
           "column": 14,
           "src": "srcs/cortex_m-cache.ads.html",
           "summary": [
@@ -786,7 +786,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 63,
+                  "number": 64,
                   "children": [
                     {
                       "kind": "span",
@@ -807,13 +807,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Invalidate_DCache",
-                      "href": "docs/cortex_m__cache___spec.html#L63C14"
+                      "href": "docs/cortex_m__cache___spec.html#L64C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 64,
+                  "number": 65,
                   "children": [
                     {
                       "kind": "span",
@@ -829,7 +829,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Start",
-                      "href": "docs/cortex_m__cache___spec.html#L64C7"
+                      "href": "docs/cortex_m__cache___spec.html#L65C7"
                     },
                     {
                       "kind": "span",
@@ -860,7 +860,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 65,
+                  "number": 66,
                   "children": [
                     {
                       "kind": "span",
@@ -871,7 +871,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Len",
-                      "href": "docs/cortex_m__cache___spec.html#L65C7"
+                      "href": "docs/cortex_m__cache___spec.html#L66C7"
                     },
                     {
                       "kind": "span",
@@ -902,7 +902,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 66,
+                  "number": 67,
                   "children": [
                     {
                       "kind": "span",
@@ -961,7 +961,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Start",
-              "line": 64,
+              "line": 65,
               "column": 7,
               "type": {
                 "label": "Address"
@@ -971,7 +971,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Len",
-              "line": 65,
+              "line": 66,
               "column": 7,
               "type": {
                 "label": "Natural"

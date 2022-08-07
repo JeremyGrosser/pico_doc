@@ -373,11 +373,42 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 33,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "pragma"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Preelaborate"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 34,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 35,
       "children": [
         {
           "kind": "span",
@@ -398,7 +429,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TP_Touch_State",
-          "href": "docs/hal__touch_panel___spec.html#L34C9"
+          "href": "docs/hal__touch_panel___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -424,48 +455,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 35,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "X",
-          "href": "docs/hal__touch_panel___spec.html#L35C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Natural"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 36,
       "children": [
         {
@@ -476,7 +465,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Y",
+          "text": "X",
           "href": "docs/hal__touch_panel___spec.html#L36C7"
         },
         {
@@ -518,13 +507,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Weight",
+          "text": "Y",
           "href": "docs/hal__touch_panel___spec.html#L37C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "      "
         },
         {
           "kind": "span",
@@ -555,6 +544,48 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Weight",
+          "href": "docs/hal__touch_panel___spec.html#L38C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Natural"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 39,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
           "text": "   "
         },
         {
@@ -576,19 +607,19 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/hal__touch_panel___spec.html#L34C9"
+          "href": "docs/hal__touch_panel___spec.html#L35C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 40,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 41,
       "children": [
         {
           "kind": "span",
@@ -599,7 +630,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Null_Touch_State",
-          "href": "docs/hal__touch_panel___spec.html#L40C4"
+          "href": "docs/hal__touch_panel___spec.html#L41C4"
         },
         {
           "kind": "span",
@@ -630,7 +661,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TP_Touch_State",
-          "href": "docs/hal__touch_panel___spec.html#L34C9"
+          "href": "docs/hal__touch_panel___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -701,13 +732,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 42,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -728,7 +759,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Swap_State",
-          "href": "docs/hal__touch_panel___spec.html#L42C9"
+          "href": "docs/hal__touch_panel___spec.html#L43C9"
         },
         {
           "kind": "span",
@@ -770,61 +801,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 43,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 44,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Invert_X",
-          "href": "docs/hal__touch_panel___spec.html#L44C4"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "constant"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Swap_State",
-          "href": "docs/hal__touch_panel___spec.html#L42C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
@@ -839,7 +817,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Invert_Y",
+          "text": "Invert_X",
           "href": "docs/hal__touch_panel___spec.html#L45C4"
         },
         {
@@ -871,7 +849,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Swap_State",
-          "href": "docs/hal__touch_panel___spec.html#L42C9"
+          "href": "docs/hal__touch_panel___spec.html#L43C9"
         },
         {
           "kind": "span",
@@ -892,8 +870,61 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Swap_XY",
+          "text": "Invert_Y",
           "href": "docs/hal__touch_panel___spec.html#L46C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Swap_State",
+          "href": "docs/hal__touch_panel___spec.html#L43C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 47,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Swap_XY",
+          "href": "docs/hal__touch_panel___spec.html#L47C4"
         },
         {
           "kind": "span",
@@ -924,7 +955,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Swap_State",
-          "href": "docs/hal__touch_panel___spec.html#L42C9"
+          "href": "docs/hal__touch_panel___spec.html#L43C9"
         },
         {
           "kind": "span",
@@ -935,13 +966,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 47,
+      "number": 48,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 49,
       "children": [
         {
           "kind": "span",
@@ -962,7 +993,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Touch_Identifier",
-          "href": "docs/hal__touch_panel___spec.html#L48C12"
+          "href": "docs/hal__touch_panel___spec.html#L49C12"
         },
         {
           "kind": "span",
@@ -1033,13 +1064,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 49,
+      "number": 50,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 51,
       "children": [
         {
           "kind": "span",
@@ -1060,7 +1091,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TP_State",
-          "href": "docs/hal__touch_panel___spec.html#L50C9"
+          "href": "docs/hal__touch_panel___spec.html#L51C9"
         },
         {
           "kind": "span",
@@ -1096,7 +1127,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Touch_Identifier",
-          "href": "docs/hal__touch_panel___spec.html#L48C12"
+          "href": "docs/hal__touch_panel___spec.html#L49C12"
         },
         {
           "kind": "span",
@@ -1142,7 +1173,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TP_Touch_State",
-          "href": "docs/hal__touch_panel___spec.html#L34C9"
+          "href": "docs/hal__touch_panel___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -1153,13 +1184,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 52,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 52,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -1180,7 +1211,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Touch_Panel_Device",
-          "href": "docs/hal__touch_panel___spec.html#L52C9"
+          "href": "docs/hal__touch_panel___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -1221,13 +1252,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 53,
+      "number": 54,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 54,
+      "number": 55,
       "children": [
         {
           "kind": "span",
@@ -1248,7 +1279,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Any_Touch_Panel",
-          "href": "docs/hal__touch_panel___spec.html#L54C9"
+          "href": "docs/hal__touch_panel___spec.html#L55C9"
         },
         {
           "kind": "span",
@@ -1289,7 +1320,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Touch_Panel_Device",
-          "href": "docs/hal__touch_panel___spec.html#L52C9"
+          "href": "docs/hal__touch_panel___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -1310,13 +1341,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 55,
+      "number": 56,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 57,
       "children": [
         {
           "kind": "span",
@@ -1337,7 +1368,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Set_Bounds",
-          "href": "docs/hal__touch_panel___spec.html#L56C14"
+          "href": "docs/hal__touch_panel___spec.html#L57C14"
         },
         {
           "kind": "span",
@@ -1353,7 +1384,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__touch_panel___spec.html#L56C26"
+          "href": "docs/hal__touch_panel___spec.html#L57C26"
         },
         {
           "kind": "span",
@@ -1394,49 +1425,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Touch_Panel_Device",
-          "href": "docs/hal__touch_panel___spec.html#L52C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 57,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "                         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Width",
-          "href": "docs/hal__touch_panel___spec.html#L57C26"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Natural"
+          "href": "docs/hal__touch_panel___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -1457,13 +1446,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Height",
+          "text": "Width",
           "href": "docs/hal__touch_panel___spec.html#L58C26"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -1499,8 +1488,50 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Swap",
+          "text": "Height",
           "href": "docs/hal__touch_panel___spec.html#L59C26"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Natural"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 60,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                         "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Swap",
+          "href": "docs/hal__touch_panel___spec.html#L60C26"
         },
         {
           "kind": "span",
@@ -1521,7 +1552,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Swap_State",
-          "href": "docs/hal__touch_panel___spec.html#L42C9"
+          "href": "docs/hal__touch_panel___spec.html#L43C9"
         },
         {
           "kind": "span",
@@ -1557,7 +1588,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 60,
+      "number": 61,
       "children": [
         {
           "kind": "span",
@@ -1573,13 +1604,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 61,
+      "number": 62,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 62,
+      "number": 63,
       "children": [
         {
           "kind": "span",
@@ -1600,7 +1631,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Active_Touch_Points",
-          "href": "docs/hal__touch_panel___spec.html#L62C13"
+          "href": "docs/hal__touch_panel___spec.html#L63C13"
         },
         {
           "kind": "span",
@@ -1616,7 +1647,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__touch_panel___spec.html#L62C34"
+          "href": "docs/hal__touch_panel___spec.html#L63C34"
         },
         {
           "kind": "span",
@@ -1657,7 +1688,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Touch_Panel_Device",
-          "href": "docs/hal__touch_panel___spec.html#L52C9"
+          "href": "docs/hal__touch_panel___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -1668,7 +1699,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 64,
       "children": [
         {
           "kind": "span",
@@ -1689,7 +1720,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Touch_Identifier",
-          "href": "docs/hal__touch_panel___spec.html#L48C12"
+          "href": "docs/hal__touch_panel___spec.html#L49C12"
         },
         {
           "kind": "span",
@@ -1720,7 +1751,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 64,
+      "number": 65,
       "children": [
         {
           "kind": "span",
@@ -1736,13 +1767,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 65,
+      "number": 66,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 66,
+      "number": 67,
       "children": [
         {
           "kind": "span",
@@ -1763,7 +1794,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Get_Touch_Point",
-          "href": "docs/hal__touch_panel___spec.html#L66C13"
+          "href": "docs/hal__touch_panel___spec.html#L67C13"
         },
         {
           "kind": "span",
@@ -1779,7 +1810,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__touch_panel___spec.html#L66C30"
+          "href": "docs/hal__touch_panel___spec.html#L67C30"
         },
         {
           "kind": "span",
@@ -1820,7 +1851,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Touch_Panel_Device",
-          "href": "docs/hal__touch_panel___spec.html#L52C9"
+          "href": "docs/hal__touch_panel___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -1831,7 +1862,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 67,
+      "number": 68,
       "children": [
         {
           "kind": "span",
@@ -1842,7 +1873,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Touch_Id",
-          "href": "docs/hal__touch_panel___spec.html#L67C30"
+          "href": "docs/hal__touch_panel___spec.html#L68C30"
         },
         {
           "kind": "span",
@@ -1863,7 +1894,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Touch_Identifier",
-          "href": "docs/hal__touch_panel___spec.html#L48C12"
+          "href": "docs/hal__touch_panel___spec.html#L49C12"
         },
         {
           "kind": "span",
@@ -1874,7 +1905,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 68,
+      "number": 69,
       "children": [
         {
           "kind": "span",
@@ -1895,7 +1926,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TP_Touch_State",
-          "href": "docs/hal__touch_panel___spec.html#L34C9"
+          "href": "docs/hal__touch_panel___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -1926,7 +1957,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 69,
+      "number": 70,
       "children": [
         {
           "kind": "span",
@@ -1942,7 +1973,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 70,
+      "number": 71,
       "children": [
         {
           "kind": "span",
@@ -1958,13 +1989,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 71,
+      "number": 72,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 72,
+      "number": 73,
       "children": [
         {
           "kind": "span",
@@ -1985,13 +2016,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Get_All_Touch_Points",
-          "href": "docs/hal__touch_panel___spec.html#L72C13"
+          "href": "docs/hal__touch_panel___spec.html#L73C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 73,
+      "number": 74,
       "children": [
         {
           "kind": "span",
@@ -2007,7 +2038,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__touch_panel___spec.html#L73C7"
+          "href": "docs/hal__touch_panel___spec.html#L74C7"
         },
         {
           "kind": "span",
@@ -2048,7 +2079,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Touch_Panel_Device",
-          "href": "docs/hal__touch_panel___spec.html#L52C9"
+          "href": "docs/hal__touch_panel___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -2059,7 +2090,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 74,
+      "number": 75,
       "children": [
         {
           "kind": "span",
@@ -2080,7 +2111,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TP_State",
-          "href": "docs/hal__touch_panel___spec.html#L50C9"
+          "href": "docs/hal__touch_panel___spec.html#L51C9"
         },
         {
           "kind": "span",
@@ -2111,7 +2142,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 75,
+      "number": 76,
       "children": [
         {
           "kind": "span",
@@ -2127,7 +2158,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 76,
+      "number": 77,
       "children": [
         {
           "kind": "span",
@@ -2143,13 +2174,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 77,
+      "number": 78,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 78,
+      "number": 79,
       "children": [
         {
           "kind": "span",
@@ -2160,13 +2191,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 79,
+      "number": 80,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 84,
+      "number": 85,
       "children": [
         {
           "kind": "span",

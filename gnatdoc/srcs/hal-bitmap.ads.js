@@ -405,11 +405,42 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 35,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "pragma"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Preelaborate"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 36,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -430,7 +461,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Orientation_Mode",
-          "href": "docs/hal__bitmap___spec.html#L36C9"
+          "href": "docs/hal__bitmap___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -446,7 +477,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 38,
       "children": [
         {
           "kind": "span",
@@ -462,28 +493,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Default",
-          "href": "docs/hal__bitmap___spec.html#L37C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 38,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Portrait",
           "href": "docs/hal__bitmap___spec.html#L38C7"
         },
         {
@@ -505,8 +514,30 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Landscape",
+          "text": "Portrait",
           "href": "docs/hal__bitmap___spec.html#L39C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 40,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Landscape",
+          "href": "docs/hal__bitmap___spec.html#L40C7"
         },
         {
           "kind": "span",
@@ -517,19 +548,19 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/hal__bitmap___spec.html#L36C9"
+          "href": "docs/hal__bitmap___spec.html#L37C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 41,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 42,
       "children": [
         {
           "kind": "span",
@@ -550,7 +581,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Actual_Orientation",
-          "href": "docs/hal__bitmap___spec.html#L41C12"
+          "href": "docs/hal__bitmap___spec.html#L42C12"
         },
         {
           "kind": "span",
@@ -571,7 +602,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Orientation_Mode",
-          "href": "docs/hal__bitmap___spec.html#L36C9"
+          "href": "docs/hal__bitmap___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -622,13 +653,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 43,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -649,7 +680,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color_Mode",
-          "href": "docs/hal__bitmap___spec.html#L43C9"
+          "href": "docs/hal__bitmap___spec.html#L44C9"
         },
         {
           "kind": "span",
@@ -665,7 +696,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 45,
       "children": [
         {
           "kind": "span",
@@ -681,28 +712,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ARGB_8888",
-          "href": "docs/hal__bitmap___spec.html#L44C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 45,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "RGB_888",
           "href": "docs/hal__bitmap___spec.html#L45C7"
         },
         {
@@ -724,7 +733,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "RGB_565",
+          "text": "RGB_888",
           "href": "docs/hal__bitmap___spec.html#L46C7"
         },
         {
@@ -746,7 +755,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "ARGB_1555",
+          "text": "RGB_565",
           "href": "docs/hal__bitmap___spec.html#L47C7"
         },
         {
@@ -768,7 +777,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "ARGB_4444",
+          "text": "ARGB_1555",
           "href": "docs/hal__bitmap___spec.html#L48C7"
         },
         {
@@ -790,7 +799,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "L_8",
+          "text": "ARGB_4444",
           "href": "docs/hal__bitmap___spec.html#L49C7"
         },
         {
@@ -812,7 +821,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "AL_44",
+          "text": "L_8",
           "href": "docs/hal__bitmap___spec.html#L50C7"
         },
         {
@@ -834,7 +843,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "AL_88",
+          "text": "AL_44",
           "href": "docs/hal__bitmap___spec.html#L51C7"
         },
         {
@@ -856,7 +865,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "L_4",
+          "text": "AL_88",
           "href": "docs/hal__bitmap___spec.html#L52C7"
         },
         {
@@ -878,7 +887,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "A_8",
+          "text": "L_4",
           "href": "docs/hal__bitmap___spec.html#L53C7"
         },
         {
@@ -900,7 +909,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "A_4",
+          "text": "A_8",
           "href": "docs/hal__bitmap___spec.html#L54C7"
         },
         {
@@ -922,8 +931,30 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "M_1",
+          "text": "A_4",
           "href": "docs/hal__bitmap___spec.html#L55C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 56,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "M_1",
+          "href": "docs/hal__bitmap___spec.html#L56C7"
         },
         {
           "kind": "span",
@@ -939,7 +970,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 57,
       "children": [
         {
           "kind": "span",
@@ -975,13 +1006,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 57,
+      "number": 58,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 59,
       "children": [
         {
           "kind": "span",
@@ -1002,7 +1033,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bits_Per_Pixel",
-          "href": "docs/hal__bitmap___spec.html#L58C13"
+          "href": "docs/hal__bitmap___spec.html#L59C13"
         },
         {
           "kind": "span",
@@ -1018,7 +1049,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Mode",
-          "href": "docs/hal__bitmap___spec.html#L58C29"
+          "href": "docs/hal__bitmap___spec.html#L59C29"
         },
         {
           "kind": "span",
@@ -1039,7 +1070,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color_Mode",
-          "href": "docs/hal__bitmap___spec.html#L43C9"
+          "href": "docs/hal__bitmap___spec.html#L44C9"
         },
         {
           "kind": "span",
@@ -1080,7 +1111,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 59,
+      "number": 60,
       "children": [
         {
           "kind": "span",
@@ -1121,7 +1152,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 60,
+      "number": 61,
       "children": [
         {
           "kind": "span",
@@ -1172,7 +1203,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 61,
+      "number": 62,
       "children": [
         {
           "kind": "span",
@@ -1223,7 +1254,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 62,
+      "number": 63,
       "children": [
         {
           "kind": "span",
@@ -1334,7 +1365,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 64,
       "children": [
         {
           "kind": "span",
@@ -1425,7 +1456,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 64,
+      "number": 65,
       "children": [
         {
           "kind": "span",
@@ -1496,7 +1527,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 65,
+      "number": 66,
       "children": [
         {
           "kind": "span",
@@ -1552,13 +1583,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 66,
+      "number": 67,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 67,
+      "number": 68,
       "children": [
         {
           "kind": "span",
@@ -1579,7 +1610,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -1605,48 +1636,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 68,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "X",
-          "href": "docs/hal__bitmap___spec.html#L68C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Natural"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 69,
       "children": [
         {
@@ -1657,7 +1646,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Y",
+          "text": "X",
           "href": "docs/hal__bitmap___spec.html#L69C7"
         },
         {
@@ -1694,6 +1683,48 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Y",
+          "href": "docs/hal__bitmap___spec.html#L70C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Natural"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 71,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
           "text": "   "
         },
         {
@@ -1715,19 +1746,19 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L68C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 71,
+      "number": 72,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 72,
+      "number": 73,
       "children": [
         {
           "kind": "span",
@@ -1748,7 +1779,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Point_Array",
-          "href": "docs/hal__bitmap___spec.html#L72C9"
+          "href": "docs/hal__bitmap___spec.html#L73C9"
         },
         {
           "kind": "span",
@@ -1829,7 +1860,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -1840,13 +1871,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 73,
+      "number": 74,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 74,
+      "number": 75,
       "children": [
         {
           "kind": "span",
@@ -1882,7 +1913,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "P1",
-          "href": "docs/hal__bitmap___spec.html#L74C18"
+          "href": "docs/hal__bitmap___spec.html#L75C18"
         },
         {
           "kind": "span",
@@ -1898,7 +1929,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "P2",
-          "href": "docs/hal__bitmap___spec.html#L74C22"
+          "href": "docs/hal__bitmap___spec.html#L75C22"
         },
         {
           "kind": "span",
@@ -1919,7 +1950,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -1945,13 +1976,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L68C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 75,
+      "number": 76,
       "children": [
         {
           "kind": "span",
@@ -2057,13 +2088,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 76,
+      "number": 77,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 77,
+      "number": 78,
       "children": [
         {
           "kind": "span",
@@ -2099,7 +2130,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "P1",
-          "href": "docs/hal__bitmap___spec.html#L77C18"
+          "href": "docs/hal__bitmap___spec.html#L78C18"
         },
         {
           "kind": "span",
@@ -2115,7 +2146,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "P2",
-          "href": "docs/hal__bitmap___spec.html#L77C22"
+          "href": "docs/hal__bitmap___spec.html#L78C22"
         },
         {
           "kind": "span",
@@ -2136,7 +2167,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -2162,13 +2193,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L68C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 78,
+      "number": 79,
       "children": [
         {
           "kind": "span",
@@ -2274,13 +2305,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 79,
+      "number": 80,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 80,
+      "number": 81,
       "children": [
         {
           "kind": "span",
@@ -2301,7 +2332,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Rect",
-          "href": "docs/hal__bitmap___spec.html#L80C9"
+          "href": "docs/hal__bitmap___spec.html#L81C9"
         },
         {
           "kind": "span",
@@ -2327,7 +2358,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 81,
+      "number": 82,
       "children": [
         {
           "kind": "span",
@@ -2338,7 +2369,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Position",
-          "href": "docs/hal__bitmap___spec.html#L81C7"
+          "href": "docs/hal__bitmap___spec.html#L82C7"
         },
         {
           "kind": "span",
@@ -2359,7 +2390,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -2370,7 +2401,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 82,
+      "number": 83,
       "children": [
         {
           "kind": "span",
@@ -2381,7 +2412,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Width",
-          "href": "docs/hal__bitmap___spec.html#L82C7"
+          "href": "docs/hal__bitmap___spec.html#L83C7"
         },
         {
           "kind": "span",
@@ -2412,7 +2443,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 83,
+      "number": 84,
       "children": [
         {
           "kind": "span",
@@ -2423,7 +2454,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Height",
-          "href": "docs/hal__bitmap___spec.html#L83C7"
+          "href": "docs/hal__bitmap___spec.html#L84C7"
         },
         {
           "kind": "span",
@@ -2454,7 +2485,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 84,
+      "number": 85,
       "children": [
         {
           "kind": "span",
@@ -2480,19 +2511,19 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/hal__bitmap___spec.html#L80C9"
+          "href": "docs/hal__bitmap___spec.html#L81C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 85,
+      "number": 86,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 86,
+      "number": 87,
       "children": [
         {
           "kind": "span",
@@ -2513,7 +2544,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -2539,49 +2570,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 87,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Alpha",
-          "href": "docs/hal__bitmap___spec.html#L87C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "UInt8",
-          "href": "docs/hal___spec.html#L53C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 88,
       "children": [
         {
@@ -2592,13 +2580,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Red",
+          "text": "Alpha",
           "href": "docs/hal__bitmap___spec.html#L88C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": " "
         },
         {
           "kind": "span",
@@ -2635,13 +2623,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Green",
+          "text": "Red",
           "href": "docs/hal__bitmap___spec.html#L89C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -2678,8 +2666,51 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Blue",
+          "text": "Green",
           "href": "docs/hal__bitmap___spec.html#L90C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "UInt8",
+          "href": "docs/hal___spec.html#L53C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 91,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Blue",
+          "href": "docs/hal__bitmap___spec.html#L91C7"
         },
         {
           "kind": "span",
@@ -2711,7 +2742,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 91,
+      "number": 92,
       "children": [
         {
           "kind": "span",
@@ -2757,13 +2788,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 92,
+      "number": 93,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 93,
+      "number": 94,
       "children": [
         {
           "kind": "span",
@@ -2784,7 +2815,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -2810,7 +2841,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 94,
+      "number": 95,
       "children": [
         {
           "kind": "span",
@@ -2891,7 +2922,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 95,
+      "number": 96,
       "children": [
         {
           "kind": "span",
@@ -2972,7 +3003,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 96,
+      "number": 97,
       "children": [
         {
           "kind": "span",
@@ -3053,7 +3084,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 97,
+      "number": 98,
       "children": [
         {
           "kind": "span",
@@ -3134,7 +3165,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 98,
+      "number": 99,
       "children": [
         {
           "kind": "span",
@@ -3165,13 +3196,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 99,
+      "number": 100,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 100,
+      "number": 101,
       "children": [
         {
           "kind": "span",
@@ -3192,7 +3223,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -3223,13 +3254,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 101,
+      "number": 102,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 102,
+      "number": 103,
       "children": [
         {
           "kind": "span",
@@ -3250,7 +3281,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Any_Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L102C9"
+          "href": "docs/hal__bitmap___spec.html#L103C9"
         },
         {
           "kind": "span",
@@ -3291,7 +3322,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -3312,13 +3343,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 103,
+      "number": 104,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 104,
+      "number": 105,
       "children": [
         {
           "kind": "span",
@@ -3339,7 +3370,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Width",
-          "href": "docs/hal__bitmap___spec.html#L104C13"
+          "href": "docs/hal__bitmap___spec.html#L105C13"
         },
         {
           "kind": "span",
@@ -3355,7 +3386,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L104C20"
+          "href": "docs/hal__bitmap___spec.html#L105C20"
         },
         {
           "kind": "span",
@@ -3376,7 +3407,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -3432,7 +3463,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 105,
+      "number": 106,
       "children": [
         {
           "kind": "span",
@@ -3448,7 +3479,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 106,
+      "number": 107,
       "children": [
         {
           "kind": "span",
@@ -3464,13 +3495,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 107,
+      "number": 108,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 108,
+      "number": 109,
       "children": [
         {
           "kind": "span",
@@ -3491,7 +3522,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Height",
-          "href": "docs/hal__bitmap___spec.html#L108C13"
+          "href": "docs/hal__bitmap___spec.html#L109C13"
         },
         {
           "kind": "span",
@@ -3507,7 +3538,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L108C21"
+          "href": "docs/hal__bitmap___spec.html#L109C21"
         },
         {
           "kind": "span",
@@ -3528,7 +3559,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -3584,7 +3615,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 109,
+      "number": 110,
       "children": [
         {
           "kind": "span",
@@ -3600,7 +3631,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 110,
+      "number": 111,
       "children": [
         {
           "kind": "span",
@@ -3616,13 +3647,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 111,
+      "number": 112,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 112,
+      "number": 113,
       "children": [
         {
           "kind": "span",
@@ -3643,7 +3674,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Swapped",
-          "href": "docs/hal__bitmap___spec.html#L112C13"
+          "href": "docs/hal__bitmap___spec.html#L113C13"
         },
         {
           "kind": "span",
@@ -3659,7 +3690,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L112C22"
+          "href": "docs/hal__bitmap___spec.html#L113C22"
         },
         {
           "kind": "span",
@@ -3680,7 +3711,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -3736,7 +3767,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 113,
+      "number": 114,
       "children": [
         {
           "kind": "span",
@@ -3752,7 +3783,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 114,
+      "number": 115,
       "children": [
         {
           "kind": "span",
@@ -3768,7 +3799,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 115,
+      "number": 116,
       "children": [
         {
           "kind": "span",
@@ -3784,7 +3815,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 116,
+      "number": 117,
       "children": [
         {
           "kind": "span",
@@ -3800,7 +3831,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 117,
+      "number": 118,
       "children": [
         {
           "kind": "span",
@@ -3816,7 +3847,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 118,
+      "number": 119,
       "children": [
         {
           "kind": "span",
@@ -3832,7 +3863,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 119,
+      "number": 120,
       "children": [
         {
           "kind": "span",
@@ -3848,7 +3879,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 120,
+      "number": 121,
       "children": [
         {
           "kind": "span",
@@ -3864,7 +3895,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 121,
+      "number": 122,
       "children": [
         {
           "kind": "span",
@@ -3880,7 +3911,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 122,
+      "number": 123,
       "children": [
         {
           "kind": "span",
@@ -3896,7 +3927,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 123,
+      "number": 124,
       "children": [
         {
           "kind": "span",
@@ -3912,7 +3943,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 124,
+      "number": 125,
       "children": [
         {
           "kind": "span",
@@ -3928,7 +3959,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 125,
+      "number": 126,
       "children": [
         {
           "kind": "span",
@@ -3944,7 +3975,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 126,
+      "number": 127,
       "children": [
         {
           "kind": "span",
@@ -3960,7 +3991,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 127,
+      "number": 128,
       "children": [
         {
           "kind": "span",
@@ -3976,13 +4007,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 128,
+      "number": 129,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 129,
+      "number": 130,
       "children": [
         {
           "kind": "span",
@@ -4003,7 +4034,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Color_Mode",
-          "href": "docs/hal__bitmap___spec.html#L129C13"
+          "href": "docs/hal__bitmap___spec.html#L130C13"
         },
         {
           "kind": "span",
@@ -4019,7 +4050,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L129C25"
+          "href": "docs/hal__bitmap___spec.html#L130C25"
         },
         {
           "kind": "span",
@@ -4040,7 +4071,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -4066,7 +4097,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color_Mode",
-          "href": "docs/hal__bitmap___spec.html#L43C9"
+          "href": "docs/hal__bitmap___spec.html#L44C9"
         },
         {
           "kind": "span",
@@ -4097,7 +4128,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 130,
+      "number": 131,
       "children": [
         {
           "kind": "span",
@@ -4113,7 +4144,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 131,
+      "number": 132,
       "children": [
         {
           "kind": "span",
@@ -4129,7 +4160,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 132,
+      "number": 133,
       "children": [
         {
           "kind": "span",
@@ -4145,13 +4176,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 133,
+      "number": 134,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 134,
+      "number": 135,
       "children": [
         {
           "kind": "span",
@@ -4172,7 +4203,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Mapped_In_RAM",
-          "href": "docs/hal__bitmap___spec.html#L134C13"
+          "href": "docs/hal__bitmap___spec.html#L135C13"
         },
         {
           "kind": "span",
@@ -4188,7 +4219,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L134C28"
+          "href": "docs/hal__bitmap___spec.html#L135C28"
         },
         {
           "kind": "span",
@@ -4209,7 +4240,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -4265,7 +4296,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 135,
+      "number": 136,
       "children": [
         {
           "kind": "span",
@@ -4281,13 +4312,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 136,
+      "number": 137,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 137,
+      "number": 138,
       "children": [
         {
           "kind": "span",
@@ -4308,7 +4339,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Memory_Address",
-          "href": "docs/hal__bitmap___spec.html#L137C13"
+          "href": "docs/hal__bitmap___spec.html#L138C13"
         },
         {
           "kind": "span",
@@ -4324,7 +4355,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L137C29"
+          "href": "docs/hal__bitmap___spec.html#L138C29"
         },
         {
           "kind": "span",
@@ -4345,7 +4376,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -4396,7 +4427,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 138,
+      "number": 139,
       "children": [
         {
           "kind": "span",
@@ -4422,7 +4453,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 139,
+      "number": 140,
       "children": [
         {
           "kind": "span",
@@ -4438,7 +4469,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 140,
+      "number": 141,
       "children": [
         {
           "kind": "span",
@@ -4454,13 +4485,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 141,
+      "number": 142,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 142,
+      "number": 143,
       "children": [
         {
           "kind": "span",
@@ -4481,7 +4512,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Set_Source",
-          "href": "docs/hal__bitmap___spec.html#L142C14"
+          "href": "docs/hal__bitmap___spec.html#L143C14"
         },
         {
           "kind": "span",
@@ -4497,7 +4528,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L142C26"
+          "href": "docs/hal__bitmap___spec.html#L143C26"
         },
         {
           "kind": "span",
@@ -4538,7 +4569,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -4549,7 +4580,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 143,
+      "number": 144,
       "children": [
         {
           "kind": "span",
@@ -4560,7 +4591,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ARGB",
-          "href": "docs/hal__bitmap___spec.html#L143C26"
+          "href": "docs/hal__bitmap___spec.html#L144C26"
         },
         {
           "kind": "span",
@@ -4581,7 +4612,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -4617,7 +4648,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 144,
+      "number": 145,
       "children": [
         {
           "kind": "span",
@@ -4633,13 +4664,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 145,
+      "number": 146,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 146,
+      "number": 147,
       "children": [
         {
           "kind": "span",
@@ -4660,7 +4691,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Set_Source",
-          "href": "docs/hal__bitmap___spec.html#L146C14"
+          "href": "docs/hal__bitmap___spec.html#L147C14"
         },
         {
           "kind": "span",
@@ -4676,69 +4707,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L146C26"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "in"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 147,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "                         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Native",
           "href": "docs/hal__bitmap___spec.html#L147C26"
         },
         {
@@ -4758,6 +4726,69 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "keyword",
+          "text": "in"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "out"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Bitmap_Buffer",
+          "href": "docs/hal__bitmap___spec.html#L101C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 148,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                         "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Native",
+          "href": "docs/hal__bitmap___spec.html#L148C26"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "UInt32",
           "href": "docs/hal___spec.html#L97C9"
@@ -4796,7 +4827,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 148,
+      "number": 149,
       "children": [
         {
           "kind": "span",
@@ -4812,13 +4843,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 149,
+      "number": 150,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 150,
+      "number": 151,
       "children": [
         {
           "kind": "span",
@@ -4839,13 +4870,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Source",
-          "href": "docs/hal__bitmap___spec.html#L150C13"
+          "href": "docs/hal__bitmap___spec.html#L151C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 151,
+      "number": 152,
       "children": [
         {
           "kind": "span",
@@ -4861,7 +4892,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L151C7"
+          "href": "docs/hal__bitmap___spec.html#L152C7"
         },
         {
           "kind": "span",
@@ -4882,7 +4913,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -4893,7 +4924,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 152,
+      "number": 153,
       "children": [
         {
           "kind": "span",
@@ -4914,7 +4945,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -4945,7 +4976,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 153,
+      "number": 154,
       "children": [
         {
           "kind": "span",
@@ -4961,13 +4992,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 154,
+      "number": 155,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 155,
+      "number": 156,
       "children": [
         {
           "kind": "span",
@@ -4988,13 +5019,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Source",
-          "href": "docs/hal__bitmap___spec.html#L155C13"
+          "href": "docs/hal__bitmap___spec.html#L156C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 156,
+      "number": 157,
       "children": [
         {
           "kind": "span",
@@ -5010,7 +5041,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L156C7"
+          "href": "docs/hal__bitmap___spec.html#L157C7"
         },
         {
           "kind": "span",
@@ -5031,7 +5062,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -5042,7 +5073,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 157,
+      "number": 158,
       "children": [
         {
           "kind": "span",
@@ -5094,7 +5125,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 158,
+      "number": 159,
       "children": [
         {
           "kind": "span",
@@ -5110,13 +5141,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 159,
+      "number": 160,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 160,
+      "number": 161,
       "children": [
         {
           "kind": "span",
@@ -5137,13 +5168,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Set_Pixel",
-          "href": "docs/hal__bitmap___spec.html#L160C14"
+          "href": "docs/hal__bitmap___spec.html#L161C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 161,
+      "number": 162,
       "children": [
         {
           "kind": "span",
@@ -5159,7 +5190,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L161C7"
+          "href": "docs/hal__bitmap___spec.html#L162C7"
         },
         {
           "kind": "span",
@@ -5200,7 +5231,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -5211,7 +5242,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 162,
+      "number": 163,
       "children": [
         {
           "kind": "span",
@@ -5222,7 +5253,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Pt",
-          "href": "docs/hal__bitmap___spec.html#L162C7"
+          "href": "docs/hal__bitmap___spec.html#L163C7"
         },
         {
           "kind": "span",
@@ -5243,7 +5274,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -5279,7 +5310,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 163,
+      "number": 164,
       "children": [
         {
           "kind": "span",
@@ -5295,13 +5326,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 164,
+      "number": 165,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 165,
+      "number": 166,
       "children": [
         {
           "kind": "span",
@@ -5322,13 +5353,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Set_Pixel",
-          "href": "docs/hal__bitmap___spec.html#L165C14"
+          "href": "docs/hal__bitmap___spec.html#L166C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 166,
+      "number": 167,
       "children": [
         {
           "kind": "span",
@@ -5344,7 +5375,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L166C7"
+          "href": "docs/hal__bitmap___spec.html#L167C7"
         },
         {
           "kind": "span",
@@ -5385,50 +5416,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 167,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Pt",
-          "href": "docs/hal__bitmap___spec.html#L167C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -5449,8 +5437,51 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Color",
+          "text": "Pt",
           "href": "docs/hal__bitmap___spec.html#L168C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Point",
+          "href": "docs/hal__bitmap___spec.html#L68C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 169,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Color",
+          "href": "docs/hal__bitmap___spec.html#L169C7"
         },
         {
           "kind": "span",
@@ -5471,7 +5502,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -5507,7 +5538,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 169,
+      "number": 170,
       "children": [
         {
           "kind": "span",
@@ -5523,13 +5554,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 170,
+      "number": 171,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 171,
+      "number": 172,
       "children": [
         {
           "kind": "span",
@@ -5550,13 +5581,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Set_Pixel",
-          "href": "docs/hal__bitmap___spec.html#L171C14"
+          "href": "docs/hal__bitmap___spec.html#L172C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 172,
+      "number": 173,
       "children": [
         {
           "kind": "span",
@@ -5572,7 +5603,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L172C7"
+          "href": "docs/hal__bitmap___spec.html#L173C7"
         },
         {
           "kind": "span",
@@ -5613,50 +5644,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 173,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Pt",
-          "href": "docs/hal__bitmap___spec.html#L173C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -5677,8 +5665,51 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Native",
+          "text": "Pt",
           "href": "docs/hal__bitmap___spec.html#L174C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Point",
+          "href": "docs/hal__bitmap___spec.html#L68C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 175,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Native",
+          "href": "docs/hal__bitmap___spec.html#L175C7"
         },
         {
           "kind": "span",
@@ -5735,7 +5766,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 175,
+      "number": 176,
       "children": [
         {
           "kind": "span",
@@ -5751,13 +5782,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 176,
+      "number": 177,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 177,
+      "number": 178,
       "children": [
         {
           "kind": "span",
@@ -5778,13 +5809,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Set_Pixel_Blend",
-          "href": "docs/hal__bitmap___spec.html#L177C14"
+          "href": "docs/hal__bitmap___spec.html#L178C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 178,
+      "number": 179,
       "children": [
         {
           "kind": "span",
@@ -5800,7 +5831,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L178C7"
+          "href": "docs/hal__bitmap___spec.html#L179C7"
         },
         {
           "kind": "span",
@@ -5841,7 +5872,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -5852,7 +5883,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 179,
+      "number": 180,
       "children": [
         {
           "kind": "span",
@@ -5863,7 +5894,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Pt",
-          "href": "docs/hal__bitmap___spec.html#L179C7"
+          "href": "docs/hal__bitmap___spec.html#L180C7"
         },
         {
           "kind": "span",
@@ -5884,7 +5915,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -5920,13 +5951,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 180,
+      "number": 181,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 181,
+      "number": 182,
       "children": [
         {
           "kind": "span",
@@ -5947,13 +5978,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Pixel",
-          "href": "docs/hal__bitmap___spec.html#L181C13"
+          "href": "docs/hal__bitmap___spec.html#L182C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 182,
+      "number": 183,
       "children": [
         {
           "kind": "span",
@@ -5969,7 +6000,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L182C7"
+          "href": "docs/hal__bitmap___spec.html#L183C7"
         },
         {
           "kind": "span",
@@ -5990,7 +6021,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -6001,7 +6032,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 183,
+      "number": 184,
       "children": [
         {
           "kind": "span",
@@ -6012,7 +6043,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Pt",
-          "href": "docs/hal__bitmap___spec.html#L183C7"
+          "href": "docs/hal__bitmap___spec.html#L184C7"
         },
         {
           "kind": "span",
@@ -6033,7 +6064,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -6044,7 +6075,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 184,
+      "number": 185,
       "children": [
         {
           "kind": "span",
@@ -6065,7 +6096,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -6096,7 +6127,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 185,
+      "number": 186,
       "children": [
         {
           "kind": "span",
@@ -6112,13 +6143,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 186,
+      "number": 187,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 187,
+      "number": 188,
       "children": [
         {
           "kind": "span",
@@ -6139,13 +6170,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Pixel",
-          "href": "docs/hal__bitmap___spec.html#L187C13"
+          "href": "docs/hal__bitmap___spec.html#L188C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 188,
+      "number": 189,
       "children": [
         {
           "kind": "span",
@@ -6161,7 +6192,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L188C7"
+          "href": "docs/hal__bitmap___spec.html#L189C7"
         },
         {
           "kind": "span",
@@ -6182,7 +6213,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -6193,7 +6224,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 189,
+      "number": 190,
       "children": [
         {
           "kind": "span",
@@ -6204,7 +6235,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Pt",
-          "href": "docs/hal__bitmap___spec.html#L189C7"
+          "href": "docs/hal__bitmap___spec.html#L190C7"
         },
         {
           "kind": "span",
@@ -6225,7 +6256,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -6236,7 +6267,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 190,
+      "number": 191,
       "children": [
         {
           "kind": "span",
@@ -6288,7 +6319,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 191,
+      "number": 192,
       "children": [
         {
           "kind": "span",
@@ -6304,13 +6335,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 192,
+      "number": 193,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 193,
+      "number": 194,
       "children": [
         {
           "kind": "span",
@@ -6331,13 +6362,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Draw_Line",
-          "href": "docs/hal__bitmap___spec.html#L193C14"
+          "href": "docs/hal__bitmap___spec.html#L194C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 194,
+      "number": 195,
       "children": [
         {
           "kind": "span",
@@ -6353,7 +6384,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L194C7"
+          "href": "docs/hal__bitmap___spec.html#L195C7"
         },
         {
           "kind": "span",
@@ -6394,66 +6425,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 195,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Start",
-          "href": "docs/hal__bitmap___spec.html#L195C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Stop",
-          "href": "docs/hal__bitmap___spec.html#L195C14"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -6474,8 +6446,67 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Thickness",
+          "text": "Start",
           "href": "docs/hal__bitmap___spec.html#L196C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Stop",
+          "href": "docs/hal__bitmap___spec.html#L196C14"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Point",
+          "href": "docs/hal__bitmap___spec.html#L68C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 197,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Thickness",
+          "href": "docs/hal__bitmap___spec.html#L197C7"
         },
         {
           "kind": "span",
@@ -6526,7 +6557,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 197,
+      "number": 198,
       "children": [
         {
           "kind": "span",
@@ -6537,7 +6568,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Fast",
-          "href": "docs/hal__bitmap___spec.html#L197C7"
+          "href": "docs/hal__bitmap___spec.html#L198C7"
         },
         {
           "kind": "span",
@@ -6613,7 +6644,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 198,
+      "number": 199,
       "children": [
         {
           "kind": "span",
@@ -6629,7 +6660,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 199,
+      "number": 200,
       "children": [
         {
           "kind": "span",
@@ -6645,7 +6676,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 200,
+      "number": 201,
       "children": [
         {
           "kind": "span",
@@ -6661,13 +6692,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 201,
+      "number": 202,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 202,
+      "number": 203,
       "children": [
         {
           "kind": "span",
@@ -6688,13 +6719,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Fill",
-          "href": "docs/hal__bitmap___spec.html#L202C14"
+          "href": "docs/hal__bitmap___spec.html#L203C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 203,
+      "number": 204,
       "children": [
         {
           "kind": "span",
@@ -6710,7 +6741,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L203C7"
+          "href": "docs/hal__bitmap___spec.html#L204C7"
         },
         {
           "kind": "span",
@@ -6751,7 +6782,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -6787,7 +6818,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 204,
+      "number": 205,
       "children": [
         {
           "kind": "span",
@@ -6803,13 +6834,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 205,
+      "number": 206,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 206,
+      "number": 207,
       "children": [
         {
           "kind": "span",
@@ -6830,13 +6861,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Fill_Rect",
-          "href": "docs/hal__bitmap___spec.html#L206C14"
+          "href": "docs/hal__bitmap___spec.html#L207C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 207,
+      "number": 208,
       "children": [
         {
           "kind": "span",
@@ -6852,7 +6883,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L207C7"
+          "href": "docs/hal__bitmap___spec.html#L208C7"
         },
         {
           "kind": "span",
@@ -6893,7 +6924,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -6904,7 +6935,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 208,
+      "number": 209,
       "children": [
         {
           "kind": "span",
@@ -6915,7 +6946,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Area",
-          "href": "docs/hal__bitmap___spec.html#L208C7"
+          "href": "docs/hal__bitmap___spec.html#L209C7"
         },
         {
           "kind": "span",
@@ -6936,7 +6967,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Rect",
-          "href": "docs/hal__bitmap___spec.html#L80C9"
+          "href": "docs/hal__bitmap___spec.html#L81C9"
         },
         {
           "kind": "span",
@@ -6972,7 +7003,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 209,
+      "number": 210,
       "children": [
         {
           "kind": "span",
@@ -6988,13 +7019,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 210,
+      "number": 211,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 211,
+      "number": 212,
       "children": [
         {
           "kind": "span",
@@ -7015,13 +7046,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Copy_Rect",
-          "href": "docs/hal__bitmap___spec.html#L211C14"
+          "href": "docs/hal__bitmap___spec.html#L212C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 212,
+      "number": 213,
       "children": [
         {
           "kind": "span",
@@ -7037,7 +7068,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Src_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L212C7"
+          "href": "docs/hal__bitmap___spec.html#L213C7"
         },
         {
           "kind": "span",
@@ -7058,7 +7089,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -7079,7 +7110,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 213,
+      "number": 214,
       "children": [
         {
           "kind": "span",
@@ -7090,7 +7121,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Src_Pt",
-          "href": "docs/hal__bitmap___spec.html#L213C7"
+          "href": "docs/hal__bitmap___spec.html#L214C7"
         },
         {
           "kind": "span",
@@ -7111,7 +7142,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -7122,7 +7153,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 214,
+      "number": 215,
       "children": [
         {
           "kind": "span",
@@ -7133,7 +7164,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dst_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L214C7"
+          "href": "docs/hal__bitmap___spec.html#L215C7"
         },
         {
           "kind": "span",
@@ -7174,50 +7205,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 215,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Dst_Pt",
-          "href": "docs/hal__bitmap___spec.html#L215C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -7238,13 +7226,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Bg_Buffer",
+          "text": "Dst_Pt",
           "href": "docs/hal__bitmap___spec.html#L216C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "      "
         },
         {
           "kind": "span",
@@ -7259,18 +7247,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "'"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Class"
+          "text": "Point",
+          "href": "docs/hal__bitmap___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -7291,13 +7269,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Bg_Pt",
+          "text": "Bg_Buffer",
           "href": "docs/hal__bitmap___spec.html#L217C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -7312,8 +7290,18 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "text": "Bitmap_Buffer",
+          "href": "docs/hal__bitmap___spec.html#L101C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "'"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Class"
         },
         {
           "kind": "span",
@@ -7334,7 +7322,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Width",
+          "text": "Bg_Pt",
           "href": "docs/hal__bitmap___spec.html#L218C7"
         },
         {
@@ -7355,7 +7343,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Natural"
+          "text": "Point",
+          "href": "docs/hal__bitmap___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -7376,13 +7365,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Height",
+          "text": "Width",
           "href": "docs/hal__bitmap___spec.html#L219C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "      "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -7418,8 +7407,50 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Synchronous",
+          "text": "Height",
           "href": "docs/hal__bitmap___spec.html#L220C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Natural"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 221,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Synchronous",
+          "href": "docs/hal__bitmap___spec.html#L221C7"
         },
         {
           "kind": "span",
@@ -7475,13 +7506,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 221,
+      "number": 222,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 222,
+      "number": 223,
       "children": [
         {
           "kind": "span",
@@ -7502,13 +7533,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Copy_Rect",
-          "href": "docs/hal__bitmap___spec.html#L222C14"
+          "href": "docs/hal__bitmap___spec.html#L223C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 223,
+      "number": 224,
       "children": [
         {
           "kind": "span",
@@ -7524,7 +7555,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Src_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L223C7"
+          "href": "docs/hal__bitmap___spec.html#L224C7"
         },
         {
           "kind": "span",
@@ -7545,7 +7576,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -7566,7 +7597,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 224,
+      "number": 225,
       "children": [
         {
           "kind": "span",
@@ -7577,7 +7608,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Src_Pt",
-          "href": "docs/hal__bitmap___spec.html#L224C7"
+          "href": "docs/hal__bitmap___spec.html#L225C7"
         },
         {
           "kind": "span",
@@ -7598,7 +7629,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -7609,7 +7640,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 225,
+      "number": 226,
       "children": [
         {
           "kind": "span",
@@ -7620,7 +7651,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dst_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L225C7"
+          "href": "docs/hal__bitmap___spec.html#L226C7"
         },
         {
           "kind": "span",
@@ -7661,50 +7692,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 226,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Dst_Pt",
-          "href": "docs/hal__bitmap___spec.html#L226C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -7725,13 +7713,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Width",
+          "text": "Dst_Pt",
           "href": "docs/hal__bitmap___spec.html#L227C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "      "
         },
         {
           "kind": "span",
@@ -7746,7 +7734,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Natural"
+          "text": "Point",
+          "href": "docs/hal__bitmap___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -7767,13 +7756,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Height",
+          "text": "Width",
           "href": "docs/hal__bitmap___spec.html#L228C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "      "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -7809,8 +7798,50 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Synchronous",
+          "text": "Height",
           "href": "docs/hal__bitmap___spec.html#L229C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Natural"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 230,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Synchronous",
+          "href": "docs/hal__bitmap___spec.html#L230C7"
         },
         {
           "kind": "span",
@@ -7866,13 +7897,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 230,
+      "number": 231,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 231,
+      "number": 232,
       "children": [
         {
           "kind": "span",
@@ -7893,13 +7924,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Copy_Rect_Blend",
-          "href": "docs/hal__bitmap___spec.html#L231C14"
+          "href": "docs/hal__bitmap___spec.html#L232C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 232,
+      "number": 233,
       "children": [
         {
           "kind": "span",
@@ -7915,7 +7946,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Src_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L232C7"
+          "href": "docs/hal__bitmap___spec.html#L233C7"
         },
         {
           "kind": "span",
@@ -7936,50 +7967,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 233,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Src_Pt",
-          "href": "docs/hal__bitmap___spec.html#L233C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -8000,8 +7988,51 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Dst_Buffer",
+          "text": "Src_Pt",
           "href": "docs/hal__bitmap___spec.html#L234C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Point",
+          "href": "docs/hal__bitmap___spec.html#L68C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 235,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Dst_Buffer",
+          "href": "docs/hal__bitmap___spec.html#L235C7"
         },
         {
           "kind": "span",
@@ -8042,7 +8073,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -8063,7 +8094,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 235,
+      "number": 236,
       "children": [
         {
           "kind": "span",
@@ -8074,7 +8105,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dst_Pt",
-          "href": "docs/hal__bitmap___spec.html#L235C7"
+          "href": "docs/hal__bitmap___spec.html#L236C7"
         },
         {
           "kind": "span",
@@ -8095,49 +8126,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 236,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Width",
-          "href": "docs/hal__bitmap___spec.html#L236C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Natural"
+          "href": "docs/hal__bitmap___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -8158,13 +8147,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Height",
+          "text": "Width",
           "href": "docs/hal__bitmap___spec.html#L237C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "      "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -8200,8 +8189,50 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Synchronous",
+          "text": "Height",
           "href": "docs/hal__bitmap___spec.html#L238C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Natural"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 239,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Synchronous",
+          "href": "docs/hal__bitmap___spec.html#L239C7"
         },
         {
           "kind": "span",
@@ -8257,13 +8288,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 239,
+      "number": 240,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 240,
+      "number": 241,
       "children": [
         {
           "kind": "span",
@@ -8284,13 +8315,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Draw_Vertical_Line",
-          "href": "docs/hal__bitmap___spec.html#L240C14"
+          "href": "docs/hal__bitmap___spec.html#L241C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 241,
+      "number": 242,
       "children": [
         {
           "kind": "span",
@@ -8306,7 +8337,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L241C7"
+          "href": "docs/hal__bitmap___spec.html#L242C7"
         },
         {
           "kind": "span",
@@ -8347,50 +8378,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 242,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Pt",
-          "href": "docs/hal__bitmap___spec.html#L242C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -8411,8 +8399,51 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Height",
+          "text": "Pt",
           "href": "docs/hal__bitmap___spec.html#L243C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Point",
+          "href": "docs/hal__bitmap___spec.html#L68C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 244,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Height",
+          "href": "docs/hal__bitmap___spec.html#L244C7"
         },
         {
           "kind": "span",
@@ -8468,13 +8499,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 244,
+      "number": 245,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 245,
+      "number": 246,
       "children": [
         {
           "kind": "span",
@@ -8495,13 +8526,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Draw_Horizontal_Line",
-          "href": "docs/hal__bitmap___spec.html#L245C14"
+          "href": "docs/hal__bitmap___spec.html#L246C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 246,
+      "number": 247,
       "children": [
         {
           "kind": "span",
@@ -8517,7 +8548,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L246C7"
+          "href": "docs/hal__bitmap___spec.html#L247C7"
         },
         {
           "kind": "span",
@@ -8558,50 +8589,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 247,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Pt",
-          "href": "docs/hal__bitmap___spec.html#L247C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -8622,8 +8610,51 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Width",
+          "text": "Pt",
           "href": "docs/hal__bitmap___spec.html#L248C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Point",
+          "href": "docs/hal__bitmap___spec.html#L68C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 249,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Width",
+          "href": "docs/hal__bitmap___spec.html#L249C7"
         },
         {
           "kind": "span",
@@ -8679,13 +8710,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 249,
+      "number": 250,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 250,
+      "number": 251,
       "children": [
         {
           "kind": "span",
@@ -8706,13 +8737,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Draw_Rect",
-          "href": "docs/hal__bitmap___spec.html#L250C14"
+          "href": "docs/hal__bitmap___spec.html#L251C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 251,
+      "number": 252,
       "children": [
         {
           "kind": "span",
@@ -8728,7 +8759,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L251C7"
+          "href": "docs/hal__bitmap___spec.html#L252C7"
         },
         {
           "kind": "span",
@@ -8769,50 +8800,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 252,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Area",
-          "href": "docs/hal__bitmap___spec.html#L252C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Rect",
-          "href": "docs/hal__bitmap___spec.html#L80C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -8833,8 +8821,51 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Thickness",
+          "text": "Area",
           "href": "docs/hal__bitmap___spec.html#L253C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Rect",
+          "href": "docs/hal__bitmap___spec.html#L81C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 254,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Thickness",
+          "href": "docs/hal__bitmap___spec.html#L254C7"
         },
         {
           "kind": "span",
@@ -8910,7 +8941,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 254,
+      "number": 255,
       "children": [
         {
           "kind": "span",
@@ -8926,13 +8957,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 255,
+      "number": 256,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 256,
+      "number": 257,
       "children": [
         {
           "kind": "span",
@@ -8953,13 +8984,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Draw_Rounded_Rect",
-          "href": "docs/hal__bitmap___spec.html#L256C14"
+          "href": "docs/hal__bitmap___spec.html#L257C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 257,
+      "number": 258,
       "children": [
         {
           "kind": "span",
@@ -8975,7 +9006,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L257C7"
+          "href": "docs/hal__bitmap___spec.html#L258C7"
         },
         {
           "kind": "span",
@@ -9016,50 +9047,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 258,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Area",
-          "href": "docs/hal__bitmap___spec.html#L258C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Rect",
-          "href": "docs/hal__bitmap___spec.html#L80C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -9080,8 +9068,51 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Radius",
+          "text": "Area",
           "href": "docs/hal__bitmap___spec.html#L259C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Rect",
+          "href": "docs/hal__bitmap___spec.html#L81C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 260,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Radius",
+          "href": "docs/hal__bitmap___spec.html#L260C7"
         },
         {
           "kind": "span",
@@ -9112,7 +9143,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 260,
+      "number": 261,
       "children": [
         {
           "kind": "span",
@@ -9123,7 +9154,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Thickness",
-          "href": "docs/hal__bitmap___spec.html#L260C7"
+          "href": "docs/hal__bitmap___spec.html#L261C7"
         },
         {
           "kind": "span",
@@ -9199,13 +9230,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 261,
+      "number": 262,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 262,
+      "number": 263,
       "children": [
         {
           "kind": "span",
@@ -9226,13 +9257,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Fill_Rounded_Rect",
-          "href": "docs/hal__bitmap___spec.html#L262C14"
+          "href": "docs/hal__bitmap___spec.html#L263C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 263,
+      "number": 264,
       "children": [
         {
           "kind": "span",
@@ -9248,7 +9279,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L263C7"
+          "href": "docs/hal__bitmap___spec.html#L264C7"
         },
         {
           "kind": "span",
@@ -9289,50 +9320,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 264,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Area",
-          "href": "docs/hal__bitmap___spec.html#L264C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Rect",
-          "href": "docs/hal__bitmap___spec.html#L80C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -9353,8 +9341,51 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Radius",
+          "text": "Area",
           "href": "docs/hal__bitmap___spec.html#L265C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Rect",
+          "href": "docs/hal__bitmap___spec.html#L81C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 266,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Radius",
+          "href": "docs/hal__bitmap___spec.html#L266C7"
         },
         {
           "kind": "span",
@@ -9410,13 +9441,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 266,
+      "number": 267,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 267,
+      "number": 268,
       "children": [
         {
           "kind": "span",
@@ -9437,13 +9468,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Draw_Circle",
-          "href": "docs/hal__bitmap___spec.html#L267C14"
+          "href": "docs/hal__bitmap___spec.html#L268C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 268,
+      "number": 269,
       "children": [
         {
           "kind": "span",
@@ -9459,7 +9490,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L268C7"
+          "href": "docs/hal__bitmap___spec.html#L269C7"
         },
         {
           "kind": "span",
@@ -9500,50 +9531,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 269,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Center",
-          "href": "docs/hal__bitmap___spec.html#L269C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -9564,7 +9552,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Radius",
+          "text": "Center",
           "href": "docs/hal__bitmap___spec.html#L270C7"
         },
         {
@@ -9585,6 +9573,49 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
+          "text": "Point",
+          "href": "docs/hal__bitmap___spec.html#L68C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 271,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Radius",
+          "href": "docs/hal__bitmap___spec.html#L271C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
           "text": "Natural"
         },
         {
@@ -9621,13 +9652,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 271,
+      "number": 272,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 272,
+      "number": 273,
       "children": [
         {
           "kind": "span",
@@ -9648,13 +9679,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Fill_Circle",
-          "href": "docs/hal__bitmap___spec.html#L272C14"
+          "href": "docs/hal__bitmap___spec.html#L273C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 273,
+      "number": 274,
       "children": [
         {
           "kind": "span",
@@ -9670,7 +9701,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L273C7"
+          "href": "docs/hal__bitmap___spec.html#L274C7"
         },
         {
           "kind": "span",
@@ -9711,50 +9742,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 274,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Center",
-          "href": "docs/hal__bitmap___spec.html#L274C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -9775,7 +9763,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Radius",
+          "text": "Center",
           "href": "docs/hal__bitmap___spec.html#L275C7"
         },
         {
@@ -9796,6 +9784,49 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
+          "text": "Point",
+          "href": "docs/hal__bitmap___spec.html#L68C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 276,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Radius",
+          "href": "docs/hal__bitmap___spec.html#L276C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
           "text": "Natural"
         },
         {
@@ -9832,13 +9863,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 276,
+      "number": 277,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 277,
+      "number": 278,
       "children": [
         {
           "kind": "span",
@@ -9859,13 +9890,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Cubic_Bezier",
-          "href": "docs/hal__bitmap___spec.html#L277C14"
+          "href": "docs/hal__bitmap___spec.html#L278C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 278,
+      "number": 279,
       "children": [
         {
           "kind": "span",
@@ -9881,7 +9912,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L278C7"
+          "href": "docs/hal__bitmap___spec.html#L279C7"
         },
         {
           "kind": "span",
@@ -9922,98 +9953,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 279,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "P1",
-          "href": "docs/hal__bitmap___spec.html#L279C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "P2",
-          "href": "docs/hal__bitmap___spec.html#L279C11"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "P3",
-          "href": "docs/hal__bitmap___spec.html#L279C15"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "P4",
-          "href": "docs/hal__bitmap___spec.html#L279C19"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Point",
-          "href": "docs/hal__bitmap___spec.html#L67C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -10034,8 +9974,99 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "N",
+          "text": "P1",
           "href": "docs/hal__bitmap___spec.html#L280C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "P2",
+          "href": "docs/hal__bitmap___spec.html#L280C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "P3",
+          "href": "docs/hal__bitmap___spec.html#L280C15"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "P4",
+          "href": "docs/hal__bitmap___spec.html#L280C19"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Point",
+          "href": "docs/hal__bitmap___spec.html#L68C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 281,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "N",
+          "href": "docs/hal__bitmap___spec.html#L281C7"
         },
         {
           "kind": "span",
@@ -10086,7 +10117,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 281,
+      "number": 282,
       "children": [
         {
           "kind": "span",
@@ -10097,7 +10128,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Thickness",
-          "href": "docs/hal__bitmap___spec.html#L281C7"
+          "href": "docs/hal__bitmap___spec.html#L282C7"
         },
         {
           "kind": "span",
@@ -10173,13 +10204,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 282,
+      "number": 283,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 283,
+      "number": 284,
       "children": [
         {
           "kind": "span",
@@ -10200,13 +10231,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bezier",
-          "href": "docs/hal__bitmap___spec.html#L283C14"
+          "href": "docs/hal__bitmap___spec.html#L284C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 284,
+      "number": 285,
       "children": [
         {
           "kind": "span",
@@ -10222,7 +10253,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L284C7"
+          "href": "docs/hal__bitmap___spec.html#L285C7"
         },
         {
           "kind": "span",
@@ -10263,50 +10294,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 285,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Input_Points",
-          "href": "docs/hal__bitmap___spec.html#L285C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Point_Array",
-          "href": "docs/hal__bitmap___spec.html#L72C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -10327,8 +10315,51 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "N",
+          "text": "Input_Points",
           "href": "docs/hal__bitmap___spec.html#L286C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Point_Array",
+          "href": "docs/hal__bitmap___spec.html#L73C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 287,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "N",
+          "href": "docs/hal__bitmap___spec.html#L287C7"
         },
         {
           "kind": "span",
@@ -10379,7 +10410,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 287,
+      "number": 288,
       "children": [
         {
           "kind": "span",
@@ -10390,7 +10421,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Thickness",
-          "href": "docs/hal__bitmap___spec.html#L287C7"
+          "href": "docs/hal__bitmap___spec.html#L288C7"
         },
         {
           "kind": "span",
@@ -10466,13 +10497,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 288,
+      "number": 289,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 289,
+      "number": 290,
       "children": [
         {
           "kind": "span",
@@ -10493,7 +10524,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer_Size",
-          "href": "docs/hal__bitmap___spec.html#L289C13"
+          "href": "docs/hal__bitmap___spec.html#L290C13"
         },
         {
           "kind": "span",
@@ -10509,7 +10540,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer",
-          "href": "docs/hal__bitmap___spec.html#L289C26"
+          "href": "docs/hal__bitmap___spec.html#L290C26"
         },
         {
           "kind": "span",
@@ -10530,7 +10561,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Buffer",
-          "href": "docs/hal__bitmap___spec.html#L100C9"
+          "href": "docs/hal__bitmap___spec.html#L101C9"
         },
         {
           "kind": "span",
@@ -10586,13 +10617,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 290,
+      "number": 291,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 291,
+      "number": 292,
       "children": [
         {
           "kind": "span",
@@ -10603,7 +10634,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transparent",
-          "href": "docs/hal__bitmap___spec.html#L291C4"
+          "href": "docs/hal__bitmap___spec.html#L292C4"
         },
         {
           "kind": "span",
@@ -10634,7 +10665,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -10720,7 +10751,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 292,
+      "number": 293,
       "children": [
         {
           "kind": "span",
@@ -10731,7 +10762,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dark_Red",
-          "href": "docs/hal__bitmap___spec.html#L292C4"
+          "href": "docs/hal__bitmap___spec.html#L293C4"
         },
         {
           "kind": "span",
@@ -10762,7 +10793,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -10848,7 +10879,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 293,
+      "number": 294,
       "children": [
         {
           "kind": "span",
@@ -10859,7 +10890,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Brown",
-          "href": "docs/hal__bitmap___spec.html#L293C4"
+          "href": "docs/hal__bitmap___spec.html#L294C4"
         },
         {
           "kind": "span",
@@ -10890,7 +10921,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -10976,7 +11007,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 294,
+      "number": 295,
       "children": [
         {
           "kind": "span",
@@ -10987,7 +11018,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Firebrick",
-          "href": "docs/hal__bitmap___spec.html#L294C4"
+          "href": "docs/hal__bitmap___spec.html#L295C4"
         },
         {
           "kind": "span",
@@ -11018,7 +11049,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -11104,7 +11135,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 295,
+      "number": 296,
       "children": [
         {
           "kind": "span",
@@ -11115,7 +11146,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Crimson",
-          "href": "docs/hal__bitmap___spec.html#L295C4"
+          "href": "docs/hal__bitmap___spec.html#L296C4"
         },
         {
           "kind": "span",
@@ -11146,7 +11177,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -11232,7 +11263,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 296,
+      "number": 297,
       "children": [
         {
           "kind": "span",
@@ -11243,7 +11274,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Red",
-          "href": "docs/hal__bitmap___spec.html#L296C4"
+          "href": "docs/hal__bitmap___spec.html#L297C4"
         },
         {
           "kind": "span",
@@ -11274,7 +11305,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -11360,7 +11391,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 297,
+      "number": 298,
       "children": [
         {
           "kind": "span",
@@ -11371,7 +11402,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Tomato",
-          "href": "docs/hal__bitmap___spec.html#L297C4"
+          "href": "docs/hal__bitmap___spec.html#L298C4"
         },
         {
           "kind": "span",
@@ -11402,7 +11433,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -11488,7 +11519,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 298,
+      "number": 299,
       "children": [
         {
           "kind": "span",
@@ -11499,7 +11530,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Coral",
-          "href": "docs/hal__bitmap___spec.html#L298C4"
+          "href": "docs/hal__bitmap___spec.html#L299C4"
         },
         {
           "kind": "span",
@@ -11530,7 +11561,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -11616,7 +11647,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 299,
+      "number": 300,
       "children": [
         {
           "kind": "span",
@@ -11627,7 +11658,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Indian_Red",
-          "href": "docs/hal__bitmap___spec.html#L299C4"
+          "href": "docs/hal__bitmap___spec.html#L300C4"
         },
         {
           "kind": "span",
@@ -11658,7 +11689,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -11744,7 +11775,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 300,
+      "number": 301,
       "children": [
         {
           "kind": "span",
@@ -11755,7 +11786,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Light_Coral",
-          "href": "docs/hal__bitmap___spec.html#L300C4"
+          "href": "docs/hal__bitmap___spec.html#L301C4"
         },
         {
           "kind": "span",
@@ -11786,7 +11817,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -11872,7 +11903,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 301,
+      "number": 302,
       "children": [
         {
           "kind": "span",
@@ -11883,7 +11914,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dark_Salmon",
-          "href": "docs/hal__bitmap___spec.html#L301C4"
+          "href": "docs/hal__bitmap___spec.html#L302C4"
         },
         {
           "kind": "span",
@@ -11914,7 +11945,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -12000,7 +12031,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 302,
+      "number": 303,
       "children": [
         {
           "kind": "span",
@@ -12011,7 +12042,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Salmon",
-          "href": "docs/hal__bitmap___spec.html#L302C4"
+          "href": "docs/hal__bitmap___spec.html#L303C4"
         },
         {
           "kind": "span",
@@ -12042,7 +12073,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -12128,7 +12159,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 303,
+      "number": 304,
       "children": [
         {
           "kind": "span",
@@ -12139,7 +12170,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Light_Salmon",
-          "href": "docs/hal__bitmap___spec.html#L303C4"
+          "href": "docs/hal__bitmap___spec.html#L304C4"
         },
         {
           "kind": "span",
@@ -12170,7 +12201,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -12256,7 +12287,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 304,
+      "number": 305,
       "children": [
         {
           "kind": "span",
@@ -12267,7 +12298,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dark_Orange",
-          "href": "docs/hal__bitmap___spec.html#L304C4"
+          "href": "docs/hal__bitmap___spec.html#L305C4"
         },
         {
           "kind": "span",
@@ -12298,7 +12329,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -12384,7 +12415,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 305,
+      "number": 306,
       "children": [
         {
           "kind": "span",
@@ -12395,7 +12426,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Orange",
-          "href": "docs/hal__bitmap___spec.html#L305C4"
+          "href": "docs/hal__bitmap___spec.html#L306C4"
         },
         {
           "kind": "span",
@@ -12426,7 +12457,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -12512,7 +12543,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 306,
+      "number": 307,
       "children": [
         {
           "kind": "span",
@@ -12523,7 +12554,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Light_Orange",
-          "href": "docs/hal__bitmap___spec.html#L306C4"
+          "href": "docs/hal__bitmap___spec.html#L307C4"
         },
         {
           "kind": "span",
@@ -12554,7 +12585,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -12640,7 +12671,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 307,
+      "number": 308,
       "children": [
         {
           "kind": "span",
@@ -12651,7 +12682,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Gold",
-          "href": "docs/hal__bitmap___spec.html#L307C4"
+          "href": "docs/hal__bitmap___spec.html#L308C4"
         },
         {
           "kind": "span",
@@ -12682,7 +12713,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -12768,7 +12799,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 308,
+      "number": 309,
       "children": [
         {
           "kind": "span",
@@ -12779,7 +12810,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dark_Golden_Rod",
-          "href": "docs/hal__bitmap___spec.html#L308C4"
+          "href": "docs/hal__bitmap___spec.html#L309C4"
         },
         {
           "kind": "span",
@@ -12810,7 +12841,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -12896,7 +12927,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 309,
+      "number": 310,
       "children": [
         {
           "kind": "span",
@@ -12907,7 +12938,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Golden_Rod",
-          "href": "docs/hal__bitmap___spec.html#L309C4"
+          "href": "docs/hal__bitmap___spec.html#L310C4"
         },
         {
           "kind": "span",
@@ -12938,7 +12969,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -13024,7 +13055,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 310,
+      "number": 311,
       "children": [
         {
           "kind": "span",
@@ -13035,7 +13066,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Pale_Golden_Rod",
-          "href": "docs/hal__bitmap___spec.html#L310C4"
+          "href": "docs/hal__bitmap___spec.html#L311C4"
         },
         {
           "kind": "span",
@@ -13066,7 +13097,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -13152,7 +13183,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 311,
+      "number": 312,
       "children": [
         {
           "kind": "span",
@@ -13163,7 +13194,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dark_Khaki",
-          "href": "docs/hal__bitmap___spec.html#L311C4"
+          "href": "docs/hal__bitmap___spec.html#L312C4"
         },
         {
           "kind": "span",
@@ -13194,7 +13225,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -13280,7 +13311,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 312,
+      "number": 313,
       "children": [
         {
           "kind": "span",
@@ -13291,7 +13322,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Khaki",
-          "href": "docs/hal__bitmap___spec.html#L312C4"
+          "href": "docs/hal__bitmap___spec.html#L313C4"
         },
         {
           "kind": "span",
@@ -13322,7 +13353,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -13408,7 +13439,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 313,
+      "number": 314,
       "children": [
         {
           "kind": "span",
@@ -13419,7 +13450,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Olive",
-          "href": "docs/hal__bitmap___spec.html#L313C4"
+          "href": "docs/hal__bitmap___spec.html#L314C4"
         },
         {
           "kind": "span",
@@ -13450,7 +13481,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -13506,134 +13537,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "number",
           "text": "128"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "000"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 314,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Yellow",
-          "href": "docs/hal__bitmap___spec.html#L314C4"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "              "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "constant"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "255"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "255"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "255"
         },
         {
           "kind": "span",
@@ -13674,8 +13577,136 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Yellow_Green",
+          "text": "Yellow",
           "href": "docs/hal__bitmap___spec.html#L315C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "              "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Bitmap_Color",
+          "href": "docs/hal__bitmap___spec.html#L87C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "255"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "255"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "255"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "000"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 316,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Yellow_Green",
+          "href": "docs/hal__bitmap___spec.html#L316C4"
         },
         {
           "kind": "span",
@@ -13706,7 +13737,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -13792,7 +13823,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 316,
+      "number": 317,
       "children": [
         {
           "kind": "span",
@@ -13803,7 +13834,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dark_Olive_Green",
-          "href": "docs/hal__bitmap___spec.html#L316C4"
+          "href": "docs/hal__bitmap___spec.html#L317C4"
         },
         {
           "kind": "span",
@@ -13834,7 +13865,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -13920,7 +13951,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 317,
+      "number": 318,
       "children": [
         {
           "kind": "span",
@@ -13931,7 +13962,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Olive_Drab",
-          "href": "docs/hal__bitmap___spec.html#L317C4"
+          "href": "docs/hal__bitmap___spec.html#L318C4"
         },
         {
           "kind": "span",
@@ -13962,7 +13993,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -14048,7 +14079,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 318,
+      "number": 319,
       "children": [
         {
           "kind": "span",
@@ -14059,7 +14090,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Lawn_Green",
-          "href": "docs/hal__bitmap___spec.html#L318C4"
+          "href": "docs/hal__bitmap___spec.html#L319C4"
         },
         {
           "kind": "span",
@@ -14090,7 +14121,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -14176,7 +14207,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 319,
+      "number": 320,
       "children": [
         {
           "kind": "span",
@@ -14187,7 +14218,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Chart_Reuse",
-          "href": "docs/hal__bitmap___spec.html#L319C4"
+          "href": "docs/hal__bitmap___spec.html#L320C4"
         },
         {
           "kind": "span",
@@ -14218,7 +14249,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -14304,7 +14335,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 320,
+      "number": 321,
       "children": [
         {
           "kind": "span",
@@ -14315,7 +14346,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Green_Yellow",
-          "href": "docs/hal__bitmap___spec.html#L320C4"
+          "href": "docs/hal__bitmap___spec.html#L321C4"
         },
         {
           "kind": "span",
@@ -14346,7 +14377,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -14432,7 +14463,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 321,
+      "number": 322,
       "children": [
         {
           "kind": "span",
@@ -14443,7 +14474,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dark_Green",
-          "href": "docs/hal__bitmap___spec.html#L321C4"
+          "href": "docs/hal__bitmap___spec.html#L322C4"
         },
         {
           "kind": "span",
@@ -14474,7 +14505,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -14560,7 +14591,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 322,
+      "number": 323,
       "children": [
         {
           "kind": "span",
@@ -14571,7 +14602,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Green",
-          "href": "docs/hal__bitmap___spec.html#L322C4"
+          "href": "docs/hal__bitmap___spec.html#L323C4"
         },
         {
           "kind": "span",
@@ -14602,7 +14633,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -14688,7 +14719,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 323,
+      "number": 324,
       "children": [
         {
           "kind": "span",
@@ -14699,7 +14730,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Maroon",
-          "href": "docs/hal__bitmap___spec.html#L323C4"
+          "href": "docs/hal__bitmap___spec.html#L324C4"
         },
         {
           "kind": "span",
@@ -14730,7 +14761,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -14816,7 +14847,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 324,
+      "number": 325,
       "children": [
         {
           "kind": "span",
@@ -14827,7 +14858,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Forest_Green",
-          "href": "docs/hal__bitmap___spec.html#L324C4"
+          "href": "docs/hal__bitmap___spec.html#L325C4"
         },
         {
           "kind": "span",
@@ -14858,7 +14889,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -14944,7 +14975,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 325,
+      "number": 326,
       "children": [
         {
           "kind": "span",
@@ -14955,7 +14986,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Lime",
-          "href": "docs/hal__bitmap___spec.html#L325C4"
+          "href": "docs/hal__bitmap___spec.html#L326C4"
         },
         {
           "kind": "span",
@@ -14986,7 +15017,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -15072,7 +15103,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 326,
+      "number": 327,
       "children": [
         {
           "kind": "span",
@@ -15083,7 +15114,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Lime_Green",
-          "href": "docs/hal__bitmap___spec.html#L326C4"
+          "href": "docs/hal__bitmap___spec.html#L327C4"
         },
         {
           "kind": "span",
@@ -15114,7 +15145,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -15200,7 +15231,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 327,
+      "number": 328,
       "children": [
         {
           "kind": "span",
@@ -15211,7 +15242,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Light_Green",
-          "href": "docs/hal__bitmap___spec.html#L327C4"
+          "href": "docs/hal__bitmap___spec.html#L328C4"
         },
         {
           "kind": "span",
@@ -15242,7 +15273,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -15328,7 +15359,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 328,
+      "number": 329,
       "children": [
         {
           "kind": "span",
@@ -15339,7 +15370,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Pale_Green",
-          "href": "docs/hal__bitmap___spec.html#L328C4"
+          "href": "docs/hal__bitmap___spec.html#L329C4"
         },
         {
           "kind": "span",
@@ -15370,7 +15401,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -15456,7 +15487,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 329,
+      "number": 330,
       "children": [
         {
           "kind": "span",
@@ -15467,7 +15498,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dark_Sea_Green",
-          "href": "docs/hal__bitmap___spec.html#L329C4"
+          "href": "docs/hal__bitmap___spec.html#L330C4"
         },
         {
           "kind": "span",
@@ -15498,7 +15529,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -15584,7 +15615,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 330,
+      "number": 331,
       "children": [
         {
           "kind": "span",
@@ -15595,7 +15626,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Medium_Spring_Green",
-          "href": "docs/hal__bitmap___spec.html#L330C4"
+          "href": "docs/hal__bitmap___spec.html#L331C4"
         },
         {
           "kind": "span",
@@ -15626,7 +15657,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -15712,7 +15743,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 331,
+      "number": 332,
       "children": [
         {
           "kind": "span",
@@ -15723,7 +15754,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Spring_Green",
-          "href": "docs/hal__bitmap___spec.html#L331C4"
+          "href": "docs/hal__bitmap___spec.html#L332C4"
         },
         {
           "kind": "span",
@@ -15754,7 +15785,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -15840,7 +15871,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 332,
+      "number": 333,
       "children": [
         {
           "kind": "span",
@@ -15851,7 +15882,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sea_Green",
-          "href": "docs/hal__bitmap___spec.html#L332C4"
+          "href": "docs/hal__bitmap___spec.html#L333C4"
         },
         {
           "kind": "span",
@@ -15882,7 +15913,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -15968,7 +15999,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 333,
+      "number": 334,
       "children": [
         {
           "kind": "span",
@@ -15979,7 +16010,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Medium_Aqua_Marine",
-          "href": "docs/hal__bitmap___spec.html#L333C4"
+          "href": "docs/hal__bitmap___spec.html#L334C4"
         },
         {
           "kind": "span",
@@ -16010,7 +16041,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -16096,7 +16127,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 334,
+      "number": 335,
       "children": [
         {
           "kind": "span",
@@ -16107,7 +16138,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Medium_Sea_Green",
-          "href": "docs/hal__bitmap___spec.html#L334C4"
+          "href": "docs/hal__bitmap___spec.html#L335C4"
         },
         {
           "kind": "span",
@@ -16138,7 +16169,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -16224,7 +16255,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 335,
+      "number": 336,
       "children": [
         {
           "kind": "span",
@@ -16235,7 +16266,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Light_Sea_Green",
-          "href": "docs/hal__bitmap___spec.html#L335C4"
+          "href": "docs/hal__bitmap___spec.html#L336C4"
         },
         {
           "kind": "span",
@@ -16266,7 +16297,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -16352,7 +16383,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 336,
+      "number": 337,
       "children": [
         {
           "kind": "span",
@@ -16363,7 +16394,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dark_Slate_Gray",
-          "href": "docs/hal__bitmap___spec.html#L336C4"
+          "href": "docs/hal__bitmap___spec.html#L337C4"
         },
         {
           "kind": "span",
@@ -16394,7 +16425,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -16480,7 +16511,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 337,
+      "number": 338,
       "children": [
         {
           "kind": "span",
@@ -16491,7 +16522,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Teal",
-          "href": "docs/hal__bitmap___spec.html#L337C4"
+          "href": "docs/hal__bitmap___spec.html#L338C4"
         },
         {
           "kind": "span",
@@ -16522,7 +16553,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -16608,7 +16639,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 338,
+      "number": 339,
       "children": [
         {
           "kind": "span",
@@ -16619,7 +16650,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dark_Cyan",
-          "href": "docs/hal__bitmap___spec.html#L338C4"
+          "href": "docs/hal__bitmap___spec.html#L339C4"
         },
         {
           "kind": "span",
@@ -16650,7 +16681,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -16721,134 +16752,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "number",
           "text": "139"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 339,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Aqua",
-          "href": "docs/hal__bitmap___spec.html#L339C4"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "                "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "constant"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "255"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "000"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "255"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "255"
         },
         {
           "kind": "span",
@@ -16874,7 +16777,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Cyan",
+          "text": "Aqua",
           "href": "docs/hal__bitmap___spec.html#L340C4"
         },
         {
@@ -16906,7 +16809,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -17002,8 +16905,136 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Light_Cyan",
+          "text": "Cyan",
           "href": "docs/hal__bitmap___spec.html#L341C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Bitmap_Color",
+          "href": "docs/hal__bitmap___spec.html#L87C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "255"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "000"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "255"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "255"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 342,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Light_Cyan",
+          "href": "docs/hal__bitmap___spec.html#L342C4"
         },
         {
           "kind": "span",
@@ -17034,7 +17065,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -17120,7 +17151,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 342,
+      "number": 343,
       "children": [
         {
           "kind": "span",
@@ -17131,7 +17162,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dark_Turquoise",
-          "href": "docs/hal__bitmap___spec.html#L342C4"
+          "href": "docs/hal__bitmap___spec.html#L343C4"
         },
         {
           "kind": "span",
@@ -17162,7 +17193,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -17248,7 +17279,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 343,
+      "number": 344,
       "children": [
         {
           "kind": "span",
@@ -17259,7 +17290,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Turquoise",
-          "href": "docs/hal__bitmap___spec.html#L343C4"
+          "href": "docs/hal__bitmap___spec.html#L344C4"
         },
         {
           "kind": "span",
@@ -17290,7 +17321,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -17376,7 +17407,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 344,
+      "number": 345,
       "children": [
         {
           "kind": "span",
@@ -17387,7 +17418,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Medium_Turquoise",
-          "href": "docs/hal__bitmap___spec.html#L344C4"
+          "href": "docs/hal__bitmap___spec.html#L345C4"
         },
         {
           "kind": "span",
@@ -17418,7 +17449,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -17504,7 +17535,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 345,
+      "number": 346,
       "children": [
         {
           "kind": "span",
@@ -17515,7 +17546,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Pale_Turquoise",
-          "href": "docs/hal__bitmap___spec.html#L345C4"
+          "href": "docs/hal__bitmap___spec.html#L346C4"
         },
         {
           "kind": "span",
@@ -17546,7 +17577,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -17632,7 +17663,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 346,
+      "number": 347,
       "children": [
         {
           "kind": "span",
@@ -17643,7 +17674,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Aqua_Marine",
-          "href": "docs/hal__bitmap___spec.html#L346C4"
+          "href": "docs/hal__bitmap___spec.html#L347C4"
         },
         {
           "kind": "span",
@@ -17674,7 +17705,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -17760,7 +17791,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 347,
+      "number": 348,
       "children": [
         {
           "kind": "span",
@@ -17771,7 +17802,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Powder_Blue",
-          "href": "docs/hal__bitmap___spec.html#L347C4"
+          "href": "docs/hal__bitmap___spec.html#L348C4"
         },
         {
           "kind": "span",
@@ -17802,7 +17833,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -17888,7 +17919,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 348,
+      "number": 349,
       "children": [
         {
           "kind": "span",
@@ -17899,7 +17930,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Cadet_Blue",
-          "href": "docs/hal__bitmap___spec.html#L348C4"
+          "href": "docs/hal__bitmap___spec.html#L349C4"
         },
         {
           "kind": "span",
@@ -17930,7 +17961,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -18016,7 +18047,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 349,
+      "number": 350,
       "children": [
         {
           "kind": "span",
@@ -18027,7 +18058,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Steel_Blue",
-          "href": "docs/hal__bitmap___spec.html#L349C4"
+          "href": "docs/hal__bitmap___spec.html#L350C4"
         },
         {
           "kind": "span",
@@ -18058,7 +18089,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -18144,7 +18175,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 350,
+      "number": 351,
       "children": [
         {
           "kind": "span",
@@ -18155,7 +18186,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Corn_Flower_Blue",
-          "href": "docs/hal__bitmap___spec.html#L350C4"
+          "href": "docs/hal__bitmap___spec.html#L351C4"
         },
         {
           "kind": "span",
@@ -18186,7 +18217,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -18272,7 +18303,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 351,
+      "number": 352,
       "children": [
         {
           "kind": "span",
@@ -18283,7 +18314,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Deep_Sky_Blue",
-          "href": "docs/hal__bitmap___spec.html#L351C4"
+          "href": "docs/hal__bitmap___spec.html#L352C4"
         },
         {
           "kind": "span",
@@ -18314,7 +18345,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -18400,7 +18431,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 352,
+      "number": 353,
       "children": [
         {
           "kind": "span",
@@ -18411,7 +18442,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dodger_Blue",
-          "href": "docs/hal__bitmap___spec.html#L352C4"
+          "href": "docs/hal__bitmap___spec.html#L353C4"
         },
         {
           "kind": "span",
@@ -18442,7 +18473,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -18528,7 +18559,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 353,
+      "number": 354,
       "children": [
         {
           "kind": "span",
@@ -18539,7 +18570,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Light_Blue",
-          "href": "docs/hal__bitmap___spec.html#L353C4"
+          "href": "docs/hal__bitmap___spec.html#L354C4"
         },
         {
           "kind": "span",
@@ -18570,7 +18601,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -18656,7 +18687,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 354,
+      "number": 355,
       "children": [
         {
           "kind": "span",
@@ -18667,7 +18698,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sky_Blue",
-          "href": "docs/hal__bitmap___spec.html#L354C4"
+          "href": "docs/hal__bitmap___spec.html#L355C4"
         },
         {
           "kind": "span",
@@ -18698,7 +18729,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -18784,7 +18815,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 355,
+      "number": 356,
       "children": [
         {
           "kind": "span",
@@ -18795,7 +18826,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Light_Sky_Blue",
-          "href": "docs/hal__bitmap___spec.html#L355C4"
+          "href": "docs/hal__bitmap___spec.html#L356C4"
         },
         {
           "kind": "span",
@@ -18826,7 +18857,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -18912,7 +18943,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 356,
+      "number": 357,
       "children": [
         {
           "kind": "span",
@@ -18923,7 +18954,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Midnight_Blue",
-          "href": "docs/hal__bitmap___spec.html#L356C4"
+          "href": "docs/hal__bitmap___spec.html#L357C4"
         },
         {
           "kind": "span",
@@ -18954,7 +18985,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -19040,7 +19071,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 357,
+      "number": 358,
       "children": [
         {
           "kind": "span",
@@ -19051,7 +19082,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Navy",
-          "href": "docs/hal__bitmap___spec.html#L357C4"
+          "href": "docs/hal__bitmap___spec.html#L358C4"
         },
         {
           "kind": "span",
@@ -19082,7 +19113,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -19168,7 +19199,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 358,
+      "number": 359,
       "children": [
         {
           "kind": "span",
@@ -19179,7 +19210,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dark_Blue",
-          "href": "docs/hal__bitmap___spec.html#L358C4"
+          "href": "docs/hal__bitmap___spec.html#L359C4"
         },
         {
           "kind": "span",
@@ -19210,7 +19241,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -19296,7 +19327,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 359,
+      "number": 360,
       "children": [
         {
           "kind": "span",
@@ -19307,7 +19338,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Medium_Blue",
-          "href": "docs/hal__bitmap___spec.html#L359C4"
+          "href": "docs/hal__bitmap___spec.html#L360C4"
         },
         {
           "kind": "span",
@@ -19338,7 +19369,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -19424,7 +19455,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 360,
+      "number": 361,
       "children": [
         {
           "kind": "span",
@@ -19435,7 +19466,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Blue",
-          "href": "docs/hal__bitmap___spec.html#L360C4"
+          "href": "docs/hal__bitmap___spec.html#L361C4"
         },
         {
           "kind": "span",
@@ -19466,7 +19497,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -19552,7 +19583,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 361,
+      "number": 362,
       "children": [
         {
           "kind": "span",
@@ -19563,7 +19594,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Royal_Blue",
-          "href": "docs/hal__bitmap___spec.html#L361C4"
+          "href": "docs/hal__bitmap___spec.html#L362C4"
         },
         {
           "kind": "span",
@@ -19594,7 +19625,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -19680,7 +19711,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 362,
+      "number": 363,
       "children": [
         {
           "kind": "span",
@@ -19691,7 +19722,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Blue_Violet",
-          "href": "docs/hal__bitmap___spec.html#L362C4"
+          "href": "docs/hal__bitmap___spec.html#L363C4"
         },
         {
           "kind": "span",
@@ -19722,7 +19753,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -19808,7 +19839,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 363,
+      "number": 364,
       "children": [
         {
           "kind": "span",
@@ -19819,7 +19850,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Indigo",
-          "href": "docs/hal__bitmap___spec.html#L363C4"
+          "href": "docs/hal__bitmap___spec.html#L364C4"
         },
         {
           "kind": "span",
@@ -19850,7 +19881,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -19936,7 +19967,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 364,
+      "number": 365,
       "children": [
         {
           "kind": "span",
@@ -19947,7 +19978,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dark_Slate_Blue",
-          "href": "docs/hal__bitmap___spec.html#L364C4"
+          "href": "docs/hal__bitmap___spec.html#L365C4"
         },
         {
           "kind": "span",
@@ -19978,7 +20009,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -20064,7 +20095,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 365,
+      "number": 366,
       "children": [
         {
           "kind": "span",
@@ -20075,7 +20106,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Slate_Blue",
-          "href": "docs/hal__bitmap___spec.html#L365C4"
+          "href": "docs/hal__bitmap___spec.html#L366C4"
         },
         {
           "kind": "span",
@@ -20106,7 +20137,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -20192,7 +20223,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 366,
+      "number": 367,
       "children": [
         {
           "kind": "span",
@@ -20203,7 +20234,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Medium_Slate_Blue",
-          "href": "docs/hal__bitmap___spec.html#L366C4"
+          "href": "docs/hal__bitmap___spec.html#L367C4"
         },
         {
           "kind": "span",
@@ -20234,7 +20265,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -20320,7 +20351,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 367,
+      "number": 368,
       "children": [
         {
           "kind": "span",
@@ -20331,7 +20362,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Medium_Purple",
-          "href": "docs/hal__bitmap___spec.html#L367C4"
+          "href": "docs/hal__bitmap___spec.html#L368C4"
         },
         {
           "kind": "span",
@@ -20362,7 +20393,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -20448,7 +20479,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 368,
+      "number": 369,
       "children": [
         {
           "kind": "span",
@@ -20459,7 +20490,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dark_Magenta",
-          "href": "docs/hal__bitmap___spec.html#L368C4"
+          "href": "docs/hal__bitmap___spec.html#L369C4"
         },
         {
           "kind": "span",
@@ -20490,7 +20521,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -20576,7 +20607,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 369,
+      "number": 370,
       "children": [
         {
           "kind": "span",
@@ -20587,7 +20618,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dark_Violet",
-          "href": "docs/hal__bitmap___spec.html#L369C4"
+          "href": "docs/hal__bitmap___spec.html#L370C4"
         },
         {
           "kind": "span",
@@ -20618,7 +20649,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -20704,7 +20735,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 370,
+      "number": 371,
       "children": [
         {
           "kind": "span",
@@ -20715,7 +20746,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dark_Orchid",
-          "href": "docs/hal__bitmap___spec.html#L370C4"
+          "href": "docs/hal__bitmap___spec.html#L371C4"
         },
         {
           "kind": "span",
@@ -20746,7 +20777,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -20832,7 +20863,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 371,
+      "number": 372,
       "children": [
         {
           "kind": "span",
@@ -20843,7 +20874,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Medium_Orchid",
-          "href": "docs/hal__bitmap___spec.html#L371C4"
+          "href": "docs/hal__bitmap___spec.html#L372C4"
         },
         {
           "kind": "span",
@@ -20874,7 +20905,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -20960,7 +20991,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 372,
+      "number": 373,
       "children": [
         {
           "kind": "span",
@@ -20971,7 +21002,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Purple",
-          "href": "docs/hal__bitmap___spec.html#L372C4"
+          "href": "docs/hal__bitmap___spec.html#L373C4"
         },
         {
           "kind": "span",
@@ -21002,7 +21033,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -21088,7 +21119,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 373,
+      "number": 374,
       "children": [
         {
           "kind": "span",
@@ -21099,7 +21130,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Thistle",
-          "href": "docs/hal__bitmap___spec.html#L373C4"
+          "href": "docs/hal__bitmap___spec.html#L374C4"
         },
         {
           "kind": "span",
@@ -21130,7 +21161,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -21216,7 +21247,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 374,
+      "number": 375,
       "children": [
         {
           "kind": "span",
@@ -21227,7 +21258,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Plum",
-          "href": "docs/hal__bitmap___spec.html#L374C4"
+          "href": "docs/hal__bitmap___spec.html#L375C4"
         },
         {
           "kind": "span",
@@ -21258,7 +21289,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -21344,7 +21375,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 375,
+      "number": 376,
       "children": [
         {
           "kind": "span",
@@ -21355,7 +21386,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Violet",
-          "href": "docs/hal__bitmap___spec.html#L375C4"
+          "href": "docs/hal__bitmap___spec.html#L376C4"
         },
         {
           "kind": "span",
@@ -21386,7 +21417,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -21472,7 +21503,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 376,
+      "number": 377,
       "children": [
         {
           "kind": "span",
@@ -21483,7 +21514,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Magenta",
-          "href": "docs/hal__bitmap___spec.html#L376C4"
+          "href": "docs/hal__bitmap___spec.html#L377C4"
         },
         {
           "kind": "span",
@@ -21514,7 +21545,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -21600,7 +21631,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 377,
+      "number": 378,
       "children": [
         {
           "kind": "span",
@@ -21611,7 +21642,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Orchid",
-          "href": "docs/hal__bitmap___spec.html#L377C4"
+          "href": "docs/hal__bitmap___spec.html#L378C4"
         },
         {
           "kind": "span",
@@ -21642,7 +21673,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -21728,7 +21759,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 378,
+      "number": 379,
       "children": [
         {
           "kind": "span",
@@ -21739,7 +21770,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Medium_Violet_Red",
-          "href": "docs/hal__bitmap___spec.html#L378C4"
+          "href": "docs/hal__bitmap___spec.html#L379C4"
         },
         {
           "kind": "span",
@@ -21770,7 +21801,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -21856,7 +21887,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 379,
+      "number": 380,
       "children": [
         {
           "kind": "span",
@@ -21867,7 +21898,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Pale_Violet_Red",
-          "href": "docs/hal__bitmap___spec.html#L379C4"
+          "href": "docs/hal__bitmap___spec.html#L380C4"
         },
         {
           "kind": "span",
@@ -21898,7 +21929,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -21984,7 +22015,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 380,
+      "number": 381,
       "children": [
         {
           "kind": "span",
@@ -21995,7 +22026,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Deep_Pink",
-          "href": "docs/hal__bitmap___spec.html#L380C4"
+          "href": "docs/hal__bitmap___spec.html#L381C4"
         },
         {
           "kind": "span",
@@ -22026,7 +22057,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -22112,7 +22143,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 381,
+      "number": 382,
       "children": [
         {
           "kind": "span",
@@ -22123,7 +22154,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Hot_Pink",
-          "href": "docs/hal__bitmap___spec.html#L381C4"
+          "href": "docs/hal__bitmap___spec.html#L382C4"
         },
         {
           "kind": "span",
@@ -22154,7 +22185,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -22240,7 +22271,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 382,
+      "number": 383,
       "children": [
         {
           "kind": "span",
@@ -22251,7 +22282,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Light_Pink",
-          "href": "docs/hal__bitmap___spec.html#L382C4"
+          "href": "docs/hal__bitmap___spec.html#L383C4"
         },
         {
           "kind": "span",
@@ -22282,7 +22313,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -22368,7 +22399,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 383,
+      "number": 384,
       "children": [
         {
           "kind": "span",
@@ -22379,7 +22410,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Pink",
-          "href": "docs/hal__bitmap___spec.html#L383C4"
+          "href": "docs/hal__bitmap___spec.html#L384C4"
         },
         {
           "kind": "span",
@@ -22410,7 +22441,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -22496,7 +22527,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 384,
+      "number": 385,
       "children": [
         {
           "kind": "span",
@@ -22507,7 +22538,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Antique_White",
-          "href": "docs/hal__bitmap___spec.html#L384C4"
+          "href": "docs/hal__bitmap___spec.html#L385C4"
         },
         {
           "kind": "span",
@@ -22538,7 +22569,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -22624,7 +22655,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 385,
+      "number": 386,
       "children": [
         {
           "kind": "span",
@@ -22635,7 +22666,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Beige",
-          "href": "docs/hal__bitmap___spec.html#L385C4"
+          "href": "docs/hal__bitmap___spec.html#L386C4"
         },
         {
           "kind": "span",
@@ -22666,7 +22697,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -22752,7 +22783,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 386,
+      "number": 387,
       "children": [
         {
           "kind": "span",
@@ -22763,7 +22794,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bisque",
-          "href": "docs/hal__bitmap___spec.html#L386C4"
+          "href": "docs/hal__bitmap___spec.html#L387C4"
         },
         {
           "kind": "span",
@@ -22794,7 +22825,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -22880,7 +22911,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 387,
+      "number": 388,
       "children": [
         {
           "kind": "span",
@@ -22891,7 +22922,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Blanched_Almond",
-          "href": "docs/hal__bitmap___spec.html#L387C4"
+          "href": "docs/hal__bitmap___spec.html#L388C4"
         },
         {
           "kind": "span",
@@ -22922,7 +22953,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -23008,7 +23039,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 388,
+      "number": 389,
       "children": [
         {
           "kind": "span",
@@ -23019,7 +23050,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Wheat",
-          "href": "docs/hal__bitmap___spec.html#L388C4"
+          "href": "docs/hal__bitmap___spec.html#L389C4"
         },
         {
           "kind": "span",
@@ -23050,7 +23081,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -23136,7 +23167,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 389,
+      "number": 390,
       "children": [
         {
           "kind": "span",
@@ -23147,7 +23178,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Corn_Silk",
-          "href": "docs/hal__bitmap___spec.html#L389C4"
+          "href": "docs/hal__bitmap___spec.html#L390C4"
         },
         {
           "kind": "span",
@@ -23178,7 +23209,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -23264,7 +23295,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 390,
+      "number": 391,
       "children": [
         {
           "kind": "span",
@@ -23275,7 +23306,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Lemon_Chiffon",
-          "href": "docs/hal__bitmap___spec.html#L390C4"
+          "href": "docs/hal__bitmap___spec.html#L391C4"
         },
         {
           "kind": "span",
@@ -23306,7 +23337,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -23392,7 +23423,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 391,
+      "number": 392,
       "children": [
         {
           "kind": "span",
@@ -23403,7 +23434,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Light_Yellow",
-          "href": "docs/hal__bitmap___spec.html#L391C4"
+          "href": "docs/hal__bitmap___spec.html#L392C4"
         },
         {
           "kind": "span",
@@ -23434,7 +23465,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -23520,7 +23551,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 392,
+      "number": 393,
       "children": [
         {
           "kind": "span",
@@ -23531,7 +23562,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Saddle_Brown",
-          "href": "docs/hal__bitmap___spec.html#L392C4"
+          "href": "docs/hal__bitmap___spec.html#L393C4"
         },
         {
           "kind": "span",
@@ -23562,7 +23593,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -23648,7 +23679,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 393,
+      "number": 394,
       "children": [
         {
           "kind": "span",
@@ -23659,7 +23690,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sienna",
-          "href": "docs/hal__bitmap___spec.html#L393C4"
+          "href": "docs/hal__bitmap___spec.html#L394C4"
         },
         {
           "kind": "span",
@@ -23690,7 +23721,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -23776,7 +23807,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 394,
+      "number": 395,
       "children": [
         {
           "kind": "span",
@@ -23787,7 +23818,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Chocolate",
-          "href": "docs/hal__bitmap___spec.html#L394C4"
+          "href": "docs/hal__bitmap___spec.html#L395C4"
         },
         {
           "kind": "span",
@@ -23818,7 +23849,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -23904,7 +23935,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 395,
+      "number": 396,
       "children": [
         {
           "kind": "span",
@@ -23915,7 +23946,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Peru",
-          "href": "docs/hal__bitmap___spec.html#L395C4"
+          "href": "docs/hal__bitmap___spec.html#L396C4"
         },
         {
           "kind": "span",
@@ -23946,7 +23977,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -24032,7 +24063,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 396,
+      "number": 397,
       "children": [
         {
           "kind": "span",
@@ -24043,7 +24074,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sandy_Brown",
-          "href": "docs/hal__bitmap___spec.html#L396C4"
+          "href": "docs/hal__bitmap___spec.html#L397C4"
         },
         {
           "kind": "span",
@@ -24074,7 +24105,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -24160,7 +24191,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 397,
+      "number": 398,
       "children": [
         {
           "kind": "span",
@@ -24171,7 +24202,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Burly_Wood",
-          "href": "docs/hal__bitmap___spec.html#L397C4"
+          "href": "docs/hal__bitmap___spec.html#L398C4"
         },
         {
           "kind": "span",
@@ -24202,7 +24233,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -24288,7 +24319,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 398,
+      "number": 399,
       "children": [
         {
           "kind": "span",
@@ -24299,7 +24330,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Tan",
-          "href": "docs/hal__bitmap___spec.html#L398C4"
+          "href": "docs/hal__bitmap___spec.html#L399C4"
         },
         {
           "kind": "span",
@@ -24330,7 +24361,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -24416,7 +24447,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 399,
+      "number": 400,
       "children": [
         {
           "kind": "span",
@@ -24427,7 +24458,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Rosy_Brown",
-          "href": "docs/hal__bitmap___spec.html#L399C4"
+          "href": "docs/hal__bitmap___spec.html#L400C4"
         },
         {
           "kind": "span",
@@ -24458,7 +24489,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -24544,7 +24575,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 400,
+      "number": 401,
       "children": [
         {
           "kind": "span",
@@ -24555,7 +24586,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Moccasin",
-          "href": "docs/hal__bitmap___spec.html#L400C4"
+          "href": "docs/hal__bitmap___spec.html#L401C4"
         },
         {
           "kind": "span",
@@ -24586,7 +24617,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -24672,7 +24703,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 401,
+      "number": 402,
       "children": [
         {
           "kind": "span",
@@ -24683,7 +24714,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Navajo_White",
-          "href": "docs/hal__bitmap___spec.html#L401C4"
+          "href": "docs/hal__bitmap___spec.html#L402C4"
         },
         {
           "kind": "span",
@@ -24714,7 +24745,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -24800,7 +24831,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 402,
+      "number": 403,
       "children": [
         {
           "kind": "span",
@@ -24811,7 +24842,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Peach_Puff",
-          "href": "docs/hal__bitmap___spec.html#L402C4"
+          "href": "docs/hal__bitmap___spec.html#L403C4"
         },
         {
           "kind": "span",
@@ -24842,7 +24873,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -24928,7 +24959,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 403,
+      "number": 404,
       "children": [
         {
           "kind": "span",
@@ -24939,7 +24970,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Misty_Rose",
-          "href": "docs/hal__bitmap___spec.html#L403C4"
+          "href": "docs/hal__bitmap___spec.html#L404C4"
         },
         {
           "kind": "span",
@@ -24970,7 +25001,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -25056,7 +25087,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 404,
+      "number": 405,
       "children": [
         {
           "kind": "span",
@@ -25067,7 +25098,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Lavender_Blush",
-          "href": "docs/hal__bitmap___spec.html#L404C4"
+          "href": "docs/hal__bitmap___spec.html#L405C4"
         },
         {
           "kind": "span",
@@ -25098,7 +25129,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -25184,7 +25215,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 405,
+      "number": 406,
       "children": [
         {
           "kind": "span",
@@ -25195,7 +25226,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Linen",
-          "href": "docs/hal__bitmap___spec.html#L405C4"
+          "href": "docs/hal__bitmap___spec.html#L406C4"
         },
         {
           "kind": "span",
@@ -25226,7 +25257,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -25312,7 +25343,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 406,
+      "number": 407,
       "children": [
         {
           "kind": "span",
@@ -25323,7 +25354,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Old_Lace",
-          "href": "docs/hal__bitmap___spec.html#L406C4"
+          "href": "docs/hal__bitmap___spec.html#L407C4"
         },
         {
           "kind": "span",
@@ -25354,7 +25385,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -25440,7 +25471,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 407,
+      "number": 408,
       "children": [
         {
           "kind": "span",
@@ -25451,7 +25482,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Papaya_Whip",
-          "href": "docs/hal__bitmap___spec.html#L407C4"
+          "href": "docs/hal__bitmap___spec.html#L408C4"
         },
         {
           "kind": "span",
@@ -25482,7 +25513,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -25568,7 +25599,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 408,
+      "number": 409,
       "children": [
         {
           "kind": "span",
@@ -25579,7 +25610,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sea_Shell",
-          "href": "docs/hal__bitmap___spec.html#L408C4"
+          "href": "docs/hal__bitmap___spec.html#L409C4"
         },
         {
           "kind": "span",
@@ -25610,7 +25641,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -25696,7 +25727,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 409,
+      "number": 410,
       "children": [
         {
           "kind": "span",
@@ -25707,7 +25738,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Mint_Cream",
-          "href": "docs/hal__bitmap___spec.html#L409C4"
+          "href": "docs/hal__bitmap___spec.html#L410C4"
         },
         {
           "kind": "span",
@@ -25738,7 +25769,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -25824,7 +25855,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 410,
+      "number": 411,
       "children": [
         {
           "kind": "span",
@@ -25835,7 +25866,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Slate_Gray",
-          "href": "docs/hal__bitmap___spec.html#L410C4"
+          "href": "docs/hal__bitmap___spec.html#L411C4"
         },
         {
           "kind": "span",
@@ -25866,7 +25897,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -25952,7 +25983,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 411,
+      "number": 412,
       "children": [
         {
           "kind": "span",
@@ -25963,7 +25994,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Light_Slate_Gray",
-          "href": "docs/hal__bitmap___spec.html#L411C4"
+          "href": "docs/hal__bitmap___spec.html#L412C4"
         },
         {
           "kind": "span",
@@ -25994,7 +26025,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -26080,7 +26111,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 412,
+      "number": 413,
       "children": [
         {
           "kind": "span",
@@ -26091,7 +26122,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Light_Steel_Blue",
-          "href": "docs/hal__bitmap___spec.html#L412C4"
+          "href": "docs/hal__bitmap___spec.html#L413C4"
         },
         {
           "kind": "span",
@@ -26122,7 +26153,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -26208,7 +26239,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 413,
+      "number": 414,
       "children": [
         {
           "kind": "span",
@@ -26219,7 +26250,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Lavender",
-          "href": "docs/hal__bitmap___spec.html#L413C4"
+          "href": "docs/hal__bitmap___spec.html#L414C4"
         },
         {
           "kind": "span",
@@ -26250,7 +26281,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -26336,7 +26367,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 414,
+      "number": 415,
       "children": [
         {
           "kind": "span",
@@ -26347,7 +26378,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Floral_White",
-          "href": "docs/hal__bitmap___spec.html#L414C4"
+          "href": "docs/hal__bitmap___spec.html#L415C4"
         },
         {
           "kind": "span",
@@ -26378,7 +26409,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -26464,7 +26495,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 415,
+      "number": 416,
       "children": [
         {
           "kind": "span",
@@ -26475,7 +26506,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Alice_Blue",
-          "href": "docs/hal__bitmap___spec.html#L415C4"
+          "href": "docs/hal__bitmap___spec.html#L416C4"
         },
         {
           "kind": "span",
@@ -26506,7 +26537,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -26547,134 +26578,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "number",
           "text": "240"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "248"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "255"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 416,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Ghost_White",
-          "href": "docs/hal__bitmap___spec.html#L416C4"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "constant"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "255"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "248"
         },
         {
           "kind": "span",
@@ -26730,8 +26633,136 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Honeydew",
+          "text": "Ghost_White",
           "href": "docs/hal__bitmap___spec.html#L417C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "         "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Bitmap_Color",
+          "href": "docs/hal__bitmap___spec.html#L87C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "255"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "248"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "248"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "255"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 418,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Honeydew",
+          "href": "docs/hal__bitmap___spec.html#L418C4"
         },
         {
           "kind": "span",
@@ -26762,7 +26793,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -26803,134 +26834,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "number",
           "text": "240"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "255"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "240"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 418,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Ivory",
-          "href": "docs/hal__bitmap___spec.html#L418C4"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "               "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "constant"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "255"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "255"
         },
         {
           "kind": "span",
@@ -26986,7 +26889,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Azure",
+          "text": "Ivory",
           "href": "docs/hal__bitmap___spec.html#L419C4"
         },
         {
@@ -27018,7 +26921,135 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "255"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "255"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "255"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "240"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 420,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Azure",
+          "href": "docs/hal__bitmap___spec.html#L420C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "               "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Bitmap_Color",
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -27104,7 +27135,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 420,
+      "number": 421,
       "children": [
         {
           "kind": "span",
@@ -27115,7 +27146,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Snow",
-          "href": "docs/hal__bitmap___spec.html#L420C4"
+          "href": "docs/hal__bitmap___spec.html#L421C4"
         },
         {
           "kind": "span",
@@ -27146,7 +27177,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -27232,7 +27263,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 421,
+      "number": 422,
       "children": [
         {
           "kind": "span",
@@ -27243,7 +27274,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Black",
-          "href": "docs/hal__bitmap___spec.html#L421C4"
+          "href": "docs/hal__bitmap___spec.html#L422C4"
         },
         {
           "kind": "span",
@@ -27274,7 +27305,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -27360,7 +27391,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 422,
+      "number": 423,
       "children": [
         {
           "kind": "span",
@@ -27371,7 +27402,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dim_Grey",
-          "href": "docs/hal__bitmap___spec.html#L422C4"
+          "href": "docs/hal__bitmap___spec.html#L423C4"
         },
         {
           "kind": "span",
@@ -27402,7 +27433,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -27473,134 +27504,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "number",
           "text": "105"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 423,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Grey",
-          "href": "docs/hal__bitmap___spec.html#L423C4"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "                "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "constant"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "255"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "128"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "128"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "128"
         },
         {
           "kind": "span",
@@ -27626,7 +27529,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Gray",
+          "text": "Grey",
           "href": "docs/hal__bitmap___spec.html#L424C4"
         },
         {
@@ -27658,7 +27561,135 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "255"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "128"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "128"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "128"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 425,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Gray",
+          "href": "docs/hal__bitmap___spec.html#L425C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Bitmap_Color",
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -27744,7 +27775,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 425,
+      "number": 426,
       "children": [
         {
           "kind": "span",
@@ -27755,7 +27786,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dark_Grey",
-          "href": "docs/hal__bitmap___spec.html#L425C4"
+          "href": "docs/hal__bitmap___spec.html#L426C4"
         },
         {
           "kind": "span",
@@ -27786,7 +27817,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -27872,7 +27903,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 426,
+      "number": 427,
       "children": [
         {
           "kind": "span",
@@ -27883,7 +27914,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Silver",
-          "href": "docs/hal__bitmap___spec.html#L426C4"
+          "href": "docs/hal__bitmap___spec.html#L427C4"
         },
         {
           "kind": "span",
@@ -27914,7 +27945,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -28000,7 +28031,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 427,
+      "number": 428,
       "children": [
         {
           "kind": "span",
@@ -28011,7 +28042,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Light_Grey",
-          "href": "docs/hal__bitmap___spec.html#L427C4"
+          "href": "docs/hal__bitmap___spec.html#L428C4"
         },
         {
           "kind": "span",
@@ -28042,7 +28073,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -28128,7 +28159,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 428,
+      "number": 429,
       "children": [
         {
           "kind": "span",
@@ -28139,7 +28170,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Gainsboro",
-          "href": "docs/hal__bitmap___spec.html#L428C4"
+          "href": "docs/hal__bitmap___spec.html#L429C4"
         },
         {
           "kind": "span",
@@ -28170,7 +28201,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -28256,7 +28287,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 429,
+      "number": 430,
       "children": [
         {
           "kind": "span",
@@ -28267,7 +28298,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "White_Smoke",
-          "href": "docs/hal__bitmap___spec.html#L429C4"
+          "href": "docs/hal__bitmap___spec.html#L430C4"
         },
         {
           "kind": "span",
@@ -28298,7 +28329,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -28384,7 +28415,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 430,
+      "number": 431,
       "children": [
         {
           "kind": "span",
@@ -28395,7 +28426,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "White",
-          "href": "docs/hal__bitmap___spec.html#L430C4"
+          "href": "docs/hal__bitmap___spec.html#L431C4"
         },
         {
           "kind": "span",
@@ -28426,7 +28457,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Bitmap_Color",
-          "href": "docs/hal__bitmap___spec.html#L86C9"
+          "href": "docs/hal__bitmap___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -28512,13 +28543,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 431,
+      "number": 432,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 432,
+      "number": 433,
       "children": [
         {
           "kind": "span",

@@ -3,10 +3,10 @@ GNATdoc.EntitiesCategory = {
   "entities": [
     {
       "label": "ADC",
-      "docHref": "docs/rp__device___spec.html#L49C4",
+      "docHref": "docs/rp__device___spec.html#L57C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L49"
+      "srcHref": "srcs/rp-device.ads.html#L57"
     },
     {
       "label": "ADC_Periph",
@@ -52,31 +52,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Alice_Blue",
-      "docHref": "docs/hal__bitmap___spec.html#L415C4",
+      "docHref": "docs/hal__bitmap___spec.html#L416C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L415"
+      "srcHref": "srcs/hal-bitmap.ads.html#L416"
     },
     {
       "label": "Antique_White",
-      "docHref": "docs/hal__bitmap___spec.html#L384C4",
+      "docHref": "docs/hal__bitmap___spec.html#L385C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L384"
+      "srcHref": "srcs/hal-bitmap.ads.html#L385"
     },
     {
       "label": "Aqua",
-      "docHref": "docs/hal__bitmap___spec.html#L339C4",
+      "docHref": "docs/hal__bitmap___spec.html#L340C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L339"
+      "srcHref": "srcs/hal-bitmap.ads.html#L340"
     },
     {
       "label": "Aqua_Marine",
-      "docHref": "docs/hal__bitmap___spec.html#L346C4",
+      "docHref": "docs/hal__bitmap___spec.html#L347C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L346"
+      "srcHref": "srcs/hal-bitmap.ads.html#L347"
     },
     {
       "label": "ARMED_Register",
@@ -87,10 +87,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Azure",
-      "docHref": "docs/hal__bitmap___spec.html#L419C4",
+      "docHref": "docs/hal__bitmap___spec.html#L420C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L419"
+      "srcHref": "srcs/hal-bitmap.ads.html#L420"
     },
     {
       "label": "Basic_RAM_Allocator",
@@ -108,52 +108,52 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Beige",
-      "docHref": "docs/hal__bitmap___spec.html#L385C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L385"
-    },
-    {
-      "label": "Bisque",
       "docHref": "docs/hal__bitmap___spec.html#L386C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-bitmap.ads.html#L386"
     },
     {
-      "label": "Bitmap_Color",
-      "docHref": "docs/hal__bitmap___spec.html#L86C9",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L86"
-    },
-    {
-      "label": "Black",
-      "docHref": "docs/hal__bitmap___spec.html#L421C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L421"
-    },
-    {
-      "label": "Blanched_Almond",
+      "label": "Bisque",
       "docHref": "docs/hal__bitmap___spec.html#L387C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-bitmap.ads.html#L387"
     },
     {
-      "label": "Blue",
-      "docHref": "docs/hal__bitmap___spec.html#L360C4",
+      "label": "Bitmap_Color",
+      "docHref": "docs/hal__bitmap___spec.html#L87C9",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L360"
+      "srcHref": "srcs/hal-bitmap.ads.html#L87"
+    },
+    {
+      "label": "Black",
+      "docHref": "docs/hal__bitmap___spec.html#L422C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L422"
+    },
+    {
+      "label": "Blanched_Almond",
+      "docHref": "docs/hal__bitmap___spec.html#L388C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L388"
+    },
+    {
+      "label": "Blue",
+      "docHref": "docs/hal__bitmap___spec.html#L361C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L361"
     },
     {
       "label": "Blue_Violet",
-      "docHref": "docs/hal__bitmap___spec.html#L362C4",
+      "docHref": "docs/hal__bitmap___spec.html#L363C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L362"
+      "srcHref": "srcs/hal-bitmap.ads.html#L363"
     },
     {
       "label": "BOD_Register",
@@ -164,10 +164,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Brown",
-      "docHref": "docs/hal__bitmap___spec.html#L293C4",
+      "docHref": "docs/hal__bitmap___spec.html#L294C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L293"
+      "srcHref": "srcs/hal-bitmap.ads.html#L294"
     },
     {
       "label": "BUFF_CPU_SHOULD_HANDLE_Register",
@@ -192,10 +192,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Burly_Wood",
-      "docHref": "docs/hal__bitmap___spec.html#L397C4",
+      "docHref": "docs/hal__bitmap___spec.html#L398C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L397"
+      "srcHref": "srcs/hal-bitmap.ads.html#L398"
     },
     {
       "label": "BUS_PRIORITY_ACK_Register",
@@ -227,38 +227,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Cadet_Blue",
-      "docHref": "docs/hal__bitmap___spec.html#L348C4",
+      "docHref": "docs/hal__bitmap___spec.html#L349C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L348"
+      "srcHref": "srcs/hal-bitmap.ads.html#L349"
     },
     {
       "label": "Card_Identification_Data_Register",
-      "docHref": "docs/hal__sdmmc___spec.html#L156C9",
+      "docHref": "docs/hal__sdmmc___spec.html#L157C9",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L156"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L157"
     },
     {
       "label": "Card_Information",
-      "docHref": "docs/hal__sdmmc___spec.html#L182C9",
+      "docHref": "docs/hal__sdmmc___spec.html#L183C9",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L182"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L183"
     },
     {
       "label": "Card_Revision",
-      "docHref": "docs/hal__sdmmc___spec.html#L131C9",
+      "docHref": "docs/hal__sdmmc___spec.html#L132C9",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L131"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L132"
     },
     {
       "label": "Card_Specific_Data_Register",
-      "docHref": "docs/hal__sdmmc___spec.html#L91C9",
+      "docHref": "docs/hal__sdmmc___spec.html#L92C9",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L91"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L92"
     },
     {
       "label": "CCR_Register",
@@ -276,17 +276,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "CDC_Line_Coding",
-      "docHref": "docs/usb__device__serial___spec.html#L40C9",
+      "docHref": "docs/usb__device__serial___spec.html#L41C9",
       "declared": "USB.Device.Serial",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb-device-serial.ads.html#L40"
+      "srcHref": "srcs/usb-device-serial.ads.html#L41"
     },
     {
       "label": "CDC_Line_Control_State",
-      "docHref": "docs/usb__device__serial___spec.html#L48C9",
+      "docHref": "docs/usb__device__serial___spec.html#L49C9",
       "declared": "USB.Device.Serial",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb-device-serial.ads.html#L48"
+      "srcHref": "srcs/usb-device-serial.ads.html#L49"
     },
     {
       "label": "CH0_CC_Register",
@@ -745,10 +745,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Chart_Reuse",
-      "docHref": "docs/hal__bitmap___spec.html#L319C4",
+      "docHref": "docs/hal__bitmap___spec.html#L320C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L319"
+      "srcHref": "srcs/hal-bitmap.ads.html#L320"
     },
     {
       "label": "CHIP_ID_Register",
@@ -766,10 +766,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Chocolate",
-      "docHref": "docs/hal__bitmap___spec.html#L394C4",
+      "docHref": "docs/hal__bitmap___spec.html#L395C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L394"
+      "srcHref": "srcs/hal-bitmap.ads.html#L395"
     },
     {
       "label": "CLK_ADC_CTRL_Register",
@@ -941,31 +941,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Cmd_Desc_Type",
-      "docHref": "docs/hal__sdmmc___spec.html#L301C9",
+      "docHref": "docs/hal__sdmmc___spec.html#L302C9",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L301"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L302"
     },
     {
       "label": "Coral",
-      "docHref": "docs/hal__bitmap___spec.html#L298C4",
+      "docHref": "docs/hal__bitmap___spec.html#L299C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L298"
+      "srcHref": "srcs/hal-bitmap.ads.html#L299"
     },
     {
       "label": "Corn_Flower_Blue",
-      "docHref": "docs/hal__bitmap___spec.html#L350C4",
+      "docHref": "docs/hal__bitmap___spec.html#L351C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L350"
+      "srcHref": "srcs/hal-bitmap.ads.html#L351"
     },
     {
       "label": "Corn_Silk",
-      "docHref": "docs/hal__bitmap___spec.html#L389C4",
+      "docHref": "docs/hal__bitmap___spec.html#L390C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L389"
+      "srcHref": "srcs/hal-bitmap.ads.html#L390"
     },
     {
       "label": "COUNT_Register",
@@ -997,10 +997,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Crimson",
-      "docHref": "docs/hal__bitmap___spec.html#L295C4",
+      "docHref": "docs/hal__bitmap___spec.html#L296C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L295"
+      "srcHref": "srcs/hal-bitmap.ads.html#L296"
     },
     {
       "label": "CS_Register",
@@ -1088,129 +1088,129 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Cyan",
-      "docHref": "docs/hal__bitmap___spec.html#L340C4",
+      "docHref": "docs/hal__bitmap___spec.html#L341C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L340"
+      "srcHref": "srcs/hal-bitmap.ads.html#L341"
     },
     {
       "label": "Dark_Blue",
-      "docHref": "docs/hal__bitmap___spec.html#L358C4",
+      "docHref": "docs/hal__bitmap___spec.html#L359C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L358"
+      "srcHref": "srcs/hal-bitmap.ads.html#L359"
     },
     {
       "label": "Dark_Cyan",
-      "docHref": "docs/hal__bitmap___spec.html#L338C4",
+      "docHref": "docs/hal__bitmap___spec.html#L339C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L338"
+      "srcHref": "srcs/hal-bitmap.ads.html#L339"
     },
     {
       "label": "Dark_Golden_Rod",
-      "docHref": "docs/hal__bitmap___spec.html#L308C4",
+      "docHref": "docs/hal__bitmap___spec.html#L309C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L308"
+      "srcHref": "srcs/hal-bitmap.ads.html#L309"
     },
     {
       "label": "Dark_Green",
-      "docHref": "docs/hal__bitmap___spec.html#L321C4",
+      "docHref": "docs/hal__bitmap___spec.html#L322C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L321"
+      "srcHref": "srcs/hal-bitmap.ads.html#L322"
     },
     {
       "label": "Dark_Grey",
-      "docHref": "docs/hal__bitmap___spec.html#L425C4",
+      "docHref": "docs/hal__bitmap___spec.html#L426C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L425"
+      "srcHref": "srcs/hal-bitmap.ads.html#L426"
     },
     {
       "label": "Dark_Khaki",
-      "docHref": "docs/hal__bitmap___spec.html#L311C4",
+      "docHref": "docs/hal__bitmap___spec.html#L312C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L311"
+      "srcHref": "srcs/hal-bitmap.ads.html#L312"
     },
     {
       "label": "Dark_Magenta",
-      "docHref": "docs/hal__bitmap___spec.html#L368C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L368"
-    },
-    {
-      "label": "Dark_Olive_Green",
-      "docHref": "docs/hal__bitmap___spec.html#L316C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L316"
-    },
-    {
-      "label": "Dark_Orange",
-      "docHref": "docs/hal__bitmap___spec.html#L304C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L304"
-    },
-    {
-      "label": "Dark_Orchid",
-      "docHref": "docs/hal__bitmap___spec.html#L370C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L370"
-    },
-    {
-      "label": "Dark_Red",
-      "docHref": "docs/hal__bitmap___spec.html#L292C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L292"
-    },
-    {
-      "label": "Dark_Salmon",
-      "docHref": "docs/hal__bitmap___spec.html#L301C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L301"
-    },
-    {
-      "label": "Dark_Sea_Green",
-      "docHref": "docs/hal__bitmap___spec.html#L329C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L329"
-    },
-    {
-      "label": "Dark_Slate_Blue",
-      "docHref": "docs/hal__bitmap___spec.html#L364C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L364"
-    },
-    {
-      "label": "Dark_Slate_Gray",
-      "docHref": "docs/hal__bitmap___spec.html#L336C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L336"
-    },
-    {
-      "label": "Dark_Turquoise",
-      "docHref": "docs/hal__bitmap___spec.html#L342C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L342"
-    },
-    {
-      "label": "Dark_Violet",
       "docHref": "docs/hal__bitmap___spec.html#L369C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-bitmap.ads.html#L369"
+    },
+    {
+      "label": "Dark_Olive_Green",
+      "docHref": "docs/hal__bitmap___spec.html#L317C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L317"
+    },
+    {
+      "label": "Dark_Orange",
+      "docHref": "docs/hal__bitmap___spec.html#L305C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L305"
+    },
+    {
+      "label": "Dark_Orchid",
+      "docHref": "docs/hal__bitmap___spec.html#L371C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L371"
+    },
+    {
+      "label": "Dark_Red",
+      "docHref": "docs/hal__bitmap___spec.html#L293C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L293"
+    },
+    {
+      "label": "Dark_Salmon",
+      "docHref": "docs/hal__bitmap___spec.html#L302C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L302"
+    },
+    {
+      "label": "Dark_Sea_Green",
+      "docHref": "docs/hal__bitmap___spec.html#L330C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L330"
+    },
+    {
+      "label": "Dark_Slate_Blue",
+      "docHref": "docs/hal__bitmap___spec.html#L365C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L365"
+    },
+    {
+      "label": "Dark_Slate_Gray",
+      "docHref": "docs/hal__bitmap___spec.html#L337C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L337"
+    },
+    {
+      "label": "Dark_Turquoise",
+      "docHref": "docs/hal__bitmap___spec.html#L343C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L343"
+    },
+    {
+      "label": "Dark_Violet",
+      "docHref": "docs/hal__bitmap___spec.html#L370C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L370"
     },
     {
       "label": "DBG_CFGINFO_Register",
@@ -1263,31 +1263,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Deep_Pink",
-      "docHref": "docs/hal__bitmap___spec.html#L380C4",
+      "docHref": "docs/hal__bitmap___spec.html#L381C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L380"
+      "srcHref": "srcs/hal-bitmap.ads.html#L381"
     },
     {
       "label": "Deep_Sky_Blue",
-      "docHref": "docs/hal__bitmap___spec.html#L351C4",
+      "docHref": "docs/hal__bitmap___spec.html#L352C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L351"
+      "srcHref": "srcs/hal-bitmap.ads.html#L352"
     },
     {
       "label": "Default_SPI_Configuration",
-      "docHref": "docs/rp__spi___spec.html#L33C4",
+      "docHref": "docs/rp__spi___spec.html#L37C4",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L33"
+      "srcHref": "srcs/rp-spi.ads.html#L37"
     },
     {
       "label": "Default_UART_Configuration",
-      "docHref": "docs/rp__uart___spec.html#L37C4",
+      "docHref": "docs/rp__uart___spec.html#L34C4",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L37"
+      "srcHref": "srcs/rp-uart.ads.html#L34"
     },
     {
       "label": "DEMCR_Register",
@@ -1298,17 +1298,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Device_Descriptor",
-      "docHref": "docs/usb___spec.html#L105C9",
+      "docHref": "docs/usb___spec.html#L110C9",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L105"
+      "srcHref": "srcs/usb.ads.html#L110"
     },
     {
       "label": "Device_Qualifier",
-      "docHref": "docs/usb___spec.html#L122C9",
+      "docHref": "docs/usb___spec.html#L127C9",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L122"
+      "srcHref": "srcs/usb.ads.html#L127"
     },
     {
       "label": "DFSR_Register",
@@ -1326,10 +1326,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Dim_Grey",
-      "docHref": "docs/hal__bitmap___spec.html#L422C4",
+      "docHref": "docs/hal__bitmap___spec.html#L423C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L422"
+      "srcHref": "srcs/hal-bitmap.ads.html#L423"
     },
     {
       "label": "DIV_CSR_Register",
@@ -1354,10 +1354,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "DMA_Configuration",
-      "docHref": "docs/rp__dma___spec.html#L87C9",
+      "docHref": "docs/rp__dma___spec.html#L89C9",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L87"
+      "srcHref": "srcs/rp-dma.ads.html#L89"
     },
     {
       "label": "DMA_Periph",
@@ -1375,10 +1375,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "DMA_Status",
-      "docHref": "docs/rp__dma___spec.html#L102C9",
+      "docHref": "docs/rp__dma___spec.html#L104C9",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L102"
+      "srcHref": "srcs/rp-dma.ads.html#L104"
     },
     {
       "label": "DMACR_Register",
@@ -1403,10 +1403,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Dodger_Blue",
-      "docHref": "docs/hal__bitmap___spec.html#L352C4",
+      "docHref": "docs/hal__bitmap___spec.html#L353C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L352"
+      "srcHref": "srcs/hal-bitmap.ads.html#L353"
     },
     {
       "label": "DONE_proc_Field",
@@ -2054,10 +2054,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "EP_Addr",
-      "docHref": "docs/usb___spec.html#L43C9",
+      "docHref": "docs/usb___spec.html#L48C9",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L43"
+      "srcHref": "srcs/usb.ads.html#L48"
     },
     {
       "label": "EP_STALL_ARM_Register",
@@ -2072,6 +2072,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
       "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L877"
+    },
+    {
+      "label": "Fast_Mode",
+      "docHref": "docs/rp__i2c___spec.html#L38C4",
+      "declared": "RP.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-i2c.ads.html#L38"
+    },
+    {
+      "label": "Fast_Mode_Plus",
+      "docHref": "docs/rp__i2c___spec.html#L45C4",
+      "declared": "RP.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-i2c.ads.html#L45"
     },
     {
       "label": "FBDIV_INT_Register",
@@ -2173,10 +2187,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Firebrick",
-      "docHref": "docs/hal__bitmap___spec.html#L294C4",
+      "docHref": "docs/hal__bitmap___spec.html#L295C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L294"
+      "srcHref": "srcs/hal-bitmap.ads.html#L295"
     },
     {
       "label": "FLEVEL_Register",
@@ -2187,10 +2201,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Floral_White",
-      "docHref": "docs/hal__bitmap___spec.html#L414C4",
+      "docHref": "docs/hal__bitmap___spec.html#L415C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L414"
+      "srcHref": "srcs/hal-bitmap.ads.html#L415"
     },
     {
       "label": "FLUSH_Register",
@@ -2201,10 +2215,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Forest_Green",
-      "docHref": "docs/hal__bitmap___spec.html#L324C4",
+      "docHref": "docs/hal__bitmap___spec.html#L325C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L324"
+      "srcHref": "srcs/hal-bitmap.ads.html#L325"
     },
     {
       "label": "Framed_Buffer",
@@ -2278,31 +2292,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Gainsboro",
-      "docHref": "docs/hal__bitmap___spec.html#L428C4",
+      "docHref": "docs/hal__bitmap___spec.html#L429C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L428"
+      "srcHref": "srcs/hal-bitmap.ads.html#L429"
     },
     {
       "label": "Ghost_White",
-      "docHref": "docs/hal__bitmap___spec.html#L416C4",
+      "docHref": "docs/hal__bitmap___spec.html#L417C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L416"
+      "srcHref": "srcs/hal-bitmap.ads.html#L417"
     },
     {
       "label": "Gold",
-      "docHref": "docs/hal__bitmap___spec.html#L307C4",
+      "docHref": "docs/hal__bitmap___spec.html#L308C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L307"
+      "srcHref": "srcs/hal-bitmap.ads.html#L308"
     },
     {
       "label": "Golden_Rod",
-      "docHref": "docs/hal__bitmap___spec.html#L309C4",
+      "docHref": "docs/hal__bitmap___spec.html#L310C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L309"
+      "srcHref": "srcs/hal-bitmap.ads.html#L310"
     },
     {
       "label": "GPIO0_CTRL_Register",
@@ -2964,59 +2978,59 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Gray",
+      "docHref": "docs/hal__bitmap___spec.html#L425C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L425"
+    },
+    {
+      "label": "Green",
+      "docHref": "docs/hal__bitmap___spec.html#L323C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L323"
+    },
+    {
+      "label": "Green_Yellow",
+      "docHref": "docs/hal__bitmap___spec.html#L321C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L321"
+    },
+    {
+      "label": "Grey",
       "docHref": "docs/hal__bitmap___spec.html#L424C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-bitmap.ads.html#L424"
     },
     {
-      "label": "Green",
-      "docHref": "docs/hal__bitmap___spec.html#L322C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L322"
-    },
-    {
-      "label": "Green_Yellow",
-      "docHref": "docs/hal__bitmap___spec.html#L320C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L320"
-    },
-    {
-      "label": "Grey",
-      "docHref": "docs/hal__bitmap___spec.html#L423C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L423"
-    },
-    {
       "label": "Header",
-      "docHref": "docs/rp__rom___spec.html#L36C4",
+      "docHref": "docs/rp__rom___spec.html#L38C4",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L36"
+      "srcHref": "srcs/rp-rom.ads.html#L38"
     },
     {
       "label": "Header_Fields",
-      "docHref": "docs/rp__rom___spec.html#L23C9",
+      "docHref": "docs/rp__rom___spec.html#L25C9",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L23"
+      "srcHref": "srcs/rp-rom.ads.html#L25"
     },
     {
       "label": "Honeydew",
-      "docHref": "docs/hal__bitmap___spec.html#L417C4",
+      "docHref": "docs/hal__bitmap___spec.html#L418C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L417"
+      "srcHref": "srcs/hal-bitmap.ads.html#L418"
     },
     {
       "label": "Hot_Pink",
-      "docHref": "docs/hal__bitmap___spec.html#L381C4",
+      "docHref": "docs/hal__bitmap___spec.html#L382C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L381"
+      "srcHref": "srcs/hal-bitmap.ads.html#L382"
     },
     {
       "label": "I2C0_Periph",
@@ -3034,17 +3048,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "I2C_0",
-      "docHref": "docs/rp__device___spec.html#L25C4",
+      "docHref": "docs/rp__device___spec.html#L28C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L25"
+      "srcHref": "srcs/rp-device.ads.html#L28"
     },
     {
       "label": "I2C_1",
-      "docHref": "docs/rp__device___spec.html#L26C4",
+      "docHref": "docs/rp__device___spec.html#L29C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L26"
+      "srcHref": "srcs/rp-device.ads.html#L29"
+    },
+    {
+      "label": "I2C_Abort_Source",
+      "docHref": "docs/rp__i2c___spec.html#L144C9",
+      "declared": "RP.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-i2c.ads.html#L144"
+    },
+    {
+      "label": "I2C_Config",
+      "docHref": "docs/rp__i2c___spec.html#L53C9",
+      "declared": "RP.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-i2c.ads.html#L53"
     },
     {
       "label": "I2C_Peripheral",
@@ -3052,6 +3080,34 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP2040_SVD.I2C",
       "declared_qualifier": "",
       "srcHref": "srcs/rp2040_svd-i2c.ads.html#L3023"
+    },
+    {
+      "label": "I2C_State",
+      "docHref": "docs/rp__i2c___spec.html#L202C9",
+      "declared": "RP.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-i2c.ads.html#L202"
+    },
+    {
+      "label": "I2C_Timing",
+      "docHref": "docs/rp__i2c___spec.html#L21C9",
+      "declared": "RP.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-i2c.ads.html#L21"
+    },
+    {
+      "label": "I2CM_0",
+      "docHref": "docs/rp__device___spec.html#L33C4",
+      "declared": "RP.Device",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-device.ads.html#L33"
+    },
+    {
+      "label": "I2CM_1",
+      "docHref": "docs/rp__device___spec.html#L34C4",
+      "declared": "RP.Device",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-device.ads.html#L34"
     },
     {
       "label": "IC_ACK_GENERAL_CALL_Register",
@@ -3363,17 +3419,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Indian_Red",
-      "docHref": "docs/hal__bitmap___spec.html#L299C4",
+      "docHref": "docs/hal__bitmap___spec.html#L300C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L299"
+      "srcHref": "srcs/hal-bitmap.ads.html#L300"
     },
     {
       "label": "Indigo",
-      "docHref": "docs/hal__bitmap___spec.html#L363C4",
+      "docHref": "docs/hal__bitmap___spec.html#L364C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L363"
+      "srcHref": "srcs/hal-bitmap.ads.html#L364"
     },
     {
       "label": "INSTR_MEM0_Register",
@@ -3741,24 +3797,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "INTERP_0",
-      "docHref": "docs/rp__device___spec.html#L40C4",
+      "docHref": "docs/rp__device___spec.html#L48C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L40"
+      "srcHref": "srcs/rp-device.ads.html#L48"
     },
     {
       "label": "INTERP_1",
-      "docHref": "docs/rp__device___spec.html#L42C4",
+      "docHref": "docs/rp__device___spec.html#L50C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L42"
+      "srcHref": "srcs/rp-device.ads.html#L50"
     },
     {
       "label": "INTERP_Peripheral",
-      "docHref": "docs/rp__interpolator___spec.html#L119C9",
+      "docHref": "docs/rp__interpolator___spec.html#L121C9",
       "declared": "RP.Interpolator",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-interpolator.ads.html#L119"
+      "srcHref": "srcs/rp-interpolator.ads.html#L121"
     },
     {
       "label": "INTF0_Register",
@@ -4021,10 +4077,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "IRQ",
-      "docHref": "docs/rp__pio__encoding___spec.html#L174C9",
+      "docHref": "docs/rp__pio__encoding___spec.html#L176C9",
       "declared": "RP.PIO.Encoding",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-encoding.ads.html#L174"
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L176"
     },
     {
       "label": "IRQ0_INTE_Register",
@@ -4147,171 +4203,171 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Ivory",
-      "docHref": "docs/hal__bitmap___spec.html#L418C4",
+      "docHref": "docs/hal__bitmap___spec.html#L419C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L418"
+      "srcHref": "srcs/hal-bitmap.ads.html#L419"
     },
     {
       "label": "JMP",
-      "docHref": "docs/rp__pio__encoding___spec.html#L21C9",
+      "docHref": "docs/rp__pio__encoding___spec.html#L23C9",
       "declared": "RP.PIO.Encoding",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-encoding.ads.html#L21"
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L23"
     },
     {
       "label": "Khaki",
-      "docHref": "docs/hal__bitmap___spec.html#L312C4",
+      "docHref": "docs/hal__bitmap___spec.html#L313C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L312"
+      "srcHref": "srcs/hal-bitmap.ads.html#L313"
     },
     {
       "label": "Lane_Config",
-      "docHref": "docs/rp__interpolator___spec.html#L21C9",
+      "docHref": "docs/rp__interpolator___spec.html#L23C9",
       "declared": "RP.Interpolator",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-interpolator.ads.html#L21"
+      "srcHref": "srcs/rp-interpolator.ads.html#L23"
     },
     {
       "label": "Lavender",
-      "docHref": "docs/hal__bitmap___spec.html#L413C4",
+      "docHref": "docs/hal__bitmap___spec.html#L414C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L413"
+      "srcHref": "srcs/hal-bitmap.ads.html#L414"
     },
     {
       "label": "Lavender_Blush",
-      "docHref": "docs/hal__bitmap___spec.html#L404C4",
+      "docHref": "docs/hal__bitmap___spec.html#L405C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L404"
+      "srcHref": "srcs/hal-bitmap.ads.html#L405"
     },
     {
       "label": "Lawn_Green",
-      "docHref": "docs/hal__bitmap___spec.html#L318C4",
+      "docHref": "docs/hal__bitmap___spec.html#L319C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L318"
+      "srcHref": "srcs/hal-bitmap.ads.html#L319"
     },
     {
       "label": "Lemon_Chiffon",
-      "docHref": "docs/hal__bitmap___spec.html#L390C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L390"
-    },
-    {
-      "label": "Light_Blue",
-      "docHref": "docs/hal__bitmap___spec.html#L353C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L353"
-    },
-    {
-      "label": "Light_Coral",
-      "docHref": "docs/hal__bitmap___spec.html#L300C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L300"
-    },
-    {
-      "label": "Light_Cyan",
-      "docHref": "docs/hal__bitmap___spec.html#L341C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L341"
-    },
-    {
-      "label": "Light_Green",
-      "docHref": "docs/hal__bitmap___spec.html#L327C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L327"
-    },
-    {
-      "label": "Light_Grey",
-      "docHref": "docs/hal__bitmap___spec.html#L427C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L427"
-    },
-    {
-      "label": "Light_Orange",
-      "docHref": "docs/hal__bitmap___spec.html#L306C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L306"
-    },
-    {
-      "label": "Light_Pink",
-      "docHref": "docs/hal__bitmap___spec.html#L382C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L382"
-    },
-    {
-      "label": "Light_Salmon",
-      "docHref": "docs/hal__bitmap___spec.html#L303C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L303"
-    },
-    {
-      "label": "Light_Sea_Green",
-      "docHref": "docs/hal__bitmap___spec.html#L335C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L335"
-    },
-    {
-      "label": "Light_Sky_Blue",
-      "docHref": "docs/hal__bitmap___spec.html#L355C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L355"
-    },
-    {
-      "label": "Light_Slate_Gray",
-      "docHref": "docs/hal__bitmap___spec.html#L411C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L411"
-    },
-    {
-      "label": "Light_Steel_Blue",
-      "docHref": "docs/hal__bitmap___spec.html#L412C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L412"
-    },
-    {
-      "label": "Light_Yellow",
       "docHref": "docs/hal__bitmap___spec.html#L391C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-bitmap.ads.html#L391"
     },
     {
-      "label": "Lime",
-      "docHref": "docs/hal__bitmap___spec.html#L325C4",
+      "label": "Light_Blue",
+      "docHref": "docs/hal__bitmap___spec.html#L354C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L325"
+      "srcHref": "srcs/hal-bitmap.ads.html#L354"
     },
     {
-      "label": "Lime_Green",
+      "label": "Light_Coral",
+      "docHref": "docs/hal__bitmap___spec.html#L301C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L301"
+    },
+    {
+      "label": "Light_Cyan",
+      "docHref": "docs/hal__bitmap___spec.html#L342C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L342"
+    },
+    {
+      "label": "Light_Green",
+      "docHref": "docs/hal__bitmap___spec.html#L328C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L328"
+    },
+    {
+      "label": "Light_Grey",
+      "docHref": "docs/hal__bitmap___spec.html#L428C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L428"
+    },
+    {
+      "label": "Light_Orange",
+      "docHref": "docs/hal__bitmap___spec.html#L307C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L307"
+    },
+    {
+      "label": "Light_Pink",
+      "docHref": "docs/hal__bitmap___spec.html#L383C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L383"
+    },
+    {
+      "label": "Light_Salmon",
+      "docHref": "docs/hal__bitmap___spec.html#L304C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L304"
+    },
+    {
+      "label": "Light_Sea_Green",
+      "docHref": "docs/hal__bitmap___spec.html#L336C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L336"
+    },
+    {
+      "label": "Light_Sky_Blue",
+      "docHref": "docs/hal__bitmap___spec.html#L356C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L356"
+    },
+    {
+      "label": "Light_Slate_Gray",
+      "docHref": "docs/hal__bitmap___spec.html#L412C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L412"
+    },
+    {
+      "label": "Light_Steel_Blue",
+      "docHref": "docs/hal__bitmap___spec.html#L413C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L413"
+    },
+    {
+      "label": "Light_Yellow",
+      "docHref": "docs/hal__bitmap___spec.html#L392C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L392"
+    },
+    {
+      "label": "Lime",
       "docHref": "docs/hal__bitmap___spec.html#L326C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-bitmap.ads.html#L326"
     },
     {
-      "label": "Linen",
-      "docHref": "docs/hal__bitmap___spec.html#L405C4",
+      "label": "Lime_Green",
+      "docHref": "docs/hal__bitmap___spec.html#L327C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L405"
+      "srcHref": "srcs/hal-bitmap.ads.html#L327"
+    },
+    {
+      "label": "Linen",
+      "docHref": "docs/hal__bitmap___spec.html#L406C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L406"
     },
     {
       "label": "LOAD_Register",
@@ -4322,10 +4378,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Magenta",
-      "docHref": "docs/hal__bitmap___spec.html#L376C4",
+      "docHref": "docs/hal__bitmap___spec.html#L377C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L376"
+      "srcHref": "srcs/hal-bitmap.ads.html#L377"
     },
     {
       "label": "MAIN_CTRL_Register",
@@ -4336,80 +4392,80 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Manufacturing_Date_Type",
-      "docHref": "docs/hal__sdmmc___spec.html#L151C9",
+      "docHref": "docs/hal__sdmmc___spec.html#L152C9",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L151"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L152"
     },
     {
       "label": "Maroon",
-      "docHref": "docs/hal__bitmap___spec.html#L323C4",
+      "docHref": "docs/hal__bitmap___spec.html#L324C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L323"
+      "srcHref": "srcs/hal-bitmap.ads.html#L324"
     },
     {
       "label": "Medium_Aqua_Marine",
-      "docHref": "docs/hal__bitmap___spec.html#L333C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L333"
-    },
-    {
-      "label": "Medium_Blue",
-      "docHref": "docs/hal__bitmap___spec.html#L359C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L359"
-    },
-    {
-      "label": "Medium_Orchid",
-      "docHref": "docs/hal__bitmap___spec.html#L371C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L371"
-    },
-    {
-      "label": "Medium_Purple",
-      "docHref": "docs/hal__bitmap___spec.html#L367C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L367"
-    },
-    {
-      "label": "Medium_Sea_Green",
       "docHref": "docs/hal__bitmap___spec.html#L334C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-bitmap.ads.html#L334"
     },
     {
-      "label": "Medium_Slate_Blue",
-      "docHref": "docs/hal__bitmap___spec.html#L366C4",
+      "label": "Medium_Blue",
+      "docHref": "docs/hal__bitmap___spec.html#L360C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L366"
+      "srcHref": "srcs/hal-bitmap.ads.html#L360"
+    },
+    {
+      "label": "Medium_Orchid",
+      "docHref": "docs/hal__bitmap___spec.html#L372C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L372"
+    },
+    {
+      "label": "Medium_Purple",
+      "docHref": "docs/hal__bitmap___spec.html#L368C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L368"
+    },
+    {
+      "label": "Medium_Sea_Green",
+      "docHref": "docs/hal__bitmap___spec.html#L335C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L335"
+    },
+    {
+      "label": "Medium_Slate_Blue",
+      "docHref": "docs/hal__bitmap___spec.html#L367C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L367"
     },
     {
       "label": "Medium_Spring_Green",
-      "docHref": "docs/hal__bitmap___spec.html#L330C4",
+      "docHref": "docs/hal__bitmap___spec.html#L331C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L330"
+      "srcHref": "srcs/hal-bitmap.ads.html#L331"
     },
     {
       "label": "Medium_Turquoise",
-      "docHref": "docs/hal__bitmap___spec.html#L344C4",
+      "docHref": "docs/hal__bitmap___spec.html#L345C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L344"
+      "srcHref": "srcs/hal-bitmap.ads.html#L345"
     },
     {
       "label": "Medium_Violet_Red",
-      "docHref": "docs/hal__bitmap___spec.html#L378C4",
+      "docHref": "docs/hal__bitmap___spec.html#L379C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L378"
+      "srcHref": "srcs/hal-bitmap.ads.html#L379"
     },
     {
       "label": "MEMPOWERDOWN_Register",
@@ -4427,38 +4483,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Midnight_Blue",
-      "docHref": "docs/hal__bitmap___spec.html#L356C4",
+      "docHref": "docs/hal__bitmap___spec.html#L357C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L356"
+      "srcHref": "srcs/hal-bitmap.ads.html#L357"
     },
     {
       "label": "Mint_Cream",
-      "docHref": "docs/hal__bitmap___spec.html#L409C4",
+      "docHref": "docs/hal__bitmap___spec.html#L410C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L409"
+      "srcHref": "srcs/hal-bitmap.ads.html#L410"
     },
     {
       "label": "Misty_Rose",
-      "docHref": "docs/hal__bitmap___spec.html#L403C4",
+      "docHref": "docs/hal__bitmap___spec.html#L404C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L403"
+      "srcHref": "srcs/hal-bitmap.ads.html#L404"
     },
     {
       "label": "Moccasin",
-      "docHref": "docs/hal__bitmap___spec.html#L400C4",
+      "docHref": "docs/hal__bitmap___spec.html#L401C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L400"
+      "srcHref": "srcs/hal-bitmap.ads.html#L401"
     },
     {
       "label": "MOV",
-      "docHref": "docs/rp__pio__encoding___spec.html#L158C9",
+      "docHref": "docs/rp__pio__encoding___spec.html#L160C9",
       "declared": "RP.PIO.Encoding",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-encoding.ads.html#L158"
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L160"
     },
     {
       "label": "MPU_CTRL_Register",
@@ -4532,17 +4588,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Navajo_White",
-      "docHref": "docs/hal__bitmap___spec.html#L401C4",
+      "docHref": "docs/hal__bitmap___spec.html#L402C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L401"
+      "srcHref": "srcs/hal-bitmap.ads.html#L402"
     },
     {
       "label": "Navy",
-      "docHref": "docs/hal__bitmap___spec.html#L357C4",
+      "docHref": "docs/hal__bitmap___spec.html#L358C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L357"
+      "srcHref": "srcs/hal-bitmap.ads.html#L358"
     },
     {
       "label": "No_Event",
@@ -4553,10 +4609,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Null_Touch_State",
-      "docHref": "docs/hal__touch_panel___spec.html#L40C4",
+      "docHref": "docs/hal__touch_panel___spec.html#L41C4",
       "declared": "HAL.Touch_Panel",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-touch_panel.ads.html#L40"
+      "srcHref": "srcs/hal-touch_panel.ads.html#L41"
     },
     {
       "label": "NVIC_IPR0_Register",
@@ -4637,38 +4693,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Old_Lace",
-      "docHref": "docs/hal__bitmap___spec.html#L406C4",
+      "docHref": "docs/hal__bitmap___spec.html#L407C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L406"
+      "srcHref": "srcs/hal-bitmap.ads.html#L407"
     },
     {
       "label": "Olive",
-      "docHref": "docs/hal__bitmap___spec.html#L313C4",
+      "docHref": "docs/hal__bitmap___spec.html#L314C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L313"
+      "srcHref": "srcs/hal-bitmap.ads.html#L314"
     },
     {
       "label": "Olive_Drab",
-      "docHref": "docs/hal__bitmap___spec.html#L317C4",
+      "docHref": "docs/hal__bitmap___spec.html#L318C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L317"
+      "srcHref": "srcs/hal-bitmap.ads.html#L318"
     },
     {
       "label": "Orange",
-      "docHref": "docs/hal__bitmap___spec.html#L305C4",
+      "docHref": "docs/hal__bitmap___spec.html#L306C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L305"
+      "srcHref": "srcs/hal-bitmap.ads.html#L306"
     },
     {
       "label": "Orchid",
-      "docHref": "docs/hal__bitmap___spec.html#L377C4",
+      "docHref": "docs/hal__bitmap___spec.html#L378C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L377"
+      "srcHref": "srcs/hal-bitmap.ads.html#L378"
     },
     {
       "label": "PADS_BANK0_Periph",
@@ -4700,38 +4756,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Pale_Golden_Rod",
-      "docHref": "docs/hal__bitmap___spec.html#L310C4",
+      "docHref": "docs/hal__bitmap___spec.html#L311C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L310"
+      "srcHref": "srcs/hal-bitmap.ads.html#L311"
     },
     {
       "label": "Pale_Green",
-      "docHref": "docs/hal__bitmap___spec.html#L328C4",
+      "docHref": "docs/hal__bitmap___spec.html#L329C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L328"
+      "srcHref": "srcs/hal-bitmap.ads.html#L329"
     },
     {
       "label": "Pale_Turquoise",
-      "docHref": "docs/hal__bitmap___spec.html#L345C4",
+      "docHref": "docs/hal__bitmap___spec.html#L346C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L345"
+      "srcHref": "srcs/hal-bitmap.ads.html#L346"
     },
     {
       "label": "Pale_Violet_Red",
-      "docHref": "docs/hal__bitmap___spec.html#L379C4",
+      "docHref": "docs/hal__bitmap___spec.html#L380C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L379"
+      "srcHref": "srcs/hal-bitmap.ads.html#L380"
     },
     {
       "label": "Papaya_Whip",
-      "docHref": "docs/hal__bitmap___spec.html#L407C4",
+      "docHref": "docs/hal__bitmap___spec.html#L408C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L407"
+      "srcHref": "srcs/hal-bitmap.ads.html#L408"
     },
     {
       "label": "Parent",
@@ -4763,10 +4819,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Peach_Puff",
-      "docHref": "docs/hal__bitmap___spec.html#L402C4",
+      "docHref": "docs/hal__bitmap___spec.html#L403C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L402"
+      "srcHref": "srcs/hal-bitmap.ads.html#L403"
     },
     {
       "label": "PERFCTR0_Register",
@@ -4826,10 +4882,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Peru",
-      "docHref": "docs/hal__bitmap___spec.html#L395C4",
+      "docHref": "docs/hal__bitmap___spec.html#L396C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L395"
+      "srcHref": "srcs/hal-bitmap.ads.html#L396"
     },
     {
       "label": "PHASE_Register",
@@ -4840,17 +4896,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Pink",
-      "docHref": "docs/hal__bitmap___spec.html#L383C4",
+      "docHref": "docs/hal__bitmap___spec.html#L384C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L383"
+      "srcHref": "srcs/hal-bitmap.ads.html#L384"
     },
     {
       "label": "PIO0_Periph",
-      "docHref": "docs/rp__device___spec.html#L31C4",
+      "docHref": "docs/rp__device___spec.html#L39C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L31"
+      "srcHref": "srcs/rp-device.ads.html#L39"
     },
     {
       "label": "PIO0_Periph",
@@ -4861,10 +4917,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PIO1_Periph",
-      "docHref": "docs/rp__device___spec.html#L33C4",
+      "docHref": "docs/rp__device___spec.html#L41C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L33"
+      "srcHref": "srcs/rp-device.ads.html#L41"
     },
     {
       "label": "PIO1_Periph",
@@ -4875,24 +4931,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PIO_0",
-      "docHref": "docs/rp__device___spec.html#L35C4",
+      "docHref": "docs/rp__device___spec.html#L43C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L35"
+      "srcHref": "srcs/rp-device.ads.html#L43"
     },
     {
       "label": "PIO_1",
-      "docHref": "docs/rp__device___spec.html#L36C4",
+      "docHref": "docs/rp__device___spec.html#L44C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L36"
+      "srcHref": "srcs/rp-device.ads.html#L44"
     },
     {
       "label": "PIO_Peripheral",
-      "docHref": "docs/rp__pio___spec.html#L15C9",
+      "docHref": "docs/rp__pio___spec.html#L17C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L15"
+      "srcHref": "srcs/rp-pio.ads.html#L17"
     },
     {
       "label": "PIO_Peripheral",
@@ -4903,10 +4959,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PIO_SM_Config",
-      "docHref": "docs/rp__pio___spec.html#L27C9",
+      "docHref": "docs/rp__pio___spec.html#L29C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L27"
+      "srcHref": "srcs/rp-pio.ads.html#L29"
     },
     {
       "label": "PLATFORM_Register",
@@ -4924,38 +4980,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PLL_125_MHz",
-      "docHref": "docs/rp__clock___spec.html#L93C4",
+      "docHref": "docs/rp__clock___spec.html#L95C4",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L93"
+      "srcHref": "srcs/rp-clock.ads.html#L95"
     },
     {
       "label": "PLL_133_MHz",
-      "docHref": "docs/rp__clock___spec.html#L100C4",
+      "docHref": "docs/rp__clock___spec.html#L102C4",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L100"
+      "srcHref": "srcs/rp-clock.ads.html#L102"
     },
     {
       "label": "PLL_250_MHz",
-      "docHref": "docs/rp__clock___spec.html#L107C4",
+      "docHref": "docs/rp__clock___spec.html#L109C4",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L107"
+      "srcHref": "srcs/rp-clock.ads.html#L109"
     },
     {
       "label": "PLL_48_MHz",
-      "docHref": "docs/rp__clock___spec.html#L86C4",
+      "docHref": "docs/rp__clock___spec.html#L88C4",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L86"
+      "srcHref": "srcs/rp-clock.ads.html#L88"
     },
     {
       "label": "PLL_Config",
-      "docHref": "docs/rp__clock___spec.html#L74C9",
+      "docHref": "docs/rp__clock___spec.html#L76C9",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L74"
+      "srcHref": "srcs/rp-clock.ads.html#L76"
     },
     {
       "label": "PLL_Peripheral",
@@ -4980,24 +5036,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Plum",
-      "docHref": "docs/hal__bitmap___spec.html#L374C4",
+      "docHref": "docs/hal__bitmap___spec.html#L375C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L374"
+      "srcHref": "srcs/hal-bitmap.ads.html#L375"
     },
     {
       "label": "Point",
-      "docHref": "docs/hal__bitmap___spec.html#L67C9",
+      "docHref": "docs/hal__bitmap___spec.html#L68C9",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L67"
+      "srcHref": "srcs/hal-bitmap.ads.html#L68"
     },
     {
       "label": "Powder_Blue",
-      "docHref": "docs/hal__bitmap___spec.html#L347C4",
+      "docHref": "docs/hal__bitmap___spec.html#L348C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L347"
+      "srcHref": "srcs/hal-bitmap.ads.html#L348"
     },
     {
       "label": "PPB_Periph",
@@ -5267,24 +5323,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PULL",
-      "docHref": "docs/rp__pio__encoding___spec.html#L124C9",
+      "docHref": "docs/rp__pio__encoding___spec.html#L126C9",
       "declared": "RP.PIO.Encoding",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-encoding.ads.html#L124"
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L126"
     },
     {
       "label": "Purple",
-      "docHref": "docs/hal__bitmap___spec.html#L372C4",
+      "docHref": "docs/hal__bitmap___spec.html#L373C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L372"
+      "srcHref": "srcs/hal-bitmap.ads.html#L373"
     },
     {
       "label": "PUSH",
-      "docHref": "docs/rp__pio__encoding___spec.html#L106C9",
+      "docHref": "docs/rp__pio__encoding___spec.html#L108C9",
       "declared": "RP.PIO.Encoding",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-encoding.ads.html#L106"
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L108"
     },
     {
       "label": "PWM_Periph",
@@ -5302,10 +5358,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PWM_Point",
-      "docHref": "docs/rp__pwm___spec.html#L31C9",
+      "docHref": "docs/rp__pwm___spec.html#L33C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L31"
+      "srcHref": "srcs/rp-pwm.ads.html#L33"
     },
     {
       "label": "PWR_Register",
@@ -5358,24 +5414,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Rect",
-      "docHref": "docs/hal__bitmap___spec.html#L80C9",
+      "docHref": "docs/hal__bitmap___spec.html#L81C9",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L80"
+      "srcHref": "srcs/hal-bitmap.ads.html#L81"
     },
     {
       "label": "Red",
-      "docHref": "docs/hal__bitmap___spec.html#L296C4",
+      "docHref": "docs/hal__bitmap___spec.html#L297C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L296"
+      "srcHref": "srcs/hal-bitmap.ads.html#L297"
     },
     {
       "label": "Request_Type",
-      "docHref": "docs/usb___spec.html#L73C9",
+      "docHref": "docs/usb___spec.html#L78C9",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L73"
+      "srcHref": "srcs/usb.ads.html#L78"
     },
     {
       "label": "RESET_DONE_i2c_Field",
@@ -5491,24 +5547,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Rosy_Brown",
-      "docHref": "docs/hal__bitmap___spec.html#L399C4",
+      "docHref": "docs/hal__bitmap___spec.html#L400C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L399"
+      "srcHref": "srcs/hal-bitmap.ads.html#L400"
     },
     {
       "label": "Royal_Blue",
-      "docHref": "docs/hal__bitmap___spec.html#L361C4",
+      "docHref": "docs/hal__bitmap___spec.html#L362C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L361"
+      "srcHref": "srcs/hal-bitmap.ads.html#L362"
     },
     {
       "label": "RTC",
-      "docHref": "docs/rp__device___spec.html#L46C4",
+      "docHref": "docs/rp__device___spec.html#L54C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L46"
+      "srcHref": "srcs/rp-device.ads.html#L54"
     },
     {
       "label": "RTC_0_Register",
@@ -5526,17 +5582,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "RTC_Alarm_Mask",
-      "docHref": "docs/rp__rtc___spec.html#L28C9",
+      "docHref": "docs/rp__rtc___spec.html#L30C9",
       "declared": "RP.RTC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rtc.ads.html#L28"
+      "srcHref": "srcs/rp-rtc.ads.html#L30"
     },
     {
       "label": "RTC_Date",
-      "docHref": "docs/hal__real_time_clock___spec.html#L51C9",
+      "docHref": "docs/hal__real_time_clock___spec.html#L52C9",
       "declared": "HAL.Real_Time_Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-real_time_clock.ads.html#L51"
+      "srcHref": "srcs/hal-real_time_clock.ads.html#L52"
     },
     {
       "label": "RTC_Periph",
@@ -5554,10 +5610,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "RTC_Time",
-      "docHref": "docs/hal__real_time_clock___spec.html#L38C9",
+      "docHref": "docs/hal__real_time_clock___spec.html#L39C9",
       "declared": "HAL.Real_Time_Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-real_time_clock.ads.html#L38"
+      "srcHref": "srcs/hal-real_time_clock.ads.html#L39"
     },
     {
       "label": "RX_SAMPLE_DLY_Register",
@@ -5596,24 +5652,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Saddle_Brown",
-      "docHref": "docs/hal__bitmap___spec.html#L392C4",
+      "docHref": "docs/hal__bitmap___spec.html#L393C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L392"
+      "srcHref": "srcs/hal-bitmap.ads.html#L393"
     },
     {
       "label": "Salmon",
-      "docHref": "docs/hal__bitmap___spec.html#L302C4",
+      "docHref": "docs/hal__bitmap___spec.html#L303C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L302"
+      "srcHref": "srcs/hal-bitmap.ads.html#L303"
     },
     {
       "label": "Sandy_Brown",
-      "docHref": "docs/hal__bitmap___spec.html#L396C4",
+      "docHref": "docs/hal__bitmap___spec.html#L397C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L396"
+      "srcHref": "srcs/hal-bitmap.ads.html#L397"
     },
     {
       "label": "SCB_Periph",
@@ -5645,24 +5701,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "SDCard_Configuration_Register",
-      "docHref": "docs/hal__sdmmc___spec.html#L168C9",
+      "docHref": "docs/hal__sdmmc___spec.html#L169C9",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L168"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L169"
     },
     {
       "label": "Sea_Green",
-      "docHref": "docs/hal__bitmap___spec.html#L332C4",
+      "docHref": "docs/hal__bitmap___spec.html#L333C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L332"
+      "srcHref": "srcs/hal-bitmap.ads.html#L333"
     },
     {
       "label": "Sea_Shell",
-      "docHref": "docs/hal__bitmap___spec.html#L408C4",
+      "docHref": "docs/hal__bitmap___spec.html#L409C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L408"
+      "srcHref": "srcs/hal-bitmap.ads.html#L409"
     },
     {
       "label": "SER_Register",
@@ -5673,10 +5729,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "SET",
-      "docHref": "docs/rp__pio__encoding___spec.html#L201C9",
+      "docHref": "docs/rp__pio__encoding___spec.html#L203C9",
       "declared": "RP.PIO.Encoding",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-encoding.ads.html#L201"
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L203"
     },
     {
       "label": "SETUP_0_Register",
@@ -5694,10 +5750,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Setup_Data",
-      "docHref": "docs/usb___spec.html#L80C9",
+      "docHref": "docs/usb___spec.html#L85C9",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L80"
+      "srcHref": "srcs/usb.ads.html#L85"
     },
     {
       "label": "SETUP_PACKET_HIGH_Register",
@@ -5722,17 +5778,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "SHIFT_IN",
-      "docHref": "docs/rp__pio__encoding___spec.html#L66C9",
+      "docHref": "docs/rp__pio__encoding___spec.html#L68C9",
       "declared": "RP.PIO.Encoding",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-encoding.ads.html#L66"
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L68"
     },
     {
       "label": "SHIFT_OUT",
-      "docHref": "docs/rp__pio__encoding___spec.html#L92C9",
+      "docHref": "docs/rp__pio__encoding___spec.html#L94C9",
       "declared": "RP.PIO.Encoding",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-encoding.ads.html#L92"
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L94"
     },
     {
       "label": "SHPR2_Register",
@@ -5778,17 +5834,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Sienna",
-      "docHref": "docs/hal__bitmap___spec.html#L393C4",
+      "docHref": "docs/hal__bitmap___spec.html#L394C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L393"
+      "srcHref": "srcs/hal-bitmap.ads.html#L394"
     },
     {
       "label": "Silver",
-      "docHref": "docs/hal__bitmap___spec.html#L426C4",
+      "docHref": "docs/hal__bitmap___spec.html#L427C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L426"
+      "srcHref": "srcs/hal-bitmap.ads.html#L427"
     },
     {
       "label": "SIO_Periph",
@@ -5806,24 +5862,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Sky_Blue",
-      "docHref": "docs/hal__bitmap___spec.html#L354C4",
+      "docHref": "docs/hal__bitmap___spec.html#L355C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L354"
+      "srcHref": "srcs/hal-bitmap.ads.html#L355"
     },
     {
       "label": "Slate_Blue",
-      "docHref": "docs/hal__bitmap___spec.html#L365C4",
+      "docHref": "docs/hal__bitmap___spec.html#L366C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L365"
+      "srcHref": "srcs/hal-bitmap.ads.html#L366"
     },
     {
       "label": "Slate_Gray",
-      "docHref": "docs/hal__bitmap___spec.html#L410C4",
+      "docHref": "docs/hal__bitmap___spec.html#L411C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L410"
+      "srcHref": "srcs/hal-bitmap.ads.html#L411"
     },
     {
       "label": "SLEEP_EN0_clk_sys_i2c_Field",
@@ -6058,10 +6114,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Snow",
-      "docHref": "docs/hal__bitmap___spec.html#L420C4",
+      "docHref": "docs/hal__bitmap___spec.html#L421C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L420"
+      "srcHref": "srcs/hal-bitmap.ads.html#L421"
     },
     {
       "label": "SOF_RD_Register",
@@ -6093,24 +6149,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "SPI_0",
-      "docHref": "docs/rp__device___spec.html#L22C4",
-      "declared": "RP.Device",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L22"
-    },
-    {
-      "label": "SPI_1",
       "docHref": "docs/rp__device___spec.html#L23C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-device.ads.html#L23"
     },
     {
+      "label": "SPI_1",
+      "docHref": "docs/rp__device___spec.html#L24C4",
+      "declared": "RP.Device",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-device.ads.html#L24"
+    },
+    {
       "label": "SPI_Configuration",
-      "docHref": "docs/rp__spi___spec.html#L23C9",
+      "docHref": "docs/rp__spi___spec.html#L27C9",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L23"
+      "srcHref": "srcs/rp-spi.ads.html#L27"
     },
     {
       "label": "SPI_CTRLR0_Register",
@@ -6128,10 +6184,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Spring_Green",
-      "docHref": "docs/hal__bitmap___spec.html#L331C4",
+      "docHref": "docs/hal__bitmap___spec.html#L332C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L331"
+      "srcHref": "srcs/hal-bitmap.ads.html#L332"
     },
     {
       "label": "SR_Register",
@@ -6274,6 +6330,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp2040_svd-spi.ads.html#L124"
     },
     {
+      "label": "Standard_Mode",
+      "docHref": "docs/rp__i2c___spec.html#L32C4",
+      "declared": "RP.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-i2c.ads.html#L32"
+    },
+    {
       "label": "STARTUP_Register",
       "docHref": "docs/rp2040_svd__xosc___spec.html#L129C9",
       "declared": "RP2040_SVD.XOSC",
@@ -6303,10 +6366,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Steel_Blue",
-      "docHref": "docs/hal__bitmap___spec.html#L349C4",
+      "docHref": "docs/hal__bitmap___spec.html#L350C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L349"
+      "srcHref": "srcs/hal-bitmap.ads.html#L350"
     },
     {
       "label": "STREAM_ADDR_Register",
@@ -6324,17 +6387,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "String_Descriptor",
-      "docHref": "docs/usb___spec.html#L152C9",
+      "docHref": "docs/usb___spec.html#L158C9",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L152"
+      "srcHref": "srcs/usb.ads.html#L158"
     },
     {
       "label": "String_Descriptor_Zero",
-      "docHref": "docs/usb___spec.html#L134C9",
+      "docHref": "docs/usb___spec.html#L139C9",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L134"
+      "srcHref": "srcs/usb.ads.html#L139"
     },
     {
       "label": "SWCLK_Register",
@@ -6450,10 +6513,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Tan",
-      "docHref": "docs/hal__bitmap___spec.html#L398C4",
+      "docHref": "docs/hal__bitmap___spec.html#L399C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L398"
+      "srcHref": "srcs/hal-bitmap.ads.html#L399"
     },
     {
       "label": "TBMAN_Periph",
@@ -6471,17 +6534,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Teal",
-      "docHref": "docs/hal__bitmap___spec.html#L337C4",
+      "docHref": "docs/hal__bitmap___spec.html#L338C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L337"
+      "srcHref": "srcs/hal-bitmap.ads.html#L338"
     },
     {
       "label": "Thistle",
-      "docHref": "docs/hal__bitmap___spec.html#L373C4",
+      "docHref": "docs/hal__bitmap___spec.html#L374C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L373"
+      "srcHref": "srcs/hal-bitmap.ads.html#L374"
     },
     {
       "label": "TICK_Register",
@@ -6492,10 +6555,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Timer",
-      "docHref": "docs/rp__device___spec.html#L45C4",
+      "docHref": "docs/rp__device___spec.html#L53C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L45"
+      "srcHref": "srcs/rp-device.ads.html#L53"
     },
     {
       "label": "TIMER_Periph",
@@ -6520,31 +6583,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Tomato",
-      "docHref": "docs/hal__bitmap___spec.html#L297C4",
+      "docHref": "docs/hal__bitmap___spec.html#L298C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L297"
+      "srcHref": "srcs/hal-bitmap.ads.html#L298"
     },
     {
       "label": "TP_Touch_State",
-      "docHref": "docs/hal__touch_panel___spec.html#L34C9",
+      "docHref": "docs/hal__touch_panel___spec.html#L35C9",
       "declared": "HAL.Touch_Panel",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-touch_panel.ads.html#L34"
+      "srcHref": "srcs/hal-touch_panel.ads.html#L35"
     },
     {
       "label": "Transparent",
-      "docHref": "docs/hal__bitmap___spec.html#L291C4",
+      "docHref": "docs/hal__bitmap___spec.html#L292C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L291"
+      "srcHref": "srcs/hal-bitmap.ads.html#L292"
     },
     {
       "label": "Turquoise",
-      "docHref": "docs/hal__bitmap___spec.html#L343C4",
+      "docHref": "docs/hal__bitmap___spec.html#L344C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L343"
+      "srcHref": "srcs/hal-bitmap.ads.html#L344"
     },
     {
       "label": "TXD_DRIVE_EDGE_Register",
@@ -6590,24 +6653,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "UART_0",
-      "docHref": "docs/rp__device___spec.html#L28C4",
+      "docHref": "docs/rp__device___spec.html#L36C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L28"
+      "srcHref": "srcs/rp-device.ads.html#L36"
     },
     {
       "label": "UART_1",
-      "docHref": "docs/rp__device___spec.html#L29C4",
+      "docHref": "docs/rp__device___spec.html#L37C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L29"
+      "srcHref": "srcs/rp-device.ads.html#L37"
     },
     {
       "label": "UART_Configuration",
-      "docHref": "docs/rp__uart___spec.html#L26C9",
+      "docHref": "docs/rp__uart___spec.html#L23C9",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L26"
+      "srcHref": "srcs/rp-uart.ads.html#L23"
     },
     {
       "label": "UART_Peripheral",
@@ -6779,10 +6842,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "UDC",
-      "docHref": "docs/rp__device___spec.html#L47C4",
+      "docHref": "docs/rp__device___spec.html#L55C4",
       "declared": "RP.Device",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-device.ads.html#L47"
+      "srcHref": "srcs/rp-device.ads.html#L55"
     },
     {
       "label": "UDC_Event",
@@ -6863,10 +6926,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Violet",
-      "docHref": "docs/hal__bitmap___spec.html#L375C4",
+      "docHref": "docs/hal__bitmap___spec.html#L376C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L375"
+      "srcHref": "srcs/hal-bitmap.ads.html#L376"
     },
     {
       "label": "VOLTAGE_SELECT_Register",
@@ -6912,10 +6975,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "WAIT",
-      "docHref": "docs/rp__pio__encoding___spec.html#L39C9",
+      "docHref": "docs/rp__pio__encoding___spec.html#L41C9",
       "declared": "RP.PIO.Encoding",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-encoding.ads.html#L39"
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L41"
     },
     {
       "label": "WAKE_EN0_clk_sys_i2c_Field",
@@ -7031,24 +7094,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Wheat",
-      "docHref": "docs/hal__bitmap___spec.html#L388C4",
+      "docHref": "docs/hal__bitmap___spec.html#L389C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L388"
+      "srcHref": "srcs/hal-bitmap.ads.html#L389"
     },
     {
       "label": "White",
+      "docHref": "docs/hal__bitmap___spec.html#L431C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L431"
+    },
+    {
+      "label": "White_Smoke",
       "docHref": "docs/hal__bitmap___spec.html#L430C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-bitmap.ads.html#L430"
-    },
-    {
-      "label": "White_Smoke",
-      "docHref": "docs/hal__bitmap___spec.html#L429C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L429"
     },
     {
       "label": "Write_DHCSR_Register",
@@ -7122,17 +7185,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Yellow",
-      "docHref": "docs/hal__bitmap___spec.html#L314C4",
-      "declared": "HAL.Bitmap",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L314"
-    },
-    {
-      "label": "Yellow_Green",
       "docHref": "docs/hal__bitmap___spec.html#L315C4",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-bitmap.ads.html#L315"
+    },
+    {
+      "label": "Yellow_Green",
+      "docHref": "docs/hal__bitmap___spec.html#L316C4",
+      "declared": "HAL.Bitmap",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-bitmap.ads.html#L316"
     }
   ]
 };

@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Checksum_Algorithm",
           "qualifier": "",
-          "line": 146,
+          "line": 148,
           "column": 9,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 146,
+                  "number": 148,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Checksum_Algorithm",
-                      "href": "docs/rp__dma___spec.html#L146C9"
+                      "href": "docs/rp__dma___spec.html#L148C9"
                     },
                     {
                       "kind": "span",
@@ -59,7 +59,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 147,
+                  "number": 149,
                   "children": [
                     {
                       "kind": "span",
@@ -75,7 +75,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CRC_32",
-                      "href": "docs/rp__dma___spec.html#L147C8"
+                      "href": "docs/rp__dma___spec.html#L149C8"
                     },
                     {
                       "kind": "span",
@@ -96,7 +96,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 148,
+                  "number": 150,
                   "children": [
                     {
                       "kind": "span",
@@ -107,7 +107,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CRC_32R",
-                      "href": "docs/rp__dma___spec.html#L148C8"
+                      "href": "docs/rp__dma___spec.html#L150C8"
                     },
                     {
                       "kind": "span",
@@ -128,7 +128,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 149,
+                  "number": 151,
                   "children": [
                     {
                       "kind": "span",
@@ -139,7 +139,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CRC_16",
-                      "href": "docs/rp__dma___spec.html#L149C8"
+                      "href": "docs/rp__dma___spec.html#L151C8"
                     },
                     {
                       "kind": "span",
@@ -160,7 +160,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 150,
+                  "number": 152,
                   "children": [
                     {
                       "kind": "span",
@@ -171,7 +171,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CRC_16R",
-                      "href": "docs/rp__dma___spec.html#L150C8"
+                      "href": "docs/rp__dma___spec.html#L152C8"
                     },
                     {
                       "kind": "span",
@@ -192,7 +192,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 151,
+                  "number": 153,
                   "children": [
                     {
                       "kind": "span",
@@ -203,7 +203,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "EVEN",
-                      "href": "docs/rp__dma___spec.html#L151C8"
+                      "href": "docs/rp__dma___spec.html#L153C8"
                     },
                     {
                       "kind": "span",
@@ -224,7 +224,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 152,
+                  "number": 154,
                   "children": [
                     {
                       "kind": "span",
@@ -235,7 +235,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SUM",
-                      "href": "docs/rp__dma___spec.html#L152C8"
+                      "href": "docs/rp__dma___spec.html#L154C8"
                     },
                     {
                       "kind": "span",
@@ -246,7 +246,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/rp__dma___spec.html#L146C9"
+                      "href": "docs/rp__dma___spec.html#L148C9"
                     }
                   ]
                 }
@@ -265,7 +265,7 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "CRC_32",
-              "line": 147,
+              "line": 149,
               "column": 8,
               "description": [
                 {
@@ -281,7 +281,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "CRC_32R",
-              "line": 148,
+              "line": 150,
               "column": 8,
               "description": [
                 {
@@ -297,7 +297,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "CRC_16",
-              "line": 149,
+              "line": 151,
               "column": 8,
               "description": [
                 {
@@ -313,7 +313,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "CRC_16R",
-              "line": 150,
+              "line": 152,
               "column": 8,
               "description": [
                 {
@@ -329,7 +329,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "EVEN",
-              "line": 151,
+              "line": 153,
               "column": 8,
               "description": [
                 {
@@ -345,7 +345,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SUM",
-              "line": 152,
+              "line": 154,
               "column": 8,
               "description": [
               ]
@@ -355,7 +355,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA_Channel_Id",
           "qualifier": "",
-          "line": 13,
+          "line": 15,
           "column": 9,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -366,7 +366,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 13,
+                  "number": 15,
                   "children": [
                     {
                       "kind": "span",
@@ -387,7 +387,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
+                      "href": "docs/rp__dma___spec.html#L15C9"
                     },
                     {
                       "kind": "span",
@@ -443,7 +443,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 14,
+                  "number": 16,
                   "children": [
                     {
                       "kind": "span",
@@ -474,7 +474,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA_IRQ_Id",
           "qualifier": "",
-          "line": 167,
+          "line": 169,
           "column": 12,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -485,7 +485,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 167,
+                  "number": 169,
                   "children": [
                     {
                       "kind": "span",
@@ -506,7 +506,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_IRQ_Id",
-                      "href": "docs/rp__dma___spec.html#L167C12"
+                      "href": "docs/rp__dma___spec.html#L169C12"
                     },
                     {
                       "kind": "span",
@@ -582,7 +582,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA_Request_Trigger",
           "qualifier": "",
-          "line": 24,
+          "line": 26,
           "column": 9,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -593,7 +593,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 24,
+                  "number": 26,
                   "children": [
                     {
                       "kind": "span",
@@ -614,7 +614,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Request_Trigger",
-                      "href": "docs/rp__dma___spec.html#L24C9"
+                      "href": "docs/rp__dma___spec.html#L26C9"
                     },
                     {
                       "kind": "span",
@@ -630,7 +630,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 25,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -646,274 +646,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO0_TX0",
-                      "href": "docs/rp__dma___spec.html#L25C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO0_TX1",
-                      "href": "docs/rp__dma___spec.html#L25C18"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO0_TX2",
-                      "href": "docs/rp__dma___spec.html#L25C28"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO0_TX3",
-                      "href": "docs/rp__dma___spec.html#L25C38"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO0_RX0",
-                      "href": "docs/rp__dma___spec.html#L25C48"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO0_RX1",
-                      "href": "docs/rp__dma___spec.html#L25C58"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO0_RX2",
-                      "href": "docs/rp__dma___spec.html#L25C68"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO0_RX3",
-                      "href": "docs/rp__dma___spec.html#L25C78"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 26,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO1_TX0",
-                      "href": "docs/rp__dma___spec.html#L26C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO1_TX1",
-                      "href": "docs/rp__dma___spec.html#L26C18"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO1_TX2",
-                      "href": "docs/rp__dma___spec.html#L26C28"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO1_TX3",
-                      "href": "docs/rp__dma___spec.html#L26C38"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO1_RX0",
-                      "href": "docs/rp__dma___spec.html#L26C48"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO1_RX1",
-                      "href": "docs/rp__dma___spec.html#L26C58"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO1_RX2",
-                      "href": "docs/rp__dma___spec.html#L26C68"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO1_RX3",
-                      "href": "docs/rp__dma___spec.html#L26C78"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 27,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SPI0_TX",
                       "href": "docs/rp__dma___spec.html#L27C8"
                     },
                     {
@@ -929,8 +661,104 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "SPI0_RX",
-                      "href": "docs/rp__dma___spec.html#L27C17"
+                      "text": "PIO0_TX1",
+                      "href": "docs/rp__dma___spec.html#L27C18"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO0_TX2",
+                      "href": "docs/rp__dma___spec.html#L27C28"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO0_TX3",
+                      "href": "docs/rp__dma___spec.html#L27C38"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO0_RX0",
+                      "href": "docs/rp__dma___spec.html#L27C48"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO0_RX1",
+                      "href": "docs/rp__dma___spec.html#L27C58"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO0_RX2",
+                      "href": "docs/rp__dma___spec.html#L27C68"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO0_RX3",
+                      "href": "docs/rp__dma___spec.html#L27C78"
                     },
                     {
                       "kind": "span",
@@ -951,7 +779,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "SPI1_TX",
+                      "text": "PIO1_TX0",
                       "href": "docs/rp__dma___spec.html#L28C8"
                     },
                     {
@@ -967,8 +795,104 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "SPI1_RX",
-                      "href": "docs/rp__dma___spec.html#L28C17"
+                      "text": "PIO1_TX1",
+                      "href": "docs/rp__dma___spec.html#L28C18"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO1_TX2",
+                      "href": "docs/rp__dma___spec.html#L28C28"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO1_TX3",
+                      "href": "docs/rp__dma___spec.html#L28C38"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO1_RX0",
+                      "href": "docs/rp__dma___spec.html#L28C48"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO1_RX1",
+                      "href": "docs/rp__dma___spec.html#L28C58"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO1_RX2",
+                      "href": "docs/rp__dma___spec.html#L28C68"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO1_RX3",
+                      "href": "docs/rp__dma___spec.html#L28C78"
                     },
                     {
                       "kind": "span",
@@ -989,7 +913,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "UART0_TX",
+                      "text": "SPI0_TX",
                       "href": "docs/rp__dma___spec.html#L29C8"
                     },
                     {
@@ -1005,8 +929,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "UART0_RX",
-                      "href": "docs/rp__dma___spec.html#L29C18"
+                      "text": "SPI0_RX",
+                      "href": "docs/rp__dma___spec.html#L29C17"
                     },
                     {
                       "kind": "span",
@@ -1027,7 +951,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "UART1_TX",
+                      "text": "SPI1_TX",
                       "href": "docs/rp__dma___spec.html#L30C8"
                     },
                     {
@@ -1043,8 +967,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "UART1_RX",
-                      "href": "docs/rp__dma___spec.html#L30C18"
+                      "text": "SPI1_RX",
+                      "href": "docs/rp__dma___spec.html#L30C17"
                     },
                     {
                       "kind": "span",
@@ -1065,7 +989,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "PWM_WRAP0",
+                      "text": "UART0_TX",
                       "href": "docs/rp__dma___spec.html#L31C8"
                     },
                     {
@@ -1081,104 +1005,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "PWM_WRAP1",
-                      "href": "docs/rp__dma___spec.html#L31C19"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_WRAP2",
-                      "href": "docs/rp__dma___spec.html#L31C30"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_WRAP3",
-                      "href": "docs/rp__dma___spec.html#L31C41"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_WRAP4",
-                      "href": "docs/rp__dma___spec.html#L31C52"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_WRAP5",
-                      "href": "docs/rp__dma___spec.html#L31C63"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_WRAP6",
-                      "href": "docs/rp__dma___spec.html#L31C74"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_WRAP7",
-                      "href": "docs/rp__dma___spec.html#L31C85"
+                      "text": "UART0_RX",
+                      "href": "docs/rp__dma___spec.html#L31C18"
                     },
                     {
                       "kind": "span",
@@ -1199,7 +1027,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I2C0_TX",
+                      "text": "UART1_TX",
                       "href": "docs/rp__dma___spec.html#L32C8"
                     },
                     {
@@ -1215,8 +1043,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I2C0_RX",
-                      "href": "docs/rp__dma___spec.html#L32C17"
+                      "text": "UART1_RX",
+                      "href": "docs/rp__dma___spec.html#L32C18"
                     },
                     {
                       "kind": "span",
@@ -1237,7 +1065,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I2C1_TX",
+                      "text": "PWM_WRAP0",
                       "href": "docs/rp__dma___spec.html#L33C8"
                     },
                     {
@@ -1253,8 +1081,104 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I2C1_RX",
-                      "href": "docs/rp__dma___spec.html#L33C17"
+                      "text": "PWM_WRAP1",
+                      "href": "docs/rp__dma___spec.html#L33C19"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PWM_WRAP2",
+                      "href": "docs/rp__dma___spec.html#L33C30"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PWM_WRAP3",
+                      "href": "docs/rp__dma___spec.html#L33C41"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PWM_WRAP4",
+                      "href": "docs/rp__dma___spec.html#L33C52"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PWM_WRAP5",
+                      "href": "docs/rp__dma___spec.html#L33C63"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PWM_WRAP6",
+                      "href": "docs/rp__dma___spec.html#L33C74"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PWM_WRAP7",
+                      "href": "docs/rp__dma___spec.html#L33C85"
                     },
                     {
                       "kind": "span",
@@ -1275,8 +1199,24 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ADC",
+                      "text": "I2C0_TX",
                       "href": "docs/rp__dma___spec.html#L34C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "I2C0_RX",
+                      "href": "docs/rp__dma___spec.html#L34C17"
                     },
                     {
                       "kind": "span",
@@ -1297,7 +1237,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "XIP_STREAM",
+                      "text": "I2C1_TX",
                       "href": "docs/rp__dma___spec.html#L35C8"
                     },
                     {
@@ -1313,24 +1253,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "XIP_SSITX",
-                      "href": "docs/rp__dma___spec.html#L35C20"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "XIP_SSIRX",
-                      "href": "docs/rp__dma___spec.html#L35C31"
+                      "text": "I2C1_RX",
+                      "href": "docs/rp__dma___spec.html#L35C17"
                     },
                     {
                       "kind": "span",
@@ -1351,56 +1275,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "TIMER0",
+                      "text": "ADC",
                       "href": "docs/rp__dma___spec.html#L36C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "TIMER1",
-                      "href": "docs/rp__dma___spec.html#L36C16"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "TIMER2",
-                      "href": "docs/rp__dma___spec.html#L36C24"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "TIMER3",
-                      "href": "docs/rp__dma___spec.html#L36C32"
                     },
                     {
                       "kind": "span",
@@ -1421,8 +1297,132 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "PERMANENT",
+                      "text": "XIP_STREAM",
                       "href": "docs/rp__dma___spec.html#L37C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "XIP_SSITX",
+                      "href": "docs/rp__dma___spec.html#L37C20"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "XIP_SSIRX",
+                      "href": "docs/rp__dma___spec.html#L37C31"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 38,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "TIMER0",
+                      "href": "docs/rp__dma___spec.html#L38C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "TIMER1",
+                      "href": "docs/rp__dma___spec.html#L38C16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "TIMER2",
+                      "href": "docs/rp__dma___spec.html#L38C24"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "TIMER3",
+                      "href": "docs/rp__dma___spec.html#L38C32"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 39,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PERMANENT",
+                      "href": "docs/rp__dma___spec.html#L39C8"
                     },
                     {
                       "kind": "span",
@@ -1433,7 +1433,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -1463,315 +1463,315 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "PIO0_TX0",
-              "line": 25,
+              "line": 27,
               "column": 8,
               "description": [
               ]
             },
             {
               "label": "PIO0_TX1",
-              "line": 25,
+              "line": 27,
               "column": 18,
               "description": [
               ]
             },
             {
               "label": "PIO0_TX2",
-              "line": 25,
+              "line": 27,
               "column": 28,
               "description": [
               ]
             },
             {
               "label": "PIO0_TX3",
-              "line": 25,
+              "line": 27,
               "column": 38,
               "description": [
               ]
             },
             {
               "label": "PIO0_RX0",
-              "line": 25,
+              "line": 27,
               "column": 48,
               "description": [
               ]
             },
             {
               "label": "PIO0_RX1",
-              "line": 25,
+              "line": 27,
               "column": 58,
               "description": [
               ]
             },
             {
               "label": "PIO0_RX2",
-              "line": 25,
+              "line": 27,
               "column": 68,
               "description": [
               ]
             },
             {
               "label": "PIO0_RX3",
-              "line": 25,
+              "line": 27,
               "column": 78,
               "description": [
               ]
             },
             {
               "label": "PIO1_TX0",
-              "line": 26,
+              "line": 28,
               "column": 8,
               "description": [
               ]
             },
             {
               "label": "PIO1_TX1",
-              "line": 26,
+              "line": 28,
               "column": 18,
               "description": [
               ]
             },
             {
               "label": "PIO1_TX2",
-              "line": 26,
+              "line": 28,
               "column": 28,
               "description": [
               ]
             },
             {
               "label": "PIO1_TX3",
-              "line": 26,
+              "line": 28,
               "column": 38,
               "description": [
               ]
             },
             {
               "label": "PIO1_RX0",
-              "line": 26,
+              "line": 28,
               "column": 48,
               "description": [
               ]
             },
             {
               "label": "PIO1_RX1",
-              "line": 26,
+              "line": 28,
               "column": 58,
               "description": [
               ]
             },
             {
               "label": "PIO1_RX2",
-              "line": 26,
+              "line": 28,
               "column": 68,
               "description": [
               ]
             },
             {
               "label": "PIO1_RX3",
-              "line": 26,
+              "line": 28,
               "column": 78,
               "description": [
               ]
             },
             {
               "label": "SPI0_TX",
-              "line": 27,
+              "line": 29,
               "column": 8,
               "description": [
               ]
             },
             {
               "label": "SPI0_RX",
-              "line": 27,
+              "line": 29,
               "column": 17,
               "description": [
               ]
             },
             {
               "label": "SPI1_TX",
-              "line": 28,
+              "line": 30,
               "column": 8,
               "description": [
               ]
             },
             {
               "label": "SPI1_RX",
-              "line": 28,
+              "line": 30,
               "column": 17,
               "description": [
               ]
             },
             {
               "label": "UART0_TX",
-              "line": 29,
+              "line": 31,
               "column": 8,
               "description": [
               ]
             },
             {
               "label": "UART0_RX",
-              "line": 29,
+              "line": 31,
               "column": 18,
               "description": [
               ]
             },
             {
               "label": "UART1_TX",
-              "line": 30,
+              "line": 32,
               "column": 8,
               "description": [
               ]
             },
             {
               "label": "UART1_RX",
-              "line": 30,
+              "line": 32,
               "column": 18,
               "description": [
               ]
             },
             {
               "label": "PWM_WRAP0",
-              "line": 31,
+              "line": 33,
               "column": 8,
               "description": [
               ]
             },
             {
               "label": "PWM_WRAP1",
-              "line": 31,
+              "line": 33,
               "column": 19,
               "description": [
               ]
             },
             {
               "label": "PWM_WRAP2",
-              "line": 31,
+              "line": 33,
               "column": 30,
               "description": [
               ]
             },
             {
               "label": "PWM_WRAP3",
-              "line": 31,
+              "line": 33,
               "column": 41,
               "description": [
               ]
             },
             {
               "label": "PWM_WRAP4",
-              "line": 31,
+              "line": 33,
               "column": 52,
               "description": [
               ]
             },
             {
               "label": "PWM_WRAP5",
-              "line": 31,
+              "line": 33,
               "column": 63,
               "description": [
               ]
             },
             {
               "label": "PWM_WRAP6",
-              "line": 31,
+              "line": 33,
               "column": 74,
               "description": [
               ]
             },
             {
               "label": "PWM_WRAP7",
-              "line": 31,
+              "line": 33,
               "column": 85,
               "description": [
               ]
             },
             {
               "label": "I2C0_TX",
-              "line": 32,
-              "column": 8,
-              "description": [
-              ]
-            },
-            {
-              "label": "I2C0_RX",
-              "line": 32,
-              "column": 17,
-              "description": [
-              ]
-            },
-            {
-              "label": "I2C1_TX",
-              "line": 33,
-              "column": 8,
-              "description": [
-              ]
-            },
-            {
-              "label": "I2C1_RX",
-              "line": 33,
-              "column": 17,
-              "description": [
-              ]
-            },
-            {
-              "label": "ADC",
               "line": 34,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "XIP_STREAM",
+              "label": "I2C0_RX",
+              "line": 34,
+              "column": 17,
+              "description": [
+              ]
+            },
+            {
+              "label": "I2C1_TX",
               "line": 35,
+              "column": 8,
+              "description": [
+              ]
+            },
+            {
+              "label": "I2C1_RX",
+              "line": 35,
+              "column": 17,
+              "description": [
+              ]
+            },
+            {
+              "label": "ADC",
+              "line": 36,
+              "column": 8,
+              "description": [
+              ]
+            },
+            {
+              "label": "XIP_STREAM",
+              "line": 37,
               "column": 8,
               "description": [
               ]
             },
             {
               "label": "XIP_SSITX",
-              "line": 35,
+              "line": 37,
               "column": 20,
               "description": [
               ]
             },
             {
               "label": "XIP_SSIRX",
-              "line": 35,
+              "line": 37,
               "column": 31,
               "description": [
               ]
             },
             {
               "label": "TIMER0",
-              "line": 36,
+              "line": 38,
               "column": 8,
               "description": [
               ]
             },
             {
               "label": "TIMER1",
-              "line": 36,
+              "line": 38,
               "column": 16,
               "description": [
               ]
             },
             {
               "label": "TIMER2",
-              "line": 36,
+              "line": 38,
               "column": 24,
               "description": [
               ]
             },
             {
               "label": "TIMER3",
-              "line": 36,
+              "line": 38,
               "column": 32,
               "description": [
               ]
             },
             {
               "label": "PERMANENT",
-              "line": 37,
+              "line": 39,
               "column": 8,
               "description": [
               ]
@@ -1781,7 +1781,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA_Timer_Id",
           "qualifier": "",
-          "line": 183,
+          "line": 185,
           "column": 12,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -1792,7 +1792,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 183,
+                  "number": 185,
                   "children": [
                     {
                       "kind": "span",
@@ -1813,7 +1813,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Timer_Id",
-                      "href": "docs/rp__dma___spec.html#L183C12"
+                      "href": "docs/rp__dma___spec.html#L185C12"
                     },
                     {
                       "kind": "span",
@@ -1834,7 +1834,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Request_Trigger",
-                      "href": "docs/rp__dma___spec.html#L24C9"
+                      "href": "docs/rp__dma___spec.html#L26C9"
                     },
                     {
                       "kind": "span",
@@ -1890,7 +1890,7 @@ GNATdoc.Documentation = {
         {
           "label": "Ring_Wrap_Select",
           "qualifier": "",
-          "line": 20,
+          "line": 22,
           "column": 9,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -1901,7 +1901,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 20,
+                  "number": 22,
                   "children": [
                     {
                       "kind": "span",
@@ -1922,7 +1922,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Ring_Wrap_Select",
-                      "href": "docs/rp__dma___spec.html#L20C9"
+                      "href": "docs/rp__dma___spec.html#L22C9"
                     },
                     {
                       "kind": "span",
@@ -1948,7 +1948,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Wrap_Read",
-                      "href": "docs/rp__dma___spec.html#L20C30"
+                      "href": "docs/rp__dma___spec.html#L22C30"
                     },
                     {
                       "kind": "span",
@@ -1964,7 +1964,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Wrap_Write",
-                      "href": "docs/rp__dma___spec.html#L20C41"
+                      "href": "docs/rp__dma___spec.html#L22C41"
                     },
                     {
                       "kind": "span",
@@ -1975,7 +1975,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 21,
+                  "number": 23,
                   "children": [
                     {
                       "kind": "span",
@@ -2005,14 +2005,14 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Wrap_Read",
-              "line": 20,
+              "line": 22,
               "column": 30,
               "description": [
               ]
             },
             {
               "label": "Wrap_Write",
-              "line": 20,
+              "line": 22,
               "column": 41,
               "description": [
               ]
@@ -2022,7 +2022,7 @@ GNATdoc.Documentation = {
         {
           "label": "Transfer_Width",
           "qualifier": "",
-          "line": 16,
+          "line": 18,
           "column": 9,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -2033,7 +2033,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 16,
+                  "number": 18,
                   "children": [
                     {
                       "kind": "span",
@@ -2054,7 +2054,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transfer_Width",
-                      "href": "docs/rp__dma___spec.html#L16C9"
+                      "href": "docs/rp__dma___spec.html#L18C9"
                     },
                     {
                       "kind": "span",
@@ -2080,7 +2080,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transfer_8",
-                      "href": "docs/rp__dma___spec.html#L16C28"
+                      "href": "docs/rp__dma___spec.html#L18C28"
                     },
                     {
                       "kind": "span",
@@ -2096,7 +2096,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transfer_16",
-                      "href": "docs/rp__dma___spec.html#L16C40"
+                      "href": "docs/rp__dma___spec.html#L18C40"
                     },
                     {
                       "kind": "span",
@@ -2112,7 +2112,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transfer_32",
-                      "href": "docs/rp__dma___spec.html#L16C53"
+                      "href": "docs/rp__dma___spec.html#L18C53"
                     },
                     {
                       "kind": "span",
@@ -2123,7 +2123,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 17,
+                  "number": 19,
                   "children": [
                     {
                       "kind": "span",
@@ -2153,21 +2153,21 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Transfer_8",
-              "line": 16,
+              "line": 18,
               "column": 28,
               "description": [
               ]
             },
             {
               "label": "Transfer_16",
-              "line": 16,
+              "line": 18,
               "column": 40,
               "description": [
               ]
             },
             {
               "label": "Transfer_32",
-              "line": 16,
+              "line": 18,
               "column": 53,
               "description": [
               ]
@@ -2182,7 +2182,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA_Configuration",
           "qualifier": "",
-          "line": 87,
+          "line": 89,
           "column": 9,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -2193,7 +2193,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 87,
+                  "number": 89,
                   "children": [
                     {
                       "kind": "span",
@@ -2214,7 +2214,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Configuration",
-                      "href": "docs/rp__dma___spec.html#L87C9"
+                      "href": "docs/rp__dma___spec.html#L89C9"
                     },
                     {
                       "kind": "span",
@@ -2240,7 +2240,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 88,
+                  "number": 90,
                   "children": [
                     {
                       "kind": "span",
@@ -2251,7 +2251,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "High_Priority",
-                      "href": "docs/rp__dma___spec.html#L88C7"
+                      "href": "docs/rp__dma___spec.html#L90C7"
                     },
                     {
                       "kind": "span",
@@ -2312,7 +2312,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 89,
+                  "number": 91,
                   "children": [
                     {
                       "kind": "span",
@@ -2323,7 +2323,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Data_Size",
-                      "href": "docs/rp__dma___spec.html#L89C7"
+                      "href": "docs/rp__dma___spec.html#L91C7"
                     },
                     {
                       "kind": "span",
@@ -2344,7 +2344,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transfer_Width",
-                      "href": "docs/rp__dma___spec.html#L16C9"
+                      "href": "docs/rp__dma___spec.html#L18C9"
                     },
                     {
                       "kind": "span",
@@ -2385,7 +2385,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 90,
+                  "number": 92,
                   "children": [
                     {
                       "kind": "span",
@@ -2396,7 +2396,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Increment_Read",
-                      "href": "docs/rp__dma___spec.html#L90C7"
+                      "href": "docs/rp__dma___spec.html#L92C7"
                     },
                     {
                       "kind": "span",
@@ -2457,7 +2457,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 91,
+                  "number": 93,
                   "children": [
                     {
                       "kind": "span",
@@ -2468,7 +2468,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Increment_Write",
-                      "href": "docs/rp__dma___spec.html#L91C7"
+                      "href": "docs/rp__dma___spec.html#L93C7"
                     },
                     {
                       "kind": "span",
@@ -2529,7 +2529,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 92,
+                  "number": 94,
                   "children": [
                     {
                       "kind": "span",
@@ -2540,7 +2540,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Ring_Size",
-                      "href": "docs/rp__dma___spec.html#L92C7"
+                      "href": "docs/rp__dma___spec.html#L94C7"
                     },
                     {
                       "kind": "span",
@@ -2602,7 +2602,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 93,
+                  "number": 95,
                   "children": [
                     {
                       "kind": "span",
@@ -2613,7 +2613,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Ring_Wrap",
-                      "href": "docs/rp__dma___spec.html#L93C7"
+                      "href": "docs/rp__dma___spec.html#L95C7"
                     },
                     {
                       "kind": "span",
@@ -2634,7 +2634,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Ring_Wrap_Select",
-                      "href": "docs/rp__dma___spec.html#L20C9"
+                      "href": "docs/rp__dma___spec.html#L22C9"
                     },
                     {
                       "kind": "span",
@@ -2675,7 +2675,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 94,
+                  "number": 96,
                   "children": [
                     {
                       "kind": "span",
@@ -2686,7 +2686,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Chain_To",
-                      "href": "docs/rp__dma___spec.html#L94C7"
+                      "href": "docs/rp__dma___spec.html#L96C7"
                     },
                     {
                       "kind": "span",
@@ -2707,7 +2707,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
+                      "href": "docs/rp__dma___spec.html#L15C9"
                     },
                     {
                       "kind": "span",
@@ -2748,7 +2748,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 95,
+                  "number": 97,
                   "children": [
                     {
                       "kind": "span",
@@ -2764,7 +2764,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 96,
+                  "number": 98,
                   "children": [
                     {
                       "kind": "span",
@@ -2775,7 +2775,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Trigger",
-                      "href": "docs/rp__dma___spec.html#L96C7"
+                      "href": "docs/rp__dma___spec.html#L98C7"
                     },
                     {
                       "kind": "span",
@@ -2796,7 +2796,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Request_Trigger",
-                      "href": "docs/rp__dma___spec.html#L24C9"
+                      "href": "docs/rp__dma___spec.html#L26C9"
                     },
                     {
                       "kind": "span",
@@ -2837,7 +2837,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 97,
+                  "number": 99,
                   "children": [
                     {
                       "kind": "span",
@@ -2848,7 +2848,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Quiet",
-                      "href": "docs/rp__dma___spec.html#L97C7"
+                      "href": "docs/rp__dma___spec.html#L99C7"
                     },
                     {
                       "kind": "span",
@@ -2909,7 +2909,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 98,
+                  "number": 100,
                   "children": [
                     {
                       "kind": "span",
@@ -2920,7 +2920,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Byte_Swap",
-                      "href": "docs/rp__dma___spec.html#L98C7"
+                      "href": "docs/rp__dma___spec.html#L100C7"
                     },
                     {
                       "kind": "span",
@@ -2981,7 +2981,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 99,
+                  "number": 101,
                   "children": [
                     {
                       "kind": "span",
@@ -2992,7 +2992,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sniff",
-                      "href": "docs/rp__dma___spec.html#L99C7"
+                      "href": "docs/rp__dma___spec.html#L101C7"
                     },
                     {
                       "kind": "span",
@@ -3053,7 +3053,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 100,
+                  "number": 102,
                   "children": [
                     {
                       "kind": "span",
@@ -3079,7 +3079,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/rp__dma___spec.html#L87C9"
+                      "href": "docs/rp__dma___spec.html#L89C9"
                     }
                   ]
                 }
@@ -3089,7 +3089,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "High_Priority",
-              "line": 88,
+              "line": 90,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -3108,11 +3108,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Data_Size",
-              "line": 89,
+              "line": 91,
               "column": 7,
               "type": {
                 "label": "RP.DMA.Transfer_Width",
-                "docHref": "docs/rp__dma___spec.html#L16C9"
+                "docHref": "docs/rp__dma___spec.html#L18C9"
               },
               "description": [
                 {
@@ -3128,7 +3128,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Increment_Read",
-              "line": 90,
+              "line": 92,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -3147,7 +3147,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Increment_Write",
-              "line": 91,
+              "line": 93,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -3166,7 +3166,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Ring_Size",
-              "line": 92,
+              "line": 94,
               "column": 7,
               "type": {
                 "label": "HAL.UInt4",
@@ -3186,11 +3186,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Ring_Wrap",
-              "line": 93,
+              "line": 95,
               "column": 7,
               "type": {
                 "label": "RP.DMA.Ring_Wrap_Select",
-                "docHref": "docs/rp__dma___spec.html#L20C9"
+                "docHref": "docs/rp__dma___spec.html#L22C9"
               },
               "description": [
                 {
@@ -3206,11 +3206,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Chain_To",
-              "line": 94,
+              "line": 96,
               "column": 7,
               "type": {
                 "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
+                "docHref": "docs/rp__dma___spec.html#L15C9"
               },
               "description": [
                 {
@@ -3230,11 +3230,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Trigger",
-              "line": 96,
+              "line": 98,
               "column": 7,
               "type": {
                 "label": "RP.DMA.DMA_Request_Trigger",
-                "docHref": "docs/rp__dma___spec.html#L24C9"
+                "docHref": "docs/rp__dma___spec.html#L26C9"
               },
               "description": [
                 {
@@ -3250,7 +3250,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Quiet",
-              "line": 97,
+              "line": 99,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -3269,7 +3269,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Byte_Swap",
-              "line": 98,
+              "line": 100,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -3288,7 +3288,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Sniff",
-              "line": 99,
+              "line": 101,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -3310,7 +3310,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA_Status",
           "qualifier": "",
-          "line": 102,
+          "line": 104,
           "column": 9,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -3321,7 +3321,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 102,
+                  "number": 104,
                   "children": [
                     {
                       "kind": "span",
@@ -3342,7 +3342,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Status",
-                      "href": "docs/rp__dma___spec.html#L102C9"
+                      "href": "docs/rp__dma___spec.html#L104C9"
                     },
                     {
                       "kind": "span",
@@ -3368,130 +3368,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 103,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Enabled",
-                      "href": "docs/rp__dma___spec.html#L103C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "             "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 104,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Busy",
-                      "href": "docs/rp__dma___spec.html#L104C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 105,
                   "children": [
                     {
@@ -3502,13 +3378,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Write_Error",
+                      "text": "Enabled",
                       "href": "docs/rp__dma___spec.html#L105C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "         "
+                      "text": "             "
                     },
                     {
                       "kind": "span",
@@ -3564,13 +3440,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Read_Error",
+                      "text": "Busy",
                       "href": "docs/rp__dma___spec.html#L106C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "          "
+                      "text": "                "
                     },
                     {
                       "kind": "span",
@@ -3626,13 +3502,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "AHB_Error",
+                      "text": "Write_Error",
                       "href": "docs/rp__dma___spec.html#L107C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "           "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -3688,8 +3564,132 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Transfers_Remaining",
+                      "text": "Read_Error",
                       "href": "docs/rp__dma___spec.html#L108C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 109,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "AHB_Error",
+                      "href": "docs/rp__dma___spec.html#L109C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "           "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 110,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Transfers_Remaining",
+                      "href": "docs/rp__dma___spec.html#L110C7"
                     },
                     {
                       "kind": "span",
@@ -3740,7 +3740,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 109,
+                  "number": 111,
                   "children": [
                     {
                       "kind": "span",
@@ -3766,7 +3766,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/rp__dma___spec.html#L102C9"
+                      "href": "docs/rp__dma___spec.html#L104C9"
                     }
                   ]
                 }
@@ -3776,26 +3776,6 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Enabled",
-              "line": 103,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Busy",
-              "line": 104,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Write_Error",
               "line": 105,
               "column": 7,
               "type": {
@@ -3805,7 +3785,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Read_Error",
+              "label": "Busy",
               "line": 106,
               "column": 7,
               "type": {
@@ -3815,7 +3795,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "AHB_Error",
+              "label": "Write_Error",
               "line": 107,
               "column": 7,
               "type": {
@@ -3825,8 +3805,28 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Transfers_Remaining",
+              "label": "Read_Error",
               "line": 108,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "AHB_Error",
+              "line": 109,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Transfers_Remaining",
+              "line": 110,
               "column": 7,
               "type": {
                 "label": "Natural"
@@ -3844,7 +3844,7 @@ GNATdoc.Documentation = {
         {
           "label": "Ack_IRQ",
           "qualifier": "",
-          "line": 175,
+          "line": 177,
           "column": 14,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -3855,7 +3855,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 175,
+                  "number": 177,
                   "children": [
                     {
                       "kind": "span",
@@ -3876,7 +3876,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Ack_IRQ",
-                      "href": "docs/rp__dma___spec.html#L175C14"
+                      "href": "docs/rp__dma___spec.html#L177C14"
                     },
                     {
                       "kind": "span",
@@ -3892,7 +3892,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L175C23"
+                      "href": "docs/rp__dma___spec.html#L177C23"
                     },
                     {
                       "kind": "span",
@@ -3913,7 +3913,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
+                      "href": "docs/rp__dma___spec.html#L15C9"
                     },
                     {
                       "kind": "span",
@@ -3924,7 +3924,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 176,
+                  "number": 178,
                   "children": [
                     {
                       "kind": "span",
@@ -3935,7 +3935,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "IRQ",
-                      "href": "docs/rp__dma___spec.html#L176C23"
+                      "href": "docs/rp__dma___spec.html#L178C23"
                     },
                     {
                       "kind": "span",
@@ -3956,7 +3956,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_IRQ_Id",
-                      "href": "docs/rp__dma___spec.html#L167C12"
+                      "href": "docs/rp__dma___spec.html#L169C12"
                     },
                     {
                       "kind": "span",
@@ -3976,22 +3976,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Channel",
-              "line": 175,
+              "line": 177,
               "column": 23,
               "type": {
                 "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
+                "docHref": "docs/rp__dma___spec.html#L15C9"
               },
               "description": [
               ]
             },
             {
               "label": "IRQ",
-              "line": 176,
+              "line": 178,
               "column": 23,
               "type": {
                 "label": "RP.DMA.DMA_IRQ_Id",
-                "docHref": "docs/rp__dma___spec.html#L167C12"
+                "docHref": "docs/rp__dma___spec.html#L169C12"
               },
               "description": [
               ]
@@ -4001,7 +4001,7 @@ GNATdoc.Documentation = {
         {
           "label": "Busy",
           "qualifier": "",
-          "line": 138,
+          "line": 140,
           "column": 13,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -4012,7 +4012,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 138,
+                  "number": 140,
                   "children": [
                     {
                       "kind": "span",
@@ -4033,13 +4033,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Busy",
-                      "href": "docs/rp__dma___spec.html#L138C13"
+                      "href": "docs/rp__dma___spec.html#L140C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 139,
+                  "number": 141,
                   "children": [
                     {
                       "kind": "span",
@@ -4055,7 +4055,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L139C8"
+                      "href": "docs/rp__dma___spec.html#L141C8"
                     },
                     {
                       "kind": "span",
@@ -4076,7 +4076,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
+                      "href": "docs/rp__dma___spec.html#L15C9"
                     },
                     {
                       "kind": "span",
@@ -4087,7 +4087,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 140,
+                  "number": 142,
                   "children": [
                     {
                       "kind": "span",
@@ -4122,11 +4122,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Channel",
-              "line": 139,
+              "line": 141,
               "column": 8,
               "type": {
                 "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
+                "docHref": "docs/rp__dma___spec.html#L15C9"
               },
               "description": [
               ]
@@ -4136,7 +4136,7 @@ GNATdoc.Documentation = {
         {
           "label": "Checksum",
           "qualifier": "",
-          "line": 164,
+          "line": 166,
           "column": 13,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -4147,7 +4147,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 164,
+                  "number": 166,
                   "children": [
                     {
                       "kind": "span",
@@ -4168,13 +4168,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Checksum",
-                      "href": "docs/rp__dma___spec.html#L164C13"
+                      "href": "docs/rp__dma___spec.html#L166C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 165,
+                  "number": 167,
                   "children": [
                     {
                       "kind": "span",
@@ -4211,6 +4211,435 @@ GNATdoc.Documentation = {
         {
           "label": "Configure",
           "qualifier": "",
+          "line": 115,
+          "column": 14,
+          "src": "srcs/rp-dma.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 115,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Configure",
+                      "href": "docs/rp__dma___spec.html#L115C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 116,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel",
+                      "href": "docs/rp__dma___spec.html#L116C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_Channel_Id",
+                      "href": "docs/rp__dma___spec.html#L15C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 117,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Config",
+                      "href": "docs/rp__dma___spec.html#L117C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_Configuration",
+                      "href": "docs/rp__dma___spec.html#L89C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Channel",
+              "line": 116,
+              "column": 8,
+              "type": {
+                "label": "RP.DMA.DMA_Channel_Id",
+                "docHref": "docs/rp__dma___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Config",
+              "line": 117,
+              "column": 8,
+              "type": {
+                "label": "RP.DMA.DMA_Configuration",
+                "docHref": "docs/rp__dma___spec.html#L89C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Disable",
+          "qualifier": "",
+          "line": 137,
+          "column": 14,
+          "src": "srcs/rp-dma.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 137,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Disable",
+                      "href": "docs/rp__dma___spec.html#L137C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 138,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel",
+                      "href": "docs/rp__dma___spec.html#L138C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_Channel_Id",
+                      "href": "docs/rp__dma___spec.html#L15C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Channel",
+              "line": 138,
+              "column": 8,
+              "type": {
+                "label": "RP.DMA.DMA_Channel_Id",
+                "docHref": "docs/rp__dma___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Disable_IRQ",
+          "qualifier": "",
+          "line": 174,
+          "column": 14,
+          "src": "srcs/rp-dma.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 174,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Disable_IRQ",
+                      "href": "docs/rp__dma___spec.html#L174C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel",
+                      "href": "docs/rp__dma___spec.html#L174C27"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_Channel_Id",
+                      "href": "docs/rp__dma___spec.html#L15C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 175,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "IRQ",
+                      "href": "docs/rp__dma___spec.html#L175C27"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_IRQ_Id",
+                      "href": "docs/rp__dma___spec.html#L169C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Channel",
+              "line": 174,
+              "column": 27,
+              "type": {
+                "label": "RP.DMA.DMA_Channel_Id",
+                "docHref": "docs/rp__dma___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "IRQ",
+              "line": 175,
+              "column": 27,
+              "type": {
+                "label": "RP.DMA.DMA_IRQ_Id",
+                "docHref": "docs/rp__dma___spec.html#L169C12"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Enable",
+          "qualifier": "",
           "line": 113,
           "column": 14,
           "src": "srcs/rp-dma.ads.html",
@@ -4242,437 +4671,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Configure",
-                      "href": "docs/rp__dma___spec.html#L113C14"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 114,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L114C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 115,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Config",
-                      "href": "docs/rp__dma___spec.html#L115C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Configuration",
-                      "href": "docs/rp__dma___spec.html#L87C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Channel",
-              "line": 114,
-              "column": 8,
-              "type": {
-                "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Config",
-              "line": 115,
-              "column": 8,
-              "type": {
-                "label": "RP.DMA.DMA_Configuration",
-                "docHref": "docs/rp__dma___spec.html#L87C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Disable",
-          "qualifier": "",
-          "line": 135,
-          "column": 14,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 135,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Disable",
-                      "href": "docs/rp__dma___spec.html#L135C14"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 136,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L136C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Channel",
-              "line": 136,
-              "column": 8,
-              "type": {
-                "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Disable_IRQ",
-          "qualifier": "",
-          "line": 172,
-          "column": 14,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 172,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Disable_IRQ",
-                      "href": "docs/rp__dma___spec.html#L172C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L172C27"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 173,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                          "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "IRQ",
-                      "href": "docs/rp__dma___spec.html#L173C27"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_IRQ_Id",
-                      "href": "docs/rp__dma___spec.html#L167C12"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Channel",
-              "line": 172,
-              "column": 27,
-              "type": {
-                "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "IRQ",
-              "line": 173,
-              "column": 27,
-              "type": {
-                "label": "RP.DMA.DMA_IRQ_Id",
-                "docHref": "docs/rp__dma___spec.html#L167C12"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Enable",
-          "qualifier": "",
-          "line": 111,
-          "column": 14,
-          "src": "srcs/rp-dma.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 111,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
                       "text": "Enable",
-                      "href": "docs/rp__dma___spec.html#L111C14"
+                      "href": "docs/rp__dma___spec.html#L113C14"
                     },
                     {
                       "kind": "span",
@@ -4688,7 +4688,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enable_Checksum",
           "qualifier": "",
-          "line": 154,
+          "line": 156,
           "column": 14,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -4699,7 +4699,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 154,
+                  "number": 156,
                   "children": [
                     {
                       "kind": "span",
@@ -4720,13 +4720,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enable_Checksum",
-                      "href": "docs/rp__dma___spec.html#L154C14"
+                      "href": "docs/rp__dma___spec.html#L156C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 155,
+                  "number": 157,
                   "children": [
                     {
                       "kind": "span",
@@ -4742,7 +4742,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L155C8"
+                      "href": "docs/rp__dma___spec.html#L157C8"
                     },
                     {
                       "kind": "span",
@@ -4763,112 +4763,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 156,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Algorithm",
-                      "href": "docs/rp__dma___spec.html#L156C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Checksum_Algorithm",
-                      "href": "docs/rp__dma___spec.html#L146C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 157,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Byte_Swap",
-                      "href": "docs/rp__dma___spec.html#L157C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
+                      "href": "docs/rp__dma___spec.html#L15C9"
                     },
                     {
                       "kind": "span",
@@ -4889,13 +4784,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reversed",
+                      "text": "Algorithm",
                       "href": "docs/rp__dma___spec.html#L158C8"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -4910,27 +4805,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "False"
+                      "text": "Checksum_Algorithm",
+                      "href": "docs/rp__dma___spec.html#L148C9"
                     },
                     {
                       "kind": "span",
@@ -4951,8 +4827,132 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Inverted",
+                      "text": "Byte_Swap",
                       "href": "docs/rp__dma___spec.html#L159C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 160,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Reversed",
+                      "href": "docs/rp__dma___spec.html#L160C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "False"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 161,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Inverted",
+                      "href": "docs/rp__dma___spec.html#L161C8"
                     },
                     {
                       "kind": "span",
@@ -5012,29 +5012,29 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Channel",
-              "line": 155,
+              "line": 157,
               "column": 8,
               "type": {
                 "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
+                "docHref": "docs/rp__dma___spec.html#L15C9"
               },
               "description": [
               ]
             },
             {
               "label": "Algorithm",
-              "line": 156,
+              "line": 158,
               "column": 8,
               "type": {
                 "label": "RP.DMA.Checksum_Algorithm",
-                "docHref": "docs/rp__dma___spec.html#L146C9"
+                "docHref": "docs/rp__dma___spec.html#L148C9"
               },
               "description": [
               ]
             },
             {
               "label": "Byte_Swap",
-              "line": 157,
+              "line": 159,
               "column": 8,
               "type": {
                 "label": "Boolean"
@@ -5044,7 +5044,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reversed",
-              "line": 158,
+              "line": 160,
               "column": 8,
               "type": {
                 "label": "Boolean"
@@ -5054,7 +5054,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Inverted",
-              "line": 159,
+              "line": 161,
               "column": 8,
               "type": {
                 "label": "Boolean"
@@ -5067,7 +5067,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enable_IRQ",
           "qualifier": "",
-          "line": 169,
+          "line": 171,
           "column": 14,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -5078,7 +5078,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 169,
+                  "number": 171,
                   "children": [
                     {
                       "kind": "span",
@@ -5099,7 +5099,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enable_IRQ",
-                      "href": "docs/rp__dma___spec.html#L169C14"
+                      "href": "docs/rp__dma___spec.html#L171C14"
                     },
                     {
                       "kind": "span",
@@ -5115,7 +5115,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L169C26"
+                      "href": "docs/rp__dma___spec.html#L171C26"
                     },
                     {
                       "kind": "span",
@@ -5136,7 +5136,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
+                      "href": "docs/rp__dma___spec.html#L15C9"
                     },
                     {
                       "kind": "span",
@@ -5147,7 +5147,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 170,
+                  "number": 172,
                   "children": [
                     {
                       "kind": "span",
@@ -5158,7 +5158,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "IRQ",
-                      "href": "docs/rp__dma___spec.html#L170C26"
+                      "href": "docs/rp__dma___spec.html#L172C26"
                     },
                     {
                       "kind": "span",
@@ -5179,7 +5179,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_IRQ_Id",
-                      "href": "docs/rp__dma___spec.html#L167C12"
+                      "href": "docs/rp__dma___spec.html#L169C12"
                     },
                     {
                       "kind": "span",
@@ -5199,22 +5199,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Channel",
-              "line": 169,
+              "line": 171,
               "column": 26,
               "type": {
                 "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
+                "docHref": "docs/rp__dma___spec.html#L15C9"
               },
               "description": [
               ]
             },
             {
               "label": "IRQ",
-              "line": 170,
+              "line": 172,
               "column": 26,
               "type": {
                 "label": "RP.DMA.DMA_IRQ_Id",
-                "docHref": "docs/rp__dma___spec.html#L167C12"
+                "docHref": "docs/rp__dma___spec.html#L169C12"
               },
               "description": [
               ]
@@ -5224,7 +5224,7 @@ GNATdoc.Documentation = {
         {
           "label": "IRQ_Status",
           "qualifier": "",
-          "line": 178,
+          "line": 180,
           "column": 13,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -5235,7 +5235,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 178,
+                  "number": 180,
                   "children": [
                     {
                       "kind": "span",
@@ -5256,7 +5256,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "IRQ_Status",
-                      "href": "docs/rp__dma___spec.html#L178C13"
+                      "href": "docs/rp__dma___spec.html#L180C13"
                     },
                     {
                       "kind": "span",
@@ -5272,7 +5272,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L178C25"
+                      "href": "docs/rp__dma___spec.html#L180C25"
                     },
                     {
                       "kind": "span",
@@ -5293,7 +5293,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
+                      "href": "docs/rp__dma___spec.html#L15C9"
                     },
                     {
                       "kind": "span",
@@ -5304,7 +5304,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 179,
+                  "number": 181,
                   "children": [
                     {
                       "kind": "span",
@@ -5315,7 +5315,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "IRQ",
-                      "href": "docs/rp__dma___spec.html#L179C25"
+                      "href": "docs/rp__dma___spec.html#L181C25"
                     },
                     {
                       "kind": "span",
@@ -5336,7 +5336,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_IRQ_Id",
-                      "href": "docs/rp__dma___spec.html#L167C12"
+                      "href": "docs/rp__dma___spec.html#L169C12"
                     },
                     {
                       "kind": "span",
@@ -5347,7 +5347,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 180,
+                  "number": 182,
                   "children": [
                     {
                       "kind": "span",
@@ -5391,22 +5391,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Channel",
-              "line": 178,
+              "line": 180,
               "column": 25,
               "type": {
                 "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
+                "docHref": "docs/rp__dma___spec.html#L15C9"
               },
               "description": [
               ]
             },
             {
               "label": "IRQ",
-              "line": 179,
+              "line": 181,
               "column": 25,
               "type": {
                 "label": "RP.DMA.DMA_IRQ_Id",
-                "docHref": "docs/rp__dma___spec.html#L167C12"
+                "docHref": "docs/rp__dma___spec.html#L169C12"
               },
               "description": [
               ]
@@ -5416,7 +5416,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Checksum",
           "qualifier": "",
-          "line": 161,
+          "line": 163,
           "column": 14,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -5427,7 +5427,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 161,
+                  "number": 163,
                   "children": [
                     {
                       "kind": "span",
@@ -5448,13 +5448,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Checksum",
-                      "href": "docs/rp__dma___spec.html#L161C14"
+                      "href": "docs/rp__dma___spec.html#L163C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 162,
+                  "number": 164,
                   "children": [
                     {
                       "kind": "span",
@@ -5470,7 +5470,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Value",
-                      "href": "docs/rp__dma___spec.html#L162C8"
+                      "href": "docs/rp__dma___spec.html#L164C8"
                     },
                     {
                       "kind": "span",
@@ -5511,7 +5511,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Value",
-              "line": 162,
+              "line": 164,
               "column": 8,
               "type": {
                 "label": "HAL.UInt32",
@@ -5525,7 +5525,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Pacing_Timer",
           "qualifier": "",
-          "line": 185,
+          "line": 187,
           "column": 14,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -5536,7 +5536,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 185,
+                  "number": 187,
                   "children": [
                     {
                       "kind": "span",
@@ -5557,13 +5557,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Pacing_Timer",
-                      "href": "docs/rp__dma___spec.html#L185C14"
+                      "href": "docs/rp__dma___spec.html#L187C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 186,
+                  "number": 188,
                   "children": [
                     {
                       "kind": "span",
@@ -5579,7 +5579,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Timer",
-                      "href": "docs/rp__dma___spec.html#L186C8"
+                      "href": "docs/rp__dma___spec.html#L188C8"
                     },
                     {
                       "kind": "span",
@@ -5600,7 +5600,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Timer_Id",
-                      "href": "docs/rp__dma___spec.html#L183C12"
+                      "href": "docs/rp__dma___spec.html#L185C12"
                     },
                     {
                       "kind": "span",
@@ -5611,7 +5611,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 187,
+                  "number": 189,
                   "children": [
                     {
                       "kind": "span",
@@ -5622,7 +5622,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "X",
-                      "href": "docs/rp__dma___spec.html#L187C8"
+                      "href": "docs/rp__dma___spec.html#L189C8"
                     },
                     {
                       "kind": "span",
@@ -5638,7 +5638,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Y",
-                      "href": "docs/rp__dma___spec.html#L187C11"
+                      "href": "docs/rp__dma___spec.html#L189C11"
                     },
                     {
                       "kind": "span",
@@ -5700,18 +5700,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Timer",
-              "line": 186,
+              "line": 188,
               "column": 8,
               "type": {
                 "label": "RP.DMA.DMA_Timer_Id",
-                "docHref": "docs/rp__dma___spec.html#L183C12"
+                "docHref": "docs/rp__dma___spec.html#L185C12"
               },
               "description": [
               ]
             },
             {
               "label": "X",
-              "line": 187,
+              "line": 189,
               "column": 8,
               "type": {
                 "label": "HAL.UInt16",
@@ -5722,7 +5722,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Y",
-              "line": 187,
+              "line": 189,
               "column": 11,
               "type": {
                 "label": "HAL.UInt16",
@@ -5736,7 +5736,7 @@ GNATdoc.Documentation = {
         {
           "label": "Setup",
           "qualifier": "",
-          "line": 117,
+          "line": 119,
           "column": 14,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -5747,7 +5747,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 117,
+                  "number": 119,
                   "children": [
                     {
                       "kind": "span",
@@ -5768,13 +5768,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Setup",
-                      "href": "docs/rp__dma___spec.html#L117C14"
+                      "href": "docs/rp__dma___spec.html#L119C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 118,
+                  "number": 120,
                   "children": [
                     {
                       "kind": "span",
@@ -5790,7 +5790,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L118C8"
+                      "href": "docs/rp__dma___spec.html#L120C8"
                     },
                     {
                       "kind": "span",
@@ -5811,7 +5811,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
+                      "href": "docs/rp__dma___spec.html#L15C9"
                     },
                     {
                       "kind": "span",
@@ -5822,7 +5822,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 119,
+                  "number": 121,
                   "children": [
                     {
                       "kind": "span",
@@ -5833,7 +5833,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "From",
-                      "href": "docs/rp__dma___spec.html#L119C8"
+                      "href": "docs/rp__dma___spec.html#L121C8"
                     },
                     {
                       "kind": "span",
@@ -5849,7 +5849,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "To",
-                      "href": "docs/rp__dma___spec.html#L119C14"
+                      "href": "docs/rp__dma___spec.html#L121C14"
                     },
                     {
                       "kind": "span",
@@ -5880,7 +5880,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 120,
+                  "number": 122,
                   "children": [
                     {
                       "kind": "span",
@@ -5891,7 +5891,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count",
-                      "href": "docs/rp__dma___spec.html#L120C8"
+                      "href": "docs/rp__dma___spec.html#L122C8"
                     },
                     {
                       "kind": "span",
@@ -5932,18 +5932,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Channel",
-              "line": 118,
+              "line": 120,
               "column": 8,
               "type": {
                 "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
+                "docHref": "docs/rp__dma___spec.html#L15C9"
               },
               "description": [
               ]
             },
             {
               "label": "From",
-              "line": 119,
+              "line": 121,
               "column": 8,
               "type": {
                 "label": "Address"
@@ -5953,7 +5953,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "To",
-              "line": 119,
+              "line": 121,
               "column": 14,
               "type": {
                 "label": "Address"
@@ -5963,7 +5963,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Count",
-              "line": 120,
+              "line": 122,
               "column": 8,
               "type": {
                 "label": "HAL.UInt32",
@@ -5977,7 +5977,7 @@ GNATdoc.Documentation = {
         {
           "label": "Start",
           "qualifier": "",
-          "line": 122,
+          "line": 124,
           "column": 14,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -5988,7 +5988,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 122,
+                  "number": 124,
                   "children": [
                     {
                       "kind": "span",
@@ -6009,13 +6009,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Start",
-                      "href": "docs/rp__dma___spec.html#L122C14"
+                      "href": "docs/rp__dma___spec.html#L124C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 123,
+                  "number": 125,
                   "children": [
                     {
                       "kind": "span",
@@ -6031,7 +6031,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L123C8"
+                      "href": "docs/rp__dma___spec.html#L125C8"
                     },
                     {
                       "kind": "span",
@@ -6052,7 +6052,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
+                      "href": "docs/rp__dma___spec.html#L15C9"
                     },
                     {
                       "kind": "span",
@@ -6093,11 +6093,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Channel",
-              "line": 123,
+              "line": 125,
               "column": 8,
               "type": {
                 "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
+                "docHref": "docs/rp__dma___spec.html#L15C9"
               },
               "description": [
               ]
@@ -6107,7 +6107,7 @@ GNATdoc.Documentation = {
         {
           "label": "Start",
           "qualifier": "",
-          "line": 129,
+          "line": 131,
           "column": 14,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -6118,7 +6118,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 129,
+                  "number": 131,
                   "children": [
                     {
                       "kind": "span",
@@ -6139,13 +6139,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Start",
-                      "href": "docs/rp__dma___spec.html#L129C14"
+                      "href": "docs/rp__dma___spec.html#L131C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 130,
+                  "number": 132,
                   "children": [
                     {
                       "kind": "span",
@@ -6161,7 +6161,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L130C8"
+                      "href": "docs/rp__dma___spec.html#L132C8"
                     },
                     {
                       "kind": "span",
@@ -6182,7 +6182,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
+                      "href": "docs/rp__dma___spec.html#L15C9"
                     },
                     {
                       "kind": "span",
@@ -6193,7 +6193,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 131,
+                  "number": 133,
                   "children": [
                     {
                       "kind": "span",
@@ -6204,7 +6204,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "From",
-                      "href": "docs/rp__dma___spec.html#L131C8"
+                      "href": "docs/rp__dma___spec.html#L133C8"
                     },
                     {
                       "kind": "span",
@@ -6220,7 +6220,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "To",
-                      "href": "docs/rp__dma___spec.html#L131C14"
+                      "href": "docs/rp__dma___spec.html#L133C14"
                     },
                     {
                       "kind": "span",
@@ -6251,7 +6251,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 132,
+                  "number": 134,
                   "children": [
                     {
                       "kind": "span",
@@ -6262,7 +6262,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count",
-                      "href": "docs/rp__dma___spec.html#L132C8"
+                      "href": "docs/rp__dma___spec.html#L134C8"
                     },
                     {
                       "kind": "span",
@@ -6312,18 +6312,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Channel",
-              "line": 130,
+              "line": 132,
               "column": 8,
               "type": {
                 "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
+                "docHref": "docs/rp__dma___spec.html#L15C9"
               },
               "description": [
               ]
             },
             {
               "label": "From",
-              "line": 131,
+              "line": 133,
               "column": 8,
               "type": {
                 "label": "Address"
@@ -6333,7 +6333,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "To",
-              "line": 131,
+              "line": 133,
               "column": 14,
               "type": {
                 "label": "Address"
@@ -6343,7 +6343,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Count",
-              "line": 132,
+              "line": 134,
               "column": 8,
               "type": {
                 "label": "HAL.UInt32",
@@ -6357,7 +6357,7 @@ GNATdoc.Documentation = {
         {
           "label": "Status",
           "qualifier": "",
-          "line": 142,
+          "line": 144,
           "column": 13,
           "src": "srcs/rp-dma.ads.html",
           "summary": [
@@ -6368,7 +6368,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 142,
+                  "number": 144,
                   "children": [
                     {
                       "kind": "span",
@@ -6389,13 +6389,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Status",
-                      "href": "docs/rp__dma___spec.html#L142C13"
+                      "href": "docs/rp__dma___spec.html#L144C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 143,
+                  "number": 145,
                   "children": [
                     {
                       "kind": "span",
@@ -6411,7 +6411,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/rp__dma___spec.html#L143C8"
+                      "href": "docs/rp__dma___spec.html#L145C8"
                     },
                     {
                       "kind": "span",
@@ -6432,7 +6432,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
+                      "href": "docs/rp__dma___spec.html#L15C9"
                     },
                     {
                       "kind": "span",
@@ -6443,7 +6443,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 144,
+                  "number": 146,
                   "children": [
                     {
                       "kind": "span",
@@ -6464,7 +6464,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Status",
-                      "href": "docs/rp__dma___spec.html#L102C9"
+                      "href": "docs/rp__dma___spec.html#L104C9"
                     },
                     {
                       "kind": "span",
@@ -6479,11 +6479,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Channel",
-              "line": 143,
+              "line": 145,
               "column": 8,
               "type": {
                 "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
+                "docHref": "docs/rp__dma___spec.html#L15C9"
               },
               "description": [
               ]

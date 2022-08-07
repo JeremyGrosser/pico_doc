@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Acmd_Desc",
           "qualifier": "",
-          "line": 366,
+          "line": 367,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 366,
+                  "number": 367,
                   "children": [
                     {
                       "kind": "span",
@@ -73,7 +73,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 367,
+                  "number": 368,
                   "children": [
                     {
                       "kind": "span",
@@ -144,7 +144,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 368,
+                  "number": 369,
                   "children": [
                     {
                       "kind": "span",
@@ -185,7 +185,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 369,
+                  "number": 370,
                   "children": [
                     {
                       "kind": "span",
@@ -231,7 +231,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 370,
+                  "number": 371,
                   "children": [
                     {
                       "kind": "span",
@@ -297,7 +297,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 371,
+                  "number": 372,
                   "children": [
                     {
                       "kind": "span",
@@ -338,7 +338,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 372,
+                  "number": 373,
                   "children": [
                     {
                       "kind": "span",
@@ -384,7 +384,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 373,
+                  "number": 374,
                   "children": [
                     {
                       "kind": "span",
@@ -450,7 +450,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 374,
+                  "number": 375,
                   "children": [
                     {
                       "kind": "span",
@@ -491,7 +491,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 375,
+                  "number": 376,
                   "children": [
                     {
                       "kind": "span",
@@ -537,7 +537,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 376,
+                  "number": 377,
                   "children": [
                     {
                       "kind": "span",
@@ -603,7 +603,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 377,
+                  "number": 378,
                   "children": [
                     {
                       "kind": "span",
@@ -644,7 +644,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 378,
+                  "number": 379,
                   "children": [
                     {
                       "kind": "span",
@@ -700,7 +700,7 @@ GNATdoc.Documentation = {
         {
           "label": "All_Send_CID",
           "qualifier": "",
-          "line": 203,
+          "line": 204,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -711,7 +711,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 203,
+                  "number": 204,
                   "children": [
                     {
                       "kind": "span",
@@ -795,7 +795,7 @@ GNATdoc.Documentation = {
         {
           "label": "App_Cmd",
           "qualifier": "",
-          "line": 259,
+          "line": 260,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -806,7 +806,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 259,
+                  "number": 260,
                   "children": [
                     {
                       "kind": "span",
@@ -877,7 +877,7 @@ GNATdoc.Documentation = {
         {
           "label": "Clr_Write_Prot",
           "qualifier": "",
-          "line": 249,
+          "line": 250,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -888,7 +888,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 249,
+                  "number": 250,
                   "children": [
                     {
                       "kind": "span",
@@ -959,7 +959,7 @@ GNATdoc.Documentation = {
         {
           "label": "Cmd_Desc",
           "qualifier": "",
-          "line": 310,
+          "line": 311,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -970,7 +970,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 310,
+                  "number": 311,
                   "children": [
                     {
                       "kind": "span",
@@ -1021,7 +1021,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 311,
+                  "number": 312,
                   "children": [
                     {
                       "kind": "span",
@@ -1092,7 +1092,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 312,
+                  "number": 313,
                   "children": [
                     {
                       "kind": "span",
@@ -1133,7 +1133,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 313,
+                  "number": 314,
                   "children": [
                     {
                       "kind": "span",
@@ -1179,7 +1179,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 314,
+                  "number": 315,
                   "children": [
                     {
                       "kind": "span",
@@ -1245,7 +1245,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 315,
+                  "number": 316,
                   "children": [
                     {
                       "kind": "span",
@@ -1286,7 +1286,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 316,
+                  "number": 317,
                   "children": [
                     {
                       "kind": "span",
@@ -1332,7 +1332,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 317,
+                  "number": 318,
                   "children": [
                     {
                       "kind": "span",
@@ -1398,7 +1398,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 318,
+                  "number": 319,
                   "children": [
                     {
                       "kind": "span",
@@ -1439,7 +1439,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 319,
+                  "number": 320,
                   "children": [
                     {
                       "kind": "span",
@@ -1485,7 +1485,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 320,
+                  "number": 321,
                   "children": [
                     {
                       "kind": "span",
@@ -1551,7 +1551,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 321,
+                  "number": 322,
                   "children": [
                     {
                       "kind": "span",
@@ -1592,7 +1592,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 322,
+                  "number": 323,
                   "children": [
                     {
                       "kind": "span",
@@ -1638,7 +1638,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 323,
+                  "number": 324,
                   "children": [
                     {
                       "kind": "span",
@@ -1704,7 +1704,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 324,
+                  "number": 325,
                   "children": [
                     {
                       "kind": "span",
@@ -1745,7 +1745,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 325,
+                  "number": 326,
                   "children": [
                     {
                       "kind": "span",
@@ -1791,7 +1791,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 326,
+                  "number": 327,
                   "children": [
                     {
                       "kind": "span",
@@ -1857,7 +1857,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 327,
+                  "number": 328,
                   "children": [
                     {
                       "kind": "span",
@@ -1898,7 +1898,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 328,
+                  "number": 329,
                   "children": [
                     {
                       "kind": "span",
@@ -1944,7 +1944,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 329,
+                  "number": 330,
                   "children": [
                     {
                       "kind": "span",
@@ -2010,7 +2010,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 330,
+                  "number": 331,
                   "children": [
                     {
                       "kind": "span",
@@ -2051,7 +2051,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 331,
+                  "number": 332,
                   "children": [
                     {
                       "kind": "span",
@@ -2097,7 +2097,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 332,
+                  "number": 333,
                   "children": [
                     {
                       "kind": "span",
@@ -2163,7 +2163,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 333,
+                  "number": 334,
                   "children": [
                     {
                       "kind": "span",
@@ -2204,7 +2204,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 334,
+                  "number": 335,
                   "children": [
                     {
                       "kind": "span",
@@ -2250,7 +2250,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 335,
+                  "number": 336,
                   "children": [
                     {
                       "kind": "span",
@@ -2316,7 +2316,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 336,
+                  "number": 337,
                   "children": [
                     {
                       "kind": "span",
@@ -2392,7 +2392,7 @@ GNATdoc.Documentation = {
         {
           "label": "Deselect_Card",
           "qualifier": "",
-          "line": 222,
+          "line": 223,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -2403,7 +2403,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 222,
+                  "number": 223,
                   "children": [
                     {
                       "kind": "span",
@@ -2474,7 +2474,7 @@ GNATdoc.Documentation = {
         {
           "label": "Erase",
           "qualifier": "",
-          "line": 255,
+          "line": 256,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -2485,7 +2485,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 255,
+                  "number": 256,
                   "children": [
                     {
                       "kind": "span",
@@ -2556,7 +2556,7 @@ GNATdoc.Documentation = {
         {
           "label": "Erase_Grp_End",
           "qualifier": "",
-          "line": 254,
+          "line": 255,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -2567,7 +2567,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 254,
+                  "number": 255,
                   "children": [
                     {
                       "kind": "span",
@@ -2638,7 +2638,7 @@ GNATdoc.Documentation = {
         {
           "label": "Erase_Grp_Start",
           "qualifier": "",
-          "line": 253,
+          "line": 254,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -2649,7 +2649,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 253,
+                  "number": 254,
                   "children": [
                     {
                       "kind": "span",
@@ -2720,7 +2720,7 @@ GNATdoc.Documentation = {
         {
           "label": "Fast_IO",
           "qualifier": "",
-          "line": 256,
+          "line": 257,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -2731,7 +2731,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 256,
+                  "number": 257,
                   "children": [
                     {
                       "kind": "span",
@@ -2802,7 +2802,7 @@ GNATdoc.Documentation = {
         {
           "label": "Gen_Cmd",
           "qualifier": "",
-          "line": 260,
+          "line": 261,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -2813,7 +2813,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 260,
+                  "number": 261,
                   "children": [
                     {
                       "kind": "span",
@@ -2884,7 +2884,7 @@ GNATdoc.Documentation = {
         {
           "label": "Go_Idle_State",
           "qualifier": "",
-          "line": 195,
+          "line": 196,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -2895,7 +2895,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 195,
+                  "number": 196,
                   "children": [
                     {
                       "kind": "span",
@@ -2975,7 +2975,7 @@ GNATdoc.Documentation = {
         {
           "label": "Go_Inactive_State",
           "qualifier": "",
-          "line": 237,
+          "line": 238,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -2986,7 +2986,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 237,
+                  "number": 238,
                   "children": [
                     {
                       "kind": "span",
@@ -3057,7 +3057,7 @@ GNATdoc.Documentation = {
         {
           "label": "Go_IRQ_State",
           "qualifier": "",
-          "line": 257,
+          "line": 258,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -3068,7 +3068,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 257,
+                  "number": 258,
                   "children": [
                     {
                       "kind": "span",
@@ -3139,7 +3139,7 @@ GNATdoc.Documentation = {
         {
           "label": "HS_Bustest_Read",
           "qualifier": "",
-          "line": 236,
+          "line": 237,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -3150,7 +3150,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 236,
+                  "number": 237,
                   "children": [
                     {
                       "kind": "span",
@@ -3221,7 +3221,7 @@ GNATdoc.Documentation = {
         {
           "label": "HS_Bustest_Write",
           "qualifier": "",
-          "line": 241,
+          "line": 242,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -3232,7 +3232,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 241,
+                  "number": 242,
                   "children": [
                     {
                       "kind": "span",
@@ -3303,7 +3303,7 @@ GNATdoc.Documentation = {
         {
           "label": "Lock_Unlock",
           "qualifier": "",
-          "line": 258,
+          "line": 259,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -3314,7 +3314,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 258,
+                  "number": 259,
                   "children": [
                     {
                       "kind": "span",
@@ -3385,7 +3385,7 @@ GNATdoc.Documentation = {
         {
           "label": "Prog_CID",
           "qualifier": "",
-          "line": 246,
+          "line": 247,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -3396,7 +3396,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 246,
+                  "number": 247,
                   "children": [
                     {
                       "kind": "span",
@@ -3467,7 +3467,7 @@ GNATdoc.Documentation = {
         {
           "label": "Prog_CSD",
           "qualifier": "",
-          "line": 247,
+          "line": 248,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -3478,7 +3478,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 247,
+                  "number": 248,
                   "children": [
                     {
                       "kind": "span",
@@ -3549,7 +3549,7 @@ GNATdoc.Documentation = {
         {
           "label": "Read_Dat_Until_Stop",
           "qualifier": "",
-          "line": 233,
+          "line": 234,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -3560,7 +3560,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 233,
+                  "number": 234,
                   "children": [
                     {
                       "kind": "span",
@@ -3631,7 +3631,7 @@ GNATdoc.Documentation = {
         {
           "label": "Read_Multi_Block",
           "qualifier": "",
-          "line": 240,
+          "line": 241,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -3642,7 +3642,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 240,
+                  "number": 241,
                   "children": [
                     {
                       "kind": "span",
@@ -3713,7 +3713,7 @@ GNATdoc.Documentation = {
         {
           "label": "Read_Single_Block",
           "qualifier": "",
-          "line": 239,
+          "line": 240,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -3724,7 +3724,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 239,
+                  "number": 240,
                   "children": [
                     {
                       "kind": "span",
@@ -3795,7 +3795,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_App_Change_Secure_Area",
           "qualifier": "",
-          "line": 280,
+          "line": 281,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -3806,7 +3806,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 280,
+                  "number": 281,
                   "children": [
                     {
                       "kind": "span",
@@ -3877,7 +3877,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_App_Get_CER_RES1",
           "qualifier": "",
-          "line": 279,
+          "line": 280,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -3888,7 +3888,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 279,
+                  "number": 280,
                   "children": [
                     {
                       "kind": "span",
@@ -3959,7 +3959,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_App_Get_CER_RN2",
           "qualifier": "",
-          "line": 277,
+          "line": 278,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -3970,7 +3970,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 277,
+                  "number": 278,
                   "children": [
                     {
                       "kind": "span",
@@ -4041,7 +4041,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_App_Get_MID",
           "qualifier": "",
-          "line": 275,
+          "line": 276,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -4052,7 +4052,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 275,
+                  "number": 276,
                   "children": [
                     {
                       "kind": "span",
@@ -4123,7 +4123,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_App_Get_MKB",
           "qualifier": "",
-          "line": 274,
+          "line": 275,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -4134,7 +4134,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 274,
+                  "number": 275,
                   "children": [
                     {
                       "kind": "span",
@@ -4205,7 +4205,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_App_Secure_Erase",
           "qualifier": "",
-          "line": 272,
+          "line": 273,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -4216,7 +4216,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 272,
+                  "number": 273,
                   "children": [
                     {
                       "kind": "span",
@@ -4287,7 +4287,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_App_Secure_Read_Multi_Block",
           "qualifier": "",
-          "line": 268,
+          "line": 269,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -4298,7 +4298,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 268,
+                  "number": 269,
                   "children": [
                     {
                       "kind": "span",
@@ -4369,7 +4369,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_App_Secure_Write_Multi_Block",
           "qualifier": "",
-          "line": 271,
+          "line": 272,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -4380,7 +4380,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 271,
+                  "number": 272,
                   "children": [
                     {
                       "kind": "span",
@@ -4451,7 +4451,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_App_Send_Num_Write_Blocks",
           "qualifier": "",
-          "line": 269,
+          "line": 270,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -4462,7 +4462,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 269,
+                  "number": 270,
                   "children": [
                     {
                       "kind": "span",
@@ -4533,7 +4533,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_App_Send_Op_Cond",
           "qualifier": "",
-          "line": 273,
+          "line": 274,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -4544,7 +4544,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 273,
+                  "number": 274,
                   "children": [
                     {
                       "kind": "span",
@@ -4615,7 +4615,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_App_Send_SCR",
           "qualifier": "",
-          "line": 281,
+          "line": 282,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -4626,7 +4626,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 281,
+                  "number": 282,
                   "children": [
                     {
                       "kind": "span",
@@ -4697,7 +4697,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_App_Set_Bus_Width",
           "qualifier": "",
-          "line": 266,
+          "line": 267,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -4708,7 +4708,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 266,
+                  "number": 267,
                   "children": [
                     {
                       "kind": "span",
@@ -4779,7 +4779,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_App_Set_CER_RES2",
           "qualifier": "",
-          "line": 278,
+          "line": 279,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -4790,7 +4790,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 278,
+                  "number": 279,
                   "children": [
                     {
                       "kind": "span",
@@ -4861,7 +4861,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_App_Set_CER_RN1",
           "qualifier": "",
-          "line": 276,
+          "line": 277,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -4872,7 +4872,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 276,
+                  "number": 277,
                   "children": [
                     {
                       "kind": "span",
@@ -4943,7 +4943,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_App_Set_Write_Block_Erase_Count",
           "qualifier": "",
-          "line": 270,
+          "line": 271,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -4954,7 +4954,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 270,
+                  "number": 271,
                   "children": [
                     {
                       "kind": "span",
@@ -5025,7 +5025,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_App_Status",
           "qualifier": "",
-          "line": 267,
+          "line": 268,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -5036,7 +5036,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 267,
+                  "number": 268,
                   "children": [
                     {
                       "kind": "span",
@@ -5107,7 +5107,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_Erase_Grp_End",
           "qualifier": "",
-          "line": 252,
+          "line": 253,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -5118,7 +5118,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 252,
+                  "number": 253,
                   "children": [
                     {
                       "kind": "span",
@@ -5189,7 +5189,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_Erase_Grp_Start",
           "qualifier": "",
-          "line": 251,
+          "line": 252,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -5200,7 +5200,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 251,
+                  "number": 252,
                   "children": [
                     {
                       "kind": "span",
@@ -5271,7 +5271,7 @@ GNATdoc.Documentation = {
         {
           "label": "SDMMC_Send_Op_Cond",
           "qualifier": "",
-          "line": 214,
+          "line": 215,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -5282,7 +5282,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 214,
+                  "number": 215,
                   "children": [
                     {
                       "kind": "span",
@@ -5370,7 +5370,7 @@ GNATdoc.Documentation = {
         {
           "label": "Select_Card",
           "qualifier": "",
-          "line": 221,
+          "line": 222,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -5381,7 +5381,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 221,
+                  "number": 222,
                   "children": [
                     {
                       "kind": "span",
@@ -5465,7 +5465,7 @@ GNATdoc.Documentation = {
         {
           "label": "Send_CID",
           "qualifier": "",
-          "line": 231,
+          "line": 232,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -5476,7 +5476,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 231,
+                  "number": 232,
                   "children": [
                     {
                       "kind": "span",
@@ -5556,7 +5556,7 @@ GNATdoc.Documentation = {
         {
           "label": "Send_CSD",
           "qualifier": "",
-          "line": 228,
+          "line": 229,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -5567,7 +5567,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 228,
+                  "number": 229,
                   "children": [
                     {
                       "kind": "span",
@@ -5647,7 +5647,7 @@ GNATdoc.Documentation = {
         {
           "label": "Send_If_Cond",
           "qualifier": "",
-          "line": 225,
+          "line": 226,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -5658,7 +5658,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 225,
+                  "number": 226,
                   "children": [
                     {
                       "kind": "span",
@@ -5738,7 +5738,7 @@ GNATdoc.Documentation = {
         {
           "label": "Send_Op_Cond",
           "qualifier": "",
-          "line": 199,
+          "line": 200,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -5749,7 +5749,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 199,
+                  "number": 200,
                   "children": [
                     {
                       "kind": "span",
@@ -5829,7 +5829,7 @@ GNATdoc.Documentation = {
         {
           "label": "Send_Relative_Addr",
           "qualifier": "",
-          "line": 206,
+          "line": 207,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -5840,7 +5840,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 206,
+                  "number": 207,
                   "children": [
                     {
                       "kind": "span",
@@ -5920,7 +5920,7 @@ GNATdoc.Documentation = {
         {
           "label": "Send_Status",
           "qualifier": "",
-          "line": 235,
+          "line": 236,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -5931,7 +5931,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 235,
+                  "number": 236,
                   "children": [
                     {
                       "kind": "span",
@@ -6002,7 +6002,7 @@ GNATdoc.Documentation = {
         {
           "label": "Send_Write_Prot",
           "qualifier": "",
-          "line": 250,
+          "line": 251,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -6013,7 +6013,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 250,
+                  "number": 251,
                   "children": [
                     {
                       "kind": "span",
@@ -6084,7 +6084,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Block_Count",
           "qualifier": "",
-          "line": 243,
+          "line": 244,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -6095,7 +6095,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 243,
+                  "number": 244,
                   "children": [
                     {
                       "kind": "span",
@@ -6175,7 +6175,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Blocklen",
           "qualifier": "",
-          "line": 238,
+          "line": 239,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -6186,7 +6186,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 238,
+                  "number": 239,
                   "children": [
                     {
                       "kind": "span",
@@ -6257,7 +6257,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_DSR",
           "qualifier": "",
-          "line": 209,
+          "line": 210,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -6268,7 +6268,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 209,
+                  "number": 210,
                   "children": [
                     {
                       "kind": "span",
@@ -6348,7 +6348,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Write_Prot",
           "qualifier": "",
-          "line": 248,
+          "line": 249,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -6359,7 +6359,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 248,
+                  "number": 249,
                   "children": [
                     {
                       "kind": "span",
@@ -6430,7 +6430,7 @@ GNATdoc.Documentation = {
         {
           "label": "Stop_Transmission",
           "qualifier": "",
-          "line": 234,
+          "line": 235,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -6441,7 +6441,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 234,
+                  "number": 235,
                   "children": [
                     {
                       "kind": "span",
@@ -6512,7 +6512,7 @@ GNATdoc.Documentation = {
         {
           "label": "Switch_Func",
           "qualifier": "",
-          "line": 217,
+          "line": 218,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -6523,7 +6523,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 217,
+                  "number": 218,
                   "children": [
                     {
                       "kind": "span",
@@ -6603,7 +6603,7 @@ GNATdoc.Documentation = {
         {
           "label": "Write_Dat_Until_Stop",
           "qualifier": "",
-          "line": 242,
+          "line": 243,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -6614,7 +6614,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 242,
+                  "number": 243,
                   "children": [
                     {
                       "kind": "span",
@@ -6685,7 +6685,7 @@ GNATdoc.Documentation = {
         {
           "label": "Write_Multi_Block",
           "qualifier": "",
-          "line": 245,
+          "line": 246,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -6696,7 +6696,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 245,
+                  "number": 246,
                   "children": [
                     {
                       "kind": "span",
@@ -6767,7 +6767,7 @@ GNATdoc.Documentation = {
         {
           "label": "Write_Single_Block",
           "qualifier": "",
-          "line": 244,
+          "line": 245,
           "column": 4,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -6778,7 +6778,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 244,
+                  "number": 245,
                   "children": [
                     {
                       "kind": "span",
@@ -6854,7 +6854,7 @@ GNATdoc.Documentation = {
         {
           "label": "ACmd_Desc_Array",
           "qualifier": "",
-          "line": 308,
+          "line": 309,
           "column": 9,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -6865,7 +6865,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 308,
+                  "number": 309,
                   "children": [
                     {
                       "kind": "span",
@@ -6886,7 +6886,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ACmd_Desc_Array",
-                      "href": "docs/hal__sdmmc___spec.html#L308C9"
+                      "href": "docs/hal__sdmmc___spec.html#L309C9"
                     },
                     {
                       "kind": "span",
@@ -6922,7 +6922,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SD_Specific_Command",
-                      "href": "docs/hal__sdmmc___spec.html#L264C12"
+                      "href": "docs/hal__sdmmc___spec.html#L265C12"
                     },
                     {
                       "kind": "span",
@@ -6948,7 +6948,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Cmd_Desc_Type",
-                      "href": "docs/hal__sdmmc___spec.html#L301C9"
+                      "href": "docs/hal__sdmmc___spec.html#L302C9"
                     },
                     {
                       "kind": "span",
@@ -6964,7 +6964,7 @@ GNATdoc.Documentation = {
         {
           "label": "Cmd_Desc_Array",
           "qualifier": "",
-          "line": 307,
+          "line": 308,
           "column": 9,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -6975,7 +6975,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 307,
+                  "number": 308,
                   "children": [
                     {
                       "kind": "span",
@@ -6996,7 +6996,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Cmd_Desc_Array",
-                      "href": "docs/hal__sdmmc___spec.html#L307C9"
+                      "href": "docs/hal__sdmmc___spec.html#L308C9"
                     },
                     {
                       "kind": "span",
@@ -7032,7 +7032,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SD_Command",
-                      "href": "docs/hal__sdmmc___spec.html#L192C9"
+                      "href": "docs/hal__sdmmc___spec.html#L193C9"
                     },
                     {
                       "kind": "span",
@@ -7058,7 +7058,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Cmd_Desc_Type",
-                      "href": "docs/hal__sdmmc___spec.html#L301C9"
+                      "href": "docs/hal__sdmmc___spec.html#L302C9"
                     },
                     {
                       "kind": "span",
@@ -7074,7 +7074,7 @@ GNATdoc.Documentation = {
         {
           "label": "Manufacturing_Month",
           "qualifier": "",
-          "line": 137,
+          "line": 138,
           "column": 9,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -7085,7 +7085,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 137,
+                  "number": 138,
                   "children": [
                     {
                       "kind": "span",
@@ -7106,7 +7106,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Manufacturing_Month",
-                      "href": "docs/hal__sdmmc___spec.html#L137C9"
+                      "href": "docs/hal__sdmmc___spec.html#L138C9"
                     },
                     {
                       "kind": "span",
@@ -7122,7 +7122,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 138,
+                  "number": 139,
                   "children": [
                     {
                       "kind": "span",
@@ -7138,28 +7138,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "January",
-                      "href": "docs/hal__sdmmc___spec.html#L138C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 139,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "February",
                       "href": "docs/hal__sdmmc___spec.html#L139C7"
                     },
                     {
@@ -7181,7 +7159,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "March",
+                      "text": "February",
                       "href": "docs/hal__sdmmc___spec.html#L140C7"
                     },
                     {
@@ -7203,7 +7181,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "April",
+                      "text": "March",
                       "href": "docs/hal__sdmmc___spec.html#L141C7"
                     },
                     {
@@ -7225,7 +7203,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "May",
+                      "text": "April",
                       "href": "docs/hal__sdmmc___spec.html#L142C7"
                     },
                     {
@@ -7247,7 +7225,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "June",
+                      "text": "May",
                       "href": "docs/hal__sdmmc___spec.html#L143C7"
                     },
                     {
@@ -7269,7 +7247,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "July",
+                      "text": "June",
                       "href": "docs/hal__sdmmc___spec.html#L144C7"
                     },
                     {
@@ -7291,7 +7269,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "August",
+                      "text": "July",
                       "href": "docs/hal__sdmmc___spec.html#L145C7"
                     },
                     {
@@ -7313,7 +7291,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "September",
+                      "text": "August",
                       "href": "docs/hal__sdmmc___spec.html#L146C7"
                     },
                     {
@@ -7335,7 +7313,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "October",
+                      "text": "September",
                       "href": "docs/hal__sdmmc___spec.html#L147C7"
                     },
                     {
@@ -7357,7 +7335,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "November",
+                      "text": "October",
                       "href": "docs/hal__sdmmc___spec.html#L148C7"
                     },
                     {
@@ -7379,8 +7357,30 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "December",
+                      "text": "November",
                       "href": "docs/hal__sdmmc___spec.html#L149C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 150,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "December",
+                      "href": "docs/hal__sdmmc___spec.html#L150C7"
                     },
                     {
                       "kind": "span",
@@ -7415,84 +7415,84 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "January",
-              "line": 138,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "February",
               "line": 139,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "March",
+              "label": "February",
               "line": 140,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "April",
+              "label": "March",
               "line": 141,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "May",
+              "label": "April",
               "line": 142,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "June",
+              "label": "May",
               "line": 143,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "July",
+              "label": "June",
               "line": 144,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "August",
+              "label": "July",
               "line": 145,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "September",
+              "label": "August",
               "line": 146,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "October",
+              "label": "September",
               "line": 147,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "November",
+              "label": "October",
               "line": 148,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "December",
+              "label": "November",
               "line": 149,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "December",
+              "line": 150,
               "column": 7,
               "description": [
               ]
@@ -7502,7 +7502,7 @@ GNATdoc.Documentation = {
         {
           "label": "Manufacturing_Year",
           "qualifier": "",
-          "line": 136,
+          "line": 137,
           "column": 9,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -7513,7 +7513,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 136,
+                  "number": 137,
                   "children": [
                     {
                       "kind": "span",
@@ -7534,7 +7534,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Manufacturing_Year",
-                      "href": "docs/hal__sdmmc___spec.html#L136C9"
+                      "href": "docs/hal__sdmmc___spec.html#L137C9"
                     },
                     {
                       "kind": "span",
@@ -7600,7 +7600,7 @@ GNATdoc.Documentation = {
         {
           "label": "Rsp_Kind",
           "qualifier": "",
-          "line": 283,
+          "line": 284,
           "column": 9,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -7611,7 +7611,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 283,
+                  "number": 284,
                   "children": [
                     {
                       "kind": "span",
@@ -7632,7 +7632,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Rsp_Kind",
-                      "href": "docs/hal__sdmmc___spec.html#L283C9"
+                      "href": "docs/hal__sdmmc___spec.html#L284C9"
                     },
                     {
                       "kind": "span",
@@ -7648,7 +7648,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 284,
+                  "number": 285,
                   "children": [
                     {
                       "kind": "span",
@@ -7664,7 +7664,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Rsp_Invalid",
-                      "href": "docs/hal__sdmmc___spec.html#L284C7"
+                      "href": "docs/hal__sdmmc___spec.html#L285C7"
                     },
                     {
                       "kind": "span",
@@ -7675,7 +7675,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 285,
+                  "number": 286,
                   "children": [
                     {
                       "kind": "span",
@@ -7691,13 +7691,13 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 286,
+                  "number": 287,
                   "children": [
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 287,
+                  "number": 288,
                   "children": [
                     {
                       "kind": "span",
@@ -7708,7 +7708,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Rsp_No",
-                      "href": "docs/hal__sdmmc___spec.html#L287C7"
+                      "href": "docs/hal__sdmmc___spec.html#L288C7"
                     },
                     {
                       "kind": "span",
@@ -7719,7 +7719,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 288,
+                  "number": 289,
                   "children": [
                     {
                       "kind": "span",
@@ -7735,13 +7735,13 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 289,
+                  "number": 290,
                   "children": [
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 290,
+                  "number": 291,
                   "children": [
                     {
                       "kind": "span",
@@ -7752,7 +7752,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Rsp_R1",
-                      "href": "docs/hal__sdmmc___spec.html#L290C7"
+                      "href": "docs/hal__sdmmc___spec.html#L291C7"
                     },
                     {
                       "kind": "span",
@@ -7768,7 +7768,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Rsp_R1B",
-                      "href": "docs/hal__sdmmc___spec.html#L290C15"
+                      "href": "docs/hal__sdmmc___spec.html#L291C15"
                     },
                     {
                       "kind": "span",
@@ -7784,7 +7784,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Rsp_R2",
-                      "href": "docs/hal__sdmmc___spec.html#L290C24"
+                      "href": "docs/hal__sdmmc___spec.html#L291C24"
                     },
                     {
                       "kind": "span",
@@ -7800,7 +7800,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Rsp_R3",
-                      "href": "docs/hal__sdmmc___spec.html#L290C32"
+                      "href": "docs/hal__sdmmc___spec.html#L291C32"
                     },
                     {
                       "kind": "span",
@@ -7816,7 +7816,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Rsp_R6",
-                      "href": "docs/hal__sdmmc___spec.html#L290C40"
+                      "href": "docs/hal__sdmmc___spec.html#L291C40"
                     },
                     {
                       "kind": "span",
@@ -7832,13 +7832,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Rsp_R7",
-                      "href": "docs/hal__sdmmc___spec.html#L290C48"
+                      "href": "docs/hal__sdmmc___spec.html#L291C48"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 291,
+                  "number": 292,
                   "children": [
                     {
                       "kind": "span",
@@ -7854,7 +7854,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 292,
+                  "number": 293,
                   "children": [
                     {
                       "kind": "span",
@@ -7870,7 +7870,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/hal__sdmmc___spec.html#L283C9"
+                      "href": "docs/hal__sdmmc___spec.html#L284C9"
                     }
                   ]
                 }
@@ -7889,7 +7889,7 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Rsp_Invalid",
-              "line": 284,
+              "line": 285,
               "column": 7,
               "description": [
                 {
@@ -7905,7 +7905,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Rsp_No",
-              "line": 287,
+              "line": 288,
               "column": 7,
               "description": [
                 {
@@ -7921,42 +7921,42 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Rsp_R1",
-              "line": 290,
+              "line": 291,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "Rsp_R1B",
-              "line": 290,
+              "line": 291,
               "column": 15,
               "description": [
               ]
             },
             {
               "label": "Rsp_R2",
-              "line": 290,
+              "line": 291,
               "column": 24,
               "description": [
               ]
             },
             {
               "label": "Rsp_R3",
-              "line": 290,
+              "line": 291,
               "column": 32,
               "description": [
               ]
             },
             {
               "label": "Rsp_R6",
-              "line": 290,
+              "line": 291,
               "column": 40,
               "description": [
               ]
             },
             {
               "label": "Rsp_R7",
-              "line": 290,
+              "line": 291,
               "column": 48,
               "description": [
                 {
@@ -7975,7 +7975,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_Command",
           "qualifier": "",
-          "line": 192,
+          "line": 193,
           "column": 9,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -7986,7 +7986,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 192,
+                  "number": 193,
                   "children": [
                     {
                       "kind": "span",
@@ -8007,7 +8007,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SD_Command",
-                      "href": "docs/hal__sdmmc___spec.html#L192C9"
+                      "href": "docs/hal__sdmmc___spec.html#L193C9"
                     },
                     {
                       "kind": "span",
@@ -8054,7 +8054,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_Error",
           "qualifier": "",
-          "line": 34,
+          "line": 35,
           "column": 9,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -8065,7 +8065,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -8086,7 +8086,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SD_Error",
-                      "href": "docs/hal__sdmmc___spec.html#L34C9"
+                      "href": "docs/hal__sdmmc___spec.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -8102,7 +8102,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -8118,28 +8118,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "OK",
-                      "href": "docs/hal__sdmmc___spec.html#L35C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 36,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Error",
                       "href": "docs/hal__sdmmc___spec.html#L36C7"
                     },
                     {
@@ -8161,7 +8139,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Timeout_Error",
+                      "text": "Error",
                       "href": "docs/hal__sdmmc___spec.html#L37C7"
                     },
                     {
@@ -8183,7 +8161,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Command_Timeout_Error",
+                      "text": "Timeout_Error",
                       "href": "docs/hal__sdmmc___spec.html#L38C7"
                     },
                     {
@@ -8205,7 +8183,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Unsupported_Card",
+                      "text": "Command_Timeout_Error",
                       "href": "docs/hal__sdmmc___spec.html#L39C7"
                     },
                     {
@@ -8227,7 +8205,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Rx_Overrun",
+                      "text": "Unsupported_Card",
                       "href": "docs/hal__sdmmc___spec.html#L40C7"
                     },
                     {
@@ -8249,7 +8227,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Tx_Underrun",
+                      "text": "Rx_Overrun",
                       "href": "docs/hal__sdmmc___spec.html#L41C7"
                     },
                     {
@@ -8271,7 +8249,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Request_Not_Applicable",
+                      "text": "Tx_Underrun",
                       "href": "docs/hal__sdmmc___spec.html#L42C7"
                     },
                     {
@@ -8293,7 +8271,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "CRC_Check_Fail",
+                      "text": "Request_Not_Applicable",
                       "href": "docs/hal__sdmmc___spec.html#L43C7"
                     },
                     {
@@ -8315,7 +8293,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Illegal_Cmd",
+                      "text": "CRC_Check_Fail",
                       "href": "docs/hal__sdmmc___spec.html#L44C7"
                     },
                     {
@@ -8337,7 +8315,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Address_Out_Of_Range",
+                      "text": "Illegal_Cmd",
                       "href": "docs/hal__sdmmc___spec.html#L45C7"
                     },
                     {
@@ -8359,7 +8337,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Address_Missaligned",
+                      "text": "Address_Out_Of_Range",
                       "href": "docs/hal__sdmmc___spec.html#L46C7"
                     },
                     {
@@ -8381,7 +8359,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Block_Length_Error",
+                      "text": "Address_Missaligned",
                       "href": "docs/hal__sdmmc___spec.html#L47C7"
                     },
                     {
@@ -8403,7 +8381,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Erase_Seq_Error",
+                      "text": "Block_Length_Error",
                       "href": "docs/hal__sdmmc___spec.html#L48C7"
                     },
                     {
@@ -8425,7 +8403,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Bad_Erase_Parameter",
+                      "text": "Erase_Seq_Error",
                       "href": "docs/hal__sdmmc___spec.html#L49C7"
                     },
                     {
@@ -8447,7 +8425,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Write_Protection_Violation",
+                      "text": "Bad_Erase_Parameter",
                       "href": "docs/hal__sdmmc___spec.html#L50C7"
                     },
                     {
@@ -8469,7 +8447,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Lock_Unlock_Failed",
+                      "text": "Write_Protection_Violation",
                       "href": "docs/hal__sdmmc___spec.html#L51C7"
                     },
                     {
@@ -8491,7 +8469,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Card_ECC_Failed",
+                      "text": "Lock_Unlock_Failed",
                       "href": "docs/hal__sdmmc___spec.html#L52C7"
                     },
                     {
@@ -8513,7 +8491,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Card_ECC_Disabled",
+                      "text": "Card_ECC_Failed",
                       "href": "docs/hal__sdmmc___spec.html#L53C7"
                     },
                     {
@@ -8535,7 +8513,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "CC_Error",
+                      "text": "Card_ECC_Disabled",
                       "href": "docs/hal__sdmmc___spec.html#L54C7"
                     },
                     {
@@ -8557,7 +8535,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "General_Unknown_Error",
+                      "text": "CC_Error",
                       "href": "docs/hal__sdmmc___spec.html#L55C7"
                     },
                     {
@@ -8579,7 +8557,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Stream_Read_Underrun",
+                      "text": "General_Unknown_Error",
                       "href": "docs/hal__sdmmc___spec.html#L56C7"
                     },
                     {
@@ -8601,7 +8579,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Stream_Write_Underrun",
+                      "text": "Stream_Read_Underrun",
                       "href": "docs/hal__sdmmc___spec.html#L57C7"
                     },
                     {
@@ -8623,7 +8601,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "CID_CSD_Overwrite",
+                      "text": "Stream_Write_Underrun",
                       "href": "docs/hal__sdmmc___spec.html#L58C7"
                     },
                     {
@@ -8645,7 +8623,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "WP_Erase_Skip",
+                      "text": "CID_CSD_Overwrite",
                       "href": "docs/hal__sdmmc___spec.html#L59C7"
                     },
                     {
@@ -8667,7 +8645,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Erase_Reset",
+                      "text": "WP_Erase_Skip",
                       "href": "docs/hal__sdmmc___spec.html#L60C7"
                     },
                     {
@@ -8689,7 +8667,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "AKE_SEQ_Error",
+                      "text": "Erase_Reset",
                       "href": "docs/hal__sdmmc___spec.html#L61C7"
                     },
                     {
@@ -8711,7 +8689,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Invalid_Voltage_Range",
+                      "text": "AKE_SEQ_Error",
                       "href": "docs/hal__sdmmc___spec.html#L62C7"
                     },
                     {
@@ -8733,7 +8711,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Startbit_Not_Detected",
+                      "text": "Invalid_Voltage_Range",
                       "href": "docs/hal__sdmmc___spec.html#L63C7"
                     },
                     {
@@ -8755,8 +8733,30 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DMA_Alignment_Error",
+                      "text": "Startbit_Not_Detected",
                       "href": "docs/hal__sdmmc___spec.html#L64C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 65,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_Alignment_Error",
+                      "href": "docs/hal__sdmmc___spec.html#L65C7"
                     },
                     {
                       "kind": "span",
@@ -8767,7 +8767,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/hal__sdmmc___spec.html#L34C9"
+                      "href": "docs/hal__sdmmc___spec.html#L35C9"
                     }
                   ]
                 }
@@ -8777,210 +8777,210 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "OK",
-              "line": 35,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Error",
               "line": 36,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Timeout_Error",
+              "label": "Error",
               "line": 37,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Command_Timeout_Error",
+              "label": "Timeout_Error",
               "line": 38,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Unsupported_Card",
+              "label": "Command_Timeout_Error",
               "line": 39,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Rx_Overrun",
+              "label": "Unsupported_Card",
               "line": 40,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Tx_Underrun",
+              "label": "Rx_Overrun",
               "line": 41,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Request_Not_Applicable",
+              "label": "Tx_Underrun",
               "line": 42,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "CRC_Check_Fail",
+              "label": "Request_Not_Applicable",
               "line": 43,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Illegal_Cmd",
+              "label": "CRC_Check_Fail",
               "line": 44,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Address_Out_Of_Range",
+              "label": "Illegal_Cmd",
               "line": 45,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Address_Missaligned",
+              "label": "Address_Out_Of_Range",
               "line": 46,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Block_Length_Error",
+              "label": "Address_Missaligned",
               "line": 47,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Erase_Seq_Error",
+              "label": "Block_Length_Error",
               "line": 48,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Bad_Erase_Parameter",
+              "label": "Erase_Seq_Error",
               "line": 49,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Write_Protection_Violation",
+              "label": "Bad_Erase_Parameter",
               "line": 50,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Lock_Unlock_Failed",
+              "label": "Write_Protection_Violation",
               "line": 51,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Card_ECC_Failed",
+              "label": "Lock_Unlock_Failed",
               "line": 52,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Card_ECC_Disabled",
+              "label": "Card_ECC_Failed",
               "line": 53,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "CC_Error",
+              "label": "Card_ECC_Disabled",
               "line": 54,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "General_Unknown_Error",
+              "label": "CC_Error",
               "line": 55,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Stream_Read_Underrun",
+              "label": "General_Unknown_Error",
               "line": 56,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Stream_Write_Underrun",
+              "label": "Stream_Read_Underrun",
               "line": 57,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "CID_CSD_Overwrite",
+              "label": "Stream_Write_Underrun",
               "line": 58,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "WP_Erase_Skip",
+              "label": "CID_CSD_Overwrite",
               "line": 59,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Erase_Reset",
+              "label": "WP_Erase_Skip",
               "line": 60,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "AKE_SEQ_Error",
+              "label": "Erase_Reset",
               "line": 61,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Invalid_Voltage_Range",
+              "label": "AKE_SEQ_Error",
               "line": 62,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Startbit_Not_Detected",
+              "label": "Invalid_Voltage_Range",
               "line": 63,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "DMA_Alignment_Error",
+              "label": "Startbit_Not_Detected",
               "line": 64,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "DMA_Alignment_Error",
+              "line": 65,
               "column": 7,
               "description": [
               ]
@@ -8990,7 +8990,7 @@ GNATdoc.Documentation = {
         {
           "label": "SD_Specific_Command",
           "qualifier": "",
-          "line": 264,
+          "line": 265,
           "column": 12,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -9001,7 +9001,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 264,
+                  "number": 265,
                   "children": [
                     {
                       "kind": "span",
@@ -9022,7 +9022,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SD_Specific_Command",
-                      "href": "docs/hal__sdmmc___spec.html#L264C12"
+                      "href": "docs/hal__sdmmc___spec.html#L265C12"
                     },
                     {
                       "kind": "span",
@@ -9043,7 +9043,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SD_Command",
-                      "href": "docs/hal__sdmmc___spec.html#L192C9"
+                      "href": "docs/hal__sdmmc___spec.html#L193C9"
                     },
                     {
                       "kind": "span",
@@ -9072,7 +9072,7 @@ GNATdoc.Documentation = {
         {
           "label": "Supported_SD_Memory_Cards",
           "qualifier": "",
-          "line": 81,
+          "line": 82,
           "column": 9,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -9083,7 +9083,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 81,
+                  "number": 82,
                   "children": [
                     {
                       "kind": "span",
@@ -9104,7 +9104,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Supported_SD_Memory_Cards",
-                      "href": "docs/hal__sdmmc___spec.html#L81C9"
+                      "href": "docs/hal__sdmmc___spec.html#L82C9"
                     },
                     {
                       "kind": "span",
@@ -9120,7 +9120,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 82,
+                  "number": 83,
                   "children": [
                     {
                       "kind": "span",
@@ -9136,28 +9136,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "STD_Capacity_SD_Card_V1_1",
-                      "href": "docs/hal__sdmmc___spec.html#L82C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 83,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "STD_Capacity_SD_Card_v2_0",
                       "href": "docs/hal__sdmmc___spec.html#L83C7"
                     },
                     {
@@ -9179,7 +9157,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "High_Capacity_SD_Card",
+                      "text": "STD_Capacity_SD_Card_v2_0",
                       "href": "docs/hal__sdmmc___spec.html#L84C7"
                     },
                     {
@@ -9201,7 +9179,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Multimedia_Card",
+                      "text": "High_Capacity_SD_Card",
                       "href": "docs/hal__sdmmc___spec.html#L85C7"
                     },
                     {
@@ -9223,7 +9201,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Secure_Digital_IO_Card",
+                      "text": "Multimedia_Card",
                       "href": "docs/hal__sdmmc___spec.html#L86C7"
                     },
                     {
@@ -9245,7 +9223,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "High_Speed_Multimedia_Card",
+                      "text": "Secure_Digital_IO_Card",
                       "href": "docs/hal__sdmmc___spec.html#L87C7"
                     },
                     {
@@ -9267,7 +9245,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Secure_Digital_IO_Combo_Card",
+                      "text": "High_Speed_Multimedia_Card",
                       "href": "docs/hal__sdmmc___spec.html#L88C7"
                     },
                     {
@@ -9289,8 +9267,30 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "High_Capacity_MMC_Card",
+                      "text": "Secure_Digital_IO_Combo_Card",
                       "href": "docs/hal__sdmmc___spec.html#L89C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 90,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "High_Capacity_MMC_Card",
+                      "href": "docs/hal__sdmmc___spec.html#L90C7"
                     },
                     {
                       "kind": "span",
@@ -9301,7 +9301,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/hal__sdmmc___spec.html#L81C9"
+                      "href": "docs/hal__sdmmc___spec.html#L82C9"
                     }
                   ]
                 }
@@ -9311,56 +9311,56 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "STD_Capacity_SD_Card_V1_1",
-              "line": 82,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "STD_Capacity_SD_Card_v2_0",
               "line": 83,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "High_Capacity_SD_Card",
+              "label": "STD_Capacity_SD_Card_v2_0",
               "line": 84,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Multimedia_Card",
+              "label": "High_Capacity_SD_Card",
               "line": 85,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Secure_Digital_IO_Card",
+              "label": "Multimedia_Card",
               "line": 86,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "High_Speed_Multimedia_Card",
+              "label": "Secure_Digital_IO_Card",
               "line": 87,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Secure_Digital_IO_Combo_Card",
+              "label": "High_Speed_Multimedia_Card",
               "line": 88,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "High_Capacity_MMC_Card",
+              "label": "Secure_Digital_IO_Combo_Card",
               "line": 89,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "High_Capacity_MMC_Card",
+              "line": 90,
               "column": 7,
               "description": [
               ]
@@ -9370,7 +9370,7 @@ GNATdoc.Documentation = {
         {
           "label": "Tfr_Kind",
           "qualifier": "",
-          "line": 295,
+          "line": 296,
           "column": 9,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -9381,7 +9381,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 295,
+                  "number": 296,
                   "children": [
                     {
                       "kind": "span",
@@ -9402,7 +9402,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Tfr_Kind",
-                      "href": "docs/hal__sdmmc___spec.html#L295C9"
+                      "href": "docs/hal__sdmmc___spec.html#L296C9"
                     },
                     {
                       "kind": "span",
@@ -9418,7 +9418,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 296,
+                  "number": 297,
                   "children": [
                     {
                       "kind": "span",
@@ -9434,44 +9434,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Tfr_Invalid",
-                      "href": "docs/hal__sdmmc___spec.html#L296C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Tfr_No",
-                      "href": "docs/hal__sdmmc___spec.html#L296C20"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 297,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Tfr_Read",
                       "href": "docs/hal__sdmmc___spec.html#L297C7"
                     },
                     {
@@ -9487,8 +9449,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Tfr_Write",
-                      "href": "docs/hal__sdmmc___spec.html#L297C17"
+                      "text": "Tfr_No",
+                      "href": "docs/hal__sdmmc___spec.html#L297C20"
                     },
                     {
                       "kind": "span",
@@ -9509,7 +9471,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Tfr_Read_Multi",
+                      "text": "Tfr_Read",
                       "href": "docs/hal__sdmmc___spec.html#L298C7"
                     },
                     {
@@ -9525,8 +9487,46 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
+                      "text": "Tfr_Write",
+                      "href": "docs/hal__sdmmc___spec.html#L298C17"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 299,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Tfr_Read_Multi",
+                      "href": "docs/hal__sdmmc___spec.html#L299C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
                       "text": "Tfr_Write_Multi",
-                      "href": "docs/hal__sdmmc___spec.html#L298C23"
+                      "href": "docs/hal__sdmmc___spec.html#L299C23"
                     },
                     {
                       "kind": "span",
@@ -9537,7 +9537,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/hal__sdmmc___spec.html#L295C9"
+                      "href": "docs/hal__sdmmc___spec.html#L296C9"
                     }
                   ]
                 }
@@ -9556,42 +9556,42 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Tfr_Invalid",
-              "line": 296,
+              "line": 297,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "Tfr_No",
-              "line": 296,
+              "line": 297,
               "column": 20,
               "description": [
               ]
             },
             {
               "label": "Tfr_Read",
-              "line": 297,
+              "line": 298,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "Tfr_Write",
-              "line": 297,
+              "line": 298,
               "column": 17,
               "description": [
               ]
             },
             {
               "label": "Tfr_Read_Multi",
-              "line": 298,
+              "line": 299,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "Tfr_Write_Multi",
-              "line": 298,
+              "line": 299,
               "column": 23,
               "description": [
               ]
@@ -9601,7 +9601,7 @@ GNATdoc.Documentation = {
         {
           "label": "Wide_Bus_Mode",
           "qualifier": "",
-          "line": 67,
+          "line": 68,
           "column": 9,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -9612,7 +9612,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 67,
+                  "number": 68,
                   "children": [
                     {
                       "kind": "span",
@@ -9633,7 +9633,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Wide_Bus_Mode",
-                      "href": "docs/hal__sdmmc___spec.html#L67C9"
+                      "href": "docs/hal__sdmmc___spec.html#L68C9"
                     },
                     {
                       "kind": "span",
@@ -9649,7 +9649,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 68,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",
@@ -9665,7 +9665,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 69,
+                  "number": 70,
                   "children": [
                     {
                       "kind": "span",
@@ -9681,7 +9681,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 70,
+                  "number": 71,
                   "children": [
                     {
                       "kind": "span",
@@ -9692,7 +9692,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Wide_Bus_1B",
-                      "href": "docs/hal__sdmmc___spec.html#L70C7"
+                      "href": "docs/hal__sdmmc___spec.html#L71C7"
                     },
                     {
                       "kind": "span",
@@ -9703,7 +9703,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 72,
                   "children": [
                     {
                       "kind": "span",
@@ -9719,7 +9719,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 72,
+                  "number": 73,
                   "children": [
                     {
                       "kind": "span",
@@ -9730,7 +9730,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Wide_Bus_4B",
-                      "href": "docs/hal__sdmmc___spec.html#L72C7"
+                      "href": "docs/hal__sdmmc___spec.html#L73C7"
                     },
                     {
                       "kind": "span",
@@ -9741,7 +9741,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 73,
+                  "number": 74,
                   "children": [
                     {
                       "kind": "span",
@@ -9757,7 +9757,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 74,
+                  "number": 75,
                   "children": [
                     {
                       "kind": "span",
@@ -9768,7 +9768,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Wide_Bus_8B",
-                      "href": "docs/hal__sdmmc___spec.html#L74C7"
+                      "href": "docs/hal__sdmmc___spec.html#L75C7"
                     },
                     {
                       "kind": "span",
@@ -9779,7 +9779,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 75,
+                  "number": 76,
                   "children": [
                     {
                       "kind": "span",
@@ -9818,7 +9818,7 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Wide_Bus_1B",
-              "line": 70,
+              "line": 71,
               "column": 7,
               "description": [
                 {
@@ -9834,7 +9834,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Wide_Bus_4B",
-              "line": 72,
+              "line": 73,
               "column": 7,
               "description": [
                 {
@@ -9850,7 +9850,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Wide_Bus_8B",
-              "line": 74,
+              "line": 75,
               "column": 7,
               "description": [
               ]
@@ -9865,7 +9865,7 @@ GNATdoc.Documentation = {
         {
           "label": "Card_Identification_Data_Register",
           "qualifier": "",
-          "line": 156,
+          "line": 157,
           "column": 9,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -9876,7 +9876,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 156,
+                  "number": 157,
                   "children": [
                     {
                       "kind": "span",
@@ -9897,7 +9897,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Card_Identification_Data_Register",
-                      "href": "docs/hal__sdmmc___spec.html#L156C9"
+                      "href": "docs/hal__sdmmc___spec.html#L157C9"
                     },
                     {
                       "kind": "span",
@@ -9923,7 +9923,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 157,
+                  "number": 158,
                   "children": [
                     {
                       "kind": "span",
@@ -9934,7 +9934,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Manufacturer_ID",
-                      "href": "docs/hal__sdmmc___spec.html#L157C7"
+                      "href": "docs/hal__sdmmc___spec.html#L158C7"
                     },
                     {
                       "kind": "span",
@@ -9966,7 +9966,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 158,
+                  "number": 159,
                   "children": [
                     {
                       "kind": "span",
@@ -9977,7 +9977,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "OEM_Application_ID",
-                      "href": "docs/hal__sdmmc___spec.html#L158C7"
+                      "href": "docs/hal__sdmmc___spec.html#L159C7"
                     },
                     {
                       "kind": "span",
@@ -10048,7 +10048,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 159,
+                  "number": 160,
                   "children": [
                     {
                       "kind": "span",
@@ -10059,7 +10059,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Product_Name",
-                      "href": "docs/hal__sdmmc___spec.html#L159C7"
+                      "href": "docs/hal__sdmmc___spec.html#L160C7"
                     },
                     {
                       "kind": "span",
@@ -10130,7 +10130,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 160,
+                  "number": 161,
                   "children": [
                     {
                       "kind": "span",
@@ -10141,7 +10141,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Product_Revision",
-                      "href": "docs/hal__sdmmc___spec.html#L160C7"
+                      "href": "docs/hal__sdmmc___spec.html#L161C7"
                     },
                     {
                       "kind": "span",
@@ -10162,7 +10162,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Card_Revision",
-                      "href": "docs/hal__sdmmc___spec.html#L131C9"
+                      "href": "docs/hal__sdmmc___spec.html#L132C9"
                     },
                     {
                       "kind": "span",
@@ -10173,7 +10173,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 161,
+                  "number": 162,
                   "children": [
                     {
                       "kind": "span",
@@ -10184,7 +10184,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Product_Serial_Number",
-                      "href": "docs/hal__sdmmc___spec.html#L161C7"
+                      "href": "docs/hal__sdmmc___spec.html#L162C7"
                     },
                     {
                       "kind": "span",
@@ -10216,7 +10216,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 162,
+                  "number": 163,
                   "children": [
                     {
                       "kind": "span",
@@ -10227,7 +10227,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_1",
-                      "href": "docs/hal__sdmmc___spec.html#L162C7"
+                      "href": "docs/hal__sdmmc___spec.html#L163C7"
                     },
                     {
                       "kind": "span",
@@ -10259,7 +10259,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 163,
+                  "number": 164,
                   "children": [
                     {
                       "kind": "span",
@@ -10270,7 +10270,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Manufacturing_Date",
-                      "href": "docs/hal__sdmmc___spec.html#L163C7"
+                      "href": "docs/hal__sdmmc___spec.html#L164C7"
                     },
                     {
                       "kind": "span",
@@ -10291,7 +10291,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Manufacturing_Date_Type",
-                      "href": "docs/hal__sdmmc___spec.html#L151C9"
+                      "href": "docs/hal__sdmmc___spec.html#L152C9"
                     },
                     {
                       "kind": "span",
@@ -10302,7 +10302,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 164,
+                  "number": 165,
                   "children": [
                     {
                       "kind": "span",
@@ -10313,7 +10313,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CID_CRC",
-                      "href": "docs/hal__sdmmc___spec.html#L164C7"
+                      "href": "docs/hal__sdmmc___spec.html#L165C7"
                     },
                     {
                       "kind": "span",
@@ -10345,7 +10345,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 165,
+                  "number": 166,
                   "children": [
                     {
                       "kind": "span",
@@ -10356,7 +10356,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_2",
-                      "href": "docs/hal__sdmmc___spec.html#L165C7"
+                      "href": "docs/hal__sdmmc___spec.html#L166C7"
                     },
                     {
                       "kind": "span",
@@ -10398,7 +10398,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 166,
+                  "number": 167,
                   "children": [
                     {
                       "kind": "span",
@@ -10424,7 +10424,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/hal__sdmmc___spec.html#L156C9"
+                      "href": "docs/hal__sdmmc___spec.html#L157C9"
                     }
                   ]
                 }
@@ -10434,7 +10434,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Manufacturer_ID",
-              "line": 157,
+              "line": 158,
               "column": 7,
               "type": {
                 "label": "HAL.UInt8",
@@ -10445,16 +10445,6 @@ GNATdoc.Documentation = {
             },
             {
               "label": "OEM_Application_ID",
-              "line": 158,
-              "column": 7,
-              "type": {
-                "label": "String"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Product_Name",
               "line": 159,
               "column": 7,
               "type": {
@@ -10464,19 +10454,29 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Product_Revision",
+              "label": "Product_Name",
               "line": 160,
               "column": 7,
               "type": {
+                "label": "String"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Product_Revision",
+              "line": 161,
+              "column": 7,
+              "type": {
                 "label": "HAL.SDMMC.Card_Revision",
-                "docHref": "docs/hal__sdmmc___spec.html#L131C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L132C9"
               },
               "description": [
               ]
             },
             {
               "label": "Product_Serial_Number",
-              "line": 161,
+              "line": 162,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -10487,7 +10487,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_1",
-              "line": 162,
+              "line": 163,
               "column": 7,
               "type": {
                 "label": "HAL.UInt8",
@@ -10498,18 +10498,18 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Manufacturing_Date",
-              "line": 163,
+              "line": 164,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.Manufacturing_Date_Type",
-                "docHref": "docs/hal__sdmmc___spec.html#L151C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L152C9"
               },
               "description": [
               ]
             },
             {
               "label": "CID_CRC",
-              "line": 164,
+              "line": 165,
               "column": 7,
               "type": {
                 "label": "HAL.UInt8",
@@ -10520,7 +10520,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_2",
-              "line": 165,
+              "line": 166,
               "column": 7,
               "type": {
                 "label": "HAL.UInt8",
@@ -10543,7 +10543,7 @@ GNATdoc.Documentation = {
         {
           "label": "Card_Information",
           "qualifier": "",
-          "line": 182,
+          "line": 183,
           "column": 9,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -10554,7 +10554,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 182,
+                  "number": 183,
                   "children": [
                     {
                       "kind": "span",
@@ -10575,7 +10575,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Card_Information",
-                      "href": "docs/hal__sdmmc___spec.html#L182C9"
+                      "href": "docs/hal__sdmmc___spec.html#L183C9"
                     },
                     {
                       "kind": "span",
@@ -10601,49 +10601,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 183,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SD_CSD",
-                      "href": "docs/hal__sdmmc___spec.html#L183C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "          "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Card_Specific_Data_Register",
-                      "href": "docs/hal__sdmmc___spec.html#L91C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 184,
                   "children": [
                     {
@@ -10654,7 +10611,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "SD_CID",
+                      "text": "SD_CSD",
                       "href": "docs/hal__sdmmc___spec.html#L184C7"
                     },
                     {
@@ -10675,8 +10632,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Card_Identification_Data_Register",
-                      "href": "docs/hal__sdmmc___spec.html#L156C9"
+                      "text": "Card_Specific_Data_Register",
+                      "href": "docs/hal__sdmmc___spec.html#L92C9"
                     },
                     {
                       "kind": "span",
@@ -10697,8 +10654,51 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Card_Capacity",
+                      "text": "SD_CID",
                       "href": "docs/hal__sdmmc___spec.html#L185C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Card_Identification_Data_Register",
+                      "href": "docs/hal__sdmmc___spec.html#L157C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 186,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Card_Capacity",
+                      "href": "docs/hal__sdmmc___spec.html#L186C7"
                     },
                     {
                       "kind": "span",
@@ -10730,7 +10730,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 186,
+                  "number": 187,
                   "children": [
                     {
                       "kind": "span",
@@ -10741,7 +10741,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Card_Block_Size",
-                      "href": "docs/hal__sdmmc___spec.html#L186C7"
+                      "href": "docs/hal__sdmmc___spec.html#L187C7"
                     },
                     {
                       "kind": "span",
@@ -10773,7 +10773,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 187,
+                  "number": 188,
                   "children": [
                     {
                       "kind": "span",
@@ -10784,7 +10784,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RCA",
-                      "href": "docs/hal__sdmmc___spec.html#L187C7"
+                      "href": "docs/hal__sdmmc___spec.html#L188C7"
                     },
                     {
                       "kind": "span",
@@ -10826,7 +10826,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 188,
+                  "number": 189,
                   "children": [
                     {
                       "kind": "span",
@@ -10837,7 +10837,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Card_Type",
-                      "href": "docs/hal__sdmmc___spec.html#L188C7"
+                      "href": "docs/hal__sdmmc___spec.html#L189C7"
                     },
                     {
                       "kind": "span",
@@ -10858,7 +10858,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Supported_SD_Memory_Cards",
-                      "href": "docs/hal__sdmmc___spec.html#L81C9"
+                      "href": "docs/hal__sdmmc___spec.html#L82C9"
                     },
                     {
                       "kind": "span",
@@ -10874,7 +10874,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 189,
+                  "number": 190,
                   "children": [
                     {
                       "kind": "span",
@@ -10895,7 +10895,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 190,
+                  "number": 191,
                   "children": [
                     {
                       "kind": "span",
@@ -10921,7 +10921,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/hal__sdmmc___spec.html#L182C9"
+                      "href": "docs/hal__sdmmc___spec.html#L183C9"
                     }
                   ]
                 }
@@ -10931,29 +10931,29 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "SD_CSD",
-              "line": 183,
+              "line": 184,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.Card_Specific_Data_Register",
-                "docHref": "docs/hal__sdmmc___spec.html#L91C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L92C9"
               },
               "description": [
               ]
             },
             {
               "label": "SD_CID",
-              "line": 184,
+              "line": 185,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.Card_Identification_Data_Register",
-                "docHref": "docs/hal__sdmmc___spec.html#L156C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L157C9"
               },
               "description": [
               ]
             },
             {
               "label": "Card_Capacity",
-              "line": 185,
+              "line": 186,
               "column": 7,
               "type": {
                 "label": "HAL.UInt64",
@@ -10964,7 +10964,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Card_Block_Size",
-              "line": 186,
+              "line": 187,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -10975,7 +10975,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "RCA",
-              "line": 187,
+              "line": 188,
               "column": 7,
               "type": {
                 "label": "HAL.UInt16",
@@ -10995,11 +10995,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Card_Type",
-              "line": 188,
+              "line": 189,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.Supported_SD_Memory_Cards",
-                "docHref": "docs/hal__sdmmc___spec.html#L81C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L82C9"
               },
               "description": [
               ]
@@ -11009,7 +11009,7 @@ GNATdoc.Documentation = {
         {
           "label": "Card_Revision",
           "qualifier": "",
-          "line": 131,
+          "line": 132,
           "column": 9,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -11020,7 +11020,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 131,
+                  "number": 132,
                   "children": [
                     {
                       "kind": "span",
@@ -11041,7 +11041,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Card_Revision",
-                      "href": "docs/hal__sdmmc___spec.html#L131C9"
+                      "href": "docs/hal__sdmmc___spec.html#L132C9"
                     },
                     {
                       "kind": "span",
@@ -11067,49 +11067,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 132,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Major",
-                      "href": "docs/hal__sdmmc___spec.html#L132C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "UInt4",
-                      "href": "docs/hal___spec.html#L43C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 133,
                   "children": [
                     {
@@ -11120,7 +11077,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Minor",
+                      "text": "Major",
                       "href": "docs/hal__sdmmc___spec.html#L133C7"
                     },
                     {
@@ -11154,6 +11111,49 @@ GNATdoc.Documentation = {
                 {
                   "kind": "line",
                   "number": 134,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Minor",
+                      "href": "docs/hal__sdmmc___spec.html#L134C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "UInt4",
+                      "href": "docs/hal___spec.html#L43C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 135,
                   "children": [
                     {
                       "kind": "span",
@@ -11203,7 +11203,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Major",
-              "line": 132,
+              "line": 133,
               "column": 7,
               "type": {
                 "label": "HAL.UInt4",
@@ -11214,7 +11214,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Minor",
-              "line": 133,
+              "line": 134,
               "column": 7,
               "type": {
                 "label": "HAL.UInt4",
@@ -11228,7 +11228,7 @@ GNATdoc.Documentation = {
         {
           "label": "Card_Specific_Data_Register",
           "qualifier": "",
-          "line": 91,
+          "line": 92,
           "column": 9,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -11239,7 +11239,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 91,
+                  "number": 92,
                   "children": [
                     {
                       "kind": "span",
@@ -11260,7 +11260,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Card_Specific_Data_Register",
-                      "href": "docs/hal__sdmmc___spec.html#L91C9"
+                      "href": "docs/hal__sdmmc___spec.html#L92C9"
                     },
                     {
                       "kind": "span",
@@ -11286,49 +11286,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 92,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "CSD_Structure",
-                      "href": "docs/hal__sdmmc___spec.html#L92C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "UInt8",
-                      "href": "docs/hal___spec.html#L53C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 93,
                   "children": [
                     {
@@ -11339,13 +11296,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "System_Specification_Version",
+                      "text": "CSD_Structure",
                       "href": "docs/hal__sdmmc___spec.html#L93C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "     "
+                      "text": "                    "
                     },
                     {
                       "kind": "span",
@@ -11382,13 +11339,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reserved",
+                      "text": "System_Specification_Version",
                       "href": "docs/hal__sdmmc___spec.html#L94C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                         "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -11425,13 +11382,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Data_Read_Access_Time_1",
+                      "text": "Reserved",
                       "href": "docs/hal__sdmmc___spec.html#L95C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "          "
+                      "text": "                         "
                     },
                     {
                       "kind": "span",
@@ -11468,8 +11425,51 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Data_Read_Access_Time_2",
+                      "text": "Data_Read_Access_Time_1",
                       "href": "docs/hal__sdmmc___spec.html#L96C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "UInt8",
+                      "href": "docs/hal___spec.html#L53C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 97,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Data_Read_Access_Time_2",
+                      "href": "docs/hal__sdmmc___spec.html#L97C7"
                     },
                     {
                       "kind": "span",
@@ -11511,7 +11511,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 97,
+                  "number": 98,
                   "children": [
                     {
                       "kind": "span",
@@ -11522,7 +11522,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Max_Data_Transfer_Rate",
-                      "href": "docs/hal__sdmmc___spec.html#L97C7"
+                      "href": "docs/hal__sdmmc___spec.html#L98C7"
                     },
                     {
                       "kind": "span",
@@ -11554,7 +11554,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 98,
+                  "number": 99,
                   "children": [
                     {
                       "kind": "span",
@@ -11565,7 +11565,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Card_Command_Class",
-                      "href": "docs/hal__sdmmc___spec.html#L98C7"
+                      "href": "docs/hal__sdmmc___spec.html#L99C7"
                     },
                     {
                       "kind": "span",
@@ -11597,7 +11597,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 99,
+                  "number": 100,
                   "children": [
                     {
                       "kind": "span",
@@ -11608,7 +11608,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Max_Read_Data_Block_Length",
-                      "href": "docs/hal__sdmmc___spec.html#L99C7"
+                      "href": "docs/hal__sdmmc___spec.html#L100C7"
                     },
                     {
                       "kind": "span",
@@ -11640,48 +11640,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 100,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Partial_Block_For_Read_Allowed",
-                      "href": "docs/hal__sdmmc___spec.html#L100C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 101,
                   "children": [
                     {
@@ -11692,13 +11650,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Write_Block_Missalignment",
+                      "text": "Partial_Block_For_Read_Allowed",
                       "href": "docs/hal__sdmmc___spec.html#L101C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "        "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -11734,13 +11692,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Read_Block_Missalignment",
+                      "text": "Write_Block_Missalignment",
                       "href": "docs/hal__sdmmc___spec.html#L102C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "         "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -11776,13 +11734,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DSR_Implemented",
+                      "text": "Read_Block_Missalignment",
                       "href": "docs/hal__sdmmc___spec.html#L103C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                  "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -11818,8 +11776,50 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reserved_2",
+                      "text": "DSR_Implemented",
                       "href": "docs/hal__sdmmc___spec.html#L104C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 105,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Reserved_2",
+                      "href": "docs/hal__sdmmc___spec.html#L105C7"
                     },
                     {
                       "kind": "span",
@@ -11851,7 +11851,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 105,
+                  "number": 106,
                   "children": [
                     {
                       "kind": "span",
@@ -11862,7 +11862,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Device_Size",
-                      "href": "docs/hal__sdmmc___spec.html#L105C7"
+                      "href": "docs/hal__sdmmc___spec.html#L106C7"
                     },
                     {
                       "kind": "span",
@@ -11894,49 +11894,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 106,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Max_Read_Current_At_VDD_Min",
-                      "href": "docs/hal__sdmmc___spec.html#L106C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "UInt8",
-                      "href": "docs/hal___spec.html#L53C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 107,
                   "children": [
                     {
@@ -11947,7 +11904,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Max_Read_Current_At_VDD_Max",
+                      "text": "Max_Read_Current_At_VDD_Min",
                       "href": "docs/hal__sdmmc___spec.html#L107C7"
                     },
                     {
@@ -11990,13 +11947,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Max_Write_Current_At_VDD_Min",
+                      "text": "Max_Read_Current_At_VDD_Max",
                       "href": "docs/hal__sdmmc___spec.html#L108C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "     "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -12033,7 +11990,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Max_Write_Current_At_VDD_Max",
+                      "text": "Max_Write_Current_At_VDD_Min",
                       "href": "docs/hal__sdmmc___spec.html#L109C7"
                     },
                     {
@@ -12076,13 +12033,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Device_Size_Multiplier",
+                      "text": "Max_Write_Current_At_VDD_Max",
                       "href": "docs/hal__sdmmc___spec.html#L110C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "           "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -12119,13 +12076,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Erase_Group_Size",
+                      "text": "Device_Size_Multiplier",
                       "href": "docs/hal__sdmmc___spec.html#L111C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                 "
+                      "text": "           "
                     },
                     {
                       "kind": "span",
@@ -12162,13 +12119,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Erase_Group_Size_Multiplier",
+                      "text": "Erase_Group_Size",
                       "href": "docs/hal__sdmmc___spec.html#L112C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
+                      "text": "                 "
                     },
                     {
                       "kind": "span",
@@ -12205,13 +12162,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Write_Protect_Group_Size",
+                      "text": "Erase_Group_Size_Multiplier",
                       "href": "docs/hal__sdmmc___spec.html#L113C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "         "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -12248,50 +12205,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Write_Protect_Group_Enable",
+                      "text": "Write_Protect_Group_Size",
                       "href": "docs/hal__sdmmc___spec.html#L114C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 115,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Manufacturer_Default_ECC",
-                      "href": "docs/hal__sdmmc___spec.html#L115C7"
                     },
                     {
                       "kind": "span",
@@ -12323,6 +12238,48 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
+                  "number": 115,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Write_Protect_Group_Enable",
+                      "href": "docs/hal__sdmmc___spec.html#L115C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
                   "number": 116,
                   "children": [
                     {
@@ -12333,13 +12290,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Write_Speed_Factor",
+                      "text": "Manufacturer_Default_ECC",
                       "href": "docs/hal__sdmmc___spec.html#L116C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "               "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -12376,13 +12333,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Max_Write_Data_Block_Length",
+                      "text": "Write_Speed_Factor",
                       "href": "docs/hal__sdmmc___spec.html#L117C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
+                      "text": "               "
                     },
                     {
                       "kind": "span",
@@ -12419,8 +12376,51 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Partial_Blocks_For_Write_Allowed",
+                      "text": "Max_Write_Data_Block_Length",
                       "href": "docs/hal__sdmmc___spec.html#L118C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "UInt8",
+                      "href": "docs/hal___spec.html#L53C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 119,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Partial_Blocks_For_Write_Allowed",
+                      "href": "docs/hal__sdmmc___spec.html#L119C7"
                     },
                     {
                       "kind": "span",
@@ -12451,7 +12451,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 119,
+                  "number": 120,
                   "children": [
                     {
                       "kind": "span",
@@ -12462,7 +12462,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_3",
-                      "href": "docs/hal__sdmmc___spec.html#L119C7"
+                      "href": "docs/hal__sdmmc___spec.html#L120C7"
                     },
                     {
                       "kind": "span",
@@ -12494,48 +12494,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 120,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Content_Protection_Application",
-                      "href": "docs/hal__sdmmc___spec.html#L120C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 121,
                   "children": [
                     {
@@ -12546,13 +12504,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "File_Format_Group",
+                      "text": "Content_Protection_Application",
                       "href": "docs/hal__sdmmc___spec.html#L121C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -12588,13 +12546,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Copy_Flag",
+                      "text": "File_Format_Group",
                       "href": "docs/hal__sdmmc___spec.html#L122C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                        "
+                      "text": "                "
                     },
                     {
                       "kind": "span",
@@ -12630,13 +12588,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Permanent_Write_Protection",
+                      "text": "Copy_Flag",
                       "href": "docs/hal__sdmmc___spec.html#L123C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "       "
+                      "text": "                        "
                     },
                     {
                       "kind": "span",
@@ -12672,7 +12630,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Temporary_Write_Protection",
+                      "text": "Permanent_Write_Protection",
                       "href": "docs/hal__sdmmc___spec.html#L124C7"
                     },
                     {
@@ -12714,13 +12672,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "File_Format",
+                      "text": "Temporary_Write_Protection",
                       "href": "docs/hal__sdmmc___spec.html#L125C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                      "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -12735,8 +12693,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "UInt8",
-                      "href": "docs/hal___spec.html#L53C9"
+                      "text": "Boolean"
                     },
                     {
                       "kind": "span",
@@ -12757,13 +12714,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ECC_Code",
+                      "text": "File_Format",
                       "href": "docs/hal__sdmmc___spec.html#L126C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                         "
+                      "text": "                      "
                     },
                     {
                       "kind": "span",
@@ -12800,13 +12757,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "CSD_CRC",
+                      "text": "ECC_Code",
                       "href": "docs/hal__sdmmc___spec.html#L127C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                          "
+                      "text": "                         "
                     },
                     {
                       "kind": "span",
@@ -12843,8 +12800,51 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reserved_4",
+                      "text": "CSD_CRC",
                       "href": "docs/hal__sdmmc___spec.html#L128C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "UInt8",
+                      "href": "docs/hal___spec.html#L53C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 129,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Reserved_4",
+                      "href": "docs/hal__sdmmc___spec.html#L129C7"
                     },
                     {
                       "kind": "span",
@@ -12886,7 +12886,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 129,
+                  "number": 130,
                   "children": [
                     {
                       "kind": "span",
@@ -12912,7 +12912,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/hal__sdmmc___spec.html#L91C9"
+                      "href": "docs/hal__sdmmc___spec.html#L92C9"
                     }
                   ]
                 }
@@ -12922,17 +12922,6 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "CSD_Structure",
-              "line": 92,
-              "column": 7,
-              "type": {
-                "label": "HAL.UInt8",
-                "docHref": "docs/hal___spec.html#L53C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "System_Specification_Version",
               "line": 93,
               "column": 7,
               "type": {
@@ -12943,7 +12932,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Reserved",
+              "label": "System_Specification_Version",
               "line": 94,
               "column": 7,
               "type": {
@@ -12954,7 +12943,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Data_Read_Access_Time_1",
+              "label": "Reserved",
               "line": 95,
               "column": 7,
               "type": {
@@ -12965,8 +12954,19 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Data_Read_Access_Time_2",
+              "label": "Data_Read_Access_Time_1",
               "line": 96,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt8",
+                "docHref": "docs/hal___spec.html#L53C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Data_Read_Access_Time_2",
+              "line": 97,
               "column": 7,
               "type": {
                 "label": "HAL.UInt8",
@@ -12986,7 +12986,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Max_Data_Transfer_Rate",
-              "line": 97,
+              "line": 98,
               "column": 7,
               "type": {
                 "label": "HAL.UInt8",
@@ -12997,7 +12997,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Card_Command_Class",
-              "line": 98,
+              "line": 99,
               "column": 7,
               "type": {
                 "label": "HAL.UInt16",
@@ -13008,7 +13008,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Max_Read_Data_Block_Length",
-              "line": 99,
+              "line": 100,
               "column": 7,
               "type": {
                 "label": "HAL.UInt8",
@@ -13019,16 +13019,6 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Partial_Block_For_Read_Allowed",
-              "line": 100,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Write_Block_Missalignment",
               "line": 101,
               "column": 7,
               "type": {
@@ -13038,7 +13028,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Read_Block_Missalignment",
+              "label": "Write_Block_Missalignment",
               "line": 102,
               "column": 7,
               "type": {
@@ -13048,7 +13038,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "DSR_Implemented",
+              "label": "Read_Block_Missalignment",
               "line": 103,
               "column": 7,
               "type": {
@@ -13058,8 +13048,18 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Reserved_2",
+              "label": "DSR_Implemented",
               "line": 104,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Reserved_2",
+              "line": 105,
               "column": 7,
               "type": {
                 "label": "HAL.UInt8",
@@ -13070,7 +13070,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Device_Size",
-              "line": 105,
+              "line": 106,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -13081,17 +13081,6 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Max_Read_Current_At_VDD_Min",
-              "line": 106,
-              "column": 7,
-              "type": {
-                "label": "HAL.UInt8",
-                "docHref": "docs/hal___spec.html#L53C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Max_Read_Current_At_VDD_Max",
               "line": 107,
               "column": 7,
               "type": {
@@ -13102,7 +13091,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Max_Write_Current_At_VDD_Min",
+              "label": "Max_Read_Current_At_VDD_Max",
               "line": 108,
               "column": 7,
               "type": {
@@ -13113,7 +13102,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Max_Write_Current_At_VDD_Max",
+              "label": "Max_Write_Current_At_VDD_Min",
               "line": 109,
               "column": 7,
               "type": {
@@ -13124,7 +13113,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Device_Size_Multiplier",
+              "label": "Max_Write_Current_At_VDD_Max",
               "line": 110,
               "column": 7,
               "type": {
@@ -13135,7 +13124,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Erase_Group_Size",
+              "label": "Device_Size_Multiplier",
               "line": 111,
               "column": 7,
               "type": {
@@ -13146,7 +13135,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Erase_Group_Size_Multiplier",
+              "label": "Erase_Group_Size",
               "line": 112,
               "column": 7,
               "type": {
@@ -13157,7 +13146,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Write_Protect_Group_Size",
+              "label": "Erase_Group_Size_Multiplier",
               "line": 113,
               "column": 7,
               "type": {
@@ -13168,18 +13157,8 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Write_Protect_Group_Enable",
+              "label": "Write_Protect_Group_Size",
               "line": 114,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Manufacturer_Default_ECC",
-              "line": 115,
               "column": 7,
               "type": {
                 "label": "HAL.UInt8",
@@ -13189,7 +13168,17 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Write_Speed_Factor",
+              "label": "Write_Protect_Group_Enable",
+              "line": 115,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Manufacturer_Default_ECC",
               "line": 116,
               "column": 7,
               "type": {
@@ -13200,7 +13189,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Max_Write_Data_Block_Length",
+              "label": "Write_Speed_Factor",
               "line": 117,
               "column": 7,
               "type": {
@@ -13211,8 +13200,19 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Partial_Blocks_For_Write_Allowed",
+              "label": "Max_Write_Data_Block_Length",
               "line": 118,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt8",
+                "docHref": "docs/hal___spec.html#L53C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Partial_Blocks_For_Write_Allowed",
+              "line": 119,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -13222,7 +13222,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_3",
-              "line": 119,
+              "line": 120,
               "column": 7,
               "type": {
                 "label": "HAL.UInt8",
@@ -13233,16 +13233,6 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Content_Protection_Application",
-              "line": 120,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "File_Format_Group",
               "line": 121,
               "column": 7,
               "type": {
@@ -13252,7 +13242,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Copy_Flag",
+              "label": "File_Format_Group",
               "line": 122,
               "column": 7,
               "type": {
@@ -13262,7 +13252,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Permanent_Write_Protection",
+              "label": "Copy_Flag",
               "line": 123,
               "column": 7,
               "type": {
@@ -13272,7 +13262,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Temporary_Write_Protection",
+              "label": "Permanent_Write_Protection",
               "line": 124,
               "column": 7,
               "type": {
@@ -13282,18 +13272,17 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "File_Format",
+              "label": "Temporary_Write_Protection",
               "line": 125,
               "column": 7,
               "type": {
-                "label": "HAL.UInt8",
-                "docHref": "docs/hal___spec.html#L53C9"
+                "label": "Boolean"
               },
               "description": [
               ]
             },
             {
-              "label": "ECC_Code",
+              "label": "File_Format",
               "line": 126,
               "column": 7,
               "type": {
@@ -13304,7 +13293,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "CSD_CRC",
+              "label": "ECC_Code",
               "line": 127,
               "column": 7,
               "type": {
@@ -13315,8 +13304,19 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Reserved_4",
+              "label": "CSD_CRC",
               "line": 128,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt8",
+                "docHref": "docs/hal___spec.html#L53C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Reserved_4",
+              "line": 129,
               "column": 7,
               "type": {
                 "label": "HAL.UInt8",
@@ -13339,7 +13339,7 @@ GNATdoc.Documentation = {
         {
           "label": "Cmd_Desc_Type",
           "qualifier": "",
-          "line": 301,
+          "line": 302,
           "column": 9,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -13350,7 +13350,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 301,
+                  "number": 302,
                   "children": [
                     {
                       "kind": "span",
@@ -13371,7 +13371,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Cmd_Desc_Type",
-                      "href": "docs/hal__sdmmc___spec.html#L301C9"
+                      "href": "docs/hal__sdmmc___spec.html#L302C9"
                     },
                     {
                       "kind": "span",
@@ -13397,49 +13397,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 302,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Cmd",
-                      "href": "docs/hal__sdmmc___spec.html#L302C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SD_Command",
-                      "href": "docs/hal__sdmmc___spec.html#L192C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 303,
                   "children": [
                     {
@@ -13450,7 +13407,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Rsp",
+                      "text": "Cmd",
                       "href": "docs/hal__sdmmc___spec.html#L303C7"
                     },
                     {
@@ -13471,8 +13428,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Rsp_Kind",
-                      "href": "docs/hal__sdmmc___spec.html#L283C9"
+                      "text": "SD_Command",
+                      "href": "docs/hal__sdmmc___spec.html#L193C9"
                     },
                     {
                       "kind": "span",
@@ -13493,7 +13450,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Tfr",
+                      "text": "Rsp",
                       "href": "docs/hal__sdmmc___spec.html#L304C7"
                     },
                     {
@@ -13514,8 +13471,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Tfr_Kind",
-                      "href": "docs/hal__sdmmc___spec.html#L295C9"
+                      "text": "Rsp_Kind",
+                      "href": "docs/hal__sdmmc___spec.html#L284C9"
                     },
                     {
                       "kind": "span",
@@ -13527,6 +13484,49 @@ GNATdoc.Documentation = {
                 {
                   "kind": "line",
                   "number": 305,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Tfr",
+                      "href": "docs/hal__sdmmc___spec.html#L305C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Tfr_Kind",
+                      "href": "docs/hal__sdmmc___spec.html#L296C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 306,
                   "children": [
                     {
                       "kind": "span",
@@ -13552,7 +13552,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/hal__sdmmc___spec.html#L301C9"
+                      "href": "docs/hal__sdmmc___spec.html#L302C9"
                     }
                   ]
                 }
@@ -13562,33 +13562,33 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Cmd",
-              "line": 302,
+              "line": 303,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.SD_Command",
-                "docHref": "docs/hal__sdmmc___spec.html#L192C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L193C9"
               },
               "description": [
               ]
             },
             {
               "label": "Rsp",
-              "line": 303,
+              "line": 304,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.Rsp_Kind",
-                "docHref": "docs/hal__sdmmc___spec.html#L283C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L284C9"
               },
               "description": [
               ]
             },
             {
               "label": "Tfr",
-              "line": 304,
+              "line": 305,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.Tfr_Kind",
-                "docHref": "docs/hal__sdmmc___spec.html#L295C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L296C9"
               },
               "description": [
               ]
@@ -13598,7 +13598,7 @@ GNATdoc.Documentation = {
         {
           "label": "Manufacturing_Date_Type",
           "qualifier": "",
-          "line": 151,
+          "line": 152,
           "column": 9,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -13609,7 +13609,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 151,
+                  "number": 152,
                   "children": [
                     {
                       "kind": "span",
@@ -13630,7 +13630,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Manufacturing_Date_Type",
-                      "href": "docs/hal__sdmmc___spec.html#L151C9"
+                      "href": "docs/hal__sdmmc___spec.html#L152C9"
                     },
                     {
                       "kind": "span",
@@ -13656,49 +13656,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 152,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Year",
-                      "href": "docs/hal__sdmmc___spec.html#L152C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Manufacturing_Year",
-                      "href": "docs/hal__sdmmc___spec.html#L136C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 153,
                   "children": [
                     {
@@ -13709,7 +13666,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Month",
+                      "text": "Year",
                       "href": "docs/hal__sdmmc___spec.html#L153C7"
                     },
                     {
@@ -13730,7 +13687,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Manufacturing_Month",
+                      "text": "Manufacturing_Year",
                       "href": "docs/hal__sdmmc___spec.html#L137C9"
                     },
                     {
@@ -13743,6 +13700,49 @@ GNATdoc.Documentation = {
                 {
                   "kind": "line",
                   "number": 154,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Month",
+                      "href": "docs/hal__sdmmc___spec.html#L154C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Manufacturing_Month",
+                      "href": "docs/hal__sdmmc___spec.html#L138C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 155,
                   "children": [
                     {
                       "kind": "span",
@@ -13768,7 +13768,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/hal__sdmmc___spec.html#L151C9"
+                      "href": "docs/hal__sdmmc___spec.html#L152C9"
                     }
                   ]
                 }
@@ -13778,22 +13778,22 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Year",
-              "line": 152,
+              "line": 153,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.Manufacturing_Year",
-                "docHref": "docs/hal__sdmmc___spec.html#L136C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L137C9"
               },
               "description": [
               ]
             },
             {
               "label": "Month",
-              "line": 153,
+              "line": 154,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.Manufacturing_Month",
-                "docHref": "docs/hal__sdmmc___spec.html#L137C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L138C9"
               },
               "description": [
               ]
@@ -13803,7 +13803,7 @@ GNATdoc.Documentation = {
         {
           "label": "SDCard_Configuration_Register",
           "qualifier": "",
-          "line": 168,
+          "line": 169,
           "column": 9,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -13814,7 +13814,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 168,
+                  "number": 169,
                   "children": [
                     {
                       "kind": "span",
@@ -13835,7 +13835,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SDCard_Configuration_Register",
-                      "href": "docs/hal__sdmmc___spec.html#L168C9"
+                      "href": "docs/hal__sdmmc___spec.html#L169C9"
                     },
                     {
                       "kind": "span",
@@ -13861,49 +13861,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 169,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SCR_Structure",
-                      "href": "docs/hal__sdmmc___spec.html#L169C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "UInt8",
-                      "href": "docs/hal___spec.html#L53C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 170,
                   "children": [
                     {
@@ -13914,13 +13871,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "SD_Spec",
+                      "text": "SCR_Structure",
                       "href": "docs/hal__sdmmc___spec.html#L170C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "               "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -13957,13 +13914,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Data_Stat_After_Erase",
+                      "text": "SD_Spec",
                       "href": "docs/hal__sdmmc___spec.html#L171C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "               "
                     },
                     {
                       "kind": "span",
@@ -14000,13 +13957,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "SD_Security",
+                      "text": "Data_Stat_After_Erase",
                       "href": "docs/hal__sdmmc___spec.html#L172C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "           "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -14043,13 +14000,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "SD_Bus_Widths",
+                      "text": "SD_Security",
                       "href": "docs/hal__sdmmc___spec.html#L173C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "         "
+                      "text": "           "
                     },
                     {
                       "kind": "span",
@@ -14086,13 +14043,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "SD_Spec3",
+                      "text": "SD_Bus_Widths",
                       "href": "docs/hal__sdmmc___spec.html#L174C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "              "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -14107,7 +14064,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Boolean"
+                      "text": "UInt8",
+                      "href": "docs/hal___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -14128,51 +14086,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Ex_Security",
+                      "text": "SD_Spec3",
                       "href": "docs/hal__sdmmc___spec.html#L175C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "           "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "UInt8",
-                      "href": "docs/hal___spec.html#L53C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 176,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SD_Spec4",
-                      "href": "docs/hal__sdmmc___spec.html#L176C7"
                     },
                     {
                       "kind": "span",
@@ -14203,7 +14118,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 177,
+                  "number": 176,
                   "children": [
                     {
                       "kind": "span",
@@ -14213,13 +14128,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reserved_1",
-                      "href": "docs/hal__sdmmc___spec.html#L177C7"
+                      "text": "Ex_Security",
+                      "href": "docs/hal__sdmmc___spec.html#L176C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "            "
+                      "text": "           "
                     },
                     {
                       "kind": "span",
@@ -14246,6 +14161,48 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
+                  "number": 177,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SD_Spec4",
+                      "href": "docs/hal__sdmmc___spec.html#L177C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "              "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
                   "number": 178,
                   "children": [
                     {
@@ -14256,13 +14213,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "CMD_Support",
+                      "text": "Reserved_1",
                       "href": "docs/hal__sdmmc___spec.html#L178C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "           "
+                      "text": "            "
                     },
                     {
                       "kind": "span",
@@ -14299,8 +14256,51 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reserved_2",
+                      "text": "CMD_Support",
                       "href": "docs/hal__sdmmc___spec.html#L179C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "           "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "UInt8",
+                      "href": "docs/hal___spec.html#L53C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 180,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Reserved_2",
+                      "href": "docs/hal__sdmmc___spec.html#L180C7"
                     },
                     {
                       "kind": "span",
@@ -14332,7 +14332,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 180,
+                  "number": 181,
                   "children": [
                     {
                       "kind": "span",
@@ -14358,7 +14358,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/hal__sdmmc___spec.html#L168C9"
+                      "href": "docs/hal__sdmmc___spec.html#L169C9"
                     }
                   ]
                 }
@@ -14368,17 +14368,6 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "SCR_Structure",
-              "line": 169,
-              "column": 7,
-              "type": {
-                "label": "HAL.UInt8",
-                "docHref": "docs/hal___spec.html#L53C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "SD_Spec",
               "line": 170,
               "column": 7,
               "type": {
@@ -14389,7 +14378,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Data_Stat_After_Erase",
+              "label": "SD_Spec",
               "line": 171,
               "column": 7,
               "type": {
@@ -14400,7 +14389,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "SD_Security",
+              "label": "Data_Stat_After_Erase",
               "line": 172,
               "column": 7,
               "type": {
@@ -14411,7 +14400,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "SD_Bus_Widths",
+              "label": "SD_Security",
               "line": 173,
               "column": 7,
               "type": {
@@ -14422,8 +14411,19 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "SD_Spec3",
+              "label": "SD_Bus_Widths",
               "line": 174,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt8",
+                "docHref": "docs/hal___spec.html#L53C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "SD_Spec3",
+              "line": 175,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -14433,7 +14433,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Ex_Security",
-              "line": 175,
+              "line": 176,
               "column": 7,
               "type": {
                 "label": "HAL.UInt8",
@@ -14444,7 +14444,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SD_Spec4",
-              "line": 176,
+              "line": 177,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -14454,17 +14454,6 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reserved_1",
-              "line": 177,
-              "column": 7,
-              "type": {
-                "label": "HAL.UInt8",
-                "docHref": "docs/hal___spec.html#L53C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "CMD_Support",
               "line": 178,
               "column": 7,
               "type": {
@@ -14475,8 +14464,19 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Reserved_2",
+              "label": "CMD_Support",
               "line": 179,
+              "column": 7,
+              "type": {
+                "label": "HAL.UInt8",
+                "docHref": "docs/hal___spec.html#L53C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Reserved_2",
+              "line": 180,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -14495,7 +14495,7 @@ GNATdoc.Documentation = {
         {
           "label": "SDMMC_Driver",
           "qualifier": "",
-          "line": 380,
+          "line": 381,
           "column": 9,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -14506,7 +14506,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 380,
+                  "number": 381,
                   "children": [
                     {
                       "kind": "span",
@@ -14527,7 +14527,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SDMMC_Driver",
-                      "href": "docs/hal__sdmmc___spec.html#L380C9"
+                      "href": "docs/hal__sdmmc___spec.html#L381C9"
                     },
                     {
                       "kind": "span",
@@ -14578,7 +14578,7 @@ GNATdoc.Documentation = {
         {
           "label": "Send_ACmd",
           "qualifier": "",
-          "line": 439,
+          "line": 440,
           "column": 14,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -14589,7 +14589,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 439,
+                  "number": 440,
                   "children": [
                     {
                       "kind": "span",
@@ -14610,13 +14610,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Send_ACmd",
-                      "href": "docs/hal__sdmmc___spec.html#L439C14"
+                      "href": "docs/hal__sdmmc___spec.html#L440C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 440,
+                  "number": 441,
                   "children": [
                     {
                       "kind": "span",
@@ -14632,7 +14632,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__sdmmc___spec.html#L440C7"
+                      "href": "docs/hal__sdmmc___spec.html#L441C7"
                     },
                     {
                       "kind": "span",
@@ -14673,7 +14673,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SDMMC_Driver",
-                      "href": "docs/hal__sdmmc___spec.html#L380C9"
+                      "href": "docs/hal__sdmmc___spec.html#L381C9"
                     },
                     {
                       "kind": "span",
@@ -14694,7 +14694,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 441,
+                  "number": 442,
                   "children": [
                     {
                       "kind": "span",
@@ -14705,7 +14705,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Cmd",
-                      "href": "docs/hal__sdmmc___spec.html#L441C7"
+                      "href": "docs/hal__sdmmc___spec.html#L442C7"
                     },
                     {
                       "kind": "span",
@@ -14726,7 +14726,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SD_Specific_Command",
-                      "href": "docs/hal__sdmmc___spec.html#L264C12"
+                      "href": "docs/hal__sdmmc___spec.html#L265C12"
                     },
                     {
                       "kind": "span",
@@ -14737,7 +14737,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 442,
+                  "number": 443,
                   "children": [
                     {
                       "kind": "span",
@@ -14748,7 +14748,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Rca",
-                      "href": "docs/hal__sdmmc___spec.html#L442C7"
+                      "href": "docs/hal__sdmmc___spec.html#L443C7"
                     },
                     {
                       "kind": "span",
@@ -14780,7 +14780,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 443,
+                  "number": 444,
                   "children": [
                     {
                       "kind": "span",
@@ -14791,7 +14791,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Arg",
-                      "href": "docs/hal__sdmmc___spec.html#L443C7"
+                      "href": "docs/hal__sdmmc___spec.html#L444C7"
                     },
                     {
                       "kind": "span",
@@ -14823,7 +14823,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 444,
+                  "number": 445,
                   "children": [
                     {
                       "kind": "span",
@@ -14834,7 +14834,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Status",
-                      "href": "docs/hal__sdmmc___spec.html#L444C7"
+                      "href": "docs/hal__sdmmc___spec.html#L445C7"
                     },
                     {
                       "kind": "span",
@@ -14865,7 +14865,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SD_Error",
-                      "href": "docs/hal__sdmmc___spec.html#L34C9"
+                      "href": "docs/hal__sdmmc___spec.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -14894,29 +14894,29 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 440,
+              "line": 441,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.SDMMC_Driver",
-                "docHref": "docs/hal__sdmmc___spec.html#L380C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L381C9"
               },
               "description": [
               ]
             },
             {
               "label": "Cmd",
-              "line": 441,
+              "line": 442,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.SD_Specific_Command",
-                "docHref": "docs/hal__sdmmc___spec.html#L264C12"
+                "docHref": "docs/hal__sdmmc___spec.html#L265C12"
               },
               "description": [
               ]
             },
             {
               "label": "Rca",
-              "line": 442,
+              "line": 443,
               "column": 7,
               "type": {
                 "label": "HAL.UInt16",
@@ -14927,7 +14927,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Arg",
-              "line": 443,
+              "line": 444,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -14938,11 +14938,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Status",
-              "line": 444,
+              "line": 445,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.SD_Error",
-                "docHref": "docs/hal__sdmmc___spec.html#L34C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L35C9"
               },
               "description": [
               ]
@@ -14952,7 +14952,7 @@ GNATdoc.Documentation = {
         {
           "label": "Send_Cmd",
           "qualifier": "",
-          "line": 432,
+          "line": 433,
           "column": 14,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -14963,7 +14963,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 432,
+                  "number": 433,
                   "children": [
                     {
                       "kind": "span",
@@ -14984,13 +14984,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Send_Cmd",
-                      "href": "docs/hal__sdmmc___spec.html#L432C14"
+                      "href": "docs/hal__sdmmc___spec.html#L433C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 433,
+                  "number": 434,
                   "children": [
                     {
                       "kind": "span",
@@ -15006,7 +15006,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__sdmmc___spec.html#L433C7"
+                      "href": "docs/hal__sdmmc___spec.html#L434C7"
                     },
                     {
                       "kind": "span",
@@ -15047,7 +15047,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SDMMC_Driver",
-                      "href": "docs/hal__sdmmc___spec.html#L380C9"
+                      "href": "docs/hal__sdmmc___spec.html#L381C9"
                     },
                     {
                       "kind": "span",
@@ -15068,7 +15068,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 434,
+                  "number": 435,
                   "children": [
                     {
                       "kind": "span",
@@ -15079,7 +15079,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Cmd",
-                      "href": "docs/hal__sdmmc___spec.html#L434C7"
+                      "href": "docs/hal__sdmmc___spec.html#L435C7"
                     },
                     {
                       "kind": "span",
@@ -15100,7 +15100,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SD_Command",
-                      "href": "docs/hal__sdmmc___spec.html#L192C9"
+                      "href": "docs/hal__sdmmc___spec.html#L193C9"
                     },
                     {
                       "kind": "span",
@@ -15111,7 +15111,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 435,
+                  "number": 436,
                   "children": [
                     {
                       "kind": "span",
@@ -15122,7 +15122,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Arg",
-                      "href": "docs/hal__sdmmc___spec.html#L435C7"
+                      "href": "docs/hal__sdmmc___spec.html#L436C7"
                     },
                     {
                       "kind": "span",
@@ -15154,7 +15154,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 436,
+                  "number": 437,
                   "children": [
                     {
                       "kind": "span",
@@ -15165,7 +15165,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Status",
-                      "href": "docs/hal__sdmmc___spec.html#L436C7"
+                      "href": "docs/hal__sdmmc___spec.html#L437C7"
                     },
                     {
                       "kind": "span",
@@ -15196,7 +15196,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SD_Error",
-                      "href": "docs/hal__sdmmc___spec.html#L34C9"
+                      "href": "docs/hal__sdmmc___spec.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -15225,29 +15225,29 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 433,
+              "line": 434,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.SDMMC_Driver",
-                "docHref": "docs/hal__sdmmc___spec.html#L380C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L381C9"
               },
               "description": [
               ]
             },
             {
               "label": "Cmd",
-              "line": 434,
+              "line": 435,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.SD_Command",
-                "docHref": "docs/hal__sdmmc___spec.html#L192C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L193C9"
               },
               "description": [
               ]
             },
             {
               "label": "Arg",
-              "line": 435,
+              "line": 436,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -15258,11 +15258,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Status",
-              "line": 436,
+              "line": 437,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.SD_Error",
-                "docHref": "docs/hal__sdmmc___spec.html#L34C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L35C9"
               },
               "description": [
               ]
@@ -15277,7 +15277,7 @@ GNATdoc.Documentation = {
         {
           "label": "Delay_Milliseconds",
           "qualifier": "",
-          "line": 382,
+          "line": 383,
           "column": 14,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -15288,7 +15288,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 382,
+                  "number": 383,
                   "children": [
                     {
                       "kind": "span",
@@ -15309,13 +15309,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Delay_Milliseconds",
-                      "href": "docs/hal__sdmmc___spec.html#L382C14"
+                      "href": "docs/hal__sdmmc___spec.html#L383C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 383,
+                  "number": 384,
                   "children": [
                     {
                       "kind": "span",
@@ -15331,7 +15331,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__sdmmc___spec.html#L383C7"
+                      "href": "docs/hal__sdmmc___spec.html#L384C7"
                     },
                     {
                       "kind": "span",
@@ -15352,7 +15352,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SDMMC_Driver",
-                      "href": "docs/hal__sdmmc___spec.html#L380C9"
+                      "href": "docs/hal__sdmmc___spec.html#L381C9"
                     },
                     {
                       "kind": "span",
@@ -15363,7 +15363,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 384,
+                  "number": 385,
                   "children": [
                     {
                       "kind": "span",
@@ -15374,7 +15374,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Amount",
-                      "href": "docs/hal__sdmmc___spec.html#L384C7"
+                      "href": "docs/hal__sdmmc___spec.html#L385C7"
                     },
                     {
                       "kind": "span",
@@ -15447,18 +15447,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 383,
+              "line": 384,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.SDMMC_Driver",
-                "docHref": "docs/hal__sdmmc___spec.html#L380C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L381C9"
               },
               "description": [
               ]
             },
             {
               "label": "Amount",
-              "line": 384,
+              "line": 385,
               "column": 7,
               "type": {
                 "label": "Natural"
@@ -15471,7 +15471,7 @@ GNATdoc.Documentation = {
         {
           "label": "Read_Cmd",
           "qualifier": "",
-          "line": 410,
+          "line": 411,
           "column": 14,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -15482,7 +15482,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 410,
+                  "number": 411,
                   "children": [
                     {
                       "kind": "span",
@@ -15503,13 +15503,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Read_Cmd",
-                      "href": "docs/hal__sdmmc___spec.html#L410C14"
+                      "href": "docs/hal__sdmmc___spec.html#L411C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 411,
+                  "number": 412,
                   "children": [
                     {
                       "kind": "span",
@@ -15525,7 +15525,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__sdmmc___spec.html#L411C7"
+                      "href": "docs/hal__sdmmc___spec.html#L412C7"
                     },
                     {
                       "kind": "span",
@@ -15566,50 +15566,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SDMMC_Driver",
-                      "href": "docs/hal__sdmmc___spec.html#L380C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 412,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Cmd",
-                      "href": "docs/hal__sdmmc___spec.html#L412C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Cmd_Desc_Type",
-                      "href": "docs/hal__sdmmc___spec.html#L301C9"
+                      "href": "docs/hal__sdmmc___spec.html#L381C9"
                     },
                     {
                       "kind": "span",
@@ -15630,8 +15587,51 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Arg",
+                      "text": "Cmd",
                       "href": "docs/hal__sdmmc___spec.html#L413C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Cmd_Desc_Type",
+                      "href": "docs/hal__sdmmc___spec.html#L302C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 414,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Arg",
+                      "href": "docs/hal__sdmmc___spec.html#L414C7"
                     },
                     {
                       "kind": "span",
@@ -15663,7 +15663,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 414,
+                  "number": 415,
                   "children": [
                     {
                       "kind": "span",
@@ -15674,7 +15674,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Buf",
-                      "href": "docs/hal__sdmmc___spec.html#L414C7"
+                      "href": "docs/hal__sdmmc___spec.html#L415C7"
                     },
                     {
                       "kind": "span",
@@ -15716,7 +15716,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 415,
+                  "number": 416,
                   "children": [
                     {
                       "kind": "span",
@@ -15727,7 +15727,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Status",
-                      "href": "docs/hal__sdmmc___spec.html#L415C7"
+                      "href": "docs/hal__sdmmc___spec.html#L416C7"
                     },
                     {
                       "kind": "span",
@@ -15758,7 +15758,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SD_Error",
-                      "href": "docs/hal__sdmmc___spec.html#L34C9"
+                      "href": "docs/hal__sdmmc___spec.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -15807,29 +15807,29 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 411,
+              "line": 412,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.SDMMC_Driver",
-                "docHref": "docs/hal__sdmmc___spec.html#L380C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L381C9"
               },
               "description": [
               ]
             },
             {
               "label": "Cmd",
-              "line": 412,
+              "line": 413,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.Cmd_Desc_Type",
-                "docHref": "docs/hal__sdmmc___spec.html#L301C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L302C9"
               },
               "description": [
               ]
             },
             {
               "label": "Arg",
-              "line": 413,
+              "line": 414,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -15840,7 +15840,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Buf",
-              "line": 414,
+              "line": 415,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32_Array",
@@ -15851,11 +15851,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Status",
-              "line": 415,
+              "line": 416,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.SD_Error",
-                "docHref": "docs/hal__sdmmc___spec.html#L34C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L35C9"
               },
               "description": [
               ]
@@ -15865,7 +15865,7 @@ GNATdoc.Documentation = {
         {
           "label": "Read_Rsp136",
           "qualifier": "",
-          "line": 425,
+          "line": 426,
           "column": 14,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -15876,7 +15876,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 425,
+                  "number": 426,
                   "children": [
                     {
                       "kind": "span",
@@ -15897,13 +15897,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Read_Rsp136",
-                      "href": "docs/hal__sdmmc___spec.html#L425C14"
+                      "href": "docs/hal__sdmmc___spec.html#L426C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 426,
+                  "number": 427,
                   "children": [
                     {
                       "kind": "span",
@@ -15919,7 +15919,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__sdmmc___spec.html#L426C7"
+                      "href": "docs/hal__sdmmc___spec.html#L427C7"
                     },
                     {
                       "kind": "span",
@@ -15960,7 +15960,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SDMMC_Driver",
-                      "href": "docs/hal__sdmmc___spec.html#L380C9"
+                      "href": "docs/hal__sdmmc___spec.html#L381C9"
                     },
                     {
                       "kind": "span",
@@ -15971,7 +15971,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 427,
+                  "number": 428,
                   "children": [
                     {
                       "kind": "span",
@@ -15982,7 +15982,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "W0",
-                      "href": "docs/hal__sdmmc___spec.html#L427C7"
+                      "href": "docs/hal__sdmmc___spec.html#L428C7"
                     },
                     {
                       "kind": "span",
@@ -15998,7 +15998,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "W1",
-                      "href": "docs/hal__sdmmc___spec.html#L427C11"
+                      "href": "docs/hal__sdmmc___spec.html#L428C11"
                     },
                     {
                       "kind": "span",
@@ -16014,7 +16014,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "W2",
-                      "href": "docs/hal__sdmmc___spec.html#L427C15"
+                      "href": "docs/hal__sdmmc___spec.html#L428C15"
                     },
                     {
                       "kind": "span",
@@ -16030,7 +16030,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "W3",
-                      "href": "docs/hal__sdmmc___spec.html#L427C19"
+                      "href": "docs/hal__sdmmc___spec.html#L428C19"
                     },
                     {
                       "kind": "span",
@@ -16118,18 +16118,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 426,
+              "line": 427,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.SDMMC_Driver",
-                "docHref": "docs/hal__sdmmc___spec.html#L380C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L381C9"
               },
               "description": [
               ]
             },
             {
               "label": "W0",
-              "line": 427,
+              "line": 428,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -16140,7 +16140,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "W1",
-              "line": 427,
+              "line": 428,
               "column": 11,
               "type": {
                 "label": "HAL.UInt32",
@@ -16151,7 +16151,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "W2",
-              "line": 427,
+              "line": 428,
               "column": 15,
               "type": {
                 "label": "HAL.UInt32",
@@ -16162,7 +16162,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "W3",
-              "line": 427,
+              "line": 428,
               "column": 19,
               "type": {
                 "label": "HAL.UInt32",
@@ -16176,7 +16176,7 @@ GNATdoc.Documentation = {
         {
           "label": "Read_Rsp48",
           "qualifier": "",
-          "line": 418,
+          "line": 419,
           "column": 14,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -16187,7 +16187,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 418,
+                  "number": 419,
                   "children": [
                     {
                       "kind": "span",
@@ -16208,13 +16208,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Read_Rsp48",
-                      "href": "docs/hal__sdmmc___spec.html#L418C14"
+                      "href": "docs/hal__sdmmc___spec.html#L419C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 419,
+                  "number": 420,
                   "children": [
                     {
                       "kind": "span",
@@ -16230,7 +16230,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__sdmmc___spec.html#L419C7"
+                      "href": "docs/hal__sdmmc___spec.html#L420C7"
                     },
                     {
                       "kind": "span",
@@ -16271,7 +16271,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SDMMC_Driver",
-                      "href": "docs/hal__sdmmc___spec.html#L380C9"
+                      "href": "docs/hal__sdmmc___spec.html#L381C9"
                     },
                     {
                       "kind": "span",
@@ -16282,7 +16282,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 420,
+                  "number": 421,
                   "children": [
                     {
                       "kind": "span",
@@ -16293,7 +16293,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Rsp",
-                      "href": "docs/hal__sdmmc___spec.html#L420C7"
+                      "href": "docs/hal__sdmmc___spec.html#L421C7"
                     },
                     {
                       "kind": "span",
@@ -16381,18 +16381,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 419,
+              "line": 420,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.SDMMC_Driver",
-                "docHref": "docs/hal__sdmmc___spec.html#L380C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L381C9"
               },
               "description": [
               ]
             },
             {
               "label": "Rsp",
-              "line": 420,
+              "line": 421,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -16406,7 +16406,7 @@ GNATdoc.Documentation = {
         {
           "label": "Reset",
           "qualifier": "",
-          "line": 388,
+          "line": 389,
           "column": 14,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -16417,7 +16417,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 388,
+                  "number": 389,
                   "children": [
                     {
                       "kind": "span",
@@ -16438,13 +16438,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reset",
-                      "href": "docs/hal__sdmmc___spec.html#L388C14"
+                      "href": "docs/hal__sdmmc___spec.html#L389C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 389,
+                  "number": 390,
                   "children": [
                     {
                       "kind": "span",
@@ -16460,7 +16460,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__sdmmc___spec.html#L389C7"
+                      "href": "docs/hal__sdmmc___spec.html#L390C7"
                     },
                     {
                       "kind": "span",
@@ -16501,7 +16501,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SDMMC_Driver",
-                      "href": "docs/hal__sdmmc___spec.html#L380C9"
+                      "href": "docs/hal__sdmmc___spec.html#L381C9"
                     },
                     {
                       "kind": "span",
@@ -16512,7 +16512,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 390,
+                  "number": 391,
                   "children": [
                     {
                       "kind": "span",
@@ -16523,7 +16523,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Status",
-                      "href": "docs/hal__sdmmc___spec.html#L390C7"
+                      "href": "docs/hal__sdmmc___spec.html#L391C7"
                     },
                     {
                       "kind": "span",
@@ -16554,7 +16554,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SD_Error",
-                      "href": "docs/hal__sdmmc___spec.html#L34C9"
+                      "href": "docs/hal__sdmmc___spec.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -16603,22 +16603,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 389,
+              "line": 390,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.SDMMC_Driver",
-                "docHref": "docs/hal__sdmmc___spec.html#L380C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L381C9"
               },
               "description": [
               ]
             },
             {
               "label": "Status",
-              "line": 390,
+              "line": 391,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.SD_Error",
-                "docHref": "docs/hal__sdmmc___spec.html#L34C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L35C9"
               },
               "description": [
               ]
@@ -16628,7 +16628,7 @@ GNATdoc.Documentation = {
         {
           "label": "Send_Cmd",
           "qualifier": "",
-          "line": 403,
+          "line": 404,
           "column": 14,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -16639,7 +16639,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 403,
+                  "number": 404,
                   "children": [
                     {
                       "kind": "span",
@@ -16660,13 +16660,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Send_Cmd",
-                      "href": "docs/hal__sdmmc___spec.html#L403C14"
+                      "href": "docs/hal__sdmmc___spec.html#L404C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 404,
+                  "number": 405,
                   "children": [
                     {
                       "kind": "span",
@@ -16682,7 +16682,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__sdmmc___spec.html#L404C7"
+                      "href": "docs/hal__sdmmc___spec.html#L405C7"
                     },
                     {
                       "kind": "span",
@@ -16723,50 +16723,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SDMMC_Driver",
-                      "href": "docs/hal__sdmmc___spec.html#L380C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 405,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Cmd",
-                      "href": "docs/hal__sdmmc___spec.html#L405C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Cmd_Desc_Type",
-                      "href": "docs/hal__sdmmc___spec.html#L301C9"
+                      "href": "docs/hal__sdmmc___spec.html#L381C9"
                     },
                     {
                       "kind": "span",
@@ -16787,8 +16744,51 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Arg",
+                      "text": "Cmd",
                       "href": "docs/hal__sdmmc___spec.html#L406C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Cmd_Desc_Type",
+                      "href": "docs/hal__sdmmc___spec.html#L302C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 407,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Arg",
+                      "href": "docs/hal__sdmmc___spec.html#L407C7"
                     },
                     {
                       "kind": "span",
@@ -16820,7 +16820,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 407,
+                  "number": 408,
                   "children": [
                     {
                       "kind": "span",
@@ -16831,7 +16831,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Status",
-                      "href": "docs/hal__sdmmc___spec.html#L407C7"
+                      "href": "docs/hal__sdmmc___spec.html#L408C7"
                     },
                     {
                       "kind": "span",
@@ -16862,7 +16862,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SD_Error",
-                      "href": "docs/hal__sdmmc___spec.html#L34C9"
+                      "href": "docs/hal__sdmmc___spec.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -16911,29 +16911,29 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 404,
+              "line": 405,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.SDMMC_Driver",
-                "docHref": "docs/hal__sdmmc___spec.html#L380C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L381C9"
               },
               "description": [
               ]
             },
             {
               "label": "Cmd",
-              "line": 405,
+              "line": 406,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.Cmd_Desc_Type",
-                "docHref": "docs/hal__sdmmc___spec.html#L301C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L302C9"
               },
               "description": [
               ]
             },
             {
               "label": "Arg",
-              "line": 406,
+              "line": 407,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32",
@@ -16944,11 +16944,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Status",
-              "line": 407,
+              "line": 408,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.SD_Error",
-                "docHref": "docs/hal__sdmmc___spec.html#L34C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L35C9"
               },
               "description": [
               ]
@@ -16958,7 +16958,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Bus_Size",
           "qualifier": "",
-          "line": 398,
+          "line": 399,
           "column": 14,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -16969,7 +16969,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 398,
+                  "number": 399,
                   "children": [
                     {
                       "kind": "span",
@@ -16990,13 +16990,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Bus_Size",
-                      "href": "docs/hal__sdmmc___spec.html#L398C14"
+                      "href": "docs/hal__sdmmc___spec.html#L399C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 399,
+                  "number": 400,
                   "children": [
                     {
                       "kind": "span",
@@ -17012,7 +17012,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__sdmmc___spec.html#L399C7"
+                      "href": "docs/hal__sdmmc___spec.html#L400C7"
                     },
                     {
                       "kind": "span",
@@ -17053,7 +17053,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SDMMC_Driver",
-                      "href": "docs/hal__sdmmc___spec.html#L380C9"
+                      "href": "docs/hal__sdmmc___spec.html#L381C9"
                     },
                     {
                       "kind": "span",
@@ -17064,7 +17064,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 400,
+                  "number": 401,
                   "children": [
                     {
                       "kind": "span",
@@ -17075,7 +17075,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Mode",
-                      "href": "docs/hal__sdmmc___spec.html#L400C7"
+                      "href": "docs/hal__sdmmc___spec.html#L401C7"
                     },
                     {
                       "kind": "span",
@@ -17096,7 +17096,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Wide_Bus_Mode",
-                      "href": "docs/hal__sdmmc___spec.html#L67C9"
+                      "href": "docs/hal__sdmmc___spec.html#L68C9"
                     },
                     {
                       "kind": "span",
@@ -17145,22 +17145,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 399,
+              "line": 400,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.SDMMC_Driver",
-                "docHref": "docs/hal__sdmmc___spec.html#L380C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L381C9"
               },
               "description": [
               ]
             },
             {
               "label": "Mode",
-              "line": 400,
+              "line": 401,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.Wide_Bus_Mode",
-                "docHref": "docs/hal__sdmmc___spec.html#L67C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L68C9"
               },
               "description": [
               ]
@@ -17170,7 +17170,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Clock",
           "qualifier": "",
-          "line": 393,
+          "line": 394,
           "column": 14,
           "src": "srcs/hal-sdmmc.ads.html",
           "summary": [
@@ -17181,7 +17181,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 393,
+                  "number": 394,
                   "children": [
                     {
                       "kind": "span",
@@ -17202,13 +17202,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Clock",
-                      "href": "docs/hal__sdmmc___spec.html#L393C14"
+                      "href": "docs/hal__sdmmc___spec.html#L394C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 394,
+                  "number": 395,
                   "children": [
                     {
                       "kind": "span",
@@ -17224,7 +17224,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/hal__sdmmc___spec.html#L394C7"
+                      "href": "docs/hal__sdmmc___spec.html#L395C7"
                     },
                     {
                       "kind": "span",
@@ -17265,7 +17265,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SDMMC_Driver",
-                      "href": "docs/hal__sdmmc___spec.html#L380C9"
+                      "href": "docs/hal__sdmmc___spec.html#L381C9"
                     },
                     {
                       "kind": "span",
@@ -17276,7 +17276,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 395,
+                  "number": 396,
                   "children": [
                     {
                       "kind": "span",
@@ -17287,7 +17287,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Freq",
-                      "href": "docs/hal__sdmmc___spec.html#L395C7"
+                      "href": "docs/hal__sdmmc___spec.html#L396C7"
                     },
                     {
                       "kind": "span",
@@ -17356,18 +17356,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 394,
+              "line": 395,
               "column": 7,
               "type": {
                 "label": "HAL.SDMMC.SDMMC_Driver",
-                "docHref": "docs/hal__sdmmc___spec.html#L380C9"
+                "docHref": "docs/hal__sdmmc___spec.html#L381C9"
               },
               "description": [
               ]
             },
             {
               "label": "Freq",
-              "line": 395,
+              "line": 396,
               "column": 7,
               "type": {
                 "label": "Natural"

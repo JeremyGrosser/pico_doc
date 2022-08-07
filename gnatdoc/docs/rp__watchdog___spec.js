@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Configure",
           "qualifier": "",
-          "line": 8,
+          "line": 10,
           "column": 14,
           "src": "srcs/rp-watchdog.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 8,
+                  "number": 10,
                   "children": [
                     {
                       "kind": "span",
@@ -43,13 +43,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Configure",
-                      "href": "docs/rp__watchdog___spec.html#L8C14"
+                      "href": "docs/rp__watchdog___spec.html#L10C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 9,
+                  "number": 11,
                   "children": [
                     {
                       "kind": "span",
@@ -65,7 +65,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Cycles",
-                      "href": "docs/rp__watchdog___spec.html#L9C8"
+                      "href": "docs/rp__watchdog___spec.html#L11C8"
                     },
                     {
                       "kind": "span",
@@ -115,7 +115,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Cycles",
-              "line": 9,
+              "line": 11,
               "column": 8,
               "type": {
                 "label": "RP.Hertz",
@@ -129,7 +129,7 @@ GNATdoc.Documentation = {
         {
           "label": "Disable",
           "qualifier": "",
-          "line": 11,
+          "line": 13,
           "column": 14,
           "src": "srcs/rp-watchdog.ads.html",
           "summary": [
@@ -140,7 +140,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 11,
+                  "number": 13,
                   "children": [
                     {
                       "kind": "span",
@@ -161,7 +161,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Disable",
-                      "href": "docs/rp__watchdog___spec.html#L11C14"
+                      "href": "docs/rp__watchdog___spec.html#L13C14"
                     },
                     {
                       "kind": "span",
@@ -176,54 +176,6 @@ GNATdoc.Documentation = {
         },
         {
           "label": "Enable",
-          "qualifier": "",
-          "line": 10,
-          "column": 14,
-          "src": "srcs/rp-watchdog.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 10,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Enable",
-                      "href": "docs/rp__watchdog___spec.html#L10C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Reload",
           "qualifier": "",
           "line": 12,
           "column": 14,
@@ -256,8 +208,56 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reload",
+                      "text": "Enable",
                       "href": "docs/rp__watchdog___spec.html#L12C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Reload",
+          "qualifier": "",
+          "line": 14,
+          "column": 14,
+          "src": "srcs/rp-watchdog.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 14,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Reload",
+                      "href": "docs/rp__watchdog___spec.html#L14C14"
                     },
                     {
                       "kind": "span",

@@ -820,7 +820,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_Device_Stack",
-          "href": "docs/usb__device___spec.html#L200C9"
+          "href": "docs/usb__device___spec.html#L217C9"
         },
         {
           "kind": "span",
@@ -940,7 +940,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_Device_Stack",
-          "href": "docs/usb__device___spec.html#L200C9"
+          "href": "docs/usb__device___spec.html#L217C9"
         },
         {
           "kind": "span",
@@ -1176,7 +1176,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_Device_Stack",
-          "href": "docs/usb__device___spec.html#L200C9"
+          "href": "docs/usb__device___spec.html#L217C9"
         },
         {
           "kind": "span",
@@ -1219,7 +1219,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_Type",
-          "href": "docs/usb___spec.html#L48C9"
+          "href": "docs/usb___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -1272,7 +1272,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_Id",
-          "href": "docs/usb___spec.html#L39C12"
+          "href": "docs/usb___spec.html#L44C12"
         },
         {
           "kind": "span",
@@ -1445,7 +1445,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_Device_Stack",
-          "href": "docs/usb__device___spec.html#L200C9"
+          "href": "docs/usb__device___spec.html#L217C9"
         },
         {
           "kind": "span",
@@ -1488,7 +1488,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_Addr",
-          "href": "docs/usb___spec.html#L43C9"
+          "href": "docs/usb___spec.html#L48C9"
         },
         {
           "kind": "span",
@@ -1530,8 +1530,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "UInt11",
-          "href": "docs/hal___spec.html#L56C9"
+          "text": "Packet_Size",
+          "href": "docs/usb___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -1768,7 +1768,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_Device_Stack",
-          "href": "docs/usb__device___spec.html#L200C9"
+          "href": "docs/usb__device___spec.html#L217C9"
         },
         {
           "kind": "span",
@@ -1811,7 +1811,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_String",
-          "href": "docs/usb___spec.html#L146C9"
+          "href": "docs/usb___spec.html#L152C9"
         },
         {
           "kind": "span",
@@ -1843,7 +1843,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "String_Id",
-          "href": "docs/usb___spec.html#L99C9"
+          "href": "docs/usb___spec.html#L104C9"
         }
       ]
     },
@@ -2178,7 +2178,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_Device_Stack",
-          "href": "docs/usb__device___spec.html#L200C9"
+          "href": "docs/usb__device___spec.html#L217C9"
         },
         {
           "kind": "span",
@@ -2284,7 +2284,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_String",
-          "href": "docs/usb___spec.html#L146C9"
+          "href": "docs/usb___spec.html#L152C9"
         },
         {
           "kind": "span",
@@ -2327,7 +2327,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_String",
-          "href": "docs/usb___spec.html#L146C9"
+          "href": "docs/usb___spec.html#L152C9"
         },
         {
           "kind": "span",
@@ -2370,7 +2370,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_String",
-          "href": "docs/usb___spec.html#L146C9"
+          "href": "docs/usb___spec.html#L152C9"
         },
         {
           "kind": "span",
@@ -2412,8 +2412,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "UInt8",
-          "href": "docs/hal___spec.html#L53C9"
+          "text": "Control_Packet_Size",
+          "href": "docs/usb___spec.html#L42C12"
         },
         {
           "kind": "span",
@@ -2581,7 +2581,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_Device_Stack",
-          "href": "docs/usb__device___spec.html#L200C9"
+          "href": "docs/usb__device___spec.html#L217C9"
         },
         {
           "kind": "span",
@@ -2702,7 +2702,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_Device_Stack",
-          "href": "docs/usb__device___spec.html#L200C9"
+          "href": "docs/usb__device___spec.html#L217C9"
         },
         {
           "kind": "span",
@@ -2823,7 +2823,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_Device_Stack",
-          "href": "docs/usb__device___spec.html#L200C9"
+          "href": "docs/usb__device___spec.html#L217C9"
         },
         {
           "kind": "span",
@@ -2924,7 +2924,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_Device_Stack",
-          "href": "docs/usb__device___spec.html#L200C9"
+          "href": "docs/usb__device___spec.html#L217C9"
         },
         {
           "kind": "span",
@@ -3245,7 +3245,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USB_Device_Stack",
-          "href": "docs/usb__device___spec.html#L200C9"
+          "href": "docs/usb__device___spec.html#L217C9"
         },
         {
           "kind": "span",
@@ -3298,7 +3298,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Interface_Id",
-          "href": "docs/usb___spec.html#L103C9"
+          "href": "docs/usb___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -3395,11 +3395,17 @@ GNATdoc.SourceFile = {
           "cssClass": "identifier",
           "text": "Get_Class_Info",
           "href": "docs/usb__device___spec.html#L118C14"
-        },
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 119,
+      "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "     "
         },
         {
           "kind": "span",
@@ -3410,7 +3416,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/usb__device___spec.html#L118C30"
+          "href": "docs/usb__device___spec.html#L119C7"
         },
         {
           "kind": "span",
@@ -3462,18 +3468,18 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 119,
+      "number": 120,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "                             "
+          "text": "      "
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Number_Of_Interfaces",
-          "href": "docs/usb__device___spec.html#L119C30"
+          "href": "docs/usb__device___spec.html#L120C7"
         },
         {
           "kind": "span",
@@ -3504,7 +3510,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Interface_Id",
-          "href": "docs/usb___spec.html#L103C9"
+          "href": "docs/usb___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -3515,18 +3521,18 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 120,
+      "number": 121,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "                             "
+          "text": "      "
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Config_Descriptor_Length",
-          "href": "docs/usb__device___spec.html#L120C30"
+          "href": "docs/usb__device___spec.html#L121C7"
         },
         {
           "kind": "span",
@@ -3567,7 +3573,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 121,
+      "number": 122,
       "children": [
         {
           "kind": "span",
@@ -3598,13 +3604,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 122,
+      "number": 123,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 123,
+      "number": 124,
       "children": [
         {
           "kind": "span",
@@ -3625,7 +3631,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Fill_Config_Descriptor",
-          "href": "docs/usb__device___spec.html#L123C14"
+          "href": "docs/usb__device___spec.html#L124C14"
         },
         {
           "kind": "span",
@@ -3641,7 +3647,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/usb__device___spec.html#L123C38"
+          "href": "docs/usb__device___spec.html#L124C38"
         },
         {
           "kind": "span",
@@ -3693,7 +3699,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 124,
+      "number": 125,
       "children": [
         {
           "kind": "span",
@@ -3704,7 +3710,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Data",
-          "href": "docs/usb__device___spec.html#L124C38"
+          "href": "docs/usb__device___spec.html#L125C38"
         },
         {
           "kind": "span",
@@ -3746,7 +3752,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 125,
+      "number": 126,
       "children": [
         {
           "kind": "span",
@@ -3777,13 +3783,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 126,
+      "number": 127,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 127,
+      "number": 128,
       "children": [
         {
           "kind": "span",
@@ -3804,7 +3810,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Configure",
-          "href": "docs/usb__device___spec.html#L127C13"
+          "href": "docs/usb__device___spec.html#L128C13"
         },
         {
           "kind": "span",
@@ -3820,7 +3826,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/usb__device___spec.html#L127C24"
+          "href": "docs/usb__device___spec.html#L128C24"
         },
         {
           "kind": "span",
@@ -3872,7 +3878,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 128,
+      "number": 129,
       "children": [
         {
           "kind": "span",
@@ -3883,7 +3889,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "UDC",
-          "href": "docs/usb__device___spec.html#L128C24"
+          "href": "docs/usb__device___spec.html#L129C24"
         },
         {
           "kind": "span",
@@ -3945,7 +3951,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 129,
+      "number": 130,
       "children": [
         {
           "kind": "span",
@@ -3956,7 +3962,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Index",
-          "href": "docs/usb__device___spec.html#L129C24"
+          "href": "docs/usb__device___spec.html#L130C24"
         },
         {
           "kind": "span",
@@ -3988,7 +3994,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 130,
+      "number": 131,
       "children": [
         {
           "kind": "span",
@@ -4009,13 +4015,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Setup_Request_Answer",
-          "href": "docs/usb___spec.html#L157C9"
+          "href": "docs/usb___spec.html#L163C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 131,
+      "number": 132,
       "children": [
         {
           "kind": "span",
@@ -4046,13 +4052,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 132,
+      "number": 133,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 133,
+      "number": 134,
       "children": [
         {
           "kind": "span",
@@ -4073,7 +4079,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Setup_Read_Request",
-          "href": "docs/usb__device___spec.html#L133C13"
+          "href": "docs/usb__device___spec.html#L134C13"
         },
         {
           "kind": "span",
@@ -4089,7 +4095,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/usb__device___spec.html#L133C33"
+          "href": "docs/usb__device___spec.html#L134C33"
         },
         {
           "kind": "span",
@@ -4141,7 +4147,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 134,
+      "number": 135,
       "children": [
         {
           "kind": "span",
@@ -4152,7 +4158,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Req",
-          "href": "docs/usb__device___spec.html#L134C33"
+          "href": "docs/usb__device___spec.html#L135C33"
         },
         {
           "kind": "span",
@@ -4173,7 +4179,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Setup_Data",
-          "href": "docs/usb___spec.html#L80C9"
+          "href": "docs/usb___spec.html#L85C9"
         },
         {
           "kind": "span",
@@ -4184,7 +4190,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 135,
+      "number": 136,
       "children": [
         {
           "kind": "span",
@@ -4195,7 +4201,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buf",
-          "href": "docs/usb__device___spec.html#L135C33"
+          "href": "docs/usb__device___spec.html#L136C33"
         },
         {
           "kind": "span",
@@ -4236,7 +4242,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 136,
+      "number": 137,
       "children": [
         {
           "kind": "span",
@@ -4247,7 +4253,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Len",
-          "href": "docs/usb__device___spec.html#L136C33"
+          "href": "docs/usb__device___spec.html#L137C33"
         },
         {
           "kind": "span",
@@ -4278,7 +4284,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer_Len",
-          "href": "docs/usb___spec.html#L159C12"
+          "href": "docs/usb___spec.html#L165C12"
         },
         {
           "kind": "span",
@@ -4289,7 +4295,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 137,
+      "number": 138,
       "children": [
         {
           "kind": "span",
@@ -4310,13 +4316,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Setup_Request_Answer",
-          "href": "docs/usb___spec.html#L157C9"
+          "href": "docs/usb___spec.html#L163C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 138,
+      "number": 139,
       "children": [
         {
           "kind": "span",
@@ -4347,13 +4353,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 139,
+      "number": 140,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 140,
+      "number": 141,
       "children": [
         {
           "kind": "span",
@@ -4374,7 +4380,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Setup_Write_Request",
-          "href": "docs/usb__device___spec.html#L140C13"
+          "href": "docs/usb__device___spec.html#L141C13"
         },
         {
           "kind": "span",
@@ -4390,7 +4396,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/usb__device___spec.html#L140C34"
+          "href": "docs/usb__device___spec.html#L141C34"
         },
         {
           "kind": "span",
@@ -4442,7 +4448,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 141,
+      "number": 142,
       "children": [
         {
           "kind": "span",
@@ -4453,7 +4459,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Req",
-          "href": "docs/usb__device___spec.html#L141C34"
+          "href": "docs/usb__device___spec.html#L142C34"
         },
         {
           "kind": "span",
@@ -4474,7 +4480,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Setup_Data",
-          "href": "docs/usb___spec.html#L80C9"
+          "href": "docs/usb___spec.html#L85C9"
         },
         {
           "kind": "span",
@@ -4485,7 +4491,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 142,
+      "number": 143,
       "children": [
         {
           "kind": "span",
@@ -4496,7 +4502,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Data",
-          "href": "docs/usb__device___spec.html#L142C34"
+          "href": "docs/usb__device___spec.html#L143C34"
         },
         {
           "kind": "span",
@@ -4528,7 +4534,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 143,
+      "number": 144,
       "children": [
         {
           "kind": "span",
@@ -4549,13 +4555,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Setup_Request_Answer",
-          "href": "docs/usb___spec.html#L157C9"
+          "href": "docs/usb___spec.html#L163C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 144,
+      "number": 145,
       "children": [
         {
           "kind": "span",
@@ -4586,13 +4592,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 145,
+      "number": 146,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 146,
+      "number": 147,
       "children": [
         {
           "kind": "span",
@@ -4613,7 +4619,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transfer_Complete",
-          "href": "docs/usb__device___spec.html#L146C14"
+          "href": "docs/usb__device___spec.html#L147C14"
         },
         {
           "kind": "span",
@@ -4629,7 +4635,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/usb__device___spec.html#L146C33"
+          "href": "docs/usb__device___spec.html#L147C33"
         },
         {
           "kind": "span",
@@ -4681,7 +4687,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 147,
+      "number": 148,
       "children": [
         {
           "kind": "span",
@@ -4692,7 +4698,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "UDC",
-          "href": "docs/usb__device___spec.html#L147C33"
+          "href": "docs/usb__device___spec.html#L148C33"
         },
         {
           "kind": "span",
@@ -4754,7 +4760,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 148,
+      "number": 149,
       "children": [
         {
           "kind": "span",
@@ -4765,7 +4771,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP",
-          "href": "docs/usb__device___spec.html#L148C33"
+          "href": "docs/usb__device___spec.html#L149C33"
         },
         {
           "kind": "span",
@@ -4786,7 +4792,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EP_Addr",
-          "href": "docs/usb___spec.html#L43C9"
+          "href": "docs/usb___spec.html#L48C9"
         },
         {
           "kind": "span",
@@ -4797,7 +4803,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 149,
+      "number": 150,
       "children": [
         {
           "kind": "span",
@@ -4808,7 +4814,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CNT",
-          "href": "docs/usb__device___spec.html#L149C33"
+          "href": "docs/usb__device___spec.html#L150C33"
         },
         {
           "kind": "span",
@@ -4828,8 +4834,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "UInt11",
-          "href": "docs/hal___spec.html#L56C9"
+          "text": "Packet_Size",
+          "href": "docs/usb___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -4840,7 +4846,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 150,
+      "number": 151,
       "children": [
         {
           "kind": "span",
@@ -4871,13 +4877,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 151,
+      "number": 152,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 152,
+      "number": 153,
       "children": [
         {
           "kind": "span",
@@ -4888,13 +4894,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 153,
+      "number": 154,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 270,
+      "number": 287,
       "children": [
         {
           "kind": "span",

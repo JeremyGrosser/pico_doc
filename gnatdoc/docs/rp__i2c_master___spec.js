@@ -9,9 +9,121 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
+          "label": "I2C_Address_Size",
+          "qualifier": "",
+          "line": 26,
+          "column": 9,
+          "src": "srcs/rp-i2c_master.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 26,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "I2C_Address_Size",
+                      "href": "docs/rp__i2c_master___spec.html#L26C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address_Size_7b",
+                      "href": "docs/rp__i2c_master___spec.html#L26C30"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address_Size_10b",
+                      "href": "docs/rp__i2c_master___spec.html#L26C47"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/rp__i2c_master___spec.html#L26C9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "Address_Size_7b",
+              "line": 26,
+              "column": 30,
+              "description": [
+              ]
+            },
+            {
+              "label": "Address_Size_10b",
+              "line": 26,
+              "column": 47,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
           "label": "I2C_Number",
           "qualifier": "",
-          "line": 15,
+          "line": 19,
           "column": 12,
           "src": "srcs/rp-i2c_master.ads.html",
           "summary": [
@@ -22,7 +134,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 15,
+                  "number": 19,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +155,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I2C_Number",
-                      "href": "docs/rp__i2c_master___spec.html#L15C12"
+                      "href": "docs/rp__i2c_master___spec.html#L19C12"
                     },
                     {
                       "kind": "span",
@@ -124,7 +236,7 @@ GNATdoc.Documentation = {
         {
           "label": "I2C_Master_Port",
           "qualifier": "",
-          "line": 17,
+          "line": 21,
           "column": 9,
           "src": "srcs/rp-i2c_master.ads.html",
           "summary": [
@@ -135,7 +247,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 17,
+                  "number": 21,
                   "children": [
                     {
                       "kind": "span",
@@ -156,13 +268,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I2C_Master_Port",
-                      "href": "docs/rp__i2c_master___spec.html#L17C9"
+                      "href": "docs/rp__i2c_master___spec.html#L21C9"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 18,
+                  "number": 22,
                   "children": [
                     {
                       "kind": "span",
@@ -178,7 +290,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Num",
-                      "href": "docs/rp__i2c_master___spec.html#L18C8"
+                      "href": "docs/rp__i2c_master___spec.html#L22C8"
                     },
                     {
                       "kind": "span",
@@ -199,7 +311,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I2C_Number",
-                      "href": "docs/rp__i2c_master___spec.html#L15C12"
+                      "href": "docs/rp__i2c_master___spec.html#L19C12"
                     },
                     {
                       "kind": "span",
@@ -210,7 +322,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 19,
+                  "number": 23,
                   "children": [
                     {
                       "kind": "span",
@@ -282,7 +394,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 20,
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -313,7 +425,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "HAL.I2C.I2C_Port",
-                      "href": "docs/hal__i2c___spec.html#L48C9"
+                      "href": "docs/hal__i2c___spec.html#L49C9"
                     },
                     {
                       "kind": "span",
@@ -348,17 +460,17 @@ GNATdoc.Documentation = {
           "inherits": [
             {
               "label": "I2C_Port",
-              "docHref": "docs/hal__i2c___spec.html#L48C9"
+              "docHref": "docs/hal__i2c___spec.html#L49C9"
             }
           ],
           "fields": [
             {
               "label": "Num",
-              "line": 18,
+              "line": 22,
               "column": 8,
               "type": {
                 "label": "RP.I2C_Master.I2C_Number",
-                "docHref": "docs/rp__i2c_master___spec.html#L15C12"
+                "docHref": "docs/rp__i2c_master___spec.html#L19C12"
               },
               "description": [
               ]
@@ -373,7 +485,7 @@ GNATdoc.Documentation = {
         {
           "label": "Configure",
           "qualifier": "",
-          "line": 22,
+          "line": 28,
           "column": 14,
           "src": "srcs/rp-i2c_master.ads.html",
           "summary": [
@@ -384,7 +496,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 22,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
@@ -405,13 +517,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Configure",
-                      "href": "docs/rp__i2c_master___spec.html#L22C14"
+                      "href": "docs/rp__i2c_master___spec.html#L28C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 23,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -427,12 +539,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__i2c_master___spec.html#L23C8"
+                      "href": "docs/rp__i2c_master___spec.html#L29C8"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "     "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -468,7 +580,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I2C_Master_Port",
-                      "href": "docs/rp__i2c_master___spec.html#L67C9"
+                      "href": "docs/rp__i2c_master___spec.html#L72C9"
                     },
                     {
                       "kind": "span",
@@ -479,7 +591,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 24,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -490,12 +602,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Baudrate",
-                      "href": "docs/rp__i2c_master___spec.html#L24C8"
+                      "href": "docs/rp__i2c_master___spec.html#L30C8"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -516,18 +628,81 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 31,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address_Size",
+                      "href": "docs/rp__i2c_master___spec.html#L31C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "I2C_Address_Size",
+                      "href": "docs/rp__i2c_master___spec.html#L26C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address_Size_7b"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
                       "text": ")"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 25,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "     "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -537,7 +712,17 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Pre => Baudrate < RP.Clock.Frequency (RP.Clock.PERI)"
+                      "text": " Pre => Baudrate "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " 100_000 | 400_000 | 1_000_000"
                     },
                     {
                       "kind": "span",
@@ -552,22 +737,33 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 23,
+              "line": 29,
               "column": 8,
               "type": {
                 "label": "RP.I2C_Master.I2C_Master_Port",
-                "docHref": "docs/rp__i2c_master___spec.html#L17C9"
+                "docHref": "docs/rp__i2c_master___spec.html#L21C9"
               },
               "description": [
               ]
             },
             {
               "label": "Baudrate",
-              "line": 24,
+              "line": 30,
               "column": 8,
               "type": {
                 "label": "RP.Hertz",
                 "docHref": "docs/rp___spec.html#L11C12"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Address_Size",
+              "line": 31,
+              "column": 8,
+              "type": {
+                "label": "RP.I2C_Master.I2C_Address_Size",
+                "docHref": "docs/rp__i2c_master___spec.html#L26C9"
               },
               "description": [
               ]
@@ -577,7 +773,7 @@ GNATdoc.Documentation = {
         {
           "label": "Master_Receive",
           "qualifier": "",
-          "line": 38,
+          "line": 43,
           "column": 14,
           "src": "srcs/rp-i2c_master.ads.html",
           "summary": [
@@ -588,7 +784,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -604,7 +800,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -630,7 +826,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 45,
                   "children": [
                     {
                       "kind": "span",
@@ -646,7 +842,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__i2c_master___spec.html#L40C7"
+                      "href": "docs/rp__i2c_master___spec.html#L45C7"
                     },
                     {
                       "kind": "span",
@@ -697,7 +893,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -708,7 +904,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Addr",
-                      "href": "docs/rp__i2c_master___spec.html#L41C7"
+                      "href": "docs/rp__i2c_master___spec.html#L46C7"
                     },
                     {
                       "kind": "span",
@@ -728,7 +924,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I2C_Address"
+                      "text": "HAL.I2C.I2C_Address"
                     },
                     {
                       "kind": "span",
@@ -739,7 +935,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -750,7 +946,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Data",
-                      "href": "docs/rp__i2c_master___spec.html#L42C7"
+                      "href": "docs/rp__i2c_master___spec.html#L47C7"
                     },
                     {
                       "kind": "span",
@@ -780,8 +976,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I2C_Data",
-                      "href": "docs/hal__i2c___spec.html#L34C9"
+                      "text": "HAL.I2C.I2C_Data",
+                      "href": "docs/hal__i2c___spec.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -792,7 +988,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -803,7 +999,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Status",
-                      "href": "docs/rp__i2c_master___spec.html#L43C7"
+                      "href": "docs/rp__i2c_master___spec.html#L48C7"
                     },
                     {
                       "kind": "span",
@@ -833,7 +1029,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I2C_Status"
+                      "text": "HAL.I2C.I2C_Status"
                     },
                     {
                       "kind": "span",
@@ -844,7 +1040,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -914,51 +1110,51 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 39,
+              "line": 44,
               "column": 7,
               "type": {
                 "label": "RP.I2C_Master.I2C_Master_Port",
-                "docHref": "docs/rp__i2c_master___spec.html#L17C9"
+                "docHref": "docs/rp__i2c_master___spec.html#L21C9"
               },
               "description": [
               ]
             },
             {
               "label": "Addr",
-              "line": 40,
+              "line": 45,
               "column": 7,
               "type": {
                 "label": "HAL.I2C.I2C_Address",
-                "docHref": "docs/hal__i2c___spec.html#L46C12"
+                "docHref": "docs/hal__i2c___spec.html#L47C12"
               },
               "description": [
               ]
             },
             {
               "label": "Data",
-              "line": 41,
+              "line": 46,
               "column": 7,
               "type": {
                 "label": "HAL.I2C.I2C_Data",
-                "docHref": "docs/hal__i2c___spec.html#L40C12"
+                "docHref": "docs/hal__i2c___spec.html#L41C12"
               },
               "description": [
               ]
             },
             {
               "label": "Status",
-              "line": 42,
+              "line": 47,
               "column": 7,
               "type": {
                 "label": "HAL.I2C.I2C_Status",
-                "docHref": "docs/hal__i2c___spec.html#L34C9"
+                "docHref": "docs/hal__i2c___spec.html#L35C9"
               },
               "description": [
               ]
             },
             {
               "label": "Timeout",
-              "line": 43,
+              "line": 48,
               "column": 7,
               "type": {
                 "label": "Natural"
@@ -971,7 +1167,7 @@ GNATdoc.Documentation = {
         {
           "label": "Master_Transmit",
           "qualifier": "",
-          "line": 30,
+          "line": 35,
           "column": 14,
           "src": "srcs/rp-i2c_master.ads.html",
           "summary": [
@@ -982,7 +1178,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 30,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -998,7 +1194,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -1024,7 +1220,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -1040,7 +1236,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__i2c_master___spec.html#L32C7"
+                      "href": "docs/rp__i2c_master___spec.html#L37C7"
                     },
                     {
                       "kind": "span",
@@ -1091,7 +1287,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -1102,7 +1298,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Addr",
-                      "href": "docs/rp__i2c_master___spec.html#L33C7"
+                      "href": "docs/rp__i2c_master___spec.html#L38C7"
                     },
                     {
                       "kind": "span",
@@ -1122,8 +1318,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I2C_Address",
-                      "href": "docs/hal__i2c___spec.html#L40C12"
+                      "text": "HAL.I2C.I2C_Address",
+                      "href": "docs/hal__i2c___spec.html#L41C12"
                     },
                     {
                       "kind": "span",
@@ -1134,7 +1330,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -1145,7 +1341,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Data",
-                      "href": "docs/rp__i2c_master___spec.html#L34C7"
+                      "href": "docs/rp__i2c_master___spec.html#L39C7"
                     },
                     {
                       "kind": "span",
@@ -1165,7 +1361,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I2C_Data"
+                      "text": "HAL.I2C.I2C_Data"
                     },
                     {
                       "kind": "span",
@@ -1176,7 +1372,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -1187,7 +1383,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Status",
-                      "href": "docs/rp__i2c_master___spec.html#L35C7"
+                      "href": "docs/rp__i2c_master___spec.html#L40C7"
                     },
                     {
                       "kind": "span",
@@ -1217,7 +1413,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I2C_Status"
+                      "text": "HAL.I2C.I2C_Status"
                     },
                     {
                       "kind": "span",
@@ -1228,7 +1424,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
@@ -1298,51 +1494,51 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 31,
+              "line": 36,
               "column": 7,
               "type": {
                 "label": "RP.I2C_Master.I2C_Master_Port",
-                "docHref": "docs/rp__i2c_master___spec.html#L17C9"
+                "docHref": "docs/rp__i2c_master___spec.html#L21C9"
               },
               "description": [
               ]
             },
             {
               "label": "Addr",
-              "line": 32,
+              "line": 37,
               "column": 7,
               "type": {
                 "label": "HAL.I2C.I2C_Address",
-                "docHref": "docs/hal__i2c___spec.html#L46C12"
+                "docHref": "docs/hal__i2c___spec.html#L47C12"
               },
               "description": [
               ]
             },
             {
               "label": "Data",
-              "line": 33,
+              "line": 38,
               "column": 7,
               "type": {
                 "label": "HAL.I2C.I2C_Data",
-                "docHref": "docs/hal__i2c___spec.html#L40C12"
+                "docHref": "docs/hal__i2c___spec.html#L41C12"
               },
               "description": [
               ]
             },
             {
               "label": "Status",
-              "line": 34,
+              "line": 39,
               "column": 7,
               "type": {
                 "label": "HAL.I2C.I2C_Status",
-                "docHref": "docs/hal__i2c___spec.html#L34C9"
+                "docHref": "docs/hal__i2c___spec.html#L35C9"
               },
               "description": [
               ]
             },
             {
               "label": "Timeout",
-              "line": 35,
+              "line": 40,
               "column": 7,
               "type": {
                 "label": "Natural"
@@ -1355,7 +1551,7 @@ GNATdoc.Documentation = {
         {
           "label": "Mem_Read",
           "qualifier": "",
-          "line": 56,
+          "line": 61,
           "column": 14,
           "src": "srcs/rp-i2c_master.ads.html",
           "summary": [
@@ -1366,7 +1562,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 61,
                   "children": [
                     {
                       "kind": "span",
@@ -1382,7 +1578,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 57,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -1408,7 +1604,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 58,
+                  "number": 63,
                   "children": [
                     {
                       "kind": "span",
@@ -1424,7 +1620,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__i2c_master___spec.html#L58C7"
+                      "href": "docs/rp__i2c_master___spec.html#L63C7"
                     },
                     {
                       "kind": "span",
@@ -1475,7 +1671,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 59,
+                  "number": 64,
                   "children": [
                     {
                       "kind": "span",
@@ -1486,7 +1682,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Addr",
-                      "href": "docs/rp__i2c_master___spec.html#L59C7"
+                      "href": "docs/rp__i2c_master___spec.html#L64C7"
                     },
                     {
                       "kind": "span",
@@ -1506,7 +1702,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I2C_Address"
+                      "text": "HAL.I2C.I2C_Address"
                     },
                     {
                       "kind": "span",
@@ -1517,7 +1713,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 60,
+                  "number": 65,
                   "children": [
                     {
                       "kind": "span",
@@ -1528,7 +1724,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Mem_Addr",
-                      "href": "docs/rp__i2c_master___spec.html#L60C7"
+                      "href": "docs/rp__i2c_master___spec.html#L65C7"
                     },
                     {
                       "kind": "span",
@@ -1559,7 +1755,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 61,
+                  "number": 66,
                   "children": [
                     {
                       "kind": "span",
@@ -1570,7 +1766,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Mem_Addr_Size",
-                      "href": "docs/rp__i2c_master___spec.html#L61C7"
+                      "href": "docs/rp__i2c_master___spec.html#L66C7"
                     },
                     {
                       "kind": "span",
@@ -1590,7 +1786,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I2C_Memory_Address_Size"
+                      "text": "HAL.I2C.I2C_Memory_Address_Size"
                     },
                     {
                       "kind": "span",
@@ -1601,7 +1797,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 62,
+                  "number": 67,
                   "children": [
                     {
                       "kind": "span",
@@ -1612,7 +1808,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Data",
-                      "href": "docs/rp__i2c_master___spec.html#L62C7"
+                      "href": "docs/rp__i2c_master___spec.html#L67C7"
                     },
                     {
                       "kind": "span",
@@ -1642,8 +1838,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I2C_Data",
-                      "href": "docs/hal__i2c___spec.html#L34C9"
+                      "text": "HAL.I2C.I2C_Data",
+                      "href": "docs/hal__i2c___spec.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -1654,7 +1850,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 63,
+                  "number": 68,
                   "children": [
                     {
                       "kind": "span",
@@ -1665,7 +1861,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Status",
-                      "href": "docs/rp__i2c_master___spec.html#L63C7"
+                      "href": "docs/rp__i2c_master___spec.html#L68C7"
                     },
                     {
                       "kind": "span",
@@ -1695,7 +1891,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I2C_Status"
+                      "text": "HAL.I2C.I2C_Status"
                     },
                     {
                       "kind": "span",
@@ -1706,7 +1902,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 64,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",
@@ -1776,29 +1972,29 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 57,
+              "line": 62,
               "column": 7,
               "type": {
                 "label": "RP.I2C_Master.I2C_Master_Port",
-                "docHref": "docs/rp__i2c_master___spec.html#L17C9"
+                "docHref": "docs/rp__i2c_master___spec.html#L21C9"
               },
               "description": [
               ]
             },
             {
               "label": "Addr",
-              "line": 58,
+              "line": 63,
               "column": 7,
               "type": {
                 "label": "HAL.I2C.I2C_Address",
-                "docHref": "docs/hal__i2c___spec.html#L46C12"
+                "docHref": "docs/hal__i2c___spec.html#L47C12"
               },
               "description": [
               ]
             },
             {
               "label": "Mem_Addr",
-              "line": 59,
+              "line": 64,
               "column": 7,
               "type": {
                 "label": "HAL.UInt16",
@@ -1809,40 +2005,40 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Mem_Addr_Size",
-              "line": 60,
+              "line": 65,
               "column": 7,
               "type": {
                 "label": "HAL.I2C.I2C_Memory_Address_Size",
-                "docHref": "docs/hal__i2c___spec.html#L42C9"
+                "docHref": "docs/hal__i2c___spec.html#L43C9"
               },
               "description": [
               ]
             },
             {
               "label": "Data",
-              "line": 61,
+              "line": 66,
               "column": 7,
               "type": {
                 "label": "HAL.I2C.I2C_Data",
-                "docHref": "docs/hal__i2c___spec.html#L40C12"
+                "docHref": "docs/hal__i2c___spec.html#L41C12"
               },
               "description": [
               ]
             },
             {
               "label": "Status",
-              "line": 62,
+              "line": 67,
               "column": 7,
               "type": {
                 "label": "HAL.I2C.I2C_Status",
-                "docHref": "docs/hal__i2c___spec.html#L34C9"
+                "docHref": "docs/hal__i2c___spec.html#L35C9"
               },
               "description": [
               ]
             },
             {
               "label": "Timeout",
-              "line": 63,
+              "line": 68,
               "column": 7,
               "type": {
                 "label": "Natural"
@@ -1855,7 +2051,7 @@ GNATdoc.Documentation = {
         {
           "label": "Mem_Write",
           "qualifier": "",
-          "line": 46,
+          "line": 51,
           "column": 14,
           "src": "srcs/rp-i2c_master.ads.html",
           "summary": [
@@ -1866,7 +2062,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 51,
                   "children": [
                     {
                       "kind": "span",
@@ -1882,7 +2078,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 52,
                   "children": [
                     {
                       "kind": "span",
@@ -1908,7 +2104,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 53,
                   "children": [
                     {
                       "kind": "span",
@@ -1924,7 +2120,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__i2c_master___spec.html#L48C7"
+                      "href": "docs/rp__i2c_master___spec.html#L53C7"
                     },
                     {
                       "kind": "span",
@@ -1975,7 +2171,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -1986,7 +2182,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Addr",
-                      "href": "docs/rp__i2c_master___spec.html#L49C7"
+                      "href": "docs/rp__i2c_master___spec.html#L54C7"
                     },
                     {
                       "kind": "span",
@@ -2006,7 +2202,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I2C_Address"
+                      "text": "HAL.I2C.I2C_Address"
                     },
                     {
                       "kind": "span",
@@ -2017,7 +2213,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -2028,7 +2224,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Mem_Addr",
-                      "href": "docs/rp__i2c_master___spec.html#L50C7"
+                      "href": "docs/rp__i2c_master___spec.html#L55C7"
                     },
                     {
                       "kind": "span",
@@ -2059,7 +2255,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -2070,7 +2266,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Mem_Addr_Size",
-                      "href": "docs/rp__i2c_master___spec.html#L51C7"
+                      "href": "docs/rp__i2c_master___spec.html#L56C7"
                     },
                     {
                       "kind": "span",
@@ -2090,8 +2286,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I2C_Memory_Address_Size",
-                      "href": "docs/hal__i2c___spec.html#L40C12"
+                      "text": "HAL.I2C.I2C_Memory_Address_Size",
+                      "href": "docs/hal__i2c___spec.html#L41C12"
                     },
                     {
                       "kind": "span",
@@ -2102,7 +2298,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 57,
                   "children": [
                     {
                       "kind": "span",
@@ -2113,7 +2309,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Data",
-                      "href": "docs/rp__i2c_master___spec.html#L52C7"
+                      "href": "docs/rp__i2c_master___spec.html#L57C7"
                     },
                     {
                       "kind": "span",
@@ -2133,7 +2329,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I2C_Data"
+                      "text": "HAL.I2C.I2C_Data"
                     },
                     {
                       "kind": "span",
@@ -2144,7 +2340,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 58,
                   "children": [
                     {
                       "kind": "span",
@@ -2155,7 +2351,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Status",
-                      "href": "docs/rp__i2c_master___spec.html#L53C7"
+                      "href": "docs/rp__i2c_master___spec.html#L58C7"
                     },
                     {
                       "kind": "span",
@@ -2185,7 +2381,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I2C_Status"
+                      "text": "HAL.I2C.I2C_Status"
                     },
                     {
                       "kind": "span",
@@ -2196,7 +2392,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 59,
                   "children": [
                     {
                       "kind": "span",
@@ -2266,29 +2462,29 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 47,
+              "line": 52,
               "column": 7,
               "type": {
                 "label": "RP.I2C_Master.I2C_Master_Port",
-                "docHref": "docs/rp__i2c_master___spec.html#L17C9"
+                "docHref": "docs/rp__i2c_master___spec.html#L21C9"
               },
               "description": [
               ]
             },
             {
               "label": "Addr",
-              "line": 48,
+              "line": 53,
               "column": 7,
               "type": {
                 "label": "HAL.I2C.I2C_Address",
-                "docHref": "docs/hal__i2c___spec.html#L46C12"
+                "docHref": "docs/hal__i2c___spec.html#L47C12"
               },
               "description": [
               ]
             },
             {
               "label": "Mem_Addr",
-              "line": 49,
+              "line": 54,
               "column": 7,
               "type": {
                 "label": "HAL.UInt16",
@@ -2299,40 +2495,40 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Mem_Addr_Size",
-              "line": 50,
+              "line": 55,
               "column": 7,
               "type": {
                 "label": "HAL.I2C.I2C_Memory_Address_Size",
-                "docHref": "docs/hal__i2c___spec.html#L42C9"
+                "docHref": "docs/hal__i2c___spec.html#L43C9"
               },
               "description": [
               ]
             },
             {
               "label": "Data",
-              "line": 51,
+              "line": 56,
               "column": 7,
               "type": {
                 "label": "HAL.I2C.I2C_Data",
-                "docHref": "docs/hal__i2c___spec.html#L40C12"
+                "docHref": "docs/hal__i2c___spec.html#L41C12"
               },
               "description": [
               ]
             },
             {
               "label": "Status",
-              "line": 52,
+              "line": 57,
               "column": 7,
               "type": {
                 "label": "HAL.I2C.I2C_Status",
-                "docHref": "docs/hal__i2c___spec.html#L34C9"
+                "docHref": "docs/hal__i2c___spec.html#L35C9"
               },
               "description": [
               ]
             },
             {
               "label": "Timeout",
-              "line": 53,
+              "line": 58,
               "column": 7,
               "type": {
                 "label": "Natural"

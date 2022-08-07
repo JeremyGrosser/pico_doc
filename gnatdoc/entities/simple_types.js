@@ -3,73 +3,73 @@ GNATdoc.EntitiesCategory = {
   "entities": [
     {
       "label": "ACCUM_Register",
-      "docHref": "docs/rp__interpolator___spec.html#L110C9",
+      "docHref": "docs/rp__interpolator___spec.html#L112C9",
       "declared": "RP.Interpolator",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-interpolator.ads.html#L110"
+      "srcHref": "srcs/rp-interpolator.ads.html#L112"
     },
     {
       "label": "ACmd_Desc_Array",
-      "docHref": "docs/hal__sdmmc___spec.html#L308C9",
+      "docHref": "docs/hal__sdmmc___spec.html#L309C9",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L308"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L309"
     },
     {
       "label": "Actual_Orientation",
-      "docHref": "docs/hal__bitmap___spec.html#L41C12",
+      "docHref": "docs/hal__bitmap___spec.html#L42C12",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L41"
+      "srcHref": "srcs/hal-bitmap.ads.html#L42"
     },
     {
       "label": "ADC_Channel",
-      "docHref": "docs/rp__adc___spec.html#L15C12",
-      "declared": "RP.ADC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-adc.ads.html#L15"
-    },
-    {
-      "label": "ADC_Channels",
-      "docHref": "docs/rp__adc___spec.html#L17C9",
+      "docHref": "docs/rp__adc___spec.html#L17C12",
       "declared": "RP.ADC",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-adc.ads.html#L17"
     },
     {
-      "label": "ADC_Divider",
-      "docHref": "docs/rp__adc___spec.html#L56C9",
+      "label": "ADC_Channels",
+      "docHref": "docs/rp__adc___spec.html#L19C9",
       "declared": "RP.ADC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-adc.ads.html#L56"
+      "srcHref": "srcs/rp-adc.ads.html#L19"
+    },
+    {
+      "label": "ADC_Divider",
+      "docHref": "docs/rp__adc___spec.html#L58C9",
+      "declared": "RP.ADC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-adc.ads.html#L58"
     },
     {
       "label": "ADC_Mode",
-      "docHref": "docs/rp__adc___spec.html#L43C9",
+      "docHref": "docs/rp__adc___spec.html#L45C9",
       "declared": "RP.ADC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-adc.ads.html#L43"
+      "srcHref": "srcs/rp-adc.ads.html#L45"
     },
     {
       "label": "ADC_Pin",
-      "docHref": "docs/rp__gpio___spec.html#L16C12",
+      "docHref": "docs/rp__gpio___spec.html#L18C12",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L16"
+      "srcHref": "srcs/rp-gpio.ads.html#L18"
     },
     {
       "label": "ADC_Sample_Bits",
-      "docHref": "docs/rp__adc___spec.html#L67C9",
+      "docHref": "docs/rp__adc___spec.html#L69C9",
       "declared": "RP.ADC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-adc.ads.html#L67"
+      "srcHref": "srcs/rp-adc.ads.html#L69"
     },
     {
       "label": "ADD_Register",
-      "docHref": "docs/rp__interpolator___spec.html#L113C9",
+      "docHref": "docs/rp__interpolator___spec.html#L115C9",
       "declared": "RP.Interpolator",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-interpolator.ads.html#L113"
+      "srcHref": "srcs/rp-interpolator.ads.html#L115"
     },
     {
       "label": "ADDR_ENDP_ADDRESS_Field",
@@ -108,10 +108,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Analog_Value",
-      "docHref": "docs/rp__adc___spec.html#L13C12",
+      "docHref": "docs/rp__adc___spec.html#L15C12",
       "declared": "RP.ADC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-adc.ads.html#L13"
+      "srcHref": "srcs/rp-adc.ads.html#L15"
     },
     {
       "label": "ARMED_ARMED_Field",
@@ -122,24 +122,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Audio_Buffer",
-      "docHref": "docs/hal__audio___spec.html#L36C9",
+      "docHref": "docs/hal__audio___spec.html#L37C9",
       "declared": "HAL.Audio",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-audio.ads.html#L36"
+      "srcHref": "srcs/hal-audio.ads.html#L37"
     },
     {
       "label": "Audio_Frequency",
-      "docHref": "docs/hal__audio___spec.html#L41C9",
+      "docHref": "docs/hal__audio___spec.html#L42C9",
       "declared": "HAL.Audio",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-audio.ads.html#L41"
+      "srcHref": "srcs/hal-audio.ads.html#L42"
     },
     {
       "label": "Audio_Volume",
-      "docHref": "docs/hal__audio___spec.html#L39C9",
+      "docHref": "docs/hal__audio___spec.html#L40C9",
       "declared": "HAL.Audio",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-audio.ads.html#L39"
+      "srcHref": "srcs/hal-audio.ads.html#L40"
     },
     {
       "label": "Axis",
@@ -171,17 +171,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Bitmap_Color_Mode",
-      "docHref": "docs/hal__bitmap___spec.html#L43C9",
+      "docHref": "docs/hal__bitmap___spec.html#L44C9",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L43"
+      "srcHref": "srcs/hal-bitmap.ads.html#L44"
     },
     {
       "label": "Block",
-      "docHref": "docs/hal__block_drivers___spec.html#L37C12",
+      "docHref": "docs/hal__block_drivers___spec.html#L38C12",
       "declared": "HAL.Block_Drivers",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-block_drivers.ads.html#L37"
+      "srcHref": "srcs/hal-block_drivers.ads.html#L38"
     },
     {
       "label": "BOD_VSEL_Field",
@@ -192,10 +192,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Buffer_Len",
-      "docHref": "docs/usb___spec.html#L159C12",
+      "docHref": "docs/usb___spec.html#L165C12",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L159"
+      "srcHref": "srcs/usb.ads.html#L165"
     },
     {
       "label": "Buffer_Offset",
@@ -210,6 +210,27 @@ GNATdoc.EntitiesCategory = {
       "declared": "BBqueue",
       "declared_qualifier": "",
       "srcHref": "srcs/bbqueue.ads.html#L33"
+    },
+    {
+      "label": "Build_Profile_Kind",
+      "docHref": "docs/cortex_m_config___spec.html#L17C9",
+      "declared": "Cortex_M_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/cortex_m_config.ads.html#L17"
+    },
+    {
+      "label": "Build_Profile_Kind",
+      "docHref": "docs/usb_embedded_config___spec.html#L33C9",
+      "declared": "Usb_Embedded_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb_embedded_config.ads.html#L33"
+    },
+    {
+      "label": "Build_Profile_Kind",
+      "docHref": "docs/rp2040_hal_config___spec.html#L22C9",
+      "declared": "Rp2040_Hal_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_hal_config.ads.html#L22"
     },
     {
       "label": "CALIB_NOREF_Field",
@@ -227,17 +248,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Capability",
-      "docHref": "docs/hal__gpio___spec.html#L34C9",
+      "docHref": "docs/hal__gpio___spec.html#L35C9",
       "declared": "HAL.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-gpio.ads.html#L34"
+      "srcHref": "srcs/hal-gpio.ads.html#L35"
     },
     {
       "label": "Celsius",
-      "docHref": "docs/rp__adc___spec.html#L25C9",
+      "docHref": "docs/rp__adc___spec.html#L27C9",
       "declared": "RP.ADC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-adc.ads.html#L25"
+      "srcHref": "srcs/rp-adc.ads.html#L27"
     },
     {
       "label": "CH0_CC_A_Field",
@@ -1060,17 +1081,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Channel_Count",
-      "docHref": "docs/rp__pio__audio_i2s___spec.html#L16C12",
+      "docHref": "docs/rp__pio__audio_i2s___spec.html#L18C12",
       "declared": "RP.PIO.Audio_I2S",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-audio_i2s.ads.html#L16"
+      "srcHref": "srcs/rp-pio-audio_i2s.ads.html#L18"
     },
     {
       "label": "Checksum_Algorithm",
-      "docHref": "docs/rp__dma___spec.html#L146C9",
+      "docHref": "docs/rp__dma___spec.html#L148C9",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L146"
+      "srcHref": "srcs/rp-dma.ads.html#L148"
     },
     {
       "label": "CHIP_ID_MANUFACTURER_Field",
@@ -1354,24 +1375,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Clock_Id",
-      "docHref": "docs/rp__clock___spec.html#L32C9",
+      "docHref": "docs/rp__clock___spec.html#L34C9",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L32"
+      "srcHref": "srcs/rp-clock.ads.html#L34"
     },
     {
       "label": "Clock_Source",
-      "docHref": "docs/cortex_m__systick___spec.html#L36C9",
+      "docHref": "docs/cortex_m__systick___spec.html#L37C9",
       "declared": "Cortex_M.Systick",
       "declared_qualifier": "",
-      "srcHref": "srcs/cortex_m-systick.ads.html#L36"
+      "srcHref": "srcs/cortex_m-systick.ads.html#L37"
     },
     {
       "label": "Cmd_Desc_Array",
-      "docHref": "docs/hal__sdmmc___spec.html#L307C9",
+      "docHref": "docs/hal__sdmmc___spec.html#L308C9",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L307"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L308"
+    },
+    {
+      "label": "Control_Packet_Size",
+      "docHref": "docs/usb___spec.html#L42C12",
+      "declared": "USB",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb.ads.html#L42"
+    },
+    {
+      "label": "core_Kind",
+      "docHref": "docs/cortex_m_config___spec.html#L20C9",
+      "declared": "Cortex_M_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/cortex_m_config.ads.html#L20"
     },
     {
       "label": "Count",
@@ -1396,10 +1431,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Countable_Clock_Id",
-      "docHref": "docs/rp__clock___spec.html#L123C12",
+      "docHref": "docs/rp__clock___spec.html#L125C12",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L123"
+      "srcHref": "srcs/rp-clock.ads.html#L125"
     },
     {
       "label": "CPUID_ARCHITECTURE_Field",
@@ -1564,10 +1599,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "CTRL_Register",
-      "docHref": "docs/rp__interpolator___spec.html#L112C9",
+      "docHref": "docs/rp__interpolator___spec.html#L114C9",
       "declared": "RP.Interpolator",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-interpolator.ads.html#L112"
+      "srcHref": "srcs/rp-interpolator.ads.html#L114"
     },
     {
       "label": "CTRL_Reserved_0_27_Field",
@@ -1648,10 +1683,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Data_Phase_Transfer_Direction",
-      "docHref": "docs/usb___spec.html#L54C9",
+      "docHref": "docs/usb___spec.html#L59C9",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L54"
+      "srcHref": "srcs/usb.ads.html#L59"
     },
     {
       "label": "DBG_CFGINFO_FIFO_DEPTH_Field",
@@ -1704,10 +1739,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Display_Orientation",
-      "docHref": "docs/hal__framebuffer___spec.html#L39C9",
+      "docHref": "docs/hal__framebuffer___spec.html#L40C9",
       "declared": "HAL.Framebuffer",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-framebuffer.ads.html#L39"
+      "srcHref": "srcs/hal-framebuffer.ads.html#L40"
     },
     {
       "label": "DIV_DIV_Field",
@@ -1732,45 +1767,45 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Divider",
-      "docHref": "docs/rp__pio___spec.html#L37C9",
+      "docHref": "docs/rp__pio___spec.html#L39C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L37"
+      "srcHref": "srcs/rp-pio.ads.html#L39"
     },
     {
       "label": "Divider",
-      "docHref": "docs/rp__pwm___spec.html#L39C9",
+      "docHref": "docs/rp__pwm___spec.html#L41C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L39"
+      "srcHref": "srcs/rp-pwm.ads.html#L41"
     },
     {
       "label": "DMA_Channel_Id",
-      "docHref": "docs/rp__dma___spec.html#L13C9",
+      "docHref": "docs/rp__dma___spec.html#L15C9",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L13"
+      "srcHref": "srcs/rp-dma.ads.html#L15"
     },
     {
       "label": "DMA_IRQ_Id",
-      "docHref": "docs/rp__dma___spec.html#L167C12",
+      "docHref": "docs/rp__dma___spec.html#L169C12",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L167"
+      "srcHref": "srcs/rp-dma.ads.html#L169"
     },
     {
       "label": "DMA_Request_Trigger",
-      "docHref": "docs/rp__dma___spec.html#L24C9",
+      "docHref": "docs/rp__dma___spec.html#L26C9",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L24"
+      "srcHref": "srcs/rp-dma.ads.html#L26"
     },
     {
       "label": "DMA_Timer_Id",
-      "docHref": "docs/rp__dma___spec.html#L183C12",
+      "docHref": "docs/rp__dma___spec.html#L185C12",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L183"
+      "srcHref": "srcs/rp-dma.ads.html#L185"
     },
     {
       "label": "DMARDLR_DMARDL_Field",
@@ -1802,38 +1837,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "DSI_Data",
-      "docHref": "docs/hal__dsi___spec.html#L38C9",
+      "docHref": "docs/hal__dsi___spec.html#L39C9",
       "declared": "HAL.DSI",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-dsi.ads.html#L38"
+      "srcHref": "srcs/hal-dsi.ads.html#L39"
     },
     {
       "label": "DSI_Long_Write_Packet_Data_Type",
-      "docHref": "docs/hal__dsi___spec.html#L56C12",
+      "docHref": "docs/hal__dsi___spec.html#L57C12",
       "declared": "HAL.DSI",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-dsi.ads.html#L56"
+      "srcHref": "srcs/hal-dsi.ads.html#L57"
     },
     {
       "label": "DSI_Pkt_Data_Type",
-      "docHref": "docs/hal__dsi___spec.html#L40C9",
+      "docHref": "docs/hal__dsi___spec.html#L41C9",
       "declared": "HAL.DSI",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-dsi.ads.html#L40"
+      "srcHref": "srcs/hal-dsi.ads.html#L41"
     },
     {
       "label": "DSI_Short_Write_Packet_Data_Type",
-      "docHref": "docs/hal__dsi___spec.html#L53C12",
+      "docHref": "docs/hal__dsi___spec.html#L54C12",
       "declared": "HAL.DSI",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-dsi.ads.html#L53"
+      "srcHref": "srcs/hal-dsi.ads.html#L54"
     },
     {
       "label": "DSI_Virtual_Channel_ID",
-      "docHref": "docs/hal__dsi___spec.html#L36C12",
+      "docHref": "docs/hal__dsi___spec.html#L37C12",
       "declared": "HAL.DSI",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-dsi.ads.html#L36"
+      "srcHref": "srcs/hal-dsi.ads.html#L37"
     },
     {
       "label": "EN_CH_Field_Array",
@@ -2964,31 +2999,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "EP_Dir",
-      "docHref": "docs/usb___spec.html#L41C9",
+      "docHref": "docs/usb___spec.html#L46C9",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L41"
+      "srcHref": "srcs/usb.ads.html#L46"
     },
     {
       "label": "EP_Id",
-      "docHref": "docs/usb___spec.html#L39C12",
+      "docHref": "docs/usb___spec.html#L44C12",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L39"
+      "srcHref": "srcs/usb.ads.html#L44"
     },
     {
       "label": "EP_Type",
-      "docHref": "docs/usb___spec.html#L48C9",
+      "docHref": "docs/usb___spec.html#L53C9",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L48"
+      "srcHref": "srcs/usb.ads.html#L53"
     },
     {
       "label": "FB_Color_Mode",
-      "docHref": "docs/hal__framebuffer___spec.html#L36C12",
+      "docHref": "docs/hal__framebuffer___spec.html#L37C12",
       "declared": "HAL.Framebuffer",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-framebuffer.ads.html#L36"
+      "srcHref": "srcs/hal-framebuffer.ads.html#L37"
     },
     {
       "label": "FBDIV_INT_FBDIV_INT_Field",
@@ -3097,10 +3132,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "FIFO_IRQ_Level",
-      "docHref": "docs/rp__uart___spec.html#L121C9",
+      "docHref": "docs/rp__uart___spec.html#L125C9",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L121"
+      "srcHref": "srcs/rp-uart.ads.html#L125"
     },
     {
       "label": "FIFO_LEVELS_RAF_LVL_Field",
@@ -3132,24 +3167,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "File_Kind",
-      "docHref": "docs/semihosting__filesystem___spec.html#L45C9",
+      "docHref": "docs/semihosting__filesystem___spec.html#L46C9",
       "declared": "Semihosting.Filesystem",
       "declared_qualifier": "",
-      "srcHref": "srcs/semihosting-filesystem.ads.html#L45"
+      "srcHref": "srcs/semihosting-filesystem.ads.html#L46"
     },
     {
       "label": "File_Mode",
-      "docHref": "docs/hal__filesystem___spec.html#L62C9",
+      "docHref": "docs/hal__filesystem___spec.html#L64C9",
       "declared": "HAL.Filesystem",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-filesystem.ads.html#L62"
+      "srcHref": "srcs/hal-filesystem.ads.html#L64"
     },
     {
       "label": "File_Size",
-      "docHref": "docs/hal__filesystem___spec.html#L74C9",
+      "docHref": "docs/hal__filesystem___spec.html#L76C9",
       "declared": "HAL.Filesystem",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-filesystem.ads.html#L74"
+      "srcHref": "srcs/hal-filesystem.ads.html#L76"
     },
     {
       "label": "Flag",
@@ -3160,17 +3195,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Flag",
-      "docHref": "docs/semihosting___spec.html#L39C12",
+      "docHref": "docs/semihosting___spec.html#L40C12",
       "declared": "Semihosting",
       "declared_qualifier": "",
-      "srcHref": "srcs/semihosting.ads.html#L39"
+      "srcHref": "srcs/semihosting.ads.html#L40"
+    },
+    {
+      "label": "Flash_Chip_Kind",
+      "docHref": "docs/rp2040_hal_config___spec.html#L19C9",
+      "declared": "Rp2040_Hal_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_hal_config.ads.html#L19"
     },
     {
       "label": "Flash_Offset",
-      "docHref": "docs/rp__flash___spec.html#L15C9",
+      "docHref": "docs/rp__flash___spec.html#L18C9",
       "declared": "RP.Flash",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-flash.ads.html#L15"
+      "srcHref": "srcs/rp-flash.ads.html#L18"
     },
     {
       "label": "FLEVEL_RX0_Field",
@@ -3363,24 +3405,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "GP_Divider",
-      "docHref": "docs/rp__clock___spec.html#L51C9",
+      "docHref": "docs/rp__clock___spec.html#L53C9",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L51"
+      "srcHref": "srcs/rp-clock.ads.html#L53"
     },
     {
       "label": "GP_Output",
-      "docHref": "docs/rp__clock___spec.html#L42C12",
+      "docHref": "docs/rp__clock___spec.html#L44C12",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L42"
+      "srcHref": "srcs/rp-clock.ads.html#L44"
     },
     {
       "label": "GP_Source",
-      "docHref": "docs/rp__clock___spec.html#L43C12",
+      "docHref": "docs/rp__clock___spec.html#L45C12",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L43"
+      "srcHref": "srcs/rp-clock.ads.html#L45"
     },
     {
       "label": "GPIO0_CTRL_FUNCSEL_Field",
@@ -4441,31 +4483,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "GPIO_Config_Mode",
-      "docHref": "docs/hal__gpio___spec.html#L42C12",
+      "docHref": "docs/hal__gpio___spec.html#L43C12",
       "declared": "HAL.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-gpio.ads.html#L42"
+      "srcHref": "srcs/hal-gpio.ads.html#L43"
     },
     {
       "label": "GPIO_Config_Mode",
-      "docHref": "docs/rp__gpio___spec.html#L23C9",
-      "declared": "RP.GPIO",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L23"
-    },
-    {
-      "label": "GPIO_Drive",
-      "docHref": "docs/rp__gpio___spec.html#L30C9",
-      "declared": "RP.GPIO",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L30"
-    },
-    {
-      "label": "GPIO_Function",
       "docHref": "docs/rp__gpio___spec.html#L25C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-gpio.ads.html#L25"
+    },
+    {
+      "label": "GPIO_Drive",
+      "docHref": "docs/rp__gpio___spec.html#L32C9",
+      "declared": "RP.GPIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-gpio.ads.html#L32"
+    },
+    {
+      "label": "GPIO_Function",
+      "docHref": "docs/rp__gpio___spec.html#L27C9",
+      "declared": "RP.GPIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-gpio.ads.html#L27"
     },
     {
       "label": "GPIO_HI_IN_GPIO_HI_IN_Field",
@@ -4539,10 +4581,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "GPIO_Mode",
-      "docHref": "docs/hal__gpio___spec.html#L37C12",
+      "docHref": "docs/hal__gpio___spec.html#L38C12",
       "declared": "HAL.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-gpio.ads.html#L37"
+      "srcHref": "srcs/hal-gpio.ads.html#L38"
     },
     {
       "label": "GPIO_OE_CLR_GPIO_OE_CLR_Field",
@@ -4602,24 +4644,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "GPIO_Pin",
-      "docHref": "docs/rp__gpio___spec.html#L15C9",
+      "docHref": "docs/rp__gpio___spec.html#L17C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L15"
+      "srcHref": "srcs/rp-gpio.ads.html#L17"
     },
     {
       "label": "GPIO_Pull_Mode",
-      "docHref": "docs/rp__gpio___spec.html#L28C9",
+      "docHref": "docs/rp__gpio___spec.html#L30C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L28"
+      "srcHref": "srcs/rp-gpio.ads.html#L30"
     },
     {
       "label": "GPIO_Pull_Resistor",
-      "docHref": "docs/hal__gpio___spec.html#L45C12",
+      "docHref": "docs/hal__gpio___spec.html#L46C12",
       "declared": "HAL.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-gpio.ads.html#L45"
+      "srcHref": "srcs/hal-gpio.ads.html#L46"
     },
     {
       "label": "GPIO_QSPI_SCLK_CTRL_FUNCSEL_Field",
@@ -4861,38 +4903,66 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "I2C_Address",
-      "docHref": "docs/hal__i2c___spec.html#L46C12",
+      "docHref": "docs/hal__i2c___spec.html#L47C12",
       "declared": "HAL.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-i2c.ads.html#L46"
+      "srcHref": "srcs/hal-i2c.ads.html#L47"
+    },
+    {
+      "label": "I2C_Address_Size",
+      "docHref": "docs/rp__i2c_master___spec.html#L26C9",
+      "declared": "RP.I2C_Master",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-i2c_master.ads.html#L26"
     },
     {
       "label": "I2C_Data",
-      "docHref": "docs/hal__i2c___spec.html#L40C12",
+      "docHref": "docs/hal__i2c___spec.html#L41C12",
       "declared": "HAL.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-i2c.ads.html#L40"
+      "srcHref": "srcs/hal-i2c.ads.html#L41"
     },
     {
       "label": "I2C_Memory_Address_Size",
-      "docHref": "docs/hal__i2c___spec.html#L42C9",
+      "docHref": "docs/hal__i2c___spec.html#L43C9",
       "declared": "HAL.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-i2c.ads.html#L42"
+      "srcHref": "srcs/hal-i2c.ads.html#L43"
     },
     {
       "label": "I2C_Number",
-      "docHref": "docs/rp__i2c_master___spec.html#L15C12",
+      "docHref": "docs/rp__i2c___spec.html#L8C12",
+      "declared": "RP.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-i2c.ads.html#L8"
+    },
+    {
+      "label": "I2C_Number",
+      "docHref": "docs/rp__i2c_master___spec.html#L19C12",
       "declared": "RP.I2C_Master",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-i2c_master.ads.html#L15"
+      "srcHref": "srcs/rp-i2c_master.ads.html#L19"
+    },
+    {
+      "label": "I2C_Role",
+      "docHref": "docs/rp__i2c___spec.html#L52C9",
+      "declared": "RP.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-i2c.ads.html#L52"
     },
     {
       "label": "I2C_Status",
-      "docHref": "docs/hal__i2c___spec.html#L34C9",
+      "docHref": "docs/hal__i2c___spec.html#L35C9",
       "declared": "HAL.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-i2c.ads.html#L34"
+      "srcHref": "srcs/hal-i2c.ads.html#L35"
+    },
+    {
+      "label": "I2C_Status",
+      "docHref": "docs/rp__i2c___spec.html#L15C9",
+      "declared": "RP.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-i2c.ads.html#L15"
     },
     {
       "label": "IC_ACK_GENERAL_CALL_ACK_GEN_CALL_Field",
@@ -5967,10 +6037,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Interface_Id",
-      "docHref": "docs/usb___spec.html#L103C9",
+      "docHref": "docs/usb___spec.html#L108C9",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L103"
+      "srcHref": "srcs/usb.ads.html#L108"
     },
     {
       "label": "INTERP0_ACCUM0_ADD_INTERP0_ACCUM0_ADD_Field",
@@ -6128,31 +6198,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Interrupt_ID",
-      "docHref": "docs/cortex_m__nvic___spec.html#L52C9",
-      "declared": "Cortex_M.NVIC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/cortex_m-nvic.ads.html#L52"
-    },
-    {
-      "label": "Interrupt_ID",
-      "docHref": "docs/rp_interrupts___spec.html#L14C12",
-      "declared": "RP_Interrupts",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp_interrupts.ads.html#L14"
-    },
-    {
-      "label": "Interrupt_Priority",
       "docHref": "docs/cortex_m__nvic___spec.html#L53C9",
       "declared": "Cortex_M.NVIC",
       "declared_qualifier": "",
       "srcHref": "srcs/cortex_m-nvic.ads.html#L53"
     },
     {
-      "label": "Interrupt_Priority",
-      "docHref": "docs/rp_interrupts___spec.html#L15C12",
+      "label": "Interrupt_ID",
+      "docHref": "docs/rp_interrupts___spec.html#L16C12",
       "declared": "RP_Interrupts",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp_interrupts.ads.html#L15"
+      "srcHref": "srcs/rp_interrupts.ads.html#L16"
+    },
+    {
+      "label": "Interrupt_Priority",
+      "docHref": "docs/cortex_m__nvic___spec.html#L54C9",
+      "declared": "Cortex_M.NVIC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/cortex_m-nvic.ads.html#L54"
+    },
+    {
+      "label": "Interrupt_Priority",
+      "docHref": "docs/rp_interrupts___spec.html#L17C12",
+      "declared": "RP_Interrupts",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp_interrupts.ads.html#L17"
     },
     {
       "label": "Interrupt_State",
@@ -6163,10 +6233,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Interrupt_Triggers",
-      "docHref": "docs/rp__gpio___spec.html#L44C9",
+      "docHref": "docs/rp__gpio___spec.html#L46C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L44"
+      "srcHref": "srcs/rp-gpio.ads.html#L46"
     },
     {
       "label": "INTF0_INTF0_Field",
@@ -6338,31 +6408,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "JMP_Condition",
-      "docHref": "docs/rp__pio__encoding___spec.html#L10C9",
+      "docHref": "docs/rp__pio__encoding___spec.html#L12C9",
       "declared": "RP.PIO.Encoding",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-encoding.ads.html#L10"
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L12"
     },
     {
       "label": "Lane",
-      "docHref": "docs/rp__interpolator___spec.html#L108C9",
+      "docHref": "docs/rp__interpolator___spec.html#L110C9",
       "declared": "RP.Interpolator",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-interpolator.ads.html#L108"
+      "srcHref": "srcs/rp-interpolator.ads.html#L110"
     },
     {
       "label": "LANE_Register",
-      "docHref": "docs/rp__interpolator___spec.html#L111C9",
+      "docHref": "docs/rp__interpolator___spec.html#L113C9",
       "declared": "RP.Interpolator",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-interpolator.ads.html#L111"
+      "srcHref": "srcs/rp-interpolator.ads.html#L113"
     },
     {
       "label": "Lang_ID",
-      "docHref": "docs/usb___spec.html#L102C9",
+      "docHref": "docs/usb___spec.html#L107C9",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L102"
+      "srcHref": "srcs/usb.ads.html#L107"
     },
     {
       "label": "LEDs",
@@ -6380,31 +6450,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Lock_Id",
-      "docHref": "docs/rp__multicore__spinlocks___spec.html#L10C9",
+      "docHref": "docs/rp__multicore__spinlocks___spec.html#L12C9",
       "declared": "RP.Multicore.Spinlocks",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-multicore-spinlocks.ads.html#L10"
+      "srcHref": "srcs/rp-multicore-spinlocks.ads.html#L12"
     },
     {
       "label": "Magic_Field",
-      "docHref": "docs/rp__rom___spec.html#L15C9",
+      "docHref": "docs/rp__rom___spec.html#L17C9",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L15"
+      "srcHref": "srcs/rp-rom.ads.html#L17"
     },
     {
       "label": "Manufacturing_Month",
+      "docHref": "docs/hal__sdmmc___spec.html#L138C9",
+      "declared": "HAL.SDMMC",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-sdmmc.ads.html#L138"
+    },
+    {
+      "label": "Manufacturing_Year",
       "docHref": "docs/hal__sdmmc___spec.html#L137C9",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-sdmmc.ads.html#L137"
-    },
-    {
-      "label": "Manufacturing_Year",
-      "docHref": "docs/hal__sdmmc___spec.html#L136C9",
-      "declared": "HAL.SDMMC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L136"
     },
     {
       "label": "Mem_Order",
@@ -6422,17 +6492,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Microseconds",
-      "docHref": "docs/rp__uart___spec.html#L54C12",
+      "docHref": "docs/rp__uart___spec.html#L58C12",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L54"
+      "srcHref": "srcs/rp-uart.ads.html#L58"
     },
     {
       "label": "Microvolts",
-      "docHref": "docs/rp__adc___spec.html#L21C9",
+      "docHref": "docs/rp__adc___spec.html#L23C9",
       "declared": "RP.ADC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-adc.ads.html#L21"
+      "srcHref": "srcs/rp-adc.ads.html#L23"
     },
     {
       "label": "MIDI_Event",
@@ -6450,17 +6520,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "MOV_Operation",
-      "docHref": "docs/rp__pio__encoding___spec.html#L154C9",
+      "docHref": "docs/rp__pio__encoding___spec.html#L156C9",
       "declared": "RP.PIO.Encoding",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-encoding.ads.html#L154"
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L156"
     },
     {
       "label": "MOV_Target",
-      "docHref": "docs/rp__pio__encoding___spec.html#L142C9",
+      "docHref": "docs/rp__pio__encoding___spec.html#L144C9",
       "declared": "RP.PIO.Encoding",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-encoding.ads.html#L142"
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L144"
     },
     {
       "label": "MPU_RASR_ATTRS_Field",
@@ -6545,6 +6615,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP2040_SVD.USBCTRL_REGS",
       "declared_qualifier": "",
       "srcHref": "srcs/rp2040_svd-usbctrl_regs.ads.html#L849"
+    },
+    {
+      "label": "Nanoseconds",
+      "docHref": "docs/rp__i2c___spec.html#L20C9",
+      "declared": "RP.I2C",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-i2c.ads.html#L20"
     },
     {
       "label": "NVIC_IPR0_IP_0_Field",
@@ -6779,10 +6856,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Orientation_Mode",
-      "docHref": "docs/hal__bitmap___spec.html#L36C9",
+      "docHref": "docs/hal__bitmap___spec.html#L37C9",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L36"
+      "srcHref": "srcs/hal-bitmap.ads.html#L37"
+    },
+    {
+      "label": "Packet_Size",
+      "docHref": "docs/usb___spec.html#L41C9",
+      "declared": "USB",
+      "declared_qualifier": "",
+      "srcHref": "srcs/usb.ads.html#L41"
     },
     {
       "label": "PERFCTR0_PERFCTR0_Field",
@@ -6842,10 +6926,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Period",
-      "docHref": "docs/rp__pwm___spec.html#L41C12",
+      "docHref": "docs/rp__pwm___spec.html#L43C12",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L41"
+      "srcHref": "srcs/rp-pwm.ads.html#L43"
     },
     {
       "label": "PHASE_PASSWD_Field",
@@ -6863,122 +6947,122 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Pin_Count",
-      "docHref": "docs/rp__pio___spec.html#L33C12",
+      "docHref": "docs/rp__pio___spec.html#L35C12",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L33"
+      "srcHref": "srcs/rp-pio.ads.html#L35"
     },
     {
       "label": "PIO_Address",
-      "docHref": "docs/rp__pio___spec.html#L29C12",
+      "docHref": "docs/rp__pio___spec.html#L31C12",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L29"
+      "srcHref": "srcs/rp-pio.ads.html#L31"
     },
     {
       "label": "PIO_Instruction",
-      "docHref": "docs/rp__pio___spec.html#L30C12",
+      "docHref": "docs/rp__pio___spec.html#L32C12",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L30"
+      "srcHref": "srcs/rp-pio.ads.html#L32"
     },
     {
       "label": "PIO_IRQ_Flag",
+      "docHref": "docs/rp__pio___spec.html#L213C9",
+      "declared": "RP.PIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pio.ads.html#L213"
+    },
+    {
+      "label": "PIO_IRQ_ID",
       "docHref": "docs/rp__pio___spec.html#L211C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-pio.ads.html#L211"
     },
     {
-      "label": "PIO_IRQ_ID",
-      "docHref": "docs/rp__pio___spec.html#L209C9",
-      "declared": "RP.PIO",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L209"
-    },
-    {
       "label": "PIO_MOV_Status_Type",
-      "docHref": "docs/rp__pio___spec.html#L118C9",
+      "docHref": "docs/rp__pio___spec.html#L120C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L118"
+      "srcHref": "srcs/rp-pio.ads.html#L120"
     },
     {
       "label": "PIO_Number",
-      "docHref": "docs/rp__pio___spec.html#L16C12",
+      "docHref": "docs/rp__pio___spec.html#L18C12",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L16"
+      "srcHref": "srcs/rp-pio.ads.html#L18"
     },
     {
       "label": "PIO_Pin_Direction",
-      "docHref": "docs/rp__pio___spec.html#L160C9",
+      "docHref": "docs/rp__pio___spec.html#L162C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L160"
+      "srcHref": "srcs/rp-pio.ads.html#L162"
     },
     {
       "label": "PIO_SM",
-      "docHref": "docs/rp__pio___spec.html#L22C9",
+      "docHref": "docs/rp__pio___spec.html#L24C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L22"
+      "srcHref": "srcs/rp-pio.ads.html#L24"
     },
     {
       "label": "PIO_SM_IRQ_Flag",
-      "docHref": "docs/rp__pio___spec.html#L256C9",
+      "docHref": "docs/rp__pio___spec.html#L258C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L256"
+      "srcHref": "srcs/rp-pio.ads.html#L258"
     },
     {
       "label": "PIO_SM_Mask",
-      "docHref": "docs/rp__pio___spec.html#L23C9",
+      "docHref": "docs/rp__pio___spec.html#L25C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L23"
+      "srcHref": "srcs/rp-pio.ads.html#L25"
     },
     {
       "label": "PLL_Clock_Id",
-      "docHref": "docs/rp__clock___spec.html#L68C12",
-      "declared": "RP.Clock",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L68"
-    },
-    {
-      "label": "PLL_FBDIV_Field",
-      "docHref": "docs/rp__clock___spec.html#L72C12",
-      "declared": "RP.Clock",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L72"
-    },
-    {
-      "label": "PLL_FREF_Field",
       "docHref": "docs/rp__clock___spec.html#L70C12",
       "declared": "RP.Clock",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-clock.ads.html#L70"
     },
     {
+      "label": "PLL_FBDIV_Field",
+      "docHref": "docs/rp__clock___spec.html#L74C12",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L74"
+    },
+    {
+      "label": "PLL_FREF_Field",
+      "docHref": "docs/rp__clock___spec.html#L72C12",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L72"
+    },
+    {
       "label": "PLL_POSTDIV_Field",
+      "docHref": "docs/rp__clock___spec.html#L75C12",
+      "declared": "RP.Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-clock.ads.html#L75"
+    },
+    {
+      "label": "PLL_REFDIV_Field",
       "docHref": "docs/rp__clock___spec.html#L73C12",
       "declared": "RP.Clock",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-clock.ads.html#L73"
     },
     {
-      "label": "PLL_REFDIV_Field",
-      "docHref": "docs/rp__clock___spec.html#L71C12",
-      "declared": "RP.Clock",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L71"
-    },
-    {
       "label": "Point_Array",
-      "docHref": "docs/hal__bitmap___spec.html#L72C9",
+      "docHref": "docs/hal__bitmap___spec.html#L73C9",
       "declared": "HAL.Bitmap",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-bitmap.ads.html#L72"
+      "srcHref": "srcs/hal-bitmap.ads.html#L73"
     },
     {
       "label": "PRIM_POSTDIV1_Field",
@@ -7024,52 +7108,52 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Program",
-      "docHref": "docs/rp__pio___spec.html#L31C9",
+      "docHref": "docs/rp__pio___spec.html#L33C9",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L31"
+      "srcHref": "srcs/rp-pio.ads.html#L33"
     },
     {
       "label": "PWM_Channel",
-      "docHref": "docs/rp__pwm___spec.html#L17C9",
-      "declared": "RP.PWM",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L17"
-    },
-    {
-      "label": "PWM_Divider_Mode",
       "docHref": "docs/rp__pwm___spec.html#L19C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-pwm.ads.html#L19"
     },
     {
-      "label": "PWM_Slice",
-      "docHref": "docs/rp__pwm___spec.html#L16C9",
+      "label": "PWM_Divider_Mode",
+      "docHref": "docs/rp__pwm___spec.html#L21C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L16"
+      "srcHref": "srcs/rp-pwm.ads.html#L21"
+    },
+    {
+      "label": "PWM_Slice",
+      "docHref": "docs/rp__pwm___spec.html#L18C9",
+      "declared": "RP.PWM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pwm.ads.html#L18"
     },
     {
       "label": "PWM_Slice_Array",
-      "docHref": "docs/rp__pwm___spec.html#L36C9",
+      "docHref": "docs/rp__pwm___spec.html#L38C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L36"
+      "srcHref": "srcs/rp-pwm.ads.html#L38"
     },
     {
       "label": "Request_Type_Recipient",
-      "docHref": "docs/usb___spec.html#L68C9",
+      "docHref": "docs/usb___spec.html#L73C9",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L68"
+      "srcHref": "srcs/usb.ads.html#L73"
     },
     {
       "label": "Request_Type_Type",
-      "docHref": "docs/usb___spec.html#L61C9",
+      "docHref": "docs/usb___spec.html#L66C9",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L61"
+      "srcHref": "srcs/usb.ads.html#L66"
     },
     {
       "label": "RESET_DONE_i2c_Field_Array",
@@ -7108,10 +7192,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Reset_Id",
-      "docHref": "docs/rp__reset___spec.html#L8C9",
+      "docHref": "docs/rp__reset___spec.html#L10C9",
       "declared": "RP.Reset",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-reset.ads.html#L8"
+      "srcHref": "srcs/rp-reset.ads.html#L10"
     },
     {
       "label": "RESET_pio_Field_Array",
@@ -7129,10 +7213,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Reset_Status",
-      "docHref": "docs/rp__reset___spec.html#L35C9",
+      "docHref": "docs/rp__reset___spec.html#L37C9",
       "declared": "RP.Reset",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-reset.ads.html#L35"
+      "srcHref": "srcs/rp-reset.ads.html#L37"
     },
     {
       "label": "RESET_uart_Field_Array",
@@ -7157,17 +7241,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Ring_Wrap_Select",
-      "docHref": "docs/rp__dma___spec.html#L20C9",
+      "docHref": "docs/rp__dma___spec.html#L22C9",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L20"
+      "srcHref": "srcs/rp-dma.ads.html#L22"
     },
     {
       "label": "Rsp_Kind",
-      "docHref": "docs/hal__sdmmc___spec.html#L283C9",
+      "docHref": "docs/hal__sdmmc___spec.html#L284C9",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L283"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L284"
     },
     {
       "label": "RTC_0_DOTW_Field",
@@ -7220,52 +7304,52 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "RTC_Day",
-      "docHref": "docs/hal__real_time_clock___spec.html#L48C9",
+      "docHref": "docs/hal__real_time_clock___spec.html#L49C9",
       "declared": "HAL.Real_Time_Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-real_time_clock.ads.html#L48"
+      "srcHref": "srcs/hal-real_time_clock.ads.html#L49"
     },
     {
       "label": "RTC_Day_Of_Week",
-      "docHref": "docs/hal__real_time_clock___spec.html#L46C9",
+      "docHref": "docs/hal__real_time_clock___spec.html#L47C9",
       "declared": "HAL.Real_Time_Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-real_time_clock.ads.html#L46"
+      "srcHref": "srcs/hal-real_time_clock.ads.html#L47"
     },
     {
       "label": "RTC_Hour",
-      "docHref": "docs/hal__real_time_clock___spec.html#L34C9",
-      "declared": "HAL.Real_Time_Clock",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-real_time_clock.ads.html#L34"
-    },
-    {
-      "label": "RTC_Minute",
       "docHref": "docs/hal__real_time_clock___spec.html#L35C9",
       "declared": "HAL.Real_Time_Clock",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-real_time_clock.ads.html#L35"
     },
     {
-      "label": "RTC_Month",
-      "docHref": "docs/hal__real_time_clock___spec.html#L44C9",
-      "declared": "HAL.Real_Time_Clock",
-      "declared_qualifier": "",
-      "srcHref": "srcs/hal-real_time_clock.ads.html#L44"
-    },
-    {
-      "label": "RTC_Second",
+      "label": "RTC_Minute",
       "docHref": "docs/hal__real_time_clock___spec.html#L36C9",
       "declared": "HAL.Real_Time_Clock",
       "declared_qualifier": "",
       "srcHref": "srcs/hal-real_time_clock.ads.html#L36"
     },
     {
-      "label": "RTC_Year",
-      "docHref": "docs/hal__real_time_clock___spec.html#L49C9",
+      "label": "RTC_Month",
+      "docHref": "docs/hal__real_time_clock___spec.html#L45C9",
       "declared": "HAL.Real_Time_Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-real_time_clock.ads.html#L49"
+      "srcHref": "srcs/hal-real_time_clock.ads.html#L45"
+    },
+    {
+      "label": "RTC_Second",
+      "docHref": "docs/hal__real_time_clock___spec.html#L37C9",
+      "declared": "HAL.Real_Time_Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-real_time_clock.ads.html#L37"
+    },
+    {
+      "label": "RTC_Year",
+      "docHref": "docs/hal__real_time_clock___spec.html#L50C9",
+      "declared": "HAL.Real_Time_Clock",
+      "declared_qualifier": "",
+      "srcHref": "srcs/hal-real_time_clock.ads.html#L50"
     },
     {
       "label": "RX_SAMPLE_DLY_RSD_Field",
@@ -7290,38 +7374,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "SD_Command",
-      "docHref": "docs/hal__sdmmc___spec.html#L192C9",
+      "docHref": "docs/hal__sdmmc___spec.html#L193C9",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L192"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L193"
     },
     {
       "label": "SD_Error",
-      "docHref": "docs/hal__sdmmc___spec.html#L34C9",
+      "docHref": "docs/hal__sdmmc___spec.html#L35C9",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L34"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L35"
     },
     {
       "label": "SD_Specific_Command",
-      "docHref": "docs/hal__sdmmc___spec.html#L264C12",
+      "docHref": "docs/hal__sdmmc___spec.html#L265C12",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L264"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L265"
     },
     {
       "label": "Seek_Mode",
-      "docHref": "docs/hal__filesystem___spec.html#L63C9",
+      "docHref": "docs/hal__filesystem___spec.html#L65C9",
       "declared": "HAL.Filesystem",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-filesystem.ads.html#L63"
+      "srcHref": "srcs/hal-filesystem.ads.html#L65"
     },
     {
       "label": "SET_Destination",
-      "docHref": "docs/rp__pio__encoding___spec.html#L192C9",
+      "docHref": "docs/rp__pio__encoding___spec.html#L194C9",
       "declared": "RP.PIO.Encoding",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-encoding.ads.html#L192"
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L194"
     },
     {
       "label": "SETUP_0_DAY_Field",
@@ -7409,45 +7493,45 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Setup_Request_Answer",
-      "docHref": "docs/usb___spec.html#L157C9",
+      "docHref": "docs/usb___spec.html#L163C9",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L157"
+      "srcHref": "srcs/usb.ads.html#L163"
     },
     {
       "label": "SH_Word",
-      "docHref": "docs/semihosting___spec.html#L37C9",
+      "docHref": "docs/semihosting___spec.html#L38C9",
       "declared": "Semihosting",
       "declared_qualifier": "",
-      "srcHref": "srcs/semihosting.ads.html#L37"
+      "srcHref": "srcs/semihosting.ads.html#L38"
     },
     {
       "label": "SHIFT_IN_Source",
-      "docHref": "docs/rp__pio__encoding___spec.html#L55C9",
+      "docHref": "docs/rp__pio__encoding___spec.html#L57C9",
       "declared": "RP.PIO.Encoding",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-encoding.ads.html#L55"
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L57"
     },
     {
       "label": "SHIFT_OUT_Destination",
-      "docHref": "docs/rp__pio__encoding___spec.html#L80C9",
+      "docHref": "docs/rp__pio__encoding___spec.html#L82C9",
       "declared": "RP.PIO.Encoding",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-encoding.ads.html#L80"
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L82"
     },
     {
       "label": "Shift_Threshold",
-      "docHref": "docs/rp__pio___spec.html#L93C12",
+      "docHref": "docs/rp__pio___spec.html#L95C12",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L93"
+      "srcHref": "srcs/rp-pio.ads.html#L95"
     },
     {
       "label": "Short_Address",
-      "docHref": "docs/rp__rom___spec.html#L12C9",
+      "docHref": "docs/rp__rom___spec.html#L14C9",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L12"
+      "srcHref": "srcs/rp-rom.ads.html#L14"
     },
     {
       "label": "SHPR2_PRI_11_Field",
@@ -7493,10 +7577,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Sideset_Bit_Count",
-      "docHref": "docs/rp__pio___spec.html#L34C12",
+      "docHref": "docs/rp__pio___spec.html#L36C12",
       "declared": "RP.PIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio.ads.html#L34"
+      "srcHref": "srcs/rp-pio.ads.html#L36"
     },
     {
       "label": "SIE_STATUS_LINE_STATE_Field",
@@ -8137,73 +8221,73 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "SPI_Data_16b",
-      "docHref": "docs/hal__spi___spec.html#L46C9",
+      "docHref": "docs/hal__spi___spec.html#L47C9",
       "declared": "HAL.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-spi.ads.html#L46"
+      "srcHref": "srcs/hal-spi.ads.html#L47"
     },
     {
       "label": "SPI_Data_8b",
-      "docHref": "docs/hal__spi___spec.html#L44C9",
+      "docHref": "docs/hal__spi___spec.html#L45C9",
       "declared": "HAL.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-spi.ads.html#L44"
+      "srcHref": "srcs/hal-spi.ads.html#L45"
     },
     {
       "label": "SPI_Data_Size",
-      "docHref": "docs/hal__spi___spec.html#L40C9",
+      "docHref": "docs/hal__spi___spec.html#L41C9",
       "declared": "HAL.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-spi.ads.html#L40"
+      "srcHref": "srcs/hal-spi.ads.html#L41"
     },
     {
       "label": "SPI_FIFO_Status",
-      "docHref": "docs/rp__spi___spec.html#L21C9",
+      "docHref": "docs/rp__spi___spec.html#L25C9",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L21"
+      "srcHref": "srcs/rp-spi.ads.html#L25"
     },
     {
       "label": "SPI_IRQ_Flag",
-      "docHref": "docs/rp__spi___spec.html#L90C9",
+      "docHref": "docs/rp__spi___spec.html#L94C9",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L90"
+      "srcHref": "srcs/rp-spi.ads.html#L94"
     },
     {
       "label": "SPI_Number",
-      "docHref": "docs/rp__spi___spec.html#L12C12",
+      "docHref": "docs/rp__spi___spec.html#L14C12",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L12"
+      "srcHref": "srcs/rp-spi.ads.html#L14"
     },
     {
       "label": "SPI_Phase",
-      "docHref": "docs/rp__spi___spec.html#L20C9",
+      "docHref": "docs/rp__spi___spec.html#L24C9",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L20"
+      "srcHref": "srcs/rp-spi.ads.html#L24"
     },
     {
       "label": "SPI_Polarity",
-      "docHref": "docs/rp__spi___spec.html#L19C9",
+      "docHref": "docs/rp__spi___spec.html#L23C9",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L19"
+      "srcHref": "srcs/rp-spi.ads.html#L23"
     },
     {
       "label": "SPI_Role",
-      "docHref": "docs/rp__spi___spec.html#L18C9",
+      "docHref": "docs/rp__spi___spec.html#L22C9",
       "declared": "RP.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-spi.ads.html#L18"
+      "srcHref": "srcs/rp-spi.ads.html#L22"
     },
     {
       "label": "SPI_Status",
-      "docHref": "docs/hal__spi___spec.html#L34C9",
+      "docHref": "docs/hal__spi___spec.html#L35C9",
       "declared": "HAL.SPI",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-spi.ads.html#L34"
+      "srcHref": "srcs/hal-spi.ads.html#L35"
     },
     {
       "label": "SSPCPSR_CPSDVSR_Field",
@@ -8319,10 +8403,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Status_Code",
-      "docHref": "docs/hal__filesystem___spec.html#L35C9",
+      "docHref": "docs/hal__filesystem___spec.html#L37C9",
       "declared": "HAL.Filesystem",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-filesystem.ads.html#L35"
+      "srcHref": "srcs/hal-filesystem.ads.html#L37"
     },
     {
       "label": "STATUS_FREQ_RANGE_Field",
@@ -8347,31 +8431,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "String_Id",
-      "docHref": "docs/usb___spec.html#L99C9",
+      "docHref": "docs/usb___spec.html#L104C9",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L99"
+      "srcHref": "srcs/usb.ads.html#L104"
     },
     {
       "label": "String_Range",
-      "docHref": "docs/usb___spec.html#L140C12",
+      "docHref": "docs/usb___spec.html#L145C12",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L140"
+      "srcHref": "srcs/usb.ads.html#L145"
     },
     {
       "label": "Supported_SD_Memory_Cards",
-      "docHref": "docs/hal__sdmmc___spec.html#L81C9",
+      "docHref": "docs/hal__sdmmc___spec.html#L82C9",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L81"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L82"
     },
     {
       "label": "Swap_State",
-      "docHref": "docs/hal__touch_panel___spec.html#L42C9",
+      "docHref": "docs/hal__touch_panel___spec.html#L43C9",
       "declared": "HAL.Touch_Panel",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-touch_panel.ads.html#L42"
+      "srcHref": "srcs/hal-touch_panel.ads.html#L43"
     },
     {
       "label": "SWCLK_DRIVE_Field",
@@ -8389,10 +8473,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "SYS_Clock_Id",
-      "docHref": "docs/rp__clock___spec.html#L64C12",
+      "docHref": "docs/rp__clock___spec.html#L66C12",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L64"
+      "srcHref": "srcs/rp-clock.ads.html#L66"
     },
     {
       "label": "SYST_CALIB_TENMS_Field",
@@ -8438,17 +8522,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Table_Code",
-      "docHref": "docs/rp__rom___spec.html#L18C9",
+      "docHref": "docs/rp__rom___spec.html#L20C9",
       "declared": "RP.ROM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rom.ads.html#L18"
+      "srcHref": "srcs/rp-rom.ads.html#L20"
     },
     {
       "label": "Tfr_Kind",
-      "docHref": "docs/hal__sdmmc___spec.html#L295C9",
+      "docHref": "docs/hal__sdmmc___spec.html#L296C9",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L295"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L296"
     },
     {
       "label": "TICK_COUNT_Field",
@@ -8466,10 +8550,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Time",
-      "docHref": "docs/rp__timer___spec.html#L11C9",
+      "docHref": "docs/rp__timer___spec.html#L13C9",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L11"
+      "srcHref": "srcs/rp-timer.ads.html#L13"
     },
     {
       "label": "TIMER_X_Field",
@@ -8487,24 +8571,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Touch_Identifier",
-      "docHref": "docs/hal__touch_panel___spec.html#L48C12",
+      "docHref": "docs/hal__touch_panel___spec.html#L49C12",
       "declared": "HAL.Touch_Panel",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-touch_panel.ads.html#L48"
+      "srcHref": "srcs/hal-touch_panel.ads.html#L49"
     },
     {
       "label": "TP_State",
-      "docHref": "docs/hal__touch_panel___spec.html#L50C9",
+      "docHref": "docs/hal__touch_panel___spec.html#L51C9",
       "declared": "HAL.Touch_Panel",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-touch_panel.ads.html#L50"
+      "srcHref": "srcs/hal-touch_panel.ads.html#L51"
     },
     {
       "label": "Transfer_Width",
-      "docHref": "docs/rp__dma___spec.html#L16C9",
+      "docHref": "docs/rp__dma___spec.html#L18C9",
       "declared": "RP.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-dma.ads.html#L16"
+      "srcHref": "srcs/rp-dma.ads.html#L18"
     },
     {
       "label": "TXD_DRIVE_EDGE_TDE_Field",
@@ -8529,73 +8613,73 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "UART_Data_8b",
-      "docHref": "docs/hal__uart___spec.html#L44C9",
+      "docHref": "docs/hal__uart___spec.html#L45C9",
       "declared": "HAL.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-uart.ads.html#L44"
+      "srcHref": "srcs/hal-uart.ads.html#L45"
     },
     {
       "label": "UART_Data_9b",
-      "docHref": "docs/hal__uart___spec.html#L46C9",
+      "docHref": "docs/hal__uart___spec.html#L47C9",
       "declared": "HAL.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-uart.ads.html#L46"
+      "srcHref": "srcs/hal-uart.ads.html#L47"
     },
     {
       "label": "UART_Data_Size",
-      "docHref": "docs/hal__uart___spec.html#L40C9",
+      "docHref": "docs/hal__uart___spec.html#L41C9",
       "declared": "HAL.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-uart.ads.html#L40"
+      "srcHref": "srcs/hal-uart.ads.html#L41"
     },
     {
       "label": "UART_FIFO_Status",
-      "docHref": "docs/rp__uart___spec.html#L39C9",
+      "docHref": "docs/rp__uart___spec.html#L19C9",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L39"
+      "srcHref": "srcs/rp-uart.ads.html#L19"
     },
     {
       "label": "UART_IRQ_Flag",
-      "docHref": "docs/rp__uart___spec.html#L135C9",
+      "docHref": "docs/rp__uart___spec.html#L139C9",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L135"
+      "srcHref": "srcs/rp-uart.ads.html#L139"
     },
     {
       "label": "UART_Number",
-      "docHref": "docs/rp__uart___spec.html#L13C12",
+      "docHref": "docs/rp__uart___spec.html#L36C12",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L13"
+      "srcHref": "srcs/rp-uart.ads.html#L36"
     },
     {
       "label": "UART_Parity_Type",
-      "docHref": "docs/rp__uart___spec.html#L22C9",
+      "docHref": "docs/rp__uart___spec.html#L17C9",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L22"
+      "srcHref": "srcs/rp-uart.ads.html#L17"
     },
     {
       "label": "UART_Status",
-      "docHref": "docs/hal__uart___spec.html#L34C9",
+      "docHref": "docs/hal__uart___spec.html#L35C9",
       "declared": "HAL.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-uart.ads.html#L34"
+      "srcHref": "srcs/hal-uart.ads.html#L35"
     },
     {
       "label": "UART_Stop_Bits",
-      "docHref": "docs/rp__uart___spec.html#L21C12",
+      "docHref": "docs/rp__uart___spec.html#L16C12",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L21"
+      "srcHref": "srcs/rp-uart.ads.html#L16"
     },
     {
       "label": "UART_Word_Size",
-      "docHref": "docs/rp__uart___spec.html#L20C12",
+      "docHref": "docs/rp__uart___spec.html#L15C12",
       "declared": "RP.UART",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-uart.ads.html#L20"
+      "srcHref": "srcs/rp-uart.ads.html#L15"
     },
     {
       "label": "UARTCR_OUT_Field_Array",
@@ -9194,10 +9278,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "USB_String",
-      "docHref": "docs/usb___spec.html#L146C9",
+      "docHref": "docs/usb___spec.html#L152C9",
       "declared": "USB",
       "declared_qualifier": "",
-      "srcHref": "srcs/usb.ads.html#L146"
+      "srcHref": "srcs/usb.ads.html#L152"
     },
     {
       "label": "USBPHY_TRIM_DM_PULLDN_TRIM_Field",
@@ -9243,17 +9327,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Wait_Mode",
-      "docHref": "docs/hal__framebuffer___spec.html#L42C9",
+      "docHref": "docs/hal__framebuffer___spec.html#L43C9",
       "declared": "HAL.Framebuffer",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-framebuffer.ads.html#L42"
+      "srcHref": "srcs/hal-framebuffer.ads.html#L43"
     },
     {
       "label": "WAIT_Source",
-      "docHref": "docs/rp__pio__encoding___spec.html#L35C9",
+      "docHref": "docs/rp__pio__encoding___spec.html#L37C9",
       "declared": "RP.PIO.Encoding",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pio-encoding.ads.html#L35"
+      "srcHref": "srcs/rp-pio-encoding.ads.html#L37"
     },
     {
       "label": "WAKE_EN0_clk_sys_i2c_Field_Array",
@@ -9327,10 +9411,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Wide_Bus_Mode",
-      "docHref": "docs/hal__sdmmc___spec.html#L67C9",
+      "docHref": "docs/hal__sdmmc___spec.html#L68C9",
       "declared": "HAL.SDMMC",
       "declared_qualifier": "",
-      "srcHref": "srcs/hal-sdmmc.ads.html#L67"
+      "srcHref": "srcs/hal-sdmmc.ads.html#L68"
     },
     {
       "label": "Write_DHCSR_S_RESET_ST_Field",
@@ -9341,17 +9425,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "XOSC_Cycles",
-      "docHref": "docs/rp__clock___spec.html#L17C12",
+      "docHref": "docs/rp__clock___spec.html#L19C12",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L17"
+      "srcHref": "srcs/rp-clock.ads.html#L19"
     },
     {
       "label": "XOSC_Hertz",
-      "docHref": "docs/rp__clock___spec.html#L13C12",
+      "docHref": "docs/rp__clock___spec.html#L15C12",
       "declared": "RP.Clock",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-clock.ads.html#L13"
+      "srcHref": "srcs/rp-clock.ads.html#L15"
     }
   ]
 };

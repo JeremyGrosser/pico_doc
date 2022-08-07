@@ -812,11 +812,17 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ":="
-        },
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 55,
+      "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "      "
         },
         {
           "kind": "span",
@@ -846,7 +852,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -857,7 +863,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 55,
+      "number": 56,
       "children": [
         {
           "kind": "span",
@@ -868,7 +874,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "One_Comparator_Watchpoints",
-          "href": "docs/cortex_m__dwt___spec.html#L55C4"
+          "href": "docs/cortex_m__dwt___spec.html#L56C4"
         },
         {
           "kind": "span",
@@ -910,11 +916,17 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ":="
-        },
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 57,
+      "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "      "
         },
         {
           "kind": "span",
@@ -944,7 +956,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -955,7 +967,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 58,
       "children": [
         {
           "kind": "span",
@@ -966,7 +978,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Four_Comparators_Watchpoints_And_Triggers",
-          "href": "docs/cortex_m__dwt___spec.html#L56C4"
+          "href": "docs/cortex_m__dwt___spec.html#L58C4"
         },
         {
           "kind": "span",
@@ -1008,11 +1020,17 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ":="
-        },
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 59,
+      "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "      "
         },
         {
           "kind": "span",
@@ -1042,7 +1060,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -1053,7 +1071,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 57,
+      "number": 60,
       "children": [
         {
           "kind": "span",
@@ -1064,7 +1082,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Four_Comparators_Watchpoints_Only",
-          "href": "docs/cortex_m__dwt___spec.html#L57C4"
+          "href": "docs/cortex_m__dwt___spec.html#L60C4"
         },
         {
           "kind": "span",
@@ -1106,11 +1124,17 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ":="
-        },
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 61,
+      "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "      "
         },
         {
           "kind": "span",
@@ -1140,7 +1164,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -1151,13 +1175,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 62,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 59,
+      "number": 63,
       "children": [
         {
           "kind": "span",
@@ -1178,7 +1202,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DWT_Reset_Value",
-          "href": "docs/cortex_m__dwt___spec.html#L59C13"
+          "href": "docs/cortex_m__dwt___spec.html#L63C13"
         },
         {
           "kind": "span",
@@ -1225,7 +1249,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 60,
+      "number": 64,
       "children": [
         {
           "kind": "span",
@@ -1241,7 +1265,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 61,
+      "number": 65,
       "children": [
         {
           "kind": "span",
@@ -1257,13 +1281,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 62,
+      "number": 66,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 67,
       "children": [
         {
           "kind": "span",
@@ -1284,7 +1308,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Enable_DWT_Unit",
-          "href": "docs/cortex_m__dwt___spec.html#L63C14"
+          "href": "docs/cortex_m__dwt___spec.html#L67C14"
         },
         {
           "kind": "span",
@@ -1300,7 +1324,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 64,
+      "number": 68,
       "children": [
         {
           "kind": "span",
@@ -1311,7 +1335,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 65,
+      "number": 69,
       "children": [
         {
           "kind": "span",
@@ -1327,7 +1351,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 66,
+      "number": 70,
       "children": [
         {
           "kind": "span",
@@ -1343,7 +1367,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 67,
+      "number": 71,
       "children": [
         {
           "kind": "span",
@@ -1359,13 +1383,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 68,
+      "number": 72,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 69,
+      "number": 73,
       "children": [
         {
           "kind": "span",
@@ -1386,7 +1410,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Disable_DWT_Unit",
-          "href": "docs/cortex_m__dwt___spec.html#L69C14"
+          "href": "docs/cortex_m__dwt___spec.html#L73C14"
         },
         {
           "kind": "span",
@@ -1402,7 +1426,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 70,
+      "number": 74,
       "children": [
         {
           "kind": "span",
@@ -1423,7 +1447,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 71,
+      "number": 75,
       "children": [
         {
           "kind": "span",
@@ -1439,7 +1463,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 72,
+      "number": 76,
       "children": [
         {
           "kind": "span",
@@ -1455,7 +1479,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 73,
+      "number": 77,
       "children": [
         {
           "kind": "span",
@@ -1471,13 +1495,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 74,
+      "number": 78,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 75,
+      "number": 79,
       "children": [
         {
           "kind": "span",
@@ -1498,7 +1522,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DWT_Unit_Enabled",
-          "href": "docs/cortex_m__dwt___spec.html#L75C13"
+          "href": "docs/cortex_m__dwt___spec.html#L79C13"
         },
         {
           "kind": "span",
@@ -1544,13 +1568,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 76,
+      "number": 80,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 77,
+      "number": 81,
       "children": [
         {
           "kind": "span",

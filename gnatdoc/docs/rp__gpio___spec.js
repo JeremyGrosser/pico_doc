@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "ADC_Pin",
           "qualifier": "",
-          "line": 16,
+          "line": 18,
           "column": 12,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 16,
+                  "number": 18,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ADC_Pin",
-                      "href": "docs/rp__gpio___spec.html#L16C12"
+                      "href": "docs/rp__gpio___spec.html#L18C12"
                     },
                     {
                       "kind": "span",
@@ -64,7 +64,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Pin",
-                      "href": "docs/rp__gpio___spec.html#L15C9"
+                      "href": "docs/rp__gpio___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -120,299 +120,6 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_Config_Mode",
           "qualifier": "",
-          "line": 23,
-          "column": 9,
-          "src": "srcs/rp-gpio.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 23,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "GPIO_Config_Mode",
-                      "href": "docs/rp__gpio___spec.html#L23C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Input",
-                      "href": "docs/rp__gpio___spec.html#L23C30"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Output",
-                      "href": "docs/rp__gpio___spec.html#L23C37"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Analog",
-                      "href": "docs/rp__gpio___spec.html#L23C45"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/rp__gpio___spec.html#L23C9"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "literals": [
-            {
-              "label": "Input",
-              "line": 23,
-              "column": 30,
-              "description": [
-              ]
-            },
-            {
-              "label": "Output",
-              "line": 23,
-              "column": 37,
-              "description": [
-              ]
-            },
-            {
-              "label": "Analog",
-              "line": 23,
-              "column": 45,
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "GPIO_Drive",
-          "qualifier": "",
-          "line": 30,
-          "column": 9,
-          "src": "srcs/rp-gpio.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 30,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "GPIO_Drive",
-                      "href": "docs/rp__gpio___spec.html#L30C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Drive_2mA",
-                      "href": "docs/rp__gpio___spec.html#L30C24"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Drive_4mA",
-                      "href": "docs/rp__gpio___spec.html#L30C35"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Drive_8mA",
-                      "href": "docs/rp__gpio___spec.html#L30C46"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Drive_12mA",
-                      "href": "docs/rp__gpio___spec.html#L30C57"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/rp__gpio___spec.html#L30C9"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "literals": [
-            {
-              "label": "Drive_2mA",
-              "line": 30,
-              "column": 24,
-              "description": [
-              ]
-            },
-            {
-              "label": "Drive_4mA",
-              "line": 30,
-              "column": 35,
-              "description": [
-              ]
-            },
-            {
-              "label": "Drive_8mA",
-              "line": 30,
-              "column": 46,
-              "description": [
-              ]
-            },
-            {
-              "label": "Drive_12mA",
-              "line": 30,
-              "column": 57,
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "GPIO_Function",
-          "qualifier": "",
           "line": 25,
           "column": 9,
           "src": "srcs/rp-gpio.ads.html",
@@ -444,7 +151,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "GPIO_Function",
+                      "text": "GPIO_Config_Mode",
                       "href": "docs/rp__gpio___spec.html#L25C9"
                     },
                     {
@@ -456,17 +163,11 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "keyword",
                       "text": "is"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 26,
-                  "children": [
+                    },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -476,8 +177,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "SPI",
-                      "href": "docs/rp__gpio___spec.html#L26C8"
+                      "text": "Input",
+                      "href": "docs/rp__gpio___spec.html#L25C30"
                     },
                     {
                       "kind": "span",
@@ -492,8 +193,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "UART",
-                      "href": "docs/rp__gpio___spec.html#L26C13"
+                      "text": "Output",
+                      "href": "docs/rp__gpio___spec.html#L25C37"
                     },
                     {
                       "kind": "span",
@@ -508,120 +209,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I2C",
-                      "href": "docs/rp__gpio___spec.html#L26C19"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM",
-                      "href": "docs/rp__gpio___spec.html#L26C24"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SIO",
-                      "href": "docs/rp__gpio___spec.html#L26C29"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO0",
-                      "href": "docs/rp__gpio___spec.html#L26C34"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PIO1",
-                      "href": "docs/rp__gpio___spec.html#L26C40"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "CLOCK",
-                      "href": "docs/rp__gpio___spec.html#L26C46"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "USB",
-                      "href": "docs/rp__gpio___spec.html#L26C53"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HI_Z",
-                      "href": "docs/rp__gpio___spec.html#L26C58"
+                      "text": "Analog",
+                      "href": "docs/rp__gpio___spec.html#L25C45"
                     },
                     {
                       "kind": "span",
@@ -641,81 +230,32 @@ GNATdoc.Documentation = {
           ],
           "literals": [
             {
-              "label": "SPI",
-              "line": 26,
-              "column": 8,
+              "label": "Input",
+              "line": 25,
+              "column": 30,
               "description": [
               ]
             },
             {
-              "label": "UART",
-              "line": 26,
-              "column": 13,
+              "label": "Output",
+              "line": 25,
+              "column": 37,
               "description": [
               ]
             },
             {
-              "label": "I2C",
-              "line": 26,
-              "column": 19,
-              "description": [
-              ]
-            },
-            {
-              "label": "PWM",
-              "line": 26,
-              "column": 24,
-              "description": [
-              ]
-            },
-            {
-              "label": "SIO",
-              "line": 26,
-              "column": 29,
-              "description": [
-              ]
-            },
-            {
-              "label": "PIO0",
-              "line": 26,
-              "column": 34,
-              "description": [
-              ]
-            },
-            {
-              "label": "PIO1",
-              "line": 26,
-              "column": 40,
-              "description": [
-              ]
-            },
-            {
-              "label": "CLOCK",
-              "line": 26,
-              "column": 46,
-              "description": [
-              ]
-            },
-            {
-              "label": "USB",
-              "line": 26,
-              "column": 53,
-              "description": [
-              ]
-            },
-            {
-              "label": "HI_Z",
-              "line": 26,
-              "column": 58,
+              "label": "Analog",
+              "line": 25,
+              "column": 45,
               "description": [
               ]
             }
           ]
         },
         {
-          "label": "GPIO_Pin",
+          "label": "GPIO_Drive",
           "qualifier": "",
-          "line": 15,
+          "line": 32,
           "column": 9,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -726,7 +266,467 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 15,
+                  "number": 32,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GPIO_Drive",
+                      "href": "docs/rp__gpio___spec.html#L32C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Drive_2mA",
+                      "href": "docs/rp__gpio___spec.html#L32C24"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Drive_4mA",
+                      "href": "docs/rp__gpio___spec.html#L32C35"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Drive_8mA",
+                      "href": "docs/rp__gpio___spec.html#L32C46"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Drive_12mA",
+                      "href": "docs/rp__gpio___spec.html#L32C57"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/rp__gpio___spec.html#L32C9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "Drive_2mA",
+              "line": 32,
+              "column": 24,
+              "description": [
+              ]
+            },
+            {
+              "label": "Drive_4mA",
+              "line": 32,
+              "column": 35,
+              "description": [
+              ]
+            },
+            {
+              "label": "Drive_8mA",
+              "line": 32,
+              "column": 46,
+              "description": [
+              ]
+            },
+            {
+              "label": "Drive_12mA",
+              "line": 32,
+              "column": 57,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "GPIO_Function",
+          "qualifier": "",
+          "line": 27,
+          "column": 9,
+          "src": "srcs/rp-gpio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 27,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GPIO_Function",
+                      "href": "docs/rp__gpio___spec.html#L27C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 28,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SPI",
+                      "href": "docs/rp__gpio___spec.html#L28C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "UART",
+                      "href": "docs/rp__gpio___spec.html#L28C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "I2C",
+                      "href": "docs/rp__gpio___spec.html#L28C19"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PWM",
+                      "href": "docs/rp__gpio___spec.html#L28C24"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SIO",
+                      "href": "docs/rp__gpio___spec.html#L28C29"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO0",
+                      "href": "docs/rp__gpio___spec.html#L28C34"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PIO1",
+                      "href": "docs/rp__gpio___spec.html#L28C40"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "CLOCK",
+                      "href": "docs/rp__gpio___spec.html#L28C46"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "USB",
+                      "href": "docs/rp__gpio___spec.html#L28C53"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HI_Z",
+                      "href": "docs/rp__gpio___spec.html#L28C58"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/rp__gpio___spec.html#L27C9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "SPI",
+              "line": 28,
+              "column": 8,
+              "description": [
+              ]
+            },
+            {
+              "label": "UART",
+              "line": 28,
+              "column": 13,
+              "description": [
+              ]
+            },
+            {
+              "label": "I2C",
+              "line": 28,
+              "column": 19,
+              "description": [
+              ]
+            },
+            {
+              "label": "PWM",
+              "line": 28,
+              "column": 24,
+              "description": [
+              ]
+            },
+            {
+              "label": "SIO",
+              "line": 28,
+              "column": 29,
+              "description": [
+              ]
+            },
+            {
+              "label": "PIO0",
+              "line": 28,
+              "column": 34,
+              "description": [
+              ]
+            },
+            {
+              "label": "PIO1",
+              "line": 28,
+              "column": 40,
+              "description": [
+              ]
+            },
+            {
+              "label": "CLOCK",
+              "line": 28,
+              "column": 46,
+              "description": [
+              ]
+            },
+            {
+              "label": "USB",
+              "line": 28,
+              "column": 53,
+              "description": [
+              ]
+            },
+            {
+              "label": "HI_Z",
+              "line": 28,
+              "column": 58,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "GPIO_Pin",
+          "qualifier": "",
+          "line": 17,
+          "column": 9,
+          "src": "srcs/rp-gpio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 17,
                   "children": [
                     {
                       "kind": "span",
@@ -747,7 +747,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Pin",
-                      "href": "docs/rp__gpio___spec.html#L15C9"
+                      "href": "docs/rp__gpio___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -813,7 +813,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_Pull_Mode",
           "qualifier": "",
-          "line": 28,
+          "line": 30,
           "column": 9,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -824,7 +824,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 28,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -845,7 +845,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Pull_Mode",
-                      "href": "docs/rp__gpio___spec.html#L28C9"
+                      "href": "docs/rp__gpio___spec.html#L30C9"
                     },
                     {
                       "kind": "span",
@@ -871,7 +871,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Floating",
-                      "href": "docs/rp__gpio___spec.html#L28C28"
+                      "href": "docs/rp__gpio___spec.html#L30C28"
                     },
                     {
                       "kind": "span",
@@ -887,7 +887,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Pull_Up",
-                      "href": "docs/rp__gpio___spec.html#L28C38"
+                      "href": "docs/rp__gpio___spec.html#L30C38"
                     },
                     {
                       "kind": "span",
@@ -903,7 +903,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Pull_Down",
-                      "href": "docs/rp__gpio___spec.html#L28C47"
+                      "href": "docs/rp__gpio___spec.html#L30C47"
                     },
                     {
                       "kind": "span",
@@ -919,7 +919,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Pull_Both",
-                      "href": "docs/rp__gpio___spec.html#L28C58"
+                      "href": "docs/rp__gpio___spec.html#L30C58"
                     },
                     {
                       "kind": "span",
@@ -930,7 +930,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/rp__gpio___spec.html#L28C9"
+                      "href": "docs/rp__gpio___spec.html#L30C9"
                     }
                   ]
                 }
@@ -940,28 +940,28 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Floating",
-              "line": 28,
+              "line": 30,
               "column": 28,
               "description": [
               ]
             },
             {
               "label": "Pull_Up",
-              "line": 28,
+              "line": 30,
               "column": 38,
               "description": [
               ]
             },
             {
               "label": "Pull_Down",
-              "line": 28,
+              "line": 30,
               "column": 47,
               "description": [
               ]
             },
             {
               "label": "Pull_Both",
-              "line": 28,
+              "line": 30,
               "column": 58,
               "description": [
               ]
@@ -971,7 +971,7 @@ GNATdoc.Documentation = {
         {
           "label": "Interrupt_Triggers",
           "qualifier": "",
-          "line": 44,
+          "line": 46,
           "column": 9,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -982,7 +982,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -1003,7 +1003,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Interrupt_Triggers",
-                      "href": "docs/rp__gpio___spec.html#L44C9"
+                      "href": "docs/rp__gpio___spec.html#L46C9"
                     },
                     {
                       "kind": "span",
@@ -1029,7 +1029,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Low_Level",
-                      "href": "docs/rp__gpio___spec.html#L44C32"
+                      "href": "docs/rp__gpio___spec.html#L46C32"
                     },
                     {
                       "kind": "span",
@@ -1045,7 +1045,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "High_Level",
-                      "href": "docs/rp__gpio___spec.html#L44C43"
+                      "href": "docs/rp__gpio___spec.html#L46C43"
                     },
                     {
                       "kind": "span",
@@ -1061,7 +1061,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Falling_Edge",
-                      "href": "docs/rp__gpio___spec.html#L44C55"
+                      "href": "docs/rp__gpio___spec.html#L46C55"
                     },
                     {
                       "kind": "span",
@@ -1077,7 +1077,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Rising_Edge",
-                      "href": "docs/rp__gpio___spec.html#L44C69"
+                      "href": "docs/rp__gpio___spec.html#L46C69"
                     },
                     {
                       "kind": "span",
@@ -1088,7 +1088,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -1118,28 +1118,28 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Low_Level",
-              "line": 44,
+              "line": 46,
               "column": 32,
               "description": [
               ]
             },
             {
               "label": "High_Level",
-              "line": 44,
+              "line": 46,
               "column": 43,
               "description": [
               ]
             },
             {
               "label": "Falling_Edge",
-              "line": 44,
+              "line": 46,
               "column": 55,
               "description": [
               ]
             },
             {
               "label": "Rising_Edge",
-              "line": 44,
+              "line": 46,
               "column": 69,
               "description": [
               ]
@@ -1154,7 +1154,7 @@ GNATdoc.Documentation = {
         {
           "label": "Interrupt_Procedure",
           "qualifier": "",
-          "line": 52,
+          "line": 54,
           "column": 9,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -1165,7 +1165,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -1181,7 +1181,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -1197,7 +1197,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Pin",
-                      "href": "docs/rp__gpio___spec.html#L53C8"
+                      "href": "docs/rp__gpio___spec.html#L55C8"
                     },
                     {
                       "kind": "span",
@@ -1218,7 +1218,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Pin",
-                      "href": "docs/rp__gpio___spec.html#L15C9"
+                      "href": "docs/rp__gpio___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -1229,7 +1229,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -1240,7 +1240,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Trigger",
-                      "href": "docs/rp__gpio___spec.html#L54C8"
+                      "href": "docs/rp__gpio___spec.html#L56C8"
                     },
                     {
                       "kind": "span",
@@ -1261,7 +1261,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Interrupt_Triggers",
-                      "href": "docs/rp__gpio___spec.html#L44C9"
+                      "href": "docs/rp__gpio___spec.html#L46C9"
                     },
                     {
                       "kind": "span",
@@ -1287,7 +1287,7 @@ GNATdoc.Documentation = {
         {
           "label": "GPIO_Point",
           "qualifier": "",
-          "line": 18,
+          "line": 20,
           "column": 9,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -1298,7 +1298,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 18,
+                  "number": 20,
                   "children": [
                     {
                       "kind": "span",
@@ -1319,7 +1319,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Point",
-                      "href": "docs/rp__gpio___spec.html#L18C9"
+                      "href": "docs/rp__gpio___spec.html#L20C9"
                     },
                     {
                       "kind": "span",
@@ -1350,7 +1350,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "HAL.GPIO.GPIO_Point",
-                      "href": "docs/hal__gpio___spec.html#L47C9"
+                      "href": "docs/hal__gpio___spec.html#L48C9"
                     },
                     {
                       "kind": "span",
@@ -1366,7 +1366,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 19,
+                  "number": 21,
                   "children": [
                     {
                       "kind": "span",
@@ -1382,7 +1382,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 20,
+                  "number": 22,
                   "children": [
                     {
                       "kind": "span",
@@ -1393,7 +1393,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Pin",
-                      "href": "docs/rp__gpio___spec.html#L20C10"
+                      "href": "docs/rp__gpio___spec.html#L22C10"
                     },
                     {
                       "kind": "span",
@@ -1414,7 +1414,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Pin",
-                      "href": "docs/rp__gpio___spec.html#L15C9"
+                      "href": "docs/rp__gpio___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -1425,7 +1425,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 21,
+                  "number": 23,
                   "children": [
                     {
                       "kind": "span",
@@ -1451,7 +1451,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/rp__gpio___spec.html#L18C9"
+                      "href": "docs/rp__gpio___spec.html#L20C9"
                     }
                   ]
                 }
@@ -1461,17 +1461,17 @@ GNATdoc.Documentation = {
           "inherits": [
             {
               "label": "GPIO_Point",
-              "docHref": "docs/hal__gpio___spec.html#L47C9"
+              "docHref": "docs/hal__gpio___spec.html#L48C9"
             }
           ],
           "fields": [
             {
               "label": "Pin",
-              "line": 20,
+              "line": 22,
               "column": 10,
               "type": {
                 "label": "RP.GPIO.GPIO_Pin",
-                "docHref": "docs/rp__gpio___spec.html#L15C9"
+                "docHref": "docs/rp__gpio___spec.html#L17C9"
               },
               "description": [
               ]
@@ -1486,7 +1486,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enable",
           "qualifier": "",
-          "line": 56,
+          "line": 58,
           "column": 14,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -1497,7 +1497,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 58,
                   "children": [
                     {
                       "kind": "span",
@@ -1518,7 +1518,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enable",
-                      "href": "docs/rp__gpio___spec.html#L56C14"
+                      "href": "docs/rp__gpio___spec.html#L58C14"
                     },
                     {
                       "kind": "span",
@@ -1534,7 +1534,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enabled",
           "qualifier": "",
-          "line": 58,
+          "line": 60,
           "column": 13,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -1545,7 +1545,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 58,
+                  "number": 60,
                   "children": [
                     {
                       "kind": "span",
@@ -1566,7 +1566,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enabled",
-                      "href": "docs/rp__gpio___spec.html#L58C13"
+                      "href": "docs/rp__gpio___spec.html#L60C13"
                     },
                     {
                       "kind": "span",
@@ -1602,7 +1602,7 @@ GNATdoc.Documentation = {
         {
           "label": "IRQ_Handler",
           "qualifier": "",
-          "line": 133,
+          "line": 135,
           "column": 14,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -1613,7 +1613,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 133,
+                  "number": 135,
                   "children": [
                     {
                       "kind": "span",
@@ -1634,13 +1634,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "IRQ_Handler",
-                      "href": "docs/rp__gpio___spec.html#L133C14"
+                      "href": "docs/rp__gpio___spec.html#L135C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 134,
+                  "number": 136,
                   "children": [
                     {
                       "kind": "span",
@@ -1656,7 +1656,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Id",
-                      "href": "docs/rp__gpio___spec.html#L134C8"
+                      "href": "docs/rp__gpio___spec.html#L136C8"
                     },
                     {
                       "kind": "span",
@@ -1677,7 +1677,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP_Interrupts.Interrupt_ID",
-                      "href": "docs/rp_interrupts___spec.html#L14C12"
+                      "href": "docs/rp_interrupts___spec.html#L16C12"
                     },
                     {
                       "kind": "span",
@@ -1714,11 +1714,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Id",
-              "line": 134,
+              "line": 136,
               "column": 8,
               "type": {
                 "label": "RP_Interrupts.Interrupt_ID",
-                "docHref": "docs/rp_interrupts___spec.html#L14C12"
+                "docHref": "docs/rp_interrupts___spec.html#L16C12"
               },
               "description": [
               ]
@@ -1733,7 +1733,7 @@ GNATdoc.Documentation = {
         {
           "label": "Clear",
           "qualifier": "",
-          "line": 123,
+          "line": 125,
           "column": 14,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -1744,7 +1744,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 123,
+                  "number": 125,
                   "children": [
                     {
                       "kind": "span",
@@ -1760,7 +1760,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 124,
+                  "number": 126,
                   "children": [
                     {
                       "kind": "span",
@@ -1786,7 +1786,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 125,
+                  "number": 127,
                   "children": [
                     {
                       "kind": "span",
@@ -1861,11 +1861,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 124,
+              "line": 126,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.GPIO_Point",
-                "docHref": "docs/rp__gpio___spec.html#L18C9"
+                "docHref": "docs/rp__gpio___spec.html#L20C9"
               },
               "description": [
               ]
@@ -1875,7 +1875,7 @@ GNATdoc.Documentation = {
         {
           "label": "Configure",
           "qualifier": "",
-          "line": 60,
+          "line": 62,
           "column": 14,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -1886,7 +1886,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 60,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -1907,13 +1907,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Configure",
-                      "href": "docs/rp__gpio___spec.html#L60C14"
+                      "href": "docs/rp__gpio___spec.html#L62C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 61,
+                  "number": 63,
                   "children": [
                     {
                       "kind": "span",
@@ -1929,7 +1929,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__gpio___spec.html#L61C8"
+                      "href": "docs/rp__gpio___spec.html#L63C8"
                     },
                     {
                       "kind": "span",
@@ -1970,7 +1970,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Point",
-                      "href": "docs/rp__gpio___spec.html#L18C9"
+                      "href": "docs/rp__gpio___spec.html#L20C9"
                     },
                     {
                       "kind": "span",
@@ -1981,7 +1981,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 62,
+                  "number": 64,
                   "children": [
                     {
                       "kind": "span",
@@ -1992,7 +1992,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Mode",
-                      "href": "docs/rp__gpio___spec.html#L62C8"
+                      "href": "docs/rp__gpio___spec.html#L64C8"
                     },
                     {
                       "kind": "span",
@@ -2013,7 +2013,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Config_Mode",
-                      "href": "docs/rp__gpio___spec.html#L23C9"
+                      "href": "docs/rp__gpio___spec.html#L25C9"
                     },
                     {
                       "kind": "span",
@@ -2024,7 +2024,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 63,
+                  "number": 65,
                   "children": [
                     {
                       "kind": "span",
@@ -2035,7 +2035,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Pull",
-                      "href": "docs/rp__gpio___spec.html#L63C8"
+                      "href": "docs/rp__gpio___spec.html#L65C8"
                     },
                     {
                       "kind": "span",
@@ -2056,7 +2056,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Pull_Mode",
-                      "href": "docs/rp__gpio___spec.html#L28C9"
+                      "href": "docs/rp__gpio___spec.html#L30C9"
                     },
                     {
                       "kind": "span",
@@ -2087,7 +2087,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 64,
+                  "number": 66,
                   "children": [
                     {
                       "kind": "span",
@@ -2098,7 +2098,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Func",
-                      "href": "docs/rp__gpio___spec.html#L64C8"
+                      "href": "docs/rp__gpio___spec.html#L66C8"
                     },
                     {
                       "kind": "span",
@@ -2119,7 +2119,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Function",
-                      "href": "docs/rp__gpio___spec.html#L25C9"
+                      "href": "docs/rp__gpio___spec.html#L27C9"
                     },
                     {
                       "kind": "span",
@@ -2150,7 +2150,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 65,
+                  "number": 67,
                   "children": [
                     {
                       "kind": "span",
@@ -2161,7 +2161,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Schmitt",
-                      "href": "docs/rp__gpio___spec.html#L65C8"
+                      "href": "docs/rp__gpio___spec.html#L67C8"
                     },
                     {
                       "kind": "span",
@@ -2212,7 +2212,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 66,
+                  "number": 68,
                   "children": [
                     {
                       "kind": "span",
@@ -2223,7 +2223,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slew_Fast",
-                      "href": "docs/rp__gpio___spec.html#L66C8"
+                      "href": "docs/rp__gpio___spec.html#L68C8"
                     },
                     {
                       "kind": "span",
@@ -2274,7 +2274,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 67,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",
@@ -2285,7 +2285,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Drive",
-                      "href": "docs/rp__gpio___spec.html#L67C8"
+                      "href": "docs/rp__gpio___spec.html#L69C8"
                     },
                     {
                       "kind": "span",
@@ -2306,7 +2306,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Drive",
-                      "href": "docs/rp__gpio___spec.html#L30C9"
+                      "href": "docs/rp__gpio___spec.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -2355,51 +2355,51 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 61,
+              "line": 63,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.GPIO_Point",
-                "docHref": "docs/rp__gpio___spec.html#L18C9"
+                "docHref": "docs/rp__gpio___spec.html#L20C9"
               },
               "description": [
               ]
             },
             {
               "label": "Mode",
-              "line": 62,
-              "column": 8,
-              "type": {
-                "label": "RP.GPIO.GPIO_Config_Mode",
-                "docHref": "docs/rp__gpio___spec.html#L23C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Pull",
-              "line": 63,
-              "column": 8,
-              "type": {
-                "label": "RP.GPIO.GPIO_Pull_Mode",
-                "docHref": "docs/rp__gpio___spec.html#L28C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Func",
               "line": 64,
               "column": 8,
               "type": {
-                "label": "RP.GPIO.GPIO_Function",
+                "label": "RP.GPIO.GPIO_Config_Mode",
                 "docHref": "docs/rp__gpio___spec.html#L25C9"
               },
               "description": [
               ]
             },
             {
-              "label": "Schmitt",
+              "label": "Pull",
               "line": 65,
+              "column": 8,
+              "type": {
+                "label": "RP.GPIO.GPIO_Pull_Mode",
+                "docHref": "docs/rp__gpio___spec.html#L30C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Func",
+              "line": 66,
+              "column": 8,
+              "type": {
+                "label": "RP.GPIO.GPIO_Function",
+                "docHref": "docs/rp__gpio___spec.html#L27C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Schmitt",
+              "line": 67,
               "column": 8,
               "type": {
                 "label": "Boolean"
@@ -2409,7 +2409,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Slew_Fast",
-              "line": 66,
+              "line": 68,
               "column": 8,
               "type": {
                 "label": "Boolean"
@@ -2419,11 +2419,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Drive",
-              "line": 67,
+              "line": 69,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.GPIO_Drive",
-                "docHref": "docs/rp__gpio___spec.html#L30C9"
+                "docHref": "docs/rp__gpio___spec.html#L32C9"
               },
               "description": [
               ]
@@ -2433,7 +2433,7 @@ GNATdoc.Documentation = {
         {
           "label": "Disable_Interrupt",
           "qualifier": "",
-          "line": 83,
+          "line": 85,
           "column": 14,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -2444,7 +2444,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 83,
+                  "number": 85,
                   "children": [
                     {
                       "kind": "span",
@@ -2465,13 +2465,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Disable_Interrupt",
-                      "href": "docs/rp__gpio___spec.html#L83C14"
+                      "href": "docs/rp__gpio___spec.html#L85C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 84,
+                  "number": 86,
                   "children": [
                     {
                       "kind": "span",
@@ -2487,7 +2487,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__gpio___spec.html#L84C8"
+                      "href": "docs/rp__gpio___spec.html#L86C8"
                     },
                     {
                       "kind": "span",
@@ -2528,7 +2528,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Point",
-                      "href": "docs/rp__gpio___spec.html#L18C9"
+                      "href": "docs/rp__gpio___spec.html#L20C9"
                     },
                     {
                       "kind": "span",
@@ -2539,7 +2539,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 85,
+                  "number": 87,
                   "children": [
                     {
                       "kind": "span",
@@ -2550,7 +2550,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Trigger",
-                      "href": "docs/rp__gpio___spec.html#L85C8"
+                      "href": "docs/rp__gpio___spec.html#L87C8"
                     },
                     {
                       "kind": "span",
@@ -2571,7 +2571,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Interrupt_Triggers",
-                      "href": "docs/rp__gpio___spec.html#L44C9"
+                      "href": "docs/rp__gpio___spec.html#L46C9"
                     },
                     {
                       "kind": "span",
@@ -2591,22 +2591,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 84,
+              "line": 86,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.GPIO_Point",
-                "docHref": "docs/rp__gpio___spec.html#L18C9"
+                "docHref": "docs/rp__gpio___spec.html#L20C9"
               },
               "description": [
               ]
             },
             {
               "label": "Trigger",
-              "line": 85,
+              "line": 87,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.Interrupt_Triggers",
-                "docHref": "docs/rp__gpio___spec.html#L44C9"
+                "docHref": "docs/rp__gpio___spec.html#L46C9"
               },
               "description": [
               ]
@@ -2616,7 +2616,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enable_Interrupt",
           "qualifier": "",
-          "line": 79,
+          "line": 81,
           "column": 14,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -2627,7 +2627,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 79,
+                  "number": 81,
                   "children": [
                     {
                       "kind": "span",
@@ -2648,13 +2648,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enable_Interrupt",
-                      "href": "docs/rp__gpio___spec.html#L79C14"
+                      "href": "docs/rp__gpio___spec.html#L81C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 80,
+                  "number": 82,
                   "children": [
                     {
                       "kind": "span",
@@ -2670,7 +2670,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__gpio___spec.html#L80C8"
+                      "href": "docs/rp__gpio___spec.html#L82C8"
                     },
                     {
                       "kind": "span",
@@ -2711,7 +2711,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Point",
-                      "href": "docs/rp__gpio___spec.html#L18C9"
+                      "href": "docs/rp__gpio___spec.html#L20C9"
                     },
                     {
                       "kind": "span",
@@ -2722,7 +2722,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 81,
+                  "number": 83,
                   "children": [
                     {
                       "kind": "span",
@@ -2733,7 +2733,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Trigger",
-                      "href": "docs/rp__gpio___spec.html#L81C8"
+                      "href": "docs/rp__gpio___spec.html#L83C8"
                     },
                     {
                       "kind": "span",
@@ -2754,7 +2754,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Interrupt_Triggers",
-                      "href": "docs/rp__gpio___spec.html#L44C9"
+                      "href": "docs/rp__gpio___spec.html#L46C9"
                     },
                     {
                       "kind": "span",
@@ -2774,22 +2774,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 80,
+              "line": 82,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.GPIO_Point",
-                "docHref": "docs/rp__gpio___spec.html#L18C9"
+                "docHref": "docs/rp__gpio___spec.html#L20C9"
               },
               "description": [
               ]
             },
             {
               "label": "Trigger",
-              "line": 81,
+              "line": 83,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.Interrupt_Triggers",
-                "docHref": "docs/rp__gpio___spec.html#L44C9"
+                "docHref": "docs/rp__gpio___spec.html#L46C9"
               },
               "description": [
               ]
@@ -2799,7 +2799,7 @@ GNATdoc.Documentation = {
         {
           "label": "Get",
           "qualifier": "",
-          "line": 70,
+          "line": 72,
           "column": 13,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -2810,7 +2810,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 70,
+                  "number": 72,
                   "children": [
                     {
                       "kind": "span",
@@ -2831,13 +2831,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Get",
-                      "href": "docs/rp__gpio___spec.html#L70C13"
+                      "href": "docs/rp__gpio___spec.html#L72C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 73,
                   "children": [
                     {
                       "kind": "span",
@@ -2853,7 +2853,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__gpio___spec.html#L71C8"
+                      "href": "docs/rp__gpio___spec.html#L73C8"
                     },
                     {
                       "kind": "span",
@@ -2874,7 +2874,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Point",
-                      "href": "docs/rp__gpio___spec.html#L18C9"
+                      "href": "docs/rp__gpio___spec.html#L20C9"
                     },
                     {
                       "kind": "span",
@@ -2885,7 +2885,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 72,
+                  "number": 74,
                   "children": [
                     {
                       "kind": "span",
@@ -2911,7 +2911,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 73,
+                  "number": 75,
                   "children": [
                     {
                       "kind": "span",
@@ -2941,11 +2941,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 71,
+              "line": 73,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.GPIO_Point",
-                "docHref": "docs/rp__gpio___spec.html#L18C9"
+                "docHref": "docs/rp__gpio___spec.html#L20C9"
               },
               "description": [
               ]
@@ -2955,7 +2955,7 @@ GNATdoc.Documentation = {
         {
           "label": "Mode",
           "qualifier": "",
-          "line": 94,
+          "line": 96,
           "column": 13,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -2966,7 +2966,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 94,
+                  "number": 96,
                   "children": [
                     {
                       "kind": "span",
@@ -2982,7 +2982,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 95,
+                  "number": 97,
                   "children": [
                     {
                       "kind": "span",
@@ -3008,7 +3008,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 96,
+                  "number": 98,
                   "children": [
                     {
                       "kind": "span",
@@ -3054,7 +3054,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 97,
+                  "number": 99,
                   "children": [
                     {
                       "kind": "span",
@@ -3089,11 +3089,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 95,
+              "line": 97,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.GPIO_Point",
-                "docHref": "docs/rp__gpio___spec.html#L18C9"
+                "docHref": "docs/rp__gpio___spec.html#L20C9"
               },
               "description": [
               ]
@@ -3103,7 +3103,7 @@ GNATdoc.Documentation = {
         {
           "label": "Pull_Resistor",
           "qualifier": "",
-          "line": 104,
+          "line": 106,
           "column": 13,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -3114,7 +3114,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 104,
+                  "number": 106,
                   "children": [
                     {
                       "kind": "span",
@@ -3130,7 +3130,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 105,
+                  "number": 107,
                   "children": [
                     {
                       "kind": "span",
@@ -3156,7 +3156,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 106,
+                  "number": 108,
                   "children": [
                     {
                       "kind": "span",
@@ -3202,7 +3202,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 107,
+                  "number": 109,
                   "children": [
                     {
                       "kind": "span",
@@ -3237,11 +3237,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 105,
+              "line": 107,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.GPIO_Point",
-                "docHref": "docs/rp__gpio___spec.html#L18C9"
+                "docHref": "docs/rp__gpio___spec.html#L20C9"
               },
               "description": [
               ]
@@ -3251,7 +3251,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set",
           "qualifier": "",
-          "line": 114,
+          "line": 116,
           "column": 13,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -3262,7 +3262,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 114,
+                  "number": 116,
                   "children": [
                     {
                       "kind": "span",
@@ -3278,7 +3278,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 115,
+                  "number": 117,
                   "children": [
                     {
                       "kind": "span",
@@ -3304,7 +3304,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 116,
+                  "number": 118,
                   "children": [
                     {
                       "kind": "span",
@@ -3350,7 +3350,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 117,
+                  "number": 119,
                   "children": [
                     {
                       "kind": "span",
@@ -3385,11 +3385,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 115,
+              "line": 117,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.GPIO_Point",
-                "docHref": "docs/rp__gpio___spec.html#L18C9"
+                "docHref": "docs/rp__gpio___spec.html#L20C9"
               },
               "description": [
               ]
@@ -3399,7 +3399,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set",
           "qualifier": "",
-          "line": 119,
+          "line": 121,
           "column": 14,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -3410,7 +3410,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 119,
+                  "number": 121,
                   "children": [
                     {
                       "kind": "span",
@@ -3426,7 +3426,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 120,
+                  "number": 122,
                   "children": [
                     {
                       "kind": "span",
@@ -3452,7 +3452,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 121,
+                  "number": 123,
                   "children": [
                     {
                       "kind": "span",
@@ -3527,11 +3527,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 120,
+              "line": 122,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.GPIO_Point",
-                "docHref": "docs/rp__gpio___spec.html#L18C9"
+                "docHref": "docs/rp__gpio___spec.html#L20C9"
               },
               "description": [
               ]
@@ -3541,7 +3541,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Interrupt_Handler",
           "qualifier": "",
-          "line": 75,
+          "line": 77,
           "column": 14,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -3552,7 +3552,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 75,
+                  "number": 77,
                   "children": [
                     {
                       "kind": "span",
@@ -3573,13 +3573,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Interrupt_Handler",
-                      "href": "docs/rp__gpio___spec.html#L75C14"
+                      "href": "docs/rp__gpio___spec.html#L77C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 76,
+                  "number": 78,
                   "children": [
                     {
                       "kind": "span",
@@ -3595,7 +3595,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__gpio___spec.html#L76C8"
+                      "href": "docs/rp__gpio___spec.html#L78C8"
                     },
                     {
                       "kind": "span",
@@ -3636,7 +3636,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO_Point",
-                      "href": "docs/rp__gpio___spec.html#L18C9"
+                      "href": "docs/rp__gpio___spec.html#L20C9"
                     },
                     {
                       "kind": "span",
@@ -3647,7 +3647,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 77,
+                  "number": 79,
                   "children": [
                     {
                       "kind": "span",
@@ -3658,7 +3658,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Handler",
-                      "href": "docs/rp__gpio___spec.html#L77C8"
+                      "href": "docs/rp__gpio___spec.html#L79C8"
                     },
                     {
                       "kind": "span",
@@ -3679,7 +3679,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Interrupt_Procedure",
-                      "href": "docs/rp__gpio___spec.html#L52C9"
+                      "href": "docs/rp__gpio___spec.html#L54C9"
                     },
                     {
                       "kind": "span",
@@ -3699,22 +3699,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 76,
+              "line": 78,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.GPIO_Point",
-                "docHref": "docs/rp__gpio___spec.html#L18C9"
+                "docHref": "docs/rp__gpio___spec.html#L20C9"
               },
               "description": [
               ]
             },
             {
               "label": "Handler",
-              "line": 77,
+              "line": 79,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.Interrupt_Procedure",
-                "docHref": "docs/rp__gpio___spec.html#L52C9"
+                "docHref": "docs/rp__gpio___spec.html#L54C9"
               },
               "description": [
               ]
@@ -3724,7 +3724,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Mode",
           "qualifier": "",
-          "line": 99,
+          "line": 101,
           "column": 14,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -3735,7 +3735,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 99,
+                  "number": 101,
                   "children": [
                     {
                       "kind": "span",
@@ -3751,7 +3751,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 100,
+                  "number": 102,
                   "children": [
                     {
                       "kind": "span",
@@ -3777,7 +3777,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 101,
+                  "number": 103,
                   "children": [
                     {
                       "kind": "span",
@@ -3793,7 +3793,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__gpio___spec.html#L101C8"
+                      "href": "docs/rp__gpio___spec.html#L103C8"
                     },
                     {
                       "kind": "span",
@@ -3844,7 +3844,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 102,
+                  "number": 104,
                   "children": [
                     {
                       "kind": "span",
@@ -3894,22 +3894,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 100,
+              "line": 102,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.GPIO_Point",
-                "docHref": "docs/rp__gpio___spec.html#L18C9"
+                "docHref": "docs/rp__gpio___spec.html#L20C9"
               },
               "description": [
               ]
             },
             {
               "label": "Mode",
-              "line": 101,
+              "line": 103,
               "column": 8,
               "type": {
                 "label": "HAL.GPIO.GPIO_Config_Mode",
-                "docHref": "docs/hal__gpio___spec.html#L42C12"
+                "docHref": "docs/hal__gpio___spec.html#L43C12"
               },
               "description": [
               ]
@@ -3919,7 +3919,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Pull_Resistor",
           "qualifier": "",
-          "line": 109,
+          "line": 111,
           "column": 14,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -3930,7 +3930,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 109,
+                  "number": 111,
                   "children": [
                     {
                       "kind": "span",
@@ -3946,7 +3946,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 110,
+                  "number": 112,
                   "children": [
                     {
                       "kind": "span",
@@ -3972,7 +3972,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 111,
+                  "number": 113,
                   "children": [
                     {
                       "kind": "span",
@@ -3988,7 +3988,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__gpio___spec.html#L111C8"
+                      "href": "docs/rp__gpio___spec.html#L113C8"
                     },
                     {
                       "kind": "span",
@@ -4039,7 +4039,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 112,
+                  "number": 114,
                   "children": [
                     {
                       "kind": "span",
@@ -4089,22 +4089,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 110,
+              "line": 112,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.GPIO_Point",
-                "docHref": "docs/rp__gpio___spec.html#L18C9"
+                "docHref": "docs/rp__gpio___spec.html#L20C9"
               },
               "description": [
               ]
             },
             {
               "label": "Pull",
-              "line": 111,
+              "line": 113,
               "column": 8,
               "type": {
                 "label": "HAL.GPIO.GPIO_Pull_Resistor",
-                "docHref": "docs/hal__gpio___spec.html#L45C12"
+                "docHref": "docs/hal__gpio___spec.html#L46C12"
               },
               "description": [
               ]
@@ -4114,7 +4114,7 @@ GNATdoc.Documentation = {
         {
           "label": "Support",
           "qualifier": "",
-          "line": 88,
+          "line": 90,
           "column": 13,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -4125,7 +4125,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 88,
+                  "number": 90,
                   "children": [
                     {
                       "kind": "span",
@@ -4141,7 +4141,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 89,
+                  "number": 91,
                   "children": [
                     {
                       "kind": "span",
@@ -4167,7 +4167,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 90,
+                  "number": 92,
                   "children": [
                     {
                       "kind": "span",
@@ -4183,7 +4183,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__gpio___spec.html#L90C8"
+                      "href": "docs/rp__gpio___spec.html#L92C8"
                     },
                     {
                       "kind": "span",
@@ -4214,7 +4214,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 91,
+                  "number": 93,
                   "children": [
                     {
                       "kind": "span",
@@ -4255,7 +4255,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 92,
+                  "number": 94,
                   "children": [
                     {
                       "kind": "span",
@@ -4290,22 +4290,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 89,
+              "line": 91,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.GPIO_Point",
-                "docHref": "docs/rp__gpio___spec.html#L18C9"
+                "docHref": "docs/rp__gpio___spec.html#L20C9"
               },
               "description": [
               ]
             },
             {
               "label": "Capa",
-              "line": 90,
+              "line": 92,
               "column": 8,
               "type": {
                 "label": "HAL.GPIO.Capability",
-                "docHref": "docs/hal__gpio___spec.html#L34C9"
+                "docHref": "docs/hal__gpio___spec.html#L35C9"
               },
               "description": [
               ]
@@ -4315,7 +4315,7 @@ GNATdoc.Documentation = {
         {
           "label": "Toggle",
           "qualifier": "",
-          "line": 127,
+          "line": 129,
           "column": 14,
           "src": "srcs/rp-gpio.ads.html",
           "summary": [
@@ -4326,7 +4326,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 127,
+                  "number": 129,
                   "children": [
                     {
                       "kind": "span",
@@ -4342,7 +4342,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 128,
+                  "number": 130,
                   "children": [
                     {
                       "kind": "span",
@@ -4368,7 +4368,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 129,
+                  "number": 131,
                   "children": [
                     {
                       "kind": "span",
@@ -4443,11 +4443,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 128,
+              "line": 130,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.GPIO_Point",
-                "docHref": "docs/rp__gpio___spec.html#L18C9"
+                "docHref": "docs/rp__gpio___spec.html#L20C9"
               },
               "description": [
               ]

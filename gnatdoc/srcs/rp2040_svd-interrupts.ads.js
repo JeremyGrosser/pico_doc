@@ -139,12 +139,39 @@ GNATdoc.SourceFile = {
           "cssClass": "identifier",
           "text": "RP2040_SVD.Interrupts",
           "href": "docs/rp2040_svd__interrupts___spec.html#L10C20"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 11,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
         },
         {
           "kind": "span",
           "cssClass": "text",
           "text": " "
         },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Preelaborate"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 12,
+      "children": [
         {
           "kind": "span",
           "cssClass": "keyword",
@@ -154,40 +181,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 11,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 12,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "----------------"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 13,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- Interrupts --"
-        }
       ]
     },
     {
@@ -210,6 +205,16 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 15,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- Interrupts --"
+        }
       ]
     },
     {
@@ -223,9 +228,31 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "----------------"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 17,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 18,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "TIMER_IRQ_0_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L16C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L18C4"
         },
         {
           "kind": "span",
@@ -276,7 +303,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 17,
+      "number": 19,
       "children": [
         {
           "kind": "span",
@@ -287,7 +314,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TIMER_IRQ_1_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L17C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L19C4"
         },
         {
           "kind": "span",
@@ -338,7 +365,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 18,
+      "number": 20,
       "children": [
         {
           "kind": "span",
@@ -349,7 +376,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TIMER_IRQ_2_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L18C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L20C4"
         },
         {
           "kind": "span",
@@ -400,7 +427,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 19,
+      "number": 21,
       "children": [
         {
           "kind": "span",
@@ -411,7 +438,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TIMER_IRQ_3_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L19C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L21C4"
         },
         {
           "kind": "span",
@@ -462,7 +489,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 20,
+      "number": 22,
       "children": [
         {
           "kind": "span",
@@ -473,7 +500,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PWM_IRQ_WRAP_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L20C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L22C4"
         },
         {
           "kind": "span",
@@ -524,7 +551,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 21,
+      "number": 23,
       "children": [
         {
           "kind": "span",
@@ -535,7 +562,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "USBCTRL_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L21C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L23C4"
         },
         {
           "kind": "span",
@@ -586,7 +613,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 22,
+      "number": 24,
       "children": [
         {
           "kind": "span",
@@ -597,7 +624,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "XIP_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L22C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L24C4"
         },
         {
           "kind": "span",
@@ -648,7 +675,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 23,
+      "number": 25,
       "children": [
         {
           "kind": "span",
@@ -659,7 +686,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO0_IRQ_0_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L23C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L25C4"
         },
         {
           "kind": "span",
@@ -710,7 +737,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 24,
+      "number": 26,
       "children": [
         {
           "kind": "span",
@@ -721,7 +748,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO0_IRQ_1_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L24C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L26C4"
         },
         {
           "kind": "span",
@@ -772,7 +799,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 25,
+      "number": 27,
       "children": [
         {
           "kind": "span",
@@ -783,7 +810,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO1_IRQ_0_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L25C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L27C4"
         },
         {
           "kind": "span",
@@ -834,7 +861,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 26,
+      "number": 28,
       "children": [
         {
           "kind": "span",
@@ -845,7 +872,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "PIO1_IRQ_1_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L26C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L28C4"
         },
         {
           "kind": "span",
@@ -896,7 +923,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 27,
+      "number": 29,
       "children": [
         {
           "kind": "span",
@@ -907,7 +934,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA_IRQ_0_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L27C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L29C4"
         },
         {
           "kind": "span",
@@ -958,7 +985,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 28,
+      "number": 30,
       "children": [
         {
           "kind": "span",
@@ -969,7 +996,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA_IRQ_1_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L28C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L30C4"
         },
         {
           "kind": "span",
@@ -1020,7 +1047,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 29,
+      "number": 31,
       "children": [
         {
           "kind": "span",
@@ -1031,7 +1058,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "IO_IRQ_BANK0_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L29C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L31C4"
         },
         {
           "kind": "span",
@@ -1082,7 +1109,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 30,
+      "number": 32,
       "children": [
         {
           "kind": "span",
@@ -1093,7 +1120,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "IO_IRQ_QSPI_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L30C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L32C4"
         },
         {
           "kind": "span",
@@ -1144,7 +1171,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 31,
+      "number": 33,
       "children": [
         {
           "kind": "span",
@@ -1155,7 +1182,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SIO_IRQ_PROC0_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L31C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L33C4"
         },
         {
           "kind": "span",
@@ -1206,7 +1233,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 32,
+      "number": 34,
       "children": [
         {
           "kind": "span",
@@ -1217,7 +1244,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SIO_IRQ_PROC1_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L32C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L34C4"
         },
         {
           "kind": "span",
@@ -1268,7 +1295,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 33,
+      "number": 35,
       "children": [
         {
           "kind": "span",
@@ -1279,7 +1306,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CLOCKS_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L33C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L35C4"
         },
         {
           "kind": "span",
@@ -1330,7 +1357,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 34,
+      "number": 36,
       "children": [
         {
           "kind": "span",
@@ -1341,7 +1368,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPI0_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L34C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L36C4"
         },
         {
           "kind": "span",
@@ -1392,7 +1419,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 35,
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -1403,7 +1430,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SPI1_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L35C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L37C4"
         },
         {
           "kind": "span",
@@ -1454,7 +1481,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 36,
+      "number": 38,
       "children": [
         {
           "kind": "span",
@@ -1465,7 +1492,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "UART0_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L36C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L38C4"
         },
         {
           "kind": "span",
@@ -1516,7 +1543,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 39,
       "children": [
         {
           "kind": "span",
@@ -1527,7 +1554,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "UART1_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L37C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L39C4"
         },
         {
           "kind": "span",
@@ -1578,7 +1605,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 40,
       "children": [
         {
           "kind": "span",
@@ -1589,7 +1616,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADC_IRQ_FIFO_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L38C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L40C4"
         },
         {
           "kind": "span",
@@ -1640,7 +1667,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 41,
       "children": [
         {
           "kind": "span",
@@ -1651,7 +1678,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C0_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L39C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L41C4"
         },
         {
           "kind": "span",
@@ -1702,7 +1729,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 42,
       "children": [
         {
           "kind": "span",
@@ -1713,7 +1740,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C1_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L40C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L42C4"
         },
         {
           "kind": "span",
@@ -1764,7 +1791,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -1775,7 +1802,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC_Interrupt",
-          "href": "docs/rp2040_svd__interrupts___spec.html#L41C4"
+          "href": "docs/rp2040_svd__interrupts___spec.html#L43C4"
         },
         {
           "kind": "span",
@@ -1826,13 +1853,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 44,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 45,
       "children": [
         {
           "kind": "span",

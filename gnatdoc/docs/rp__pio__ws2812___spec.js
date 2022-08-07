@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Strip",
           "qualifier": "",
-          "line": 11,
+          "line": 13,
           "column": 9,
           "src": "srcs/rp-pio-ws2812.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 11,
+                  "number": 13,
                   "children": [
                     {
                       "kind": "span",
@@ -43,13 +43,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Strip",
-                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
+                      "href": "docs/rp__pio__ws2812___spec.html#L13C9"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 12,
+                  "number": 14,
                   "children": [
                     {
                       "kind": "span",
@@ -115,7 +115,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP.GPIO.GPIO_Point",
-                      "href": "docs/rp__gpio___spec.html#L18C9"
+                      "href": "docs/rp__gpio___spec.html#L20C9"
                     },
                     {
                       "kind": "span",
@@ -126,7 +126,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 13,
+                  "number": 15,
                   "children": [
                     {
                       "kind": "span",
@@ -187,7 +187,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Device",
-                      "href": "docs/rp__pio___spec.html#L382C9"
+                      "href": "docs/rp__pio___spec.html#L19C9"
                     },
                     {
                       "kind": "span",
@@ -198,7 +198,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 14,
+                  "number": 16,
                   "children": [
                     {
                       "kind": "span",
@@ -209,7 +209,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "SM",
-                      "href": "docs/rp__pio__ws2812___spec.html#L14C8"
+                      "href": "docs/rp__pio__ws2812___spec.html#L16C8"
                     },
                     {
                       "kind": "span",
@@ -230,7 +230,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_SM",
-                      "href": "docs/rp__pio___spec.html#L22C9"
+                      "href": "docs/rp__pio___spec.html#L24C9"
                     },
                     {
                       "kind": "span",
@@ -241,7 +241,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 15,
+                  "number": 17,
                   "children": [
                     {
                       "kind": "span",
@@ -252,7 +252,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Number_Of_LEDs",
-                      "href": "docs/rp__pio__ws2812___spec.html#L15C8"
+                      "href": "docs/rp__pio__ws2812___spec.html#L17C8"
                     },
                     {
                       "kind": "span",
@@ -283,7 +283,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 16,
+                  "number": 18,
                   "children": [
                     {
                       "kind": "span",
@@ -319,7 +319,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 17,
+                  "number": 19,
                   "children": [
                     {
                       "kind": "span",
@@ -330,7 +330,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Data",
-                      "href": "docs/rp__pio__ws2812___spec.html#L17C7"
+                      "href": "docs/rp__pio__ws2812___spec.html#L19C7"
                     },
                     {
                       "kind": "span",
@@ -402,7 +402,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 18,
+                  "number": 20,
                   "children": [
                     {
                       "kind": "span",
@@ -413,7 +413,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Initialized",
-                      "href": "docs/rp__pio__ws2812___spec.html#L18C7"
+                      "href": "docs/rp__pio__ws2812___spec.html#L20C7"
                     },
                     {
                       "kind": "span",
@@ -464,7 +464,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 19,
+                  "number": 21,
                   "children": [
                     {
                       "kind": "span",
@@ -475,7 +475,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Ready",
-                      "href": "docs/rp__pio__ws2812___spec.html#L19C7"
+                      "href": "docs/rp__pio__ws2812___spec.html#L21C7"
                     },
                     {
                       "kind": "span",
@@ -526,7 +526,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 20,
+                  "number": 22,
                   "children": [
                     {
                       "kind": "span",
@@ -537,7 +537,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Chan",
-                      "href": "docs/rp__pio__ws2812___spec.html#L20C7"
+                      "href": "docs/rp__pio__ws2812___spec.html#L22C7"
                     },
                     {
                       "kind": "span",
@@ -558,7 +558,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP.DMA.DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
+                      "href": "docs/rp__dma___spec.html#L15C9"
                     },
                     {
                       "kind": "span",
@@ -569,7 +569,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 21,
+                  "number": 23,
                   "children": [
                     {
                       "kind": "span",
@@ -595,7 +595,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
+                      "href": "docs/rp__pio__ws2812___spec.html#L13C9"
                     }
                   ]
                 }
@@ -605,7 +605,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Number_Of_LEDs",
-              "line": 15,
+              "line": 17,
               "column": 8,
               "type": {
                 "label": "Positive"
@@ -615,18 +615,18 @@ GNATdoc.Documentation = {
             },
             {
               "label": "SM",
-              "line": 14,
+              "line": 16,
               "column": 8,
               "type": {
                 "label": "RP.PIO.PIO_SM",
-                "docHref": "docs/rp__pio___spec.html#L22C9"
+                "docHref": "docs/rp__pio___spec.html#L24C9"
               },
               "description": [
               ]
             },
             {
               "label": "Data",
-              "line": 17,
+              "line": 19,
               "column": 7,
               "type": {
                 "label": "HAL.UInt32_Array",
@@ -637,7 +637,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Initialized",
-              "line": 18,
+              "line": 20,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -647,7 +647,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DMA_Ready",
-              "line": 19,
+              "line": 21,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -657,11 +657,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DMA_Chan",
-              "line": 20,
+              "line": 22,
               "column": 7,
               "type": {
                 "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
+                "docHref": "docs/rp__dma___spec.html#L15C9"
               },
               "description": [
               ]
@@ -676,7 +676,7 @@ GNATdoc.Documentation = {
         {
           "label": "Clear",
           "qualifier": "",
-          "line": 39,
+          "line": 41,
           "column": 14,
           "src": "srcs/rp-pio-ws2812.ads.html",
           "summary": [
@@ -687,7 +687,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
@@ -708,7 +708,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Clear",
-                      "href": "docs/rp__pio__ws2812___spec.html#L39C14"
+                      "href": "docs/rp__pio__ws2812___spec.html#L41C14"
                     },
                     {
                       "kind": "span",
@@ -724,7 +724,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__pio__ws2812___spec.html#L39C21"
+                      "href": "docs/rp__pio__ws2812___spec.html#L41C21"
                     },
                     {
                       "kind": "span",
@@ -765,7 +765,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Strip",
-                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
+                      "href": "docs/rp__pio__ws2812___spec.html#L13C9"
                     },
                     {
                       "kind": "span",
@@ -794,11 +794,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 39,
+              "line": 41,
               "column": 21,
               "type": {
                 "label": "RP.PIO.WS2812.Strip",
-                "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
+                "docHref": "docs/rp__pio__ws2812___spec.html#L13C9"
               },
               "description": [
               ]
@@ -808,7 +808,7 @@ GNATdoc.Documentation = {
         {
           "label": "Disable_DMA",
           "qualifier": "",
-          "line": 35,
+          "line": 37,
           "column": 14,
           "src": "srcs/rp-pio-ws2812.ads.html",
           "summary": [
@@ -819,7 +819,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -840,7 +840,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Disable_DMA",
-                      "href": "docs/rp__pio__ws2812___spec.html#L35C14"
+                      "href": "docs/rp__pio__ws2812___spec.html#L37C14"
                     },
                     {
                       "kind": "span",
@@ -856,7 +856,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__pio__ws2812___spec.html#L35C27"
+                      "href": "docs/rp__pio__ws2812___spec.html#L37C27"
                     },
                     {
                       "kind": "span",
@@ -897,7 +897,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Strip",
-                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
+                      "href": "docs/rp__pio__ws2812___spec.html#L13C9"
                     },
                     {
                       "kind": "span",
@@ -908,7 +908,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -949,7 +949,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -999,11 +999,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 35,
+              "line": 37,
               "column": 27,
               "type": {
                 "label": "RP.PIO.WS2812.Strip",
-                "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
+                "docHref": "docs/rp__pio__ws2812___spec.html#L13C9"
               },
               "description": [
               ]
@@ -1013,7 +1013,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA_Enabled",
           "qualifier": "",
-          "line": 24,
+          "line": 26,
           "column": 13,
           "src": "srcs/rp-pio-ws2812.ads.html",
           "summary": [
@@ -1024,7 +1024,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 24,
+                  "number": 26,
                   "children": [
                     {
                       "kind": "span",
@@ -1045,7 +1045,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Enabled",
-                      "href": "docs/rp__pio__ws2812___spec.html#L24C13"
+                      "href": "docs/rp__pio__ws2812___spec.html#L26C13"
                     },
                     {
                       "kind": "span",
@@ -1061,7 +1061,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__pio__ws2812___spec.html#L24C26"
+                      "href": "docs/rp__pio__ws2812___spec.html#L26C26"
                     },
                     {
                       "kind": "span",
@@ -1082,7 +1082,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Strip",
-                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
+                      "href": "docs/rp__pio__ws2812___spec.html#L13C9"
                     },
                     {
                       "kind": "span",
@@ -1122,11 +1122,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 24,
+              "line": 26,
               "column": 26,
               "type": {
                 "label": "RP.PIO.WS2812.Strip",
-                "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
+                "docHref": "docs/rp__pio__ws2812___spec.html#L13C9"
               },
               "description": [
               ]
@@ -1136,7 +1136,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enable_DMA",
           "qualifier": "",
-          "line": 30,
+          "line": 32,
           "column": 14,
           "src": "srcs/rp-pio-ws2812.ads.html",
           "summary": [
@@ -1147,7 +1147,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 30,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -1168,7 +1168,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enable_DMA",
-                      "href": "docs/rp__pio__ws2812___spec.html#L30C14"
+                      "href": "docs/rp__pio__ws2812___spec.html#L32C14"
                     },
                     {
                       "kind": "span",
@@ -1184,7 +1184,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__pio__ws2812___spec.html#L30C26"
+                      "href": "docs/rp__pio__ws2812___spec.html#L32C26"
                     },
                     {
                       "kind": "span",
@@ -1225,7 +1225,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Strip",
-                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
+                      "href": "docs/rp__pio__ws2812___spec.html#L13C9"
                     },
                     {
                       "kind": "span",
@@ -1236,7 +1236,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 33,
                   "children": [
                     {
                       "kind": "span",
@@ -1247,7 +1247,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Chan",
-                      "href": "docs/rp__pio__ws2812___spec.html#L31C26"
+                      "href": "docs/rp__pio__ws2812___spec.html#L33C26"
                     },
                     {
                       "kind": "span",
@@ -1268,7 +1268,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP.DMA.DMA_Channel_Id",
-                      "href": "docs/rp__dma___spec.html#L13C9"
+                      "href": "docs/rp__dma___spec.html#L15C9"
                     },
                     {
                       "kind": "span",
@@ -1279,7 +1279,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -1300,7 +1300,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -1340,22 +1340,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 30,
+              "line": 32,
               "column": 26,
               "type": {
                 "label": "RP.PIO.WS2812.Strip",
-                "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
+                "docHref": "docs/rp__pio__ws2812___spec.html#L13C9"
               },
               "description": [
               ]
             },
             {
               "label": "Chan",
-              "line": 31,
+              "line": 33,
               "column": 26,
               "type": {
                 "label": "RP.DMA.DMA_Channel_Id",
-                "docHref": "docs/rp__dma___spec.html#L13C9"
+                "docHref": "docs/rp__dma___spec.html#L15C9"
               },
               "description": [
               ]
@@ -1365,7 +1365,7 @@ GNATdoc.Documentation = {
         {
           "label": "Initialize",
           "qualifier": "",
-          "line": 26,
+          "line": 28,
           "column": 14,
           "src": "srcs/rp-pio-ws2812.ads.html",
           "summary": [
@@ -1376,7 +1376,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 26,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
@@ -1397,7 +1397,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Initialize",
-                      "href": "docs/rp__pio__ws2812___spec.html#L26C14"
+                      "href": "docs/rp__pio__ws2812___spec.html#L28C14"
                     },
                     {
                       "kind": "span",
@@ -1413,7 +1413,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__pio__ws2812___spec.html#L26C26"
+                      "href": "docs/rp__pio__ws2812___spec.html#L28C26"
                     },
                     {
                       "kind": "span",
@@ -1454,7 +1454,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Strip",
-                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
+                      "href": "docs/rp__pio__ws2812___spec.html#L13C9"
                     },
                     {
                       "kind": "span",
@@ -1465,7 +1465,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 27,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -1476,7 +1476,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ASM_Offset",
-                      "href": "docs/rp__pio__ws2812___spec.html#L27C26"
+                      "href": "docs/rp__pio__ws2812___spec.html#L29C26"
                     },
                     {
                       "kind": "span",
@@ -1497,7 +1497,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PIO_Address",
-                      "href": "docs/rp__pio___spec.html#L29C12"
+                      "href": "docs/rp__pio___spec.html#L31C12"
                     },
                     {
                       "kind": "span",
@@ -1528,7 +1528,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 28,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -1558,22 +1558,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 26,
+              "line": 28,
               "column": 26,
               "type": {
                 "label": "RP.PIO.WS2812.Strip",
-                "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
+                "docHref": "docs/rp__pio__ws2812___spec.html#L13C9"
               },
               "description": [
               ]
             },
             {
               "label": "ASM_Offset",
-              "line": 27,
+              "line": 29,
               "column": 26,
               "type": {
                 "label": "RP.PIO.PIO_Address",
-                "docHref": "docs/rp__pio___spec.html#L29C12"
+                "docHref": "docs/rp__pio___spec.html#L31C12"
               },
               "description": [
               ]
@@ -1583,7 +1583,7 @@ GNATdoc.Documentation = {
         {
           "label": "Initialized",
           "qualifier": "",
-          "line": 23,
+          "line": 25,
           "column": 13,
           "src": "srcs/rp-pio-ws2812.ads.html",
           "summary": [
@@ -1594,7 +1594,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 23,
+                  "number": 25,
                   "children": [
                     {
                       "kind": "span",
@@ -1615,7 +1615,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Initialized",
-                      "href": "docs/rp__pio__ws2812___spec.html#L23C13"
+                      "href": "docs/rp__pio__ws2812___spec.html#L25C13"
                     },
                     {
                       "kind": "span",
@@ -1631,7 +1631,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__pio__ws2812___spec.html#L23C26"
+                      "href": "docs/rp__pio__ws2812___spec.html#L25C26"
                     },
                     {
                       "kind": "span",
@@ -1652,7 +1652,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Strip",
-                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
+                      "href": "docs/rp__pio__ws2812___spec.html#L13C9"
                     },
                     {
                       "kind": "span",
@@ -1692,11 +1692,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 23,
+              "line": 25,
               "column": 26,
               "type": {
                 "label": "RP.PIO.WS2812.Strip",
-                "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
+                "docHref": "docs/rp__pio__ws2812___spec.html#L13C9"
               },
               "description": [
               ]
@@ -1706,7 +1706,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_HSV",
           "qualifier": "",
-          "line": 47,
+          "line": 49,
           "column": 14,
           "src": "srcs/rp-pio-ws2812.ads.html",
           "summary": [
@@ -1717,7 +1717,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -1738,7 +1738,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_HSV",
-                      "href": "docs/rp__pio__ws2812___spec.html#L47C14"
+                      "href": "docs/rp__pio__ws2812___spec.html#L49C14"
                     },
                     {
                       "kind": "span",
@@ -1754,7 +1754,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__pio__ws2812___spec.html#L47C23"
+                      "href": "docs/rp__pio__ws2812___spec.html#L49C23"
                     },
                     {
                       "kind": "span",
@@ -1795,7 +1795,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Strip",
-                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
+                      "href": "docs/rp__pio__ws2812___spec.html#L13C9"
                     },
                     {
                       "kind": "span",
@@ -1806,7 +1806,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -1817,7 +1817,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Id",
-                      "href": "docs/rp__pio__ws2812___spec.html#L48C23"
+                      "href": "docs/rp__pio__ws2812___spec.html#L50C23"
                     },
                     {
                       "kind": "span",
@@ -1848,7 +1848,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 51,
                   "children": [
                     {
                       "kind": "span",
@@ -1859,7 +1859,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "H",
-                      "href": "docs/rp__pio__ws2812___spec.html#L49C23"
+                      "href": "docs/rp__pio__ws2812___spec.html#L51C23"
                     },
                     {
                       "kind": "span",
@@ -1875,7 +1875,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "S",
-                      "href": "docs/rp__pio__ws2812___spec.html#L49C26"
+                      "href": "docs/rp__pio__ws2812___spec.html#L51C26"
                     },
                     {
                       "kind": "span",
@@ -1891,7 +1891,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "V",
-                      "href": "docs/rp__pio__ws2812___spec.html#L49C29"
+                      "href": "docs/rp__pio__ws2812___spec.html#L51C29"
                     },
                     {
                       "kind": "span",
@@ -1923,7 +1923,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 52,
                   "children": [
                     {
                       "kind": "span",
@@ -1953,18 +1953,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 47,
+              "line": 49,
               "column": 23,
               "type": {
                 "label": "RP.PIO.WS2812.Strip",
-                "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
+                "docHref": "docs/rp__pio__ws2812___spec.html#L13C9"
               },
               "description": [
               ]
             },
             {
               "label": "Id",
-              "line": 48,
+              "line": 50,
               "column": 23,
               "type": {
                 "label": "Positive"
@@ -1974,7 +1974,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "H",
-              "line": 49,
+              "line": 51,
               "column": 23,
               "type": {
                 "label": "HAL.UInt8",
@@ -1985,7 +1985,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "S",
-              "line": 49,
+              "line": 51,
               "column": 26,
               "type": {
                 "label": "HAL.UInt8",
@@ -1996,7 +1996,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "V",
-              "line": 49,
+              "line": 51,
               "column": 29,
               "type": {
                 "label": "HAL.UInt8",
@@ -2010,7 +2010,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_RGB",
           "qualifier": "",
-          "line": 42,
+          "line": 44,
           "column": 14,
           "src": "srcs/rp-pio-ws2812.ads.html",
           "summary": [
@@ -2021,7 +2021,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -2042,7 +2042,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_RGB",
-                      "href": "docs/rp__pio__ws2812___spec.html#L42C14"
+                      "href": "docs/rp__pio__ws2812___spec.html#L44C14"
                     },
                     {
                       "kind": "span",
@@ -2058,7 +2058,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__pio__ws2812___spec.html#L42C23"
+                      "href": "docs/rp__pio__ws2812___spec.html#L44C23"
                     },
                     {
                       "kind": "span",
@@ -2099,7 +2099,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Strip",
-                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
+                      "href": "docs/rp__pio__ws2812___spec.html#L13C9"
                     },
                     {
                       "kind": "span",
@@ -2110,7 +2110,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 45,
                   "children": [
                     {
                       "kind": "span",
@@ -2121,7 +2121,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Id",
-                      "href": "docs/rp__pio__ws2812___spec.html#L43C23"
+                      "href": "docs/rp__pio__ws2812___spec.html#L45C23"
                     },
                     {
                       "kind": "span",
@@ -2152,7 +2152,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -2163,7 +2163,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "R",
-                      "href": "docs/rp__pio__ws2812___spec.html#L44C23"
+                      "href": "docs/rp__pio__ws2812___spec.html#L46C23"
                     },
                     {
                       "kind": "span",
@@ -2179,7 +2179,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "G",
-                      "href": "docs/rp__pio__ws2812___spec.html#L44C26"
+                      "href": "docs/rp__pio__ws2812___spec.html#L46C26"
                     },
                     {
                       "kind": "span",
@@ -2195,7 +2195,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "B",
-                      "href": "docs/rp__pio__ws2812___spec.html#L44C29"
+                      "href": "docs/rp__pio__ws2812___spec.html#L46C29"
                     },
                     {
                       "kind": "span",
@@ -2227,7 +2227,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -2257,18 +2257,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 42,
+              "line": 44,
               "column": 23,
               "type": {
                 "label": "RP.PIO.WS2812.Strip",
-                "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
+                "docHref": "docs/rp__pio__ws2812___spec.html#L13C9"
               },
               "description": [
               ]
             },
             {
               "label": "Id",
-              "line": 43,
+              "line": 45,
               "column": 23,
               "type": {
                 "label": "Positive"
@@ -2278,7 +2278,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "R",
-              "line": 44,
+              "line": 46,
               "column": 23,
               "type": {
                 "label": "HAL.UInt8",
@@ -2289,7 +2289,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "G",
-              "line": 44,
+              "line": 46,
               "column": 26,
               "type": {
                 "label": "HAL.UInt8",
@@ -2300,7 +2300,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "B",
-              "line": 44,
+              "line": 46,
               "column": 29,
               "type": {
                 "label": "HAL.UInt8",
@@ -2314,7 +2314,7 @@ GNATdoc.Documentation = {
         {
           "label": "Update",
           "qualifier": "",
-          "line": 52,
+          "line": 54,
           "column": 14,
           "src": "srcs/rp-pio-ws2812.ads.html",
           "summary": [
@@ -2325,7 +2325,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -2346,7 +2346,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Update",
-                      "href": "docs/rp__pio__ws2812___spec.html#L52C14"
+                      "href": "docs/rp__pio__ws2812___spec.html#L54C14"
                     },
                     {
                       "kind": "span",
@@ -2362,7 +2362,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__pio__ws2812___spec.html#L52C22"
+                      "href": "docs/rp__pio__ws2812___spec.html#L54C22"
                     },
                     {
                       "kind": "span",
@@ -2393,7 +2393,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Strip",
-                      "href": "docs/rp__pio__ws2812___spec.html#L11C9"
+                      "href": "docs/rp__pio__ws2812___spec.html#L13C9"
                     },
                     {
                       "kind": "span",
@@ -2404,7 +2404,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -2415,7 +2415,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Blocking",
-                      "href": "docs/rp__pio__ws2812___spec.html#L53C22"
+                      "href": "docs/rp__pio__ws2812___spec.html#L55C22"
                     },
                     {
                       "kind": "span",
@@ -2466,7 +2466,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -2496,18 +2496,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 52,
+              "line": 54,
               "column": 22,
               "type": {
                 "label": "RP.PIO.WS2812.Strip",
-                "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
+                "docHref": "docs/rp__pio__ws2812___spec.html#L13C9"
               },
               "description": [
               ]
             },
             {
               "label": "Blocking",
-              "line": 53,
+              "line": 55,
               "column": 22,
               "type": {
                 "label": "Boolean"

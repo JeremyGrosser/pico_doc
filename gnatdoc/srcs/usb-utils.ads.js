@@ -1190,8 +1190,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL.UInt11",
-          "href": "docs/hal___spec.html#L56C9"
+          "text": "Packet_Size",
+          "href": "docs/usb___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -1554,8 +1554,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "UInt11",
-          "href": "docs/hal___spec.html#L56C9"
+          "text": "Packet_Size",
+          "href": "docs/usb___spec.html#L41C9"
         },
         {
           "kind": "span",

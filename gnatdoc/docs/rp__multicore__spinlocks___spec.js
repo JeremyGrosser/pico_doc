@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Lock_Id",
           "qualifier": "",
-          "line": 10,
+          "line": 12,
           "column": 9,
           "src": "srcs/rp-multicore-spinlocks.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 10,
+                  "number": 12,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Lock_Id",
-                      "href": "docs/rp__multicore__spinlocks___spec.html#L10C9"
+                      "href": "docs/rp__multicore__spinlocks___spec.html#L12C9"
                     },
                     {
                       "kind": "span",
@@ -114,7 +114,7 @@ GNATdoc.Documentation = {
         {
           "label": "Locked",
           "qualifier": "",
-          "line": 22,
+          "line": 24,
           "column": 13,
           "src": "srcs/rp-multicore-spinlocks.ads.html",
           "summary": [
@@ -125,7 +125,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 22,
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -146,7 +146,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Locked",
-                      "href": "docs/rp__multicore__spinlocks___spec.html#L22C13"
+                      "href": "docs/rp__multicore__spinlocks___spec.html#L24C13"
                     },
                     {
                       "kind": "span",
@@ -162,7 +162,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Id",
-                      "href": "docs/rp__multicore__spinlocks___spec.html#L22C21"
+                      "href": "docs/rp__multicore__spinlocks___spec.html#L24C21"
                     },
                     {
                       "kind": "span",
@@ -183,7 +183,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Lock_Id",
-                      "href": "docs/rp__multicore__spinlocks___spec.html#L10C9"
+                      "href": "docs/rp__multicore__spinlocks___spec.html#L12C9"
                     },
                     {
                       "kind": "span",
@@ -232,11 +232,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Id",
-              "line": 22,
+              "line": 24,
               "column": 21,
               "type": {
                 "label": "RP.Multicore.Spinlocks.Lock_Id",
-                "docHref": "docs/rp__multicore__spinlocks___spec.html#L10C9"
+                "docHref": "docs/rp__multicore__spinlocks___spec.html#L12C9"
               },
               "description": [
               ]
@@ -246,7 +246,7 @@ GNATdoc.Documentation = {
         {
           "label": "Release",
           "qualifier": "",
-          "line": 19,
+          "line": 21,
           "column": 14,
           "src": "srcs/rp-multicore-spinlocks.ads.html",
           "summary": [
@@ -257,7 +257,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 19,
+                  "number": 21,
                   "children": [
                     {
                       "kind": "span",
@@ -278,7 +278,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Release",
-                      "href": "docs/rp__multicore__spinlocks___spec.html#L19C14"
+                      "href": "docs/rp__multicore__spinlocks___spec.html#L21C14"
                     },
                     {
                       "kind": "span",
@@ -294,7 +294,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Id",
-                      "href": "docs/rp__multicore__spinlocks___spec.html#L19C23"
+                      "href": "docs/rp__multicore__spinlocks___spec.html#L21C23"
                     },
                     {
                       "kind": "span",
@@ -315,7 +315,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Lock_Id",
-                      "href": "docs/rp__multicore__spinlocks___spec.html#L10C9"
+                      "href": "docs/rp__multicore__spinlocks___spec.html#L12C9"
                     },
                     {
                       "kind": "span",
@@ -344,11 +344,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Id",
-              "line": 19,
+              "line": 21,
               "column": 23,
               "type": {
                 "label": "RP.Multicore.Spinlocks.Lock_Id",
-                "docHref": "docs/rp__multicore__spinlocks___spec.html#L10C9"
+                "docHref": "docs/rp__multicore__spinlocks___spec.html#L12C9"
               },
               "description": [
               ]
@@ -358,7 +358,7 @@ GNATdoc.Documentation = {
         {
           "label": "Try_Lock",
           "qualifier": "",
-          "line": 12,
+          "line": 14,
           "column": 13,
           "src": "srcs/rp-multicore-spinlocks.ads.html",
           "summary": [
@@ -369,7 +369,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 12,
+                  "number": 14,
                   "children": [
                     {
                       "kind": "span",
@@ -390,7 +390,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Try_Lock",
-                      "href": "docs/rp__multicore__spinlocks___spec.html#L12C13"
+                      "href": "docs/rp__multicore__spinlocks___spec.html#L14C13"
                     },
                     {
                       "kind": "span",
@@ -406,7 +406,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Id",
-                      "href": "docs/rp__multicore__spinlocks___spec.html#L12C23"
+                      "href": "docs/rp__multicore__spinlocks___spec.html#L14C23"
                     },
                     {
                       "kind": "span",
@@ -427,7 +427,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Lock_Id",
-                      "href": "docs/rp__multicore__spinlocks___spec.html#L10C9"
+                      "href": "docs/rp__multicore__spinlocks___spec.html#L12C9"
                     },
                     {
                       "kind": "span",
@@ -480,11 +480,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Id",
-              "line": 12,
+              "line": 14,
               "column": 23,
               "type": {
                 "label": "RP.Multicore.Spinlocks.Lock_Id",
-                "docHref": "docs/rp__multicore__spinlocks___spec.html#L10C9"
+                "docHref": "docs/rp__multicore__spinlocks___spec.html#L12C9"
               },
               "description": [
               ]
@@ -494,7 +494,7 @@ GNATdoc.Documentation = {
         {
           "label": "Wait_Lock",
           "qualifier": "",
-          "line": 16,
+          "line": 18,
           "column": 14,
           "src": "srcs/rp-multicore-spinlocks.ads.html",
           "summary": [
@@ -505,7 +505,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 16,
+                  "number": 18,
                   "children": [
                     {
                       "kind": "span",
@@ -526,7 +526,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Wait_Lock",
-                      "href": "docs/rp__multicore__spinlocks___spec.html#L16C14"
+                      "href": "docs/rp__multicore__spinlocks___spec.html#L18C14"
                     },
                     {
                       "kind": "span",
@@ -542,7 +542,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Id",
-                      "href": "docs/rp__multicore__spinlocks___spec.html#L16C25"
+                      "href": "docs/rp__multicore__spinlocks___spec.html#L18C25"
                     },
                     {
                       "kind": "span",
@@ -563,7 +563,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Lock_Id",
-                      "href": "docs/rp__multicore__spinlocks___spec.html#L10C9"
+                      "href": "docs/rp__multicore__spinlocks___spec.html#L12C9"
                     },
                     {
                       "kind": "span",
@@ -592,11 +592,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Id",
-              "line": 16,
+              "line": 18,
               "column": 25,
               "type": {
                 "label": "RP.Multicore.Spinlocks.Lock_Id",
-                "docHref": "docs/rp__multicore__spinlocks___spec.html#L10C9"
+                "docHref": "docs/rp__multicore__spinlocks___spec.html#L12C9"
               },
               "description": [
               ]

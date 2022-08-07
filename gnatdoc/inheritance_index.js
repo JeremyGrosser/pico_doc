@@ -1,131 +1,135 @@
 GNATdoc.InheritanceIndex = [
   {
     "label": "Audio_Stream",
-    "docHref": "docs/hal__audio___spec.html#L61C9",
+    "docHref": "docs/hal__audio___spec.html#L62C9",
     "inherited": [
       {
         "label": "I2S_Device",
-        "docHref": "docs/rp__pio__audio_i2s___spec.html#L18C9"
+        "docHref": "docs/rp__pio__audio_i2s___spec.html#L20C9"
       }
     ]
   },
   {
     "label": "Bitmap_Buffer",
-    "docHref": "docs/hal__bitmap___spec.html#L100C9"
+    "docHref": "docs/hal__bitmap___spec.html#L101C9"
   },
   {
     "label": "Block_Driver",
-    "docHref": "docs/hal__block_drivers___spec.html#L34C9"
+    "docHref": "docs/hal__block_drivers___spec.html#L35C9"
   },
   {
     "label": "Delays",
-    "docHref": "docs/hal__time___spec.html#L34C9",
+    "docHref": "docs/hal__time___spec.html#L35C9",
     "inherited": [
       {
         "label": "Delays",
-        "docHref": "docs/rp__timer___spec.html#L18C9"
+        "docHref": "docs/rp__timer___spec.html#L25C9"
       }
     ]
   },
   {
     "label": "Directory_Handle",
-    "docHref": "docs/hal__filesystem___spec.html#L82C9"
+    "docHref": "docs/hal__filesystem___spec.html#L84C9"
   },
   {
     "label": "DSI_Port",
-    "docHref": "docs/hal__dsi___spec.html#L59C9"
+    "docHref": "docs/hal__dsi___spec.html#L60C9"
   },
   {
     "label": "File_Handle",
-    "docHref": "docs/hal__filesystem___spec.html#L85C9",
+    "docHref": "docs/hal__filesystem___spec.html#L87C9",
     "inherited": [
       {
         "label": "SHFS_File_Handle",
-        "docHref": "docs/semihosting__filesystem___spec.html#L110C9"
+        "docHref": "docs/semihosting__filesystem___spec.html#L111C9"
       }
     ]
   },
   {
     "label": "Filesystem_Driver",
-    "docHref": "docs/hal__filesystem___spec.html#L79C9",
+    "docHref": "docs/hal__filesystem___spec.html#L81C9",
     "inherited": [
       {
         "label": "SHFS",
-        "docHref": "docs/semihosting__filesystem___spec.html#L42C9"
+        "docHref": "docs/semihosting__filesystem___spec.html#L43C9"
       }
     ]
   },
   {
     "label": "Frame_Buffer_Display",
-    "docHref": "docs/hal__framebuffer___spec.html#L44C9"
+    "docHref": "docs/hal__framebuffer___spec.html#L45C9"
   },
   {
     "label": "GPIO_Point",
-    "docHref": "docs/hal__gpio___spec.html#L47C9",
+    "docHref": "docs/hal__gpio___spec.html#L48C9",
     "inherited": [
       {
         "label": "GPIO_Point",
-        "docHref": "docs/rp__gpio___spec.html#L18C9"
+        "docHref": "docs/rp__gpio___spec.html#L20C9"
       }
     ]
   },
   {
     "label": "I2C_Port",
-    "docHref": "docs/hal__i2c___spec.html#L48C9",
+    "docHref": "docs/hal__i2c___spec.html#L49C9",
     "inherited": [
       {
         "label": "I2C_Master_Port",
-        "docHref": "docs/rp__i2c_master___spec.html#L17C9"
+        "docHref": "docs/rp__i2c_master___spec.html#L21C9"
       }
     ]
   },
   {
+    "label": "I2C_Port",
+    "docHref": "docs/rp__i2c___spec.html#L10C9"
+  },
+  {
     "label": "Node_Handle",
-    "docHref": "docs/hal__filesystem___spec.html#L88C9"
+    "docHref": "docs/hal__filesystem___spec.html#L90C9"
   },
   {
     "label": "PIO_Device",
-    "docHref": "docs/rp__pio___spec.html#L17C9"
+    "docHref": "docs/rp__pio___spec.html#L19C9"
   },
   {
     "label": "RTC_Device",
-    "docHref": "docs/hal__real_time_clock___spec.html#L79C9",
+    "docHref": "docs/hal__real_time_clock___spec.html#L80C9",
     "inherited": [
       {
         "label": "RTC_Device",
-        "docHref": "docs/rp__rtc___spec.html#L11C9"
+        "docHref": "docs/rp__rtc___spec.html#L13C9"
       }
     ]
   },
   {
     "label": "SDMMC_Driver",
-    "docHref": "docs/hal__sdmmc___spec.html#L380C9"
+    "docHref": "docs/hal__sdmmc___spec.html#L381C9"
   },
   {
     "label": "SPI_Port",
-    "docHref": "docs/hal__spi___spec.html#L48C9",
+    "docHref": "docs/hal__spi___spec.html#L49C9",
     "inherited": [
       {
         "label": "SPI_Port",
-        "docHref": "docs/rp__spi___spec.html#L13C9"
+        "docHref": "docs/rp__spi___spec.html#L15C9"
       }
     ]
   },
   {
     "label": "Strip",
-    "docHref": "docs/rp__pio__ws2812___spec.html#L11C9"
+    "docHref": "docs/rp__pio__ws2812___spec.html#L13C9"
   },
   {
     "label": "Touch_Panel_Device",
-    "docHref": "docs/hal__touch_panel___spec.html#L52C9"
+    "docHref": "docs/hal__touch_panel___spec.html#L53C9"
   },
   {
     "label": "UART_Port",
-    "docHref": "docs/hal__uart___spec.html#L48C9",
+    "docHref": "docs/hal__uart___spec.html#L49C9",
     "inherited": [
       {
         "label": "UART_Port",
-        "docHref": "docs/rp__uart___spec.html#L15C9"
+        "docHref": "docs/rp__uart___spec.html#L38C9"
       }
     ]
   },
@@ -161,7 +165,7 @@ GNATdoc.InheritanceIndex = [
       },
       {
         "label": "Default_Serial_Class",
-        "docHref": "docs/usb__device__serial___spec.html#L37C9"
+        "docHref": "docs/usb__device__serial___spec.html#L38C9"
       }
     ]
   },

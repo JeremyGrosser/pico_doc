@@ -100,7 +100,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USB_Device_Stack",
-                      "href": "docs/usb__device___spec.html#L200C9"
+                      "href": "docs/usb__device___spec.html#L217C9"
                     },
                     {
                       "kind": "span",
@@ -223,7 +223,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USB_Device_Stack",
-                      "href": "docs/usb__device___spec.html#L200C9"
+                      "href": "docs/usb__device___spec.html#L217C9"
                     },
                     {
                       "kind": "span",
@@ -260,13 +260,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "UInt11",
-                      "href": "docs/hal___spec.html#L56C9"
+                      "text": "Packet_Size",
+                      "href": "docs/usb___spec.html#L41C9"
                     },
                     {
                       "kind": "span",
@@ -309,8 +309,8 @@ GNATdoc.Documentation = {
               "line": 41,
               "column": 27,
               "type": {
-                "label": "HAL.UInt11",
-                "docHref": "docs/hal___spec.html#L56C9"
+                "label": "USB.Packet_Size",
+                "docHref": "docs/usb___spec.html#L41C9"
               },
               "description": [
               ]
@@ -409,7 +409,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USB_Device_Stack",
-                      "href": "docs/usb__device___spec.html#L200C9"
+                      "href": "docs/usb__device___spec.html#L217C9"
                     },
                     {
                       "kind": "span",
@@ -452,7 +452,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "EP_Id",
-                      "href": "docs/usb___spec.html#L39C12"
+                      "href": "docs/usb___spec.html#L44C12"
                     },
                     {
                       "kind": "span",
@@ -496,7 +496,7 @@ GNATdoc.Documentation = {
               "column": 21,
               "type": {
                 "label": "USB.EP_Id",
-                "docHref": "docs/usb___spec.html#L39C12"
+                "docHref": "docs/usb___spec.html#L44C12"
               },
               "description": [
               ]

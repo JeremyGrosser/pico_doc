@@ -311,8 +311,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "UInt11",
-                      "href": "docs/hal___spec.html#L56C9"
+                      "text": "Packet_Size",
+                      "href": "docs/usb___spec.html#L41C9"
                     },
                     {
                       "kind": "span",
@@ -383,8 +383,8 @@ GNATdoc.Documentation = {
               "line": 54,
               "column": 23,
               "type": {
-                "label": "HAL.UInt11",
-                "docHref": "docs/hal___spec.html#L56C9"
+                "label": "USB.Packet_Size",
+                "docHref": "docs/usb___spec.html#L41C9"
               },
               "description": [
               ]
@@ -862,8 +862,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HAL.UInt11",
-                      "href": "docs/hal___spec.html#L56C9"
+                      "text": "Packet_Size",
+                      "href": "docs/usb___spec.html#L41C9"
                     },
                     {
                       "kind": "span",
@@ -906,8 +906,8 @@ GNATdoc.Documentation = {
               "line": 44,
               "column": 47,
               "type": {
-                "label": "HAL.UInt11",
-                "docHref": "docs/hal___spec.html#L56C9"
+                "label": "USB.Packet_Size",
+                "docHref": "docs/usb___spec.html#L41C9"
               },
               "description": [
               ]

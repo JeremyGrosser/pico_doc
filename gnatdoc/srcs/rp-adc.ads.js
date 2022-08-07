@@ -211,12 +211,39 @@ GNATdoc.SourceFile = {
           "cssClass": "identifier",
           "text": "RP.ADC",
           "href": "docs/rp__adc___spec.html#L12C12"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 13,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
         },
         {
           "kind": "span",
           "cssClass": "text",
           "text": " "
         },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Preelaborate"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 14,
+      "children": [
         {
           "kind": "span",
           "cssClass": "keyword",
@@ -226,7 +253,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 13,
+      "number": 15,
       "children": [
         {
           "kind": "span",
@@ -247,7 +274,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Analog_Value",
-          "href": "docs/rp__adc___spec.html#L13C12"
+          "href": "docs/rp__adc___spec.html#L15C12"
         },
         {
           "kind": "span",
@@ -279,13 +306,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 14,
+      "number": 16,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 15,
+      "number": 17,
       "children": [
         {
           "kind": "span",
@@ -306,7 +333,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ADC_Channel",
-          "href": "docs/rp__adc___spec.html#L15C12"
+          "href": "docs/rp__adc___spec.html#L17C12"
         },
         {
           "kind": "span",
@@ -377,13 +404,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 16,
+      "number": 18,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 117,
+      "number": 119,
       "children": [
         {
           "kind": "span",

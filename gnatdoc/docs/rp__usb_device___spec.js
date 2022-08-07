@@ -121,7 +121,7 @@ GNATdoc.Documentation = {
         {
           "label": "Early_Address",
           "qualifier": "",
-          "line": 82,
+          "line": 78,
           "column": 13,
           "src": "srcs/rp-usb_device.ads.html",
           "summary": [
@@ -132,7 +132,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 82,
+                  "number": 78,
                   "children": [
                     {
                       "kind": "span",
@@ -148,7 +148,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 83,
+                  "number": 79,
                   "children": [
                     {
                       "kind": "span",
@@ -174,7 +174,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 84,
+                  "number": 80,
                   "children": [
                     {
                       "kind": "span",
@@ -220,7 +220,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 85,
+                  "number": 81,
                   "children": [
                     {
                       "kind": "span",
@@ -255,7 +255,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 83,
+              "line": 79,
               "column": 8,
               "type": {
                 "label": "RP.USB_Device.USB_Device_Controller",
@@ -269,7 +269,7 @@ GNATdoc.Documentation = {
         {
           "label": "EP_Ready_For_Data",
           "qualifier": "",
-          "line": 63,
+          "line": 60,
           "column": 14,
           "src": "srcs/rp-usb_device.ads.html",
           "summary": [
@@ -280,7 +280,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 63,
+                  "number": 60,
                   "children": [
                     {
                       "kind": "span",
@@ -296,7 +296,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 64,
+                  "number": 61,
                   "children": [
                     {
                       "kind": "span",
@@ -322,7 +322,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 65,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -338,7 +338,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__usb_device___spec.html#L65C8"
+                      "href": "docs/rp__usb_device___spec.html#L62C8"
                     },
                     {
                       "kind": "span",
@@ -389,7 +389,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 66,
+                  "number": 63,
                   "children": [
                     {
                       "kind": "span",
@@ -400,7 +400,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Ep",
-                      "href": "docs/rp__usb_device___spec.html#L66C8"
+                      "href": "docs/rp__usb_device___spec.html#L63C8"
                     },
                     {
                       "kind": "span",
@@ -420,7 +420,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "USB.EP_Id"
+                      "text": "USB.EP_Id",
+                      "href": "docs/usb___spec.html#L41C9"
                     },
                     {
                       "kind": "span",
@@ -431,49 +432,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 67,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Addr",
-                      "href": "docs/rp__usb_device___spec.html#L67C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "System.Address"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 68,
+                  "number": 64,
                   "children": [
                     {
                       "kind": "span",
@@ -484,7 +443,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Max_Len",
-                      "href": "docs/rp__usb_device___spec.html#L68C8"
+                      "href": "docs/rp__usb_device___spec.html#L64C8"
                     },
                     {
                       "kind": "span",
@@ -504,7 +463,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "UInt32"
+                      "text": "USB.Packet_Size"
                     },
                     {
                       "kind": "span",
@@ -515,7 +474,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 69,
+                  "number": 65,
                   "children": [
                     {
                       "kind": "span",
@@ -585,7 +544,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 64,
+              "line": 61,
               "column": 8,
               "type": {
                 "label": "RP.USB_Device.USB_Device_Controller",
@@ -596,39 +555,29 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Ep",
-              "line": 65,
+              "line": 62,
               "column": 8,
               "type": {
                 "label": "USB.EP_Id",
-                "docHref": "docs/usb___spec.html#L39C12"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Addr",
-              "line": 66,
-              "column": 8,
-              "type": {
-                "label": "Address"
+                "docHref": "docs/usb___spec.html#L44C12"
               },
               "description": [
               ]
             },
             {
               "label": "Max_Len",
-              "line": 67,
+              "line": 63,
               "column": 8,
               "type": {
-                "label": "HAL.UInt32",
-                "docHref": "docs/hal___spec.html#L97C9"
+                "label": "USB.Packet_Size",
+                "docHref": "docs/usb___spec.html#L41C9"
               },
               "description": [
               ]
             },
             {
               "label": "Ready",
-              "line": 68,
+              "line": 64,
               "column": 8,
               "type": {
                 "label": "Boolean"
@@ -639,9 +588,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "EP_Setup",
+          "label": "EP_Send_Packet",
           "qualifier": "",
-          "line": 56,
+          "line": 48,
           "column": 14,
           "src": "srcs/rp-usb_device.ads.html",
           "summary": [
@@ -652,7 +601,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -668,7 +617,256 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 57,
+                  "number": 49,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "EP_Send_Packet"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 50,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__usb_device___spec.html#L50C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "USB_Device_Controller"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 51,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Ep",
+                      "href": "docs/rp__usb_device___spec.html#L51C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "USB.EP_Id",
+                      "href": "docs/usb___spec.html#L41C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 52,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Len"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "USB.Packet_Size"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 49,
+              "column": 8,
+              "type": {
+                "label": "RP.USB_Device.USB_Device_Controller",
+                "docHref": "docs/rp__usb_device___spec.html#L15C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Ep",
+              "line": 50,
+              "column": 8,
+              "type": {
+                "label": "USB.EP_Id",
+                "docHref": "docs/usb___spec.html#L44C12"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Len",
+              "line": 51,
+              "column": 8,
+              "type": {
+                "label": "USB.Packet_Size",
+                "docHref": "docs/usb___spec.html#L41C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "EP_Setup",
+          "qualifier": "",
+          "line": 54,
+          "column": 14,
+          "src": "srcs/rp-usb_device.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 54,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "overriding"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -694,7 +892,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 58,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -710,7 +908,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__usb_device___spec.html#L58C8"
+                      "href": "docs/rp__usb_device___spec.html#L56C8"
                     },
                     {
                       "kind": "span",
@@ -761,7 +959,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 59,
+                  "number": 57,
                   "children": [
                     {
                       "kind": "span",
@@ -772,7 +970,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Ep",
-                      "href": "docs/rp__usb_device___spec.html#L59C8"
+                      "href": "docs/rp__usb_device___spec.html#L57C8"
                     },
                     {
                       "kind": "span",
@@ -793,7 +991,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "USB.EP_Addr",
-                      "href": "docs/usb___spec.html#L48C9"
+                      "href": "docs/usb___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -804,7 +1002,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 60,
+                  "number": 58,
                   "children": [
                     {
                       "kind": "span",
@@ -814,8 +1012,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Typ",
-                      "href": "docs/rp__usb_device___spec.html#L60C8"
+                      "text": "Typ"
                     },
                     {
                       "kind": "span",
@@ -840,47 +1037,6 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 61,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Max_Size"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "UInt16"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
                       "text": ")"
                     },
                     {
@@ -896,7 +1052,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 57,
+              "line": 55,
               "column": 8,
               "type": {
                 "label": "RP.USB_Device.USB_Device_Controller",
@@ -907,33 +1063,22 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Ep",
-              "line": 58,
+              "line": 56,
               "column": 8,
               "type": {
                 "label": "USB.EP_Addr",
-                "docHref": "docs/usb___spec.html#L43C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Typ",
-              "line": 59,
-              "column": 8,
-              "type": {
-                "label": "USB.EP_Type",
                 "docHref": "docs/usb___spec.html#L48C9"
               },
               "description": [
               ]
             },
             {
-              "label": "Max_Size",
-              "line": 60,
+              "label": "Typ",
+              "line": 57,
               "column": 8,
               "type": {
-                "label": "HAL.UInt16",
-                "docHref": "docs/hal___spec.html#L66C9"
+                "label": "USB.EP_Type",
+                "docHref": "docs/usb___spec.html#L53C9"
               },
               "description": [
               ]
@@ -943,7 +1088,7 @@ GNATdoc.Documentation = {
         {
           "label": "EP_Stall",
           "qualifier": "",
-          "line": 71,
+          "line": 67,
           "column": 14,
           "src": "srcs/rp-usb_device.ads.html",
           "summary": [
@@ -954,7 +1099,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 67,
                   "children": [
                     {
                       "kind": "span",
@@ -970,7 +1115,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 72,
+                  "number": 68,
                   "children": [
                     {
                       "kind": "span",
@@ -996,7 +1141,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 73,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",
@@ -1012,7 +1157,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__usb_device___spec.html#L73C8"
+                      "href": "docs/rp__usb_device___spec.html#L69C8"
                     },
                     {
                       "kind": "span",
@@ -1063,7 +1208,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 74,
+                  "number": 70,
                   "children": [
                     {
                       "kind": "span",
@@ -1074,7 +1219,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Ep",
-                      "href": "docs/rp__usb_device___spec.html#L74C8"
+                      "href": "docs/rp__usb_device___spec.html#L70C8"
                     },
                     {
                       "kind": "span",
@@ -1105,7 +1250,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 75,
+                  "number": 71,
                   "children": [
                     {
                       "kind": "span",
@@ -1175,7 +1320,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 72,
+              "line": 68,
               "column": 8,
               "type": {
                 "label": "RP.USB_Device.USB_Device_Controller",
@@ -1186,321 +1331,21 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Ep",
-              "line": 73,
+              "line": 69,
               "column": 8,
               "type": {
                 "label": "USB.EP_Addr",
-                "docHref": "docs/usb___spec.html#L43C9"
+                "docHref": "docs/usb___spec.html#L48C9"
               },
               "description": [
               ]
             },
             {
               "label": "Set",
-              "line": 74,
+              "line": 70,
               "column": 8,
               "type": {
                 "label": "Boolean"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "EP_Write_Packet",
-          "qualifier": "",
-          "line": 49,
-          "column": 14,
-          "src": "srcs/rp-usb_device.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 49,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "overriding"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 50,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "EP_Write_Packet"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 51,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "This",
-                      "href": "docs/rp__usb_device___spec.html#L51C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "in"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "out"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "USB_Device_Controller"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 52,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Ep",
-                      "href": "docs/rp__usb_device___spec.html#L52C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "USB.EP_Id"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 53,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Addr",
-                      "href": "docs/rp__usb_device___spec.html#L53C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "System.Address"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 54,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Len"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "UInt32"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "This",
-              "line": 50,
-              "column": 8,
-              "type": {
-                "label": "RP.USB_Device.USB_Device_Controller",
-                "docHref": "docs/rp__usb_device___spec.html#L15C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Ep",
-              "line": 51,
-              "column": 8,
-              "type": {
-                "label": "USB.EP_Id",
-                "docHref": "docs/usb___spec.html#L39C12"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Addr",
-              "line": 52,
-              "column": 8,
-              "type": {
-                "label": "Address"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Len",
-              "line": 53,
-              "column": 8,
-              "type": {
-                "label": "HAL.UInt32",
-                "docHref": "docs/hal___spec.html#L97C9"
               },
               "description": [
               ]
@@ -1878,7 +1723,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -1889,12 +1734,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__usb_device___spec.html#L37C8"
+                      "href": "docs/rp__usb_device___spec.html#L37C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "          "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -1945,18 +1790,18 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "       "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Ep",
-                      "href": "docs/rp__usb_device___spec.html#L38C8"
+                      "href": "docs/rp__usb_device___spec.html#L38C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "            "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -1971,7 +1816,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "USB.EP_Addr"
+                      "text": "USB.EP_Addr",
+                      "href": "docs/usb___spec.html#L41C9"
                     },
                     {
                       "kind": "span",
@@ -1987,18 +1833,17 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "       "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Len",
-                      "href": "docs/rp__usb_device___spec.html#L39C8"
+                      "text": "Len"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "           "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -2013,69 +1858,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "UInt11",
-                      "href": "docs/hal___spec.html#L53C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 40,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Min_Alignment"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "UInt8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "number",
-                      "text": "1"
+                      "text": "USB.Packet_Size"
                     },
                     {
                       "kind": "span",
@@ -2086,7 +1869,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -2122,7 +1905,7 @@ GNATdoc.Documentation = {
             {
               "label": "This",
               "line": 36,
-              "column": 8,
+              "column": 7,
               "type": {
                 "label": "RP.USB_Device.USB_Device_Controller",
                 "docHref": "docs/rp__usb_device___spec.html#L15C9"
@@ -2133,10 +1916,10 @@ GNATdoc.Documentation = {
             {
               "label": "Ep",
               "line": 37,
-              "column": 8,
+              "column": 7,
               "type": {
                 "label": "USB.EP_Addr",
-                "docHref": "docs/usb___spec.html#L43C9"
+                "docHref": "docs/usb___spec.html#L48C9"
               },
               "description": [
               ]
@@ -2144,21 +1927,10 @@ GNATdoc.Documentation = {
             {
               "label": "Len",
               "line": 38,
-              "column": 8,
+              "column": 7,
               "type": {
-                "label": "HAL.UInt11",
-                "docHref": "docs/hal___spec.html#L56C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Min_Alignment",
-              "line": 39,
-              "column": 8,
-              "type": {
-                "label": "HAL.UInt8",
-                "docHref": "docs/hal___spec.html#L53C9"
+                "label": "USB.Packet_Size",
+                "docHref": "docs/usb___spec.html#L41C9"
               },
               "description": [
               ]
@@ -2310,7 +2082,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Address",
           "qualifier": "",
-          "line": 77,
+          "line": 73,
           "column": 14,
           "src": "srcs/rp-usb_device.ads.html",
           "summary": [
@@ -2321,7 +2093,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 77,
+                  "number": 73,
                   "children": [
                     {
                       "kind": "span",
@@ -2337,7 +2109,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 78,
+                  "number": 74,
                   "children": [
                     {
                       "kind": "span",
@@ -2363,7 +2135,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 79,
+                  "number": 75,
                   "children": [
                     {
                       "kind": "span",
@@ -2379,7 +2151,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__usb_device___spec.html#L79C8"
+                      "href": "docs/rp__usb_device___spec.html#L75C8"
                     },
                     {
                       "kind": "span",
@@ -2430,7 +2202,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 80,
+                  "number": 76,
                   "children": [
                     {
                       "kind": "span",
@@ -2480,7 +2252,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 78,
+              "line": 74,
               "column": 8,
               "type": {
                 "label": "RP.USB_Device.USB_Device_Controller",
@@ -2491,7 +2263,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Addr",
-              "line": 79,
+              "line": 75,
               "column": 8,
               "type": {
                 "label": "HAL.UInt7",
@@ -2647,7 +2419,7 @@ GNATdoc.Documentation = {
         {
           "label": "Valid_EP_Id",
           "qualifier": "",
-          "line": 43,
+          "line": 42,
           "column": 13,
           "src": "srcs/rp-usb_device.ads.html",
           "summary": [
@@ -2658,7 +2430,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -2674,7 +2446,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -2700,7 +2472,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -2716,7 +2488,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "This",
-                      "href": "docs/rp__usb_device___spec.html#L45C8"
+                      "href": "docs/rp__usb_device___spec.html#L44C8"
                     },
                     {
                       "kind": "span",
@@ -2767,7 +2539,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 45,
                   "children": [
                     {
                       "kind": "span",
@@ -2777,7 +2549,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "EP"
+                      "text": "Ep"
                     },
                     {
                       "kind": "span",
@@ -2808,7 +2580,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -2843,7 +2615,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "This",
-              "line": 44,
+              "line": 43,
               "column": 8,
               "type": {
                 "label": "RP.USB_Device.USB_Device_Controller",
@@ -2853,12 +2625,12 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "EP",
-              "line": 45,
+              "label": "Ep",
+              "line": 44,
               "column": 8,
               "type": {
                 "label": "USB.EP_Id",
-                "docHref": "docs/usb___spec.html#L39C12"
+                "docHref": "docs/usb___spec.html#L44C12"
               },
               "description": [
               ]

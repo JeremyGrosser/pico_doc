@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Data_Synchronization_Barrier",
           "qualifier": "",
-          "line": 36,
+          "line": 37,
           "column": 14,
           "src": "srcs/memory_barriers.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Data_Synchronization_Barrier",
-                      "href": "docs/memory_barriers___spec.html#L36C14"
+                      "href": "docs/memory_barriers___spec.html#L37C14"
                     },
                     {
                       "kind": "span",
@@ -83,7 +83,7 @@ GNATdoc.Documentation = {
         {
           "label": "DSB",
           "qualifier": "",
-          "line": 39,
+          "line": 40,
           "column": 14,
           "src": "srcs/memory_barriers.ads.html",
           "summary": [
@@ -94,7 +94,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -115,7 +115,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DSB",
-                      "href": "docs/memory_barriers___spec.html#L39C14"
+                      "href": "docs/memory_barriers___spec.html#L40C14"
                     },
                     {
                       "kind": "span",

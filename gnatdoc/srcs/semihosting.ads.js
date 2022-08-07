@@ -431,11 +431,42 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 36,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "pragma"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Preelaborate"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 37,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 38,
       "children": [
         {
           "kind": "span",
@@ -456,7 +487,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SH_Word",
-          "href": "docs/semihosting___spec.html#L37C9"
+          "href": "docs/semihosting___spec.html#L38C9"
         },
         {
           "kind": "span",
@@ -498,13 +529,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 39,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 40,
       "children": [
         {
           "kind": "span",
@@ -525,7 +556,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flag",
-          "href": "docs/semihosting___spec.html#L39C12"
+          "href": "docs/semihosting___spec.html#L40C12"
         },
         {
           "kind": "span",
@@ -546,7 +577,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SH_Word",
-          "href": "docs/semihosting___spec.html#L37C9"
+          "href": "docs/semihosting___spec.html#L38C9"
         },
         {
           "kind": "span",
@@ -557,13 +588,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 41,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 42,
       "children": [
         {
           "kind": "span",
@@ -574,7 +605,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OPEN_FLAG_R",
-          "href": "docs/semihosting___spec.html#L41C4"
+          "href": "docs/semihosting___spec.html#L42C4"
         },
         {
           "kind": "span",
@@ -605,7 +636,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flag",
-          "href": "docs/semihosting___spec.html#L39C12"
+          "href": "docs/semihosting___spec.html#L40C12"
         },
         {
           "kind": "span",
@@ -636,7 +667,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -647,7 +678,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OPEN_FLAG_RB",
-          "href": "docs/semihosting___spec.html#L42C4"
+          "href": "docs/semihosting___spec.html#L43C4"
         },
         {
           "kind": "span",
@@ -678,7 +709,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flag",
-          "href": "docs/semihosting___spec.html#L39C12"
+          "href": "docs/semihosting___spec.html#L40C12"
         },
         {
           "kind": "span",
@@ -709,7 +740,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -720,7 +751,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OPEN_FLAG_R_PLUS",
-          "href": "docs/semihosting___spec.html#L43C4"
+          "href": "docs/semihosting___spec.html#L44C4"
         },
         {
           "kind": "span",
@@ -751,7 +782,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flag",
-          "href": "docs/semihosting___spec.html#L39C12"
+          "href": "docs/semihosting___spec.html#L40C12"
         },
         {
           "kind": "span",
@@ -782,7 +813,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 45,
       "children": [
         {
           "kind": "span",
@@ -793,7 +824,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OPEN_FLAG_R_PLUS_B",
-          "href": "docs/semihosting___spec.html#L44C4"
+          "href": "docs/semihosting___spec.html#L45C4"
         },
         {
           "kind": "span",
@@ -824,7 +855,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flag",
-          "href": "docs/semihosting___spec.html#L39C12"
+          "href": "docs/semihosting___spec.html#L40C12"
         },
         {
           "kind": "span",
@@ -855,7 +886,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 46,
       "children": [
         {
           "kind": "span",
@@ -866,7 +897,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OPEN_FLAG_W",
-          "href": "docs/semihosting___spec.html#L45C4"
+          "href": "docs/semihosting___spec.html#L46C4"
         },
         {
           "kind": "span",
@@ -897,7 +928,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flag",
-          "href": "docs/semihosting___spec.html#L39C12"
+          "href": "docs/semihosting___spec.html#L40C12"
         },
         {
           "kind": "span",
@@ -928,7 +959,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 47,
       "children": [
         {
           "kind": "span",
@@ -939,7 +970,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OPEN_FLAG_WB",
-          "href": "docs/semihosting___spec.html#L46C4"
+          "href": "docs/semihosting___spec.html#L47C4"
         },
         {
           "kind": "span",
@@ -970,7 +1001,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flag",
-          "href": "docs/semihosting___spec.html#L39C12"
+          "href": "docs/semihosting___spec.html#L40C12"
         },
         {
           "kind": "span",
@@ -1001,7 +1032,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 47,
+      "number": 48,
       "children": [
         {
           "kind": "span",
@@ -1012,7 +1043,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OPEN_FLAG_W_PLUS",
-          "href": "docs/semihosting___spec.html#L47C4"
+          "href": "docs/semihosting___spec.html#L48C4"
         },
         {
           "kind": "span",
@@ -1043,7 +1074,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flag",
-          "href": "docs/semihosting___spec.html#L39C12"
+          "href": "docs/semihosting___spec.html#L40C12"
         },
         {
           "kind": "span",
@@ -1074,7 +1105,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 49,
       "children": [
         {
           "kind": "span",
@@ -1085,7 +1116,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OPEN_FLAG_W_PLUS_B",
-          "href": "docs/semihosting___spec.html#L48C4"
+          "href": "docs/semihosting___spec.html#L49C4"
         },
         {
           "kind": "span",
@@ -1116,7 +1147,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flag",
-          "href": "docs/semihosting___spec.html#L39C12"
+          "href": "docs/semihosting___spec.html#L40C12"
         },
         {
           "kind": "span",
@@ -1147,7 +1178,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 49,
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -1158,7 +1189,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OPEN_FLAG_A",
-          "href": "docs/semihosting___spec.html#L49C4"
+          "href": "docs/semihosting___spec.html#L50C4"
         },
         {
           "kind": "span",
@@ -1189,7 +1220,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flag",
-          "href": "docs/semihosting___spec.html#L39C12"
+          "href": "docs/semihosting___spec.html#L40C12"
         },
         {
           "kind": "span",
@@ -1220,7 +1251,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 51,
       "children": [
         {
           "kind": "span",
@@ -1231,7 +1262,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OPEN_FLAG_AB",
-          "href": "docs/semihosting___spec.html#L50C4"
+          "href": "docs/semihosting___spec.html#L51C4"
         },
         {
           "kind": "span",
@@ -1262,7 +1293,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flag",
-          "href": "docs/semihosting___spec.html#L39C12"
+          "href": "docs/semihosting___spec.html#L40C12"
         },
         {
           "kind": "span",
@@ -1293,7 +1324,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 52,
       "children": [
         {
           "kind": "span",
@@ -1304,7 +1335,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OPEN_FLAG_A_PLUS",
-          "href": "docs/semihosting___spec.html#L51C4"
+          "href": "docs/semihosting___spec.html#L52C4"
         },
         {
           "kind": "span",
@@ -1335,7 +1366,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flag",
-          "href": "docs/semihosting___spec.html#L39C12"
+          "href": "docs/semihosting___spec.html#L40C12"
         },
         {
           "kind": "span",
@@ -1366,7 +1397,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 52,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -1377,7 +1408,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OPEN_FLAG_A_PLUS_B",
-          "href": "docs/semihosting___spec.html#L52C4"
+          "href": "docs/semihosting___spec.html#L53C4"
         },
         {
           "kind": "span",
@@ -1408,7 +1439,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flag",
-          "href": "docs/semihosting___spec.html#L39C12"
+          "href": "docs/semihosting___spec.html#L40C12"
         },
         {
           "kind": "span",
@@ -1439,13 +1470,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 53,
+      "number": 54,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 54,
+      "number": 55,
       "children": [
         {
           "kind": "span",
@@ -1466,7 +1497,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Write_C",
-          "href": "docs/semihosting___spec.html#L54C14"
+          "href": "docs/semihosting___spec.html#L55C14"
         },
         {
           "kind": "span",
@@ -1482,7 +1513,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "C",
-          "href": "docs/semihosting___spec.html#L54C23"
+          "href": "docs/semihosting___spec.html#L55C23"
         },
         {
           "kind": "span",
@@ -1518,7 +1549,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 55,
+      "number": 56,
       "children": [
         {
           "kind": "span",
@@ -1539,7 +1570,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Write_0",
-          "href": "docs/semihosting___spec.html#L55C14"
+          "href": "docs/semihosting___spec.html#L56C14"
         },
         {
           "kind": "span",
@@ -1555,7 +1586,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Str",
-          "href": "docs/semihosting___spec.html#L55C23"
+          "href": "docs/semihosting___spec.html#L56C23"
         },
         {
           "kind": "span",
@@ -1591,7 +1622,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 57,
       "children": [
         {
           "kind": "span",
@@ -1612,7 +1643,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Close",
-          "href": "docs/semihosting___spec.html#L56C13"
+          "href": "docs/semihosting___spec.html#L57C13"
         },
         {
           "kind": "span",
@@ -1628,7 +1659,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Handle",
-          "href": "docs/semihosting___spec.html#L56C20"
+          "href": "docs/semihosting___spec.html#L57C20"
         },
         {
           "kind": "span",
@@ -1649,7 +1680,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SH_Word",
-          "href": "docs/semihosting___spec.html#L37C9"
+          "href": "docs/semihosting___spec.html#L38C9"
         },
         {
           "kind": "span",
@@ -1675,7 +1706,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SH_Word",
-          "href": "docs/semihosting___spec.html#L37C9"
+          "href": "docs/semihosting___spec.html#L38C9"
         },
         {
           "kind": "span",
@@ -1686,7 +1717,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 57,
+      "number": 58,
       "children": [
         {
           "kind": "span",
@@ -1707,7 +1738,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Open",
-          "href": "docs/semihosting___spec.html#L57C13"
+          "href": "docs/semihosting___spec.html#L58C13"
         },
         {
           "kind": "span",
@@ -1723,7 +1754,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Filename",
-          "href": "docs/semihosting___spec.html#L57C19"
+          "href": "docs/semihosting___spec.html#L58C19"
         },
         {
           "kind": "span",
@@ -1759,7 +1790,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Mode",
-          "href": "docs/semihosting___spec.html#L57C38"
+          "href": "docs/semihosting___spec.html#L58C38"
         },
         {
           "kind": "span",
@@ -1780,7 +1811,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flag",
-          "href": "docs/semihosting___spec.html#L39C12"
+          "href": "docs/semihosting___spec.html#L40C12"
         },
         {
           "kind": "span",
@@ -1806,7 +1837,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SH_Word",
-          "href": "docs/semihosting___spec.html#L37C9"
+          "href": "docs/semihosting___spec.html#L38C9"
         },
         {
           "kind": "span",
@@ -1817,7 +1848,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 59,
       "children": [
         {
           "kind": "span",
@@ -1838,7 +1869,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Read",
-          "href": "docs/semihosting___spec.html#L58C13"
+          "href": "docs/semihosting___spec.html#L59C13"
         },
         {
           "kind": "span",
@@ -1854,7 +1885,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Handle",
-          "href": "docs/semihosting___spec.html#L58C19"
+          "href": "docs/semihosting___spec.html#L59C19"
         },
         {
           "kind": "span",
@@ -1875,49 +1906,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SH_Word",
-          "href": "docs/semihosting___spec.html#L37C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 59,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "                  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Buffer_Address",
-          "href": "docs/semihosting___spec.html#L59C19"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "System.Address"
+          "href": "docs/semihosting___spec.html#L38C9"
         },
         {
           "kind": "span",
@@ -1938,146 +1927,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Buffer_Size",
-          "href": "docs/semihosting___spec.html#L60C19"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "SH_Word",
-          "href": "docs/semihosting___spec.html#L37C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "SH_Word",
-          "href": "docs/semihosting___spec.html#L37C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 61,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Write",
-          "href": "docs/semihosting___spec.html#L61C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "File_Handle",
-          "href": "docs/semihosting___spec.html#L61C20"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "SH_Word",
-          "href": "docs/semihosting___spec.html#L37C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 62,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "                   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
           "text": "Buffer_Address",
-          "href": "docs/semihosting___spec.html#L62C20"
+          "href": "docs/semihosting___spec.html#L60C19"
         },
         {
           "kind": "span",
@@ -2108,18 +1959,18 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 61,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "                   "
+          "text": "                  "
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Buffer_Size",
-          "href": "docs/semihosting___spec.html#L63C20"
+          "href": "docs/semihosting___spec.html#L61C19"
         },
         {
           "kind": "span",
@@ -2140,7 +1991,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SH_Word",
-          "href": "docs/semihosting___spec.html#L37C9"
+          "href": "docs/semihosting___spec.html#L38C9"
         },
         {
           "kind": "span",
@@ -2166,7 +2017,118 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SH_Word",
-          "href": "docs/semihosting___spec.html#L37C9"
+          "href": "docs/semihosting___spec.html#L38C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 62,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Write",
+          "href": "docs/semihosting___spec.html#L62C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "File_Handle",
+          "href": "docs/semihosting___spec.html#L62C20"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "SH_Word",
+          "href": "docs/semihosting___spec.html#L38C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 63,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Buffer_Address",
+          "href": "docs/semihosting___spec.html#L63C20"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "System.Address"
         },
         {
           "kind": "span",
@@ -2178,6 +2140,75 @@ GNATdoc.SourceFile = {
     {
       "kind": "line",
       "number": 64,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Buffer_Size",
+          "href": "docs/semihosting___spec.html#L64C20"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "SH_Word",
+          "href": "docs/semihosting___spec.html#L38C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "SH_Word",
+          "href": "docs/semihosting___spec.html#L38C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 65,
       "children": [
         {
           "kind": "span",
@@ -2198,7 +2229,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Remove",
-          "href": "docs/semihosting___spec.html#L64C13"
+          "href": "docs/semihosting___spec.html#L65C13"
         },
         {
           "kind": "span",
@@ -2214,7 +2245,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Filename",
-          "href": "docs/semihosting___spec.html#L64C21"
+          "href": "docs/semihosting___spec.html#L65C21"
         },
         {
           "kind": "span",
@@ -2260,7 +2291,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SH_Word",
-          "href": "docs/semihosting___spec.html#L37C9"
+          "href": "docs/semihosting___spec.html#L38C9"
         },
         {
           "kind": "span",
@@ -2271,7 +2302,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 65,
+      "number": 66,
       "children": [
         {
           "kind": "span",
@@ -2292,7 +2323,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Seek",
-          "href": "docs/semihosting___spec.html#L65C13"
+          "href": "docs/semihosting___spec.html#L66C13"
         },
         {
           "kind": "span",
@@ -2308,49 +2339,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "File_Handle",
-          "href": "docs/semihosting___spec.html#L65C19"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "SH_Word",
-          "href": "docs/semihosting___spec.html#L37C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 66,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "                  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Absolute_Position",
           "href": "docs/semihosting___spec.html#L66C19"
         },
         {
@@ -2372,7 +2360,50 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SH_Word",
-          "href": "docs/semihosting___spec.html#L37C9"
+          "href": "docs/semihosting___spec.html#L38C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 67,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Absolute_Position",
+          "href": "docs/semihosting___spec.html#L67C19"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "SH_Word",
+          "href": "docs/semihosting___spec.html#L38C9"
         },
         {
           "kind": "span",
@@ -2398,7 +2429,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SH_Word",
-          "href": "docs/semihosting___spec.html#L37C9"
+          "href": "docs/semihosting___spec.html#L38C9"
         },
         {
           "kind": "span",
@@ -2409,7 +2440,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 67,
+      "number": 68,
       "children": [
         {
           "kind": "span",
@@ -2430,7 +2461,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Errno",
-          "href": "docs/semihosting___spec.html#L67C13"
+          "href": "docs/semihosting___spec.html#L68C13"
         },
         {
           "kind": "span",
@@ -2451,7 +2482,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SH_Word",
-          "href": "docs/semihosting___spec.html#L37C9"
+          "href": "docs/semihosting___spec.html#L38C9"
         },
         {
           "kind": "span",
@@ -2462,13 +2493,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 68,
+      "number": 69,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 69,
+      "number": 70,
       "children": [
         {
           "kind": "span",
@@ -2489,7 +2520,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Log",
-          "href": "docs/semihosting___spec.html#L69C14"
+          "href": "docs/semihosting___spec.html#L70C14"
         },
         {
           "kind": "span",
@@ -2505,7 +2536,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "C",
-          "href": "docs/semihosting___spec.html#L69C19"
+          "href": "docs/semihosting___spec.html#L70C19"
         },
         {
           "kind": "span",
@@ -2561,7 +2592,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 70,
+      "number": 71,
       "children": [
         {
           "kind": "span",
@@ -2582,7 +2613,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Log",
-          "href": "docs/semihosting___spec.html#L70C14"
+          "href": "docs/semihosting___spec.html#L71C14"
         },
         {
           "kind": "span",
@@ -2598,7 +2629,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Str",
-          "href": "docs/semihosting___spec.html#L70C19"
+          "href": "docs/semihosting___spec.html#L71C19"
         },
         {
           "kind": "span",
@@ -2654,7 +2685,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 71,
+      "number": 72,
       "children": [
         {
           "kind": "span",
@@ -2675,7 +2706,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Log_Line",
-          "href": "docs/semihosting___spec.html#L71C14"
+          "href": "docs/semihosting___spec.html#L72C14"
         },
         {
           "kind": "span",
@@ -2691,7 +2722,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Str",
-          "href": "docs/semihosting___spec.html#L71C24"
+          "href": "docs/semihosting___spec.html#L72C24"
         },
         {
           "kind": "span",
@@ -2727,7 +2758,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 72,
+      "number": 73,
       "children": [
         {
           "kind": "span",
@@ -2748,7 +2779,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Log_New_Line",
-          "href": "docs/semihosting___spec.html#L72C14"
+          "href": "docs/semihosting___spec.html#L73C14"
         },
         {
           "kind": "span",
@@ -2759,13 +2790,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 73,
+      "number": 74,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 74,
+      "number": 75,
       "children": [
         {
           "kind": "span",

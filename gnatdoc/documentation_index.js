@@ -85,6 +85,11 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/cortex_m__debug___spec.html"
   },
   {
+    "label": "Cortex_M.Hints",
+    "qualifier": "",
+    "file": "docs/cortex_m__hints___spec.html"
+  },
+  {
     "label": "Cortex_M.NVIC",
     "qualifier": "",
     "file": "docs/cortex_m__nvic___spec.html"
@@ -93,6 +98,11 @@ GNATdoc.DocumentationIndex = [
     "label": "Cortex_M.Systick",
     "qualifier": "",
     "file": "docs/cortex_m__systick___spec.html"
+  },
+  {
+    "label": "Cortex_M_Config",
+    "qualifier": "",
+    "file": "docs/cortex_m_config___spec.html"
   },
   {
     "label": "Cortex_M_SVD",
@@ -243,6 +253,11 @@ GNATdoc.DocumentationIndex = [
     "label": "RP.GPIO",
     "qualifier": "",
     "file": "docs/rp__gpio___spec.html"
+  },
+  {
+    "label": "RP.I2C",
+    "qualifier": "",
+    "file": "docs/rp__i2c___spec.html"
   },
   {
     "label": "RP.I2C_Master",
@@ -520,6 +535,11 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/rp_interrupts___spec.html"
   },
   {
+    "label": "Rp2040_Hal_Config",
+    "qualifier": "",
+    "file": "docs/rp2040_hal_config___spec.html"
+  },
+  {
     "label": "Semihosting",
     "qualifier": "",
     "file": "docs/semihosting___spec.html"
@@ -608,5 +628,10 @@ GNATdoc.DocumentationIndex = [
     "label": "USB.Utils",
     "qualifier": "",
     "file": "docs/usb__utils___spec.html"
+  },
+  {
+    "label": "Usb_Embedded_Config",
+    "qualifier": "",
+    "file": "docs/usb_embedded_config___spec.html"
   }
 ];

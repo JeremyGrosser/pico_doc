@@ -373,11 +373,42 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 33,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "pragma"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Preelaborate"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 34,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 35,
       "children": [
         {
           "kind": "span",
@@ -398,7 +429,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC_Hour",
-          "href": "docs/hal__real_time_clock___spec.html#L34C9"
+          "href": "docs/hal__real_time_clock___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -439,68 +470,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 35,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "type"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "RTC_Minute",
-          "href": "docs/hal__real_time_clock___spec.html#L35C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "mod"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "60"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 36,
       "children": [
         {
@@ -521,7 +490,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "RTC_Second",
+          "text": "RTC_Minute",
           "href": "docs/hal__real_time_clock___spec.html#L36C9"
         },
         {
@@ -565,11 +534,73 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 37,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "RTC_Second",
+          "href": "docs/hal__real_time_clock___spec.html#L37C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "mod"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "60"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 38,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 39,
       "children": [
         {
           "kind": "span",
@@ -590,7 +621,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC_Time",
-          "href": "docs/hal__real_time_clock___spec.html#L38C9"
+          "href": "docs/hal__real_time_clock___spec.html#L39C9"
         },
         {
           "kind": "span",
@@ -616,7 +647,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 40,
       "children": [
         {
           "kind": "span",
@@ -627,7 +658,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Hour",
-          "href": "docs/hal__real_time_clock___spec.html#L39C7"
+          "href": "docs/hal__real_time_clock___spec.html#L40C7"
         },
         {
           "kind": "span",
@@ -648,49 +679,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC_Hour",
-          "href": "docs/hal__real_time_clock___spec.html#L34C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 40,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Min",
-          "href": "docs/hal__real_time_clock___spec.html#L40C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "RTC_Minute",
           "href": "docs/hal__real_time_clock___spec.html#L35C9"
         },
         {
@@ -712,7 +700,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sec",
+          "text": "Min",
           "href": "docs/hal__real_time_clock___spec.html#L41C7"
         },
         {
@@ -733,7 +721,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "RTC_Second",
+          "text": "RTC_Minute",
           "href": "docs/hal__real_time_clock___spec.html#L36C9"
         },
         {
@@ -746,6 +734,49 @@ GNATdoc.SourceFile = {
     {
       "kind": "line",
       "number": 42,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sec",
+          "href": "docs/hal__real_time_clock___spec.html#L42C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "RTC_Second",
+          "href": "docs/hal__real_time_clock___spec.html#L37C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -771,19 +802,19 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/hal__real_time_clock___spec.html#L38C9"
+          "href": "docs/hal__real_time_clock___spec.html#L39C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 44,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 45,
       "children": [
         {
           "kind": "span",
@@ -804,7 +835,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC_Month",
-          "href": "docs/hal__real_time_clock___spec.html#L44C9"
+          "href": "docs/hal__real_time_clock___spec.html#L45C9"
         },
         {
           "kind": "span",
@@ -830,140 +861,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "January",
-          "href": "docs/hal__real_time_clock___spec.html#L44C23"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "February",
-          "href": "docs/hal__real_time_clock___spec.html#L44C32"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "March",
-          "href": "docs/hal__real_time_clock___spec.html#L44C42"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "April",
-          "href": "docs/hal__real_time_clock___spec.html#L44C49"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "May",
-          "href": "docs/hal__real_time_clock___spec.html#L44C56"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "June",
-          "href": "docs/hal__real_time_clock___spec.html#L44C61"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "July",
-          "href": "docs/hal__real_time_clock___spec.html#L44C67"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "August",
-          "href": "docs/hal__real_time_clock___spec.html#L44C73"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 45,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "                      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "September",
           "href": "docs/hal__real_time_clock___spec.html#L45C23"
         },
         {
@@ -979,8 +876,142 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
+          "text": "February",
+          "href": "docs/hal__real_time_clock___spec.html#L45C32"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "March",
+          "href": "docs/hal__real_time_clock___spec.html#L45C42"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "April",
+          "href": "docs/hal__real_time_clock___spec.html#L45C49"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "May",
+          "href": "docs/hal__real_time_clock___spec.html#L45C56"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "June",
+          "href": "docs/hal__real_time_clock___spec.html#L45C61"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "July",
+          "href": "docs/hal__real_time_clock___spec.html#L45C67"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "August",
+          "href": "docs/hal__real_time_clock___spec.html#L45C73"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 46,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "September",
+          "href": "docs/hal__real_time_clock___spec.html#L46C23"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
           "text": "October",
-          "href": "docs/hal__real_time_clock___spec.html#L45C34"
+          "href": "docs/hal__real_time_clock___spec.html#L46C34"
         },
         {
           "kind": "span",
@@ -996,7 +1027,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "November",
-          "href": "docs/hal__real_time_clock___spec.html#L45C43"
+          "href": "docs/hal__real_time_clock___spec.html#L46C43"
         },
         {
           "kind": "span",
@@ -1012,7 +1043,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "December",
-          "href": "docs/hal__real_time_clock___spec.html#L45C53"
+          "href": "docs/hal__real_time_clock___spec.html#L46C53"
         },
         {
           "kind": "span",
@@ -1023,13 +1054,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/hal__real_time_clock___spec.html#L44C9"
+          "href": "docs/hal__real_time_clock___spec.html#L45C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 47,
       "children": [
         {
           "kind": "span",
@@ -1050,7 +1081,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC_Day_Of_Week",
-          "href": "docs/hal__real_time_clock___spec.html#L46C9"
+          "href": "docs/hal__real_time_clock___spec.html#L47C9"
         },
         {
           "kind": "span",
@@ -1076,92 +1107,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Monday",
-          "href": "docs/hal__real_time_clock___spec.html#L46C29"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Tuesday",
-          "href": "docs/hal__real_time_clock___spec.html#L46C37"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Wednesday",
-          "href": "docs/hal__real_time_clock___spec.html#L46C46"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Thursday",
-          "href": "docs/hal__real_time_clock___spec.html#L46C57"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Friday",
-          "href": "docs/hal__real_time_clock___spec.html#L46C67"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 47,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "                            "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Saturday",
           "href": "docs/hal__real_time_clock___spec.html#L47C29"
         },
         {
@@ -1177,8 +1122,94 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
+          "text": "Tuesday",
+          "href": "docs/hal__real_time_clock___spec.html#L47C37"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Wednesday",
+          "href": "docs/hal__real_time_clock___spec.html#L47C46"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Thursday",
+          "href": "docs/hal__real_time_clock___spec.html#L47C57"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Friday",
+          "href": "docs/hal__real_time_clock___spec.html#L47C67"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 48,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                            "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Saturday",
+          "href": "docs/hal__real_time_clock___spec.html#L48C29"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
           "text": "Sunday",
-          "href": "docs/hal__real_time_clock___spec.html#L47C39"
+          "href": "docs/hal__real_time_clock___spec.html#L48C39"
         },
         {
           "kind": "span",
@@ -1189,13 +1220,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/hal__real_time_clock___spec.html#L46C9"
+          "href": "docs/hal__real_time_clock___spec.html#L47C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 49,
       "children": [
         {
           "kind": "span",
@@ -1216,7 +1247,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC_Day",
-          "href": "docs/hal__real_time_clock___spec.html#L48C9"
+          "href": "docs/hal__real_time_clock___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -1277,7 +1308,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 49,
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -1298,7 +1329,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC_Year",
-          "href": "docs/hal__real_time_clock___spec.html#L49C9"
+          "href": "docs/hal__real_time_clock___spec.html#L50C9"
         },
         {
           "kind": "span",
@@ -1359,13 +1390,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 51,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 52,
       "children": [
         {
           "kind": "span",
@@ -1386,7 +1417,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC_Date",
-          "href": "docs/hal__real_time_clock___spec.html#L51C9"
+          "href": "docs/hal__real_time_clock___spec.html#L52C9"
         },
         {
           "kind": "span",
@@ -1412,7 +1443,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 52,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -1423,7 +1454,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Day_Of_Week",
-          "href": "docs/hal__real_time_clock___spec.html#L52C7"
+          "href": "docs/hal__real_time_clock___spec.html#L53C7"
         },
         {
           "kind": "span",
@@ -1444,50 +1475,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC_Day_Of_Week",
-          "href": "docs/hal__real_time_clock___spec.html#L46C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 53,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Day",
-          "href": "docs/hal__real_time_clock___spec.html#L53C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "RTC_Day",
-          "href": "docs/hal__real_time_clock___spec.html#L48C9"
+          "href": "docs/hal__real_time_clock___spec.html#L47C9"
         },
         {
           "kind": "span",
@@ -1508,13 +1496,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Month",
+          "text": "Day",
           "href": "docs/hal__real_time_clock___spec.html#L54C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "         "
         },
         {
           "kind": "span",
@@ -1529,8 +1517,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "RTC_Month",
-          "href": "docs/hal__real_time_clock___spec.html#L44C9"
+          "text": "RTC_Day",
+          "href": "docs/hal__real_time_clock___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -1551,8 +1539,51 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Year",
+          "text": "Month",
           "href": "docs/hal__real_time_clock___spec.html#L55C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "RTC_Month",
+          "href": "docs/hal__real_time_clock___spec.html#L45C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 56,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Year",
+          "href": "docs/hal__real_time_clock___spec.html#L56C7"
         },
         {
           "kind": "span",
@@ -1573,7 +1604,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC_Year",
-          "href": "docs/hal__real_time_clock___spec.html#L49C9"
+          "href": "docs/hal__real_time_clock___spec.html#L50C9"
         },
         {
           "kind": "span",
@@ -1584,7 +1615,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 57,
       "children": [
         {
           "kind": "span",
@@ -1610,19 +1641,19 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/hal__real_time_clock___spec.html#L51C9"
+          "href": "docs/hal__real_time_clock___spec.html#L52C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 57,
+      "number": 58,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 59,
       "children": [
         {
           "kind": "span",
@@ -1643,7 +1674,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC_Day_Of_Week",
-          "href": "docs/hal__real_time_clock___spec.html#L46C9"
+          "href": "docs/hal__real_time_clock___spec.html#L47C9"
         },
         {
           "kind": "span",
@@ -1699,7 +1730,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 59,
+      "number": 60,
       "children": [
         {
           "kind": "span",
@@ -1740,7 +1771,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 60,
+      "number": 61,
       "children": [
         {
           "kind": "span",
@@ -1781,7 +1812,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 61,
+      "number": 62,
       "children": [
         {
           "kind": "span",
@@ -1822,7 +1853,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 62,
+      "number": 63,
       "children": [
         {
           "kind": "span",
@@ -1863,7 +1894,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 64,
       "children": [
         {
           "kind": "span",
@@ -1904,7 +1935,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 64,
+      "number": 65,
       "children": [
         {
           "kind": "span",
@@ -1950,13 +1981,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 65,
+      "number": 66,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 66,
+      "number": 67,
       "children": [
         {
           "kind": "span",
@@ -1977,7 +2008,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC_Month",
-          "href": "docs/hal__real_time_clock___spec.html#L44C9"
+          "href": "docs/hal__real_time_clock___spec.html#L45C9"
         },
         {
           "kind": "span",
@@ -2033,7 +2064,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 67,
+      "number": 68,
       "children": [
         {
           "kind": "span",
@@ -2074,7 +2105,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 68,
+      "number": 69,
       "children": [
         {
           "kind": "span",
@@ -2115,7 +2146,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 69,
+      "number": 70,
       "children": [
         {
           "kind": "span",
@@ -2156,7 +2187,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 70,
+      "number": 71,
       "children": [
         {
           "kind": "span",
@@ -2197,7 +2228,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 71,
+      "number": 72,
       "children": [
         {
           "kind": "span",
@@ -2238,7 +2269,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 72,
+      "number": 73,
       "children": [
         {
           "kind": "span",
@@ -2279,7 +2310,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 73,
+      "number": 74,
       "children": [
         {
           "kind": "span",
@@ -2320,7 +2351,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 74,
+      "number": 75,
       "children": [
         {
           "kind": "span",
@@ -2361,7 +2392,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 75,
+      "number": 76,
       "children": [
         {
           "kind": "span",
@@ -2402,7 +2433,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 76,
+      "number": 77,
       "children": [
         {
           "kind": "span",
@@ -2443,7 +2474,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 77,
+      "number": 78,
       "children": [
         {
           "kind": "span",
@@ -2489,13 +2520,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 78,
+      "number": 79,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 79,
+      "number": 80,
       "children": [
         {
           "kind": "span",
@@ -2516,7 +2547,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC_Device",
-          "href": "docs/hal__real_time_clock___spec.html#L79C9"
+          "href": "docs/hal__real_time_clock___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -2557,7 +2588,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 80,
+      "number": 81,
       "children": [
         {
           "kind": "span",
@@ -2578,7 +2609,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Any_RTC_Device",
-          "href": "docs/hal__real_time_clock___spec.html#L80C9"
+          "href": "docs/hal__real_time_clock___spec.html#L81C9"
         },
         {
           "kind": "span",
@@ -2619,7 +2650,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC_Device",
-          "href": "docs/hal__real_time_clock___spec.html#L79C9"
+          "href": "docs/hal__real_time_clock___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -2640,13 +2671,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 81,
+      "number": 82,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 82,
+      "number": 83,
       "children": [
         {
           "kind": "span",
@@ -2667,7 +2698,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Set",
-          "href": "docs/hal__real_time_clock___spec.html#L82C14"
+          "href": "docs/hal__real_time_clock___spec.html#L83C14"
         },
         {
           "kind": "span",
@@ -2683,7 +2714,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__real_time_clock___spec.html#L82C19"
+          "href": "docs/hal__real_time_clock___spec.html#L83C19"
         },
         {
           "kind": "span",
@@ -2724,50 +2755,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC_Device",
-          "href": "docs/hal__real_time_clock___spec.html#L79C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 83,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "                  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Time",
-          "href": "docs/hal__real_time_clock___spec.html#L83C19"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "RTC_Time",
-          "href": "docs/hal__real_time_clock___spec.html#L38C9"
+          "href": "docs/hal__real_time_clock___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -2788,7 +2776,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Date",
+          "text": "Time",
           "href": "docs/hal__real_time_clock___spec.html#L84C19"
         },
         {
@@ -2809,8 +2797,51 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
+          "text": "RTC_Time",
+          "href": "docs/hal__real_time_clock___spec.html#L39C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 85,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Date",
+          "href": "docs/hal__real_time_clock___spec.html#L85C19"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
           "text": "RTC_Date",
-          "href": "docs/hal__real_time_clock___spec.html#L51C9"
+          "href": "docs/hal__real_time_clock___spec.html#L52C9"
         },
         {
           "kind": "span",
@@ -2846,13 +2877,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 85,
+      "number": 86,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 86,
+      "number": 87,
       "children": [
         {
           "kind": "span",
@@ -2873,7 +2904,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Get",
-          "href": "docs/hal__real_time_clock___spec.html#L86C14"
+          "href": "docs/hal__real_time_clock___spec.html#L87C14"
         },
         {
           "kind": "span",
@@ -2889,7 +2920,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__real_time_clock___spec.html#L86C19"
+          "href": "docs/hal__real_time_clock___spec.html#L87C19"
         },
         {
           "kind": "span",
@@ -2930,60 +2961,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC_Device",
-          "href": "docs/hal__real_time_clock___spec.html#L79C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 87,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "                  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Time",
-          "href": "docs/hal__real_time_clock___spec.html#L87C19"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "RTC_Time",
-          "href": "docs/hal__real_time_clock___spec.html#L38C9"
+          "href": "docs/hal__real_time_clock___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -3004,7 +2982,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Date",
+          "text": "Time",
           "href": "docs/hal__real_time_clock___spec.html#L88C19"
         },
         {
@@ -3035,8 +3013,61 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
+          "text": "RTC_Time",
+          "href": "docs/hal__real_time_clock___spec.html#L39C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 89,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Date",
+          "href": "docs/hal__real_time_clock___spec.html#L89C19"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "out"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
           "text": "RTC_Date",
-          "href": "docs/hal__real_time_clock___spec.html#L51C9"
+          "href": "docs/hal__real_time_clock___spec.html#L52C9"
         },
         {
           "kind": "span",
@@ -3072,7 +3103,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 89,
+      "number": 90,
       "children": [
         {
           "kind": "span",
@@ -3088,13 +3119,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 90,
+      "number": 91,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 91,
+      "number": 92,
       "children": [
         {
           "kind": "span",
@@ -3115,7 +3146,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Get_Time",
-          "href": "docs/hal__real_time_clock___spec.html#L91C13"
+          "href": "docs/hal__real_time_clock___spec.html#L92C13"
         },
         {
           "kind": "span",
@@ -3131,7 +3162,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__real_time_clock___spec.html#L91C23"
+          "href": "docs/hal__real_time_clock___spec.html#L92C23"
         },
         {
           "kind": "span",
@@ -3152,7 +3183,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC_Device",
-          "href": "docs/hal__real_time_clock___spec.html#L79C9"
+          "href": "docs/hal__real_time_clock___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -3163,7 +3194,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 92,
+      "number": 93,
       "children": [
         {
           "kind": "span",
@@ -3184,13 +3215,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "HAL.Real_Time_Clock.RTC_Time",
-          "href": "docs/hal__real_time_clock___spec.html#L38C9"
+          "href": "docs/hal__real_time_clock___spec.html#L39C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 93,
+      "number": 94,
       "children": [
         {
           "kind": "span",
@@ -3221,13 +3252,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 94,
+      "number": 95,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 95,
+      "number": 96,
       "children": [
         {
           "kind": "span",
@@ -3248,7 +3279,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Get_Date",
-          "href": "docs/hal__real_time_clock___spec.html#L95C13"
+          "href": "docs/hal__real_time_clock___spec.html#L96C13"
         },
         {
           "kind": "span",
@@ -3264,7 +3295,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__real_time_clock___spec.html#L95C23"
+          "href": "docs/hal__real_time_clock___spec.html#L96C23"
         },
         {
           "kind": "span",
@@ -3285,7 +3316,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RTC_Device",
-          "href": "docs/hal__real_time_clock___spec.html#L79C9"
+          "href": "docs/hal__real_time_clock___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -3296,7 +3327,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 96,
+      "number": 97,
       "children": [
         {
           "kind": "span",
@@ -3317,13 +3348,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "HAL.Real_Time_Clock.RTC_Date",
-          "href": "docs/hal__real_time_clock___spec.html#L51C9"
+          "href": "docs/hal__real_time_clock___spec.html#L52C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 97,
+      "number": 98,
       "children": [
         {
           "kind": "span",
@@ -3354,13 +3385,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 98,
+      "number": 99,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 99,
+      "number": 100,
       "children": [
         {
           "kind": "span",

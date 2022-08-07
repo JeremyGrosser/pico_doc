@@ -29,7 +29,7 @@ GNATdoc.Documentation = {
         {
           "label": "Reset_Id",
           "qualifier": "",
-          "line": 8,
+          "line": 10,
           "column": 9,
           "src": "srcs/rp-reset.ads.html",
           "summary": [
@@ -40,7 +40,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 8,
+                  "number": 10,
                   "children": [
                     {
                       "kind": "span",
@@ -61,7 +61,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reset_Id",
-                      "href": "docs/rp__reset___spec.html#L8C9"
+                      "href": "docs/rp__reset___spec.html#L10C9"
                     },
                     {
                       "kind": "span",
@@ -77,7 +77,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 9,
+                  "number": 11,
                   "children": [
                     {
                       "kind": "span",
@@ -93,50 +93,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reset_ADC",
-                      "href": "docs/rp__reset___spec.html#L9C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 10,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Reset_BUSCTRL",
-                      "href": "docs/rp__reset___spec.html#L10C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 11,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Reset_DMA",
                       "href": "docs/rp__reset___spec.html#L11C8"
                     },
                     {
@@ -158,7 +114,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_I2C0",
+                      "text": "Reset_BUSCTRL",
                       "href": "docs/rp__reset___spec.html#L12C8"
                     },
                     {
@@ -180,7 +136,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_I2C1",
+                      "text": "Reset_DMA",
                       "href": "docs/rp__reset___spec.html#L13C8"
                     },
                     {
@@ -202,7 +158,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_IO_BANK0",
+                      "text": "Reset_I2C0",
                       "href": "docs/rp__reset___spec.html#L14C8"
                     },
                     {
@@ -224,7 +180,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_QSPI",
+                      "text": "Reset_I2C1",
                       "href": "docs/rp__reset___spec.html#L15C8"
                     },
                     {
@@ -246,7 +202,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_JTAG",
+                      "text": "Reset_IO_BANK0",
                       "href": "docs/rp__reset___spec.html#L16C8"
                     },
                     {
@@ -268,7 +224,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_PADS_BANK0",
+                      "text": "Reset_QSPI",
                       "href": "docs/rp__reset___spec.html#L17C8"
                     },
                     {
@@ -290,7 +246,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_PADS_QSPI",
+                      "text": "Reset_JTAG",
                       "href": "docs/rp__reset___spec.html#L18C8"
                     },
                     {
@@ -312,7 +268,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_PIO0",
+                      "text": "Reset_PADS_BANK0",
                       "href": "docs/rp__reset___spec.html#L19C8"
                     },
                     {
@@ -334,7 +290,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_PIO1",
+                      "text": "Reset_PADS_QSPI",
                       "href": "docs/rp__reset___spec.html#L20C8"
                     },
                     {
@@ -356,7 +312,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_PLL_SYS",
+                      "text": "Reset_PIO0",
                       "href": "docs/rp__reset___spec.html#L21C8"
                     },
                     {
@@ -378,7 +334,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_PLL_USB",
+                      "text": "Reset_PIO1",
                       "href": "docs/rp__reset___spec.html#L22C8"
                     },
                     {
@@ -400,7 +356,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_PWM",
+                      "text": "Reset_PLL_SYS",
                       "href": "docs/rp__reset___spec.html#L23C8"
                     },
                     {
@@ -422,7 +378,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_RTC",
+                      "text": "Reset_PLL_USB",
                       "href": "docs/rp__reset___spec.html#L24C8"
                     },
                     {
@@ -444,7 +400,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_SPI0",
+                      "text": "Reset_PWM",
                       "href": "docs/rp__reset___spec.html#L25C8"
                     },
                     {
@@ -466,7 +422,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_SPI1",
+                      "text": "Reset_RTC",
                       "href": "docs/rp__reset___spec.html#L26C8"
                     },
                     {
@@ -488,7 +444,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_SYSCFG",
+                      "text": "Reset_SPI0",
                       "href": "docs/rp__reset___spec.html#L27C8"
                     },
                     {
@@ -510,7 +466,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_SYSINFO",
+                      "text": "Reset_SPI1",
                       "href": "docs/rp__reset___spec.html#L28C8"
                     },
                     {
@@ -532,7 +488,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_TBMAN",
+                      "text": "Reset_SYSCFG",
                       "href": "docs/rp__reset___spec.html#L29C8"
                     },
                     {
@@ -554,7 +510,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_TIMER",
+                      "text": "Reset_SYSINFO",
                       "href": "docs/rp__reset___spec.html#L30C8"
                     },
                     {
@@ -576,7 +532,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_UART0",
+                      "text": "Reset_TBMAN",
                       "href": "docs/rp__reset___spec.html#L31C8"
                     },
                     {
@@ -598,7 +554,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_UART1",
+                      "text": "Reset_TIMER",
                       "href": "docs/rp__reset___spec.html#L32C8"
                     },
                     {
@@ -620,8 +576,52 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reset_USBCTRL",
+                      "text": "Reset_UART0",
                       "href": "docs/rp__reset___spec.html#L33C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 34,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Reset_UART1",
+                      "href": "docs/rp__reset___spec.html#L34C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 35,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Reset_USBCTRL",
+                      "href": "docs/rp__reset___spec.html#L35C8"
                     },
                     {
                       "kind": "span",
@@ -632,7 +632,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/rp__reset___spec.html#L8C9"
+                      "href": "docs/rp__reset___spec.html#L10C9"
                     }
                   ]
                 }
@@ -642,175 +642,175 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Reset_ADC",
-              "line": 9,
-              "column": 8,
-              "description": [
-              ]
-            },
-            {
-              "label": "Reset_BUSCTRL",
-              "line": 10,
-              "column": 8,
-              "description": [
-              ]
-            },
-            {
-              "label": "Reset_DMA",
               "line": 11,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_I2C0",
+              "label": "Reset_BUSCTRL",
               "line": 12,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_I2C1",
+              "label": "Reset_DMA",
               "line": 13,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_IO_BANK0",
+              "label": "Reset_I2C0",
               "line": 14,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_QSPI",
+              "label": "Reset_I2C1",
               "line": 15,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_JTAG",
+              "label": "Reset_IO_BANK0",
               "line": 16,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_PADS_BANK0",
+              "label": "Reset_QSPI",
               "line": 17,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_PADS_QSPI",
+              "label": "Reset_JTAG",
               "line": 18,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_PIO0",
+              "label": "Reset_PADS_BANK0",
               "line": 19,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_PIO1",
+              "label": "Reset_PADS_QSPI",
               "line": 20,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_PLL_SYS",
+              "label": "Reset_PIO0",
               "line": 21,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_PLL_USB",
+              "label": "Reset_PIO1",
               "line": 22,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_PWM",
+              "label": "Reset_PLL_SYS",
               "line": 23,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_RTC",
+              "label": "Reset_PLL_USB",
               "line": 24,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_SPI0",
+              "label": "Reset_PWM",
               "line": 25,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_SPI1",
+              "label": "Reset_RTC",
               "line": 26,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_SYSCFG",
+              "label": "Reset_SPI0",
               "line": 27,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_SYSINFO",
+              "label": "Reset_SPI1",
               "line": 28,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_TBMAN",
+              "label": "Reset_SYSCFG",
               "line": 29,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_TIMER",
+              "label": "Reset_SYSINFO",
               "line": 30,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_UART0",
+              "label": "Reset_TBMAN",
               "line": 31,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_UART1",
+              "label": "Reset_TIMER",
               "line": 32,
               "column": 8,
               "description": [
               ]
             },
             {
-              "label": "Reset_USBCTRL",
+              "label": "Reset_UART0",
               "line": 33,
+              "column": 8,
+              "description": [
+              ]
+            },
+            {
+              "label": "Reset_UART1",
+              "line": 34,
+              "column": 8,
+              "description": [
+              ]
+            },
+            {
+              "label": "Reset_USBCTRL",
+              "line": 35,
               "column": 8,
               "description": [
               ]
@@ -820,7 +820,7 @@ GNATdoc.Documentation = {
         {
           "label": "Reset_Status",
           "qualifier": "",
-          "line": 35,
+          "line": 37,
           "column": 9,
           "src": "srcs/rp-reset.ads.html",
           "summary": [
@@ -831,7 +831,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -852,7 +852,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reset_Status",
-                      "href": "docs/rp__reset___spec.html#L35C9"
+                      "href": "docs/rp__reset___spec.html#L37C9"
                     },
                     {
                       "kind": "span",
@@ -868,7 +868,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -884,7 +884,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reset_Ok",
-                      "href": "docs/rp__reset___spec.html#L36C8"
+                      "href": "docs/rp__reset___spec.html#L38C8"
                     },
                     {
                       "kind": "span",
@@ -895,7 +895,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -906,7 +906,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reset_Timeout",
-                      "href": "docs/rp__reset___spec.html#L37C8"
+                      "href": "docs/rp__reset___spec.html#L39C8"
                     },
                     {
                       "kind": "span",
@@ -917,7 +917,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/rp__reset___spec.html#L35C9"
+                      "href": "docs/rp__reset___spec.html#L37C9"
                     }
                   ]
                 }
@@ -927,14 +927,14 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Reset_Ok",
-              "line": 36,
+              "line": 38,
               "column": 8,
               "description": [
               ]
             },
             {
               "label": "Reset_Timeout",
-              "line": 37,
+              "line": 39,
               "column": 8,
               "description": [
               ]
@@ -949,7 +949,7 @@ GNATdoc.Documentation = {
         {
           "label": "Reset_Peripheral",
           "qualifier": "",
-          "line": 40,
+          "line": 42,
           "column": 14,
           "src": "srcs/rp-reset.ads.html",
           "summary": [
@@ -960,7 +960,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -981,13 +981,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reset_Peripheral",
-                      "href": "docs/rp__reset___spec.html#L40C14"
+                      "href": "docs/rp__reset___spec.html#L42C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -1003,7 +1003,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Peripheral",
-                      "href": "docs/rp__reset___spec.html#L41C8"
+                      "href": "docs/rp__reset___spec.html#L43C8"
                     },
                     {
                       "kind": "span",
@@ -1024,7 +1024,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reset_Id",
-                      "href": "docs/rp__reset___spec.html#L8C9"
+                      "href": "docs/rp__reset___spec.html#L10C9"
                     },
                     {
                       "kind": "span",
@@ -1053,11 +1053,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Peripheral",
-              "line": 41,
+              "line": 43,
               "column": 8,
               "type": {
                 "label": "RP.Reset.Reset_Id",
-                "docHref": "docs/rp__reset___spec.html#L8C9"
+                "docHref": "docs/rp__reset___spec.html#L10C9"
               },
               "description": [
               ]
@@ -1067,7 +1067,7 @@ GNATdoc.Documentation = {
         {
           "label": "Reset_Peripheral",
           "qualifier": "",
-          "line": 45,
+          "line": 47,
           "column": 14,
           "src": "srcs/rp-reset.ads.html",
           "summary": [
@@ -1078,7 +1078,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -1099,13 +1099,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reset_Peripheral",
-                      "href": "docs/rp__reset___spec.html#L45C14"
+                      "href": "docs/rp__reset___spec.html#L47C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -1121,7 +1121,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Peripheral",
-                      "href": "docs/rp__reset___spec.html#L46C8"
+                      "href": "docs/rp__reset___spec.html#L48C8"
                     },
                     {
                       "kind": "span",
@@ -1142,7 +1142,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reset_Id",
-                      "href": "docs/rp__reset___spec.html#L8C9"
+                      "href": "docs/rp__reset___spec.html#L10C9"
                     },
                     {
                       "kind": "span",
@@ -1153,7 +1153,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -1164,7 +1164,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Status",
-                      "href": "docs/rp__reset___spec.html#L47C8"
+                      "href": "docs/rp__reset___spec.html#L49C8"
                     },
                     {
                       "kind": "span",
@@ -1195,7 +1195,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reset_Status",
-                      "href": "docs/rp__reset___spec.html#L35C9"
+                      "href": "docs/rp__reset___spec.html#L37C9"
                     },
                     {
                       "kind": "span",
@@ -1206,7 +1206,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -1217,7 +1217,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Timeout",
-                      "href": "docs/rp__reset___spec.html#L48C8"
+                      "href": "docs/rp__reset___spec.html#L50C8"
                     },
                     {
                       "kind": "span",
@@ -1268,7 +1268,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 51,
                   "children": [
                     {
                       "kind": "span",
@@ -1311,29 +1311,29 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Peripheral",
-              "line": 46,
+              "line": 48,
               "column": 8,
               "type": {
                 "label": "RP.Reset.Reset_Id",
-                "docHref": "docs/rp__reset___spec.html#L8C9"
+                "docHref": "docs/rp__reset___spec.html#L10C9"
               },
               "description": [
               ]
             },
             {
               "label": "Status",
-              "line": 47,
+              "line": 49,
               "column": 8,
               "type": {
                 "label": "RP.Reset.Reset_Status",
-                "docHref": "docs/rp__reset___spec.html#L35C9"
+                "docHref": "docs/rp__reset___spec.html#L37C9"
               },
               "description": [
               ]
             },
             {
               "label": "Timeout",
-              "line": 48,
+              "line": 50,
               "column": 8,
               "type": {
                 "label": "Natural"

@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Drain",
           "qualifier": "",
-          "line": 20,
+          "line": 22,
           "column": 14,
           "src": "srcs/rp-multicore-fifo.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 20,
+                  "number": 22,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Drain",
-                      "href": "docs/rp__multicore__fifo___spec.html#L20C14"
+                      "href": "docs/rp__multicore__fifo___spec.html#L22C14"
                     },
                     {
                       "kind": "span",
@@ -59,7 +59,7 @@ GNATdoc.Documentation = {
         {
           "label": "Pop_Blocking",
           "qualifier": "",
-          "line": 15,
+          "line": 17,
           "column": 13,
           "src": "srcs/rp-multicore-fifo.ads.html",
           "summary": [
@@ -70,7 +70,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 15,
+                  "number": 17,
                   "children": [
                     {
                       "kind": "span",
@@ -91,7 +91,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Pop_Blocking",
-                      "href": "docs/rp__multicore__fifo___spec.html#L15C13"
+                      "href": "docs/rp__multicore__fifo___spec.html#L17C13"
                     },
                     {
                       "kind": "span",
@@ -128,7 +128,7 @@ GNATdoc.Documentation = {
         {
           "label": "Push_Blocking",
           "qualifier": "",
-          "line": 14,
+          "line": 16,
           "column": 14,
           "src": "srcs/rp-multicore-fifo.ads.html",
           "summary": [
@@ -139,7 +139,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 14,
+                  "number": 16,
                   "children": [
                     {
                       "kind": "span",
@@ -160,7 +160,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Push_Blocking",
-                      "href": "docs/rp__multicore__fifo___spec.html#L14C14"
+                      "href": "docs/rp__multicore__fifo___spec.html#L16C14"
                     },
                     {
                       "kind": "span",
@@ -176,7 +176,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "V",
-                      "href": "docs/rp__multicore__fifo___spec.html#L14C29"
+                      "href": "docs/rp__multicore__fifo___spec.html#L16C29"
                     },
                     {
                       "kind": "span",
@@ -217,7 +217,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "V",
-              "line": 14,
+              "line": 16,
               "column": 29,
               "type": {
                 "label": "HAL.UInt32",
@@ -231,7 +231,7 @@ GNATdoc.Documentation = {
         {
           "label": "RX_Ready",
           "qualifier": "",
-          "line": 11,
+          "line": 13,
           "column": 13,
           "src": "srcs/rp-multicore-fifo.ads.html",
           "summary": [
@@ -242,7 +242,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 11,
+                  "number": 13,
                   "children": [
                     {
                       "kind": "span",
@@ -263,7 +263,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RX_Ready",
-                      "href": "docs/rp__multicore__fifo___spec.html#L11C13"
+                      "href": "docs/rp__multicore__fifo___spec.html#L13C13"
                     },
                     {
                       "kind": "span",
@@ -299,7 +299,7 @@ GNATdoc.Documentation = {
         {
           "label": "Try_Pop",
           "qualifier": "",
-          "line": 18,
+          "line": 20,
           "column": 13,
           "src": "srcs/rp-multicore-fifo.ads.html",
           "summary": [
@@ -310,7 +310,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 18,
+                  "number": 20,
                   "children": [
                     {
                       "kind": "span",
@@ -331,7 +331,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Try_Pop",
-                      "href": "docs/rp__multicore__fifo___spec.html#L18C13"
+                      "href": "docs/rp__multicore__fifo___spec.html#L20C13"
                     },
                     {
                       "kind": "span",
@@ -347,7 +347,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "V",
-                      "href": "docs/rp__multicore__fifo___spec.html#L18C22"
+                      "href": "docs/rp__multicore__fifo___spec.html#L20C22"
                     },
                     {
                       "kind": "span",
@@ -418,7 +418,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "V",
-              "line": 18,
+              "line": 20,
               "column": 22,
               "type": {
                 "label": "HAL.UInt32",
@@ -432,7 +432,7 @@ GNATdoc.Documentation = {
         {
           "label": "Try_Push",
           "qualifier": "",
-          "line": 17,
+          "line": 19,
           "column": 13,
           "src": "srcs/rp-multicore-fifo.ads.html",
           "summary": [
@@ -443,7 +443,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 17,
+                  "number": 19,
                   "children": [
                     {
                       "kind": "span",
@@ -464,7 +464,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Try_Push",
-                      "href": "docs/rp__multicore__fifo___spec.html#L17C13"
+                      "href": "docs/rp__multicore__fifo___spec.html#L19C13"
                     },
                     {
                       "kind": "span",
@@ -480,7 +480,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "V",
-                      "href": "docs/rp__multicore__fifo___spec.html#L17C23"
+                      "href": "docs/rp__multicore__fifo___spec.html#L19C23"
                     },
                     {
                       "kind": "span",
@@ -541,7 +541,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "V",
-              "line": 17,
+              "line": 19,
               "column": 23,
               "type": {
                 "label": "HAL.UInt32",
@@ -555,7 +555,7 @@ GNATdoc.Documentation = {
         {
           "label": "TX_Ready",
           "qualifier": "",
-          "line": 12,
+          "line": 14,
           "column": 13,
           "src": "srcs/rp-multicore-fifo.ads.html",
           "summary": [
@@ -566,7 +566,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 12,
+                  "number": 14,
                   "children": [
                     {
                       "kind": "span",
@@ -587,7 +587,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "TX_Ready",
-                      "href": "docs/rp__multicore__fifo___spec.html#L12C13"
+                      "href": "docs/rp__multicore__fifo___spec.html#L14C13"
                     },
                     {
                       "kind": "span",

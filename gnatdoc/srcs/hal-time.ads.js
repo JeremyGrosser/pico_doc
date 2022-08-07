@@ -373,11 +373,42 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 33,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "pragma"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Preelaborate"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 34,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 35,
       "children": [
         {
           "kind": "span",
@@ -398,7 +429,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delays",
-          "href": "docs/hal__time___spec.html#L34C9"
+          "href": "docs/hal__time___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -439,13 +470,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 35,
+      "number": 36,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 36,
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -466,7 +497,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Any_Delays",
-          "href": "docs/hal__time___spec.html#L36C9"
+          "href": "docs/hal__time___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -507,7 +538,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delays",
-          "href": "docs/hal__time___spec.html#L34C9"
+          "href": "docs/hal__time___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -528,13 +559,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 38,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 39,
       "children": [
         {
           "kind": "span",
@@ -555,7 +586,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delay_Microseconds",
-          "href": "docs/hal__time___spec.html#L38C14"
+          "href": "docs/hal__time___spec.html#L39C14"
         },
         {
           "kind": "span",
@@ -571,7 +602,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__time___spec.html#L38C34"
+          "href": "docs/hal__time___spec.html#L39C34"
         },
         {
           "kind": "span",
@@ -612,7 +643,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delays",
-          "href": "docs/hal__time___spec.html#L34C9"
+          "href": "docs/hal__time___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -623,7 +654,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 40,
       "children": [
         {
           "kind": "span",
@@ -634,7 +665,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Us",
-          "href": "docs/hal__time___spec.html#L39C34"
+          "href": "docs/hal__time___spec.html#L40C34"
         },
         {
           "kind": "span",
@@ -690,13 +721,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 41,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 42,
       "children": [
         {
           "kind": "span",
@@ -717,7 +748,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delay_Milliseconds",
-          "href": "docs/hal__time___spec.html#L41C14"
+          "href": "docs/hal__time___spec.html#L42C14"
         },
         {
           "kind": "span",
@@ -733,7 +764,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__time___spec.html#L41C34"
+          "href": "docs/hal__time___spec.html#L42C34"
         },
         {
           "kind": "span",
@@ -774,7 +805,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delays",
-          "href": "docs/hal__time___spec.html#L34C9"
+          "href": "docs/hal__time___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -785,7 +816,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -796,7 +827,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Ms",
-          "href": "docs/hal__time___spec.html#L42C34"
+          "href": "docs/hal__time___spec.html#L43C34"
         },
         {
           "kind": "span",
@@ -852,13 +883,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 44,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 45,
       "children": [
         {
           "kind": "span",
@@ -879,7 +910,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delay_Seconds",
-          "href": "docs/hal__time___spec.html#L44C14"
+          "href": "docs/hal__time___spec.html#L45C14"
         },
         {
           "kind": "span",
@@ -895,7 +926,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/hal__time___spec.html#L44C34"
+          "href": "docs/hal__time___spec.html#L45C34"
         },
         {
           "kind": "span",
@@ -936,7 +967,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Delays",
-          "href": "docs/hal__time___spec.html#L34C9"
+          "href": "docs/hal__time___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -947,7 +978,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 46,
       "children": [
         {
           "kind": "span",
@@ -958,7 +989,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "S",
-          "href": "docs/hal__time___spec.html#L45C34"
+          "href": "docs/hal__time___spec.html#L46C34"
         },
         {
           "kind": "span",
@@ -1014,7 +1045,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 47,
       "children": [
         {
           "kind": "span",
