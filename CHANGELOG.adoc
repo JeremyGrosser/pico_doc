@@ -1,5 +1,5 @@
-=== 2.0.0 (next release)
-Release date TBD
+=== 2.0.0
+August 22, 2022
 
 ==== New features
 
