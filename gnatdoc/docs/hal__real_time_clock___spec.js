@@ -1785,7 +1785,7 @@ GNATdoc.Documentation = {
           "inherited": [
             {
               "label": "RTC_Device",
-              "docHref": "docs/rp__rtc___spec.html#L13C9"
+              "docHref": "docs/rp__rtc___spec.html#L12C9"
             }
           ]
         }

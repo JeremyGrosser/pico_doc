@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Initialized",
           "qualifier": "",
-          "line": 48,
+          "line": 45,
           "column": 4,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 45,
                   "children": [
                     {
                       "kind": "span",
@@ -97,7 +97,7 @@ GNATdoc.Documentation = {
         {
           "label": "Divider",
           "qualifier": "",
-          "line": 41,
+          "line": 40,
           "column": 9,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -108,7 +108,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -129,7 +129,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Divider",
-                      "href": "docs/rp__pwm___spec.html#L41C9"
+                      "href": "docs/rp__pwm___spec.html#L40C9"
                     },
                     {
                       "kind": "span",
@@ -245,7 +245,7 @@ GNATdoc.Documentation = {
         {
           "label": "Period",
           "qualifier": "",
-          "line": 43,
+          "line": 42,
           "column": 12,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -256,7 +256,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -277,7 +277,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Period",
-                      "href": "docs/rp__pwm___spec.html#L43C12"
+                      "href": "docs/rp__pwm___spec.html#L42C12"
                     },
                     {
                       "kind": "span",
@@ -314,347 +314,6 @@ GNATdoc.Documentation = {
         {
           "label": "PWM_Channel",
           "qualifier": "",
-          "line": 19,
-          "column": 9,
-          "src": "srcs/rp-pwm.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 19,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_Channel",
-                      "href": "docs/rp__pwm___spec.html#L19C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "A",
-                      "href": "docs/rp__pwm___spec.html#L19C25"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "B",
-                      "href": "docs/rp__pwm___spec.html#L19C28"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/rp__pwm___spec.html#L19C9"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "literals": [
-            {
-              "label": "A",
-              "line": 19,
-              "column": 25,
-              "description": [
-              ]
-            },
-            {
-              "label": "B",
-              "line": 19,
-              "column": 28,
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "PWM_Divider_Mode",
-          "qualifier": "",
-          "line": 21,
-          "column": 9,
-          "src": "srcs/rp-pwm.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 21,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_Divider_Mode",
-                      "href": "docs/rp__pwm___spec.html#L21C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 22,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Free_Running",
-                      "href": "docs/rp__pwm___spec.html#L22C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 23,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Gated",
-                      "href": "docs/rp__pwm___spec.html#L23C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "          "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Slice counter only runs while channel B is high"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 24,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Rising_Edge",
-                      "href": "docs/rp__pwm___spec.html#L24C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Slice counter increments on channel B rising edge"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 25,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Falling_Edge",
-                      "href": "docs/rp__pwm___spec.html#L25C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/rp__pwm___spec.html#L21C9"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Slice counter increments on channel B falling edge\n"
-                }
-              ]
-            }
-          ],
-          "literals": [
-            {
-              "label": "Free_Running",
-              "line": 22,
-              "column": 8,
-              "description": [
-              ]
-            },
-            {
-              "label": "Gated",
-              "line": 23,
-              "column": 8,
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Slice counter only runs while channel B is high\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Rising_Edge",
-              "line": 24,
-              "column": 8,
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Slice counter increments on channel B rising edge\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Falling_Edge",
-              "line": 25,
-              "column": 8,
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "PWM_Slice",
-          "qualifier": "",
           "line": 18,
           "column": 9,
           "src": "srcs/rp-pwm.ads.html",
@@ -686,8 +345,349 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "PWM_Slice",
+                      "text": "PWM_Channel",
                       "href": "docs/rp__pwm___spec.html#L18C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "A",
+                      "href": "docs/rp__pwm___spec.html#L18C25"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "B",
+                      "href": "docs/rp__pwm___spec.html#L18C28"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/rp__pwm___spec.html#L18C9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "A",
+              "line": 18,
+              "column": 25,
+              "description": [
+              ]
+            },
+            {
+              "label": "B",
+              "line": 18,
+              "column": 28,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "PWM_Divider_Mode",
+          "qualifier": "",
+          "line": 20,
+          "column": 9,
+          "src": "srcs/rp-pwm.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 20,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PWM_Divider_Mode",
+                      "href": "docs/rp__pwm___spec.html#L20C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 21,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Free_Running",
+                      "href": "docs/rp__pwm___spec.html#L21C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 22,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Gated",
+                      "href": "docs/rp__pwm___spec.html#L22C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Slice counter only runs while channel B is high"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 23,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Rising_Edge",
+                      "href": "docs/rp__pwm___spec.html#L23C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Slice counter increments on channel B rising edge"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 24,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Falling_Edge",
+                      "href": "docs/rp__pwm___spec.html#L24C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/rp__pwm___spec.html#L20C9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Slice counter increments on channel B falling edge\n"
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "Free_Running",
+              "line": 21,
+              "column": 8,
+              "description": [
+              ]
+            },
+            {
+              "label": "Gated",
+              "line": 22,
+              "column": 8,
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Slice counter only runs while channel B is high\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Rising_Edge",
+              "line": 23,
+              "column": 8,
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Slice counter increments on channel B rising edge\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Falling_Edge",
+              "line": 24,
+              "column": 8,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "PWM_Slice",
+          "qualifier": "",
+          "line": 17,
+          "column": 9,
+          "src": "srcs/rp-pwm.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 17,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PWM_Slice",
+                      "href": "docs/rp__pwm___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -753,7 +753,7 @@ GNATdoc.Documentation = {
         {
           "label": "PWM_Slice_Array",
           "qualifier": "",
-          "line": 38,
+          "line": 37,
           "column": 9,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -764,7 +764,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -785,7 +785,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Slice_Array",
-                      "href": "docs/rp__pwm___spec.html#L38C9"
+                      "href": "docs/rp__pwm___spec.html#L37C9"
                     },
                     {
                       "kind": "span",
@@ -821,7 +821,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Slice",
-                      "href": "docs/rp__pwm___spec.html#L18C9"
+                      "href": "docs/rp__pwm___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -865,51 +865,9 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "PWM_Interrupt_Handler",
-          "qualifier": "",
-          "line": 45,
-          "column": 9,
-          "src": "srcs/rp-pwm.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 45,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                                        "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "label": "Access types"
-    },
-    {
-      "entities": [
-        {
           "label": "PWM_Point",
           "qualifier": "",
-          "line": 33,
+          "line": 32,
           "column": 9,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -920,7 +878,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -941,7 +899,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Point",
-                      "href": "docs/rp__pwm___spec.html#L33C9"
+                      "href": "docs/rp__pwm___spec.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -967,7 +925,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 33,
                   "children": [
                     {
                       "kind": "span",
@@ -978,7 +936,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L34C7"
+                      "href": "docs/rp__pwm___spec.html#L33C7"
                     },
                     {
                       "kind": "span",
@@ -999,7 +957,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Slice",
-                      "href": "docs/rp__pwm___spec.html#L18C9"
+                      "href": "docs/rp__pwm___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -1010,7 +968,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -1021,7 +979,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/rp__pwm___spec.html#L35C7"
+                      "href": "docs/rp__pwm___spec.html#L34C7"
                     },
                     {
                       "kind": "span",
@@ -1042,7 +1000,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Channel",
-                      "href": "docs/rp__pwm___spec.html#L19C9"
+                      "href": "docs/rp__pwm___spec.html#L18C9"
                     },
                     {
                       "kind": "span",
@@ -1053,7 +1011,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -1079,7 +1037,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/rp__pwm___spec.html#L33C9"
+                      "href": "docs/rp__pwm___spec.html#L32C9"
                     }
                   ]
                 }
@@ -1089,22 +1047,22 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Slice",
-              "line": 34,
+              "line": 33,
               "column": 7,
               "type": {
                 "label": "RP.PWM.PWM_Slice",
-                "docHref": "docs/rp__pwm___spec.html#L18C9"
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
               },
               "description": [
               ]
             },
             {
               "label": "Channel",
-              "line": 35,
+              "line": 34,
               "column": 7,
               "type": {
                 "label": "RP.PWM.PWM_Channel",
-                "docHref": "docs/rp__pwm___spec.html#L19C9"
+                "docHref": "docs/rp__pwm___spec.html#L18C9"
               },
               "description": [
               ]
@@ -1117,9 +1075,9 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "Advance_Phase",
+          "label": "Acknowledge_Interrupt",
           "qualifier": "",
-          "line": 130,
+          "line": 153,
           "column": 14,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -1130,7 +1088,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 130,
+                  "number": 153,
                   "children": [
                     {
                       "kind": "span",
@@ -1150,14 +1108,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Advance_Phase",
-                      "href": "docs/rp__pwm___spec.html#L130C14"
+                      "text": "Acknowledge_Interrupt",
+                      "href": "docs/rp__pwm___spec.html#L153C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 131,
+                  "number": 154,
                   "children": [
                     {
                       "kind": "span",
@@ -1173,7 +1131,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L131C8"
+                      "href": "docs/rp__pwm___spec.html#L154C8"
                     },
                     {
                       "kind": "span",
@@ -1194,7 +1152,116 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Slice",
-                      "href": "docs/rp__pwm___spec.html#L18C9"
+                      "href": "docs/rp__pwm___spec.html#L17C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Slice",
+              "line": 154,
+              "column": 8,
+              "type": {
+                "label": "RP.PWM.PWM_Slice",
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Advance_Phase",
+          "qualifier": "",
+          "line": 127,
+          "column": 14,
+          "src": "srcs/rp-pwm.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 127,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Advance_Phase",
+                      "href": "docs/rp__pwm___spec.html#L127C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 128,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Slice",
+                      "href": "docs/rp__pwm___spec.html#L128C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PWM_Slice",
+                      "href": "docs/rp__pwm___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -1205,7 +1272,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 132,
+                  "number": 129,
                   "children": [
                     {
                       "kind": "span",
@@ -1235,195 +1302,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Slice",
-              "line": 131,
+              "line": 128,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Slice",
-                "docHref": "docs/rp__pwm___spec.html#L18C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Attach",
-          "qualifier": "",
-          "line": 147,
-          "column": 14,
-          "src": "srcs/rp-pwm.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 147,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Attach",
-                      "href": "docs/rp__pwm___spec.html#L147C14"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 148,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L148C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_Slice",
-                      "href": "docs/rp__pwm___spec.html#L18C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 149,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Handler",
-                      "href": "docs/rp__pwm___spec.html#L149C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_Interrupt_Handler",
-                      "href": "docs/rp__pwm___spec.html#L45C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 150,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Pre => Initialized"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Slice",
-              "line": 148,
-              "column": 8,
-              "type": {
-                "label": "RP.PWM.PWM_Slice",
-                "docHref": "docs/rp__pwm___spec.html#L18C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Handler",
-              "line": 149,
-              "column": 8,
-              "type": {
-                "label": "RP.PWM.PWM_Interrupt_Handler",
-                "docHref": "docs/rp__pwm___spec.html#L45C9"
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
               },
               "description": [
               ]
@@ -1433,7 +1316,7 @@ GNATdoc.Documentation = {
         {
           "label": "Compare_Reg_Address",
           "qualifier": "",
-          "line": 156,
+          "line": 144,
           "column": 13,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -1444,7 +1327,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 156,
+                  "number": 144,
                   "children": [
                     {
                       "kind": "span",
@@ -1465,7 +1348,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Compare_Reg_Address",
-                      "href": "docs/rp__pwm___spec.html#L156C13"
+                      "href": "docs/rp__pwm___spec.html#L144C13"
                     },
                     {
                       "kind": "span",
@@ -1481,7 +1364,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L156C34"
+                      "href": "docs/rp__pwm___spec.html#L144C34"
                     },
                     {
                       "kind": "span",
@@ -1502,7 +1385,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Slice",
-                      "href": "docs/rp__pwm___spec.html#L18C9"
+                      "href": "docs/rp__pwm___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -1551,11 +1434,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Slice",
-              "line": 156,
+              "line": 144,
               "column": 34,
               "type": {
                 "label": "RP.PWM.PWM_Slice",
-                "docHref": "docs/rp__pwm___spec.html#L18C9"
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
               },
               "description": [
               ]
@@ -1565,7 +1448,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count",
           "qualifier": "",
-          "line": 138,
+          "line": 135,
           "column": 13,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -1576,7 +1459,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 138,
+                  "number": 135,
                   "children": [
                     {
                       "kind": "span",
@@ -1597,13 +1480,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count",
-                      "href": "docs/rp__pwm___spec.html#L138C13"
+                      "href": "docs/rp__pwm___spec.html#L135C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 139,
+                  "number": 136,
                   "children": [
                     {
                       "kind": "span",
@@ -1619,7 +1502,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L139C8"
+                      "href": "docs/rp__pwm___spec.html#L136C8"
                     },
                     {
                       "kind": "span",
@@ -1640,7 +1523,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Slice",
-                      "href": "docs/rp__pwm___spec.html#L18C9"
+                      "href": "docs/rp__pwm___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -1651,7 +1534,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 140,
+                  "number": 137,
                   "children": [
                     {
                       "kind": "span",
@@ -1687,11 +1570,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Slice",
-              "line": 139,
+              "line": 136,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Slice",
-                "docHref": "docs/rp__pwm___spec.html#L18C9"
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
               },
               "description": [
               ]
@@ -1701,7 +1584,7 @@ GNATdoc.Documentation = {
         {
           "label": "Disable",
           "qualifier": "",
-          "line": 103,
+          "line": 100,
           "column": 14,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -1710,293 +1593,6 @@ GNATdoc.Documentation = {
             {
               "kind": "code",
               "children": [
-                {
-                  "kind": "line",
-                  "number": 103,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Disable",
-                      "href": "docs/rp__pwm___spec.html#L103C14"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 104,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L104C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_Slice",
-                      "href": "docs/rp__pwm___spec.html#L18C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 105,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Pre => Initialized"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Slice",
-              "line": 104,
-              "column": 8,
-              "type": {
-                "label": "RP.PWM.PWM_Slice",
-                "docHref": "docs/rp__pwm___spec.html#L18C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Disable",
-          "qualifier": "",
-          "line": 111,
-          "column": 14,
-          "src": "srcs/rp-pwm.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 111,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Disable",
-                      "href": "docs/rp__pwm___spec.html#L111C14"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 112,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Slices",
-                      "href": "docs/rp__pwm___spec.html#L112C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_Slice_Array",
-                      "href": "docs/rp__pwm___spec.html#L38C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 113,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Pre => Initialized"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Slices",
-              "line": 112,
-              "column": 8,
-              "type": {
-                "label": "RP.PWM.PWM_Slice_Array",
-                "docHref": "docs/rp__pwm___spec.html#L38C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Enable",
-          "qualifier": "",
-          "line": 99,
-          "column": 14,
-          "src": "srcs/rp-pwm.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 99,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Enable",
-                      "href": "docs/rp__pwm___spec.html#L99C14"
-                    }
-                  ]
-                },
                 {
                   "kind": "line",
                   "number": 100,
@@ -2004,18 +1600,12 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L100C8"
+                      "cssClass": "keyword",
+                      "text": "procedure"
                     },
                     {
                       "kind": "span",
@@ -2025,23 +1615,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "PWM_Slice",
-                      "href": "docs/rp__pwm___spec.html#L18C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
+                      "text": "Disable",
+                      "href": "docs/rp__pwm___spec.html#L100C14"
                     }
                   ]
                 },
@@ -2052,6 +1627,54 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Slice",
+                      "href": "docs/rp__pwm___spec.html#L101C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PWM_Slice",
+                      "href": "docs/rp__pwm___spec.html#L17C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 102,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
                       "text": "   "
                     },
                     {
@@ -2077,11 +1700,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Slice",
-              "line": 100,
+              "line": 101,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Slice",
-                "docHref": "docs/rp__pwm___spec.html#L18C9"
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
               },
               "description": [
               ]
@@ -2089,9 +1712,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Enable",
+          "label": "Disable",
           "qualifier": "",
-          "line": 107,
+          "line": 108,
           "column": 14,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -2102,7 +1725,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 107,
+                  "number": 108,
                   "children": [
                     {
                       "kind": "span",
@@ -2122,14 +1745,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Enable",
-                      "href": "docs/rp__pwm___spec.html#L107C14"
+                      "text": "Disable",
+                      "href": "docs/rp__pwm___spec.html#L108C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 108,
+                  "number": 109,
                   "children": [
                     {
                       "kind": "span",
@@ -2145,7 +1768,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slices",
-                      "href": "docs/rp__pwm___spec.html#L108C8"
+                      "href": "docs/rp__pwm___spec.html#L109C8"
                     },
                     {
                       "kind": "span",
@@ -2166,7 +1789,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Slice_Array",
-                      "href": "docs/rp__pwm___spec.html#L38C9"
+                      "href": "docs/rp__pwm___spec.html#L37C9"
                     },
                     {
                       "kind": "span",
@@ -2177,7 +1800,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 109,
+                  "number": 110,
                   "children": [
                     {
                       "kind": "span",
@@ -2207,11 +1830,489 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Slices",
-              "line": 108,
+              "line": 109,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Slice_Array",
-                "docHref": "docs/rp__pwm___spec.html#L38C9"
+                "docHref": "docs/rp__pwm___spec.html#L37C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Disable_Interrupt",
+          "qualifier": "",
+          "line": 150,
+          "column": 14,
+          "src": "srcs/rp-pwm.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 150,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Disable_Interrupt",
+                      "href": "docs/rp__pwm___spec.html#L150C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 151,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Slice",
+                      "href": "docs/rp__pwm___spec.html#L151C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PWM_Slice",
+                      "href": "docs/rp__pwm___spec.html#L17C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Slice",
+              "line": 151,
+              "column": 8,
+              "type": {
+                "label": "RP.PWM.PWM_Slice",
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Enable",
+          "qualifier": "",
+          "line": 96,
+          "column": 14,
+          "src": "srcs/rp-pwm.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 96,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Enable",
+                      "href": "docs/rp__pwm___spec.html#L96C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 97,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Slice",
+                      "href": "docs/rp__pwm___spec.html#L97C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PWM_Slice",
+                      "href": "docs/rp__pwm___spec.html#L17C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 98,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pre => Initialized"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Slice",
+              "line": 97,
+              "column": 8,
+              "type": {
+                "label": "RP.PWM.PWM_Slice",
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Enable",
+          "qualifier": "",
+          "line": 104,
+          "column": 14,
+          "src": "srcs/rp-pwm.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 104,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Enable",
+                      "href": "docs/rp__pwm___spec.html#L104C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 105,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Slices",
+                      "href": "docs/rp__pwm___spec.html#L105C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PWM_Slice_Array",
+                      "href": "docs/rp__pwm___spec.html#L37C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 106,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pre => Initialized"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Slices",
+              "line": 105,
+              "column": 8,
+              "type": {
+                "label": "RP.PWM.PWM_Slice_Array",
+                "docHref": "docs/rp__pwm___spec.html#L37C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Enable_Interrupt",
+          "qualifier": "",
+          "line": 147,
+          "column": 14,
+          "src": "srcs/rp-pwm.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 147,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Enable_Interrupt",
+                      "href": "docs/rp__pwm___spec.html#L147C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 148,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Slice",
+                      "href": "docs/rp__pwm___spec.html#L148C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "PWM_Slice",
+                      "href": "docs/rp__pwm___spec.html#L17C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Slice",
+              "line": 148,
+              "column": 8,
+              "type": {
+                "label": "RP.PWM.PWM_Slice",
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
               },
               "description": [
               ]
@@ -2221,7 +2322,7 @@ GNATdoc.Documentation = {
         {
           "label": "Enabled",
           "qualifier": "",
-          "line": 115,
+          "line": 112,
           "column": 13,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -2232,7 +2333,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 115,
+                  "number": 112,
                   "children": [
                     {
                       "kind": "span",
@@ -2253,13 +2354,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enabled",
-                      "href": "docs/rp__pwm___spec.html#L115C13"
+                      "href": "docs/rp__pwm___spec.html#L112C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 116,
+                  "number": 113,
                   "children": [
                     {
                       "kind": "span",
@@ -2275,7 +2376,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L116C8"
+                      "href": "docs/rp__pwm___spec.html#L113C8"
                     },
                     {
                       "kind": "span",
@@ -2296,7 +2397,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Slice",
-                      "href": "docs/rp__pwm___spec.html#L18C9"
+                      "href": "docs/rp__pwm___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -2307,7 +2408,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 117,
+                  "number": 114,
                   "children": [
                     {
                       "kind": "span",
@@ -2342,11 +2443,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Slice",
-              "line": 116,
+              "line": 113,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Slice",
-                "docHref": "docs/rp__pwm___spec.html#L18C9"
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
               },
               "description": [
               ]
@@ -2356,7 +2457,7 @@ GNATdoc.Documentation = {
         {
           "label": "Initialize",
           "qualifier": "",
-          "line": 50,
+          "line": 47,
           "column": 14,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -2367,7 +2468,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -2388,13 +2489,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Initialize",
-                      "href": "docs/rp__pwm___spec.html#L50C14"
+                      "href": "docs/rp__pwm___spec.html#L47C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -2423,127 +2524,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "IRQ_Handler",
-          "qualifier": "",
-          "line": 153,
-          "column": 14,
-          "src": "srcs/rp-pwm.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 153,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "IRQ_Handler",
-                      "href": "docs/rp__pwm___spec.html#L153C14"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 154,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Id",
-                      "href": "docs/rp__pwm___spec.html#L154C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "RP_Interrupts.Interrupt_ID",
-                      "href": "docs/rp_interrupts___spec.html#L16C12"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "This handler should be called in response to PWM_IRQ_WRAP (IRQ 4)\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Id",
-              "line": 154,
-              "column": 8,
-              "type": {
-                "label": "RP_Interrupts.Interrupt_ID",
-                "docHref": "docs/rp_interrupts___spec.html#L16C12"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
           "label": "Retard_Phase",
           "qualifier": "",
-          "line": 134,
+          "line": 131,
           "column": 14,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -2554,7 +2537,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 134,
+                  "number": 131,
                   "children": [
                     {
                       "kind": "span",
@@ -2575,13 +2558,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Retard_Phase",
-                      "href": "docs/rp__pwm___spec.html#L134C14"
+                      "href": "docs/rp__pwm___spec.html#L131C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 135,
+                  "number": 132,
                   "children": [
                     {
                       "kind": "span",
@@ -2597,7 +2580,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L135C8"
+                      "href": "docs/rp__pwm___spec.html#L132C8"
                     },
                     {
                       "kind": "span",
@@ -2618,7 +2601,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Slice",
-                      "href": "docs/rp__pwm___spec.html#L18C9"
+                      "href": "docs/rp__pwm___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -2629,7 +2612,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 136,
+                  "number": 133,
                   "children": [
                     {
                       "kind": "span",
@@ -2659,11 +2642,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Slice",
-              "line": 135,
+              "line": 132,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Slice",
-                "docHref": "docs/rp__pwm___spec.html#L18C9"
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
               },
               "description": [
               ]
@@ -2673,7 +2656,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Count",
           "qualifier": "",
-          "line": 142,
+          "line": 139,
           "column": 14,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -2684,7 +2667,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 142,
+                  "number": 139,
                   "children": [
                     {
                       "kind": "span",
@@ -2705,13 +2688,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Count",
-                      "href": "docs/rp__pwm___spec.html#L142C14"
+                      "href": "docs/rp__pwm___spec.html#L139C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 143,
+                  "number": 140,
                   "children": [
                     {
                       "kind": "span",
@@ -2727,7 +2710,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L143C8"
+                      "href": "docs/rp__pwm___spec.html#L140C8"
                     },
                     {
                       "kind": "span",
@@ -2748,7 +2731,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Slice",
-                      "href": "docs/rp__pwm___spec.html#L18C9"
+                      "href": "docs/rp__pwm___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -2759,7 +2742,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 144,
+                  "number": 141,
                   "children": [
                     {
                       "kind": "span",
@@ -2770,7 +2753,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Value",
-                      "href": "docs/rp__pwm___spec.html#L144C8"
+                      "href": "docs/rp__pwm___spec.html#L141C8"
                     },
                     {
                       "kind": "span",
@@ -2791,7 +2774,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Period",
-                      "href": "docs/rp__pwm___spec.html#L43C12"
+                      "href": "docs/rp__pwm___spec.html#L42C12"
                     },
                     {
                       "kind": "span",
@@ -2802,7 +2785,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 145,
+                  "number": 142,
                   "children": [
                     {
                       "kind": "span",
@@ -2832,22 +2815,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Slice",
-              "line": 143,
+              "line": 140,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Slice",
-                "docHref": "docs/rp__pwm___spec.html#L18C9"
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
               },
               "description": [
               ]
             },
             {
               "label": "Value",
-              "line": 144,
+              "line": 141,
               "column": 8,
               "type": {
                 "label": "RP.PWM.Period",
-                "docHref": "docs/rp__pwm___spec.html#L43C12"
+                "docHref": "docs/rp__pwm___spec.html#L42C12"
               },
               "description": [
               ]
@@ -2857,7 +2840,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Divider",
           "qualifier": "",
-          "line": 63,
+          "line": 60,
           "column": 14,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -2868,7 +2851,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 63,
+                  "number": 60,
                   "children": [
                     {
                       "kind": "span",
@@ -2889,13 +2872,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Divider",
-                      "href": "docs/rp__pwm___spec.html#L63C14"
+                      "href": "docs/rp__pwm___spec.html#L60C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 64,
+                  "number": 61,
                   "children": [
                     {
                       "kind": "span",
@@ -2911,7 +2894,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L64C8"
+                      "href": "docs/rp__pwm___spec.html#L61C8"
                     },
                     {
                       "kind": "span",
@@ -2932,7 +2915,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Slice",
-                      "href": "docs/rp__pwm___spec.html#L18C9"
+                      "href": "docs/rp__pwm___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -2943,7 +2926,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 65,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -2954,7 +2937,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Div",
-                      "href": "docs/rp__pwm___spec.html#L65C8"
+                      "href": "docs/rp__pwm___spec.html#L62C8"
                     },
                     {
                       "kind": "span",
@@ -2975,7 +2958,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Divider",
-                      "href": "docs/rp__pwm___spec.html#L41C9"
+                      "href": "docs/rp__pwm___spec.html#L40C9"
                     },
                     {
                       "kind": "span",
@@ -2986,7 +2969,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 66,
+                  "number": 63,
                   "children": [
                     {
                       "kind": "span",
@@ -3025,22 +3008,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Slice",
-              "line": 64,
+              "line": 61,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Slice",
-                "docHref": "docs/rp__pwm___spec.html#L18C9"
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
               },
               "description": [
               ]
             },
             {
               "label": "Div",
-              "line": 65,
+              "line": 62,
               "column": 8,
               "type": {
                 "label": "RP.PWM.Divider",
-                "docHref": "docs/rp__pwm___spec.html#L41C9"
+                "docHref": "docs/rp__pwm___spec.html#L40C9"
               },
               "description": [
               ]
@@ -3050,7 +3033,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Duty_Cycle",
           "qualifier": "",
-          "line": 87,
+          "line": 84,
           "column": 14,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -3061,7 +3044,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 87,
+                  "number": 84,
                   "children": [
                     {
                       "kind": "span",
@@ -3082,13 +3065,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Duty_Cycle",
-                      "href": "docs/rp__pwm___spec.html#L87C14"
+                      "href": "docs/rp__pwm___spec.html#L84C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 88,
+                  "number": 85,
                   "children": [
                     {
                       "kind": "span",
@@ -3104,7 +3087,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L88C8"
+                      "href": "docs/rp__pwm___spec.html#L85C8"
                     },
                     {
                       "kind": "span",
@@ -3125,7 +3108,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Slice",
-                      "href": "docs/rp__pwm___spec.html#L18C9"
+                      "href": "docs/rp__pwm___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -3136,7 +3119,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 89,
+                  "number": 86,
                   "children": [
                     {
                       "kind": "span",
@@ -3147,7 +3130,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel_A",
-                      "href": "docs/rp__pwm___spec.html#L89C8"
+                      "href": "docs/rp__pwm___spec.html#L86C8"
                     },
                     {
                       "kind": "span",
@@ -3168,7 +3151,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Period",
-                      "href": "docs/rp__pwm___spec.html#L43C12"
+                      "href": "docs/rp__pwm___spec.html#L42C12"
                     },
                     {
                       "kind": "span",
@@ -3179,7 +3162,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 90,
+                  "number": 87,
                   "children": [
                     {
                       "kind": "span",
@@ -3190,7 +3173,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel_B",
-                      "href": "docs/rp__pwm___spec.html#L90C8"
+                      "href": "docs/rp__pwm___spec.html#L87C8"
                     },
                     {
                       "kind": "span",
@@ -3211,7 +3194,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Period",
-                      "href": "docs/rp__pwm___spec.html#L43C12"
+                      "href": "docs/rp__pwm___spec.html#L42C12"
                     },
                     {
                       "kind": "span",
@@ -3222,7 +3205,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 91,
+                  "number": 88,
                   "children": [
                     {
                       "kind": "span",
@@ -3269,33 +3252,33 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Slice",
-              "line": 88,
+              "line": 85,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Slice",
-                "docHref": "docs/rp__pwm___spec.html#L18C9"
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
               },
               "description": [
               ]
             },
             {
               "label": "Channel_A",
-              "line": 89,
+              "line": 86,
               "column": 8,
               "type": {
                 "label": "RP.PWM.Period",
-                "docHref": "docs/rp__pwm___spec.html#L43C12"
+                "docHref": "docs/rp__pwm___spec.html#L42C12"
               },
               "description": [
               ]
             },
             {
               "label": "Channel_B",
-              "line": 90,
+              "line": 87,
               "column": 8,
               "type": {
                 "label": "RP.PWM.Period",
-                "docHref": "docs/rp__pwm___spec.html#L43C12"
+                "docHref": "docs/rp__pwm___spec.html#L42C12"
               },
               "description": [
               ]
@@ -3305,7 +3288,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Duty_Cycle",
           "qualifier": "",
-          "line": 93,
+          "line": 90,
           "column": 14,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -3316,7 +3299,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 93,
+                  "number": 90,
                   "children": [
                     {
                       "kind": "span",
@@ -3337,13 +3320,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Duty_Cycle",
-                      "href": "docs/rp__pwm___spec.html#L93C14"
+                      "href": "docs/rp__pwm___spec.html#L90C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 94,
+                  "number": 91,
                   "children": [
                     {
                       "kind": "span",
@@ -3359,7 +3342,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L94C8"
+                      "href": "docs/rp__pwm___spec.html#L91C8"
                     },
                     {
                       "kind": "span",
@@ -3380,7 +3363,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Slice",
-                      "href": "docs/rp__pwm___spec.html#L18C9"
+                      "href": "docs/rp__pwm___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -3391,7 +3374,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 95,
+                  "number": 92,
                   "children": [
                     {
                       "kind": "span",
@@ -3402,7 +3385,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/rp__pwm___spec.html#L95C8"
+                      "href": "docs/rp__pwm___spec.html#L92C8"
                     },
                     {
                       "kind": "span",
@@ -3423,7 +3406,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Channel",
-                      "href": "docs/rp__pwm___spec.html#L19C9"
+                      "href": "docs/rp__pwm___spec.html#L18C9"
                     },
                     {
                       "kind": "span",
@@ -3434,7 +3417,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 96,
+                  "number": 93,
                   "children": [
                     {
                       "kind": "span",
@@ -3445,7 +3428,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Duty_Cycle",
-                      "href": "docs/rp__pwm___spec.html#L96C8"
+                      "href": "docs/rp__pwm___spec.html#L93C8"
                     },
                     {
                       "kind": "span",
@@ -3466,7 +3449,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Period",
-                      "href": "docs/rp__pwm___spec.html#L43C12"
+                      "href": "docs/rp__pwm___spec.html#L42C12"
                     },
                     {
                       "kind": "span",
@@ -3477,7 +3460,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 97,
+                  "number": 94,
                   "children": [
                     {
                       "kind": "span",
@@ -3507,33 +3490,33 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Slice",
-              "line": 94,
+              "line": 91,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Slice",
-                "docHref": "docs/rp__pwm___spec.html#L18C9"
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
               },
               "description": [
               ]
             },
             {
               "label": "Channel",
-              "line": 95,
+              "line": 92,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Channel",
-                "docHref": "docs/rp__pwm___spec.html#L19C9"
+                "docHref": "docs/rp__pwm___spec.html#L18C9"
               },
               "description": [
               ]
             },
             {
               "label": "Duty_Cycle",
-              "line": 96,
+              "line": 93,
               "column": 8,
               "type": {
                 "label": "RP.PWM.Period",
-                "docHref": "docs/rp__pwm___spec.html#L43C12"
+                "docHref": "docs/rp__pwm___spec.html#L42C12"
               },
               "description": [
               ]
@@ -3543,7 +3526,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Frequency",
           "qualifier": "",
-          "line": 71,
+          "line": 68,
           "column": 14,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -3554,7 +3537,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 68,
                   "children": [
                     {
                       "kind": "span",
@@ -3575,13 +3558,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Frequency",
-                      "href": "docs/rp__pwm___spec.html#L71C14"
+                      "href": "docs/rp__pwm___spec.html#L68C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 72,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",
@@ -3597,7 +3580,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L72C8"
+                      "href": "docs/rp__pwm___spec.html#L69C8"
                     },
                     {
                       "kind": "span",
@@ -3618,7 +3601,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Slice",
-                      "href": "docs/rp__pwm___spec.html#L18C9"
+                      "href": "docs/rp__pwm___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -3629,7 +3612,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 73,
+                  "number": 70,
                   "children": [
                     {
                       "kind": "span",
@@ -3640,7 +3623,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Frequency",
-                      "href": "docs/rp__pwm___spec.html#L73C8"
+                      "href": "docs/rp__pwm___spec.html#L70C8"
                     },
                     {
                       "kind": "span",
@@ -3672,7 +3655,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 74,
+                  "number": 71,
                   "children": [
                     {
                       "kind": "span",
@@ -3693,7 +3676,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 75,
+                  "number": 72,
                   "children": [
                     {
                       "kind": "span",
@@ -3750,18 +3733,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Slice",
-              "line": 72,
+              "line": 69,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Slice",
-                "docHref": "docs/rp__pwm___spec.html#L18C9"
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
               },
               "description": [
               ]
             },
             {
               "label": "Frequency",
-              "line": 73,
+              "line": 70,
               "column": 8,
               "type": {
                 "label": "RP.Hertz",
@@ -3775,7 +3758,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Interval",
           "qualifier": "",
-          "line": 79,
+          "line": 76,
           "column": 14,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -3786,7 +3769,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 79,
+                  "number": 76,
                   "children": [
                     {
                       "kind": "span",
@@ -3807,13 +3790,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Interval",
-                      "href": "docs/rp__pwm___spec.html#L79C14"
+                      "href": "docs/rp__pwm___spec.html#L76C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 80,
+                  "number": 77,
                   "children": [
                     {
                       "kind": "span",
@@ -3829,7 +3812,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L80C8"
+                      "href": "docs/rp__pwm___spec.html#L77C8"
                     },
                     {
                       "kind": "span",
@@ -3850,7 +3833,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Slice",
-                      "href": "docs/rp__pwm___spec.html#L18C9"
+                      "href": "docs/rp__pwm___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -3861,7 +3844,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 81,
+                  "number": 78,
                   "children": [
                     {
                       "kind": "span",
@@ -3872,7 +3855,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Clocks",
-                      "href": "docs/rp__pwm___spec.html#L81C8"
+                      "href": "docs/rp__pwm___spec.html#L78C8"
                     },
                     {
                       "kind": "span",
@@ -3893,7 +3876,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Period",
-                      "href": "docs/rp__pwm___spec.html#L43C12"
+                      "href": "docs/rp__pwm___spec.html#L42C12"
                     },
                     {
                       "kind": "span",
@@ -3904,7 +3887,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 82,
+                  "number": 79,
                   "children": [
                     {
                       "kind": "span",
@@ -3947,22 +3930,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Slice",
-              "line": 80,
+              "line": 77,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Slice",
-                "docHref": "docs/rp__pwm___spec.html#L18C9"
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
               },
               "description": [
               ]
             },
             {
               "label": "Clocks",
-              "line": 81,
+              "line": 78,
               "column": 8,
               "type": {
                 "label": "RP.PWM.Period",
-                "docHref": "docs/rp__pwm___spec.html#L43C12"
+                "docHref": "docs/rp__pwm___spec.html#L42C12"
               },
               "description": [
               ]
@@ -3972,7 +3955,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Invert",
           "qualifier": "",
-          "line": 119,
+          "line": 116,
           "column": 14,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -3983,7 +3966,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 119,
+                  "number": 116,
                   "children": [
                     {
                       "kind": "span",
@@ -4004,13 +3987,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Invert",
-                      "href": "docs/rp__pwm___spec.html#L119C14"
+                      "href": "docs/rp__pwm___spec.html#L116C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 120,
+                  "number": 117,
                   "children": [
                     {
                       "kind": "span",
@@ -4026,7 +4009,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L120C8"
+                      "href": "docs/rp__pwm___spec.html#L117C8"
                     },
                     {
                       "kind": "span",
@@ -4047,7 +4030,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Slice",
-                      "href": "docs/rp__pwm___spec.html#L18C9"
+                      "href": "docs/rp__pwm___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -4058,7 +4041,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 121,
+                  "number": 118,
                   "children": [
                     {
                       "kind": "span",
@@ -4069,7 +4052,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel_A",
-                      "href": "docs/rp__pwm___spec.html#L121C8"
+                      "href": "docs/rp__pwm___spec.html#L118C8"
                     },
                     {
                       "kind": "span",
@@ -4100,7 +4083,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 122,
+                  "number": 119,
                   "children": [
                     {
                       "kind": "span",
@@ -4111,7 +4094,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel_B",
-                      "href": "docs/rp__pwm___spec.html#L122C8"
+                      "href": "docs/rp__pwm___spec.html#L119C8"
                     },
                     {
                       "kind": "span",
@@ -4142,7 +4125,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 123,
+                  "number": 120,
                   "children": [
                     {
                       "kind": "span",
@@ -4172,18 +4155,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Slice",
-              "line": 120,
+              "line": 117,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Slice",
-                "docHref": "docs/rp__pwm___spec.html#L18C9"
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
               },
               "description": [
               ]
             },
             {
               "label": "Channel_A",
-              "line": 121,
+              "line": 118,
               "column": 8,
               "type": {
                 "label": "Boolean"
@@ -4193,7 +4176,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Channel_B",
-              "line": 122,
+              "line": 119,
               "column": 8,
               "type": {
                 "label": "Boolean"
@@ -4206,7 +4189,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Mode",
           "qualifier": "",
-          "line": 57,
+          "line": 54,
           "column": 14,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -4217,7 +4200,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 57,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -4238,13 +4221,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Mode",
-                      "href": "docs/rp__pwm___spec.html#L57C14"
+                      "href": "docs/rp__pwm___spec.html#L54C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 58,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -4260,7 +4243,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L58C8"
+                      "href": "docs/rp__pwm___spec.html#L55C8"
                     },
                     {
                       "kind": "span",
@@ -4281,7 +4264,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Slice",
-                      "href": "docs/rp__pwm___spec.html#L18C9"
+                      "href": "docs/rp__pwm___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -4292,7 +4275,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 59,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -4303,7 +4286,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Mode",
-                      "href": "docs/rp__pwm___spec.html#L59C8"
+                      "href": "docs/rp__pwm___spec.html#L56C8"
                     },
                     {
                       "kind": "span",
@@ -4324,7 +4307,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Divider_Mode",
-                      "href": "docs/rp__pwm___spec.html#L21C9"
+                      "href": "docs/rp__pwm___spec.html#L20C9"
                     },
                     {
                       "kind": "span",
@@ -4335,7 +4318,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 60,
+                  "number": 57,
                   "children": [
                     {
                       "kind": "span",
@@ -4365,22 +4348,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Slice",
-              "line": 58,
+              "line": 55,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Slice",
-                "docHref": "docs/rp__pwm___spec.html#L18C9"
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
               },
               "description": [
               ]
             },
             {
               "label": "Mode",
-              "line": 59,
+              "line": 56,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Divider_Mode",
-                "docHref": "docs/rp__pwm___spec.html#L21C9"
+                "docHref": "docs/rp__pwm___spec.html#L20C9"
               },
               "description": [
               ]
@@ -4390,7 +4373,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Phase_Correction",
           "qualifier": "",
-          "line": 125,
+          "line": 122,
           "column": 14,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -4401,7 +4384,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 125,
+                  "number": 122,
                   "children": [
                     {
                       "kind": "span",
@@ -4422,13 +4405,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Phase_Correction",
-                      "href": "docs/rp__pwm___spec.html#L125C14"
+                      "href": "docs/rp__pwm___spec.html#L122C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 126,
+                  "number": 123,
                   "children": [
                     {
                       "kind": "span",
@@ -4444,7 +4427,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Slice",
-                      "href": "docs/rp__pwm___spec.html#L126C8"
+                      "href": "docs/rp__pwm___spec.html#L123C8"
                     },
                     {
                       "kind": "span",
@@ -4465,7 +4448,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Slice",
-                      "href": "docs/rp__pwm___spec.html#L18C9"
+                      "href": "docs/rp__pwm___spec.html#L17C9"
                     },
                     {
                       "kind": "span",
@@ -4476,7 +4459,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 127,
+                  "number": 124,
                   "children": [
                     {
                       "kind": "span",
@@ -4487,7 +4470,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enabled",
-                      "href": "docs/rp__pwm___spec.html#L127C8"
+                      "href": "docs/rp__pwm___spec.html#L124C8"
                     },
                     {
                       "kind": "span",
@@ -4518,7 +4501,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 128,
+                  "number": 125,
                   "children": [
                     {
                       "kind": "span",
@@ -4548,18 +4531,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Slice",
-              "line": 126,
+              "line": 123,
               "column": 8,
               "type": {
                 "label": "RP.PWM.PWM_Slice",
-                "docHref": "docs/rp__pwm___spec.html#L18C9"
+                "docHref": "docs/rp__pwm___spec.html#L17C9"
               },
               "description": [
               ]
             },
             {
               "label": "Enabled",
-              "line": 127,
+              "line": 124,
               "column": 8,
               "type": {
                 "label": "Boolean"
@@ -4572,7 +4555,7 @@ GNATdoc.Documentation = {
         {
           "label": "To_PWM",
           "qualifier": "",
-          "line": 53,
+          "line": 50,
           "column": 13,
           "src": "srcs/rp-pwm.ads.html",
           "summary": [
@@ -4583,7 +4566,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -4604,13 +4587,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "To_PWM",
-                      "href": "docs/rp__pwm___spec.html#L53C13"
+                      "href": "docs/rp__pwm___spec.html#L50C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 51,
                   "children": [
                     {
                       "kind": "span",
@@ -4626,7 +4609,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GPIO",
-                      "href": "docs/rp__pwm___spec.html#L54C8"
+                      "href": "docs/rp__pwm___spec.html#L51C8"
                     },
                     {
                       "kind": "span",
@@ -4647,7 +4630,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP.GPIO.GPIO_Point",
-                      "href": "docs/rp__gpio___spec.html#L20C9"
+                      "href": "docs/rp__gpio___spec.html#L19C9"
                     },
                     {
                       "kind": "span",
@@ -4658,7 +4641,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 55,
+                  "number": 52,
                   "children": [
                     {
                       "kind": "span",
@@ -4679,7 +4662,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "PWM_Point",
-                      "href": "docs/rp__pwm___spec.html#L33C9"
+                      "href": "docs/rp__pwm___spec.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -4694,11 +4677,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "GPIO",
-              "line": 54,
+              "line": 51,
               "column": 8,
               "type": {
                 "label": "RP.GPIO.GPIO_Point",
-                "docHref": "docs/rp__gpio___spec.html#L20C9"
+                "docHref": "docs/rp__gpio___spec.html#L19C9"
               },
               "description": [
               ]

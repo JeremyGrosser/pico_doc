@@ -290,10 +290,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Build_Profile",
-      "docHref": "docs/rp2040_hal_config___spec.html#L23C4",
+      "docHref": "docs/rp2040_hal_config___spec.html#L26C4",
       "declared": "Rp2040_Hal_Config",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_hal_config.ads.html#L23"
+      "srcHref": "srcs/rp2040_hal_config.ads.html#L26"
     },
     {
       "label": "Bulgarian",
@@ -885,10 +885,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Initialized",
-      "docHref": "docs/rp__pwm___spec.html#L48C4",
+      "docHref": "docs/rp__pwm___spec.html#L45C4",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L48"
+      "srcHref": "srcs/rp-pwm.ads.html#L45"
     },
     {
       "label": "INTERP0_Base",
@@ -903,6 +903,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "RP.Device",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-device.ads.html#L47"
+    },
+    {
+      "label": "Interrupts",
+      "docHref": "docs/rp2040_hal_config___spec.html#L23C4",
+      "declared": "Rp2040_Hal_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_hal_config.ads.html#L23"
     },
     {
       "label": "Invalid",

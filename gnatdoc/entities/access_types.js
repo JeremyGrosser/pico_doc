@@ -136,17 +136,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Interrupt_Procedure",
-      "docHref": "docs/rp__gpio___spec.html#L54C9",
-      "declared": "RP.GPIO",
+      "docHref": "docs/rp__gpio__interrupts___spec.html#L11C9",
+      "declared": "RP.GPIO.Interrupts",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L54"
+      "srcHref": "srcs/rp-gpio-interrupts.ads.html#L11"
     },
     {
       "label": "PWM_Interrupt_Handler",
-      "docHref": "docs/rp__pwm___spec.html#L45C9",
-      "declared": "RP.PWM",
+      "docHref": "docs/rp__pwm__interrupts___spec.html#L11C9",
+      "declared": "RP.PWM.Interrupts",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L45"
+      "srcHref": "srcs/rp-pwm-interrupts.ads.html#L11"
     },
     {
       "label": "Report_Descriptor_Access",

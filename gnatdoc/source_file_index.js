@@ -196,6 +196,10 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/rp-flash.ads.html"
   },
   {
+    "label": "rp-gpio-interrupts.ads",
+    "srcHref": "srcs/rp-gpio-interrupts.ads.html"
+  },
+  {
     "label": "rp-gpio.ads",
     "srcHref": "srcs/rp-gpio.ads.html"
   },
@@ -248,6 +252,10 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/rp-pio.ads.html"
   },
   {
+    "label": "rp-pwm-interrupts.ads",
+    "srcHref": "srcs/rp-pwm-interrupts.ads.html"
+  },
+  {
     "label": "rp-pwm.ads",
     "srcHref": "srcs/rp-pwm.ads.html"
   },
@@ -270,6 +278,10 @@ GNATdoc.SourceFileIndex = [
   {
     "label": "rp-spi.ads",
     "srcHref": "srcs/rp-spi.ads.html"
+  },
+  {
+    "label": "rp-timer-interrupts.ads",
+    "srcHref": "srcs/rp-timer-interrupts.ads.html"
   },
   {
     "label": "rp-timer.ads",

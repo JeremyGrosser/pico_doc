@@ -2088,7 +2088,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GPIO_Pin",
-          "href": "docs/rp__gpio___spec.html#L17C9"
+          "href": "docs/rp__gpio___spec.html#L16C9"
         },
         {
           "kind": "span",
@@ -2280,7 +2280,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GPIO_Pin",
-          "href": "docs/rp__gpio___spec.html#L17C9"
+          "href": "docs/rp__gpio___spec.html#L16C9"
         },
         {
           "kind": "span",
@@ -2472,7 +2472,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GPIO_Pin",
-          "href": "docs/rp__gpio___spec.html#L17C9"
+          "href": "docs/rp__gpio___spec.html#L16C9"
         },
         {
           "kind": "span",
@@ -2621,7 +2621,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GPIO_Pin",
-          "href": "docs/rp__gpio___spec.html#L17C9"
+          "href": "docs/rp__gpio___spec.html#L16C9"
         },
         {
           "kind": "span",
@@ -3685,7 +3685,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GPIO_Pin",
-          "href": "docs/rp__gpio___spec.html#L17C9"
+          "href": "docs/rp__gpio___spec.html#L16C9"
         },
         {
           "kind": "span",
@@ -4672,7 +4672,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GPIO_Pin",
-          "href": "docs/rp__gpio___spec.html#L17C9"
+          "href": "docs/rp__gpio___spec.html#L16C9"
         },
         {
           "kind": "span",
@@ -5325,7 +5325,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.GPIO.GPIO_Function",
-          "href": "docs/rp__gpio___spec.html#L27C9"
+          "href": "docs/rp__gpio___spec.html#L26C9"
         },
         {
           "kind": "span",
@@ -6435,7 +6435,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GPIO_Pin",
-          "href": "docs/rp__gpio___spec.html#L17C9"
+          "href": "docs/rp__gpio___spec.html#L16C9"
         },
         {
           "kind": "span",

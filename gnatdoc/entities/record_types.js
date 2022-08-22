@@ -2075,17 +2075,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Fast_Mode",
-      "docHref": "docs/rp__i2c___spec.html#L38C4",
+      "docHref": "docs/rp__i2c___spec.html#L43C4",
       "declared": "RP.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-i2c.ads.html#L38"
+      "srcHref": "srcs/rp-i2c.ads.html#L43"
     },
     {
       "label": "Fast_Mode_Plus",
-      "docHref": "docs/rp__i2c___spec.html#L45C4",
+      "docHref": "docs/rp__i2c___spec.html#L50C4",
       "declared": "RP.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-i2c.ads.html#L45"
+      "srcHref": "srcs/rp-i2c.ads.html#L50"
     },
     {
       "label": "FBDIV_INT_Register",
@@ -3062,17 +3062,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "I2C_Abort_Source",
-      "docHref": "docs/rp__i2c___spec.html#L144C9",
+      "docHref": "docs/rp__i2c___spec.html#L149C9",
       "declared": "RP.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-i2c.ads.html#L144"
+      "srcHref": "srcs/rp-i2c.ads.html#L149"
     },
     {
       "label": "I2C_Config",
-      "docHref": "docs/rp__i2c___spec.html#L53C9",
+      "docHref": "docs/rp__i2c___spec.html#L58C9",
       "declared": "RP.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-i2c.ads.html#L53"
+      "srcHref": "srcs/rp-i2c.ads.html#L58"
     },
     {
       "label": "I2C_Peripheral",
@@ -3083,17 +3083,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "I2C_State",
-      "docHref": "docs/rp__i2c___spec.html#L202C9",
+      "docHref": "docs/rp__i2c___spec.html#L207C9",
       "declared": "RP.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-i2c.ads.html#L202"
+      "srcHref": "srcs/rp-i2c.ads.html#L207"
     },
     {
       "label": "I2C_Timing",
-      "docHref": "docs/rp__i2c___spec.html#L21C9",
+      "docHref": "docs/rp__i2c___spec.html#L26C9",
       "declared": "RP.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-i2c.ads.html#L21"
+      "srcHref": "srcs/rp-i2c.ads.html#L26"
     },
     {
       "label": "I2CM_0",
@@ -5358,10 +5358,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PWM_Point",
-      "docHref": "docs/rp__pwm___spec.html#L33C9",
+      "docHref": "docs/rp__pwm___spec.html#L32C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L33"
+      "srcHref": "srcs/rp-pwm.ads.html#L32"
     },
     {
       "label": "PWR_Register",
@@ -5582,10 +5582,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "RTC_Alarm_Mask",
-      "docHref": "docs/rp__rtc___spec.html#L30C9",
+      "docHref": "docs/rp__rtc___spec.html#L29C9",
       "declared": "RP.RTC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rtc.ads.html#L30"
+      "srcHref": "srcs/rp-rtc.ads.html#L29"
     },
     {
       "label": "RTC_Date",
@@ -6331,10 +6331,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Standard_Mode",
-      "docHref": "docs/rp__i2c___spec.html#L32C4",
+      "docHref": "docs/rp__i2c___spec.html#L37C4",
       "declared": "RP.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-i2c.ads.html#L32"
+      "srcHref": "srcs/rp-i2c.ads.html#L37"
     },
     {
       "label": "STARTUP_Register",

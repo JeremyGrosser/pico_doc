@@ -570,7 +570,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP.I2C.I2C_Port",
-                      "href": "docs/rp__i2c___spec.html#L222C9"
+                      "href": "docs/rp__i2c___spec.html#L227C9"
                     },
                     {
                       "kind": "span",
@@ -1547,7 +1547,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "RP.RTC.RTC_Device",
-                      "href": "docs/rp__rtc___spec.html#L13C9"
+                      "href": "docs/rp__rtc___spec.html#L12C9"
                     },
                     {
                       "kind": "span",
@@ -1876,8 +1876,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "RP.Timer.Delays",
-                      "href": "docs/rp__timer___spec.html#L25C9"
+                      "text": "RP.Timer.Interrupts.Delays",
+                      "href": "docs/rp__timer__interrupts___spec.html#L10C9"
                     },
                     {
                       "kind": "span",

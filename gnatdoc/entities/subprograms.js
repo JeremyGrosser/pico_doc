@@ -30,6 +30,20 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp-dma.ads.html#L177"
     },
     {
+      "label": "Acknowledge_Interrupt",
+      "docHref": "docs/rp__gpio___spec.html#L80C14",
+      "declared": "RP.GPIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-gpio.ads.html#L80"
+    },
+    {
+      "label": "Acknowledge_Interrupt",
+      "docHref": "docs/rp__pwm___spec.html#L153C14",
+      "declared": "RP.PWM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pwm.ads.html#L153"
+    },
+    {
       "label": "Add",
       "docHref": "docs/atomic__signed___spec.html#L66C14",
       "declared": "Atomic.Signed",
@@ -73,10 +87,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Advance_Phase",
-      "docHref": "docs/rp__pwm___spec.html#L130C14",
+      "docHref": "docs/rp__pwm___spec.html#L127C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L130"
+      "srcHref": "srcs/rp-pwm.ads.html#L127"
     },
     {
       "label": "Allocate",
@@ -100,11 +114,18 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/atomic-unsigned.ads.html#L218"
     },
     {
-      "label": "Attach",
-      "docHref": "docs/rp__pwm___spec.html#L147C14",
-      "declared": "RP.PWM",
+      "label": "Attach_Handler",
+      "docHref": "docs/rp__gpio__interrupts___spec.html#L15C14",
+      "declared": "RP.GPIO.Interrupts",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L147"
+      "srcHref": "srcs/rp-gpio-interrupts.ads.html#L15"
+    },
+    {
+      "label": "Attach_Handler",
+      "docHref": "docs/rp__pwm__interrupts___spec.html#L13C14",
+      "declared": "RP.PWM.Interrupts",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pwm-interrupts.ads.html#L13"
     },
     {
       "label": "Attach_Handler",
@@ -129,10 +150,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Busy_Wait_Until",
-      "docHref": "docs/rp__timer___spec.html#L23C14",
+      "docHref": "docs/rp__timer___spec.html#L21C14",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L23"
+      "srcHref": "srcs/rp-timer.ads.html#L21"
     },
     {
       "label": "Checksum",
@@ -171,10 +192,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Clock",
-      "docHref": "docs/rp__timer___spec.html#L17C13",
+      "docHref": "docs/rp__timer___spec.html#L15C13",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L17"
+      "srcHref": "srcs/rp-timer.ads.html#L15"
     },
     {
       "label": "Close",
@@ -241,10 +262,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Compare_Reg_Address",
-      "docHref": "docs/rp__pwm___spec.html#L156C13",
+      "docHref": "docs/rp__pwm___spec.html#L144C13",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L156"
+      "srcHref": "srcs/rp-pwm.ads.html#L144"
     },
     {
       "label": "Configure",
@@ -346,10 +367,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Count",
-      "docHref": "docs/rp__pwm___spec.html#L138C13",
+      "docHref": "docs/rp__pwm___spec.html#L135C13",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L138"
+      "srcHref": "srcs/rp-pwm.ads.html#L135"
     },
     {
       "label": "Counted_To_Zero",
@@ -444,17 +465,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Disable",
-      "docHref": "docs/rp__pwm___spec.html#L103C14",
+      "docHref": "docs/rp__pwm___spec.html#L100C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L103"
+      "srcHref": "srcs/rp-pwm.ads.html#L100"
     },
     {
       "label": "Disable",
-      "docHref": "docs/rp__pwm___spec.html#L111C14",
+      "docHref": "docs/rp__pwm___spec.html#L108C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L111"
+      "srcHref": "srcs/rp-pwm.ads.html#L108"
     },
     {
       "label": "Disable",
@@ -490,6 +511,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "Cortex_M.NVIC",
       "declared_qualifier": "",
       "srcHref": "srcs/cortex_m-nvic.ads.html#L62"
+    },
+    {
+      "label": "Disable_Interrupt",
+      "docHref": "docs/rp__pwm___spec.html#L150C14",
+      "declared": "RP.PWM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pwm.ads.html#L150"
     },
     {
       "label": "Disable_IRQ",
@@ -605,24 +633,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__gpio___spec.html#L58C14",
+      "docHref": "docs/rp__gpio___spec.html#L53C14",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L58"
+      "srcHref": "srcs/rp-gpio.ads.html#L53"
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__pwm___spec.html#L99C14",
+      "docHref": "docs/rp__pwm___spec.html#L96C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L99"
+      "srcHref": "srcs/rp-pwm.ads.html#L96"
     },
     {
       "label": "Enable",
-      "docHref": "docs/rp__pwm___spec.html#L107C14",
+      "docHref": "docs/rp__pwm___spec.html#L104C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L107"
+      "srcHref": "srcs/rp-pwm.ads.html#L104"
     },
     {
       "label": "Enable",
@@ -667,6 +695,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/cortex_m-nvic.ads.html#L60"
     },
     {
+      "label": "Enable_Interrupt",
+      "docHref": "docs/rp__pwm___spec.html#L147C14",
+      "declared": "RP.PWM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pwm.ads.html#L147"
+    },
+    {
       "label": "Enable_IRQ",
       "docHref": "docs/rp__dma___spec.html#L171C14",
       "declared": "RP.DMA",
@@ -696,17 +731,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enabled",
-      "docHref": "docs/rp__gpio___spec.html#L60C13",
+      "docHref": "docs/rp__gpio___spec.html#L55C13",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L60"
+      "srcHref": "srcs/rp-gpio.ads.html#L55"
     },
     {
       "label": "Enabled",
-      "docHref": "docs/rp__pwm___spec.html#L115C13",
+      "docHref": "docs/rp__pwm___spec.html#L112C13",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L115"
+      "srcHref": "srcs/rp-pwm.ads.html#L112"
     },
     {
       "label": "Enter",
@@ -1151,10 +1186,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Initialize",
-      "docHref": "docs/rp__pwm___spec.html#L50C14",
+      "docHref": "docs/rp__pwm___spec.html#L47C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L50"
+      "srcHref": "srcs/rp-pwm.ads.html#L47"
     },
     {
       "label": "Initialize",
@@ -1186,31 +1221,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "IRQ_Handler",
-      "docHref": "docs/rp__gpio___spec.html#L135C14",
-      "declared": "RP.GPIO",
+      "docHref": "docs/rp__gpio__interrupts___spec.html#L21C14",
+      "declared": "RP.GPIO.Interrupts",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L135"
+      "srcHref": "srcs/rp-gpio-interrupts.ads.html#L21"
     },
     {
       "label": "IRQ_Handler",
-      "docHref": "docs/rp__pwm___spec.html#L153C14",
-      "declared": "RP.PWM",
+      "docHref": "docs/rp__pwm__interrupts___spec.html#L19C14",
+      "declared": "RP.PWM.Interrupts",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L153"
-    },
-    {
-      "label": "IRQ_Handler",
-      "docHref": "docs/rp__rtc___spec.html#L78C14",
-      "declared": "RP.RTC",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-rtc.ads.html#L78"
-    },
-    {
-      "label": "IRQ_Handler",
-      "docHref": "docs/rp__timer___spec.html#L67C14",
-      "declared": "RP.Timer",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L67"
+      "srcHref": "srcs/rp-pwm-interrupts.ads.html#L19"
     },
     {
       "label": "IRQ_Status",
@@ -1480,10 +1501,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Milliseconds",
-      "docHref": "docs/rp__timer___spec.html#L38C13",
+      "docHref": "docs/rp__timer___spec.html#L23C13",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L38"
+      "srcHref": "srcs/rp-timer.ads.html#L23"
     },
     {
       "label": "NAND",
@@ -1746,10 +1767,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Retard_Phase",
-      "docHref": "docs/rp__pwm___spec.html#L134C14",
+      "docHref": "docs/rp__pwm___spec.html#L131C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L134"
+      "srcHref": "srcs/rp-pwm.ads.html#L131"
     },
     {
       "label": "reverse32",
@@ -1865,10 +1886,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Count",
-      "docHref": "docs/rp__pwm___spec.html#L142C14",
+      "docHref": "docs/rp__pwm___spec.html#L139C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L142"
+      "srcHref": "srcs/rp-pwm.ads.html#L139"
     },
     {
       "label": "Set_Divider",
@@ -1886,24 +1907,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Divider",
-      "docHref": "docs/rp__pwm___spec.html#L63C14",
+      "docHref": "docs/rp__pwm___spec.html#L60C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L63"
+      "srcHref": "srcs/rp-pwm.ads.html#L60"
     },
     {
       "label": "Set_Duty_Cycle",
-      "docHref": "docs/rp__pwm___spec.html#L87C14",
+      "docHref": "docs/rp__pwm___spec.html#L84C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L87"
+      "srcHref": "srcs/rp-pwm.ads.html#L84"
     },
     {
       "label": "Set_Duty_Cycle",
-      "docHref": "docs/rp__pwm___spec.html#L93C14",
+      "docHref": "docs/rp__pwm___spec.html#L90C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L93"
+      "srcHref": "srcs/rp-pwm.ads.html#L90"
     },
     {
       "label": "Set_FIFO_Join",
@@ -1914,10 +1935,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Frequency",
-      "docHref": "docs/rp__pwm___spec.html#L71C14",
+      "docHref": "docs/rp__pwm___spec.html#L68C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L71"
+      "srcHref": "srcs/rp-pwm.ads.html#L68"
     },
     {
       "label": "Set_In_Pins",
@@ -1935,17 +1956,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Interval",
-      "docHref": "docs/rp__pwm___spec.html#L79C14",
+      "docHref": "docs/rp__pwm___spec.html#L76C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L79"
+      "srcHref": "srcs/rp-pwm.ads.html#L76"
     },
     {
       "label": "Set_Invert",
-      "docHref": "docs/rp__pwm___spec.html#L119C14",
+      "docHref": "docs/rp__pwm___spec.html#L116C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L119"
+      "srcHref": "srcs/rp-pwm.ads.html#L116"
     },
     {
       "label": "Set_Jmp_Pin",
@@ -1963,10 +1984,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Mode",
-      "docHref": "docs/rp__pwm___spec.html#L57C14",
+      "docHref": "docs/rp__pwm___spec.html#L54C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L57"
+      "srcHref": "srcs/rp-pwm.ads.html#L54"
     },
     {
       "label": "Set_MOV_Status",
@@ -2012,10 +2033,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Phase_Correction",
-      "docHref": "docs/rp__pwm___spec.html#L125C14",
+      "docHref": "docs/rp__pwm___spec.html#L122C14",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L125"
+      "srcHref": "srcs/rp-pwm.ads.html#L122"
     },
     {
       "label": "Set_Priority",
@@ -2320,10 +2341,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "To_PWM",
-      "docHref": "docs/rp__pwm___spec.html#L53C13",
+      "docHref": "docs/rp__pwm___spec.html#L50C13",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L53"
+      "srcHref": "srcs/rp-pwm.ads.html#L50"
     },
     {
       "label": "To_USB_String",

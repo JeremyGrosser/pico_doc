@@ -788,7 +788,7 @@ GNATdoc.Documentation = {
           "inherited": [
             {
               "label": "GPIO_Point",
-              "docHref": "docs/rp__gpio___spec.html#L20C9"
+              "docHref": "docs/rp__gpio___spec.html#L19C9"
             }
           ]
         }

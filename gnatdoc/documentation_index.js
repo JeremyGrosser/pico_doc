@@ -255,6 +255,11 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/rp__gpio___spec.html"
   },
   {
+    "label": "RP.GPIO.Interrupts",
+    "qualifier": "",
+    "file": "docs/rp__gpio__interrupts___spec.html"
+  },
+  {
     "label": "RP.I2C",
     "qualifier": "",
     "file": "docs/rp__i2c___spec.html"
@@ -320,6 +325,11 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/rp__pwm___spec.html"
   },
   {
+    "label": "RP.PWM.Interrupts",
+    "qualifier": "",
+    "file": "docs/rp__pwm__interrupts___spec.html"
+  },
+  {
     "label": "RP.ROM",
     "qualifier": "",
     "file": "docs/rp__rom___spec.html"
@@ -348,6 +358,11 @@ GNATdoc.DocumentationIndex = [
     "label": "RP.Timer",
     "qualifier": "",
     "file": "docs/rp__timer___spec.html"
+  },
+  {
+    "label": "RP.Timer.Interrupts",
+    "qualifier": "",
+    "file": "docs/rp__timer__interrupts___spec.html"
   },
   {
     "label": "RP.UART",

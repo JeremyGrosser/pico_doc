@@ -1,5 +1,5 @@
 GNATdoc.Documentation = {
-  "label": "Rp2040_Hal_Config",
+  "label": "RP.Timer.Interrupts",
   "qualifier": "",
   "summary": [
   ],
@@ -9,11 +9,11 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "Alire_Host_Arch",
+          "label": "Delays",
           "qualifier": "",
-          "line": 13,
-          "column": 4,
-          "src": "srcs/rp2040_hal_config.ads.html",
+          "line": 10,
+          "column": 9,
+          "src": "srcs/rp-timer-interrupts.ads.html",
           "summary": [
           ],
           "description": [
@@ -22,12 +22,186 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 13,
+                  "number": 10,
                   "children": [
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Alire_Host_Arch"
+                      "text": "Delays",
+                      "href": "docs/rp__timer__interrupts___spec.html#L10C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "new"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "HAL.Time.Delays",
+                      "href": "docs/hal__time___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "null"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/rp__timer__interrupts___spec.html#L10C9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "inherits": [
+            {
+              "label": "Delays",
+              "docHref": "docs/hal__time___spec.html#L35C9"
+            }
+          ]
+        }
+      ],
+      "label": "Tagged types"
+    },
+    {
+      "entities": [
+        {
+          "label": "Delay_Microseconds",
+          "qualifier": "",
+          "line": 31,
+          "column": 14,
+          "src": "srcs/rp-timer-interrupts.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 31,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "overriding"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 32,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Delay_Microseconds"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 33,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__timer__interrupts___spec.html#L33C8"
                     },
                     {
                       "kind": "span",
@@ -47,7 +221,17 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "constant"
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
                     },
                     {
                       "kind": "span",
@@ -57,7 +241,38 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "String"
+                      "text": "Delays"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 34,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Us"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
                     },
                     {
                       "kind": "span",
@@ -67,17 +282,12 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ":="
+                      "text": "Integer"
                     },
                     {
                       "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "string",
-                      "text": "\"x86_64\""
+                      "cssClass": "identifier",
+                      "text": ")"
                     },
                     {
                       "kind": "span",
@@ -87,15 +297,51 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Microsecond delays are assumed to be relatively short and are\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "implemented with a polling loop rather than interrupts\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 32,
+              "column": 8,
+              "type": {
+                "label": "RP.Timer.Interrupts.Delays",
+                "docHref": "docs/rp__timer__interrupts___spec.html#L10C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Us",
+              "line": 33,
+              "column": 8,
+              "type": {
+                "label": "Integer"
+              },
+              "description": [
+              ]
             }
           ]
         },
         {
-          "label": "Alire_Host_Distro",
+          "label": "Delay_Milliseconds",
           "qualifier": "",
-          "line": 15,
-          "column": 4,
-          "src": "srcs/rp2040_hal_config.ads.html",
+          "line": 36,
+          "column": 14,
+          "src": "srcs/rp-timer-interrupts.ads.html",
           "summary": [
           ],
           "description": [
@@ -104,12 +350,65 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 15,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "overriding"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 37,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Alire_Host_Distro"
+                      "text": "Delay_Milliseconds"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 38,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__timer__interrupts___spec.html#L38C8"
                     },
                     {
                       "kind": "span",
@@ -129,7 +428,17 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "constant"
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
                     },
                     {
                       "kind": "span",
@@ -139,7 +448,38 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "String"
+                      "text": "Delays"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 39,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Ms"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
                     },
                     {
                       "kind": "span",
@@ -149,17 +489,33 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ":="
+                      "text": "Integer"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 40,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "string",
-                      "text": "\"debian\""
+                      "text": " Pre => Enabled (This)"
                     },
                     {
                       "kind": "span",
@@ -170,14 +526,37 @@ GNATdoc.Documentation = {
                 }
               ]
             }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 37,
+              "column": 8,
+              "type": {
+                "label": "RP.Timer.Interrupts.Delays",
+                "docHref": "docs/rp__timer__interrupts___spec.html#L10C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Ms",
+              "line": 38,
+              "column": 8,
+              "type": {
+                "label": "Integer"
+              },
+              "description": [
+              ]
+            }
           ]
         },
         {
-          "label": "Alire_Host_OS",
+          "label": "Delay_Seconds",
           "qualifier": "",
-          "line": 11,
-          "column": 4,
-          "src": "srcs/rp2040_hal_config.ads.html",
+          "line": 42,
+          "column": 14,
+          "src": "srcs/rp-timer-interrupts.ads.html",
           "summary": [
           ],
           "description": [
@@ -186,12 +565,65 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 11,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "overriding"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 43,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Alire_Host_OS"
+                      "text": "Delay_Seconds"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 44,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__timer__interrupts___spec.html#L44C8"
                     },
                     {
                       "kind": "span",
@@ -211,7 +643,17 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "constant"
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
                     },
                     {
                       "kind": "span",
@@ -221,27 +663,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "string",
-                      "text": "\"linux\""
+                      "text": "Delays"
                     },
                     {
                       "kind": "span",
@@ -249,36 +671,25 @@ GNATdoc.Documentation = {
                       "text": ";"
                     }
                   ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Build_Profile",
-          "qualifier": "",
-          "line": 26,
-          "column": 4,
-          "src": "srcs/rp2040_hal_config.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
+                },
                 {
                   "kind": "line",
-                  "number": 26,
+                  "number": 45,
                   "children": [
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Build_Profile"
+                      "text": "S"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "    "
                     },
                     {
                       "kind": "span",
@@ -292,120 +703,34 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "constant"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
+                      "cssClass": "identifier",
+                      "text": "Integer"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Build_Profile_Kind"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "development"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "text": ")"
                     }
                   ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Crate_Name",
-          "qualifier": "",
-          "line": 9,
-          "column": 4,
-          "src": "srcs/rp2040_hal_config.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
+                },
                 {
                   "kind": "line",
-                  "number": 9,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Crate_Name"
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "constant"
+                      "text": "with"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "string",
-                      "text": "\"rp2040_hal\""
+                      "text": " Pre => Enabled (This)"
                     },
                     {
                       "kind": "span",
@@ -416,178 +741,37 @@ GNATdoc.Documentation = {
                 }
               ]
             }
-          ]
-        },
-        {
-          "label": "Crate_Version",
-          "qualifier": "",
-          "line": 8,
-          "column": 4,
-          "src": "srcs/rp2040_hal_config.ads.html",
-          "summary": [
           ],
-          "description": [
+          "parameters": [
             {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 8,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Crate_Version"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "constant"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "string",
-                      "text": "\"2.0.0\""
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
+              "label": "This",
+              "line": 43,
+              "column": 8,
+              "type": {
+                "label": "RP.Timer.Interrupts.Delays",
+                "docHref": "docs/rp__timer__interrupts___spec.html#L10C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "S",
+              "line": 44,
+              "column": 8,
+              "type": {
+                "label": "Integer"
+              },
+              "description": [
               ]
             }
           ]
         },
         {
-          "label": "Flash_Chip",
-          "qualifier": "",
-          "line": 20,
-          "column": 4,
-          "src": "srcs/rp2040_hal_config.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 20,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Flash_Chip"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "constant"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Flash_Chip_Kind"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "w25qxx"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Interrupts",
+          "label": "Delay_Until",
           "qualifier": "",
           "line": 23,
-          "column": 4,
-          "src": "srcs/rp2040_hal_config.ads.html",
+          "column": 14,
+          "src": "srcs/rp-timer-interrupts.ads.html",
           "summary": [
           ],
           "description": [
@@ -600,8 +784,46 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Interrupts"
+                      "text": "Delay_Until",
+                      "href": "docs/rp__timer__interrupts___spec.html#L23C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 24,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__timer__interrupts___spec.html#L24C8"
                     },
                     {
                       "kind": "span",
@@ -621,7 +843,17 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "constant"
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
                     },
                     {
                       "kind": "span",
@@ -631,7 +863,40 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Interrupts_Kind"
+                      "text": "Delays",
+                      "href": "docs/rp__timer__interrupts___spec.html#L10C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 25,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "T",
+                      "href": "docs/rp__timer__interrupts___spec.html#L25C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
                     },
                     {
                       "kind": "span",
@@ -641,17 +906,34 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
+                      "text": "Time",
+                      "href": "docs/rp__timer___spec.html#L11C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "hal"
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 26,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pre => Enabled (This)"
                     },
                     {
                       "kind": "span",
@@ -662,14 +944,167 @@ GNATdoc.Documentation = {
                 }
               ]
             }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 24,
+              "column": 8,
+              "type": {
+                "label": "RP.Timer.Interrupts.Delays",
+                "docHref": "docs/rp__timer__interrupts___spec.html#L10C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "T",
+              "line": 25,
+              "column": 8,
+              "type": {
+                "label": "RP.Timer.Time",
+                "docHref": "docs/rp__timer___spec.html#L11C9"
+              },
+              "description": [
+              ]
+            }
           ]
         },
         {
-          "label": "Use_Startup",
+          "label": "Disable",
+          "qualifier": "",
+          "line": 20,
+          "column": 14,
+          "src": "srcs/rp-timer-interrupts.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 20,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Disable",
+                      "href": "docs/rp__timer__interrupts___spec.html#L20C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 21,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__timer__interrupts___spec.html#L21C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Delays",
+                      "href": "docs/rp__timer__interrupts___spec.html#L10C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 21,
+              "column": 8,
+              "type": {
+                "label": "RP.Timer.Interrupts.Delays",
+                "docHref": "docs/rp__timer__interrupts___spec.html#L10C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Enable",
           "qualifier": "",
           "line": 17,
-          "column": 4,
-          "src": "srcs/rp2040_hal_config.ads.html",
+          "column": 14,
+          "src": "srcs/rp-timer-interrupts.ads.html",
           "summary": [
           ],
           "description": [
@@ -682,8 +1117,46 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Use_Startup"
+                      "text": "Enable",
+                      "href": "docs/rp__timer__interrupts___spec.html#L17C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 18,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__timer__interrupts___spec.html#L18C8"
                     },
                     {
                       "kind": "span",
@@ -703,7 +1176,167 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "constant"
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Delays",
+                      "href": "docs/rp__timer__interrupts___spec.html#L10C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Enables the ALARM2 interrupt used by the Delay methods.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 18,
+              "column": 8,
+              "type": {
+                "label": "RP.Timer.Interrupts.Delays",
+                "docHref": "docs/rp__timer__interrupts___spec.html#L10C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Enabled",
+          "qualifier": "",
+          "line": 12,
+          "column": 13,
+          "src": "srcs/rp-timer-interrupts.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 12,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Enabled",
+                      "href": "docs/rp__timer__interrupts___spec.html#L12C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 13,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__timer__interrupts___spec.html#L13C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Delays",
+                      "href": "docs/rp__timer__interrupts___spec.html#L10C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 14,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
                     },
                     {
                       "kind": "span",
@@ -717,26 +1350,6 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "True"
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
                     }
@@ -744,397 +1357,23 @@ GNATdoc.Documentation = {
                 }
               ]
             }
-          ]
-        }
-      ],
-      "label": "Constants and variables"
-    },
-    {
-      "entities": [
-        {
-          "label": "Build_Profile_Kind",
-          "qualifier": "",
-          "line": 25,
-          "column": 9,
-          "src": "srcs/rp2040_hal_config.ads.html",
-          "summary": [
           ],
-          "description": [
+          "parameters": [
             {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 25,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Build_Profile_Kind",
-                      "href": "docs/rp2040_hal_config___spec.html#L25C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "release",
-                      "href": "docs/rp2040_hal_config___spec.html#L25C32"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "validation",
-                      "href": "docs/rp2040_hal_config___spec.html#L25C41"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "development",
-                      "href": "docs/rp2040_hal_config___spec.html#L25C53"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/rp2040_hal_config___spec.html#L25C9"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "literals": [
-            {
-              "label": "release",
-              "line": 25,
-              "column": 32,
-              "description": [
-              ]
-            },
-            {
-              "label": "validation",
-              "line": 25,
-              "column": 41,
-              "description": [
-              ]
-            },
-            {
-              "label": "development",
-              "line": 25,
-              "column": 53,
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Flash_Chip_Kind",
-          "qualifier": "",
-          "line": 19,
-          "column": 9,
-          "src": "srcs/rp2040_hal_config.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 19,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Flash_Chip_Kind",
-                      "href": "docs/rp2040_hal_config___spec.html#L19C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "w25qxx",
-                      "href": "docs/rp2040_hal_config___spec.html#L19C29"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "generic_qspi",
-                      "href": "docs/rp2040_hal_config___spec.html#L19C37"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "generic_03",
-                      "href": "docs/rp2040_hal_config___spec.html#L19C51"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/rp2040_hal_config___spec.html#L19C9"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "literals": [
-            {
-              "label": "w25qxx",
-              "line": 19,
-              "column": 29,
-              "description": [
-              ]
-            },
-            {
-              "label": "generic_qspi",
-              "line": 19,
-              "column": 37,
-              "description": [
-              ]
-            },
-            {
-              "label": "generic_03",
-              "line": 19,
-              "column": 51,
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Interrupts_Kind",
-          "qualifier": "",
-          "line": 22,
-          "column": 9,
-          "src": "srcs/rp2040_hal_config.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 22,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupts_Kind",
-                      "href": "docs/rp2040_hal_config___spec.html#L22C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "hal",
-                      "href": "docs/rp2040_hal_config___spec.html#L22C29"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "bb_runtimes",
-                      "href": "docs/rp2040_hal_config___spec.html#L22C34"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/rp2040_hal_config___spec.html#L22C9"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "literals": [
-            {
-              "label": "hal",
-              "line": 22,
-              "column": 29,
-              "description": [
-              ]
-            },
-            {
-              "label": "bb_runtimes",
-              "line": 22,
-              "column": 34,
+              "label": "This",
+              "line": 13,
+              "column": 8,
+              "type": {
+                "label": "RP.Timer.Interrupts.Delays",
+                "docHref": "docs/rp__timer__interrupts___spec.html#L10C9"
+              },
               "description": [
               ]
             }
           ]
         }
       ],
-      "label": "Simple types"
+      "label": "Dispatching subprograms"
     }
   ]
 };

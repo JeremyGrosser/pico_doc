@@ -24,17 +24,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Delays",
-      "docHref": "docs/rp__timer___spec.html#L25C9",
-      "declared": "RP.Timer",
+      "docHref": "docs/rp__timer__interrupts___spec.html#L10C9",
+      "declared": "RP.Timer.Interrupts",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L25"
+      "srcHref": "srcs/rp-timer-interrupts.ads.html#L10"
     },
     {
       "label": "GPIO_Point",
-      "docHref": "docs/rp__gpio___spec.html#L20C9",
+      "docHref": "docs/rp__gpio___spec.html#L19C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L20"
+      "srcHref": "srcs/rp-gpio.ads.html#L19"
     },
     {
       "label": "I2C_Master_Port",
@@ -45,10 +45,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "I2C_Port",
-      "docHref": "docs/rp__i2c___spec.html#L10C9",
+      "docHref": "docs/rp__i2c___spec.html#L15C9",
       "declared": "RP.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-i2c.ads.html#L10"
+      "srcHref": "srcs/rp-i2c.ads.html#L15"
     },
     {
       "label": "I2S_Device",
@@ -94,10 +94,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "RTC_Device",
-      "docHref": "docs/rp__rtc___spec.html#L13C9",
+      "docHref": "docs/rp__rtc___spec.html#L12C9",
       "declared": "RP.RTC",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-rtc.ads.html#L13"
+      "srcHref": "srcs/rp-rtc.ads.html#L12"
     },
     {
       "label": "SHFS",

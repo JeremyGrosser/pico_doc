@@ -52,10 +52,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "ADC_Pin",
-      "docHref": "docs/rp__gpio___spec.html#L18C12",
+      "docHref": "docs/rp__gpio___spec.html#L17C12",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L18"
+      "srcHref": "srcs/rp-gpio.ads.html#L17"
     },
     {
       "label": "ADC_Sample_Bits",
@@ -227,10 +227,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Build_Profile_Kind",
-      "docHref": "docs/rp2040_hal_config___spec.html#L22C9",
+      "docHref": "docs/rp2040_hal_config___spec.html#L25C9",
       "declared": "Rp2040_Hal_Config",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp2040_hal_config.ads.html#L22"
+      "srcHref": "srcs/rp2040_hal_config.ads.html#L25"
     },
     {
       "label": "CALIB_NOREF_Field",
@@ -1774,10 +1774,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Divider",
-      "docHref": "docs/rp__pwm___spec.html#L41C9",
+      "docHref": "docs/rp__pwm___spec.html#L40C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L41"
+      "srcHref": "srcs/rp-pwm.ads.html#L40"
     },
     {
       "label": "DMA_Channel_Id",
@@ -4490,24 +4490,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "GPIO_Config_Mode",
-      "docHref": "docs/rp__gpio___spec.html#L25C9",
+      "docHref": "docs/rp__gpio___spec.html#L24C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L25"
+      "srcHref": "srcs/rp-gpio.ads.html#L24"
     },
     {
       "label": "GPIO_Drive",
-      "docHref": "docs/rp__gpio___spec.html#L32C9",
+      "docHref": "docs/rp__gpio___spec.html#L31C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L32"
+      "srcHref": "srcs/rp-gpio.ads.html#L31"
     },
     {
       "label": "GPIO_Function",
-      "docHref": "docs/rp__gpio___spec.html#L27C9",
+      "docHref": "docs/rp__gpio___spec.html#L26C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L27"
+      "srcHref": "srcs/rp-gpio.ads.html#L26"
     },
     {
       "label": "GPIO_HI_IN_GPIO_HI_IN_Field",
@@ -4644,17 +4644,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "GPIO_Pin",
-      "docHref": "docs/rp__gpio___spec.html#L17C9",
+      "docHref": "docs/rp__gpio___spec.html#L16C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L17"
+      "srcHref": "srcs/rp-gpio.ads.html#L16"
     },
     {
       "label": "GPIO_Pull_Mode",
-      "docHref": "docs/rp__gpio___spec.html#L30C9",
+      "docHref": "docs/rp__gpio___spec.html#L29C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L30"
+      "srcHref": "srcs/rp-gpio.ads.html#L29"
     },
     {
       "label": "GPIO_Pull_Resistor",
@@ -4931,10 +4931,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "I2C_Number",
-      "docHref": "docs/rp__i2c___spec.html#L8C12",
+      "docHref": "docs/rp__i2c___spec.html#L13C12",
       "declared": "RP.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-i2c.ads.html#L8"
+      "srcHref": "srcs/rp-i2c.ads.html#L13"
     },
     {
       "label": "I2C_Number",
@@ -4945,10 +4945,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "I2C_Role",
-      "docHref": "docs/rp__i2c___spec.html#L52C9",
+      "docHref": "docs/rp__i2c___spec.html#L57C9",
       "declared": "RP.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-i2c.ads.html#L52"
+      "srcHref": "srcs/rp-i2c.ads.html#L57"
     },
     {
       "label": "I2C_Status",
@@ -4959,10 +4959,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "I2C_Status",
-      "docHref": "docs/rp__i2c___spec.html#L15C9",
+      "docHref": "docs/rp__i2c___spec.html#L20C9",
       "declared": "RP.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-i2c.ads.html#L15"
+      "srcHref": "srcs/rp-i2c.ads.html#L20"
     },
     {
       "label": "IC_ACK_GENERAL_CALL_ACK_GEN_CALL_Field",
@@ -6233,10 +6233,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Interrupt_Triggers",
-      "docHref": "docs/rp__gpio___spec.html#L46C9",
+      "docHref": "docs/rp__gpio___spec.html#L45C9",
       "declared": "RP.GPIO",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-gpio.ads.html#L46"
+      "srcHref": "srcs/rp-gpio.ads.html#L45"
+    },
+    {
+      "label": "Interrupts_Kind",
+      "docHref": "docs/rp2040_hal_config___spec.html#L22C9",
+      "declared": "Rp2040_Hal_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp2040_hal_config.ads.html#L22"
     },
     {
       "label": "INTF0_INTF0_Field",
@@ -6618,10 +6625,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Nanoseconds",
-      "docHref": "docs/rp__i2c___spec.html#L20C9",
+      "docHref": "docs/rp__i2c___spec.html#L25C9",
       "declared": "RP.I2C",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-i2c.ads.html#L20"
+      "srcHref": "srcs/rp-i2c.ads.html#L25"
     },
     {
       "label": "NVIC_IPR0_IP_0_Field",
@@ -6926,10 +6933,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Period",
-      "docHref": "docs/rp__pwm___spec.html#L43C12",
+      "docHref": "docs/rp__pwm___spec.html#L42C12",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L43"
+      "srcHref": "srcs/rp-pwm.ads.html#L42"
     },
     {
       "label": "PHASE_PASSWD_Field",
@@ -7115,31 +7122,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "PWM_Channel",
-      "docHref": "docs/rp__pwm___spec.html#L19C9",
-      "declared": "RP.PWM",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L19"
-    },
-    {
-      "label": "PWM_Divider_Mode",
-      "docHref": "docs/rp__pwm___spec.html#L21C9",
-      "declared": "RP.PWM",
-      "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L21"
-    },
-    {
-      "label": "PWM_Slice",
       "docHref": "docs/rp__pwm___spec.html#L18C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
       "srcHref": "srcs/rp-pwm.ads.html#L18"
     },
     {
-      "label": "PWM_Slice_Array",
-      "docHref": "docs/rp__pwm___spec.html#L38C9",
+      "label": "PWM_Divider_Mode",
+      "docHref": "docs/rp__pwm___spec.html#L20C9",
       "declared": "RP.PWM",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-pwm.ads.html#L38"
+      "srcHref": "srcs/rp-pwm.ads.html#L20"
+    },
+    {
+      "label": "PWM_Slice",
+      "docHref": "docs/rp__pwm___spec.html#L17C9",
+      "declared": "RP.PWM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pwm.ads.html#L17"
+    },
+    {
+      "label": "PWM_Slice_Array",
+      "docHref": "docs/rp__pwm___spec.html#L37C9",
+      "declared": "RP.PWM",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-pwm.ads.html#L37"
     },
     {
       "label": "Request_Type_Recipient",
@@ -8550,10 +8557,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Time",
-      "docHref": "docs/rp__timer___spec.html#L13C9",
+      "docHref": "docs/rp__timer___spec.html#L11C9",
       "declared": "RP.Timer",
       "declared_qualifier": "",
-      "srcHref": "srcs/rp-timer.ads.html#L13"
+      "srcHref": "srcs/rp-timer.ads.html#L11"
     },
     {
       "label": "TIMER_X_Field",

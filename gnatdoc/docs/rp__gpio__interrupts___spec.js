@@ -1,5 +1,5 @@
 GNATdoc.Documentation = {
-  "label": "RP.Timer",
+  "label": "RP.GPIO.Interrupts",
   "qualifier": "",
   "summary": [
   ],
@@ -9,11 +9,11 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "Time",
+          "label": "Interrupt_Procedure",
           "qualifier": "",
           "line": 11,
           "column": 9,
-          "src": "srcs/rp-timer.ads.html",
+          "src": "srcs/rp-gpio-interrupts.ads.html",
           "summary": [
           ],
           "description": [
@@ -27,12 +27,44 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "                                      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "type"
+                      "text": "procedure"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 12,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Pin",
+                      "href": "docs/rp__gpio__interrupts___spec.html#L12C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
                     },
                     {
                       "kind": "span",
@@ -42,28 +74,30 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Time",
-                      "href": "docs/rp__timer___spec.html#L11C9"
+                      "text": "GPIO_Pin",
+                      "href": "docs/rp__gpio___spec.html#L16C9"
                     },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 13,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "new"
+                      "cssClass": "identifier",
+                      "text": "Trigger",
+                      "href": "docs/rp__gpio__interrupts___spec.html#L13C8"
                     },
                     {
                       "kind": "span",
@@ -73,8 +107,23 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "UInt64",
-                      "href": "docs/hal___spec.html#L160C9"
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Interrupt_Triggers",
+                      "href": "docs/rp__gpio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
                     },
                     {
                       "kind": "span",
@@ -88,16 +137,179 @@ GNATdoc.Documentation = {
           ]
         }
       ],
-      "label": "Simple types"
+      "label": "Access types"
     },
     {
       "entities": [
         {
-          "label": "Busy_Wait_Until",
+          "label": "Attach_Handler",
+          "qualifier": "",
+          "line": 15,
+          "column": 14,
+          "src": "srcs/rp-gpio-interrupts.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 15,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Attach_Handler",
+                      "href": "docs/rp__gpio__interrupts___spec.html#L15C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 16,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "This",
+                      "href": "docs/rp__gpio__interrupts___spec.html#L16C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GPIO_Point",
+                      "href": "docs/rp__gpio___spec.html#L19C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 17,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Handler",
+                      "href": "docs/rp__gpio__interrupts___spec.html#L17C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Interrupt_Procedure",
+                      "href": "docs/rp__gpio__interrupts___spec.html#L11C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "This",
+              "line": 16,
+              "column": 8,
+              "type": {
+                "label": "RP.GPIO.GPIO_Point",
+                "docHref": "docs/rp__gpio___spec.html#L19C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Handler",
+              "line": 17,
+              "column": 8,
+              "type": {
+                "label": "RP.GPIO.Interrupts.Interrupt_Procedure",
+                "docHref": "docs/rp__gpio__interrupts___spec.html#L11C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "IRQ_Handler",
           "qualifier": "",
           "line": 21,
           "column": 14,
-          "src": "srcs/rp-timer.ads.html",
+          "src": "srcs/rp-gpio-interrupts.ads.html",
           "summary": [
           ],
           "description": [
@@ -126,50 +338,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Busy_Wait_Until",
-                      "href": "docs/rp__timer___spec.html#L21C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Deadline",
-                      "href": "docs/rp__timer___spec.html#L21C31"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Time",
-                      "href": "docs/rp__timer___spec.html#L11C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
+                      "text": "IRQ_Handler",
+                      "href": "docs/rp__gpio__interrupts___spec.html#L21C14"
                     },
                     {
                       "kind": "span",
@@ -185,247 +355,12 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Waste CPU cycles until Clock reaches the given Deadline. This procedure\n"
+                  "text": "This handler should be called in response to IO_IRQ_PROC0 (IRQ 13). This\n"
                 },
                 {
                   "kind": "span",
-                  "text": "is useful in situations where interrupt based delays will not work,\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "e.g. an interrupt handler.\n"
+                  "text": "call is made by the handler defined in src/startup/rp_interrupts.adb.\n"
                 }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Deadline",
-              "line": 21,
-              "column": 31,
-              "type": {
-                "label": "RP.Timer.Time",
-                "docHref": "docs/rp__timer___spec.html#L11C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Clock",
-          "qualifier": "",
-          "line": 15,
-          "column": 13,
-          "src": "srcs/rp-timer.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 15,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Clock",
-                      "href": "docs/rp__timer___spec.html#L15C13"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 16,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Time",
-                      "href": "docs/rp__timer___spec.html#L11C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Monotonic clock running at Ticks_Per_Second.\n"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Milliseconds",
-          "qualifier": "",
-          "line": 23,
-          "column": 13,
-          "src": "srcs/rp-timer.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 23,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Milliseconds",
-                      "href": "docs/rp__timer___spec.html#L23C13"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 24,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "T",
-                      "href": "docs/rp__timer___spec.html#L24C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Natural"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 25,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Time",
-                      "href": "docs/rp__timer___spec.html#L11C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "T",
-              "line": 24,
-              "column": 8,
-              "type": {
-                "label": "Natural"
-              },
-              "description": [
               ]
             }
           ]

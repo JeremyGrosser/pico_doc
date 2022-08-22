@@ -23,7 +23,7 @@ GNATdoc.InheritanceIndex = [
     "inherited": [
       {
         "label": "Delays",
-        "docHref": "docs/rp__timer___spec.html#L25C9"
+        "docHref": "docs/rp__timer__interrupts___spec.html#L10C9"
       }
     ]
   },
@@ -65,7 +65,7 @@ GNATdoc.InheritanceIndex = [
     "inherited": [
       {
         "label": "GPIO_Point",
-        "docHref": "docs/rp__gpio___spec.html#L20C9"
+        "docHref": "docs/rp__gpio___spec.html#L19C9"
       }
     ]
   },
@@ -81,7 +81,7 @@ GNATdoc.InheritanceIndex = [
   },
   {
     "label": "I2C_Port",
-    "docHref": "docs/rp__i2c___spec.html#L10C9"
+    "docHref": "docs/rp__i2c___spec.html#L15C9"
   },
   {
     "label": "Node_Handle",
@@ -97,7 +97,7 @@ GNATdoc.InheritanceIndex = [
     "inherited": [
       {
         "label": "RTC_Device",
-        "docHref": "docs/rp__rtc___spec.html#L13C9"
+        "docHref": "docs/rp__rtc___spec.html#L12C9"
       }
     ]
   },

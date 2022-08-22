@@ -7,6 +7,61 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 2,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Copyright (C) 2022 Jeremy Grosser <jeremy@synack.me>"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 4,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  SPDX-License-Identifier: BSD-3-Clause"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 5,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 6,
+      "children": [
+        {
+          "kind": "span",
           "cssClass": "keyword",
           "text": "with"
         },
@@ -29,7 +84,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 2,
+      "number": 7,
       "children": [
         {
           "kind": "span",
@@ -55,7 +110,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3,
+      "number": 8,
       "children": [
         {
           "kind": "span",
@@ -81,13 +136,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 4,
+      "number": 9,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 5,
+      "number": 10,
       "children": [
         {
           "kind": "span",
@@ -103,13 +158,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.I2C",
-          "href": "docs/rp__i2c___spec.html#L5C12"
+          "href": "docs/rp__i2c___spec.html#L10C12"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 6,
+      "number": 11,
       "children": [
         {
           "kind": "span",
@@ -135,7 +190,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 7,
+      "number": 12,
       "children": [
         {
           "kind": "span",
@@ -146,7 +201,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 8,
+      "number": 13,
       "children": [
         {
           "kind": "span",
@@ -167,7 +222,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Number",
-          "href": "docs/rp__i2c___spec.html#L8C12"
+          "href": "docs/rp__i2c___spec.html#L13C12"
         },
         {
           "kind": "span",
@@ -238,13 +293,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 9,
+      "number": 14,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 10,
+      "number": 15,
       "children": [
         {
           "kind": "span",
@@ -265,13 +320,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Port",
-          "href": "docs/rp__i2c___spec.html#L10C9"
+          "href": "docs/rp__i2c___spec.html#L15C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 11,
+      "number": 16,
       "children": [
         {
           "kind": "span",
@@ -287,7 +342,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Num",
-          "href": "docs/rp__i2c___spec.html#L11C8"
+          "href": "docs/rp__i2c___spec.html#L16C8"
         },
         {
           "kind": "span",
@@ -308,7 +363,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Number",
-          "href": "docs/rp__i2c___spec.html#L8C12"
+          "href": "docs/rp__i2c___spec.html#L13C12"
         },
         {
           "kind": "span",
@@ -319,7 +374,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 12,
+      "number": 17,
       "children": [
         {
           "kind": "span",
@@ -391,7 +446,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 13,
+      "number": 18,
       "children": [
         {
           "kind": "span",
@@ -432,146 +487,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 14,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 15,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "type"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "I2C_Status",
-          "href": "docs/rp__i2c___spec.html#L15C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 16,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Ok",
-          "href": "docs/rp__i2c___spec.html#L16C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Timeout",
-          "href": "docs/rp__i2c___spec.html#L16C12"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Error",
-          "href": "docs/rp__i2c___spec.html#L16C21"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";",
-          "href": "docs/rp__i2c___spec.html#L15C9"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 17,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  If a procedure sets Status to Error, the record returned by function"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 18,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  State will provide more information useful for debugging."
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 19,
       "children": [
       ]
@@ -598,8 +513,148 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Nanoseconds",
+          "text": "I2C_Status",
           "href": "docs/rp__i2c___spec.html#L20C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 21,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Ok",
+          "href": "docs/rp__i2c___spec.html#L21C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Timeout",
+          "href": "docs/rp__i2c___spec.html#L21C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Error",
+          "href": "docs/rp__i2c___spec.html#L21C21"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";",
+          "href": "docs/rp__i2c___spec.html#L20C9"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 22,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  If a procedure sets Status to Error, the record returned by function"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 23,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  State will provide more information useful for debugging."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 24,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 25,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Nanoseconds",
+          "href": "docs/rp__i2c___spec.html#L25C9"
         },
         {
           "kind": "span",
@@ -640,7 +695,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 21,
+      "number": 26,
       "children": [
         {
           "kind": "span",
@@ -661,7 +716,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Timing",
-          "href": "docs/rp__i2c___spec.html#L21C9"
+          "href": "docs/rp__i2c___spec.html#L26C9"
         },
         {
           "kind": "span",
@@ -687,7 +742,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 22,
+      "number": 27,
       "children": [
         {
           "kind": "span",
@@ -698,7 +753,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "High",
-          "href": "docs/rp__i2c___spec.html#L22C7"
+          "href": "docs/rp__i2c___spec.html#L27C7"
         },
         {
           "kind": "span",
@@ -714,7 +769,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Low",
-          "href": "docs/rp__i2c___spec.html#L22C13"
+          "href": "docs/rp__i2c___spec.html#L27C13"
         },
         {
           "kind": "span",
@@ -730,7 +785,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Hold",
-          "href": "docs/rp__i2c___spec.html#L22C18"
+          "href": "docs/rp__i2c___spec.html#L27C18"
         },
         {
           "kind": "span",
@@ -746,7 +801,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Spike",
-          "href": "docs/rp__i2c___spec.html#L22C24"
+          "href": "docs/rp__i2c___spec.html#L27C24"
         },
         {
           "kind": "span",
@@ -767,7 +822,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Nanoseconds",
-          "href": "docs/rp__i2c___spec.html#L20C9"
+          "href": "docs/rp__i2c___spec.html#L25C9"
         },
         {
           "kind": "span",
@@ -778,7 +833,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 23,
+      "number": 28,
       "children": [
         {
           "kind": "span",
@@ -789,7 +844,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Rise",
-          "href": "docs/rp__i2c___spec.html#L23C7"
+          "href": "docs/rp__i2c___spec.html#L28C7"
         },
         {
           "kind": "span",
@@ -805,7 +860,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Fall",
-          "href": "docs/rp__i2c___spec.html#L23C13"
+          "href": "docs/rp__i2c___spec.html#L28C13"
         },
         {
           "kind": "span",
@@ -826,7 +881,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Nanoseconds",
-          "href": "docs/rp__i2c___spec.html#L20C9"
+          "href": "docs/rp__i2c___spec.html#L25C9"
         },
         {
           "kind": "span",
@@ -857,7 +912,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 24,
+      "number": 29,
       "children": [
         {
           "kind": "span",
@@ -883,19 +938,19 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/rp__i2c___spec.html#L21C9"
+          "href": "docs/rp__i2c___spec.html#L26C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 25,
+      "number": 30,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 26,
+      "number": 31,
       "children": [
         {
           "kind": "span",
@@ -911,7 +966,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 27,
+      "number": 32,
       "children": [
         {
           "kind": "span",
@@ -927,7 +982,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 28,
+      "number": 33,
       "children": [
         {
           "kind": "span",
@@ -943,7 +998,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 29,
+      "number": 34,
       "children": [
         {
           "kind": "span",
@@ -959,7 +1014,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 30,
+      "number": 35,
       "children": [
         {
           "kind": "span",
@@ -975,7 +1030,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 31,
+      "number": 36,
       "children": [
         {
           "kind": "span",
@@ -991,7 +1046,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 32,
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -1002,7 +1057,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Standard_Mode",
-          "href": "docs/rp__i2c___spec.html#L32C4"
+          "href": "docs/rp__i2c___spec.html#L37C4"
         },
         {
           "kind": "span",
@@ -1033,7 +1088,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Timing",
-          "href": "docs/rp__i2c___spec.html#L21C9"
+          "href": "docs/rp__i2c___spec.html#L26C9"
         },
         {
           "kind": "span",
@@ -1049,7 +1104,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 33,
+      "number": 38,
       "children": [
         {
           "kind": "span",
@@ -1095,7 +1150,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 34,
+      "number": 39,
       "children": [
         {
           "kind": "span",
@@ -1136,7 +1191,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 35,
+      "number": 40,
       "children": [
         {
           "kind": "span",
@@ -1177,7 +1232,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 36,
+      "number": 41,
       "children": [
         {
           "kind": "span",
@@ -1223,13 +1278,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 42,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -1240,7 +1295,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Fast_Mode",
-          "href": "docs/rp__i2c___spec.html#L38C4"
+          "href": "docs/rp__i2c___spec.html#L43C4"
         },
         {
           "kind": "span",
@@ -1271,7 +1326,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Timing",
-          "href": "docs/rp__i2c___spec.html#L21C9"
+          "href": "docs/rp__i2c___spec.html#L26C9"
         },
         {
           "kind": "span",
@@ -1287,7 +1342,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -1333,7 +1388,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 45,
       "children": [
         {
           "kind": "span",
@@ -1374,7 +1429,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 46,
       "children": [
         {
           "kind": "span",
@@ -1415,7 +1470,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 47,
       "children": [
         {
           "kind": "span",
@@ -1456,7 +1511,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 48,
       "children": [
         {
           "kind": "span",
@@ -1502,13 +1557,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 49,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -1519,7 +1574,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Fast_Mode_Plus",
-          "href": "docs/rp__i2c___spec.html#L45C4"
+          "href": "docs/rp__i2c___spec.html#L50C4"
         },
         {
           "kind": "span",
@@ -1550,7 +1605,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Timing",
-          "href": "docs/rp__i2c___spec.html#L21C9"
+          "href": "docs/rp__i2c___spec.html#L26C9"
         },
         {
           "kind": "span",
@@ -1566,7 +1621,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 51,
       "children": [
         {
           "kind": "span",
@@ -1612,7 +1667,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 47,
+      "number": 52,
       "children": [
         {
           "kind": "span",
@@ -1653,7 +1708,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -1694,7 +1749,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 49,
+      "number": 54,
       "children": [
         {
           "kind": "span",
@@ -1735,7 +1790,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 55,
       "children": [
         {
           "kind": "span",
@@ -1781,13 +1836,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 56,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 52,
+      "number": 57,
       "children": [
         {
           "kind": "span",
@@ -1808,7 +1863,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Role",
-          "href": "docs/rp__i2c___spec.html#L52C9"
+          "href": "docs/rp__i2c___spec.html#L57C9"
         },
         {
           "kind": "span",
@@ -1834,7 +1889,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Controller",
-          "href": "docs/rp__i2c___spec.html#L52C22"
+          "href": "docs/rp__i2c___spec.html#L57C22"
         },
         {
           "kind": "span",
@@ -1850,7 +1905,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Target",
-          "href": "docs/rp__i2c___spec.html#L52C34"
+          "href": "docs/rp__i2c___spec.html#L57C34"
         },
         {
           "kind": "span",
@@ -1861,13 +1916,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/rp__i2c___spec.html#L52C9"
+          "href": "docs/rp__i2c___spec.html#L57C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 53,
+      "number": 58,
       "children": [
         {
           "kind": "span",
@@ -1888,7 +1943,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Config",
-          "href": "docs/rp__i2c___spec.html#L53C9"
+          "href": "docs/rp__i2c___spec.html#L58C9"
         },
         {
           "kind": "span",
@@ -1914,7 +1969,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 54,
+      "number": 59,
       "children": [
         {
           "kind": "span",
@@ -1925,7 +1980,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Role",
-          "href": "docs/rp__i2c___spec.html#L54C7"
+          "href": "docs/rp__i2c___spec.html#L59C7"
         },
         {
           "kind": "span",
@@ -1946,7 +2001,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Role",
-          "href": "docs/rp__i2c___spec.html#L52C9"
+          "href": "docs/rp__i2c___spec.html#L57C9"
         },
         {
           "kind": "span",
@@ -1977,7 +2032,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 55,
+      "number": 60,
       "children": [
         {
           "kind": "span",
@@ -1988,7 +2043,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Timing",
-          "href": "docs/rp__i2c___spec.html#L55C7"
+          "href": "docs/rp__i2c___spec.html#L60C7"
         },
         {
           "kind": "span",
@@ -2009,7 +2064,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Timing",
-          "href": "docs/rp__i2c___spec.html#L21C9"
+          "href": "docs/rp__i2c___spec.html#L26C9"
         },
         {
           "kind": "span",
@@ -2030,7 +2085,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Standard_Mode",
-          "href": "docs/rp__i2c___spec.html#L32C4"
+          "href": "docs/rp__i2c___spec.html#L37C4"
         },
         {
           "kind": "span",
@@ -2041,7 +2096,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 61,
       "children": [
         {
           "kind": "span",
@@ -2067,19 +2122,19 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/rp__i2c___spec.html#L53C9"
+          "href": "docs/rp__i2c___spec.html#L58C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 57,
+      "number": 62,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 63,
       "children": [
         {
           "kind": "span",
@@ -2100,187 +2155,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Enabled",
-          "href": "docs/rp__i2c___spec.html#L58C13"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 59,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "This",
-          "href": "docs/rp__i2c___spec.html#L59C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "I2C_Port",
-          "href": "docs/rp__i2c___spec.html#L222C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 60,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 61,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 62,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Configure",
-          "href": "docs/rp__i2c___spec.html#L62C14"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 63,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "This",
-          "href": "docs/rp__i2c___spec.html#L63C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "in"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "I2C_Port",
-          "href": "docs/rp__i2c___spec.html#L222C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "href": "docs/rp__i2c___spec.html#L63C13"
         }
       ]
     },
@@ -2291,12 +2166,17 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "      "
         },
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Config",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "This",
           "href": "docs/rp__i2c___spec.html#L64C8"
         },
         {
@@ -2317,8 +2197,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "I2C_Config",
-          "href": "docs/rp__i2c___spec.html#L53C9"
+          "text": "I2C_Port",
+          "href": "docs/rp__i2c___spec.html#L227C9"
         },
         {
           "kind": "span",
@@ -2334,27 +2214,22 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "      "
         },
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "with"
+          "text": "return"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " Post => "
+          "text": " "
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "not"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " This.Enabled"
+          "cssClass": "identifier",
+          "text": "Boolean"
         },
         {
           "kind": "span",
@@ -2391,7 +2266,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Enable",
+          "text": "Configure",
           "href": "docs/rp__i2c___spec.html#L67C14"
         }
       ]
@@ -2419,7 +2294,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "     "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -2455,7 +2330,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Port",
-          "href": "docs/rp__i2c___spec.html#L222C9"
+          "href": "docs/rp__i2c___spec.html#L227C9"
         },
         {
           "kind": "span",
@@ -2476,7 +2351,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Deadline",
+          "text": "Config",
           "href": "docs/rp__i2c___spec.html#L69C8"
         },
         {
@@ -2497,44 +2372,44 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "RP.Timer.Time",
-          "href": "docs/rp__timer___spec.html#L13C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "RP.Timer.Time",
-          "href": "docs/rp__timer___spec.html#L13C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "'"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Last"
+          "text": "I2C_Config",
+          "href": "docs/rp__i2c___spec.html#L58C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 70,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Post => "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "not"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " This.Enabled"
         },
         {
           "kind": "span",
@@ -2545,13 +2420,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 70,
+      "number": 71,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 71,
+      "number": 72,
       "children": [
         {
           "kind": "span",
@@ -2571,14 +2446,14 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Disable",
-          "href": "docs/rp__i2c___spec.html#L71C14"
+          "text": "Enable",
+          "href": "docs/rp__i2c___spec.html#L72C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 72,
+      "number": 73,
       "children": [
         {
           "kind": "span",
@@ -2594,7 +2469,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__i2c___spec.html#L72C8"
+          "href": "docs/rp__i2c___spec.html#L73C8"
         },
         {
           "kind": "span",
@@ -2635,7 +2510,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Port",
-          "href": "docs/rp__i2c___spec.html#L222C9"
+          "href": "docs/rp__i2c___spec.html#L227C9"
         },
         {
           "kind": "span",
@@ -2646,7 +2521,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 73,
+      "number": 74,
       "children": [
         {
           "kind": "span",
@@ -2657,7 +2532,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Deadline",
-          "href": "docs/rp__i2c___spec.html#L73C8"
+          "href": "docs/rp__i2c___spec.html#L74C8"
         },
         {
           "kind": "span",
@@ -2678,7 +2553,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.Timer.Time",
-          "href": "docs/rp__timer___spec.html#L13C9"
+          "href": "docs/rp__timer___spec.html#L11C9"
         },
         {
           "kind": "span",
@@ -2699,7 +2574,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.Timer.Time",
-          "href": "docs/rp__timer___spec.html#L13C9"
+          "href": "docs/rp__timer___spec.html#L11C9"
         },
         {
           "kind": "span",
@@ -2725,13 +2600,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 74,
+      "number": 75,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 75,
+      "number": 76,
       "children": [
         {
           "kind": "span",
@@ -2751,14 +2626,14 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Set_Timing",
-          "href": "docs/rp__i2c___spec.html#L75C14"
+          "text": "Disable",
+          "href": "docs/rp__i2c___spec.html#L76C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 76,
+      "number": 77,
       "children": [
         {
           "kind": "span",
@@ -2774,12 +2649,12 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__i2c___spec.html#L76C8"
+          "href": "docs/rp__i2c___spec.html#L77C8"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "     "
         },
         {
           "kind": "span",
@@ -2815,7 +2690,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Port",
-          "href": "docs/rp__i2c___spec.html#L222C9"
+          "href": "docs/rp__i2c___spec.html#L227C9"
         },
         {
           "kind": "span",
@@ -2826,7 +2701,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 77,
+      "number": 78,
       "children": [
         {
           "kind": "span",
@@ -2836,13 +2711,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "T",
-          "href": "docs/rp__i2c___spec.html#L77C8"
+          "text": "Deadline",
+          "href": "docs/rp__i2c___spec.html#L78C8"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "    "
+          "text": " "
         },
         {
           "kind": "span",
@@ -2857,44 +2732,44 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "I2C_Timing",
-          "href": "docs/rp__i2c___spec.html#L21C9"
+          "text": "RP.Timer.Time",
+          "href": "docs/rp__timer___spec.html#L11C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "RP.Timer.Time",
+          "href": "docs/rp__timer___spec.html#L11C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "'"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Last"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ")"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 78,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " Pre => "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "not"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " This.Enabled"
         },
         {
           "kind": "span",
@@ -2931,7 +2806,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Set_Address",
+          "text": "Set_Timing",
           "href": "docs/rp__i2c___spec.html#L80C14"
         }
       ]
@@ -2995,7 +2870,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Port",
-          "href": "docs/rp__i2c___spec.html#L222C9"
+          "href": "docs/rp__i2c___spec.html#L227C9"
         },
         {
           "kind": "span",
@@ -3016,13 +2891,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Addr",
+          "text": "T",
           "href": "docs/rp__i2c___spec.html#L82C8"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "    "
         },
         {
           "kind": "span",
@@ -3037,8 +2912,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL.UInt7",
-          "href": "docs/hal___spec.html#L49C9"
+          "text": "I2C_Timing",
+          "href": "docs/rp__i2c___spec.html#L26C9"
         },
         {
           "kind": "span",
@@ -3175,7 +3050,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Port",
-          "href": "docs/rp__i2c___spec.html#L222C9"
+          "href": "docs/rp__i2c___spec.html#L227C9"
         },
         {
           "kind": "span",
@@ -3217,8 +3092,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "HAL.UInt10",
-          "href": "docs/hal___spec.html#L54C9"
+          "text": "HAL.UInt7",
+          "href": "docs/hal___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -3267,6 +3142,186 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 89,
       "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 90,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Set_Address",
+          "href": "docs/rp__i2c___spec.html#L90C14"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 91,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "This",
+          "href": "docs/rp__i2c___spec.html#L91C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "in"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "out"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "I2C_Port",
+          "href": "docs/rp__i2c___spec.html#L227C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 92,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Addr",
+          "href": "docs/rp__i2c___spec.html#L92C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "HAL.UInt10",
+          "href": "docs/hal___spec.html#L54C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 93,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Pre => "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "not"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " This.Enabled"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 94,
+      "children": [
         {
           "kind": "span",
           "cssClass": "text",
@@ -3281,7 +3336,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 90,
+      "number": 95,
       "children": [
         {
           "kind": "span",
@@ -3297,13 +3352,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 91,
+      "number": 96,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 92,
+      "number": 97,
       "children": [
         {
           "kind": "span",
@@ -3324,13 +3379,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Start_Read",
-          "href": "docs/rp__i2c___spec.html#L92C14"
+          "href": "docs/rp__i2c___spec.html#L97C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 93,
+      "number": 98,
       "children": [
         {
           "kind": "span",
@@ -3346,7 +3401,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__i2c___spec.html#L93C8"
+          "href": "docs/rp__i2c___spec.html#L98C8"
         },
         {
           "kind": "span",
@@ -3387,7 +3442,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Port",
-          "href": "docs/rp__i2c___spec.html#L222C9"
+          "href": "docs/rp__i2c___spec.html#L227C9"
         },
         {
           "kind": "span",
@@ -3398,7 +3453,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 94,
+      "number": 99,
       "children": [
         {
           "kind": "span",
@@ -3409,7 +3464,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Length",
-          "href": "docs/rp__i2c___spec.html#L94C8"
+          "href": "docs/rp__i2c___spec.html#L99C8"
         },
         {
           "kind": "span",
@@ -3460,7 +3515,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 95,
+      "number": 100,
       "children": [
         {
           "kind": "span",
@@ -3471,7 +3526,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Stop",
-          "href": "docs/rp__i2c___spec.html#L95C8"
+          "href": "docs/rp__i2c___spec.html#L100C8"
         },
         {
           "kind": "span",
@@ -3522,7 +3577,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 96,
+      "number": 101,
       "children": [
         {
           "kind": "span",
@@ -3548,7 +3603,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 97,
+      "number": 102,
       "children": [
         {
           "kind": "span",
@@ -3564,7 +3619,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 98,
+      "number": 103,
       "children": [
         {
           "kind": "span",
@@ -3580,7 +3635,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 99,
+      "number": 104,
       "children": [
         {
           "kind": "span",
@@ -3596,13 +3651,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 100,
+      "number": 105,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 101,
+      "number": 106,
       "children": [
         {
           "kind": "span",
@@ -3623,13 +3678,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Read_Ready",
-          "href": "docs/rp__i2c___spec.html#L101C13"
+          "href": "docs/rp__i2c___spec.html#L106C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 102,
+      "number": 107,
       "children": [
         {
           "kind": "span",
@@ -3645,7 +3700,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__i2c___spec.html#L102C8"
+          "href": "docs/rp__i2c___spec.html#L107C8"
         },
         {
           "kind": "span",
@@ -3666,7 +3721,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Port",
-          "href": "docs/rp__i2c___spec.html#L222C9"
+          "href": "docs/rp__i2c___spec.html#L227C9"
         },
         {
           "kind": "span",
@@ -3677,7 +3732,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 103,
+      "number": 108,
       "children": [
         {
           "kind": "span",
@@ -3703,7 +3758,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 104,
+      "number": 109,
       "children": [
         {
           "kind": "span",
@@ -3729,7 +3784,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 105,
+      "number": 110,
       "children": [
         {
           "kind": "span",
@@ -3745,13 +3800,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 106,
+      "number": 111,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 107,
+      "number": 112,
       "children": [
         {
           "kind": "span",
@@ -3772,13 +3827,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Read",
-          "href": "docs/rp__i2c___spec.html#L107C14"
+          "href": "docs/rp__i2c___spec.html#L112C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 108,
+      "number": 113,
       "children": [
         {
           "kind": "span",
@@ -3794,7 +3849,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__i2c___spec.html#L108C8"
+          "href": "docs/rp__i2c___spec.html#L113C8"
         },
         {
           "kind": "span",
@@ -3835,7 +3890,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Port",
-          "href": "docs/rp__i2c___spec.html#L222C9"
+          "href": "docs/rp__i2c___spec.html#L227C9"
         },
         {
           "kind": "span",
@@ -3846,7 +3901,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 109,
+      "number": 114,
       "children": [
         {
           "kind": "span",
@@ -3857,7 +3912,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Data",
-          "href": "docs/rp__i2c___spec.html#L109C8"
+          "href": "docs/rp__i2c___spec.html#L114C8"
         },
         {
           "kind": "span",
@@ -3899,7 +3954,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 110,
+      "number": 115,
       "children": [
         {
           "kind": "span",
@@ -3910,7 +3965,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Status",
-          "href": "docs/rp__i2c___spec.html#L110C8"
+          "href": "docs/rp__i2c___spec.html#L115C8"
         },
         {
           "kind": "span",
@@ -3941,7 +3996,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Status",
-          "href": "docs/rp__i2c___spec.html#L15C9"
+          "href": "docs/rp__i2c___spec.html#L20C9"
         },
         {
           "kind": "span",
@@ -3952,7 +4007,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 111,
+      "number": 116,
       "children": [
         {
           "kind": "span",
@@ -3963,7 +4018,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Deadline",
-          "href": "docs/rp__i2c___spec.html#L111C8"
+          "href": "docs/rp__i2c___spec.html#L116C8"
         },
         {
           "kind": "span",
@@ -3984,7 +4039,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.Timer.Time",
-          "href": "docs/rp__timer___spec.html#L13C9"
+          "href": "docs/rp__timer___spec.html#L11C9"
         },
         {
           "kind": "span",
@@ -4005,7 +4060,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.Timer.Time",
-          "href": "docs/rp__timer___spec.html#L13C9"
+          "href": "docs/rp__timer___spec.html#L11C9"
         },
         {
           "kind": "span",
@@ -4026,7 +4081,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 112,
+      "number": 117,
       "children": [
         {
           "kind": "span",
@@ -4052,13 +4107,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 113,
+      "number": 118,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 114,
+      "number": 119,
       "children": [
         {
           "kind": "span",
@@ -4079,13 +4134,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Start_Write",
-          "href": "docs/rp__i2c___spec.html#L114C14"
+          "href": "docs/rp__i2c___spec.html#L119C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 115,
+      "number": 120,
       "children": [
         {
           "kind": "span",
@@ -4101,7 +4156,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__i2c___spec.html#L115C8"
+          "href": "docs/rp__i2c___spec.html#L120C8"
         },
         {
           "kind": "span",
@@ -4142,7 +4197,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Port",
-          "href": "docs/rp__i2c___spec.html#L222C9"
+          "href": "docs/rp__i2c___spec.html#L227C9"
         },
         {
           "kind": "span",
@@ -4153,7 +4208,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 116,
+      "number": 121,
       "children": [
         {
           "kind": "span",
@@ -4164,7 +4219,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Length",
-          "href": "docs/rp__i2c___spec.html#L116C8"
+          "href": "docs/rp__i2c___spec.html#L121C8"
         },
         {
           "kind": "span",
@@ -4215,7 +4270,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 117,
+      "number": 122,
       "children": [
         {
           "kind": "span",
@@ -4226,7 +4281,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Stop",
-          "href": "docs/rp__i2c___spec.html#L117C8"
+          "href": "docs/rp__i2c___spec.html#L122C8"
         },
         {
           "kind": "span",
@@ -4277,7 +4332,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 118,
+      "number": 123,
       "children": [
         {
           "kind": "span",
@@ -4288,7 +4343,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Deadline",
-          "href": "docs/rp__i2c___spec.html#L118C8"
+          "href": "docs/rp__i2c___spec.html#L123C8"
         },
         {
           "kind": "span",
@@ -4309,7 +4364,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.Timer.Time",
-          "href": "docs/rp__timer___spec.html#L13C9"
+          "href": "docs/rp__timer___spec.html#L11C9"
         },
         {
           "kind": "span",
@@ -4330,7 +4385,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.Timer.Time",
-          "href": "docs/rp__timer___spec.html#L13C9"
+          "href": "docs/rp__timer___spec.html#L11C9"
         },
         {
           "kind": "span",
@@ -4356,7 +4411,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 119,
+      "number": 124,
       "children": [
         {
           "kind": "span",
@@ -4372,7 +4427,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 120,
+      "number": 125,
       "children": [
         {
           "kind": "span",
@@ -4388,7 +4443,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 121,
+      "number": 126,
       "children": [
         {
           "kind": "span",
@@ -4404,7 +4459,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 122,
+      "number": 127,
       "children": [
         {
           "kind": "span",
@@ -4420,13 +4475,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 123,
+      "number": 128,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 124,
+      "number": 129,
       "children": [
         {
           "kind": "span",
@@ -4447,13 +4502,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Write_Ready",
-          "href": "docs/rp__i2c___spec.html#L124C13"
+          "href": "docs/rp__i2c___spec.html#L129C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 125,
+      "number": 130,
       "children": [
         {
           "kind": "span",
@@ -4469,7 +4524,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__i2c___spec.html#L125C8"
+          "href": "docs/rp__i2c___spec.html#L130C8"
         },
         {
           "kind": "span",
@@ -4490,7 +4545,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Port",
-          "href": "docs/rp__i2c___spec.html#L222C9"
+          "href": "docs/rp__i2c___spec.html#L227C9"
         },
         {
           "kind": "span",
@@ -4501,7 +4556,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 126,
+      "number": 131,
       "children": [
         {
           "kind": "span",
@@ -4527,7 +4582,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 127,
+      "number": 132,
       "children": [
         {
           "kind": "span",
@@ -4553,7 +4608,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 128,
+      "number": 133,
       "children": [
         {
           "kind": "span",
@@ -4569,13 +4624,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 129,
+      "number": 134,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 130,
+      "number": 135,
       "children": [
         {
           "kind": "span",
@@ -4596,13 +4651,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Write",
-          "href": "docs/rp__i2c___spec.html#L130C14"
+          "href": "docs/rp__i2c___spec.html#L135C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 131,
+      "number": 136,
       "children": [
         {
           "kind": "span",
@@ -4618,7 +4673,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__i2c___spec.html#L131C8"
+          "href": "docs/rp__i2c___spec.html#L136C8"
         },
         {
           "kind": "span",
@@ -4659,7 +4714,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Port",
-          "href": "docs/rp__i2c___spec.html#L222C9"
+          "href": "docs/rp__i2c___spec.html#L227C9"
         },
         {
           "kind": "span",
@@ -4670,7 +4725,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 132,
+      "number": 137,
       "children": [
         {
           "kind": "span",
@@ -4681,7 +4736,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Data",
-          "href": "docs/rp__i2c___spec.html#L132C8"
+          "href": "docs/rp__i2c___spec.html#L137C8"
         },
         {
           "kind": "span",
@@ -4713,7 +4768,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 133,
+      "number": 138,
       "children": [
         {
           "kind": "span",
@@ -4724,7 +4779,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Status",
-          "href": "docs/rp__i2c___spec.html#L133C8"
+          "href": "docs/rp__i2c___spec.html#L138C8"
         },
         {
           "kind": "span",
@@ -4755,7 +4810,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Status",
-          "href": "docs/rp__i2c___spec.html#L15C9"
+          "href": "docs/rp__i2c___spec.html#L20C9"
         },
         {
           "kind": "span",
@@ -4766,7 +4821,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 134,
+      "number": 139,
       "children": [
         {
           "kind": "span",
@@ -4777,7 +4832,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Deadline",
-          "href": "docs/rp__i2c___spec.html#L134C8"
+          "href": "docs/rp__i2c___spec.html#L139C8"
         },
         {
           "kind": "span",
@@ -4798,7 +4853,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.Timer.Time",
-          "href": "docs/rp__timer___spec.html#L13C9"
+          "href": "docs/rp__timer___spec.html#L11C9"
         },
         {
           "kind": "span",
@@ -4819,7 +4874,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RP.Timer.Time",
-          "href": "docs/rp__timer___spec.html#L13C9"
+          "href": "docs/rp__timer___spec.html#L11C9"
         },
         {
           "kind": "span",
@@ -4840,7 +4895,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 135,
+      "number": 140,
       "children": [
         {
           "kind": "span",
@@ -4866,7 +4921,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 136,
+      "number": 141,
       "children": [
         {
           "kind": "span",
@@ -4882,7 +4937,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 137,
+      "number": 142,
       "children": [
         {
           "kind": "span",
@@ -4898,7 +4953,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 138,
+      "number": 143,
       "children": [
         {
           "kind": "span",
@@ -4914,13 +4969,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 139,
+      "number": 144,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 140,
+      "number": 145,
       "children": [
         {
           "kind": "span",
@@ -4941,13 +4996,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Abort_Write",
-          "href": "docs/rp__i2c___spec.html#L140C14"
+          "href": "docs/rp__i2c___spec.html#L145C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 141,
+      "number": 146,
       "children": [
         {
           "kind": "span",
@@ -4963,7 +5018,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__i2c___spec.html#L141C8"
+          "href": "docs/rp__i2c___spec.html#L146C8"
         },
         {
           "kind": "span",
@@ -5004,7 +5059,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Port",
-          "href": "docs/rp__i2c___spec.html#L222C9"
+          "href": "docs/rp__i2c___spec.html#L227C9"
         },
         {
           "kind": "span",
@@ -5015,7 +5070,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 142,
+      "number": 147,
       "children": [
         {
           "kind": "span",
@@ -5041,13 +5096,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 143,
+      "number": 148,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 144,
+      "number": 149,
       "children": [
         {
           "kind": "span",
@@ -5068,7 +5123,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Abort_Source",
-          "href": "docs/rp__i2c___spec.html#L144C9"
+          "href": "docs/rp__i2c___spec.html#L149C9"
         },
         {
           "kind": "span",
@@ -5094,7 +5149,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 145,
+      "number": 150,
       "children": [
         {
           "kind": "span",
@@ -5105,7 +5160,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "No_Ack_Addr_7b",
-          "href": "docs/rp__i2c___spec.html#L145C7"
+          "href": "docs/rp__i2c___spec.html#L150C7"
         },
         {
           "kind": "span",
@@ -5156,7 +5211,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 146,
+      "number": 151,
       "children": [
         {
           "kind": "span",
@@ -5172,13 +5227,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 147,
+      "number": 152,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 148,
+      "number": 153,
       "children": [
         {
           "kind": "span",
@@ -5189,7 +5244,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "No_Ack_Addr_10b_1",
-          "href": "docs/rp__i2c___spec.html#L148C7"
+          "href": "docs/rp__i2c___spec.html#L153C7"
         },
         {
           "kind": "span",
@@ -5240,7 +5295,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 149,
+      "number": 154,
       "children": [
         {
           "kind": "span",
@@ -5256,13 +5311,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 150,
+      "number": 155,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 151,
+      "number": 156,
       "children": [
         {
           "kind": "span",
@@ -5273,7 +5328,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "No_Ack_Addr_10b_2",
-          "href": "docs/rp__i2c___spec.html#L151C7"
+          "href": "docs/rp__i2c___spec.html#L156C7"
         },
         {
           "kind": "span",
@@ -5324,7 +5379,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 152,
+      "number": 157,
       "children": [
         {
           "kind": "span",
@@ -5340,13 +5395,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 153,
+      "number": 158,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 154,
+      "number": 159,
       "children": [
         {
           "kind": "span",
@@ -5357,7 +5412,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "No_Ack_Transmit",
-          "href": "docs/rp__i2c___spec.html#L154C7"
+          "href": "docs/rp__i2c___spec.html#L159C7"
         },
         {
           "kind": "span",
@@ -5408,7 +5463,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 155,
+      "number": 160,
       "children": [
         {
           "kind": "span",
@@ -5424,13 +5479,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 156,
+      "number": 161,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 157,
+      "number": 162,
       "children": [
         {
           "kind": "span",
@@ -5441,7 +5496,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "No_Ack_General_Call",
-          "href": "docs/rp__i2c___spec.html#L157C7"
+          "href": "docs/rp__i2c___spec.html#L162C7"
         },
         {
           "kind": "span",
@@ -5492,7 +5547,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 158,
+      "number": 163,
       "children": [
         {
           "kind": "span",
@@ -5508,13 +5563,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 159,
+      "number": 164,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 160,
+      "number": 165,
       "children": [
         {
           "kind": "span",
@@ -5525,7 +5580,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Invalid_General_Call",
-          "href": "docs/rp__i2c___spec.html#L160C7"
+          "href": "docs/rp__i2c___spec.html#L165C7"
         },
         {
           "kind": "span",
@@ -5576,7 +5631,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 161,
+      "number": 166,
       "children": [
         {
           "kind": "span",
@@ -5592,13 +5647,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 162,
+      "number": 167,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 163,
+      "number": 168,
       "children": [
         {
           "kind": "span",
@@ -5609,7 +5664,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Invalid_Ack_High_Speed",
-          "href": "docs/rp__i2c___spec.html#L163C7"
+          "href": "docs/rp__i2c___spec.html#L168C7"
         },
         {
           "kind": "span",
@@ -5660,7 +5715,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 164,
+      "number": 169,
       "children": [
         {
           "kind": "span",
@@ -5676,13 +5731,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 165,
+      "number": 170,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 166,
+      "number": 171,
       "children": [
         {
           "kind": "span",
@@ -5693,7 +5748,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Invalid_Ack_Start",
-          "href": "docs/rp__i2c___spec.html#L166C7"
+          "href": "docs/rp__i2c___spec.html#L171C7"
         },
         {
           "kind": "span",
@@ -5744,7 +5799,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 167,
+      "number": 172,
       "children": [
         {
           "kind": "span",
@@ -5760,13 +5815,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 168,
+      "number": 173,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 169,
+      "number": 174,
       "children": [
         {
           "kind": "span",
@@ -5777,7 +5832,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "No_Restart_High_Speed",
-          "href": "docs/rp__i2c___spec.html#L169C7"
+          "href": "docs/rp__i2c___spec.html#L174C7"
         },
         {
           "kind": "span",
@@ -5828,7 +5883,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 170,
+      "number": 175,
       "children": [
         {
           "kind": "span",
@@ -5844,13 +5899,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 171,
+      "number": 176,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 172,
+      "number": 177,
       "children": [
         {
           "kind": "span",
@@ -5861,7 +5916,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "No_Restart_Start",
-          "href": "docs/rp__i2c___spec.html#L172C7"
+          "href": "docs/rp__i2c___spec.html#L177C7"
         },
         {
           "kind": "span",
@@ -5912,7 +5967,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 173,
+      "number": 178,
       "children": [
         {
           "kind": "span",
@@ -5928,13 +5983,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 174,
+      "number": 179,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 175,
+      "number": 180,
       "children": [
         {
           "kind": "span",
@@ -5945,7 +6000,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "No_Restart_10b_Read",
-          "href": "docs/rp__i2c___spec.html#L175C7"
+          "href": "docs/rp__i2c___spec.html#L180C7"
         },
         {
           "kind": "span",
@@ -5996,7 +6051,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 176,
+      "number": 181,
       "children": [
         {
           "kind": "span",
@@ -6012,13 +6067,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 177,
+      "number": 182,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 178,
+      "number": 183,
       "children": [
         {
           "kind": "span",
@@ -6029,7 +6084,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Not_Controller_Mode",
-          "href": "docs/rp__i2c___spec.html#L178C7"
+          "href": "docs/rp__i2c___spec.html#L183C7"
         },
         {
           "kind": "span",
@@ -6080,7 +6135,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 179,
+      "number": 184,
       "children": [
         {
           "kind": "span",
@@ -6096,13 +6151,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 180,
+      "number": 185,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 181,
+      "number": 186,
       "children": [
         {
           "kind": "span",
@@ -6113,7 +6168,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Arbitration_Lost",
-          "href": "docs/rp__i2c___spec.html#L181C7"
+          "href": "docs/rp__i2c___spec.html#L186C7"
         },
         {
           "kind": "span",
@@ -6164,7 +6219,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 182,
+      "number": 187,
       "children": [
         {
           "kind": "span",
@@ -6180,13 +6235,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 183,
+      "number": 188,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 184,
+      "number": 189,
       "children": [
         {
           "kind": "span",
@@ -6197,7 +6252,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Target_Transmit_Abort",
-          "href": "docs/rp__i2c___spec.html#L184C7"
+          "href": "docs/rp__i2c___spec.html#L189C7"
         },
         {
           "kind": "span",
@@ -6248,7 +6303,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 185,
+      "number": 190,
       "children": [
         {
           "kind": "span",
@@ -6264,7 +6319,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 186,
+      "number": 191,
       "children": [
         {
           "kind": "span",
@@ -6280,13 +6335,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 187,
+      "number": 192,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 188,
+      "number": 193,
       "children": [
         {
           "kind": "span",
@@ -6297,7 +6352,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Target_Arbitration_Lost",
-          "href": "docs/rp__i2c___spec.html#L188C7"
+          "href": "docs/rp__i2c___spec.html#L193C7"
         },
         {
           "kind": "span",
@@ -6348,7 +6403,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 189,
+      "number": 194,
       "children": [
         {
           "kind": "span",
@@ -6364,13 +6419,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 190,
+      "number": 195,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 191,
+      "number": 196,
       "children": [
         {
           "kind": "span",
@@ -6381,7 +6436,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Invalid_Target_Read",
-          "href": "docs/rp__i2c___spec.html#L191C7"
+          "href": "docs/rp__i2c___spec.html#L196C7"
         },
         {
           "kind": "span",
@@ -6432,7 +6487,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 192,
+      "number": 197,
       "children": [
         {
           "kind": "span",
@@ -6448,13 +6503,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 193,
+      "number": 198,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 194,
+      "number": 199,
       "children": [
         {
           "kind": "span",
@@ -6465,7 +6520,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transfer_Aborted",
-          "href": "docs/rp__i2c___spec.html#L194C7"
+          "href": "docs/rp__i2c___spec.html#L199C7"
         },
         {
           "kind": "span",
@@ -6516,7 +6571,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 195,
+      "number": 200,
       "children": [
         {
           "kind": "span",
@@ -6532,13 +6587,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 196,
+      "number": 201,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 197,
+      "number": 202,
       "children": [
         {
           "kind": "span",
@@ -6549,7 +6604,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transmit_Flush_Count",
-          "href": "docs/rp__i2c___spec.html#L197C7"
+          "href": "docs/rp__i2c___spec.html#L202C7"
         },
         {
           "kind": "span",
@@ -6601,7 +6656,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 198,
+      "number": 203,
       "children": [
         {
           "kind": "span",
@@ -6617,7 +6672,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 199,
+      "number": 204,
       "children": [
         {
           "kind": "span",
@@ -6643,7 +6698,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 200,
+      "number": 205,
       "children": [
         {
           "kind": "span",
@@ -6669,13 +6724,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 201,
+      "number": 206,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 202,
+      "number": 207,
       "children": [
         {
           "kind": "span",
@@ -6696,7 +6751,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_State",
-          "href": "docs/rp__i2c___spec.html#L202C9"
+          "href": "docs/rp__i2c___spec.html#L207C9"
         },
         {
           "kind": "span",
@@ -6722,7 +6777,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 203,
+      "number": 208,
       "children": [
         {
           "kind": "span",
@@ -6733,7 +6788,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Abort_Source",
-          "href": "docs/rp__i2c___spec.html#L203C7"
+          "href": "docs/rp__i2c___spec.html#L208C7"
         },
         {
           "kind": "span",
@@ -6754,7 +6809,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Abort_Source",
-          "href": "docs/rp__i2c___spec.html#L144C9"
+          "href": "docs/rp__i2c___spec.html#L149C9"
         },
         {
           "kind": "span",
@@ -6765,7 +6820,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 204,
+      "number": 209,
       "children": [
         {
           "kind": "span",
@@ -6776,7 +6831,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Last_Command",
-          "href": "docs/rp__i2c___spec.html#L204C7"
+          "href": "docs/rp__i2c___spec.html#L209C7"
         },
         {
           "kind": "span",
@@ -6808,216 +6863,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 205,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "RX_Remaining",
-          "href": "docs/rp__i2c___spec.html#L205C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Natural"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 206,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "TX_Remaining",
-          "href": "docs/rp__i2c___spec.html#L206C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Natural"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 207,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "TX_Empty",
-          "href": "docs/rp__i2c___spec.html#L207C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 208,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "RX_Empty",
-          "href": "docs/rp__i2c___spec.html#L208C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 209,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Repeated_Start",
-          "href": "docs/rp__i2c___spec.html#L209C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 210,
       "children": [
         {
@@ -7028,13 +6873,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Is_Error",
+          "text": "RX_Remaining",
           "href": "docs/rp__i2c___spec.html#L210C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -7049,7 +6894,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Boolean"
+          "text": "Natural"
         },
         {
           "kind": "span",
@@ -7061,6 +6906,216 @@ GNATdoc.SourceFile = {
     {
       "kind": "line",
       "number": 211,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "TX_Remaining",
+          "href": "docs/rp__i2c___spec.html#L211C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Natural"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 212,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "TX_Empty",
+          "href": "docs/rp__i2c___spec.html#L212C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 213,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "RX_Empty",
+          "href": "docs/rp__i2c___spec.html#L213C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 214,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Repeated_Start",
+          "href": "docs/rp__i2c___spec.html#L214C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 215,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Is_Error",
+          "href": "docs/rp__i2c___spec.html#L215C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 216,
       "children": [
         {
           "kind": "span",
@@ -7086,19 +7141,19 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/rp__i2c___spec.html#L202C9"
+          "href": "docs/rp__i2c___spec.html#L207C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 212,
+      "number": 217,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 213,
+      "number": 218,
       "children": [
         {
           "kind": "span",
@@ -7119,13 +7174,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "State",
-          "href": "docs/rp__i2c___spec.html#L213C13"
+          "href": "docs/rp__i2c___spec.html#L218C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 214,
+      "number": 219,
       "children": [
         {
           "kind": "span",
@@ -7141,7 +7196,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__i2c___spec.html#L214C8"
+          "href": "docs/rp__i2c___spec.html#L219C8"
         },
         {
           "kind": "span",
@@ -7162,7 +7217,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Port",
-          "href": "docs/rp__i2c___spec.html#L222C9"
+          "href": "docs/rp__i2c___spec.html#L227C9"
         },
         {
           "kind": "span",
@@ -7173,7 +7228,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 215,
+      "number": 220,
       "children": [
         {
           "kind": "span",
@@ -7194,7 +7249,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_State",
-          "href": "docs/rp__i2c___spec.html#L202C9"
+          "href": "docs/rp__i2c___spec.html#L207C9"
         },
         {
           "kind": "span",
@@ -7205,13 +7260,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 216,
+      "number": 221,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 217,
+      "number": 222,
       "children": [
         {
           "kind": "span",
@@ -7232,13 +7287,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Clear_Error",
-          "href": "docs/rp__i2c___spec.html#L217C14"
+          "href": "docs/rp__i2c___spec.html#L222C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 218,
+      "number": 223,
       "children": [
         {
           "kind": "span",
@@ -7254,7 +7309,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "This",
-          "href": "docs/rp__i2c___spec.html#L218C8"
+          "href": "docs/rp__i2c___spec.html#L223C8"
         },
         {
           "kind": "span",
@@ -7295,7 +7350,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "I2C_Port",
-          "href": "docs/rp__i2c___spec.html#L222C9"
+          "href": "docs/rp__i2c___spec.html#L227C9"
         },
         {
           "kind": "span",
@@ -7311,13 +7366,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 219,
+      "number": 224,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 220,
+      "number": 225,
       "children": [
         {
           "kind": "span",
@@ -7328,13 +7383,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 221,
+      "number": 226,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 254,
+      "number": 259,
       "children": [
         {
           "kind": "span",

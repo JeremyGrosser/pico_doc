@@ -242,7 +242,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "string",
-          "text": "\"2.0.0-alpha\""
+          "text": "\"2.0.0\""
         },
         {
           "kind": "span",
@@ -838,7 +838,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Build_Profile_Kind",
+          "text": "Interrupts_Kind",
           "href": "docs/rp2040_hal_config___spec.html#L22C9"
         },
         {
@@ -864,8 +864,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "release",
-          "href": "docs/rp2040_hal_config___spec.html#L22C32"
+          "text": "hal",
+          "href": "docs/rp2040_hal_config___spec.html#L22C29"
         },
         {
           "kind": "span",
@@ -880,24 +880,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "validation",
-          "href": "docs/rp2040_hal_config___spec.html#L22C41"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "development",
-          "href": "docs/rp2040_hal_config___spec.html#L22C53"
+          "text": "bb_runtimes",
+          "href": "docs/rp2040_hal_config___spec.html#L22C34"
         },
         {
           "kind": "span",
@@ -924,7 +908,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Build_Profile",
+          "text": "Interrupts",
           "href": "docs/rp2040_hal_config___spec.html#L23C4"
         },
         {
@@ -955,8 +939,183 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Build_Profile_Kind",
+          "text": "Interrupts_Kind",
           "href": "docs/rp2040_hal_config___spec.html#L22C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "hal"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 24,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 25,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Build_Profile_Kind",
+          "href": "docs/rp2040_hal_config___spec.html#L25C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "release",
+          "href": "docs/rp2040_hal_config___spec.html#L25C32"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "validation",
+          "href": "docs/rp2040_hal_config___spec.html#L25C41"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "development",
+          "href": "docs/rp2040_hal_config___spec.html#L25C53"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";",
+          "href": "docs/rp2040_hal_config___spec.html#L25C9"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 26,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Build_Profile",
+          "href": "docs/rp2040_hal_config___spec.html#L26C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Build_Profile_Kind",
+          "href": "docs/rp2040_hal_config___spec.html#L25C9"
         },
         {
           "kind": "span",
@@ -987,13 +1146,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 24,
+      "number": 27,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 25,
+      "number": 28,
       "children": [
         {
           "kind": "span",
