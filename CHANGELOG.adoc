@@ -7,16 +7,16 @@ August 22, 2022
 Most of the drivers in rp2040_hal now have the `with Preelaborate` aspect, which ensures that no initialization code will be executed implicitly at startup.
 
 ===== I2C rewrite
-`RP.I2C` has been rewritten to support both controller (master) and target (slave) operation. The new driver allows fine control over bus timing, repeated start, and error handling. `RP.I2C_Master` implements the `HAL.I2C` interface for applications that need to be portable or have less stringent timing and error handling requirements.
+https://github.com/JeremyGrosser/rp2040_hal/blob/e7b64f1a3ff2c4c487f409debf7cd759d52cfc91/src/drivers/rp-i2c.ads[RP.I2C] has been rewritten to support both controller (master) and target (slave) operation. The new driver allows fine control over bus timing, repeated start, and error handling. https://github.com/JeremyGrosser/rp2040_hal/blob/e7b64f1a3ff2c4c487f409debf7cd759d52cfc91/src/drivers/rp-i2c_master.ads[RP.I2C_Master] implements the https://github.com/Fabien-Chouteau/hal/blob/92eb1f60b352230352c41137b6983d0bb5e1b7ff/src/hal-i2c.ads[HAL.I2C] interface for applications that need to be portable or have less stringent timing and error handling requirements.
 
 ===== Recalculated PLL VCO frequencies
-For some of the predefined `RP.Clock.PLL_Config` settings, the divider values have been recalculated to use lower VCO frequencies, which should reduce power consumption.
+For some of the predefined https://github.com/JeremyGrosser/rp2040_hal/blob/e7b64f1a3ff2c4c487f409debf7cd759d52cfc91/src/drivers/rp-clock.ads#L76[RP.Clock.PLL_Config] settings, the divider values have been recalculated to use lower VCO frequencies, which should reduce power consumption.
 
 ===== Busy wait
-`RP.Timer.Busy_Wait_Until` will poll the timer until the specified deadline, without putting the device to sleep or triggering an interrupt.
+https://github.com/JeremyGrosser/rp2040_hal/blob/e7b64f1a3ff2c4c487f409debf7cd759d52cfc91/src/drivers/rp-timer.ads#L21[RP.Timer.Busy_Wait_Until] will poll the timer until the specified deadline, without putting the device to sleep or triggering an interrupt.
 
 ===== Unique Id
-The RP2040 has no unique id or serial number, but the external QSPI flash it boots from does. `RP.Flash.Unique_Id` reads a 64-bit "RUID" from the flash chip. The XIP peripheral must be disabled in order to execute this command, so `RP.Flash.Unique_Id` contains a critical section that disables interrupts.
+The RP2040 has no unique id or serial number, but the external QSPI flash it boots from does. https://github.com/JeremyGrosser/rp2040_hal/blob/e7b64f1a3ff2c4c487f409debf7cd759d52cfc91/src/drivers/rp-flash.ads#L65[RP.Flash.Unique_Id] reads a 64-bit "RUID" from the flash chip. The XIP peripheral must be disabled in order to execute this command, so `RP.Flash.Unique_Id` contains a critical section that disables interrupts.
 
 ===== RTC improvements
 RTC alarms can now be Set or Disabled without blocking. This allows more flexible configuration of low power modes.
@@ -33,7 +33,7 @@ The GNAT toolchain dependency has been updated to version 12. Several new compil
 rp2040_hal.gpr has been recreated using Alire 1.2, which now supports https://alire.ada.dev/docs/#build-profiles-and-switches[build profiles].
 
 ===== PWM count return type
-`RP.PWM.Count` now returns a modular `HAL.UInt16` value, rather than `Natural`, to better reflect the size and overflow behavior of the hardware counter.
+https://github.com/JeremyGrosser/rp2040_hal/blob/e7b64f1a3ff2c4c487f409debf7cd759d52cfc91/src/drivers/rp-pwm.ads#L135[RP.PWM.Count] now returns a modular `HAL.UInt16` value, rather than `Natural`, to better reflect the size and overflow behavior of the hardware counter.
 
 ===== Interrupt handling
 There are now two implementations of `RP_Interrupts`, selectable with a configuration variable.
