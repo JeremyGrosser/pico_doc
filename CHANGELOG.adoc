@@ -35,6 +35,89 @@ rp2040_hal.gpr has been recreated using Alire 1.2, which now supports https://al
 ===== PWM count return type
 `RP.PWM.Count` now returns a modular `HAL.UInt16` value, rather than `Natural`, to better reflect the size and overflow behavior of the hardware counter.
 
+===== Interrupt handling
+There are now two implementations of `RP_Interrupts`, selectable with a configuration variable.
+
+.Using a ZFP or Light runtime (default)
+[source,toml]
+----
+[configuration.values]
+rp2040_hal.Interrupts = "hal"
+----
+
+.Using a Ravenscar runtime provided by the toolchain
+[source,toml]
+----
+[configuration.values]
+rp2040_hal.Interrupts = "bb_runtimes"
+----
+
+All procedures in rp2040_hal that use interrupts have been moved to child packages (eg. `RP.Timer.Delay_Until` is now `RP.Timer.Interrupts.Delay_Until` with different implementations for each runtime.
+
+With light runtimes, users may attach interrupts by calling `RP_Interrupts.Attach_Handler` or by redefining the weak `isr_irqN` symbols. `Interrupt_Handler` procedures no longer take an argument.
+
+.Configuring a UART interrupt using a Light runtime
+[source,ada]
+----
+with RP2040_SVD.Interrupts;
+with RP_Interrupts;
+with RP.Device;
+with RP.UART;
+
+package Example is
+    procedure Initialize;
+    procedure UART_Handler;
+end Example;
+
+package body Example is
+    procedure Initialize is
+    begin
+        RP_Interrupts.Attach_Handler
+            (Handler => IRQ_Handler'Access,
+             Id      => RP2040_SVD.Interrupts.UART0_Interrupt,
+             Prio    => RP_Interrupts.Interrupt_Priority'Last);
+        RP.Clock.Enable (RP.Clock.PERI);
+        RP.Device.UART_0.Configure ((Enable_FIFOs => False, others => <>));
+        RP.Device.UART_0.Enable_IRQ (RP.UART.Receive);
+    end Initialize;
+
+    procedure UART_Handler is
+    begin
+        --  handle an incoming UART frame
+        null;
+    end UART_Handler;
+end Example;
+----
+
+.Configuring a UART interrupt using a Ravenscar runtime
+[source,ada]
+----
+with Ada.Interrupts.Names;
+with RP.Device;
+with RP.UART;
+
+package Example is
+    procedure Initialize;
+    procedure UART_Handler
+        with Attach_Handler => Ada.Interrupts.Names.UART0_Interrupt;
+end Example;
+
+package body Example is
+    procedure Initialize is
+    begin
+        RP.Clock.Enable (RP.Clock.PERI);
+        RP.Device.UART_0.Configure ((Enable_FIFOs => False, others => <>));
+        RP.Device.UART_0.Enable_IRQ (RP.UART.Receive);
+    end Initialize;
+
+    procedure UART_Handler is
+    begin
+        --  handle an incoming UART frame
+        null;
+    end UART_Handler;
+end Example;
+----
+
 ==== Bugs fixed
 
 ===== Increased XOSC startup delay
