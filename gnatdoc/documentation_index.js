@@ -50,6 +50,11 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/atomic__unsigned_8___spec.html"
   },
   {
+    "label": "Atomic_Config",
+    "qualifier": "",
+    "file": "docs/atomic_config___spec.html"
+  },
+  {
     "label": "BBqueue",
     "qualifier": "",
     "file": "docs/bbqueue___spec.html"

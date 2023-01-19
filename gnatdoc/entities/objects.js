@@ -31,6 +31,13 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Alire_Host_Arch",
+      "docHref": "docs/atomic_config___spec.html#L13C4",
+      "declared": "Atomic_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/atomic_config.ads.html#L13"
+    },
+    {
+      "label": "Alire_Host_Arch",
       "docHref": "docs/cortex_m_config___spec.html#L13C4",
       "declared": "Cortex_M_Config",
       "declared_qualifier": "",
@@ -52,6 +59,13 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Alire_Host_Distro",
+      "docHref": "docs/atomic_config___spec.html#L15C4",
+      "declared": "Atomic_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/atomic_config.ads.html#L15"
+    },
+    {
+      "label": "Alire_Host_Distro",
       "docHref": "docs/cortex_m_config___spec.html#L15C4",
       "declared": "Cortex_M_Config",
       "declared_qualifier": "",
@@ -70,6 +84,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "Rp2040_Hal_Config",
       "declared_qualifier": "",
       "srcHref": "srcs/rp2040_hal_config.ads.html#L15"
+    },
+    {
+      "label": "Alire_Host_OS",
+      "docHref": "docs/atomic_config___spec.html#L11C4",
+      "declared": "Atomic_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/atomic_config.ads.html#L11"
     },
     {
       "label": "Alire_Host_OS",
@@ -254,6 +275,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/usb-lang.ads.html#L24"
     },
     {
+      "label": "Backend",
+      "docHref": "docs/atomic_config___spec.html#L22C4",
+      "declared": "Atomic_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/atomic_config.ads.html#L22"
+    },
+    {
       "label": "Basque",
       "docHref": "docs/usb__lang___spec.html#L26C4",
       "declared": "USB.Lang",
@@ -273,6 +301,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "USB.Lang",
       "declared_qualifier": "",
       "srcHref": "srcs/usb-lang.ads.html#L28"
+    },
+    {
+      "label": "Build_Profile",
+      "docHref": "docs/atomic_config___spec.html#L25C4",
+      "declared": "Atomic_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/atomic_config.ads.html#L25"
     },
     {
       "label": "Build_Profile",
@@ -388,6 +423,13 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Crate_Name",
+      "docHref": "docs/atomic_config___spec.html#L9C4",
+      "declared": "Atomic_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/atomic_config.ads.html#L9"
+    },
+    {
+      "label": "Crate_Name",
       "docHref": "docs/cortex_m_config___spec.html#L9C4",
       "declared": "Cortex_M_Config",
       "declared_qualifier": "",
@@ -406,6 +448,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "Rp2040_Hal_Config",
       "declared_qualifier": "",
       "srcHref": "srcs/rp2040_hal_config.ads.html#L9"
+    },
+    {
+      "label": "Crate_Version",
+      "docHref": "docs/atomic_config___spec.html#L8C4",
+      "declared": "Atomic_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/atomic_config.ads.html#L8"
     },
     {
       "label": "Crate_Version",

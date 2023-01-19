@@ -1213,6 +1213,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/rp_interrupts.ads.html#L26"
     },
     {
+      "label": "Interrupt_Status",
+      "docHref": "docs/rp__gpio___spec.html#L84C13",
+      "declared": "RP.GPIO",
+      "declared_qualifier": "",
+      "srcHref": "srcs/rp-gpio.ads.html#L84"
+    },
+    {
       "label": "Invalidate_DCache",
       "docHref": "docs/cortex_m__cache___spec.html#L64C14",
       "declared": "Cortex_M.Cache",

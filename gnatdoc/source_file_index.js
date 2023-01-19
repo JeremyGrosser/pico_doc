@@ -40,6 +40,10 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/atomic.ads.html"
   },
   {
+    "label": "atomic_config.ads",
+    "srcHref": "srcs/atomic_config.ads.html"
+  },
+  {
     "label": "bbqueue-buffers-framed.ads",
     "srcHref": "srcs/bbqueue-buffers-framed.ads.html"
   },

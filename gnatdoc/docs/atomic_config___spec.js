@@ -1,5 +1,5 @@
 GNATdoc.Documentation = {
-  "label": "Rp2040_Hal_Config",
+  "label": "Atomic_Config",
   "qualifier": "",
   "summary": [
   ],
@@ -13,7 +13,7 @@ GNATdoc.Documentation = {
           "qualifier": "",
           "line": 13,
           "column": 4,
-          "src": "srcs/rp2040_hal_config.ads.html",
+          "src": "srcs/atomic_config.ads.html",
           "summary": [
           ],
           "description": [
@@ -95,7 +95,7 @@ GNATdoc.Documentation = {
           "qualifier": "",
           "line": 15,
           "column": 4,
-          "src": "srcs/rp2040_hal_config.ads.html",
+          "src": "srcs/atomic_config.ads.html",
           "summary": [
           ],
           "description": [
@@ -177,7 +177,7 @@ GNATdoc.Documentation = {
           "qualifier": "",
           "line": 11,
           "column": 4,
-          "src": "srcs/rp2040_hal_config.ads.html",
+          "src": "srcs/atomic_config.ads.html",
           "summary": [
           ],
           "description": [
@@ -255,11 +255,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Build_Profile",
+          "label": "Backend",
           "qualifier": "",
-          "line": 26,
+          "line": 22,
           "column": 4,
-          "src": "srcs/rp2040_hal_config.ads.html",
+          "src": "srcs/atomic_config.ads.html",
           "summary": [
           ],
           "description": [
@@ -268,7 +268,89 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 26,
+                  "number": 22,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Backend"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Backend_Kind"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "armv6m"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Build_Profile",
+          "qualifier": "",
+          "line": 25,
+          "column": 4,
+          "src": "srcs/atomic_config.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 25,
                   "children": [
                     {
                       "kind": "span",
@@ -323,7 +405,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "development"
+                      "text": "release"
                     },
                     {
                       "kind": "span",
@@ -341,7 +423,7 @@ GNATdoc.Documentation = {
           "qualifier": "",
           "line": 9,
           "column": 4,
-          "src": "srcs/rp2040_hal_config.ads.html",
+          "src": "srcs/atomic_config.ads.html",
           "summary": [
           ],
           "description": [
@@ -405,7 +487,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "string",
-                      "text": "\"rp2040_hal\""
+                      "text": "\"atomic\""
                     },
                     {
                       "kind": "span",
@@ -423,7 +505,7 @@ GNATdoc.Documentation = {
           "qualifier": "",
           "line": 8,
           "column": 4,
-          "src": "srcs/rp2040_hal_config.ads.html",
+          "src": "srcs/atomic_config.ads.html",
           "summary": [
           ],
           "description": [
@@ -487,253 +569,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "string",
-                      "text": "\"2.0.1\""
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Flash_Chip",
-          "qualifier": "",
-          "line": 20,
-          "column": 4,
-          "src": "srcs/rp2040_hal_config.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 20,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Flash_Chip"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "constant"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Flash_Chip_Kind"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "w25qxx"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Interrupts",
-          "qualifier": "",
-          "line": 23,
-          "column": 4,
-          "src": "srcs/rp2040_hal_config.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 23,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupts"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "constant"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupts_Kind"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "hal"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Use_Startup",
-          "qualifier": "",
-          "line": 17,
-          "column": 4,
-          "src": "srcs/rp2040_hal_config.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 17,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Use_Startup"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "constant"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "True"
+                      "text": "\"0.5.0\""
                     },
                     {
                       "kind": "span",
@@ -752,11 +588,11 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "Build_Profile_Kind",
+          "label": "Backend_Kind",
           "qualifier": "",
-          "line": 25,
+          "line": 21,
           "column": 9,
-          "src": "srcs/rp2040_hal_config.ads.html",
+          "src": "srcs/atomic_config.ads.html",
           "summary": [
           ],
           "description": [
@@ -765,7 +601,142 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 25,
+                  "number": 21,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Backend_Kind",
+                      "href": "docs/atomic_config___spec.html#L21C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Intrinsic",
+                      "href": "docs/atomic_config___spec.html#L21C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "armv6m",
+                      "href": "docs/atomic_config___spec.html#L21C37"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "rp2040_spinlock",
+                      "href": "docs/atomic_config___spec.html#L21C45"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/atomic_config___spec.html#L21C9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "Intrinsic",
+              "line": 21,
+              "column": 26,
+              "description": [
+              ]
+            },
+            {
+              "label": "armv6m",
+              "line": 21,
+              "column": 37,
+              "description": [
+              ]
+            },
+            {
+              "label": "rp2040_spinlock",
+              "line": 21,
+              "column": 45,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Build_Profile_Kind",
+          "qualifier": "",
+          "line": 24,
+          "column": 9,
+          "src": "srcs/atomic_config.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -786,7 +757,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Build_Profile_Kind",
-                      "href": "docs/rp2040_hal_config___spec.html#L25C9"
+                      "href": "docs/atomic_config___spec.html#L24C9"
                     },
                     {
                       "kind": "span",
@@ -812,7 +783,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "release",
-                      "href": "docs/rp2040_hal_config___spec.html#L25C32"
+                      "href": "docs/atomic_config___spec.html#L24C32"
                     },
                     {
                       "kind": "span",
@@ -828,7 +799,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "validation",
-                      "href": "docs/rp2040_hal_config___spec.html#L25C41"
+                      "href": "docs/atomic_config___spec.html#L24C41"
                     },
                     {
                       "kind": "span",
@@ -844,7 +815,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "development",
-                      "href": "docs/rp2040_hal_config___spec.html#L25C53"
+                      "href": "docs/atomic_config___spec.html#L24C53"
                     },
                     {
                       "kind": "span",
@@ -855,7 +826,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/rp2040_hal_config___spec.html#L25C9"
+                      "href": "docs/atomic_config___spec.html#L24C9"
                     }
                   ]
                 }
@@ -865,269 +836,22 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "release",
-              "line": 25,
+              "line": 24,
               "column": 32,
               "description": [
               ]
             },
             {
               "label": "validation",
-              "line": 25,
+              "line": 24,
               "column": 41,
               "description": [
               ]
             },
             {
               "label": "development",
-              "line": 25,
+              "line": 24,
               "column": 53,
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Flash_Chip_Kind",
-          "qualifier": "",
-          "line": 19,
-          "column": 9,
-          "src": "srcs/rp2040_hal_config.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 19,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Flash_Chip_Kind",
-                      "href": "docs/rp2040_hal_config___spec.html#L19C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "w25qxx",
-                      "href": "docs/rp2040_hal_config___spec.html#L19C29"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "generic_qspi",
-                      "href": "docs/rp2040_hal_config___spec.html#L19C37"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "generic_03",
-                      "href": "docs/rp2040_hal_config___spec.html#L19C51"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/rp2040_hal_config___spec.html#L19C9"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "literals": [
-            {
-              "label": "w25qxx",
-              "line": 19,
-              "column": 29,
-              "description": [
-              ]
-            },
-            {
-              "label": "generic_qspi",
-              "line": 19,
-              "column": 37,
-              "description": [
-              ]
-            },
-            {
-              "label": "generic_03",
-              "line": 19,
-              "column": 51,
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Interrupts_Kind",
-          "qualifier": "",
-          "line": 22,
-          "column": 9,
-          "src": "srcs/rp2040_hal_config.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 22,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupts_Kind",
-                      "href": "docs/rp2040_hal_config___spec.html#L22C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "hal",
-                      "href": "docs/rp2040_hal_config___spec.html#L22C29"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "bb_runtimes",
-                      "href": "docs/rp2040_hal_config___spec.html#L22C34"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/rp2040_hal_config___spec.html#L22C9"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "literals": [
-            {
-              "label": "hal",
-              "line": 22,
-              "column": 29,
-              "description": [
-              ]
-            },
-            {
-              "label": "bb_runtimes",
-              "line": 22,
-              "column": 34,
               "description": [
               ]
             }

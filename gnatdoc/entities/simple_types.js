@@ -156,6 +156,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/usb-device-hid-joystick.ads.html#L44"
     },
     {
+      "label": "Backend_Kind",
+      "docHref": "docs/atomic_config___spec.html#L21C9",
+      "declared": "Atomic_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/atomic_config.ads.html#L21"
+    },
+    {
       "label": "BAUDR_SCKDV_Field",
       "docHref": "docs/rp2040_svd__xip_ssi___spec.html#L230C12",
       "declared": "RP2040_SVD.XIP_SSI",
@@ -210,6 +217,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "BBqueue",
       "declared_qualifier": "",
       "srcHref": "srcs/bbqueue.ads.html#L33"
+    },
+    {
+      "label": "Build_Profile_Kind",
+      "docHref": "docs/atomic_config___spec.html#L24C9",
+      "declared": "Atomic_Config",
+      "declared_qualifier": "",
+      "srcHref": "srcs/atomic_config.ads.html#L24"
     },
     {
       "label": "Build_Profile_Kind",
