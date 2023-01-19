@@ -10,9 +10,9 @@ binutils 2.39, included with the latest gnat_arm_elf toolchains, added a new war
 The GPIO INTS registers were not using `Volatile_Full_Access`, meaning that the CPU was performing an 8 or 16-bit write to these registers when a single bit was changed. RP2040's memory mapped peripherals on the APB bus only support 32-bit writes, so these short writes were replicated to the adjacent bytes, clobbering unrelated interrupt flags. The GPIO register definitions have been changed to only use 32-bit writes.
 
 ===== Dependencies updated
-atomic 0.4 -> 0.5
-gnat_arm_elf 12 -> 12.2
-aunit 22.0.0 -> 23.0.0 (only used in tests)
+- atomic 0.4 -> 0.5
+- gnat_arm_elf 12 -> 12.2
+- aunit 22.0.0 -> 23.0.0 (only used in tests)
 
 === 2.0.0
 August 22, 2022
