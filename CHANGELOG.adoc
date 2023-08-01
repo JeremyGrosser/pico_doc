@@ -1,3 +1,25 @@
+=== 2.1.0
+August 1, 2023
+
+==== Bugs Fixed
+
+===== Watchdog reset didn't
+The `WDSEL` register needs to be configured for the processor to reset after a watchdog timeout. `RP.Watchdog.Configure` now does that. The watchdog timeout during clock initialization is now 100ms.
+
+===== RP.Timer.Clock did not increment when using CMSIS-DAP debuggers
+The old picoprobe firmware didn't assert the DBGPAUSE signal, but the new CMSIS-DAP compatible firmware does. This causes the timer to stop counting whenever a debugger is attached. This made it difficult to debug any program that used RP.Timer. The `RP.Timer.Set_Debug_Pause` procedure now allows RP.Timer to ignore the DBGPAUSE signal. `Set_Debug_Pause (False, False)` is called implicitly by `RP.Timer.Interrupts.Enable` so that programs using the `Delay_*` procedures will behave normally when debugged.
+
+===== RP.DMA IRQ1 offset
+The representation clauses for DMA IRQ1 registers were incorrect, directing all IRQ1 accesses to the wrong address.
+
+===== Unit test coverage depended on an externally built gnatcov
+Unit tests now depend on gnatcov 22.0.1 from the Alire index.
+
+==== New Features
+
+===== RP.PIO.FIFO_Status
+You can now poll a PIO state machine's FIFO status (`FDEBUG` register) with `RP.PIO.FIFO_Status`. This is useful for shortening PIO programs by eliminating IRQs, at the cost of having the processor poll the state machine occasionally.
+
 === 2.0.1
 January 19, 2023
 
