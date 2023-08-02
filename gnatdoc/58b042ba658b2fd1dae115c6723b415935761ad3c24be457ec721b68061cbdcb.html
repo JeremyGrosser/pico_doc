@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>HAL.Filesystem</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#c7a214d0cdd19bb28439f80651ae7973f59fa01a057ebb8c8689cc5b536b8da7>File_Mode</a><li><a href=#b5c88be655ab62e2df995bad14570c9007f61d59f2ccf4cae5fc6867d738f0f5>File_Size</a><li><a href=#6954e54ac8f2708d3d8c96bf5ac89283915c09770d75379a2aa476fca3c1a195>Seek_Mode</a><li><a href=#17e644a38253e88cb29e152dde43cb07f604a3704bd25194f3f900234fbe4a11>Status_Code</a></ul><h3>Interface Types</h3><ul><li><a href=#61fe9186bcbad8acf973386255588110f8e443d7fb5dba5a3b48495f03a026db>Directory_Handle</a><li><a href=#89252e3543c03e6231dff52f27eadb3b4677170a4d5b3a98195b953943704c43>File_Handle</a><li><a href=#2e4655ff0f6575c9f6a8a58c3d7d84e3767ac74997b3b588bf2fd9977b2d3ae4>Filesystem_Driver</a><li><a href=#d8f94b853a9533384b68350b2470d79b58399d3c33429793f2e210bcf6fe1afa>Node_Handle</a></ul><h3>Access Types</h3><ul><li><a href=#f686d26e527196144abe11f8d8bf8960996efcd6844e22c83352a35e6f9b6fbb>Any_Directory_Handle</a><li><a href=#5fc04de8121ef42af6e85abc2ef331ee8f775751adda8ff8606be8a1c8544055>Any_File_Handle</a><li><a href=#0457c2e1d5232a3c7b34c309beef4e952179539bdd43bcfe97f0abaad9dc86c2>Any_Filesystem_Driver</a><li><a href=#1967814bdf2b75537c84528c211312ed156e954924cb577dc518b36d6fd70791>Any_Node_Handle</a></ul><h3>Subprograms</h3><ul><li><a href=#b91ad1c28867a408329aa2474903a499800698162b74cd85d78bdcea2eeafde4>Basename</a><li><a href=#a3912641351a446445da600c299bd2a25b579a865244352570a85cb32add127e>Close</a><li><a href=#3e0cf6a1120b4fed68e318b9f5d43c0e4f1dd83707d872ecb488d88eb3d4e93a>Close</a><li><a href=#6fad311228cafc31c663525ea8daf7415b79bf696912b178b65d13bea5b77172>Close</a><li><a href=#7470ab805a9249da06a6bb3d7bd8eea4b00f47ec983d480102f4130cfa7e2dc8>Close</a><li><a href=#6565079bf3b9f2b1c580f792817f9f166d0677d33c3ae6b09d7f533d2150b5ad>Create_File</a><li><a href=#2cb298efe6036533c0034dbf06bb4ff45cdf7c49e03c24e00de749e94e3a8082>Flush</a><li><a href=#928a2ba3017311a08a6c7b13086de6877fe7d98c51f76c81f9efd5a783a29ed4>Get_FS</a><li><a href=#80caf4bb4e9f563ea7e00c6eb7ce044d940b1af4a6034a3a01a03239c1d0bed6>Get_FS</a><li><a href=#21e39e96e5a3264a76ad95473566a5402fdf5719395f31d95ba37b2d854c8f82>Get_FS</a><li><a href=#a0d9f77314e58ea051ca251c60cef4771c79bee066729471eb7fc75ae7b16159>Is_Hidden</a><li><a href=#bc11e1a34b2dd282f8c4bba1364dc67733526fd336bfba45086689074b56e0bd>Is_Read_Only</a><li><a href=#fd2f140a51cb67940893e57ef35f86e6e4e878b2e6c02fa6c83abc4c85a58578>Is_Subdirectory</a><li><a href=#e0e053bcb1f311dc8531b931ea41a3cf0a6e24ec01f27110bd630817ab18d5ea>Is_Symlink</a><li><a href=#e504ba685fb1617ec164214de013ba1d6d3bb2a6382f143f453eab9fb91c85af>Mode</a><li><a href=#87b5890ce34dda259c3d21fdba469e328f0ad7613457c829ff5ba6431334028c>Offset</a><li><a href=#4f3ef9f58ff38595734cf4d8a8f6bea0753d648817c0a3e779ab2b360fddf6fd>Open</a><li><a href=#762804dca41ff6170d291386d0bcf2d4c096b74fb3970d5182f8c83ded28e648>Open</a><li><a href=#adddc6f491c2c21882053a561b8b300ee6d98dc3abb4523990e1b56837d232fa>Open</a><li><a href=#d52b1207ff25e3e0aedb48d12df29e68e27c6214779b1fdc650f126fc071fe77>Read</a><li><a href=#7dd55d5f31ad5c6456701f005501e0f828a38819bcaaa3d0fa89bc2543055181>Read</a><li><a href=#eb80fc45cd84cdb9ef803b1efbd1303297a58e7ade24bad90aefb3755a337dab>Remove_Directory</a><li><a href=#268607898a65aec3c07bcd50334718ef496f1ef8ac3f9d60a31ef60197dbfda4>Reset</a><li><a href=#3005fa5e37415e8af21949040c4f0e9e72b2e1fc224c9db29fc78b1f5a63aca3>Root_Node</a><li><a href=#7c67e62b3bdf42add4083bd2ba8b2ec18dfc8dbbe4df2f6428b4e6b79e08f1bf>Seek</a><li><a href=#f11a14a43191e071e09d6ea0f498a3ad51fa70f8c9aab0ca890a3c98cda3ecdb>Size</a><li><a href=#7c88e112187d22d869662fce93f9bc983b236093b39ca635c49eabe5e223b9f1>Size</a><li><a href=#bd865aec3fe29652bbfe9f5c30f4d7ec23eda12c898b93a44f1ae36d3338e40b>Unlink</a><li><a href=#ae579ca23a7716fc88ed56a394af808e5439b48080cf1294dfd8c6dfa384c6cc>Write</a></ul><h2>Description</h2><p>---------------------------------------------------------------------------- -- Copyright (C) 2015-2017, AdaCore -- -- Redistribution and use in source and binary forms, with or without -- modification, are permitted provided that the following conditions are -- met: -- 1. Redistributions of source code must retain the above copyright -- notice, this list of conditions and the following disclaimer. -- 2. Redistributions in binary form must reproduce the above copyright -- notice, this list of conditions and the following disclaimer in -- the documentation and/or other materials provided with the -- distribution. -- 3. Neither the name of the copyright holder nor the names of its -- contributors may be used to endorse or promote products derived -- from this software without specific prior written permission. -- -- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS -- "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT -- LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR -- A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT -- HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, -- SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT -- LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, -- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY -- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT -- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE -- OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -- -- ----------------------------------------------------------------------------<h4 id=f686d26e527196144abe11f8d8bf8960996efcd6844e22c83352a35e6f9b6fbb>Any_Directory_Handle</h4><pre class=ada-code-snippet><code>type Any_Directory_Handle is access all Directory_Handle'Class;
+</code></pre><h4 id=5fc04de8121ef42af6e85abc2ef331ee8f775751adda8ff8606be8a1c8544055>Any_File_Handle</h4><pre class=ada-code-snippet><code>type Any_File_Handle is access all File_Handle'Class;
+</code></pre><h4 id=0457c2e1d5232a3c7b34c309beef4e952179539bdd43bcfe97f0abaad9dc86c2>Any_Filesystem_Driver</h4><pre class=ada-code-snippet><code>type Any_Filesystem_Driver is access all Filesystem_Driver'Class;
+</code></pre><h4 id=1967814bdf2b75537c84528c211312ed156e954924cb577dc518b36d6fd70791>Any_Node_Handle</h4><pre class=ada-code-snippet><code>type Any_Node_Handle is access all Node_Handle'Class;
+</code></pre><h4 id=b91ad1c28867a408329aa2474903a499800698162b74cd85d78bdcea2eeafde4>Basename</h4><pre class=ada-code-snippet><code>function Basename (This : Node_Handle) return String
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=a3912641351a446445da600c299bd2a25b579a865244352570a85cb32add127e>Close</h4><pre class=ada-code-snippet><code>procedure Close (This : in out Directory_Handle)
+</code></pre><p>Closes the handle, and free the associated resources.<h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=3e0cf6a1120b4fed68e318b9f5d43c0e4f1dd83707d872ecb488d88eb3d4e93a>Close</h4><pre class=ada-code-snippet><code>procedure Close (This : in out File_Handle)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=6fad311228cafc31c663525ea8daf7415b79bf696912b178b65d13bea5b77172>Close</h4><pre class=ada-code-snippet><code>procedure Close (This : in out Filesystem_Driver)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=7470ab805a9249da06a6bb3d7bd8eea4b00f47ec983d480102f4130cfa7e2dc8>Close</h4><pre class=ada-code-snippet><code>procedure Close (This : in out Node_Handle)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=6565079bf3b9f2b1c580f792817f9f166d0677d33c3ae6b09d7f533d2150b5ad>Create_File</h4><pre class=ada-code-snippet><code>function Create_File (This : in out Filesystem_Driver;
+                      Path : String)
+                      return Status_Code
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Path<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=61fe9186bcbad8acf973386255588110f8e443d7fb5dba5a3b48495f03a026db>Directory_Handle</h4><pre class=ada-code-snippet><code>type Directory_Handle is limited interface;
+</code></pre><h4 id=89252e3543c03e6231dff52f27eadb3b4677170a4d5b3a98195b953943704c43>File_Handle</h4><pre class=ada-code-snippet><code>type File_Handle is limited interface;
+</code></pre><h4 id=c7a214d0cdd19bb28439f80651ae7973f59fa01a057ebb8c8689cc5b536b8da7>File_Mode</h4><pre class=ada-code-snippet><code>type File_Mode is (Read_Only, Write_Only, Read_Write);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Read_Only<dd><dt>Write_Only<dd><dt>Read_Write<dd></dl><h4 id=b5c88be655ab62e2df995bad14570c9007f61d59f2ccf4cae5fc6867d738f0f5>File_Size</h4><pre class=ada-code-snippet><code>type File_Size is new HAL.UInt64;
+</code></pre><p>Modern fs all support 64-bit file size. Only old or limited ones support max 32-bit (FAT in particular). So let's see big and not limit ourselves in this API with 32-bit only.<h4 id=2e4655ff0f6575c9f6a8a58c3d7d84e3767ac74997b3b588bf2fd9977b2d3ae4>Filesystem_Driver</h4><pre class=ada-code-snippet><code>type Filesystem_Driver is limited interface;
+</code></pre><h4 id=2cb298efe6036533c0034dbf06bb4ff45cdf7c49e03c24e00de749e94e3a8082>Flush</h4><pre class=ada-code-snippet><code>function Flush
+  (This : in out File_Handle)
+   return Status_Code
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=928a2ba3017311a08a6c7b13086de6877fe7d98c51f76c81f9efd5a783a29ed4>Get_FS</h4><pre class=ada-code-snippet><code>function Get_FS
+  (This : Directory_Handle) return Any_Filesystem_Driver
+</code></pre><p>Return the filesystem_Driver the handle belongs to.<h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=80caf4bb4e9f563ea7e00c6eb7ce044d940b1af4a6034a3a01a03239c1d0bed6>Get_FS</h4><pre class=ada-code-snippet><code>function Get_FS
+  (This : in out File_Handle) return Any_Filesystem_Driver
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=21e39e96e5a3264a76ad95473566a5402fdf5719395f31d95ba37b2d854c8f82>Get_FS</h4><pre class=ada-code-snippet><code>function Get_FS (This : Node_Handle) return Any_Filesystem_Driver
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=a0d9f77314e58ea051ca251c60cef4771c79bee066729471eb7fc75ae7b16159>Is_Hidden</h4><pre class=ada-code-snippet><code>function Is_Hidden (This : Node_Handle) return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=bc11e1a34b2dd282f8c4bba1364dc67733526fd336bfba45086689074b56e0bd>Is_Read_Only</h4><pre class=ada-code-snippet><code>function Is_Read_Only (This : Node_Handle) return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=fd2f140a51cb67940893e57ef35f86e6e4e878b2e6c02fa6c83abc4c85a58578>Is_Subdirectory</h4><pre class=ada-code-snippet><code>function Is_Subdirectory (This : Node_Handle) return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=e0e053bcb1f311dc8531b931ea41a3cf0a6e24ec01f27110bd630817ab18d5ea>Is_Symlink</h4><pre class=ada-code-snippet><code>function Is_Symlink (This : Node_Handle) return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=e504ba685fb1617ec164214de013ba1d6d3bb2a6382f143f453eab9fb91c85af>Mode</h4><pre class=ada-code-snippet><code>function Mode
+  (This : File_Handle) return File_Mode
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=d8f94b853a9533384b68350b2470d79b58399d3c33429793f2e210bcf6fe1afa>Node_Handle</h4><pre class=ada-code-snippet><code>type Node_Handle is interface;
+</code></pre><h4 id=87b5890ce34dda259c3d21fdba469e328f0ad7613457c829ff5ba6431334028c>Offset</h4><pre class=ada-code-snippet><code>function Offset
+  (This : File_Handle)
+   return File_Size
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=4f3ef9f58ff38595734cf4d8a8f6bea0753d648817c0a3e779ab2b360fddf6fd>Open</h4><pre class=ada-code-snippet><code>function Open
+  (This   : in out Filesystem_Driver;
+   Path   : String;
+   Handle : out Any_Directory_Handle)
+   return Status_Code
+</code></pre><p>Open a new Directory Handle at the given Filesystem_Driver Path<h5>Parameters</h5><dl><dt>This<dd><dt>Path<dd><dt>Handle<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=762804dca41ff6170d291386d0bcf2d4c096b74fb3970d5182f8c83ded28e648>Open</h4><pre class=ada-code-snippet><code>function Open
+  (This   : in out Filesystem_Driver;
+   Path   : String;
+   Mode   : File_Mode;
+   Handle : out Any_File_Handle)
+   return Status_Code
+</code></pre><p>Open a new File Handle at the given Filesystem_Driver Path<h5>Parameters</h5><dl><dt>This<dd><dt>Path<dd><dt>Mode<dd><dt>Handle<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=adddc6f491c2c21882053a561b8b300ee6d98dc3abb4523990e1b56837d232fa>Open</h4><pre class=ada-code-snippet><code>function Open
+  (This   : Node_Handle;
+   Name   : String;
+   Mode   : File_Mode;
+   Handle : out Any_File_Handle)
+   return Status_Code
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Name<dd><dt>Mode<dd><dt>Handle<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=d52b1207ff25e3e0aedb48d12df29e68e27c6214779b1fdc650f126fc071fe77>Read</h4><pre class=ada-code-snippet><code>function Read
+  (This   : in out Directory_Handle;
+   Handle : out Any_Node_Handle)
+   return Status_Code
+</code></pre><p>Reads the next directory entry. If no such entry is there, an error code is returned in Status.<h5>Parameters</h5><dl><dt>This<dd><dt>Handle<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=7dd55d5f31ad5c6456701f005501e0f828a38819bcaaa3d0fa89bc2543055181>Read</h4><pre class=ada-code-snippet><code>function Read
+  (This   : in out File_Handle;
+   Addr   : System.Address;
+   Length : in out File_Size)
+   return Status_Code
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Addr<dd><dt>Length<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=eb80fc45cd84cdb9ef803b1efbd1303297a58e7ade24bad90aefb3755a337dab>Remove_Directory</h4><pre class=ada-code-snippet><code>function Remove_Directory (This : in out Filesystem_Driver;
+                           Path : String)
+                           return Status_Code
+</code></pre><p>Remove the directory located at Path in the This filesystem_Driver<h5>Parameters</h5><dl><dt>This<dd><dt>Path<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=268607898a65aec3c07bcd50334718ef496f1ef8ac3f9d60a31ef60197dbfda4>Reset</h4><pre class=ada-code-snippet><code>procedure Reset (This : in out Directory_Handle)
+</code></pre><p>Resets the handle to the first node<h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=3005fa5e37415e8af21949040c4f0e9e72b2e1fc224c9db29fc78b1f5a63aca3>Root_Node</h4><pre class=ada-code-snippet><code>function Root_Node
+  (This   : in out Filesystem_Driver;
+   As     : String;
+   Handle : out Any_Node_Handle)
+   return Status_Code
+</code></pre><p>Open a new Directory Handle at the given Filesystem_Driver Path<h5>Parameters</h5><dl><dt>This<dd><dt>As<dd><dt>Handle<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=7c67e62b3bdf42add4083bd2ba8b2ec18dfc8dbbe4df2f6428b4e6b79e08f1bf>Seek</h4><pre class=ada-code-snippet><code>function Seek
+  (This   : in out File_Handle;
+   Origin : Seek_Mode;
+   Amount : in out File_Size)
+   return Status_Code
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Origin<dd><dt>Amount<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=6954e54ac8f2708d3d8c96bf5ac89283915c09770d75379a2aa476fca3c1a195>Seek_Mode</h4><pre class=ada-code-snippet><code>type Seek_Mode is
+  (
+   From_Start,
+   From_End,
+   Forward,
+   Backward);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>From_Start<dd><p>Seek from the end of the file, backward<dt>From_End<dd><p>Seek from the current position, forward<dt>Forward<dd><p>Seek from the current position, backward<dt>Backward<dd></dl><h4 id=f11a14a43191e071e09d6ea0f498a3ad51fa70f8c9aab0ca890a3c98cda3ecdb>Size</h4><pre class=ada-code-snippet><code>function Size
+  (This : File_Handle) return File_Size
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=7c88e112187d22d869662fce93f9bc983b236093b39ca635c49eabe5e223b9f1>Size</h4><pre class=ada-code-snippet><code>function Size (This : Node_Handle) return File_Size
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=17e644a38253e88cb29e152dde43cb07f604a3704bd25194f3f900234fbe4a11>Status_Code</h4><pre class=ada-code-snippet><code>type Status_Code is
+  (OK,
+   Non_Empty_Directory,
+   Disk_Error,
+   Disk_Full,
+   Internal_Error,
+   Drive_Not_Ready,
+   No_Such_File,
+   No_Such_Path,
+   Not_Mounted,
+   Invalid_Name,
+   Access_Denied,
+   Already_Exists,
+   Invalid_Object_Entry,
+   Write_Protected,
+   Invalid_Drive,
+   No_Filesystem,
+   Locked,
+   Too_Many_Open_Files,
+   Invalid_Parameter,
+   Input_Output_Error,
+   No_MBR_Found,
+   No_Partition_Found,
+   No_More_Entries,
+   Read_Only_File_System,
+   Operation_Not_Permitted);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>OK<dd><dt>Non_Empty_Directory<dd><dt>Disk_Error<dd><p>A hardware error occurred in the low level disk I/O<dt>Disk_Full<dd><dt>Internal_Error<dd><dt>Drive_Not_Ready<dd><dt>No_Such_File<dd><dt>No_Such_Path<dd><dt>Not_Mounted<dd><p>The mount point is invalid<dt>Invalid_Name<dd><dt>Access_Denied<dd><dt>Already_Exists<dd><dt>Invalid_Object_Entry<dd><dt>Write_Protected<dd><dt>Invalid_Drive<dd><dt>No_Filesystem<dd><p>The volume is not a FAT volume<dt>Locked<dd><dt>Too_Many_Open_Files<dd><p>All available handles are used<dt>Invalid_Parameter<dd><dt>Input_Output_Error<dd><dt>No_MBR_Found<dd><dt>No_Partition_Found<dd><dt>No_More_Entries<dd><dt>Read_Only_File_System<dd><dt>Operation_Not_Permitted<dd></dl><h4 id=bd865aec3fe29652bbfe9f5c30f4d7ec23eda12c898b93a44f1ae36d3338e40b>Unlink</h4><pre class=ada-code-snippet><code>function Unlink (This : in out Filesystem_Driver;
+                 Path : String)
+                 return Status_Code
+</code></pre><p>Remove the regular file located at Path in the This filesystem_Driver<h5>Parameters</h5><dl><dt>This<dd><dt>Path<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=ae579ca23a7716fc88ed56a394af808e5439b48080cf1294dfd8c6dfa384c6cc>Write</h4><pre class=ada-code-snippet><code>function Write
+  (This   : in out File_Handle;
+   Addr   : System.Address;
+   Length : File_Size)
+   return Status_Code
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Addr<dd><dt>Length<dd></dl><h5>Return Value</h5><dl><dd></dl>

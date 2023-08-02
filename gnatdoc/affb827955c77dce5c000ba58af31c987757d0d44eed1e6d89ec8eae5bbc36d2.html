@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.PWM.Interrupts</h1><h2>Entities</h2><h3>Access Types</h3><ul><li><a href=#916b122b456b8a9a1c246561f52c314d554e46d8ef64ceb30bcba1bd4655f404>PWM_Interrupt_Handler</a></ul><h3>Subprograms</h3><ul><li><a href=#bff1882800ff517954260c36c8fa18bf3b4ddc5f92bd5142bc1d689f4638558c>Attach_Handler</a><li><a href=#f753ec703513d83e59e98cda0959e70855e4a9ba8735291b38995ad84f43b3a5>IRQ_Handler</a></ul><h2>Description</h2><p>Copyright 2022 (C) Jeremy Grosser<p>SPDX-License-Identifier: BSD-3-Clause<h4 id=bff1882800ff517954260c36c8fa18bf3b4ddc5f92bd5142bc1d689f4638558c>Attach_Handler</h4><pre class=ada-code-snippet><code>procedure Attach_Handler
+   (Slice   : PWM_Slice;
+    Handler : PWM_Interrupt_Handler)
+</code></pre><h5>Parameters</h5><dl><dt>Slice<dd><dt>Handler<dd></dl><h4 id=f753ec703513d83e59e98cda0959e70855e4a9ba8735291b38995ad84f43b3a5>IRQ_Handler</h4><pre class=ada-code-snippet><code>procedure IRQ_Handler
+</code></pre><h4 id=916b122b456b8a9a1c246561f52c314d554e46d8ef64ceb30bcba1bd4655f404>PWM_Interrupt_Handler</h4><pre class=ada-code-snippet><code>type PWM_Interrupt_Handler is access procedure;
+</code></pre>

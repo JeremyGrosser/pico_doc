@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>USB.Device.Serial</h1><h2>Entities</h2><h3>Record Types</h3><ul><li><a href=#9c36aff86d1e0a6e0f0e6e3402c4fbeda24366abc6f0072404e3f75bf148750d>CDC_Line_Coding</a><li><a href=#4dfa992ea3e53a9d58104cad1343c2ab318ec48ebdd7656bb39620cca4d30216>CDC_Line_Control_State</a></ul><h3>Tagged Types</h3><ul><li><a href=#1ffcd9b3af9f61911c77cd8d673babcd5c90b2e5912459b5f0acaf23717fbb04>Default_Serial_Class</a></ul><h3>Subprograms</h3><ul><li><a href=#58bbfb579b547d2f1aa82f6a7f2106b45946220e3f027b1fe2a023cae70fa850>Line_Coding</a><li><a href=#1be680f7f8d63f0426fe9ea926c5849c4a638bc5fd5583fe03cd1e858b679b8e>List_Ctrl_State</a><li><a href=#1e2c0de8cbb36e0f171a08a532104e5dffc2a267e9b4197cf50bcbc7ff8f4828>Read</a><li><a href=#5c4e8d911b175ec62031ec289788f45d69f886be9584658e42b5f3cc1682924e>Read</a><li><a href=#bee5dbf0a0c140ca3752e03e3cc9a186c2cead8ff789d616e1ba02f746a3d1b4>Set_Interface_String</a><li><a href=#6fe0a4ce5b76b3cf508d2d2c300bd3540b26cab8deaef6d7e61316971e9c913b>Write</a><li><a href=#0ea78b1d9079b365ab433defd1da0591ced25312b155c5ba9a8d804a3792a085>Write</a></ul><h2>Description</h2><p>---------------------------------------------------------------------------- -- Copyright (C) 2021, AdaCore -- -- Redistribution and use in source and binary forms, with or without -- modification, are permitted provided that the following conditions are -- met: -- 1. Redistributions of source code must retain the above copyright -- notice, this list of conditions and the following disclaimer. -- 2. Redistributions in binary form must reproduce the above copyright -- notice, this list of conditions and the following disclaimer in -- the documentation and/or other materials provided with the -- distribution. -- 3. Neither the name of the copyright holder nor the names of its -- contributors may be used to endorse or promote products derived -- from this software without specific prior written permission. -- -- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS -- "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT -- LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR -- A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT -- HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, -- SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT -- LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, -- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY -- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT -- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE -- OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -- -- ----------------------------------------------------------------------------<h4 id=9c36aff86d1e0a6e0f0e6e3402c4fbeda24366abc6f0072404e3f75bf148750d>CDC_Line_Coding</h4><pre class=ada-code-snippet><code>type CDC_Line_Coding is record
+   Bitrate   : UInt32;
+   Stop_Bit  : UInt8;
+   Parity    : UInt8;
+   Data_Bits : UInt8;
+end record
+  with Pack, Size => 56;
+</code></pre><h5>Record fields</h5><dl><dt>Bitrate<dd><dt>Stop_Bit<dd><dt>Parity<dd><dt>Data_Bits<dd></dl><h4 id=4dfa992ea3e53a9d58104cad1343c2ab318ec48ebdd7656bb39620cca4d30216>CDC_Line_Control_State</h4><pre class=ada-code-snippet><code>type CDC_Line_Control_State is record
+   DTE_Is_Present   : Boolean;
+   Half_Duplex_Carrier_control : Boolean;
+   Reserved : UInt14;
+end record
+  with Pack, Size => 16;
+</code></pre><h5>Record fields</h5><dl><dt>DTE_Is_Present<dd><dt>Half_Duplex_Carrier_control<dd><dt>Reserved<dd></dl><h4 id=1ffcd9b3af9f61911c77cd8d673babcd5c90b2e5912459b5f0acaf23717fbb04>Default_Serial_Class</h4><pre class=ada-code-snippet><code>type Default_Serial_Class (TX_Buffer_Size, RX_Buffer_Size : BBqueue.Count)
+is limited new USB_Device_Class with private;
+</code></pre><h4 id=58bbfb579b547d2f1aa82f6a7f2106b45946220e3f027b1fe2a023cae70fa850>Line_Coding</h4><pre class=ada-code-snippet><code>function Line_Coding (This : Default_Serial_Class)
+                      return CDC_Line_Coding
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=1be680f7f8d63f0426fe9ea926c5849c4a638bc5fd5583fe03cd1e858b679b8e>List_Ctrl_State</h4><pre class=ada-code-snippet><code>function List_Ctrl_State (This : Default_Serial_Class)
+                          return CDC_Line_Control_State
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=1e2c0de8cbb36e0f171a08a532104e5dffc2a267e9b4197cf50bcbc7ff8f4828>Read</h4><pre class=ada-code-snippet><code>procedure Read (This : in out Default_Serial_Class;
+                Str  :    out String;
+                Len  :    out UInt32)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Str<dd><dt>Len<dd></dl><h4 id=5c4e8d911b175ec62031ec289788f45d69f886be9584658e42b5f3cc1682924e>Read</h4><pre class=ada-code-snippet><code>procedure Read (This : in out Default_Serial_Class;
+                Buf  :        System.Address;
+                Len  : in out UInt32)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Buf<dd><dt>Len<dd></dl><h4 id=bee5dbf0a0c140ca3752e03e3cc9a186c2cead8ff789d616e1ba02f746a3d1b4>Set_Interface_String</h4><pre class=ada-code-snippet><code>procedure Set_Interface_String (This  : in out Default_Serial_Class;
+                                Stack : in out USB_Device_Stack'Class;
+                                Str   :        String)
+</code></pre><p>Only has effect when called before enumeration<h5>Parameters</h5><dl><dt>This<dd><dt>Stack<dd><dt>Str<dd></dl><h4 id=6fe0a4ce5b76b3cf508d2d2c300bd3540b26cab8deaef6d7e61316971e9c913b>Write</h4><pre class=ada-code-snippet><code>procedure Write (This : in out Default_Serial_Class;
+                 UDC  : in out USB_Device_Controller'Class;
+                 Str  :        String;
+                 Len  :    out UInt32)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>UDC<dd><dt>Str<dd><dt>Len<dd></dl><h4 id=0ea78b1d9079b365ab433defd1da0591ced25312b155c5ba9a8d804a3792a085>Write</h4><pre class=ada-code-snippet><code>procedure Write (This : in out Default_Serial_Class;
+                 UDC  : in out USB_Device_Controller'Class;
+                 Buf  :        System.Address;
+                 Len  : in out UInt32)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>UDC<dd><dt>Buf<dd><dt>Len<dd></dl>

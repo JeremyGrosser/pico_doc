@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.WATCHDOG</h1><h2>Entities</h2><h3>Array Types</h3><ul><li><a href=#cb2b135304c4f1ddab1b4650ec5addeedadc72e043e4f9abb1964026b8475486>CTRL_PAUSE_DBG_Field_Array</a></ul><h3>Record Types</h3><ul><li><a href=#4c1e793e073d1b3219d788d534ed9e5fa74d642222ef2e889cff574a6d045f0b>CTRL_PAUSE_DBG_Field</a><li><a href=#5abc3b3b83f07b1e1ae7ce4741cc0a00a966f3c3c5c65d6b6f2ef5f88174ecea>CTRL_Register</a><li><a href=#e50977358655dbe6d2d1a65db5ed7bc1d93ddf7545bef87209760396b6a71024>LOAD_Register</a><li><a href=#0c078be15f3e3f61e65c807f366f17f879e95e596d6c7a9b605b5b952e9e6eb1>REASON_Register</a><li><a href=#e9099a8daf8faaf2ca3dd53f7293b05e6ab827c8b288b383306d8c2fe4897d24>TICK_Register</a><li><a href=#4ad6d4ebf19990bc1600cbef5546980be22a0d4c3bc4efc77f69042c2fa25d93>WATCHDOG_Peripheral</a></ul><h3>Subtypes</h3><ul><li><a href=#6672aa30d8c972ca4855600a2b6a3649e7fc27820c48a11c39af84d142f68ff6>CTRL_TIME_Field</a><li><a href=#c73cc15ac6f2da1108d2d71cfc63ac0cae5a4462790329b550cb9c0ae81a8579>LOAD_LOAD_Field</a><li><a href=#416d65012d3bf0672af20e2ef2913dcfb7e74397dc001ca94fea658ea0160de5>TICK_COUNT_Field</a><li><a href=#f3471b527523ad2bd2b9e4a03041819f94174f1d2eb8044fd17c74e8419c6bc5>TICK_CYCLES_Field</a></ul><h3>Variables</h3><ul><li><a href=#33035c545d6d1c7103d03af2b1210523c643b03c4bf0dc1d414fa21b533982f7>WATCHDOG_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=4c1e793e073d1b3219d788d534ed9e5fa74d642222ef2e889cff574a6d045f0b>CTRL_PAUSE_DBG_Field</h4><pre class=ada-code-snippet><code>type CTRL_PAUSE_DBG_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : CTRL_PAUSE_DBG_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=cb2b135304c4f1ddab1b4650ec5addeedadc72e043e4f9abb1964026b8475486>CTRL_PAUSE_DBG_Field_Array</h4><pre class=ada-code-snippet><code>type CTRL_PAUSE_DBG_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=5abc3b3b83f07b1e1ae7ce4741cc0a00a966f3c3c5c65d6b6f2ef5f88174ecea>CTRL_Register</h4><pre class=ada-code-snippet><code>type CTRL_Register is record
+   TIME           : CTRL_TIME_Field := 16#0#;
+   PAUSE_JTAG     : Boolean := True;
+   PAUSE_DBG      : CTRL_PAUSE_DBG_Field :=
+                     (As_Array => False, Val => 16#1#);
+   Reserved_27_29 : HAL.UInt3 := 16#0#;
+   ENABLE         : Boolean := False;
+   TRIGGER        : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>TIME<dd><dt>PAUSE_JTAG<dd><dt>PAUSE_DBG<dd><dt>Reserved_27_29<dd><dt>ENABLE<dd><dt>TRIGGER<dd></dl><h4 id=6672aa30d8c972ca4855600a2b6a3649e7fc27820c48a11c39af84d142f68ff6>CTRL_TIME_Field</h4><pre class=ada-code-snippet><code>subtype CTRL_TIME_Field is HAL.UInt24;
+</code></pre><h4 id=c73cc15ac6f2da1108d2d71cfc63ac0cae5a4462790329b550cb9c0ae81a8579>LOAD_LOAD_Field</h4><pre class=ada-code-snippet><code>subtype LOAD_LOAD_Field is HAL.UInt24;
+</code></pre><h4 id=e50977358655dbe6d2d1a65db5ed7bc1d93ddf7545bef87209760396b6a71024>LOAD_Register</h4><pre class=ada-code-snippet><code>type LOAD_Register is record
+   LOAD           : LOAD_LOAD_Field := 16#0#;
+   Reserved_24_31 : HAL.UInt8 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LOAD<dd><dt>Reserved_24_31<dd></dl><h4 id=0c078be15f3e3f61e65c807f366f17f879e95e596d6c7a9b605b5b952e9e6eb1>REASON_Register</h4><pre class=ada-code-snippet><code>type REASON_Register is record
+   TIMER         : Boolean;
+   FORCE         : Boolean;
+   Reserved_2_31 : HAL.UInt30;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>TIMER<dd><dt>FORCE<dd><dt>Reserved_2_31<dd></dl><h4 id=416d65012d3bf0672af20e2ef2913dcfb7e74397dc001ca94fea658ea0160de5>TICK_COUNT_Field</h4><pre class=ada-code-snippet><code>subtype TICK_COUNT_Field is HAL.UInt9;
+</code></pre><h4 id=f3471b527523ad2bd2b9e4a03041819f94174f1d2eb8044fd17c74e8419c6bc5>TICK_CYCLES_Field</h4><pre class=ada-code-snippet><code>subtype TICK_CYCLES_Field is HAL.UInt9;
+</code></pre><h4 id=e9099a8daf8faaf2ca3dd53f7293b05e6ab827c8b288b383306d8c2fe4897d24>TICK_Register</h4><pre class=ada-code-snippet><code>type TICK_Register is record
+   CYCLES         : TICK_CYCLES_Field := 16#0#;
+   ENABLE         : Boolean := True;
+   RUNNING        : Boolean := False;
+   COUNT          : TICK_COUNT_Field := 16#0#;
+   Reserved_20_31 : HAL.UInt12 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CYCLES<dd><dt>ENABLE<dd><dt>RUNNING<dd><dt>COUNT<dd><dt>Reserved_20_31<dd></dl><h4 id=33035c545d6d1c7103d03af2b1210523c643b03c4bf0dc1d414fa21b533982f7>WATCHDOG_Periph</h4><pre class=ada-code-snippet><code>WATCHDOG_Periph : aliased WATCHDOG_Peripheral
+  with Import, Address => WATCHDOG_Base;
+</code></pre><h4 id=4ad6d4ebf19990bc1600cbef5546980be22a0d4c3bc4efc77f69042c2fa25d93>WATCHDOG_Peripheral</h4><pre class=ada-code-snippet><code>type WATCHDOG_Peripheral is record
+   CTRL     : aliased CTRL_Register;
+   LOAD     : aliased LOAD_Register;
+   REASON   : aliased REASON_Register;
+   SCRATCH0 : aliased HAL.UInt32;
+   SCRATCH1 : aliased HAL.UInt32;
+   SCRATCH2 : aliased HAL.UInt32;
+   SCRATCH3 : aliased HAL.UInt32;
+   SCRATCH4 : aliased HAL.UInt32;
+   SCRATCH5 : aliased HAL.UInt32;
+   SCRATCH6 : aliased HAL.UInt32;
+   SCRATCH7 : aliased HAL.UInt32;
+   TICK     : aliased TICK_Register;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>CTRL<dd><dt>LOAD<dd><dt>REASON<dd><dt>SCRATCH0<dd><dt>SCRATCH1<dd><dt>SCRATCH2<dd><dt>SCRATCH3<dd><dt>SCRATCH4<dd><dt>SCRATCH5<dd><dt>SCRATCH6<dd><dt>SCRATCH7<dd><dt>TICK<dd></dl>

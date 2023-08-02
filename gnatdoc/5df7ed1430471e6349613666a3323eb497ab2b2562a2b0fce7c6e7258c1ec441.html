@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.DMA</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#5da13f8f2352af724c06a5dc0b25cff04a5535992b7c7804af35af03c771f677>CH0_CTRL_TRIG_DATA_SIZE_Field</a><li><a href=#6037df35b39818474fdea651b4ccfc2896047f5ce9a89dd83b44a1b3c25a06af>CH0_CTRL_TRIG_RING_SIZE_Field</a><li><a href=#0c5bf41d907aab645488d3a201e6456a445e9c71419f2251a73fc3e696d12f95>CH0_CTRL_TRIG_TREQ_SEL_Field</a><li><a href=#298a3bb7e10d2b57486f48cfed790f6b85967ef3d474a69c809b93a68775bee8>CH10_CTRL_TRIG_DATA_SIZE_Field</a><li><a href=#73950409dd8b967c90a22f816c42c153166d9e87bb43b687de354d5dcbb781c1>CH10_CTRL_TRIG_RING_SIZE_Field</a><li><a href=#daea0951f07f39a70c139ff9d0ab02951189eb058d8f6ab761124deea76e37b1>CH10_CTRL_TRIG_TREQ_SEL_Field</a><li><a href=#e3a82413f9a1ebabebf1c02582e589d01e7a93124be88e890e430bc695e63316>CH11_CTRL_TRIG_DATA_SIZE_Field</a><li><a href=#8f39d93528494ce75f6c55998efe722f9838036b8cb26cf411cc6f842194b6b4>CH11_CTRL_TRIG_RING_SIZE_Field</a><li><a href=#0f1381183486dfa5620b00e8220d33bf3071148b1deda44476fcdd104278e337>CH11_CTRL_TRIG_TREQ_SEL_Field</a><li><a href=#77d5ebc6220b88e9ab019a08e0929d2ac2754de02cd3356901bda6a429141845>CH1_CTRL_TRIG_DATA_SIZE_Field</a><li><a href=#f834e64ccb292ea4e6101ab334fc877e272ca5d7bc521a8fcd7f1de4f5b1d74c>CH1_CTRL_TRIG_RING_SIZE_Field</a><li><a href=#46566f9bfc9d7c3b4be39aa06437305231d78d7e60253312c1fa708ba61bb6f1>CH1_CTRL_TRIG_TREQ_SEL_Field</a><li><a href=#7c21ed38c30822f65d5505546871dcd6fb0c9749bbb168ede2f974d674ea27b0>CH2_CTRL_TRIG_DATA_SIZE_Field</a><li><a href=#f00e3f4f68a4d6a4d1742405aa0c5a3e334c8d063823d2f48b64083902ee64f0>CH2_CTRL_TRIG_RING_SIZE_Field</a><li><a href=#d9ce1181195146c8b2d5e80ffb339a1b4c53b54e829b7570052459e7cd7fd77d>CH2_CTRL_TRIG_TREQ_SEL_Field</a><li><a href=#657431e99bd0a5d391cd3d6cf122686e135d5c29c441d05de43efd29cf0e5b70>CH3_CTRL_TRIG_DATA_SIZE_Field</a><li><a href=#d1af9bb930275f38974c0a7236156965cc2259bed31aa890c6f635f702782441>CH3_CTRL_TRIG_RING_SIZE_Field</a><li><a href=#cfa00ed44908810b32ff6bd5e2fd8eb78609e7b94259d226d9f70ff636cfe430>CH3_CTRL_TRIG_TREQ_SEL_Field</a><li><a href=#7fb85f04788938ee4a3c744e5f100a111c57e66e19e2d62383b9072eb1c57f0a>CH4_CTRL_TRIG_DATA_SIZE_Field</a><li><a href=#5eda60f36159691454233b4e895d4b78b23263b33f005da1da84be776c97e906>CH4_CTRL_TRIG_RING_SIZE_Field</a><li><a href=#468358da13ec55892757854d868ffe929a8f7eddd57219fa25edfe4c6ce88b8a>CH4_CTRL_TRIG_TREQ_SEL_Field</a><li><a href=#499bc358627deb25e609a560041824e7f0ec8b9c5987e81aab148a9bbb9b82a8>CH5_CTRL_TRIG_DATA_SIZE_Field</a><li><a href=#bb9c88aeeb8abbdf3189fc28b758acded03cf1d928042bcf2414aecb6699dfb2>CH5_CTRL_TRIG_RING_SIZE_Field</a><li><a href=#fbb3cae7b454b76b7e2ab03a68fe65df032536ecb50a314e1c4b78153a7895f2>CH5_CTRL_TRIG_TREQ_SEL_Field</a><li><a href=#47cd3d6b46f84fc38f33b419b678c47d513b85d31d8df08afdff429ea3dbc03f>CH6_CTRL_TRIG_DATA_SIZE_Field</a><li><a href=#6304a8142a3ead71918d6f59fa1b3dfe58b0d62d2a4e8af302004f994a2e9375>CH6_CTRL_TRIG_RING_SIZE_Field</a><li><a href=#d24207aaf05ae3b202103c81974b3cb44e2fa2a7632d3bb0592f373ce2b526aa>CH6_CTRL_TRIG_TREQ_SEL_Field</a><li><a href=#a422a217c650ecfc47ef514970ad7c9450ab2155a13c72f3a7c49964eebd1c71>CH7_CTRL_TRIG_DATA_SIZE_Field</a><li><a href=#abf48cce65c9ba50b9592b65e9c71a97c35c1e43c3e894b674f0dda75c6ab15b>CH7_CTRL_TRIG_RING_SIZE_Field</a><li><a href=#df35e2b55e642b1891daacde078a9604f83791e266aa66ace2a2b7f65c701a08>CH7_CTRL_TRIG_TREQ_SEL_Field</a><li><a href=#f9ecb1b5948625fa5d58c46e25576c487bc2547eaf25ed76463072d17e6e2316>CH8_CTRL_TRIG_DATA_SIZE_Field</a><li><a href=#d9176c97208814669ffe5b18a5b0aaf73029318b3fbb1a0896c733e940cff96a>CH8_CTRL_TRIG_RING_SIZE_Field</a><li><a href=#2ddfb5912e1b235f69d95a565a94dac67c767e390c5ffdb5944323f2d2f8928a>CH8_CTRL_TRIG_TREQ_SEL_Field</a><li><a href=#afbde9df891e797c122b14fc66f1cc352d1d497107950d175eec5a80746775a2>CH9_CTRL_TRIG_DATA_SIZE_Field</a><li><a href=#6f0e7ca353c1e5bd5493d852364f596492d717b3566328c897156a872cdcfee9>CH9_CTRL_TRIG_RING_SIZE_Field</a><li><a href=#b2588f6b16f7045188ead462ee889774313a7695235aa7239c58b91927f62393>CH9_CTRL_TRIG_TREQ_SEL_Field</a><li><a href=#c433a2457fe38609c4d6500c45da398fa43d6f071d92dc550a2703794e5c305c>SNIFF_CTRL_CALC_Field</a></ul><h3>Record Types</h3><ul><li><a href=#8c2b568d2f7318dbdf8d1a27396c043ae631a34fbdc435bb369ab4f2874fa88f>CH0_CTRL_TRIG_Register</a><li><a href=#26b76853b9f1c9bd22f3fb13339203256230b86f30d3cbe13192a51153aa7bbb>CH0_DBG_CTDREQ_Register</a><li><a href=#dc7aee1471567c020b1667ebaccbeb3de9916f15656f69dc7f967a5054292020>CH10_CTRL_TRIG_Register</a><li><a href=#a6b0a331c8b1faf75848547bd32742141692614ac1cf2da91ff44a99264be569>CH10_DBG_CTDREQ_Register</a><li><a href=#4d19adc189d355ad14c34d0a20a058eaa58cdb34846521d0c82dcaa1e127fd9b>CH11_CTRL_TRIG_Register</a><li><a href=#18801c02af52015426ec2b30c302db9eee0b2b6ef3539a1f8cb6f84f85ca8b7f>CH11_DBG_CTDREQ_Register</a><li><a href=#d1abde8f1cd3891c329ce9bae80028f08d98ad12aef01098b719e2f9133fe300>CH1_CTRL_TRIG_Register</a><li><a href=#6a5c5b84b7d94c58953841058a24623b72cf6fcb8e86e124ff200a8ca139ce43>CH1_DBG_CTDREQ_Register</a><li><a href=#9e9d3908816ba1ebeae248d68a890ccc395d9062613e323bf99bcdb873a35d77>CH2_CTRL_TRIG_Register</a><li><a href=#2ec9368475d6b7dde1ca58a9027b91beda32b054fffeeb28797a08aec24813b8>CH2_DBG_CTDREQ_Register</a><li><a href=#7ce3cff3a50d8b9438bdeb01f247ef15d9179d7b3cfd2e5cae0615be50ab3223>CH3_CTRL_TRIG_Register</a><li><a href=#b23903487692ba7c0fdff913d07ccbae98a94c62a29912806b630fbba8137495>CH3_DBG_CTDREQ_Register</a><li><a href=#c4831b0f50a5e680403f0695a6ea5c572c253fc131076117ef9eb94c2e53152c>CH4_CTRL_TRIG_Register</a><li><a href=#4fba0227853cd963f0e6dde22e998802b304b46c3226715b70010def71be93bb>CH4_DBG_CTDREQ_Register</a><li><a href=#747217dfae3affa4a5d2e8ebea86f0238ed92615e3886a9850556a67ae6382d8>CH5_CTRL_TRIG_Register</a><li><a href=#571db8ed96403a621b8bf7cc826b9f461ce0bf49fb2ec429a1fbde86e2f6722e>CH5_DBG_CTDREQ_Register</a><li><a href=#9270aeaa5a7ded2fbce3087c4b10027aa3b3bf8fe77120d74800cbe1044ac691>CH6_CTRL_TRIG_Register</a><li><a href=#c1a9bce31010e4667cf3ce77602c2915424d89b14c13c9d1a4ba0b174b76e35d>CH6_DBG_CTDREQ_Register</a><li><a href=#f61b42f6905484c4154d5516f65495b3fa557f83416c95e147d594ae44091e93>CH7_CTRL_TRIG_Register</a><li><a href=#5a0fd6a9b84239dd0895cc9a92a56f37e0225a04161de0e3fa31005b864e1196>CH7_DBG_CTDREQ_Register</a><li><a href=#5f1c6f60936a9e5ad663c65de14c9fc7bf6226efb2011b8f26979808430a03e7>CH8_CTRL_TRIG_Register</a><li><a href=#ab6d91fca187c3874d1891369d53fdbfe549696ee6a5836e4561b75c8df45293>CH8_DBG_CTDREQ_Register</a><li><a href=#35206304ab281afa779e49ee45093aba1841949d42503b181dbe088aad76cedf>CH9_CTRL_TRIG_Register</a><li><a href=#a4437ebf32a40987d543b8f33b6d143799c38152acc7bad3e1a4292979fad411>CH9_DBG_CTDREQ_Register</a><li><a href=#73ba08ab175881ee7ed19af60d215f02b4f6c16fa2498b02a0681c60503e7ccb>CHAN_ABORT_Register</a><li><a href=#cc43b38375d76711f4c800949b97ed45650664836d9cf9cd81e0bf74022328d8>DMA_Peripheral</a><li><a href=#1422b4b69cc2869f26b3858ab1935cc793bdecdf2c48dcf185a582aa8e554b13>FIFO_LEVELS_Register</a><li><a href=#7d5e32a32ed97c81377666610735b7fe73a8c9f0241b32a3cd0a55d6f9b7499a>INTE0_Register</a><li><a href=#6055b1719550e71a551e1384711a80910374422105720307be7ba1d84a26c304>INTE1_Register</a><li><a href=#fac3449ccbf4b2dc5bd33fdf4d0801e111b9fa37ae4a8c80723711605dffabdf>INTF0_Register</a><li><a href=#c0ec55b9cf85bd67c61829b27eefb7fed9669d5db614ada4fbca7d65e4b68719>INTF1_Register</a><li><a href=#c62f367573b7260258f1cc631c5d2433b5310f597839b5c9b80e1cc175f2395f>INTR_Register</a><li><a href=#e7e4dc4b65426ff98e104b3064990e43ad5273e7db167d062b4294bcb53cafb3>INTS0_Register</a><li><a href=#f3f4584cc644c9bf360f2e787fd801f6c38599de0a3078d00c7b367da7875528>INTS1_Register</a><li><a href=#65333ab2e345bf318f5be044d146a64a5d31bdad1e19a63df20c051ca86982fe>MULTI_CHAN_TRIGGER_Register</a><li><a href=#247196ef5185877d3f9caee407b764599ad57d62b035609267912631de40e077>N_CHANNELS_Register</a><li><a href=#bd95d1a146ea51240948e1d1ae51796c2c14b2132b3fe8fb5d34952915833017>SNIFF_CTRL_Register</a><li><a href=#a3affe866135a7505dc1b24bafda7485a2138fe59223d760da2a52c6f6fc1b41>TIMER_Register</a></ul><h3>Subtypes</h3><ul><li><a href=#587f22321f6007f77c385d1041f0f1bec6590a4f177a081551f423c9bd7574c2>CH0_CTRL_TRIG_CHAIN_TO_Field</a><li><a href=#a48a24b45981dd63bf4ba846d786289a4e07e45ff0a95e1d22a3528d62a271d4>CH0_DBG_CTDREQ_CH0_DBG_CTDREQ_Field</a><li><a href=#c5f63f800fb3ce47b111b3a0800d1480f49b7004ded23be16b43b03e369c3897>CH10_CTRL_TRIG_CHAIN_TO_Field</a><li><a href=#ccc3e510c2a1f0ed63a9018907a2f0cc505816b7294e6295fdec704140fe9a9e>CH10_DBG_CTDREQ_CH10_DBG_CTDREQ_Field</a><li><a href=#0c52a0f27e5f32a76a9ba788f0a28374236d6ca8c2154eeafd07b3787dfadada>CH11_CTRL_TRIG_CHAIN_TO_Field</a><li><a href=#0dc952c8342a0d3b127493e000e5510108900d032212895c561286f28f17ea90>CH11_DBG_CTDREQ_CH11_DBG_CTDREQ_Field</a><li><a href=#89ca78bd645a903b12c8f152c071dde7b41b7228137125f12f49304a81a2312a>CH1_CTRL_TRIG_CHAIN_TO_Field</a><li><a href=#65f1ac05fdec90fb0de82ca09416d7f00e256e82e5f51c2cdea915c2fd22017c>CH1_DBG_CTDREQ_CH1_DBG_CTDREQ_Field</a><li><a href=#9528a7243b746961c65c1796c8284e019721676cb0fd7ba95fb6f174e06f11b5>CH2_CTRL_TRIG_CHAIN_TO_Field</a><li><a href=#c9099c33aa595d3e8e3f241235cec81ec2c69eef9d0f016567095eaf92c224dd>CH2_DBG_CTDREQ_CH2_DBG_CTDREQ_Field</a><li><a href=#b9a1deebf0169bb05c5c61b77952a225027d2e6686557a050798821fc0011c13>CH3_CTRL_TRIG_CHAIN_TO_Field</a><li><a href=#b9374e405d2e2c07d02f69f09c01121821c29e4f9b7d21b41c9fe37d615fc283>CH3_DBG_CTDREQ_CH3_DBG_CTDREQ_Field</a><li><a href=#c04280565b9ba8e4fd1479fb1e044c0d6c53129b9d3c7b4999d111d29a79f260>CH4_CTRL_TRIG_CHAIN_TO_Field</a><li><a href=#67f0d9f019768aa8bef66f981d080720f70deb18eebe466a9384e3509fe8e413>CH4_DBG_CTDREQ_CH4_DBG_CTDREQ_Field</a><li><a href=#f1a88e6bd07e403c7de9cd553f3e1dadb3e87c7f89b2f4ee54e39f01fdb2e68f>CH5_CTRL_TRIG_CHAIN_TO_Field</a><li><a href=#6de54a4da5fa615be338c8ecd547322f29acbb53ef8d188440deb54e36c4e233>CH5_DBG_CTDREQ_CH5_DBG_CTDREQ_Field</a><li><a href=#2e759a179aa740d7038e5f28eb92498385b28c2b1a3bb936e933f23b69215f09>CH6_CTRL_TRIG_CHAIN_TO_Field</a><li><a href=#7576e067cd6ac018f3a9e849ad0c073660257d5398b519428c88a825c4cbf6b7>CH6_DBG_CTDREQ_CH6_DBG_CTDREQ_Field</a><li><a href=#4e0025f91cb7244bf6e3e827d209421551802ad2357b7d2ea9a4df105a06a414>CH7_CTRL_TRIG_CHAIN_TO_Field</a><li><a href=#a7cf60d6b7cc6aded96729f48b05e5f7249fb79b09eae7d692c6dbd700114307>CH7_DBG_CTDREQ_CH7_DBG_CTDREQ_Field</a><li><a href=#0194d25ba99bdf535908466d18239fdbd71c80832069103c1608a00edd00256d>CH8_CTRL_TRIG_CHAIN_TO_Field</a><li><a href=#006b99ddd8dfc5e239d9192efec1ec75fe8b6387e3e9016e324b6a742eef07bd>CH8_DBG_CTDREQ_CH8_DBG_CTDREQ_Field</a><li><a href=#98e12469c9e0a2297efc344f421961e9da0089252eed3d5cf3171cea11317eaf>CH9_CTRL_TRIG_CHAIN_TO_Field</a><li><a href=#cea41a3d9e63db9cd34e1c7cb1ceb26c8e0658631e2a643eaa5900fe47b7b533>CH9_DBG_CTDREQ_CH9_DBG_CTDREQ_Field</a><li><a href=#bd1d7da82263333e680308aa98ea304dc8b93684c11d12afcca4c59ceee44876>CHAN_ABORT_CHAN_ABORT_Field</a><li><a href=#4b7accba182dd895c3318d5c5112859b73a298079cabfd7c0c61040915330907>FIFO_LEVELS_RAF_LVL_Field</a><li><a href=#350d7c0abb73b2ec2e7f2cd7abc6fde0d8478dbe9005aff81dde176ff262dc71>FIFO_LEVELS_TDF_LVL_Field</a><li><a href=#dd98d008f3d3f4c1434390a04da5faa156e4a4e25abf20ecae781e01a2236abb>FIFO_LEVELS_WAF_LVL_Field</a><li><a href=#915ef35ecaa0479d4199edff6b1d275c8d2351200cad57fb2aae9f3c7276421a>INTE0_INTE0_Field</a><li><a href=#e7b06e8f151ffa1ca28f63943b01a2976c3e1787b295e0aae1900a01bd27d8b7>INTE1_INTE1_Field</a><li><a href=#36cab7715648ff8faa986cc577168886747dc9c7121ed7d68c0d3c0b19e19b85>INTF0_INTF0_Field</a><li><a href=#b8e33d8ff82fcb430539bd5df3e06d1e6fff9f1be791acd9c6914ca789709907>INTF1_INTF1_Field</a><li><a href=#55d3b979cfeae54395b4f9421dd848819dd05e02098e7897d1def4691017814c>INTR_INTR_Field</a><li><a href=#7af45ff815717ab4ae2265aca75f02b8cd538a7e34cae249df53db6cc87379b8>INTS0_INTS0_Field</a><li><a href=#a17e3c84babec5727fafb0de9691a63b255f0e9c1a60779a04824922b8f5f92f>INTS1_INTS1_Field</a><li><a href=#755d4014cf1125e7651da2b76bdce0228a74f1d4d4ead5286f0469915b702ffb>MULTI_CHAN_TRIGGER_MULTI_CHAN_TRIGGER_Field</a><li><a href=#586675c8995abf33689b793256bc247e506ae90ed16717b4a42ec71cc437bd83>N_CHANNELS_N_CHANNELS_Field</a><li><a href=#84d035e1b0fb2abd1511dc3f4fa7ebb01c277309c24067f82354a01a24f69091>SNIFF_CTRL_DMACH_Field</a><li><a href=#23d674c30b8ed4b09d8b22bf35a61c498c5d40a394c9795ae757aee1a1158644>TIMER_X_Field</a><li><a href=#dfaefb094d6ea0eac3f8e86ca426a3a2249cb2b42705b2a586a8f02b416e72cc>TIMER_Y_Field</a></ul><h3>Variables</h3><ul><li><a href=#027b090f9b9e27dad5c2cddeabc0d6dd27ebbb97cd3277f302834c210553c2e6>DMA_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=587f22321f6007f77c385d1041f0f1bec6590a4f177a081551f423c9bd7574c2>CH0_CTRL_TRIG_CHAIN_TO_Field</h4><pre class=ada-code-snippet><code>subtype CH0_CTRL_TRIG_CHAIN_TO_Field is HAL.UInt4;
+</code></pre><h4 id=5da13f8f2352af724c06a5dc0b25cff04a5535992b7c7804af35af03c771f677>CH0_CTRL_TRIG_DATA_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH0_CTRL_TRIG_DATA_SIZE_Field is
+  (SIZE_BYTE,
+   SIZE_HALFWORD,
+   SIZE_WORD)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>SIZE_BYTE<dd><dt>SIZE_HALFWORD<dd><dt>SIZE_WORD<dd></dl><h4 id=8c2b568d2f7318dbdf8d1a27396c043ae631a34fbdc435bb369ab4f2874fa88f>CH0_CTRL_TRIG_Register</h4><pre class=ada-code-snippet><code>type CH0_CTRL_TRIG_Register is record
+   EN             : Boolean := False;
+   HIGH_PRIORITY  : Boolean := False;
+   DATA_SIZE      : CH0_CTRL_TRIG_DATA_SIZE_Field :=
+                     RP2040_SVD.DMA.SIZE_BYTE;
+   INCR_READ      : Boolean := False;
+   INCR_WRITE     : Boolean := False;
+   RING_SIZE      : CH0_CTRL_TRIG_RING_SIZE_Field :=
+                     RP2040_SVD.DMA.RING_NONE;
+   RING_SEL       : Boolean := False;
+   CHAIN_TO       : CH0_CTRL_TRIG_CHAIN_TO_Field := 16#0#;
+   TREQ_SEL       : CH0_CTRL_TRIG_TREQ_SEL_Field :=
+                     CH0_CTRL_TRIG_TREQ_SEL_Field_Reset;
+   IRQ_QUIET      : Boolean := False;
+   BSWAP          : Boolean := False;
+   SNIFF_EN       : Boolean := False;
+   BUSY           : Boolean := False;
+   Reserved_25_28 : HAL.UInt4 := 16#0#;
+   WRITE_ERROR    : Boolean := False;
+   READ_ERROR     : Boolean := False;
+   AHB_ERROR      : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>HIGH_PRIORITY<dd><dt>DATA_SIZE<dd><dt>INCR_READ<dd><dt>INCR_WRITE<dd><dt>RING_SIZE<dd><dt>RING_SEL<dd><dt>CHAIN_TO<dd><dt>TREQ_SEL<dd><dt>IRQ_QUIET<dd><dt>BSWAP<dd><dt>SNIFF_EN<dd><dt>BUSY<dd><dt>Reserved_25_28<dd><dt>WRITE_ERROR<dd><dt>READ_ERROR<dd><dt>AHB_ERROR<dd></dl><h4 id=6037df35b39818474fdea651b4ccfc2896047f5ce9a89dd83b44a1b3c25a06af>CH0_CTRL_TRIG_RING_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH0_CTRL_TRIG_RING_SIZE_Field is
+  (RING_NONE)
+  with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>RING_NONE<dd></dl><h4 id=0c5bf41d907aab645488d3a201e6456a445e9c71419f2251a73fc3e696d12f95>CH0_CTRL_TRIG_TREQ_SEL_Field</h4><pre class=ada-code-snippet><code>type CH0_CTRL_TRIG_TREQ_SEL_Field is
+   CH0_CTRL_TRIG_TREQ_SEL_Field_Reset,
+   TIMER0,
+   TIMER1,
+   TIMER2,
+   TIMER3,
+   PERMANENT)
+  with Size => 6;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>CH0_CTRL_TRIG_TREQ_SEL_Field_Reset<dd><p>Select Timer 0 as TREQ<dt>TIMER0<dd><p>Select Timer 1 as TREQ<dt>TIMER1<dd><p>Select Timer 2 as TREQ (Optional)<dt>TIMER2<dd><p>Select Timer 3 as TREQ (Optional)<dt>TIMER3<dd><p>Permanent request, for unpaced transfers.<dt>PERMANENT<dd></dl><h4 id=a48a24b45981dd63bf4ba846d786289a4e07e45ff0a95e1d22a3528d62a271d4>CH0_DBG_CTDREQ_CH0_DBG_CTDREQ_Field</h4><pre class=ada-code-snippet><code>subtype CH0_DBG_CTDREQ_CH0_DBG_CTDREQ_Field is HAL.UInt6;
+</code></pre><h4 id=26b76853b9f1c9bd22f3fb13339203256230b86f30d3cbe13192a51153aa7bbb>CH0_DBG_CTDREQ_Register</h4><pre class=ada-code-snippet><code>type CH0_DBG_CTDREQ_Register is record
+   CH0_DBG_CTDREQ : CH0_DBG_CTDREQ_CH0_DBG_CTDREQ_Field := 16#0#;
+   Reserved_6_31  : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH0_DBG_CTDREQ<dd><dt>Reserved_6_31<dd></dl><h4 id=c5f63f800fb3ce47b111b3a0800d1480f49b7004ded23be16b43b03e369c3897>CH10_CTRL_TRIG_CHAIN_TO_Field</h4><pre class=ada-code-snippet><code>subtype CH10_CTRL_TRIG_CHAIN_TO_Field is HAL.UInt4;
+</code></pre><h4 id=298a3bb7e10d2b57486f48cfed790f6b85967ef3d474a69c809b93a68775bee8>CH10_CTRL_TRIG_DATA_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH10_CTRL_TRIG_DATA_SIZE_Field is
+  (SIZE_BYTE,
+   SIZE_HALFWORD,
+   SIZE_WORD)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>SIZE_BYTE<dd><dt>SIZE_HALFWORD<dd><dt>SIZE_WORD<dd></dl><h4 id=dc7aee1471567c020b1667ebaccbeb3de9916f15656f69dc7f967a5054292020>CH10_CTRL_TRIG_Register</h4><pre class=ada-code-snippet><code>type CH10_CTRL_TRIG_Register is record
+   EN             : Boolean := False;
+   HIGH_PRIORITY  : Boolean := False;
+   DATA_SIZE      : CH10_CTRL_TRIG_DATA_SIZE_Field :=
+                     RP2040_SVD.DMA.SIZE_BYTE;
+   INCR_READ      : Boolean := False;
+   INCR_WRITE     : Boolean := False;
+   RING_SIZE      : CH10_CTRL_TRIG_RING_SIZE_Field :=
+                     RP2040_SVD.DMA.RING_NONE;
+   RING_SEL       : Boolean := False;
+   CHAIN_TO       : CH10_CTRL_TRIG_CHAIN_TO_Field := 16#A#;
+   TREQ_SEL       : CH10_CTRL_TRIG_TREQ_SEL_Field :=
+                     CH10_CTRL_TRIG_TREQ_SEL_Field_Reset;
+   IRQ_QUIET      : Boolean := False;
+   BSWAP          : Boolean := False;
+   SNIFF_EN       : Boolean := False;
+   BUSY           : Boolean := False;
+   Reserved_25_28 : HAL.UInt4 := 16#0#;
+   WRITE_ERROR    : Boolean := False;
+   READ_ERROR     : Boolean := False;
+   AHB_ERROR      : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>HIGH_PRIORITY<dd><dt>DATA_SIZE<dd><dt>INCR_READ<dd><dt>INCR_WRITE<dd><dt>RING_SIZE<dd><dt>RING_SEL<dd><dt>CHAIN_TO<dd><dt>TREQ_SEL<dd><dt>IRQ_QUIET<dd><dt>BSWAP<dd><dt>SNIFF_EN<dd><dt>BUSY<dd><dt>Reserved_25_28<dd><dt>WRITE_ERROR<dd><dt>READ_ERROR<dd><dt>AHB_ERROR<dd></dl><h4 id=73950409dd8b967c90a22f816c42c153166d9e87bb43b687de354d5dcbb781c1>CH10_CTRL_TRIG_RING_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH10_CTRL_TRIG_RING_SIZE_Field is
+  (RING_NONE)
+  with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>RING_NONE<dd></dl><h4 id=daea0951f07f39a70c139ff9d0ab02951189eb058d8f6ab761124deea76e37b1>CH10_CTRL_TRIG_TREQ_SEL_Field</h4><pre class=ada-code-snippet><code>type CH10_CTRL_TRIG_TREQ_SEL_Field is
+   CH10_CTRL_TRIG_TREQ_SEL_Field_Reset,
+   TIMER0,
+   TIMER1,
+   TIMER2,
+   TIMER3,
+   PERMANENT)
+  with Size => 6;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>CH10_CTRL_TRIG_TREQ_SEL_Field_Reset<dd><p>Select Timer 0 as TREQ<dt>TIMER0<dd><p>Select Timer 1 as TREQ<dt>TIMER1<dd><p>Select Timer 2 as TREQ (Optional)<dt>TIMER2<dd><p>Select Timer 3 as TREQ (Optional)<dt>TIMER3<dd><p>Permanent request, for unpaced transfers.<dt>PERMANENT<dd></dl><h4 id=ccc3e510c2a1f0ed63a9018907a2f0cc505816b7294e6295fdec704140fe9a9e>CH10_DBG_CTDREQ_CH10_DBG_CTDREQ_Field</h4><pre class=ada-code-snippet><code>subtype CH10_DBG_CTDREQ_CH10_DBG_CTDREQ_Field is HAL.UInt6;
+</code></pre><h4 id=a6b0a331c8b1faf75848547bd32742141692614ac1cf2da91ff44a99264be569>CH10_DBG_CTDREQ_Register</h4><pre class=ada-code-snippet><code>type CH10_DBG_CTDREQ_Register is record
+   CH10_DBG_CTDREQ : CH10_DBG_CTDREQ_CH10_DBG_CTDREQ_Field := 16#0#;
+   Reserved_6_31   : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH10_DBG_CTDREQ<dd><dt>Reserved_6_31<dd></dl><h4 id=0c52a0f27e5f32a76a9ba788f0a28374236d6ca8c2154eeafd07b3787dfadada>CH11_CTRL_TRIG_CHAIN_TO_Field</h4><pre class=ada-code-snippet><code>subtype CH11_CTRL_TRIG_CHAIN_TO_Field is HAL.UInt4;
+</code></pre><h4 id=e3a82413f9a1ebabebf1c02582e589d01e7a93124be88e890e430bc695e63316>CH11_CTRL_TRIG_DATA_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH11_CTRL_TRIG_DATA_SIZE_Field is
+  (SIZE_BYTE,
+   SIZE_HALFWORD,
+   SIZE_WORD)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>SIZE_BYTE<dd><dt>SIZE_HALFWORD<dd><dt>SIZE_WORD<dd></dl><h4 id=4d19adc189d355ad14c34d0a20a058eaa58cdb34846521d0c82dcaa1e127fd9b>CH11_CTRL_TRIG_Register</h4><pre class=ada-code-snippet><code>type CH11_CTRL_TRIG_Register is record
+   EN             : Boolean := False;
+   HIGH_PRIORITY  : Boolean := False;
+   DATA_SIZE      : CH11_CTRL_TRIG_DATA_SIZE_Field :=
+                     RP2040_SVD.DMA.SIZE_BYTE;
+   INCR_READ      : Boolean := False;
+   INCR_WRITE     : Boolean := False;
+   RING_SIZE      : CH11_CTRL_TRIG_RING_SIZE_Field :=
+                     RP2040_SVD.DMA.RING_NONE;
+   RING_SEL       : Boolean := False;
+   CHAIN_TO       : CH11_CTRL_TRIG_CHAIN_TO_Field := 16#B#;
+   TREQ_SEL       : CH11_CTRL_TRIG_TREQ_SEL_Field :=
+                     CH11_CTRL_TRIG_TREQ_SEL_Field_Reset;
+   IRQ_QUIET      : Boolean := False;
+   BSWAP          : Boolean := False;
+   SNIFF_EN       : Boolean := False;
+   BUSY           : Boolean := False;
+   Reserved_25_28 : HAL.UInt4 := 16#0#;
+   WRITE_ERROR    : Boolean := False;
+   READ_ERROR     : Boolean := False;
+   AHB_ERROR      : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>HIGH_PRIORITY<dd><dt>DATA_SIZE<dd><dt>INCR_READ<dd><dt>INCR_WRITE<dd><dt>RING_SIZE<dd><dt>RING_SEL<dd><dt>CHAIN_TO<dd><dt>TREQ_SEL<dd><dt>IRQ_QUIET<dd><dt>BSWAP<dd><dt>SNIFF_EN<dd><dt>BUSY<dd><dt>Reserved_25_28<dd><dt>WRITE_ERROR<dd><dt>READ_ERROR<dd><dt>AHB_ERROR<dd></dl><h4 id=8f39d93528494ce75f6c55998efe722f9838036b8cb26cf411cc6f842194b6b4>CH11_CTRL_TRIG_RING_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH11_CTRL_TRIG_RING_SIZE_Field is
+  (RING_NONE)
+  with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>RING_NONE<dd></dl><h4 id=0f1381183486dfa5620b00e8220d33bf3071148b1deda44476fcdd104278e337>CH11_CTRL_TRIG_TREQ_SEL_Field</h4><pre class=ada-code-snippet><code>type CH11_CTRL_TRIG_TREQ_SEL_Field is
+   CH11_CTRL_TRIG_TREQ_SEL_Field_Reset,
+   TIMER0,
+   TIMER1,
+   TIMER2,
+   TIMER3,
+   PERMANENT)
+  with Size => 6;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>CH11_CTRL_TRIG_TREQ_SEL_Field_Reset<dd><p>Select Timer 0 as TREQ<dt>TIMER0<dd><p>Select Timer 1 as TREQ<dt>TIMER1<dd><p>Select Timer 2 as TREQ (Optional)<dt>TIMER2<dd><p>Select Timer 3 as TREQ (Optional)<dt>TIMER3<dd><p>Permanent request, for unpaced transfers.<dt>PERMANENT<dd></dl><h4 id=0dc952c8342a0d3b127493e000e5510108900d032212895c561286f28f17ea90>CH11_DBG_CTDREQ_CH11_DBG_CTDREQ_Field</h4><pre class=ada-code-snippet><code>subtype CH11_DBG_CTDREQ_CH11_DBG_CTDREQ_Field is HAL.UInt6;
+</code></pre><h4 id=18801c02af52015426ec2b30c302db9eee0b2b6ef3539a1f8cb6f84f85ca8b7f>CH11_DBG_CTDREQ_Register</h4><pre class=ada-code-snippet><code>type CH11_DBG_CTDREQ_Register is record
+   CH11_DBG_CTDREQ : CH11_DBG_CTDREQ_CH11_DBG_CTDREQ_Field := 16#0#;
+   Reserved_6_31   : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH11_DBG_CTDREQ<dd><dt>Reserved_6_31<dd></dl><h4 id=89ca78bd645a903b12c8f152c071dde7b41b7228137125f12f49304a81a2312a>CH1_CTRL_TRIG_CHAIN_TO_Field</h4><pre class=ada-code-snippet><code>subtype CH1_CTRL_TRIG_CHAIN_TO_Field is HAL.UInt4;
+</code></pre><h4 id=77d5ebc6220b88e9ab019a08e0929d2ac2754de02cd3356901bda6a429141845>CH1_CTRL_TRIG_DATA_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH1_CTRL_TRIG_DATA_SIZE_Field is
+  (SIZE_BYTE,
+   SIZE_HALFWORD,
+   SIZE_WORD)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>SIZE_BYTE<dd><dt>SIZE_HALFWORD<dd><dt>SIZE_WORD<dd></dl><h4 id=d1abde8f1cd3891c329ce9bae80028f08d98ad12aef01098b719e2f9133fe300>CH1_CTRL_TRIG_Register</h4><pre class=ada-code-snippet><code>type CH1_CTRL_TRIG_Register is record
+   EN             : Boolean := False;
+   HIGH_PRIORITY  : Boolean := False;
+   DATA_SIZE      : CH1_CTRL_TRIG_DATA_SIZE_Field :=
+                     RP2040_SVD.DMA.SIZE_BYTE;
+   INCR_READ      : Boolean := False;
+   INCR_WRITE     : Boolean := False;
+   RING_SIZE      : CH1_CTRL_TRIG_RING_SIZE_Field :=
+                     RP2040_SVD.DMA.RING_NONE;
+   RING_SEL       : Boolean := False;
+   CHAIN_TO       : CH1_CTRL_TRIG_CHAIN_TO_Field := 16#1#;
+   TREQ_SEL       : CH1_CTRL_TRIG_TREQ_SEL_Field :=
+                     CH1_CTRL_TRIG_TREQ_SEL_Field_Reset;
+   IRQ_QUIET      : Boolean := False;
+   BSWAP          : Boolean := False;
+   SNIFF_EN       : Boolean := False;
+   BUSY           : Boolean := False;
+   Reserved_25_28 : HAL.UInt4 := 16#0#;
+   WRITE_ERROR    : Boolean := False;
+   READ_ERROR     : Boolean := False;
+   AHB_ERROR      : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>HIGH_PRIORITY<dd><dt>DATA_SIZE<dd><dt>INCR_READ<dd><dt>INCR_WRITE<dd><dt>RING_SIZE<dd><dt>RING_SEL<dd><dt>CHAIN_TO<dd><dt>TREQ_SEL<dd><dt>IRQ_QUIET<dd><dt>BSWAP<dd><dt>SNIFF_EN<dd><dt>BUSY<dd><dt>Reserved_25_28<dd><dt>WRITE_ERROR<dd><dt>READ_ERROR<dd><dt>AHB_ERROR<dd></dl><h4 id=f834e64ccb292ea4e6101ab334fc877e272ca5d7bc521a8fcd7f1de4f5b1d74c>CH1_CTRL_TRIG_RING_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH1_CTRL_TRIG_RING_SIZE_Field is
+  (RING_NONE)
+  with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>RING_NONE<dd></dl><h4 id=46566f9bfc9d7c3b4be39aa06437305231d78d7e60253312c1fa708ba61bb6f1>CH1_CTRL_TRIG_TREQ_SEL_Field</h4><pre class=ada-code-snippet><code>type CH1_CTRL_TRIG_TREQ_SEL_Field is
+   CH1_CTRL_TRIG_TREQ_SEL_Field_Reset,
+   TIMER0,
+   TIMER1,
+   TIMER2,
+   TIMER3,
+   PERMANENT)
+  with Size => 6;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>CH1_CTRL_TRIG_TREQ_SEL_Field_Reset<dd><p>Select Timer 0 as TREQ<dt>TIMER0<dd><p>Select Timer 1 as TREQ<dt>TIMER1<dd><p>Select Timer 2 as TREQ (Optional)<dt>TIMER2<dd><p>Select Timer 3 as TREQ (Optional)<dt>TIMER3<dd><p>Permanent request, for unpaced transfers.<dt>PERMANENT<dd></dl><h4 id=65f1ac05fdec90fb0de82ca09416d7f00e256e82e5f51c2cdea915c2fd22017c>CH1_DBG_CTDREQ_CH1_DBG_CTDREQ_Field</h4><pre class=ada-code-snippet><code>subtype CH1_DBG_CTDREQ_CH1_DBG_CTDREQ_Field is HAL.UInt6;
+</code></pre><h4 id=6a5c5b84b7d94c58953841058a24623b72cf6fcb8e86e124ff200a8ca139ce43>CH1_DBG_CTDREQ_Register</h4><pre class=ada-code-snippet><code>type CH1_DBG_CTDREQ_Register is record
+   CH1_DBG_CTDREQ : CH1_DBG_CTDREQ_CH1_DBG_CTDREQ_Field := 16#0#;
+   Reserved_6_31  : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH1_DBG_CTDREQ<dd><dt>Reserved_6_31<dd></dl><h4 id=9528a7243b746961c65c1796c8284e019721676cb0fd7ba95fb6f174e06f11b5>CH2_CTRL_TRIG_CHAIN_TO_Field</h4><pre class=ada-code-snippet><code>subtype CH2_CTRL_TRIG_CHAIN_TO_Field is HAL.UInt4;
+</code></pre><h4 id=7c21ed38c30822f65d5505546871dcd6fb0c9749bbb168ede2f974d674ea27b0>CH2_CTRL_TRIG_DATA_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH2_CTRL_TRIG_DATA_SIZE_Field is
+  (SIZE_BYTE,
+   SIZE_HALFWORD,
+   SIZE_WORD)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>SIZE_BYTE<dd><dt>SIZE_HALFWORD<dd><dt>SIZE_WORD<dd></dl><h4 id=9e9d3908816ba1ebeae248d68a890ccc395d9062613e323bf99bcdb873a35d77>CH2_CTRL_TRIG_Register</h4><pre class=ada-code-snippet><code>type CH2_CTRL_TRIG_Register is record
+   EN             : Boolean := False;
+   HIGH_PRIORITY  : Boolean := False;
+   DATA_SIZE      : CH2_CTRL_TRIG_DATA_SIZE_Field :=
+                     RP2040_SVD.DMA.SIZE_BYTE;
+   INCR_READ      : Boolean := False;
+   INCR_WRITE     : Boolean := False;
+   RING_SIZE      : CH2_CTRL_TRIG_RING_SIZE_Field :=
+                     RP2040_SVD.DMA.RING_NONE;
+   RING_SEL       : Boolean := False;
+   CHAIN_TO       : CH2_CTRL_TRIG_CHAIN_TO_Field := 16#2#;
+   TREQ_SEL       : CH2_CTRL_TRIG_TREQ_SEL_Field :=
+                     CH2_CTRL_TRIG_TREQ_SEL_Field_Reset;
+   IRQ_QUIET      : Boolean := False;
+   BSWAP          : Boolean := False;
+   SNIFF_EN       : Boolean := False;
+   BUSY           : Boolean := False;
+   Reserved_25_28 : HAL.UInt4 := 16#0#;
+   WRITE_ERROR    : Boolean := False;
+   READ_ERROR     : Boolean := False;
+   AHB_ERROR      : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>HIGH_PRIORITY<dd><dt>DATA_SIZE<dd><dt>INCR_READ<dd><dt>INCR_WRITE<dd><dt>RING_SIZE<dd><dt>RING_SEL<dd><dt>CHAIN_TO<dd><dt>TREQ_SEL<dd><dt>IRQ_QUIET<dd><dt>BSWAP<dd><dt>SNIFF_EN<dd><dt>BUSY<dd><dt>Reserved_25_28<dd><dt>WRITE_ERROR<dd><dt>READ_ERROR<dd><dt>AHB_ERROR<dd></dl><h4 id=f00e3f4f68a4d6a4d1742405aa0c5a3e334c8d063823d2f48b64083902ee64f0>CH2_CTRL_TRIG_RING_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH2_CTRL_TRIG_RING_SIZE_Field is
+  (RING_NONE)
+  with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>RING_NONE<dd></dl><h4 id=d9ce1181195146c8b2d5e80ffb339a1b4c53b54e829b7570052459e7cd7fd77d>CH2_CTRL_TRIG_TREQ_SEL_Field</h4><pre class=ada-code-snippet><code>type CH2_CTRL_TRIG_TREQ_SEL_Field is
+   CH2_CTRL_TRIG_TREQ_SEL_Field_Reset,
+   TIMER0,
+   TIMER1,
+   TIMER2,
+   TIMER3,
+   PERMANENT)
+  with Size => 6;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>CH2_CTRL_TRIG_TREQ_SEL_Field_Reset<dd><p>Select Timer 0 as TREQ<dt>TIMER0<dd><p>Select Timer 1 as TREQ<dt>TIMER1<dd><p>Select Timer 2 as TREQ (Optional)<dt>TIMER2<dd><p>Select Timer 3 as TREQ (Optional)<dt>TIMER3<dd><p>Permanent request, for unpaced transfers.<dt>PERMANENT<dd></dl><h4 id=c9099c33aa595d3e8e3f241235cec81ec2c69eef9d0f016567095eaf92c224dd>CH2_DBG_CTDREQ_CH2_DBG_CTDREQ_Field</h4><pre class=ada-code-snippet><code>subtype CH2_DBG_CTDREQ_CH2_DBG_CTDREQ_Field is HAL.UInt6;
+</code></pre><h4 id=2ec9368475d6b7dde1ca58a9027b91beda32b054fffeeb28797a08aec24813b8>CH2_DBG_CTDREQ_Register</h4><pre class=ada-code-snippet><code>type CH2_DBG_CTDREQ_Register is record
+   CH2_DBG_CTDREQ : CH2_DBG_CTDREQ_CH2_DBG_CTDREQ_Field := 16#0#;
+   Reserved_6_31  : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH2_DBG_CTDREQ<dd><dt>Reserved_6_31<dd></dl><h4 id=b9a1deebf0169bb05c5c61b77952a225027d2e6686557a050798821fc0011c13>CH3_CTRL_TRIG_CHAIN_TO_Field</h4><pre class=ada-code-snippet><code>subtype CH3_CTRL_TRIG_CHAIN_TO_Field is HAL.UInt4;
+</code></pre><h4 id=657431e99bd0a5d391cd3d6cf122686e135d5c29c441d05de43efd29cf0e5b70>CH3_CTRL_TRIG_DATA_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH3_CTRL_TRIG_DATA_SIZE_Field is
+  (SIZE_BYTE,
+   SIZE_HALFWORD,
+   SIZE_WORD)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>SIZE_BYTE<dd><dt>SIZE_HALFWORD<dd><dt>SIZE_WORD<dd></dl><h4 id=7ce3cff3a50d8b9438bdeb01f247ef15d9179d7b3cfd2e5cae0615be50ab3223>CH3_CTRL_TRIG_Register</h4><pre class=ada-code-snippet><code>type CH3_CTRL_TRIG_Register is record
+   EN             : Boolean := False;
+   HIGH_PRIORITY  : Boolean := False;
+   DATA_SIZE      : CH3_CTRL_TRIG_DATA_SIZE_Field :=
+                     RP2040_SVD.DMA.SIZE_BYTE;
+   INCR_READ      : Boolean := False;
+   INCR_WRITE     : Boolean := False;
+   RING_SIZE      : CH3_CTRL_TRIG_RING_SIZE_Field :=
+                     RP2040_SVD.DMA.RING_NONE;
+   RING_SEL       : Boolean := False;
+   CHAIN_TO       : CH3_CTRL_TRIG_CHAIN_TO_Field := 16#3#;
+   TREQ_SEL       : CH3_CTRL_TRIG_TREQ_SEL_Field :=
+                     CH3_CTRL_TRIG_TREQ_SEL_Field_Reset;
+   IRQ_QUIET      : Boolean := False;
+   BSWAP          : Boolean := False;
+   SNIFF_EN       : Boolean := False;
+   BUSY           : Boolean := False;
+   Reserved_25_28 : HAL.UInt4 := 16#0#;
+   WRITE_ERROR    : Boolean := False;
+   READ_ERROR     : Boolean := False;
+   AHB_ERROR      : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>HIGH_PRIORITY<dd><dt>DATA_SIZE<dd><dt>INCR_READ<dd><dt>INCR_WRITE<dd><dt>RING_SIZE<dd><dt>RING_SEL<dd><dt>CHAIN_TO<dd><dt>TREQ_SEL<dd><dt>IRQ_QUIET<dd><dt>BSWAP<dd><dt>SNIFF_EN<dd><dt>BUSY<dd><dt>Reserved_25_28<dd><dt>WRITE_ERROR<dd><dt>READ_ERROR<dd><dt>AHB_ERROR<dd></dl><h4 id=d1af9bb930275f38974c0a7236156965cc2259bed31aa890c6f635f702782441>CH3_CTRL_TRIG_RING_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH3_CTRL_TRIG_RING_SIZE_Field is
+  (RING_NONE)
+  with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>RING_NONE<dd></dl><h4 id=cfa00ed44908810b32ff6bd5e2fd8eb78609e7b94259d226d9f70ff636cfe430>CH3_CTRL_TRIG_TREQ_SEL_Field</h4><pre class=ada-code-snippet><code>type CH3_CTRL_TRIG_TREQ_SEL_Field is
+   CH3_CTRL_TRIG_TREQ_SEL_Field_Reset,
+   TIMER0,
+   TIMER1,
+   TIMER2,
+   TIMER3,
+   PERMANENT)
+  with Size => 6;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>CH3_CTRL_TRIG_TREQ_SEL_Field_Reset<dd><p>Select Timer 0 as TREQ<dt>TIMER0<dd><p>Select Timer 1 as TREQ<dt>TIMER1<dd><p>Select Timer 2 as TREQ (Optional)<dt>TIMER2<dd><p>Select Timer 3 as TREQ (Optional)<dt>TIMER3<dd><p>Permanent request, for unpaced transfers.<dt>PERMANENT<dd></dl><h4 id=b9374e405d2e2c07d02f69f09c01121821c29e4f9b7d21b41c9fe37d615fc283>CH3_DBG_CTDREQ_CH3_DBG_CTDREQ_Field</h4><pre class=ada-code-snippet><code>subtype CH3_DBG_CTDREQ_CH3_DBG_CTDREQ_Field is HAL.UInt6;
+</code></pre><h4 id=b23903487692ba7c0fdff913d07ccbae98a94c62a29912806b630fbba8137495>CH3_DBG_CTDREQ_Register</h4><pre class=ada-code-snippet><code>type CH3_DBG_CTDREQ_Register is record
+   CH3_DBG_CTDREQ : CH3_DBG_CTDREQ_CH3_DBG_CTDREQ_Field := 16#0#;
+   Reserved_6_31  : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH3_DBG_CTDREQ<dd><dt>Reserved_6_31<dd></dl><h4 id=c04280565b9ba8e4fd1479fb1e044c0d6c53129b9d3c7b4999d111d29a79f260>CH4_CTRL_TRIG_CHAIN_TO_Field</h4><pre class=ada-code-snippet><code>subtype CH4_CTRL_TRIG_CHAIN_TO_Field is HAL.UInt4;
+</code></pre><h4 id=7fb85f04788938ee4a3c744e5f100a111c57e66e19e2d62383b9072eb1c57f0a>CH4_CTRL_TRIG_DATA_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH4_CTRL_TRIG_DATA_SIZE_Field is
+  (SIZE_BYTE,
+   SIZE_HALFWORD,
+   SIZE_WORD)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>SIZE_BYTE<dd><dt>SIZE_HALFWORD<dd><dt>SIZE_WORD<dd></dl><h4 id=c4831b0f50a5e680403f0695a6ea5c572c253fc131076117ef9eb94c2e53152c>CH4_CTRL_TRIG_Register</h4><pre class=ada-code-snippet><code>type CH4_CTRL_TRIG_Register is record
+   EN             : Boolean := False;
+   HIGH_PRIORITY  : Boolean := False;
+   DATA_SIZE      : CH4_CTRL_TRIG_DATA_SIZE_Field :=
+                     RP2040_SVD.DMA.SIZE_BYTE;
+   INCR_READ      : Boolean := False;
+   INCR_WRITE     : Boolean := False;
+   RING_SIZE      : CH4_CTRL_TRIG_RING_SIZE_Field :=
+                     RP2040_SVD.DMA.RING_NONE;
+   RING_SEL       : Boolean := False;
+   CHAIN_TO       : CH4_CTRL_TRIG_CHAIN_TO_Field := 16#4#;
+   TREQ_SEL       : CH4_CTRL_TRIG_TREQ_SEL_Field :=
+                     CH4_CTRL_TRIG_TREQ_SEL_Field_Reset;
+   IRQ_QUIET      : Boolean := False;
+   BSWAP          : Boolean := False;
+   SNIFF_EN       : Boolean := False;
+   BUSY           : Boolean := False;
+   Reserved_25_28 : HAL.UInt4 := 16#0#;
+   WRITE_ERROR    : Boolean := False;
+   READ_ERROR     : Boolean := False;
+   AHB_ERROR      : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>HIGH_PRIORITY<dd><dt>DATA_SIZE<dd><dt>INCR_READ<dd><dt>INCR_WRITE<dd><dt>RING_SIZE<dd><dt>RING_SEL<dd><dt>CHAIN_TO<dd><dt>TREQ_SEL<dd><dt>IRQ_QUIET<dd><dt>BSWAP<dd><dt>SNIFF_EN<dd><dt>BUSY<dd><dt>Reserved_25_28<dd><dt>WRITE_ERROR<dd><dt>READ_ERROR<dd><dt>AHB_ERROR<dd></dl><h4 id=5eda60f36159691454233b4e895d4b78b23263b33f005da1da84be776c97e906>CH4_CTRL_TRIG_RING_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH4_CTRL_TRIG_RING_SIZE_Field is
+  (RING_NONE)
+  with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>RING_NONE<dd></dl><h4 id=468358da13ec55892757854d868ffe929a8f7eddd57219fa25edfe4c6ce88b8a>CH4_CTRL_TRIG_TREQ_SEL_Field</h4><pre class=ada-code-snippet><code>type CH4_CTRL_TRIG_TREQ_SEL_Field is
+   CH4_CTRL_TRIG_TREQ_SEL_Field_Reset,
+   TIMER0,
+   TIMER1,
+   TIMER2,
+   TIMER3,
+   PERMANENT)
+  with Size => 6;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>CH4_CTRL_TRIG_TREQ_SEL_Field_Reset<dd><p>Select Timer 0 as TREQ<dt>TIMER0<dd><p>Select Timer 1 as TREQ<dt>TIMER1<dd><p>Select Timer 2 as TREQ (Optional)<dt>TIMER2<dd><p>Select Timer 3 as TREQ (Optional)<dt>TIMER3<dd><p>Permanent request, for unpaced transfers.<dt>PERMANENT<dd></dl><h4 id=67f0d9f019768aa8bef66f981d080720f70deb18eebe466a9384e3509fe8e413>CH4_DBG_CTDREQ_CH4_DBG_CTDREQ_Field</h4><pre class=ada-code-snippet><code>subtype CH4_DBG_CTDREQ_CH4_DBG_CTDREQ_Field is HAL.UInt6;
+</code></pre><h4 id=4fba0227853cd963f0e6dde22e998802b304b46c3226715b70010def71be93bb>CH4_DBG_CTDREQ_Register</h4><pre class=ada-code-snippet><code>type CH4_DBG_CTDREQ_Register is record
+   CH4_DBG_CTDREQ : CH4_DBG_CTDREQ_CH4_DBG_CTDREQ_Field := 16#0#;
+   Reserved_6_31  : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH4_DBG_CTDREQ<dd><dt>Reserved_6_31<dd></dl><h4 id=f1a88e6bd07e403c7de9cd553f3e1dadb3e87c7f89b2f4ee54e39f01fdb2e68f>CH5_CTRL_TRIG_CHAIN_TO_Field</h4><pre class=ada-code-snippet><code>subtype CH5_CTRL_TRIG_CHAIN_TO_Field is HAL.UInt4;
+</code></pre><h4 id=499bc358627deb25e609a560041824e7f0ec8b9c5987e81aab148a9bbb9b82a8>CH5_CTRL_TRIG_DATA_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH5_CTRL_TRIG_DATA_SIZE_Field is
+  (SIZE_BYTE,
+   SIZE_HALFWORD,
+   SIZE_WORD)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>SIZE_BYTE<dd><dt>SIZE_HALFWORD<dd><dt>SIZE_WORD<dd></dl><h4 id=747217dfae3affa4a5d2e8ebea86f0238ed92615e3886a9850556a67ae6382d8>CH5_CTRL_TRIG_Register</h4><pre class=ada-code-snippet><code>type CH5_CTRL_TRIG_Register is record
+   EN             : Boolean := False;
+   HIGH_PRIORITY  : Boolean := False;
+   DATA_SIZE      : CH5_CTRL_TRIG_DATA_SIZE_Field :=
+                     RP2040_SVD.DMA.SIZE_BYTE;
+   INCR_READ      : Boolean := False;
+   INCR_WRITE     : Boolean := False;
+   RING_SIZE      : CH5_CTRL_TRIG_RING_SIZE_Field :=
+                     RP2040_SVD.DMA.RING_NONE;
+   RING_SEL       : Boolean := False;
+   CHAIN_TO       : CH5_CTRL_TRIG_CHAIN_TO_Field := 16#5#;
+   TREQ_SEL       : CH5_CTRL_TRIG_TREQ_SEL_Field :=
+                     CH5_CTRL_TRIG_TREQ_SEL_Field_Reset;
+   IRQ_QUIET      : Boolean := False;
+   BSWAP          : Boolean := False;
+   SNIFF_EN       : Boolean := False;
+   BUSY           : Boolean := False;
+   Reserved_25_28 : HAL.UInt4 := 16#0#;
+   WRITE_ERROR    : Boolean := False;
+   READ_ERROR     : Boolean := False;
+   AHB_ERROR      : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>HIGH_PRIORITY<dd><dt>DATA_SIZE<dd><dt>INCR_READ<dd><dt>INCR_WRITE<dd><dt>RING_SIZE<dd><dt>RING_SEL<dd><dt>CHAIN_TO<dd><dt>TREQ_SEL<dd><dt>IRQ_QUIET<dd><dt>BSWAP<dd><dt>SNIFF_EN<dd><dt>BUSY<dd><dt>Reserved_25_28<dd><dt>WRITE_ERROR<dd><dt>READ_ERROR<dd><dt>AHB_ERROR<dd></dl><h4 id=bb9c88aeeb8abbdf3189fc28b758acded03cf1d928042bcf2414aecb6699dfb2>CH5_CTRL_TRIG_RING_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH5_CTRL_TRIG_RING_SIZE_Field is
+  (RING_NONE)
+  with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>RING_NONE<dd></dl><h4 id=fbb3cae7b454b76b7e2ab03a68fe65df032536ecb50a314e1c4b78153a7895f2>CH5_CTRL_TRIG_TREQ_SEL_Field</h4><pre class=ada-code-snippet><code>type CH5_CTRL_TRIG_TREQ_SEL_Field is
+   CH5_CTRL_TRIG_TREQ_SEL_Field_Reset,
+   TIMER0,
+   TIMER1,
+   TIMER2,
+   TIMER3,
+   PERMANENT)
+  with Size => 6;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>CH5_CTRL_TRIG_TREQ_SEL_Field_Reset<dd><p>Select Timer 0 as TREQ<dt>TIMER0<dd><p>Select Timer 1 as TREQ<dt>TIMER1<dd><p>Select Timer 2 as TREQ (Optional)<dt>TIMER2<dd><p>Select Timer 3 as TREQ (Optional)<dt>TIMER3<dd><p>Permanent request, for unpaced transfers.<dt>PERMANENT<dd></dl><h4 id=6de54a4da5fa615be338c8ecd547322f29acbb53ef8d188440deb54e36c4e233>CH5_DBG_CTDREQ_CH5_DBG_CTDREQ_Field</h4><pre class=ada-code-snippet><code>subtype CH5_DBG_CTDREQ_CH5_DBG_CTDREQ_Field is HAL.UInt6;
+</code></pre><h4 id=571db8ed96403a621b8bf7cc826b9f461ce0bf49fb2ec429a1fbde86e2f6722e>CH5_DBG_CTDREQ_Register</h4><pre class=ada-code-snippet><code>type CH5_DBG_CTDREQ_Register is record
+   CH5_DBG_CTDREQ : CH5_DBG_CTDREQ_CH5_DBG_CTDREQ_Field := 16#0#;
+   Reserved_6_31  : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH5_DBG_CTDREQ<dd><dt>Reserved_6_31<dd></dl><h4 id=2e759a179aa740d7038e5f28eb92498385b28c2b1a3bb936e933f23b69215f09>CH6_CTRL_TRIG_CHAIN_TO_Field</h4><pre class=ada-code-snippet><code>subtype CH6_CTRL_TRIG_CHAIN_TO_Field is HAL.UInt4;
+</code></pre><h4 id=47cd3d6b46f84fc38f33b419b678c47d513b85d31d8df08afdff429ea3dbc03f>CH6_CTRL_TRIG_DATA_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH6_CTRL_TRIG_DATA_SIZE_Field is
+  (SIZE_BYTE,
+   SIZE_HALFWORD,
+   SIZE_WORD)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>SIZE_BYTE<dd><dt>SIZE_HALFWORD<dd><dt>SIZE_WORD<dd></dl><h4 id=9270aeaa5a7ded2fbce3087c4b10027aa3b3bf8fe77120d74800cbe1044ac691>CH6_CTRL_TRIG_Register</h4><pre class=ada-code-snippet><code>type CH6_CTRL_TRIG_Register is record
+   EN             : Boolean := False;
+   HIGH_PRIORITY  : Boolean := False;
+   DATA_SIZE      : CH6_CTRL_TRIG_DATA_SIZE_Field :=
+                     RP2040_SVD.DMA.SIZE_BYTE;
+   INCR_READ      : Boolean := False;
+   INCR_WRITE     : Boolean := False;
+   RING_SIZE      : CH6_CTRL_TRIG_RING_SIZE_Field :=
+                     RP2040_SVD.DMA.RING_NONE;
+   RING_SEL       : Boolean := False;
+   CHAIN_TO       : CH6_CTRL_TRIG_CHAIN_TO_Field := 16#6#;
+   TREQ_SEL       : CH6_CTRL_TRIG_TREQ_SEL_Field :=
+                     CH6_CTRL_TRIG_TREQ_SEL_Field_Reset;
+   IRQ_QUIET      : Boolean := False;
+   BSWAP          : Boolean := False;
+   SNIFF_EN       : Boolean := False;
+   BUSY           : Boolean := False;
+   Reserved_25_28 : HAL.UInt4 := 16#0#;
+   WRITE_ERROR    : Boolean := False;
+   READ_ERROR     : Boolean := False;
+   AHB_ERROR      : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>HIGH_PRIORITY<dd><dt>DATA_SIZE<dd><dt>INCR_READ<dd><dt>INCR_WRITE<dd><dt>RING_SIZE<dd><dt>RING_SEL<dd><dt>CHAIN_TO<dd><dt>TREQ_SEL<dd><dt>IRQ_QUIET<dd><dt>BSWAP<dd><dt>SNIFF_EN<dd><dt>BUSY<dd><dt>Reserved_25_28<dd><dt>WRITE_ERROR<dd><dt>READ_ERROR<dd><dt>AHB_ERROR<dd></dl><h4 id=6304a8142a3ead71918d6f59fa1b3dfe58b0d62d2a4e8af302004f994a2e9375>CH6_CTRL_TRIG_RING_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH6_CTRL_TRIG_RING_SIZE_Field is
+  (RING_NONE)
+  with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>RING_NONE<dd></dl><h4 id=d24207aaf05ae3b202103c81974b3cb44e2fa2a7632d3bb0592f373ce2b526aa>CH6_CTRL_TRIG_TREQ_SEL_Field</h4><pre class=ada-code-snippet><code>type CH6_CTRL_TRIG_TREQ_SEL_Field is
+   CH6_CTRL_TRIG_TREQ_SEL_Field_Reset,
+   TIMER0,
+   TIMER1,
+   TIMER2,
+   TIMER3,
+   PERMANENT)
+  with Size => 6;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>CH6_CTRL_TRIG_TREQ_SEL_Field_Reset<dd><p>Select Timer 0 as TREQ<dt>TIMER0<dd><p>Select Timer 1 as TREQ<dt>TIMER1<dd><p>Select Timer 2 as TREQ (Optional)<dt>TIMER2<dd><p>Select Timer 3 as TREQ (Optional)<dt>TIMER3<dd><p>Permanent request, for unpaced transfers.<dt>PERMANENT<dd></dl><h4 id=7576e067cd6ac018f3a9e849ad0c073660257d5398b519428c88a825c4cbf6b7>CH6_DBG_CTDREQ_CH6_DBG_CTDREQ_Field</h4><pre class=ada-code-snippet><code>subtype CH6_DBG_CTDREQ_CH6_DBG_CTDREQ_Field is HAL.UInt6;
+</code></pre><h4 id=c1a9bce31010e4667cf3ce77602c2915424d89b14c13c9d1a4ba0b174b76e35d>CH6_DBG_CTDREQ_Register</h4><pre class=ada-code-snippet><code>type CH6_DBG_CTDREQ_Register is record
+   CH6_DBG_CTDREQ : CH6_DBG_CTDREQ_CH6_DBG_CTDREQ_Field := 16#0#;
+   Reserved_6_31  : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH6_DBG_CTDREQ<dd><dt>Reserved_6_31<dd></dl><h4 id=4e0025f91cb7244bf6e3e827d209421551802ad2357b7d2ea9a4df105a06a414>CH7_CTRL_TRIG_CHAIN_TO_Field</h4><pre class=ada-code-snippet><code>subtype CH7_CTRL_TRIG_CHAIN_TO_Field is HAL.UInt4;
+</code></pre><h4 id=a422a217c650ecfc47ef514970ad7c9450ab2155a13c72f3a7c49964eebd1c71>CH7_CTRL_TRIG_DATA_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH7_CTRL_TRIG_DATA_SIZE_Field is
+  (SIZE_BYTE,
+   SIZE_HALFWORD,
+   SIZE_WORD)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>SIZE_BYTE<dd><dt>SIZE_HALFWORD<dd><dt>SIZE_WORD<dd></dl><h4 id=f61b42f6905484c4154d5516f65495b3fa557f83416c95e147d594ae44091e93>CH7_CTRL_TRIG_Register</h4><pre class=ada-code-snippet><code>type CH7_CTRL_TRIG_Register is record
+   EN             : Boolean := False;
+   HIGH_PRIORITY  : Boolean := False;
+   DATA_SIZE      : CH7_CTRL_TRIG_DATA_SIZE_Field :=
+                     RP2040_SVD.DMA.SIZE_BYTE;
+   INCR_READ      : Boolean := False;
+   INCR_WRITE     : Boolean := False;
+   RING_SIZE      : CH7_CTRL_TRIG_RING_SIZE_Field :=
+                     RP2040_SVD.DMA.RING_NONE;
+   RING_SEL       : Boolean := False;
+   CHAIN_TO       : CH7_CTRL_TRIG_CHAIN_TO_Field := 16#7#;
+   TREQ_SEL       : CH7_CTRL_TRIG_TREQ_SEL_Field :=
+                     CH7_CTRL_TRIG_TREQ_SEL_Field_Reset;
+   IRQ_QUIET      : Boolean := False;
+   BSWAP          : Boolean := False;
+   SNIFF_EN       : Boolean := False;
+   BUSY           : Boolean := False;
+   Reserved_25_28 : HAL.UInt4 := 16#0#;
+   WRITE_ERROR    : Boolean := False;
+   READ_ERROR     : Boolean := False;
+   AHB_ERROR      : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>HIGH_PRIORITY<dd><dt>DATA_SIZE<dd><dt>INCR_READ<dd><dt>INCR_WRITE<dd><dt>RING_SIZE<dd><dt>RING_SEL<dd><dt>CHAIN_TO<dd><dt>TREQ_SEL<dd><dt>IRQ_QUIET<dd><dt>BSWAP<dd><dt>SNIFF_EN<dd><dt>BUSY<dd><dt>Reserved_25_28<dd><dt>WRITE_ERROR<dd><dt>READ_ERROR<dd><dt>AHB_ERROR<dd></dl><h4 id=abf48cce65c9ba50b9592b65e9c71a97c35c1e43c3e894b674f0dda75c6ab15b>CH7_CTRL_TRIG_RING_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH7_CTRL_TRIG_RING_SIZE_Field is
+  (RING_NONE)
+  with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>RING_NONE<dd></dl><h4 id=df35e2b55e642b1891daacde078a9604f83791e266aa66ace2a2b7f65c701a08>CH7_CTRL_TRIG_TREQ_SEL_Field</h4><pre class=ada-code-snippet><code>type CH7_CTRL_TRIG_TREQ_SEL_Field is
+   CH7_CTRL_TRIG_TREQ_SEL_Field_Reset,
+   TIMER0,
+   TIMER1,
+   TIMER2,
+   TIMER3,
+   PERMANENT)
+  with Size => 6;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>CH7_CTRL_TRIG_TREQ_SEL_Field_Reset<dd><p>Select Timer 0 as TREQ<dt>TIMER0<dd><p>Select Timer 1 as TREQ<dt>TIMER1<dd><p>Select Timer 2 as TREQ (Optional)<dt>TIMER2<dd><p>Select Timer 3 as TREQ (Optional)<dt>TIMER3<dd><p>Permanent request, for unpaced transfers.<dt>PERMANENT<dd></dl><h4 id=a7cf60d6b7cc6aded96729f48b05e5f7249fb79b09eae7d692c6dbd700114307>CH7_DBG_CTDREQ_CH7_DBG_CTDREQ_Field</h4><pre class=ada-code-snippet><code>subtype CH7_DBG_CTDREQ_CH7_DBG_CTDREQ_Field is HAL.UInt6;
+</code></pre><h4 id=5a0fd6a9b84239dd0895cc9a92a56f37e0225a04161de0e3fa31005b864e1196>CH7_DBG_CTDREQ_Register</h4><pre class=ada-code-snippet><code>type CH7_DBG_CTDREQ_Register is record
+   CH7_DBG_CTDREQ : CH7_DBG_CTDREQ_CH7_DBG_CTDREQ_Field := 16#0#;
+   Reserved_6_31  : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH7_DBG_CTDREQ<dd><dt>Reserved_6_31<dd></dl><h4 id=0194d25ba99bdf535908466d18239fdbd71c80832069103c1608a00edd00256d>CH8_CTRL_TRIG_CHAIN_TO_Field</h4><pre class=ada-code-snippet><code>subtype CH8_CTRL_TRIG_CHAIN_TO_Field is HAL.UInt4;
+</code></pre><h4 id=f9ecb1b5948625fa5d58c46e25576c487bc2547eaf25ed76463072d17e6e2316>CH8_CTRL_TRIG_DATA_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH8_CTRL_TRIG_DATA_SIZE_Field is
+  (SIZE_BYTE,
+   SIZE_HALFWORD,
+   SIZE_WORD)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>SIZE_BYTE<dd><dt>SIZE_HALFWORD<dd><dt>SIZE_WORD<dd></dl><h4 id=5f1c6f60936a9e5ad663c65de14c9fc7bf6226efb2011b8f26979808430a03e7>CH8_CTRL_TRIG_Register</h4><pre class=ada-code-snippet><code>type CH8_CTRL_TRIG_Register is record
+   EN             : Boolean := False;
+   HIGH_PRIORITY  : Boolean := False;
+   DATA_SIZE      : CH8_CTRL_TRIG_DATA_SIZE_Field :=
+                     RP2040_SVD.DMA.SIZE_BYTE;
+   INCR_READ      : Boolean := False;
+   INCR_WRITE     : Boolean := False;
+   RING_SIZE      : CH8_CTRL_TRIG_RING_SIZE_Field :=
+                     RP2040_SVD.DMA.RING_NONE;
+   RING_SEL       : Boolean := False;
+   CHAIN_TO       : CH8_CTRL_TRIG_CHAIN_TO_Field := 16#8#;
+   TREQ_SEL       : CH8_CTRL_TRIG_TREQ_SEL_Field :=
+                     CH8_CTRL_TRIG_TREQ_SEL_Field_Reset;
+   IRQ_QUIET      : Boolean := False;
+   BSWAP          : Boolean := False;
+   SNIFF_EN       : Boolean := False;
+   BUSY           : Boolean := False;
+   Reserved_25_28 : HAL.UInt4 := 16#0#;
+   WRITE_ERROR    : Boolean := False;
+   READ_ERROR     : Boolean := False;
+   AHB_ERROR      : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>HIGH_PRIORITY<dd><dt>DATA_SIZE<dd><dt>INCR_READ<dd><dt>INCR_WRITE<dd><dt>RING_SIZE<dd><dt>RING_SEL<dd><dt>CHAIN_TO<dd><dt>TREQ_SEL<dd><dt>IRQ_QUIET<dd><dt>BSWAP<dd><dt>SNIFF_EN<dd><dt>BUSY<dd><dt>Reserved_25_28<dd><dt>WRITE_ERROR<dd><dt>READ_ERROR<dd><dt>AHB_ERROR<dd></dl><h4 id=d9176c97208814669ffe5b18a5b0aaf73029318b3fbb1a0896c733e940cff96a>CH8_CTRL_TRIG_RING_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH8_CTRL_TRIG_RING_SIZE_Field is
+  (RING_NONE)
+  with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>RING_NONE<dd></dl><h4 id=2ddfb5912e1b235f69d95a565a94dac67c767e390c5ffdb5944323f2d2f8928a>CH8_CTRL_TRIG_TREQ_SEL_Field</h4><pre class=ada-code-snippet><code>type CH8_CTRL_TRIG_TREQ_SEL_Field is
+   CH8_CTRL_TRIG_TREQ_SEL_Field_Reset,
+   TIMER0,
+   TIMER1,
+   TIMER2,
+   TIMER3,
+   PERMANENT)
+  with Size => 6;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>CH8_CTRL_TRIG_TREQ_SEL_Field_Reset<dd><p>Select Timer 0 as TREQ<dt>TIMER0<dd><p>Select Timer 1 as TREQ<dt>TIMER1<dd><p>Select Timer 2 as TREQ (Optional)<dt>TIMER2<dd><p>Select Timer 3 as TREQ (Optional)<dt>TIMER3<dd><p>Permanent request, for unpaced transfers.<dt>PERMANENT<dd></dl><h4 id=006b99ddd8dfc5e239d9192efec1ec75fe8b6387e3e9016e324b6a742eef07bd>CH8_DBG_CTDREQ_CH8_DBG_CTDREQ_Field</h4><pre class=ada-code-snippet><code>subtype CH8_DBG_CTDREQ_CH8_DBG_CTDREQ_Field is HAL.UInt6;
+</code></pre><h4 id=ab6d91fca187c3874d1891369d53fdbfe549696ee6a5836e4561b75c8df45293>CH8_DBG_CTDREQ_Register</h4><pre class=ada-code-snippet><code>type CH8_DBG_CTDREQ_Register is record
+   CH8_DBG_CTDREQ : CH8_DBG_CTDREQ_CH8_DBG_CTDREQ_Field := 16#0#;
+   Reserved_6_31  : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH8_DBG_CTDREQ<dd><dt>Reserved_6_31<dd></dl><h4 id=98e12469c9e0a2297efc344f421961e9da0089252eed3d5cf3171cea11317eaf>CH9_CTRL_TRIG_CHAIN_TO_Field</h4><pre class=ada-code-snippet><code>subtype CH9_CTRL_TRIG_CHAIN_TO_Field is HAL.UInt4;
+</code></pre><h4 id=afbde9df891e797c122b14fc66f1cc352d1d497107950d175eec5a80746775a2>CH9_CTRL_TRIG_DATA_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH9_CTRL_TRIG_DATA_SIZE_Field is
+  (SIZE_BYTE,
+   SIZE_HALFWORD,
+   SIZE_WORD)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>SIZE_BYTE<dd><dt>SIZE_HALFWORD<dd><dt>SIZE_WORD<dd></dl><h4 id=35206304ab281afa779e49ee45093aba1841949d42503b181dbe088aad76cedf>CH9_CTRL_TRIG_Register</h4><pre class=ada-code-snippet><code>type CH9_CTRL_TRIG_Register is record
+   EN             : Boolean := False;
+   HIGH_PRIORITY  : Boolean := False;
+   DATA_SIZE      : CH9_CTRL_TRIG_DATA_SIZE_Field :=
+                     RP2040_SVD.DMA.SIZE_BYTE;
+   INCR_READ      : Boolean := False;
+   INCR_WRITE     : Boolean := False;
+   RING_SIZE      : CH9_CTRL_TRIG_RING_SIZE_Field :=
+                     RP2040_SVD.DMA.RING_NONE;
+   RING_SEL       : Boolean := False;
+   CHAIN_TO       : CH9_CTRL_TRIG_CHAIN_TO_Field := 16#9#;
+   TREQ_SEL       : CH9_CTRL_TRIG_TREQ_SEL_Field :=
+                     CH9_CTRL_TRIG_TREQ_SEL_Field_Reset;
+   IRQ_QUIET      : Boolean := False;
+   BSWAP          : Boolean := False;
+   SNIFF_EN       : Boolean := False;
+   BUSY           : Boolean := False;
+   Reserved_25_28 : HAL.UInt4 := 16#0#;
+   WRITE_ERROR    : Boolean := False;
+   READ_ERROR     : Boolean := False;
+   AHB_ERROR      : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>HIGH_PRIORITY<dd><dt>DATA_SIZE<dd><dt>INCR_READ<dd><dt>INCR_WRITE<dd><dt>RING_SIZE<dd><dt>RING_SEL<dd><dt>CHAIN_TO<dd><dt>TREQ_SEL<dd><dt>IRQ_QUIET<dd><dt>BSWAP<dd><dt>SNIFF_EN<dd><dt>BUSY<dd><dt>Reserved_25_28<dd><dt>WRITE_ERROR<dd><dt>READ_ERROR<dd><dt>AHB_ERROR<dd></dl><h4 id=6f0e7ca353c1e5bd5493d852364f596492d717b3566328c897156a872cdcfee9>CH9_CTRL_TRIG_RING_SIZE_Field</h4><pre class=ada-code-snippet><code>type CH9_CTRL_TRIG_RING_SIZE_Field is
+  (RING_NONE)
+  with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>RING_NONE<dd></dl><h4 id=b2588f6b16f7045188ead462ee889774313a7695235aa7239c58b91927f62393>CH9_CTRL_TRIG_TREQ_SEL_Field</h4><pre class=ada-code-snippet><code>type CH9_CTRL_TRIG_TREQ_SEL_Field is
+   CH9_CTRL_TRIG_TREQ_SEL_Field_Reset,
+   TIMER0,
+   TIMER1,
+   TIMER2,
+   TIMER3,
+   PERMANENT)
+  with Size => 6;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>CH9_CTRL_TRIG_TREQ_SEL_Field_Reset<dd><p>Select Timer 0 as TREQ<dt>TIMER0<dd><p>Select Timer 1 as TREQ<dt>TIMER1<dd><p>Select Timer 2 as TREQ (Optional)<dt>TIMER2<dd><p>Select Timer 3 as TREQ (Optional)<dt>TIMER3<dd><p>Permanent request, for unpaced transfers.<dt>PERMANENT<dd></dl><h4 id=cea41a3d9e63db9cd34e1c7cb1ceb26c8e0658631e2a643eaa5900fe47b7b533>CH9_DBG_CTDREQ_CH9_DBG_CTDREQ_Field</h4><pre class=ada-code-snippet><code>subtype CH9_DBG_CTDREQ_CH9_DBG_CTDREQ_Field is HAL.UInt6;
+</code></pre><h4 id=a4437ebf32a40987d543b8f33b6d143799c38152acc7bad3e1a4292979fad411>CH9_DBG_CTDREQ_Register</h4><pre class=ada-code-snippet><code>type CH9_DBG_CTDREQ_Register is record
+   CH9_DBG_CTDREQ : CH9_DBG_CTDREQ_CH9_DBG_CTDREQ_Field := 16#0#;
+   Reserved_6_31  : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH9_DBG_CTDREQ<dd><dt>Reserved_6_31<dd></dl><h4 id=bd1d7da82263333e680308aa98ea304dc8b93684c11d12afcca4c59ceee44876>CHAN_ABORT_CHAN_ABORT_Field</h4><pre class=ada-code-snippet><code>subtype CHAN_ABORT_CHAN_ABORT_Field is HAL.UInt16;
+</code></pre><h4 id=73ba08ab175881ee7ed19af60d215f02b4f6c16fa2498b02a0681c60503e7ccb>CHAN_ABORT_Register</h4><pre class=ada-code-snippet><code>type CHAN_ABORT_Register is record
+   CHAN_ABORT     : CHAN_ABORT_CHAN_ABORT_Field := 16#0#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CHAN_ABORT<dd><dt>Reserved_16_31<dd></dl><h4 id=027b090f9b9e27dad5c2cddeabc0d6dd27ebbb97cd3277f302834c210553c2e6>DMA_Periph</h4><pre class=ada-code-snippet><code>DMA_Periph : aliased DMA_Peripheral
+  with Import, Address => DMA_Base;
+</code></pre><h4 id=cc43b38375d76711f4c800949b97ed45650664836d9cf9cd81e0bf74022328d8>DMA_Peripheral</h4><pre class=ada-code-snippet><code>type DMA_Peripheral is record
+   CH0_READ_ADDR             : aliased HAL.UInt32;
+   CH0_WRITE_ADDR            : aliased HAL.UInt32;
+   CH0_TRANS_COUNT           : aliased HAL.UInt32;
+   CH0_CTRL_TRIG             : aliased CH0_CTRL_TRIG_Register;
+   CH0_AL1_CTRL              : aliased HAL.UInt32;
+   CH0_AL1_READ_ADDR         : aliased HAL.UInt32;
+   CH0_AL1_WRITE_ADDR        : aliased HAL.UInt32;
+   CH0_AL1_TRANS_COUNT_TRIG  : aliased HAL.UInt32;
+   CH0_AL2_CTRL              : aliased HAL.UInt32;
+   CH0_AL2_TRANS_COUNT       : aliased HAL.UInt32;
+   CH0_AL2_READ_ADDR         : aliased HAL.UInt32;
+   CH0_AL2_WRITE_ADDR_TRIG   : aliased HAL.UInt32;
+   CH0_AL3_CTRL              : aliased HAL.UInt32;
+   CH0_AL3_WRITE_ADDR        : aliased HAL.UInt32;
+   CH0_AL3_TRANS_COUNT       : aliased HAL.UInt32;
+   CH0_AL3_READ_ADDR_TRIG    : aliased HAL.UInt32;
+   CH1_READ_ADDR             : aliased HAL.UInt32;
+   CH1_WRITE_ADDR            : aliased HAL.UInt32;
+   CH1_TRANS_COUNT           : aliased HAL.UInt32;
+   CH1_CTRL_TRIG             : aliased CH1_CTRL_TRIG_Register;
+   CH1_AL1_CTRL              : aliased HAL.UInt32;
+   CH1_AL1_READ_ADDR         : aliased HAL.UInt32;
+   CH1_AL1_WRITE_ADDR        : aliased HAL.UInt32;
+   CH1_AL1_TRANS_COUNT_TRIG  : aliased HAL.UInt32;
+   CH1_AL2_CTRL              : aliased HAL.UInt32;
+   CH1_AL2_TRANS_COUNT       : aliased HAL.UInt32;
+   CH1_AL2_READ_ADDR         : aliased HAL.UInt32;
+   CH1_AL2_WRITE_ADDR_TRIG   : aliased HAL.UInt32;
+   CH1_AL3_CTRL              : aliased HAL.UInt32;
+   CH1_AL3_WRITE_ADDR        : aliased HAL.UInt32;
+   CH1_AL3_TRANS_COUNT       : aliased HAL.UInt32;
+   CH1_AL3_READ_ADDR_TRIG    : aliased HAL.UInt32;
+   CH2_READ_ADDR             : aliased HAL.UInt32;
+   CH2_WRITE_ADDR            : aliased HAL.UInt32;
+   CH2_TRANS_COUNT           : aliased HAL.UInt32;
+   CH2_CTRL_TRIG             : aliased CH2_CTRL_TRIG_Register;
+   CH2_AL1_CTRL              : aliased HAL.UInt32;
+   CH2_AL1_READ_ADDR         : aliased HAL.UInt32;
+   CH2_AL1_WRITE_ADDR        : aliased HAL.UInt32;
+   CH2_AL1_TRANS_COUNT_TRIG  : aliased HAL.UInt32;
+   CH2_AL2_CTRL              : aliased HAL.UInt32;
+   CH2_AL2_TRANS_COUNT       : aliased HAL.UInt32;
+   CH2_AL2_READ_ADDR         : aliased HAL.UInt32;
+   CH2_AL2_WRITE_ADDR_TRIG   : aliased HAL.UInt32;
+   CH2_AL3_CTRL              : aliased HAL.UInt32;
+   CH2_AL3_WRITE_ADDR        : aliased HAL.UInt32;
+   CH2_AL3_TRANS_COUNT       : aliased HAL.UInt32;
+   CH2_AL3_READ_ADDR_TRIG    : aliased HAL.UInt32;
+   CH3_READ_ADDR             : aliased HAL.UInt32;
+   CH3_WRITE_ADDR            : aliased HAL.UInt32;
+   CH3_TRANS_COUNT           : aliased HAL.UInt32;
+   CH3_CTRL_TRIG             : aliased CH3_CTRL_TRIG_Register;
+   CH3_AL1_CTRL              : aliased HAL.UInt32;
+   CH3_AL1_READ_ADDR         : aliased HAL.UInt32;
+   CH3_AL1_WRITE_ADDR        : aliased HAL.UInt32;
+   CH3_AL1_TRANS_COUNT_TRIG  : aliased HAL.UInt32;
+   CH3_AL2_CTRL              : aliased HAL.UInt32;
+   CH3_AL2_TRANS_COUNT       : aliased HAL.UInt32;
+   CH3_AL2_READ_ADDR         : aliased HAL.UInt32;
+   CH3_AL2_WRITE_ADDR_TRIG   : aliased HAL.UInt32;
+   CH3_AL3_CTRL              : aliased HAL.UInt32;
+   CH3_AL3_WRITE_ADDR        : aliased HAL.UInt32;
+   CH3_AL3_TRANS_COUNT       : aliased HAL.UInt32;
+   CH3_AL3_READ_ADDR_TRIG    : aliased HAL.UInt32;
+   CH4_READ_ADDR             : aliased HAL.UInt32;
+   CH4_WRITE_ADDR            : aliased HAL.UInt32;
+   CH4_TRANS_COUNT           : aliased HAL.UInt32;
+   CH4_CTRL_TRIG             : aliased CH4_CTRL_TRIG_Register;
+   CH4_AL1_CTRL              : aliased HAL.UInt32;
+   CH4_AL1_READ_ADDR         : aliased HAL.UInt32;
+   CH4_AL1_WRITE_ADDR        : aliased HAL.UInt32;
+   CH4_AL1_TRANS_COUNT_TRIG  : aliased HAL.UInt32;
+   CH4_AL2_CTRL              : aliased HAL.UInt32;
+   CH4_AL2_TRANS_COUNT       : aliased HAL.UInt32;
+   CH4_AL2_READ_ADDR         : aliased HAL.UInt32;
+   CH4_AL2_WRITE_ADDR_TRIG   : aliased HAL.UInt32;
+   CH4_AL3_CTRL              : aliased HAL.UInt32;
+   CH4_AL3_WRITE_ADDR        : aliased HAL.UInt32;
+   CH4_AL3_TRANS_COUNT       : aliased HAL.UInt32;
+   CH4_AL3_READ_ADDR_TRIG    : aliased HAL.UInt32;
+   CH5_READ_ADDR             : aliased HAL.UInt32;
+   CH5_WRITE_ADDR            : aliased HAL.UInt32;
+   CH5_TRANS_COUNT           : aliased HAL.UInt32;
+   CH5_CTRL_TRIG             : aliased CH5_CTRL_TRIG_Register;
+   CH5_AL1_CTRL              : aliased HAL.UInt32;
+   CH5_AL1_READ_ADDR         : aliased HAL.UInt32;
+   CH5_AL1_WRITE_ADDR        : aliased HAL.UInt32;
+   CH5_AL1_TRANS_COUNT_TRIG  : aliased HAL.UInt32;
+   CH5_AL2_CTRL              : aliased HAL.UInt32;
+   CH5_AL2_TRANS_COUNT       : aliased HAL.UInt32;
+   CH5_AL2_READ_ADDR         : aliased HAL.UInt32;
+   CH5_AL2_WRITE_ADDR_TRIG   : aliased HAL.UInt32;
+   CH5_AL3_CTRL              : aliased HAL.UInt32;
+   CH5_AL3_WRITE_ADDR        : aliased HAL.UInt32;
+   CH5_AL3_TRANS_COUNT       : aliased HAL.UInt32;
+   CH5_AL3_READ_ADDR_TRIG    : aliased HAL.UInt32;
+   CH6_READ_ADDR             : aliased HAL.UInt32;
+   CH6_WRITE_ADDR            : aliased HAL.UInt32;
+   CH6_TRANS_COUNT           : aliased HAL.UInt32;
+   CH6_CTRL_TRIG             : aliased CH6_CTRL_TRIG_Register;
+   CH6_AL1_CTRL              : aliased HAL.UInt32;
+   CH6_AL1_READ_ADDR         : aliased HAL.UInt32;
+   CH6_AL1_WRITE_ADDR        : aliased HAL.UInt32;
+   CH6_AL1_TRANS_COUNT_TRIG  : aliased HAL.UInt32;
+   CH6_AL2_CTRL              : aliased HAL.UInt32;
+   CH6_AL2_TRANS_COUNT       : aliased HAL.UInt32;
+   CH6_AL2_READ_ADDR         : aliased HAL.UInt32;
+   CH6_AL2_WRITE_ADDR_TRIG   : aliased HAL.UInt32;
+   CH6_AL3_CTRL              : aliased HAL.UInt32;
+   CH6_AL3_WRITE_ADDR        : aliased HAL.UInt32;
+   CH6_AL3_TRANS_COUNT       : aliased HAL.UInt32;
+   CH6_AL3_READ_ADDR_TRIG    : aliased HAL.UInt32;
+   CH7_READ_ADDR             : aliased HAL.UInt32;
+   CH7_WRITE_ADDR            : aliased HAL.UInt32;
+   CH7_TRANS_COUNT           : aliased HAL.UInt32;
+   CH7_CTRL_TRIG             : aliased CH7_CTRL_TRIG_Register;
+   CH7_AL1_CTRL              : aliased HAL.UInt32;
+   CH7_AL1_READ_ADDR         : aliased HAL.UInt32;
+   CH7_AL1_WRITE_ADDR        : aliased HAL.UInt32;
+   CH7_AL1_TRANS_COUNT_TRIG  : aliased HAL.UInt32;
+   CH7_AL2_CTRL              : aliased HAL.UInt32;
+   CH7_AL2_TRANS_COUNT       : aliased HAL.UInt32;
+   CH7_AL2_READ_ADDR         : aliased HAL.UInt32;
+   CH7_AL2_WRITE_ADDR_TRIG   : aliased HAL.UInt32;
+   CH7_AL3_CTRL              : aliased HAL.UInt32;
+   CH7_AL3_WRITE_ADDR        : aliased HAL.UInt32;
+   CH7_AL3_TRANS_COUNT       : aliased HAL.UInt32;
+   CH7_AL3_READ_ADDR_TRIG    : aliased HAL.UInt32;
+   CH8_READ_ADDR             : aliased HAL.UInt32;
+   CH8_WRITE_ADDR            : aliased HAL.UInt32;
+   CH8_TRANS_COUNT           : aliased HAL.UInt32;
+   CH8_CTRL_TRIG             : aliased CH8_CTRL_TRIG_Register;
+   CH8_AL1_CTRL              : aliased HAL.UInt32;
+   CH8_AL1_READ_ADDR         : aliased HAL.UInt32;
+   CH8_AL1_WRITE_ADDR        : aliased HAL.UInt32;
+   CH8_AL1_TRANS_COUNT_TRIG  : aliased HAL.UInt32;
+   CH8_AL2_CTRL              : aliased HAL.UInt32;
+   CH8_AL2_TRANS_COUNT       : aliased HAL.UInt32;
+   CH8_AL2_READ_ADDR         : aliased HAL.UInt32;
+   CH8_AL2_WRITE_ADDR_TRIG   : aliased HAL.UInt32;
+   CH8_AL3_CTRL              : aliased HAL.UInt32;
+   CH8_AL3_WRITE_ADDR        : aliased HAL.UInt32;
+   CH8_AL3_TRANS_COUNT       : aliased HAL.UInt32;
+   CH8_AL3_READ_ADDR_TRIG    : aliased HAL.UInt32;
+   CH9_READ_ADDR             : aliased HAL.UInt32;
+   CH9_WRITE_ADDR            : aliased HAL.UInt32;
+   CH9_TRANS_COUNT           : aliased HAL.UInt32;
+   CH9_CTRL_TRIG             : aliased CH9_CTRL_TRIG_Register;
+   CH9_AL1_CTRL              : aliased HAL.UInt32;
+   CH9_AL1_READ_ADDR         : aliased HAL.UInt32;
+   CH9_AL1_WRITE_ADDR        : aliased HAL.UInt32;
+   CH9_AL1_TRANS_COUNT_TRIG  : aliased HAL.UInt32;
+   CH9_AL2_CTRL              : aliased HAL.UInt32;
+   CH9_AL2_TRANS_COUNT       : aliased HAL.UInt32;
+   CH9_AL2_READ_ADDR         : aliased HAL.UInt32;
+   CH9_AL2_WRITE_ADDR_TRIG   : aliased HAL.UInt32;
+   CH9_AL3_CTRL              : aliased HAL.UInt32;
+   CH9_AL3_WRITE_ADDR        : aliased HAL.UInt32;
+   CH9_AL3_TRANS_COUNT       : aliased HAL.UInt32;
+   CH9_AL3_READ_ADDR_TRIG    : aliased HAL.UInt32;
+   CH10_READ_ADDR            : aliased HAL.UInt32;
+   CH10_WRITE_ADDR           : aliased HAL.UInt32;
+   CH10_TRANS_COUNT          : aliased HAL.UInt32;
+   CH10_CTRL_TRIG            : aliased CH10_CTRL_TRIG_Register;
+   CH10_AL1_CTRL             : aliased HAL.UInt32;
+   CH10_AL1_READ_ADDR        : aliased HAL.UInt32;
+   CH10_AL1_WRITE_ADDR       : aliased HAL.UInt32;
+   CH10_AL1_TRANS_COUNT_TRIG : aliased HAL.UInt32;
+   CH10_AL2_CTRL             : aliased HAL.UInt32;
+   CH10_AL2_TRANS_COUNT      : aliased HAL.UInt32;
+   CH10_AL2_READ_ADDR        : aliased HAL.UInt32;
+   CH10_AL2_WRITE_ADDR_TRIG  : aliased HAL.UInt32;
+   CH10_AL3_CTRL             : aliased HAL.UInt32;
+   CH10_AL3_WRITE_ADDR       : aliased HAL.UInt32;
+   CH10_AL3_TRANS_COUNT      : aliased HAL.UInt32;
+   CH10_AL3_READ_ADDR_TRIG   : aliased HAL.UInt32;
+   CH11_READ_ADDR            : aliased HAL.UInt32;
+   CH11_WRITE_ADDR           : aliased HAL.UInt32;
+   CH11_TRANS_COUNT          : aliased HAL.UInt32;
+   CH11_CTRL_TRIG            : aliased CH11_CTRL_TRIG_Register;
+   CH11_AL1_CTRL             : aliased HAL.UInt32;
+   CH11_AL1_READ_ADDR        : aliased HAL.UInt32;
+   CH11_AL1_WRITE_ADDR       : aliased HAL.UInt32;
+   CH11_AL1_TRANS_COUNT_TRIG : aliased HAL.UInt32;
+   CH11_AL2_CTRL             : aliased HAL.UInt32;
+   CH11_AL2_TRANS_COUNT      : aliased HAL.UInt32;
+   CH11_AL2_READ_ADDR        : aliased HAL.UInt32;
+   CH11_AL2_WRITE_ADDR_TRIG  : aliased HAL.UInt32;
+   CH11_AL3_CTRL             : aliased HAL.UInt32;
+   CH11_AL3_WRITE_ADDR       : aliased HAL.UInt32;
+   CH11_AL3_TRANS_COUNT      : aliased HAL.UInt32;
+   CH11_AL3_READ_ADDR_TRIG   : aliased HAL.UInt32;
+   INTR                      : aliased INTR_Register;
+   INTE0                     : aliased INTE0_Register;
+   INTF0                     : aliased INTF0_Register;
+   INTS0                     : aliased INTS0_Register;
+   INTE1                     : aliased INTE1_Register;
+   INTF1                     : aliased INTF1_Register;
+   INTS1                     : aliased INTS1_Register;
+   TIMER0                    : aliased TIMER_Register;
+   TIMER1                    : aliased TIMER_Register;
+   TIMER2                    : aliased TIMER_Register;
+   TIMER3                    : aliased TIMER_Register;
+   MULTI_CHAN_TRIGGER        : aliased MULTI_CHAN_TRIGGER_Register;
+   SNIFF_CTRL                : aliased SNIFF_CTRL_Register;
+   SNIFF_DATA                : aliased HAL.UInt32;
+   FIFO_LEVELS               : aliased FIFO_LEVELS_Register;
+   CHAN_ABORT                : aliased CHAN_ABORT_Register;
+   N_CHANNELS                : aliased N_CHANNELS_Register;
+   CH0_DBG_CTDREQ            : aliased CH0_DBG_CTDREQ_Register;
+   CH0_DBG_TCR               : aliased HAL.UInt32;
+   CH1_DBG_CTDREQ            : aliased CH1_DBG_CTDREQ_Register;
+   CH1_DBG_TCR               : aliased HAL.UInt32;
+   CH2_DBG_CTDREQ            : aliased CH2_DBG_CTDREQ_Register;
+   CH2_DBG_TCR               : aliased HAL.UInt32;
+   CH3_DBG_CTDREQ            : aliased CH3_DBG_CTDREQ_Register;
+   CH3_DBG_TCR               : aliased HAL.UInt32;
+   CH4_DBG_CTDREQ            : aliased CH4_DBG_CTDREQ_Register;
+   CH4_DBG_TCR               : aliased HAL.UInt32;
+   CH5_DBG_CTDREQ            : aliased CH5_DBG_CTDREQ_Register;
+   CH5_DBG_TCR               : aliased HAL.UInt32;
+   CH6_DBG_CTDREQ            : aliased CH6_DBG_CTDREQ_Register;
+   CH6_DBG_TCR               : aliased HAL.UInt32;
+   CH7_DBG_CTDREQ            : aliased CH7_DBG_CTDREQ_Register;
+   CH7_DBG_TCR               : aliased HAL.UInt32;
+   CH8_DBG_CTDREQ            : aliased CH8_DBG_CTDREQ_Register;
+   CH8_DBG_TCR               : aliased HAL.UInt32;
+   CH9_DBG_CTDREQ            : aliased CH9_DBG_CTDREQ_Register;
+   CH9_DBG_TCR               : aliased HAL.UInt32;
+   CH10_DBG_CTDREQ           : aliased CH10_DBG_CTDREQ_Register;
+   CH10_DBG_TCR              : aliased HAL.UInt32;
+   CH11_DBG_CTDREQ           : aliased CH11_DBG_CTDREQ_Register;
+   CH11_DBG_TCR              : aliased HAL.UInt32;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>CH0_READ_ADDR<dd><dt>CH0_WRITE_ADDR<dd><dt>CH0_TRANS_COUNT<dd><dt>CH0_CTRL_TRIG<dd><dt>CH0_AL1_CTRL<dd><dt>CH0_AL1_READ_ADDR<dd><dt>CH0_AL1_WRITE_ADDR<dd><dt>CH0_AL1_TRANS_COUNT_TRIG<dd><dt>CH0_AL2_CTRL<dd><dt>CH0_AL2_TRANS_COUNT<dd><dt>CH0_AL2_READ_ADDR<dd><dt>CH0_AL2_WRITE_ADDR_TRIG<dd><dt>CH0_AL3_CTRL<dd><dt>CH0_AL3_WRITE_ADDR<dd><dt>CH0_AL3_TRANS_COUNT<dd><dt>CH0_AL3_READ_ADDR_TRIG<dd><dt>CH1_READ_ADDR<dd><dt>CH1_WRITE_ADDR<dd><dt>CH1_TRANS_COUNT<dd><dt>CH1_CTRL_TRIG<dd><dt>CH1_AL1_CTRL<dd><dt>CH1_AL1_READ_ADDR<dd><dt>CH1_AL1_WRITE_ADDR<dd><dt>CH1_AL1_TRANS_COUNT_TRIG<dd><dt>CH1_AL2_CTRL<dd><dt>CH1_AL2_TRANS_COUNT<dd><dt>CH1_AL2_READ_ADDR<dd><dt>CH1_AL2_WRITE_ADDR_TRIG<dd><dt>CH1_AL3_CTRL<dd><dt>CH1_AL3_WRITE_ADDR<dd><dt>CH1_AL3_TRANS_COUNT<dd><dt>CH1_AL3_READ_ADDR_TRIG<dd><dt>CH2_READ_ADDR<dd><dt>CH2_WRITE_ADDR<dd><dt>CH2_TRANS_COUNT<dd><dt>CH2_CTRL_TRIG<dd><dt>CH2_AL1_CTRL<dd><dt>CH2_AL1_READ_ADDR<dd><dt>CH2_AL1_WRITE_ADDR<dd><dt>CH2_AL1_TRANS_COUNT_TRIG<dd><dt>CH2_AL2_CTRL<dd><dt>CH2_AL2_TRANS_COUNT<dd><dt>CH2_AL2_READ_ADDR<dd><dt>CH2_AL2_WRITE_ADDR_TRIG<dd><dt>CH2_AL3_CTRL<dd><dt>CH2_AL3_WRITE_ADDR<dd><dt>CH2_AL3_TRANS_COUNT<dd><dt>CH2_AL3_READ_ADDR_TRIG<dd><dt>CH3_READ_ADDR<dd><dt>CH3_WRITE_ADDR<dd><dt>CH3_TRANS_COUNT<dd><dt>CH3_CTRL_TRIG<dd><dt>CH3_AL1_CTRL<dd><dt>CH3_AL1_READ_ADDR<dd><dt>CH3_AL1_WRITE_ADDR<dd><dt>CH3_AL1_TRANS_COUNT_TRIG<dd><dt>CH3_AL2_CTRL<dd><dt>CH3_AL2_TRANS_COUNT<dd><dt>CH3_AL2_READ_ADDR<dd><dt>CH3_AL2_WRITE_ADDR_TRIG<dd><dt>CH3_AL3_CTRL<dd><dt>CH3_AL3_WRITE_ADDR<dd><dt>CH3_AL3_TRANS_COUNT<dd><dt>CH3_AL3_READ_ADDR_TRIG<dd><dt>CH4_READ_ADDR<dd><dt>CH4_WRITE_ADDR<dd><dt>CH4_TRANS_COUNT<dd><dt>CH4_CTRL_TRIG<dd><dt>CH4_AL1_CTRL<dd><dt>CH4_AL1_READ_ADDR<dd><dt>CH4_AL1_WRITE_ADDR<dd><dt>CH4_AL1_TRANS_COUNT_TRIG<dd><dt>CH4_AL2_CTRL<dd><dt>CH4_AL2_TRANS_COUNT<dd><dt>CH4_AL2_READ_ADDR<dd><dt>CH4_AL2_WRITE_ADDR_TRIG<dd><dt>CH4_AL3_CTRL<dd><dt>CH4_AL3_WRITE_ADDR<dd><dt>CH4_AL3_TRANS_COUNT<dd><dt>CH4_AL3_READ_ADDR_TRIG<dd><dt>CH5_READ_ADDR<dd><dt>CH5_WRITE_ADDR<dd><dt>CH5_TRANS_COUNT<dd><dt>CH5_CTRL_TRIG<dd><dt>CH5_AL1_CTRL<dd><dt>CH5_AL1_READ_ADDR<dd><dt>CH5_AL1_WRITE_ADDR<dd><dt>CH5_AL1_TRANS_COUNT_TRIG<dd><dt>CH5_AL2_CTRL<dd><dt>CH5_AL2_TRANS_COUNT<dd><dt>CH5_AL2_READ_ADDR<dd><dt>CH5_AL2_WRITE_ADDR_TRIG<dd><dt>CH5_AL3_CTRL<dd><dt>CH5_AL3_WRITE_ADDR<dd><dt>CH5_AL3_TRANS_COUNT<dd><dt>CH5_AL3_READ_ADDR_TRIG<dd><dt>CH6_READ_ADDR<dd><dt>CH6_WRITE_ADDR<dd><dt>CH6_TRANS_COUNT<dd><dt>CH6_CTRL_TRIG<dd><dt>CH6_AL1_CTRL<dd><dt>CH6_AL1_READ_ADDR<dd><dt>CH6_AL1_WRITE_ADDR<dd><dt>CH6_AL1_TRANS_COUNT_TRIG<dd><dt>CH6_AL2_CTRL<dd><dt>CH6_AL2_TRANS_COUNT<dd><dt>CH6_AL2_READ_ADDR<dd><dt>CH6_AL2_WRITE_ADDR_TRIG<dd><dt>CH6_AL3_CTRL<dd><dt>CH6_AL3_WRITE_ADDR<dd><dt>CH6_AL3_TRANS_COUNT<dd><dt>CH6_AL3_READ_ADDR_TRIG<dd><dt>CH7_READ_ADDR<dd><dt>CH7_WRITE_ADDR<dd><dt>CH7_TRANS_COUNT<dd><dt>CH7_CTRL_TRIG<dd><dt>CH7_AL1_CTRL<dd><dt>CH7_AL1_READ_ADDR<dd><dt>CH7_AL1_WRITE_ADDR<dd><dt>CH7_AL1_TRANS_COUNT_TRIG<dd><dt>CH7_AL2_CTRL<dd><dt>CH7_AL2_TRANS_COUNT<dd><dt>CH7_AL2_READ_ADDR<dd><dt>CH7_AL2_WRITE_ADDR_TRIG<dd><dt>CH7_AL3_CTRL<dd><dt>CH7_AL3_WRITE_ADDR<dd><dt>CH7_AL3_TRANS_COUNT<dd><dt>CH7_AL3_READ_ADDR_TRIG<dd><dt>CH8_READ_ADDR<dd><dt>CH8_WRITE_ADDR<dd><dt>CH8_TRANS_COUNT<dd><dt>CH8_CTRL_TRIG<dd><dt>CH8_AL1_CTRL<dd><dt>CH8_AL1_READ_ADDR<dd><dt>CH8_AL1_WRITE_ADDR<dd><dt>CH8_AL1_TRANS_COUNT_TRIG<dd><dt>CH8_AL2_CTRL<dd><dt>CH8_AL2_TRANS_COUNT<dd><dt>CH8_AL2_READ_ADDR<dd><dt>CH8_AL2_WRITE_ADDR_TRIG<dd><dt>CH8_AL3_CTRL<dd><dt>CH8_AL3_WRITE_ADDR<dd><dt>CH8_AL3_TRANS_COUNT<dd><dt>CH8_AL3_READ_ADDR_TRIG<dd><dt>CH9_READ_ADDR<dd><dt>CH9_WRITE_ADDR<dd><dt>CH9_TRANS_COUNT<dd><dt>CH9_CTRL_TRIG<dd><dt>CH9_AL1_CTRL<dd><dt>CH9_AL1_READ_ADDR<dd><dt>CH9_AL1_WRITE_ADDR<dd><dt>CH9_AL1_TRANS_COUNT_TRIG<dd><dt>CH9_AL2_CTRL<dd><dt>CH9_AL2_TRANS_COUNT<dd><dt>CH9_AL2_READ_ADDR<dd><dt>CH9_AL2_WRITE_ADDR_TRIG<dd><dt>CH9_AL3_CTRL<dd><dt>CH9_AL3_WRITE_ADDR<dd><dt>CH9_AL3_TRANS_COUNT<dd><dt>CH9_AL3_READ_ADDR_TRIG<dd><dt>CH10_READ_ADDR<dd><dt>CH10_WRITE_ADDR<dd><dt>CH10_TRANS_COUNT<dd><dt>CH10_CTRL_TRIG<dd><dt>CH10_AL1_CTRL<dd><dt>CH10_AL1_READ_ADDR<dd><dt>CH10_AL1_WRITE_ADDR<dd><dt>CH10_AL1_TRANS_COUNT_TRIG<dd><dt>CH10_AL2_CTRL<dd><dt>CH10_AL2_TRANS_COUNT<dd><dt>CH10_AL2_READ_ADDR<dd><dt>CH10_AL2_WRITE_ADDR_TRIG<dd><dt>CH10_AL3_CTRL<dd><dt>CH10_AL3_WRITE_ADDR<dd><dt>CH10_AL3_TRANS_COUNT<dd><dt>CH10_AL3_READ_ADDR_TRIG<dd><dt>CH11_READ_ADDR<dd><dt>CH11_WRITE_ADDR<dd><dt>CH11_TRANS_COUNT<dd><dt>CH11_CTRL_TRIG<dd><dt>CH11_AL1_CTRL<dd><dt>CH11_AL1_READ_ADDR<dd><dt>CH11_AL1_WRITE_ADDR<dd><dt>CH11_AL1_TRANS_COUNT_TRIG<dd><dt>CH11_AL2_CTRL<dd><dt>CH11_AL2_TRANS_COUNT<dd><dt>CH11_AL2_READ_ADDR<dd><dt>CH11_AL2_WRITE_ADDR_TRIG<dd><dt>CH11_AL3_CTRL<dd><dt>CH11_AL3_WRITE_ADDR<dd><dt>CH11_AL3_TRANS_COUNT<dd><dt>CH11_AL3_READ_ADDR_TRIG<dd><dt>INTR<dd><dt>INTE0<dd><dt>INTF0<dd><dt>INTS0<dd><dt>INTE1<dd><dt>INTF1<dd><dt>INTS1<dd><dt>TIMER0<dd><dt>TIMER1<dd><dt>TIMER2<dd><dt>TIMER3<dd><dt>MULTI_CHAN_TRIGGER<dd><dt>SNIFF_CTRL<dd><dt>SNIFF_DATA<dd><dt>FIFO_LEVELS<dd><dt>CHAN_ABORT<dd><dt>N_CHANNELS<dd><dt>CH0_DBG_CTDREQ<dd><dt>CH0_DBG_TCR<dd><dt>CH1_DBG_CTDREQ<dd><dt>CH1_DBG_TCR<dd><dt>CH2_DBG_CTDREQ<dd><dt>CH2_DBG_TCR<dd><dt>CH3_DBG_CTDREQ<dd><dt>CH3_DBG_TCR<dd><dt>CH4_DBG_CTDREQ<dd><dt>CH4_DBG_TCR<dd><dt>CH5_DBG_CTDREQ<dd><dt>CH5_DBG_TCR<dd><dt>CH6_DBG_CTDREQ<dd><dt>CH6_DBG_TCR<dd><dt>CH7_DBG_CTDREQ<dd><dt>CH7_DBG_TCR<dd><dt>CH8_DBG_CTDREQ<dd><dt>CH8_DBG_TCR<dd><dt>CH9_DBG_CTDREQ<dd><dt>CH9_DBG_TCR<dd><dt>CH10_DBG_CTDREQ<dd><dt>CH10_DBG_TCR<dd><dt>CH11_DBG_CTDREQ<dd><dt>CH11_DBG_TCR<dd></dl><h4 id=4b7accba182dd895c3318d5c5112859b73a298079cabfd7c0c61040915330907>FIFO_LEVELS_RAF_LVL_Field</h4><pre class=ada-code-snippet><code>subtype FIFO_LEVELS_RAF_LVL_Field is HAL.UInt8;
+</code></pre><h4 id=1422b4b69cc2869f26b3858ab1935cc793bdecdf2c48dcf185a582aa8e554b13>FIFO_LEVELS_Register</h4><pre class=ada-code-snippet><code>type FIFO_LEVELS_Register is record
+   TDF_LVL        : FIFO_LEVELS_TDF_LVL_Field;
+   WAF_LVL        : FIFO_LEVELS_WAF_LVL_Field;
+   RAF_LVL        : FIFO_LEVELS_RAF_LVL_Field;
+   Reserved_24_31 : HAL.UInt8;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>TDF_LVL<dd><dt>WAF_LVL<dd><dt>RAF_LVL<dd><dt>Reserved_24_31<dd></dl><h4 id=350d7c0abb73b2ec2e7f2cd7abc6fde0d8478dbe9005aff81dde176ff262dc71>FIFO_LEVELS_TDF_LVL_Field</h4><pre class=ada-code-snippet><code>subtype FIFO_LEVELS_TDF_LVL_Field is HAL.UInt8;
+</code></pre><h4 id=dd98d008f3d3f4c1434390a04da5faa156e4a4e25abf20ecae781e01a2236abb>FIFO_LEVELS_WAF_LVL_Field</h4><pre class=ada-code-snippet><code>subtype FIFO_LEVELS_WAF_LVL_Field is HAL.UInt8;
+</code></pre><h4 id=915ef35ecaa0479d4199edff6b1d275c8d2351200cad57fb2aae9f3c7276421a>INTE0_INTE0_Field</h4><pre class=ada-code-snippet><code>subtype INTE0_INTE0_Field is HAL.UInt16;
+</code></pre><h4 id=7d5e32a32ed97c81377666610735b7fe73a8c9f0241b32a3cd0a55d6f9b7499a>INTE0_Register</h4><pre class=ada-code-snippet><code>type INTE0_Register is record
+   INTE0          : INTE0_INTE0_Field := 16#0#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>INTE0<dd><dt>Reserved_16_31<dd></dl><h4 id=e7b06e8f151ffa1ca28f63943b01a2976c3e1787b295e0aae1900a01bd27d8b7>INTE1_INTE1_Field</h4><pre class=ada-code-snippet><code>subtype INTE1_INTE1_Field is HAL.UInt16;
+</code></pre><h4 id=6055b1719550e71a551e1384711a80910374422105720307be7ba1d84a26c304>INTE1_Register</h4><pre class=ada-code-snippet><code>type INTE1_Register is record
+   INTE1          : INTE1_INTE1_Field := 16#0#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>INTE1<dd><dt>Reserved_16_31<dd></dl><h4 id=36cab7715648ff8faa986cc577168886747dc9c7121ed7d68c0d3c0b19e19b85>INTF0_INTF0_Field</h4><pre class=ada-code-snippet><code>subtype INTF0_INTF0_Field is HAL.UInt16;
+</code></pre><h4 id=fac3449ccbf4b2dc5bd33fdf4d0801e111b9fa37ae4a8c80723711605dffabdf>INTF0_Register</h4><pre class=ada-code-snippet><code>type INTF0_Register is record
+   INTF0          : INTF0_INTF0_Field := 16#0#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>INTF0<dd><dt>Reserved_16_31<dd></dl><h4 id=b8e33d8ff82fcb430539bd5df3e06d1e6fff9f1be791acd9c6914ca789709907>INTF1_INTF1_Field</h4><pre class=ada-code-snippet><code>subtype INTF1_INTF1_Field is HAL.UInt16;
+</code></pre><h4 id=c0ec55b9cf85bd67c61829b27eefb7fed9669d5db614ada4fbca7d65e4b68719>INTF1_Register</h4><pre class=ada-code-snippet><code>type INTF1_Register is record
+   INTF1          : INTF1_INTF1_Field := 16#0#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>INTF1<dd><dt>Reserved_16_31<dd></dl><h4 id=55d3b979cfeae54395b4f9421dd848819dd05e02098e7897d1def4691017814c>INTR_INTR_Field</h4><pre class=ada-code-snippet><code>subtype INTR_INTR_Field is HAL.UInt16;
+</code></pre><h4 id=c62f367573b7260258f1cc631c5d2433b5310f597839b5c9b80e1cc175f2395f>INTR_Register</h4><pre class=ada-code-snippet><code>type INTR_Register is record
+   INTR           : INTR_INTR_Field;
+   Reserved_16_31 : HAL.UInt16;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>INTR<dd><dt>Reserved_16_31<dd></dl><h4 id=7af45ff815717ab4ae2265aca75f02b8cd538a7e34cae249df53db6cc87379b8>INTS0_INTS0_Field</h4><pre class=ada-code-snippet><code>subtype INTS0_INTS0_Field is HAL.UInt16;
+</code></pre><h4 id=e7e4dc4b65426ff98e104b3064990e43ad5273e7db167d062b4294bcb53cafb3>INTS0_Register</h4><pre class=ada-code-snippet><code>type INTS0_Register is record
+   INTS0          : INTS0_INTS0_Field := 16#0#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>INTS0<dd><dt>Reserved_16_31<dd></dl><h4 id=a17e3c84babec5727fafb0de9691a63b255f0e9c1a60779a04824922b8f5f92f>INTS1_INTS1_Field</h4><pre class=ada-code-snippet><code>subtype INTS1_INTS1_Field is HAL.UInt16;
+</code></pre><h4 id=f3f4584cc644c9bf360f2e787fd801f6c38599de0a3078d00c7b367da7875528>INTS1_Register</h4><pre class=ada-code-snippet><code>type INTS1_Register is record
+   INTS1          : INTS1_INTS1_Field := 16#0#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>INTS1<dd><dt>Reserved_16_31<dd></dl><h4 id=755d4014cf1125e7651da2b76bdce0228a74f1d4d4ead5286f0469915b702ffb>MULTI_CHAN_TRIGGER_MULTI_CHAN_TRIGGER_Field</h4><pre class=ada-code-snippet><code>subtype MULTI_CHAN_TRIGGER_MULTI_CHAN_TRIGGER_Field is HAL.UInt16;
+</code></pre><h4 id=65333ab2e345bf318f5be044d146a64a5d31bdad1e19a63df20c051ca86982fe>MULTI_CHAN_TRIGGER_Register</h4><pre class=ada-code-snippet><code>type MULTI_CHAN_TRIGGER_Register is record
+   MULTI_CHAN_TRIGGER : MULTI_CHAN_TRIGGER_MULTI_CHAN_TRIGGER_Field :=
+                         16#0#;
+   Reserved_16_31     : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>MULTI_CHAN_TRIGGER<dd><dt>Reserved_16_31<dd></dl><h4 id=586675c8995abf33689b793256bc247e506ae90ed16717b4a42ec71cc437bd83>N_CHANNELS_N_CHANNELS_Field</h4><pre class=ada-code-snippet><code>subtype N_CHANNELS_N_CHANNELS_Field is HAL.UInt5;
+</code></pre><h4 id=247196ef5185877d3f9caee407b764599ad57d62b035609267912631de40e077>N_CHANNELS_Register</h4><pre class=ada-code-snippet><code>type N_CHANNELS_Register is record
+   N_CHANNELS    : N_CHANNELS_N_CHANNELS_Field;
+   Reserved_5_31 : HAL.UInt27;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>N_CHANNELS<dd><dt>Reserved_5_31<dd></dl><h4 id=c433a2457fe38609c4d6500c45da398fa43d6f071d92dc550a2703794e5c305c>SNIFF_CTRL_CALC_Field</h4><pre class=ada-code-snippet><code>type SNIFF_CTRL_CALC_Field is
+   CRC32,
+   CRC32R,
+   CRC16,
+   CRC16R,
+   EVEN,
+   SUM)
+  with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>CRC32<dd><p>Calculate a CRC-32 (IEEE802.3 polynomial) with bit reversed data<dt>CRC32R<dd><p>Calculate a CRC-16-CCITT<dt>CRC16<dd><p>Calculate a CRC-16-CCITT with bit reversed data<dt>CRC16R<dd><p>XOR reduction over all data. == 1 if the total 1 population count is odd.<dt>EVEN<dd><p>Calculate a simple 32-bit checksum (addition with a 32 bit accumulator)<dt>SUM<dd></dl><h4 id=84d035e1b0fb2abd1511dc3f4fa7ebb01c277309c24067f82354a01a24f69091>SNIFF_CTRL_DMACH_Field</h4><pre class=ada-code-snippet><code>subtype SNIFF_CTRL_DMACH_Field is HAL.UInt4;
+</code></pre><h4 id=bd95d1a146ea51240948e1d1ae51796c2c14b2132b3fe8fb5d34952915833017>SNIFF_CTRL_Register</h4><pre class=ada-code-snippet><code>type SNIFF_CTRL_Register is record
+   EN             : Boolean := False;
+   DMACH          : SNIFF_CTRL_DMACH_Field := 16#0#;
+   CALC           : SNIFF_CTRL_CALC_Field := RP2040_SVD.DMA.CRC32;
+   BSWAP          : Boolean := False;
+   OUT_REV        : Boolean := False;
+   OUT_INV        : Boolean := False;
+   Reserved_12_31 : HAL.UInt20 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>DMACH<dd><dt>CALC<dd><dt>BSWAP<dd><dt>OUT_REV<dd><dt>OUT_INV<dd><dt>Reserved_12_31<dd></dl><h4 id=a3affe866135a7505dc1b24bafda7485a2138fe59223d760da2a52c6f6fc1b41>TIMER_Register</h4><pre class=ada-code-snippet><code>type TIMER_Register is record
+   Y : TIMER_Y_Field := 16#0#;
+   X : TIMER_X_Field := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Y<dd><dt>X<dd></dl><h4 id=23d674c30b8ed4b09d8b22bf35a61c498c5d40a394c9795ae757aee1a1158644>TIMER_X_Field</h4><pre class=ada-code-snippet><code>subtype TIMER_X_Field is HAL.UInt16;
+</code></pre><h4 id=dfaefb094d6ea0eac3f8e86ca426a3a2249cb2b42705b2a586a8f02b416e72cc>TIMER_Y_Field</h4><pre class=ada-code-snippet><code>subtype TIMER_Y_Field is HAL.UInt16;
+</code></pre>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.PIO.Encoding</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#be08cee20861324248bd57360ae473a244dc60c4ce4dc0104f98fd3d1cb56c51>JMP_Condition</a><li><a href=#a3a8cebb71b543b9fce897b288a662f49fbe8f7f0886eaa0256abce24598d6c0>MOV_Operation</a><li><a href=#bcac0f1cba4e9add6f6fe787ddb3eabbc419a3eff641873fc7a0aa4121466c1d>MOV_Target</a><li><a href=#9ecbb386b5feb1d2e09eb12746ff933fb2cfe89788a8a9ac56af48ffc892de6e>SET_Destination</a><li><a href=#99185ce1f169b7ae9b672532553c3d0e416ea51dd6943573f956623140d86c6c>SHIFT_IN_Source</a><li><a href=#0169c5a075b2d474aa6334a2b8e1680db26874a120f36a4fdcfc50fa94d6177f>SHIFT_OUT_Destination</a><li><a href=#367956b6440d2de44f4383a5f41acb061290d771afd7f2f5571ab85c41c47456>WAIT_Source</a></ul><h3>Record Types</h3><ul><li><a href=#231824a1e4e76cc9787652aacda376b3816439ba8d69bb766292d589653a9f9d>IRQ</a><li><a href=#0fb00f8c3ef7b462c4884fa5e28b25b3eabc04c7fe1e17e289c5571abe945740>JMP</a><li><a href=#6872078bad66ffe661adf323e6db2ce585032d72c3c0ddd8657edbafe19d7b7f>MOV</a><li><a href=#e457f29dea5a09323546249865d995e4efdcb89db49084e07ef614bde81ca3da>PULL</a><li><a href=#2961be0791f911f23c3ae7f3eb70749bdac865c3a292145d15a58109e98a1686>PUSH</a><li><a href=#a2d38ee2d53e4eed8394206c76f64440cedab96dc858aaa9c851cb6eceb0c69b>SET</a><li><a href=#d80e669c51340617888b176012976724e32391e88af76519868ff1c6d5bf78e8>SHIFT_IN</a><li><a href=#3ae125af57b03d2e3e30b24c64569f1705c7df8d950e55cd3e46912ea6e6ba45>SHIFT_OUT</a><li><a href=#b39b6e1d3b9193008bc50036a9adcd13005db1bd0f9dd839d1c5d634a0f1d43a>WAIT</a></ul><h3>Generic Instantiations</h3><ul><li><a href=#00145a3b2457a18fed0644781479c2b89b995248be482eb0920520254fe35f0e>Encode</a><li><a href=#4cec0f152373f9817d7c1bc74fe0f48ce68c46266bcb5d4a7a76a0fc18bfe52f>Encode</a><li><a href=#8f137333567a0d3431d901c13585a3f738b50a835dc347031ef13901f3488c26>Encode</a><li><a href=#873021ee9344a1013ab736417f78f3aec1849675d83e0e961ad22f7362700f04>Encode</a><li><a href=#2cd577d7afcfdcc5344fdb08beb6c93335ea985422f0127efb2a2bd8408a958d>Encode</a><li><a href=#95a888717b2a0fb506f1f36a034dffd0ef286a897d8440c44243376ef757253a>Encode</a><li><a href=#f9a07836c815eb980c4803dd09b1f913592ee68ab2baac238d058e55e2beb43e>Encode</a><li><a href=#77f6a6a2074dfbff89011b900b78605ad8b473aa48c84d35fa6c0c89227478fd>Encode</a><li><a href=#c7ad10446cb78e9c3d552b5f3d6e2d6492894fcdcd3ec42798ac831b8ae6cf39>Encode</a></ul><h2>Description</h2><h4 id=00145a3b2457a18fed0644781479c2b89b995248be482eb0920520254fe35f0e>Encode</h4><pre class=ada-code-snippet><code>function Encode is new Ada.Unchecked_Conversion (IRQ, PIO_Instruction);
+</code></pre><h4 id=4cec0f152373f9817d7c1bc74fe0f48ce68c46266bcb5d4a7a76a0fc18bfe52f>Encode</h4><pre class=ada-code-snippet><code>function Encode is new Ada.Unchecked_Conversion (JMP, PIO_Instruction);
+</code></pre><h4 id=8f137333567a0d3431d901c13585a3f738b50a835dc347031ef13901f3488c26>Encode</h4><pre class=ada-code-snippet><code>function Encode is new Ada.Unchecked_Conversion (MOV, PIO_Instruction);
+</code></pre><h4 id=873021ee9344a1013ab736417f78f3aec1849675d83e0e961ad22f7362700f04>Encode</h4><pre class=ada-code-snippet><code>function Encode is new Ada.Unchecked_Conversion (PULL, PIO_Instruction);
+</code></pre><h4 id=2cd577d7afcfdcc5344fdb08beb6c93335ea985422f0127efb2a2bd8408a958d>Encode</h4><pre class=ada-code-snippet><code>function Encode is new Ada.Unchecked_Conversion (PUSH, PIO_Instruction);
+</code></pre><h4 id=95a888717b2a0fb506f1f36a034dffd0ef286a897d8440c44243376ef757253a>Encode</h4><pre class=ada-code-snippet><code>function Encode is new Ada.Unchecked_Conversion (SET, PIO_Instruction);
+</code></pre><h4 id=f9a07836c815eb980c4803dd09b1f913592ee68ab2baac238d058e55e2beb43e>Encode</h4><pre class=ada-code-snippet><code>function Encode is new Ada.Unchecked_Conversion (SHIFT_IN, PIO_Instruction);
+</code></pre><h4 id=77f6a6a2074dfbff89011b900b78605ad8b473aa48c84d35fa6c0c89227478fd>Encode</h4><pre class=ada-code-snippet><code>function Encode is new Ada.Unchecked_Conversion (SHIFT_OUT, PIO_Instruction);
+</code></pre><h4 id=c7ad10446cb78e9c3d552b5f3d6e2d6492894fcdcd3ec42798ac831b8ae6cf39>Encode</h4><pre class=ada-code-snippet><code>function Encode is new Ada.Unchecked_Conversion (WAIT, PIO_Instruction);
+</code></pre><h4 id=231824a1e4e76cc9787652aacda376b3816439ba8d69bb766292d589653a9f9d>IRQ</h4><pre class=ada-code-snippet><code>type IRQ is record
+   Opcode         : HAL.UInt3 := 2#110#;
+   Delay_Sideset  : HAL.UInt5 := 0;
+   Opcode_2       : Boolean := False;
+   Clear          : Boolean := False;
+   Wait           : Boolean := False;
+   Index          : HAL.UInt5;
+end record
+   with Size => 16;
+</code></pre><h5>Record fields</h5><dl><dt>Opcode<dd><dt>Delay_Sideset<dd><dt>Opcode_2<dd><dt>Clear<dd><dt>Wait<dd><dt>Index<dd></dl><h4 id=0fb00f8c3ef7b462c4884fa5e28b25b3eabc04c7fe1e17e289c5571abe945740>JMP</h4><pre class=ada-code-snippet><code>type JMP is record
+   Opcode         : HAL.UInt3 := 2#000#;
+   Delay_Sideset  : HAL.UInt5 := 0;
+   Condition      : JMP_Condition := Always;
+   Address        : HAL.UInt5 := 0;
+end record
+   with Size => 16;
+</code></pre><h5>Record fields</h5><dl><dt>Opcode<dd><dt>Delay_Sideset<dd><dt>Condition<dd><dt>Address<dd></dl><h4 id=be08cee20861324248bd57360ae473a244dc60c4ce4dc0104f98fd3d1cb56c51>JMP_Condition</h4><pre class=ada-code-snippet><code>type JMP_Condition is
+   (Always,
+    Scratch_X_Zero,
+    Scratch_X_Nonzero_Decrement,
+    Scratch_Y_Zero,
+    Scratch_Y_Nonzero_Decrement,
+    X_Notequal_Y,
+    Input_Pin,
+    OSRE_Not_Empty)
+with Size => 3;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Always<dd><dt>Scratch_X_Zero<dd><p>!X<dt>Scratch_X_Nonzero_Decrement<dd><p>X--<dt>Scratch_Y_Zero<dd><p>!Y<dt>Scratch_Y_Nonzero_Decrement<dd><p>Y--<dt>X_Notequal_Y<dd><p>X!=Y<dt>Input_Pin<dd><p>PIN<dt>OSRE_Not_Empty<dd><p>!OSRE</dl><h4 id=6872078bad66ffe661adf323e6db2ce585032d72c3c0ddd8657edbafe19d7b7f>MOV</h4><pre class=ada-code-snippet><code>type MOV is record
+   Opcode         : HAL.UInt3 := 2#101#;
+   Delay_Sideset  : HAL.UInt5 := 0;
+   Destination    : MOV_Target := PINS;
+   Operation      : MOV_Operation := None;
+   Source         : MOV_Target := PINS;
+end record
+   with Size => 16;
+</code></pre><h5>Record fields</h5><dl><dt>Opcode<dd><dt>Delay_Sideset<dd><dt>Destination<dd><dt>Operation<dd><dt>Source<dd></dl><h4 id=a3a8cebb71b543b9fce897b288a662f49fbe8f7f0886eaa0256abce24598d6c0>MOV_Operation</h4><pre class=ada-code-snippet><code>type MOV_Operation is
+   (None, Invert, Bit_Reverse)
+with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>None<dd><dt>Invert<dd><dt>Bit_Reverse<dd></dl><h4 id=bcac0f1cba4e9add6f6fe787ddb3eabbc419a3eff641873fc7a0aa4121466c1d>MOV_Target</h4><pre class=ada-code-snippet><code>type MOV_Target is
+   (PINS, X, Y, EXEC, PC, ISR, OSR)
+with Size => 3;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>PINS<dd><dt>X<dd><dt>Y<dd><dt>EXEC<dd><dt>PC<dd><dt>ISR<dd><dt>OSR<dd></dl><h4 id=e457f29dea5a09323546249865d995e4efdcb89db49084e07ef614bde81ca3da>PULL</h4><pre class=ada-code-snippet><code>type PULL is record
+   Opcode         : HAL.UInt3 := 2#100#;
+   Delay_Sideset  : HAL.UInt5 := 0;
+   Opcode_2       : Boolean := True;
+   If_Empty       : Boolean := False;
+   Block          : Boolean := False;
+   Opcode_3       : HAL.UInt5 := 0;
+end record
+   with Size => 16;
+</code></pre><h5>Record fields</h5><dl><dt>Opcode<dd><dt>Delay_Sideset<dd><dt>Opcode_2<dd><dt>If_Empty<dd><dt>Block<dd><dt>Opcode_3<dd></dl><h4 id=2961be0791f911f23c3ae7f3eb70749bdac865c3a292145d15a58109e98a1686>PUSH</h4><pre class=ada-code-snippet><code>type PUSH is record
+   Opcode         : HAL.UInt3 := 2#100#;
+   Delay_Sideset  : HAL.UInt5 := 0;
+   Opcode_2       : Boolean := False;
+   If_Full        : Boolean := False;
+   Block          : Boolean := False;
+   Opcode_3       : HAL.UInt5 := 0;
+end record
+   with Size => 16;
+</code></pre><h5>Record fields</h5><dl><dt>Opcode<dd><dt>Delay_Sideset<dd><dt>Opcode_2<dd><dt>If_Full<dd><dt>Block<dd><dt>Opcode_3<dd></dl><h4 id=a2d38ee2d53e4eed8394206c76f64440cedab96dc858aaa9c851cb6eceb0c69b>SET</h4><pre class=ada-code-snippet><code>type SET is record
+   Opcode         : HAL.UInt3 := 2#111#;
+   Delay_Sideset  : HAL.UInt5 := 0;
+   Destination    : SET_Destination := PINS;
+   Data           : HAL.UInt5 := 0;
+end record
+   with Size => 16;
+</code></pre><h5>Record fields</h5><dl><dt>Opcode<dd><dt>Delay_Sideset<dd><dt>Destination<dd><dt>Data<dd></dl><h4 id=9ecbb386b5feb1d2e09eb12746ff933fb2cfe89788a8a9ac56af48ffc892de6e>SET_Destination</h4><pre class=ada-code-snippet><code>type SET_Destination is
+   (PINS, X, Y, PINDIRS)
+with Size => 3;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>PINS<dd><dt>X<dd><dt>Y<dd><dt>PINDIRS<dd></dl><h4 id=d80e669c51340617888b176012976724e32391e88af76519868ff1c6d5bf78e8>SHIFT_IN</h4><pre class=ada-code-snippet><code>type SHIFT_IN is record
+   Opcode         : HAL.UInt3 := 2#010#;
+   Delay_Sideset  : HAL.UInt5 := 0;
+   Source         : SHIFT_IN_Source := PINS;
+   Bit_Count      : HAL.UInt5;
+end record
+   with Size => 16;
+</code></pre><h5>Record fields</h5><dl><dt>Opcode<dd><dt>Delay_Sideset<dd><dt>Source<dd><dt>Bit_Count<dd><p>0 = 32</dl><h4 id=99185ce1f169b7ae9b672532553c3d0e416ea51dd6943573f956623140d86c6c>SHIFT_IN_Source</h4><pre class=ada-code-snippet><code>type SHIFT_IN_Source is
+   (PINS, X, Y, ZERO, ISR, OSR)
+with Size => 3;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>PINS<dd><dt>X<dd><dt>Y<dd><dt>ZERO<dd><dt>ISR<dd><dt>OSR<dd></dl><h4 id=3ae125af57b03d2e3e30b24c64569f1705c7df8d950e55cd3e46912ea6e6ba45>SHIFT_OUT</h4><pre class=ada-code-snippet><code>type SHIFT_OUT is record
+   Opcode         : HAL.UInt3 := 2#011#;
+   Delay_Sideset  : HAL.UInt5 := 0;
+   Destination    : SHIFT_OUT_Destination := PINS;
+   Bit_Count      : HAL.UInt5;
+end record
+   with Size => 16;
+</code></pre><h5>Record fields</h5><dl><dt>Opcode<dd><dt>Delay_Sideset<dd><dt>Destination<dd><dt>Bit_Count<dd><p>0 = 32</dl><h4 id=0169c5a075b2d474aa6334a2b8e1680db26874a120f36a4fdcfc50fa94d6177f>SHIFT_OUT_Destination</h4><pre class=ada-code-snippet><code>type SHIFT_OUT_Destination is
+   (PINS, X, Y, DISCARD, PINDIRS, PC, ISR, EXEC)
+with Size => 3;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>PINS<dd><dt>X<dd><dt>Y<dd><dt>DISCARD<dd><dt>PINDIRS<dd><dt>PC<dd><dt>ISR<dd><dt>EXEC<dd></dl><h4 id=b39b6e1d3b9193008bc50036a9adcd13005db1bd0f9dd839d1c5d634a0f1d43a>WAIT</h4><pre class=ada-code-snippet><code>type WAIT is record
+   Opcode         : HAL.UInt3 := 2#001#;
+   Delay_Sideset  : HAL.UInt5 := 0;
+   Polarity       : Boolean := False;
+   Source         : WAIT_Source := GPIO;
+   Index          : HAL.UInt5 := 0;
+end record
+   with Size => 16;
+</code></pre><h5>Record fields</h5><dl><dt>Opcode<dd><dt>Delay_Sideset<dd><dt>Polarity<dd><dt>Source<dd><dt>Index<dd></dl><h4 id=367956b6440d2de44f4383a5f41acb061290d771afd7f2f5571ab85c41c47456>WAIT_Source</h4><pre class=ada-code-snippet><code>type WAIT_Source is
+   (GPIO, PIN, WAIT_IRQ)
+with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>GPIO<dd><dt>PIN<dd><dt>WAIT_IRQ<dd></dl>

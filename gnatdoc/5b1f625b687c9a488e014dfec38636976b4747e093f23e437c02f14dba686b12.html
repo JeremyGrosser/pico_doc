@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.Clock</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#706a873a0f4dd3c1cacf0345adf5fb59aab07ee8194f7644328c995943e55509>Clock_Id</a></ul><h3>Record Types</h3><ul><li><a href=#0e9259c890ef3e1e08544b61ad45245480fc95a25695ed6d1c8946855e4a3e68>PLL_Config</a></ul><h3>Subtypes</h3><ul><li><a href=#dd29e209656f7b09be889952c3729688821c3db72598037c124da108aafc1780>Countable_Clock_Id</a><li><a href=#a68befcab75a978c307330440ed3888b85d5a9e64a5b97ac09f955ada781dd5c>GP_Output</a><li><a href=#f83d1b5f118f9f981d1783f27fd8d5ccab9a24ec0149ddb6a814c8670d7d1f29>GP_Source</a><li><a href=#8b767e7faea78f4c8b07cab0dc48dff31ed05bdd9ce2808e8158286cfd5d41ea>PLL_Clock_Id</a><li><a href=#f2cff416c7794ef30c2d99fcf7bc51a5aad53015fc4aac09c0a1d2333564d367>PLL_FBDIV_Field</a><li><a href=#3f8dab33f63a6de7f833b7fc967472ee09bda6565ed9c9a734eb6582620f8e06>PLL_FREF_Field</a><li><a href=#be9b25f5fb9fdad768270a6b6f3cd0fe8e12f1e75146222e372a230be267b0a8>PLL_POSTDIV_Field</a><li><a href=#d9247e17f9d26772f74074698527111b42af6e92291b1af58e38f2963317a5a1>PLL_REFDIV_Field</a><li><a href=#678939e8cb7d6aa3afa24d38144af45c2d18589c10931a7a016bb878e5add6b0>SYS_Clock_Id</a><li><a href=#9f99d81420343c66a2030c8d4f0501ae21a97979dea94b1c15083824109cfc10>XOSC_Cycles</a><li><a href=#9f5cfcf7aa0041670b264d0dbef70d44ae47eeaeb68f0973408c718465874847>XOSC_Hertz</a></ul><h3>Constants</h3><ul><li><a href=#a56de091c95ae00819896bf4122ef64b022e8f95cd6e17e4849d800260a99415>GP_Divider_Fraction</a><li><a href=#e5fade7cbbb8911bb08b565b10c9cb0bb283af42fc5652d92fe546f9d22ba715>PLL_125_MHz</a><li><a href=#6e77fa75989707db1b075fa6724246fdf8f9fb5b8dd8fdab1fdb59c64145b2f0>PLL_133_MHz</a><li><a href=#7cacda6ff1142c2d61d1c950bc5275b376b97273dc08de11ff8bdd06815b136d>PLL_250_MHz</a><li><a href=#f2a5753b9a2dc726433e320d623673cf090618aa06f9eb0940e1ef579d86dd9e>PLL_48_MHz</a></ul><h3>Subprograms</h3><ul><li><a href=#9aef99a0f401e3cd16781afb7310ca249892ef8e0710baae67651ded0470048f>Configure_PLL</a><li><a href=#963390d3948aa008a8ef6c2e8a278158e498dfcea5647cec3d6b094557628ad5>Disable</a><li><a href=#bec1639199364431d9bdff4124c5d3ad7fc2c102924da63696cf98d510b392aa>Enable</a><li><a href=#2ec914ef755abfaf3a0ac0769727de77c61a6f12e1060af34582b219448f6acd>Enabled</a><li><a href=#dd3cc3c61d4dd7503726ee41c4ae4ebbd97dbfd23c148c7e6c5369e43c0dab47>Frequency</a><li><a href=#a4f3161319e32f32880d0f625d6f7de6a964b24cb9a5049534c1f55a54c1be38>Initialize</a><li><a href=#512cdb1517e32742c1d5dcc1f5200739c64ae995a019a4d5deeb805d3d15fe52>ROSC_Frequency</a><li><a href=#ba4f6319807b4aa6bbec30ab0543b57a397e8b82f7bab3ac5a791454ff2b5946>Set_Divider</a><li><a href=#edda3bfb9c33c694de0460a65432f5a9b9acb50eeefbe8634bdaffbeaaddc5f8>Set_Source</a><li><a href=#fff2c2babe53760867c95ef850e538137f8eee35b9f256e64d99523e2373cada>Set_SYS_Source</a></ul><h2>Description</h2><h4 id=706a873a0f4dd3c1cacf0345adf5fb59aab07ee8194f7644328c995943e55509>Clock_Id</h4><pre class=ada-code-snippet><code>type Clock_Id is
+   (GPOUT0, GPOUT1, GPOUT2, GPOUT3, REF, SYS, PERI, USB, ADC, RTC,
+    PLL_SYS, GPIN0, GPIN1, PLL_USB, ROSC, XOSC);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>GPOUT0<dd><dt>GPOUT1<dd><dt>GPOUT2<dd><dt>GPOUT3<dd><dt>REF<dd><dt>SYS<dd><dt>PERI<dd><dt>USB<dd><dt>ADC<dd><dt>RTC<dd><dt>PLL_SYS<dd><dt>GPIN0<dd><dt>GPIN1<dd><dt>PLL_USB<dd><dt>ROSC<dd><dt>XOSC<dd></dl><h4 id=9aef99a0f401e3cd16781afb7310ca249892ef8e0710baae67651ded0470048f>Configure_PLL</h4><pre class=ada-code-snippet><code>procedure Configure_PLL
+   (PLL    : PLL_Clock_Id;
+    Config : PLL_Config)
+</code></pre><p>Remember to switch clk_sys to another source before modifying PLL_SYS<h5>Parameters</h5><dl><dt>PLL<dd><dt>Config<dd></dl><h4 id=dd29e209656f7b09be889952c3729688821c3db72598037c124da108aafc1780>Countable_Clock_Id</h4><pre class=ada-code-snippet><code>subtype Countable_Clock_Id is Clock_Id range REF .. RTC;
+</code></pre><p>By default, the fractional part of the frequency counter result register is ignored. Setting Rounded = False includes the fractional frequency, which may include as much as 2048 KHz of error, depending on the value of Accuracy. Higher Accuracy values take longer to measure the clock, but produce more accurate results.<h4 id=963390d3948aa008a8ef6c2e8a278158e498dfcea5647cec3d6b094557628ad5>Disable</h4><pre class=ada-code-snippet><code>procedure Disable
+   (CID : Clock_Id)
+</code></pre><h5>Parameters</h5><dl><dt>CID<dd></dl><h4 id=bec1639199364431d9bdff4124c5d3ad7fc2c102924da63696cf98d510b392aa>Enable</h4><pre class=ada-code-snippet><code>procedure Enable
+   (CID : Clock_Id)
+</code></pre><h5>Parameters</h5><dl><dt>CID<dd></dl><h4 id=2ec914ef755abfaf3a0ac0769727de77c61a6f12e1060af34582b219448f6acd>Enabled</h4><pre class=ada-code-snippet><code>function Enabled
+   (CID : Clock_Id)
+   return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>CID<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=dd3cc3c61d4dd7503726ee41c4ae4ebbd97dbfd23c148c7e6c5369e43c0dab47>Frequency</h4><pre class=ada-code-snippet><code>function Frequency
+   (CID      : Countable_Clock_Id;
+    Rounded  : Boolean := True;
+    Accuracy : UInt4 := 15)
+    return Hertz
+</code></pre><p>By default, the fractional part of the frequency counter result register is ignored. Setting Rounded = False includes the fractional frequency, which may include as much as 2048 KHz of error, depending on the value of Accuracy. Higher Accuracy values take longer to measure the clock, but produce more accurate results.<h5>Parameters</h5><dl><dt>CID<dd><dt>Rounded<dd><dt>Accuracy<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=a56de091c95ae00819896bf4122ef64b022e8f95cd6e17e4849d800260a99415>GP_Divider_Fraction</h4><pre class=ada-code-snippet><code>GP_Divider_Fraction : constant := 1.0 / (2 ** 8);
+</code></pre><p>If GP_Divider is 0.0, then it represents (2.0 ** 16)<h4 id=a68befcab75a978c307330440ed3888b85d5a9e64a5b97ac09f955ada781dd5c>GP_Output</h4><pre class=ada-code-snippet><code>subtype GP_Output is Clock_Id range GPOUT0 .. GPOUT3;
+</code></pre><h4 id=f83d1b5f118f9f981d1783f27fd8d5ccab9a24ec0149ddb6a814c8670d7d1f29>GP_Source</h4><pre class=ada-code-snippet><code>subtype GP_Source is Clock_Id range REF .. XOSC;
+</code></pre><h4 id=a4f3161319e32f32880d0f625d6f7de6a964b24cb9a5049534c1f55a54c1be38>Initialize</h4><pre class=ada-code-snippet><code>procedure Initialize
+   (XOSC_Frequency     : XOSC_Hertz := 0;
+    XOSC_Startup_Delay : XOSC_Cycles := 770_048)
+</code></pre><p>See 2.16.3 Startup Delay for XOSC_Startup_Delay calculation. The default value is approximately 1ms with a 12 MHz crystal.<h5>Parameters</h5><dl><dt>XOSC_Frequency<dd><dt>XOSC_Startup_Delay<dd><p>~64ms with a 12 MHz crystal</dl><h4 id=e5fade7cbbb8911bb08b565b10c9cb0bb283af42fc5652d92fe546f9d22ba715>PLL_125_MHz</h4><pre class=ada-code-snippet><code>PLL_125_MHz : constant PLL_Config :=
+   (FREF     => 12_000_000,
+    REFDIV   => 1,
+    FBDIV    => 125,
+    POSTDIV1 => 6,
+    POSTDIV2 => 2);
+</code></pre><h4 id=6e77fa75989707db1b075fa6724246fdf8f9fb5b8dd8fdab1fdb59c64145b2f0>PLL_133_MHz</h4><pre class=ada-code-snippet><code>PLL_133_MHz : constant PLL_Config :=
+   (FREF     => 12_000_000,
+    REFDIV   => 1,
+    FBDIV    => 133,
+    POSTDIV1 => 6,
+    POSTDIV2 => 2);
+</code></pre><h4 id=7cacda6ff1142c2d61d1c950bc5275b376b97273dc08de11ff8bdd06815b136d>PLL_250_MHz</h4><pre class=ada-code-snippet><code>PLL_250_MHz : constant PLL_Config :=
+   (FREF     => 12_000_000,
+    REFDIV   => 1,
+    FBDIV    => 125,
+    POSTDIV1 => 6,
+    POSTDIV2 => 1);
+</code></pre><h4 id=f2a5753b9a2dc726433e320d623673cf090618aa06f9eb0940e1ef579d86dd9e>PLL_48_MHz</h4><pre class=ada-code-snippet><code>PLL_48_MHz : constant PLL_Config :=
+   (FREF     => 12_000_000,
+    REFDIV   => 1,
+    FBDIV    => 64,
+    POSTDIV1 => 4,
+    POSTDIV2 => 4);
+</code></pre><h4 id=8b767e7faea78f4c8b07cab0dc48dff31ed05bdd9ce2808e8158286cfd5d41ea>PLL_Clock_Id</h4><pre class=ada-code-snippet><code>subtype PLL_Clock_Id is Clock_Id
+   with Static_Predicate => PLL_Clock_Id in PLL_SYS | PLL_USB;
+</code></pre><p>2.18.2. Calculating PLL parameters PLL = (FREF / REFDIV) * FBDIV / (POSTDIV1 / POSTDIV2) Common configurations are included below. Use pico-sdk/src/rp2_common/hardware_clocks/scripts/vcocalc.py<h4 id=0e9259c890ef3e1e08544b61ad45245480fc95a25695ed6d1c8946855e4a3e68>PLL_Config</h4><pre class=ada-code-snippet><code>type PLL_Config is record
+   FREF     : PLL_FREF_Field;
+   REFDIV   : PLL_REFDIV_Field;
+   FBDIV    : PLL_FBDIV_Field;
+   POSTDIV1 : PLL_POSTDIV_Field;
+   POSTDIV2 : PLL_POSTDIV_Field;
+end record;
+</code></pre><p>2.18.2. Calculating PLL parameters PLL = (FREF / REFDIV) * FBDIV / (POSTDIV1 / POSTDIV2) Common configurations are included below. Use pico-sdk/src/rp2_common/hardware_clocks/scripts/vcocalc.py<h5>Record fields</h5><dl><dt>FREF<dd><dt>REFDIV<dd><dt>FBDIV<dd><dt>POSTDIV1<dd><dt>POSTDIV2<dd></dl><h4 id=f2cff416c7794ef30c2d99fcf7bc51a5aad53015fc4aac09c0a1d2333564d367>PLL_FBDIV_Field</h4><pre class=ada-code-snippet><code>subtype PLL_FBDIV_Field is UInt12 range 16 .. 320;
+</code></pre><p>2.18.2. Calculating PLL parameters PLL = (FREF / REFDIV) * FBDIV / (POSTDIV1 / POSTDIV2) Common configurations are included below. Use pico-sdk/src/rp2_common/hardware_clocks/scripts/vcocalc.py<h4 id=3f8dab33f63a6de7f833b7fc967472ee09bda6565ed9c9a734eb6582620f8e06>PLL_FREF_Field</h4><pre class=ada-code-snippet><code>subtype PLL_FREF_Field is Hertz range 5_000_000 .. 800_000_000;
+</code></pre><p>2.18.2. Calculating PLL parameters PLL = (FREF / REFDIV) * FBDIV / (POSTDIV1 / POSTDIV2) Common configurations are included below. Use pico-sdk/src/rp2_common/hardware_clocks/scripts/vcocalc.py<h4 id=be9b25f5fb9fdad768270a6b6f3cd0fe8e12f1e75146222e372a230be267b0a8>PLL_POSTDIV_Field</h4><pre class=ada-code-snippet><code>subtype PLL_POSTDIV_Field is UInt3 range 1 .. 7;
+</code></pre><p>2.18.2. Calculating PLL parameters PLL = (FREF / REFDIV) * FBDIV / (POSTDIV1 / POSTDIV2) Common configurations are included below. Use pico-sdk/src/rp2_common/hardware_clocks/scripts/vcocalc.py<h4 id=d9247e17f9d26772f74074698527111b42af6e92291b1af58e38f2963317a5a1>PLL_REFDIV_Field</h4><pre class=ada-code-snippet><code>subtype PLL_REFDIV_Field is UInt6 range 1 .. 63;
+</code></pre><p>2.18.2. Calculating PLL parameters PLL = (FREF / REFDIV) * FBDIV / (POSTDIV1 / POSTDIV2) Common configurations are included below. Use pico-sdk/src/rp2_common/hardware_clocks/scripts/vcocalc.py<h4 id=512cdb1517e32742c1d5dcc1f5200739c64ae995a019a4d5deeb805d3d15fe52>ROSC_Frequency</h4><pre class=ada-code-snippet><code>function ROSC_Frequency return Hertz
+</code></pre><h5>Return Value</h5><dl><dd></dl><h4 id=ba4f6319807b4aa6bbec30ab0543b57a397e8b82f7bab3ac5a791454ff2b5946>Set_Divider</h4><pre class=ada-code-snippet><code>procedure Set_Divider
+   (GP  : GP_Output;
+    Div : GP_Divider)
+</code></pre><h5>Parameters</h5><dl><dt>GP<dd><dt>Div<dd></dl><h4 id=edda3bfb9c33c694de0460a65432f5a9b9acb50eeefbe8634bdaffbeaaddc5f8>Set_Source</h4><pre class=ada-code-snippet><code>procedure Set_Source
+   (GP     : GP_Output;
+    Source : GP_Source)
+</code></pre><p>GP will glitch if enabled while changing sources<h5>Parameters</h5><dl><dt>GP<dd><dt>Source<dd></dl><h4 id=fff2c2babe53760867c95ef850e538137f8eee35b9f256e64d99523e2373cada>Set_SYS_Source</h4><pre class=ada-code-snippet><code>procedure Set_SYS_Source
+   (Source : SYS_Clock_Id)
+</code></pre><h5>Parameters</h5><dl><dt>Source<dd></dl><h4 id=678939e8cb7d6aa3afa24d38144af45c2d18589c10931a7a016bb878e5add6b0>SYS_Clock_Id</h4><pre class=ada-code-snippet><code>subtype SYS_Clock_Id is Clock_Id range PLL_SYS .. XOSC;
+</code></pre><h4 id=9f99d81420343c66a2030c8d4f0501ae21a97979dea94b1c15083824109cfc10>XOSC_Cycles</h4><pre class=ada-code-snippet><code>subtype XOSC_Cycles is Natural;
+</code></pre><h4 id=9f5cfcf7aa0041670b264d0dbef70d44ae47eeaeb68f0973408c718465874847>XOSC_Hertz</h4><pre class=ada-code-snippet><code>subtype XOSC_Hertz is Hertz range 0 .. 15_000_000
+   with Static_Predicate => XOSC_Hertz in 0 | 1_000_000 .. 15_000_000;
+</code></pre><p>The special value 0 indicates that the XOSC is not available.

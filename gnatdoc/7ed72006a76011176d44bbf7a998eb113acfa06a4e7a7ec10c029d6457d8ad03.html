@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.PWM</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#4c7ba5ccd419c19c5aae21d4731c8a24e9273e01a5a2d3d8fc83b8c303295f68>PWM_Channel</a><li><a href=#745a56d47c55dff8e743ce87711c861a76ae9bf717347d1449a6c799e74ab261>PWM_Divider_Mode</a><li><a href=#b888d2e212e19c6e17b5211df9afaadf08ef3f3bd50b3403372a52c293d2aae2>PWM_Slice</a></ul><h3>Array Types</h3><ul><li><a href=#394985ae36bf9ba6bb8286a2c9a74ebe0e75bf9660984aefe418ca6aabd56e89>PWM_Slice_Array</a></ul><h3>Record Types</h3><ul><li><a href=#4690ef5118bceee83e9fd126691281794d8d725fbce6ed58376e114abbfb5e5c>PWM_Point</a></ul><h3>Subtypes</h3><ul><li><a href=#a155a79ff67483f1e0286b0aa497164cd2cc34163811a0f8fef3028b499c7fe5>Period</a></ul><h3>Constants</h3><ul><li><a href=#ddce15fd65f378fa11917587497713dc3d75860742986d09b306441fb1746915>Divider_Fraction</a></ul><h3>Variables</h3><ul><li><a href=#bd5826109bf965bdb0cf254757cea51f473c4d73168c081a1dfd6c3d7745aabb>Initialized</a></ul><h3>Subprograms</h3><ul><li><a href=#3e28d1ab9600d696f28c4f70fabc1703d4946df649618daaf35edbb440d9f9e6>Acknowledge_Interrupt</a><li><a href=#bf016e3c862722f416ffc250d702397a3b6a1a3c710744c9ea92dc7fb878f0ae>Advance_Phase</a><li><a href=#8d75099d85987a15b1667eaf813c5a05d053a4eff95dca2d088bed0ceb42fd9f>Compare_Reg_Address</a><li><a href=#20e23ea7f52895cc3b6ab5b9817035848fc444e30960f95ba629316003044e1a>Count</a><li><a href=#b886eeac103e5e683ab09fef70faa3befe226c7f7803a8a44a20826db91f7112>Disable</a><li><a href=#6f2f71e53d9fa247d4a1d91b6ae752f53e0dfff8a7806f1aceafe86529a20856>Disable</a><li><a href=#60a07cfd1b851bebdeca239a853c79d5c0d4b47aa10a781f9ba0ecffd0bd8058>Disable_Interrupt</a><li><a href=#430413b709b4454307dc76631c4fea7c7ab68720670ecfb669ebb862da3eaf1a>Enable</a><li><a href=#291df81cc7e3a8479fa5853e50c24ddea2d8cc326529db7fb2d954c330eec7cd>Enable</a><li><a href=#4b38db4e711f18bbf152ae27eb88fbb0d152ba92b191126d1e6836c9d96edc82>Enable_Interrupt</a><li><a href=#f47afc26570fde28e6c10dc3a7bc05dca345bb05a1a5ad174675368fefbd0ddb>Enabled</a><li><a href=#e1e813b396d55bb11bb28b087b2386296889c62df5ec18f0d08802097548d846>Initialize</a><li><a href=#2766e3d2d4ff798ad18771cea0d2aa9f550a036599297b8de95bfdc1f5574444>Retard_Phase</a><li><a href=#24fb89ec832134d68a10d9a2df99181d1b948e456903054868f39e643a805e6d>Set_Count</a><li><a href=#4291f741dda34be5deedcc1549b03e57f7f92b85f8199147ef046fad9877b1a3>Set_Divider</a><li><a href=#732aaf812134f69685daaa18f11c0aa7239fe1b859089a2f20fdf688aadfb0ae>Set_Duty_Cycle</a><li><a href=#2c320cb0e5ea7dac86e24d2b1093edccbb575b804cfb9e3442ab2d4ec0fe4d3c>Set_Duty_Cycle</a><li><a href=#ff1d972adbccdc5aac3f07dd37f8b125310154b35f86e48778d3499d92056109>Set_Frequency</a><li><a href=#23dc03e8350dcde013ab9d84456161162c5baf0f75d0d663503ef31921640af6>Set_Interval</a><li><a href=#de3059c138f438db6a41cdb6497fc8eda5e5e0ff9add5088ed30a2b24f4144f1>Set_Invert</a><li><a href=#81d1b24b73ab2758b57213644cc93217f0db84e7b5410ab53448440f247d1318>Set_Mode</a><li><a href=#39c9292d3d1ace2fa5acd1b5f8df493a6a05944b64ae9714f694229e039fa608>Set_Phase_Correction</a><li><a href=#4547b8e896c2e565c82b179ef010d9ed046a68073a540cfa86e0323806e59f5e>To_PWM</a></ul><h2>Description</h2><h4 id=3e28d1ab9600d696f28c4f70fabc1703d4946df649618daaf35edbb440d9f9e6>Acknowledge_Interrupt</h4><pre class=ada-code-snippet><code>procedure Acknowledge_Interrupt
+   (Slice : PWM_Slice)
+</code></pre><h5>Parameters</h5><dl><dt>Slice<dd></dl><h4 id=bf016e3c862722f416ffc250d702397a3b6a1a3c710744c9ea92dc7fb878f0ae>Advance_Phase</h4><pre class=ada-code-snippet><code>procedure Advance_Phase
+   (Slice : PWM_Slice)
+</code></pre><h5>Parameters</h5><dl><dt>Slice<dd></dl><h4 id=8d75099d85987a15b1667eaf813c5a05d053a4eff95dca2d088bed0ceb42fd9f>Compare_Reg_Address</h4><pre class=ada-code-snippet><code>function Compare_Reg_Address (Slice : PWM_Slice) return System.Address
+</code></pre><p>For DMA transfers<h5>Parameters</h5><dl><dt>Slice<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=20e23ea7f52895cc3b6ab5b9817035848fc444e30960f95ba629316003044e1a>Count</h4><pre class=ada-code-snippet><code>function Count
+   (Slice : PWM_Slice)
+   return UInt16
+</code></pre><h5>Parameters</h5><dl><dt>Slice<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=b886eeac103e5e683ab09fef70faa3befe226c7f7803a8a44a20826db91f7112>Disable</h4><pre class=ada-code-snippet><code>procedure Disable
+   (Slice : PWM_Slice)
+</code></pre><h5>Parameters</h5><dl><dt>Slice<dd></dl><h4 id=6f2f71e53d9fa247d4a1d91b6ae752f53e0dfff8a7806f1aceafe86529a20856>Disable</h4><pre class=ada-code-snippet><code>procedure Disable
+   (Slices : PWM_Slice_Array)
+</code></pre><h5>Parameters</h5><dl><dt>Slices<dd></dl><h4 id=60a07cfd1b851bebdeca239a853c79d5c0d4b47aa10a781f9ba0ecffd0bd8058>Disable_Interrupt</h4><pre class=ada-code-snippet><code>procedure Disable_Interrupt
+   (Slice : PWM_Slice)
+</code></pre><h5>Parameters</h5><dl><dt>Slice<dd></dl><h4 id=ddce15fd65f378fa11917587497713dc3d75860742986d09b306441fb1746915>Divider_Fraction</h4><pre class=ada-code-snippet><code>Divider_Fraction : constant := 1.0 / (2.0 ** 4);
+</code></pre><h4 id=430413b709b4454307dc76631c4fea7c7ab68720670ecfb669ebb862da3eaf1a>Enable</h4><pre class=ada-code-snippet><code>procedure Enable
+   (Slice : PWM_Slice)
+</code></pre><h5>Parameters</h5><dl><dt>Slice<dd></dl><h4 id=291df81cc7e3a8479fa5853e50c24ddea2d8cc326529db7fb2d954c330eec7cd>Enable</h4><pre class=ada-code-snippet><code>procedure Enable
+   (Slices : PWM_Slice_Array)
+</code></pre><h5>Parameters</h5><dl><dt>Slices<dd></dl><h4 id=4b38db4e711f18bbf152ae27eb88fbb0d152ba92b191126d1e6836c9d96edc82>Enable_Interrupt</h4><pre class=ada-code-snippet><code>procedure Enable_Interrupt
+   (Slice : PWM_Slice)
+</code></pre><h5>Parameters</h5><dl><dt>Slice<dd></dl><h4 id=f47afc26570fde28e6c10dc3a7bc05dca345bb05a1a5ad174675368fefbd0ddb>Enabled</h4><pre class=ada-code-snippet><code>function Enabled
+   (Slice : PWM_Slice)
+   return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>Slice<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=e1e813b396d55bb11bb28b087b2386296889c62df5ec18f0d08802097548d846>Initialize</h4><pre class=ada-code-snippet><code>procedure Initialize
+</code></pre><h4 id=bd5826109bf965bdb0cf254757cea51f473c4d73168c081a1dfd6c3d7745aabb>Initialized</h4><pre class=ada-code-snippet><code>Initialized : Boolean := False;
+</code></pre><h4 id=a155a79ff67483f1e0286b0aa497164cd2cc34163811a0f8fef3028b499c7fe5>Period</h4><pre class=ada-code-snippet><code>subtype Period is UInt16;
+</code></pre><h4 id=4c7ba5ccd419c19c5aae21d4731c8a24e9273e01a5a2d3d8fc83b8c303295f68>PWM_Channel</h4><pre class=ada-code-snippet><code>type PWM_Channel is (A, B);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>A<dd><dt>B<dd></dl><h4 id=745a56d47c55dff8e743ce87711c861a76ae9bf717347d1449a6c799e74ab261>PWM_Divider_Mode</h4><pre class=ada-code-snippet><code>type PWM_Divider_Mode is
+   (Free_Running,
+    Gated,
+    Rising_Edge,
+    Falling_Edge);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Free_Running<dd><dt>Gated<dd><p>Slice counter only runs while channel B is high<dt>Rising_Edge<dd><p>Slice counter increments on channel B rising edge<dt>Falling_Edge<dd><p>Slice counter increments on channel B falling edge</dl><h4 id=4690ef5118bceee83e9fd126691281794d8d725fbce6ed58376e114abbfb5e5c>PWM_Point</h4><pre class=ada-code-snippet><code>type PWM_Point is record
+   Slice   : PWM_Slice;
+   Channel : PWM_Channel;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Slice<dd><dt>Channel<dd></dl><h4 id=b888d2e212e19c6e17b5211df9afaadf08ef3f3bd50b3403372a52c293d2aae2>PWM_Slice</h4><pre class=ada-code-snippet><code>type PWM_Slice is range 0 .. 7;
+</code></pre><h4 id=394985ae36bf9ba6bb8286a2c9a74ebe0e75bf9660984aefe418ca6aabd56e89>PWM_Slice_Array</h4><pre class=ada-code-snippet><code>type PWM_Slice_Array is array (PWM_Slice) of Boolean;
+</code></pre><h4 id=2766e3d2d4ff798ad18771cea0d2aa9f550a036599297b8de95bfdc1f5574444>Retard_Phase</h4><pre class=ada-code-snippet><code>procedure Retard_Phase
+   (Slice : PWM_Slice)
+</code></pre><h5>Parameters</h5><dl><dt>Slice<dd></dl><h4 id=24fb89ec832134d68a10d9a2df99181d1b948e456903054868f39e643a805e6d>Set_Count</h4><pre class=ada-code-snippet><code>procedure Set_Count
+   (Slice : PWM_Slice;
+    Value : Period)
+</code></pre><h5>Parameters</h5><dl><dt>Slice<dd><dt>Value<dd></dl><h4 id=4291f741dda34be5deedcc1549b03e57f7f92b85f8199147ef046fad9877b1a3>Set_Divider</h4><pre class=ada-code-snippet><code>procedure Set_Divider
+   (Slice : PWM_Slice;
+    Div   : Divider)
+</code></pre><h5>Parameters</h5><dl><dt>Slice<dd><dt>Div<dd></dl><h4 id=732aaf812134f69685daaa18f11c0aa7239fe1b859089a2f20fdf688aadfb0ae>Set_Duty_Cycle</h4><pre class=ada-code-snippet><code>procedure Set_Duty_Cycle
+   (Slice     : PWM_Slice;
+    Channel_A : Period;
+    Channel_B : Period)
+</code></pre><h5>Parameters</h5><dl><dt>Slice<dd><dt>Channel_A<dd><dt>Channel_B<dd></dl><h4 id=2c320cb0e5ea7dac86e24d2b1093edccbb575b804cfb9e3442ab2d4ec0fe4d3c>Set_Duty_Cycle</h4><pre class=ada-code-snippet><code>procedure Set_Duty_Cycle
+   (Slice      : PWM_Slice;
+    Channel    : PWM_Channel;
+    Duty_Cycle : Period)
+</code></pre><h5>Parameters</h5><dl><dt>Slice<dd><dt>Channel<dd><dt>Duty_Cycle<dd></dl><h4 id=ff1d972adbccdc5aac3f07dd37f8b125310154b35f86e48778d3499d92056109>Set_Frequency</h4><pre class=ada-code-snippet><code>procedure Set_Frequency
+   (Slice     : PWM_Slice;
+    Frequency : Hertz)
+</code></pre><h5>Parameters</h5><dl><dt>Slice<dd><dt>Frequency<dd></dl><h4 id=23dc03e8350dcde013ab9d84456161162c5baf0f75d0d663503ef31921640af6>Set_Interval</h4><pre class=ada-code-snippet><code>procedure Set_Interval
+   (Slice  : PWM_Slice;
+    Clocks : Period)
+</code></pre><h5>Parameters</h5><dl><dt>Slice<dd><dt>Clocks<dd></dl><h4 id=de3059c138f438db6a41cdb6497fc8eda5e5e0ff9add5088ed30a2b24f4144f1>Set_Invert</h4><pre class=ada-code-snippet><code>procedure Set_Invert
+   (Slice     : PWM_Slice;
+    Channel_A : Boolean;
+    Channel_B : Boolean)
+</code></pre><h5>Parameters</h5><dl><dt>Slice<dd><dt>Channel_A<dd><dt>Channel_B<dd></dl><h4 id=81d1b24b73ab2758b57213644cc93217f0db84e7b5410ab53448440f247d1318>Set_Mode</h4><pre class=ada-code-snippet><code>procedure Set_Mode
+   (Slice : PWM_Slice;
+    Mode  : PWM_Divider_Mode)
+</code></pre><h5>Parameters</h5><dl><dt>Slice<dd><dt>Mode<dd></dl><h4 id=39c9292d3d1ace2fa5acd1b5f8df493a6a05944b64ae9714f694229e039fa608>Set_Phase_Correction</h4><pre class=ada-code-snippet><code>procedure Set_Phase_Correction
+   (Slice   : PWM_Slice;
+    Enabled : Boolean)
+</code></pre><h5>Parameters</h5><dl><dt>Slice<dd><dt>Enabled<dd></dl><h4 id=4547b8e896c2e565c82b179ef010d9ed046a68073a540cfa86e0323806e59f5e>To_PWM</h4><pre class=ada-code-snippet><code>function To_PWM
+   (GPIO : RP.GPIO.GPIO_Point)
+   return PWM_Point
+</code></pre><h5>Parameters</h5><dl><dt>GPIO<dd></dl><h5>Return Value</h5><dl><dd></dl>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>USB.Device</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#2b9fd40edf4e4e5b3cd15257000a393db49e303d5089d538949544b5501e7b5b>Init_Result</a></ul><h3>Interface Types</h3><ul><li><a href=#d5775113910e2e065131570cc8c1d47859eb746bf3b60d94094b00a0ff83fc6d>USB_Device_Class</a></ul><h3>Tagged Types</h3><ul><li><a href=#69caf6faa2e586c5648cbd09924e35dbec4dedf1ae7680c85f3854c29e2980e5>USB_Device_Stack</a></ul><h3>Access Types</h3><ul><li><a href=#e8cd866980f8865d60325c09de2fe0906554947f2a5afc4499d6657010da24ca>Any_USB_Device_Class</a></ul><h3>Subtypes</h3><ul><li><a href=#9a766cd37b248ed8a68afa8936bf8c144ccf3c4a0a1c0dc8f547f746eb0d6bc4>Class_Index</a></ul><h3>Subprograms</h3><ul><li><a href=#daedea1a066ed9945dc20512bf3400e05aace75696911bbb6f030869665cc10d>Configure</a><li><a href=#3f714f11ee71db7f4b5f01937f9e2bfb0e5e7462632f11ba165ea10abd97c707>Controller</a><li><a href=#bb767f2bb384323cc2b782e341143f76781649caa99e21bfa5a9219f2a4cec77>Fill_Config_Descriptor</a><li><a href=#9ffc60df41951bbf4798a1dba8840cb4915211d84bba6b845c65178965473f0b>Get_Class_Info</a><li><a href=#a70119c0353913b2b51665ebbae3588d00c6df7b445fb530bd15acd7cb730615>Initialize</a><li><a href=#886ffb3fb1d987e9a6d6ed3cc083b273afe6197c52c3ebd2ec7de7fbd5edf3df>Initialize</a><li><a href=#dc2e82c4366845a1e23de013c784aa6c50dd84db818b0ae91f542278d5843b90>Initialized</a><li><a href=#764f0c582138233dd8ef2a471fbfe9448ce6f44df3f53202e260bb8caef00bca>Poll</a><li><a href=#c28ee72d91deeaec2384971f18862d1ea22636bd7cdfb28a3bbdbb9b80ee2d92>Register_Class</a><li><a href=#16af4e5bad2e88ee24c8eb1cb60a519508336c2983f021728cb3b563fe2997c7>Register_String</a><li><a href=#444403941d57f2a5ad462e8cc50725294dcb372c46aaf13d6edfbaee03699cf5>Request_Buffer</a><li><a href=#789b1fd0ca9559819b29d7e0222585368c2ef37ae5fb6ce9d123e518b9573a49>Request_Endpoint</a><li><a href=#90ebabf033dac880933f1773a67710321917a888ea88d17a7933e5f8a350aae1>Reset</a><li><a href=#0c0e19e7155cd514c5953d1d7d1b534c29946f5ea8f6873d873d1aa6dcd3aabc>Setup_Read_Request</a><li><a href=#7bbe0c05ee5f18d50d4e5b3ef460022cfda3773f02d28086284ffb79a01542d8>Setup_Write_Request</a><li><a href=#83e056afa851c046d963116d3e28ec78ea0d071a394c44382203d94d72cd1ac7>Start</a><li><a href=#52cdb7a2ceaa1c50d520558372beab9dc48b4fdda63da9e55ab00a58d397e83f>Transfer_Complete</a></ul><h2>Description</h2><p>---------------------------------------------------------------------------- -- Copyright (C) 2018-2021, AdaCore -- -- Redistribution and use in source and binary forms, with or without -- modification, are permitted provided that the following conditions are -- met: -- 1. Redistributions of source code must retain the above copyright -- notice, this list of conditions and the following disclaimer. -- 2. Redistributions in binary form must reproduce the above copyright -- notice, this list of conditions and the following disclaimer in -- the documentation and/or other materials provided with the -- distribution. -- 3. Neither the name of the copyright holder nor the names of its -- contributors may be used to endorse or promote products derived -- from this software without specific prior written permission. -- -- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS -- "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT -- LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR -- A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT -- HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, -- SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT -- LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, -- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY -- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT -- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE -- OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -- -- ----------------------------------------------------------------------------<h4 id=e8cd866980f8865d60325c09de2fe0906554947f2a5afc4499d6657010da24ca>Any_USB_Device_Class</h4><pre class=ada-code-snippet><code>type Any_USB_Device_Class is access all USB_Device_Class'Class;
+</code></pre><h4 id=9a766cd37b248ed8a68afa8936bf8c144ccf3c4a0a1c0dc8f547f746eb0d6bc4>Class_Index</h4><pre class=ada-code-snippet><code>subtype Class_Index is UInt8;
+</code></pre><h4 id=daedea1a066ed9945dc20512bf3400e05aace75696911bbb6f030869665cc10d>Configure</h4><pre class=ada-code-snippet><code>function Configure (This  : in out USB_Device_Class;
+                    UDC   : in out USB_Device_Controller'Class;
+                    Index : UInt16)
+                    return Setup_Request_Answer
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>UDC<dd><dt>Index<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=3f714f11ee71db7f4b5f01937f9e2bfb0e5e7462632f11ba165ea10abd97c707>Controller</h4><pre class=ada-code-snippet><code>function Controller (This : USB_Device_Stack)
+                     return not null Any_USB_Device_Controller
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=bb767f2bb384323cc2b782e341143f76781649caa99e21bfa5a9219f2a4cec77>Fill_Config_Descriptor</h4><pre class=ada-code-snippet><code>procedure Fill_Config_Descriptor (This : in out USB_Device_Class;
+                                  Data :    out UInt8_Array)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd></dl><h4 id=9ffc60df41951bbf4798a1dba8840cb4915211d84bba6b845c65178965473f0b>Get_Class_Info</h4><pre class=ada-code-snippet><code>procedure Get_Class_Info
+  (This                     : in out USB_Device_Class;
+   Number_Of_Interfaces     :    out Interface_Id;
+   Config_Descriptor_Length :    out Natural)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Number_Of_Interfaces<dd><dt>Config_Descriptor_Length<dd></dl><h4 id=2b9fd40edf4e4e5b3cd15257000a393db49e303d5089d538949544b5501e7b5b>Init_Result</h4><pre class=ada-code-snippet><code>type Init_Result is (Ok, Not_Enough_EPs, Not_Enough_EP_Buffer);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Ok<dd><dt>Not_Enough_EPs<dd><dt>Not_Enough_EP_Buffer<dd></dl><h4 id=a70119c0353913b2b51665ebbae3588d00c6df7b445fb530bd15acd7cb730615>Initialize</h4><pre class=ada-code-snippet><code>function Initialize (This                 : in out USB_Device_Class;
+                     Dev                  : in out USB_Device_Stack'Class;
+                     Base_Interface_Index :        Interface_Id)
+                     return Init_Result
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Dev<dd><dt>Base_Interface_Index<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=886ffb3fb1d987e9a6d6ed3cc083b273afe6197c52c3ebd2ec7de7fbd5edf3df>Initialize</h4><pre class=ada-code-snippet><code>function Initialize
+  (This            : in out USB_Device_Stack;
+   Controller      : not null Any_USB_Device_Controller;
+   Manufacturer    : USB_String;
+   Product         : USB_String;
+   Serial_Number   : USB_String;
+   Max_Packet_Size : Control_Packet_Size)
+   return Init_Result
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Controller<dd><dt>Manufacturer<dd><dt>Product<dd><dt>Serial_Number<dd><dt>Max_Packet_Size<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=dc2e82c4366845a1e23de013c784aa6c50dd84db818b0ae91f542278d5843b90>Initialized</h4><pre class=ada-code-snippet><code>function Initialized (This : USB_Device_Stack) return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=764f0c582138233dd8ef2a471fbfe9448ce6f44df3f53202e260bb8caef00bca>Poll</h4><pre class=ada-code-snippet><code>procedure Poll (This : in out USB_Device_Stack)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=c28ee72d91deeaec2384971f18862d1ea22636bd7cdfb28a3bbdbb9b80ee2d92>Register_Class</h4><pre class=ada-code-snippet><code>function Register_Class (This  : in out USB_Device_Stack;
+                         Class : not null Any_USB_Device_Class)
+                         return Boolean
+</code></pre><p>Return False if there is not space left to register the class<h5>Parameters</h5><dl><dt>This<dd><dt>Class<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=16af4e5bad2e88ee24c8eb1cb60a519508336c2983f021728cb3b563fe2997c7>Register_String</h4><pre class=ada-code-snippet><code>function Register_String (This : in out USB_Device_Stack;
+                          Str  : USB_String)
+                          return String_Id
+</code></pre><p>Register a USB string<h5>Parameters</h5><dl><dt>This<dd><dt>Str<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=444403941d57f2a5ad462e8cc50725294dcb372c46aaf13d6edfbaee03699cf5>Request_Buffer</h4><pre class=ada-code-snippet><code>function Request_Buffer (This : in out USB_Device_Stack;
+                         EP   :        EP_Addr;
+                         Len  :        Packet_Size)
+                         return System.Address
+</code></pre><p>Allocate a buffer for the corresponding End-Point. This buffer should then be used by the class for IN or OUT transfers depending on the given EP address.<p>Return Null_Address if resquest fails (e.g. no memory available).<h5>Parameters</h5><dl><dt>This<dd><dt>EP<dd><dt>Len<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=789b1fd0ca9559819b29d7e0222585368c2ef37ae5fb6ce9d123e518b9573a49>Request_Endpoint</h4><pre class=ada-code-snippet><code>function Request_Endpoint (This : in out USB_Device_Stack;
+                           Typ  :        EP_Type;
+                           EP   :    out EP_Id)
+                           return Boolean
+</code></pre><p>Allocate a non-control End-Point to be used by the class<h5>Parameters</h5><dl><dt>This<dd><dt>Typ<dd><dt>EP<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=90ebabf033dac880933f1773a67710321917a888ea88d17a7933e5f8a350aae1>Reset</h4><pre class=ada-code-snippet><code>procedure Reset (This : in out USB_Device_Stack)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=0c0e19e7155cd514c5953d1d7d1b534c29946f5ea8f6873d873d1aa6dcd3aabc>Setup_Read_Request</h4><pre class=ada-code-snippet><code>function Setup_Read_Request (This  : in out USB_Device_Class;
+                             Req   : Setup_Data;
+                             Buf   : out System.Address;
+                             Len   : out Buffer_Len)
+                             return Setup_Request_Answer
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Req<dd><dt>Buf<dd><dt>Len<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=7bbe0c05ee5f18d50d4e5b3ef460022cfda3773f02d28086284ffb79a01542d8>Setup_Write_Request</h4><pre class=ada-code-snippet><code>function Setup_Write_Request (This  : in out USB_Device_Class;
+                              Req   : Setup_Data;
+                              Data  : UInt8_Array)
+                              return Setup_Request_Answer
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Req<dd><dt>Data<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=83e056afa851c046d963116d3e28ec78ea0d071a394c44382203d94d72cd1ac7>Start</h4><pre class=ada-code-snippet><code>procedure Start (This : in out USB_Device_Stack)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=52cdb7a2ceaa1c50d520558372beab9dc48b4fdda63da9e55ab00a58d397e83f>Transfer_Complete</h4><pre class=ada-code-snippet><code>procedure Transfer_Complete (This : in out USB_Device_Class;
+                             UDC  : in out USB_Device_Controller'Class;
+                             EP   :        EP_Addr;
+                             CNT  :        Packet_Size)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>UDC<dd><dt>EP<dd><dt>CNT<dd></dl><h4 id=d5775113910e2e065131570cc8c1d47859eb746bf3b60d94094b00a0ff83fc6d>USB_Device_Class</h4><pre class=ada-code-snippet><code>type USB_Device_Class is limited interface;
+</code></pre><h4 id=69caf6faa2e586c5648cbd09924e35dbec4dedf1ae7680c85f3854c29e2980e5>USB_Device_Stack</h4><pre class=ada-code-snippet><code>type USB_Device_Stack (Max_Classes : Class_Index) is tagged private;
+</code></pre>

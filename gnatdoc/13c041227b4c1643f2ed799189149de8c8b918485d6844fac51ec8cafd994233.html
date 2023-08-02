@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.ADC</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#a2879bbfa3202086f3f7c31925ca5f0ba3a866208efcebd9e5a628d98e8c7bdb>ADC_Mode</a><li><a href=#559db3fbba63c3a0357618730d51d055524e7ea2f6e3a602c25621d8a311b0b6>ADC_Sample_Bits</a><li><a href=#a54327b3f82885d88480997c82aec94ea4394a7c51b0ced170df189e3a99c5fd>Celsius</a><li><a href=#0c9827683542d6ae84b7d5b3e219a080e9eb26043c2e468f050afe99def5795a>Microvolts</a></ul><h3>Array Types</h3><ul><li><a href=#eb2cb9bfba789df18d376b70cc89c168f299550c0457bf7433bff20f7045b4a0>ADC_Channels</a></ul><h3>Subtypes</h3><ul><li><a href=#8021d6f97be48fee81da3b681b800a716f162f8afc79ea1e1ac3ccf57744e63b>ADC_Channel</a><li><a href=#8e7b106291541c7d67e63dead50909342a8d3e176ab597fbb2f307fcacd2da20>Analog_Value</a></ul><h3>Constants</h3><ul><li><a href=#0ef8d253aff62b57b0e4ccf08424968d7b87ecebe1a8e175ca2ca24f51e33ccd>ADC_Divider_Fraction</a><li><a href=#a0da3ea39eca8311997acb3335d159251f15563457f6cc567937e84f38e83591>Temperature_Sensor</a></ul><h3>Subprograms</h3><ul><li><a href=#21e357a3f9cb1611e16dc24b4cac8a27cdb3c91ad69521e2d2c46660b8861a06>Configure</a><li><a href=#69e6adf0c6c5fe52b5ba86c4b6e5f0d39e375b0138003c367b20eed964ef6af2>Configure</a><li><a href=#4bbe3dcc15016d1017791d799ca60b30ef0e57859ee6a7d20d8fdd85ce710ecb>Disable</a><li><a href=#1c26d3d6bb5914a813f7b4da4170453aa2c2bca7976ae3f9c00b71846d82e3ce>Enable</a><li><a href=#bb733bbcd762c9236b4623cace83839cf0f4178bf97f28308aae3dd8359514f4>Enabled</a><li><a href=#6555c28521cda5266405b83eee1605cef924eac4297cec2bc1dd64393b6d5a06>FIFO_Address</a><li><a href=#8e2f8d7c377ff9a52803150cc785bf85bfcaa38e0d98f95c8a8ff9110a002a5b>Read</a><li><a href=#b657c9431d77d582bb56bd3f6f3614ec96cba47dea4a41c3e004f955719de099>Read</a><li><a href=#b751d34252cceb5de0f39897b94baabb2a1833e156135b86505035bdd286795c>Read_Microvolts</a><li><a href=#2eaf392581a4432ab3cff4c8597e95d134e4fb4067982d782d90ea0442eeba00>Set_Divider</a><li><a href=#991b3edc2504a538c5a6db9ae88e759ab11c8dcb9da2fa178918ab54c1395bb2>Set_Mode</a><li><a href=#502a6e2e47e4be4c91dbcf64fb2d2e28e894570d43e8bd5c168a501992769a4b>Set_Round_Robin</a><li><a href=#4a0ef57794832c2cbec3ca2bb6708de6a442e91fa1980314d6cce292f0426fbb>Set_Sample_Bits</a><li><a href=#d2ff2fd6076cc4502d3615d453949a9374e2e076a53b3c0de087d84917e710eb>Set_Sample_Rate</a><li><a href=#24c7e484ec3489965c9c375c81b10e1762235ce5c5c35753d0d7df08a54d20f5>Temperature</a><li><a href=#b94549e01bab255e0f3ad74d0fd3a516acb458dd8bd1269b67abe0122812720e>To_ADC_Channel</a></ul><h2>Description</h2><h4 id=8021d6f97be48fee81da3b681b800a716f162f8afc79ea1e1ac3ccf57744e63b>ADC_Channel</h4><pre class=ada-code-snippet><code>subtype ADC_Channel is Natural range 0 .. 4;
+</code></pre><h4 id=eb2cb9bfba789df18d376b70cc89c168f299550c0457bf7433bff20f7045b4a0>ADC_Channels</h4><pre class=ada-code-snippet><code>type ADC_Channels is array (ADC_Channel) of Boolean
+   with Component_Size => 1,
+        Size           => 5;
+</code></pre><h4 id=0ef8d253aff62b57b0e4ccf08424968d7b87ecebe1a8e175ca2ca24f51e33ccd>ADC_Divider_Fraction</h4><pre class=ada-code-snippet><code>ADC_Divider_Fraction : constant := 1.0 / (2.0 ** 8);
+</code></pre><h4 id=a2879bbfa3202086f3f7c31925ca5f0ba3a866208efcebd9e5a628d98e8c7bdb>ADC_Mode</h4><pre class=ada-code-snippet><code>type ADC_Mode is (One_Shot, Free_Running);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>One_Shot<dd><dt>Free_Running<dd></dl><h4 id=559db3fbba63c3a0357618730d51d055524e7ea2f6e3a602c25621d8a311b0b6>ADC_Sample_Bits</h4><pre class=ada-code-snippet><code>type ADC_Sample_Bits is new Positive
+   with Dynamic_Predicate => ADC_Sample_Bits in 8 | 12;
+</code></pre><h4 id=8e7b106291541c7d67e63dead50909342a8d3e176ab597fbb2f307fcacd2da20>Analog_Value</h4><pre class=ada-code-snippet><code>subtype Analog_Value is HAL.UInt12;
+</code></pre><h4 id=a54327b3f82885d88480997c82aec94ea4394a7c51b0ced170df189e3a99c5fd>Celsius</h4><pre class=ada-code-snippet><code>type Celsius is new Integer;
+</code></pre><h4 id=21e357a3f9cb1611e16dc24b4cac8a27cdb3c91ad69521e2d2c46660b8861a06>Configure</h4><pre class=ada-code-snippet><code>procedure Configure
+   (Channel : ADC_Channel)
+</code></pre><h5>Parameters</h5><dl><dt>Channel<dd></dl><h4 id=69e6adf0c6c5fe52b5ba86c4b6e5f0d39e375b0138003c367b20eed964ef6af2>Configure</h4><pre class=ada-code-snippet><code>procedure Configure
+   (Channels : ADC_Channels)
+</code></pre><h5>Parameters</h5><dl><dt>Channels<dd></dl><h4 id=4bbe3dcc15016d1017791d799ca60b30ef0e57859ee6a7d20d8fdd85ce710ecb>Disable</h4><pre class=ada-code-snippet><code>procedure Disable
+</code></pre><h4 id=1c26d3d6bb5914a813f7b4da4170453aa2c2bca7976ae3f9c00b71846d82e3ce>Enable</h4><pre class=ada-code-snippet><code>procedure Enable
+</code></pre><h4 id=bb733bbcd762c9236b4623cace83839cf0f4178bf97f28308aae3dd8359514f4>Enabled</h4><pre class=ada-code-snippet><code>function Enabled return Boolean
+</code></pre><h5>Return Value</h5><dl><dd></dl><h4 id=6555c28521cda5266405b83eee1605cef924eac4297cec2bc1dd64393b6d5a06>FIFO_Address</h4><pre class=ada-code-snippet><code>function FIFO_Address
+   return System.Address
+</code></pre><h5>Return Value</h5><dl><dd></dl><h4 id=0c9827683542d6ae84b7d5b3e219a080e9eb26043c2e468f050afe99def5795a>Microvolts</h4><pre class=ada-code-snippet><code>type Microvolts is new Integer;
+</code></pre><h4 id=8e2f8d7c377ff9a52803150cc785bf85bfcaa38e0d98f95c8a8ff9110a002a5b>Read</h4><pre class=ada-code-snippet><code>function Read
+   return Analog_Value
+</code></pre><h5>Return Value</h5><dl><dd></dl><h4 id=b657c9431d77d582bb56bd3f6f3614ec96cba47dea4a41c3e004f955719de099>Read</h4><pre class=ada-code-snippet><code>function Read
+   (Channel : ADC_Channel)
+   return Analog_Value
+</code></pre><h5>Parameters</h5><dl><dt>Channel<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=b751d34252cceb5de0f39897b94baabb2a1833e156135b86505035bdd286795c>Read_Microvolts</h4><pre class=ada-code-snippet><code>function Read_Microvolts
+   (Channel : ADC_Channel;
+    VREF    : Microvolts := 3_300_000)
+    return Microvolts
+</code></pre><h5>Parameters</h5><dl><dt>Channel<dd><dt>VREF<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=2eaf392581a4432ab3cff4c8597e95d134e4fb4067982d782d90ea0442eeba00>Set_Divider</h4><pre class=ada-code-snippet><code>procedure Set_Divider
+   (Div : ADC_Divider)
+</code></pre><h5>Parameters</h5><dl><dt>Div<dd></dl><h4 id=991b3edc2504a538c5a6db9ae88e759ab11c8dcb9da2fa178918ab54c1395bb2>Set_Mode</h4><pre class=ada-code-snippet><code>procedure Set_Mode
+   (Mode : ADC_Mode)
+</code></pre><h5>Parameters</h5><dl><dt>Mode<dd></dl><h4 id=502a6e2e47e4be4c91dbcf64fb2d2e28e894570d43e8bd5c168a501992769a4b>Set_Round_Robin</h4><pre class=ada-code-snippet><code>procedure Set_Round_Robin
+   (Channels : ADC_Channels)
+</code></pre><h5>Parameters</h5><dl><dt>Channels<dd></dl><h4 id=4a0ef57794832c2cbec3ca2bb6708de6a442e91fa1980314d6cce292f0426fbb>Set_Sample_Bits</h4><pre class=ada-code-snippet><code>procedure Set_Sample_Bits
+   (Bits : ADC_Sample_Bits)
+</code></pre><h5>Parameters</h5><dl><dt>Bits<dd></dl><h4 id=d2ff2fd6076cc4502d3615d453949a9374e2e076a53b3c0de087d84917e710eb>Set_Sample_Rate</h4><pre class=ada-code-snippet><code>procedure Set_Sample_Rate
+   (Rate : Hertz)
+</code></pre><h5>Parameters</h5><dl><dt>Rate<dd></dl><h4 id=24c7e484ec3489965c9c375c81b10e1762235ce5c5c35753d0d7df08a54d20f5>Temperature</h4><pre class=ada-code-snippet><code>function Temperature
+   (Ref_Temp : Celsius := 27;
+    Vbe      : Microvolts := 706_000;
+    Slope    : Microvolts := 1_721;
+    VREF     : Microvolts := 3_300_000)
+   return Celsius
+</code></pre><h5>Parameters</h5><dl><dt>Ref_Temp<dd><dt>Vbe<dd><dt>Slope<dd><dt>VREF<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=a0da3ea39eca8311997acb3335d159251f15563457f6cc567937e84f38e83591>Temperature_Sensor</h4><pre class=ada-code-snippet><code>Temperature_Sensor : constant ADC_Channel := 4;
+</code></pre><h4 id=b94549e01bab255e0f3ad74d0fd3a516acb458dd8bd1269b67abe0122812720e>To_ADC_Channel</h4><pre class=ada-code-snippet><code>function To_ADC_Channel
+   (Point : RP.GPIO.GPIO_Point)
+   return ADC_Channel
+</code></pre><h5>Parameters</h5><dl><dt>Point<dd></dl><h5>Return Value</h5><dl><dd></dl>

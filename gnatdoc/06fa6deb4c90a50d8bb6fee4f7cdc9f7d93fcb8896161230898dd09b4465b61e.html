@@ -1,0 +1,1646 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.USBCTRL_DPRAM</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#86492c9c34a05c2fc927df970d3b7ad6864a47f00ce4525ef1988f5c8a6f7a37>EP0_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#b5df04866a90205f5572ea4285015d794e593508a9affd074d9f551d01d88253>EP0_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#86a83ac5b9d0bb73dc776547ab66bd9d23b589bf4cbaeeaf13104b73645caa8b>EP10_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#bc6e88994288995a74e427fdce8c59e8694c3f1169b6f80f235a34b14d8bfdb7>EP10_IN_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#0d8686812cf7b67ad379c17a781689787b52b0690e03d353da0801b4a89a9adc>EP10_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#04e5812e82fe113f6fcf7e5828ac25809a526e4248258b4a49eedd1ce6667046>EP10_OUT_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#a4f2bbfe3d8c7eeedec89803db80ccf177618420047c9cbd7b2a17c80df60c9d>EP11_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#185c16a0c1dedaf088843dcf1dd0e7452d2d04e47b06108a006b2a18a4d94dc5>EP11_IN_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#0ec6cd28f561e9a2108b7ada3e4fbb3196bb9c018d6e06ac1288f4c09c52a3d7>EP11_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#417b3cf2ff2d77a590865f2eeeb1da4580853abf49093a58b8f946eed7dd6f3b>EP11_OUT_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#d4adde13419dde9a1722521b15dbd1ae1668db1dced9802b827413e742958193>EP12_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#e48711ec3b1837f29bd290841e1252e9ef834402e11bba111f80d582192a2a7d>EP12_IN_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#7d57ca4f561a49241159f1de28b5f98f1ac48f48da478609022a61b55e91871a>EP12_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#b4a03b5275a91cbe9e1b3832941cd0ffb9ef30103544cb3a78edcad3c5ec26f9>EP12_OUT_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#10e6a342d2a9a297b34ab55d166273ed9f620336706cc5300cae49b191fac552>EP13_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#ca8bb184fe24bcb592f4d060d64c3663b3f7b3a03f134b2565f87328daa19421>EP13_IN_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#3d6f52216c63b0422020c4658174eafc29a4d9adccb8934a375b088dd1cdb95c>EP13_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#81619da83ff52e1f8fd5f253c6fe87c3f79cba679e40d6f6aa3b10eac8e95f55>EP13_OUT_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#47c762be4359ef7140b4c0883bb9f3609111344b262ac6257acff5837840bd45>EP14_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#f86b3ce77c0090f880e5f7a0ee595331147942235560995fa7eb26d792157c47>EP14_IN_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#12de3f6ce10e9bf38fb6148be92f976d7d03faa22227d6d067769fcad9fa8cb0>EP14_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#d79a4712d5d1f2a25e4434746938081f83d465cf49c1198c8330d4d66e8d9b2a>EP14_OUT_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#37daa2ffdef198d07b98059723a4cc4f225afe9eda7d293fc9e827752da2d5bf>EP15_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#26a6859d8ad86a7eb6e29c59b1c167366a1a7082481ca6d4a93c47f358698d53>EP15_IN_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#08aa6a9d509d7f6ad73e718af699b13173c5439294c87d6f9f9e63433c378fa5>EP15_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#99d941f6f71ee485e326e9f175d1ec05c2ee5e8fae88fbadd90bc0675a7aadca>EP15_OUT_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#a21fd66b19dd6c722759eb30edeb4b676e0a67d56496c9f5158b183868bc6009>EP1_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#171ac3bfda4dabdbb2122cd8fc3e5e5683f3171b930a95e84612ca5a0a1e1e98>EP1_IN_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#d6e07b53a798db4cb3cc00e98fd548acf1e6009ee43f4e808f39d003d36b9870>EP1_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#3b9a275895d57691261b68e5813bfaddaeb4b604bed7739713c0a698b0d03d95>EP1_OUT_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#78844002c2b3fff164f04f86486a14cd28886a5b560f157d1c13ebd9cae1b33c>EP2_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#4c4943897acf13b55c12be82dde87745c011c33d2a78d603be7eda88a06f0e05>EP2_IN_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#e5aca76e5132f5b94707b7efd5f9bde6bb2da14b702c2e4fd05b9e0a8b26ac91>EP2_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#d5c7c4c4b93936fcf1349184033c2329d99338bcede52eec64e35e2a61ad7fc7>EP2_OUT_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#5e0f1217b88bfa76ac59fc96c95c7209b3ff9a66d950394d2b5a6bd68ae7c644>EP3_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#594c4e9f65085989a51becb84736d87902b8dab6e35a297fdef26dbaaa9c1e40>EP3_IN_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#b916c5ac4b8c480558c96d3ca5d4423917c07ca43019b3fc925098ece0ebe5d8>EP3_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#16f89632b74949ea8d1adf61871c4c8ceda44a14005ed367ddb1642acf189202>EP3_OUT_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#07d6aff832a9b7ea93856fbd1e28d0359b3b623806ec4e2b752b05277061c586>EP4_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#d1b8ef6634415f643a8fee73aa185307811a99b8e4d1d673f7eef01db5ae6a79>EP4_IN_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#f9d96f3ce84c75dfd52a6e28cf1ae773bb9c42385227f86442bb4707ff366677>EP4_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#1b4e15be2f8311d780e40e824b586cd6e5d67b8e17cba727841e2dea104640cd>EP4_OUT_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#d38d190c9eac904eee22a0df66eaaa5aac303d3262dc23c9ef337d7deee0cd58>EP5_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#6f4670a982671c96a4cae8cd68c6cd533883f87ad561a6e67c60bdd30a3075ba>EP5_IN_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#99ef59489a53c2975ae22171fc1cae77e9bce7d377bb9e999b440eb5eed045f8>EP5_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#659a2386060b5060830bfac1aed432bd81b428b5b1ab6d51bf5119ff07acdf11>EP5_OUT_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#6f0d1be27a3d6070be4c01c637f319c1731409129097429cde09dd10b5c5efb3>EP6_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#8869f615a11a42bb79f89de5a13383341daa9eb6fa4b573b2d277a26c1f4652f>EP6_IN_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#d7ead548af0f903a9f5f56ebd07e270b032dd07549452b3d143fb507f8ab1f56>EP6_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#1cb5c10f0fa846f69f00cc0ad18cbbbe9ac3c19879fd576c6519513b5532bcaf>EP6_OUT_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#694847f68c6b05e4fecbcf56d1f136d1dba2dc8db142cbc2c575004c951b0708>EP7_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#1768a71a30baff2a490aa66319817c74858b411131a73f1e4058e435c5ae6cc9>EP7_IN_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#74d7a2bee61d89932f9dcf8ba88f4dedb9493a42b35e2aa914ce1fdb5344f9b6>EP7_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#ec85135238297d9e48e4d70b12dbea881a27022a17fcea95788e0f7602073768>EP7_OUT_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#4e14ab27c6734ae4522f0f1eb1278b50ea1691991fffa5ef7e9cf3b491143b64>EP8_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#15b184a183a02099081620dd7839441a629d5007490a772408dc1cb9f3f67d2d>EP8_IN_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#3917e74762dbbd52d1ba7878ac90b5318b8856141a21d6c04bfd367fa643ecf0>EP8_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#176b50330be6476b0a9964d67a6ef8eefd7c92b11906a884694d8f75f3386854>EP8_OUT_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#3a2000f8cd8db7434c3c1c1510d1de3e6dc4e2bfa34453aacc5fc236fe17dfe1>EP9_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#3323f0192a5d015a0a7899e8dd518b59fe5c2cfe27f8a2929a3275d04c2f3372>EP9_IN_CONTROL_ENDPOINT_TYPE_Field</a><li><a href=#e00c6d91ad31ab5b74f90541cbb0d7ee20d5287657b5f25504e75d52476351c1>EP9_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</a><li><a href=#ed8d6c1362afeedfd38b16d1e255b98c838bb44cf49b6fccbe18e2da3a5fc0ad>EP9_OUT_CONTROL_ENDPOINT_TYPE_Field</a></ul><h3>Record Types</h3><ul><li><a href=#065d1711ca7452ec2c39c02a5aa1889cbab0c329cb2482fd02cea6686d181f49>EP0_IN_BUFFER_CONTROL_Register</a><li><a href=#a40224195988130606abf8c11f20ce928c3d8a3f7920c9ebfd34631629c8868a>EP0_OUT_BUFFER_CONTROL_Register</a><li><a href=#47cf41cfa3e6cefb322278de74ad132d64974b9fcb45f07f4432f03ba066f7fc>EP10_IN_BUFFER_CONTROL_Register</a><li><a href=#e2683913fd7f6b2e10875c307617992de23fcd64af292689f3beff6fa9052536>EP10_IN_CONTROL_Register</a><li><a href=#49e5e46240dcc5d583ad39325f2571408acf0db7fb2066b57391d212ebc7d4a1>EP10_OUT_BUFFER_CONTROL_Register</a><li><a href=#6babd4dd492c272a0488fbdc2da038bd3e086ff0769963257c712dc02fd273cd>EP10_OUT_CONTROL_Register</a><li><a href=#59256b7decd4525b882e7ccd98699ba6a9d552a5fc43e05586cd4d34a94e1c28>EP11_IN_BUFFER_CONTROL_Register</a><li><a href=#284a22447070e93fe622d00fc134f6d5d823464ba7197fe4290077cc9a7f0c63>EP11_IN_CONTROL_Register</a><li><a href=#3f290dd3b715bdcf918deb223e4686169d3b44ed5dad1989b31acb672937ccd7>EP11_OUT_BUFFER_CONTROL_Register</a><li><a href=#93e6b0fba0d074007a81ece0c8b77dca3888fb137ef7bc153c19bd4f5881f475>EP11_OUT_CONTROL_Register</a><li><a href=#db1034a717ec6afb508ed23159550efcde1de06adfae9e6a86377d8ae0e70fe8>EP12_IN_BUFFER_CONTROL_Register</a><li><a href=#c333ab64861930389205e9d772a11135f50fa218b6d2ab269b085f9963fa982c>EP12_IN_CONTROL_Register</a><li><a href=#ea31c6bbd19534839993ee331168e13d445ea8f228ac0ac844a33165d504c218>EP12_OUT_BUFFER_CONTROL_Register</a><li><a href=#c55e4c7957be5e889f9e7a97c3f019b1d9b3200166bebc7990a3ee07cf834440>EP12_OUT_CONTROL_Register</a><li><a href=#0e91e8f2c8ff17201615f6bc6d96f457d09acddf438eac190429ab8f15690306>EP13_IN_BUFFER_CONTROL_Register</a><li><a href=#6e66c0f15b9426bb97e1a6562aa700d8d4a4a7e88d8e12edc1df1c8fd09d269e>EP13_IN_CONTROL_Register</a><li><a href=#683281ed5cfe7b08252a425e0b1d3d57595ea1ccbf9513d846fc954c5cca50dc>EP13_OUT_BUFFER_CONTROL_Register</a><li><a href=#709f3b7d4fbed6f13de4d3cd44886720289b30055541d005ad185784d2c95cfc>EP13_OUT_CONTROL_Register</a><li><a href=#56f3fbd911e85b9da84eaa56271126c4021dbdbe01e75b11338a4e73ae16ba35>EP14_IN_BUFFER_CONTROL_Register</a><li><a href=#0fdc2fb76eebfd20bc7f76632ec654774251b28cd1c401c7d1e3d590d7bb9bc1>EP14_IN_CONTROL_Register</a><li><a href=#8cf14ca6f5072d18a74aa21484b8dc6180c17e90f9e2cc70a65c96f3678a7835>EP14_OUT_BUFFER_CONTROL_Register</a><li><a href=#afef14e410e82f8f5d53cba6bb563931d4f63910a68e8cbbab8dace7daa3fd6a>EP14_OUT_CONTROL_Register</a><li><a href=#9179a1bb20e62234c6aa9f2e1a099cf90558754f0883c7a9c05f060cd8c4e3b3>EP15_IN_BUFFER_CONTROL_Register</a><li><a href=#0b94ea76b938d0ce24466f9ff252c77e72ab66ee077674ec0bf680dce9c93149>EP15_IN_CONTROL_Register</a><li><a href=#384e87b60bae8a1b092ee54e384227cb28395fe19cec553f500b1961df28aa93>EP15_OUT_BUFFER_CONTROL_Register</a><li><a href=#566e4e9bcce1afee1e3b792cc431baf6e7569517f8e3f9d68f11824ff770eefa>EP15_OUT_CONTROL_Register</a><li><a href=#5f94296509ae84b91d6989b9c5a3182745bfce769959bda8a41afa2a4573ef47>EP1_IN_BUFFER_CONTROL_Register</a><li><a href=#26d15abc7980e08407f6f7982cc5014ac4fb1dbe20ee785e156867b6353cf071>EP1_IN_CONTROL_Register</a><li><a href=#b46b6846a4d794af0a8fd3da018ce4da7e3439d33506c35d3478794733d0a606>EP1_OUT_BUFFER_CONTROL_Register</a><li><a href=#1f13a12738e99d077fdc3188ced6e2face6863339bec73e621c60e7319075d58>EP1_OUT_CONTROL_Register</a><li><a href=#f197c31d21210b356a5180fd2de8335812958cd60b8eb37b6d4312230c9c0039>EP2_IN_BUFFER_CONTROL_Register</a><li><a href=#aacc6c366280f68c7a3c0faab76241973937aefcf4a30abfb963d249c9a93b05>EP2_IN_CONTROL_Register</a><li><a href=#2d8fdb66133a9f447154cacdbef688a642e09f8a600bf360cd936b99be5416ac>EP2_OUT_BUFFER_CONTROL_Register</a><li><a href=#d126ac10d59697af1eb025d974514eefc5d997898faac9df278ac139049712ef>EP2_OUT_CONTROL_Register</a><li><a href=#d7b90817696c18762b4ca13eaf2570a0a442118d6d874b6e3acfd7fbf73a5b50>EP3_IN_BUFFER_CONTROL_Register</a><li><a href=#2077338cf6b685caffcd52cb9d6c497229d2905bfabff90fd8f1c5292379aa10>EP3_IN_CONTROL_Register</a><li><a href=#3f3bdd3adf7ec5c7a7f761e10d604e052937ef5f49faf56e6fbcf1f6bc86fe91>EP3_OUT_BUFFER_CONTROL_Register</a><li><a href=#266db7ff5c933c9927c65eb4c3c2b52b069393c5d452d212d934efa44448d58a>EP3_OUT_CONTROL_Register</a><li><a href=#508432211fd3c3d137e38d65b9b1eba0d344f358f0c893257d9d77dd5a951083>EP4_IN_BUFFER_CONTROL_Register</a><li><a href=#3d9e6986f219cff69f5f7d8d1b2c01462a4a4f891eb3411d13d028a2f38d820c>EP4_IN_CONTROL_Register</a><li><a href=#9dd62d6200ea85e21848adaa12991b20a2bbbcea934268e63082ceb379573124>EP4_OUT_BUFFER_CONTROL_Register</a><li><a href=#2dfa676ebdbea586c06b09aa21a6ad7b2f871612ae854fb2d22d04a089ad44b1>EP4_OUT_CONTROL_Register</a><li><a href=#8ea395c7c9a6adff3f7b94a7cba270060af2d414683a5de77bb7989cdb8e45ff>EP5_IN_BUFFER_CONTROL_Register</a><li><a href=#7e165f116e3564e7bdf9a57e31bb77a92ebb2febae06d900825455ff59634acf>EP5_IN_CONTROL_Register</a><li><a href=#01241d0a9cbc166d5a8806747a43a81e5d58447c2cfff56a3fe279754fa9c263>EP5_OUT_BUFFER_CONTROL_Register</a><li><a href=#91525deb5369fc5755ee6b79343c7a874ca8b20446fe5bedc28da3b2d3997c65>EP5_OUT_CONTROL_Register</a><li><a href=#4ec06c29bda49a1d4b781cf3085d17319fb7b8508d24e4b9fe0a8a4749200f3d>EP6_IN_BUFFER_CONTROL_Register</a><li><a href=#1520d26e0cd557d3d413e0e1e99a25b87527c1d64249bae4eaddd0526c4b1b88>EP6_IN_CONTROL_Register</a><li><a href=#d27b26bc7b5ce6589b3b4cf8f1e2b8878a18b5beefb296be891ec82ae9f5ecef>EP6_OUT_BUFFER_CONTROL_Register</a><li><a href=#94f0e861518d70dcd75a0f54608273c6d79f263da7255aaaad2bd9013b8cbecf>EP6_OUT_CONTROL_Register</a><li><a href=#006ebfc040a4247b177730e0674a6ac35ecfb55941af931b227d0779d7307a6e>EP7_IN_BUFFER_CONTROL_Register</a><li><a href=#6ad220f008f3f21680927452edc18e46d5905216d4722f0839eead1311274f37>EP7_IN_CONTROL_Register</a><li><a href=#1eb3485710ba893c2c434a6ae9d51d107bd9900d16a5376bd734372b6d397d78>EP7_OUT_BUFFER_CONTROL_Register</a><li><a href=#d3663c0420dd55b7d2e64f1faef3166032e26bd66cbe23340cba41625502ec7d>EP7_OUT_CONTROL_Register</a><li><a href=#e0c67def8a649872b9e4ab50afec6da931ee1e92c8e3a91b67b435da559c56fd>EP8_IN_BUFFER_CONTROL_Register</a><li><a href=#b1757f6f3537ed6973d2061b1c4f07ed9d1c1848d5195796b764d523dad0de4c>EP8_IN_CONTROL_Register</a><li><a href=#5251dd474654d980e45ae3f1799aeebd30be09f28465408cd784d46e01d7f82c>EP8_OUT_BUFFER_CONTROL_Register</a><li><a href=#8b27c779d85616d05c21dacf2741ddb12b14c1e16bb225ee7ab89c68767ef27f>EP8_OUT_CONTROL_Register</a><li><a href=#3514e2b98fae602ce900612d0f194c68ffeeef1ceeab72fb0b8cbbcb813a19f4>EP9_IN_BUFFER_CONTROL_Register</a><li><a href=#2bf08175063e6929d780a4b78d8fcc4ef2e6d8d19ece974ff954f510ada3c093>EP9_IN_CONTROL_Register</a><li><a href=#8562cc24851eabe368c0db9f900aee6486cfc5f89881f4f8fba40ff4512892f5>EP9_OUT_BUFFER_CONTROL_Register</a><li><a href=#10468622c37ca6045670260e06f10273be11dd50f725aa15a9a3c5239f076879>EP9_OUT_CONTROL_Register</a><li><a href=#256c33ab5b497c6f4ce2fd1971b62083205b6dbbf528ecc42a90d8c3fb759a16>SETUP_PACKET_HIGH_Register</a><li><a href=#88327df9c09c17b4a3422918f505f9cae1596fc0d4b04f9bcc019c3237894a2d>SETUP_PACKET_LOW_Register</a><li><a href=#22a2875023bbcdf67081852a1bf577fafd162d3e29095fc2e39a0e21612b12d5>USBCTRL_DPRAM_Peripheral</a></ul><h3>Subtypes</h3><ul><li><a href=#d38cb0ddf84de51ca09be1da3457da6ba1b343d2cc82917ac27778bfcb908d66>EP0_IN_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#2a1dc2f76ff17903cf13c6830e6b01e9bb154cf6dc2e42788435f7de43ef6562>EP0_IN_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#33f2dd45a927d189cf563cb685b9a07cc8b7f286cd132be57eed75c8c2eea1e4>EP0_OUT_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#7cb590a01a62d86780f5170d90827d3f9a6efcf30c02ddee8cde70355541b607>EP0_OUT_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#894a6e8f19ac48f8567d394f2e85ad77c0c07f005c8d6597a26c2244bdb0e2d2>EP10_IN_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#a51290271fdb987cdd874c2fe0f2e5f17892238d0d546c60a5216f7502703744>EP10_IN_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#0d29bec2ded6a3ad2decbae15e4463963dee013cd137e5ba4664bdc95f5367ee>EP10_IN_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#d9efbb7fc7d3003cbd1a7facd1bd730ee403be9904427361f906d8fbde3d1b53>EP10_OUT_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#d07a0059e36c94dfd8b33f5ece2f553501f9aac3f939deb1a232dd78e96805a8>EP10_OUT_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#07815ce1920851f62df03954a2c12c8130a730346c35b6bcfaed4c5750911e0d>EP10_OUT_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#7578d9eb5c1e8fb96d2d347b92bd685656524cf6d6618c958b73a48ae5b0362d>EP11_IN_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#70ad59cc4e86066451ca3d353cf81c551002c878971d1bc556f6f9316fb9d610>EP11_IN_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#0329dd49d153e50d42d187d0249c79c8cb51049391cabbd7d3ffcbfdf7e2e178>EP11_IN_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#bf349c1874c59e5689a1f728f9435f041c6a573ae0c2dd813137ab17c26dca4b>EP11_OUT_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#aed7a4160e8e85b12251f117a25ad44484deba870aacce5ef6431bbebd5eac99>EP11_OUT_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#93baeb88cae56a19bbfa177c6ae4b1ec3243777200fc0efe8e305fbf9c95a806>EP11_OUT_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#2d282ea445fc3a2c31d01899f12a205a63e67b6a3e4fecdb8769df6b9861161c>EP12_IN_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#acec2c6c61a9e00adda5f9519dd02161e92491e55b513b00650b306fecf68278>EP12_IN_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#9ce7aeb806dd620edaa27f7f19478e2d4231e10dac0e86eeb5e2a84963ec435c>EP12_IN_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#d22b02b497b7906ac31cf54126aa90454796f48e059ddc7abc3b8d76f1bf37a2>EP12_OUT_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#5b855e030662a4a25d7113f502c07f2a757c2179c2775016067d1f7e2fa2bd1e>EP12_OUT_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#b145133923b2dd51109d0fe57bad8b945fd25f06d875c6d2895c7184f4847e35>EP12_OUT_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#480213763643cbffce4ee1580100b193495f9e756c25a31095acf9da5ec14236>EP13_IN_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#2c4e5a5b1208f1144e758102688a88a5d4f5c8ed196f9e96cbfa82da644e7fe0>EP13_IN_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#910006dd5455c005b2c404af17a6c1f53d59f2361e4d7a33db86b4fe9159b836>EP13_IN_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#a543a0a70e3824587ceeb379046f861a94713983237b6034e44dece081c779f8>EP13_OUT_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#28ee701d7f702a21b1143903b993b951cbf0338316606301ebdd6e4ab93f6f8e>EP13_OUT_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#cf364bf5e294bbbe547b5656a96afdea86a2cc0ad47ec76db33a0fa53553d830>EP13_OUT_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#9f5509e8cfe5fa76d4127311b713bbbf81592bd804149ddea9df864beb462648>EP14_IN_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#4a63eadf9901032e1d754dc2da4e2d05a119040f3afe256e86e2b025a084e339>EP14_IN_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#36edab06c0fc4e61b04672377c0f3b9b761479c6877120b5bdee2d01cdee5874>EP14_IN_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#e78379866050d4cf32d38a757fac67a1b35f733269dbfa94c635736d9de5d8d1>EP14_OUT_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#764fdaf20a3975b71d598b2d22da770251654c490657f4f054ddbc30a090245a>EP14_OUT_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#329a2b2fab66ee58706cadcca92d23b279b68d822f13f1efdb05b3fe40dff9b3>EP14_OUT_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#aa36495ce2e30d645241e2d3c9d6b31444b5c7c963a2e01816bd50c4e793aa74>EP15_IN_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#09867c3f2fd400e51b49bb69f3f114b5c35e55ce622d85379275452da7907841>EP15_IN_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#9f58e131043ff0921bf1906842434f4758cfafd47a441f38ebdd62c866438fe7>EP15_IN_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#6062ee9ba0d827d8f2965ba1444933b583eec304a1c85e6d9aed670408d5ece2>EP15_OUT_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#a14a606cc7bb8e09f98e163fa6b18402f9b21e5a9df6a8b34aabf62fd2bbe9a9>EP15_OUT_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#75e6be4962bc9e610675f7990986d15edfafd7b06faa92fb25ba0d51d50e5335>EP15_OUT_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#2510b8b23a8f4ef1d6feec5c5fe17f21cfd4683d5c997706a6669967c9f7de3d>EP1_IN_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#9930e2d78050567bed19e5d359f6a0c44d7a765c372dd2b3349761f9911260fa>EP1_IN_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#967e0fc86b2fd51615d2075306fab3cc58a3dfb2b018118cce40f1f08c7a01df>EP1_IN_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#964483111d172a2aeac9c4335885340a8f7f97b96f9c9c853927993613bfac54>EP1_OUT_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#06d8f6a3ff93cb7e0ac1a995dc153ebc76ee54b5fb438a07e30948c1e6f26750>EP1_OUT_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#16ac2f444174e51b52faea10bf9fff9e32858eb190a8567d4acc2d2ad6b11205>EP1_OUT_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#421b3768f30bc0e84ea1138df66b3da8002d6a42cf9ee4f193acb5eed0086d61>EP2_IN_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#ea6c8d06701413d0b66c2cd1230bffd5a6cfcc3961c74f681bd6ede671bbe284>EP2_IN_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#0c0021e771383b4e5f0e2d32f58dbff51c89fb5e718b24d47c39b68f3f1444c2>EP2_IN_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#8c396fbd44b098bdf2affb78624828eeacf52f16c5bec805f338547f8845cccf>EP2_OUT_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#4b92d276c0fb0835203c628f46ed63e86979487c64e89ea92d1a4215f05c765c>EP2_OUT_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#538b944035e0b2ee2b9952b35a33b883813577e55e910d7152895f5dce4c767f>EP2_OUT_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#f552afd363fe9bcd414d2438e82fcab042c44b5ed9322039c5c0ad36b7893d22>EP3_IN_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#cd5d64dd35193de115077d34a3ab7af873b70ccb667bc639b5f9102ae75702ba>EP3_IN_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#89478e5345fa73825c7aac069597e539c9756bbd15c66ab088b526c28195d6fa>EP3_IN_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#8e82533f6b4ddffbdcd5176ff1d21489dc75c2fc6363d8cd79df922cdbab1b9f>EP3_OUT_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#33658eed892f0db3cd69ec9652fe3b876512e4bcfcc43212c116b1bebef59ccc>EP3_OUT_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#2b94b4b77fdd1ec1899c8b62b7415d18f572994c43ac84037ee8034106030dc9>EP3_OUT_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#4cae324e8c6493713ad0b3df8e89f0873bb702827022ca29c071dc36aa0583cd>EP4_IN_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#a1c1df92d7ade529b44a3f86f0ab493f0483024b617d472f4844d3fa67b66b6b>EP4_IN_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#3aec3f9637474221d368e4dc65124e0d02fc42d38c812937b0fd70fe1eca8c0b>EP4_IN_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#7728a0c79f4cceec0d0e9309ba46ea66c22aab085e5531bcbf5192c1b1d81410>EP4_OUT_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#86d5265424ca2f8fec31e35d7add851f9cfcb64e6cb9ff69bdd1579fd00ecf79>EP4_OUT_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#568237ed3bda5e2ce477e193b06b2c47f552299766da3f65bb08ba669f8b71fd>EP4_OUT_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#263823cbe2dbc2a9fd56a7d8b2b88bba917154845c22eba32b860eed82c75e85>EP5_IN_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#c2c19636411271ef2d11e362a6f53cc211570bb7cffe27d674968f772200e550>EP5_IN_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#b57512fd50838c4e353e2ca4820a830fe9f893de106f2fd332386e0accee3fcd>EP5_IN_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#61b3e6bfef4e50c65bc760852f901ec8a91b0f3abac55cf1f18ac522f810673a>EP5_OUT_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#f0c1594024fe1da8b4d0923b9e01e2cf59453f64cd2055ef73a4c6539954068a>EP5_OUT_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#0f30690b82c6678a3d0c8ea3b23448d636d6246cbe2c42ad48621cfd2166e9fb>EP5_OUT_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#467c1dcdc4cd48362af442125c46c9b3cec30302d0f752a888ce595414350135>EP6_IN_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#96978aa7678a09cb4e4cd5253f4cf3cf53f581b66ee91fbe0624db4d46064ebf>EP6_IN_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#e1270a31fceb87730c831388697773de837a0dfe9bd3c898a9a700e0dd871a48>EP6_IN_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#17e0e124e720a2a9b445c07ded6eb4228416209907a4be273bd0add8ddd47eb4>EP6_OUT_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#6395dc276c339f9ff596b354560a7719a90d7a75316e4317c7ed2fefcc280a03>EP6_OUT_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#e8a5f35cf27fd053ecc0d65cac3ae4ed5a5d202d5b49d48cf1940aa82d01850c>EP6_OUT_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#bb624634e43d7c9032f042ae2ead100d0e46138ffb5dbb334c8f9d17db68f0ae>EP7_IN_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#fb83fa51718a18e442464ebf5e7faf572eefe75ddc6c80e2c7552d854e877906>EP7_IN_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#9141f278e4b897bbf9ebc59d2919280657572236bc6d0ad27633ad57cf4ce266>EP7_IN_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#07646ea65402740cecac5ffb5ae66fb434e6105a1f8ad6ffe6996899fbb4cd34>EP7_OUT_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#59887aae22b34d2da3e162ce01f8bbc82c424336e4273c99b999a731fc795243>EP7_OUT_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#fa4d0a0749dbcac2433fe544859572a59a498b127276b7f4725ff74b3a8edcd0>EP7_OUT_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#9e9e2c6bab81ec6a5410f3a3f7701df0224ea2dd098a1605ce634ddfc0ca7c17>EP8_IN_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#49a9d9990cd3447b0b3ffc53753bc0a2f75a2c63de25956319b2d3223a030843>EP8_IN_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#41bc72e49748182c48bcb76df80bb60e7d7bddb4a0950b01e96d3080beb2544d>EP8_IN_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#0b10dbdbd3943fa32c36e72a6699f357f72008e4dd53c1c9d3560cd6c1159f03>EP8_OUT_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#ae28bbaf4c00b7c2511bd701fce939d805ecd9d68b890cea5f20efd698c7666e>EP8_OUT_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#e4ab0d8627f8abd40f9f164fb8c7d126552543eb6a1fb7797dad1892a5cb9de5>EP8_OUT_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#513962b95fefa30e82a3fcabb90f383350dee8f8c1f40a33ea1a6d3f350d9505>EP9_IN_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#4bbc30fc06ff91ea5fbc0f8138bfcf300f776c6426a3361d2ec391d13c88fa93>EP9_IN_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#520f5e0ff4c8a056e86794c49e0ea632adb28720cfa4c74c1f33fa2936687457>EP9_IN_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#25d8f96d062899d6af99acaa94694fd1db2863401974fd37bb2eacab884de7a5>EP9_OUT_BUFFER_CONTROL_LENGTH_0_Field</a><li><a href=#011a70c211f637b77367408a1d3d9c7c260b0e05348f34bd4b515d815295bcda>EP9_OUT_BUFFER_CONTROL_LENGTH_1_Field</a><li><a href=#89eb59f33815cbcd9824e22162e12f4785a3b5c7c0c3059ecc7fb0b97bba844f>EP9_OUT_CONTROL_BUFFER_ADDRESS_Field</a><li><a href=#56c94f0f8d427301900f95ee404dd5ffeac0ada465b9bb1f2170aa018bb573a7>SETUP_PACKET_HIGH_WINDEX_Field</a><li><a href=#c6295998ba60f8e38ca41002748b5827ffc6778ca7a2371d3e75f90ffe3cdcf5>SETUP_PACKET_HIGH_WLENGTH_Field</a><li><a href=#506f06af68288c91d3490082f6ba8bd46d6982b9abc65de564f19e3c3248a8e1>SETUP_PACKET_LOW_BMREQUESTTYPE_Field</a><li><a href=#a93a5e3de6849ae5e520e6880b71d6cf47241494f97a851d84af2e164bd7d820>SETUP_PACKET_LOW_BREQUEST_Field</a><li><a href=#4a8b06157a64eda5d2b5ad2cc5332302587462889eddfbfdc7b9c74c54944dfd>SETUP_PACKET_LOW_WVALUE_Field</a></ul><h3>Variables</h3><ul><li><a href=#fbde4251592940f56bce81f0caf2368da0a90ce860c3929c585a67f4d32020af>USBCTRL_DPRAM_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=86492c9c34a05c2fc927df970d3b7ad6864a47f00ce4525ef1988f5c8a6f7a37>EP0_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP0_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=d38cb0ddf84de51ca09be1da3457da6ba1b343d2cc82917ac27778bfcb908d66>EP0_IN_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP0_IN_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=2a1dc2f76ff17903cf13c6830e6b01e9bb154cf6dc2e42788435f7de43ef6562>EP0_IN_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP0_IN_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=065d1711ca7452ec2c39c02a5aa1889cbab0c329cb2482fd02cea6686d181f49>EP0_IN_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP0_IN_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP0_IN_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP0_IN_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP0_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=b5df04866a90205f5572ea4285015d794e593508a9affd074d9f551d01d88253>EP0_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP0_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=33f2dd45a927d189cf563cb685b9a07cc8b7f286cd132be57eed75c8c2eea1e4>EP0_OUT_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP0_OUT_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=7cb590a01a62d86780f5170d90827d3f9a6efcf30c02ddee8cde70355541b607>EP0_OUT_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP0_OUT_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=a40224195988130606abf8c11f20ce928c3d8a3f7920c9ebfd34631629c8868a>EP0_OUT_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP0_OUT_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP0_OUT_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP0_OUT_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP0_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=86a83ac5b9d0bb73dc776547ab66bd9d23b589bf4cbaeeaf13104b73645caa8b>EP10_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP10_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=894a6e8f19ac48f8567d394f2e85ad77c0c07f005c8d6597a26c2244bdb0e2d2>EP10_IN_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP10_IN_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=a51290271fdb987cdd874c2fe0f2e5f17892238d0d546c60a5216f7502703744>EP10_IN_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP10_IN_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=47cf41cfa3e6cefb322278de74ad132d64974b9fcb45f07f4432f03ba066f7fc>EP10_IN_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP10_IN_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP10_IN_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP10_IN_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP10_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=0d29bec2ded6a3ad2decbae15e4463963dee013cd137e5ba4664bdc95f5367ee>EP10_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP10_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=bc6e88994288995a74e427fdce8c59e8694c3f1169b6f80f235a34b14d8bfdb7>EP10_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP10_IN_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=e2683913fd7f6b2e10875c307617992de23fcd64af292689f3beff6fa9052536>EP10_IN_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP10_IN_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP10_IN_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP10_IN_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=0d8686812cf7b67ad379c17a781689787b52b0690e03d353da0801b4a89a9adc>EP10_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP10_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=d9efbb7fc7d3003cbd1a7facd1bd730ee403be9904427361f906d8fbde3d1b53>EP10_OUT_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP10_OUT_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=d07a0059e36c94dfd8b33f5ece2f553501f9aac3f939deb1a232dd78e96805a8>EP10_OUT_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP10_OUT_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=49e5e46240dcc5d583ad39325f2571408acf0db7fb2066b57391d212ebc7d4a1>EP10_OUT_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP10_OUT_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP10_OUT_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP10_OUT_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP10_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=07815ce1920851f62df03954a2c12c8130a730346c35b6bcfaed4c5750911e0d>EP10_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP10_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=04e5812e82fe113f6fcf7e5828ac25809a526e4248258b4a49eedd1ce6667046>EP10_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP10_OUT_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=6babd4dd492c272a0488fbdc2da038bd3e086ff0769963257c712dc02fd273cd>EP10_OUT_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP10_OUT_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP10_OUT_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP10_OUT_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=a4f2bbfe3d8c7eeedec89803db80ccf177618420047c9cbd7b2a17c80df60c9d>EP11_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP11_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=7578d9eb5c1e8fb96d2d347b92bd685656524cf6d6618c958b73a48ae5b0362d>EP11_IN_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP11_IN_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=70ad59cc4e86066451ca3d353cf81c551002c878971d1bc556f6f9316fb9d610>EP11_IN_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP11_IN_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=59256b7decd4525b882e7ccd98699ba6a9d552a5fc43e05586cd4d34a94e1c28>EP11_IN_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP11_IN_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP11_IN_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP11_IN_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP11_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=0329dd49d153e50d42d187d0249c79c8cb51049391cabbd7d3ffcbfdf7e2e178>EP11_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP11_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=185c16a0c1dedaf088843dcf1dd0e7452d2d04e47b06108a006b2a18a4d94dc5>EP11_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP11_IN_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=284a22447070e93fe622d00fc134f6d5d823464ba7197fe4290077cc9a7f0c63>EP11_IN_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP11_IN_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP11_IN_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP11_IN_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=0ec6cd28f561e9a2108b7ada3e4fbb3196bb9c018d6e06ac1288f4c09c52a3d7>EP11_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP11_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=bf349c1874c59e5689a1f728f9435f041c6a573ae0c2dd813137ab17c26dca4b>EP11_OUT_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP11_OUT_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=aed7a4160e8e85b12251f117a25ad44484deba870aacce5ef6431bbebd5eac99>EP11_OUT_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP11_OUT_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=3f290dd3b715bdcf918deb223e4686169d3b44ed5dad1989b31acb672937ccd7>EP11_OUT_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP11_OUT_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP11_OUT_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP11_OUT_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP11_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=93baeb88cae56a19bbfa177c6ae4b1ec3243777200fc0efe8e305fbf9c95a806>EP11_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP11_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=417b3cf2ff2d77a590865f2eeeb1da4580853abf49093a58b8f946eed7dd6f3b>EP11_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP11_OUT_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=93e6b0fba0d074007a81ece0c8b77dca3888fb137ef7bc153c19bd4f5881f475>EP11_OUT_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP11_OUT_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP11_OUT_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP11_OUT_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=d4adde13419dde9a1722521b15dbd1ae1668db1dced9802b827413e742958193>EP12_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP12_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=2d282ea445fc3a2c31d01899f12a205a63e67b6a3e4fecdb8769df6b9861161c>EP12_IN_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP12_IN_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=acec2c6c61a9e00adda5f9519dd02161e92491e55b513b00650b306fecf68278>EP12_IN_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP12_IN_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=db1034a717ec6afb508ed23159550efcde1de06adfae9e6a86377d8ae0e70fe8>EP12_IN_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP12_IN_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP12_IN_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP12_IN_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP12_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=9ce7aeb806dd620edaa27f7f19478e2d4231e10dac0e86eeb5e2a84963ec435c>EP12_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP12_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=e48711ec3b1837f29bd290841e1252e9ef834402e11bba111f80d582192a2a7d>EP12_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP12_IN_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=c333ab64861930389205e9d772a11135f50fa218b6d2ab269b085f9963fa982c>EP12_IN_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP12_IN_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP12_IN_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP12_IN_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=7d57ca4f561a49241159f1de28b5f98f1ac48f48da478609022a61b55e91871a>EP12_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP12_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=d22b02b497b7906ac31cf54126aa90454796f48e059ddc7abc3b8d76f1bf37a2>EP12_OUT_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP12_OUT_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=5b855e030662a4a25d7113f502c07f2a757c2179c2775016067d1f7e2fa2bd1e>EP12_OUT_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP12_OUT_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=ea31c6bbd19534839993ee331168e13d445ea8f228ac0ac844a33165d504c218>EP12_OUT_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP12_OUT_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP12_OUT_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP12_OUT_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP12_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=b145133923b2dd51109d0fe57bad8b945fd25f06d875c6d2895c7184f4847e35>EP12_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP12_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=b4a03b5275a91cbe9e1b3832941cd0ffb9ef30103544cb3a78edcad3c5ec26f9>EP12_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP12_OUT_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=c55e4c7957be5e889f9e7a97c3f019b1d9b3200166bebc7990a3ee07cf834440>EP12_OUT_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP12_OUT_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP12_OUT_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP12_OUT_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=10e6a342d2a9a297b34ab55d166273ed9f620336706cc5300cae49b191fac552>EP13_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP13_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=480213763643cbffce4ee1580100b193495f9e756c25a31095acf9da5ec14236>EP13_IN_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP13_IN_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=2c4e5a5b1208f1144e758102688a88a5d4f5c8ed196f9e96cbfa82da644e7fe0>EP13_IN_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP13_IN_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=0e91e8f2c8ff17201615f6bc6d96f457d09acddf438eac190429ab8f15690306>EP13_IN_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP13_IN_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP13_IN_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP13_IN_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP13_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=910006dd5455c005b2c404af17a6c1f53d59f2361e4d7a33db86b4fe9159b836>EP13_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP13_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=ca8bb184fe24bcb592f4d060d64c3663b3f7b3a03f134b2565f87328daa19421>EP13_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP13_IN_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=6e66c0f15b9426bb97e1a6562aa700d8d4a4a7e88d8e12edc1df1c8fd09d269e>EP13_IN_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP13_IN_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP13_IN_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP13_IN_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=3d6f52216c63b0422020c4658174eafc29a4d9adccb8934a375b088dd1cdb95c>EP13_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP13_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=a543a0a70e3824587ceeb379046f861a94713983237b6034e44dece081c779f8>EP13_OUT_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP13_OUT_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=28ee701d7f702a21b1143903b993b951cbf0338316606301ebdd6e4ab93f6f8e>EP13_OUT_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP13_OUT_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=683281ed5cfe7b08252a425e0b1d3d57595ea1ccbf9513d846fc954c5cca50dc>EP13_OUT_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP13_OUT_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP13_OUT_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP13_OUT_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP13_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=cf364bf5e294bbbe547b5656a96afdea86a2cc0ad47ec76db33a0fa53553d830>EP13_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP13_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=81619da83ff52e1f8fd5f253c6fe87c3f79cba679e40d6f6aa3b10eac8e95f55>EP13_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP13_OUT_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=709f3b7d4fbed6f13de4d3cd44886720289b30055541d005ad185784d2c95cfc>EP13_OUT_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP13_OUT_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP13_OUT_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP13_OUT_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=47c762be4359ef7140b4c0883bb9f3609111344b262ac6257acff5837840bd45>EP14_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP14_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=9f5509e8cfe5fa76d4127311b713bbbf81592bd804149ddea9df864beb462648>EP14_IN_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP14_IN_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=4a63eadf9901032e1d754dc2da4e2d05a119040f3afe256e86e2b025a084e339>EP14_IN_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP14_IN_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=56f3fbd911e85b9da84eaa56271126c4021dbdbe01e75b11338a4e73ae16ba35>EP14_IN_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP14_IN_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP14_IN_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP14_IN_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP14_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=36edab06c0fc4e61b04672377c0f3b9b761479c6877120b5bdee2d01cdee5874>EP14_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP14_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=f86b3ce77c0090f880e5f7a0ee595331147942235560995fa7eb26d792157c47>EP14_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP14_IN_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=0fdc2fb76eebfd20bc7f76632ec654774251b28cd1c401c7d1e3d590d7bb9bc1>EP14_IN_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP14_IN_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP14_IN_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP14_IN_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=12de3f6ce10e9bf38fb6148be92f976d7d03faa22227d6d067769fcad9fa8cb0>EP14_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP14_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=e78379866050d4cf32d38a757fac67a1b35f733269dbfa94c635736d9de5d8d1>EP14_OUT_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP14_OUT_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=764fdaf20a3975b71d598b2d22da770251654c490657f4f054ddbc30a090245a>EP14_OUT_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP14_OUT_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=8cf14ca6f5072d18a74aa21484b8dc6180c17e90f9e2cc70a65c96f3678a7835>EP14_OUT_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP14_OUT_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP14_OUT_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP14_OUT_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP14_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=329a2b2fab66ee58706cadcca92d23b279b68d822f13f1efdb05b3fe40dff9b3>EP14_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP14_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=d79a4712d5d1f2a25e4434746938081f83d465cf49c1198c8330d4d66e8d9b2a>EP14_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP14_OUT_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=afef14e410e82f8f5d53cba6bb563931d4f63910a68e8cbbab8dace7daa3fd6a>EP14_OUT_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP14_OUT_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP14_OUT_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP14_OUT_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=37daa2ffdef198d07b98059723a4cc4f225afe9eda7d293fc9e827752da2d5bf>EP15_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP15_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=aa36495ce2e30d645241e2d3c9d6b31444b5c7c963a2e01816bd50c4e793aa74>EP15_IN_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP15_IN_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=09867c3f2fd400e51b49bb69f3f114b5c35e55ce622d85379275452da7907841>EP15_IN_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP15_IN_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=9179a1bb20e62234c6aa9f2e1a099cf90558754f0883c7a9c05f060cd8c4e3b3>EP15_IN_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP15_IN_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP15_IN_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP15_IN_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP15_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=9f58e131043ff0921bf1906842434f4758cfafd47a441f38ebdd62c866438fe7>EP15_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP15_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=26a6859d8ad86a7eb6e29c59b1c167366a1a7082481ca6d4a93c47f358698d53>EP15_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP15_IN_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=0b94ea76b938d0ce24466f9ff252c77e72ab66ee077674ec0bf680dce9c93149>EP15_IN_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP15_IN_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP15_IN_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP15_IN_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=08aa6a9d509d7f6ad73e718af699b13173c5439294c87d6f9f9e63433c378fa5>EP15_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP15_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=6062ee9ba0d827d8f2965ba1444933b583eec304a1c85e6d9aed670408d5ece2>EP15_OUT_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP15_OUT_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=a14a606cc7bb8e09f98e163fa6b18402f9b21e5a9df6a8b34aabf62fd2bbe9a9>EP15_OUT_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP15_OUT_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=384e87b60bae8a1b092ee54e384227cb28395fe19cec553f500b1961df28aa93>EP15_OUT_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP15_OUT_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP15_OUT_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP15_OUT_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP15_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=75e6be4962bc9e610675f7990986d15edfafd7b06faa92fb25ba0d51d50e5335>EP15_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP15_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=99d941f6f71ee485e326e9f175d1ec05c2ee5e8fae88fbadd90bc0675a7aadca>EP15_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP15_OUT_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=566e4e9bcce1afee1e3b792cc431baf6e7569517f8e3f9d68f11824ff770eefa>EP15_OUT_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP15_OUT_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP15_OUT_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP15_OUT_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=a21fd66b19dd6c722759eb30edeb4b676e0a67d56496c9f5158b183868bc6009>EP1_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP1_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=2510b8b23a8f4ef1d6feec5c5fe17f21cfd4683d5c997706a6669967c9f7de3d>EP1_IN_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP1_IN_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=9930e2d78050567bed19e5d359f6a0c44d7a765c372dd2b3349761f9911260fa>EP1_IN_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP1_IN_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=5f94296509ae84b91d6989b9c5a3182745bfce769959bda8a41afa2a4573ef47>EP1_IN_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP1_IN_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP1_IN_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP1_IN_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP1_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=967e0fc86b2fd51615d2075306fab3cc58a3dfb2b018118cce40f1f08c7a01df>EP1_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP1_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=171ac3bfda4dabdbb2122cd8fc3e5e5683f3171b930a95e84612ca5a0a1e1e98>EP1_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP1_IN_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=26d15abc7980e08407f6f7982cc5014ac4fb1dbe20ee785e156867b6353cf071>EP1_IN_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP1_IN_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP1_IN_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP1_IN_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=d6e07b53a798db4cb3cc00e98fd548acf1e6009ee43f4e808f39d003d36b9870>EP1_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP1_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=964483111d172a2aeac9c4335885340a8f7f97b96f9c9c853927993613bfac54>EP1_OUT_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP1_OUT_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=06d8f6a3ff93cb7e0ac1a995dc153ebc76ee54b5fb438a07e30948c1e6f26750>EP1_OUT_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP1_OUT_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=b46b6846a4d794af0a8fd3da018ce4da7e3439d33506c35d3478794733d0a606>EP1_OUT_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP1_OUT_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP1_OUT_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP1_OUT_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP1_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=16ac2f444174e51b52faea10bf9fff9e32858eb190a8567d4acc2d2ad6b11205>EP1_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP1_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=3b9a275895d57691261b68e5813bfaddaeb4b604bed7739713c0a698b0d03d95>EP1_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP1_OUT_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=1f13a12738e99d077fdc3188ced6e2face6863339bec73e621c60e7319075d58>EP1_OUT_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP1_OUT_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP1_OUT_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP1_OUT_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=78844002c2b3fff164f04f86486a14cd28886a5b560f157d1c13ebd9cae1b33c>EP2_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP2_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=421b3768f30bc0e84ea1138df66b3da8002d6a42cf9ee4f193acb5eed0086d61>EP2_IN_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP2_IN_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=ea6c8d06701413d0b66c2cd1230bffd5a6cfcc3961c74f681bd6ede671bbe284>EP2_IN_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP2_IN_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=f197c31d21210b356a5180fd2de8335812958cd60b8eb37b6d4312230c9c0039>EP2_IN_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP2_IN_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP2_IN_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP2_IN_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP2_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=0c0021e771383b4e5f0e2d32f58dbff51c89fb5e718b24d47c39b68f3f1444c2>EP2_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP2_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=4c4943897acf13b55c12be82dde87745c011c33d2a78d603be7eda88a06f0e05>EP2_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP2_IN_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=aacc6c366280f68c7a3c0faab76241973937aefcf4a30abfb963d249c9a93b05>EP2_IN_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP2_IN_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP2_IN_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP2_IN_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=e5aca76e5132f5b94707b7efd5f9bde6bb2da14b702c2e4fd05b9e0a8b26ac91>EP2_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP2_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=8c396fbd44b098bdf2affb78624828eeacf52f16c5bec805f338547f8845cccf>EP2_OUT_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP2_OUT_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=4b92d276c0fb0835203c628f46ed63e86979487c64e89ea92d1a4215f05c765c>EP2_OUT_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP2_OUT_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=2d8fdb66133a9f447154cacdbef688a642e09f8a600bf360cd936b99be5416ac>EP2_OUT_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP2_OUT_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP2_OUT_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP2_OUT_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP2_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=538b944035e0b2ee2b9952b35a33b883813577e55e910d7152895f5dce4c767f>EP2_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP2_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=d5c7c4c4b93936fcf1349184033c2329d99338bcede52eec64e35e2a61ad7fc7>EP2_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP2_OUT_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=d126ac10d59697af1eb025d974514eefc5d997898faac9df278ac139049712ef>EP2_OUT_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP2_OUT_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP2_OUT_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP2_OUT_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=5e0f1217b88bfa76ac59fc96c95c7209b3ff9a66d950394d2b5a6bd68ae7c644>EP3_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP3_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=f552afd363fe9bcd414d2438e82fcab042c44b5ed9322039c5c0ad36b7893d22>EP3_IN_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP3_IN_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=cd5d64dd35193de115077d34a3ab7af873b70ccb667bc639b5f9102ae75702ba>EP3_IN_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP3_IN_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=d7b90817696c18762b4ca13eaf2570a0a442118d6d874b6e3acfd7fbf73a5b50>EP3_IN_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP3_IN_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP3_IN_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP3_IN_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP3_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=89478e5345fa73825c7aac069597e539c9756bbd15c66ab088b526c28195d6fa>EP3_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP3_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=594c4e9f65085989a51becb84736d87902b8dab6e35a297fdef26dbaaa9c1e40>EP3_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP3_IN_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=2077338cf6b685caffcd52cb9d6c497229d2905bfabff90fd8f1c5292379aa10>EP3_IN_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP3_IN_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP3_IN_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP3_IN_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=b916c5ac4b8c480558c96d3ca5d4423917c07ca43019b3fc925098ece0ebe5d8>EP3_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP3_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=8e82533f6b4ddffbdcd5176ff1d21489dc75c2fc6363d8cd79df922cdbab1b9f>EP3_OUT_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP3_OUT_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=33658eed892f0db3cd69ec9652fe3b876512e4bcfcc43212c116b1bebef59ccc>EP3_OUT_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP3_OUT_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=3f3bdd3adf7ec5c7a7f761e10d604e052937ef5f49faf56e6fbcf1f6bc86fe91>EP3_OUT_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP3_OUT_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP3_OUT_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP3_OUT_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP3_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=2b94b4b77fdd1ec1899c8b62b7415d18f572994c43ac84037ee8034106030dc9>EP3_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP3_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=16f89632b74949ea8d1adf61871c4c8ceda44a14005ed367ddb1642acf189202>EP3_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP3_OUT_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=266db7ff5c933c9927c65eb4c3c2b52b069393c5d452d212d934efa44448d58a>EP3_OUT_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP3_OUT_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP3_OUT_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP3_OUT_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=07d6aff832a9b7ea93856fbd1e28d0359b3b623806ec4e2b752b05277061c586>EP4_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP4_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=4cae324e8c6493713ad0b3df8e89f0873bb702827022ca29c071dc36aa0583cd>EP4_IN_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP4_IN_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=a1c1df92d7ade529b44a3f86f0ab493f0483024b617d472f4844d3fa67b66b6b>EP4_IN_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP4_IN_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=508432211fd3c3d137e38d65b9b1eba0d344f358f0c893257d9d77dd5a951083>EP4_IN_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP4_IN_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP4_IN_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP4_IN_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP4_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=3aec3f9637474221d368e4dc65124e0d02fc42d38c812937b0fd70fe1eca8c0b>EP4_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP4_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=d1b8ef6634415f643a8fee73aa185307811a99b8e4d1d673f7eef01db5ae6a79>EP4_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP4_IN_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=3d9e6986f219cff69f5f7d8d1b2c01462a4a4f891eb3411d13d028a2f38d820c>EP4_IN_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP4_IN_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP4_IN_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP4_IN_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=f9d96f3ce84c75dfd52a6e28cf1ae773bb9c42385227f86442bb4707ff366677>EP4_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP4_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=7728a0c79f4cceec0d0e9309ba46ea66c22aab085e5531bcbf5192c1b1d81410>EP4_OUT_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP4_OUT_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=86d5265424ca2f8fec31e35d7add851f9cfcb64e6cb9ff69bdd1579fd00ecf79>EP4_OUT_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP4_OUT_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=9dd62d6200ea85e21848adaa12991b20a2bbbcea934268e63082ceb379573124>EP4_OUT_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP4_OUT_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP4_OUT_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP4_OUT_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP4_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=568237ed3bda5e2ce477e193b06b2c47f552299766da3f65bb08ba669f8b71fd>EP4_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP4_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=1b4e15be2f8311d780e40e824b586cd6e5d67b8e17cba727841e2dea104640cd>EP4_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP4_OUT_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=2dfa676ebdbea586c06b09aa21a6ad7b2f871612ae854fb2d22d04a089ad44b1>EP4_OUT_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP4_OUT_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP4_OUT_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP4_OUT_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=d38d190c9eac904eee22a0df66eaaa5aac303d3262dc23c9ef337d7deee0cd58>EP5_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP5_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=263823cbe2dbc2a9fd56a7d8b2b88bba917154845c22eba32b860eed82c75e85>EP5_IN_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP5_IN_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=c2c19636411271ef2d11e362a6f53cc211570bb7cffe27d674968f772200e550>EP5_IN_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP5_IN_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=8ea395c7c9a6adff3f7b94a7cba270060af2d414683a5de77bb7989cdb8e45ff>EP5_IN_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP5_IN_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP5_IN_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP5_IN_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP5_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=b57512fd50838c4e353e2ca4820a830fe9f893de106f2fd332386e0accee3fcd>EP5_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP5_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=6f4670a982671c96a4cae8cd68c6cd533883f87ad561a6e67c60bdd30a3075ba>EP5_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP5_IN_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=7e165f116e3564e7bdf9a57e31bb77a92ebb2febae06d900825455ff59634acf>EP5_IN_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP5_IN_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP5_IN_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP5_IN_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=99ef59489a53c2975ae22171fc1cae77e9bce7d377bb9e999b440eb5eed045f8>EP5_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP5_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=61b3e6bfef4e50c65bc760852f901ec8a91b0f3abac55cf1f18ac522f810673a>EP5_OUT_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP5_OUT_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=f0c1594024fe1da8b4d0923b9e01e2cf59453f64cd2055ef73a4c6539954068a>EP5_OUT_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP5_OUT_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=01241d0a9cbc166d5a8806747a43a81e5d58447c2cfff56a3fe279754fa9c263>EP5_OUT_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP5_OUT_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP5_OUT_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP5_OUT_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP5_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=0f30690b82c6678a3d0c8ea3b23448d636d6246cbe2c42ad48621cfd2166e9fb>EP5_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP5_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=659a2386060b5060830bfac1aed432bd81b428b5b1ab6d51bf5119ff07acdf11>EP5_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP5_OUT_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=91525deb5369fc5755ee6b79343c7a874ca8b20446fe5bedc28da3b2d3997c65>EP5_OUT_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP5_OUT_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP5_OUT_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP5_OUT_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=6f0d1be27a3d6070be4c01c637f319c1731409129097429cde09dd10b5c5efb3>EP6_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP6_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=467c1dcdc4cd48362af442125c46c9b3cec30302d0f752a888ce595414350135>EP6_IN_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP6_IN_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=96978aa7678a09cb4e4cd5253f4cf3cf53f581b66ee91fbe0624db4d46064ebf>EP6_IN_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP6_IN_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=4ec06c29bda49a1d4b781cf3085d17319fb7b8508d24e4b9fe0a8a4749200f3d>EP6_IN_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP6_IN_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP6_IN_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP6_IN_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP6_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=e1270a31fceb87730c831388697773de837a0dfe9bd3c898a9a700e0dd871a48>EP6_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP6_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=8869f615a11a42bb79f89de5a13383341daa9eb6fa4b573b2d277a26c1f4652f>EP6_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP6_IN_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=1520d26e0cd557d3d413e0e1e99a25b87527c1d64249bae4eaddd0526c4b1b88>EP6_IN_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP6_IN_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP6_IN_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP6_IN_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=d7ead548af0f903a9f5f56ebd07e270b032dd07549452b3d143fb507f8ab1f56>EP6_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP6_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=17e0e124e720a2a9b445c07ded6eb4228416209907a4be273bd0add8ddd47eb4>EP6_OUT_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP6_OUT_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=6395dc276c339f9ff596b354560a7719a90d7a75316e4317c7ed2fefcc280a03>EP6_OUT_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP6_OUT_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=d27b26bc7b5ce6589b3b4cf8f1e2b8878a18b5beefb296be891ec82ae9f5ecef>EP6_OUT_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP6_OUT_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP6_OUT_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP6_OUT_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP6_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=e8a5f35cf27fd053ecc0d65cac3ae4ed5a5d202d5b49d48cf1940aa82d01850c>EP6_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP6_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=1cb5c10f0fa846f69f00cc0ad18cbbbe9ac3c19879fd576c6519513b5532bcaf>EP6_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP6_OUT_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=94f0e861518d70dcd75a0f54608273c6d79f263da7255aaaad2bd9013b8cbecf>EP6_OUT_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP6_OUT_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP6_OUT_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP6_OUT_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=694847f68c6b05e4fecbcf56d1f136d1dba2dc8db142cbc2c575004c951b0708>EP7_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP7_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=bb624634e43d7c9032f042ae2ead100d0e46138ffb5dbb334c8f9d17db68f0ae>EP7_IN_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP7_IN_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=fb83fa51718a18e442464ebf5e7faf572eefe75ddc6c80e2c7552d854e877906>EP7_IN_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP7_IN_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=006ebfc040a4247b177730e0674a6ac35ecfb55941af931b227d0779d7307a6e>EP7_IN_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP7_IN_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP7_IN_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP7_IN_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP7_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=9141f278e4b897bbf9ebc59d2919280657572236bc6d0ad27633ad57cf4ce266>EP7_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP7_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=1768a71a30baff2a490aa66319817c74858b411131a73f1e4058e435c5ae6cc9>EP7_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP7_IN_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=6ad220f008f3f21680927452edc18e46d5905216d4722f0839eead1311274f37>EP7_IN_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP7_IN_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP7_IN_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP7_IN_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=74d7a2bee61d89932f9dcf8ba88f4dedb9493a42b35e2aa914ce1fdb5344f9b6>EP7_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP7_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=07646ea65402740cecac5ffb5ae66fb434e6105a1f8ad6ffe6996899fbb4cd34>EP7_OUT_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP7_OUT_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=59887aae22b34d2da3e162ce01f8bbc82c424336e4273c99b999a731fc795243>EP7_OUT_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP7_OUT_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=1eb3485710ba893c2c434a6ae9d51d107bd9900d16a5376bd734372b6d397d78>EP7_OUT_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP7_OUT_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP7_OUT_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP7_OUT_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP7_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=fa4d0a0749dbcac2433fe544859572a59a498b127276b7f4725ff74b3a8edcd0>EP7_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP7_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=ec85135238297d9e48e4d70b12dbea881a27022a17fcea95788e0f7602073768>EP7_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP7_OUT_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=d3663c0420dd55b7d2e64f1faef3166032e26bd66cbe23340cba41625502ec7d>EP7_OUT_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP7_OUT_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP7_OUT_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP7_OUT_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=4e14ab27c6734ae4522f0f1eb1278b50ea1691991fffa5ef7e9cf3b491143b64>EP8_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP8_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=9e9e2c6bab81ec6a5410f3a3f7701df0224ea2dd098a1605ce634ddfc0ca7c17>EP8_IN_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP8_IN_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=49a9d9990cd3447b0b3ffc53753bc0a2f75a2c63de25956319b2d3223a030843>EP8_IN_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP8_IN_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=e0c67def8a649872b9e4ab50afec6da931ee1e92c8e3a91b67b435da559c56fd>EP8_IN_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP8_IN_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP8_IN_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP8_IN_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP8_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=41bc72e49748182c48bcb76df80bb60e7d7bddb4a0950b01e96d3080beb2544d>EP8_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP8_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=15b184a183a02099081620dd7839441a629d5007490a772408dc1cb9f3f67d2d>EP8_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP8_IN_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=b1757f6f3537ed6973d2061b1c4f07ed9d1c1848d5195796b764d523dad0de4c>EP8_IN_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP8_IN_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP8_IN_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP8_IN_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=3917e74762dbbd52d1ba7878ac90b5318b8856141a21d6c04bfd367fa643ecf0>EP8_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP8_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=0b10dbdbd3943fa32c36e72a6699f357f72008e4dd53c1c9d3560cd6c1159f03>EP8_OUT_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP8_OUT_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=ae28bbaf4c00b7c2511bd701fce939d805ecd9d68b890cea5f20efd698c7666e>EP8_OUT_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP8_OUT_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=5251dd474654d980e45ae3f1799aeebd30be09f28465408cd784d46e01d7f82c>EP8_OUT_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP8_OUT_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP8_OUT_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP8_OUT_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP8_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=e4ab0d8627f8abd40f9f164fb8c7d126552543eb6a1fb7797dad1892a5cb9de5>EP8_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP8_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=176b50330be6476b0a9964d67a6ef8eefd7c92b11906a884694d8f75f3386854>EP8_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP8_OUT_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=8b27c779d85616d05c21dacf2741ddb12b14c1e16bb225ee7ab89c68767ef27f>EP8_OUT_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP8_OUT_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP8_OUT_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP8_OUT_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=3a2000f8cd8db7434c3c1c1510d1de3e6dc4e2bfa34453aacc5fc236fe17dfe1>EP9_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP9_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=513962b95fefa30e82a3fcabb90f383350dee8f8c1f40a33ea1a6d3f350d9505>EP9_IN_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP9_IN_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=4bbc30fc06ff91ea5fbc0f8138bfcf300f776c6426a3361d2ec391d13c88fa93>EP9_IN_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP9_IN_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=3514e2b98fae602ce900612d0f194c68ffeeef1ceeab72fb0b8cbbcb813a19f4>EP9_IN_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP9_IN_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP9_IN_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP9_IN_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP9_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=520f5e0ff4c8a056e86794c49e0ea632adb28720cfa4c74c1f33fa2936687457>EP9_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP9_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=3323f0192a5d015a0a7899e8dd518b59fe5c2cfe27f8a2929a3275d04c2f3372>EP9_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP9_IN_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=2bf08175063e6929d780a4b78d8fcc4ef2e6d8d19ece974ff954f510ada3c093>EP9_IN_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP9_IN_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP9_IN_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP9_IN_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=e00c6d91ad31ab5b74f90541cbb0d7ee20d5287657b5f25504e75d52476351c1>EP9_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP9_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+  (Val_128,
+   Val_256,
+   Val_512,
+   Val_1024)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_128<dd><dt>Val_256<dd><dt>Val_512<dd><dt>Val_1024<dd></dl><h4 id=25d8f96d062899d6af99acaa94694fd1db2863401974fd37bb2eacab884de7a5>EP9_OUT_BUFFER_CONTROL_LENGTH_0_Field</h4><pre class=ada-code-snippet><code>subtype EP9_OUT_BUFFER_CONTROL_LENGTH_0_Field is HAL.UInt10;
+</code></pre><h4 id=011a70c211f637b77367408a1d3d9c7c260b0e05348f34bd4b515d815295bcda>EP9_OUT_BUFFER_CONTROL_LENGTH_1_Field</h4><pre class=ada-code-snippet><code>subtype EP9_OUT_BUFFER_CONTROL_LENGTH_1_Field is HAL.UInt10;
+</code></pre><h4 id=8562cc24851eabe368c0db9f900aee6486cfc5f89881f4f8fba40ff4512892f5>EP9_OUT_BUFFER_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP9_OUT_BUFFER_CONTROL_Register is record
+   LENGTH_0                 : EP9_OUT_BUFFER_CONTROL_LENGTH_0_Field :=
+                               16#0#;
+   AVAILABLE_0              : Boolean := False;
+   STALL                    : Boolean := False;
+   RESET                    : Boolean := False;
+   PID_0                    : Boolean := False;
+   LAST_0                   : Boolean := False;
+   FULL_0                   : Boolean := False;
+   LENGTH_1                 : EP9_OUT_BUFFER_CONTROL_LENGTH_1_Field :=
+                               16#0#;
+   AVAILABLE_1              : Boolean := False;
+   DOUBLE_BUFFER_ISO_OFFSET : EP9_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field :=
+                               RP2040_SVD.USBCTRL_DPRAM.Val_128;
+   PID_1                    : Boolean := False;
+   LAST_1                   : Boolean := False;
+   FULL_1                   : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=89eb59f33815cbcd9824e22162e12f4785a3b5c7c0c3059ecc7fb0b97bba844f>EP9_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP9_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+</code></pre><h4 id=ed8d6c1362afeedfd38b16d1e255b98c838bb44cf49b6fccbe18e2da3a5fc0ad>EP9_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP9_OUT_CONTROL_ENDPOINT_TYPE_Field is
+  (Control,
+   Isochronous,
+   Bulk,
+   Interrupt)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=10468622c37ca6045670260e06f10273be11dd50f725aa15a9a3c5239f076879>EP9_OUT_CONTROL_Register</h4><pre class=ada-code-snippet><code>type EP9_OUT_CONTROL_Register is record
+   BUFFER_ADDRESS            : EP9_OUT_CONTROL_BUFFER_ADDRESS_Field :=
+                                16#0#;
+   INTERRUPT_ON_NAK          : Boolean := False;
+   INTERRUPT_ON_STALL        : Boolean := False;
+   Reserved_18_25            : HAL.UInt8 := 16#0#;
+   ENDPOINT_TYPE             : EP9_OUT_CONTROL_ENDPOINT_TYPE_Field :=
+                                RP2040_SVD.USBCTRL_DPRAM.Control;
+   INTERRUPT_PER_DOUBLE_BUFF : Boolean := False;
+   INTERRUPT_PER_BUFF        : Boolean := False;
+   DOUBLE_BUFFERED           : Boolean := False;
+   ENABLE                    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=256c33ab5b497c6f4ce2fd1971b62083205b6dbbf528ecc42a90d8c3fb759a16>SETUP_PACKET_HIGH_Register</h4><pre class=ada-code-snippet><code>type SETUP_PACKET_HIGH_Register is record
+   WINDEX  : SETUP_PACKET_HIGH_WINDEX_Field := 16#0#;
+   WLENGTH : SETUP_PACKET_HIGH_WLENGTH_Field := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>WINDEX<dd><dt>WLENGTH<dd></dl><h4 id=56c94f0f8d427301900f95ee404dd5ffeac0ada465b9bb1f2170aa018bb573a7>SETUP_PACKET_HIGH_WINDEX_Field</h4><pre class=ada-code-snippet><code>subtype SETUP_PACKET_HIGH_WINDEX_Field is HAL.UInt16;
+</code></pre><h4 id=c6295998ba60f8e38ca41002748b5827ffc6778ca7a2371d3e75f90ffe3cdcf5>SETUP_PACKET_HIGH_WLENGTH_Field</h4><pre class=ada-code-snippet><code>subtype SETUP_PACKET_HIGH_WLENGTH_Field is HAL.UInt16;
+</code></pre><h4 id=506f06af68288c91d3490082f6ba8bd46d6982b9abc65de564f19e3c3248a8e1>SETUP_PACKET_LOW_BMREQUESTTYPE_Field</h4><pre class=ada-code-snippet><code>subtype SETUP_PACKET_LOW_BMREQUESTTYPE_Field is HAL.UInt8;
+</code></pre><h4 id=a93a5e3de6849ae5e520e6880b71d6cf47241494f97a851d84af2e164bd7d820>SETUP_PACKET_LOW_BREQUEST_Field</h4><pre class=ada-code-snippet><code>subtype SETUP_PACKET_LOW_BREQUEST_Field is HAL.UInt8;
+</code></pre><h4 id=88327df9c09c17b4a3422918f505f9cae1596fc0d4b04f9bcc019c3237894a2d>SETUP_PACKET_LOW_Register</h4><pre class=ada-code-snippet><code>type SETUP_PACKET_LOW_Register is record
+   BMREQUESTTYPE : SETUP_PACKET_LOW_BMREQUESTTYPE_Field := 16#0#;
+   BREQUEST      : SETUP_PACKET_LOW_BREQUEST_Field := 16#0#;
+   WVALUE        : SETUP_PACKET_LOW_WVALUE_Field := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BMREQUESTTYPE<dd><dt>BREQUEST<dd><dt>WVALUE<dd></dl><h4 id=4a8b06157a64eda5d2b5ad2cc5332302587462889eddfbfdc7b9c74c54944dfd>SETUP_PACKET_LOW_WVALUE_Field</h4><pre class=ada-code-snippet><code>subtype SETUP_PACKET_LOW_WVALUE_Field is HAL.UInt16;
+</code></pre><h4 id=fbde4251592940f56bce81f0caf2368da0a90ce860c3929c585a67f4d32020af>USBCTRL_DPRAM_Periph</h4><pre class=ada-code-snippet><code>USBCTRL_DPRAM_Periph : aliased USBCTRL_DPRAM_Peripheral
+  with Import, Address => USBCTRL_DPRAM_Base;
+</code></pre><h4 id=22a2875023bbcdf67081852a1bf577fafd162d3e29095fc2e39a0e21612b12d5>USBCTRL_DPRAM_Peripheral</h4><pre class=ada-code-snippet><code>type USBCTRL_DPRAM_Peripheral is record
+   SETUP_PACKET_LOW        : aliased SETUP_PACKET_LOW_Register;
+   SETUP_PACKET_HIGH       : aliased SETUP_PACKET_HIGH_Register;
+   EP1_IN_CONTROL          : aliased EP1_IN_CONTROL_Register;
+   EP1_OUT_CONTROL         : aliased EP1_OUT_CONTROL_Register;
+   EP2_IN_CONTROL          : aliased EP2_IN_CONTROL_Register;
+   EP2_OUT_CONTROL         : aliased EP2_OUT_CONTROL_Register;
+   EP3_IN_CONTROL          : aliased EP3_IN_CONTROL_Register;
+   EP3_OUT_CONTROL         : aliased EP3_OUT_CONTROL_Register;
+   EP4_IN_CONTROL          : aliased EP4_IN_CONTROL_Register;
+   EP4_OUT_CONTROL         : aliased EP4_OUT_CONTROL_Register;
+   EP5_IN_CONTROL          : aliased EP5_IN_CONTROL_Register;
+   EP5_OUT_CONTROL         : aliased EP5_OUT_CONTROL_Register;
+   EP6_IN_CONTROL          : aliased EP6_IN_CONTROL_Register;
+   EP6_OUT_CONTROL         : aliased EP6_OUT_CONTROL_Register;
+   EP7_IN_CONTROL          : aliased EP7_IN_CONTROL_Register;
+   EP7_OUT_CONTROL         : aliased EP7_OUT_CONTROL_Register;
+   EP8_IN_CONTROL          : aliased EP8_IN_CONTROL_Register;
+   EP8_OUT_CONTROL         : aliased EP8_OUT_CONTROL_Register;
+   EP9_IN_CONTROL          : aliased EP9_IN_CONTROL_Register;
+   EP9_OUT_CONTROL         : aliased EP9_OUT_CONTROL_Register;
+   EP10_IN_CONTROL         : aliased EP10_IN_CONTROL_Register;
+   EP10_OUT_CONTROL        : aliased EP10_OUT_CONTROL_Register;
+   EP11_IN_CONTROL         : aliased EP11_IN_CONTROL_Register;
+   EP11_OUT_CONTROL        : aliased EP11_OUT_CONTROL_Register;
+   EP12_IN_CONTROL         : aliased EP12_IN_CONTROL_Register;
+   EP12_OUT_CONTROL        : aliased EP12_OUT_CONTROL_Register;
+   EP13_IN_CONTROL         : aliased EP13_IN_CONTROL_Register;
+   EP13_OUT_CONTROL        : aliased EP13_OUT_CONTROL_Register;
+   EP14_IN_CONTROL         : aliased EP14_IN_CONTROL_Register;
+   EP14_OUT_CONTROL        : aliased EP14_OUT_CONTROL_Register;
+   EP15_IN_CONTROL         : aliased EP15_IN_CONTROL_Register;
+   EP15_OUT_CONTROL        : aliased EP15_OUT_CONTROL_Register;
+   EP0_IN_BUFFER_CONTROL   : aliased EP0_IN_BUFFER_CONTROL_Register;
+   EP0_OUT_BUFFER_CONTROL  : aliased EP0_OUT_BUFFER_CONTROL_Register;
+   EP1_IN_BUFFER_CONTROL   : aliased EP1_IN_BUFFER_CONTROL_Register;
+   EP1_OUT_BUFFER_CONTROL  : aliased EP1_OUT_BUFFER_CONTROL_Register;
+   EP2_IN_BUFFER_CONTROL   : aliased EP2_IN_BUFFER_CONTROL_Register;
+   EP2_OUT_BUFFER_CONTROL  : aliased EP2_OUT_BUFFER_CONTROL_Register;
+   EP3_IN_BUFFER_CONTROL   : aliased EP3_IN_BUFFER_CONTROL_Register;
+   EP3_OUT_BUFFER_CONTROL  : aliased EP3_OUT_BUFFER_CONTROL_Register;
+   EP4_IN_BUFFER_CONTROL   : aliased EP4_IN_BUFFER_CONTROL_Register;
+   EP4_OUT_BUFFER_CONTROL  : aliased EP4_OUT_BUFFER_CONTROL_Register;
+   EP5_IN_BUFFER_CONTROL   : aliased EP5_IN_BUFFER_CONTROL_Register;
+   EP5_OUT_BUFFER_CONTROL  : aliased EP5_OUT_BUFFER_CONTROL_Register;
+   EP6_IN_BUFFER_CONTROL   : aliased EP6_IN_BUFFER_CONTROL_Register;
+   EP6_OUT_BUFFER_CONTROL  : aliased EP6_OUT_BUFFER_CONTROL_Register;
+   EP7_IN_BUFFER_CONTROL   : aliased EP7_IN_BUFFER_CONTROL_Register;
+   EP7_OUT_BUFFER_CONTROL  : aliased EP7_OUT_BUFFER_CONTROL_Register;
+   EP8_IN_BUFFER_CONTROL   : aliased EP8_IN_BUFFER_CONTROL_Register;
+   EP8_OUT_BUFFER_CONTROL  : aliased EP8_OUT_BUFFER_CONTROL_Register;
+   EP9_IN_BUFFER_CONTROL   : aliased EP9_IN_BUFFER_CONTROL_Register;
+   EP9_OUT_BUFFER_CONTROL  : aliased EP9_OUT_BUFFER_CONTROL_Register;
+   EP10_IN_BUFFER_CONTROL  : aliased EP10_IN_BUFFER_CONTROL_Register;
+   EP10_OUT_BUFFER_CONTROL : aliased EP10_OUT_BUFFER_CONTROL_Register;
+   EP11_IN_BUFFER_CONTROL  : aliased EP11_IN_BUFFER_CONTROL_Register;
+   EP11_OUT_BUFFER_CONTROL : aliased EP11_OUT_BUFFER_CONTROL_Register;
+   EP12_IN_BUFFER_CONTROL  : aliased EP12_IN_BUFFER_CONTROL_Register;
+   EP12_OUT_BUFFER_CONTROL : aliased EP12_OUT_BUFFER_CONTROL_Register;
+   EP13_IN_BUFFER_CONTROL  : aliased EP13_IN_BUFFER_CONTROL_Register;
+   EP13_OUT_BUFFER_CONTROL : aliased EP13_OUT_BUFFER_CONTROL_Register;
+   EP14_IN_BUFFER_CONTROL  : aliased EP14_IN_BUFFER_CONTROL_Register;
+   EP14_OUT_BUFFER_CONTROL : aliased EP14_OUT_BUFFER_CONTROL_Register;
+   EP15_IN_BUFFER_CONTROL  : aliased EP15_IN_BUFFER_CONTROL_Register;
+   EP15_OUT_BUFFER_CONTROL : aliased EP15_OUT_BUFFER_CONTROL_Register;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>SETUP_PACKET_LOW<dd><dt>SETUP_PACKET_HIGH<dd><dt>EP1_IN_CONTROL<dd><dt>EP1_OUT_CONTROL<dd><dt>EP2_IN_CONTROL<dd><dt>EP2_OUT_CONTROL<dd><dt>EP3_IN_CONTROL<dd><dt>EP3_OUT_CONTROL<dd><dt>EP4_IN_CONTROL<dd><dt>EP4_OUT_CONTROL<dd><dt>EP5_IN_CONTROL<dd><dt>EP5_OUT_CONTROL<dd><dt>EP6_IN_CONTROL<dd><dt>EP6_OUT_CONTROL<dd><dt>EP7_IN_CONTROL<dd><dt>EP7_OUT_CONTROL<dd><dt>EP8_IN_CONTROL<dd><dt>EP8_OUT_CONTROL<dd><dt>EP9_IN_CONTROL<dd><dt>EP9_OUT_CONTROL<dd><dt>EP10_IN_CONTROL<dd><dt>EP10_OUT_CONTROL<dd><dt>EP11_IN_CONTROL<dd><dt>EP11_OUT_CONTROL<dd><dt>EP12_IN_CONTROL<dd><dt>EP12_OUT_CONTROL<dd><dt>EP13_IN_CONTROL<dd><dt>EP13_OUT_CONTROL<dd><dt>EP14_IN_CONTROL<dd><dt>EP14_OUT_CONTROL<dd><dt>EP15_IN_CONTROL<dd><dt>EP15_OUT_CONTROL<dd><dt>EP0_IN_BUFFER_CONTROL<dd><dt>EP0_OUT_BUFFER_CONTROL<dd><dt>EP1_IN_BUFFER_CONTROL<dd><dt>EP1_OUT_BUFFER_CONTROL<dd><dt>EP2_IN_BUFFER_CONTROL<dd><dt>EP2_OUT_BUFFER_CONTROL<dd><dt>EP3_IN_BUFFER_CONTROL<dd><dt>EP3_OUT_BUFFER_CONTROL<dd><dt>EP4_IN_BUFFER_CONTROL<dd><dt>EP4_OUT_BUFFER_CONTROL<dd><dt>EP5_IN_BUFFER_CONTROL<dd><dt>EP5_OUT_BUFFER_CONTROL<dd><dt>EP6_IN_BUFFER_CONTROL<dd><dt>EP6_OUT_BUFFER_CONTROL<dd><dt>EP7_IN_BUFFER_CONTROL<dd><dt>EP7_OUT_BUFFER_CONTROL<dd><dt>EP8_IN_BUFFER_CONTROL<dd><dt>EP8_OUT_BUFFER_CONTROL<dd><dt>EP9_IN_BUFFER_CONTROL<dd><dt>EP9_OUT_BUFFER_CONTROL<dd><dt>EP10_IN_BUFFER_CONTROL<dd><dt>EP10_OUT_BUFFER_CONTROL<dd><dt>EP11_IN_BUFFER_CONTROL<dd><dt>EP11_OUT_BUFFER_CONTROL<dd><dt>EP12_IN_BUFFER_CONTROL<dd><dt>EP12_OUT_BUFFER_CONTROL<dd><dt>EP13_IN_BUFFER_CONTROL<dd><dt>EP13_OUT_BUFFER_CONTROL<dd><dt>EP14_IN_BUFFER_CONTROL<dd><dt>EP14_OUT_BUFFER_CONTROL<dd><dt>EP15_IN_BUFFER_CONTROL<dd><dt>EP15_OUT_BUFFER_CONTROL<dd></dl>

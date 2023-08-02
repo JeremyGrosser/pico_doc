@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.SYSINFO</h1><h2>Entities</h2><h3>Record Types</h3><ul><li><a href=#d00e3330583a8b92fa0ad6cc813dedc67bc6b890f9546e445aced7df1be2eca6>CHIP_ID_Register</a><li><a href=#138b3bfbdfb651436db34472d3f830b919176636e7dc6f9388c372a245ecfe6b>PLATFORM_Register</a><li><a href=#7296613ed9fb4d3b04761698d4a7c2e60fb62169cc4f99f5d8b1aac71bfb6400>SYSINFO_Peripheral</a></ul><h3>Subtypes</h3><ul><li><a href=#1807de419b72ba5b531cd660cb0b0649fb4c086e7549c081bdf935403d2df561>CHIP_ID_MANUFACTURER_Field</a><li><a href=#c804dc989d59952e7409f2dd2d910e2bea90370566e56a93e79cf3810c70cc9d>CHIP_ID_PART_Field</a><li><a href=#8fc4d0120d101a2245c55ea43b24d6e3888ee3b10b2b332c5a29c388360aa75c>CHIP_ID_REVISION_Field</a></ul><h3>Variables</h3><ul><li><a href=#a320aaf439c4d96165d30a8f71097a178196995236db70c9d162caba367e4cba>SYSINFO_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=1807de419b72ba5b531cd660cb0b0649fb4c086e7549c081bdf935403d2df561>CHIP_ID_MANUFACTURER_Field</h4><pre class=ada-code-snippet><code>subtype CHIP_ID_MANUFACTURER_Field is HAL.UInt12;
+</code></pre><h4 id=c804dc989d59952e7409f2dd2d910e2bea90370566e56a93e79cf3810c70cc9d>CHIP_ID_PART_Field</h4><pre class=ada-code-snippet><code>subtype CHIP_ID_PART_Field is HAL.UInt16;
+</code></pre><h4 id=d00e3330583a8b92fa0ad6cc813dedc67bc6b890f9546e445aced7df1be2eca6>CHIP_ID_Register</h4><pre class=ada-code-snippet><code>type CHIP_ID_Register is record
+   MANUFACTURER : CHIP_ID_MANUFACTURER_Field;
+   PART         : CHIP_ID_PART_Field;
+   REVISION     : CHIP_ID_REVISION_Field;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>MANUFACTURER<dd><dt>PART<dd><dt>REVISION<dd></dl><h4 id=8fc4d0120d101a2245c55ea43b24d6e3888ee3b10b2b332c5a29c388360aa75c>CHIP_ID_REVISION_Field</h4><pre class=ada-code-snippet><code>subtype CHIP_ID_REVISION_Field is HAL.UInt4;
+</code></pre><h4 id=138b3bfbdfb651436db34472d3f830b919176636e7dc6f9388c372a245ecfe6b>PLATFORM_Register</h4><pre class=ada-code-snippet><code>type PLATFORM_Register is record
+   FPGA          : Boolean;
+   ASIC          : Boolean;
+   Reserved_2_31 : HAL.UInt30;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FPGA<dd><dt>ASIC<dd><dt>Reserved_2_31<dd></dl><h4 id=a320aaf439c4d96165d30a8f71097a178196995236db70c9d162caba367e4cba>SYSINFO_Periph</h4><pre class=ada-code-snippet><code>SYSINFO_Periph : aliased SYSINFO_Peripheral
+  with Import, Address => SYSINFO_Base;
+</code></pre><h4 id=7296613ed9fb4d3b04761698d4a7c2e60fb62169cc4f99f5d8b1aac71bfb6400>SYSINFO_Peripheral</h4><pre class=ada-code-snippet><code>type SYSINFO_Peripheral is record
+   CHIP_ID       : aliased CHIP_ID_Register;
+   PLATFORM      : aliased PLATFORM_Register;
+   GITREF_RP2040 : aliased HAL.UInt32;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>CHIP_ID<dd><dt>PLATFORM<dd><dt>GITREF_RP2040<dd></dl>

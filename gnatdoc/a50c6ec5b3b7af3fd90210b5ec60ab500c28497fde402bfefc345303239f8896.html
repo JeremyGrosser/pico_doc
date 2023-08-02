@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>HAL.Audio</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#e27608abbac768db951b6f9d2d26369a996d8d633abde5e52c7b629e58c237df>Audio_Frequency</a><li><a href=#4df07e581d621c88113176b99ec1f5cc322ebab1ddf0c0dec6643ac925e5427f>Audio_Volume</a></ul><h3>Array Types</h3><ul><li><a href=#e8f71b83a5c44cb2e73a81596a8ff0c903c75edee2658e6e735bdd8aa49849e6>Audio_Buffer</a></ul><h3>Interface Types</h3><ul><li><a href=#008d12697d658cccd87c4c2b586a9e2f38b662a6881c1d9bd13920548c77035f>Audio_Stream</a></ul><h3>Subprograms</h3><ul><li><a href=#32877432a304786e6f4dba3f3cb801a16fa241660f6a1b6a554f2df2976ecde5>Receive</a><li><a href=#2a47cffdf8dbf3a2e11c887c27112fe880b56e95ff795636b0b49c0f38900ea9>Set_Frequency</a><li><a href=#861efd973ab30e6cd7764b86746711e0619026ab3e6271c868146614469ebf87>Transmit</a></ul><h2>Description</h2><p>---------------------------------------------------------------------------- -- Copyright (C) 2015-2016, AdaCore -- -- Redistribution and use in source and binary forms, with or without -- modification, are permitted provided that the following conditions are -- met: -- 1. Redistributions of source code must retain the above copyright -- notice, this list of conditions and the following disclaimer. -- 2. Redistributions in binary form must reproduce the above copyright -- notice, this list of conditions and the following disclaimer in -- the documentation and/or other materials provided with the -- distribution. -- 3. Neither the name of the copyright holder nor the names of its -- contributors may be used to endorse or promote products derived -- from this software without specific prior written permission. -- -- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS -- "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT -- LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR -- A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT -- HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, -- SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT -- LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, -- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY -- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT -- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE -- OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -- -- ----------------------------------------------------------------------------<h4 id=e8f71b83a5c44cb2e73a81596a8ff0c903c75edee2658e6e735bdd8aa49849e6>Audio_Buffer</h4><pre class=ada-code-snippet><code>type Audio_Buffer is array (Natural range &lt;>) of Integer_16
+  with Component_Size => 16, Alignment => 2;
+</code></pre><h4 id=e27608abbac768db951b6f9d2d26369a996d8d633abde5e52c7b629e58c237df>Audio_Frequency</h4><pre class=ada-code-snippet><code>type Audio_Frequency is
+  (Audio_Freq_8kHz,
+   Audio_Freq_11kHz,
+   Audio_Freq_16kHz,
+   Audio_Freq_22kHz,
+   Audio_Freq_32kHz,
+   Audio_Freq_44kHz,
+   Audio_Freq_48kHz,
+   Audio_Freq_96kHz)
+  with Size => 32;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Audio_Freq_8kHz<dd><dt>Audio_Freq_11kHz<dd><dt>Audio_Freq_16kHz<dd><dt>Audio_Freq_22kHz<dd><dt>Audio_Freq_32kHz<dd><dt>Audio_Freq_44kHz<dd><dt>Audio_Freq_48kHz<dd><dt>Audio_Freq_96kHz<dd></dl><h4 id=008d12697d658cccd87c4c2b586a9e2f38b662a6881c1d9bd13920548c77035f>Audio_Stream</h4><pre class=ada-code-snippet><code>type Audio_Stream is limited interface;
+</code></pre><h4 id=4df07e581d621c88113176b99ec1f5cc322ebab1ddf0c0dec6643ac925e5427f>Audio_Volume</h4><pre class=ada-code-snippet><code>type Audio_Volume is new Natural range 0 .. 100;
+</code></pre><h4 id=32877432a304786e6f4dba3f3cb801a16fa241660f6a1b6a554f2df2976ecde5>Receive</h4><pre class=ada-code-snippet><code>procedure Receive (This : in out Audio_Stream;
+                   Data : out Audio_Buffer)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd></dl><h4 id=2a47cffdf8dbf3a2e11c887c27112fe880b56e95ff795636b0b49c0f38900ea9>Set_Frequency</h4><pre class=ada-code-snippet><code>procedure Set_Frequency (This      : in out Audio_Stream;
+                         Frequency : Audio_Frequency)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Frequency<dd></dl><h4 id=861efd973ab30e6cd7764b86746711e0619026ab3e6271c868146614469ebf87>Transmit</h4><pre class=ada-code-snippet><code>procedure Transmit (This : in out Audio_Stream;
+                    Data : Audio_Buffer)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd></dl>

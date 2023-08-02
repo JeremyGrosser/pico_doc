@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.USBCTRL_REGS</h1><h2>Entities</h2><h3>Record Types</h3><ul><li><a href=#fc5e8d7ce32de06f3a1c6a24c5e212b3076e5be49778631c889db601537a3fdb>ADDR_ENDP_Register</a><li><a href=#d057a4a690ff64a3b11f082c1e909d18b9243bf7f4da932440917e6946d6e1ce>ADDR_ENDP_Register_1</a><li><a href=#0af938e6002b04509087fdc8066486844575d02b2047ad88984dd99fba073cdb>BUFF_CPU_SHOULD_HANDLE_Register</a><li><a href=#cf47358e305018a266b55aa22a48a54d88bd402eb5b8e523045cb37fc6a5f24a>BUFF_STATUS_Register</a><li><a href=#a74cfac766e591bd825f93dbef23f8d392b779c91d757811fab25295ef7b3d63>EP_ABORT_DONE_Register</a><li><a href=#89419cd68b43171068f609eed4da497bbd36f3abe257b01c3bd1cd2f46ffc9c0>EP_ABORT_Register</a><li><a href=#d27d86223faf5c70ebd035a9a8b1acde15901fb543759155fade59cab3b9217a>EP_STALL_ARM_Register</a><li><a href=#09466543a962d11c0a3413b41cdb88b012ed3d1faa2f395bc8ab3460942cb92d>EP_STATUS_STALL_NAK_Register</a><li><a href=#a64df872fd29a9ed91e7de6df211930921e2a2e7414bfd23fa40c216de051095>INT_EP_CTRL_Register</a><li><a href=#b6212dbe7ee362c443c4d4c15a5b0175dd4a760e69304ed51cbe247a1f68498d>INTE_Register</a><li><a href=#144dafb19f757a4f339ef9af244ddf1a6ad7f65a288f3b1e2c6c1fbefafef015>INTF_Register</a><li><a href=#3b00214f6b9a80a9cf01e3d3f79f2aae7cd6f6761e2288ed0f1fcd21c7d661fe>INTR_Register</a><li><a href=#998cf5ccbdb9b5768150eafc9262de8b4954fe21ca1f05c3c4b9990f271ff1d0>INTS_Register</a><li><a href=#10e6d91ceaad4641eca5418aa65054e09c11487bdade4b294c175f7df6dbedec>MAIN_CTRL_Register</a><li><a href=#93179ba317a5e03c9adf9ef02a58120c067fd620c57b92e7724d15264318bfc8>NAK_POLL_Register</a><li><a href=#971722ceeab5836945874f6009440aca22debe3545271fd21bd4af5a3488883b>SIE_CTRL_Register</a><li><a href=#64d88dd78071cd0c1df4ba6745a073d6828951abd4c08ae2d881cbaa8be9b1a7>SIE_STATUS_Register</a><li><a href=#bbf6a15dec70ee9db99326acac8384a46c3744b115807bb8a7d76e211649437a>SOF_RD_Register</a><li><a href=#2f7c8519f96176b96585dde3834cea6a9a4992a3999eb26ad5d0303e7ed78bd9>SOF_WR_Register</a><li><a href=#a9cb48994e757c2d187dbb04ae192fdb4419f7ccc368fdcab6f8aa980f6fc8b5>USB_MUXING_Register</a><li><a href=#ce7a201959d799f47b18fd07d9a0a73f41455a44dd69b7cbe743605d6b2f9eb3>USB_PWR_Register</a><li><a href=#397355d370d0fa080aef401c450279dceefec8b019de8a864d44e7fee89929ab>USBCTRL_REGS_Peripheral</a><li><a href=#6502ecae7e016bc1cc5d4430f0915f35c858a7128663d7902b40780ca5e26964>USBPHY_DIRECT_OVERRIDE_Register</a><li><a href=#ce00dc10f497ecbcf29443eca735efb2857ca0e34be7b65eb151ec1e74c17257>USBPHY_DIRECT_Register</a><li><a href=#bba1107718af53ed99396b6fb14c1e7425657f10ee12d6387832d9bf53f81380>USBPHY_TRIM_Register</a></ul><h3>Subtypes</h3><ul><li><a href=#4c247d32974c6c66ef4b8fc1ccefd21392c2beb45049b2be2cb268f38780c0a6>ADDR_ENDP_ADDRESS_Field</a><li><a href=#83d92b96b2789793322ca6a32c3e78fca924ceb01600859e667935500438ad8d>ADDR_ENDP_ENDPOINT_Field</a><li><a href=#b3c1db9fa1a7caca40e8ccb5897b7d8b4d3b1e4e277e832a7602770f98108ad3>INT_EP_CTRL_INT_EP_ACTIVE_Field</a><li><a href=#a212877b3c6c9e51c1bc200bf7f040baac7bd1a23ec9edfd0ddf626d6d14a85c>NAK_POLL_DELAY_FS_Field</a><li><a href=#54918e593dc75ad03885a7b35878b84fecbe3fc159445e5713baf49bfdeb71a0>NAK_POLL_DELAY_LS_Field</a><li><a href=#bb80eb634deccd6bdacbd4a66fa6c43d97d7e0a8256d229b7e225cfac16e7587>SIE_STATUS_LINE_STATE_Field</a><li><a href=#6b036a36468a40192a81c13c126be3b5b650f73466dbd7e59287ec2889ea3d65>SIE_STATUS_SPEED_Field</a><li><a href=#8c94ee3d0a89b72c04784ddc2d62e06a7e2f7d77bd03a31ec67f24efd38652ab>SOF_RD_COUNT_Field</a><li><a href=#a823458fedb68c1e5e5ecf7aeb7ce6f280287675c3b8c5d7fbbae9267b7bd65a>SOF_WR_COUNT_Field</a><li><a href=#02fdc2623a66fb184761b272119c468aaec19db9abffc2779710d0580b4fddad>USBPHY_TRIM_DM_PULLDN_TRIM_Field</a><li><a href=#cd143c18ce994260d168d9d2690f9d2c31132132a02c567581904ba99426297f>USBPHY_TRIM_DP_PULLDN_TRIM_Field</a></ul><h3>Variables</h3><ul><li><a href=#bf182db061d6cfa9b4476927927161010fda956a0093dbc4ad3fbf13eefd6363>USBCTRL_REGS_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=4c247d32974c6c66ef4b8fc1ccefd21392c2beb45049b2be2cb268f38780c0a6>ADDR_ENDP_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype ADDR_ENDP_ADDRESS_Field is HAL.UInt7;
+</code></pre><h4 id=83d92b96b2789793322ca6a32c3e78fca924ceb01600859e667935500438ad8d>ADDR_ENDP_ENDPOINT_Field</h4><pre class=ada-code-snippet><code>subtype ADDR_ENDP_ENDPOINT_Field is HAL.UInt4;
+</code></pre><h4 id=fc5e8d7ce32de06f3a1c6a24c5e212b3076e5be49778631c889db601537a3fdb>ADDR_ENDP_Register</h4><pre class=ada-code-snippet><code>type ADDR_ENDP_Register is record
+   ADDRESS        : ADDR_ENDP_ADDRESS_Field := 16#0#;
+   Reserved_7_15  : HAL.UInt9 := 16#0#;
+   ENDPOINT       : ADDR_ENDP_ENDPOINT_Field := 16#0#;
+   Reserved_20_31 : HAL.UInt12 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>ADDRESS<dd><dt>Reserved_7_15<dd><dt>ENDPOINT<dd><dt>Reserved_20_31<dd></dl><h4 id=d057a4a690ff64a3b11f082c1e909d18b9243bf7f4da932440917e6946d6e1ce>ADDR_ENDP_Register_1</h4><pre class=ada-code-snippet><code>type ADDR_ENDP_Register_1 is record
+   ADDRESS        : ADDR_ENDP_ADDRESS_Field := 16#0#;
+   Reserved_7_15  : HAL.UInt9 := 16#0#;
+   ENDPOINT       : ADDR_ENDP_ENDPOINT_Field := 16#0#;
+   Reserved_20_24 : HAL.UInt5 := 16#0#;
+   INTEP_DIR      : Boolean := False;
+   INTEP_PREAMBLE : Boolean := False;
+   Reserved_27_31 : HAL.UInt5 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>ADDRESS<dd><dt>Reserved_7_15<dd><dt>ENDPOINT<dd><dt>Reserved_20_24<dd><dt>INTEP_DIR<dd><dt>INTEP_PREAMBLE<dd><dt>Reserved_27_31<dd></dl><h4 id=0af938e6002b04509087fdc8066486844575d02b2047ad88984dd99fba073cdb>BUFF_CPU_SHOULD_HANDLE_Register</h4><pre class=ada-code-snippet><code>type BUFF_CPU_SHOULD_HANDLE_Register is record
+   EP0_IN   : Boolean;
+   EP0_OUT  : Boolean;
+   EP1_IN   : Boolean;
+   EP1_OUT  : Boolean;
+   EP2_IN   : Boolean;
+   EP2_OUT  : Boolean;
+   EP3_IN   : Boolean;
+   EP3_OUT  : Boolean;
+   EP4_IN   : Boolean;
+   EP4_OUT  : Boolean;
+   EP5_IN   : Boolean;
+   EP5_OUT  : Boolean;
+   EP6_IN   : Boolean;
+   EP6_OUT  : Boolean;
+   EP7_IN   : Boolean;
+   EP7_OUT  : Boolean;
+   EP8_IN   : Boolean;
+   EP8_OUT  : Boolean;
+   EP9_IN   : Boolean;
+   EP9_OUT  : Boolean;
+   EP10_IN  : Boolean;
+   EP10_OUT : Boolean;
+   EP11_IN  : Boolean;
+   EP11_OUT : Boolean;
+   EP12_IN  : Boolean;
+   EP12_OUT : Boolean;
+   EP13_IN  : Boolean;
+   EP13_OUT : Boolean;
+   EP14_IN  : Boolean;
+   EP14_OUT : Boolean;
+   EP15_IN  : Boolean;
+   EP15_OUT : Boolean;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EP0_IN<dd><dt>EP0_OUT<dd><dt>EP1_IN<dd><dt>EP1_OUT<dd><dt>EP2_IN<dd><dt>EP2_OUT<dd><dt>EP3_IN<dd><dt>EP3_OUT<dd><dt>EP4_IN<dd><dt>EP4_OUT<dd><dt>EP5_IN<dd><dt>EP5_OUT<dd><dt>EP6_IN<dd><dt>EP6_OUT<dd><dt>EP7_IN<dd><dt>EP7_OUT<dd><dt>EP8_IN<dd><dt>EP8_OUT<dd><dt>EP9_IN<dd><dt>EP9_OUT<dd><dt>EP10_IN<dd><dt>EP10_OUT<dd><dt>EP11_IN<dd><dt>EP11_OUT<dd><dt>EP12_IN<dd><dt>EP12_OUT<dd><dt>EP13_IN<dd><dt>EP13_OUT<dd><dt>EP14_IN<dd><dt>EP14_OUT<dd><dt>EP15_IN<dd><dt>EP15_OUT<dd></dl><h4 id=cf47358e305018a266b55aa22a48a54d88bd402eb5b8e523045cb37fc6a5f24a>BUFF_STATUS_Register</h4><pre class=ada-code-snippet><code>type BUFF_STATUS_Register is record
+   EP0_IN   : Boolean := False;
+   EP0_OUT  : Boolean := False;
+   EP1_IN   : Boolean := False;
+   EP1_OUT  : Boolean := False;
+   EP2_IN   : Boolean := False;
+   EP2_OUT  : Boolean := False;
+   EP3_IN   : Boolean := False;
+   EP3_OUT  : Boolean := False;
+   EP4_IN   : Boolean := False;
+   EP4_OUT  : Boolean := False;
+   EP5_IN   : Boolean := False;
+   EP5_OUT  : Boolean := False;
+   EP6_IN   : Boolean := False;
+   EP6_OUT  : Boolean := False;
+   EP7_IN   : Boolean := False;
+   EP7_OUT  : Boolean := False;
+   EP8_IN   : Boolean := False;
+   EP8_OUT  : Boolean := False;
+   EP9_IN   : Boolean := False;
+   EP9_OUT  : Boolean := False;
+   EP10_IN  : Boolean := False;
+   EP10_OUT : Boolean := False;
+   EP11_IN  : Boolean := False;
+   EP11_OUT : Boolean := False;
+   EP12_IN  : Boolean := False;
+   EP12_OUT : Boolean := False;
+   EP13_IN  : Boolean := False;
+   EP13_OUT : Boolean := False;
+   EP14_IN  : Boolean := False;
+   EP14_OUT : Boolean := False;
+   EP15_IN  : Boolean := False;
+   EP15_OUT : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EP0_IN<dd><dt>EP0_OUT<dd><dt>EP1_IN<dd><dt>EP1_OUT<dd><dt>EP2_IN<dd><dt>EP2_OUT<dd><dt>EP3_IN<dd><dt>EP3_OUT<dd><dt>EP4_IN<dd><dt>EP4_OUT<dd><dt>EP5_IN<dd><dt>EP5_OUT<dd><dt>EP6_IN<dd><dt>EP6_OUT<dd><dt>EP7_IN<dd><dt>EP7_OUT<dd><dt>EP8_IN<dd><dt>EP8_OUT<dd><dt>EP9_IN<dd><dt>EP9_OUT<dd><dt>EP10_IN<dd><dt>EP10_OUT<dd><dt>EP11_IN<dd><dt>EP11_OUT<dd><dt>EP12_IN<dd><dt>EP12_OUT<dd><dt>EP13_IN<dd><dt>EP13_OUT<dd><dt>EP14_IN<dd><dt>EP14_OUT<dd><dt>EP15_IN<dd><dt>EP15_OUT<dd></dl><h4 id=a74cfac766e591bd825f93dbef23f8d392b779c91d757811fab25295ef7b3d63>EP_ABORT_DONE_Register</h4><pre class=ada-code-snippet><code>type EP_ABORT_DONE_Register is record
+   EP0_IN   : Boolean := False;
+   EP0_OUT  : Boolean := False;
+   EP1_IN   : Boolean := False;
+   EP1_OUT  : Boolean := False;
+   EP2_IN   : Boolean := False;
+   EP2_OUT  : Boolean := False;
+   EP3_IN   : Boolean := False;
+   EP3_OUT  : Boolean := False;
+   EP4_IN   : Boolean := False;
+   EP4_OUT  : Boolean := False;
+   EP5_IN   : Boolean := False;
+   EP5_OUT  : Boolean := False;
+   EP6_IN   : Boolean := False;
+   EP6_OUT  : Boolean := False;
+   EP7_IN   : Boolean := False;
+   EP7_OUT  : Boolean := False;
+   EP8_IN   : Boolean := False;
+   EP8_OUT  : Boolean := False;
+   EP9_IN   : Boolean := False;
+   EP9_OUT  : Boolean := False;
+   EP10_IN  : Boolean := False;
+   EP10_OUT : Boolean := False;
+   EP11_IN  : Boolean := False;
+   EP11_OUT : Boolean := False;
+   EP12_IN  : Boolean := False;
+   EP12_OUT : Boolean := False;
+   EP13_IN  : Boolean := False;
+   EP13_OUT : Boolean := False;
+   EP14_IN  : Boolean := False;
+   EP14_OUT : Boolean := False;
+   EP15_IN  : Boolean := False;
+   EP15_OUT : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EP0_IN<dd><dt>EP0_OUT<dd><dt>EP1_IN<dd><dt>EP1_OUT<dd><dt>EP2_IN<dd><dt>EP2_OUT<dd><dt>EP3_IN<dd><dt>EP3_OUT<dd><dt>EP4_IN<dd><dt>EP4_OUT<dd><dt>EP5_IN<dd><dt>EP5_OUT<dd><dt>EP6_IN<dd><dt>EP6_OUT<dd><dt>EP7_IN<dd><dt>EP7_OUT<dd><dt>EP8_IN<dd><dt>EP8_OUT<dd><dt>EP9_IN<dd><dt>EP9_OUT<dd><dt>EP10_IN<dd><dt>EP10_OUT<dd><dt>EP11_IN<dd><dt>EP11_OUT<dd><dt>EP12_IN<dd><dt>EP12_OUT<dd><dt>EP13_IN<dd><dt>EP13_OUT<dd><dt>EP14_IN<dd><dt>EP14_OUT<dd><dt>EP15_IN<dd><dt>EP15_OUT<dd></dl><h4 id=89419cd68b43171068f609eed4da497bbd36f3abe257b01c3bd1cd2f46ffc9c0>EP_ABORT_Register</h4><pre class=ada-code-snippet><code>type EP_ABORT_Register is record
+   EP0_IN   : Boolean := False;
+   EP0_OUT  : Boolean := False;
+   EP1_IN   : Boolean := False;
+   EP1_OUT  : Boolean := False;
+   EP2_IN   : Boolean := False;
+   EP2_OUT  : Boolean := False;
+   EP3_IN   : Boolean := False;
+   EP3_OUT  : Boolean := False;
+   EP4_IN   : Boolean := False;
+   EP4_OUT  : Boolean := False;
+   EP5_IN   : Boolean := False;
+   EP5_OUT  : Boolean := False;
+   EP6_IN   : Boolean := False;
+   EP6_OUT  : Boolean := False;
+   EP7_IN   : Boolean := False;
+   EP7_OUT  : Boolean := False;
+   EP8_IN   : Boolean := False;
+   EP8_OUT  : Boolean := False;
+   EP9_IN   : Boolean := False;
+   EP9_OUT  : Boolean := False;
+   EP10_IN  : Boolean := False;
+   EP10_OUT : Boolean := False;
+   EP11_IN  : Boolean := False;
+   EP11_OUT : Boolean := False;
+   EP12_IN  : Boolean := False;
+   EP12_OUT : Boolean := False;
+   EP13_IN  : Boolean := False;
+   EP13_OUT : Boolean := False;
+   EP14_IN  : Boolean := False;
+   EP14_OUT : Boolean := False;
+   EP15_IN  : Boolean := False;
+   EP15_OUT : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EP0_IN<dd><dt>EP0_OUT<dd><dt>EP1_IN<dd><dt>EP1_OUT<dd><dt>EP2_IN<dd><dt>EP2_OUT<dd><dt>EP3_IN<dd><dt>EP3_OUT<dd><dt>EP4_IN<dd><dt>EP4_OUT<dd><dt>EP5_IN<dd><dt>EP5_OUT<dd><dt>EP6_IN<dd><dt>EP6_OUT<dd><dt>EP7_IN<dd><dt>EP7_OUT<dd><dt>EP8_IN<dd><dt>EP8_OUT<dd><dt>EP9_IN<dd><dt>EP9_OUT<dd><dt>EP10_IN<dd><dt>EP10_OUT<dd><dt>EP11_IN<dd><dt>EP11_OUT<dd><dt>EP12_IN<dd><dt>EP12_OUT<dd><dt>EP13_IN<dd><dt>EP13_OUT<dd><dt>EP14_IN<dd><dt>EP14_OUT<dd><dt>EP15_IN<dd><dt>EP15_OUT<dd></dl><h4 id=d27d86223faf5c70ebd035a9a8b1acde15901fb543759155fade59cab3b9217a>EP_STALL_ARM_Register</h4><pre class=ada-code-snippet><code>type EP_STALL_ARM_Register is record
+   EP0_IN        : Boolean := False;
+   EP0_OUT       : Boolean := False;
+   Reserved_2_31 : HAL.UInt30 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EP0_IN<dd><dt>EP0_OUT<dd><dt>Reserved_2_31<dd></dl><h4 id=09466543a962d11c0a3413b41cdb88b012ed3d1faa2f395bc8ab3460942cb92d>EP_STATUS_STALL_NAK_Register</h4><pre class=ada-code-snippet><code>type EP_STATUS_STALL_NAK_Register is record
+   EP0_IN   : Boolean := False;
+   EP0_OUT  : Boolean := False;
+   EP1_IN   : Boolean := False;
+   EP1_OUT  : Boolean := False;
+   EP2_IN   : Boolean := False;
+   EP2_OUT  : Boolean := False;
+   EP3_IN   : Boolean := False;
+   EP3_OUT  : Boolean := False;
+   EP4_IN   : Boolean := False;
+   EP4_OUT  : Boolean := False;
+   EP5_IN   : Boolean := False;
+   EP5_OUT  : Boolean := False;
+   EP6_IN   : Boolean := False;
+   EP6_OUT  : Boolean := False;
+   EP7_IN   : Boolean := False;
+   EP7_OUT  : Boolean := False;
+   EP8_IN   : Boolean := False;
+   EP8_OUT  : Boolean := False;
+   EP9_IN   : Boolean := False;
+   EP9_OUT  : Boolean := False;
+   EP10_IN  : Boolean := False;
+   EP10_OUT : Boolean := False;
+   EP11_IN  : Boolean := False;
+   EP11_OUT : Boolean := False;
+   EP12_IN  : Boolean := False;
+   EP12_OUT : Boolean := False;
+   EP13_IN  : Boolean := False;
+   EP13_OUT : Boolean := False;
+   EP14_IN  : Boolean := False;
+   EP14_OUT : Boolean := False;
+   EP15_IN  : Boolean := False;
+   EP15_OUT : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EP0_IN<dd><dt>EP0_OUT<dd><dt>EP1_IN<dd><dt>EP1_OUT<dd><dt>EP2_IN<dd><dt>EP2_OUT<dd><dt>EP3_IN<dd><dt>EP3_OUT<dd><dt>EP4_IN<dd><dt>EP4_OUT<dd><dt>EP5_IN<dd><dt>EP5_OUT<dd><dt>EP6_IN<dd><dt>EP6_OUT<dd><dt>EP7_IN<dd><dt>EP7_OUT<dd><dt>EP8_IN<dd><dt>EP8_OUT<dd><dt>EP9_IN<dd><dt>EP9_OUT<dd><dt>EP10_IN<dd><dt>EP10_OUT<dd><dt>EP11_IN<dd><dt>EP11_OUT<dd><dt>EP12_IN<dd><dt>EP12_OUT<dd><dt>EP13_IN<dd><dt>EP13_OUT<dd><dt>EP14_IN<dd><dt>EP14_OUT<dd><dt>EP15_IN<dd><dt>EP15_OUT<dd></dl><h4 id=b3c1db9fa1a7caca40e8ccb5897b7d8b4d3b1e4e277e832a7602770f98108ad3>INT_EP_CTRL_INT_EP_ACTIVE_Field</h4><pre class=ada-code-snippet><code>subtype INT_EP_CTRL_INT_EP_ACTIVE_Field is HAL.UInt15;
+</code></pre><h4 id=a64df872fd29a9ed91e7de6df211930921e2a2e7414bfd23fa40c216de051095>INT_EP_CTRL_Register</h4><pre class=ada-code-snippet><code>type INT_EP_CTRL_Register is record
+   Reserved_0_0   : HAL.Bit := 16#0#;
+   INT_EP_ACTIVE  : INT_EP_CTRL_INT_EP_ACTIVE_Field := 16#0#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_0<dd><dt>INT_EP_ACTIVE<dd><dt>Reserved_16_31<dd></dl><h4 id=b6212dbe7ee362c443c4d4c15a5b0175dd4a760e69304ed51cbe247a1f68498d>INTE_Register</h4><pre class=ada-code-snippet><code>type INTE_Register is record
+   HOST_CONN_DIS        : Boolean := False;
+   HOST_RESUME          : Boolean := False;
+   HOST_SOF             : Boolean := False;
+   TRANS_COMPLETE       : Boolean := False;
+   BUFF_STATUS          : Boolean := False;
+   ERROR_DATA_SEQ       : Boolean := False;
+   ERROR_RX_TIMEOUT     : Boolean := False;
+   ERROR_RX_OVERFLOW    : Boolean := False;
+   ERROR_BIT_STUFF      : Boolean := False;
+   ERROR_CRC            : Boolean := False;
+   STALL                : Boolean := False;
+   VBUS_DETECT          : Boolean := False;
+   BUS_RESET            : Boolean := False;
+   DEV_CONN_DIS         : Boolean := False;
+   DEV_SUSPEND          : Boolean := False;
+   DEV_RESUME_FROM_HOST : Boolean := False;
+   SETUP_REQ            : Boolean := False;
+   DEV_SOF              : Boolean := False;
+   ABORT_DONE           : Boolean := False;
+   EP_STALL_NAK         : Boolean := False;
+   Reserved_20_31       : HAL.UInt12 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>HOST_CONN_DIS<dd><dt>HOST_RESUME<dd><dt>HOST_SOF<dd><dt>TRANS_COMPLETE<dd><dt>BUFF_STATUS<dd><dt>ERROR_DATA_SEQ<dd><dt>ERROR_RX_TIMEOUT<dd><dt>ERROR_RX_OVERFLOW<dd><dt>ERROR_BIT_STUFF<dd><dt>ERROR_CRC<dd><dt>STALL<dd><dt>VBUS_DETECT<dd><dt>BUS_RESET<dd><dt>DEV_CONN_DIS<dd><dt>DEV_SUSPEND<dd><dt>DEV_RESUME_FROM_HOST<dd><dt>SETUP_REQ<dd><dt>DEV_SOF<dd><dt>ABORT_DONE<dd><dt>EP_STALL_NAK<dd><dt>Reserved_20_31<dd></dl><h4 id=144dafb19f757a4f339ef9af244ddf1a6ad7f65a288f3b1e2c6c1fbefafef015>INTF_Register</h4><pre class=ada-code-snippet><code>type INTF_Register is record
+   HOST_CONN_DIS        : Boolean := False;
+   HOST_RESUME          : Boolean := False;
+   HOST_SOF             : Boolean := False;
+   TRANS_COMPLETE       : Boolean := False;
+   BUFF_STATUS          : Boolean := False;
+   ERROR_DATA_SEQ       : Boolean := False;
+   ERROR_RX_TIMEOUT     : Boolean := False;
+   ERROR_RX_OVERFLOW    : Boolean := False;
+   ERROR_BIT_STUFF      : Boolean := False;
+   ERROR_CRC            : Boolean := False;
+   STALL                : Boolean := False;
+   VBUS_DETECT          : Boolean := False;
+   BUS_RESET            : Boolean := False;
+   DEV_CONN_DIS         : Boolean := False;
+   DEV_SUSPEND          : Boolean := False;
+   DEV_RESUME_FROM_HOST : Boolean := False;
+   SETUP_REQ            : Boolean := False;
+   DEV_SOF              : Boolean := False;
+   ABORT_DONE           : Boolean := False;
+   EP_STALL_NAK         : Boolean := False;
+   Reserved_20_31       : HAL.UInt12 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>HOST_CONN_DIS<dd><dt>HOST_RESUME<dd><dt>HOST_SOF<dd><dt>TRANS_COMPLETE<dd><dt>BUFF_STATUS<dd><dt>ERROR_DATA_SEQ<dd><dt>ERROR_RX_TIMEOUT<dd><dt>ERROR_RX_OVERFLOW<dd><dt>ERROR_BIT_STUFF<dd><dt>ERROR_CRC<dd><dt>STALL<dd><dt>VBUS_DETECT<dd><dt>BUS_RESET<dd><dt>DEV_CONN_DIS<dd><dt>DEV_SUSPEND<dd><dt>DEV_RESUME_FROM_HOST<dd><dt>SETUP_REQ<dd><dt>DEV_SOF<dd><dt>ABORT_DONE<dd><dt>EP_STALL_NAK<dd><dt>Reserved_20_31<dd></dl><h4 id=3b00214f6b9a80a9cf01e3d3f79f2aae7cd6f6761e2288ed0f1fcd21c7d661fe>INTR_Register</h4><pre class=ada-code-snippet><code>type INTR_Register is record
+   HOST_CONN_DIS        : Boolean;
+   HOST_RESUME          : Boolean;
+   HOST_SOF             : Boolean;
+   TRANS_COMPLETE       : Boolean;
+   BUFF_STATUS          : Boolean;
+   ERROR_DATA_SEQ       : Boolean;
+   ERROR_RX_TIMEOUT     : Boolean;
+   ERROR_RX_OVERFLOW    : Boolean;
+   ERROR_BIT_STUFF      : Boolean;
+   ERROR_CRC            : Boolean;
+   STALL                : Boolean;
+   VBUS_DETECT          : Boolean;
+   BUS_RESET            : Boolean;
+   DEV_CONN_DIS         : Boolean;
+   DEV_SUSPEND          : Boolean;
+   DEV_RESUME_FROM_HOST : Boolean;
+   SETUP_REQ            : Boolean;
+   DEV_SOF              : Boolean;
+   ABORT_DONE           : Boolean;
+   EP_STALL_NAK         : Boolean;
+   Reserved_20_31       : HAL.UInt12;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>HOST_CONN_DIS<dd><dt>HOST_RESUME<dd><dt>HOST_SOF<dd><dt>TRANS_COMPLETE<dd><dt>BUFF_STATUS<dd><dt>ERROR_DATA_SEQ<dd><dt>ERROR_RX_TIMEOUT<dd><dt>ERROR_RX_OVERFLOW<dd><dt>ERROR_BIT_STUFF<dd><dt>ERROR_CRC<dd><dt>STALL<dd><dt>VBUS_DETECT<dd><dt>BUS_RESET<dd><dt>DEV_CONN_DIS<dd><dt>DEV_SUSPEND<dd><dt>DEV_RESUME_FROM_HOST<dd><dt>SETUP_REQ<dd><dt>DEV_SOF<dd><dt>ABORT_DONE<dd><dt>EP_STALL_NAK<dd><dt>Reserved_20_31<dd></dl><h4 id=998cf5ccbdb9b5768150eafc9262de8b4954fe21ca1f05c3c4b9990f271ff1d0>INTS_Register</h4><pre class=ada-code-snippet><code>type INTS_Register is record
+   HOST_CONN_DIS        : Boolean;
+   HOST_RESUME          : Boolean;
+   HOST_SOF             : Boolean;
+   TRANS_COMPLETE       : Boolean;
+   BUFF_STATUS          : Boolean;
+   ERROR_DATA_SEQ       : Boolean;
+   ERROR_RX_TIMEOUT     : Boolean;
+   ERROR_RX_OVERFLOW    : Boolean;
+   ERROR_BIT_STUFF      : Boolean;
+   ERROR_CRC            : Boolean;
+   STALL                : Boolean;
+   VBUS_DETECT          : Boolean;
+   BUS_RESET            : Boolean;
+   DEV_CONN_DIS         : Boolean;
+   DEV_SUSPEND          : Boolean;
+   DEV_RESUME_FROM_HOST : Boolean;
+   SETUP_REQ            : Boolean;
+   DEV_SOF              : Boolean;
+   ABORT_DONE           : Boolean;
+   EP_STALL_NAK         : Boolean;
+   Reserved_20_31       : HAL.UInt12;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>HOST_CONN_DIS<dd><dt>HOST_RESUME<dd><dt>HOST_SOF<dd><dt>TRANS_COMPLETE<dd><dt>BUFF_STATUS<dd><dt>ERROR_DATA_SEQ<dd><dt>ERROR_RX_TIMEOUT<dd><dt>ERROR_RX_OVERFLOW<dd><dt>ERROR_BIT_STUFF<dd><dt>ERROR_CRC<dd><dt>STALL<dd><dt>VBUS_DETECT<dd><dt>BUS_RESET<dd><dt>DEV_CONN_DIS<dd><dt>DEV_SUSPEND<dd><dt>DEV_RESUME_FROM_HOST<dd><dt>SETUP_REQ<dd><dt>DEV_SOF<dd><dt>ABORT_DONE<dd><dt>EP_STALL_NAK<dd><dt>Reserved_20_31<dd></dl><h4 id=10e6d91ceaad4641eca5418aa65054e09c11487bdade4b294c175f7df6dbedec>MAIN_CTRL_Register</h4><pre class=ada-code-snippet><code>type MAIN_CTRL_Register is record
+   CONTROLLER_EN : Boolean := False;
+   HOST_NDEVICE  : Boolean := False;
+   Reserved_2_30 : HAL.UInt29 := 16#0#;
+   SIM_TIMING    : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CONTROLLER_EN<dd><dt>HOST_NDEVICE<dd><dt>Reserved_2_30<dd><dt>SIM_TIMING<dd></dl><h4 id=a212877b3c6c9e51c1bc200bf7f040baac7bd1a23ec9edfd0ddf626d6d14a85c>NAK_POLL_DELAY_FS_Field</h4><pre class=ada-code-snippet><code>subtype NAK_POLL_DELAY_FS_Field is HAL.UInt10;
+</code></pre><h4 id=54918e593dc75ad03885a7b35878b84fecbe3fc159445e5713baf49bfdeb71a0>NAK_POLL_DELAY_LS_Field</h4><pre class=ada-code-snippet><code>subtype NAK_POLL_DELAY_LS_Field is HAL.UInt10;
+</code></pre><h4 id=93179ba317a5e03c9adf9ef02a58120c067fd620c57b92e7724d15264318bfc8>NAK_POLL_Register</h4><pre class=ada-code-snippet><code>type NAK_POLL_Register is record
+   DELAY_LS       : NAK_POLL_DELAY_LS_Field := 16#10#;
+   Reserved_10_15 : HAL.UInt6 := 16#0#;
+   DELAY_FS       : NAK_POLL_DELAY_FS_Field := 16#10#;
+   Reserved_26_31 : HAL.UInt6 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>DELAY_LS<dd><dt>Reserved_10_15<dd><dt>DELAY_FS<dd><dt>Reserved_26_31<dd></dl><h4 id=971722ceeab5836945874f6009440aca22debe3545271fd21bd4af5a3488883b>SIE_CTRL_Register</h4><pre class=ada-code-snippet><code>type SIE_CTRL_Register is record
+   START_TRANS    : Boolean := False;
+   SEND_SETUP     : Boolean := False;
+   SEND_DATA      : Boolean := False;
+   RECEIVE_DATA   : Boolean := False;
+   STOP_TRANS     : Boolean := False;
+   Reserved_5_5   : HAL.Bit := 16#0#;
+   PREAMBLE_EN    : Boolean := False;
+   Reserved_7_7   : HAL.Bit := 16#0#;
+   SOF_SYNC       : Boolean := False;
+   SOF_EN         : Boolean := False;
+   KEEP_ALIVE_EN  : Boolean := False;
+   VBUS_EN        : Boolean := False;
+   RESUME         : Boolean := False;
+   RESET_BUS      : Boolean := False;
+   Reserved_14_14 : HAL.Bit := 16#0#;
+   PULLDOWN_EN    : Boolean := False;
+   PULLUP_EN      : Boolean := False;
+   RPU_OPT        : Boolean := False;
+   TRANSCEIVER_PD : Boolean := False;
+   Reserved_19_23 : HAL.UInt5 := 16#0#;
+   DIRECT_DM      : Boolean := False;
+   DIRECT_DP      : Boolean := False;
+   DIRECT_EN      : Boolean := False;
+   EP0_INT_NAK    : Boolean := False;
+   EP0_INT_2BUF   : Boolean := False;
+   EP0_INT_1BUF   : Boolean := False;
+   EP0_DOUBLE_BUF : Boolean := False;
+   EP0_INT_STALL  : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>START_TRANS<dd><dt>SEND_SETUP<dd><dt>SEND_DATA<dd><dt>RECEIVE_DATA<dd><dt>STOP_TRANS<dd><dt>Reserved_5_5<dd><dt>PREAMBLE_EN<dd><dt>Reserved_7_7<dd><dt>SOF_SYNC<dd><dt>SOF_EN<dd><dt>KEEP_ALIVE_EN<dd><dt>VBUS_EN<dd><dt>RESUME<dd><dt>RESET_BUS<dd><dt>Reserved_14_14<dd><dt>PULLDOWN_EN<dd><dt>PULLUP_EN<dd><dt>RPU_OPT<dd><dt>TRANSCEIVER_PD<dd><dt>Reserved_19_23<dd><dt>DIRECT_DM<dd><dt>DIRECT_DP<dd><dt>DIRECT_EN<dd><dt>EP0_INT_NAK<dd><dt>EP0_INT_2BUF<dd><dt>EP0_INT_1BUF<dd><dt>EP0_DOUBLE_BUF<dd><dt>EP0_INT_STALL<dd></dl><h4 id=bb80eb634deccd6bdacbd4a66fa6c43d97d7e0a8256d229b7e225cfac16e7587>SIE_STATUS_LINE_STATE_Field</h4><pre class=ada-code-snippet><code>subtype SIE_STATUS_LINE_STATE_Field is HAL.UInt2;
+</code></pre><h4 id=64d88dd78071cd0c1df4ba6745a073d6828951abd4c08ae2d881cbaa8be9b1a7>SIE_STATUS_Register</h4><pre class=ada-code-snippet><code>type SIE_STATUS_Register is record
+   VBUS_DETECTED   : Boolean := False;
+   Reserved_1_1    : HAL.Bit := 16#0#;
+   LINE_STATE      : SIE_STATUS_LINE_STATE_Field := 16#0#;
+   SUSPENDED       : Boolean := False;
+   Reserved_5_7    : HAL.UInt3 := 16#0#;
+   SPEED           : SIE_STATUS_SPEED_Field := 16#0#;
+   VBUS_OVER_CURR  : Boolean := False;
+   RESUME          : Boolean := False;
+   Reserved_12_15  : HAL.UInt4 := 16#0#;
+   CONNECTED       : Boolean := False;
+   SETUP_REC       : Boolean := False;
+   TRANS_COMPLETE  : Boolean := False;
+   BUS_RESET       : Boolean := False;
+   Reserved_20_23  : HAL.UInt4 := 16#0#;
+   CRC_ERROR       : Boolean := False;
+   BIT_STUFF_ERROR : Boolean := False;
+   RX_OVERFLOW     : Boolean := False;
+   RX_TIMEOUT      : Boolean := False;
+   NAK_REC         : Boolean := False;
+   STALL_REC       : Boolean := False;
+   ACK_REC         : Boolean := False;
+   DATA_SEQ_ERROR  : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>VBUS_DETECTED<dd><dt>Reserved_1_1<dd><dt>LINE_STATE<dd><dt>SUSPENDED<dd><dt>Reserved_5_7<dd><dt>SPEED<dd><dt>VBUS_OVER_CURR<dd><dt>RESUME<dd><dt>Reserved_12_15<dd><dt>CONNECTED<dd><dt>SETUP_REC<dd><dt>TRANS_COMPLETE<dd><dt>BUS_RESET<dd><dt>Reserved_20_23<dd><dt>CRC_ERROR<dd><dt>BIT_STUFF_ERROR<dd><dt>RX_OVERFLOW<dd><dt>RX_TIMEOUT<dd><dt>NAK_REC<dd><dt>STALL_REC<dd><dt>ACK_REC<dd><dt>DATA_SEQ_ERROR<dd></dl><h4 id=6b036a36468a40192a81c13c126be3b5b650f73466dbd7e59287ec2889ea3d65>SIE_STATUS_SPEED_Field</h4><pre class=ada-code-snippet><code>subtype SIE_STATUS_SPEED_Field is HAL.UInt2;
+</code></pre><h4 id=8c94ee3d0a89b72c04784ddc2d62e06a7e2f7d77bd03a31ec67f24efd38652ab>SOF_RD_COUNT_Field</h4><pre class=ada-code-snippet><code>subtype SOF_RD_COUNT_Field is HAL.UInt11;
+</code></pre><h4 id=bbf6a15dec70ee9db99326acac8384a46c3744b115807bb8a7d76e211649437a>SOF_RD_Register</h4><pre class=ada-code-snippet><code>type SOF_RD_Register is record
+   COUNT          : SOF_RD_COUNT_Field;
+   Reserved_11_31 : HAL.UInt21;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>COUNT<dd><dt>Reserved_11_31<dd></dl><h4 id=a823458fedb68c1e5e5ecf7aeb7ce6f280287675c3b8c5d7fbbae9267b7bd65a>SOF_WR_COUNT_Field</h4><pre class=ada-code-snippet><code>subtype SOF_WR_COUNT_Field is HAL.UInt11;
+</code></pre><h4 id=2f7c8519f96176b96585dde3834cea6a9a4992a3999eb26ad5d0303e7ed78bd9>SOF_WR_Register</h4><pre class=ada-code-snippet><code>type SOF_WR_Register is record
+   COUNT          : SOF_WR_COUNT_Field := 16#0#;
+   Reserved_11_31 : HAL.UInt21 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>COUNT<dd><dt>Reserved_11_31<dd></dl><h4 id=a9cb48994e757c2d187dbb04ae192fdb4419f7ccc368fdcab6f8aa980f6fc8b5>USB_MUXING_Register</h4><pre class=ada-code-snippet><code>type USB_MUXING_Register is record
+   TO_PHY         : Boolean := False;
+   TO_EXTPHY      : Boolean := False;
+   TO_DIGITAL_PAD : Boolean := False;
+   SOFTCON        : Boolean := False;
+   Reserved_4_31  : HAL.UInt28 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>TO_PHY<dd><dt>TO_EXTPHY<dd><dt>TO_DIGITAL_PAD<dd><dt>SOFTCON<dd><dt>Reserved_4_31<dd></dl><h4 id=ce7a201959d799f47b18fd07d9a0a73f41455a44dd69b7cbe743605d6b2f9eb3>USB_PWR_Register</h4><pre class=ada-code-snippet><code>type USB_PWR_Register is record
+   VBUS_EN                 : Boolean := False;
+   VBUS_EN_OVERRIDE_EN     : Boolean := False;
+   VBUS_DETECT             : Boolean := False;
+   VBUS_DETECT_OVERRIDE_EN : Boolean := False;
+   OVERCURR_DETECT         : Boolean := False;
+   OVERCURR_DETECT_EN      : Boolean := False;
+   Reserved_6_31           : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>VBUS_EN<dd><dt>VBUS_EN_OVERRIDE_EN<dd><dt>VBUS_DETECT<dd><dt>VBUS_DETECT_OVERRIDE_EN<dd><dt>OVERCURR_DETECT<dd><dt>OVERCURR_DETECT_EN<dd><dt>Reserved_6_31<dd></dl><h4 id=bf182db061d6cfa9b4476927927161010fda956a0093dbc4ad3fbf13eefd6363>USBCTRL_REGS_Periph</h4><pre class=ada-code-snippet><code>USBCTRL_REGS_Periph : aliased USBCTRL_REGS_Peripheral
+  with Import, Address => USBCTRL_REGS_Base;
+</code></pre><h4 id=397355d370d0fa080aef401c450279dceefec8b019de8a864d44e7fee89929ab>USBCTRL_REGS_Peripheral</h4><pre class=ada-code-snippet><code>type USBCTRL_REGS_Peripheral is record
+   ADDR_ENDP              : aliased ADDR_ENDP_Register;
+   ADDR_ENDP1             : aliased ADDR_ENDP_Register_1;
+   ADDR_ENDP2             : aliased ADDR_ENDP_Register_1;
+   ADDR_ENDP3             : aliased ADDR_ENDP_Register_1;
+   ADDR_ENDP4             : aliased ADDR_ENDP_Register_1;
+   ADDR_ENDP5             : aliased ADDR_ENDP_Register_1;
+   ADDR_ENDP6             : aliased ADDR_ENDP_Register_1;
+   ADDR_ENDP7             : aliased ADDR_ENDP_Register_1;
+   ADDR_ENDP8             : aliased ADDR_ENDP_Register_1;
+   ADDR_ENDP9             : aliased ADDR_ENDP_Register_1;
+   ADDR_ENDP10            : aliased ADDR_ENDP_Register_1;
+   ADDR_ENDP11            : aliased ADDR_ENDP_Register_1;
+   ADDR_ENDP12            : aliased ADDR_ENDP_Register_1;
+   ADDR_ENDP13            : aliased ADDR_ENDP_Register_1;
+   ADDR_ENDP14            : aliased ADDR_ENDP_Register_1;
+   ADDR_ENDP15            : aliased ADDR_ENDP_Register_1;
+   MAIN_CTRL              : aliased MAIN_CTRL_Register;
+   SOF_WR                 : aliased SOF_WR_Register;
+   SOF_RD                 : aliased SOF_RD_Register;
+   SIE_CTRL               : aliased SIE_CTRL_Register;
+   SIE_STATUS             : aliased SIE_STATUS_Register;
+   INT_EP_CTRL            : aliased INT_EP_CTRL_Register;
+   BUFF_STATUS            : aliased BUFF_STATUS_Register;
+   BUFF_CPU_SHOULD_HANDLE : aliased BUFF_CPU_SHOULD_HANDLE_Register;
+   EP_ABORT               : aliased EP_ABORT_Register;
+   EP_ABORT_DONE          : aliased EP_ABORT_DONE_Register;
+   EP_STALL_ARM           : aliased EP_STALL_ARM_Register;
+   NAK_POLL               : aliased NAK_POLL_Register;
+   EP_STATUS_STALL_NAK    : aliased EP_STATUS_STALL_NAK_Register;
+   USB_MUXING             : aliased USB_MUXING_Register;
+   USB_PWR                : aliased USB_PWR_Register;
+   USBPHY_DIRECT          : aliased USBPHY_DIRECT_Register;
+   USBPHY_DIRECT_OVERRIDE : aliased USBPHY_DIRECT_OVERRIDE_Register;
+   USBPHY_TRIM            : aliased USBPHY_TRIM_Register;
+   INTR                   : aliased INTR_Register;
+   INTE                   : aliased INTE_Register;
+   INTF                   : aliased INTF_Register;
+   INTS                   : aliased INTS_Register;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>ADDR_ENDP<dd><dt>ADDR_ENDP1<dd><dt>ADDR_ENDP2<dd><dt>ADDR_ENDP3<dd><dt>ADDR_ENDP4<dd><dt>ADDR_ENDP5<dd><dt>ADDR_ENDP6<dd><dt>ADDR_ENDP7<dd><dt>ADDR_ENDP8<dd><dt>ADDR_ENDP9<dd><dt>ADDR_ENDP10<dd><dt>ADDR_ENDP11<dd><dt>ADDR_ENDP12<dd><dt>ADDR_ENDP13<dd><dt>ADDR_ENDP14<dd><dt>ADDR_ENDP15<dd><dt>MAIN_CTRL<dd><dt>SOF_WR<dd><dt>SOF_RD<dd><dt>SIE_CTRL<dd><dt>SIE_STATUS<dd><dt>INT_EP_CTRL<dd><dt>BUFF_STATUS<dd><dt>BUFF_CPU_SHOULD_HANDLE<dd><dt>EP_ABORT<dd><dt>EP_ABORT_DONE<dd><dt>EP_STALL_ARM<dd><dt>NAK_POLL<dd><dt>EP_STATUS_STALL_NAK<dd><dt>USB_MUXING<dd><dt>USB_PWR<dd><dt>USBPHY_DIRECT<dd><dt>USBPHY_DIRECT_OVERRIDE<dd><dt>USBPHY_TRIM<dd><dt>INTR<dd><dt>INTE<dd><dt>INTF<dd><dt>INTS<dd></dl><h4 id=6502ecae7e016bc1cc5d4430f0915f35c858a7128663d7902b40780ca5e26964>USBPHY_DIRECT_OVERRIDE_Register</h4><pre class=ada-code-snippet><code>type USBPHY_DIRECT_OVERRIDE_Register is record
+   DP_PULLUP_HISEL_OVERRIDE_EN : Boolean := False;
+   DM_PULLUP_HISEL_OVERRIDE_EN : Boolean := False;
+   DP_PULLUP_EN_OVERRIDE_EN    : Boolean := False;
+   DP_PULLDN_EN_OVERRIDE_EN    : Boolean := False;
+   DM_PULLDN_EN_OVERRIDE_EN    : Boolean := False;
+   TX_DP_OE_OVERRIDE_EN        : Boolean := False;
+   TX_DM_OE_OVERRIDE_EN        : Boolean := False;
+   TX_DP_OVERRIDE_EN           : Boolean := False;
+   TX_DM_OVERRIDE_EN           : Boolean := False;
+   RX_PD_OVERRIDE_EN           : Boolean := False;
+   TX_PD_OVERRIDE_EN           : Boolean := False;
+   TX_FSSLEW_OVERRIDE_EN       : Boolean := False;
+   DM_PULLUP_OVERRIDE_EN       : Boolean := False;
+   Reserved_13_14              : HAL.UInt2 := 16#0#;
+   TX_DIFFMODE_OVERRIDE_EN     : Boolean := False;
+   Reserved_16_31              : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>DP_PULLUP_HISEL_OVERRIDE_EN<dd><dt>DM_PULLUP_HISEL_OVERRIDE_EN<dd><dt>DP_PULLUP_EN_OVERRIDE_EN<dd><dt>DP_PULLDN_EN_OVERRIDE_EN<dd><dt>DM_PULLDN_EN_OVERRIDE_EN<dd><dt>TX_DP_OE_OVERRIDE_EN<dd><dt>TX_DM_OE_OVERRIDE_EN<dd><dt>TX_DP_OVERRIDE_EN<dd><dt>TX_DM_OVERRIDE_EN<dd><dt>RX_PD_OVERRIDE_EN<dd><dt>TX_PD_OVERRIDE_EN<dd><dt>TX_FSSLEW_OVERRIDE_EN<dd><dt>DM_PULLUP_OVERRIDE_EN<dd><dt>Reserved_13_14<dd><dt>TX_DIFFMODE_OVERRIDE_EN<dd><dt>Reserved_16_31<dd></dl><h4 id=ce00dc10f497ecbcf29443eca735efb2857ca0e34be7b65eb151ec1e74c17257>USBPHY_DIRECT_Register</h4><pre class=ada-code-snippet><code>type USBPHY_DIRECT_Register is record
+   DP_PULLUP_HISEL : Boolean := False;
+   DP_PULLUP_EN    : Boolean := False;
+   DP_PULLDN_EN    : Boolean := False;
+   Reserved_3_3    : HAL.Bit := 16#0#;
+   DM_PULLUP_HISEL : Boolean := False;
+   DM_PULLUP_EN    : Boolean := False;
+   DM_PULLDN_EN    : Boolean := False;
+   Reserved_7_7    : HAL.Bit := 16#0#;
+   TX_DP_OE        : Boolean := False;
+   TX_DM_OE        : Boolean := False;
+   TX_DP           : Boolean := False;
+   TX_DM           : Boolean := False;
+   RX_PD           : Boolean := False;
+   TX_PD           : Boolean := False;
+   TX_FSSLEW       : Boolean := False;
+   TX_DIFFMODE     : Boolean := False;
+   RX_DD           : Boolean := False;
+   RX_DP           : Boolean := False;
+   RX_DM           : Boolean := False;
+   DP_OVCN         : Boolean := False;
+   DM_OVCN         : Boolean := False;
+   DP_OVV          : Boolean := False;
+   DM_OVV          : Boolean := False;
+   Reserved_23_31  : HAL.UInt9 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>DP_PULLUP_HISEL<dd><dt>DP_PULLUP_EN<dd><dt>DP_PULLDN_EN<dd><dt>Reserved_3_3<dd><dt>DM_PULLUP_HISEL<dd><dt>DM_PULLUP_EN<dd><dt>DM_PULLDN_EN<dd><dt>Reserved_7_7<dd><dt>TX_DP_OE<dd><dt>TX_DM_OE<dd><dt>TX_DP<dd><dt>TX_DM<dd><dt>RX_PD<dd><dt>TX_PD<dd><dt>TX_FSSLEW<dd><dt>TX_DIFFMODE<dd><dt>RX_DD<dd><dt>RX_DP<dd><dt>RX_DM<dd><dt>DP_OVCN<dd><dt>DM_OVCN<dd><dt>DP_OVV<dd><dt>DM_OVV<dd><dt>Reserved_23_31<dd></dl><h4 id=02fdc2623a66fb184761b272119c468aaec19db9abffc2779710d0580b4fddad>USBPHY_TRIM_DM_PULLDN_TRIM_Field</h4><pre class=ada-code-snippet><code>subtype USBPHY_TRIM_DM_PULLDN_TRIM_Field is HAL.UInt5;
+</code></pre><h4 id=cd143c18ce994260d168d9d2690f9d2c31132132a02c567581904ba99426297f>USBPHY_TRIM_DP_PULLDN_TRIM_Field</h4><pre class=ada-code-snippet><code>subtype USBPHY_TRIM_DP_PULLDN_TRIM_Field is HAL.UInt5;
+</code></pre><h4 id=bba1107718af53ed99396b6fb14c1e7425657f10ee12d6387832d9bf53f81380>USBPHY_TRIM_Register</h4><pre class=ada-code-snippet><code>type USBPHY_TRIM_Register is record
+   DP_PULLDN_TRIM : USBPHY_TRIM_DP_PULLDN_TRIM_Field := 16#1F#;
+   Reserved_5_7   : HAL.UInt3 := 16#0#;
+   DM_PULLDN_TRIM : USBPHY_TRIM_DM_PULLDN_TRIM_Field := 16#1F#;
+   Reserved_13_31 : HAL.UInt19 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>DP_PULLDN_TRIM<dd><dt>Reserved_5_7<dd><dt>DM_PULLDN_TRIM<dd><dt>Reserved_13_31<dd></dl>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>Cortex_M_SVD.DWT</h1><h2>Entities</h2><h3>Record Types</h3><ul><li><a href=#c74fabbca9e5857d84dfacd65377a664a7b0cf6fff234bde90a70201ad3377bb>CTRL_Register</a><li><a href=#d8613488c3d30ee086f88e04d0a894a6663e3ffeac6a06be7917c1cb15ab96ff>DWT_Peripheral</a></ul><h3>Subtypes</h3><ul><li><a href=#eddf95afee85e18b75a0d19b0768f988980c655cbfdb13bf59d07ba73808e7b3>CTRL_NUMCOMP_Field</a><li><a href=#2670faecf734787e137bb6e2cf381d5b2adb46e18679e67e86610f67b31ff079>CTRL_Reserved_0_27_Field</a></ul><h3>Variables</h3><ul><li><a href=#90e30bc130ed44f8916da0e1321c9661710fb6a2c9cb21225a8143ff0e8281e9>DWT_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=eddf95afee85e18b75a0d19b0768f988980c655cbfdb13bf59d07ba73808e7b3>CTRL_NUMCOMP_Field</h4><pre class=ada-code-snippet><code>subtype CTRL_NUMCOMP_Field is HAL.UInt4;
+</code></pre><h4 id=c74fabbca9e5857d84dfacd65377a664a7b0cf6fff234bde90a70201ad3377bb>CTRL_Register</h4><pre class=ada-code-snippet><code>type CTRL_Register is record
+   Reserved_0_27 : CTRL_Reserved_0_27_Field := 16#0#;
+   NUMCOMP       : CTRL_NUMCOMP_Field := 16#0#;
+end record
+  with Volatile_Full_Access, Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_27<dd><dt>NUMCOMP<dd></dl><h4 id=2670faecf734787e137bb6e2cf381d5b2adb46e18679e67e86610f67b31ff079>CTRL_Reserved_0_27_Field</h4><pre class=ada-code-snippet><code>subtype CTRL_Reserved_0_27_Field is HAL.UInt28;
+</code></pre><h4 id=90e30bc130ed44f8916da0e1321c9661710fb6a2c9cb21225a8143ff0e8281e9>DWT_Periph</h4><pre class=ada-code-snippet><code>DWT_Periph : aliased DWT_Peripheral
+  with Import, Address => DWT_Base;
+</code></pre><h4 id=d8613488c3d30ee086f88e04d0a894a6663e3ffeac6a06be7917c1cb15ab96ff>DWT_Peripheral</h4><pre class=ada-code-snippet><code>type DWT_Peripheral is record
+   CTRL      : aliased CTRL_Register;
+   PCSR      : aliased HAL.UInt32;
+   COMP0     : aliased HAL.UInt32;
+   MASK0     : aliased HAL.UInt32;
+   FUNCTION0 : aliased HAL.UInt32;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>CTRL<dd><dt>PCSR<dd><dt>COMP0<dd><dt>MASK0<dd><dt>FUNCTION0<dd></dl>

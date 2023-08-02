@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.PWM</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#384a02a44b3fd16410b6aee6d120b623d64760edb6962b4dafcdaed861103c22>CH0_CSR_DIVMODE_Field</a><li><a href=#7ec828133a6e7e6b42e60cffd106905cdd8885c547f80071499f3375ff5af2f6>CH1_CSR_DIVMODE_Field</a><li><a href=#ce584482f230a29e6bbae80307152b55830ddd086cafb3f069c59f25060115fd>CH2_CSR_DIVMODE_Field</a><li><a href=#22649b17ed96d529e22d23b695f7e8429aafa62cf19f94e38e0821518d36bb6c>CH3_CSR_DIVMODE_Field</a><li><a href=#0e705fd3c26358b2f4423d30a85260dea8d0e4d3d0c5885e194690a8aba8c28e>CH4_CSR_DIVMODE_Field</a><li><a href=#3ad3e9c9c7ac35fb5f8f158b2d65e1a10ba98c432d9126df6f50ab48d68d9a96>CH5_CSR_DIVMODE_Field</a><li><a href=#163f982675d7a5a76befdaf6f4f349832773c6eb208f10d518abd7563c8947ee>CH6_CSR_DIVMODE_Field</a><li><a href=#b4a78d58c3608d15a21162113282adc2c0596e3384334935683f6f778ec974e3>CH7_CSR_DIVMODE_Field</a></ul><h3>Array Types</h3><ul><li><a href=#3077b10abb720d289a35fd8107fc313598268125ab22ea47c24f8c6910443280>EN_CH_Field_Array</a><li><a href=#54422c5d299fe83ba5f6aa3f0666d987df427920d505a88b18edabad27d7998e>INTE_CH_Field_Array</a><li><a href=#71e7050d711c6e1783c2e5793f62733218f357089e5983894b59838f2c9c920d>INTF_CH_Field_Array</a><li><a href=#40e2fa295476ceca31ca8e736f2e6e290236a45bef73a3c9e1fe7f416057f02c>INTR_CH_Field_Array</a><li><a href=#97924d67467dabaff38b5ef00f97c7e253150c58f15bd23f9de6dd4a42217d8d>INTS_CH_Field_Array</a></ul><h3>Record Types</h3><ul><li><a href=#6822cf18a25bf6e59ce6c589272c661a59813d74fda1a979edfb7ac45213345e>CH0_CC_Register</a><li><a href=#88110da002700570f3a975a8531b6ff0317125dbe36c540488cac5fb99e9813f>CH0_CSR_Register</a><li><a href=#c0f43241bc8b75a62f90eb68caecf68b29ea7760168fbbe1170c40d8d42fa9f2>CH0_CTR_Register</a><li><a href=#c3b805762480624f706acc9b4cada3e20f06550302c8631e008e204bf4fd30e2>CH0_DIV_Register</a><li><a href=#c3023158f6db10c9a3cd1d8e7bd2af9e570ee3716990dbf7b5f912592f06b287>CH0_TOP_Register</a><li><a href=#9242e1084c2f8b7a9f81bb7c83ecaaa6d2c19e0315f99894dbddc3a4ec48f548>CH1_CC_Register</a><li><a href=#1e24672f584c8bfc91242377aab8245f5067f5dfa59b5d71123c3c6a1fc17dfb>CH1_CSR_Register</a><li><a href=#ac5326e766ed12245a75b4cd2e7c1759b6d27a1afca31aae3bc9bf5cac2d5d56>CH1_CTR_Register</a><li><a href=#09b48fd8e369164076c349d8d1cde8992227fc15fc5cddf4a358cfee10bed994>CH1_DIV_Register</a><li><a href=#279b6beb11862b94ae59ec736771eebd995b0933d5a5bedaadeec75a76de6337>CH1_TOP_Register</a><li><a href=#28611e5f94753d4bef76f97740cff9511757ec83da650d0ed6591a843aa34ec4>CH2_CC_Register</a><li><a href=#b39002f725b09af9d1b21ca91ec629a64ab1e3c5a42bf96f3dbac16fd9d77e20>CH2_CSR_Register</a><li><a href=#37f7805debed17f36710364823e71338c27fbb3fa65294fde8f345a809d85613>CH2_CTR_Register</a><li><a href=#d83710f4d3d5ce502a9de20f0917402636f84906884d58e5f3d96f2685325978>CH2_DIV_Register</a><li><a href=#fff68b54038ed0ce38422bb3a58f7424f9b40bfd03cf3dbaad566150808aacc6>CH2_TOP_Register</a><li><a href=#ae4dcf104d6ca227ea5b7a8bb4182847c6722ed01fc48aa431e8b83fe48fab23>CH3_CC_Register</a><li><a href=#4b6e0d92fc4ea0f40b24216a6c6e58f8ec6884ef8cf4071228b995bb492d6660>CH3_CSR_Register</a><li><a href=#19caa9d6aea781b32453523582e28bba8977870bccb22ed8fc299503d2bc0b1e>CH3_CTR_Register</a><li><a href=#3ec8c9b2db633715f97db5f2dcd97ee956e3a7c2d886cf30578964258ee24a4f>CH3_DIV_Register</a><li><a href=#377a1daa8d488e0ba5fda2fad8eb6a13a385c36cdd3b6070ef22905eeb2e46b1>CH3_TOP_Register</a><li><a href=#621060e553e382df96d30e3965c51ea56584b538d439415d610be32a7754b6dd>CH4_CC_Register</a><li><a href=#ac22f58ce9d251e898b69576c16dc159d97706408689ac7ba74845853d34f1a4>CH4_CSR_Register</a><li><a href=#4db4ac3b81f93952e1f76a81cb3c084b8655406ca83a8f0e589ca2f8a16e8211>CH4_CTR_Register</a><li><a href=#0009159a53717b67d23d00a5f6ee279e2f56a2eca4dfcef0764602c15ae725bf>CH4_DIV_Register</a><li><a href=#1e56b2357d2fb92fb421999c47dac110ad8febf364c22ea928a172dfb887ec16>CH4_TOP_Register</a><li><a href=#380ef2d0cfeb1cf4ac17bb13860119d483dc3fc13f232cd49809e2af4508bbf0>CH5_CC_Register</a><li><a href=#965d2e4bd18a0ff014aef397bc96eb0d336c76ed98e5786840785833382e843e>CH5_CSR_Register</a><li><a href=#1d6f1e9f360632e04441a5d13242d697d51fa16e71d169bfe6c6ab8cedfec8ba>CH5_CTR_Register</a><li><a href=#99c9f75c7ea8639989dc1970e82a41f0b03903d96fe39f2acb5445e12edfe7c7>CH5_DIV_Register</a><li><a href=#1b1ac03586a707df6a52ea7457f22f2de7b231a8e287c65f476c059d40967d9f>CH5_TOP_Register</a><li><a href=#21d53716ece99444da04a3d27c3e3c9c2b852743f44d60f803873c43355acf35>CH6_CC_Register</a><li><a href=#e403a7d4908a7b84b617281b765c28527f6edc010bddc57e00fded6d1a656fc8>CH6_CSR_Register</a><li><a href=#16c9cf1f6569d58b93967a69584b5bef2000d7dc2676d743fffb995f7ccc5cd2>CH6_CTR_Register</a><li><a href=#a025b53914eb929f1d8127c2830a49ab463c124e7692ee8ce7c28fd7a1fd56a0>CH6_DIV_Register</a><li><a href=#a527e88c2b1fc6eb32ec6634c75ae9b8c641cac412502c71ef293e860e113dc6>CH6_TOP_Register</a><li><a href=#91ed344ac9dc7d5a590a3a461099d8f59901e65f532f0ede15d631dbf27c6368>CH7_CC_Register</a><li><a href=#4ffa298dc6cb7ab745ff8889453fcb50d1703d95ced3c174a4b9fb0fce664bce>CH7_CSR_Register</a><li><a href=#0bb2b1d0fde4427d8644e29001354b491c07cb292c0094f257807d62060c72a8>CH7_CTR_Register</a><li><a href=#3cdd70f8d1f2f8439564be3677ccd35f92122f1435744a8782058cc3b0e233e3>CH7_DIV_Register</a><li><a href=#311c79c20e6d8054bd2475cb4a59896c86e77b28ddc3ba216cae3c6beacc07cd>CH7_TOP_Register</a><li><a href=#e116ff0ace7a0731b6dd4031052dc08a9cfbc79d6a3c6e4dd5b2f81896b9feb4>EN_CH_Field</a><li><a href=#8b5ec9951fbc731ec2693b83c6a6ee00caef15e4bdb192020233a2a00d18508d>EN_Register</a><li><a href=#eb4713bde2402d47caf4c7a0c408280208b21b00cf15f80fa4f519824b95bab9>INTE_CH_Field</a><li><a href=#997ff0ad85bbb9d88d51f1bd27bb34a342d4ac5d56a41d3dde27149523630512>INTE_Register</a><li><a href=#5b152487fe13b2a6a3b0e0ad782dd8fc8461cdfc6d092040a87f01c6d0ab81e2>INTF_CH_Field</a><li><a href=#499730b1da58e7670b203ed7b52b70204b04044b9041daa397fd818083b534e1>INTF_Register</a><li><a href=#192e3ec039318c4a5d9f729345da6f34bfaae3a83faf5b3811dbfc4b2419fc42>INTR_CH_Field</a><li><a href=#823977249ed4b9f4192c16a48a7291c511283d6591d5eee8026c725535e34654>INTR_Register</a><li><a href=#cd8fefc32fd701355858570af9a78111dd37970cf6c668a0014a88c2bb23f5ed>INTS_CH_Field</a><li><a href=#2615158c0b1b7c009d575386f9ea1deccd877e5ac82dc136caabf2c7f8c1faad>INTS_Register</a><li><a href=#d35c9bd0fda8e3d5feb12b958805907077461bfead7d1d7fd8521790d6a676d3>PWM_Peripheral</a></ul><h3>Subtypes</h3><ul><li><a href=#e37053ec6e16f749c03c7a798a9989965cfc4488abc543028626a02a0ef67339>CH0_CC_A_Field</a><li><a href=#c29f44d871eb4a15d559c02a15679c86d3ed2dc8acfaea908b2cc51120b076c1>CH0_CC_B_Field</a><li><a href=#529cdcdde3def32dbba81fdd4448bf56eb11e8a6c7e6363fa927b440c8cfaeb1>CH0_CTR_CH0_CTR_Field</a><li><a href=#bc2ce44587e7ea39afab01195e1a9d37d5ce7b79eaf0c5aaa7b634bb12691504>CH0_DIV_FRAC_Field</a><li><a href=#57426825e29c9428e412217b2499d49bf19882e07f2235290cd38cc61f1e8d76>CH0_DIV_INT_Field</a><li><a href=#9d4accd53c16d2e60b5aecb4044ab4a3d8ca04b242102cdfa98b635e62a1c83e>CH0_TOP_CH0_TOP_Field</a><li><a href=#da69867705354d23f5d6403ef499537c09c3fe58550f96ce345a4dd3209dcc11>CH1_CC_A_Field</a><li><a href=#2225810f479e0116afe3e640b7dc5bfb9c04346316a156d1daedce871f4185a5>CH1_CC_B_Field</a><li><a href=#625e33e9947a779f744ebeafd9cdff3383a9daa5e144ddb19273dbdcdcd5fa1e>CH1_CTR_CH1_CTR_Field</a><li><a href=#25979c5e956682a0e75f832d65607f7668ddd240bf0e9e2210f29e876af3c354>CH1_DIV_FRAC_Field</a><li><a href=#f2d0b4f77ef9e32c396874b7056b2a109348c2f2719d123d4e732a1e36bfdbad>CH1_DIV_INT_Field</a><li><a href=#9402861afb4528604d2aeb72b9da779e02bbe67cac92d3e856e91a21c9223704>CH1_TOP_CH1_TOP_Field</a><li><a href=#1d0cd2a8b7b6cd4ecd1de7ee77a31128532e96bc193c6dd3856bcb4ffe0ebfe3>CH2_CC_A_Field</a><li><a href=#86443b74ce4852b184e8befba9bd1524bfdda66c7de7dda3044dab3b53aff732>CH2_CC_B_Field</a><li><a href=#1b3b321579de36f20f9401d7ebac632079490b103594f0d17de1e03092a7b9ad>CH2_CTR_CH2_CTR_Field</a><li><a href=#b5a32416eca5a5166d872fee2d5bbf8a699937cae9178fbb5f2d5d25d64ec4d1>CH2_DIV_FRAC_Field</a><li><a href=#77c8911862099aeaf5673cfb117af32f925c2c83ce471b2d97a206b00c72fda1>CH2_DIV_INT_Field</a><li><a href=#21893d05f6f69a4833f39444f259a089666926f1f0e477b4a73a3d2d7a512736>CH2_TOP_CH2_TOP_Field</a><li><a href=#ab8837cbdfa673151bff38aaa06f38c05900605aa3167091c9fe1519aefb34b4>CH3_CC_A_Field</a><li><a href=#b3a3635daaa0f1617d67662135943aff5cc404a470b7176059d1e6b701d190a6>CH3_CC_B_Field</a><li><a href=#d9ec41d0129363a66c140742e45e1c9eace5cef4b39ec62f20e2b5cda713f436>CH3_CTR_CH3_CTR_Field</a><li><a href=#ba5e9b03032d6c070cbee63d007714cc522f5984e9319fbef2249ea0d6238c7a>CH3_DIV_FRAC_Field</a><li><a href=#b02ffb2c371c9499347ff6eff2f895fb32829076fada24d050d28f16eba90fc3>CH3_DIV_INT_Field</a><li><a href=#8572f27b6c8b80c55cb8874f0cc1d29d048d2600235655a44a1d4656f1afcdf5>CH3_TOP_CH3_TOP_Field</a><li><a href=#4e0cdf821716f0fca1e935f7f91b3333322c1858c88fdbef032161e011386d81>CH4_CC_A_Field</a><li><a href=#e192e557d324080c3d49e9e9173258454f231f0ff58dbcf43463f46f2ff31bf8>CH4_CC_B_Field</a><li><a href=#f56b5348b4c6a21c68c55e2ceb1decdbe9b4ea28c640c95b93cf7626ae5c5d25>CH4_CTR_CH4_CTR_Field</a><li><a href=#38152e02972644b3b782c1e8eefc56933c5309eea68bc6ea3711e68fc17d2e95>CH4_DIV_FRAC_Field</a><li><a href=#953b6cac7248c26b1c1b7e148d7111274b1bf7743773891e29ad8b0275fdc41d>CH4_DIV_INT_Field</a><li><a href=#e711e6f7bcfd5d838b131645a061e6bc27725cd11e1e9718deab573f900111cd>CH4_TOP_CH4_TOP_Field</a><li><a href=#6af5c2db6d3d834fc3f82734a3577c3835722ea6a24c24390bdf776b401eb261>CH5_CC_A_Field</a><li><a href=#2ba93c6807fe0c2a5c1f3652aa66e1d98b8cd438c2fb07c6cf364c8740b4694c>CH5_CC_B_Field</a><li><a href=#67e4584e0bb6e5386671444feb2e82fd235ddd3d4337f25f5cfb22acc20e23bd>CH5_CTR_CH5_CTR_Field</a><li><a href=#3288812e8ef2a228ce8d00a89627f59724b234b28bb8f8b176b95a2cbb9479dc>CH5_DIV_FRAC_Field</a><li><a href=#bd535ae647f56e98a63d5d96f709d1fbf09e979d543d00592365b629bf64dd98>CH5_DIV_INT_Field</a><li><a href=#291b02da59a2234016762815c68041ea4ddd826512c45742b84551edac573def>CH5_TOP_CH5_TOP_Field</a><li><a href=#d0dfad7c36b719856afe19807261424290f7355f4c506c401bf76d86c6c73881>CH6_CC_A_Field</a><li><a href=#906d170c3c56685d2e28bccf208cc1fe99dc4544fc1fff16bab142df5cf721e2>CH6_CC_B_Field</a><li><a href=#3bb9779dcfe2e37a4a6c5ef9c60cf7f158e020e8cd27b0c1daf9430a3e946b77>CH6_CTR_CH6_CTR_Field</a><li><a href=#b77dba6c9ec7db29758483a3ebded4bd84b746383d38c41ef43b7e12e3874da7>CH6_DIV_FRAC_Field</a><li><a href=#bd8afda61d595ba8c56b1b4570bf455fe2be5f05ae0c5e80f54b8eadf6ed6698>CH6_DIV_INT_Field</a><li><a href=#fa2e6aacf1948c29c76d623ca1eb41f0e463d8e40fe7f7b4cef3d7ba8cfb9180>CH6_TOP_CH6_TOP_Field</a><li><a href=#8685625f82986dc520aa091498c706436aef4ea387a0721d1eb67ce341c99b93>CH7_CC_A_Field</a><li><a href=#46f0b3a751b0a3f72b5620e656a57407e74e32f9f4b021ae5e3b4560c01b77e1>CH7_CC_B_Field</a><li><a href=#c8bd0fc253aa3ae4c0072799e741bec032f39fa0804cd2674cba81b0f63e9bcf>CH7_CTR_CH7_CTR_Field</a><li><a href=#c5e30d4971428b44881f24fc9e4c82face645e14187dd1c30368984f31f35eeb>CH7_DIV_FRAC_Field</a><li><a href=#74b11758a10d4c953958f6627c29bc0d8908efa8cb12937cf653b495b710ff15>CH7_DIV_INT_Field</a><li><a href=#2293f5f05079eb98853d2a1d24f780175e4bec9fc4d2dd9e7a1e57e5ebbb55f6>CH7_TOP_CH7_TOP_Field</a></ul><h3>Variables</h3><ul><li><a href=#c5bb150a89a7ceb029d9d8aba3c28cb7cce05db585858d26c840becc68215d7d>PWM_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=e37053ec6e16f749c03c7a798a9989965cfc4488abc543028626a02a0ef67339>CH0_CC_A_Field</h4><pre class=ada-code-snippet><code>subtype CH0_CC_A_Field is HAL.UInt16;
+</code></pre><h4 id=c29f44d871eb4a15d559c02a15679c86d3ed2dc8acfaea908b2cc51120b076c1>CH0_CC_B_Field</h4><pre class=ada-code-snippet><code>subtype CH0_CC_B_Field is HAL.UInt16;
+</code></pre><h4 id=6822cf18a25bf6e59ce6c589272c661a59813d74fda1a979edfb7ac45213345e>CH0_CC_Register</h4><pre class=ada-code-snippet><code>type CH0_CC_Register is record
+   A : CH0_CC_A_Field := 16#0#;
+   B : CH0_CC_B_Field := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>A<dd><dt>B<dd></dl><h4 id=384a02a44b3fd16410b6aee6d120b623d64760edb6962b4dafcdaed861103c22>CH0_CSR_DIVMODE_Field</h4><pre class=ada-code-snippet><code>type CH0_CSR_DIVMODE_Field is
+   div,
+   level,
+   rise,
+   fall)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>div<dd><p>Fractional divider operation is gated by the PWM B pin.<dt>level<dd><p>Counter advances with each rising edge of the PWM B pin.<dt>rise<dd><p>Counter advances with each falling edge of the PWM B pin.<dt>fall<dd></dl><h4 id=88110da002700570f3a975a8531b6ff0317125dbe36c540488cac5fb99e9813f>CH0_CSR_Register</h4><pre class=ada-code-snippet><code>type CH0_CSR_Register is record
+   EN            : Boolean := False;
+   PH_CORRECT    : Boolean := False;
+   A_INV         : Boolean := False;
+   B_INV         : Boolean := False;
+   DIVMODE       : CH0_CSR_DIVMODE_Field := RP2040_SVD.PWM.div;
+   PH_RET        : Boolean := False;
+   PH_ADV        : Boolean := False;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>PH_CORRECT<dd><dt>A_INV<dd><dt>B_INV<dd><dt>DIVMODE<dd><dt>PH_RET<dd><dt>PH_ADV<dd><dt>Reserved_8_31<dd></dl><h4 id=529cdcdde3def32dbba81fdd4448bf56eb11e8a6c7e6363fa927b440c8cfaeb1>CH0_CTR_CH0_CTR_Field</h4><pre class=ada-code-snippet><code>subtype CH0_CTR_CH0_CTR_Field is HAL.UInt16;
+</code></pre><h4 id=c0f43241bc8b75a62f90eb68caecf68b29ea7760168fbbe1170c40d8d42fa9f2>CH0_CTR_Register</h4><pre class=ada-code-snippet><code>type CH0_CTR_Register is record
+   CH0_CTR        : CH0_CTR_CH0_CTR_Field := 16#0#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH0_CTR<dd><dt>Reserved_16_31<dd></dl><h4 id=bc2ce44587e7ea39afab01195e1a9d37d5ce7b79eaf0c5aaa7b634bb12691504>CH0_DIV_FRAC_Field</h4><pre class=ada-code-snippet><code>subtype CH0_DIV_FRAC_Field is HAL.UInt4;
+</code></pre><h4 id=57426825e29c9428e412217b2499d49bf19882e07f2235290cd38cc61f1e8d76>CH0_DIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype CH0_DIV_INT_Field is HAL.UInt8;
+</code></pre><h4 id=c3b805762480624f706acc9b4cada3e20f06550302c8631e008e204bf4fd30e2>CH0_DIV_Register</h4><pre class=ada-code-snippet><code>type CH0_DIV_Register is record
+   FRAC           : CH0_DIV_FRAC_Field := 16#0#;
+   INT            : CH0_DIV_INT_Field := 16#1#;
+   Reserved_12_31 : HAL.UInt20 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FRAC<dd><dt>INT<dd><dt>Reserved_12_31<dd></dl><h4 id=9d4accd53c16d2e60b5aecb4044ab4a3d8ca04b242102cdfa98b635e62a1c83e>CH0_TOP_CH0_TOP_Field</h4><pre class=ada-code-snippet><code>subtype CH0_TOP_CH0_TOP_Field is HAL.UInt16;
+</code></pre><h4 id=c3023158f6db10c9a3cd1d8e7bd2af9e570ee3716990dbf7b5f912592f06b287>CH0_TOP_Register</h4><pre class=ada-code-snippet><code>type CH0_TOP_Register is record
+   CH0_TOP        : CH0_TOP_CH0_TOP_Field := 16#FFFF#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH0_TOP<dd><dt>Reserved_16_31<dd></dl><h4 id=da69867705354d23f5d6403ef499537c09c3fe58550f96ce345a4dd3209dcc11>CH1_CC_A_Field</h4><pre class=ada-code-snippet><code>subtype CH1_CC_A_Field is HAL.UInt16;
+</code></pre><h4 id=2225810f479e0116afe3e640b7dc5bfb9c04346316a156d1daedce871f4185a5>CH1_CC_B_Field</h4><pre class=ada-code-snippet><code>subtype CH1_CC_B_Field is HAL.UInt16;
+</code></pre><h4 id=9242e1084c2f8b7a9f81bb7c83ecaaa6d2c19e0315f99894dbddc3a4ec48f548>CH1_CC_Register</h4><pre class=ada-code-snippet><code>type CH1_CC_Register is record
+   A : CH1_CC_A_Field := 16#0#;
+   B : CH1_CC_B_Field := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>A<dd><dt>B<dd></dl><h4 id=7ec828133a6e7e6b42e60cffd106905cdd8885c547f80071499f3375ff5af2f6>CH1_CSR_DIVMODE_Field</h4><pre class=ada-code-snippet><code>type CH1_CSR_DIVMODE_Field is
+   div,
+   level,
+   rise,
+   fall)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>div<dd><p>Fractional divider operation is gated by the PWM B pin.<dt>level<dd><p>Counter advances with each rising edge of the PWM B pin.<dt>rise<dd><p>Counter advances with each falling edge of the PWM B pin.<dt>fall<dd></dl><h4 id=1e24672f584c8bfc91242377aab8245f5067f5dfa59b5d71123c3c6a1fc17dfb>CH1_CSR_Register</h4><pre class=ada-code-snippet><code>type CH1_CSR_Register is record
+   EN            : Boolean := False;
+   PH_CORRECT    : Boolean := False;
+   A_INV         : Boolean := False;
+   B_INV         : Boolean := False;
+   DIVMODE       : CH1_CSR_DIVMODE_Field := RP2040_SVD.PWM.div;
+   PH_RET        : Boolean := False;
+   PH_ADV        : Boolean := False;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>PH_CORRECT<dd><dt>A_INV<dd><dt>B_INV<dd><dt>DIVMODE<dd><dt>PH_RET<dd><dt>PH_ADV<dd><dt>Reserved_8_31<dd></dl><h4 id=625e33e9947a779f744ebeafd9cdff3383a9daa5e144ddb19273dbdcdcd5fa1e>CH1_CTR_CH1_CTR_Field</h4><pre class=ada-code-snippet><code>subtype CH1_CTR_CH1_CTR_Field is HAL.UInt16;
+</code></pre><h4 id=ac5326e766ed12245a75b4cd2e7c1759b6d27a1afca31aae3bc9bf5cac2d5d56>CH1_CTR_Register</h4><pre class=ada-code-snippet><code>type CH1_CTR_Register is record
+   CH1_CTR        : CH1_CTR_CH1_CTR_Field := 16#0#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH1_CTR<dd><dt>Reserved_16_31<dd></dl><h4 id=25979c5e956682a0e75f832d65607f7668ddd240bf0e9e2210f29e876af3c354>CH1_DIV_FRAC_Field</h4><pre class=ada-code-snippet><code>subtype CH1_DIV_FRAC_Field is HAL.UInt4;
+</code></pre><h4 id=f2d0b4f77ef9e32c396874b7056b2a109348c2f2719d123d4e732a1e36bfdbad>CH1_DIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype CH1_DIV_INT_Field is HAL.UInt8;
+</code></pre><h4 id=09b48fd8e369164076c349d8d1cde8992227fc15fc5cddf4a358cfee10bed994>CH1_DIV_Register</h4><pre class=ada-code-snippet><code>type CH1_DIV_Register is record
+   FRAC           : CH1_DIV_FRAC_Field := 16#0#;
+   INT            : CH1_DIV_INT_Field := 16#1#;
+   Reserved_12_31 : HAL.UInt20 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FRAC<dd><dt>INT<dd><dt>Reserved_12_31<dd></dl><h4 id=9402861afb4528604d2aeb72b9da779e02bbe67cac92d3e856e91a21c9223704>CH1_TOP_CH1_TOP_Field</h4><pre class=ada-code-snippet><code>subtype CH1_TOP_CH1_TOP_Field is HAL.UInt16;
+</code></pre><h4 id=279b6beb11862b94ae59ec736771eebd995b0933d5a5bedaadeec75a76de6337>CH1_TOP_Register</h4><pre class=ada-code-snippet><code>type CH1_TOP_Register is record
+   CH1_TOP        : CH1_TOP_CH1_TOP_Field := 16#FFFF#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH1_TOP<dd><dt>Reserved_16_31<dd></dl><h4 id=1d0cd2a8b7b6cd4ecd1de7ee77a31128532e96bc193c6dd3856bcb4ffe0ebfe3>CH2_CC_A_Field</h4><pre class=ada-code-snippet><code>subtype CH2_CC_A_Field is HAL.UInt16;
+</code></pre><h4 id=86443b74ce4852b184e8befba9bd1524bfdda66c7de7dda3044dab3b53aff732>CH2_CC_B_Field</h4><pre class=ada-code-snippet><code>subtype CH2_CC_B_Field is HAL.UInt16;
+</code></pre><h4 id=28611e5f94753d4bef76f97740cff9511757ec83da650d0ed6591a843aa34ec4>CH2_CC_Register</h4><pre class=ada-code-snippet><code>type CH2_CC_Register is record
+   A : CH2_CC_A_Field := 16#0#;
+   B : CH2_CC_B_Field := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>A<dd><dt>B<dd></dl><h4 id=ce584482f230a29e6bbae80307152b55830ddd086cafb3f069c59f25060115fd>CH2_CSR_DIVMODE_Field</h4><pre class=ada-code-snippet><code>type CH2_CSR_DIVMODE_Field is
+   div,
+   level,
+   rise,
+   fall)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>div<dd><p>Fractional divider operation is gated by the PWM B pin.<dt>level<dd><p>Counter advances with each rising edge of the PWM B pin.<dt>rise<dd><p>Counter advances with each falling edge of the PWM B pin.<dt>fall<dd></dl><h4 id=b39002f725b09af9d1b21ca91ec629a64ab1e3c5a42bf96f3dbac16fd9d77e20>CH2_CSR_Register</h4><pre class=ada-code-snippet><code>type CH2_CSR_Register is record
+   EN            : Boolean := False;
+   PH_CORRECT    : Boolean := False;
+   A_INV         : Boolean := False;
+   B_INV         : Boolean := False;
+   DIVMODE       : CH2_CSR_DIVMODE_Field := RP2040_SVD.PWM.div;
+   PH_RET        : Boolean := False;
+   PH_ADV        : Boolean := False;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>PH_CORRECT<dd><dt>A_INV<dd><dt>B_INV<dd><dt>DIVMODE<dd><dt>PH_RET<dd><dt>PH_ADV<dd><dt>Reserved_8_31<dd></dl><h4 id=1b3b321579de36f20f9401d7ebac632079490b103594f0d17de1e03092a7b9ad>CH2_CTR_CH2_CTR_Field</h4><pre class=ada-code-snippet><code>subtype CH2_CTR_CH2_CTR_Field is HAL.UInt16;
+</code></pre><h4 id=37f7805debed17f36710364823e71338c27fbb3fa65294fde8f345a809d85613>CH2_CTR_Register</h4><pre class=ada-code-snippet><code>type CH2_CTR_Register is record
+   CH2_CTR        : CH2_CTR_CH2_CTR_Field := 16#0#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH2_CTR<dd><dt>Reserved_16_31<dd></dl><h4 id=b5a32416eca5a5166d872fee2d5bbf8a699937cae9178fbb5f2d5d25d64ec4d1>CH2_DIV_FRAC_Field</h4><pre class=ada-code-snippet><code>subtype CH2_DIV_FRAC_Field is HAL.UInt4;
+</code></pre><h4 id=77c8911862099aeaf5673cfb117af32f925c2c83ce471b2d97a206b00c72fda1>CH2_DIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype CH2_DIV_INT_Field is HAL.UInt8;
+</code></pre><h4 id=d83710f4d3d5ce502a9de20f0917402636f84906884d58e5f3d96f2685325978>CH2_DIV_Register</h4><pre class=ada-code-snippet><code>type CH2_DIV_Register is record
+   FRAC           : CH2_DIV_FRAC_Field := 16#0#;
+   INT            : CH2_DIV_INT_Field := 16#1#;
+   Reserved_12_31 : HAL.UInt20 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FRAC<dd><dt>INT<dd><dt>Reserved_12_31<dd></dl><h4 id=21893d05f6f69a4833f39444f259a089666926f1f0e477b4a73a3d2d7a512736>CH2_TOP_CH2_TOP_Field</h4><pre class=ada-code-snippet><code>subtype CH2_TOP_CH2_TOP_Field is HAL.UInt16;
+</code></pre><h4 id=fff68b54038ed0ce38422bb3a58f7424f9b40bfd03cf3dbaad566150808aacc6>CH2_TOP_Register</h4><pre class=ada-code-snippet><code>type CH2_TOP_Register is record
+   CH2_TOP        : CH2_TOP_CH2_TOP_Field := 16#FFFF#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH2_TOP<dd><dt>Reserved_16_31<dd></dl><h4 id=ab8837cbdfa673151bff38aaa06f38c05900605aa3167091c9fe1519aefb34b4>CH3_CC_A_Field</h4><pre class=ada-code-snippet><code>subtype CH3_CC_A_Field is HAL.UInt16;
+</code></pre><h4 id=b3a3635daaa0f1617d67662135943aff5cc404a470b7176059d1e6b701d190a6>CH3_CC_B_Field</h4><pre class=ada-code-snippet><code>subtype CH3_CC_B_Field is HAL.UInt16;
+</code></pre><h4 id=ae4dcf104d6ca227ea5b7a8bb4182847c6722ed01fc48aa431e8b83fe48fab23>CH3_CC_Register</h4><pre class=ada-code-snippet><code>type CH3_CC_Register is record
+   A : CH3_CC_A_Field := 16#0#;
+   B : CH3_CC_B_Field := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>A<dd><dt>B<dd></dl><h4 id=22649b17ed96d529e22d23b695f7e8429aafa62cf19f94e38e0821518d36bb6c>CH3_CSR_DIVMODE_Field</h4><pre class=ada-code-snippet><code>type CH3_CSR_DIVMODE_Field is
+   div,
+   level,
+   rise,
+   fall)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>div<dd><p>Fractional divider operation is gated by the PWM B pin.<dt>level<dd><p>Counter advances with each rising edge of the PWM B pin.<dt>rise<dd><p>Counter advances with each falling edge of the PWM B pin.<dt>fall<dd></dl><h4 id=4b6e0d92fc4ea0f40b24216a6c6e58f8ec6884ef8cf4071228b995bb492d6660>CH3_CSR_Register</h4><pre class=ada-code-snippet><code>type CH3_CSR_Register is record
+   EN            : Boolean := False;
+   PH_CORRECT    : Boolean := False;
+   A_INV         : Boolean := False;
+   B_INV         : Boolean := False;
+   DIVMODE       : CH3_CSR_DIVMODE_Field := RP2040_SVD.PWM.div;
+   PH_RET        : Boolean := False;
+   PH_ADV        : Boolean := False;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>PH_CORRECT<dd><dt>A_INV<dd><dt>B_INV<dd><dt>DIVMODE<dd><dt>PH_RET<dd><dt>PH_ADV<dd><dt>Reserved_8_31<dd></dl><h4 id=d9ec41d0129363a66c140742e45e1c9eace5cef4b39ec62f20e2b5cda713f436>CH3_CTR_CH3_CTR_Field</h4><pre class=ada-code-snippet><code>subtype CH3_CTR_CH3_CTR_Field is HAL.UInt16;
+</code></pre><h4 id=19caa9d6aea781b32453523582e28bba8977870bccb22ed8fc299503d2bc0b1e>CH3_CTR_Register</h4><pre class=ada-code-snippet><code>type CH3_CTR_Register is record
+   CH3_CTR        : CH3_CTR_CH3_CTR_Field := 16#0#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH3_CTR<dd><dt>Reserved_16_31<dd></dl><h4 id=ba5e9b03032d6c070cbee63d007714cc522f5984e9319fbef2249ea0d6238c7a>CH3_DIV_FRAC_Field</h4><pre class=ada-code-snippet><code>subtype CH3_DIV_FRAC_Field is HAL.UInt4;
+</code></pre><h4 id=b02ffb2c371c9499347ff6eff2f895fb32829076fada24d050d28f16eba90fc3>CH3_DIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype CH3_DIV_INT_Field is HAL.UInt8;
+</code></pre><h4 id=3ec8c9b2db633715f97db5f2dcd97ee956e3a7c2d886cf30578964258ee24a4f>CH3_DIV_Register</h4><pre class=ada-code-snippet><code>type CH3_DIV_Register is record
+   FRAC           : CH3_DIV_FRAC_Field := 16#0#;
+   INT            : CH3_DIV_INT_Field := 16#1#;
+   Reserved_12_31 : HAL.UInt20 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FRAC<dd><dt>INT<dd><dt>Reserved_12_31<dd></dl><h4 id=8572f27b6c8b80c55cb8874f0cc1d29d048d2600235655a44a1d4656f1afcdf5>CH3_TOP_CH3_TOP_Field</h4><pre class=ada-code-snippet><code>subtype CH3_TOP_CH3_TOP_Field is HAL.UInt16;
+</code></pre><h4 id=377a1daa8d488e0ba5fda2fad8eb6a13a385c36cdd3b6070ef22905eeb2e46b1>CH3_TOP_Register</h4><pre class=ada-code-snippet><code>type CH3_TOP_Register is record
+   CH3_TOP        : CH3_TOP_CH3_TOP_Field := 16#FFFF#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH3_TOP<dd><dt>Reserved_16_31<dd></dl><h4 id=4e0cdf821716f0fca1e935f7f91b3333322c1858c88fdbef032161e011386d81>CH4_CC_A_Field</h4><pre class=ada-code-snippet><code>subtype CH4_CC_A_Field is HAL.UInt16;
+</code></pre><h4 id=e192e557d324080c3d49e9e9173258454f231f0ff58dbcf43463f46f2ff31bf8>CH4_CC_B_Field</h4><pre class=ada-code-snippet><code>subtype CH4_CC_B_Field is HAL.UInt16;
+</code></pre><h4 id=621060e553e382df96d30e3965c51ea56584b538d439415d610be32a7754b6dd>CH4_CC_Register</h4><pre class=ada-code-snippet><code>type CH4_CC_Register is record
+   A : CH4_CC_A_Field := 16#0#;
+   B : CH4_CC_B_Field := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>A<dd><dt>B<dd></dl><h4 id=0e705fd3c26358b2f4423d30a85260dea8d0e4d3d0c5885e194690a8aba8c28e>CH4_CSR_DIVMODE_Field</h4><pre class=ada-code-snippet><code>type CH4_CSR_DIVMODE_Field is
+   div,
+   level,
+   rise,
+   fall)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>div<dd><p>Fractional divider operation is gated by the PWM B pin.<dt>level<dd><p>Counter advances with each rising edge of the PWM B pin.<dt>rise<dd><p>Counter advances with each falling edge of the PWM B pin.<dt>fall<dd></dl><h4 id=ac22f58ce9d251e898b69576c16dc159d97706408689ac7ba74845853d34f1a4>CH4_CSR_Register</h4><pre class=ada-code-snippet><code>type CH4_CSR_Register is record
+   EN            : Boolean := False;
+   PH_CORRECT    : Boolean := False;
+   A_INV         : Boolean := False;
+   B_INV         : Boolean := False;
+   DIVMODE       : CH4_CSR_DIVMODE_Field := RP2040_SVD.PWM.div;
+   PH_RET        : Boolean := False;
+   PH_ADV        : Boolean := False;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>PH_CORRECT<dd><dt>A_INV<dd><dt>B_INV<dd><dt>DIVMODE<dd><dt>PH_RET<dd><dt>PH_ADV<dd><dt>Reserved_8_31<dd></dl><h4 id=f56b5348b4c6a21c68c55e2ceb1decdbe9b4ea28c640c95b93cf7626ae5c5d25>CH4_CTR_CH4_CTR_Field</h4><pre class=ada-code-snippet><code>subtype CH4_CTR_CH4_CTR_Field is HAL.UInt16;
+</code></pre><h4 id=4db4ac3b81f93952e1f76a81cb3c084b8655406ca83a8f0e589ca2f8a16e8211>CH4_CTR_Register</h4><pre class=ada-code-snippet><code>type CH4_CTR_Register is record
+   CH4_CTR        : CH4_CTR_CH4_CTR_Field := 16#0#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH4_CTR<dd><dt>Reserved_16_31<dd></dl><h4 id=38152e02972644b3b782c1e8eefc56933c5309eea68bc6ea3711e68fc17d2e95>CH4_DIV_FRAC_Field</h4><pre class=ada-code-snippet><code>subtype CH4_DIV_FRAC_Field is HAL.UInt4;
+</code></pre><h4 id=953b6cac7248c26b1c1b7e148d7111274b1bf7743773891e29ad8b0275fdc41d>CH4_DIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype CH4_DIV_INT_Field is HAL.UInt8;
+</code></pre><h4 id=0009159a53717b67d23d00a5f6ee279e2f56a2eca4dfcef0764602c15ae725bf>CH4_DIV_Register</h4><pre class=ada-code-snippet><code>type CH4_DIV_Register is record
+   FRAC           : CH4_DIV_FRAC_Field := 16#0#;
+   INT            : CH4_DIV_INT_Field := 16#1#;
+   Reserved_12_31 : HAL.UInt20 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FRAC<dd><dt>INT<dd><dt>Reserved_12_31<dd></dl><h4 id=e711e6f7bcfd5d838b131645a061e6bc27725cd11e1e9718deab573f900111cd>CH4_TOP_CH4_TOP_Field</h4><pre class=ada-code-snippet><code>subtype CH4_TOP_CH4_TOP_Field is HAL.UInt16;
+</code></pre><h4 id=1e56b2357d2fb92fb421999c47dac110ad8febf364c22ea928a172dfb887ec16>CH4_TOP_Register</h4><pre class=ada-code-snippet><code>type CH4_TOP_Register is record
+   CH4_TOP        : CH4_TOP_CH4_TOP_Field := 16#FFFF#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH4_TOP<dd><dt>Reserved_16_31<dd></dl><h4 id=6af5c2db6d3d834fc3f82734a3577c3835722ea6a24c24390bdf776b401eb261>CH5_CC_A_Field</h4><pre class=ada-code-snippet><code>subtype CH5_CC_A_Field is HAL.UInt16;
+</code></pre><h4 id=2ba93c6807fe0c2a5c1f3652aa66e1d98b8cd438c2fb07c6cf364c8740b4694c>CH5_CC_B_Field</h4><pre class=ada-code-snippet><code>subtype CH5_CC_B_Field is HAL.UInt16;
+</code></pre><h4 id=380ef2d0cfeb1cf4ac17bb13860119d483dc3fc13f232cd49809e2af4508bbf0>CH5_CC_Register</h4><pre class=ada-code-snippet><code>type CH5_CC_Register is record
+   A : CH5_CC_A_Field := 16#0#;
+   B : CH5_CC_B_Field := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>A<dd><dt>B<dd></dl><h4 id=3ad3e9c9c7ac35fb5f8f158b2d65e1a10ba98c432d9126df6f50ab48d68d9a96>CH5_CSR_DIVMODE_Field</h4><pre class=ada-code-snippet><code>type CH5_CSR_DIVMODE_Field is
+   div,
+   level,
+   rise,
+   fall)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>div<dd><p>Fractional divider operation is gated by the PWM B pin.<dt>level<dd><p>Counter advances with each rising edge of the PWM B pin.<dt>rise<dd><p>Counter advances with each falling edge of the PWM B pin.<dt>fall<dd></dl><h4 id=965d2e4bd18a0ff014aef397bc96eb0d336c76ed98e5786840785833382e843e>CH5_CSR_Register</h4><pre class=ada-code-snippet><code>type CH5_CSR_Register is record
+   EN            : Boolean := False;
+   PH_CORRECT    : Boolean := False;
+   A_INV         : Boolean := False;
+   B_INV         : Boolean := False;
+   DIVMODE       : CH5_CSR_DIVMODE_Field := RP2040_SVD.PWM.div;
+   PH_RET        : Boolean := False;
+   PH_ADV        : Boolean := False;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>PH_CORRECT<dd><dt>A_INV<dd><dt>B_INV<dd><dt>DIVMODE<dd><dt>PH_RET<dd><dt>PH_ADV<dd><dt>Reserved_8_31<dd></dl><h4 id=67e4584e0bb6e5386671444feb2e82fd235ddd3d4337f25f5cfb22acc20e23bd>CH5_CTR_CH5_CTR_Field</h4><pre class=ada-code-snippet><code>subtype CH5_CTR_CH5_CTR_Field is HAL.UInt16;
+</code></pre><h4 id=1d6f1e9f360632e04441a5d13242d697d51fa16e71d169bfe6c6ab8cedfec8ba>CH5_CTR_Register</h4><pre class=ada-code-snippet><code>type CH5_CTR_Register is record
+   CH5_CTR        : CH5_CTR_CH5_CTR_Field := 16#0#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH5_CTR<dd><dt>Reserved_16_31<dd></dl><h4 id=3288812e8ef2a228ce8d00a89627f59724b234b28bb8f8b176b95a2cbb9479dc>CH5_DIV_FRAC_Field</h4><pre class=ada-code-snippet><code>subtype CH5_DIV_FRAC_Field is HAL.UInt4;
+</code></pre><h4 id=bd535ae647f56e98a63d5d96f709d1fbf09e979d543d00592365b629bf64dd98>CH5_DIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype CH5_DIV_INT_Field is HAL.UInt8;
+</code></pre><h4 id=99c9f75c7ea8639989dc1970e82a41f0b03903d96fe39f2acb5445e12edfe7c7>CH5_DIV_Register</h4><pre class=ada-code-snippet><code>type CH5_DIV_Register is record
+   FRAC           : CH5_DIV_FRAC_Field := 16#0#;
+   INT            : CH5_DIV_INT_Field := 16#1#;
+   Reserved_12_31 : HAL.UInt20 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FRAC<dd><dt>INT<dd><dt>Reserved_12_31<dd></dl><h4 id=291b02da59a2234016762815c68041ea4ddd826512c45742b84551edac573def>CH5_TOP_CH5_TOP_Field</h4><pre class=ada-code-snippet><code>subtype CH5_TOP_CH5_TOP_Field is HAL.UInt16;
+</code></pre><h4 id=1b1ac03586a707df6a52ea7457f22f2de7b231a8e287c65f476c059d40967d9f>CH5_TOP_Register</h4><pre class=ada-code-snippet><code>type CH5_TOP_Register is record
+   CH5_TOP        : CH5_TOP_CH5_TOP_Field := 16#FFFF#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH5_TOP<dd><dt>Reserved_16_31<dd></dl><h4 id=d0dfad7c36b719856afe19807261424290f7355f4c506c401bf76d86c6c73881>CH6_CC_A_Field</h4><pre class=ada-code-snippet><code>subtype CH6_CC_A_Field is HAL.UInt16;
+</code></pre><h4 id=906d170c3c56685d2e28bccf208cc1fe99dc4544fc1fff16bab142df5cf721e2>CH6_CC_B_Field</h4><pre class=ada-code-snippet><code>subtype CH6_CC_B_Field is HAL.UInt16;
+</code></pre><h4 id=21d53716ece99444da04a3d27c3e3c9c2b852743f44d60f803873c43355acf35>CH6_CC_Register</h4><pre class=ada-code-snippet><code>type CH6_CC_Register is record
+   A : CH6_CC_A_Field := 16#0#;
+   B : CH6_CC_B_Field := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>A<dd><dt>B<dd></dl><h4 id=163f982675d7a5a76befdaf6f4f349832773c6eb208f10d518abd7563c8947ee>CH6_CSR_DIVMODE_Field</h4><pre class=ada-code-snippet><code>type CH6_CSR_DIVMODE_Field is
+   div,
+   level,
+   rise,
+   fall)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>div<dd><p>Fractional divider operation is gated by the PWM B pin.<dt>level<dd><p>Counter advances with each rising edge of the PWM B pin.<dt>rise<dd><p>Counter advances with each falling edge of the PWM B pin.<dt>fall<dd></dl><h4 id=e403a7d4908a7b84b617281b765c28527f6edc010bddc57e00fded6d1a656fc8>CH6_CSR_Register</h4><pre class=ada-code-snippet><code>type CH6_CSR_Register is record
+   EN            : Boolean := False;
+   PH_CORRECT    : Boolean := False;
+   A_INV         : Boolean := False;
+   B_INV         : Boolean := False;
+   DIVMODE       : CH6_CSR_DIVMODE_Field := RP2040_SVD.PWM.div;
+   PH_RET        : Boolean := False;
+   PH_ADV        : Boolean := False;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>PH_CORRECT<dd><dt>A_INV<dd><dt>B_INV<dd><dt>DIVMODE<dd><dt>PH_RET<dd><dt>PH_ADV<dd><dt>Reserved_8_31<dd></dl><h4 id=3bb9779dcfe2e37a4a6c5ef9c60cf7f158e020e8cd27b0c1daf9430a3e946b77>CH6_CTR_CH6_CTR_Field</h4><pre class=ada-code-snippet><code>subtype CH6_CTR_CH6_CTR_Field is HAL.UInt16;
+</code></pre><h4 id=16c9cf1f6569d58b93967a69584b5bef2000d7dc2676d743fffb995f7ccc5cd2>CH6_CTR_Register</h4><pre class=ada-code-snippet><code>type CH6_CTR_Register is record
+   CH6_CTR        : CH6_CTR_CH6_CTR_Field := 16#0#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH6_CTR<dd><dt>Reserved_16_31<dd></dl><h4 id=b77dba6c9ec7db29758483a3ebded4bd84b746383d38c41ef43b7e12e3874da7>CH6_DIV_FRAC_Field</h4><pre class=ada-code-snippet><code>subtype CH6_DIV_FRAC_Field is HAL.UInt4;
+</code></pre><h4 id=bd8afda61d595ba8c56b1b4570bf455fe2be5f05ae0c5e80f54b8eadf6ed6698>CH6_DIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype CH6_DIV_INT_Field is HAL.UInt8;
+</code></pre><h4 id=a025b53914eb929f1d8127c2830a49ab463c124e7692ee8ce7c28fd7a1fd56a0>CH6_DIV_Register</h4><pre class=ada-code-snippet><code>type CH6_DIV_Register is record
+   FRAC           : CH6_DIV_FRAC_Field := 16#0#;
+   INT            : CH6_DIV_INT_Field := 16#1#;
+   Reserved_12_31 : HAL.UInt20 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FRAC<dd><dt>INT<dd><dt>Reserved_12_31<dd></dl><h4 id=fa2e6aacf1948c29c76d623ca1eb41f0e463d8e40fe7f7b4cef3d7ba8cfb9180>CH6_TOP_CH6_TOP_Field</h4><pre class=ada-code-snippet><code>subtype CH6_TOP_CH6_TOP_Field is HAL.UInt16;
+</code></pre><h4 id=a527e88c2b1fc6eb32ec6634c75ae9b8c641cac412502c71ef293e860e113dc6>CH6_TOP_Register</h4><pre class=ada-code-snippet><code>type CH6_TOP_Register is record
+   CH6_TOP        : CH6_TOP_CH6_TOP_Field := 16#FFFF#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH6_TOP<dd><dt>Reserved_16_31<dd></dl><h4 id=8685625f82986dc520aa091498c706436aef4ea387a0721d1eb67ce341c99b93>CH7_CC_A_Field</h4><pre class=ada-code-snippet><code>subtype CH7_CC_A_Field is HAL.UInt16;
+</code></pre><h4 id=46f0b3a751b0a3f72b5620e656a57407e74e32f9f4b021ae5e3b4560c01b77e1>CH7_CC_B_Field</h4><pre class=ada-code-snippet><code>subtype CH7_CC_B_Field is HAL.UInt16;
+</code></pre><h4 id=91ed344ac9dc7d5a590a3a461099d8f59901e65f532f0ede15d631dbf27c6368>CH7_CC_Register</h4><pre class=ada-code-snippet><code>type CH7_CC_Register is record
+   A : CH7_CC_A_Field := 16#0#;
+   B : CH7_CC_B_Field := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>A<dd><dt>B<dd></dl><h4 id=b4a78d58c3608d15a21162113282adc2c0596e3384334935683f6f778ec974e3>CH7_CSR_DIVMODE_Field</h4><pre class=ada-code-snippet><code>type CH7_CSR_DIVMODE_Field is
+   div,
+   level,
+   rise,
+   fall)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>div<dd><p>Fractional divider operation is gated by the PWM B pin.<dt>level<dd><p>Counter advances with each rising edge of the PWM B pin.<dt>rise<dd><p>Counter advances with each falling edge of the PWM B pin.<dt>fall<dd></dl><h4 id=4ffa298dc6cb7ab745ff8889453fcb50d1703d95ced3c174a4b9fb0fce664bce>CH7_CSR_Register</h4><pre class=ada-code-snippet><code>type CH7_CSR_Register is record
+   EN            : Boolean := False;
+   PH_CORRECT    : Boolean := False;
+   A_INV         : Boolean := False;
+   B_INV         : Boolean := False;
+   DIVMODE       : CH7_CSR_DIVMODE_Field := RP2040_SVD.PWM.div;
+   PH_RET        : Boolean := False;
+   PH_ADV        : Boolean := False;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>PH_CORRECT<dd><dt>A_INV<dd><dt>B_INV<dd><dt>DIVMODE<dd><dt>PH_RET<dd><dt>PH_ADV<dd><dt>Reserved_8_31<dd></dl><h4 id=c8bd0fc253aa3ae4c0072799e741bec032f39fa0804cd2674cba81b0f63e9bcf>CH7_CTR_CH7_CTR_Field</h4><pre class=ada-code-snippet><code>subtype CH7_CTR_CH7_CTR_Field is HAL.UInt16;
+</code></pre><h4 id=0bb2b1d0fde4427d8644e29001354b491c07cb292c0094f257807d62060c72a8>CH7_CTR_Register</h4><pre class=ada-code-snippet><code>type CH7_CTR_Register is record
+   CH7_CTR        : CH7_CTR_CH7_CTR_Field := 16#0#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH7_CTR<dd><dt>Reserved_16_31<dd></dl><h4 id=c5e30d4971428b44881f24fc9e4c82face645e14187dd1c30368984f31f35eeb>CH7_DIV_FRAC_Field</h4><pre class=ada-code-snippet><code>subtype CH7_DIV_FRAC_Field is HAL.UInt4;
+</code></pre><h4 id=74b11758a10d4c953958f6627c29bc0d8908efa8cb12937cf653b495b710ff15>CH7_DIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype CH7_DIV_INT_Field is HAL.UInt8;
+</code></pre><h4 id=3cdd70f8d1f2f8439564be3677ccd35f92122f1435744a8782058cc3b0e233e3>CH7_DIV_Register</h4><pre class=ada-code-snippet><code>type CH7_DIV_Register is record
+   FRAC           : CH7_DIV_FRAC_Field := 16#0#;
+   INT            : CH7_DIV_INT_Field := 16#1#;
+   Reserved_12_31 : HAL.UInt20 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FRAC<dd><dt>INT<dd><dt>Reserved_12_31<dd></dl><h4 id=2293f5f05079eb98853d2a1d24f780175e4bec9fc4d2dd9e7a1e57e5ebbb55f6>CH7_TOP_CH7_TOP_Field</h4><pre class=ada-code-snippet><code>subtype CH7_TOP_CH7_TOP_Field is HAL.UInt16;
+</code></pre><h4 id=311c79c20e6d8054bd2475cb4a59896c86e77b28ddc3ba216cae3c6beacc07cd>CH7_TOP_Register</h4><pre class=ada-code-snippet><code>type CH7_TOP_Register is record
+   CH7_TOP        : CH7_TOP_CH7_TOP_Field := 16#FFFF#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH7_TOP<dd><dt>Reserved_16_31<dd></dl><h4 id=e116ff0ace7a0731b6dd4031052dc08a9cfbc79d6a3c6e4dd5b2f81896b9feb4>EN_CH_Field</h4><pre class=ada-code-snippet><code>type EN_CH_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt8;
+      when True =>
+         Arr : EN_CH_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 8;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=3077b10abb720d289a35fd8107fc313598268125ab22ea47c24f8c6910443280>EN_CH_Field_Array</h4><pre class=ada-code-snippet><code>type EN_CH_Field_Array is array (0 .. 7) of Boolean
+  with Component_Size => 1, Size => 8;
+</code></pre><h4 id=8b5ec9951fbc731ec2693b83c6a6ee00caef15e4bdb192020233a2a00d18508d>EN_Register</h4><pre class=ada-code-snippet><code>type EN_Register is record
+   CH            : EN_CH_Field := (As_Array => False, Val => 16#0#);
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH<dd><dt>Reserved_8_31<dd></dl><h4 id=eb4713bde2402d47caf4c7a0c408280208b21b00cf15f80fa4f519824b95bab9>INTE_CH_Field</h4><pre class=ada-code-snippet><code>type INTE_CH_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt8;
+      when True =>
+         Arr : INTE_CH_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 8;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=54422c5d299fe83ba5f6aa3f0666d987df427920d505a88b18edabad27d7998e>INTE_CH_Field_Array</h4><pre class=ada-code-snippet><code>type INTE_CH_Field_Array is array (0 .. 7) of Boolean
+  with Component_Size => 1, Size => 8;
+</code></pre><h4 id=997ff0ad85bbb9d88d51f1bd27bb34a342d4ac5d56a41d3dde27149523630512>INTE_Register</h4><pre class=ada-code-snippet><code>type INTE_Register is record
+   CH            : INTE_CH_Field := (As_Array => False, Val => 16#0#);
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH<dd><dt>Reserved_8_31<dd></dl><h4 id=5b152487fe13b2a6a3b0e0ad782dd8fc8461cdfc6d092040a87f01c6d0ab81e2>INTF_CH_Field</h4><pre class=ada-code-snippet><code>type INTF_CH_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt8;
+      when True =>
+         Arr : INTF_CH_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 8;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=71e7050d711c6e1783c2e5793f62733218f357089e5983894b59838f2c9c920d>INTF_CH_Field_Array</h4><pre class=ada-code-snippet><code>type INTF_CH_Field_Array is array (0 .. 7) of Boolean
+  with Component_Size => 1, Size => 8;
+</code></pre><h4 id=499730b1da58e7670b203ed7b52b70204b04044b9041daa397fd818083b534e1>INTF_Register</h4><pre class=ada-code-snippet><code>type INTF_Register is record
+   CH            : INTF_CH_Field := (As_Array => False, Val => 16#0#);
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH<dd><dt>Reserved_8_31<dd></dl><h4 id=192e3ec039318c4a5d9f729345da6f34bfaae3a83faf5b3811dbfc4b2419fc42>INTR_CH_Field</h4><pre class=ada-code-snippet><code>type INTR_CH_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt8;
+      when True =>
+         Arr : INTR_CH_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 8;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=40e2fa295476ceca31ca8e736f2e6e290236a45bef73a3c9e1fe7f416057f02c>INTR_CH_Field_Array</h4><pre class=ada-code-snippet><code>type INTR_CH_Field_Array is array (0 .. 7) of Boolean
+  with Component_Size => 1, Size => 8;
+</code></pre><h4 id=823977249ed4b9f4192c16a48a7291c511283d6591d5eee8026c725535e34654>INTR_Register</h4><pre class=ada-code-snippet><code>type INTR_Register is record
+   CH            : INTR_CH_Field := (As_Array => False, Val => 16#0#);
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH<dd><dt>Reserved_8_31<dd></dl><h4 id=cd8fefc32fd701355858570af9a78111dd37970cf6c668a0014a88c2bb23f5ed>INTS_CH_Field</h4><pre class=ada-code-snippet><code>type INTS_CH_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt8;
+      when True =>
+         Arr : INTS_CH_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 8;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=97924d67467dabaff38b5ef00f97c7e253150c58f15bd23f9de6dd4a42217d8d>INTS_CH_Field_Array</h4><pre class=ada-code-snippet><code>type INTS_CH_Field_Array is array (0 .. 7) of Boolean
+  with Component_Size => 1, Size => 8;
+</code></pre><h4 id=2615158c0b1b7c009d575386f9ea1deccd877e5ac82dc136caabf2c7f8c1faad>INTS_Register</h4><pre class=ada-code-snippet><code>type INTS_Register is record
+   CH            : INTS_CH_Field;
+   Reserved_8_31 : HAL.UInt24;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CH<dd><dt>Reserved_8_31<dd></dl><h4 id=c5bb150a89a7ceb029d9d8aba3c28cb7cce05db585858d26c840becc68215d7d>PWM_Periph</h4><pre class=ada-code-snippet><code>PWM_Periph : aliased PWM_Peripheral
+  with Import, Address => PWM_Base;
+</code></pre><h4 id=d35c9bd0fda8e3d5feb12b958805907077461bfead7d1d7fd8521790d6a676d3>PWM_Peripheral</h4><pre class=ada-code-snippet><code>type PWM_Peripheral is record
+   CH0_CSR : aliased CH0_CSR_Register;
+   CH0_DIV : aliased CH0_DIV_Register;
+   CH0_CTR : aliased CH0_CTR_Register;
+   CH0_CC  : aliased CH0_CC_Register;
+   CH0_TOP : aliased CH0_TOP_Register;
+   CH1_CSR : aliased CH1_CSR_Register;
+   CH1_DIV : aliased CH1_DIV_Register;
+   CH1_CTR : aliased CH1_CTR_Register;
+   CH1_CC  : aliased CH1_CC_Register;
+   CH1_TOP : aliased CH1_TOP_Register;
+   CH2_CSR : aliased CH2_CSR_Register;
+   CH2_DIV : aliased CH2_DIV_Register;
+   CH2_CTR : aliased CH2_CTR_Register;
+   CH2_CC  : aliased CH2_CC_Register;
+   CH2_TOP : aliased CH2_TOP_Register;
+   CH3_CSR : aliased CH3_CSR_Register;
+   CH3_DIV : aliased CH3_DIV_Register;
+   CH3_CTR : aliased CH3_CTR_Register;
+   CH3_CC  : aliased CH3_CC_Register;
+   CH3_TOP : aliased CH3_TOP_Register;
+   CH4_CSR : aliased CH4_CSR_Register;
+   CH4_DIV : aliased CH4_DIV_Register;
+   CH4_CTR : aliased CH4_CTR_Register;
+   CH4_CC  : aliased CH4_CC_Register;
+   CH4_TOP : aliased CH4_TOP_Register;
+   CH5_CSR : aliased CH5_CSR_Register;
+   CH5_DIV : aliased CH5_DIV_Register;
+   CH5_CTR : aliased CH5_CTR_Register;
+   CH5_CC  : aliased CH5_CC_Register;
+   CH5_TOP : aliased CH5_TOP_Register;
+   CH6_CSR : aliased CH6_CSR_Register;
+   CH6_DIV : aliased CH6_DIV_Register;
+   CH6_CTR : aliased CH6_CTR_Register;
+   CH6_CC  : aliased CH6_CC_Register;
+   CH6_TOP : aliased CH6_TOP_Register;
+   CH7_CSR : aliased CH7_CSR_Register;
+   CH7_DIV : aliased CH7_DIV_Register;
+   CH7_CTR : aliased CH7_CTR_Register;
+   CH7_CC  : aliased CH7_CC_Register;
+   CH7_TOP : aliased CH7_TOP_Register;
+   EN      : aliased EN_Register;
+   INTR    : aliased INTR_Register;
+   INTE    : aliased INTE_Register;
+   INTF    : aliased INTF_Register;
+   INTS    : aliased INTS_Register;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>CH0_CSR<dd><dt>CH0_DIV<dd><dt>CH0_CTR<dd><dt>CH0_CC<dd><dt>CH0_TOP<dd><dt>CH1_CSR<dd><dt>CH1_DIV<dd><dt>CH1_CTR<dd><dt>CH1_CC<dd><dt>CH1_TOP<dd><dt>CH2_CSR<dd><dt>CH2_DIV<dd><dt>CH2_CTR<dd><dt>CH2_CC<dd><dt>CH2_TOP<dd><dt>CH3_CSR<dd><dt>CH3_DIV<dd><dt>CH3_CTR<dd><dt>CH3_CC<dd><dt>CH3_TOP<dd><dt>CH4_CSR<dd><dt>CH4_DIV<dd><dt>CH4_CTR<dd><dt>CH4_CC<dd><dt>CH4_TOP<dd><dt>CH5_CSR<dd><dt>CH5_DIV<dd><dt>CH5_CTR<dd><dt>CH5_CC<dd><dt>CH5_TOP<dd><dt>CH6_CSR<dd><dt>CH6_DIV<dd><dt>CH6_CTR<dd><dt>CH6_CC<dd><dt>CH6_TOP<dd><dt>CH7_CSR<dd><dt>CH7_DIV<dd><dt>CH7_CTR<dd><dt>CH7_CC<dd><dt>CH7_TOP<dd><dt>EN<dd><dt>INTR<dd><dt>INTE<dd><dt>INTF<dd><dt>INTS<dd></dl>

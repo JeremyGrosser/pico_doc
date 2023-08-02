@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>Cortex_M.Cache</h1><h2>Entities</h2><h3>Subprograms</h3><ul><li><a href=#266c8fb4c29fc71ff43995c8632c78b896bc2adfd4e59b637250b9e64eb0e4de>Clean_DCache</a><li><a href=#76274cbc02f9672a7a6558650d64f36ef17b940010fc1f36176bc2ee71b564ad>Clean_Invalidate_DCache</a><li><a href=#2f9a592bc29434136a80cafd4827d91f1ec332dc58b30e3d9455efae955af3c6>D_Cache_Enabled</a><li><a href=#fb0986a3f67fdc6a24418124e71bd71ddd602ad80a434d8622cdd024f85cc888>Disable_D_Cache</a><li><a href=#29aa1803a75a7df5c17f25afae79cfdb12470e701c7d6b4f5a3614233d36126d>Disable_I_Cache</a><li><a href=#81f574b4d4d9a69702aba26168da5f3075aba7b6ae8777ae0f45d7c5fabf9859>Enable_D_Cache</a><li><a href=#7b7e7fd7bedd450798dc0d1a0315d9c9ee1dce1bd08c7d60de36c2cc99900b6b>Enable_I_Cache</a><li><a href=#3800a7d379e162cd5785c2d0b6df1a43dbb5bdda4c46c6c704033c2d1ef379fb>I_Cache_Enabled</a><li><a href=#1da29422fbb43db18e9b9042ddd76d6e7d5051621c3b823803430bc9fcdfb7e0>Invalidate_DCache</a></ul><h2>Description</h2><p>This file provides subprograms necessary to handle the cache on the Cortex-M7 family of CPU.<h4 id=266c8fb4c29fc71ff43995c8632c78b896bc2adfd4e59b637250b9e64eb0e4de>Clean_DCache</h4><pre class=ada-code-snippet><code>procedure Clean_DCache
+  (Start : System.Address;
+   Len   : Natural)
+</code></pre><p>This ensures that the data cache region do not contain any "dirty" data, which is data that has been modified by the CPU but has not been synchronized yet with the main memory. This make sure that any peripheral accessing the region will see the updated data.<h5>Parameters</h5><dl><dt>Start<dd><dt>Len<dd></dl><h4 id=76274cbc02f9672a7a6558650d64f36ef17b940010fc1f36176bc2ee71b564ad>Clean_Invalidate_DCache</h4><pre class=ada-code-snippet><code>procedure Clean_Invalidate_DCache
+  (Start : System.Address;
+   Len   : Natural)
+</code></pre><p>Performs both clean and invalidate operations.<h5>Parameters</h5><dl><dt>Start<dd><dt>Len<dd></dl><h4 id=2f9a592bc29434136a80cafd4827d91f1ec332dc58b30e3d9455efae955af3c6>D_Cache_Enabled</h4><pre class=ada-code-snippet><code>function D_Cache_Enabled return Boolean
+</code></pre><h5>Return Value</h5><dl><dd></dl><h4 id=fb0986a3f67fdc6a24418124e71bd71ddd602ad80a434d8622cdd024f85cc888>Disable_D_Cache</h4><pre class=ada-code-snippet><code>procedure Disable_D_Cache
+</code></pre><h4 id=29aa1803a75a7df5c17f25afae79cfdb12470e701c7d6b4f5a3614233d36126d>Disable_I_Cache</h4><pre class=ada-code-snippet><code>procedure Disable_I_Cache
+</code></pre><h4 id=81f574b4d4d9a69702aba26168da5f3075aba7b6ae8777ae0f45d7c5fabf9859>Enable_D_Cache</h4><pre class=ada-code-snippet><code>procedure Enable_D_Cache
+</code></pre><h4 id=7b7e7fd7bedd450798dc0d1a0315d9c9ee1dce1bd08c7d60de36c2cc99900b6b>Enable_I_Cache</h4><pre class=ada-code-snippet><code>procedure Enable_I_Cache
+</code></pre><h4 id=3800a7d379e162cd5785c2d0b6df1a43dbb5bdda4c46c6c704033c2d1ef379fb>I_Cache_Enabled</h4><pre class=ada-code-snippet><code>function I_Cache_Enabled return Boolean
+</code></pre><h5>Return Value</h5><dl><dd></dl><h4 id=1da29422fbb43db18e9b9042ddd76d6e7d5051621c3b823803430bc9fcdfb7e0>Invalidate_DCache</h4><pre class=ada-code-snippet><code>procedure Invalidate_DCache
+  (Start : System.Address;
+   Len   : Natural)
+</code></pre><p>Invalidates the Data Cache for the specified region. Note that if the cache is dirty (e.g. contains updated data that has not been synchronized with the main memory), then such data will be lost. Calling this subprogram ensures that the main memory will be read instead of values from the cache.<h5>Parameters</h5><dl><dt>Start<dd><dt>Len<dd></dl>

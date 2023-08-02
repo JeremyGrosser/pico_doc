@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>HAL.DSI</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#6068ea271f43036183f301a5f1de224061372be4c64413b759e1c316c63701ec>DSI_Pkt_Data_Type</a></ul><h3>Array Types</h3><ul><li><a href=#126a552c70edab79dcb841e0bd77659dda90ff80dd8b0506d1c49707852391b0>DSI_Data</a></ul><h3>Interface Types</h3><ul><li><a href=#9e313fa93656af795e5378175eeb2bf320975b17d57bb36ec74db64a6f5d178b>DSI_Port</a></ul><h3>Access Types</h3><ul><li><a href=#629b0d42653b72ad13b4f23c6aac1eba7f4e775a51fffe9632ad82cc7ba8c2f0>Any_DSI_Port</a></ul><h3>Subtypes</h3><ul><li><a href=#856f121a53f97d2725543fbd9a00a055e3ba083ec9c598712730edc77860184a>DSI_Long_Write_Packet_Data_Type</a><li><a href=#60bbe103c49ba0d67e79f8545f8ab891b178788cac274cbe12a5aa39cee101bb>DSI_Short_Write_Packet_Data_Type</a><li><a href=#daf86f98ee0f8b9c2cf8243078faeb7f0b6102ec0bc6611105a54e226fb483d8>DSI_Virtual_Channel_ID</a></ul><h3>Subprograms</h3><ul><li><a href=#759d937fc7b78a0dc71f1647fa1118e03e4619a410ae305c3a5ea5ee5ffda689>DSI_Long_Write</a><li><a href=#f9cfb0a4648ba124d2b97e4100e04fd56ee5bc60542a3b64b2e0886c7efe63ae>DSI_Short_Write</a></ul><h2>Description</h2><p>Display Serial Interface<h4 id=629b0d42653b72ad13b4f23c6aac1eba7f4e775a51fffe9632ad82cc7ba8c2f0>Any_DSI_Port</h4><pre class=ada-code-snippet><code>type Any_DSI_Port is access all DSI_Port'Class;
+</code></pre><h4 id=126a552c70edab79dcb841e0bd77659dda90ff80dd8b0506d1c49707852391b0>DSI_Data</h4><pre class=ada-code-snippet><code>type DSI_Data is array (Positive range &lt;>) of UInt8;
+</code></pre><h4 id=759d937fc7b78a0dc71f1647fa1118e03e4619a410ae305c3a5ea5ee5ffda689>DSI_Long_Write</h4><pre class=ada-code-snippet><code>procedure DSI_Long_Write
+  (Port       : in out DSI_Port;
+   Channel_Id : DSI_Virtual_Channel_ID;
+   Mode       : DSI_Long_Write_Packet_Data_Type;
+   Param1     : UInt8;
+   Parameters : DSI_Data)
+</code></pre><h5>Parameters</h5><dl><dt>Port<dd><dt>Channel_Id<dd><dt>Mode<dd><dt>Param1<dd><dt>Parameters<dd></dl><h4 id=856f121a53f97d2725543fbd9a00a055e3ba083ec9c598712730edc77860184a>DSI_Long_Write_Packet_Data_Type</h4><pre class=ada-code-snippet><code>subtype DSI_Long_Write_Packet_Data_Type is DSI_Pkt_Data_Type range
+  DCS_Long_Pkt_Write .. Gen_Long_Pkt_Write;
+</code></pre><h4 id=6068ea271f43036183f301a5f1de224061372be4c64413b759e1c316c63701ec>DSI_Pkt_Data_Type</h4><pre class=ada-code-snippet><code>type DSI_Pkt_Data_Type is
+  (DCS_Short_Pkt_Write_P0,
+   DCS_Short_Pkt_Write_P1,
+   Gen_Short_Pkt_Write_P0,
+   Gen_Short_Pkt_Write_P1,
+   Gen_Short_Pkt_Write_P2,
+   DCS_Long_Pkt_Write,
+   Gen_Long_Pkt_Write,
+   DCS_Short_Pkt_Read,
+   Gen_Short_Pkg_Read_P0,
+   Gen_Short_Pkg_Read_P1,
+   Gen_Short_Pkg_Read_P2);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>DCS_Short_Pkt_Write_P0<dd><p>DCS Short write, no parameter<dt>DCS_Short_Pkt_Write_P1<dd><p>DCS Short write, one parameter<dt>Gen_Short_Pkt_Write_P0<dd><p>Generic Short write, no parameter<dt>Gen_Short_Pkt_Write_P1<dd><p>Generic Short write, one parameter<dt>Gen_Short_Pkt_Write_P2<dd><p>Generic Short write, two parameters<dt>DCS_Long_Pkt_Write<dd><p>DCS Long write<dt>Gen_Long_Pkt_Write<dd><p>Generic Long write<dt>DCS_Short_Pkt_Read<dd><p>DCS Short read<dt>Gen_Short_Pkg_Read_P0<dd><p>Gen read, no parameter<dt>Gen_Short_Pkg_Read_P1<dd><p>Gen read, one parameter<dt>Gen_Short_Pkg_Read_P2<dd><p>Gen read, two parameter</dl><h4 id=9e313fa93656af795e5378175eeb2bf320975b17d57bb36ec74db64a6f5d178b>DSI_Port</h4><pre class=ada-code-snippet><code>type DSI_Port is limited interface;
+</code></pre><h4 id=f9cfb0a4648ba124d2b97e4100e04fd56ee5bc60542a3b64b2e0886c7efe63ae>DSI_Short_Write</h4><pre class=ada-code-snippet><code>procedure DSI_Short_Write
+  (Port       : in out DSI_Port;
+   Channel_ID : DSI_Virtual_Channel_ID;
+   Mode       : DSI_Short_Write_Packet_Data_Type;
+   Param1     : UInt8;
+   Param2     : UInt8)
+</code></pre><h5>Parameters</h5><dl><dt>Port<dd><dt>Channel_ID<dd><dt>Mode<dd><dt>Param1<dd><dt>Param2<dd></dl><h4 id=60bbe103c49ba0d67e79f8545f8ab891b178788cac274cbe12a5aa39cee101bb>DSI_Short_Write_Packet_Data_Type</h4><pre class=ada-code-snippet><code>subtype DSI_Short_Write_Packet_Data_Type is DSI_Pkt_Data_Type range
+  DCS_Short_Pkt_Write_P0 .. Gen_Short_Pkt_Write_P2;
+</code></pre><h4 id=daf86f98ee0f8b9c2cf8243078faeb7f0b6102ec0bc6611105a54e226fb483d8>DSI_Virtual_Channel_ID</h4><pre class=ada-code-snippet><code>subtype DSI_Virtual_Channel_ID is UInt2;
+</code></pre>

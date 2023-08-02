@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>Semihosting.Filesystem</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#debff00b0722fc2ad06f1812a56324eb3c21d65064897f4b8e116783648615fe>File_Kind</a></ul><h3>Tagged Types</h3><ul><li><a href=#c63e5ccd9bdf9d1e98654992256a3b4726bed1d31f388b5e2f307018cb38c955>SHFS</a></ul><h3>Access Types</h3><ul><li><a href=#a08050bfd31478c8ff6028658bf6038babfd12ca0ef8ef6e19335b05f4e94207>Any_SHFS</a></ul><h3>Subprograms</h3><ul><li><a href=#3f8d82601628389d534a0964ac6b59275958e1f2a7d91d215f30c8fe0eb7516d>Close</a><li><a href=#072b90b82df26523d77e79f2202aaed0b3e2f3bc3477c551c675c862874f28a1>Create_Directory</a><li><a href=#b61704ecfe01133100819869302ce24a6d4dffe3892ed0475497661ae71225c8>Create_File</a><li><a href=#477ca3bf8926b41a9d643aa47ff41447dd1f8f4dcfdcb2de473d7431c69f4e42>Create_Node</a><li><a href=#874a6346ddc7cc8637966548e0c2cec7a5a4ff76747aab2e73e7b29b574c9ce6>Open</a><li><a href=#090d41f26df7937acfef2d0465c95e04e5db18bacb8c9b294118e4ac4dccba14>Open</a><li><a href=#19e2eaafd45a5b59dbba731650feee5c943635ba981bae0a6876bf89cd7f3502>Remove_Directory</a><li><a href=#5e18bd30a736a362aa185d1238fe1551acf25b850145631c24a8fff3baf6d73e>Rename</a><li><a href=#5a457ead0115931f2b518afe3a2682eda4c74ed556fadbd8987d65eee3b9ed00>Root_Node</a><li><a href=#118391e2ff0695750f7452f37421d8cc8c96db0d6c3856a0dd260ebc357d87b1>Truncate_File</a><li><a href=#0a94b5b8ec8a74e43e2aaae4a2bbead834f1b6fc800e333a601692f137bb2faa>Unlink</a></ul><h2>Description</h2><p>This package use the ARM semihosting feature to provide a low level driver to access the host file system. It is recommended to _not_ use this interface directly but to access the file system using the File_IO package. For more info, see the file system chapter of the documentation.<h4 id=a08050bfd31478c8ff6028658bf6038babfd12ca0ef8ef6e19335b05f4e94207>Any_SHFS</h4><pre class=ada-code-snippet><code>type Any_SHFS is access all SHFS'Class;
+</code></pre><h4 id=3f8d82601628389d534a0964ac6b59275958e1f2a7d91d215f30c8fe0eb7516d>Close</h4><pre class=ada-code-snippet><code>procedure Close (This : in out SHFS)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=072b90b82df26523d77e79f2202aaed0b3e2f3bc3477c551c675c862874f28a1>Create_Directory</h4><pre class=ada-code-snippet><code>function Create_Directory (This : in out SHFS;
+                           Path : String)
+                           return Status_Code
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Path<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=b61704ecfe01133100819869302ce24a6d4dffe3892ed0475497661ae71225c8>Create_File</h4><pre class=ada-code-snippet><code>function Create_File (This : in out SHFS;
+                      Path : String)
+                      return Status_Code
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Path<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=477ca3bf8926b41a9d643aa47ff41447dd1f8f4dcfdcb2de473d7431c69f4e42>Create_Node</h4><pre class=ada-code-snippet><code>function Create_Node (This : in out SHFS;
+                      Path : String;
+                      Kind : File_Kind)
+                      return Status_Code
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Path<dd><dt>Kind<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=debff00b0722fc2ad06f1812a56324eb3c21d65064897f4b8e116783648615fe>File_Kind</h4><pre class=ada-code-snippet><code>type File_Kind is (Regular_File, Directory);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Regular_File<dd><dt>Directory<dd></dl><h4 id=874a6346ddc7cc8637966548e0c2cec7a5a4ff76747aab2e73e7b29b574c9ce6>Open</h4><pre class=ada-code-snippet><code>function Open (This   : in out SHFS;
+               Path   : String;
+               Handle : out Any_Directory_Handle)
+               return Status_Code
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Path<dd><dt>Handle<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=090d41f26df7937acfef2d0465c95e04e5db18bacb8c9b294118e4ac4dccba14>Open</h4><pre class=ada-code-snippet><code>function Open (This    : in out SHFS;
+               Path    : String;
+               Mode    : File_Mode;
+               Handler : out Any_File_Handle)
+               return Status_Code
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Path<dd><dt>Mode<dd><dt>Handler<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=19e2eaafd45a5b59dbba731650feee5c943635ba981bae0a6876bf89cd7f3502>Remove_Directory</h4><pre class=ada-code-snippet><code>function Remove_Directory (This : in out SHFS;
+                           Path : String)
+                           return Status_Code
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Path<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=5e18bd30a736a362aa185d1238fe1551acf25b850145631c24a8fff3baf6d73e>Rename</h4><pre class=ada-code-snippet><code>function Rename (This : in out SHFS;
+                 Old_Path : String;
+                 New_Path : String)
+                 return Status_Code
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Old_Path<dd><dt>New_Path<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=5a457ead0115931f2b518afe3a2682eda4c74ed556fadbd8987d65eee3b9ed00>Root_Node</h4><pre class=ada-code-snippet><code>function Root_Node
+  (This   : in out SHFS;
+   As     : String;
+   Handle : out Any_Node_Handle)
+   return Status_Code
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>As<dd><dt>Handle<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=c63e5ccd9bdf9d1e98654992256a3b4726bed1d31f388b5e2f307018cb38c955>SHFS</h4><pre class=ada-code-snippet><code>type SHFS is new HAL.Filesystem.Filesystem_Driver with private;
+</code></pre><h4 id=118391e2ff0695750f7452f37421d8cc8c96db0d6c3856a0dd260ebc357d87b1>Truncate_File</h4><pre class=ada-code-snippet><code>function Truncate_File (This   : in out SHFS;
+                        Path   : String;
+                        Length : File_Size)
+                        return Status_Code
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Path<dd><dt>Length<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=0a94b5b8ec8a74e43e2aaae4a2bbead834f1b6fc800e333a601692f137bb2faa>Unlink</h4><pre class=ada-code-snippet><code>function Unlink (This : in out SHFS;
+                 Path : String)
+                 return Status_Code
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Path<dd></dl><h5>Return Value</h5><dl><dd></dl>

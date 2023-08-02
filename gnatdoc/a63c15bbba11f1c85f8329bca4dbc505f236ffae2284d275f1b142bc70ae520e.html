@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.I2C_Master</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#977810206e4307e8f0126641cb31c02522b93f4125870368ca5b69d9f01dcd57>I2C_Address_Size</a></ul><h3>Tagged Types</h3><ul><li><a href=#274e838184cbd58db3807eb309c2399f46ead01f725ad9c613e91ff8b71ba1b2>I2C_Master_Port</a></ul><h3>Subtypes</h3><ul><li><a href=#de3c5cf8919fe63c2cf3ddb58c593430c53fe82b1dfb4aa145d987c5155af61c>I2C_Number</a></ul><h3>Subprograms</h3><ul><li><a href=#137e1050e074c98c48cb428a34b75cd25bde26b5831add2ec23751100524b981>Configure</a><li><a href=#fefc0096ce684d8fed2a4e53ad4d286ae3b0ffead428250a921084e541e18caf>Master_Receive</a><li><a href=#99c1837109cd02f71d38014ef473d552f1812805cac9c2f7d22362461accb8a8>Master_Transmit</a><li><a href=#6d511bc1670e5206bbdc89a0fd3476a0fba7efffc7666598219988cc8c8206a3>Mem_Read</a><li><a href=#549defe872d899d154997825c828c993ef9747b52034e423149491c38bf38172>Mem_Write</a></ul><h2>Description</h2><h4 id=137e1050e074c98c48cb428a34b75cd25bde26b5831add2ec23751100524b981>Configure</h4><pre class=ada-code-snippet><code>procedure Configure
+   (This         : in out I2C_Master_Port;
+    Baudrate     : Hertz;
+    Address_Size : I2C_Address_Size := Address_Size_7b)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Baudrate<dd><dt>Address_Size<dd></dl><h4 id=977810206e4307e8f0126641cb31c02522b93f4125870368ca5b69d9f01dcd57>I2C_Address_Size</h4><pre class=ada-code-snippet><code>type I2C_Address_Size is (Address_Size_7b, Address_Size_10b);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Address_Size_7b<dd><dt>Address_Size_10b<dd></dl><h4 id=274e838184cbd58db3807eb309c2399f46ead01f725ad9c613e91ff8b71ba1b2>I2C_Master_Port</h4><pre class=ada-code-snippet><code>type I2C_Master_Port
+   (Num    : I2C_Number;
+    Periph : not null access RP2040_SVD.I2C.I2C_Peripheral)
+is new HAL.I2C.I2C_Port with private;
+</code></pre><h4 id=de3c5cf8919fe63c2cf3ddb58c593430c53fe82b1dfb4aa145d987c5155af61c>I2C_Number</h4><pre class=ada-code-snippet><code>subtype I2C_Number is Natural range 0 .. 1;
+</code></pre><h4 id=fefc0096ce684d8fed2a4e53ad4d286ae3b0ffead428250a921084e541e18caf>Master_Receive</h4><pre class=ada-code-snippet><code>procedure Master_Receive
+  (This    : in out I2C_Master_Port;
+   Addr    : HAL.I2C.I2C_Address;
+   Data    : out HAL.I2C.I2C_Data;
+   Status  : out HAL.I2C.I2C_Status;
+   Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Addr<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=99c1837109cd02f71d38014ef473d552f1812805cac9c2f7d22362461accb8a8>Master_Transmit</h4><pre class=ada-code-snippet><code>procedure Master_Transmit
+  (This    : in out I2C_Master_Port;
+   Addr    : HAL.I2C.I2C_Address;
+   Data    : HAL.I2C.I2C_Data;
+   Status  : out HAL.I2C.I2C_Status;
+   Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Addr<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=6d511bc1670e5206bbdc89a0fd3476a0fba7efffc7666598219988cc8c8206a3>Mem_Read</h4><pre class=ada-code-snippet><code>procedure Mem_Read
+  (This          : in out I2C_Master_Port;
+   Addr          : HAL.I2C.I2C_Address;
+   Mem_Addr      : HAL.UInt16;
+   Mem_Addr_Size : HAL.I2C.I2C_Memory_Address_Size;
+   Data          : out HAL.I2C.I2C_Data;
+   Status        : out HAL.I2C.I2C_Status;
+   Timeout       : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Addr<dd><dt>Mem_Addr<dd><dt>Mem_Addr_Size<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=549defe872d899d154997825c828c993ef9747b52034e423149491c38bf38172>Mem_Write</h4><pre class=ada-code-snippet><code>procedure Mem_Write
+  (This          : in out I2C_Master_Port;
+   Addr          : HAL.I2C.I2C_Address;
+   Mem_Addr      : HAL.UInt16;
+   Mem_Addr_Size : HAL.I2C.I2C_Memory_Address_Size;
+   Data          : HAL.I2C.I2C_Data;
+   Status        : out HAL.I2C.I2C_Status;
+   Timeout       : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Addr<dd><dt>Mem_Addr<dd><dt>Mem_Addr_Size<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.Flash</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#2f7214b1784e31f8862e01c344a9868d1611d831dcce645eeaf4efcefc5c878f>Flash_Offset</a></ul><h3>Constants</h3><ul><li><a href=#380c08b6338d5d9b5accd6166bd04b33aea72b6af3d233975101502dfab772d9>Flash_Size</a><li><a href=#69e45724424c9a860bada9e9071dad680436e5876e1640fb5ecc4c46df7bf318>Page_Size</a><li><a href=#806d327465320eb6a3351f05a02fca4f8499698a36fdc07420698f61e79d5ec1>Sector_Size</a></ul><h3>Subprograms</h3><ul><li><a href=#9cdc2b8861d5bc52dedf6d59ccb65a6446d33d63cfdda5f4eca3ed7637a0be81>Erase</a><li><a href=#8074c0022997f7db6a3554cec020a0b54a44c7339cba1ab99b58ed8a3a769654>In_Flash</a><li><a href=#b00bfaea7c83429fd505757721be82188ad556d627d081f19dfec50ea8aafdf5>Program</a><li><a href=#2dec739f62fb97f2d50887be8fe403f30bb04b1ac00fb489ee525ebee4ea9f3a>To_Address</a><li><a href=#f8461f48f5d310893994092de74205c3bbe4de41f04d4301e3e869855844e7eb>To_Flash_Offset</a><li><a href=#04ff1c10a038825e3fe20c17ed55529f17f289aa04f04a3f9ccfd6c655ac5a09>Unique_Id</a></ul><h2>Description</h2><h4 id=9cdc2b8861d5bc52dedf6d59ccb65a6446d33d63cfdda5f4eca3ed7637a0be81>Erase</h4><pre class=ada-code-snippet><code>procedure Erase
+   (Offset : Flash_Offset;
+    Length : Natural)
+</code></pre><p>Erase Length bytes of flash starting at Offset bytes from the beginning of flash. Length and Offset must be multiples of 4096.<h5>Parameters</h5><dl><dt>Offset<dd><dt>Length<dd></dl><h4 id=2f7214b1784e31f8862e01c344a9868d1611d831dcce645eeaf4efcefc5c878f>Flash_Offset</h4><pre class=ada-code-snippet><code>type Flash_Offset is range 0 .. Flash_Size;
+</code></pre><h4 id=380c08b6338d5d9b5accd6166bd04b33aea72b6af3d233975101502dfab772d9>Flash_Size</h4><pre class=ada-code-snippet><code>Flash_Size  : constant := 16 * 1024 * 1024;
+</code></pre><p>XIP maps up to 16 MB of flash. Actual flash chip may be smaller.<h4 id=8074c0022997f7db6a3554cec020a0b54a44c7339cba1ab99b58ed8a3a769654>In_Flash</h4><pre class=ada-code-snippet><code>function In_Flash
+   (Addr : System.Address)
+   return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>Addr<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=69e45724424c9a860bada9e9071dad680436e5876e1640fb5ecc4c46df7bf318>Page_Size</h4><pre class=ada-code-snippet><code>Page_Size   : constant := 256;
+</code></pre><h4 id=b00bfaea7c83429fd505757721be82188ad556d627d081f19dfec50ea8aafdf5>Program</h4><pre class=ada-code-snippet><code>procedure Program
+   (Offset : Flash_Offset;
+    Source : System.Address;
+    Length : Natural)
+</code></pre><p>Program Length bytes of flash starting at Offset bytes from the beginning of flash using the Source buffer. Length must be a multiple of 256.<h5>Parameters</h5><dl><dt>Offset<dd><dt>Source<dd><dt>Length<dd></dl><h4 id=806d327465320eb6a3351f05a02fca4f8499698a36fdc07420698f61e79d5ec1>Sector_Size</h4><pre class=ada-code-snippet><code>Sector_Size : constant := 4096;
+</code></pre><h4 id=2dec739f62fb97f2d50887be8fe403f30bb04b1ac00fb489ee525ebee4ea9f3a>To_Address</h4><pre class=ada-code-snippet><code>function To_Address
+   (Offset : Flash_Offset)
+   return System.Address
+</code></pre><h5>Parameters</h5><dl><dt>Offset<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=f8461f48f5d310893994092de74205c3bbe4de41f04d4301e3e869855844e7eb>To_Flash_Offset</h4><pre class=ada-code-snippet><code>function To_Flash_Offset
+   (Addr : System.Address)
+   return Flash_Offset
+</code></pre><h5>Parameters</h5><dl><dt>Addr<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=04ff1c10a038825e3fe20c17ed55529f17f289aa04f04a3f9ccfd6c655ac5a09>Unique_Id</h4><pre class=ada-code-snippet><code>function Unique_Id
+   return UInt64
+</code></pre><p>Read the Unique Id (4Bh) from the flash chip<h5>Return Value</h5><dl><dd></dl>

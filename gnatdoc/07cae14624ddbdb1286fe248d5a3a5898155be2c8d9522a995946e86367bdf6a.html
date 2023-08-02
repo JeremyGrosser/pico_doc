@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>HAL.SPI</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#9db430e600aa709959ad3b1b642bbda76362ff37c24307886de9a8e39b6e1e09>SPI_Data_Size</a><li><a href=#c31e93fdc679a5becd10d4f091fbf59c231e09655836692584687255966ad06b>SPI_Status</a></ul><h3>Array Types</h3><ul><li><a href=#c354da408d37ad24d8e290eedb1aad49fd9d400fc362d42fa5f386ad3ea88825>SPI_Data_16b</a><li><a href=#2cbf040a27842fdc18313fce174772b19a18dbd4af8fedd0e3700956ac9ed7e5>SPI_Data_8b</a></ul><h3>Interface Types</h3><ul><li><a href=#639ebc75e246a0f9e31cb24839da86de481be8a776b0ce5f75f6300258288914>SPI_Port</a></ul><h3>Access Types</h3><ul><li><a href=#70acc363eb2933fda43fbb71008768182ea09d11927f1445a5456a0a48356552>Any_SPI_Port</a></ul><h3>Subprograms</h3><ul><li><a href=#1db7bcbb0efa010f3564ee3f38aa0646f363770c1aaba71960dee03e39b488e2>Data_Size</a><li><a href=#872b8f6af259706cacd036a094127842dc5c98567cd66fe0fb482dce57801433>Receive</a><li><a href=#0df67649d0513c74228808064661a1cc002bf162d2b86a4dce6f3015546cd799>Receive</a><li><a href=#e830a403db4256e0644937abda9f5061f7d2423f1b94809fb76f895f0b9f182d>Transmit</a><li><a href=#fab5cdd076faf1d2eceb280d4fd5112103389fd9dfd8d30c802bf96aa8d26bc9>Transmit</a></ul><h2>Description</h2><p>---------------------------------------------------------------------------- -- Copyright (C) 2015-2016, AdaCore -- -- Redistribution and use in source and binary forms, with or without -- modification, are permitted provided that the following conditions are -- met: -- 1. Redistributions of source code must retain the above copyright -- notice, this list of conditions and the following disclaimer. -- 2. Redistributions in binary form must reproduce the above copyright -- notice, this list of conditions and the following disclaimer in -- the documentation and/or other materials provided with the -- distribution. -- 3. Neither the name of the copyright holder nor the names of its -- contributors may be used to endorse or promote products derived -- from this software without specific prior written permission. -- -- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS -- "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT -- LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR -- A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT -- HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, -- SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT -- LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, -- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY -- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT -- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE -- OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -- -- ----------------------------------------------------------------------------<h4 id=70acc363eb2933fda43fbb71008768182ea09d11927f1445a5456a0a48356552>Any_SPI_Port</h4><pre class=ada-code-snippet><code>type Any_SPI_Port is access all SPI_Port'Class;
+</code></pre><h4 id=1db7bcbb0efa010f3564ee3f38aa0646f363770c1aaba71960dee03e39b488e2>Data_Size</h4><pre class=ada-code-snippet><code>function Data_Size (This : SPI_Port) return SPI_Data_Size
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=872b8f6af259706cacd036a094127842dc5c98567cd66fe0fb482dce57801433>Receive</h4><pre class=ada-code-snippet><code>procedure Receive
+  (This    : in out SPI_Port;
+   Data    : out SPI_Data_16b;
+   Status  : out SPI_Status;
+   Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=0df67649d0513c74228808064661a1cc002bf162d2b86a4dce6f3015546cd799>Receive</h4><pre class=ada-code-snippet><code>procedure Receive
+  (This    : in out SPI_Port;
+   Data    : out SPI_Data_8b;
+   Status  : out SPI_Status;
+   Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=c354da408d37ad24d8e290eedb1aad49fd9d400fc362d42fa5f386ad3ea88825>SPI_Data_16b</h4><pre class=ada-code-snippet><code>type SPI_Data_16b is array (Natural range &lt;>) of UInt16;
+</code></pre><h4 id=2cbf040a27842fdc18313fce174772b19a18dbd4af8fedd0e3700956ac9ed7e5>SPI_Data_8b</h4><pre class=ada-code-snippet><code>type SPI_Data_8b is array (Natural range &lt;>) of UInt8;
+</code></pre><h4 id=9db430e600aa709959ad3b1b642bbda76362ff37c24307886de9a8e39b6e1e09>SPI_Data_Size</h4><pre class=ada-code-snippet><code>type SPI_Data_Size is
+  (Data_Size_8b,
+   Data_Size_16b);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Data_Size_8b<dd><dt>Data_Size_16b<dd></dl><h4 id=639ebc75e246a0f9e31cb24839da86de481be8a776b0ce5f75f6300258288914>SPI_Port</h4><pre class=ada-code-snippet><code>type SPI_Port is limited interface;
+</code></pre><h4 id=c31e93fdc679a5becd10d4f091fbf59c231e09655836692584687255966ad06b>SPI_Status</h4><pre class=ada-code-snippet><code>type SPI_Status is
+  (Ok,
+   Err_Error,
+   Err_Timeout,
+   Busy);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Ok<dd><dt>Err_Error<dd><dt>Err_Timeout<dd><dt>Busy<dd></dl><h4 id=e830a403db4256e0644937abda9f5061f7d2423f1b94809fb76f895f0b9f182d>Transmit</h4><pre class=ada-code-snippet><code>procedure Transmit
+  (This    : in out SPI_Port;
+   Data    : SPI_Data_16b;
+   Status  : out SPI_Status;
+   Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=fab5cdd076faf1d2eceb280d4fd5112103389fd9dfd8d30c802bf96aa8d26bc9>Transmit</h4><pre class=ada-code-snippet><code>procedure Transmit
+  (This    : in out SPI_Port;
+   Data    : SPI_Data_8b;
+   Status  : out SPI_Status;
+   Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl>

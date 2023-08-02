@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.ROSC</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#0beb9ded05f3ebbdef431157d8398553995f4d5cc5e1fe1a8a2533254f952b8f>CTRL_ENABLE_Field</a><li><a href=#8ebe99704dbde54236136ac97862d62e6a5871c17a62c86b766a79b310da76e3>CTRL_FREQ_RANGE_Field</a><li><a href=#1c208d3ffac627781a9f1b1bf469adc844bca2959d1e21537d970e7e32419d20>DIV_DIV_Field</a><li><a href=#9d3b274773866ab8ceef84c366fa6883527c66f55f6eee0cd8617ff3dabb888d>FREQA_PASSWD_Field</a><li><a href=#6ca47be1d1bc0e8a1038990e0dea23bb5f6df580c85c959d604664144e46a699>FREQB_PASSWD_Field</a></ul><h3>Record Types</h3><ul><li><a href=#e7bb158698cc871d4dede04c124556b9d3a180f917b498ab6581c98fca9e0d50>COUNT_Register</a><li><a href=#e40d8836048efc223dc1da826a70e3861910e02162e756373f2adf5a1693c03f>CTRL_Register</a><li><a href=#dd06eac7d6db43eeae074aa95b753cd7e48abbd0be500cca043b44e39b239e2e>DIV_Register</a><li><a href=#3d23129b4efcc24455baa6653d09c4cf6c32777c8459333bdedd7bbfc41355e6>FREQA_Register</a><li><a href=#51fb7ba2bf613dde8b34d7ba23c6ca6b1fa490b5be2e3bc37b0a043923465ddd>FREQB_Register</a><li><a href=#d12047b54ee084bc7c3bddf6d9d46d56295402f25246e0cdc3473e8aaa54588f>PHASE_Register</a><li><a href=#7acef89c7f90da47a51c8b3e883ef5efee1f23340d8952f4afc42d0a3ba3eecb>RANDOMBIT_Register</a><li><a href=#5611e4b43e1d55bd995fd06bcc46c85d62712f469d49840bf46a341e216275e5>ROSC_Peripheral</a><li><a href=#e0923a43967320e6291743f3b8f24b91649578d6671b59ed7eae8a3aeedd8121>STATUS_Register</a></ul><h3>Subtypes</h3><ul><li><a href=#f086b8f37897f120a7f2d6a3dd98b0bc4fe54c6535774b78fb8976c900b6b975>COUNT_COUNT_Field</a><li><a href=#ff4f172a2ecfcc61aa97f21dffd8ffd458206dbec7e00952edaff5c448665af2>FREQA_DS0_Field</a><li><a href=#3c1c9221002a2c657af670fa67f5a6db11589465c949269f8a74fb9eb0800359>FREQA_DS1_Field</a><li><a href=#677e41512d4a4e8c2358a5f7ee71716826d1e5820f191c166b860923a3fb4768>FREQA_DS2_Field</a><li><a href=#e33e8f3f2f9116350c1c651f9369bcd4fea3d17219fe24cefb587c4cdc4c879e>FREQA_DS3_Field</a><li><a href=#dfd6dfb8fd9ce83e164c1fe8e5e8a0d50e0c0baef3378401f5720221f733fe1b>FREQB_DS4_Field</a><li><a href=#7747ca3b5ee18a8988f7a7a18f9ce60258385873164ec2c8fd1bc67a49a27a07>FREQB_DS5_Field</a><li><a href=#a2d5ec8b01eec734bdf207e9f4e995913201fc2250efbf1ee4385e9c455f8748>FREQB_DS6_Field</a><li><a href=#df5af9c1d9ecd2b687312985fa7f5847a6828fadd4bf195be0642d4371714668>FREQB_DS7_Field</a><li><a href=#cf533167a4f441eb065be1700d9a95c70dc8033ea2301fdff3299639a4f28a8f>PHASE_PASSWD_Field</a><li><a href=#7e282df14d47758d5532b0a115bbab91f82bb660465b6a9f54fe69ba4526068b>PHASE_SHIFT_Field</a></ul><h3>Variables</h3><ul><li><a href=#8ff6a277bd0899afc06c0a508592b13153ace2650ef770949f3d19c7ccff4020>ROSC_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=f086b8f37897f120a7f2d6a3dd98b0bc4fe54c6535774b78fb8976c900b6b975>COUNT_COUNT_Field</h4><pre class=ada-code-snippet><code>subtype COUNT_COUNT_Field is HAL.UInt8;
+</code></pre><h4 id=e7bb158698cc871d4dede04c124556b9d3a180f917b498ab6581c98fca9e0d50>COUNT_Register</h4><pre class=ada-code-snippet><code>type COUNT_Register is record
+   COUNT         : COUNT_COUNT_Field := 16#0#;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>COUNT<dd><dt>Reserved_8_31<dd></dl><h4 id=0beb9ded05f3ebbdef431157d8398553995f4d5cc5e1fe1a8a2533254f952b8f>CTRL_ENABLE_Field</h4><pre class=ada-code-snippet><code>type CTRL_ENABLE_Field is
+   CTRL_ENABLE_Field_Reset,
+   DISABLE,
+   ENABLE)
+  with Size => 12;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>CTRL_ENABLE_Field_Reset<dd><dt>DISABLE<dd><dt>ENABLE<dd></dl><h4 id=8ebe99704dbde54236136ac97862d62e6a5871c17a62c86b766a79b310da76e3>CTRL_FREQ_RANGE_Field</h4><pre class=ada-code-snippet><code>type CTRL_FREQ_RANGE_Field is
+   CTRL_FREQ_RANGE_Field_Reset,
+   LOW,
+   MEDIUM,
+   TOOHIGH,
+   HIGH)
+  with Size => 12;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>CTRL_FREQ_RANGE_Field_Reset<dd><dt>LOW<dd><dt>MEDIUM<dd><dt>TOOHIGH<dd><dt>HIGH<dd></dl><h4 id=e40d8836048efc223dc1da826a70e3861910e02162e756373f2adf5a1693c03f>CTRL_Register</h4><pre class=ada-code-snippet><code>type CTRL_Register is record
+   FREQ_RANGE     : CTRL_FREQ_RANGE_Field := CTRL_FREQ_RANGE_Field_Reset;
+   ENABLE         : CTRL_ENABLE_Field := CTRL_ENABLE_Field_Reset;
+   Reserved_24_31 : HAL.UInt8 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FREQ_RANGE<dd><dt>ENABLE<dd><dt>Reserved_24_31<dd></dl><h4 id=1c208d3ffac627781a9f1b1bf469adc844bca2959d1e21537d970e7e32419d20>DIV_DIV_Field</h4><pre class=ada-code-snippet><code>type DIV_DIV_Field is
+   DIV_DIV_Field_Reset,
+   PASS)
+  with Size => 12;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>DIV_DIV_Field_Reset<dd><dt>PASS<dd></dl><h4 id=dd06eac7d6db43eeae074aa95b753cd7e48abbd0be500cca043b44e39b239e2e>DIV_Register</h4><pre class=ada-code-snippet><code>type DIV_Register is record
+   DIV            : DIV_DIV_Field := DIV_DIV_Field_Reset;
+   Reserved_12_31 : HAL.UInt20 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>DIV<dd><dt>Reserved_12_31<dd></dl><h4 id=ff4f172a2ecfcc61aa97f21dffd8ffd458206dbec7e00952edaff5c448665af2>FREQA_DS0_Field</h4><pre class=ada-code-snippet><code>subtype FREQA_DS0_Field is HAL.UInt3;
+</code></pre><h4 id=3c1c9221002a2c657af670fa67f5a6db11589465c949269f8a74fb9eb0800359>FREQA_DS1_Field</h4><pre class=ada-code-snippet><code>subtype FREQA_DS1_Field is HAL.UInt3;
+</code></pre><h4 id=677e41512d4a4e8c2358a5f7ee71716826d1e5820f191c166b860923a3fb4768>FREQA_DS2_Field</h4><pre class=ada-code-snippet><code>subtype FREQA_DS2_Field is HAL.UInt3;
+</code></pre><h4 id=e33e8f3f2f9116350c1c651f9369bcd4fea3d17219fe24cefb587c4cdc4c879e>FREQA_DS3_Field</h4><pre class=ada-code-snippet><code>subtype FREQA_DS3_Field is HAL.UInt3;
+</code></pre><h4 id=9d3b274773866ab8ceef84c366fa6883527c66f55f6eee0cd8617ff3dabb888d>FREQA_PASSWD_Field</h4><pre class=ada-code-snippet><code>type FREQA_PASSWD_Field is
+   FREQA_PASSWD_Field_Reset,
+   PASS)
+  with Size => 16;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>FREQA_PASSWD_Field_Reset<dd><dt>PASS<dd></dl><h4 id=3d23129b4efcc24455baa6653d09c4cf6c32777c8459333bdedd7bbfc41355e6>FREQA_Register</h4><pre class=ada-code-snippet><code>type FREQA_Register is record
+   DS0            : FREQA_DS0_Field := 16#0#;
+   Reserved_3_3   : HAL.Bit := 16#0#;
+   DS1            : FREQA_DS1_Field := 16#0#;
+   Reserved_7_7   : HAL.Bit := 16#0#;
+   DS2            : FREQA_DS2_Field := 16#0#;
+   Reserved_11_11 : HAL.Bit := 16#0#;
+   DS3            : FREQA_DS3_Field := 16#0#;
+   Reserved_15_15 : HAL.Bit := 16#0#;
+   PASSWD         : FREQA_PASSWD_Field := FREQA_PASSWD_Field_Reset;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>DS0<dd><dt>Reserved_3_3<dd><dt>DS1<dd><dt>Reserved_7_7<dd><dt>DS2<dd><dt>Reserved_11_11<dd><dt>DS3<dd><dt>Reserved_15_15<dd><dt>PASSWD<dd></dl><h4 id=dfd6dfb8fd9ce83e164c1fe8e5e8a0d50e0c0baef3378401f5720221f733fe1b>FREQB_DS4_Field</h4><pre class=ada-code-snippet><code>subtype FREQB_DS4_Field is HAL.UInt3;
+</code></pre><h4 id=7747ca3b5ee18a8988f7a7a18f9ce60258385873164ec2c8fd1bc67a49a27a07>FREQB_DS5_Field</h4><pre class=ada-code-snippet><code>subtype FREQB_DS5_Field is HAL.UInt3;
+</code></pre><h4 id=a2d5ec8b01eec734bdf207e9f4e995913201fc2250efbf1ee4385e9c455f8748>FREQB_DS6_Field</h4><pre class=ada-code-snippet><code>subtype FREQB_DS6_Field is HAL.UInt3;
+</code></pre><h4 id=df5af9c1d9ecd2b687312985fa7f5847a6828fadd4bf195be0642d4371714668>FREQB_DS7_Field</h4><pre class=ada-code-snippet><code>subtype FREQB_DS7_Field is HAL.UInt3;
+</code></pre><h4 id=6ca47be1d1bc0e8a1038990e0dea23bb5f6df580c85c959d604664144e46a699>FREQB_PASSWD_Field</h4><pre class=ada-code-snippet><code>type FREQB_PASSWD_Field is
+   FREQB_PASSWD_Field_Reset,
+   PASS)
+  with Size => 16;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>FREQB_PASSWD_Field_Reset<dd><dt>PASS<dd></dl><h4 id=51fb7ba2bf613dde8b34d7ba23c6ca6b1fa490b5be2e3bc37b0a043923465ddd>FREQB_Register</h4><pre class=ada-code-snippet><code>type FREQB_Register is record
+   DS4            : FREQB_DS4_Field := 16#0#;
+   Reserved_3_3   : HAL.Bit := 16#0#;
+   DS5            : FREQB_DS5_Field := 16#0#;
+   Reserved_7_7   : HAL.Bit := 16#0#;
+   DS6            : FREQB_DS6_Field := 16#0#;
+   Reserved_11_11 : HAL.Bit := 16#0#;
+   DS7            : FREQB_DS7_Field := 16#0#;
+   Reserved_15_15 : HAL.Bit := 16#0#;
+   PASSWD         : FREQB_PASSWD_Field := FREQB_PASSWD_Field_Reset;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>DS4<dd><dt>Reserved_3_3<dd><dt>DS5<dd><dt>Reserved_7_7<dd><dt>DS6<dd><dt>Reserved_11_11<dd><dt>DS7<dd><dt>Reserved_15_15<dd><dt>PASSWD<dd></dl><h4 id=cf533167a4f441eb065be1700d9a95c70dc8033ea2301fdff3299639a4f28a8f>PHASE_PASSWD_Field</h4><pre class=ada-code-snippet><code>subtype PHASE_PASSWD_Field is HAL.UInt8;
+</code></pre><h4 id=d12047b54ee084bc7c3bddf6d9d46d56295402f25246e0cdc3473e8aaa54588f>PHASE_Register</h4><pre class=ada-code-snippet><code>type PHASE_Register is record
+   SHIFT          : PHASE_SHIFT_Field := 16#0#;
+   FLIP           : Boolean := False;
+   ENABLE         : Boolean := True;
+   PASSWD         : PHASE_PASSWD_Field := 16#0#;
+   Reserved_12_31 : HAL.UInt20 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>SHIFT<dd><dt>FLIP<dd><dt>ENABLE<dd><dt>PASSWD<dd><dt>Reserved_12_31<dd></dl><h4 id=7e282df14d47758d5532b0a115bbab91f82bb660465b6a9f54fe69ba4526068b>PHASE_SHIFT_Field</h4><pre class=ada-code-snippet><code>subtype PHASE_SHIFT_Field is HAL.UInt2;
+</code></pre><h4 id=7acef89c7f90da47a51c8b3e883ef5efee1f23340d8952f4afc42d0a3ba3eecb>RANDOMBIT_Register</h4><pre class=ada-code-snippet><code>type RANDOMBIT_Register is record
+   RANDOMBIT     : Boolean;
+   Reserved_1_31 : HAL.UInt31;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>RANDOMBIT<dd><dt>Reserved_1_31<dd></dl><h4 id=8ff6a277bd0899afc06c0a508592b13153ace2650ef770949f3d19c7ccff4020>ROSC_Periph</h4><pre class=ada-code-snippet><code>ROSC_Periph : aliased ROSC_Peripheral
+  with Import, Address => ROSC_Base;
+</code></pre><h4 id=5611e4b43e1d55bd995fd06bcc46c85d62712f469d49840bf46a341e216275e5>ROSC_Peripheral</h4><pre class=ada-code-snippet><code>type ROSC_Peripheral is record
+   CTRL      : aliased CTRL_Register;
+   FREQA     : aliased FREQA_Register;
+   FREQB     : aliased FREQB_Register;
+   DORMANT   : aliased HAL.UInt32;
+   DIV       : aliased DIV_Register;
+   PHASE     : aliased PHASE_Register;
+   STATUS    : aliased STATUS_Register;
+   RANDOMBIT : aliased RANDOMBIT_Register;
+   COUNT     : aliased COUNT_Register;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>CTRL<dd><dt>FREQA<dd><dt>FREQB<dd><dt>DORMANT<dd><dt>DIV<dd><dt>PHASE<dd><dt>STATUS<dd><dt>RANDOMBIT<dd><dt>COUNT<dd></dl><h4 id=e0923a43967320e6291743f3b8f24b91649578d6671b59ed7eae8a3aeedd8121>STATUS_Register</h4><pre class=ada-code-snippet><code>type STATUS_Register is record
+   Reserved_0_11  : HAL.UInt12 := 16#0#;
+   ENABLED        : Boolean := False;
+   Reserved_13_15 : HAL.UInt3 := 16#0#;
+   DIV_RUNNING    : Boolean := False;
+   Reserved_17_23 : HAL.UInt7 := 16#0#;
+   BADWRITE       : Boolean := False;
+   Reserved_25_30 : HAL.UInt6 := 16#0#;
+   STABLE         : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_11<dd><dt>ENABLED<dd><dt>Reserved_13_15<dd><dt>DIV_RUNNING<dd><dt>Reserved_17_23<dd><dt>BADWRITE<dd><dt>Reserved_25_30<dd><dt>STABLE<dd></dl>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.PADS_BANK0</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#c41612811ae9be9064658b7d0158898629f6fa6d5af9aeff7f4231fdb0798451>GPIO0_DRIVE_Field</a><li><a href=#ded88f4f4cdcb5901487acd82142d96bcde89fe6df8b6f4e81f4a0affdab11d3>SWCLK_DRIVE_Field</a><li><a href=#81a14b4bda2a1a43a53cbf3307f08d4acf5aa18a76ec9d2708cce1f97399db78>SWD_DRIVE_Field</a><li><a href=#55edd7038c140f096634bf1d4a03564fbe8393f0716b902c1b19a0592890a825>VOLTAGE_SELECT_VOLTAGE_SELECT_Field</a></ul><h3>Record Types</h3><ul><li><a href=#1201fe469878dd1450a6c3c43e514573e5dd1dd62a4072a0670ece7a23a65373>GPIO_Register</a><li><a href=#94f42d60d9e05d880b07568d19e49b1275990bc4a693ec20e60a4bba014c41f3>PADS_BANK0_Peripheral</a><li><a href=#6661de69a47b7783a5235153ac26175093bee51031d88cce6a9bdc5a13cd3f8c>SWCLK_Register</a><li><a href=#d7e99ffc05f85c59fe82af188366a482e8d7bfcd17a2145b7af5c6df027e8124>SWD_Register</a><li><a href=#8cfde0e6e5180aaf2b4933bc45d11465706b13cedfa2050ac73eb91738ca8e10>VOLTAGE_SELECT_Register</a></ul><h3>Variables</h3><ul><li><a href=#aa6f7892232d4b29ce84a4055f6dcc9b3778ad986c44d47679fe6bb81d29771f>PADS_BANK0_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=c41612811ae9be9064658b7d0158898629f6fa6d5af9aeff7f4231fdb0798451>GPIO0_DRIVE_Field</h4><pre class=ada-code-snippet><code>type GPIO0_DRIVE_Field is
+  (Val_2mA,
+   Val_4mA,
+   Val_8mA,
+   Val_12mA)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_2mA<dd><dt>Val_4mA<dd><dt>Val_8mA<dd><dt>Val_12mA<dd></dl><h4 id=1201fe469878dd1450a6c3c43e514573e5dd1dd62a4072a0670ece7a23a65373>GPIO_Register</h4><pre class=ada-code-snippet><code>type GPIO_Register is record
+   SLEWFAST      : Boolean := False;
+   SCHMITT       : Boolean := True;
+   PDE           : Boolean := True;
+   PUE           : Boolean := False;
+   DRIVE         : GPIO0_DRIVE_Field := RP2040_SVD.PADS_BANK0.Val_4mA;
+   IE            : Boolean := True;
+   OD            : Boolean := False;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>SLEWFAST<dd><dt>SCHMITT<dd><dt>PDE<dd><dt>PUE<dd><dt>DRIVE<dd><dt>IE<dd><dt>OD<dd><dt>Reserved_8_31<dd></dl><h4 id=aa6f7892232d4b29ce84a4055f6dcc9b3778ad986c44d47679fe6bb81d29771f>PADS_BANK0_Periph</h4><pre class=ada-code-snippet><code>PADS_BANK0_Periph : aliased PADS_BANK0_Peripheral
+  with Import, Address => PADS_BANK0_Base;
+</code></pre><h4 id=94f42d60d9e05d880b07568d19e49b1275990bc4a693ec20e60a4bba014c41f3>PADS_BANK0_Peripheral</h4><pre class=ada-code-snippet><code>type PADS_BANK0_Peripheral is record
+   VOLTAGE_SELECT : aliased VOLTAGE_SELECT_Register;
+   GPIO0          : aliased GPIO_Register;
+   GPIO1          : aliased GPIO_Register;
+   GPIO2          : aliased GPIO_Register;
+   GPIO3          : aliased GPIO_Register;
+   GPIO4          : aliased GPIO_Register;
+   GPIO5          : aliased GPIO_Register;
+   GPIO6          : aliased GPIO_Register;
+   GPIO7          : aliased GPIO_Register;
+   GPIO8          : aliased GPIO_Register;
+   GPIO9          : aliased GPIO_Register;
+   GPIO10         : aliased GPIO_Register;
+   GPIO11         : aliased GPIO_Register;
+   GPIO12         : aliased GPIO_Register;
+   GPIO13         : aliased GPIO_Register;
+   GPIO14         : aliased GPIO_Register;
+   GPIO15         : aliased GPIO_Register;
+   GPIO16         : aliased GPIO_Register;
+   GPIO17         : aliased GPIO_Register;
+   GPIO18         : aliased GPIO_Register;
+   GPIO19         : aliased GPIO_Register;
+   GPIO20         : aliased GPIO_Register;
+   GPIO21         : aliased GPIO_Register;
+   GPIO22         : aliased GPIO_Register;
+   GPIO23         : aliased GPIO_Register;
+   GPIO24         : aliased GPIO_Register;
+   GPIO25         : aliased GPIO_Register;
+   GPIO26         : aliased GPIO_Register;
+   GPIO27         : aliased GPIO_Register;
+   GPIO28         : aliased GPIO_Register;
+   GPIO29         : aliased GPIO_Register;
+   SWCLK          : aliased SWCLK_Register;
+   SWD            : aliased SWD_Register;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>VOLTAGE_SELECT<dd><dt>GPIO0<dd><dt>GPIO1<dd><dt>GPIO2<dd><dt>GPIO3<dd><dt>GPIO4<dd><dt>GPIO5<dd><dt>GPIO6<dd><dt>GPIO7<dd><dt>GPIO8<dd><dt>GPIO9<dd><dt>GPIO10<dd><dt>GPIO11<dd><dt>GPIO12<dd><dt>GPIO13<dd><dt>GPIO14<dd><dt>GPIO15<dd><dt>GPIO16<dd><dt>GPIO17<dd><dt>GPIO18<dd><dt>GPIO19<dd><dt>GPIO20<dd><dt>GPIO21<dd><dt>GPIO22<dd><dt>GPIO23<dd><dt>GPIO24<dd><dt>GPIO25<dd><dt>GPIO26<dd><dt>GPIO27<dd><dt>GPIO28<dd><dt>GPIO29<dd><dt>SWCLK<dd><dt>SWD<dd></dl><h4 id=ded88f4f4cdcb5901487acd82142d96bcde89fe6df8b6f4e81f4a0affdab11d3>SWCLK_DRIVE_Field</h4><pre class=ada-code-snippet><code>type SWCLK_DRIVE_Field is
+  (Val_2mA,
+   Val_4mA,
+   Val_8mA,
+   Val_12mA)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_2mA<dd><dt>Val_4mA<dd><dt>Val_8mA<dd><dt>Val_12mA<dd></dl><h4 id=6661de69a47b7783a5235153ac26175093bee51031d88cce6a9bdc5a13cd3f8c>SWCLK_Register</h4><pre class=ada-code-snippet><code>type SWCLK_Register is record
+   SLEWFAST      : Boolean := False;
+   SCHMITT       : Boolean := True;
+   PDE           : Boolean := False;
+   PUE           : Boolean := True;
+   DRIVE         : SWCLK_DRIVE_Field := RP2040_SVD.PADS_BANK0.Val_4mA;
+   IE            : Boolean := True;
+   OD            : Boolean := True;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>SLEWFAST<dd><dt>SCHMITT<dd><dt>PDE<dd><dt>PUE<dd><dt>DRIVE<dd><dt>IE<dd><dt>OD<dd><dt>Reserved_8_31<dd></dl><h4 id=81a14b4bda2a1a43a53cbf3307f08d4acf5aa18a76ec9d2708cce1f97399db78>SWD_DRIVE_Field</h4><pre class=ada-code-snippet><code>type SWD_DRIVE_Field is
+  (Val_2mA,
+   Val_4mA,
+   Val_8mA,
+   Val_12mA)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_2mA<dd><dt>Val_4mA<dd><dt>Val_8mA<dd><dt>Val_12mA<dd></dl><h4 id=d7e99ffc05f85c59fe82af188366a482e8d7bfcd17a2145b7af5c6df027e8124>SWD_Register</h4><pre class=ada-code-snippet><code>type SWD_Register is record
+   SLEWFAST      : Boolean := False;
+   SCHMITT       : Boolean := True;
+   PDE           : Boolean := False;
+   PUE           : Boolean := True;
+   DRIVE         : SWD_DRIVE_Field := RP2040_SVD.PADS_BANK0.Val_4mA;
+   IE            : Boolean := True;
+   OD            : Boolean := False;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>SLEWFAST<dd><dt>SCHMITT<dd><dt>PDE<dd><dt>PUE<dd><dt>DRIVE<dd><dt>IE<dd><dt>OD<dd><dt>Reserved_8_31<dd></dl><h4 id=8cfde0e6e5180aaf2b4933bc45d11465706b13cedfa2050ac73eb91738ca8e10>VOLTAGE_SELECT_Register</h4><pre class=ada-code-snippet><code>type VOLTAGE_SELECT_Register is record
+   VOLTAGE_SELECT : VOLTAGE_SELECT_VOLTAGE_SELECT_Field :=
+                     RP2040_SVD.PADS_BANK0.Val_3v3;
+   Reserved_1_31  : HAL.UInt31 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>VOLTAGE_SELECT<dd><dt>Reserved_1_31<dd></dl><h4 id=55edd7038c140f096634bf1d4a03564fbe8393f0716b902c1b19a0592890a825>VOLTAGE_SELECT_VOLTAGE_SELECT_Field</h4><pre class=ada-code-snippet><code>type VOLTAGE_SELECT_VOLTAGE_SELECT_Field is
+   Val_3v3,
+   Val_1v8)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_3v3<dd><p>Set voltage to 1.8V (DVDD &lt;= 1V8)<dt>Val_1v8<dd></dl>

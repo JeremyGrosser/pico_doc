@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.XOSC</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#dc21be468ddf6e8626a4ddbb25e35ff7a9c82c685d41a20a4d6c4fbfadad8482>CTRL_ENABLE_Field</a><li><a href=#bcb2df9b80c5a8a56b6c40517b8cb4364b2eb5d802de3ce8425230bb1021a1c5>CTRL_FREQ_RANGE_Field</a><li><a href=#3a3fb3c144e146506f95223014bbd0d6dd04a58d7e66e0a6812369c1ed55ea8a>STATUS_FREQ_RANGE_Field</a></ul><h3>Record Types</h3><ul><li><a href=#381f9b58bea198df7883138458fd3d6f7fc8ba7b81fe051e7f56f33d214f2599>COUNT_Register</a><li><a href=#084bac0a330489a5acaae331654d5fe8a6c4db4ef08bd329882dd92baf9791c6>CTRL_Register</a><li><a href=#acb4e916071fae7dcd104b4357692a23bc72cb33284a5c06f53d68903ff887fc>STARTUP_Register</a><li><a href=#c34133ebffdb3670fb93d05d269db0df69f3739898033290ea57c020a1a1b0bc>STATUS_Register</a><li><a href=#0e2c573168af949f7a2574c36d6094e166e2babbfa0109ebbadcbdcc9051295c>XOSC_Peripheral</a></ul><h3>Subtypes</h3><ul><li><a href=#5a3d0cc8b5af4c8e63fc997afff468b47c7306dc6cf489a843e5b1e448407596>COUNT_COUNT_Field</a><li><a href=#384b8e12843b7f23c134e5e60366d13ad27208f17055e30349da1dfbdf34315d>STARTUP_DELAY_Field</a></ul><h3>Variables</h3><ul><li><a href=#fb088734257a2df0307d46c421f0de71fa2957b405f2d17c3dbcab114b03dfea>XOSC_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=5a3d0cc8b5af4c8e63fc997afff468b47c7306dc6cf489a843e5b1e448407596>COUNT_COUNT_Field</h4><pre class=ada-code-snippet><code>subtype COUNT_COUNT_Field is HAL.UInt8;
+</code></pre><h4 id=381f9b58bea198df7883138458fd3d6f7fc8ba7b81fe051e7f56f33d214f2599>COUNT_Register</h4><pre class=ada-code-snippet><code>type COUNT_Register is record
+   COUNT         : COUNT_COUNT_Field := 16#0#;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>COUNT<dd><dt>Reserved_8_31<dd></dl><h4 id=dc21be468ddf6e8626a4ddbb25e35ff7a9c82c685d41a20a4d6c4fbfadad8482>CTRL_ENABLE_Field</h4><pre class=ada-code-snippet><code>type CTRL_ENABLE_Field is
+   CTRL_ENABLE_Field_Reset,
+   DISABLE,
+   ENABLE)
+  with Size => 12;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>CTRL_ENABLE_Field_Reset<dd><dt>DISABLE<dd><dt>ENABLE<dd></dl><h4 id=bcb2df9b80c5a8a56b6c40517b8cb4364b2eb5d802de3ce8425230bb1021a1c5>CTRL_FREQ_RANGE_Field</h4><pre class=ada-code-snippet><code>type CTRL_FREQ_RANGE_Field is
+   CTRL_FREQ_RANGE_Field_Reset,
+   Val_1_15MHZ,
+   RESERVED_1,
+   RESERVED_2,
+   RESERVED_3)
+  with Size => 12;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>CTRL_FREQ_RANGE_Field_Reset<dd><dt>Val_1_15MHZ<dd><dt>RESERVED_1<dd><dt>RESERVED_2<dd><dt>RESERVED_3<dd></dl><h4 id=084bac0a330489a5acaae331654d5fe8a6c4db4ef08bd329882dd92baf9791c6>CTRL_Register</h4><pre class=ada-code-snippet><code>type CTRL_Register is record
+   FREQ_RANGE     : CTRL_FREQ_RANGE_Field := CTRL_FREQ_RANGE_Field_Reset;
+   ENABLE         : CTRL_ENABLE_Field := CTRL_ENABLE_Field_Reset;
+   Reserved_24_31 : HAL.UInt8 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FREQ_RANGE<dd><dt>ENABLE<dd><dt>Reserved_24_31<dd></dl><h4 id=384b8e12843b7f23c134e5e60366d13ad27208f17055e30349da1dfbdf34315d>STARTUP_DELAY_Field</h4><pre class=ada-code-snippet><code>subtype STARTUP_DELAY_Field is HAL.UInt14;
+</code></pre><h4 id=acb4e916071fae7dcd104b4357692a23bc72cb33284a5c06f53d68903ff887fc>STARTUP_Register</h4><pre class=ada-code-snippet><code>type STARTUP_Register is record
+   DELAY_k        : STARTUP_DELAY_Field := 16#C4#;
+   Reserved_14_19 : HAL.UInt6 := 16#0#;
+   X4             : Boolean := False;
+   Reserved_21_31 : HAL.UInt11 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>DELAY_k<dd><dt>Reserved_14_19<dd><dt>X4<dd><dt>Reserved_21_31<dd></dl><h4 id=3a3fb3c144e146506f95223014bbd0d6dd04a58d7e66e0a6812369c1ed55ea8a>STATUS_FREQ_RANGE_Field</h4><pre class=ada-code-snippet><code>type STATUS_FREQ_RANGE_Field is
+  (Val_1_15MHZ,
+   RESERVED_1,
+   RESERVED_2,
+   RESERVED_3)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_1_15MHZ<dd><dt>RESERVED_1<dd><dt>RESERVED_2<dd><dt>RESERVED_3<dd></dl><h4 id=c34133ebffdb3670fb93d05d269db0df69f3739898033290ea57c020a1a1b0bc>STATUS_Register</h4><pre class=ada-code-snippet><code>type STATUS_Register is record
+   FREQ_RANGE     : STATUS_FREQ_RANGE_Field := RP2040_SVD.XOSC.Val_1_15MHZ;
+   Reserved_2_11  : HAL.UInt10 := 16#0#;
+   ENABLED        : Boolean := False;
+   Reserved_13_23 : HAL.UInt11 := 16#0#;
+   BADWRITE       : Boolean := False;
+   Reserved_25_30 : HAL.UInt6 := 16#0#;
+   STABLE         : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FREQ_RANGE<dd><dt>Reserved_2_11<dd><dt>ENABLED<dd><dt>Reserved_13_23<dd><dt>BADWRITE<dd><dt>Reserved_25_30<dd><dt>STABLE<dd></dl><h4 id=fb088734257a2df0307d46c421f0de71fa2957b405f2d17c3dbcab114b03dfea>XOSC_Periph</h4><pre class=ada-code-snippet><code>XOSC_Periph : aliased XOSC_Peripheral
+  with Import, Address => XOSC_Base;
+</code></pre><h4 id=0e2c573168af949f7a2574c36d6094e166e2babbfa0109ebbadcbdcc9051295c>XOSC_Peripheral</h4><pre class=ada-code-snippet><code>type XOSC_Peripheral is record
+   CTRL    : aliased CTRL_Register;
+   STATUS  : aliased STATUS_Register;
+   DORMANT : aliased HAL.UInt32;
+   STARTUP : aliased STARTUP_Register;
+   COUNT   : aliased COUNT_Register;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>CTRL<dd><dt>STATUS<dd><dt>DORMANT<dd><dt>STARTUP<dd><dt>COUNT<dd></dl>

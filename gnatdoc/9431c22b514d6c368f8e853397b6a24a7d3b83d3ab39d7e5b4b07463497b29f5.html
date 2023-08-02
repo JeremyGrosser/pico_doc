@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.DMA</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#ab0364f64e01f1bd087b7c042bf57358dbbbd0f1a93a529e45a6fd8c0e417dbc>Checksum_Algorithm</a><li><a href=#329a1921d658c011b3873e570ff00ea7d3bc5f27354ecad191db13cce2570576>DMA_Channel_Id</a><li><a href=#7c374470f4a665d2b548091a7b108890a1866415f64604ddd82871c4c0b52d8d>DMA_Request_Trigger</a><li><a href=#d13239e653de77618cf02fd887ae24e3563089fdf395db744db33030cf81b924>Ring_Wrap_Select</a><li><a href=#38eee9c2e3b2be36dfc688dba00c26f90e2e18ce2b98e5fdce10c50d172400c3>Transfer_Width</a></ul><h3>Record Types</h3><ul><li><a href=#d2ddd25ee31fc1e9d4bf742cd9442a6be4a7991f0b7c0334f62b1fe385afc245>DMA_Configuration</a><li><a href=#5cc8d45cee3c06272e53786b9e968be8cebf702fbcc995280fada95e96a08fc6>DMA_Status</a></ul><h3>Subtypes</h3><ul><li><a href=#47fdb94a5e105cc0cf3cb73e99cc91929c0e133a7cb129c2aeb5ce6e7387ed08>DMA_IRQ_Id</a><li><a href=#a55832aa322a7173ddce92a1c04730e1ce4cc1dac550e0f67f6e42a373d41f06>DMA_Timer_Id</a></ul><h3>Subprograms</h3><ul><li><a href=#c71397c855ad1944df9ff859835623a96bd4780ed086b726c2bc742cd2054d73>Ack_IRQ</a><li><a href=#28d19319513adec26ff656a32a6643f03ba70016b20bdefc0c59ff6c9af1e257>Busy</a><li><a href=#280c9186cf510a14a1a64075815c15df81dddeb2d142b7e53a4e1feb8523a51a>Checksum</a><li><a href=#b7434fc90fdb8e15a616406b591459b77925ee8041606ff602adc00aee8fee5f>Configure</a><li><a href=#36dedcdb866733bf3764a3ee0df0510f71c7424fdcb7dc740f14ba6ea8b0d054>Disable</a><li><a href=#f67c38ab42e227817c95152dfcd4fb541eb2db5309cbc5d5649fe9df645c2d4d>Disable_IRQ</a><li><a href=#917c53047b557d93d3b1a520e7b6c55d46fa73fd3b73eae0bb2d96c193a74bf4>Enable</a><li><a href=#c47f937915502b31d2d9a03a964826e62507fa77a2737dd8ff911acaa69edd5f>Enable_Checksum</a><li><a href=#730ddca96258304e623c146fb4cea3634d7c31d17ad01b8bb41e72a21dcd902d>Enable_IRQ</a><li><a href=#f1964ce0da25f713bc85aa5174f477c5b77f3303df0faf603da1a4504cf8c955>IRQ_Status</a><li><a href=#f8fa647c8d96eb92011ccd871c08c8d15b8234893bcda54ba41567371e2aecf4>Set_Checksum</a><li><a href=#ff449866cea7bbed0a59344d7e2b182e61a558ba493994f24002bcd79027bad9>Set_Pacing_Timer</a><li><a href=#efe6b8b0a3e7db0d7fe5e5713c8b819edfa136067cc1406ae3eee5e53f136e44>Setup</a><li><a href=#fe184d635f462b95179709b0e1cdb9fe0634faf612b891547657b2c975de97cb>Start</a><li><a href=#f58d137ba2086db03312b6635ba10a117ae5aacb9c22c7d9e7c2b999378f28f3>Start</a><li><a href=#a02e40e5cc7fa13b6d89268ab8a94686e95feab0504240e566e515f5a058f833>Status</a></ul><h2>Description</h2><h4 id=c71397c855ad1944df9ff859835623a96bd4780ed086b726c2bc742cd2054d73>Ack_IRQ</h4><pre class=ada-code-snippet><code>procedure Ack_IRQ (Channel : DMA_Channel_Id;
+                   IRQ     : DMA_IRQ_Id)
+</code></pre><h5>Parameters</h5><dl><dt>Channel<dd><dt>IRQ<dd></dl><h4 id=28d19319513adec26ff656a32a6643f03ba70016b20bdefc0c59ff6c9af1e257>Busy</h4><pre class=ada-code-snippet><code>function Busy
+   (Channel : DMA_Channel_Id)
+   return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>Channel<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=280c9186cf510a14a1a64075815c15df81dddeb2d142b7e53a4e1feb8523a51a>Checksum</h4><pre class=ada-code-snippet><code>function Checksum
+   return HAL.UInt32
+</code></pre><h5>Return Value</h5><dl><dd></dl><h4 id=ab0364f64e01f1bd087b7c042bf57358dbbbd0f1a93a529e45a6fd8c0e417dbc>Checksum_Algorithm</h4><pre class=ada-code-snippet><code>type Checksum_Algorithm is
+   (CRC_32,
+    CRC_32R,
+    CRC_16,
+    CRC_16R,
+    EVEN,
+    SUM);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>CRC_32<dd><p>CRC-32 (IEEE802.3 polynomial)<dt>CRC_32R<dd><p>CRC-32 (IEEE802.3 polynomial) with bit reversed data<dt>CRC_16<dd><p>CRC-16-CCITT<dt>CRC_16R<dd><p>CRC-16-CCITT with bit reversed data<dt>EVEN<dd><p>XOR reduction over all data. == 1 if total 1 population count is odd<dt>SUM<dd><p>Calculate a simple 32-bit checksum (addition with 32 bit accumulator)</dl><h4 id=b7434fc90fdb8e15a616406b591459b77925ee8041606ff602adc00aee8fee5f>Configure</h4><pre class=ada-code-snippet><code>procedure Configure
+   (Channel : DMA_Channel_Id;
+    Config  : DMA_Configuration)
+</code></pre><h5>Parameters</h5><dl><dt>Channel<dd><dt>Config<dd></dl><h4 id=36dedcdb866733bf3764a3ee0df0510f71c7424fdcb7dc740f14ba6ea8b0d054>Disable</h4><pre class=ada-code-snippet><code>procedure Disable
+   (Channel : DMA_Channel_Id)
+</code></pre><h5>Parameters</h5><dl><dt>Channel<dd></dl><h4 id=f67c38ab42e227817c95152dfcd4fb541eb2db5309cbc5d5649fe9df645c2d4d>Disable_IRQ</h4><pre class=ada-code-snippet><code>procedure Disable_IRQ (Channel : DMA_Channel_Id;
+                       IRQ     : DMA_IRQ_Id)
+</code></pre><h5>Parameters</h5><dl><dt>Channel<dd><dt>IRQ<dd></dl><h4 id=329a1921d658c011b3873e570ff00ea7d3bc5f27354ecad191db13cce2570576>DMA_Channel_Id</h4><pre class=ada-code-snippet><code>type DMA_Channel_Id is range 0 .. 11
+   with Size => 4;
+</code></pre><h4 id=d2ddd25ee31fc1e9d4bf742cd9442a6be4a7991f0b7c0334f62b1fe385afc245>DMA_Configuration</h4><pre class=ada-code-snippet><code>type DMA_Configuration is record
+   High_Priority   : Boolean := False;
+   Data_Size       : Transfer_Width := Transfer_8;
+   Increment_Read  : Boolean := False;
+   Increment_Write : Boolean := False;
+   Ring_Size       : HAL.UInt4 := 0;
+   Ring_Wrap       : Ring_Wrap_Select := Wrap_Read;
+   Chain_To        : DMA_Channel_Id := 0;
+   Trigger         : DMA_Request_Trigger := PERMANENT;
+   Quiet           : Boolean := False;
+   Byte_Swap       : Boolean := False;
+   Sniff           : Boolean := False;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>High_Priority<dd><p>Schedule this channel before others<dt>Data_Size<dd><p>Bits per transfer (byte, halfword, word)<dt>Increment_Read<dd><p>Increment read address after transfer<dt>Increment_Write<dd><p>Increment write address after transfer<dt>Ring_Size<dd><p>Ring buffer size<dt>Ring_Wrap<dd><p>Read or write buffer is a ring buffer<dt>Chain_To<dd><p>Trigger another channel after transfer.<dt>Trigger<dd><p>Trigger a transfer on this signal<dt>Quiet<dd><p>Disable interrupts<dt>Byte_Swap<dd><p>Reverse byte order<dt>Sniff<dd><p>Send data to sniff checksum</dl><h4 id=47fdb94a5e105cc0cf3cb73e99cc91929c0e133a7cb129c2aeb5ce6e7387ed08>DMA_IRQ_Id</h4><pre class=ada-code-snippet><code>subtype DMA_IRQ_Id is Natural range 0 .. 1;
+</code></pre><h4 id=7c374470f4a665d2b548091a7b108890a1866415f64604ddd82871c4c0b52d8d>DMA_Request_Trigger</h4><pre class=ada-code-snippet><code>type DMA_Request_Trigger is
+   (PIO0_TX0, PIO0_TX1, PIO0_TX2, PIO0_TX3, PIO0_RX0, PIO0_RX1, PIO0_RX2, PIO0_RX3,
+    PIO1_TX0, PIO1_TX1, PIO1_TX2, PIO1_TX3, PIO1_RX0, PIO1_RX1, PIO1_RX2, PIO1_RX3,
+    SPI0_TX, SPI0_RX,
+    SPI1_TX, SPI1_RX,
+    UART0_TX, UART0_RX,
+    UART1_TX, UART1_RX,
+    PWM_WRAP0, PWM_WRAP1, PWM_WRAP2, PWM_WRAP3, PWM_WRAP4, PWM_WRAP5, PWM_WRAP6, PWM_WRAP7,
+    I2C0_TX, I2C0_RX,
+    I2C1_TX, I2C1_RX,
+    ADC,
+    XIP_STREAM, XIP_SSITX, XIP_SSIRX,
+    TIMER0, TIMER1, TIMER2, TIMER3,
+    PERMANENT)
+    with Size => 6;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>PIO0_TX0<dd><dt>PIO0_TX1<dd><dt>PIO0_TX2<dd><dt>PIO0_TX3<dd><dt>PIO0_RX0<dd><dt>PIO0_RX1<dd><dt>PIO0_RX2<dd><dt>PIO0_RX3<dd><dt>PIO1_TX0<dd><dt>PIO1_TX1<dd><dt>PIO1_TX2<dd><dt>PIO1_TX3<dd><dt>PIO1_RX0<dd><dt>PIO1_RX1<dd><dt>PIO1_RX2<dd><dt>PIO1_RX3<dd><dt>SPI0_TX<dd><dt>SPI0_RX<dd><dt>SPI1_TX<dd><dt>SPI1_RX<dd><dt>UART0_TX<dd><dt>UART0_RX<dd><dt>UART1_TX<dd><dt>UART1_RX<dd><dt>PWM_WRAP0<dd><dt>PWM_WRAP1<dd><dt>PWM_WRAP2<dd><dt>PWM_WRAP3<dd><dt>PWM_WRAP4<dd><dt>PWM_WRAP5<dd><dt>PWM_WRAP6<dd><dt>PWM_WRAP7<dd><dt>I2C0_TX<dd><dt>I2C0_RX<dd><dt>I2C1_TX<dd><dt>I2C1_RX<dd><dt>ADC<dd><dt>XIP_STREAM<dd><dt>XIP_SSITX<dd><dt>XIP_SSIRX<dd><dt>TIMER0<dd><dt>TIMER1<dd><dt>TIMER2<dd><dt>TIMER3<dd><dt>PERMANENT<dd></dl><h4 id=5cc8d45cee3c06272e53786b9e968be8cebf702fbcc995280fada95e96a08fc6>DMA_Status</h4><pre class=ada-code-snippet><code>type DMA_Status is record
+   Enabled             : Boolean := False;
+   Busy                : Boolean := False;
+   Write_Error         : Boolean := False;
+   Read_Error          : Boolean := False;
+   AHB_Error           : Boolean := False;
+   Transfers_Remaining : Natural := 0;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Enabled<dd><dt>Busy<dd><dt>Write_Error<dd><dt>Read_Error<dd><dt>AHB_Error<dd><dt>Transfers_Remaining<dd></dl><h4 id=a55832aa322a7173ddce92a1c04730e1ce4cc1dac550e0f67f6e42a373d41f06>DMA_Timer_Id</h4><pre class=ada-code-snippet><code>subtype DMA_Timer_Id is DMA_Request_Trigger range TIMER0 .. TIMER3;
+</code></pre><h4 id=917c53047b557d93d3b1a520e7b6c55d46fa73fd3b73eae0bb2d96c193a74bf4>Enable</h4><pre class=ada-code-snippet><code>procedure Enable
+</code></pre><h4 id=c47f937915502b31d2d9a03a964826e62507fa77a2737dd8ff911acaa69edd5f>Enable_Checksum</h4><pre class=ada-code-snippet><code>procedure Enable_Checksum
+   (Channel   : DMA_Channel_Id;
+    Algorithm : Checksum_Algorithm;
+    Byte_Swap : Boolean := False;
+    Reversed  : Boolean := False;
+    Inverted  : Boolean := False)
+</code></pre><h5>Parameters</h5><dl><dt>Channel<dd><dt>Algorithm<dd><dt>Byte_Swap<dd><dt>Reversed<dd><dt>Inverted<dd></dl><h4 id=730ddca96258304e623c146fb4cea3634d7c31d17ad01b8bb41e72a21dcd902d>Enable_IRQ</h4><pre class=ada-code-snippet><code>procedure Enable_IRQ (Channel : DMA_Channel_Id;
+                      IRQ     : DMA_IRQ_Id)
+</code></pre><h5>Parameters</h5><dl><dt>Channel<dd><dt>IRQ<dd></dl><h4 id=f1964ce0da25f713bc85aa5174f477c5b77f3303df0faf603da1a4504cf8c955>IRQ_Status</h4><pre class=ada-code-snippet><code>function IRQ_Status (Channel : DMA_Channel_Id;
+                     IRQ     : DMA_IRQ_Id)
+                     return Boolean
+</code></pre><p>Return True if the IRQ is triggered<h5>Parameters</h5><dl><dt>Channel<dd><dt>IRQ<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=d13239e653de77618cf02fd887ae24e3563089fdf395db744db33030cf81b924>Ring_Wrap_Select</h4><pre class=ada-code-snippet><code>type Ring_Wrap_Select is (Wrap_Read, Wrap_Write)
+   with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Wrap_Read<dd><dt>Wrap_Write<dd></dl><h4 id=f8fa647c8d96eb92011ccd871c08c8d15b8234893bcda54ba41567371e2aecf4>Set_Checksum</h4><pre class=ada-code-snippet><code>procedure Set_Checksum
+   (Value : HAL.UInt32)
+</code></pre><h5>Parameters</h5><dl><dt>Value<dd></dl><h4 id=ff449866cea7bbed0a59344d7e2b182e61a558ba493994f24002bcd79027bad9>Set_Pacing_Timer</h4><pre class=ada-code-snippet><code>procedure Set_Pacing_Timer
+   (Timer : DMA_Timer_Id;
+    X, Y  : HAL.UInt16)
+</code></pre><p>The pacing timer produces TREQ assertions at a rate set by ((X/Y) * sys_clk). This equation is evaluated every sys_clk cycles and therefore can only generate TREQs at a rate of 1 per sys_clk (i.e. permanent TREQ) or less.<h5>Parameters</h5><dl><dt>Timer<dd><dt>X<dd><dt>Y<dd></dl><h4 id=efe6b8b0a3e7db0d7fe5e5713c8b819edfa136067cc1406ae3eee5e53f136e44>Setup</h4><pre class=ada-code-snippet><code>procedure Setup
+   (Channel  : DMA_Channel_Id;
+    From, To : System.Address;
+    Count    : HAL.UInt32)
+</code></pre><h5>Parameters</h5><dl><dt>Channel<dd><dt>From<dd><dt>To<dd><dt>Count<dd></dl><h4 id=fe184d635f462b95179709b0e1cdb9fe0634faf612b891547657b2c975de97cb>Start</h4><pre class=ada-code-snippet><code>procedure Start
+   (Channel : DMA_Channel_Id)
+</code></pre><p>Setup must be called before Start. If you call Start more than once and Increment_Read or Increment_Write are True, these pointers are *not* reset to their initial Setup values, unless you've configured the channel with Ring_Wrap and Ring_Size.<h5>Parameters</h5><dl><dt>Channel<dd></dl><h4 id=f58d137ba2086db03312b6635ba10a117ae5aacb9c22c7d9e7c2b999378f28f3>Start</h4><pre class=ada-code-snippet><code>procedure Start
+   (Channel  : DMA_Channel_Id;
+    From, To : System.Address;
+    Count    : HAL.UInt32)
+</code></pre><p>This version of Start performs the Setup for you.<h5>Parameters</h5><dl><dt>Channel<dd><dt>From<dd><dt>To<dd><dt>Count<dd></dl><h4 id=a02e40e5cc7fa13b6d89268ab8a94686e95feab0504240e566e515f5a058f833>Status</h4><pre class=ada-code-snippet><code>function Status
+   (Channel : DMA_Channel_Id)
+   return DMA_Status
+</code></pre><h5>Parameters</h5><dl><dt>Channel<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=38eee9c2e3b2be36dfc688dba00c26f90e2e18ce2b98e5fdce10c50d172400c3>Transfer_Width</h4><pre class=ada-code-snippet><code>type Transfer_Width is (Transfer_8, Transfer_16, Transfer_32)
+   with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Transfer_8<dd><dt>Transfer_16<dd><dt>Transfer_32<dd></dl>

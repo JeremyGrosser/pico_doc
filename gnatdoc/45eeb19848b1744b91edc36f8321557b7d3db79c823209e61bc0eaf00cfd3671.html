@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.UART</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#7a3a68b8b38d0663d1dfd9d015564652443f3a507bf6d0086389464cdfb12d56>FIFO_IRQ_Level</a><li><a href=#fc49ba52dacc817e0f0780f02e8df9f9ee1435d6d6f18401604b2f0631e5689f>UART_FIFO_Status</a><li><a href=#e98740a115b110332211250a039103bb414f7c1bac31ce656576da92b139f6aa>UART_IRQ_Flag</a><li><a href=#8bfdebca7fdeecfd13d206440207a5c37584b716705d7b5c5848e3c7b5f77c85>UART_Parity_Type</a></ul><h3>Record Types</h3><ul><li><a href=#63347426adc66561d082ba1e1e91fc5588105117a6b879f8a5f6b646384a1b92>UART_Configuration</a></ul><h3>Tagged Types</h3><ul><li><a href=#ab9fbcdb521fc74f5c032f63982fda8446848d589aace1200f65ca508e30d966>UART_Port</a></ul><h3>Subtypes</h3><ul><li><a href=#779966a02274003e147028a5bfe09afeafaf989872a4e7e5a98f09466a3dd87d>Microseconds</a><li><a href=#e2d114706cbd8aa72cdbcc0887c0a4f9f7756f766d045c9ba1b43cdb87b42e44>UART_Number</a><li><a href=#bbd221efb96aa7569e2de141eb455639a0593378c02fc2d83e3376bc4c88b9bd>UART_Stop_Bits</a><li><a href=#8e39e263b04379db42c7d7c0e32ea9856626a2504cf8871dd04cb5a874796d9f>UART_Word_Size</a></ul><h3>Constants</h3><ul><li><a href=#4ae81c58663889af2a16a7fa7db5d29762bd1436310c551d2e85441e4c714dcb>Default_UART_Configuration</a></ul><h3>Subprograms</h3><ul><li><a href=#efe967d45b3740fdb09d8ada6d1a04fbb4454b71f7a6f59504a8a23225805ae8>Clear_IRQ</a><li><a href=#d3d90c80e5b20bf2615c08f2a3d747f7a4b2ff463e2f1aef2b75202fa0d613d0>Configure</a><li><a href=#8880747dc1fe542c899d35ebc3d710e71efe18b19e3c20e89eb46a9794c0a5b5>Data_Size</a><li><a href=#22ead3c739f82c5637d0de6929a422e597e9d0c352459f3a7b843997628d5daa>Disable_IRQ</a><li><a href=#ee7e0fac31fc087ba2ea5500489e87b3fc9044a85b99d446e8264704067c1ba7>Enable_IRQ</a><li><a href=#7cb62474f5a91f678e5ee063fac817d90bb7daad3f2ac0c38358863eaff81ba0>FIFO_Address</a><li><a href=#10184bcd143af6fbb52652097d0e31a3353fcc761186939ae840ba26d47cf256>Frame_Time</a><li><a href=#abe2e192c04bffa1ae092b9c6c45afb70b6a1afd11e800170e1053f7e1056a05>Masked_IRQ_Status</a><li><a href=#931dc0a0ee1c7f4e36554a247c3b04b8e432d357ad2b268ae28dc2afa9887288>Raw_IRQ_Status</a><li><a href=#04a26b3a91a5584016fa5f9cd386bd68809076297812f648c17ed4a581c90615>Receive</a><li><a href=#aaf85e87cef0a3ac1d83c3dadb94e436f8cc5c7950491794a933a316a77d32cb>Receive</a><li><a href=#0aa68cc6490b4358aa51fb237a1e28433944714f368a420ae43d56d2f77383d3>Receive_Status</a><li><a href=#2275555cb1038b89ca838e50d21468ca6c00938f038b415be8fe742fa792718f>Send_Break</a><li><a href=#1d7adab3b4c23b78a679b672884a746e068ac543a9d7262a85649fc08d05bad6>Set_FIFO_IRQ_Level</a><li><a href=#f30670ea6da70702c4ecc0866d801864f3b79f3b336bd209309baff75a5d7fb6>Set_Stick_Parity</a><li><a href=#b82e0f87fcd140941d5d8bc09d5e46496b902ebef24103bb5a71eb1159ddaca8>Symbol_Time</a><li><a href=#b7ad1eef19166ef04b0c674044d2925045fbfc229981808c2cc2332635072c78>Transmit</a><li><a href=#ac8689b689b444a5fdbf33f5555fe735b1eca94561dd357ed40beffc1e10e4d4>Transmit</a><li><a href=#63e37e8b32e4bdda002d92c236b1745b92eff0fa0d3cf07ea50b786b001afe5a>Transmit_Status</a></ul><h2>Description</h2><h4 id=efe967d45b3740fdb09d8ada6d1a04fbb4454b71f7a6f59504a8a23225805ae8>Clear_IRQ</h4><pre class=ada-code-snippet><code>procedure Clear_IRQ (This : in out UART_Port;
+                     IRQ  :        UART_IRQ_Flag)
+</code></pre><p>Clear the given IRQ flag<h5>Parameters</h5><dl><dt>This<dd><dt>IRQ<dd></dl><h4 id=d3d90c80e5b20bf2615c08f2a3d747f7a4b2ff463e2f1aef2b75202fa0d613d0>Configure</h4><pre class=ada-code-snippet><code>procedure Configure
+   (This   : in out UART_Port;
+    Config : UART_Configuration := Default_UART_Configuration)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Config<dd></dl><h4 id=8880747dc1fe542c899d35ebc3d710e71efe18b19e3c20e89eb46a9794c0a5b5>Data_Size</h4><pre class=ada-code-snippet><code>function Data_Size
+   (Port : UART_Port)
+   return UART_Data_Size
+</code></pre><h5>Parameters</h5><dl><dt>Port<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=4ae81c58663889af2a16a7fa7db5d29762bd1436310c551d2e85441e4c714dcb>Default_UART_Configuration</h4><pre class=ada-code-snippet><code>Default_UART_Configuration : constant UART_Configuration := (others => &lt;>);
+</code></pre><h4 id=22ead3c739f82c5637d0de6929a422e597e9d0c352459f3a7b843997628d5daa>Disable_IRQ</h4><pre class=ada-code-snippet><code>procedure Disable_IRQ (This : in out UART_Port;
+                       IRQ  :        UART_IRQ_Flag)
+</code></pre><p>Disable the given IRQ flag<h5>Parameters</h5><dl><dt>This<dd><dt>IRQ<dd></dl><h4 id=ee7e0fac31fc087ba2ea5500489e87b3fc9044a85b99d446e8264704067c1ba7>Enable_IRQ</h4><pre class=ada-code-snippet><code>procedure Enable_IRQ (This : in out UART_Port;
+                      IRQ  :        UART_IRQ_Flag)
+</code></pre><p>Enable the given IRQ flag<h5>Parameters</h5><dl><dt>This<dd><dt>IRQ<dd></dl><h4 id=7cb62474f5a91f678e5ee063fac817d90bb7daad3f2ac0c38358863eaff81ba0>FIFO_Address</h4><pre class=ada-code-snippet><code>function FIFO_Address
+   (This : UART_Port)
+   return System.Address
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=7a3a68b8b38d0663d1dfd9d015564652443f3a507bf6d0086389464cdfb12d56>FIFO_IRQ_Level</h4><pre class=ada-code-snippet><code>type FIFO_IRQ_Level is (Lvl_Eighth,
+                        Lvl_Quarter,
+                        Lvl_Half,
+                        Lvl_Three_Quarter,
+                        Lvl_Seven_Eighth);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Lvl_Eighth<dd><dt>Lvl_Quarter<dd><dt>Lvl_Half<dd><dt>Lvl_Three_Quarter<dd><dt>Lvl_Seven_Eighth<dd></dl><h4 id=10184bcd143af6fbb52652097d0e31a3353fcc761186939ae840ba26d47cf256>Frame_Time</h4><pre class=ada-code-snippet><code>function Frame_Time
+   (This : UART_Port)
+   return Microseconds
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=abe2e192c04bffa1ae092b9c6c45afb70b6a1afd11e800170e1053f7e1056a05>Masked_IRQ_Status</h4><pre class=ada-code-snippet><code>function Masked_IRQ_Status (This : UART_Port;
+                            IRQ  : UART_IRQ_Flag)
+                            return Boolean
+</code></pre><p>Return true if the given IRQ flag is signaled and enabled<h5>Parameters</h5><dl><dt>This<dd><dt>IRQ<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=779966a02274003e147028a5bfe09afeafaf989872a4e7e5a98f09466a3dd87d>Microseconds</h4><pre class=ada-code-snippet><code>subtype Microseconds is Integer;
+</code></pre><h4 id=931dc0a0ee1c7f4e36554a247c3b04b8e432d357ad2b268ae28dc2afa9887288>Raw_IRQ_Status</h4><pre class=ada-code-snippet><code>function Raw_IRQ_Status (This : UART_Port;
+                         IRQ  : UART_IRQ_Flag)
+                         return Boolean
+</code></pre><p>Return true if the given IRQ flag is signaled even if the flag is not enabled.<h5>Parameters</h5><dl><dt>This<dd><dt>IRQ<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=04a26b3a91a5584016fa5f9cd386bd68809076297812f648c17ed4a581c90615>Receive</h4><pre class=ada-code-snippet><code>procedure Receive
+  (This    : in out UART_Port;
+   Data    : out UART_Data_8b;
+   Status  : out UART_Status;
+   Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=aaf85e87cef0a3ac1d83c3dadb94e436f8cc5c7950491794a933a316a77d32cb>Receive</h4><pre class=ada-code-snippet><code>procedure Receive
+  (This    : in out UART_Port;
+   Data    : out UART_Data_9b;
+   Status  : out UART_Status;
+   Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=0aa68cc6490b4358aa51fb237a1e28433944714f368a420ae43d56d2f77383d3>Receive_Status</h4><pre class=ada-code-snippet><code>function Receive_Status
+   (This : UART_Port)
+   return UART_FIFO_Status
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=2275555cb1038b89ca838e50d21468ca6c00938f038b415be8fe742fa792718f>Send_Break</h4><pre class=ada-code-snippet><code>procedure Send_Break
+   (This     : in out UART_Port;
+    Delays   : HAL.Time.Any_Delays;
+    Duration : Microseconds;
+    Start    : Boolean := True)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Delays<dd><dt>Duration<dd><dt>Start<dd></dl><h4 id=1d7adab3b4c23b78a679b672884a746e068ac543a9d7262a85649fc08d05bad6>Set_FIFO_IRQ_Level</h4><pre class=ada-code-snippet><code>procedure Set_FIFO_IRQ_Level (This : in out UART_Port;
+                              RX   :        FIFO_IRQ_Level;
+                              TX   :        FIFO_IRQ_Level)
+</code></pre><p>Set the trigger point for receive and transmit FIFO interrupt. For the receive FIFO, the interrupt is triggered when the FIFO level is above or equal to the set level. For the transmit FIFO, the interrupt is triggered when the FIFO level is below or equal to the set level.<h5>Parameters</h5><dl><dt>This<dd><dt>RX<dd><dt>TX<dd></dl><h4 id=f30670ea6da70702c4ecc0866d801864f3b79f3b336bd209309baff75a5d7fb6>Set_Stick_Parity</h4><pre class=ada-code-snippet><code>procedure Set_Stick_Parity
+   (This    : in out UART_Port;
+    Enabled : Boolean)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Enabled<dd></dl><h4 id=b82e0f87fcd140941d5d8bc09d5e46496b902ebef24103bb5a71eb1159ddaca8>Symbol_Time</h4><pre class=ada-code-snippet><code>function Symbol_Time
+   (This : UART_Port)
+   return Microseconds
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=b7ad1eef19166ef04b0c674044d2925045fbfc229981808c2cc2332635072c78>Transmit</h4><pre class=ada-code-snippet><code>procedure Transmit
+  (This    : in out UART_Port;
+   Data    : UART_Data_8b;
+   Status  : out UART_Status;
+   Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=ac8689b689b444a5fdbf33f5555fe735b1eca94561dd357ed40beffc1e10e4d4>Transmit</h4><pre class=ada-code-snippet><code>procedure Transmit
+  (This    : in out UART_Port;
+   Data    : UART_Data_9b;
+   Status  : out UART_Status;
+   Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=63e37e8b32e4bdda002d92c236b1745b92eff0fa0d3cf07ea50b786b001afe5a>Transmit_Status</h4><pre class=ada-code-snippet><code>function Transmit_Status
+   (This : UART_Port)
+   return UART_FIFO_Status
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=63347426adc66561d082ba1e1e91fc5588105117a6b879f8a5f6b646384a1b92>UART_Configuration</h4><pre class=ada-code-snippet><code>type UART_Configuration is record
+   Baud         : Hertz := 115_200;
+   Word_Size    : UART_Word_Size := 8;
+   Parity       : Boolean := False;
+   Stop_Bits    : UART_Stop_Bits := 1;
+   Parity_Type  : UART_Parity_Type := Even;
+   Frame_Length : Positive := 1;
+   Loopback     : Boolean := False;
+   Enable_FIFOs : Boolean := True;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Baud<dd><dt>Word_Size<dd><dt>Parity<dd><dt>Stop_Bits<dd><dt>Parity_Type<dd><p>has no effect when Parity = False<dt>Frame_Length<dd><p>Words per frame. Used to calculate break timing.<dt>Loopback<dd><dt>Enable_FIFOs<dd><p>Enable TX and RX FIFOs</dl><h4 id=fc49ba52dacc817e0f0780f02e8df9f9ee1435d6d6f18401604b2f0631e5689f>UART_FIFO_Status</h4><pre class=ada-code-snippet><code>type UART_FIFO_Status is (Empty, Not_Full, Full, Busy, Invalid);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Empty<dd><dt>Not_Full<dd><dt>Full<dd><dt>Busy<dd><dt>Invalid<dd></dl><h4 id=e98740a115b110332211250a039103bb414f7c1bac31ce656576da92b139f6aa>UART_IRQ_Flag</h4><pre class=ada-code-snippet><code>type UART_IRQ_Flag is
+  (Modem_RI, Modem_CTS, Modem_DCD, Modem_DSR,
+   Receive,
+   Transmit,
+   Receive_Timeout,
+   Framing_Error,
+   Parity_Error,
+   Break_Error,
+   Overrun_Error);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Modem_RI<dd><dt>Modem_CTS<dd><dt>Modem_DCD<dd><dt>Modem_DSR<dd><dt>Receive<dd><dt>Transmit<dd><dt>Receive_Timeout<dd><dt>Framing_Error<dd><dt>Parity_Error<dd><dt>Break_Error<dd><dt>Overrun_Error<dd></dl><h4 id=e2d114706cbd8aa72cdbcc0887c0a4f9f7756f766d045c9ba1b43cdb87b42e44>UART_Number</h4><pre class=ada-code-snippet><code>subtype UART_Number is Natural range 0 .. 1;
+</code></pre><h4 id=8bfdebca7fdeecfd13d206440207a5c37584b716705d7b5c5848e3c7b5f77c85>UART_Parity_Type</h4><pre class=ada-code-snippet><code>type UART_Parity_Type is (Even, Odd);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Even<dd><dt>Odd<dd></dl><h4 id=ab9fbcdb521fc74f5c032f63982fda8446848d589aace1200f65ca508e30d966>UART_Port</h4><pre class=ada-code-snippet><code>type UART_Port
+   (Num    : UART_Number;
+    Periph : not null access RP2040_SVD.UART.UART_Peripheral)
+is new HAL.UART.UART_Port with record
+   Config : UART_Configuration;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Num<dd><dt>Periph<dd><dt>Config<dd></dl><h4 id=bbd221efb96aa7569e2de141eb455639a0593378c02fc2d83e3376bc4c88b9bd>UART_Stop_Bits</h4><pre class=ada-code-snippet><code>subtype UART_Stop_Bits is Integer range 1 .. 2;
+</code></pre><h4 id=8e39e263b04379db42c7d7c0e32ea9856626a2504cf8871dd04cb5a874796d9f>UART_Word_Size</h4><pre class=ada-code-snippet><code>subtype UART_Word_Size is Integer range 5 .. 8;
+</code></pre>

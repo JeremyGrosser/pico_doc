@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.SPI</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#f3165bd41549024b048ae51d11728c2bd3ec05a4ca73fd536982aa7f7b84bf29>SPI_FIFO_Status</a><li><a href=#bcf241f3e0702a94b9a85083874a39c5df2a7c650f0d604db760e4696c4ff72e>SPI_IRQ_Flag</a><li><a href=#f2dca2c005482e387e5219250089080866c9853291c2bca0089b09877c73207d>SPI_Phase</a><li><a href=#4d3bb780d3f53b5f1a6ea7fe9da817f3abfc1a09784fb9b6351261e670517a18>SPI_Polarity</a><li><a href=#e4b0a440d534e2654e547e0e9df355b3033d130cd6085806402e6b9898bd4a18>SPI_Role</a></ul><h3>Record Types</h3><ul><li><a href=#d0fd02f1deb7a1330fa47aaf60923f4642df4ddcd61c6ab21f6cca2ac5df21a2>SPI_Configuration</a></ul><h3>Tagged Types</h3><ul><li><a href=#c7be06a49c7d652b71bc52f823229074256ec39dc0375d96d545d6b12277d172>SPI_Port</a></ul><h3>Subtypes</h3><ul><li><a href=#b99e05b2a9556b525691422d485842cb489c351c91acfec326feb87886fa2986>SPI_Number</a></ul><h3>Constants</h3><ul><li><a href=#ec80daa78dadd0043e68f9221e7f4011c09ab2d8483421bcecffb0840486427c>Default_SPI_Configuration</a></ul><h3>Subprograms</h3><ul><li><a href=#e444b936f96b256f69d925789e29e8451d3378cb96637ab1085ae4f77d1092ea>Clear_IRQ</a><li><a href=#e4a1a65a35301205b885e67cb67107f87a7e2c5e577117bbd1b6c44a0ca2ac03>Configure</a><li><a href=#f72cadd3591b2364dce4e3dfdcb0dbd35b315d789b2e838ddc1eae29ee58e1d0>Data_Size</a><li><a href=#2f7a1cbc36f37b4a81c330eb808a2feedaf752a8fe37906a3e541d7e34ef892a>Disable_IRQ</a><li><a href=#1bf53c33ba701bf24196ed88094d5f848ab6809bce3e8b35812faf80c6c38fea>Enable_IRQ</a><li><a href=#48f7f1af971ab6262265909462c9dfd587c3bed04e1c5eac827b7f77cf2bb988>FIFO_Address</a><li><a href=#42726f24e4c4cacf6ea17e31b0f168230a387b857eaef4c5a247e33d535514e3>Masked_IRQ_Status</a><li><a href=#ded8a199397b09dd755838d2b1dbddfb55830796667fd1969783cba7d021109c>Raw_IRQ_Status</a><li><a href=#56d8584b1063fe7c944c399394132653700facf030241fb80692933c8e7a0b95>Receive</a><li><a href=#5aa0981a3b11b7523101cbc34101fc6e49d198d2912ed9db21cf74c742d6129f>Receive</a><li><a href=#21ccf84d54a1f4ca07a7c5fbfc774fd87106bb6393653fe74ab5c297d57b1bac>Receive_Status</a><li><a href=#1b6b83455136f8fbda31ac1e2ccd2a0b582d17e09861b90fa470a43e01d35044>Set_Speed</a><li><a href=#5c529671ca306c0e35a594191ef16e8ff78c282ca1941fc904c23685ab4ab408>Transmit</a><li><a href=#c373585a473ea75b65e2bd9ce204cac7348e4347d0b8458ca66c933d954f0360>Transmit</a><li><a href=#63dda40cdf0ff762f6ebd386aee8b93e366a4b27a893b38a5f6aeba174fa212c>Transmit_Status</a></ul><h2>Description</h2><h4 id=e444b936f96b256f69d925789e29e8451d3378cb96637ab1085ae4f77d1092ea>Clear_IRQ</h4><pre class=ada-code-snippet><code>procedure Clear_IRQ (This : in out SPI_Port;
+                     IRQ  :        SPI_IRQ_Flag)
+</code></pre><p>Clear the given IRQ flag<h5>Parameters</h5><dl><dt>This<dd><dt>IRQ<dd></dl><h4 id=e4a1a65a35301205b885e67cb67107f87a7e2c5e577117bbd1b6c44a0ca2ac03>Configure</h4><pre class=ada-code-snippet><code>procedure Configure
+   (This   : in out SPI_Port;
+    Config : SPI_Configuration := Default_SPI_Configuration)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Config<dd></dl><h4 id=f72cadd3591b2364dce4e3dfdcb0dbd35b315d789b2e838ddc1eae29ee58e1d0>Data_Size</h4><pre class=ada-code-snippet><code>function Data_Size
+   (This : SPI_Port)
+   return SPI_Data_Size
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=ec80daa78dadd0043e68f9221e7f4011c09ab2d8483421bcecffb0840486427c>Default_SPI_Configuration</h4><pre class=ada-code-snippet><code>Default_SPI_Configuration : constant SPI_Configuration := (others => &lt;>);
+</code></pre><h4 id=2f7a1cbc36f37b4a81c330eb808a2feedaf752a8fe37906a3e541d7e34ef892a>Disable_IRQ</h4><pre class=ada-code-snippet><code>procedure Disable_IRQ (This : in out SPI_Port;
+                       IRQ  :        SPI_IRQ_Flag)
+</code></pre><p>Disable the given IRQ flag<h5>Parameters</h5><dl><dt>This<dd><dt>IRQ<dd></dl><h4 id=1bf53c33ba701bf24196ed88094d5f848ab6809bce3e8b35812faf80c6c38fea>Enable_IRQ</h4><pre class=ada-code-snippet><code>procedure Enable_IRQ (This : in out SPI_Port;
+                      IRQ  :        SPI_IRQ_Flag)
+</code></pre><p>Enable the given IRQ flag<h5>Parameters</h5><dl><dt>This<dd><dt>IRQ<dd></dl><h4 id=48f7f1af971ab6262265909462c9dfd587c3bed04e1c5eac827b7f77cf2bb988>FIFO_Address</h4><pre class=ada-code-snippet><code>function FIFO_Address
+   (This : SPI_Port)
+   return System.Address
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=42726f24e4c4cacf6ea17e31b0f168230a387b857eaef4c5a247e33d535514e3>Masked_IRQ_Status</h4><pre class=ada-code-snippet><code>function Masked_IRQ_Status (This : SPI_Port;
+                            IRQ  : SPI_IRQ_Flag)
+                            return Boolean
+</code></pre><p>Return true if the given IRQ flag is signaled and enabled<h5>Parameters</h5><dl><dt>This<dd><dt>IRQ<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=ded8a199397b09dd755838d2b1dbddfb55830796667fd1969783cba7d021109c>Raw_IRQ_Status</h4><pre class=ada-code-snippet><code>function Raw_IRQ_Status (This : SPI_Port;
+                         IRQ  : SPI_IRQ_Flag)
+                         return Boolean
+</code></pre><p>Return true if the given IRQ flag is signaled even if the flag is not enabled.<h5>Parameters</h5><dl><dt>This<dd><dt>IRQ<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=56d8584b1063fe7c944c399394132653700facf030241fb80692933c8e7a0b95>Receive</h4><pre class=ada-code-snippet><code>procedure Receive
+   (This    : in out SPI_Port;
+    Data    : out SPI_Data_16b;
+    Status  : out SPI_Status;
+    Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=5aa0981a3b11b7523101cbc34101fc6e49d198d2912ed9db21cf74c742d6129f>Receive</h4><pre class=ada-code-snippet><code>procedure Receive
+   (This    : in out SPI_Port;
+    Data    : out SPI_Data_8b;
+    Status  : out SPI_Status;
+    Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=21ccf84d54a1f4ca07a7c5fbfc774fd87106bb6393653fe74ab5c297d57b1bac>Receive_Status</h4><pre class=ada-code-snippet><code>function Receive_Status
+   (This : SPI_Port)
+   return SPI_FIFO_Status
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=1b6b83455136f8fbda31ac1e2ccd2a0b582d17e09861b90fa470a43e01d35044>Set_Speed</h4><pre class=ada-code-snippet><code>procedure Set_Speed
+   (This : in out SPI_Port;
+    Baud : Hertz)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Baud<dd></dl><h4 id=d0fd02f1deb7a1330fa47aaf60923f4642df4ddcd61c6ab21f6cca2ac5df21a2>SPI_Configuration</h4><pre class=ada-code-snippet><code>type SPI_Configuration is record
+   Role      : SPI_Role := Master;
+   Baud      : Hertz := 1_000_000;
+   Data_Size : SPI_Data_Size := Data_Size_8b;
+   Polarity  : SPI_Polarity := Active_Low;
+   Phase     : SPI_Phase := Rising_Edge;
+   Blocking  : Boolean := True;
+   Loopback  : Boolean := False;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Role<dd><dt>Baud<dd><dt>Data_Size<dd><dt>Polarity<dd><dt>Phase<dd><dt>Blocking<dd><p>Wait for Transmit FIFO to be empty before returning<dt>Loopback<dd></dl><h4 id=f3165bd41549024b048ae51d11728c2bd3ec05a4ca73fd536982aa7f7b84bf29>SPI_FIFO_Status</h4><pre class=ada-code-snippet><code>type SPI_FIFO_Status is (Empty, Not_Full, Busy, Full, Invalid);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Empty<dd><dt>Not_Full<dd><dt>Busy<dd><dt>Full<dd><dt>Invalid<dd></dl><h4 id=bcf241f3e0702a94b9a85083874a39c5df2a7c650f0d604db760e4696c4ff72e>SPI_IRQ_Flag</h4><pre class=ada-code-snippet><code>type SPI_IRQ_Flag is
+  (Receive_Overrun,
+   Receive_FIFO_Not_Empty,
+   Receive_FIFO_Half_Full,
+   Transmit_FIFO_Half_Empty);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Receive_Overrun<dd><dt>Receive_FIFO_Not_Empty<dd><dt>Receive_FIFO_Half_Full<dd><dt>Transmit_FIFO_Half_Empty<dd></dl><h4 id=b99e05b2a9556b525691422d485842cb489c351c91acfec326feb87886fa2986>SPI_Number</h4><pre class=ada-code-snippet><code>subtype SPI_Number is Natural range 0 .. 1;
+</code></pre><h4 id=f2dca2c005482e387e5219250089080866c9853291c2bca0089b09877c73207d>SPI_Phase</h4><pre class=ada-code-snippet><code>type SPI_Phase is (Rising_Edge, Falling_Edge);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Rising_Edge<dd><dt>Falling_Edge<dd></dl><h4 id=4d3bb780d3f53b5f1a6ea7fe9da817f3abfc1a09784fb9b6351261e670517a18>SPI_Polarity</h4><pre class=ada-code-snippet><code>type SPI_Polarity is (Active_Low, Active_High);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Active_Low<dd><dt>Active_High<dd></dl><h4 id=c7be06a49c7d652b71bc52f823229074256ec39dc0375d96d545d6b12277d172>SPI_Port</h4><pre class=ada-code-snippet><code>type SPI_Port
+   (Num    : SPI_Number;
+    Periph : not null access RP2040_SVD.SPI.SPI_Peripheral)
+is new HAL.SPI.SPI_Port with record
+   Blocking : Boolean := True;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Num<dd><dt>Periph<dd><dt>Blocking<dd></dl><h4 id=e4b0a440d534e2654e547e0e9df355b3033d130cd6085806402e6b9898bd4a18>SPI_Role</h4><pre class=ada-code-snippet><code>type SPI_Role is (Master, Slave);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Master<dd><dt>Slave<dd></dl><h4 id=5c529671ca306c0e35a594191ef16e8ff78c282ca1941fc904c23685ab4ab408>Transmit</h4><pre class=ada-code-snippet><code>procedure Transmit
+   (This    : in out SPI_Port;
+    Data    : SPI_Data_16b;
+    Status  : out SPI_Status;
+    Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=c373585a473ea75b65e2bd9ce204cac7348e4347d0b8458ca66c933d954f0360>Transmit</h4><pre class=ada-code-snippet><code>procedure Transmit
+   (This    : in out SPI_Port;
+    Data    : SPI_Data_8b;
+    Status  : out SPI_Status;
+    Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=63dda40cdf0ff762f6ebd386aee8b93e366a4b27a893b38a5f6aeba174fa212c>Transmit_Status</h4><pre class=ada-code-snippet><code>function Transmit_Status
+   (This : SPI_Port)
+   return SPI_FIFO_Status
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl>

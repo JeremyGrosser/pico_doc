@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.RTC</h1><h2>Entities</h2><h3>Record Types</h3><ul><li><a href=#98ef2a8d4356e839a38e9c44a36a15db9cd0791f0a8101562d368791b8026cf7>RTC_Alarm_Mask</a></ul><h3>Tagged Types</h3><ul><li><a href=#0ded0b0726543d8756bef93319e8c0e59333edd77e14c202b547e771930b1d81>RTC_Device</a></ul><h3>Subprograms</h3><ul><li><a href=#ea87ab9ba62870a663add9e16d77c759a632c605a1c6fd2d6b949d2d4c87a4f0>Alarm</a><li><a href=#c97288d0ed30284ee36848966a55cd6a537ff168fad259294cd84c1bdf4e39e8>Configure</a><li><a href=#8617e793514c599fb24c4fe2f17373a4d47706666af9dd33f9e317ae3b0d733c>Disable_Alarm</a><li><a href=#3ad8a171bd01e82559900f3950596a04a0f4d21cafb7cd9b5d996db1cca369d0>Enable_Alarm</a><li><a href=#e8e1e0c5c250d3edf4214ebb8932d7b79d183d686da8504b2c7625456b15e7ac>Get</a><li><a href=#7545dbc93ce87a5d829912e19a910a9eb13c00dfc4260910fac51afa55f50b2c>Get_Date</a><li><a href=#009dc6a4d8a5e7e60f794a40d7be711a073a81f23c08f581dc84c941ca484b49>Get_Time</a><li><a href=#0ca852a80574e0c718552168cee4b2583f2219ef70646f1f36b8c2f96aed63d6>Pause</a><li><a href=#e36559022c1baffa8eef15980828c2b5d2e39648a4d309e8f91ce3cc7da02df3>Resume</a><li><a href=#093e902c6669355cddcc35547acab0c63ad39383cc386da006a375ec099aa295>Running</a><li><a href=#e16925ac532c99a766217f5c77ef7d3bb11a598ce5bb0c6c9d360dd00658457d>Set</a></ul><h2>Description</h2><h4 id=ea87ab9ba62870a663add9e16d77c759a632c605a1c6fd2d6b949d2d4c87a4f0>Alarm</h4><pre class=ada-code-snippet><code>function Alarm
+   (This : RTC_Device)
+   return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=c97288d0ed30284ee36848966a55cd6a537ff168fad259294cd84c1bdf4e39e8>Configure</h4><pre class=ada-code-snippet><code>procedure Configure
+   (This : in out RTC_Device)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=8617e793514c599fb24c4fe2f17373a4d47706666af9dd33f9e317ae3b0d733c>Disable_Alarm</h4><pre class=ada-code-snippet><code>procedure Disable_Alarm
+   (This : in out RTC_Device)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=3ad8a171bd01e82559900f3950596a04a0f4d21cafb7cd9b5d996db1cca369d0>Enable_Alarm</h4><pre class=ada-code-snippet><code>procedure Enable_Alarm
+   (This : in out RTC_Device;
+    Time : HAL.Real_Time_Clock.RTC_Time;
+    Date : HAL.Real_Time_Clock.RTC_Date;
+    Mask : RTC_Alarm_Mask)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Time<dd><dt>Date<dd><dt>Mask<dd></dl><h4 id=e8e1e0c5c250d3edf4214ebb8932d7b79d183d686da8504b2c7625456b15e7ac>Get</h4><pre class=ada-code-snippet><code>procedure Get
+   (This : in out RTC_Device;
+    Time : out HAL.Real_Time_Clock.RTC_Time;
+    Date : out HAL.Real_Time_Clock.RTC_Date)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Time<dd><dt>Date<dd></dl><h4 id=7545dbc93ce87a5d829912e19a910a9eb13c00dfc4260910fac51afa55f50b2c>Get_Date</h4><pre class=ada-code-snippet><code>function Get_Date
+   (This : RTC_Device)
+   return HAL.Real_Time_Clock.RTC_Date
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=009dc6a4d8a5e7e60f794a40d7be711a073a81f23c08f581dc84c941ca484b49>Get_Time</h4><pre class=ada-code-snippet><code>function Get_Time
+   (This : RTC_Device)
+   return HAL.Real_Time_Clock.RTC_Time
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=0ca852a80574e0c718552168cee4b2583f2219ef70646f1f36b8c2f96aed63d6>Pause</h4><pre class=ada-code-snippet><code>procedure Pause
+   (This : in out RTC_Device)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=e36559022c1baffa8eef15980828c2b5d2e39648a4d309e8f91ce3cc7da02df3>Resume</h4><pre class=ada-code-snippet><code>procedure Resume
+   (This : in out RTC_Device)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=98ef2a8d4356e839a38e9c44a36a15db9cd0791f0a8101562d368791b8026cf7>RTC_Alarm_Mask</h4><pre class=ada-code-snippet><code>type RTC_Alarm_Mask is record
+   Year        : Boolean := True;
+   Month       : Boolean := True;
+   Day         : Boolean := True;
+   Day_Of_Week : Boolean := True;
+   Hour        : Boolean := True;
+   Min         : Boolean := True;
+   Sec         : Boolean := True;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Year<dd><dt>Month<dd><dt>Day<dd><dt>Day_Of_Week<dd><dt>Hour<dd><dt>Min<dd><dt>Sec<dd></dl><h4 id=0ded0b0726543d8756bef93319e8c0e59333edd77e14c202b547e771930b1d81>RTC_Device</h4><pre class=ada-code-snippet><code>type RTC_Device is new HAL.Real_Time_Clock.RTC_Device with null record;
+</code></pre><h4 id=093e902c6669355cddcc35547acab0c63ad39383cc386da006a375ec099aa295>Running</h4><pre class=ada-code-snippet><code>function Running
+   (This : RTC_Device)
+   return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=e16925ac532c99a766217f5c77ef7d3bb11a598ce5bb0c6c9d360dd00658457d>Set</h4><pre class=ada-code-snippet><code>procedure Set
+   (This : in out RTC_Device;
+    Time : HAL.Real_Time_Clock.RTC_Time;
+    Date : HAL.Real_Time_Clock.RTC_Date)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Time<dd><dt>Date<dd></dl>

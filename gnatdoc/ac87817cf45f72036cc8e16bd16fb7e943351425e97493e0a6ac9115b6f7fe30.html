@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.PSM</h1><h2>Entities</h2><h3>Array Types</h3><ul><li><a href=#30529f1624c8574470d0af282a7d6991692ef8f4261cff2f16f9599b9d503a25>DONE_proc_Field_Array</a><li><a href=#a1f52d5a019278d9a62af23ea7109ce59ad4dac76a46aa6a22805b97c5578386>DONE_sram_Field_Array</a><li><a href=#065c4280f6ecca1103a0cdf42d7ddb66eee032e4538fb312602248c7be1a7abe>FRCE_OFF_proc_Field_Array</a><li><a href=#8d0e0301d050c53e106b91dfc43b9a2746203e9b4cbb746290044832e66a9d30>FRCE_OFF_sram_Field_Array</a><li><a href=#0ee2708eb27b0d13e83aed0446d2cd6b7c813fb6fc06b525e7b3f524c4722ff6>FRCE_ON_proc_Field_Array</a><li><a href=#64926632ca608cf8db62673733883f520fe5b0e53ab48595c1bbd2b432a4c347>FRCE_ON_sram_Field_Array</a><li><a href=#1d1e8765c999df33fed92790136794355d94e5b9e3c5de1c7802669e44cbbc33>WDSEL_proc_Field_Array</a><li><a href=#de27e109e243f5fc419447e5d5bd46085c6e889803ea5b91d2af4e7c4c38dfa3>WDSEL_sram_Field_Array</a></ul><h3>Record Types</h3><ul><li><a href=#0aa72736f468321cc7ae8c5fc47b4dfc64dbc877428fc2b61eaef56189adbb0b>DONE_proc_Field</a><li><a href=#44a8dacbf62ff92a53dacbe71cd839e8f295eaadc4aad547e6bad5a456524cbd>DONE_Register</a><li><a href=#eb337fb989837892c40fae8413eaeeb525db94039ca88b0925727400b8591244>DONE_sram_Field</a><li><a href=#3c5fb7c19ebce303e5e41e2c2739479897cf2f805a974c4b3b167138a36b5a0e>FRCE_OFF_proc_Field</a><li><a href=#83165d89dc6c9e28863c530a708e4202b4a446d38162fe445f1acf37386abb97>FRCE_OFF_Register</a><li><a href=#1073c0f82ba19442ffa2df37606d7d266e1a76f13f6b52a5f3e2ef6da573f509>FRCE_OFF_sram_Field</a><li><a href=#82f74ef7459e70ed1a9b23e4c77ea844a14f13fbedcc792730242566dbaaf33b>FRCE_ON_proc_Field</a><li><a href=#0fde88138532663d8e1dff967f863b6340a31bd13441ef1b60ccdf58fc691ec5>FRCE_ON_Register</a><li><a href=#7d7b95dc0b6889b4dc6cf480bac1fdc2da152ad339b2ca26914dda8e8e63b375>FRCE_ON_sram_Field</a><li><a href=#14d16c478aa495c9b1548b90178a4e7c4752e1b9fa610120426270763dcc8ba5>PSM_Peripheral</a><li><a href=#a46056e3b8f72780329666965fa8e78d95c034ba6e916779e73e16a49282ab34>WDSEL_proc_Field</a><li><a href=#7838676451b371a0a65101ae700a02496671082083659d3ad6d9561cf23aa905>WDSEL_Register</a><li><a href=#ed2932206724b53a0e58dd8bc6f098bcde760885e3bbffdf75c0bdcd4c440751>WDSEL_sram_Field</a></ul><h3>Variables</h3><ul><li><a href=#0dd475a35ef48086ec6f79deec7d65b7d388458a7277de196dc411523b368dac>PSM_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=0aa72736f468321cc7ae8c5fc47b4dfc64dbc877428fc2b61eaef56189adbb0b>DONE_proc_Field</h4><pre class=ada-code-snippet><code>type DONE_proc_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : DONE_proc_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=30529f1624c8574470d0af282a7d6991692ef8f4261cff2f16f9599b9d503a25>DONE_proc_Field_Array</h4><pre class=ada-code-snippet><code>type DONE_proc_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=44a8dacbf62ff92a53dacbe71cd839e8f295eaadc4aad547e6bad5a456524cbd>DONE_Register</h4><pre class=ada-code-snippet><code>type DONE_Register is record
+   rosc                : Boolean;
+   xosc                : Boolean;
+   clocks              : Boolean;
+   resets              : Boolean;
+   busfabric           : Boolean;
+   rom                 : Boolean;
+   sram                : DONE_sram_Field;
+   xip                 : Boolean;
+   vreg_and_chip_reset : Boolean;
+   sio                 : Boolean;
+   proc                : DONE_proc_Field;
+   Reserved_17_31      : HAL.UInt15;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>rosc<dd><dt>xosc<dd><dt>clocks<dd><dt>resets<dd><dt>busfabric<dd><dt>rom<dd><dt>sram<dd><dt>xip<dd><dt>vreg_and_chip_reset<dd><dt>sio<dd><dt>proc<dd><dt>Reserved_17_31<dd></dl><h4 id=eb337fb989837892c40fae8413eaeeb525db94039ca88b0925727400b8591244>DONE_sram_Field</h4><pre class=ada-code-snippet><code>type DONE_sram_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt6;
+      when True =>
+         Arr : DONE_sram_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 6;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=a1f52d5a019278d9a62af23ea7109ce59ad4dac76a46aa6a22805b97c5578386>DONE_sram_Field_Array</h4><pre class=ada-code-snippet><code>type DONE_sram_Field_Array is array (0 .. 5) of Boolean
+  with Component_Size => 1, Size => 6;
+</code></pre><h4 id=3c5fb7c19ebce303e5e41e2c2739479897cf2f805a974c4b3b167138a36b5a0e>FRCE_OFF_proc_Field</h4><pre class=ada-code-snippet><code>type FRCE_OFF_proc_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : FRCE_OFF_proc_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=065c4280f6ecca1103a0cdf42d7ddb66eee032e4538fb312602248c7be1a7abe>FRCE_OFF_proc_Field_Array</h4><pre class=ada-code-snippet><code>type FRCE_OFF_proc_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=83165d89dc6c9e28863c530a708e4202b4a446d38162fe445f1acf37386abb97>FRCE_OFF_Register</h4><pre class=ada-code-snippet><code>type FRCE_OFF_Register is record
+   rosc                : Boolean := False;
+   xosc                : Boolean := False;
+   clocks              : Boolean := False;
+   resets              : Boolean := False;
+   busfabric           : Boolean := False;
+   rom                 : Boolean := False;
+   sram                : FRCE_OFF_sram_Field :=
+                          (As_Array => False, Val => 16#0#);
+   xip                 : Boolean := False;
+   vreg_and_chip_reset : Boolean := False;
+   sio                 : Boolean := False;
+   proc                : FRCE_OFF_proc_Field :=
+                          (As_Array => False, Val => 16#0#);
+   Reserved_17_31      : HAL.UInt15 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>rosc<dd><dt>xosc<dd><dt>clocks<dd><dt>resets<dd><dt>busfabric<dd><dt>rom<dd><dt>sram<dd><dt>xip<dd><dt>vreg_and_chip_reset<dd><dt>sio<dd><dt>proc<dd><dt>Reserved_17_31<dd></dl><h4 id=1073c0f82ba19442ffa2df37606d7d266e1a76f13f6b52a5f3e2ef6da573f509>FRCE_OFF_sram_Field</h4><pre class=ada-code-snippet><code>type FRCE_OFF_sram_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt6;
+      when True =>
+         Arr : FRCE_OFF_sram_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 6;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=8d0e0301d050c53e106b91dfc43b9a2746203e9b4cbb746290044832e66a9d30>FRCE_OFF_sram_Field_Array</h4><pre class=ada-code-snippet><code>type FRCE_OFF_sram_Field_Array is array (0 .. 5) of Boolean
+  with Component_Size => 1, Size => 6;
+</code></pre><h4 id=82f74ef7459e70ed1a9b23e4c77ea844a14f13fbedcc792730242566dbaaf33b>FRCE_ON_proc_Field</h4><pre class=ada-code-snippet><code>type FRCE_ON_proc_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : FRCE_ON_proc_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=0ee2708eb27b0d13e83aed0446d2cd6b7c813fb6fc06b525e7b3f524c4722ff6>FRCE_ON_proc_Field_Array</h4><pre class=ada-code-snippet><code>type FRCE_ON_proc_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=0fde88138532663d8e1dff967f863b6340a31bd13441ef1b60ccdf58fc691ec5>FRCE_ON_Register</h4><pre class=ada-code-snippet><code>type FRCE_ON_Register is record
+   rosc                : Boolean := False;
+   xosc                : Boolean := False;
+   clocks              : Boolean := False;
+   resets              : Boolean := False;
+   busfabric           : Boolean := False;
+   rom                 : Boolean := False;
+   sram                : FRCE_ON_sram_Field :=
+                          (As_Array => False, Val => 16#0#);
+   xip                 : Boolean := False;
+   vreg_and_chip_reset : Boolean := False;
+   sio                 : Boolean := False;
+   proc                : FRCE_ON_proc_Field :=
+                          (As_Array => False, Val => 16#0#);
+   Reserved_17_31      : HAL.UInt15 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>rosc<dd><dt>xosc<dd><dt>clocks<dd><dt>resets<dd><dt>busfabric<dd><dt>rom<dd><dt>sram<dd><dt>xip<dd><dt>vreg_and_chip_reset<dd><dt>sio<dd><dt>proc<dd><dt>Reserved_17_31<dd></dl><h4 id=7d7b95dc0b6889b4dc6cf480bac1fdc2da152ad339b2ca26914dda8e8e63b375>FRCE_ON_sram_Field</h4><pre class=ada-code-snippet><code>type FRCE_ON_sram_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt6;
+      when True =>
+         Arr : FRCE_ON_sram_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 6;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=64926632ca608cf8db62673733883f520fe5b0e53ab48595c1bbd2b432a4c347>FRCE_ON_sram_Field_Array</h4><pre class=ada-code-snippet><code>type FRCE_ON_sram_Field_Array is array (0 .. 5) of Boolean
+  with Component_Size => 1, Size => 6;
+</code></pre><h4 id=0dd475a35ef48086ec6f79deec7d65b7d388458a7277de196dc411523b368dac>PSM_Periph</h4><pre class=ada-code-snippet><code>PSM_Periph : aliased PSM_Peripheral
+  with Import, Address => PSM_Base;
+</code></pre><h4 id=14d16c478aa495c9b1548b90178a4e7c4752e1b9fa610120426270763dcc8ba5>PSM_Peripheral</h4><pre class=ada-code-snippet><code>type PSM_Peripheral is record
+   FRCE_ON  : aliased FRCE_ON_Register;
+   FRCE_OFF : aliased FRCE_OFF_Register;
+   WDSEL    : aliased WDSEL_Register;
+   DONE     : aliased DONE_Register;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>FRCE_ON<dd><dt>FRCE_OFF<dd><dt>WDSEL<dd><dt>DONE<dd></dl><h4 id=a46056e3b8f72780329666965fa8e78d95c034ba6e916779e73e16a49282ab34>WDSEL_proc_Field</h4><pre class=ada-code-snippet><code>type WDSEL_proc_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : WDSEL_proc_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=1d1e8765c999df33fed92790136794355d94e5b9e3c5de1c7802669e44cbbc33>WDSEL_proc_Field_Array</h4><pre class=ada-code-snippet><code>type WDSEL_proc_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=7838676451b371a0a65101ae700a02496671082083659d3ad6d9561cf23aa905>WDSEL_Register</h4><pre class=ada-code-snippet><code>type WDSEL_Register is record
+   rosc                : Boolean := False;
+   xosc                : Boolean := False;
+   clocks              : Boolean := False;
+   resets              : Boolean := False;
+   busfabric           : Boolean := False;
+   rom                 : Boolean := False;
+   sram                : WDSEL_sram_Field :=
+                          (As_Array => False, Val => 16#0#);
+   xip                 : Boolean := False;
+   vreg_and_chip_reset : Boolean := False;
+   sio                 : Boolean := False;
+   proc                : WDSEL_proc_Field :=
+                          (As_Array => False, Val => 16#0#);
+   Reserved_17_31      : HAL.UInt15 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>rosc<dd><dt>xosc<dd><dt>clocks<dd><dt>resets<dd><dt>busfabric<dd><dt>rom<dd><dt>sram<dd><dt>xip<dd><dt>vreg_and_chip_reset<dd><dt>sio<dd><dt>proc<dd><dt>Reserved_17_31<dd></dl><h4 id=ed2932206724b53a0e58dd8bc6f098bcde760885e3bbffdf75c0bdcd4c440751>WDSEL_sram_Field</h4><pre class=ada-code-snippet><code>type WDSEL_sram_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt6;
+      when True =>
+         Arr : WDSEL_sram_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 6;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=de27e109e243f5fc419447e5d5bd46085c6e889803ea5b91d2af4e7c4c38dfa3>WDSEL_sram_Field_Array</h4><pre class=ada-code-snippet><code>type WDSEL_sram_Field_Array is array (0 .. 5) of Boolean
+  with Component_Size => 1, Size => 6;
+</code></pre>

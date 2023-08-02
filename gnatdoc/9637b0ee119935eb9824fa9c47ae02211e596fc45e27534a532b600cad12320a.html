@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.ROM</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#7452ab39a48f5f469eaf54148fe2ad6465245f77cae6adc32021431838e3cbf7>Short_Address</a><li><a href=#dedaf6bfeb4d3cc4c8efcaeb9f3727df9bde2336710a49a289b8cb9b9facc63a>Table_Code</a></ul><h3>Array Types</h3><ul><li><a href=#ba0507e3c7ca536f3d04b569bc057cd022bbb122fe2e527587c6ad7a68de0de4>Magic_Field</a></ul><h3>Record Types</h3><ul><li><a href=#819f9134a8b37bbae0198fde066fc3ecaa1b18bb2dc0c8d6590b651cd76f2197>Header_Fields</a></ul><h3>Constants</h3><ul><li><a href=#1d4504233e714b6a9e7d8e29ecab4e80405789d37027de129d840d0e5f189356>Header</a></ul><h3>Subprograms</h3><ul><li><a href=#90d97bf9b4243d5dc3ae993cca6e83da4eac2189c102642f592bf61e5e975518>clz32</a><li><a href=#28e6a94a71b0ec17163508a09d10bc0ce3a93ea5f0c3c9e982513ef9fe1b4356>connect_internal_flash</a><li><a href=#3cf4ffddd55087ddf4165387b5891567f0b51700112098a87cff8c1ea7329feb>copyright_string</a><li><a href=#33508251c412ca2211ec6c7fdc430b7a91a2aac6ad725ac7166cb7a4b8dfc342>ctz32</a><li><a href=#2dc6178112cc00a9c14cc7278f7d6396101007939f3be73a494ed3d5342d8af9>debug_trampoline</a><li><a href=#ee60bebaf683e3ffe8f51a9433934d712018f5bfdb329c5af19497cd987493b3>flash_enter_cmd_xip</a><li><a href=#0088c1ab55abf975f8d4663844670ef403904d66bc3bdd18552a18f3c5e0e9ab>flash_exit_xip</a><li><a href=#c66a1a282cc48ac5fd1bb24f27cf952d8413643a6598670331e6d8264de85d30>flash_flush_cache</a><li><a href=#01a54ba19f37338c2702eb0e8990056964c62bfebc139a819ce8b0768cb58bcd>flash_range_erase</a><li><a href=#52831b5c87129d96021a49c43ac6250b9997b9f89dd8582ca568a80c1e30665e>flash_range_program</a><li><a href=#9c504f737f466b6b5d8f3f5bd0d5fec249eb34c9ab244b0bec6ca7595112d6ed>git_revision</a><li><a href=#8b24d11f4144ee7beb22a9588cb5d76e6cfcb490e9cd9acf4112121ac83a1842>memset</a><li><a href=#99557b18c8107f69a7f283e1532d48d9f559c1255b29d83ad9d76b55a0ca0066>memset4</a><li><a href=#d9e657103c168dbb49a633aa59243e1e6eb21a4a39e813b202d44a5f561086dd>popcount32</a><li><a href=#e2a0d44d391f978429083a14c6960e479e7e0c8be18b4105becb6537577bc14a>reset_to_usb_boot</a><li><a href=#f920cac2daceb93f18b1b72bbec916b75aeffdc955050af875d2a006f2b34adf>reverse32</a><li><a href=#2f9e7724b8fc1313d5e1f6b7f607ea633bb765221f81c993044e3f4a20952c68>ROM_Data_Lookup</a><li><a href=#b0abda59f389de433b8e0edcf635a0ae27ffb2aa3545ce8732e9222ece5a532a>ROM_Func_Lookup</a><li><a href=#e0d4b32779a4d2ef44963265a8a2d8ab9e0a4285ef881d9559bd03a5d86788cf>ROM_Table_Code</a><li><a href=#77aa072bf90a625a69c0e58de41a8372dc3be8c18f484bb8e0d08e883e4e79d7>ROM_Table_Lookup</a><li><a href=#3f38269cdd366b6af0b56b3402a1a29b05e8701b562a54a96528e206e1265753>wait_for_vector</a></ul><h2>Description</h2><h4 id=90d97bf9b4243d5dc3ae993cca6e83da4eac2189c102642f592bf61e5e975518>clz32</h4><pre class=ada-code-snippet><code>function clz32
+   (Value : Unsigned_32)
+    return Unsigned_32
+</code></pre><h5>Parameters</h5><dl><dt>Value<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=28e6a94a71b0ec17163508a09d10bc0ce3a93ea5f0c3c9e982513ef9fe1b4356>connect_internal_flash</h4><pre class=ada-code-snippet><code>procedure connect_internal_flash
+</code></pre><h4 id=3cf4ffddd55087ddf4165387b5891567f0b51700112098a87cff8c1ea7329feb>copyright_string</h4><pre class=ada-code-snippet><code>function copyright_string
+   return String
+</code></pre><h5>Return Value</h5><dl><dd></dl><h4 id=33508251c412ca2211ec6c7fdc430b7a91a2aac6ad725ac7166cb7a4b8dfc342>ctz32</h4><pre class=ada-code-snippet><code>function ctz32
+   (Value : Unsigned_32)
+    return Unsigned_32
+</code></pre><h5>Parameters</h5><dl><dt>Value<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=2dc6178112cc00a9c14cc7278f7d6396101007939f3be73a494ed3d5342d8af9>debug_trampoline</h4><pre class=ada-code-snippet><code>procedure debug_trampoline
+</code></pre><h4 id=ee60bebaf683e3ffe8f51a9433934d712018f5bfdb329c5af19497cd987493b3>flash_enter_cmd_xip</h4><pre class=ada-code-snippet><code>procedure flash_enter_cmd_xip
+</code></pre><h4 id=0088c1ab55abf975f8d4663844670ef403904d66bc3bdd18552a18f3c5e0e9ab>flash_exit_xip</h4><pre class=ada-code-snippet><code>procedure flash_exit_xip
+</code></pre><h4 id=c66a1a282cc48ac5fd1bb24f27cf952d8413643a6598670331e6d8264de85d30>flash_flush_cache</h4><pre class=ada-code-snippet><code>procedure flash_flush_cache
+</code></pre><h4 id=01a54ba19f37338c2702eb0e8990056964c62bfebc139a819ce8b0768cb58bcd>flash_range_erase</h4><pre class=ada-code-snippet><code>procedure flash_range_erase
+   (Addr       : Unsigned_32;
+    Count      : Interfaces.C.size_t;
+    Block_Size : Unsigned_32;
+    Block_Cmd  : Unsigned_8)
+</code></pre><h5>Parameters</h5><dl><dt>Addr<dd><dt>Count<dd><dt>Block_Size<dd><dt>Block_Cmd<dd></dl><h4 id=52831b5c87129d96021a49c43ac6250b9997b9f89dd8582ca568a80c1e30665e>flash_range_program</h4><pre class=ada-code-snippet><code>procedure flash_range_program
+   (Addr       : System.Address;
+    Data       : System.Address;
+    Count      : Interfaces.C.size_t)
+</code></pre><h5>Parameters</h5><dl><dt>Addr<dd><dt>Data<dd><dt>Count<dd></dl><h4 id=9c504f737f466b6b5d8f3f5bd0d5fec249eb34c9ab244b0bec6ca7595112d6ed>git_revision</h4><pre class=ada-code-snippet><code>function git_revision
+   return Unsigned_32
+</code></pre><h5>Return Value</h5><dl><dd></dl><h4 id=1d4504233e714b6a9e7d8e29ecab4e80405789d37027de129d840d0e5f189356>Header</h4><pre class=ada-code-snippet><code>Header : constant Header_Fields
+   with Import, Address => System'To_Address (16#0000_0000#);
+</code></pre><h4 id=819f9134a8b37bbae0198fde066fc3ecaa1b18bb2dc0c8d6590b651cd76f2197>Header_Fields</h4><pre class=ada-code-snippet><code>type Header_Fields is record
+   Initial_SP        : System.Address;
+   Reset_Handler     : System.Address;
+   NMI_Handler       : System.Address;
+   HardFault_Handler : System.Address;
+   Magic             : Magic_Field;
+   Version           : Unsigned_8;
+   Func_Table        : Short_Address;
+   Data_Table        : Short_Address;
+   Table_Lookup      : Short_Address;
+end record
+   with Size => 208;
+</code></pre><h5>Record fields</h5><dl><dt>Initial_SP<dd><dt>Reset_Handler<dd><dt>NMI_Handler<dd><dt>HardFault_Handler<dd><dt>Magic<dd><dt>Version<dd><dt>Func_Table<dd><dt>Data_Table<dd><dt>Table_Lookup<dd></dl><h4 id=ba0507e3c7ca536f3d04b569bc057cd022bbb122fe2e527587c6ad7a68de0de4>Magic_Field</h4><pre class=ada-code-snippet><code>type Magic_Field is array (1 .. 3) of Unsigned_8;
+</code></pre><p>Magic should always be ('M', 'u', 1)<h4 id=8b24d11f4144ee7beb22a9588cb5d76e6cfcb490e9cd9acf4112121ac83a1842>memset</h4><pre class=ada-code-snippet><code>function memset
+   (Ptr : System.Address;
+    C   : Unsigned_8;
+    N   : Unsigned_32)
+    return System.Address
+</code></pre><h5>Parameters</h5><dl><dt>Ptr<dd><dt>C<dd><dt>N<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=99557b18c8107f69a7f283e1532d48d9f559c1255b29d83ad9d76b55a0ca0066>memset4</h4><pre class=ada-code-snippet><code>function memset4
+   (Ptr : System.Address;
+    C   : Unsigned_8;
+    N   : Unsigned_32)
+    return System.Address
+</code></pre><h5>Parameters</h5><dl><dt>Ptr<dd><dt>C<dd><dt>N<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=d9e657103c168dbb49a633aa59243e1e6eb21a4a39e813b202d44a5f561086dd>popcount32</h4><pre class=ada-code-snippet><code>function popcount32
+   (Value : Unsigned_32)
+    return Unsigned_32
+</code></pre><h5>Parameters</h5><dl><dt>Value<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=e2a0d44d391f978429083a14c6960e479e7e0c8be18b4105becb6537577bc14a>reset_to_usb_boot</h4><pre class=ada-code-snippet><code>procedure reset_to_usb_boot
+   (GPIO_Activity_Pin_Mask : Unsigned_32;
+    Disable_Interface_Mask : Unsigned_32)
+</code></pre><h5>Parameters</h5><dl><dt>GPIO_Activity_Pin_Mask<dd><dt>Disable_Interface_Mask<dd></dl><h4 id=f920cac2daceb93f18b1b72bbec916b75aeffdc955050af875d2a006f2b34adf>reverse32</h4><pre class=ada-code-snippet><code>function reverse32
+   (Value : Unsigned_32)
+    return Unsigned_32
+</code></pre><h5>Parameters</h5><dl><dt>Value<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=2f9e7724b8fc1313d5e1f6b7f607ea633bb765221f81c993044e3f4a20952c68>ROM_Data_Lookup</h4><pre class=ada-code-snippet><code>function ROM_Data_Lookup
+   (Code : Table_Code)
+   return System.Address
+</code></pre><h5>Parameters</h5><dl><dt>Code<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=b0abda59f389de433b8e0edcf635a0ae27ffb2aa3545ce8732e9222ece5a532a>ROM_Func_Lookup</h4><pre class=ada-code-snippet><code>function ROM_Func_Lookup
+   (Code : Table_Code)
+   return System.Address
+</code></pre><h5>Parameters</h5><dl><dt>Code<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=e0d4b32779a4d2ef44963265a8a2d8ab9e0a4285ef881d9559bd03a5d86788cf>ROM_Table_Code</h4><pre class=ada-code-snippet><code>function ROM_Table_Code
+   (C1, C2 : Character)
+   return Table_Code
+</code></pre><h5>Parameters</h5><dl><dt>C1<dd><dt>C2<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=77aa072bf90a625a69c0e58de41a8372dc3be8c18f484bb8e0d08e883e4e79d7>ROM_Table_Lookup</h4><pre class=ada-code-snippet><code>function ROM_Table_Lookup
+   (Table : System.Address;
+    Code  : Table_Code)
+    return System.Address
+</code></pre><h5>Parameters</h5><dl><dt>Table<dd><dt>Code<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=7452ab39a48f5f469eaf54148fe2ad6465245f77cae6adc32021431838e3cbf7>Short_Address</h4><pre class=ada-code-snippet><code>type Short_Address is new Unsigned_16;
+</code></pre><p>Some lookup tables use halfwords<h4 id=dedaf6bfeb4d3cc4c8efcaeb9f3727df9bde2336710a49a289b8cb9b9facc63a>Table_Code</h4><pre class=ada-code-snippet><code>type Table_Code is new Unsigned_32;
+</code></pre><p>Function and Data table entries are indexed by a two-character mnemonic, stored in a 32-bit field. The top two bytes are always zero, presumably reserved for future use.<h4 id=3f38269cdd366b6af0b56b3402a1a29b05e8701b562a54a96528e206e1265753>wait_for_vector</h4><pre class=ada-code-snippet><code>procedure wait_for_vector
+</code></pre>

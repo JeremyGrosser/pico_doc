@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.I2C</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#675b030c056362f24e8c6f8389b4c33165c5d3f2c2cead96287f17dea846ae40>I2C_Role</a><li><a href=#3cf056d4dcdaba5b7e2d68913d1944f4a42871b581e22fdadefa89bbb46a0f2d>I2C_Status</a><li><a href=#acef4991a53c31213a1b8fbc155fd4cc1370526964b2fef88bdcfd9db12b5159>Nanoseconds</a></ul><h3>Record Types</h3><ul><li><a href=#34c5b70431306014f39cc57af37ee36ecf752c8785aa13373a0e876cdd093c06>I2C_Abort_Source</a><li><a href=#8d9f297ffa6dd9ea08aab4de79643630912ef04a3933aa13e63d164aff618f87>I2C_Config</a><li><a href=#5b978af648fbe8d5588e03780ad08aec78d99d9beb22118b8822e315affeae54>I2C_State</a><li><a href=#eb0abae98803070b9442c2cf00d629d3c0098c4a7a190b5d8e61fcf64247179d>I2C_Timing</a></ul><h3>Tagged Types</h3><ul><li><a href=#4717148f234273d2b14b68a2a2798210a0cebfb5f101269caca8cada1cc72cac>I2C_Port</a></ul><h3>Subtypes</h3><ul><li><a href=#3f8c19f4a30227b4dabff8dd6026b654451dd35010a8968c63b1e6f3a431b12a>I2C_Number</a></ul><h3>Constants</h3><ul><li><a href=#e7a8857d8b228a32309e84d5be9660140bf7d6eada6645f821f8612f1015beff>Fast_Mode</a><li><a href=#1cb7e34a7ea5bd9746f79990e3464233cf8137c7acc1269222e68d4dd34149e1>Fast_Mode_Plus</a><li><a href=#244d0910557a5abfad7b14a1eb00f9ef3c8557343d920e36517360cfa3e8b07b>Standard_Mode</a></ul><h3>Subprograms</h3><ul><li><a href=#ee2cfed2803c28b33e1673637b889ca8e0c9fde6b414da779e24955ff86fabe6>Abort_Write</a><li><a href=#58311b4b5a41a5524e0d282367dec2f58c0dd26ae7dea0b9a7861ee455c7f4e1>Clear_Error</a><li><a href=#a6dff2c4b96988faf409ac6ee2bf9cbd6351a8997bcabc73aea7cd2e299b27f9>Configure</a><li><a href=#8e57d2304e6543ba6a01eeb4acd3efd7943065c49d129cdd84d0b78fbf1d2526>Disable</a><li><a href=#81900d296e5ee9ca1c3c75e8ed059eca27723d2cec7078c9e4288041d50a65d2>Enable</a><li><a href=#3416c39e992083c9be5e86f2e4ff7d8053b6ce91b368d810a8cc8b5f1bb0175f>Enabled</a><li><a href=#e485e6bcf7330c417c31a0aa66c7ff5b9147b175a3274be3571f753907752af8>Read</a><li><a href=#6b209df202a084fcb891dd28b52cfe51bbea2574727053ac144ce8f5bf248f89>Read_Ready</a><li><a href=#bd8144b2d0b9f991392f4c6991ca1102b049cc72c3f993e569e172f0fb442456>Set_Address</a><li><a href=#06df307a7754cdf7ad9e518ee78f0d49847c42d6d13473423fef073e2f3e6c04>Set_Address</a><li><a href=#1bbfd55c2a7b225e0f120f2e80339ef90d0a77e53e58ba273ec81b6a1045fd1a>Set_Timing</a><li><a href=#972a1eea6e058d40e4bd86f59a86c7d317948ca98a5844c2c346ff1b8c1ea048>Start_Read</a><li><a href=#8e463af16f460c42863726304b9759a608cc15ba1f31519103567a6fb99815b6>Start_Write</a><li><a href=#71fbb26bf319788a82df1c59744d5772bfbbfe633777e8a6b25c76a793430a1c>State</a><li><a href=#c57f9919b67ed648edfca00060d478ecbd83267aa08b793775c1cfb6a5837557>Write</a><li><a href=#9334c6fb14b912e1f954537197254618ec2a6dccdad3280cee3a3c65c3272226>Write_Ready</a></ul><h2>Description</h2><h4 id=ee2cfed2803c28b33e1673637b889ca8e0c9fde6b414da779e24955ff86fabe6>Abort_Write</h4><pre class=ada-code-snippet><code>procedure Abort_Write
+   (This : in out I2C_Port)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=58311b4b5a41a5524e0d282367dec2f58c0dd26ae7dea0b9a7861ee455c7f4e1>Clear_Error</h4><pre class=ada-code-snippet><code>procedure Clear_Error
+   (This : in out I2C_Port)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=a6dff2c4b96988faf409ac6ee2bf9cbd6351a8997bcabc73aea7cd2e299b27f9>Configure</h4><pre class=ada-code-snippet><code>procedure Configure
+   (This   : in out I2C_Port;
+    Config : I2C_Config)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Config<dd></dl><h4 id=8e57d2304e6543ba6a01eeb4acd3efd7943065c49d129cdd84d0b78fbf1d2526>Disable</h4><pre class=ada-code-snippet><code>procedure Disable
+   (This     : in out I2C_Port;
+    Deadline : RP.Timer.Time := RP.Timer.Time'Last)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Deadline<dd></dl><h4 id=81900d296e5ee9ca1c3c75e8ed059eca27723d2cec7078c9e4288041d50a65d2>Enable</h4><pre class=ada-code-snippet><code>procedure Enable
+   (This     : in out I2C_Port;
+    Deadline : RP.Timer.Time := RP.Timer.Time'Last)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Deadline<dd></dl><h4 id=3416c39e992083c9be5e86f2e4ff7d8053b6ce91b368d810a8cc8b5f1bb0175f>Enabled</h4><pre class=ada-code-snippet><code>function Enabled
+   (This : I2C_Port)
+   return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=e7a8857d8b228a32309e84d5be9660140bf7d6eada6645f821f8612f1015beff>Fast_Mode</h4><pre class=ada-code-snippet><code>Fast_Mode      : constant I2C_Timing :=
+   (High   => 1_160,
+    Low    => 1_330,
+    Hold   => 800,
+    Spike  => 50,
+    others => &lt;>);
+</code></pre><h4 id=1cb7e34a7ea5bd9746f79990e3464233cf8137c7acc1269222e68d4dd34149e1>Fast_Mode_Plus</h4><pre class=ada-code-snippet><code>Fast_Mode_Plus : constant I2C_Timing :=
+   (High   => 400,
+    Low    => 600,
+    Hold   => 200,
+    Spike  => 50,
+    others => &lt;>);
+</code></pre><h4 id=34c5b70431306014f39cc57af37ee36ecf752c8785aa13373a0e876cdd093c06>I2C_Abort_Source</h4><pre class=ada-code-snippet><code>type I2C_Abort_Source is record
+   No_Ack_Addr_7b          : Boolean := False;
+   No_Ack_Addr_10b_1       : Boolean := False;
+   No_Ack_Addr_10b_2       : Boolean := False;
+   No_Ack_Transmit         : Boolean := False;
+   No_Ack_General_Call     : Boolean := False;
+   Invalid_General_Call    : Boolean := False;
+   Invalid_Ack_High_Speed  : Boolean := False;
+   Invalid_Ack_Start       : Boolean := False;
+   No_Restart_High_Speed   : Boolean := False;
+   No_Restart_Start        : Boolean := False;
+   No_Restart_10b_Read     : Boolean := False;
+   Not_Controller_Mode     : Boolean := False;
+   Arbitration_Lost        : Boolean := False;
+   Target_Transmit_Abort   : Boolean := False;
+   Target_Arbitration_Lost : Boolean := False;
+   Invalid_Target_Read     : Boolean := False;
+   Transfer_Aborted        : Boolean := False;
+   Transmit_Flush_Count    : HAL.UInt9 := 0;
+end record
+   with Size => 32;
+</code></pre><h5>Record fields</h5><dl><dt>No_Ack_Addr_7b<dd><p>7 bit address unacknowledged<dt>No_Ack_Addr_10b_1<dd><p>10 bit address unacknowledged (first byte)<dt>No_Ack_Addr_10b_2<dd><p>10 bit address unacknowledged (second byte)<dt>No_Ack_Transmit<dd><p>Upon controller transmit, the address was acknowledged, but a data byte was not.<dt>No_Ack_General_Call<dd><p>No target acknowledged a general call<dt>Invalid_General_Call<dd><p>General call command with read bit set<dt>Invalid_Ack_High_Speed<dd><p>High speed mode was selected, but an ack was received before the end of the transfer.<dt>Invalid_Ack_Start<dd><p>A start byte was acknowledged, but only data should be acknowledged.<dt>No_Restart_High_Speed<dd><p>High speed mode was selected but restart is not enabled<dt>No_Restart_Start<dd><p>Attempting to send a start byte but restart is not enabled<dt>No_Restart_10b_Read<dd><p>10 bit read attempted but restart is not enabled<dt>Not_Controller_Mode<dd><p>A controller operation was attempted while in target mode<dt>Arbitration_Lost<dd><p>Something pulled SDA low before being addressed by the controller<dt>Target_Transmit_Abort<dd><p>A target read command was issued while there was still data in the transmit FIFO, transmit aborted.<dt>Target_Arbitration_Lost<dd><p>Something pulled SDA to the wrong state while transmitting in target mode<dt>Invalid_Target_Read<dd><p>The read bit was set in the CMD register during a target transmit<dt>Transfer_Aborted<dd><p>User aborted a transfer in controller mode<dt>Transmit_Flush_Count<dd></dl><h4 id=8d9f297ffa6dd9ea08aab4de79643630912ef04a3933aa13e63d164aff618f87>I2C_Config</h4><pre class=ada-code-snippet><code>type I2C_Config is record
+   Role   : I2C_Role := Controller;
+   Timing : I2C_Timing := Standard_Mode;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Role<dd><dt>Timing<dd></dl><h4 id=3f8c19f4a30227b4dabff8dd6026b654451dd35010a8968c63b1e6f3a431b12a>I2C_Number</h4><pre class=ada-code-snippet><code>subtype I2C_Number is Natural range 0 .. 1;
+</code></pre><h4 id=4717148f234273d2b14b68a2a2798210a0cebfb5f101269caca8cada1cc72cac>I2C_Port</h4><pre class=ada-code-snippet><code>type I2C_Port
+   (Num    : I2C_Number;
+    Periph : not null access RP2040_SVD.I2C.I2C_Peripheral)
+is tagged private;
+</code></pre><h4 id=675b030c056362f24e8c6f8389b4c33165c5d3f2c2cead96287f17dea846ae40>I2C_Role</h4><pre class=ada-code-snippet><code>type I2C_Role is (Controller, Target);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Controller<dd><dt>Target<dd></dl><h4 id=5b978af648fbe8d5588e03780ad08aec78d99d9beb22118b8822e315affeae54>I2C_State</h4><pre class=ada-code-snippet><code>type I2C_State is record
+   Abort_Source   : I2C_Abort_Source;
+   Last_Command   : RP2040_SVD.I2C.IC_DATA_CMD_Register;
+   RX_Remaining   : Natural;
+   TX_Remaining   : Natural;
+   TX_Empty       : Boolean;
+   RX_Empty       : Boolean;
+   Repeated_Start : Boolean;
+   Is_Error       : Boolean;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Abort_Source<dd><dt>Last_Command<dd><dt>RX_Remaining<dd><dt>TX_Remaining<dd><dt>TX_Empty<dd><dt>RX_Empty<dd><dt>Repeated_Start<dd><dt>Is_Error<dd></dl><h4 id=3cf056d4dcdaba5b7e2d68913d1944f4a42871b581e22fdadefa89bbb46a0f2d>I2C_Status</h4><pre class=ada-code-snippet><code>type I2C_Status is
+   (Ok, Timeout, Error);
+</code></pre><p>If a procedure sets Status to Error, the record returned by function State will provide more information useful for debugging.<h5>Enumeration Literal</h5><dl><dt>Ok<dd><dt>Timeout<dd><dt>Error<dd></dl><h4 id=eb0abae98803070b9442c2cf00d629d3c0098c4a7a190b5d8e61fcf64247179d>I2C_Timing</h4><pre class=ada-code-snippet><code>type I2C_Timing is record
+   High, Low, Hold, Spike : Nanoseconds;
+   Rise, Fall : Nanoseconds := 0;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>High<dd><dt>Low<dd><dt>Hold<dd><dt>Spike<dd><dt>Rise<dd><dt>Fall<dd></dl><h4 id=acef4991a53c31213a1b8fbc155fd4cc1370526964b2fef88bdcfd9db12b5159>Nanoseconds</h4><pre class=ada-code-snippet><code>type Nanoseconds is new Natural;
+</code></pre><h4 id=e485e6bcf7330c417c31a0aa66c7ff5b9147b175a3274be3571f753907752af8>Read</h4><pre class=ada-code-snippet><code>procedure Read
+   (This     : in out I2C_Port;
+    Data     : out HAL.UInt8;
+    Status   : out I2C_Status;
+    Deadline : RP.Timer.Time := RP.Timer.Time'Last)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd><dt>Status<dd><dt>Deadline<dd></dl><h4 id=6b209df202a084fcb891dd28b52cfe51bbea2574727053ac144ce8f5bf248f89>Read_Ready</h4><pre class=ada-code-snippet><code>function Read_Ready
+   (This : I2C_Port)
+   return Boolean
+</code></pre><p>Returns True if a call to Read would not block<h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=bd8144b2d0b9f991392f4c6991ca1102b049cc72c3f993e569e172f0fb442456>Set_Address</h4><pre class=ada-code-snippet><code>procedure Set_Address
+   (This : in out I2C_Port;
+    Addr : HAL.UInt10)
+</code></pre><p>When configured as a Controller, Set_Address indicates the address of the Target for Read and Write. When configured as a Target, Set_Address indicates this device's address.<h5>Parameters</h5><dl><dt>This<dd><dt>Addr<dd></dl><h4 id=06df307a7754cdf7ad9e518ee78f0d49847c42d6d13473423fef073e2f3e6c04>Set_Address</h4><pre class=ada-code-snippet><code>procedure Set_Address
+   (This : in out I2C_Port;
+    Addr : HAL.UInt7)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Addr<dd></dl><h4 id=1bbfd55c2a7b225e0f120f2e80339ef90d0a77e53e58ba273ec81b6a1045fd1a>Set_Timing</h4><pre class=ada-code-snippet><code>procedure Set_Timing
+   (This : in out I2C_Port;
+    T    : I2C_Timing)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>T<dd></dl><h4 id=244d0910557a5abfad7b14a1eb00f9ef3c8557343d920e36517360cfa3e8b07b>Standard_Mode</h4><pre class=ada-code-snippet><code>Standard_Mode  : constant I2C_Timing :=
+   (High   => 5_200,
+    Low    => 4_700,
+    Hold   => 3_450,
+    others => &lt;>);
+</code></pre><h4 id=972a1eea6e058d40e4bd86f59a86c7d317948ca98a5844c2c346ff1b8c1ea048>Start_Read</h4><pre class=ada-code-snippet><code>procedure Start_Read
+   (This   : in out I2C_Port;
+    Length : Positive := 1;
+    Stop   : Boolean := True)
+</code></pre><p>If Stop is False, the Controller does not release the bus after this transaction completes and will issue a repeated start before the first byte of the next transaction. Stop has no effect if Role = Target.<h5>Parameters</h5><dl><dt>This<dd><dt>Length<dd><dt>Stop<dd></dl><h4 id=8e463af16f460c42863726304b9759a608cc15ba1f31519103567a6fb99815b6>Start_Write</h4><pre class=ada-code-snippet><code>procedure Start_Write
+   (This     : in out I2C_Port;
+    Length   : Positive := 1;
+    Stop     : Boolean := True;
+    Deadline : RP.Timer.Time := RP.Timer.Time'Last)
+</code></pre><p>In Target mode, Start_Write waits until Deadline for the Controller to send our address. If a Deadline is specified and nonblocking behavior is expected, the caller should check the value of Write_Ready before calling Write.<h5>Parameters</h5><dl><dt>This<dd><dt>Length<dd><dt>Stop<dd><dt>Deadline<dd></dl><h4 id=71fbb26bf319788a82df1c59744d5772bfbbfe633777e8a6b25c76a793430a1c>State</h4><pre class=ada-code-snippet><code>function State
+   (This : I2C_Port)
+   return I2C_State
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=c57f9919b67ed648edfca00060d478ecbd83267aa08b793775c1cfb6a5837557>Write</h4><pre class=ada-code-snippet><code>procedure Write
+   (This     : in out I2C_Port;
+    Data     : HAL.UInt8;
+    Status   : out I2C_Status;
+    Deadline : RP.Timer.Time := RP.Timer.Time'Last)
+</code></pre><p>If Deadline is reached before Write_Ready returns True, Abort_Write will be called and Status is set to Err_Timeout. After a timeout, call Clear_Error before attempting another Write.<h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd><dt>Status<dd><dt>Deadline<dd></dl><h4 id=9334c6fb14b912e1f954537197254618ec2a6dccdad3280cee3a3c65c3272226>Write_Ready</h4><pre class=ada-code-snippet><code>function Write_Ready
+   (This : I2C_Port)
+   return Boolean
+</code></pre><p>Returns True if a call to Write would not block<h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl>

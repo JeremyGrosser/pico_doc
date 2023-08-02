@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.Flash.Cache</h1><h2>Entities</h2><h3>Subprograms</h3><ul><li><a href=#a93282d0b6bf3797ce3b1d3099f9d28a92cad5069a8d9577ae4204f927feec91>Access_Count</a><li><a href=#86a8a577b6e05cbc9e741f843618e98ab0c7b092b7f5b06fdf5eecbbf4701e7b>Disable</a><li><a href=#414013369710a0491045f2bdcff37826fda1190a2d648408201cebf5574d6c49>Enable</a><li><a href=#081c6abc62af2d486c4e1fef0e93c67aeccff4d9965d11ba3e363f5cab107553>Flush</a><li><a href=#4cbb13d9e949b166faa9116ec0f1152f902fbfe33e0b81091b8032be206b347a>Hit_Count</a><li><a href=#126a78e7bb8c4d7ea9d87ddbdf3b1ac039b7bb5c21bca2a5e9bc80fac38f8f79>Is_Enabled</a><li><a href=#bf8593f6ecffd5c0dbe408fdd233902e19ef33ef543d67618fad6db6bb333f01>Power_Down</a><li><a href=#855a53fb306d0a96b2d7ca75e67645581b3c91fe2f12d161ea3b75f1c3d8c709>Reset_Counters</a></ul><h2>Description</h2><h4 id=a93282d0b6bf3797ce3b1d3099f9d28a92cad5069a8d9577ae4204f927feec91>Access_Count</h4><pre class=ada-code-snippet><code>function Access_Count
+   return HAL.UInt32
+</code></pre><h5>Return Value</h5><dl><dd></dl><h4 id=86a8a577b6e05cbc9e741f843618e98ab0c7b092b7f5b06fdf5eecbbf4701e7b>Disable</h4><pre class=ada-code-snippet><code>procedure Disable
+</code></pre><p>Power_Down implies Disable, cache state is retained while powered down<h4 id=414013369710a0491045f2bdcff37826fda1190a2d648408201cebf5574d6c49>Enable</h4><pre class=ada-code-snippet><code>procedure Enable
+</code></pre><p>Power_Down implies Disable, cache state is retained while powered down<h4 id=081c6abc62af2d486c4e1fef0e93c67aeccff4d9965d11ba3e363f5cab107553>Flush</h4><pre class=ada-code-snippet><code>procedure Flush
+   (Wait : Boolean := True)
+</code></pre><p>If Wait is True, Flush blocks until the cache flush is complete, otherwise the cache is flushed asynchronously.<h5>Parameters</h5><dl><dt>Wait<dd></dl><h4 id=4cbb13d9e949b166faa9116ec0f1152f902fbfe33e0b81091b8032be206b347a>Hit_Count</h4><pre class=ada-code-snippet><code>function Hit_Count
+   return HAL.UInt32
+</code></pre><h5>Return Value</h5><dl><dd></dl><h4 id=126a78e7bb8c4d7ea9d87ddbdf3b1ac039b7bb5c21bca2a5e9bc80fac38f8f79>Is_Enabled</h4><pre class=ada-code-snippet><code>function Is_Enabled
+   return Boolean
+</code></pre><h5>Return Value</h5><dl><dd></dl><h4 id=bf8593f6ecffd5c0dbe408fdd233902e19ef33ef543d67618fad6db6bb333f01>Power_Down</h4><pre class=ada-code-snippet><code>procedure Power_Down
+</code></pre><p>Power_Down implies Disable, cache state is retained while powered down<h4 id=855a53fb306d0a96b2d7ca75e67645581b3c91fe2f12d161ea3b75f1c3d8c709>Reset_Counters</h4><pre class=ada-code-snippet><code>procedure Reset_Counters
+</code></pre>

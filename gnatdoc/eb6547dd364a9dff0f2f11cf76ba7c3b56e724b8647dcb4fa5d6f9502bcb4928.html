@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.Interpolator</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#9fc96805e0e743c1ae1c68fa9d436a934128c9b731c144f5c57c52e3d1a138b7>Lane</a></ul><h3>Array Types</h3><ul><li><a href=#56e43ed673322ac1d7589fdcf9d6dd366d97faa117766dd08c0d1a1f4d74f3e3>ACCUM_Register</a><li><a href=#ef871a59a367ce52bd3e45df0bcab232ca244987cfe7b3b3ae2f5d13323e403f>ADD_Register</a><li><a href=#06f88e5891909e871742590a25fb47b22b45b03ba16901048d91607b1fa1016f>CTRL_Register</a><li><a href=#a144d65d94f726b830b8a06e67586683dcf774e683c8111c2ae9b929472d7162>LANE_Register</a></ul><h3>Record Types</h3><ul><li><a href=#656a57eaedd26be1b8bf85582d21eb2777305b4fb2d81fb817c931ca47898f07>INTERP_Peripheral</a><li><a href=#fa726ff45ecf0352910f1bde16aea2b89c0c0d8a54c145b4f12316588c339b00>Lane_Config</a></ul><h2>Description</h2><h4 id=56e43ed673322ac1d7589fdcf9d6dd366d97faa117766dd08c0d1a1f4d74f3e3>ACCUM_Register</h4><pre class=ada-code-snippet><code>type ACCUM_Register  is array (Lane range 0 .. 1) of UInt32;
+</code></pre><h4 id=ef871a59a367ce52bd3e45df0bcab232ca244987cfe7b3b3ae2f5d13323e403f>ADD_Register</h4><pre class=ada-code-snippet><code>type ADD_Register    is array (Lane range 0 .. 1) of UInt24
+   with Component_Size => 32;
+</code></pre><h4 id=06f88e5891909e871742590a25fb47b22b45b03ba16901048d91607b1fa1016f>CTRL_Register</h4><pre class=ada-code-snippet><code>type CTRL_Register   is array (Lane range 0 .. 1) of Lane_Config;
+</code></pre><h4 id=656a57eaedd26be1b8bf85582d21eb2777305b4fb2d81fb817c931ca47898f07>INTERP_Peripheral</h4><pre class=ada-code-snippet><code>type INTERP_Peripheral is record
+   ACCUM       : ACCUM_Register;
+   BASE        : LANE_Register;
+   POP         : LANE_Register;
+   PEEK        : LANE_Register;
+   CTRL        : CTRL_Register;
+   ADD         : ADD_Register;
+   BASE_1AND0  : UInt32;
+end record
+   with Volatile,
+        Size => 512;
+</code></pre><h5>Record fields</h5><dl><dt>ACCUM<dd><dt>BASE<dd><dt>POP<dd><dt>PEEK<dd><dt>CTRL<dd><dt>ADD<dd><dt>BASE_1AND0<dd></dl><h4 id=9fc96805e0e743c1ae1c68fa9d436a934128c9b731c144f5c57c52e3d1a138b7>Lane</h4><pre class=ada-code-snippet><code>type Lane is range 0 .. 2;
+</code></pre><h4 id=fa726ff45ecf0352910f1bde16aea2b89c0c0d8a54c145b4f12316588c339b00>Lane_Config</h4><pre class=ada-code-snippet><code>type Lane_Config is record
+   SHIFT          : UInt5   := 0;
+   MASK_LSB       : UInt5   := 0;
+   MASK_MSB       : UInt5   := 31;
+   SIGNED         : Boolean := False;
+   CROSS_INPUT    : Boolean := False;
+   CROSS_RESULT   : Boolean := False;
+   ADD_RAW        : Boolean := False;
+   FORCE_MSB      : UInt2   := 0;
+   BLEND          : Boolean := False;
+   CLAMP          : Boolean := False;
+   OVERF           : Boolean := False;
+   OVERF1          : Boolean := False;
+   OVERF0          : Boolean := False;
+end record
+   with Volatile_Full_Access,
+        Size => 32;
+</code></pre><h5>Record fields</h5><dl><dt>SHIFT<dd><dt>MASK_LSB<dd><dt>MASK_MSB<dd><dt>SIGNED<dd><dt>CROSS_INPUT<dd><dt>CROSS_RESULT<dd><dt>ADD_RAW<dd><dt>FORCE_MSB<dd><dt>BLEND<dd><dt>CLAMP<dd><dt>OVERF<dd><dt>OVERF1<dd><dt>OVERF0<dd></dl><h4 id=a144d65d94f726b830b8a06e67586683dcf774e683c8111c2ae9b929472d7162>LANE_Register</h4><pre class=ada-code-snippet><code>type LANE_Register   is array (Lane) of UInt32;
+</code></pre>

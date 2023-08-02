@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>HAL.Framebuffer</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#44b4e56202ee3f99c43a4ca8de35a3d8decd858f2040e2751dd1158f53f4994f>Display_Orientation</a><li><a href=#5ff97fd7ed3dc6386dc3aa48013bb0d817723c88045c5a7be49159ff4e7f77ba>Wait_Mode</a></ul><h3>Interface Types</h3><ul><li><a href=#e5dabee84900d9ac5a5fe09c1be0422bec19532b7450770b7fb174351b0bcf46>Frame_Buffer_Display</a></ul><h3>Access Types</h3><ul><li><a href=#12ed1c43b483bf84cbc6c63d61617f3d3d6e52a15625907a676ebb9d1745a6b3>Any_Frame_Buffer_Display</a></ul><h3>Subtypes</h3><ul><li><a href=#0bc831260d86f68366281efae28d2e46b8ea1893c56856978951d9f19e3384ff>FB_Color_Mode</a></ul><h3>Subprograms</h3><ul><li><a href=#b03e641d8fd73da49be6d42599dc601df116a7fe8ea16d0686049b2e7d6987e0>Color_Mode</a><li><a href=#f150f354c1d9ad94c60b88018741155a9b6a9c8b45b9a29359f09dfd8898fe20>Height</a><li><a href=#c4939c785a0a15247994f30da22eb3c8e856f30d32ef5ef92510845fc663f94f>Hidden_Buffer</a><li><a href=#f64078825c8b94d05d6ba77f10e6fbf8eac01a4903078ea43ae782934ab78618>Initialize_Layer</a><li><a href=#e127f439c83557fd382baa75d8327d9fe06e13eb5f3c29ebd292c3f90f9b291c>Initialized</a><li><a href=#6fb6ed8dc41daf0208bd6045d49349a0424c54fcf62588b8e21a8c615eee7648>Initialized</a><li><a href=#4e0ef982ee0b8daceaec9ced2e06982f251e6376b612be6e6fe52a4a2493f77c>Max_Layers</a><li><a href=#4339542cb35e09495f208a374508b475861fb5afb99afb2a7a3eef6c8132cb05>Pixel_Size</a><li><a href=#4702ac8656f0948ba24b7cb74c5af28ae0822a6b7a010dd007938bdaee4ec9b2>Set_Background</a><li><a href=#acce12fd13ed4ba3a76bd0ec550a70372a2d619f15e59d68c55e2ba6084ee3bf>Set_Mode</a><li><a href=#49bb3a4f663642c82f3a95b72defc8c4c3be4ff3656cfb14ff7c7165c08491b3>Set_Orientation</a><li><a href=#4f7fadeb940e0ad9ba1e51f9c00e723ff03a7707be141d224a7f52c0c9a11ad3>Supported</a><li><a href=#5a728a7413b0442e90e8c1f977b5c03386bf6c9e792aee2412aa75909018e28a>Swapped</a><li><a href=#e6fd1515738e1d3adbb21260d67aac9cbad7811d77d5e179ec736c186de600db>Update_Layer</a><li><a href=#9f75fac0c04e20fbd6954145371bcc791569a66a4e25ed270668cd78a727a4a0>Update_Layers</a><li><a href=#6fafa43be3524754314fe7d68d8c6e6a2eb57e00088b065671ea16bba132b60c>Width</a></ul><h2>Description</h2><p>---------------------------------------------------------------------------- -- Copyright (C) 2015-2016, AdaCore -- -- Redistribution and use in source and binary forms, with or without -- modification, are permitted provided that the following conditions are -- met: -- 1. Redistributions of source code must retain the above copyright -- notice, this list of conditions and the following disclaimer. -- 2. Redistributions in binary form must reproduce the above copyright -- notice, this list of conditions and the following disclaimer in -- the documentation and/or other materials provided with the -- distribution. -- 3. Neither the name of the copyright holder nor the names of its -- contributors may be used to endorse or promote products derived -- from this software without specific prior written permission. -- -- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS -- "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT -- LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR -- A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT -- HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, -- SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT -- LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, -- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY -- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT -- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE -- OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -- -- ----------------------------------------------------------------------------<h4 id=12ed1c43b483bf84cbc6c63d61617f3d3d6e52a15625907a676ebb9d1745a6b3>Any_Frame_Buffer_Display</h4><pre class=ada-code-snippet><code>type Any_Frame_Buffer_Display is access all Frame_Buffer_Display'Class;
+</code></pre><h4 id=b03e641d8fd73da49be6d42599dc601df116a7fe8ea16d0686049b2e7d6987e0>Color_Mode</h4><pre class=ada-code-snippet><code>function Color_Mode
+  (This  : Frame_Buffer_Display;
+   Layer : Positive) return FB_Color_Mode
+</code></pre><p>Retrieves the current color mode for the layer.<h5>Parameters</h5><dl><dt>This<dd><dt>Layer<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=44b4e56202ee3f99c43a4ca8de35a3d8decd858f2040e2751dd1158f53f4994f>Display_Orientation</h4><pre class=ada-code-snippet><code>type Display_Orientation is
+  (Default, Landscape, Portrait);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Default<dd><dt>Landscape<dd><dt>Portrait<dd></dl><h4 id=0bc831260d86f68366281efae28d2e46b8ea1893c56856978951d9f19e3384ff>FB_Color_Mode</h4><pre class=ada-code-snippet><code>subtype FB_Color_Mode is HAL.Bitmap.Bitmap_Color_Mode range
+  HAL.Bitmap.ARGB_8888 .. HAL.Bitmap.M_1;
+</code></pre><h4 id=e5dabee84900d9ac5a5fe09c1be0422bec19532b7450770b7fb174351b0bcf46>Frame_Buffer_Display</h4><pre class=ada-code-snippet><code>type Frame_Buffer_Display is limited interface;
+</code></pre><h4 id=f150f354c1d9ad94c60b88018741155a9b6a9c8b45b9a29359f09dfd8898fe20>Height</h4><pre class=ada-code-snippet><code>function Height
+  (This : Frame_Buffer_Display) return Positive
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=c4939c785a0a15247994f30da22eb3c8e856f30d32ef5ef92510845fc663f94f>Hidden_Buffer</h4><pre class=ada-code-snippet><code>function Hidden_Buffer
+  (This  : in out Frame_Buffer_Display;
+   Layer : Positive)
+   return not null HAL.Bitmap.Any_Bitmap_Buffer
+</code></pre><p>Retrieves the current hidden buffer for the layer.<h5>Parameters</h5><dl><dt>This<dd><dt>Layer<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=f64078825c8b94d05d6ba77f10e6fbf8eac01a4903078ea43ae782934ab78618>Initialize_Layer</h4><pre class=ada-code-snippet><code>procedure Initialize_Layer
+  (This   : in out Frame_Buffer_Display;
+   Layer  : Positive;
+   Mode   : FB_Color_Mode;
+   X      : Natural := 0;
+   Y      : Natural := 0;
+   Width  : Positive := Positive'Last;
+   Height : Positive := Positive'Last)
+</code></pre><p>All layers are double buffered, so an explicit call to Update_Layer needs to be performed to actually display the current buffer attached to the layer. Alloc is called to create the actual buffer.<h5>Parameters</h5><dl><dt>This<dd><dt>Layer<dd><dt>Mode<dd><dt>X<dd><dt>Y<dd><dt>Width<dd><dt>Height<dd></dl><h4 id=e127f439c83557fd382baa75d8327d9fe06e13eb5f3c29ebd292c3f90f9b291c>Initialized</h4><pre class=ada-code-snippet><code>function Initialized
+  (This : Frame_Buffer_Display) return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=6fb6ed8dc41daf0208bd6045d49349a0424c54fcf62588b8e21a8c615eee7648>Initialized</h4><pre class=ada-code-snippet><code>function Initialized
+  (This  : Frame_Buffer_Display;
+   Layer : Positive) return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Layer<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=4e0ef982ee0b8daceaec9ced2e06982f251e6376b612be6e6fe52a4a2493f77c>Max_Layers</h4><pre class=ada-code-snippet><code>function Max_Layers
+  (This : Frame_Buffer_Display) return Positive
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=4339542cb35e09495f208a374508b475861fb5afb99afb2a7a3eef6c8132cb05>Pixel_Size</h4><pre class=ada-code-snippet><code>function Pixel_Size
+  (Display : Frame_Buffer_Display;
+   Layer   : Positive) return Positive
+</code></pre><p>Retrieves the current hidden buffer for the layer.<h5>Parameters</h5><dl><dt>Display<dd><dt>Layer<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=4702ac8656f0948ba24b7cb74c5af28ae0822a6b7a010dd007938bdaee4ec9b2>Set_Background</h4><pre class=ada-code-snippet><code>procedure Set_Background
+  (This : Frame_Buffer_Display; R, G, B : UInt8)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>R<dd><dt>G<dd><dt>B<dd></dl><h4 id=acce12fd13ed4ba3a76bd0ec550a70372a2d619f15e59d68c55e2ba6084ee3bf>Set_Mode</h4><pre class=ada-code-snippet><code>procedure Set_Mode
+  (This    : in out Frame_Buffer_Display;
+   Mode    : Wait_Mode)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Mode<dd></dl><h4 id=49bb3a4f663642c82f3a95b72defc8c4c3be4ff3656cfb14ff7c7165c08491b3>Set_Orientation</h4><pre class=ada-code-snippet><code>procedure Set_Orientation
+  (This        : in out Frame_Buffer_Display;
+   Orientation : Display_Orientation)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Orientation<dd></dl><h4 id=4f7fadeb940e0ad9ba1e51f9c00e723ff03a7707be141d224a7f52c0c9a11ad3>Supported</h4><pre class=ada-code-snippet><code>function Supported
+  (This : Frame_Buffer_Display;
+   Mode : FB_Color_Mode) return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Mode<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=5a728a7413b0442e90e8c1f977b5c03386bf6c9e792aee2412aa75909018e28a>Swapped</h4><pre class=ada-code-snippet><code>function Swapped
+  (This : Frame_Buffer_Display) return Boolean
+</code></pre><p>Whether X/Y coordinates are considered Swapped by the drawing primitives This simulates Landscape/Portrait orientation on displays not supporting hardware orientation change.<h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=e6fd1515738e1d3adbb21260d67aac9cbad7811d77d5e179ec736c186de600db>Update_Layer</h4><pre class=ada-code-snippet><code>procedure Update_Layer
+  (This      : in out Frame_Buffer_Display;
+   Layer     : Positive;
+   Copy_Back : Boolean := False)
+</code></pre><p>Updates the layer so that the hidden buffer is displayed.<h5>Parameters</h5><dl><dt>This<dd><dt>Layer<dd><dt>Copy_Back<dd></dl><h4 id=9f75fac0c04e20fbd6954145371bcc791569a66a4e25ed270668cd78a727a4a0>Update_Layers</h4><pre class=ada-code-snippet><code>procedure Update_Layers
+  (This : in out Frame_Buffer_Display)
+</code></pre><p>Updates all initialized layers at once with their respective hidden buffer.<h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=5ff97fd7ed3dc6386dc3aa48013bb0d817723c88045c5a7be49159ff4e7f77ba>Wait_Mode</h4><pre class=ada-code-snippet><code>type Wait_Mode is (Polling, Interrupt);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Polling<dd><dt>Interrupt<dd></dl><h4 id=6fafa43be3524754314fe7d68d8c6e6a2eb57e00088b065671ea16bba132b60c>Width</h4><pre class=ada-code-snippet><code>function Width
+  (This : Frame_Buffer_Display) return Positive
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl>

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.SIO</h1><h2>Entities</h2><h3>Array Types</h3><ul><li><a href=#d0d3f2cc4277594c20d932c5c88e9f864c8349f2a143aad5e3876469b4834137>INTERP0_CTRL_LANE0_OVERF_Field_Array</a><li><a href=#10465765c18f5dae472dc50bb03908033f50113e4ade920222f88bae6c683349>INTERP1_CTRL_LANE0_OVERF_Field_Array</a></ul><h3>Record Types</h3><ul><li><a href=#50da580f05cc92ede26d6a0032deb593ad9234c97054ab456d8a693cebf6002c>DIV_CSR_Register</a><li><a href=#85c350e04ad0318ffa736a31b6ebe300bd57826c88eac0bb86de9200467746c0>FIFO_ST_Register</a><li><a href=#91762380fbc694ad03db5887702ca58849946f26f8d39bc6b39cafcf5057bbb5>GPIO_HI_IN_Register</a><li><a href=#839cea02155f5357ca81af6e40c87b191b261a5508fdc16873f5fa5694a95661>GPIO_HI_OE_CLR_Register</a><li><a href=#4d639d1e427055c875b68e72c419dbeb467f327a61c22f6304b2f6d8c8c9d351>GPIO_HI_OE_Register</a><li><a href=#372051ed3be1d39cee66f4fdac68f6cd9c5f84dd82ea647451626dea75b4231c>GPIO_HI_OE_SET_Register</a><li><a href=#f09af0ac43f8843883f8e256928081e0340a198db1e2f06ff1d2a801998b4bfb>GPIO_HI_OE_XOR_Register</a><li><a href=#f7e8601fbfd110319c83c49b6a795b7ce1bf199b52c1ed6e4790ab38fdc50c15>GPIO_HI_OUT_CLR_Register</a><li><a href=#067a3a92a8e52f5a9df99fb59d60231b8d949d2ae651a64cd9b0cb8d55469833>GPIO_HI_OUT_Register</a><li><a href=#d77792a048fcd8c66338d336bdc464137a05cfb1dee67de0c354e384bb2f6a54>GPIO_HI_OUT_SET_Register</a><li><a href=#222fecc92cdb71ee162deee9164a26195a63ccb4ac810087f96be637849de6bd>GPIO_HI_OUT_XOR_Register</a><li><a href=#ebfc09cbdd47bfe62e02d57211cafb7d09fb614fe2a60e8db8ad0002d0562a49>GPIO_IN_Register</a><li><a href=#be5bd75912358727b7ed45143645cc494b797e040ae88b5047176b1f0e675f00>GPIO_OE_CLR_Register</a><li><a href=#ffe74927c4efaef41274dfad6fee31aca3c4b39cbcd5a553a8a6e5e1acab5669>GPIO_OE_Register</a><li><a href=#d72839599287d021389767e1443aef715d261803690018078f9b9f6aabadc428>GPIO_OE_SET_Register</a><li><a href=#c0e71f66e1561b0a40d4401b5ab23975a0137ec6208996b22e6ad0eadd06d221>GPIO_OE_XOR_Register</a><li><a href=#53595d0f14ffc9fa8c6580ee359eca364b54774eccf66eca0b1c33e9a28018b5>GPIO_OUT_CLR_Register</a><li><a href=#d94e4ae06d42122de49f8b181afd8977eb1d10cde0e44b8463fef68d51e623da>GPIO_OUT_Register</a><li><a href=#27f144a77bd01eb8a057c7f7d81bc45e261a78071e286cc8e6a673056a79066d>GPIO_OUT_SET_Register</a><li><a href=#3172e8aaf3285bcc91ba911508db66805f41b72a0811ea798a0500fa6aa13a40>GPIO_OUT_XOR_Register</a><li><a href=#37e274f41050601ed3d693a7aa7a7d46e4adc43ebbc0a5ac9e97badc4ee70f36>INTERP0_ACCUM0_ADD_Register</a><li><a href=#8c2991d2db59caf28b71ecaffa50b8f8c838610cf8368d52499220796e7a0e2f>INTERP0_ACCUM1_ADD_Register</a><li><a href=#4a962e7e3fbc31d0bd220b089722513d4ad306c150bd0d1978635705dbd98bc2>INTERP0_CTRL_LANE0_OVERF_Field</a><li><a href=#5131f64379ff89d8aeea747640feb1264ff1b3089d803abc90a7b76850d5eded>INTERP0_CTRL_LANE0_Register</a><li><a href=#9fd81c17cd7e5b8094d0b6d448e674729559be4acc7ba9ac0f538eff32aadd29>INTERP0_CTRL_LANE1_Register</a><li><a href=#1bcc2cf5968665b5c56ae6e66aee96fb3f6bb55e8cf0d5c6ab1d1d438d947e34>INTERP1_ACCUM0_ADD_Register</a><li><a href=#9507bd6450fb8352e948e89f59391121e464865c08ad0b4f9ea987b5d1ac4d2d>INTERP1_ACCUM1_ADD_Register</a><li><a href=#bfdafe45bee5f5de61e42f3898664ca146b1cd7ba740e7ca3578afa94cd372a3>INTERP1_CTRL_LANE0_OVERF_Field</a><li><a href=#defe1283461d76c77978531c0462151d036ba97957d890ef664229d946f7f40c>INTERP1_CTRL_LANE0_Register</a><li><a href=#17f2242afbd06827ebd354e7f951700068754998e01d690f6c894cbda421ce9b>INTERP1_CTRL_LANE1_Register</a><li><a href=#69e9368a57e54285a6c99ea582a26110f064ca4119ea84906569a0f4112379a2>SIO_Peripheral</a></ul><h3>Subtypes</h3><ul><li><a href=#ef59d2d0056b1838c137c7bd9cfba9cc7e772f6cf52bfcad3b3a46e7eeb25e12>GPIO_HI_IN_GPIO_HI_IN_Field</a><li><a href=#c76df15d42495c76d081e8ddec60ff37e73b23908c9be1f421d8a59247966fd3>GPIO_HI_OE_CLR_GPIO_HI_OE_CLR_Field</a><li><a href=#28dfdbfa634b2f21fe970db7c04f401047b7a451632463624f2dae47b9cd0def>GPIO_HI_OE_GPIO_HI_OE_Field</a><li><a href=#42274dd56f9e378c40329d8604164110122d232ba92a1b2a8db954b051feae1f>GPIO_HI_OE_SET_GPIO_HI_OE_SET_Field</a><li><a href=#13b824c1fefcee6330383b7d20689e2df6892f2a71e102973e38794e4ffb45fe>GPIO_HI_OE_XOR_GPIO_HI_OE_XOR_Field</a><li><a href=#bda3d1725e3b908cfce6f994609816d5b182638f233d430389e2c3caa6f9a809>GPIO_HI_OUT_CLR_GPIO_HI_OUT_CLR_Field</a><li><a href=#f905bf47d7f890d3f0e04e32908c17ffae735771c4e8bab6fbca88542266b1ea>GPIO_HI_OUT_GPIO_HI_OUT_Field</a><li><a href=#e9269c09e932c4914a49a46955734b9a1c0696c70ad9c59582c41fc4d968ec0c>GPIO_HI_OUT_SET_GPIO_HI_OUT_SET_Field</a><li><a href=#9d5b2af9fd45d8434268c01bf04c0860ebc148023afa7b1b1dea68b7692e2d70>GPIO_HI_OUT_XOR_GPIO_HI_OUT_XOR_Field</a><li><a href=#54c7826b8a4c59d329524783f41574f11f7affdf16be9ca235b5d018366c304e>GPIO_IN_GPIO_IN_Field</a><li><a href=#bb4293e96206548d018058804b675d11fd8b94fb52cc8db4c37b6fd924a5efe4>GPIO_OE_CLR_GPIO_OE_CLR_Field</a><li><a href=#e97f75b496ba2aaf0ca6a941dca4cb6fe19a5ed126ee79a1105d3285f31b6c7a>GPIO_OE_GPIO_OE_Field</a><li><a href=#90e0b7d506ec1153b11218d5d72a570a9824415d3eef9484c3bf7f8d9257227a>GPIO_OE_SET_GPIO_OE_SET_Field</a><li><a href=#79e303fcc0b7a5966543a57d9bd17ee0207dec3467fb087d7f464ce6a0957c05>GPIO_OE_XOR_GPIO_OE_XOR_Field</a><li><a href=#90da48b6707cd4224a4e8527cbe20796280105d1ab04c232d662e55b1503240f>GPIO_OUT_CLR_GPIO_OUT_CLR_Field</a><li><a href=#fe5cac8149aafe980720f78491d6410a22363ab7da4b3dd00ad8cbc88907ae3e>GPIO_OUT_GPIO_OUT_Field</a><li><a href=#f1b58dccdee20c7df7fee38fbb0ce754f500ab67b7fd38fdfa71f86b8b27ad45>GPIO_OUT_SET_GPIO_OUT_SET_Field</a><li><a href=#31bdfed1d63daf872f9d13036844ca383ce3b16ca9466b68f90ded176b28e728>GPIO_OUT_XOR_GPIO_OUT_XOR_Field</a><li><a href=#627b8847df84bf52a94b150cd20c5e4faed5d2f01c55165d4d98d728b89afbfb>INTERP0_ACCUM0_ADD_INTERP0_ACCUM0_ADD_Field</a><li><a href=#db7dacf30ce2dcce47e02bcefcf02981a84fb052b9a3183ace649333e886c5c1>INTERP0_ACCUM1_ADD_INTERP0_ACCUM1_ADD_Field</a><li><a href=#4efccb460ba9d2f23f4256edf8a5e08bcf3acfb34075246cfcffafc6401696c9>INTERP0_CTRL_LANE0_FORCE_MSB_Field</a><li><a href=#1eed74ab3b60dcb469f95e778b862f21e2111717a030dfc8cc83baff594026c0>INTERP0_CTRL_LANE0_MASK_LSB_Field</a><li><a href=#37acfdda4711b8fadd7aaa3832c1de8aff6fb5777c7a418ec330440658d53076>INTERP0_CTRL_LANE0_MASK_MSB_Field</a><li><a href=#094a132797e4d7d006b2c091558596d897eb68733136e4323bec89dce1516f87>INTERP0_CTRL_LANE0_SHIFT_Field</a><li><a href=#10aad1f293f275aa2f9c2d0485d58f49304c51469cd3fb1a5df655168914500a>INTERP0_CTRL_LANE1_FORCE_MSB_Field</a><li><a href=#e06cddba634f4a6a3a6fd1e6085c445b40376a1be28caca90405245ba644e36b>INTERP0_CTRL_LANE1_MASK_LSB_Field</a><li><a href=#68cd1e02aad39f19ae1f9657d21423676d46d248d46c6e400de77c0a15513cce>INTERP0_CTRL_LANE1_MASK_MSB_Field</a><li><a href=#b049d47d65a4415925e685cd5547caeb9d9eb19ce1a8a2f2b0e53956de3d3568>INTERP0_CTRL_LANE1_SHIFT_Field</a><li><a href=#7e20755a1d44c0e766a62fa62c9cd1830ddc8ec24d9f371a23c281c94b17bcd1>INTERP1_ACCUM0_ADD_INTERP1_ACCUM0_ADD_Field</a><li><a href=#4989693d25aed98bf535b6b4169a5e04bbc58c4d1260569c95fc09e74c4cbc22>INTERP1_ACCUM1_ADD_INTERP1_ACCUM1_ADD_Field</a><li><a href=#a0872b26fe3f5c67dd7cc0de60035c31a6026ee8812d87b99b0d698ecd663fff>INTERP1_CTRL_LANE0_FORCE_MSB_Field</a><li><a href=#5587ad6436036ef9ae8df1b336fd62a584ec61e6729752421e0b1256d3f4e33a>INTERP1_CTRL_LANE0_MASK_LSB_Field</a><li><a href=#6d0b4fff0031833e793ee14abc9a9419ffd19736ac683f836f8c2fb53477761f>INTERP1_CTRL_LANE0_MASK_MSB_Field</a><li><a href=#b6997fce04b230a818e3d54913ad1ffaa407fb3c4a1f1f7e70efb9e9d88ee714>INTERP1_CTRL_LANE0_SHIFT_Field</a><li><a href=#3a3d4829655eb512930877449308220bc9e64181c6997c61d199d7843371fc91>INTERP1_CTRL_LANE1_FORCE_MSB_Field</a><li><a href=#5beb54dc1f01d541db8c394f4a364ace3ff3f180353d0c904a4b85a448a39b00>INTERP1_CTRL_LANE1_MASK_LSB_Field</a><li><a href=#51a00956e398274ecd830c92c1e92b465a1544572e220d646ff0d975615bdb93>INTERP1_CTRL_LANE1_MASK_MSB_Field</a><li><a href=#20a61c88ce1e47fe71e65efabc948dc18983cd7c328a47c045b77bd172722af0>INTERP1_CTRL_LANE1_SHIFT_Field</a></ul><h3>Variables</h3><ul><li><a href=#124d2c4eb2790e6d5cf9a6279366be47328029c9a4ea8bfaddc74cb224ee3898>SIO_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=50da580f05cc92ede26d6a0032deb593ad9234c97054ab456d8a693cebf6002c>DIV_CSR_Register</h4><pre class=ada-code-snippet><code>type DIV_CSR_Register is record
+   READY         : Boolean;
+   DIRTY         : Boolean;
+   Reserved_2_31 : HAL.UInt30;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>READY<dd><dt>DIRTY<dd><dt>Reserved_2_31<dd></dl><h4 id=85c350e04ad0318ffa736a31b6ebe300bd57826c88eac0bb86de9200467746c0>FIFO_ST_Register</h4><pre class=ada-code-snippet><code>type FIFO_ST_Register is record
+   VLD           : Boolean := False;
+   RDY           : Boolean := True;
+   WOF           : Boolean := False;
+   ROE           : Boolean := False;
+   Reserved_4_31 : HAL.UInt28 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>VLD<dd><dt>RDY<dd><dt>WOF<dd><dt>ROE<dd><dt>Reserved_4_31<dd></dl><h4 id=ef59d2d0056b1838c137c7bd9cfba9cc7e772f6cf52bfcad3b3a46e7eeb25e12>GPIO_HI_IN_GPIO_HI_IN_Field</h4><pre class=ada-code-snippet><code>subtype GPIO_HI_IN_GPIO_HI_IN_Field is HAL.UInt6;
+</code></pre><h4 id=91762380fbc694ad03db5887702ca58849946f26f8d39bc6b39cafcf5057bbb5>GPIO_HI_IN_Register</h4><pre class=ada-code-snippet><code>type GPIO_HI_IN_Register is record
+   GPIO_HI_IN    : GPIO_HI_IN_GPIO_HI_IN_Field;
+   Reserved_6_31 : HAL.UInt26;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_HI_IN<dd><dt>Reserved_6_31<dd></dl><h4 id=c76df15d42495c76d081e8ddec60ff37e73b23908c9be1f421d8a59247966fd3>GPIO_HI_OE_CLR_GPIO_HI_OE_CLR_Field</h4><pre class=ada-code-snippet><code>subtype GPIO_HI_OE_CLR_GPIO_HI_OE_CLR_Field is HAL.UInt6;
+</code></pre><h4 id=839cea02155f5357ca81af6e40c87b191b261a5508fdc16873f5fa5694a95661>GPIO_HI_OE_CLR_Register</h4><pre class=ada-code-snippet><code>type GPIO_HI_OE_CLR_Register is record
+   GPIO_HI_OE_CLR : GPIO_HI_OE_CLR_GPIO_HI_OE_CLR_Field := 16#0#;
+   Reserved_6_31  : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_HI_OE_CLR<dd><dt>Reserved_6_31<dd></dl><h4 id=28dfdbfa634b2f21fe970db7c04f401047b7a451632463624f2dae47b9cd0def>GPIO_HI_OE_GPIO_HI_OE_Field</h4><pre class=ada-code-snippet><code>subtype GPIO_HI_OE_GPIO_HI_OE_Field is HAL.UInt6;
+</code></pre><h4 id=4d639d1e427055c875b68e72c419dbeb467f327a61c22f6304b2f6d8c8c9d351>GPIO_HI_OE_Register</h4><pre class=ada-code-snippet><code>type GPIO_HI_OE_Register is record
+   GPIO_HI_OE    : GPIO_HI_OE_GPIO_HI_OE_Field := 16#0#;
+   Reserved_6_31 : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_HI_OE<dd><dt>Reserved_6_31<dd></dl><h4 id=42274dd56f9e378c40329d8604164110122d232ba92a1b2a8db954b051feae1f>GPIO_HI_OE_SET_GPIO_HI_OE_SET_Field</h4><pre class=ada-code-snippet><code>subtype GPIO_HI_OE_SET_GPIO_HI_OE_SET_Field is HAL.UInt6;
+</code></pre><h4 id=372051ed3be1d39cee66f4fdac68f6cd9c5f84dd82ea647451626dea75b4231c>GPIO_HI_OE_SET_Register</h4><pre class=ada-code-snippet><code>type GPIO_HI_OE_SET_Register is record
+   GPIO_HI_OE_SET : GPIO_HI_OE_SET_GPIO_HI_OE_SET_Field := 16#0#;
+   Reserved_6_31  : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_HI_OE_SET<dd><dt>Reserved_6_31<dd></dl><h4 id=13b824c1fefcee6330383b7d20689e2df6892f2a71e102973e38794e4ffb45fe>GPIO_HI_OE_XOR_GPIO_HI_OE_XOR_Field</h4><pre class=ada-code-snippet><code>subtype GPIO_HI_OE_XOR_GPIO_HI_OE_XOR_Field is HAL.UInt6;
+</code></pre><h4 id=f09af0ac43f8843883f8e256928081e0340a198db1e2f06ff1d2a801998b4bfb>GPIO_HI_OE_XOR_Register</h4><pre class=ada-code-snippet><code>type GPIO_HI_OE_XOR_Register is record
+   GPIO_HI_OE_XOR : GPIO_HI_OE_XOR_GPIO_HI_OE_XOR_Field := 16#0#;
+   Reserved_6_31  : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_HI_OE_XOR<dd><dt>Reserved_6_31<dd></dl><h4 id=bda3d1725e3b908cfce6f994609816d5b182638f233d430389e2c3caa6f9a809>GPIO_HI_OUT_CLR_GPIO_HI_OUT_CLR_Field</h4><pre class=ada-code-snippet><code>subtype GPIO_HI_OUT_CLR_GPIO_HI_OUT_CLR_Field is HAL.UInt6;
+</code></pre><h4 id=f7e8601fbfd110319c83c49b6a795b7ce1bf199b52c1ed6e4790ab38fdc50c15>GPIO_HI_OUT_CLR_Register</h4><pre class=ada-code-snippet><code>type GPIO_HI_OUT_CLR_Register is record
+   GPIO_HI_OUT_CLR : GPIO_HI_OUT_CLR_GPIO_HI_OUT_CLR_Field := 16#0#;
+   Reserved_6_31   : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_HI_OUT_CLR<dd><dt>Reserved_6_31<dd></dl><h4 id=f905bf47d7f890d3f0e04e32908c17ffae735771c4e8bab6fbca88542266b1ea>GPIO_HI_OUT_GPIO_HI_OUT_Field</h4><pre class=ada-code-snippet><code>subtype GPIO_HI_OUT_GPIO_HI_OUT_Field is HAL.UInt6;
+</code></pre><h4 id=067a3a92a8e52f5a9df99fb59d60231b8d949d2ae651a64cd9b0cb8d55469833>GPIO_HI_OUT_Register</h4><pre class=ada-code-snippet><code>type GPIO_HI_OUT_Register is record
+   GPIO_HI_OUT   : GPIO_HI_OUT_GPIO_HI_OUT_Field := 16#0#;
+   Reserved_6_31 : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_HI_OUT<dd><dt>Reserved_6_31<dd></dl><h4 id=e9269c09e932c4914a49a46955734b9a1c0696c70ad9c59582c41fc4d968ec0c>GPIO_HI_OUT_SET_GPIO_HI_OUT_SET_Field</h4><pre class=ada-code-snippet><code>subtype GPIO_HI_OUT_SET_GPIO_HI_OUT_SET_Field is HAL.UInt6;
+</code></pre><h4 id=d77792a048fcd8c66338d336bdc464137a05cfb1dee67de0c354e384bb2f6a54>GPIO_HI_OUT_SET_Register</h4><pre class=ada-code-snippet><code>type GPIO_HI_OUT_SET_Register is record
+   GPIO_HI_OUT_SET : GPIO_HI_OUT_SET_GPIO_HI_OUT_SET_Field := 16#0#;
+   Reserved_6_31   : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_HI_OUT_SET<dd><dt>Reserved_6_31<dd></dl><h4 id=9d5b2af9fd45d8434268c01bf04c0860ebc148023afa7b1b1dea68b7692e2d70>GPIO_HI_OUT_XOR_GPIO_HI_OUT_XOR_Field</h4><pre class=ada-code-snippet><code>subtype GPIO_HI_OUT_XOR_GPIO_HI_OUT_XOR_Field is HAL.UInt6;
+</code></pre><h4 id=222fecc92cdb71ee162deee9164a26195a63ccb4ac810087f96be637849de6bd>GPIO_HI_OUT_XOR_Register</h4><pre class=ada-code-snippet><code>type GPIO_HI_OUT_XOR_Register is record
+   GPIO_HI_OUT_XOR : GPIO_HI_OUT_XOR_GPIO_HI_OUT_XOR_Field := 16#0#;
+   Reserved_6_31   : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_HI_OUT_XOR<dd><dt>Reserved_6_31<dd></dl><h4 id=54c7826b8a4c59d329524783f41574f11f7affdf16be9ca235b5d018366c304e>GPIO_IN_GPIO_IN_Field</h4><pre class=ada-code-snippet><code>subtype GPIO_IN_GPIO_IN_Field is HAL.UInt30;
+</code></pre><h4 id=ebfc09cbdd47bfe62e02d57211cafb7d09fb614fe2a60e8db8ad0002d0562a49>GPIO_IN_Register</h4><pre class=ada-code-snippet><code>type GPIO_IN_Register is record
+   GPIO_IN        : GPIO_IN_GPIO_IN_Field;
+   Reserved_30_31 : HAL.UInt2;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_IN<dd><dt>Reserved_30_31<dd></dl><h4 id=bb4293e96206548d018058804b675d11fd8b94fb52cc8db4c37b6fd924a5efe4>GPIO_OE_CLR_GPIO_OE_CLR_Field</h4><pre class=ada-code-snippet><code>subtype GPIO_OE_CLR_GPIO_OE_CLR_Field is HAL.UInt30;
+</code></pre><h4 id=be5bd75912358727b7ed45143645cc494b797e040ae88b5047176b1f0e675f00>GPIO_OE_CLR_Register</h4><pre class=ada-code-snippet><code>type GPIO_OE_CLR_Register is record
+   GPIO_OE_CLR    : GPIO_OE_CLR_GPIO_OE_CLR_Field := 16#0#;
+   Reserved_30_31 : HAL.UInt2 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_OE_CLR<dd><dt>Reserved_30_31<dd></dl><h4 id=e97f75b496ba2aaf0ca6a941dca4cb6fe19a5ed126ee79a1105d3285f31b6c7a>GPIO_OE_GPIO_OE_Field</h4><pre class=ada-code-snippet><code>subtype GPIO_OE_GPIO_OE_Field is HAL.UInt30;
+</code></pre><h4 id=ffe74927c4efaef41274dfad6fee31aca3c4b39cbcd5a553a8a6e5e1acab5669>GPIO_OE_Register</h4><pre class=ada-code-snippet><code>type GPIO_OE_Register is record
+   GPIO_OE        : GPIO_OE_GPIO_OE_Field := 16#0#;
+   Reserved_30_31 : HAL.UInt2 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_OE<dd><dt>Reserved_30_31<dd></dl><h4 id=90e0b7d506ec1153b11218d5d72a570a9824415d3eef9484c3bf7f8d9257227a>GPIO_OE_SET_GPIO_OE_SET_Field</h4><pre class=ada-code-snippet><code>subtype GPIO_OE_SET_GPIO_OE_SET_Field is HAL.UInt30;
+</code></pre><h4 id=d72839599287d021389767e1443aef715d261803690018078f9b9f6aabadc428>GPIO_OE_SET_Register</h4><pre class=ada-code-snippet><code>type GPIO_OE_SET_Register is record
+   GPIO_OE_SET    : GPIO_OE_SET_GPIO_OE_SET_Field := 16#0#;
+   Reserved_30_31 : HAL.UInt2 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_OE_SET<dd><dt>Reserved_30_31<dd></dl><h4 id=79e303fcc0b7a5966543a57d9bd17ee0207dec3467fb087d7f464ce6a0957c05>GPIO_OE_XOR_GPIO_OE_XOR_Field</h4><pre class=ada-code-snippet><code>subtype GPIO_OE_XOR_GPIO_OE_XOR_Field is HAL.UInt30;
+</code></pre><h4 id=c0e71f66e1561b0a40d4401b5ab23975a0137ec6208996b22e6ad0eadd06d221>GPIO_OE_XOR_Register</h4><pre class=ada-code-snippet><code>type GPIO_OE_XOR_Register is record
+   GPIO_OE_XOR    : GPIO_OE_XOR_GPIO_OE_XOR_Field := 16#0#;
+   Reserved_30_31 : HAL.UInt2 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_OE_XOR<dd><dt>Reserved_30_31<dd></dl><h4 id=90da48b6707cd4224a4e8527cbe20796280105d1ab04c232d662e55b1503240f>GPIO_OUT_CLR_GPIO_OUT_CLR_Field</h4><pre class=ada-code-snippet><code>subtype GPIO_OUT_CLR_GPIO_OUT_CLR_Field is HAL.UInt30;
+</code></pre><h4 id=53595d0f14ffc9fa8c6580ee359eca364b54774eccf66eca0b1c33e9a28018b5>GPIO_OUT_CLR_Register</h4><pre class=ada-code-snippet><code>type GPIO_OUT_CLR_Register is record
+   GPIO_OUT_CLR   : GPIO_OUT_CLR_GPIO_OUT_CLR_Field := 16#0#;
+   Reserved_30_31 : HAL.UInt2 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_OUT_CLR<dd><dt>Reserved_30_31<dd></dl><h4 id=fe5cac8149aafe980720f78491d6410a22363ab7da4b3dd00ad8cbc88907ae3e>GPIO_OUT_GPIO_OUT_Field</h4><pre class=ada-code-snippet><code>subtype GPIO_OUT_GPIO_OUT_Field is HAL.UInt30;
+</code></pre><h4 id=d94e4ae06d42122de49f8b181afd8977eb1d10cde0e44b8463fef68d51e623da>GPIO_OUT_Register</h4><pre class=ada-code-snippet><code>type GPIO_OUT_Register is record
+   GPIO_OUT       : GPIO_OUT_GPIO_OUT_Field := 16#0#;
+   Reserved_30_31 : HAL.UInt2 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_OUT<dd><dt>Reserved_30_31<dd></dl><h4 id=f1b58dccdee20c7df7fee38fbb0ce754f500ab67b7fd38fdfa71f86b8b27ad45>GPIO_OUT_SET_GPIO_OUT_SET_Field</h4><pre class=ada-code-snippet><code>subtype GPIO_OUT_SET_GPIO_OUT_SET_Field is HAL.UInt30;
+</code></pre><h4 id=27f144a77bd01eb8a057c7f7d81bc45e261a78071e286cc8e6a673056a79066d>GPIO_OUT_SET_Register</h4><pre class=ada-code-snippet><code>type GPIO_OUT_SET_Register is record
+   GPIO_OUT_SET   : GPIO_OUT_SET_GPIO_OUT_SET_Field := 16#0#;
+   Reserved_30_31 : HAL.UInt2 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_OUT_SET<dd><dt>Reserved_30_31<dd></dl><h4 id=31bdfed1d63daf872f9d13036844ca383ce3b16ca9466b68f90ded176b28e728>GPIO_OUT_XOR_GPIO_OUT_XOR_Field</h4><pre class=ada-code-snippet><code>subtype GPIO_OUT_XOR_GPIO_OUT_XOR_Field is HAL.UInt30;
+</code></pre><h4 id=3172e8aaf3285bcc91ba911508db66805f41b72a0811ea798a0500fa6aa13a40>GPIO_OUT_XOR_Register</h4><pre class=ada-code-snippet><code>type GPIO_OUT_XOR_Register is record
+   GPIO_OUT_XOR   : GPIO_OUT_XOR_GPIO_OUT_XOR_Field := 16#0#;
+   Reserved_30_31 : HAL.UInt2 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_OUT_XOR<dd><dt>Reserved_30_31<dd></dl><h4 id=627b8847df84bf52a94b150cd20c5e4faed5d2f01c55165d4d98d728b89afbfb>INTERP0_ACCUM0_ADD_INTERP0_ACCUM0_ADD_Field</h4><pre class=ada-code-snippet><code>subtype INTERP0_ACCUM0_ADD_INTERP0_ACCUM0_ADD_Field is HAL.UInt24;
+</code></pre><h4 id=37e274f41050601ed3d693a7aa7a7d46e4adc43ebbc0a5ac9e97badc4ee70f36>INTERP0_ACCUM0_ADD_Register</h4><pre class=ada-code-snippet><code>type INTERP0_ACCUM0_ADD_Register is record
+   INTERP0_ACCUM0_ADD : INTERP0_ACCUM0_ADD_INTERP0_ACCUM0_ADD_Field :=
+                         16#0#;
+   Reserved_24_31     : HAL.UInt8 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>INTERP0_ACCUM0_ADD<dd><dt>Reserved_24_31<dd></dl><h4 id=db7dacf30ce2dcce47e02bcefcf02981a84fb052b9a3183ace649333e886c5c1>INTERP0_ACCUM1_ADD_INTERP0_ACCUM1_ADD_Field</h4><pre class=ada-code-snippet><code>subtype INTERP0_ACCUM1_ADD_INTERP0_ACCUM1_ADD_Field is HAL.UInt24;
+</code></pre><h4 id=8c2991d2db59caf28b71ecaffa50b8f8c838610cf8368d52499220796e7a0e2f>INTERP0_ACCUM1_ADD_Register</h4><pre class=ada-code-snippet><code>type INTERP0_ACCUM1_ADD_Register is record
+   INTERP0_ACCUM1_ADD : INTERP0_ACCUM1_ADD_INTERP0_ACCUM1_ADD_Field :=
+                         16#0#;
+   Reserved_24_31     : HAL.UInt8 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>INTERP0_ACCUM1_ADD<dd><dt>Reserved_24_31<dd></dl><h4 id=4efccb460ba9d2f23f4256edf8a5e08bcf3acfb34075246cfcffafc6401696c9>INTERP0_CTRL_LANE0_FORCE_MSB_Field</h4><pre class=ada-code-snippet><code>subtype INTERP0_CTRL_LANE0_FORCE_MSB_Field is HAL.UInt2;
+</code></pre><h4 id=1eed74ab3b60dcb469f95e778b862f21e2111717a030dfc8cc83baff594026c0>INTERP0_CTRL_LANE0_MASK_LSB_Field</h4><pre class=ada-code-snippet><code>subtype INTERP0_CTRL_LANE0_MASK_LSB_Field is HAL.UInt5;
+</code></pre><h4 id=37acfdda4711b8fadd7aaa3832c1de8aff6fb5777c7a418ec330440658d53076>INTERP0_CTRL_LANE0_MASK_MSB_Field</h4><pre class=ada-code-snippet><code>subtype INTERP0_CTRL_LANE0_MASK_MSB_Field is HAL.UInt5;
+</code></pre><h4 id=4a962e7e3fbc31d0bd220b089722513d4ad306c150bd0d1978635705dbd98bc2>INTERP0_CTRL_LANE0_OVERF_Field</h4><pre class=ada-code-snippet><code>type INTERP0_CTRL_LANE0_OVERF_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt3;
+      when True =>
+         Arr : INTERP0_CTRL_LANE0_OVERF_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 3;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=d0d3f2cc4277594c20d932c5c88e9f864c8349f2a143aad5e3876469b4834137>INTERP0_CTRL_LANE0_OVERF_Field_Array</h4><pre class=ada-code-snippet><code>type INTERP0_CTRL_LANE0_OVERF_Field_Array is array (0 .. 2) of Boolean
+  with Component_Size => 1, Size => 3;
+</code></pre><h4 id=5131f64379ff89d8aeea747640feb1264ff1b3089d803abc90a7b76850d5eded>INTERP0_CTRL_LANE0_Register</h4><pre class=ada-code-snippet><code>type INTERP0_CTRL_LANE0_Register is record
+   SHIFT          : INTERP0_CTRL_LANE0_SHIFT_Field := 16#0#;
+   MASK_LSB       : INTERP0_CTRL_LANE0_MASK_LSB_Field := 16#0#;
+   MASK_MSB       : INTERP0_CTRL_LANE0_MASK_MSB_Field := 16#0#;
+   SIGNED         : Boolean := False;
+   CROSS_INPUT    : Boolean := False;
+   CROSS_RESULT   : Boolean := False;
+   ADD_RAW        : Boolean := False;
+   FORCE_MSB      : INTERP0_CTRL_LANE0_FORCE_MSB_Field := 16#0#;
+   BLEND          : Boolean := False;
+   Reserved_22_22 : HAL.Bit := 16#0#;
+   OVERF          : INTERP0_CTRL_LANE0_OVERF_Field :=
+                     (As_Array => False, Val => 16#0#);
+   Reserved_26_31 : HAL.UInt6 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>SHIFT<dd><dt>MASK_LSB<dd><dt>MASK_MSB<dd><dt>SIGNED<dd><dt>CROSS_INPUT<dd><dt>CROSS_RESULT<dd><dt>ADD_RAW<dd><dt>FORCE_MSB<dd><dt>BLEND<dd><dt>Reserved_22_22<dd><dt>OVERF<dd><dt>Reserved_26_31<dd></dl><h4 id=094a132797e4d7d006b2c091558596d897eb68733136e4323bec89dce1516f87>INTERP0_CTRL_LANE0_SHIFT_Field</h4><pre class=ada-code-snippet><code>subtype INTERP0_CTRL_LANE0_SHIFT_Field is HAL.UInt5;
+</code></pre><h4 id=10aad1f293f275aa2f9c2d0485d58f49304c51469cd3fb1a5df655168914500a>INTERP0_CTRL_LANE1_FORCE_MSB_Field</h4><pre class=ada-code-snippet><code>subtype INTERP0_CTRL_LANE1_FORCE_MSB_Field is HAL.UInt2;
+</code></pre><h4 id=e06cddba634f4a6a3a6fd1e6085c445b40376a1be28caca90405245ba644e36b>INTERP0_CTRL_LANE1_MASK_LSB_Field</h4><pre class=ada-code-snippet><code>subtype INTERP0_CTRL_LANE1_MASK_LSB_Field is HAL.UInt5;
+</code></pre><h4 id=68cd1e02aad39f19ae1f9657d21423676d46d248d46c6e400de77c0a15513cce>INTERP0_CTRL_LANE1_MASK_MSB_Field</h4><pre class=ada-code-snippet><code>subtype INTERP0_CTRL_LANE1_MASK_MSB_Field is HAL.UInt5;
+</code></pre><h4 id=9fd81c17cd7e5b8094d0b6d448e674729559be4acc7ba9ac0f538eff32aadd29>INTERP0_CTRL_LANE1_Register</h4><pre class=ada-code-snippet><code>type INTERP0_CTRL_LANE1_Register is record
+   SHIFT          : INTERP0_CTRL_LANE1_SHIFT_Field := 16#0#;
+   MASK_LSB       : INTERP0_CTRL_LANE1_MASK_LSB_Field := 16#0#;
+   MASK_MSB       : INTERP0_CTRL_LANE1_MASK_MSB_Field := 16#0#;
+   SIGNED         : Boolean := False;
+   CROSS_INPUT    : Boolean := False;
+   CROSS_RESULT   : Boolean := False;
+   ADD_RAW        : Boolean := False;
+   FORCE_MSB      : INTERP0_CTRL_LANE1_FORCE_MSB_Field := 16#0#;
+   Reserved_21_31 : HAL.UInt11 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>SHIFT<dd><dt>MASK_LSB<dd><dt>MASK_MSB<dd><dt>SIGNED<dd><dt>CROSS_INPUT<dd><dt>CROSS_RESULT<dd><dt>ADD_RAW<dd><dt>FORCE_MSB<dd><dt>Reserved_21_31<dd></dl><h4 id=b049d47d65a4415925e685cd5547caeb9d9eb19ce1a8a2f2b0e53956de3d3568>INTERP0_CTRL_LANE1_SHIFT_Field</h4><pre class=ada-code-snippet><code>subtype INTERP0_CTRL_LANE1_SHIFT_Field is HAL.UInt5;
+</code></pre><h4 id=7e20755a1d44c0e766a62fa62c9cd1830ddc8ec24d9f371a23c281c94b17bcd1>INTERP1_ACCUM0_ADD_INTERP1_ACCUM0_ADD_Field</h4><pre class=ada-code-snippet><code>subtype INTERP1_ACCUM0_ADD_INTERP1_ACCUM0_ADD_Field is HAL.UInt24;
+</code></pre><h4 id=1bcc2cf5968665b5c56ae6e66aee96fb3f6bb55e8cf0d5c6ab1d1d438d947e34>INTERP1_ACCUM0_ADD_Register</h4><pre class=ada-code-snippet><code>type INTERP1_ACCUM0_ADD_Register is record
+   INTERP1_ACCUM0_ADD : INTERP1_ACCUM0_ADD_INTERP1_ACCUM0_ADD_Field :=
+                         16#0#;
+   Reserved_24_31     : HAL.UInt8 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>INTERP1_ACCUM0_ADD<dd><dt>Reserved_24_31<dd></dl><h4 id=4989693d25aed98bf535b6b4169a5e04bbc58c4d1260569c95fc09e74c4cbc22>INTERP1_ACCUM1_ADD_INTERP1_ACCUM1_ADD_Field</h4><pre class=ada-code-snippet><code>subtype INTERP1_ACCUM1_ADD_INTERP1_ACCUM1_ADD_Field is HAL.UInt24;
+</code></pre><h4 id=9507bd6450fb8352e948e89f59391121e464865c08ad0b4f9ea987b5d1ac4d2d>INTERP1_ACCUM1_ADD_Register</h4><pre class=ada-code-snippet><code>type INTERP1_ACCUM1_ADD_Register is record
+   INTERP1_ACCUM1_ADD : INTERP1_ACCUM1_ADD_INTERP1_ACCUM1_ADD_Field :=
+                         16#0#;
+   Reserved_24_31     : HAL.UInt8 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>INTERP1_ACCUM1_ADD<dd><dt>Reserved_24_31<dd></dl><h4 id=a0872b26fe3f5c67dd7cc0de60035c31a6026ee8812d87b99b0d698ecd663fff>INTERP1_CTRL_LANE0_FORCE_MSB_Field</h4><pre class=ada-code-snippet><code>subtype INTERP1_CTRL_LANE0_FORCE_MSB_Field is HAL.UInt2;
+</code></pre><h4 id=5587ad6436036ef9ae8df1b336fd62a584ec61e6729752421e0b1256d3f4e33a>INTERP1_CTRL_LANE0_MASK_LSB_Field</h4><pre class=ada-code-snippet><code>subtype INTERP1_CTRL_LANE0_MASK_LSB_Field is HAL.UInt5;
+</code></pre><h4 id=6d0b4fff0031833e793ee14abc9a9419ffd19736ac683f836f8c2fb53477761f>INTERP1_CTRL_LANE0_MASK_MSB_Field</h4><pre class=ada-code-snippet><code>subtype INTERP1_CTRL_LANE0_MASK_MSB_Field is HAL.UInt5;
+</code></pre><h4 id=bfdafe45bee5f5de61e42f3898664ca146b1cd7ba740e7ca3578afa94cd372a3>INTERP1_CTRL_LANE0_OVERF_Field</h4><pre class=ada-code-snippet><code>type INTERP1_CTRL_LANE0_OVERF_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt3;
+      when True =>
+         Arr : INTERP1_CTRL_LANE0_OVERF_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 3;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=10465765c18f5dae472dc50bb03908033f50113e4ade920222f88bae6c683349>INTERP1_CTRL_LANE0_OVERF_Field_Array</h4><pre class=ada-code-snippet><code>type INTERP1_CTRL_LANE0_OVERF_Field_Array is array (0 .. 2) of Boolean
+  with Component_Size => 1, Size => 3;
+</code></pre><h4 id=defe1283461d76c77978531c0462151d036ba97957d890ef664229d946f7f40c>INTERP1_CTRL_LANE0_Register</h4><pre class=ada-code-snippet><code>type INTERP1_CTRL_LANE0_Register is record
+   SHIFT          : INTERP1_CTRL_LANE0_SHIFT_Field := 16#0#;
+   MASK_LSB       : INTERP1_CTRL_LANE0_MASK_LSB_Field := 16#0#;
+   MASK_MSB       : INTERP1_CTRL_LANE0_MASK_MSB_Field := 16#0#;
+   SIGNED         : Boolean := False;
+   CROSS_INPUT    : Boolean := False;
+   CROSS_RESULT   : Boolean := False;
+   ADD_RAW        : Boolean := False;
+   FORCE_MSB      : INTERP1_CTRL_LANE0_FORCE_MSB_Field := 16#0#;
+   Reserved_21_21 : HAL.Bit := 16#0#;
+   CLAMP          : Boolean := False;
+   OVERF          : INTERP1_CTRL_LANE0_OVERF_Field :=
+                     (As_Array => False, Val => 16#0#);
+   Reserved_26_31 : HAL.UInt6 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>SHIFT<dd><dt>MASK_LSB<dd><dt>MASK_MSB<dd><dt>SIGNED<dd><dt>CROSS_INPUT<dd><dt>CROSS_RESULT<dd><dt>ADD_RAW<dd><dt>FORCE_MSB<dd><dt>Reserved_21_21<dd><dt>CLAMP<dd><dt>OVERF<dd><dt>Reserved_26_31<dd></dl><h4 id=b6997fce04b230a818e3d54913ad1ffaa407fb3c4a1f1f7e70efb9e9d88ee714>INTERP1_CTRL_LANE0_SHIFT_Field</h4><pre class=ada-code-snippet><code>subtype INTERP1_CTRL_LANE0_SHIFT_Field is HAL.UInt5;
+</code></pre><h4 id=3a3d4829655eb512930877449308220bc9e64181c6997c61d199d7843371fc91>INTERP1_CTRL_LANE1_FORCE_MSB_Field</h4><pre class=ada-code-snippet><code>subtype INTERP1_CTRL_LANE1_FORCE_MSB_Field is HAL.UInt2;
+</code></pre><h4 id=5beb54dc1f01d541db8c394f4a364ace3ff3f180353d0c904a4b85a448a39b00>INTERP1_CTRL_LANE1_MASK_LSB_Field</h4><pre class=ada-code-snippet><code>subtype INTERP1_CTRL_LANE1_MASK_LSB_Field is HAL.UInt5;
+</code></pre><h4 id=51a00956e398274ecd830c92c1e92b465a1544572e220d646ff0d975615bdb93>INTERP1_CTRL_LANE1_MASK_MSB_Field</h4><pre class=ada-code-snippet><code>subtype INTERP1_CTRL_LANE1_MASK_MSB_Field is HAL.UInt5;
+</code></pre><h4 id=17f2242afbd06827ebd354e7f951700068754998e01d690f6c894cbda421ce9b>INTERP1_CTRL_LANE1_Register</h4><pre class=ada-code-snippet><code>type INTERP1_CTRL_LANE1_Register is record
+   SHIFT          : INTERP1_CTRL_LANE1_SHIFT_Field := 16#0#;
+   MASK_LSB       : INTERP1_CTRL_LANE1_MASK_LSB_Field := 16#0#;
+   MASK_MSB       : INTERP1_CTRL_LANE1_MASK_MSB_Field := 16#0#;
+   SIGNED         : Boolean := False;
+   CROSS_INPUT    : Boolean := False;
+   CROSS_RESULT   : Boolean := False;
+   ADD_RAW        : Boolean := False;
+   FORCE_MSB      : INTERP1_CTRL_LANE1_FORCE_MSB_Field := 16#0#;
+   Reserved_21_31 : HAL.UInt11 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>SHIFT<dd><dt>MASK_LSB<dd><dt>MASK_MSB<dd><dt>SIGNED<dd><dt>CROSS_INPUT<dd><dt>CROSS_RESULT<dd><dt>ADD_RAW<dd><dt>FORCE_MSB<dd><dt>Reserved_21_31<dd></dl><h4 id=20a61c88ce1e47fe71e65efabc948dc18983cd7c328a47c045b77bd172722af0>INTERP1_CTRL_LANE1_SHIFT_Field</h4><pre class=ada-code-snippet><code>subtype INTERP1_CTRL_LANE1_SHIFT_Field is HAL.UInt5;
+</code></pre><h4 id=124d2c4eb2790e6d5cf9a6279366be47328029c9a4ea8bfaddc74cb224ee3898>SIO_Periph</h4><pre class=ada-code-snippet><code>SIO_Periph : aliased SIO_Peripheral
+  with Import, Address => SIO_Base;
+</code></pre><h4 id=69e9368a57e54285a6c99ea582a26110f064ca4119ea84906569a0f4112379a2>SIO_Peripheral</h4><pre class=ada-code-snippet><code>type SIO_Peripheral is record
+   CPUID              : aliased HAL.UInt32;
+   GPIO_IN            : aliased GPIO_IN_Register;
+   GPIO_HI_IN         : aliased GPIO_HI_IN_Register;
+   GPIO_OUT           : aliased GPIO_OUT_Register;
+   GPIO_OUT_SET       : aliased GPIO_OUT_SET_Register;
+   GPIO_OUT_CLR       : aliased GPIO_OUT_CLR_Register;
+   GPIO_OUT_XOR       : aliased GPIO_OUT_XOR_Register;
+   GPIO_OE            : aliased GPIO_OE_Register;
+   GPIO_OE_SET        : aliased GPIO_OE_SET_Register;
+   GPIO_OE_CLR        : aliased GPIO_OE_CLR_Register;
+   GPIO_OE_XOR        : aliased GPIO_OE_XOR_Register;
+   GPIO_HI_OUT        : aliased GPIO_HI_OUT_Register;
+   GPIO_HI_OUT_SET    : aliased GPIO_HI_OUT_SET_Register;
+   GPIO_HI_OUT_CLR    : aliased GPIO_HI_OUT_CLR_Register;
+   GPIO_HI_OUT_XOR    : aliased GPIO_HI_OUT_XOR_Register;
+   GPIO_HI_OE         : aliased GPIO_HI_OE_Register;
+   GPIO_HI_OE_SET     : aliased GPIO_HI_OE_SET_Register;
+   GPIO_HI_OE_CLR     : aliased GPIO_HI_OE_CLR_Register;
+   GPIO_HI_OE_XOR     : aliased GPIO_HI_OE_XOR_Register;
+   FIFO_ST            : aliased FIFO_ST_Register;
+   FIFO_WR            : aliased HAL.UInt32;
+   FIFO_RD            : aliased HAL.UInt32;
+   SPINLOCK_ST        : aliased HAL.UInt32;
+   DIV_UDIVIDEND      : aliased HAL.UInt32;
+   DIV_UDIVISOR       : aliased HAL.UInt32;
+   DIV_SDIVIDEND      : aliased HAL.UInt32;
+   DIV_SDIVISOR       : aliased HAL.UInt32;
+   DIV_QUOTIENT       : aliased HAL.UInt32;
+   DIV_REMAINDER      : aliased HAL.UInt32;
+   DIV_CSR            : aliased DIV_CSR_Register;
+   INTERP0_ACCUM0     : aliased HAL.UInt32;
+   INTERP0_ACCUM1     : aliased HAL.UInt32;
+   INTERP0_BASE0      : aliased HAL.UInt32;
+   INTERP0_BASE1      : aliased HAL.UInt32;
+   INTERP0_BASE2      : aliased HAL.UInt32;
+   INTERP0_POP_LANE0  : aliased HAL.UInt32;
+   INTERP0_POP_LANE1  : aliased HAL.UInt32;
+   INTERP0_POP_FULL   : aliased HAL.UInt32;
+   INTERP0_PEEK_LANE0 : aliased HAL.UInt32;
+   INTERP0_PEEK_LANE1 : aliased HAL.UInt32;
+   INTERP0_PEEK_FULL  : aliased HAL.UInt32;
+   INTERP0_CTRL_LANE0 : aliased INTERP0_CTRL_LANE0_Register;
+   INTERP0_CTRL_LANE1 : aliased INTERP0_CTRL_LANE1_Register;
+   INTERP0_ACCUM0_ADD : aliased INTERP0_ACCUM0_ADD_Register;
+   INTERP0_ACCUM1_ADD : aliased INTERP0_ACCUM1_ADD_Register;
+   INTERP0_BASE_1AND0 : aliased HAL.UInt32;
+   INTERP1_ACCUM0     : aliased HAL.UInt32;
+   INTERP1_ACCUM1     : aliased HAL.UInt32;
+   INTERP1_BASE0      : aliased HAL.UInt32;
+   INTERP1_BASE1      : aliased HAL.UInt32;
+   INTERP1_BASE2      : aliased HAL.UInt32;
+   INTERP1_POP_LANE0  : aliased HAL.UInt32;
+   INTERP1_POP_LANE1  : aliased HAL.UInt32;
+   INTERP1_POP_FULL   : aliased HAL.UInt32;
+   INTERP1_PEEK_LANE0 : aliased HAL.UInt32;
+   INTERP1_PEEK_LANE1 : aliased HAL.UInt32;
+   INTERP1_PEEK_FULL  : aliased HAL.UInt32;
+   INTERP1_CTRL_LANE0 : aliased INTERP1_CTRL_LANE0_Register;
+   INTERP1_CTRL_LANE1 : aliased INTERP1_CTRL_LANE1_Register;
+   INTERP1_ACCUM0_ADD : aliased INTERP1_ACCUM0_ADD_Register;
+   INTERP1_ACCUM1_ADD : aliased INTERP1_ACCUM1_ADD_Register;
+   INTERP1_BASE_1AND0 : aliased HAL.UInt32;
+   SPINLOCK0          : aliased HAL.UInt32;
+   SPINLOCK1          : aliased HAL.UInt32;
+   SPINLOCK2          : aliased HAL.UInt32;
+   SPINLOCK3          : aliased HAL.UInt32;
+   SPINLOCK4          : aliased HAL.UInt32;
+   SPINLOCK5          : aliased HAL.UInt32;
+   SPINLOCK6          : aliased HAL.UInt32;
+   SPINLOCK7          : aliased HAL.UInt32;
+   SPINLOCK8          : aliased HAL.UInt32;
+   SPINLOCK9          : aliased HAL.UInt32;
+   SPINLOCK10         : aliased HAL.UInt32;
+   SPINLOCK11         : aliased HAL.UInt32;
+   SPINLOCK12         : aliased HAL.UInt32;
+   SPINLOCK13         : aliased HAL.UInt32;
+   SPINLOCK14         : aliased HAL.UInt32;
+   SPINLOCK15         : aliased HAL.UInt32;
+   SPINLOCK16         : aliased HAL.UInt32;
+   SPINLOCK17         : aliased HAL.UInt32;
+   SPINLOCK18         : aliased HAL.UInt32;
+   SPINLOCK19         : aliased HAL.UInt32;
+   SPINLOCK20         : aliased HAL.UInt32;
+   SPINLOCK21         : aliased HAL.UInt32;
+   SPINLOCK22         : aliased HAL.UInt32;
+   SPINLOCK23         : aliased HAL.UInt32;
+   SPINLOCK24         : aliased HAL.UInt32;
+   SPINLOCK25         : aliased HAL.UInt32;
+   SPINLOCK26         : aliased HAL.UInt32;
+   SPINLOCK27         : aliased HAL.UInt32;
+   SPINLOCK28         : aliased HAL.UInt32;
+   SPINLOCK29         : aliased HAL.UInt32;
+   SPINLOCK30         : aliased HAL.UInt32;
+   SPINLOCK31         : aliased HAL.UInt32;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>CPUID<dd><dt>GPIO_IN<dd><dt>GPIO_HI_IN<dd><dt>GPIO_OUT<dd><dt>GPIO_OUT_SET<dd><dt>GPIO_OUT_CLR<dd><dt>GPIO_OUT_XOR<dd><dt>GPIO_OE<dd><dt>GPIO_OE_SET<dd><dt>GPIO_OE_CLR<dd><dt>GPIO_OE_XOR<dd><dt>GPIO_HI_OUT<dd><dt>GPIO_HI_OUT_SET<dd><dt>GPIO_HI_OUT_CLR<dd><dt>GPIO_HI_OUT_XOR<dd><dt>GPIO_HI_OE<dd><dt>GPIO_HI_OE_SET<dd><dt>GPIO_HI_OE_CLR<dd><dt>GPIO_HI_OE_XOR<dd><dt>FIFO_ST<dd><dt>FIFO_WR<dd><dt>FIFO_RD<dd><dt>SPINLOCK_ST<dd><dt>DIV_UDIVIDEND<dd><dt>DIV_UDIVISOR<dd><dt>DIV_SDIVIDEND<dd><dt>DIV_SDIVISOR<dd><dt>DIV_QUOTIENT<dd><dt>DIV_REMAINDER<dd><dt>DIV_CSR<dd><dt>INTERP0_ACCUM0<dd><dt>INTERP0_ACCUM1<dd><dt>INTERP0_BASE0<dd><dt>INTERP0_BASE1<dd><dt>INTERP0_BASE2<dd><dt>INTERP0_POP_LANE0<dd><dt>INTERP0_POP_LANE1<dd><dt>INTERP0_POP_FULL<dd><dt>INTERP0_PEEK_LANE0<dd><dt>INTERP0_PEEK_LANE1<dd><dt>INTERP0_PEEK_FULL<dd><dt>INTERP0_CTRL_LANE0<dd><dt>INTERP0_CTRL_LANE1<dd><dt>INTERP0_ACCUM0_ADD<dd><dt>INTERP0_ACCUM1_ADD<dd><dt>INTERP0_BASE_1AND0<dd><dt>INTERP1_ACCUM0<dd><dt>INTERP1_ACCUM1<dd><dt>INTERP1_BASE0<dd><dt>INTERP1_BASE1<dd><dt>INTERP1_BASE2<dd><dt>INTERP1_POP_LANE0<dd><dt>INTERP1_POP_LANE1<dd><dt>INTERP1_POP_FULL<dd><dt>INTERP1_PEEK_LANE0<dd><dt>INTERP1_PEEK_LANE1<dd><dt>INTERP1_PEEK_FULL<dd><dt>INTERP1_CTRL_LANE0<dd><dt>INTERP1_CTRL_LANE1<dd><dt>INTERP1_ACCUM0_ADD<dd><dt>INTERP1_ACCUM1_ADD<dd><dt>INTERP1_BASE_1AND0<dd><dt>SPINLOCK0<dd><dt>SPINLOCK1<dd><dt>SPINLOCK2<dd><dt>SPINLOCK3<dd><dt>SPINLOCK4<dd><dt>SPINLOCK5<dd><dt>SPINLOCK6<dd><dt>SPINLOCK7<dd><dt>SPINLOCK8<dd><dt>SPINLOCK9<dd><dt>SPINLOCK10<dd><dt>SPINLOCK11<dd><dt>SPINLOCK12<dd><dt>SPINLOCK13<dd><dt>SPINLOCK14<dd><dt>SPINLOCK15<dd><dt>SPINLOCK16<dd><dt>SPINLOCK17<dd><dt>SPINLOCK18<dd><dt>SPINLOCK19<dd><dt>SPINLOCK20<dd><dt>SPINLOCK21<dd><dt>SPINLOCK22<dd><dt>SPINLOCK23<dd><dt>SPINLOCK24<dd><dt>SPINLOCK25<dd><dt>SPINLOCK26<dd><dt>SPINLOCK27<dd><dt>SPINLOCK28<dd><dt>SPINLOCK29<dd><dt>SPINLOCK30<dd><dt>SPINLOCK31<dd></dl>

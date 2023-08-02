@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.XIP_CTRL</h1><h2>Entities</h2><h3>Record Types</h3><ul><li><a href=#a4317420fad05de8bc3bc9893c01fd9c6e22170fc430d5fe5deaee79e43f6ce5>CTRL_Register</a><li><a href=#913ab9b2ddd15692691f6615d68ff68922cb20f2ae30754ac003cd9fd7deb973>FLUSH_Register</a><li><a href=#49e4dfe0b40ea8ec9e8e958a2e0e69381d3b817a7234793711a9e83e26d10d52>STAT_Register</a><li><a href=#f59eabdff67d707e9db8de0a9284647b638e4072734784892ac8af6c63b52547>STREAM_ADDR_Register</a><li><a href=#d7992754ffbcf883c2280ba4b492c9adb17e8d8c4fa5b2dfdeab682dda038aa9>STREAM_CTR_Register</a><li><a href=#bdab0fdd75c40a3dcfb720226d6273d1f6b1e15807f19b8bb5b6c4d4c5b6cdd2>XIP_CTRL_Peripheral</a></ul><h3>Subtypes</h3><ul><li><a href=#e96891d91ca50130b859ef3c7952982c19d9a4a06e0cad8a0b1e985b9eafe41d>STREAM_ADDR_STREAM_ADDR_Field</a><li><a href=#b06bc004dabca9d1cb111879dceaa9d34798041a75b45c4b0ad39f160fe068c1>STREAM_CTR_STREAM_CTR_Field</a></ul><h3>Variables</h3><ul><li><a href=#08c921f08d01801c617dbaf0cd5cf2d3c81b93df081b1f8879a4df9c9a3f5f5d>XIP_CTRL_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=a4317420fad05de8bc3bc9893c01fd9c6e22170fc430d5fe5deaee79e43f6ce5>CTRL_Register</h4><pre class=ada-code-snippet><code>type CTRL_Register is record
+   EN            : Boolean := True;
+   ERR_BADWRITE  : Boolean := True;
+   Reserved_2_2  : HAL.Bit := 16#0#;
+   POWER_DOWN    : Boolean := False;
+   Reserved_4_31 : HAL.UInt28 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>ERR_BADWRITE<dd><dt>Reserved_2_2<dd><dt>POWER_DOWN<dd><dt>Reserved_4_31<dd></dl><h4 id=913ab9b2ddd15692691f6615d68ff68922cb20f2ae30754ac003cd9fd7deb973>FLUSH_Register</h4><pre class=ada-code-snippet><code>type FLUSH_Register is record
+   FLUSH         : Boolean := False;
+   Reserved_1_31 : HAL.UInt31 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FLUSH<dd><dt>Reserved_1_31<dd></dl><h4 id=49e4dfe0b40ea8ec9e8e958a2e0e69381d3b817a7234793711a9e83e26d10d52>STAT_Register</h4><pre class=ada-code-snippet><code>type STAT_Register is record
+   FLUSH_READY   : Boolean;
+   FIFO_EMPTY    : Boolean;
+   FIFO_FULL     : Boolean;
+   Reserved_3_31 : HAL.UInt29;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FLUSH_READY<dd><dt>FIFO_EMPTY<dd><dt>FIFO_FULL<dd><dt>Reserved_3_31<dd></dl><h4 id=f59eabdff67d707e9db8de0a9284647b638e4072734784892ac8af6c63b52547>STREAM_ADDR_Register</h4><pre class=ada-code-snippet><code>type STREAM_ADDR_Register is record
+   Reserved_0_1 : HAL.UInt2 := 16#0#;
+   STREAM_ADDR  : STREAM_ADDR_STREAM_ADDR_Field := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_1<dd><dt>STREAM_ADDR<dd></dl><h4 id=e96891d91ca50130b859ef3c7952982c19d9a4a06e0cad8a0b1e985b9eafe41d>STREAM_ADDR_STREAM_ADDR_Field</h4><pre class=ada-code-snippet><code>subtype STREAM_ADDR_STREAM_ADDR_Field is HAL.UInt30;
+</code></pre><h4 id=d7992754ffbcf883c2280ba4b492c9adb17e8d8c4fa5b2dfdeab682dda038aa9>STREAM_CTR_Register</h4><pre class=ada-code-snippet><code>type STREAM_CTR_Register is record
+   STREAM_CTR     : STREAM_CTR_STREAM_CTR_Field := 16#0#;
+   Reserved_22_31 : HAL.UInt10 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>STREAM_CTR<dd><dt>Reserved_22_31<dd></dl><h4 id=b06bc004dabca9d1cb111879dceaa9d34798041a75b45c4b0ad39f160fe068c1>STREAM_CTR_STREAM_CTR_Field</h4><pre class=ada-code-snippet><code>subtype STREAM_CTR_STREAM_CTR_Field is HAL.UInt22;
+</code></pre><h4 id=08c921f08d01801c617dbaf0cd5cf2d3c81b93df081b1f8879a4df9c9a3f5f5d>XIP_CTRL_Periph</h4><pre class=ada-code-snippet><code>XIP_CTRL_Periph : aliased XIP_CTRL_Peripheral
+  with Import, Address => XIP_CTRL_Base;
+</code></pre><h4 id=bdab0fdd75c40a3dcfb720226d6273d1f6b1e15807f19b8bb5b6c4d4c5b6cdd2>XIP_CTRL_Peripheral</h4><pre class=ada-code-snippet><code>type XIP_CTRL_Peripheral is record
+   CTRL        : aliased CTRL_Register;
+   FLUSH       : aliased FLUSH_Register;
+   STAT        : aliased STAT_Register;
+   CTR_HIT     : aliased HAL.UInt32;
+   CTR_ACC     : aliased HAL.UInt32;
+   STREAM_ADDR : aliased STREAM_ADDR_Register;
+   STREAM_CTR  : aliased STREAM_CTR_Register;
+   STREAM_FIFO : aliased HAL.UInt32;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>CTRL<dd><dt>FLUSH<dd><dt>STAT<dd><dt>CTR_HIT<dd><dt>CTR_ACC<dd><dt>STREAM_ADDR<dd><dt>STREAM_CTR<dd><dt>STREAM_FIFO<dd></dl>

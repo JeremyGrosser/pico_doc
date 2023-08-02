@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.Timer.Interrupts</h1><h2>Entities</h2><h3>Tagged Types</h3><ul><li><a href=#f99f35044a6496db2084af4d719555cb6d560bc7beb669b4230db845af26295d>Delays</a></ul><h3>Subprograms</h3><ul><li><a href=#3f4ab3066fa4245b03fe371f3651d9de994f9b283fa6f77bd8da5562b20d2ad8>Delay_Microseconds</a><li><a href=#611385b132b2c77d78ff3c0160fbfd55e312c101c8f7bc7a853800413687cf82>Delay_Milliseconds</a><li><a href=#ea4cdd29700d91f4d51c3c231b15cf51e97a2208cb6bc87ea70b4eff8c5ae4e5>Delay_Seconds</a><li><a href=#27a139b128cddb9a421ee369533676510dd4ee5f139288db3cd9bf066fe81f81>Delay_Until</a><li><a href=#3267a3862c56b79974e4a26f08ec636538026c2185e94a2273a87d117ed4aeca>Disable</a><li><a href=#c9956ab046d14be51694ca38a00e6bc5a4f4f97220ef0a0f0d1cfdc299291c0a>Enable</a><li><a href=#5163529fb3a885b5d05c5d4d2350e8af0d402a6d76db58a1eb822262ba04c101>Enabled</a></ul><h2>Description</h2><h4 id=3f4ab3066fa4245b03fe371f3651d9de994f9b283fa6f77bd8da5562b20d2ad8>Delay_Microseconds</h4><pre class=ada-code-snippet><code>procedure Delay_Microseconds
+   (This : in out Delays;
+    Us   : Integer)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Us<dd></dl><h4 id=611385b132b2c77d78ff3c0160fbfd55e312c101c8f7bc7a853800413687cf82>Delay_Milliseconds</h4><pre class=ada-code-snippet><code>procedure Delay_Milliseconds
+   (This : in out Delays;
+    Ms   : Integer)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Ms<dd></dl><h4 id=ea4cdd29700d91f4d51c3c231b15cf51e97a2208cb6bc87ea70b4eff8c5ae4e5>Delay_Seconds</h4><pre class=ada-code-snippet><code>procedure Delay_Seconds
+   (This : in out Delays;
+    S    : Integer)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>S<dd></dl><h4 id=27a139b128cddb9a421ee369533676510dd4ee5f139288db3cd9bf066fe81f81>Delay_Until</h4><pre class=ada-code-snippet><code>procedure Delay_Until
+   (This : in out Delays;
+    T    : Time)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>T<dd></dl><h4 id=f99f35044a6496db2084af4d719555cb6d560bc7beb669b4230db845af26295d>Delays</h4><pre class=ada-code-snippet><code>type Delays is new HAL.Time.Delays with null record;
+</code></pre><h4 id=3267a3862c56b79974e4a26f08ec636538026c2185e94a2273a87d117ed4aeca>Disable</h4><pre class=ada-code-snippet><code>procedure Disable
+   (This : in out Delays)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=c9956ab046d14be51694ca38a00e6bc5a4f4f97220ef0a0f0d1cfdc299291c0a>Enable</h4><pre class=ada-code-snippet><code>procedure Enable
+   (This : in out Delays)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=5163529fb3a885b5d05c5d4d2350e8af0d402a6d76db58a1eb822262ba04c101>Enabled</h4><pre class=ada-code-snippet><code>function Enabled
+   (This : Delays)
+   return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl>

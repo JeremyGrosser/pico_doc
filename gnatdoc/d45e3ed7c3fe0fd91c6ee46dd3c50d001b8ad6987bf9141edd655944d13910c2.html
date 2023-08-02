@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.BUSCTRL</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#bc1e8817c2796d686d0fddbf546bb898d2d553e3dd72812dcc7533c3d2280619>PERFSEL0_PERFSEL0_Field</a><li><a href=#e61f2e5e2e976122007ea826aa75009a4847083c84638a96748b6e99e04d7745>PERFSEL1_PERFSEL1_Field</a><li><a href=#e2fff5d6c606f0b6b46315996992019f77f150d2b3d18e2e91065d8b70f0fa9b>PERFSEL2_PERFSEL2_Field</a><li><a href=#7e064890c5a8c235f6f28375531bde4f50a4b6f59567987338b40cd1756a01bc>PERFSEL3_PERFSEL3_Field</a></ul><h3>Record Types</h3><ul><li><a href=#4471f20feca276b751e1c73750467f1def0b7dbd9423ae743859a7d0dde96ab1>BUS_PRIORITY_ACK_Register</a><li><a href=#7c0b274609314b77dafec67d7bdfe340efefca97723a336cae9d6a48e33449e7>BUS_PRIORITY_Register</a><li><a href=#4be5d7655711ba743adf64562aad9788b6af1289e34f8f67f8792ae6ee10daa4>BUSCTRL_Peripheral</a><li><a href=#38accad996812d2a455585b667c0c17b9e1df6a8113c1732af697b045bb81769>PERFCTR0_Register</a><li><a href=#7ff44219ad4b4f2cd3527c5070ee6c26658fa3faf1625b61e8af1436c87d03c3>PERFCTR1_Register</a><li><a href=#85af12f1b3d63913eab4344c7ec244908ac91bb89be692293b861c5b8d5528c2>PERFCTR2_Register</a><li><a href=#e32ddace952a932f60ddf713ca686ab55bf871c0464de439be1e79975506e8e2>PERFCTR3_Register</a><li><a href=#9310f4b2fee0b1f3e87b3b2f4fc9d7d93b024c54de5334bca0ae9cf1c9ebb798>PERFSEL0_Register</a><li><a href=#50a664e952ca90af6e68fd7614936f464685ef56ef234b32456fe7df9709125a>PERFSEL1_Register</a><li><a href=#a90dd5545972218bcbdcfb9e1f141bebabb8be533e5b8620292743fd3e3204ad>PERFSEL2_Register</a><li><a href=#e3e2f32a293210715ebaafdbb410d77530c7ba3e6782919139284f6686f3ee5c>PERFSEL3_Register</a></ul><h3>Subtypes</h3><ul><li><a href=#48aea31ac030d65c186df20e1e8a9ffce47392e1d0019cc428ebe3c7eb3521b9>PERFCTR0_PERFCTR0_Field</a><li><a href=#6836d0c81b3987634d1a1a113cb35eac05015ff13cc274a99eb6e47609759136>PERFCTR1_PERFCTR1_Field</a><li><a href=#824802a549095d8a49e24e7e0862eac7ca2bc4e60aa9dce8e672432e22ffc23e>PERFCTR2_PERFCTR2_Field</a><li><a href=#fdd22ab4350ca0eab102008e8e68209aaf0efc046ccf41aa863f7a212f031b48>PERFCTR3_PERFCTR3_Field</a></ul><h3>Variables</h3><ul><li><a href=#dc3df4be7f6a1e163b8a9bae65303f15a23414360e6fa3d844f70a56ef9495c8>BUSCTRL_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=4471f20feca276b751e1c73750467f1def0b7dbd9423ae743859a7d0dde96ab1>BUS_PRIORITY_ACK_Register</h4><pre class=ada-code-snippet><code>type BUS_PRIORITY_ACK_Register is record
+   BUS_PRIORITY_ACK : Boolean;
+   Reserved_1_31    : HAL.UInt31;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>BUS_PRIORITY_ACK<dd><dt>Reserved_1_31<dd></dl><h4 id=7c0b274609314b77dafec67d7bdfe340efefca97723a336cae9d6a48e33449e7>BUS_PRIORITY_Register</h4><pre class=ada-code-snippet><code>type BUS_PRIORITY_Register is record
+   PROC0          : Boolean := False;
+   Reserved_1_3   : HAL.UInt3 := 16#0#;
+   PROC1          : Boolean := False;
+   Reserved_5_7   : HAL.UInt3 := 16#0#;
+   DMA_R          : Boolean := False;
+   Reserved_9_11  : HAL.UInt3 := 16#0#;
+   DMA_W          : Boolean := False;
+   Reserved_13_31 : HAL.UInt19 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>PROC0<dd><dt>Reserved_1_3<dd><dt>PROC1<dd><dt>Reserved_5_7<dd><dt>DMA_R<dd><dt>Reserved_9_11<dd><dt>DMA_W<dd><dt>Reserved_13_31<dd></dl><h4 id=dc3df4be7f6a1e163b8a9bae65303f15a23414360e6fa3d844f70a56ef9495c8>BUSCTRL_Periph</h4><pre class=ada-code-snippet><code>BUSCTRL_Periph : aliased BUSCTRL_Peripheral
+  with Import, Address => BUSCTRL_Base;
+</code></pre><h4 id=4be5d7655711ba743adf64562aad9788b6af1289e34f8f67f8792ae6ee10daa4>BUSCTRL_Peripheral</h4><pre class=ada-code-snippet><code>type BUSCTRL_Peripheral is record
+   BUS_PRIORITY     : aliased BUS_PRIORITY_Register;
+   BUS_PRIORITY_ACK : aliased BUS_PRIORITY_ACK_Register;
+   PERFCTR0         : aliased PERFCTR0_Register;
+   PERFSEL0         : aliased PERFSEL0_Register;
+   PERFCTR1         : aliased PERFCTR1_Register;
+   PERFSEL1         : aliased PERFSEL1_Register;
+   PERFCTR2         : aliased PERFCTR2_Register;
+   PERFSEL2         : aliased PERFSEL2_Register;
+   PERFCTR3         : aliased PERFCTR3_Register;
+   PERFSEL3         : aliased PERFSEL3_Register;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>BUS_PRIORITY<dd><dt>BUS_PRIORITY_ACK<dd><dt>PERFCTR0<dd><dt>PERFSEL0<dd><dt>PERFCTR1<dd><dt>PERFSEL1<dd><dt>PERFCTR2<dd><dt>PERFSEL2<dd><dt>PERFCTR3<dd><dt>PERFSEL3<dd></dl><h4 id=48aea31ac030d65c186df20e1e8a9ffce47392e1d0019cc428ebe3c7eb3521b9>PERFCTR0_PERFCTR0_Field</h4><pre class=ada-code-snippet><code>subtype PERFCTR0_PERFCTR0_Field is HAL.UInt24;
+</code></pre><h4 id=38accad996812d2a455585b667c0c17b9e1df6a8113c1732af697b045bb81769>PERFCTR0_Register</h4><pre class=ada-code-snippet><code>type PERFCTR0_Register is record
+   PERFCTR0       : PERFCTR0_PERFCTR0_Field := 16#0#;
+   Reserved_24_31 : HAL.UInt8 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>PERFCTR0<dd><dt>Reserved_24_31<dd></dl><h4 id=6836d0c81b3987634d1a1a113cb35eac05015ff13cc274a99eb6e47609759136>PERFCTR1_PERFCTR1_Field</h4><pre class=ada-code-snippet><code>subtype PERFCTR1_PERFCTR1_Field is HAL.UInt24;
+</code></pre><h4 id=7ff44219ad4b4f2cd3527c5070ee6c26658fa3faf1625b61e8af1436c87d03c3>PERFCTR1_Register</h4><pre class=ada-code-snippet><code>type PERFCTR1_Register is record
+   PERFCTR1       : PERFCTR1_PERFCTR1_Field := 16#0#;
+   Reserved_24_31 : HAL.UInt8 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>PERFCTR1<dd><dt>Reserved_24_31<dd></dl><h4 id=824802a549095d8a49e24e7e0862eac7ca2bc4e60aa9dce8e672432e22ffc23e>PERFCTR2_PERFCTR2_Field</h4><pre class=ada-code-snippet><code>subtype PERFCTR2_PERFCTR2_Field is HAL.UInt24;
+</code></pre><h4 id=85af12f1b3d63913eab4344c7ec244908ac91bb89be692293b861c5b8d5528c2>PERFCTR2_Register</h4><pre class=ada-code-snippet><code>type PERFCTR2_Register is record
+   PERFCTR2       : PERFCTR2_PERFCTR2_Field := 16#0#;
+   Reserved_24_31 : HAL.UInt8 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>PERFCTR2<dd><dt>Reserved_24_31<dd></dl><h4 id=fdd22ab4350ca0eab102008e8e68209aaf0efc046ccf41aa863f7a212f031b48>PERFCTR3_PERFCTR3_Field</h4><pre class=ada-code-snippet><code>subtype PERFCTR3_PERFCTR3_Field is HAL.UInt24;
+</code></pre><h4 id=e32ddace952a932f60ddf713ca686ab55bf871c0464de439be1e79975506e8e2>PERFCTR3_Register</h4><pre class=ada-code-snippet><code>type PERFCTR3_Register is record
+   PERFCTR3       : PERFCTR3_PERFCTR3_Field := 16#0#;
+   Reserved_24_31 : HAL.UInt8 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>PERFCTR3<dd><dt>Reserved_24_31<dd></dl><h4 id=bc1e8817c2796d686d0fddbf546bb898d2d553e3dd72812dcc7533c3d2280619>PERFSEL0_PERFSEL0_Field</h4><pre class=ada-code-snippet><code>type PERFSEL0_PERFSEL0_Field is
+  (apb_contested,
+   apb,
+   fastperi_contested,
+   fastperi,
+   sram5_contested,
+   sram5,
+   sram4_contested,
+   sram4,
+   sram3_contested,
+   sram3,
+   sram2_contested,
+   sram2,
+   sram1_contested,
+   sram1,
+   sram0_contested,
+   sram0,
+   xip_main_contested,
+   xip_main,
+   rom_contested,
+   rom,
+   PERFSEL0_PERFSEL0_Field_Reset)
+  with Size => 5;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>apb_contested<dd><dt>apb<dd><dt>fastperi_contested<dd><dt>fastperi<dd><dt>sram5_contested<dd><dt>sram5<dd><dt>sram4_contested<dd><dt>sram4<dd><dt>sram3_contested<dd><dt>sram3<dd><dt>sram2_contested<dd><dt>sram2<dd><dt>sram1_contested<dd><dt>sram1<dd><dt>sram0_contested<dd><dt>sram0<dd><dt>xip_main_contested<dd><dt>xip_main<dd><dt>rom_contested<dd><dt>rom<dd><p>Reset value for the field<dt>PERFSEL0_PERFSEL0_Field_Reset<dd></dl><h4 id=9310f4b2fee0b1f3e87b3b2f4fc9d7d93b024c54de5334bca0ae9cf1c9ebb798>PERFSEL0_Register</h4><pre class=ada-code-snippet><code>type PERFSEL0_Register is record
+   PERFSEL0      : PERFSEL0_PERFSEL0_Field :=
+                    PERFSEL0_PERFSEL0_Field_Reset;
+   Reserved_5_31 : HAL.UInt27 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>PERFSEL0<dd><dt>Reserved_5_31<dd></dl><h4 id=e61f2e5e2e976122007ea826aa75009a4847083c84638a96748b6e99e04d7745>PERFSEL1_PERFSEL1_Field</h4><pre class=ada-code-snippet><code>type PERFSEL1_PERFSEL1_Field is
+  (apb_contested,
+   apb,
+   fastperi_contested,
+   fastperi,
+   sram5_contested,
+   sram5,
+   sram4_contested,
+   sram4,
+   sram3_contested,
+   sram3,
+   sram2_contested,
+   sram2,
+   sram1_contested,
+   sram1,
+   sram0_contested,
+   sram0,
+   xip_main_contested,
+   xip_main,
+   rom_contested,
+   rom,
+   PERFSEL1_PERFSEL1_Field_Reset)
+  with Size => 5;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>apb_contested<dd><dt>apb<dd><dt>fastperi_contested<dd><dt>fastperi<dd><dt>sram5_contested<dd><dt>sram5<dd><dt>sram4_contested<dd><dt>sram4<dd><dt>sram3_contested<dd><dt>sram3<dd><dt>sram2_contested<dd><dt>sram2<dd><dt>sram1_contested<dd><dt>sram1<dd><dt>sram0_contested<dd><dt>sram0<dd><dt>xip_main_contested<dd><dt>xip_main<dd><dt>rom_contested<dd><dt>rom<dd><p>Reset value for the field<dt>PERFSEL1_PERFSEL1_Field_Reset<dd></dl><h4 id=50a664e952ca90af6e68fd7614936f464685ef56ef234b32456fe7df9709125a>PERFSEL1_Register</h4><pre class=ada-code-snippet><code>type PERFSEL1_Register is record
+   PERFSEL1      : PERFSEL1_PERFSEL1_Field :=
+                    PERFSEL1_PERFSEL1_Field_Reset;
+   Reserved_5_31 : HAL.UInt27 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>PERFSEL1<dd><dt>Reserved_5_31<dd></dl><h4 id=e2fff5d6c606f0b6b46315996992019f77f150d2b3d18e2e91065d8b70f0fa9b>PERFSEL2_PERFSEL2_Field</h4><pre class=ada-code-snippet><code>type PERFSEL2_PERFSEL2_Field is
+  (apb_contested,
+   apb,
+   fastperi_contested,
+   fastperi,
+   sram5_contested,
+   sram5,
+   sram4_contested,
+   sram4,
+   sram3_contested,
+   sram3,
+   sram2_contested,
+   sram2,
+   sram1_contested,
+   sram1,
+   sram0_contested,
+   sram0,
+   xip_main_contested,
+   xip_main,
+   rom_contested,
+   rom,
+   PERFSEL2_PERFSEL2_Field_Reset)
+  with Size => 5;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>apb_contested<dd><dt>apb<dd><dt>fastperi_contested<dd><dt>fastperi<dd><dt>sram5_contested<dd><dt>sram5<dd><dt>sram4_contested<dd><dt>sram4<dd><dt>sram3_contested<dd><dt>sram3<dd><dt>sram2_contested<dd><dt>sram2<dd><dt>sram1_contested<dd><dt>sram1<dd><dt>sram0_contested<dd><dt>sram0<dd><dt>xip_main_contested<dd><dt>xip_main<dd><dt>rom_contested<dd><dt>rom<dd><p>Reset value for the field<dt>PERFSEL2_PERFSEL2_Field_Reset<dd></dl><h4 id=a90dd5545972218bcbdcfb9e1f141bebabb8be533e5b8620292743fd3e3204ad>PERFSEL2_Register</h4><pre class=ada-code-snippet><code>type PERFSEL2_Register is record
+   PERFSEL2      : PERFSEL2_PERFSEL2_Field :=
+                    PERFSEL2_PERFSEL2_Field_Reset;
+   Reserved_5_31 : HAL.UInt27 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>PERFSEL2<dd><dt>Reserved_5_31<dd></dl><h4 id=7e064890c5a8c235f6f28375531bde4f50a4b6f59567987338b40cd1756a01bc>PERFSEL3_PERFSEL3_Field</h4><pre class=ada-code-snippet><code>type PERFSEL3_PERFSEL3_Field is
+  (apb_contested,
+   apb,
+   fastperi_contested,
+   fastperi,
+   sram5_contested,
+   sram5,
+   sram4_contested,
+   sram4,
+   sram3_contested,
+   sram3,
+   sram2_contested,
+   sram2,
+   sram1_contested,
+   sram1,
+   sram0_contested,
+   sram0,
+   xip_main_contested,
+   xip_main,
+   rom_contested,
+   rom,
+   PERFSEL3_PERFSEL3_Field_Reset)
+  with Size => 5;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>apb_contested<dd><dt>apb<dd><dt>fastperi_contested<dd><dt>fastperi<dd><dt>sram5_contested<dd><dt>sram5<dd><dt>sram4_contested<dd><dt>sram4<dd><dt>sram3_contested<dd><dt>sram3<dd><dt>sram2_contested<dd><dt>sram2<dd><dt>sram1_contested<dd><dt>sram1<dd><dt>sram0_contested<dd><dt>sram0<dd><dt>xip_main_contested<dd><dt>xip_main<dd><dt>rom_contested<dd><dt>rom<dd><p>Reset value for the field<dt>PERFSEL3_PERFSEL3_Field_Reset<dd></dl><h4 id=e3e2f32a293210715ebaafdbb410d77530c7ba3e6782919139284f6686f3ee5c>PERFSEL3_Register</h4><pre class=ada-code-snippet><code>type PERFSEL3_Register is record
+   PERFSEL3      : PERFSEL3_PERFSEL3_Field :=
+                    PERFSEL3_PERFSEL3_Field_Reset;
+   Reserved_5_31 : HAL.UInt27 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>PERFSEL3<dd><dt>Reserved_5_31<dd></dl>

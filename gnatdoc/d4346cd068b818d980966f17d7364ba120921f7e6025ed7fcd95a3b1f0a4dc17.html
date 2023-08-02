@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.Timer</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#b896642f873010bd5629d3aea64a700a39773a97796f300e558c31f134246db8>Time</a></ul><h3>Constants</h3><ul><li><a href=#41073ebed9a5b857d523209a6c3903df373cdfcb51cae4fbae6822f60c43ac03>Ticks_Per_Second</a></ul><h3>Subprograms</h3><ul><li><a href=#923022ca77579622e700792fcf70d47a91dd6de50d9e0acbdc27c73bb0aee2cd>Busy_Wait_Until</a><li><a href=#5f53fb1ccdf04840fb72a9a7ed11c3f89245d8e882de81e1a04c38c0e418b18e>Clock</a><li><a href=#c023cc27d2f55d42005d585bf92c945150ae3258a305c6974a48bc4225dae16a>Milliseconds</a><li><a href=#29df36c6219822ba2ca93cfef612a44bbe6893f335abd9dc05f4e9eedd1ece8c>Set_Debug_Pause</a></ul><h2>Description</h2><h4 id=923022ca77579622e700792fcf70d47a91dd6de50d9e0acbdc27c73bb0aee2cd>Busy_Wait_Until</h4><pre class=ada-code-snippet><code>procedure Busy_Wait_Until (Deadline : Time)
+</code></pre><h5>Parameters</h5><dl><dt>Deadline<dd></dl><h4 id=5f53fb1ccdf04840fb72a9a7ed11c3f89245d8e882de81e1a04c38c0e418b18e>Clock</h4><pre class=ada-code-snippet><code>function Clock
+   return Time
+</code></pre><h5>Return Value</h5><dl><dd></dl><h4 id=c023cc27d2f55d42005d585bf92c945150ae3258a305c6974a48bc4225dae16a>Milliseconds</h4><pre class=ada-code-snippet><code>function Milliseconds
+   (T : Natural)
+   return Time
+</code></pre><h5>Parameters</h5><dl><dt>T<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=29df36c6219822ba2ca93cfef612a44bbe6893f335abd9dc05f4e9eedd1ece8c>Set_Debug_Pause</h4><pre class=ada-code-snippet><code>procedure Set_Debug_Pause
+   (Core_0, Core_1 : Boolean)
+</code></pre><h5>Parameters</h5><dl><dt>Core_0<dd><dt>Core_1<dd></dl><h4 id=41073ebed9a5b857d523209a6c3903df373cdfcb51cae4fbae6822f60c43ac03>Ticks_Per_Second</h4><pre class=ada-code-snippet><code>Ticks_Per_Second : constant := 1_000_000;
+</code></pre><h4 id=b896642f873010bd5629d3aea64a700a39773a97796f300e558c31f134246db8>Time</h4><pre class=ada-code-snippet><code>type Time is new UInt64;
+</code></pre>

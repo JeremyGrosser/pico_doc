@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.RESETS</h1><h2>Entities</h2><h3>Array Types</h3><ul><li><a href=#51190088fe17f1cf9b8df251d90c688d491810067157f42ad8e917e0439c4935>RESET_DONE_i2c_Field_Array</a><li><a href=#c9b25eb628075bd3d4423ddd2ff2da9f6b22e5f35072e59d3bf0d321fba043be>RESET_DONE_pio_Field_Array</a><li><a href=#3f26ecd86bf1f78649e92e7c5a3fdf96432816303542d684edf23157e59fef3e>RESET_DONE_spi_Field_Array</a><li><a href=#0f0e783282211d8e80927ce2032e8f650bcecaedcdbd68fa6181b44ac7252ca9>RESET_DONE_uart_Field_Array</a><li><a href=#68e06b81e5cce613cda63eb21f164a497f0d39b848ca919a96de066379cbf65c>RESET_i2c_Field_Array</a><li><a href=#a4745a9a771e29fa67c700528ce228054eede19882445ea9b086235fe8666e58>RESET_pio_Field_Array</a><li><a href=#ceefc53491fdaca5545b2830dd2a0fd6d7aace2f007b744c315891db8dc3855c>RESET_spi_Field_Array</a><li><a href=#e501c5d40c1ebf070028a710f5fa1ecf6ad016a76040848b20d4c062e7007ef4>RESET_uart_Field_Array</a><li><a href=#5e7c7969945d2238a0dcebe02af6e84e39a342249de72d45a05514888fbfcfdb>WDSEL_i2c_Field_Array</a><li><a href=#0e522037dc7a081ad16a28d7ec6227d7676936672c44dd874d967beda549bfe1>WDSEL_pio_Field_Array</a><li><a href=#25d59cbc73e5112ee87878b79cae5018928492f5f2f23b98f6d10d53a9cb3e91>WDSEL_spi_Field_Array</a><li><a href=#d232c1df11af6f938a566078d2cd6da2583901356f3ec86b142f0ca1064acb72>WDSEL_uart_Field_Array</a></ul><h3>Record Types</h3><ul><li><a href=#bfcb582b5039de5d3510ff6b67cb0893f2cb47a53267a0ebfbc5af28dfb8c2c7>RESET_DONE_i2c_Field</a><li><a href=#83d5932a48d8749006c7a3415d135313a87d9804f52440812f1d33d23b5e4615>RESET_DONE_pio_Field</a><li><a href=#50e2fab1206431d2ce5173f5f77501d7c1e5730dbb38345681c91c725fdac10f>RESET_DONE_Register</a><li><a href=#bad972fb87c0968b36b11c1ec21190e3b31fb020ac568cb30b834447ad3af6f6>RESET_DONE_spi_Field</a><li><a href=#08ef68dbff60e3942467aa41ed94807b5336862ff1e5eddfbf4bfd299d53628f>RESET_DONE_uart_Field</a><li><a href=#db0c8d2ed650cb3cb1ec877ac533edf6166fab707d8b150e1fc6052a1118bc02>RESET_i2c_Field</a><li><a href=#cc8e045e4976fa831d0040d190b26077b75d357147ff9053d92b2beb236b60d8>RESET_pio_Field</a><li><a href=#9e943ef7f02cd06be8952c6928b4aa2fde520fc89ddafd1ad5330ad917dc41ae>RESET_Register</a><li><a href=#e966b4c441f4b8324726bf6be9fdbdd11746bc355d660047910275870af6349c>RESET_spi_Field</a><li><a href=#5286a63119abbe7264feab6e12924fe88971c9fcbb86b797e1826b11a101c2f4>RESET_uart_Field</a><li><a href=#ed592f0a2a73c7c19d6dc34825a9cc64716d9c7b5478dfb078c82c12daf98334>RESETS_Peripheral</a><li><a href=#3c54e4171dcd4f42e03395b4af3b9b5710b3e14bc76a206b78027707e94e903f>WDSEL_i2c_Field</a><li><a href=#d72ea9afff8f765bc44507a492fdc1e6ed153fcb6be94bead7cfbf7e9ab4896a>WDSEL_pio_Field</a><li><a href=#901d780c08aabbad64884c9e9db7c7b96c1a42d391f10e48a485c3eda642248d>WDSEL_Register</a><li><a href=#d9fa77529a110f5aea1f08a365b8c30090a029cb3d49c5a32fca11d91270b94d>WDSEL_spi_Field</a><li><a href=#bd71fb847683e285313a82f728b31d8d87f62f5660e6546916355a73777e2386>WDSEL_uart_Field</a></ul><h3>Variables</h3><ul><li><a href=#14e95b37473d9b3a59bddebe0422d286403796c33bc704f2cb0b889233bf2349>RESETS_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=bfcb582b5039de5d3510ff6b67cb0893f2cb47a53267a0ebfbc5af28dfb8c2c7>RESET_DONE_i2c_Field</h4><pre class=ada-code-snippet><code>type RESET_DONE_i2c_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : RESET_DONE_i2c_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=51190088fe17f1cf9b8df251d90c688d491810067157f42ad8e917e0439c4935>RESET_DONE_i2c_Field_Array</h4><pre class=ada-code-snippet><code>type RESET_DONE_i2c_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=83d5932a48d8749006c7a3415d135313a87d9804f52440812f1d33d23b5e4615>RESET_DONE_pio_Field</h4><pre class=ada-code-snippet><code>type RESET_DONE_pio_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : RESET_DONE_pio_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=c9b25eb628075bd3d4423ddd2ff2da9f6b22e5f35072e59d3bf0d321fba043be>RESET_DONE_pio_Field_Array</h4><pre class=ada-code-snippet><code>type RESET_DONE_pio_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=50e2fab1206431d2ce5173f5f77501d7c1e5730dbb38345681c91c725fdac10f>RESET_DONE_Register</h4><pre class=ada-code-snippet><code>type RESET_DONE_Register is record
+   adc            : Boolean;
+   busctrl        : Boolean;
+   dma            : Boolean;
+   i2c            : RESET_DONE_i2c_Field;
+   io_bank0       : Boolean;
+   io_qspi        : Boolean;
+   jtag           : Boolean;
+   pads_bank0     : Boolean;
+   pads_qspi      : Boolean;
+   pio            : RESET_DONE_pio_Field;
+   pll_sys        : Boolean;
+   pll_usb        : Boolean;
+   pwm            : Boolean;
+   rtc            : Boolean;
+   spi            : RESET_DONE_spi_Field;
+   syscfg         : Boolean;
+   sysinfo        : Boolean;
+   tbman          : Boolean;
+   timer          : Boolean;
+   uart           : RESET_DONE_uart_Field;
+   usbctrl        : Boolean;
+   Reserved_25_31 : HAL.UInt7;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>adc<dd><dt>busctrl<dd><dt>dma<dd><dt>i2c<dd><dt>io_bank0<dd><dt>io_qspi<dd><dt>jtag<dd><dt>pads_bank0<dd><dt>pads_qspi<dd><dt>pio<dd><dt>pll_sys<dd><dt>pll_usb<dd><dt>pwm<dd><dt>rtc<dd><dt>spi<dd><dt>syscfg<dd><dt>sysinfo<dd><dt>tbman<dd><dt>timer<dd><dt>uart<dd><dt>usbctrl<dd><dt>Reserved_25_31<dd></dl><h4 id=bad972fb87c0968b36b11c1ec21190e3b31fb020ac568cb30b834447ad3af6f6>RESET_DONE_spi_Field</h4><pre class=ada-code-snippet><code>type RESET_DONE_spi_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : RESET_DONE_spi_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=3f26ecd86bf1f78649e92e7c5a3fdf96432816303542d684edf23157e59fef3e>RESET_DONE_spi_Field_Array</h4><pre class=ada-code-snippet><code>type RESET_DONE_spi_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=08ef68dbff60e3942467aa41ed94807b5336862ff1e5eddfbf4bfd299d53628f>RESET_DONE_uart_Field</h4><pre class=ada-code-snippet><code>type RESET_DONE_uart_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : RESET_DONE_uart_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=0f0e783282211d8e80927ce2032e8f650bcecaedcdbd68fa6181b44ac7252ca9>RESET_DONE_uart_Field_Array</h4><pre class=ada-code-snippet><code>type RESET_DONE_uart_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=db0c8d2ed650cb3cb1ec877ac533edf6166fab707d8b150e1fc6052a1118bc02>RESET_i2c_Field</h4><pre class=ada-code-snippet><code>type RESET_i2c_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : RESET_i2c_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=68e06b81e5cce613cda63eb21f164a497f0d39b848ca919a96de066379cbf65c>RESET_i2c_Field_Array</h4><pre class=ada-code-snippet><code>type RESET_i2c_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=cc8e045e4976fa831d0040d190b26077b75d357147ff9053d92b2beb236b60d8>RESET_pio_Field</h4><pre class=ada-code-snippet><code>type RESET_pio_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : RESET_pio_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=a4745a9a771e29fa67c700528ce228054eede19882445ea9b086235fe8666e58>RESET_pio_Field_Array</h4><pre class=ada-code-snippet><code>type RESET_pio_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=9e943ef7f02cd06be8952c6928b4aa2fde520fc89ddafd1ad5330ad917dc41ae>RESET_Register</h4><pre class=ada-code-snippet><code>type RESET_Register is record
+   adc            : Boolean := True;
+   busctrl        : Boolean := True;
+   dma            : Boolean := True;
+   i2c            : RESET_i2c_Field := (As_Array => False, Val => 16#1#);
+   io_bank0       : Boolean := True;
+   io_qspi        : Boolean := True;
+   jtag           : Boolean := True;
+   pads_bank0     : Boolean := True;
+   pads_qspi      : Boolean := True;
+   pio            : RESET_pio_Field := (As_Array => False, Val => 16#1#);
+   pll_sys        : Boolean := True;
+   pll_usb        : Boolean := True;
+   pwm            : Boolean := True;
+   rtc            : Boolean := True;
+   spi            : RESET_spi_Field := (As_Array => False, Val => 16#1#);
+   syscfg         : Boolean := True;
+   sysinfo        : Boolean := True;
+   tbman          : Boolean := True;
+   timer          : Boolean := True;
+   uart           : RESET_uart_Field := (As_Array => False, Val => 16#1#);
+   usbctrl        : Boolean := True;
+   Reserved_25_31 : HAL.UInt7 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>adc<dd><dt>busctrl<dd><dt>dma<dd><dt>i2c<dd><dt>io_bank0<dd><dt>io_qspi<dd><dt>jtag<dd><dt>pads_bank0<dd><dt>pads_qspi<dd><dt>pio<dd><dt>pll_sys<dd><dt>pll_usb<dd><dt>pwm<dd><dt>rtc<dd><dt>spi<dd><dt>syscfg<dd><dt>sysinfo<dd><dt>tbman<dd><dt>timer<dd><dt>uart<dd><dt>usbctrl<dd><dt>Reserved_25_31<dd></dl><h4 id=e966b4c441f4b8324726bf6be9fdbdd11746bc355d660047910275870af6349c>RESET_spi_Field</h4><pre class=ada-code-snippet><code>type RESET_spi_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : RESET_spi_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=ceefc53491fdaca5545b2830dd2a0fd6d7aace2f007b744c315891db8dc3855c>RESET_spi_Field_Array</h4><pre class=ada-code-snippet><code>type RESET_spi_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=5286a63119abbe7264feab6e12924fe88971c9fcbb86b797e1826b11a101c2f4>RESET_uart_Field</h4><pre class=ada-code-snippet><code>type RESET_uart_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : RESET_uart_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=e501c5d40c1ebf070028a710f5fa1ecf6ad016a76040848b20d4c062e7007ef4>RESET_uart_Field_Array</h4><pre class=ada-code-snippet><code>type RESET_uart_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=14e95b37473d9b3a59bddebe0422d286403796c33bc704f2cb0b889233bf2349>RESETS_Periph</h4><pre class=ada-code-snippet><code>RESETS_Periph : aliased RESETS_Peripheral
+  with Import, Address => RESETS_Base;
+</code></pre><h4 id=ed592f0a2a73c7c19d6dc34825a9cc64716d9c7b5478dfb078c82c12daf98334>RESETS_Peripheral</h4><pre class=ada-code-snippet><code>type RESETS_Peripheral is record
+   RESET      : aliased RESET_Register;
+   WDSEL      : aliased WDSEL_Register;
+   RESET_DONE : aliased RESET_DONE_Register;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>RESET<dd><dt>WDSEL<dd><dt>RESET_DONE<dd></dl><h4 id=3c54e4171dcd4f42e03395b4af3b9b5710b3e14bc76a206b78027707e94e903f>WDSEL_i2c_Field</h4><pre class=ada-code-snippet><code>type WDSEL_i2c_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : WDSEL_i2c_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=5e7c7969945d2238a0dcebe02af6e84e39a342249de72d45a05514888fbfcfdb>WDSEL_i2c_Field_Array</h4><pre class=ada-code-snippet><code>type WDSEL_i2c_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=d72ea9afff8f765bc44507a492fdc1e6ed153fcb6be94bead7cfbf7e9ab4896a>WDSEL_pio_Field</h4><pre class=ada-code-snippet><code>type WDSEL_pio_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : WDSEL_pio_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=0e522037dc7a081ad16a28d7ec6227d7676936672c44dd874d967beda549bfe1>WDSEL_pio_Field_Array</h4><pre class=ada-code-snippet><code>type WDSEL_pio_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=901d780c08aabbad64884c9e9db7c7b96c1a42d391f10e48a485c3eda642248d>WDSEL_Register</h4><pre class=ada-code-snippet><code>type WDSEL_Register is record
+   adc            : Boolean := False;
+   busctrl        : Boolean := False;
+   dma            : Boolean := False;
+   i2c            : WDSEL_i2c_Field := (As_Array => False, Val => 16#0#);
+   io_bank0       : Boolean := False;
+   io_qspi        : Boolean := False;
+   jtag           : Boolean := False;
+   pads_bank0     : Boolean := False;
+   pads_qspi      : Boolean := False;
+   pio            : WDSEL_pio_Field := (As_Array => False, Val => 16#0#);
+   pll_sys        : Boolean := False;
+   pll_usb        : Boolean := False;
+   pwm            : Boolean := False;
+   rtc            : Boolean := False;
+   spi            : WDSEL_spi_Field := (As_Array => False, Val => 16#0#);
+   syscfg         : Boolean := False;
+   sysinfo        : Boolean := False;
+   tbman          : Boolean := False;
+   timer          : Boolean := False;
+   uart           : WDSEL_uart_Field := (As_Array => False, Val => 16#0#);
+   usbctrl        : Boolean := False;
+   Reserved_25_31 : HAL.UInt7 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>adc<dd><dt>busctrl<dd><dt>dma<dd><dt>i2c<dd><dt>io_bank0<dd><dt>io_qspi<dd><dt>jtag<dd><dt>pads_bank0<dd><dt>pads_qspi<dd><dt>pio<dd><dt>pll_sys<dd><dt>pll_usb<dd><dt>pwm<dd><dt>rtc<dd><dt>spi<dd><dt>syscfg<dd><dt>sysinfo<dd><dt>tbman<dd><dt>timer<dd><dt>uart<dd><dt>usbctrl<dd><dt>Reserved_25_31<dd></dl><h4 id=d9fa77529a110f5aea1f08a365b8c30090a029cb3d49c5a32fca11d91270b94d>WDSEL_spi_Field</h4><pre class=ada-code-snippet><code>type WDSEL_spi_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : WDSEL_spi_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=25d59cbc73e5112ee87878b79cae5018928492f5f2f23b98f6d10d53a9cb3e91>WDSEL_spi_Field_Array</h4><pre class=ada-code-snippet><code>type WDSEL_spi_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=bd71fb847683e285313a82f728b31d8d87f62f5660e6546916355a73777e2386>WDSEL_uart_Field</h4><pre class=ada-code-snippet><code>type WDSEL_uart_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : WDSEL_uart_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=d232c1df11af6f938a566078d2cd6da2583901356f3ec86b142f0ca1064acb72>WDSEL_uart_Field_Array</h4><pre class=ada-code-snippet><code>type WDSEL_uart_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre>

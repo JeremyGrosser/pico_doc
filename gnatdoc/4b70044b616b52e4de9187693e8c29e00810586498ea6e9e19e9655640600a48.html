@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>Cortex_M_SVD.NVIC</h1><h2>Entities</h2><h3>Array Types</h3><ul><li><a href=#ed0a40a023ee896ce4cc8f0416dd742bd3c6695602c95c330699c96751184285>NVIC_IPR_Registers</a></ul><h3>Record Types</h3><ul><li><a href=#d1396ad00e1b041db42b3010981d2538e5ca537fff02d40b1a1d3b90e87c219d>NVIC_Peripheral</a></ul><h3>Variables</h3><ul><li><a href=#e5106e4e3edbe82601723a64e2b627e3b18612d28c39b079863ab221f3b4ae4e>NVIC_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=ed0a40a023ee896ce4cc8f0416dd742bd3c6695602c95c330699c96751184285>NVIC_IPR_Registers</h4><pre class=ada-code-snippet><code>type NVIC_IPR_Registers is array (0 .. 7) of HAL.UInt32
+  with Volatile;
+</code></pre><h4 id=e5106e4e3edbe82601723a64e2b627e3b18612d28c39b079863ab221f3b4ae4e>NVIC_Periph</h4><pre class=ada-code-snippet><code>NVIC_Periph : aliased NVIC_Peripheral
+  with Import, Address => NVIC_Base;
+</code></pre><h4 id=d1396ad00e1b041db42b3010981d2538e5ca537fff02d40b1a1d3b90e87c219d>NVIC_Peripheral</h4><pre class=ada-code-snippet><code>type NVIC_Peripheral is record
+   NVIC_ISER : aliased HAL.UInt32;
+   NVIC_ICER : aliased HAL.UInt32;
+   NVIC_ISPR : aliased HAL.UInt32;
+   NVIC_ICPR : aliased HAL.UInt32;
+   NVIC_IPR  : aliased NVIC_IPR_Registers;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>NVIC_ISER<dd><dt>NVIC_ICER<dd><dt>NVIC_ISPR<dd><dt>NVIC_ICPR<dd><dt>NVIC_IPR<dd></dl>

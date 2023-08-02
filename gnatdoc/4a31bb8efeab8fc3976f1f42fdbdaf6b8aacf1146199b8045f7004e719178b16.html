@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP_Interrupts</h1><h2>Entities</h2><h3>Access Types</h3><ul><li><a href=#cddf6b03aa9805d71234eed08cf3bbcb702ede50f240d89cd67f007e624f9fe3>Interrupt_Handler</a></ul><h3>Subtypes</h3><ul><li><a href=#f7ffa13581a0bd8117df73e90ec9595a16d784a94dd0b39de845a46604e67981>Interrupt_ID</a><li><a href=#4f4e8e6ef97646df77a17732f85e873856ddca6b8a203948185aad4a31ddee0e>Interrupt_Priority</a></ul><h3>Subprograms</h3><ul><li><a href=#62765f3e8255ff7da6ced60ffa51d432cefb4cea173d45db8a4c7fafbb1b6fbe>Attach_Handler</a><li><a href=#eaab74ad3e38bfd97bf65420848eb873436bd306d1ea3ba3bdeff9f1ee4cc050>Interrupt_Request_Handler</a></ul><h2>Description</h2><p>This is a minimal version of the System.BB.Interrupts interface available in Ravenscar. Close enough that these packages can be used interchangably for the purposes of the RP drivers.<h4 id=62765f3e8255ff7da6ced60ffa51d432cefb4cea173d45db8a4c7fafbb1b6fbe>Attach_Handler</h4><pre class=ada-code-snippet><code>procedure Attach_Handler
+   (Handler : not null Interrupt_Handler;
+    Id      : Interrupt_ID;
+    Prio    : Interrupt_Priority)
+</code></pre><h5>Parameters</h5><dl><dt>Handler<dd><dt>Id<dd><dt>Prio<dd></dl><h4 id=cddf6b03aa9805d71234eed08cf3bbcb702ede50f240d89cd67f007e624f9fe3>Interrupt_Handler</h4><pre class=ada-code-snippet><code>type Interrupt_Handler     is access procedure;
+</code></pre><h4 id=f7ffa13581a0bd8117df73e90ec9595a16d784a94dd0b39de845a46604e67981>Interrupt_ID</h4><pre class=ada-code-snippet><code>subtype Interrupt_ID       is Cortex_M.NVIC.Interrupt_ID;
+</code></pre><h4 id=4f4e8e6ef97646df77a17732f85e873856ddca6b8a203948185aad4a31ddee0e>Interrupt_Priority</h4><pre class=ada-code-snippet><code>subtype Interrupt_Priority is System.Interrupt_Priority;
+</code></pre><h4 id=eaab74ad3e38bfd97bf65420848eb873436bd306d1ea3ba3bdeff9f1ee4cc050>Interrupt_Request_Handler</h4><pre class=ada-code-snippet><code>procedure Interrupt_Request_Handler
+</code></pre>

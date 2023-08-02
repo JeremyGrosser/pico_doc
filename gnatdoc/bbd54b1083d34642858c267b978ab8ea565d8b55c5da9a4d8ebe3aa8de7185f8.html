@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>Atomic.Signed</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#7737485b12438a2033ac7b8cf4ba8826219f726dba24bc0b7e213be10708a132>Instance</a></ul><h3>Subprograms</h3><ul><li><a href=#c3167e07c1eeba885eab2b812a9bb47e493988dd7ed7324ab4942a8af321888c>Add</a><li><a href=#3269025c520c5988aba3b5c3837d96010665c66e9fe6800fd6a120fd1c6390bc>Add_Fetch</a><li><a href=#4e95e052cdb454f50bfcd36c32643d4c481fc8fda3ad7363428e2ca7f417684a>Add_Fetch</a><li><a href=#a21d3b2e6df426dc0330c8b537256a96237c9ee7e8f245382d4431cf976027e1>Compare_Exchange</a><li><a href=#a11de1051400151db5725184b2aa56b76d1d647d028f6c986bee6fc0c92d0d79>Compare_Exchange</a><li><a href=#64503e8056a92e77c1f2a1173b2c0bf98fa7f3a96381d3fc491f48501568bafe>Exchange</a><li><a href=#795669da63b0ebbbbf31678e0b193e43032dd71c150d36acf92fa79aa7460fcd>Exchange</a><li><a href=#32150405791a39ee483dc944983ce6fcc763ca362640acc1652b8eb0f7cd11be>Fetch_Add</a><li><a href=#cade0afa729bd62084933f05cb68c0f39d5d70bab8041eeb5d2ba23d99d6c9aa>Fetch_Add</a><li><a href=#4d1b88ef40ba30109190ac34f38fa19d7c200dc79c12661e4f86638b6889caa9>Fetch_Sub</a><li><a href=#7602b16a6cbfe9d958c4a1a037dc817a1058e93869a1f3189edceb4fe68b369e>Fetch_Sub</a><li><a href=#ee525a284b486c5c2857b96a26a59484ff98e10cf599eab44a22bf6e3d164293>Init</a><li><a href=#3d2f9e2ebf88d1582d25843923577d6856e1147b9190c44f1f98095cb4b02bce>Load</a><li><a href=#4d83b827eb3864fd2626b8f62ccf18e2fa8f941f27e534b3aa943bb1c9a5f3c1>Store</a><li><a href=#2e514754f417d62264f94cbde71fa686ecf6f8efaabc36d93e1f7e0a3dce25ae>Sub</a><li><a href=#44c27859084c6a8f6d40038663a3396b0c4e923d0fed0c9da03b4334563f758e>Sub_Fetch</a><li><a href=#2b52a0b873240924af584bb6cc2d4a1324f268da9bddadc14068191a310bd4d9>Sub_Fetch</a><li><a href=#376879677cfc608c96150093b2f2b7b342eda3a5a94af8c9290a5bfb7989f8e3>Value</a></ul><h2>Description</h2><p>Based on GCC atomic built-ins. See: https://gcc.gnu.org/onlinedocs/gcc/_005f_005fatomic-Builtins.html<p>The specification is exactly the same for all sizes of data (8, 16, 32, 64).<h4 id=c3167e07c1eeba885eab2b812a9bb47e493988dd7ed7324ab4942a8af321888c>Add</h4><pre class=ada-code-snippet><code>procedure Add (This  : aliased in out Instance;
+               Val   : T;
+               Order : Mem_Order := Seq_Cst)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Val<dd><dt>Order<dd></dl><h4 id=3269025c520c5988aba3b5c3837d96010665c66e9fe6800fd6a120fd1c6390bc>Add_Fetch</h4><pre class=ada-code-snippet><code>function Add_Fetch (This  : aliased in out Instance;
+                    Val   : T;
+                    Order : Mem_Order := Seq_Cst)
+                    return T
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Val<dd><dt>Order<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=4e95e052cdb454f50bfcd36c32643d4c481fc8fda3ad7363428e2ca7f417684a>Add_Fetch</h4><pre class=ada-code-snippet><code>procedure Add_Fetch (This  : aliased in out Instance;
+                     Val   : T;
+                     Result : out T;
+                     Order : Mem_Order := Seq_Cst)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Val<dd><dt>Result<dd><dt>Order<dd></dl><h4 id=a21d3b2e6df426dc0330c8b537256a96237c9ee7e8f245382d4431cf976027e1>Compare_Exchange</h4><pre class=ada-code-snippet><code>function Compare_Exchange (This          : aliased in out Instance;
+                           Expected      : T;
+                           Desired       : T;
+                           Weak          : Boolean;
+                           Success_Order : Mem_Order := Seq_Cst;
+                           Failure_Order : Mem_Order := Seq_Cst)
+                           return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Expected<dd><dt>Desired<dd><dt>Weak<dd><dt>Success_Order<dd><dt>Failure_Order<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=a11de1051400151db5725184b2aa56b76d1d647d028f6c986bee6fc0c92d0d79>Compare_Exchange</h4><pre class=ada-code-snippet><code>procedure Compare_Exchange (This          : aliased in out Instance;
+                            Expected      : T;
+                            Desired       : T;
+                            Weak          : Boolean;
+                            Success       : out Boolean;
+                            Success_Order : Mem_Order := Seq_Cst;
+                            Failure_Order : Mem_Order := Seq_Cst)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Expected<dd><dt>Desired<dd><dt>Weak<dd><dt>Success<dd><dt>Success_Order<dd><dt>Failure_Order<dd></dl><h4 id=64503e8056a92e77c1f2a1173b2c0bf98fa7f3a96381d3fc491f48501568bafe>Exchange</h4><pre class=ada-code-snippet><code>function Exchange (This  : aliased in out Instance;
+                   Val   : T;
+                   Order : Mem_Order := Seq_Cst)
+                   return T
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Val<dd><dt>Order<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=795669da63b0ebbbbf31678e0b193e43032dd71c150d36acf92fa79aa7460fcd>Exchange</h4><pre class=ada-code-snippet><code>procedure Exchange (This  : aliased in out Instance;
+                    Val   : T;
+                    Old   : out T;
+                    Order : Mem_Order := Seq_Cst)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Val<dd><dt>Old<dd><dt>Order<dd></dl><h4 id=32150405791a39ee483dc944983ce6fcc763ca362640acc1652b8eb0f7cd11be>Fetch_Add</h4><pre class=ada-code-snippet><code>function Fetch_Add (This  : aliased in out Instance;
+                    Val   : T;
+                    Order : Mem_Order := Seq_Cst)
+                    return T
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Val<dd><dt>Order<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=cade0afa729bd62084933f05cb68c0f39d5d70bab8041eeb5d2ba23d99d6c9aa>Fetch_Add</h4><pre class=ada-code-snippet><code>procedure Fetch_Add (This  : aliased in out Instance;
+                     Val   : T;
+                     Result : out T;
+                     Order : Mem_Order := Seq_Cst)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Val<dd><dt>Result<dd><dt>Order<dd></dl><h4 id=4d1b88ef40ba30109190ac34f38fa19d7c200dc79c12661e4f86638b6889caa9>Fetch_Sub</h4><pre class=ada-code-snippet><code>function Fetch_Sub (This  : aliased in out Instance;
+                    Val   : T;
+                    Order : Mem_Order := Seq_Cst)
+                    return T
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Val<dd><dt>Order<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=7602b16a6cbfe9d958c4a1a037dc817a1058e93869a1f3189edceb4fe68b369e>Fetch_Sub</h4><pre class=ada-code-snippet><code>procedure Fetch_Sub (This  : aliased in out Instance;
+                    Val   : T;
+                     Result : out T;
+                     Order : Mem_Order := Seq_Cst)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Val<dd><dt>Result<dd><dt>Order<dd></dl><h4 id=ee525a284b486c5c2857b96a26a59484ff98e10cf599eab44a22bf6e3d164293>Init</h4><pre class=ada-code-snippet><code>function Init (Val : T) return Instance
+</code></pre><p>Can be used to initialize an atomic instance:<p>A : Atomic.Unsigned_8.Instance := Atomic.Unsigned_8.Init (0);<h5>Parameters</h5><dl><dt>Val<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=7737485b12438a2033ac7b8cf4ba8826219f726dba24bc0b7e213be10708a132>Instance</h4><pre class=ada-code-snippet><code>type Instance is limited private;
+</code></pre><p>This type is limited and private, it can only be manipulated using the primitives below.<h4 id=3d2f9e2ebf88d1582d25843923577d6856e1147b9190c44f1f98095cb4b02bce>Load</h4><pre class=ada-code-snippet><code>function Load (This  : aliased Instance;
+               Order : Mem_Order := Seq_Cst)
+               return T
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Order<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=4d83b827eb3864fd2626b8f62ccf18e2fa8f941f27e534b3aa943bb1c9a5f3c1>Store</h4><pre class=ada-code-snippet><code>procedure Store (This  : aliased in out Instance;
+                 Val   : T;
+                 Order : Mem_Order := Seq_Cst)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Val<dd><dt>Order<dd></dl><h4 id=2e514754f417d62264f94cbde71fa686ecf6f8efaabc36d93e1f7e0a3dce25ae>Sub</h4><pre class=ada-code-snippet><code>procedure Sub (This  : aliased in out Instance;
+               Val   : T;
+               Order : Mem_Order := Seq_Cst)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Val<dd><dt>Order<dd></dl><h4 id=44c27859084c6a8f6d40038663a3396b0c4e923d0fed0c9da03b4334563f758e>Sub_Fetch</h4><pre class=ada-code-snippet><code>function Sub_Fetch (This  : aliased in out Instance;
+                    Val   : T;
+                    Order : Mem_Order := Seq_Cst)
+                    return T
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Val<dd><dt>Order<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=2b52a0b873240924af584bb6cc2d4a1324f268da9bddadc14068191a310bd4d9>Sub_Fetch</h4><pre class=ada-code-snippet><code>procedure Sub_Fetch (This  : aliased in out Instance;
+                    Val   : T;
+                     Result : out T;
+                     Order : Mem_Order := Seq_Cst)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Val<dd><dt>Result<dd><dt>Order<dd></dl><h4 id=376879677cfc608c96150093b2f2b7b342eda3a5a94af8c9290a5bfb7989f8e3>Value</h4><pre class=ada-code-snippet><code>function Value (This : Instance) return T
+</code></pre><p>Ghost function to get the value of an instance without needing it aliased. This function can be used in contracts for instance. This doesn't use the atomic built-ins.<h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl>

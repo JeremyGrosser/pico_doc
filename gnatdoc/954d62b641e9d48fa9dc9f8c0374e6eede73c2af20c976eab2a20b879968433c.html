@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.Multicore</h1><h2>Entities</h2><h3>Subprograms</h3><ul><li><a href=#3ca71c75607282123e30565f0fc60d090538405b1ec4e920337cddef2f312ad2>CPU_Id</a><li><a href=#b5c44dec2d4543b06fd851231333cdf4b4a7895a56ea31f57251e6c8e85fd140>Launch_Core1</a><li><a href=#eca66d0cf0791245cf05d51ef0f9067ca0241887df011a96ba0b81515789cbaa>Launch_Core1</a></ul><h2>Description</h2><h4 id=3ca71c75607282123e30565f0fc60d090538405b1ec4e920337cddef2f312ad2>CPU_Id</h4><pre class=ada-code-snippet><code>function CPU_Id
+   return Natural
+</code></pre><p>Returns the Id of the CPU we're currently executing on.<h5>Return Value</h5><dl><dd></dl><h4 id=b5c44dec2d4543b06fd851231333cdf4b4a7895a56ea31f57251e6c8e85fd140>Launch_Core1</h4><pre class=ada-code-snippet><code>procedure Launch_Core1
+   (Trap_Vector   : HAL.UInt32;
+    Stack_Pointer : HAL.UInt32;
+    Entry_Point   : HAL.UInt32)
+</code></pre><p>Start core 1 (the second CPU of the RP2040) to execute code at Entry_Point with the stack pointer set to Stack_Pointer and trap vector base set to Trap_Vector.<h5>Parameters</h5><dl><dt>Trap_Vector<dd><dt>Stack_Pointer<dd><dt>Entry_Point<dd></dl><h4 id=eca66d0cf0791245cf05d51ef0f9067ca0241887df011a96ba0b81515789cbaa>Launch_Core1</h4><pre class=ada-code-snippet><code>procedure Launch_Core1
+   (Trap_Vector   : System.Address;
+    Stack_Pointer : System.Address;
+    Entry_Point   : System.Address)
+</code></pre><h5>Parameters</h5><dl><dt>Trap_Vector<dd><dt>Stack_Pointer<dd><dt>Entry_Point<dd></dl>

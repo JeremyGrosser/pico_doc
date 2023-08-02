@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.PADS_QSPI</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#67fe2732bac6eb0e80ad56e7fce93c14a273ca7b243e1f5765cfa8a19d8edbe0>GPIO_QSPI_SCLK_DRIVE_Field</a><li><a href=#d8a36ba2f651d78e257046498609d825d8ebd36bbcee201c44b3afee817b11e9>GPIO_QSPI_SD0_DRIVE_Field</a><li><a href=#475fbaad08873b2580b3a09895460375b7a98e56843d5f826c58b966784b51ec>GPIO_QSPI_SS_DRIVE_Field</a><li><a href=#53f59f486937aafc25123e0b2cde8edd854e3e0349ff116f2d6142b61e1861e7>VOLTAGE_SELECT_VOLTAGE_SELECT_Field</a></ul><h3>Record Types</h3><ul><li><a href=#fec1ee3ff9ff5ec1a8ce920dd9ee24d470dfacdb923bc71f52b255abebdb9e72>GPIO_QSPI_SCLK_Register</a><li><a href=#31ab224529ef36b2523aea92b3b964afc929e2864259f118d5c26e52bf64dda7>GPIO_QSPI_SD_Register</a><li><a href=#5babe4bb477bb5634042e59b3c1bd82f59e5656ae8cdc632da1973dc0b9acaec>GPIO_QSPI_SS_Register</a><li><a href=#164984c2351bb1e956d8c797b15642d1eec574d3192656578107f52e2ba8b5f5>PADS_QSPI_Peripheral</a><li><a href=#97a41962b6fbd2abba2da536a62051f5230fa9832c307c9fab2bfd5b9df84bc0>VOLTAGE_SELECT_Register</a></ul><h3>Variables</h3><ul><li><a href=#74b7e01a063126af259719da422a37ec0934e1561d3367e868c17766ede0d8c4>PADS_QSPI_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=67fe2732bac6eb0e80ad56e7fce93c14a273ca7b243e1f5765cfa8a19d8edbe0>GPIO_QSPI_SCLK_DRIVE_Field</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SCLK_DRIVE_Field is
+  (Val_2mA,
+   Val_4mA,
+   Val_8mA,
+   Val_12mA)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_2mA<dd><dt>Val_4mA<dd><dt>Val_8mA<dd><dt>Val_12mA<dd></dl><h4 id=fec1ee3ff9ff5ec1a8ce920dd9ee24d470dfacdb923bc71f52b255abebdb9e72>GPIO_QSPI_SCLK_Register</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SCLK_Register is record
+   SLEWFAST      : Boolean := False;
+   SCHMITT       : Boolean := True;
+   PDE           : Boolean := True;
+   PUE           : Boolean := False;
+   DRIVE         : GPIO_QSPI_SCLK_DRIVE_Field :=
+                    RP2040_SVD.PADS_QSPI.Val_4mA;
+   IE            : Boolean := True;
+   OD            : Boolean := False;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>SLEWFAST<dd><dt>SCHMITT<dd><dt>PDE<dd><dt>PUE<dd><dt>DRIVE<dd><dt>IE<dd><dt>OD<dd><dt>Reserved_8_31<dd></dl><h4 id=d8a36ba2f651d78e257046498609d825d8ebd36bbcee201c44b3afee817b11e9>GPIO_QSPI_SD0_DRIVE_Field</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SD0_DRIVE_Field is
+  (Val_2mA,
+   Val_4mA,
+   Val_8mA,
+   Val_12mA)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_2mA<dd><dt>Val_4mA<dd><dt>Val_8mA<dd><dt>Val_12mA<dd></dl><h4 id=31ab224529ef36b2523aea92b3b964afc929e2864259f118d5c26e52bf64dda7>GPIO_QSPI_SD_Register</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SD_Register is record
+   SLEWFAST      : Boolean := False;
+   SCHMITT       : Boolean := True;
+   PDE           : Boolean := False;
+   PUE           : Boolean := False;
+   DRIVE         : GPIO_QSPI_SD0_DRIVE_Field :=
+                    RP2040_SVD.PADS_QSPI.Val_4mA;
+   IE            : Boolean := True;
+   OD            : Boolean := False;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>SLEWFAST<dd><dt>SCHMITT<dd><dt>PDE<dd><dt>PUE<dd><dt>DRIVE<dd><dt>IE<dd><dt>OD<dd><dt>Reserved_8_31<dd></dl><h4 id=475fbaad08873b2580b3a09895460375b7a98e56843d5f826c58b966784b51ec>GPIO_QSPI_SS_DRIVE_Field</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SS_DRIVE_Field is
+  (Val_2mA,
+   Val_4mA,
+   Val_8mA,
+   Val_12mA)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_2mA<dd><dt>Val_4mA<dd><dt>Val_8mA<dd><dt>Val_12mA<dd></dl><h4 id=5babe4bb477bb5634042e59b3c1bd82f59e5656ae8cdc632da1973dc0b9acaec>GPIO_QSPI_SS_Register</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SS_Register is record
+   SLEWFAST      : Boolean := False;
+   SCHMITT       : Boolean := True;
+   PDE           : Boolean := False;
+   PUE           : Boolean := True;
+   DRIVE         : GPIO_QSPI_SS_DRIVE_Field :=
+                    RP2040_SVD.PADS_QSPI.Val_4mA;
+   IE            : Boolean := True;
+   OD            : Boolean := False;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>SLEWFAST<dd><dt>SCHMITT<dd><dt>PDE<dd><dt>PUE<dd><dt>DRIVE<dd><dt>IE<dd><dt>OD<dd><dt>Reserved_8_31<dd></dl><h4 id=74b7e01a063126af259719da422a37ec0934e1561d3367e868c17766ede0d8c4>PADS_QSPI_Periph</h4><pre class=ada-code-snippet><code>PADS_QSPI_Periph : aliased PADS_QSPI_Peripheral
+  with Import, Address => PADS_QSPI_Base;
+</code></pre><h4 id=164984c2351bb1e956d8c797b15642d1eec574d3192656578107f52e2ba8b5f5>PADS_QSPI_Peripheral</h4><pre class=ada-code-snippet><code>type PADS_QSPI_Peripheral is record
+   VOLTAGE_SELECT : aliased VOLTAGE_SELECT_Register;
+   GPIO_QSPI_SCLK : aliased GPIO_QSPI_SCLK_Register;
+   GPIO_QSPI_SD0  : aliased GPIO_QSPI_SD_Register;
+   GPIO_QSPI_SD1  : aliased GPIO_QSPI_SD_Register;
+   GPIO_QSPI_SD2  : aliased GPIO_QSPI_SD_Register;
+   GPIO_QSPI_SD3  : aliased GPIO_QSPI_SD_Register;
+   GPIO_QSPI_SS   : aliased GPIO_QSPI_SS_Register;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>VOLTAGE_SELECT<dd><dt>GPIO_QSPI_SCLK<dd><dt>GPIO_QSPI_SD0<dd><dt>GPIO_QSPI_SD1<dd><dt>GPIO_QSPI_SD2<dd><dt>GPIO_QSPI_SD3<dd><dt>GPIO_QSPI_SS<dd></dl><h4 id=97a41962b6fbd2abba2da536a62051f5230fa9832c307c9fab2bfd5b9df84bc0>VOLTAGE_SELECT_Register</h4><pre class=ada-code-snippet><code>type VOLTAGE_SELECT_Register is record
+   VOLTAGE_SELECT : VOLTAGE_SELECT_VOLTAGE_SELECT_Field :=
+                     RP2040_SVD.PADS_QSPI.Val_3v3;
+   Reserved_1_31  : HAL.UInt31 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>VOLTAGE_SELECT<dd><dt>Reserved_1_31<dd></dl><h4 id=53f59f486937aafc25123e0b2cde8edd854e3e0349ff116f2d6142b61e1861e7>VOLTAGE_SELECT_VOLTAGE_SELECT_Field</h4><pre class=ada-code-snippet><code>type VOLTAGE_SELECT_VOLTAGE_SELECT_Field is
+   Val_3v3,
+   Val_1v8)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Val_3v3<dd><p>Set voltage to 1.8V (DVDD &lt;= 1V8)<dt>Val_1v8<dd></dl>

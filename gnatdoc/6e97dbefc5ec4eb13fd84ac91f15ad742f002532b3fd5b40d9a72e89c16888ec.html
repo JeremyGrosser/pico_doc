@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>HAL.I2C</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#43bc1a9a92e19b8dd22425ff6cdacf81d39b000baa3ef52fc48517235375d452>I2C_Memory_Address_Size</a><li><a href=#a6877ee91f825d04e54c2b02f730b5795ff680224b567ea8d934fbc4d6429f15>I2C_Status</a></ul><h3>Interface Types</h3><ul><li><a href=#e46f8be39bae3fe2fe6519cc5831a044fba79c5d405e1a841fe9b254e31f2bab>I2C_Port</a></ul><h3>Access Types</h3><ul><li><a href=#ce6ec775162e74c4fc4af5906056018ab92bc6e6567f3009b03d2b4cbeb108ec>Any_I2C_Port</a></ul><h3>Subtypes</h3><ul><li><a href=#fc056f729c4227d2c6fd0af4ea83cd58a1b90cdd6802238994ec0f2026638ef2>I2C_Address</a><li><a href=#23257f5c510bd4c25676a87020598231040c2dd2fabaebeed38f8dc03139d0df>I2C_Data</a></ul><h3>Subprograms</h3><ul><li><a href=#b03805b5cd5fed4bbd358f03b927eec323a1c051e293d2aa93ad7814ae6efaad>Master_Receive</a><li><a href=#501bd76bcbebf5f4fc9259422bc4057e5275dd9c43c2ccaefc45b03adf04225f>Master_Transmit</a><li><a href=#702161f85ed2ea97ac3aac3a5aa272d2eab5203c83c013ca40702c7488f630fe>Mem_Read</a><li><a href=#a72bd9bfe3f32fb699fc86684134ba2c40889a4c00d942842dbcd79d37ca7737>Mem_Write</a></ul><h2>Description</h2><p>---------------------------------------------------------------------------- -- Copyright (C) 2015-2016, AdaCore -- -- Redistribution and use in source and binary forms, with or without -- modification, are permitted provided that the following conditions are -- met: -- 1. Redistributions of source code must retain the above copyright -- notice, this list of conditions and the following disclaimer. -- 2. Redistributions in binary form must reproduce the above copyright -- notice, this list of conditions and the following disclaimer in -- the documentation and/or other materials provided with the -- distribution. -- 3. Neither the name of the copyright holder nor the names of its -- contributors may be used to endorse or promote products derived -- from this software without specific prior written permission. -- -- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS -- "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT -- LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR -- A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT -- HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, -- SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT -- LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, -- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY -- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT -- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE -- OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -- -- ----------------------------------------------------------------------------<h4 id=ce6ec775162e74c4fc4af5906056018ab92bc6e6567f3009b03d2b4cbeb108ec>Any_I2C_Port</h4><pre class=ada-code-snippet><code>type Any_I2C_Port is access all I2C_Port'Class;
+</code></pre><h4 id=fc056f729c4227d2c6fd0af4ea83cd58a1b90cdd6802238994ec0f2026638ef2>I2C_Address</h4><pre class=ada-code-snippet><code>subtype I2C_Address is UInt10;
+</code></pre><h4 id=23257f5c510bd4c25676a87020598231040c2dd2fabaebeed38f8dc03139d0df>I2C_Data</h4><pre class=ada-code-snippet><code>subtype I2C_Data is UInt8_Array;
+</code></pre><h4 id=43bc1a9a92e19b8dd22425ff6cdacf81d39b000baa3ef52fc48517235375d452>I2C_Memory_Address_Size</h4><pre class=ada-code-snippet><code>type I2C_Memory_Address_Size is
+  (Memory_Size_8b,
+   Memory_Size_16b);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Memory_Size_8b<dd><dt>Memory_Size_16b<dd></dl><h4 id=e46f8be39bae3fe2fe6519cc5831a044fba79c5d405e1a841fe9b254e31f2bab>I2C_Port</h4><pre class=ada-code-snippet><code>type I2C_Port is limited interface;
+</code></pre><h4 id=a6877ee91f825d04e54c2b02f730b5795ff680224b567ea8d934fbc4d6429f15>I2C_Status</h4><pre class=ada-code-snippet><code>type I2C_Status is
+  (Ok,
+   Err_Error,
+   Err_Timeout,
+   Busy);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Ok<dd><dt>Err_Error<dd><dt>Err_Timeout<dd><dt>Busy<dd></dl><h4 id=b03805b5cd5fed4bbd358f03b927eec323a1c051e293d2aa93ad7814ae6efaad>Master_Receive</h4><pre class=ada-code-snippet><code>procedure Master_Receive
+  (This    : in out I2C_Port;
+   Addr    : I2C_Address;
+   Data    : out I2C_Data;
+   Status  : out I2C_Status;
+   Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Addr<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=501bd76bcbebf5f4fc9259422bc4057e5275dd9c43c2ccaefc45b03adf04225f>Master_Transmit</h4><pre class=ada-code-snippet><code>procedure Master_Transmit
+  (This    : in out I2C_Port;
+   Addr    : I2C_Address;
+   Data    : I2C_Data;
+   Status  : out I2C_Status;
+   Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Addr<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=702161f85ed2ea97ac3aac3a5aa272d2eab5203c83c013ca40702c7488f630fe>Mem_Read</h4><pre class=ada-code-snippet><code>procedure Mem_Read
+  (This          : in out I2C_Port;
+   Addr          : I2C_Address;
+   Mem_Addr      : UInt16;
+   Mem_Addr_Size : I2C_Memory_Address_Size;
+   Data          : out I2C_Data;
+   Status        : out I2C_Status;
+   Timeout       : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Addr<dd><dt>Mem_Addr<dd><dt>Mem_Addr_Size<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=a72bd9bfe3f32fb699fc86684134ba2c40889a4c00d942842dbcd79d37ca7737>Mem_Write</h4><pre class=ada-code-snippet><code>procedure Mem_Write
+  (This          : in out I2C_Port;
+   Addr          : I2C_Address;
+   Mem_Addr      : UInt16;
+   Mem_Addr_Size : I2C_Memory_Address_Size;
+   Data          : I2C_Data;
+   Status        : out I2C_Status;
+   Timeout       : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Addr<dd><dt>Mem_Addr<dd><dt>Mem_Addr_Size<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.USB_Device</h1><h2>Entities</h2><h3>Tagged Types</h3><ul><li><a href=#b32c29a116bbaf0782370490ce5a98e24a31aafff93266bcb24a7334d31b6d44>USB_Device_Controller</a></ul><h3>Subprograms</h3><ul><li><a href=#85baf5f2c600f7d5db966d0dff2162c59ef79010d7b0168be580dbb7b60ccbde>Early_Address</a><li><a href=#b0ee10bf75b038a55404488cbf89093f95df98468f3bf73d671e55a49bca2f7f>EP_Ready_For_Data</a><li><a href=#2754bf77114493dc8123164bb01a9a9079c3775f1a300c584da9b0d63ac63ca9>EP_Send_Packet</a><li><a href=#61dbeb81dcedd1b10fb2574d7b2b9f11c67f20bc689d4483907de391f3d3591e>EP_Setup</a><li><a href=#b5f864ada9c70b9a26455d474cd7f4d78e852c3cbaaeb4d2c0fdf0666c805b69>EP_Stall</a><li><a href=#175be5804a080ae3df74526e092a7c096cf858833822d2c8ad544e1ebb438d68>Initialize</a><li><a href=#1cd6cff06a967db54272b18c4050eb02a0396d5b228eb07857a5d7316faa34ec>Poll</a><li><a href=#4d3ccfd1d1c1a0f6fdcb074c3e69627b82729c5b1bd2fa0b44391059d24d96f7>Request_Buffer</a><li><a href=#6a2263c86e254cfdb583b380a0056fe9dfa07be6f273cad028b62c4b625cd632>Reset</a><li><a href=#c2c268936aa201755268941d1ed7d56b0fab8e5af4329360a997fc777a077be7>Set_Address</a><li><a href=#0f8b063267ffb493922a41eb6c094058b8a7702e38558ec3513c01aab4a313d1>Start</a><li><a href=#fcf03ce2de852a5d2b365ccfa5f56818978a14f7b8e64eda441cf1351c035436>Valid_EP_Id</a></ul><h2>Description</h2><h4 id=85baf5f2c600f7d5db966d0dff2162c59ef79010d7b0168be580dbb7b60ccbde>Early_Address</h4><pre class=ada-code-snippet><code>function Early_Address
+   (This : USB_Device_Controller)
+   return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=b0ee10bf75b038a55404488cbf89093f95df98468f3bf73d671e55a49bca2f7f>EP_Ready_For_Data</h4><pre class=ada-code-snippet><code>procedure EP_Ready_For_Data
+   (This     : in out USB_Device_Controller;
+    Ep       : USB.EP_Id;
+    Max_Len  : USB.Packet_Size;
+    Ready    : Boolean := True)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Ep<dd><dt>Max_Len<dd><dt>Ready<dd></dl><h4 id=2754bf77114493dc8123164bb01a9a9079c3775f1a300c584da9b0d63ac63ca9>EP_Send_Packet</h4><pre class=ada-code-snippet><code>procedure EP_Send_Packet
+   (This : in out USB_Device_Controller;
+    Ep   : USB.EP_Id;
+    Len  : USB.Packet_Size)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Ep<dd><dt>Len<dd></dl><h4 id=61dbeb81dcedd1b10fb2574d7b2b9f11c67f20bc689d4483907de391f3d3591e>EP_Setup</h4><pre class=ada-code-snippet><code>procedure EP_Setup
+   (This     : in out USB_Device_Controller;
+    Ep       : USB.EP_Addr;
+    Typ      : USB.EP_Type)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Ep<dd><dt>Typ<dd></dl><h4 id=b5f864ada9c70b9a26455d474cd7f4d78e852c3cbaaeb4d2c0fdf0666c805b69>EP_Stall</h4><pre class=ada-code-snippet><code>procedure EP_Stall
+   (This     : in out USB_Device_Controller;
+    Ep       : USB.EP_Addr;
+    Set      : Boolean := True)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Ep<dd><dt>Set<dd></dl><h4 id=175be5804a080ae3df74526e092a7c096cf858833822d2c8ad544e1ebb438d68>Initialize</h4><pre class=ada-code-snippet><code>procedure Initialize
+   (This : in out USB_Device_Controller)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=1cd6cff06a967db54272b18c4050eb02a0396d5b228eb07857a5d7316faa34ec>Poll</h4><pre class=ada-code-snippet><code>function Poll
+   (This : in out USB_Device_Controller)
+    return USB.HAL.Device.UDC_Event
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=4d3ccfd1d1c1a0f6fdcb074c3e69627b82729c5b1bd2fa0b44391059d24d96f7>Request_Buffer</h4><pre class=ada-code-snippet><code>function Request_Buffer
+  (This : in out USB_Device_Controller;
+   Ep   : USB.EP_Addr;
+   Len  : USB.Packet_Size)
+    return System.Address
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Ep<dd><dt>Len<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=6a2263c86e254cfdb583b380a0056fe9dfa07be6f273cad028b62c4b625cd632>Reset</h4><pre class=ada-code-snippet><code>procedure Reset
+   (This : in out USB_Device_Controller)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=c2c268936aa201755268941d1ed7d56b0fab8e5af4329360a997fc777a077be7>Set_Address</h4><pre class=ada-code-snippet><code>procedure Set_Address
+   (This : in out USB_Device_Controller;
+    Addr : UInt7)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Addr<dd></dl><h4 id=0f8b063267ffb493922a41eb6c094058b8a7702e38558ec3513c01aab4a313d1>Start</h4><pre class=ada-code-snippet><code>procedure Start
+   (This : in out USB_Device_Controller)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=b32c29a116bbaf0782370490ce5a98e24a31aafff93266bcb24a7334d31b6d44>USB_Device_Controller</h4><pre class=ada-code-snippet><code>type USB_Device_Controller is new USB.HAL.Device.USB_Device_Controller with private;
+</code></pre><h4 id=fcf03ce2de852a5d2b365ccfa5f56818978a14f7b8e64eda441cf1351c035436>Valid_EP_Id</h4><pre class=ada-code-snippet><code>function Valid_EP_Id
+   (This : in out USB_Device_Controller;
+    Ep   : USB.EP_Id)
+    return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Ep<dd></dl><h5>Return Value</h5><dl><dd></dl>

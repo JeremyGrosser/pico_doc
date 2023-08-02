@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>USB</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#33e58a7f4c2da61d4b2a18e759a0b167c50ebdb5db753ba813283c191e54078d>Data_Phase_Transfer_Direction</a><li><a href=#682b6de3e872cbda56739aa2522bf5bc78f61de525fb967e848a8635a32eb3b4>EP_Dir</a><li><a href=#e052da82b9a98ff6575da26c978773383b87c4c0a1141d5dac8aedf6d6673c3c>EP_Type</a><li><a href=#4f256a602a4adafda605a8f4b67afe0aa02fa0e086b6a7e463bdbf06d04c8c13>Interface_Id</a><li><a href=#afe5334706fd2dfd56422523975f0edcbba564cc491b42fe25cba9e14a0055f6>Lang_ID</a><li><a href=#b2486c42ad4521f29185d31dc55a5ad7021fb4563db7271440459e8db53e99ab>Packet_Size</a><li><a href=#8d816151f22e782baabbb619dc575ee86c6aa7eeb13990b9c5a1d3bc90fe1f4c>Request_Type_Recipient</a><li><a href=#b5f1f0a3ee916ca8836f85b4d3b27dbb0e07d7ec1d5147a803fd82d4703c4269>Request_Type_Type</a><li><a href=#900ac57c8d49d6a6a53c4adbc85ed725ab68209a5abe9b498e614e99663133f4>Setup_Request_Answer</a><li><a href=#2d9b49a11ff2b1cab4ddb043b6c4d9fdb9a26b2ed710a2d5109f47b5c20ce216>String_Id</a></ul><h3>Array Types</h3><ul><li><a href=#c08749d996ea3360ff23e7148d209ab4df91bae7921ba01075e331884ae40fe1>USB_String</a></ul><h3>Record Types</h3><ul><li><a href=#241389bac0ff8e5e094caeb0518b74104ea8dfe2d7503b2dfede836902a47eba>Device_Descriptor</a><li><a href=#54bcb2cd795a285dc38ffb1b67b9821de383f5e479bee840d111c8bbd2fbb4a0>Device_Qualifier</a><li><a href=#465d3d2c00d8359e3c3e718e74f850805adbd4d517b47ce70831f241cad046e2>EP_Addr</a><li><a href=#5c9330384d9a3944e262b2b17989fb7181a43acb94a2a5563344d334188c3c69>Request_Type</a><li><a href=#d7dada28ff5d91434eb3b1dfb17685a3a0764a0ed911624804e3f37d759c68c0>Setup_Data</a><li><a href=#e076d78f6e9bccc3bd437c16eb01d5dcb1894f36f9b432816eeb4db2389dcc7c>String_Descriptor</a><li><a href=#63ea2a0b2f954998ec1bc906d7fcff6234f98409129b6b481ce6c8a8cf135ebc>String_Descriptor_Zero</a></ul><h3>Subtypes</h3><ul><li><a href=#b8e4afa2c1b5f3d5e9660f050f7cbaba3545777ed4aa8269322472064315b707>Buffer_Len</a><li><a href=#cf6fd3e6a520382c86d39bfaffeb40809bf7a75a9b25f1e6eac80eb6e171dde6>Control_Packet_Size</a><li><a href=#5cfce4ad4875741b94b2e7172038f7770991dc04dedf4040aaac380fc25caee6>EP_Id</a><li><a href=#ce82f174641b46c5d9bfdf7e050ad980a0302a257fb1baa3a091d9048a586995>String_Range</a></ul><h3>Constants</h3><ul><li><a href=#c57da786a627297d9a46191a061b551424a4a7ed083175cbd9d5c66aa2926b4d>Control_Buffer_Size</a><li><a href=#c9295c2933e0575234f053d4e11098448e289648d0d7eefd92346c11e7f82d56>Invalid_String_Id</a><li><a href=#8bbf68b1cd5a69acd462da77069242425e0ea1e5c571f1429ce370b516fe5524>Max_Strings</a><li><a href=#fcb56d343c84d0703dcc71e1d25852faacfb02cbe03e25689589bbf61c7b25d1>Max_Total_String_Chars</a><li><a href=#2a9d0cd4cc2a52a1100bc3659cc384cc63f111969118a10c54e761c67b764f03>Verbose</a></ul><h3>Subprograms</h3><ul><li><a href=#448981b92daaff841fcf8843a013cf3be04cb3a239da3d0acedf86395ef5cdc5>Img</a><li><a href=#03c3630cd8795ba3c8df584064732b8e5c849ef05263c106d22e7898a848563d>Img</a><li><a href=#86ce81e96237177a9254b999e332fbccb241ce1e3e75c54e2ccd124eacc15699>To_USB_String</a></ul><h2>Description</h2><p>---------------------------------------------------------------------------- -- Copyright (C) 2018-2021, AdaCore -- -- Redistribution and use in source and binary forms, with or without -- modification, are permitted provided that the following conditions are -- met: -- 1. Redistributions of source code must retain the above copyright -- notice, this list of conditions and the following disclaimer. -- 2. Redistributions in binary form must reproduce the above copyright -- notice, this list of conditions and the following disclaimer in -- the documentation and/or other materials provided with the -- distribution. -- 3. Neither the name of the copyright holder nor the names of its -- contributors may be used to endorse or promote products derived -- from this software without specific prior written permission. -- -- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS -- "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT -- LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR -- A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT -- HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, -- SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT -- LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, -- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY -- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT -- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE -- OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -- -- ----------------------------------------------------------------------------<h4 id=b8e4afa2c1b5f3d5e9660f050f7cbaba3545777ed4aa8269322472064315b707>Buffer_Len</h4><pre class=ada-code-snippet><code>subtype Buffer_Len is System.Storage_Elements.Storage_Offset;
+</code></pre><h4 id=c57da786a627297d9a46191a061b551424a4a7ed083175cbd9d5c66aa2926b4d>Control_Buffer_Size</h4><pre class=ada-code-snippet><code>Control_Buffer_Size : constant := Usb_Embedded_Config.Control_Buffer_Size;
+</code></pre><h4 id=cf6fd3e6a520382c86d39bfaffeb40809bf7a75a9b25f1e6eac80eb6e171dde6>Control_Packet_Size</h4><pre class=ada-code-snippet><code>subtype Control_Packet_Size is Packet_Size range 0 .. 64;
+</code></pre><h4 id=33e58a7f4c2da61d4b2a18e759a0b167c50ebdb5db753ba813283c191e54078d>Data_Phase_Transfer_Direction</h4><pre class=ada-code-snippet><code>type Data_Phase_Transfer_Direction is (Host_To_Device,
+                                       Device_To_Host)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Host_To_Device<dd><dt>Device_To_Host<dd></dl><h4 id=241389bac0ff8e5e094caeb0518b74104ea8dfe2d7503b2dfede836902a47eba>Device_Descriptor</h4><pre class=ada-code-snippet><code>type Device_Descriptor is record
+   bLength            : UInt8;
+   bDescriptorType    : UInt8;
+   bcdUSB             : UInt16;
+   bDeviceClass       : UInt8;
+   bDeviceSubClass    : UInt8;
+   bDeviceProtocol    : UInt8;
+   bMaxPacketSize0    : UInt8;
+   idVendor           : UInt16;
+   idProduct          : UInt16;
+   bcdDevice          : UInt16;
+   iManufacturer      : String_Id;
+   iProduct           : String_Id;
+   iSerialNumber      : String_Id;
+   bNumConfigurations : UInt8;
+end record with Pack;
+</code></pre><h5>Record fields</h5><dl><dt>bLength<dd><dt>bDescriptorType<dd><dt>bcdUSB<dd><dt>bDeviceClass<dd><dt>bDeviceSubClass<dd><dt>bDeviceProtocol<dd><dt>bMaxPacketSize0<dd><dt>idVendor<dd><dt>idProduct<dd><dt>bcdDevice<dd><dt>iManufacturer<dd><dt>iProduct<dd><dt>iSerialNumber<dd><dt>bNumConfigurations<dd></dl><h4 id=54bcb2cd795a285dc38ffb1b67b9821de383f5e479bee840d111c8bbd2fbb4a0>Device_Qualifier</h4><pre class=ada-code-snippet><code>type Device_Qualifier is record
+   bLength            : UInt8;
+   bDescriptorType    : UInt8;
+   bcdUSB             : UInt16;
+   bDeviceClass       : UInt8;
+   bDeviceSubClass    : UInt8;
+   bDeviceProtocol    : UInt8;
+   bMaxPacketSize0    : UInt8;
+   bNumConfigurations : UInt8;
+   bReserved          : UInt8;
+end record with Pack;
+</code></pre><h5>Record fields</h5><dl><dt>bLength<dd><dt>bDescriptorType<dd><dt>bcdUSB<dd><dt>bDeviceClass<dd><dt>bDeviceSubClass<dd><dt>bDeviceProtocol<dd><dt>bMaxPacketSize0<dd><dt>bNumConfigurations<dd><dt>bReserved<dd></dl><h4 id=465d3d2c00d8359e3c3e718e74f850805adbd4d517b47ce70831f241cad046e2>EP_Addr</h4><pre class=ada-code-snippet><code>type EP_Addr is record
+   Num : EP_Id;
+   Dir : EP_Dir;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Num<dd><dt>Dir<dd></dl><h4 id=682b6de3e872cbda56739aa2522bf5bc78f61de525fb967e848a8635a32eb3b4>EP_Dir</h4><pre class=ada-code-snippet><code>type EP_Dir is (EP_In, EP_Out);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>EP_In<dd><dt>EP_Out<dd></dl><h4 id=5cfce4ad4875741b94b2e7172038f7770991dc04dedf4040aaac380fc25caee6>EP_Id</h4><pre class=ada-code-snippet><code>subtype EP_Id is UInt4;
+</code></pre><h4 id=e052da82b9a98ff6575da26c978773383b87c4c0a1141d5dac8aedf6d6673c3c>EP_Type</h4><pre class=ada-code-snippet><code>type EP_Type is (Control, Isochronous, Bulk, Interrupt);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Control<dd><dt>Isochronous<dd><dt>Bulk<dd><dt>Interrupt<dd></dl><h4 id=448981b92daaff841fcf8843a013cf3be04cb3a239da3d0acedf86395ef5cdc5>Img</h4><pre class=ada-code-snippet><code>function Img (EP : EP_Addr) return String
+</code></pre><h5>Parameters</h5><dl><dt>EP<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=03c3630cd8795ba3c8df584064732b8e5c849ef05263c106d22e7898a848563d>Img</h4><pre class=ada-code-snippet><code>function Img (D : Setup_Data) return String
+</code></pre><h5>Parameters</h5><dl><dt>D<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=4f256a602a4adafda605a8f4b67afe0aa02fa0e086b6a7e463bdbf06d04c8c13>Interface_Id</h4><pre class=ada-code-snippet><code>type Interface_Id is new UInt8;
+</code></pre><h4 id=c9295c2933e0575234f053d4e11098448e289648d0d7eefd92346c11e7f82d56>Invalid_String_Id</h4><pre class=ada-code-snippet><code>Invalid_String_Id : constant String_Id := 0;
+</code></pre><h4 id=afe5334706fd2dfd56422523975f0edcbba564cc491b42fe25cba9e14a0055f6>Lang_ID</h4><pre class=ada-code-snippet><code>type Lang_ID is new UInt16;
+</code></pre><h4 id=8bbf68b1cd5a69acd462da77069242425e0ea1e5c571f1429ce370b516fe5524>Max_Strings</h4><pre class=ada-code-snippet><code>Max_Strings : constant := Usb_Embedded_Config.Max_Strings;
+</code></pre><h4 id=fcb56d343c84d0703dcc71e1d25852faacfb02cbe03e25689589bbf61c7b25d1>Max_Total_String_Chars</h4><pre class=ada-code-snippet><code>Max_Total_String_Chars : constant := Usb_Embedded_Config.String_Buffer_Size;
+</code></pre><h4 id=b2486c42ad4521f29185d31dc55a5ad7021fb4563db7271440459e8db53e99ab>Packet_Size</h4><pre class=ada-code-snippet><code>type Packet_Size is range 0 .. 1024;
+</code></pre><h4 id=5c9330384d9a3944e262b2b17989fb7181a43acb94a2a5563344d334188c3c69>Request_Type</h4><pre class=ada-code-snippet><code>type Request_Type is record
+   Recipient : Request_Type_Recipient;
+   Reserved  : UInt3;
+   Typ : Request_Type_Type;
+   Dir : Data_Phase_Transfer_Direction;
+end record with Pack, Size => 8;
+</code></pre><h5>Record fields</h5><dl><dt>Recipient<dd><dt>Reserved<dd><dt>Typ<dd><dt>Dir<dd></dl><h4 id=8d816151f22e782baabbb619dc575ee86c6aa7eeb13990b9c5a1d3bc90fe1f4c>Request_Type_Recipient</h4><pre class=ada-code-snippet><code>type Request_Type_Recipient is (Dev, Iface, Endpoint, Other);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Dev<dd><dt>Iface<dd><dt>Endpoint<dd><dt>Other<dd></dl><h4 id=b5f1f0a3ee916ca8836f85b4d3b27dbb0e07d7ec1d5147a803fd82d4703c4269>Request_Type_Type</h4><pre class=ada-code-snippet><code>type Request_Type_Type is (Stand, Class, Vendor, Reserved)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Stand<dd><dt>Class<dd><dt>Vendor<dd><dt>Reserved<dd></dl><h4 id=d7dada28ff5d91434eb3b1dfb17685a3a0764a0ed911624804e3f37d759c68c0>Setup_Data</h4><pre class=ada-code-snippet><code>type Setup_Data is record
+   RType   : Request_Type;
+   Request : UInt8;
+   Value   : UInt16;
+   Index   : UInt16;
+   Length  : UInt16;
+end record with Pack, Size => 8 * 8;
+</code></pre><h5>Record fields</h5><dl><dt>RType<dd><dt>Request<dd><dt>Value<dd><dt>Index<dd><dt>Length<dd></dl><h4 id=900ac57c8d49d6a6a53c4adbc85ed725ab68209a5abe9b498e614e99663133f4>Setup_Request_Answer</h4><pre class=ada-code-snippet><code>type Setup_Request_Answer is (Handled, Not_Supported, Next_Callback);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Handled<dd><dt>Not_Supported<dd><dt>Next_Callback<dd></dl><h4 id=e076d78f6e9bccc3bd437c16eb01d5dcb1894f36f9b432816eeb4db2389dcc7c>String_Descriptor</h4><pre class=ada-code-snippet><code>type String_Descriptor (bLength : UInt8) is record
+   bDescriptorType    : UInt8 := 3;
+   Str                : USB_String (3 .. bLength);
+end record with Pack;
+</code></pre><h5>Record fields</h5><dl><dt>bLength<dd><dt>bDescriptorType<dd><dt>Str<dd></dl><h4 id=63ea2a0b2f954998ec1bc906d7fcff6234f98409129b6b481ce6c8a8cf135ebc>String_Descriptor_Zero</h4><pre class=ada-code-snippet><code>type String_Descriptor_Zero is record
+   bLength            : UInt8;
+   bDescriptorType    : UInt8 := 3;
+   Str                : String (1 .. 2);
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>bLength<dd><dt>bDescriptorType<dd><dt>Str<dd></dl><h4 id=2d9b49a11ff2b1cab4ddb043b6c4d9fdb9a26b2ed710a2d5109f47b5c20ce216>String_Id</h4><pre class=ada-code-snippet><code>type String_Id is new UInt8;
+</code></pre><h4 id=ce82f174641b46c5d9bfdf7e050ad980a0302a257fb1baa3a091d9048a586995>String_Range</h4><pre class=ada-code-snippet><code>subtype String_Range is UInt8 range 0 .. 253;
+</code></pre><p>The maximum length of a string is limited by the the bLength field of the String Descriptor. This field is one byte: 0 .. 255, but bLength encodes to total size of the descriptor including the bLenght and bDescriptorType fields (one byte each). So the remaining length for string is 255 - 2.<h4 id=86ce81e96237177a9254b999e332fbccb241ce1e3e75c54e2ccd124eacc15699>To_USB_String</h4><pre class=ada-code-snippet><code>function To_USB_String (Str : String) return USB_String
+</code></pre><p>Convert Ada ASCII string to USB UTF16 string<h5>Parameters</h5><dl><dt>Str<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=c08749d996ea3360ff23e7148d209ab4df91bae7921ba01075e331884ae40fe1>USB_String</h4><pre class=ada-code-snippet><code>type USB_String is array (String_Range range &lt;>) of Character;
+</code></pre><h4 id=2a9d0cd4cc2a52a1100bc3659cc384cc63f111969118a10c54e761c67b764f03>Verbose</h4><pre class=ada-code-snippet><code>Verbose : constant Boolean := False;
+</code></pre>

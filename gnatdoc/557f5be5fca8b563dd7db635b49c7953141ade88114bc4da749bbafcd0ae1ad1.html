@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.Reset</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#9bdea3058016eeb681afbe30755a1907d2a087677c66d1f31cb92c1e44eb6a61>Reset_Id</a><li><a href=#3d78d3641b86e0f0c36fee8540d50df065b3b3d974cab97ab89129377f714868>Reset_Status</a></ul><h3>Subprograms</h3><ul><li><a href=#f72e9ddc18ce2892b808b7e6c682a04804a12d746def16a8f673a88a5a5991bd>Reset_Peripheral</a><li><a href=#12dc4497b24ed741b900aef2bb0138fba0673bf7004f101cdd27d9b48d41604f>Reset_Peripheral</a></ul><h2>Description</h2><h4 id=9bdea3058016eeb681afbe30755a1907d2a087677c66d1f31cb92c1e44eb6a61>Reset_Id</h4><pre class=ada-code-snippet><code>type Reset_Id is
+   (Reset_ADC,
+    Reset_BUSCTRL,
+    Reset_DMA,
+    Reset_I2C0,
+    Reset_I2C1,
+    Reset_IO_BANK0,
+    Reset_QSPI,
+    Reset_JTAG,
+    Reset_PADS_BANK0,
+    Reset_PADS_QSPI,
+    Reset_PIO0,
+    Reset_PIO1,
+    Reset_PLL_SYS,
+    Reset_PLL_USB,
+    Reset_PWM,
+    Reset_RTC,
+    Reset_SPI0,
+    Reset_SPI1,
+    Reset_SYSCFG,
+    Reset_SYSINFO,
+    Reset_TBMAN,
+    Reset_TIMER,
+    Reset_UART0,
+    Reset_UART1,
+    Reset_USBCTRL);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Reset_ADC<dd><dt>Reset_BUSCTRL<dd><dt>Reset_DMA<dd><dt>Reset_I2C0<dd><dt>Reset_I2C1<dd><dt>Reset_IO_BANK0<dd><dt>Reset_QSPI<dd><dt>Reset_JTAG<dd><dt>Reset_PADS_BANK0<dd><dt>Reset_PADS_QSPI<dd><dt>Reset_PIO0<dd><dt>Reset_PIO1<dd><dt>Reset_PLL_SYS<dd><dt>Reset_PLL_USB<dd><dt>Reset_PWM<dd><dt>Reset_RTC<dd><dt>Reset_SPI0<dd><dt>Reset_SPI1<dd><dt>Reset_SYSCFG<dd><dt>Reset_SYSINFO<dd><dt>Reset_TBMAN<dd><dt>Reset_TIMER<dd><dt>Reset_UART0<dd><dt>Reset_UART1<dd><dt>Reset_USBCTRL<dd></dl><h4 id=f72e9ddc18ce2892b808b7e6c682a04804a12d746def16a8f673a88a5a5991bd>Reset_Peripheral</h4><pre class=ada-code-snippet><code>procedure Reset_Peripheral
+   (Peripheral : Reset_Id)
+</code></pre><h5>Parameters</h5><dl><dt>Peripheral<dd></dl><h4 id=12dc4497b24ed741b900aef2bb0138fba0673bf7004f101cdd27d9b48d41604f>Reset_Peripheral</h4><pre class=ada-code-snippet><code>procedure Reset_Peripheral
+   (Peripheral : Reset_Id;
+    Status     : out Reset_Status;
+    Timeout    : Natural := 100)
+</code></pre><h5>Parameters</h5><dl><dt>Peripheral<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=3d78d3641b86e0f0c36fee8540d50df065b3b3d974cab97ab89129377f714868>Reset_Status</h4><pre class=ada-code-snippet><code>type Reset_Status is
+   (Reset_Ok,
+    Reset_Timeout);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Reset_Ok<dd><dt>Reset_Timeout<dd></dl>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.TIMER</h1><h2>Entities</h2><h3>Array Types</h3><ul><li><a href=#eff2296c97db5ff0c794c357c7211210ace01e1bc2a96c915d2590ebbe50be81>DBGPAUSE_DBG_Field_Array</a></ul><h3>Record Types</h3><ul><li><a href=#3298238a993953f3dba418f2fb394361d53917867299c474c5e54a359c297226>ARMED_Register</a><li><a href=#7141bb65f352a7a3e9401d52211b57bdb405b865683a33248ecea52b99d5a060>DBGPAUSE_DBG_Field</a><li><a href=#340bb40916ffd974165e199b482de5dd15965271733f0e769baf319e968bdfba>DBGPAUSE_Register</a><li><a href=#9bdf571484bea82cfb2210a4113011ecd189faefae30d9a9849ae44da60a318c>INTE_Register</a><li><a href=#2a498a3a31f56022b03e1932c0324db2e5760d351df88437835b217ef9e82d64>INTF_Register</a><li><a href=#9e7c53cbc3fc3188aea4523e95d02a753c1237294c5b07035d7df3ea0a78acce>INTR_Register</a><li><a href=#47e4d37f32ef4f52734c7501371700d65f76fb61a2b62b6b183683f7e9138c85>INTS_Register</a><li><a href=#8764460a6ad060740dc02efc62debc4e1db9c23d3ca57e1169e417190ed15b09>PAUSE_Register</a><li><a href=#db982235af2c0f1061714854fd1040d8558c321250ce07fd276d3454062dbec0>TIMER_Peripheral</a></ul><h3>Subtypes</h3><ul><li><a href=#f2d01ca030925d7020712d23c8baeb053ba17d195a7371d954603a9849a0a8b3>ARMED_ARMED_Field</a></ul><h3>Variables</h3><ul><li><a href=#e65ef154413cc78f7fa622d05d5546a7e40a9ef8e5fd5a17467351e5a6c92ee7>TIMER_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=f2d01ca030925d7020712d23c8baeb053ba17d195a7371d954603a9849a0a8b3>ARMED_ARMED_Field</h4><pre class=ada-code-snippet><code>subtype ARMED_ARMED_Field is HAL.UInt4;
+</code></pre><h4 id=3298238a993953f3dba418f2fb394361d53917867299c474c5e54a359c297226>ARMED_Register</h4><pre class=ada-code-snippet><code>type ARMED_Register is record
+   ARMED         : ARMED_ARMED_Field := 16#0#;
+   Reserved_4_31 : HAL.UInt28 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>ARMED<dd><dt>Reserved_4_31<dd></dl><h4 id=7141bb65f352a7a3e9401d52211b57bdb405b865683a33248ecea52b99d5a060>DBGPAUSE_DBG_Field</h4><pre class=ada-code-snippet><code>type DBGPAUSE_DBG_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : DBGPAUSE_DBG_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=eff2296c97db5ff0c794c357c7211210ace01e1bc2a96c915d2590ebbe50be81>DBGPAUSE_DBG_Field_Array</h4><pre class=ada-code-snippet><code>type DBGPAUSE_DBG_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=340bb40916ffd974165e199b482de5dd15965271733f0e769baf319e968bdfba>DBGPAUSE_Register</h4><pre class=ada-code-snippet><code>type DBGPAUSE_Register is record
+   Reserved_0_0  : HAL.Bit := 16#1#;
+   DBG           : DBGPAUSE_DBG_Field := (As_Array => False, Val => 16#1#);
+   Reserved_3_31 : HAL.UInt29 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_0<dd><dt>DBG<dd><dt>Reserved_3_31<dd></dl><h4 id=9bdf571484bea82cfb2210a4113011ecd189faefae30d9a9849ae44da60a318c>INTE_Register</h4><pre class=ada-code-snippet><code>type INTE_Register is record
+   ALARM_0       : Boolean := False;
+   ALARM_1       : Boolean := False;
+   ALARM_2       : Boolean := False;
+   ALARM_3       : Boolean := False;
+   Reserved_4_31 : HAL.UInt28 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>ALARM_0<dd><dt>ALARM_1<dd><dt>ALARM_2<dd><dt>ALARM_3<dd><dt>Reserved_4_31<dd></dl><h4 id=2a498a3a31f56022b03e1932c0324db2e5760d351df88437835b217ef9e82d64>INTF_Register</h4><pre class=ada-code-snippet><code>type INTF_Register is record
+   ALARM_0       : Boolean := False;
+   ALARM_1       : Boolean := False;
+   ALARM_2       : Boolean := False;
+   ALARM_3       : Boolean := False;
+   Reserved_4_31 : HAL.UInt28 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>ALARM_0<dd><dt>ALARM_1<dd><dt>ALARM_2<dd><dt>ALARM_3<dd><dt>Reserved_4_31<dd></dl><h4 id=9e7c53cbc3fc3188aea4523e95d02a753c1237294c5b07035d7df3ea0a78acce>INTR_Register</h4><pre class=ada-code-snippet><code>type INTR_Register is record
+   ALARM_0       : Boolean := False;
+   ALARM_1       : Boolean := False;
+   ALARM_2       : Boolean := False;
+   ALARM_3       : Boolean := False;
+   Reserved_4_31 : HAL.UInt28 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>ALARM_0<dd><dt>ALARM_1<dd><dt>ALARM_2<dd><dt>ALARM_3<dd><dt>Reserved_4_31<dd></dl><h4 id=47e4d37f32ef4f52734c7501371700d65f76fb61a2b62b6b183683f7e9138c85>INTS_Register</h4><pre class=ada-code-snippet><code>type INTS_Register is record
+   ALARM_0       : Boolean;
+   ALARM_1       : Boolean;
+   ALARM_2       : Boolean;
+   ALARM_3       : Boolean;
+   Reserved_4_31 : HAL.UInt28;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>ALARM_0<dd><dt>ALARM_1<dd><dt>ALARM_2<dd><dt>ALARM_3<dd><dt>Reserved_4_31<dd></dl><h4 id=8764460a6ad060740dc02efc62debc4e1db9c23d3ca57e1169e417190ed15b09>PAUSE_Register</h4><pre class=ada-code-snippet><code>type PAUSE_Register is record
+   PAUSE         : Boolean := False;
+   Reserved_1_31 : HAL.UInt31 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>PAUSE<dd><dt>Reserved_1_31<dd></dl><h4 id=e65ef154413cc78f7fa622d05d5546a7e40a9ef8e5fd5a17467351e5a6c92ee7>TIMER_Periph</h4><pre class=ada-code-snippet><code>TIMER_Periph : aliased TIMER_Peripheral
+  with Import, Address => TIMER_Base;
+</code></pre><h4 id=db982235af2c0f1061714854fd1040d8558c321250ce07fd276d3454062dbec0>TIMER_Peripheral</h4><pre class=ada-code-snippet><code>type TIMER_Peripheral is record
+   TIMEHW   : aliased HAL.UInt32;
+   TIMELW   : aliased HAL.UInt32;
+   TIMEHR   : aliased HAL.UInt32;
+   TIMELR   : aliased HAL.UInt32;
+   ALARM0   : aliased HAL.UInt32;
+   ALARM1   : aliased HAL.UInt32;
+   ALARM2   : aliased HAL.UInt32;
+   ALARM3   : aliased HAL.UInt32;
+   ARMED    : aliased ARMED_Register;
+   TIMERAWH : aliased HAL.UInt32;
+   TIMERAWL : aliased HAL.UInt32;
+   DBGPAUSE : aliased DBGPAUSE_Register;
+   PAUSE    : aliased PAUSE_Register;
+   INTR     : aliased INTR_Register;
+   INTE     : aliased INTE_Register;
+   INTF     : aliased INTF_Register;
+   INTS     : aliased INTS_Register;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>TIMEHW<dd><dt>TIMELW<dd><dt>TIMEHR<dd><dt>TIMELR<dd><dt>ALARM0<dd><dt>ALARM1<dd><dt>ALARM2<dd><dt>ALARM3<dd><dt>ARMED<dd><dt>TIMERAWH<dd><dt>TIMERAWL<dd><dt>DBGPAUSE<dd><dt>PAUSE<dd><dt>INTR<dd><dt>INTE<dd><dt>INTF<dd><dt>INTS<dd></dl>

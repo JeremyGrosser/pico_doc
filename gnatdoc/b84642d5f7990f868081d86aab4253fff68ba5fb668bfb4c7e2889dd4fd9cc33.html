@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>Atomic.Critical_Section</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#252934731fc2e39980de7442c791d0f2bec7307ce76216c78d55453906e49882>Interrupt_State</a></ul><h3>Subprograms</h3><ul><li><a href=#be88fde8c746463faf859922ed4c1910d9b9d5853ecf218825729b1f0b396eac>Enter</a><li><a href=#ec0cbd19c1ccff1fc645b45296a1c62f3251601daf663a1e402760ee65bdef54>Leave</a></ul><h2>Description</h2><h4 id=be88fde8c746463faf859922ed4c1910d9b9d5853ecf218825729b1f0b396eac>Enter</h4><pre class=ada-code-snippet><code>procedure Enter (State : out Interrupt_State)
+</code></pre><h5>Parameters</h5><dl><dt>State<dd></dl><h4 id=252934731fc2e39980de7442c791d0f2bec7307ce76216c78d55453906e49882>Interrupt_State</h4><pre class=ada-code-snippet><code>type Interrupt_State is private;
+</code></pre><h4 id=ec0cbd19c1ccff1fc645b45296a1c62f3251601daf663a1e402760ee65bdef54>Leave</h4><pre class=ada-code-snippet><code>procedure Leave (State : Interrupt_State)
+</code></pre><h5>Parameters</h5><dl><dt>State<dd></dl>

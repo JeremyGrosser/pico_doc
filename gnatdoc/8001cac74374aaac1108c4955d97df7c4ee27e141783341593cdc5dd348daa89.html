@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.GPIO</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#25216b8ff18604e5d1aebf97db3d10e3ecc4515ecfab2b393766a3a24d35190f>GPIO_Config_Mode</a><li><a href=#29952381c10e2ef27098d7d231c795f2ee7fb92a5c81641317147d74ee0961ad>GPIO_Drive</a><li><a href=#74b5bc7745da37dcbd9d8766b294d9250f1a17329088282547a67e5948fd69d3>GPIO_Function</a><li><a href=#cb2775fc9d1d365c32c8671cd875faa448655eb9f58e1161a4ec3c33a943d4de>GPIO_Pin</a><li><a href=#19b170d6c8e2e48bb7c9b37ead271a2f09e987a50576b4370dce00d5f7f9ea46>GPIO_Pull_Mode</a><li><a href=#2bc522c980edac2cc58ca986b824e42fcefc111f873963628868e871cfa57ad2>Interrupt_Triggers</a></ul><h3>Tagged Types</h3><ul><li><a href=#7280208e49d25d5eb463064ba4db8829ab7c4af7eedef4dac42a8f839063a6bc>GPIO_Point</a></ul><h3>Subtypes</h3><ul><li><a href=#e3cd2ae1830ef4b3b33f720f9a309bc6a04ea3684571851407873beff86caea8>ADC_Pin</a></ul><h3>Subprograms</h3><ul><li><a href=#8e4fe8527d63b08c5d665522c35bc3874f93305af26b905c97efe923633304ca>Acknowledge_Interrupt</a><li><a href=#0203c1571be8cc9995ce70798929f6de657cdcee8bbeede467d2f88fce834def>Clear</a><li><a href=#a4832c7e93ac4cd3ae1b4f83ca93d2d12a321c80dc1996f75d5337fe63714ab5>Configure</a><li><a href=#2f8f54703de026a3c3f6afa414cbd986bfb28e9ed6ac849de7b6fc5a22c8b6fb>Disable_Interrupt</a><li><a href=#ad42ae71756b02527068bed701504d3bc72ed63102b08dd8dbc9b911fdd89d3b>Enable</a><li><a href=#f995a6ea707a74a31080f069630fe9948f43ef72776b268baeb174cf2da17dd3>Enable_Interrupt</a><li><a href=#f0fa7f9297a5ca982e8f1c7acb97586233443af9d1acfd4ca6a18c971899bce5>Enabled</a><li><a href=#96603037f6a83cc6b4bf2b5ef384112087162c406b1f449a8793f840e96d0381>Get</a><li><a href=#ef1f22b49dad035fbc5d16e5c64ff9546045b891e3b354091dd966a53dc7bcd4>Interrupt_Status</a><li><a href=#9161f176894b8154dbb9cc974ae614c50037c398dd9b664c5bceeb98bb4ac6f3>Mode</a><li><a href=#039973cf2873b9020448f7c14e1ae3d7c2ac57eb077daf4bb99d3050daae072c>Pull_Resistor</a><li><a href=#7e07bcbdf3bf8bd5e9bfad516b599aaefe4e338a773fa086789c524929a6f416>Set</a><li><a href=#23f63625ef5b60cd95c01f70867fc44c125cb131e26de4b14d8aa59215ef4e3a>Set</a><li><a href=#088a989e56646e3c11cf0c121b3dc5c9fd79670f5bfabec1a03c0e7889311cba>Set_Mode</a><li><a href=#88d7d7b90d830e0785714730ceb2f715e67e54f8f854cd7f77594ee33fdc0603>Set_Pull_Resistor</a><li><a href=#ac24c71355360dde2c83b5a8203ad8d836509577b968e775e80419edb4297957>Support</a><li><a href=#bd2d42034c1aa786eac4bc81d5b065f0cfb102b948ec42a8e0ed75b81673dbb4>Toggle</a></ul><h2>Description</h2><p>Copyright 2021 (C) Jeremy Grosser<p>SPDX-License-Identifier: BSD-3-Clause<h4 id=8e4fe8527d63b08c5d665522c35bc3874f93305af26b905c97efe923633304ca>Acknowledge_Interrupt</h4><pre class=ada-code-snippet><code>procedure Acknowledge_Interrupt
+   (Pin     : GPIO_Pin;
+    Trigger : Interrupt_Triggers)
+</code></pre><h5>Parameters</h5><dl><dt>Pin<dd><dt>Trigger<dd></dl><h4 id=e3cd2ae1830ef4b3b33f720f9a309bc6a04ea3684571851407873beff86caea8>ADC_Pin</h4><pre class=ada-code-snippet><code>subtype ADC_Pin is GPIO_Pin range 26 .. 29;
+</code></pre><h4 id=0203c1571be8cc9995ce70798929f6de657cdcee8bbeede467d2f88fce834def>Clear</h4><pre class=ada-code-snippet><code>procedure Clear
+   (This : in out GPIO_Point)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=a4832c7e93ac4cd3ae1b4f83ca93d2d12a321c80dc1996f75d5337fe63714ab5>Configure</h4><pre class=ada-code-snippet><code>procedure Configure
+   (This      : in out GPIO_Point;
+    Mode      : GPIO_Config_Mode;
+    Pull      : GPIO_Pull_Mode := Floating;
+    Func      : GPIO_Function := SIO;
+    Schmitt   : Boolean := False;
+    Slew_Fast : Boolean := False;
+    Drive     : GPIO_Drive := Drive_4mA)
+</code></pre><p>In Analog mode, Pull and Func are ignored and set to Floating and HI_Z<h5>Parameters</h5><dl><dt>This<dd><dt>Mode<dd><dt>Pull<dd><dt>Func<dd><dt>Schmitt<dd><dt>Slew_Fast<dd><dt>Drive<dd></dl><h4 id=2f8f54703de026a3c3f6afa414cbd986bfb28e9ed6ac849de7b6fc5a22c8b6fb>Disable_Interrupt</h4><pre class=ada-code-snippet><code>procedure Disable_Interrupt
+   (This    : in out GPIO_Point;
+    Trigger : Interrupt_Triggers)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Trigger<dd></dl><h4 id=ad42ae71756b02527068bed701504d3bc72ed63102b08dd8dbc9b911fdd89d3b>Enable</h4><pre class=ada-code-snippet><code>procedure Enable
+</code></pre><h4 id=f995a6ea707a74a31080f069630fe9948f43ef72776b268baeb174cf2da17dd3>Enable_Interrupt</h4><pre class=ada-code-snippet><code>procedure Enable_Interrupt
+   (This    : in out GPIO_Point;
+    Trigger : Interrupt_Triggers)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Trigger<dd></dl><h4 id=f0fa7f9297a5ca982e8f1c7acb97586233443af9d1acfd4ca6a18c971899bce5>Enabled</h4><pre class=ada-code-snippet><code>function Enabled return Boolean
+</code></pre><h5>Return Value</h5><dl><dd></dl><h4 id=96603037f6a83cc6b4bf2b5ef384112087162c406b1f449a8793f840e96d0381>Get</h4><pre class=ada-code-snippet><code>function Get
+   (This : GPIO_Point)
+   return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=25216b8ff18604e5d1aebf97db3d10e3ecc4515ecfab2b393766a3a24d35190f>GPIO_Config_Mode</h4><pre class=ada-code-snippet><code>type GPIO_Config_Mode is (Input, Output, Analog);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Input<dd><dt>Output<dd><dt>Analog<dd></dl><h4 id=29952381c10e2ef27098d7d231c795f2ee7fb92a5c81641317147d74ee0961ad>GPIO_Drive</h4><pre class=ada-code-snippet><code>type GPIO_Drive is (Drive_2mA, Drive_4mA, Drive_8mA, Drive_12mA);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Drive_2mA<dd><dt>Drive_4mA<dd><dt>Drive_8mA<dd><dt>Drive_12mA<dd></dl><h4 id=74b5bc7745da37dcbd9d8766b294d9250f1a17329088282547a67e5948fd69d3>GPIO_Function</h4><pre class=ada-code-snippet><code>type GPIO_Function is
+   (SPI, UART, I2C, PWM, SIO, PIO0, PIO1, CLOCK, USB, HI_Z);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>SPI<dd><dt>UART<dd><dt>I2C<dd><dt>PWM<dd><dt>SIO<dd><dt>PIO0<dd><dt>PIO1<dd><dt>CLOCK<dd><dt>USB<dd><dt>HI_Z<dd></dl><h4 id=cb2775fc9d1d365c32c8671cd875faa448655eb9f58e1161a4ec3c33a943d4de>GPIO_Pin</h4><pre class=ada-code-snippet><code>type GPIO_Pin is range 0 .. 29;
+</code></pre><h4 id=7280208e49d25d5eb463064ba4db8829ab7c4af7eedef4dac42a8f839063a6bc>GPIO_Point</h4><pre class=ada-code-snippet><code>type GPIO_Point is new HAL.GPIO.GPIO_Point with
+   record
+      Pin : GPIO_Pin;
+   end record;
+</code></pre><h5>Record fields</h5><dl><dt>Pin<dd></dl><h4 id=19b170d6c8e2e48bb7c9b37ead271a2f09e987a50576b4370dce00d5f7f9ea46>GPIO_Pull_Mode</h4><pre class=ada-code-snippet><code>type GPIO_Pull_Mode is (Floating, Pull_Up, Pull_Down, Pull_Both);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Floating<dd><dt>Pull_Up<dd><dt>Pull_Down<dd><dt>Pull_Both<dd></dl><h4 id=ef1f22b49dad035fbc5d16e5c64ff9546045b891e3b354091dd966a53dc7bcd4>Interrupt_Status</h4><pre class=ada-code-snippet><code>function Interrupt_Status
+   (Pin     : GPIO_Pin;
+    Trigger : Interrupt_Triggers)
+   return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>Pin<dd><dt>Trigger<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=2bc522c980edac2cc58ca986b824e42fcefc111f873963628868e871cfa57ad2>Interrupt_Triggers</h4><pre class=ada-code-snippet><code>type Interrupt_Triggers is (Low_Level, High_Level, Falling_Edge, Rising_Edge)
+   with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Low_Level<dd><dt>High_Level<dd><dt>Falling_Edge<dd><dt>Rising_Edge<dd></dl><h4 id=9161f176894b8154dbb9cc974ae614c50037c398dd9b664c5bceeb98bb4ac6f3>Mode</h4><pre class=ada-code-snippet><code>function Mode
+   (This : GPIO_Point)
+   return HAL.GPIO.GPIO_Mode
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=039973cf2873b9020448f7c14e1ae3d7c2ac57eb077daf4bb99d3050daae072c>Pull_Resistor</h4><pre class=ada-code-snippet><code>function Pull_Resistor
+   (This : GPIO_Point)
+   return HAL.GPIO.GPIO_Pull_Resistor
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=7e07bcbdf3bf8bd5e9bfad516b599aaefe4e338a773fa086789c524929a6f416>Set</h4><pre class=ada-code-snippet><code>function Set
+   (This : GPIO_Point)
+   return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=23f63625ef5b60cd95c01f70867fc44c125cb131e26de4b14d8aa59215ef4e3a>Set</h4><pre class=ada-code-snippet><code>procedure Set
+   (This : in out GPIO_Point)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=088a989e56646e3c11cf0c121b3dc5c9fd79670f5bfabec1a03c0e7889311cba>Set_Mode</h4><pre class=ada-code-snippet><code>procedure Set_Mode
+   (This : in out GPIO_Point;
+    Mode : HAL.GPIO.GPIO_Config_Mode)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Mode<dd></dl><h4 id=88d7d7b90d830e0785714730ceb2f715e67e54f8f854cd7f77594ee33fdc0603>Set_Pull_Resistor</h4><pre class=ada-code-snippet><code>procedure Set_Pull_Resistor
+   (This : in out GPIO_Point;
+    Pull : HAL.GPIO.GPIO_Pull_Resistor)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Pull<dd></dl><h4 id=ac24c71355360dde2c83b5a8203ad8d836509577b968e775e80419edb4297957>Support</h4><pre class=ada-code-snippet><code>function Support
+   (This : GPIO_Point;
+    Capa : HAL.GPIO.Capability)
+    return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Capa<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=bd2d42034c1aa786eac4bc81d5b065f0cfb102b948ec42a8e0ed75b81673dbb4>Toggle</h4><pre class=ada-code-snippet><code>procedure Toggle
+   (This : in out GPIO_Point)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl>

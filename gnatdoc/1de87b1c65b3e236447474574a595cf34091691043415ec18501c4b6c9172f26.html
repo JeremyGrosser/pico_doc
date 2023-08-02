@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.ADC</h1><h2>Entities</h2><h3>Record Types</h3><ul><li><a href=#70f3f37e444b2489b271f5fbeac308e4613bfe53cea8fbf0b77dd825b1706786>ADC_Peripheral</a><li><a href=#12de524297536e2a337eb085b261d86c1cad541cb3080ce74d5d0c567fc7234a>CS_Register</a><li><a href=#12ac8ec7117c226e5cc3d7a3ec4851ed9415bbbee66407836ab4ac722e88c168>DIV_Register</a><li><a href=#94a5baaf95d692f96b563ca7ddd754eb6f5dcd0e84ecf7b1b3dec614ceb5d0e2>FCS_Register</a><li><a href=#97251a988ade78a5a50eca4fe1fe540ed4151eb44757207466b5a0f579f0bf15>FIFO_Register</a><li><a href=#ffe4a07d5ef41bafab70d47b511a735db50555f103065e2e443a3200da1d6ed7>INTE_Register</a><li><a href=#e442a328ee11c978e34d0cb77ebecc50eb951c599a88c5b700b349518fdb6e91>INTF_Register</a><li><a href=#5ed01d3338382a35f360735c384af2e28be610b2717b513230f9f72652f200ca>INTR_Register</a><li><a href=#90bb00aa11be84c4b5786454b85e3005be08a2f66e7dc27c22c36959c7ee1fa1>INTS_Register</a><li><a href=#8bae3e5a67e5bb53892f0939b304e7355a533a742676925afb1af6f56388f267>RESULT_Register</a></ul><h3>Subtypes</h3><ul><li><a href=#16ee59196679366f792f5cf1933152fbca98f7994ca87ef82ea39f08b055ac4a>CS_AINSEL_Field</a><li><a href=#405037a1f0c35d938f769eb749a6ee7faa227e970ae7414b6d1c275eb27e6661>CS_RROBIN_Field</a><li><a href=#dbc71dbe29b4374ff5ebb5c513616738c1d851ef8598b1d4937b3e4c2946e692>DIV_FRAC_Field</a><li><a href=#4ae339c053aa74310bded859bacbd66b79a1e5cea8619690965e8a3952f3167e>DIV_INT_Field</a><li><a href=#86b5463366aeee0b9b3dd63ae64d6375630fdf83bc8f6e0d1096156690cbf54e>FCS_LEVEL_Field</a><li><a href=#3cbb8648a3f44484c2a5903756110da3dfacaf4adfd8220790b938543a96c65d>FCS_THRESH_Field</a><li><a href=#39563789e36fa7085321f7a81c236fdf00a537cbd226f12d3d1e380a1945e376>FIFO_VAL_Field</a><li><a href=#d741238cc713eb5405d728d33c5bb13c94ae807930c3b623d67ca642dcf1f08b>RESULT_RESULT_Field</a></ul><h3>Variables</h3><ul><li><a href=#005574ceb1192fb405461828711dc0252d81ab9c64312367cc75df6f124ef1d5>ADC_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=005574ceb1192fb405461828711dc0252d81ab9c64312367cc75df6f124ef1d5>ADC_Periph</h4><pre class=ada-code-snippet><code>ADC_Periph : aliased ADC_Peripheral
+  with Import, Address => ADC_Base;
+</code></pre><h4 id=70f3f37e444b2489b271f5fbeac308e4613bfe53cea8fbf0b77dd825b1706786>ADC_Peripheral</h4><pre class=ada-code-snippet><code>type ADC_Peripheral is record
+   CS     : aliased CS_Register;
+   RESULT : aliased RESULT_Register;
+   FCS    : aliased FCS_Register;
+   FIFO   : aliased FIFO_Register;
+   DIV    : aliased DIV_Register;
+   INTR   : aliased INTR_Register;
+   INTE   : aliased INTE_Register;
+   INTF   : aliased INTF_Register;
+   INTS   : aliased INTS_Register;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>CS<dd><dt>RESULT<dd><dt>FCS<dd><dt>FIFO<dd><dt>DIV<dd><dt>INTR<dd><dt>INTE<dd><dt>INTF<dd><dt>INTS<dd></dl><h4 id=16ee59196679366f792f5cf1933152fbca98f7994ca87ef82ea39f08b055ac4a>CS_AINSEL_Field</h4><pre class=ada-code-snippet><code>subtype CS_AINSEL_Field is HAL.UInt3;
+</code></pre><h4 id=12de524297536e2a337eb085b261d86c1cad541cb3080ce74d5d0c567fc7234a>CS_Register</h4><pre class=ada-code-snippet><code>type CS_Register is record
+   EN             : Boolean := False;
+   TS_EN          : Boolean := False;
+   START_ONCE     : Boolean := False;
+   START_MANY     : Boolean := False;
+   Reserved_4_7   : HAL.UInt4 := 16#0#;
+   READY          : Boolean := False;
+   ERR            : Boolean := False;
+   ERR_STICKY     : Boolean := False;
+   Reserved_11_11 : HAL.Bit := 16#0#;
+   AINSEL         : CS_AINSEL_Field := 16#0#;
+   Reserved_15_15 : HAL.Bit := 16#0#;
+   RROBIN         : CS_RROBIN_Field := 16#0#;
+   Reserved_21_31 : HAL.UInt11 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>TS_EN<dd><dt>START_ONCE<dd><dt>START_MANY<dd><dt>Reserved_4_7<dd><dt>READY<dd><dt>ERR<dd><dt>ERR_STICKY<dd><dt>Reserved_11_11<dd><dt>AINSEL<dd><dt>Reserved_15_15<dd><dt>RROBIN<dd><dt>Reserved_21_31<dd></dl><h4 id=405037a1f0c35d938f769eb749a6ee7faa227e970ae7414b6d1c275eb27e6661>CS_RROBIN_Field</h4><pre class=ada-code-snippet><code>subtype CS_RROBIN_Field is HAL.UInt5;
+</code></pre><h4 id=dbc71dbe29b4374ff5ebb5c513616738c1d851ef8598b1d4937b3e4c2946e692>DIV_FRAC_Field</h4><pre class=ada-code-snippet><code>subtype DIV_FRAC_Field is HAL.UInt8;
+</code></pre><h4 id=4ae339c053aa74310bded859bacbd66b79a1e5cea8619690965e8a3952f3167e>DIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype DIV_INT_Field is HAL.UInt16;
+</code></pre><h4 id=12ac8ec7117c226e5cc3d7a3ec4851ed9415bbbee66407836ab4ac722e88c168>DIV_Register</h4><pre class=ada-code-snippet><code>type DIV_Register is record
+   FRAC           : DIV_FRAC_Field := 16#0#;
+   INT            : DIV_INT_Field := 16#0#;
+   Reserved_24_31 : HAL.UInt8 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FRAC<dd><dt>INT<dd><dt>Reserved_24_31<dd></dl><h4 id=86b5463366aeee0b9b3dd63ae64d6375630fdf83bc8f6e0d1096156690cbf54e>FCS_LEVEL_Field</h4><pre class=ada-code-snippet><code>subtype FCS_LEVEL_Field is HAL.UInt4;
+</code></pre><h4 id=94a5baaf95d692f96b563ca7ddd754eb6f5dcd0e84ecf7b1b3dec614ceb5d0e2>FCS_Register</h4><pre class=ada-code-snippet><code>type FCS_Register is record
+   EN             : Boolean := False;
+   SHIFT          : Boolean := False;
+   ERR            : Boolean := False;
+   DREQ_EN        : Boolean := False;
+   Reserved_4_7   : HAL.UInt4 := 16#0#;
+   EMPTY          : Boolean := False;
+   FULL           : Boolean := False;
+   UNDER          : Boolean := False;
+   OVER           : Boolean := False;
+   Reserved_12_15 : HAL.UInt4 := 16#0#;
+   LEVEL          : FCS_LEVEL_Field := 16#0#;
+   Reserved_20_23 : HAL.UInt4 := 16#0#;
+   THRESH         : FCS_THRESH_Field := 16#0#;
+   Reserved_28_31 : HAL.UInt4 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>EN<dd><dt>SHIFT<dd><dt>ERR<dd><dt>DREQ_EN<dd><dt>Reserved_4_7<dd><dt>EMPTY<dd><dt>FULL<dd><dt>UNDER<dd><dt>OVER<dd><dt>Reserved_12_15<dd><dt>LEVEL<dd><dt>Reserved_20_23<dd><dt>THRESH<dd><dt>Reserved_28_31<dd></dl><h4 id=3cbb8648a3f44484c2a5903756110da3dfacaf4adfd8220790b938543a96c65d>FCS_THRESH_Field</h4><pre class=ada-code-snippet><code>subtype FCS_THRESH_Field is HAL.UInt4;
+</code></pre><h4 id=97251a988ade78a5a50eca4fe1fe540ed4151eb44757207466b5a0f579f0bf15>FIFO_Register</h4><pre class=ada-code-snippet><code>type FIFO_Register is record
+   VAL            : FIFO_VAL_Field;
+   Reserved_12_14 : HAL.UInt3;
+   ERR            : Boolean;
+   Reserved_16_31 : HAL.UInt16;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>VAL<dd><dt>Reserved_12_14<dd><dt>ERR<dd><dt>Reserved_16_31<dd></dl><h4 id=39563789e36fa7085321f7a81c236fdf00a537cbd226f12d3d1e380a1945e376>FIFO_VAL_Field</h4><pre class=ada-code-snippet><code>subtype FIFO_VAL_Field is HAL.UInt12;
+</code></pre><h4 id=ffe4a07d5ef41bafab70d47b511a735db50555f103065e2e443a3200da1d6ed7>INTE_Register</h4><pre class=ada-code-snippet><code>type INTE_Register is record
+   FIFO          : Boolean := False;
+   Reserved_1_31 : HAL.UInt31 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FIFO<dd><dt>Reserved_1_31<dd></dl><h4 id=e442a328ee11c978e34d0cb77ebecc50eb951c599a88c5b700b349518fdb6e91>INTF_Register</h4><pre class=ada-code-snippet><code>type INTF_Register is record
+   FIFO          : Boolean := False;
+   Reserved_1_31 : HAL.UInt31 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FIFO<dd><dt>Reserved_1_31<dd></dl><h4 id=5ed01d3338382a35f360735c384af2e28be610b2717b513230f9f72652f200ca>INTR_Register</h4><pre class=ada-code-snippet><code>type INTR_Register is record
+   FIFO          : Boolean;
+   Reserved_1_31 : HAL.UInt31;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FIFO<dd><dt>Reserved_1_31<dd></dl><h4 id=90bb00aa11be84c4b5786454b85e3005be08a2f66e7dc27c22c36959c7ee1fa1>INTS_Register</h4><pre class=ada-code-snippet><code>type INTS_Register is record
+   FIFO          : Boolean;
+   Reserved_1_31 : HAL.UInt31;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FIFO<dd><dt>Reserved_1_31<dd></dl><h4 id=8bae3e5a67e5bb53892f0939b304e7355a533a742676925afb1af6f56388f267>RESULT_Register</h4><pre class=ada-code-snippet><code>type RESULT_Register is record
+   RESULT         : RESULT_RESULT_Field;
+   Reserved_12_31 : HAL.UInt20;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>RESULT<dd><dt>Reserved_12_31<dd></dl><h4 id=d741238cc713eb5405d728d33c5bb13c94ae807930c3b623d67ca642dcf1f08b>RESULT_RESULT_Field</h4><pre class=ada-code-snippet><code>subtype RESULT_RESULT_Field is HAL.UInt12;
+</code></pre>

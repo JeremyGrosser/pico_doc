@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.PIO.Audio_I2S</h1><h2>Entities</h2><h3>Tagged Types</h3><ul><li><a href=#0109007fbe7a03b281adfcf80a586e8e00b1b6bd731f9d042b821b42767a52b9>I2S_Device</a></ul><h3>Subtypes</h3><ul><li><a href=#7d19449ffc5a9490bb3825c84ec1a673cbfceea27dac6586cda0dc7893b010f4>Channel_Count</a></ul><h3>Subprograms</h3><ul><li><a href=#b99b27cc51fcbf4e34b4cdf9b82f8de46091c9aaef78e9293c81b61f47538e1d>Initialize</a><li><a href=#09ef94bb02b63d80b805c0cbdfbd2bf4b2b03b526583cfbdec59a00162b938ee>Receive</a><li><a href=#5e3fbac82963b3a91dd7f31089dccc6b054963b0b9f89119dc2a5103b6a09f79>Set_Frequency</a><li><a href=#93b55b4ed74e5425ebc2a6c04a5c49d6d2995639ecf560321cc24df82c2b36de>Transmit</a></ul><h2>Description</h2><p>There is only one LRCLK signal, so any more than two channels will need some external multiplexing logic.<h4 id=7d19449ffc5a9490bb3825c84ec1a673cbfceea27dac6586cda0dc7893b010f4>Channel_Count</h4><pre class=ada-code-snippet><code>subtype Channel_Count is Positive range 1 .. 2;
+</code></pre><h4 id=0109007fbe7a03b281adfcf80a586e8e00b1b6bd731f9d042b821b42767a52b9>I2S_Device</h4><pre class=ada-code-snippet><code>type I2S_Device
+   (Data        : not null access RP.GPIO.GPIO_Point;
+    BCLK        : not null access RP.GPIO.GPIO_Point;
+    LRCLK       : not null access RP.GPIO.GPIO_Point;
+    PIO         : not null access RP.PIO.PIO_Device'Class;
+    SM          : RP.PIO.PIO_SM;
+    Channels    : Channel_Count;
+    DMA_Channel : RP.DMA.DMA_Channel_Id;
+    Buffer_Size : Positive)
+is limited new HAL.Audio.Audio_Stream with private;
+</code></pre><h4 id=b99b27cc51fcbf4e34b4cdf9b82f8de46091c9aaef78e9293c81b61f47538e1d>Initialize</h4><pre class=ada-code-snippet><code>procedure Initialize
+   (This      : in out I2S_Device;
+    Frequency : HAL.Audio.Audio_Frequency;
+    Channels  : Channel_Count := 1)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Frequency<dd><dt>Channels<dd></dl><h4 id=09ef94bb02b63d80b805c0cbdfbd2bf4b2b03b526583cfbdec59a00162b938ee>Receive</h4><pre class=ada-code-snippet><code>procedure Receive
+   (This : in out I2S_Device;
+    Data : out HAL.Audio.Audio_Buffer)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd></dl><h4 id=5e3fbac82963b3a91dd7f31089dccc6b054963b0b9f89119dc2a5103b6a09f79>Set_Frequency</h4><pre class=ada-code-snippet><code>procedure Set_Frequency
+   (This      : in out I2S_Device;
+    Frequency : HAL.Audio.Audio_Frequency)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Frequency<dd></dl><h4 id=93b55b4ed74e5425ebc2a6c04a5c49d6d2995639ecf560321cc24df82c2b36de>Transmit</h4><pre class=ada-code-snippet><code>procedure Transmit
+   (This : in out I2S_Device;
+    Data : HAL.Audio.Audio_Buffer)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd></dl>

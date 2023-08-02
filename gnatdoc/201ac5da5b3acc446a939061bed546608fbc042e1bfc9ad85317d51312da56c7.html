@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.PIO.WS2812</h1><h2>Entities</h2><h3>Record Types</h3><ul><li><a href=#d5435930352897caca44a7e1b7a539064265f3b37ec5935ef18e8b0d72ee1d2c>Strip</a></ul><h3>Subprograms</h3><ul><li><a href=#1361996dd65fd53346833fcd884689c77b78b8c6a6d808173480ad0cf06cc5f9>Clear</a><li><a href=#d97e79c1b49117b4ad715350ea774099fe7484804118bf1aa8a63281cad69481>Disable_DMA</a><li><a href=#566901bf34424d15df78203d0b9a521eeaec1a2515d13d31bf0b17695c8c0aa9>DMA_Enabled</a><li><a href=#1e13bfc02af194f17c9a92a426157ee71b29564ba2088a7543f6525c721175a0>Enable_DMA</a><li><a href=#3a85df3792242d0c9bba7b24187f787be7170fc04c27ec21f4f5c6efaeaa71e2>Initialize</a><li><a href=#524c9f8dcd1e4d1ac701e96233fa9e96e0f828bfe060c3c97837b6b9dae1fdcf>Initialized</a><li><a href=#ed0ec9ca2fb33cf702a3c97aa027788e73f49801b61a2bcd207768d3cc8575d6>Set_HSV</a><li><a href=#f4c135ad8a7820e0f71eb091abf0f7b089b2cc2c4762a88784361035715eba06>Set_RGB</a><li><a href=#a16c23c6a0924b2f66e83fb07fe79fb0c221a2622ab6e89e07e8a85af7eedb9b>Update</a></ul><h2>Description</h2><h4 id=1361996dd65fd53346833fcd884689c77b78b8c6a6d808173480ad0cf06cc5f9>Clear</h4><pre class=ada-code-snippet><code>procedure Clear (This : in out Strip)
+</code></pre><p>Turn off all LEDs<h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=d97e79c1b49117b4ad715350ea774099fe7484804118bf1aa8a63281cad69481>Disable_DMA</h4><pre class=ada-code-snippet><code>procedure Disable_DMA (This : in out Strip)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h4 id=566901bf34424d15df78203d0b9a521eeaec1a2515d13d31bf0b17695c8c0aa9>DMA_Enabled</h4><pre class=ada-code-snippet><code>function DMA_Enabled (This : Strip) return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=1e13bfc02af194f17c9a92a426157ee71b29564ba2088a7543f6525c721175a0>Enable_DMA</h4><pre class=ada-code-snippet><code>procedure Enable_DMA (This : in out Strip;
+                      Chan : RP.DMA.DMA_Channel_Id)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Chan<dd></dl><h4 id=3a85df3792242d0c9bba7b24187f787be7170fc04c27ec21f4f5c6efaeaa71e2>Initialize</h4><pre class=ada-code-snippet><code>procedure Initialize (This       : in out Strip;
+                      ASM_Offset :        PIO_Address := 0)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>ASM_Offset<dd></dl><h4 id=524c9f8dcd1e4d1ac701e96233fa9e96e0f828bfe060c3c97837b6b9dae1fdcf>Initialized</h4><pre class=ada-code-snippet><code>function Initialized (This : Strip) return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=ed0ec9ca2fb33cf702a3c97aa027788e73f49801b61a2bcd207768d3cc8575d6>Set_HSV</h4><pre class=ada-code-snippet><code>procedure Set_HSV (This    : in out Strip;
+                   Id      :        Positive;
+                   H, S, V :        HAL.UInt8)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Id<dd><dt>H<dd><dt>S<dd><dt>V<dd></dl><h4 id=f4c135ad8a7820e0f71eb091abf0f7b089b2cc2c4762a88784361035715eba06>Set_RGB</h4><pre class=ada-code-snippet><code>procedure Set_RGB (This    : in out Strip;
+                   Id      :        Positive;
+                   R, G, B :        HAL.UInt8)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Id<dd><dt>R<dd><dt>G<dd><dt>B<dd></dl><h4 id=d5435930352897caca44a7e1b7a539064265f3b37ec5935ef18e8b0d72ee1d2c>Strip</h4><pre class=ada-code-snippet><code>type Strip
+   (Pin : not null access RP.GPIO.GPIO_Point;
+    PIO : not null access PIO_Device;
+    SM  : PIO_SM;
+    Number_Of_LEDs : Positive)
+is tagged record
+   Data        : HAL.UInt32_Array (1 .. Number_Of_LEDs);
+   Initialized : Boolean := False;
+   DMA_Ready   : Boolean := False;
+   DMA_Chan    : RP.DMA.DMA_Channel_Id;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Pin<dd><dt>PIO<dd><dt>SM<dd><dt>Number_Of_LEDs<dd><dt>Data<dd><dt>Initialized<dd><dt>DMA_Ready<dd><dt>DMA_Chan<dd></dl><h4 id=a16c23c6a0924b2f66e83fb07fe79fb0c221a2622ab6e89e07e8a85af7eedb9b>Update</h4><pre class=ada-code-snippet><code>procedure Update (This     : aliased Strip;
+                  Blocking :         Boolean := False)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Blocking<dd></dl>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.PLL</h1><h2>Entities</h2><h3>Record Types</h3><ul><li><a href=#d3c46463e67461c8e971fc5d6c8ed7edfdd5044d187494e2af09325b409eae29>CS_Register</a><li><a href=#9daf4928ff658a22079ba07467a090c4e1d3b0b128bc8f22645bab62770cab73>FBDIV_INT_Register</a><li><a href=#702d80b354389da6f7c3058d0fd6b4fee358f45711af9c30d0c3ad68febd9dee>PLL_Peripheral</a><li><a href=#b65b15be6f0b077037d72e0e2467d4ebf9e1eb16bc4f606c4cc8f7c1b45a0170>PRIM_Register</a><li><a href=#a1acbe55f83637351c2a9b230edf36a692e8e4ed4c41ea76c55dbd630f4de902>PWR_Register</a></ul><h3>Subtypes</h3><ul><li><a href=#bf57236380b19342845f82a09cad24db9a1502da44c45458b2d3bdb523a6b5e2>CS_REFDIV_Field</a><li><a href=#326046a0a473e010c0a7154de25ca6e68c4801524f035a2c4cb40b3303fa6b59>FBDIV_INT_FBDIV_INT_Field</a><li><a href=#6a31d3c210578d758ff23c331ce0caba2c1216267d037aafacf17d1b6cc74a58>PRIM_POSTDIV1_Field</a><li><a href=#3138128bfd817c4b016aa4d02aa2fdde80342e0b29d67041cc5a54b2cb03c43d>PRIM_POSTDIV2_Field</a></ul><h3>Variables</h3><ul><li><a href=#de61af043afed68aeec8f7acc7b97c8df9ead8b83a1d8ec92c5556e2715dec37>PLL_SYS_Periph</a><li><a href=#79b11fec2e96dc6b4872d916473092f6efbc9cefc8085b02c02a13d8b079db72>PLL_USB_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=bf57236380b19342845f82a09cad24db9a1502da44c45458b2d3bdb523a6b5e2>CS_REFDIV_Field</h4><pre class=ada-code-snippet><code>subtype CS_REFDIV_Field is HAL.UInt6;
+</code></pre><h4 id=d3c46463e67461c8e971fc5d6c8ed7edfdd5044d187494e2af09325b409eae29>CS_Register</h4><pre class=ada-code-snippet><code>type CS_Register is record
+   REFDIV        : CS_REFDIV_Field := 16#1#;
+   Reserved_6_7  : HAL.UInt2 := 16#0#;
+   BYPASS        : Boolean := False;
+   Reserved_9_30 : HAL.UInt22 := 16#0#;
+   LOCK          : Boolean := False;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>REFDIV<dd><dt>Reserved_6_7<dd><dt>BYPASS<dd><dt>Reserved_9_30<dd><dt>LOCK<dd></dl><h4 id=326046a0a473e010c0a7154de25ca6e68c4801524f035a2c4cb40b3303fa6b59>FBDIV_INT_FBDIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype FBDIV_INT_FBDIV_INT_Field is HAL.UInt12;
+</code></pre><h4 id=9daf4928ff658a22079ba07467a090c4e1d3b0b128bc8f22645bab62770cab73>FBDIV_INT_Register</h4><pre class=ada-code-snippet><code>type FBDIV_INT_Register is record
+   FBDIV_INT      : FBDIV_INT_FBDIV_INT_Field := 16#0#;
+   Reserved_12_31 : HAL.UInt20 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FBDIV_INT<dd><dt>Reserved_12_31<dd></dl><h4 id=702d80b354389da6f7c3058d0fd6b4fee358f45711af9c30d0c3ad68febd9dee>PLL_Peripheral</h4><pre class=ada-code-snippet><code>type PLL_Peripheral is record
+   CS        : aliased CS_Register;
+   PWR       : aliased PWR_Register;
+   FBDIV_INT : aliased FBDIV_INT_Register;
+   PRIM      : aliased PRIM_Register;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>CS<dd><dt>PWR<dd><dt>FBDIV_INT<dd><dt>PRIM<dd></dl><h4 id=de61af043afed68aeec8f7acc7b97c8df9ead8b83a1d8ec92c5556e2715dec37>PLL_SYS_Periph</h4><pre class=ada-code-snippet><code>PLL_SYS_Periph : aliased PLL_Peripheral
+  with Import, Address => PLL_SYS_Base;
+</code></pre><h4 id=79b11fec2e96dc6b4872d916473092f6efbc9cefc8085b02c02a13d8b079db72>PLL_USB_Periph</h4><pre class=ada-code-snippet><code>PLL_USB_Periph : aliased PLL_Peripheral
+  with Import, Address => PLL_USB_Base;
+</code></pre><h4 id=6a31d3c210578d758ff23c331ce0caba2c1216267d037aafacf17d1b6cc74a58>PRIM_POSTDIV1_Field</h4><pre class=ada-code-snippet><code>subtype PRIM_POSTDIV1_Field is HAL.UInt3;
+</code></pre><h4 id=3138128bfd817c4b016aa4d02aa2fdde80342e0b29d67041cc5a54b2cb03c43d>PRIM_POSTDIV2_Field</h4><pre class=ada-code-snippet><code>subtype PRIM_POSTDIV2_Field is HAL.UInt3;
+</code></pre><h4 id=b65b15be6f0b077037d72e0e2467d4ebf9e1eb16bc4f606c4cc8f7c1b45a0170>PRIM_Register</h4><pre class=ada-code-snippet><code>type PRIM_Register is record
+   Reserved_0_11  : HAL.UInt12 := 16#0#;
+   POSTDIV2       : PRIM_POSTDIV2_Field := 16#7#;
+   Reserved_15_15 : HAL.Bit := 16#0#;
+   POSTDIV1       : PRIM_POSTDIV1_Field := 16#7#;
+   Reserved_19_31 : HAL.UInt13 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_11<dd><dt>POSTDIV2<dd><dt>Reserved_15_15<dd><dt>POSTDIV1<dd><dt>Reserved_19_31<dd></dl><h4 id=a1acbe55f83637351c2a9b230edf36a692e8e4ed4c41ea76c55dbd630f4de902>PWR_Register</h4><pre class=ada-code-snippet><code>type PWR_Register is record
+   PD            : Boolean := True;
+   Reserved_1_1  : HAL.Bit := 16#0#;
+   DSMPD         : Boolean := True;
+   POSTDIVPD     : Boolean := True;
+   Reserved_4_4  : HAL.Bit := 16#0#;
+   VCOPD         : Boolean := True;
+   Reserved_6_31 : HAL.UInt26 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>PD<dd><dt>Reserved_1_1<dd><dt>DSMPD<dd><dt>POSTDIVPD<dd><dt>Reserved_4_4<dd><dt>VCOPD<dd><dt>Reserved_6_31<dd></dl>

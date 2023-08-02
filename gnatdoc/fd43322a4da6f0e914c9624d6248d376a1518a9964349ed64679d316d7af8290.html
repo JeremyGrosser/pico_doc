@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>Atomic</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#8e87fc0649861491f632e035764807ecfd5971dc4446eae9a7f728a77d2db4a5>Flag</a><li><a href=#81ec0282614c6920933bff95c7fb45a7d0c1249a687590946b40f42b9fba208b>Mem_Order</a></ul><h3>Subprograms</h3><ul><li><a href=#d1689ce118de65b46fa03f0b6f2b4a3ae61e54c3501be9819153677af3856a69>Clear</a><li><a href=#13bd66686d4d260a568ca8528dc7d25a7ce8d987a26408f7172e55269cfd8d52>Init</a><li><a href=#0b59292256d61a1302c0ccedf4fa5c3a9cf2dea3ae8bc57859215af81b3c2d8e>Set</a><li><a href=#df40c04a6cdfb68533d74dff6254ae2e44eb01b896e027a6a0f8b2b831d9b658>Stronger</a><li><a href=#ed27f69e15a2f0f7343792faffd771af492592dec32e75fed85917c9ca8ca11d>Test_And_Set</a><li><a href=#aece90011bc55cc11f5f7bc4c968b2d6f0651ef896f4ce84131312fb8ecfac9e>Value</a></ul><h2>Description</h2><h4 id=d1689ce118de65b46fa03f0b6f2b4a3ae61e54c3501be9819153677af3856a69>Clear</h4><pre class=ada-code-snippet><code>procedure Clear (This : aliased in out Flag;
+                 Order : Mem_Order := Seq_Cst)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Order<dd></dl><h4 id=8e87fc0649861491f632e035764807ecfd5971dc4446eae9a7f728a77d2db4a5>Flag</h4><pre class=ada-code-snippet><code>type Flag is limited private;
+</code></pre><h4 id=13bd66686d4d260a568ca8528dc7d25a7ce8d987a26408f7172e55269cfd8d52>Init</h4><pre class=ada-code-snippet><code>function Init (Val : Boolean) return Flag
+</code></pre><p>Can be used to initialize an Atomic_Flag:<p>A : Atomic.Flag := Atomic.Init (0);<h5>Parameters</h5><dl><dt>Val<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=81ec0282614c6920933bff95c7fb45a7d0c1249a687590946b40f42b9fba208b>Mem_Order</h4><pre class=ada-code-snippet><code>type Mem_Order is
+  (Relaxed,
+   Consume,
+   Acquire,
+   Release,
+   Acq_Rel,
+   Seq_Cst);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Relaxed<dd><p>Implies no inter-thread ordering constraints<dt>Consume<dd><p>This is currently implemented using the stronger __ATOMIC_ACQUIRE memory order because of a deficiency in C++11's semantics for memory_order_consume.<dt>Acquire<dd><p>Creates an inter-thread happens-before constraint from the release (or stronger) semantic store to this acquire load. Can prevent hoisting of code to before the operation.<dt>Release<dd><p>Creates an inter-thread happens-before constraint to acquire (or stronger) semantic loads that read from this release store. Can prevent sinking of code to after the operation.<dt>Acq_Rel<dd><p>Combines the effects of both Acquire and Release<dt>Seq_Cst<dd><p>Enforces total ordering with all other Seq_Cst operations</dl><h4 id=0b59292256d61a1302c0ccedf4fa5c3a9cf2dea3ae8bc57859215af81b3c2d8e>Set</h4><pre class=ada-code-snippet><code>function Set (This  : aliased Flag;
+              Order : Mem_Order := Seq_Cst)
+              return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Order<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=df40c04a6cdfb68533d74dff6254ae2e44eb01b896e027a6a0f8b2b831d9b658>Stronger</h4><pre class=ada-code-snippet><code>function Stronger (A, B : Mem_Order) return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>A<dd><dt>B<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=ed27f69e15a2f0f7343792faffd771af492592dec32e75fed85917c9ca8ca11d>Test_And_Set</h4><pre class=ada-code-snippet><code>procedure Test_And_Set (This   : aliased in out Flag;
+                        Result : out Boolean;
+                        Order  : Mem_Order := Seq_Cst)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Result<dd><dt>Order<dd></dl><h4 id=aece90011bc55cc11f5f7bc4c968b2d6f0651ef896f4ce84131312fb8ecfac9e>Value</h4><pre class=ada-code-snippet><code>function Value (This : Flag) return Boolean
+</code></pre><p>Ghost function to get the value of an Flag without needing it aliased. This doesn't use the atomic built-ins.<h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl>

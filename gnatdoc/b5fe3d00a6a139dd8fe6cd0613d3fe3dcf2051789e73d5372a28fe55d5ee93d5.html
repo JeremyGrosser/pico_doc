@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>HAL.SDMMC</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#adc2fc22baa6f958bbf7ec5794ebe80489e1d00aa16402b883505ab5b9276212>Manufacturing_Month</a><li><a href=#609b969683c88468a4a6dd7379c34c713f51190acf4be1fdb820acb1db59d8e8>Manufacturing_Year</a><li><a href=#bc38f5317023b6180d2bf027cc58bf357909bce46c48ff7b5fdd34e418f4c16c>Rsp_Kind</a><li><a href=#acd3a460c18fc84e7c4fcdfff35a2b896048b40ce3dfbcf348ecf95255b368ed>SD_Command</a><li><a href=#c3f5da9fbccac648cb6c6e80b5858f1a06a9a76ebb1c851708d18727a5a2de15>SD_Error</a><li><a href=#2963d5d5f123bb2db571a680aa79e7417c094157617a7674dfc895f7e523872a>Supported_SD_Memory_Cards</a><li><a href=#107f244db4470832118c37bc41fdc06f87aa8efc5344b4a2cc0bc41edcf9af8a>Tfr_Kind</a><li><a href=#3f14dfbdd12d7741a13800604e6cb9850b79c37a421597bd176e35795bfa3650>Wide_Bus_Mode</a></ul><h3>Array Types</h3><ul><li><a href=#befbb5e777ce3e75f0d4f40fe31ff23081261a9d7f32de9414c1c601670081c2>ACmd_Desc_Array</a><li><a href=#3ad38e009a6dc6a50c853e53e9d87b4652fdc2f4216fe264b224f828711e9d98>Cmd_Desc_Array</a></ul><h3>Record Types</h3><ul><li><a href=#ed247f1335ddb07fea5137dcacee6bc62f0bde690b804a7a842801a790e9901a>Card_Identification_Data_Register</a><li><a href=#f48db1aa09504036dc397996eee951cd7078eef9db344c51ed8809c3bc7c74c2>Card_Information</a><li><a href=#2c5bfdabec1ebb232c646bd4d4a1067ed8c4c21986f26b51d214ee6867bbd60c>Card_Revision</a><li><a href=#1735d9ef09f80504b6f45cd227863fa57b9d498fd108e6e59dcbb3cfc3837964>Card_Specific_Data_Register</a><li><a href=#a71b01f27f1e7901ced6e9b3402c8667b3c8b4f7ca7314228526f5e8b2b05191>Cmd_Desc_Type</a><li><a href=#f92ffe992ee86021a070dbf49fc75c09608b8d31a0a688fc8f01134172b3d6fc>Manufacturing_Date_Type</a><li><a href=#46d8389a0402db81a2231cf28d69f329a9db1d980bbf4ff506fdb8289756ccc3>SDCard_Configuration_Register</a></ul><h3>Interface Types</h3><ul><li><a href=#5bedb07d612b36886b5bfc28f938864c469a58711df189cb9e05c88808419817>SDMMC_Driver</a></ul><h3>Subtypes</h3><ul><li><a href=#cec7354a84bbe99dea3a45cbbab8103392222752e5617129c483c96cc542d25e>SD_Specific_Command</a></ul><h3>Constants</h3><ul><li><a href=#e134c6e6b24457651f9e111b13862654d1a834dfe526eca0558c24ec9c27a468>Acmd_Desc</a><li><a href=#b6f3783370941b131a8166cbd2a079124fbaec103b00f22aeef26c21f11937b0>All_Send_CID</a><li><a href=#96410b0e1630169eaa3da6d9d0a1d7aa38fbb96f7d12181a45a8149a565ea969>App_Cmd</a><li><a href=#416b709cc83dea7aa0e0b1bf902567c95e0e618051e3bd3da67511de8ad7641f>Clr_Write_Prot</a><li><a href=#4d4f71b21382404c7928a53bf25598a3f9412f767eb976d2ff74e2b2152b562b>Cmd_Desc</a><li><a href=#d5869193d314edbe46820d0d96f4b1a4f7018862aa969d10cf570a4fad5cce78>Deselect_Card</a><li><a href=#a503d7206d4720716de12a93310ee5032bd90f4cfbf2e8782cf7a12010358b4b>Erase</a><li><a href=#d8dd8f1ca248188efb27706a80a25567178e69f6127e40e198ed566abb2de918>Erase_Grp_End</a><li><a href=#85810e7e7ead52896ffda0ae1785bf83c36327503fc30e76c24a336c2c058e14>Erase_Grp_Start</a><li><a href=#9ad572cea0d35106393da0eb00a78db60ea85e829a9e81bcbc2da9e4bca386aa>Fast_IO</a><li><a href=#532d281bfbedec080b993bee814dc532c18dcde2eef9681d529e4ccd238275fb>Gen_Cmd</a><li><a href=#e9d0a341f8f6ca238305697a8c2b6b4573ed454273112ab6414b7b6d61310d50>Go_Idle_State</a><li><a href=#f0df5472c7e22d9c1aff592b731f430be3a51ed9692fc029198fb2210d5d8995>Go_Inactive_State</a><li><a href=#8546328b588e47b3284c1d5e85a8d24a1dbeedca71852c08877c0e2d15b232ae>Go_IRQ_State</a><li><a href=#37c33444e2163e2a096e284f72ce2b10775889d87f914cd36efbc54f81ff8de5>HS_Bustest_Read</a><li><a href=#891eee3be2b70d64578276ff8514cb847f77999c5196aa22a29f91797c29c56d>HS_Bustest_Write</a><li><a href=#28e42add95ea7c39c12146a7ae6624880098be1600c22174ef1b3d72f9f79432>Lock_Unlock</a><li><a href=#a00c14ceaeb8f38bee4e877f93c2b68e0ae07aebe51777f83794706a0c26c7a0>Prog_CID</a><li><a href=#8b11f4442ed3ff96d3f44d253b14133cca6919f28cf032d39af72133d3676270>Prog_CSD</a><li><a href=#333bbb84cd2425355440244dc4e4d7da8afc3f82b110cd0b1f2b12067fa5811c>Read_Dat_Until_Stop</a><li><a href=#5aa9b6211afd3d0ee470a945760dff882863a4ee0a5a69e0cad0c4e38a8c61ed>Read_Multi_Block</a><li><a href=#9b49e7f8a51029f00351992964a2bbeae1739f5dc273465356868c8734c9bbfb>Read_Single_Block</a><li><a href=#5d4bd6215366d5e5d1c238f73993ca83b968d63ac863873459aa43c9433c2b79>SD_App_Change_Secure_Area</a><li><a href=#4050779bb6e1530ba00a4f6c8cdd4a601bfabcf57efb0fecc46c1c53c2974421>SD_App_Get_CER_RES1</a><li><a href=#8d8975eaee35bcbd4115538943b15d392560a3cad78bb56d0b06a73726dca7fd>SD_App_Get_CER_RN2</a><li><a href=#990f77c722c80175b606dd97c8425442c7dbb476945cbf6bc78473fb80dad78a>SD_App_Get_MID</a><li><a href=#7712894e98ef7c1e0c17cfdf8db97f445aa45202a60071ba6968e042d488412f>SD_App_Get_MKB</a><li><a href=#20f32670b30dd5a834f05938650e225f50f8e722ccfcacac12e87dd70804ea4b>SD_App_Secure_Erase</a><li><a href=#9a3e425a937fb91a93a3e8ada28ac834cbedd52de309718831c5ddf6bd9a99cc>SD_App_Secure_Read_Multi_Block</a><li><a href=#cf9a9eb5c14724db7ec75b4b09af2cfc05f4423213f82d2abed29b09e7c3337c>SD_App_Secure_Write_Multi_Block</a><li><a href=#f19491f08454a469619a4c79dc942c02f1587794d71e6c45b8a6cf608838aa33>SD_App_Send_Num_Write_Blocks</a><li><a href=#52df4c74dd0c103eb9037c5c5f98160398df81c4d8d06dee99ed8e22276dec86>SD_App_Send_Op_Cond</a><li><a href=#d848befe8c606aa4a018ab2987172e4afdc0923538a0c59d3e1e2407d749d2b6>SD_App_Send_SCR</a><li><a href=#fd92c6062873e1694c8d22e38f2cf905595a65420426ffb4e23d7c18b96bbb01>SD_App_Set_Bus_Width</a><li><a href=#513fadbe424b81e4ed70154ad26d5cf52e73297289c9cdc32204b4acf0092384>SD_App_Set_CER_RES2</a><li><a href=#b1a93ee978f830402a3488d0337aa279103522ab1e215914b2f83c1576f2e007>SD_App_Set_CER_RN1</a><li><a href=#1d26585aebeb28ce86083fbd32776affed69bdc0f1b312d1657d01f47d936531>SD_App_Set_Write_Block_Erase_Count</a><li><a href=#494c5d70b8468f4dfebebf368ab22aad4e4cf1e2b7213e7ed7886c3724e3c5f6>SD_App_Status</a><li><a href=#270abf671920a85f64f37da2b79d1f685edcf64c913f5383056def2e55e19683>SD_Erase_Grp_End</a><li><a href=#bdfd6d549b56d6e747d95974b7ebcd1276c5ae724c00eec06ddff417455edcb4>SD_Erase_Grp_Start</a><li><a href=#57890b2c8c4e273f1a4e0512035d012bd82861c58aaed519a0141d738d9b03c6>SDMMC_Send_Op_Cond</a><li><a href=#e89af55282f9d6e8cee0903fb335ef80845007f89df6cd2d261723f934ce6042>Select_Card</a><li><a href=#c4504bf512e4f0912329de77ca56132a699803cf01cfa7046a94c67cb03cafda>Send_CID</a><li><a href=#9f03000028455418c33ded8b9640be54c00e31e53b025fd275819d220b5ce272>Send_CSD</a><li><a href=#9cf4c70089f789a9c7ad27831a37145c1dab4c266e74dc11ac8bb4ba70535c69>Send_If_Cond</a><li><a href=#5a7e22b6d5ff94b0983da57a52eb8a09fbe48564a6a18d6dc4ca23c3c904878c>Send_Op_Cond</a><li><a href=#484e694d41fd3902e6dbb1aa723a702c63322282de6c58556dbfa74a90edeae2>Send_Relative_Addr</a><li><a href=#cd0f20602837a72df2dcff2ae605af794580de8c9f3c8731e6dfe5c09bfae0d1>Send_Status</a><li><a href=#458b5093a6283583b32ae23bd3fe05096c986564ccdca6aac0891f2f2b753e53>Send_Write_Prot</a><li><a href=#f1b2094859ad2725a7248df845f496f8ddacc8e55a18b6e54d0c6ea7534f4c03>Set_Block_Count</a><li><a href=#b6c9520dc2d1928a356c335db0e906b2165c74eae70cf03874d53d580bedc851>Set_Blocklen</a><li><a href=#8ec40341d199f20d7ba4ce5538ed3bcd60cc27a3bdcd73adf4328f6afe0b04b9>Set_DSR</a><li><a href=#7c5c0d5109867dd25d617a678c92ab60d8c7ff6c24cd29ee4f2d96dc46ed392e>Set_Write_Prot</a><li><a href=#cb320d581dd45234c217fa8c1578464f68419dc3d1876f4f1c0ac26b98731588>Stop_Transmission</a><li><a href=#279870be4c79ebde6e278257ae0ae4a9da72cafae43b8737e3498a794a8fb2e5>Switch_Func</a><li><a href=#5349a6560d3103ec319ba6cd3e7616909dd3864b375c05574d01af377c9d571b>Write_Dat_Until_Stop</a><li><a href=#fdfcbcdf69012174ef5389081f239d45a66067c8522932b4dfe8bc5afcc1f684>Write_Multi_Block</a><li><a href=#58c2364dcdb080cce801f9e504476c810beefec305b8ea1ba7c358402aed3c0a>Write_Single_Block</a></ul><h3>Subprograms</h3><ul><li><a href=#0cf4b58754804622187097d9c14d4ff272259784ea862c95278c71d288c21d76>Delay_Milliseconds</a><li><a href=#fbf0c6065c3a142ae8783ad213719d98b68cc9a2b4bbb23a8445df75356a792a>Read_Cmd</a><li><a href=#b8c67feae0b0b411e899f2219beacc0ce2a7166cf84ebd5a882199519b3bc936>Read_Rsp136</a><li><a href=#2681f7871517d9e590375d9fdca6b8c003175906dadaa70c98a2563575bf2b1c>Read_Rsp48</a><li><a href=#250e87bcbaa6065e636ec7dcb81e722209e7b6f75c61ae53cb397fca8807ce62>Reset</a><li><a href=#54f631838ddf5f1a4b010ac5619c5f200c2bf71b4644fead7abc2e2c8085d841>Send_ACmd</a><li><a href=#18410f4b561a7d448f92f4d42f24a496f4a7269df1ded51a426d53869f06e372>Send_Cmd</a><li><a href=#d12aa53242994f472f8769d03739e662545fda0f69117acb91fd21249ed77103>Send_Cmd</a><li><a href=#708aff446d973b044a531fde19c8fd66a261a69d6ac3e78bdcad470105560340>Set_Bus_Size</a><li><a href=#a1a7eed0857fb7345c66e7e834a97cc1417581bee90cbfeaade8875e72636461>Set_Clock</a></ul><h2>Description</h2><p>---------------------------------------------------------------------------- -- Copyright (C) 2016-2017, AdaCore -- -- Redistribution and use in source and binary forms, with or without -- modification, are permitted provided that the following conditions are -- met: -- 1. Redistributions of source code must retain the above copyright -- notice, this list of conditions and the following disclaimer. -- 2. Redistributions in binary form must reproduce the above copyright -- notice, this list of conditions and the following disclaimer in -- the documentation and/or other materials provided with the -- distribution. -- 3. Neither the name of STMicroelectronics nor the names of its -- contributors may be used to endorse or promote products derived -- from this software without specific prior written permission. -- -- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS -- "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT -- LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR -- A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT -- HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, -- SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT -- LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, -- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY -- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT -- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE -- OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -- -- ----------------------------------------------------------------------------<h4 id=e134c6e6b24457651f9e111b13862654d1a834dfe526eca0558c24ec9c27a468>Acmd_Desc</h4><pre class=ada-code-snippet><code>Acmd_Desc : constant ACmd_Desc_Array :=
+  (SD_App_Set_Bus_Width => (Cmd => SD_App_Set_Bus_Width,
+                            Rsp => Rsp_R1,
+                            Tfr => Tfr_No),
+   SD_App_Send_Op_Cond  => (Cmd => SD_App_Send_Op_Cond,
+                            Rsp => Rsp_R3,
+                            Tfr => Tfr_No),
+   SD_App_Send_SCR      => (Cmd => SD_App_Send_SCR,
+                            Rsp => Rsp_R1,
+                            Tfr => Tfr_Read),
+   others               => (Cmd => 0,
+                            Rsp => Rsp_Invalid,
+                            Tfr => Tfr_Invalid));
+</code></pre><h4 id=befbb5e777ce3e75f0d4f40fe31ff23081261a9d7f32de9414c1c601670081c2>ACmd_Desc_Array</h4><pre class=ada-code-snippet><code>type ACmd_Desc_Array is array (SD_Specific_Command) of Cmd_Desc_Type;
+</code></pre><h4 id=b6f3783370941b131a8166cbd2a079124fbaec103b00f22aeef26c21f11937b0>All_Send_CID</h4><pre class=ada-code-snippet><code>All_Send_CID         : constant SD_Command := 2;
+</code></pre><h4 id=96410b0e1630169eaa3da6d9d0a1d7aa38fbb96f7d12181a45a8149a565ea969>App_Cmd</h4><pre class=ada-code-snippet><code>App_Cmd              : constant SD_Command := 55;
+</code></pre><h4 id=ed247f1335ddb07fea5137dcacee6bc62f0bde690b804a7a842801a790e9901a>Card_Identification_Data_Register</h4><pre class=ada-code-snippet><code>type Card_Identification_Data_Register is record
+   Manufacturer_ID       : UInt8;
+   OEM_Application_ID    : String (1 .. 2);
+   Product_Name          : String (1 .. 5);
+   Product_Revision      : Card_Revision;
+   Product_Serial_Number : UInt32;
+   Reserved_1            : UInt8;
+   Manufacturing_Date    : Manufacturing_Date_Type;
+   CID_CRC               : UInt8;
+   Reserved_2            : UInt8;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Manufacturer_ID<dd><dt>OEM_Application_ID<dd><dt>Product_Name<dd><dt>Product_Revision<dd><dt>Product_Serial_Number<dd><dt>Reserved_1<dd><dt>Manufacturing_Date<dd><dt>CID_CRC<dd><dt>Reserved_2<dd><p>Always 1</dl><h4 id=f48db1aa09504036dc397996eee951cd7078eef9db344c51ed8809c3bc7c74c2>Card_Information</h4><pre class=ada-code-snippet><code>type Card_Information is record
+   SD_CSD          : Card_Specific_Data_Register;
+   SD_CID          : Card_Identification_Data_Register;
+   Card_Capacity   : UInt64;
+   Card_Block_Size : UInt32;
+   RCA             : UInt16;
+   Card_Type       : Supported_SD_Memory_Cards :=
+                       STD_Capacity_SD_Card_V1_1;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>SD_CSD<dd><dt>SD_CID<dd><dt>Card_Capacity<dd><dt>Card_Block_Size<dd><dt>RCA<dd><p>SD relative card address<dt>Card_Type<dd></dl><h4 id=2c5bfdabec1ebb232c646bd4d4a1067ed8c4c21986f26b51d214ee6867bbd60c>Card_Revision</h4><pre class=ada-code-snippet><code>type Card_Revision is record
+   Major : UInt4;
+   Minor : UInt4;
+end record with Pack;
+</code></pre><h5>Record fields</h5><dl><dt>Major<dd><dt>Minor<dd></dl><h4 id=1735d9ef09f80504b6f45cd227863fa57b9d498fd108e6e59dcbb3cfc3837964>Card_Specific_Data_Register</h4><pre class=ada-code-snippet><code>type Card_Specific_Data_Register is record
+   CSD_Structure                    : UInt8;
+   System_Specification_Version     : UInt8;
+   Reserved                         : UInt8;
+   Data_Read_Access_Time_1          : UInt8;
+   Data_Read_Access_Time_2          : UInt8;
+   Max_Data_Transfer_Rate           : UInt8;
+   Card_Command_Class               : UInt16;
+   Max_Read_Data_Block_Length       : UInt8;
+   Partial_Block_For_Read_Allowed   : Boolean;
+   Write_Block_Missalignment        : Boolean;
+   Read_Block_Missalignment         : Boolean;
+   DSR_Implemented                  : Boolean;
+   Reserved_2                       : UInt8;
+   Device_Size                      : UInt32;
+   Max_Read_Current_At_VDD_Min      : UInt8;
+   Max_Read_Current_At_VDD_Max      : UInt8;
+   Max_Write_Current_At_VDD_Min     : UInt8;
+   Max_Write_Current_At_VDD_Max     : UInt8;
+   Device_Size_Multiplier           : UInt8;
+   Erase_Group_Size                 : UInt8;
+   Erase_Group_Size_Multiplier      : UInt8;
+   Write_Protect_Group_Size         : UInt8;
+   Write_Protect_Group_Enable       : Boolean;
+   Manufacturer_Default_ECC         : UInt8;
+   Write_Speed_Factor               : UInt8;
+   Max_Write_Data_Block_Length      : UInt8;
+   Partial_Blocks_For_Write_Allowed : Boolean;
+   Reserved_3                       : UInt8;
+   Content_Protection_Application   : Boolean;
+   File_Format_Group                : Boolean;
+   Copy_Flag                        : Boolean;
+   Permanent_Write_Protection       : Boolean;
+   Temporary_Write_Protection       : Boolean;
+   File_Format                      : UInt8;
+   ECC_Code                         : UInt8;
+   CSD_CRC                          : UInt8;
+   Reserved_4                       : UInt8;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>CSD_Structure<dd><dt>System_Specification_Version<dd><dt>Reserved<dd><dt>Data_Read_Access_Time_1<dd><dt>Data_Read_Access_Time_2<dd><p>In CLK Cycles<dt>Max_Data_Transfer_Rate<dd><dt>Card_Command_Class<dd><dt>Max_Read_Data_Block_Length<dd><dt>Partial_Block_For_Read_Allowed<dd><dt>Write_Block_Missalignment<dd><dt>Read_Block_Missalignment<dd><dt>DSR_Implemented<dd><dt>Reserved_2<dd><dt>Device_Size<dd><dt>Max_Read_Current_At_VDD_Min<dd><dt>Max_Read_Current_At_VDD_Max<dd><dt>Max_Write_Current_At_VDD_Min<dd><dt>Max_Write_Current_At_VDD_Max<dd><dt>Device_Size_Multiplier<dd><dt>Erase_Group_Size<dd><dt>Erase_Group_Size_Multiplier<dd><dt>Write_Protect_Group_Size<dd><dt>Write_Protect_Group_Enable<dd><dt>Manufacturer_Default_ECC<dd><dt>Write_Speed_Factor<dd><dt>Max_Write_Data_Block_Length<dd><dt>Partial_Blocks_For_Write_Allowed<dd><dt>Reserved_3<dd><dt>Content_Protection_Application<dd><dt>File_Format_Group<dd><dt>Copy_Flag<dd><dt>Permanent_Write_Protection<dd><dt>Temporary_Write_Protection<dd><dt>File_Format<dd><dt>ECC_Code<dd><dt>CSD_CRC<dd><dt>Reserved_4<dd><p>Always 1</dl><h4 id=416b709cc83dea7aa0e0b1bf902567c95e0e618051e3bd3da67511de8ad7641f>Clr_Write_Prot</h4><pre class=ada-code-snippet><code>Clr_Write_Prot       : constant SD_Command := 29;
+</code></pre><h4 id=4d4f71b21382404c7928a53bf25598a3f9412f767eb976d2ff74e2b2152b562b>Cmd_Desc</h4><pre class=ada-code-snippet><code>Cmd_Desc : constant Cmd_Desc_Array :=
+  (Go_Idle_State      => (Cmd => Go_Idle_State,
+                          Rsp => Rsp_No,
+                          Tfr => Tfr_No),
+   Send_Op_Cond       => (Cmd => Send_Op_Cond,
+                          Rsp => Rsp_R3,
+                          Tfr => Tfr_No),
+   All_Send_CID       => (Cmd => All_Send_CID,
+                          Rsp => Rsp_R2,
+                          Tfr => Tfr_No),
+   Send_Relative_Addr => (Cmd => Send_Relative_Addr,
+                          Rsp => Rsp_R3,
+                          Tfr => Tfr_No),
+   Switch_Func        => (Cmd => Switch_Func,
+                          Rsp => Rsp_R1,
+                          Tfr => Tfr_Read),
+   Select_Card        => (Cmd => Select_Card,
+                          Rsp => Rsp_R1B,
+                          Tfr => Tfr_No),
+   Send_If_Cond       => (Cmd => Send_If_Cond,
+                          Rsp => Rsp_R7,
+                          Tfr => Tfr_No),
+   Send_CSD           => (Cmd => Send_CSD,
+                          Rsp => Rsp_R2,
+                          Tfr => Tfr_No),
+   Send_CID           => (Cmd => Send_CID,
+                          Rsp => Rsp_R2,
+                          Tfr => Tfr_No),
+   Stop_Transmission  => (Cmd => Stop_Transmission,
+                          Rsp => Rsp_R1,
+                          Tfr => Tfr_No),
+   Read_Single_Block  => (Cmd => Read_Single_Block,
+                          Rsp => Rsp_R1,
+                          Tfr => Tfr_Read),
+   Read_Multi_Block   => (Cmd => Read_Multi_Block,
+                          Rsp => Rsp_R1,
+                          Tfr => Tfr_Read_Multi),
+   Send_Status        => (Cmd => Send_Status,
+                          Rsp => Rsp_R1,
+                          Tfr => Tfr_No),
+   Set_Blocklen       => (Cmd => Set_Blocklen,
+                          Rsp => Rsp_R1,
+                          Tfr => Tfr_No),
+   App_Cmd            => (Cmd => App_Cmd,
+                          Rsp => Rsp_R1,
+                          Tfr => Tfr_No),
+   Write_Single_Block => (Cmd => Write_Single_Block,
+                          Rsp => Rsp_R1,
+                          Tfr => Tfr_Write),
+   Write_Multi_Block  => (Cmd => Write_Multi_Block,
+                          Rsp => Rsp_R1,
+                          Tfr => Tfr_Write_Multi),
+   others             => (Cmd => 0,
+                          Rsp => Rsp_Invalid,
+                          Tfr => Tfr_Invalid));
+</code></pre><h4 id=3ad38e009a6dc6a50c853e53e9d87b4652fdc2f4216fe264b224f828711e9d98>Cmd_Desc_Array</h4><pre class=ada-code-snippet><code>type Cmd_Desc_Array is array (SD_Command) of Cmd_Desc_Type;
+</code></pre><h4 id=a71b01f27f1e7901ced6e9b3402c8667b3c8b4f7ca7314228526f5e8b2b05191>Cmd_Desc_Type</h4><pre class=ada-code-snippet><code>type Cmd_Desc_Type is record
+   Cmd : SD_Command;
+   Rsp : Rsp_Kind;
+   Tfr : Tfr_Kind;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Cmd<dd><dt>Rsp<dd><dt>Tfr<dd></dl><h4 id=0cf4b58754804622187097d9c14d4ff272259784ea862c95278c71d288c21d76>Delay_Milliseconds</h4><pre class=ada-code-snippet><code>procedure Delay_Milliseconds
+  (This   : SDMMC_Driver;
+   Amount : Natural)
+</code></pre><p>Do not use directly 'delay until' so that this package can still be used with the zfp profile<h5>Parameters</h5><dl><dt>This<dd><dt>Amount<dd></dl><h4 id=d5869193d314edbe46820d0d96f4b1a4f7018862aa969d10cf570a4fad5cce78>Deselect_Card</h4><pre class=ada-code-snippet><code>Deselect_Card        : constant SD_Command := 7;
+</code></pre><h4 id=a503d7206d4720716de12a93310ee5032bd90f4cfbf2e8782cf7a12010358b4b>Erase</h4><pre class=ada-code-snippet><code>Erase                : constant SD_Command := 38;
+</code></pre><h4 id=d8dd8f1ca248188efb27706a80a25567178e69f6127e40e198ed566abb2de918>Erase_Grp_End</h4><pre class=ada-code-snippet><code>Erase_Grp_End        : constant SD_Command := 36;
+</code></pre><h4 id=85810e7e7ead52896ffda0ae1785bf83c36327503fc30e76c24a336c2c058e14>Erase_Grp_Start</h4><pre class=ada-code-snippet><code>Erase_Grp_Start      : constant SD_Command := 35;
+</code></pre><h4 id=9ad572cea0d35106393da0eb00a78db60ea85e829a9e81bcbc2da9e4bca386aa>Fast_IO</h4><pre class=ada-code-snippet><code>Fast_IO              : constant SD_Command := 39;
+</code></pre><h4 id=532d281bfbedec080b993bee814dc532c18dcde2eef9681d529e4ccd238275fb>Gen_Cmd</h4><pre class=ada-code-snippet><code>Gen_Cmd              : constant SD_Command := 56;
+</code></pre><h4 id=e9d0a341f8f6ca238305697a8c2b6b4573ed454273112ab6414b7b6d61310d50>Go_Idle_State</h4><pre class=ada-code-snippet><code>Go_Idle_State        : constant SD_Command := 0;
+</code></pre><h4 id=f0df5472c7e22d9c1aff592b731f430be3a51ed9692fc029198fb2210d5d8995>Go_Inactive_State</h4><pre class=ada-code-snippet><code>Go_Inactive_State    : constant SD_Command := 15;
+</code></pre><h4 id=8546328b588e47b3284c1d5e85a8d24a1dbeedca71852c08877c0e2d15b232ae>Go_IRQ_State</h4><pre class=ada-code-snippet><code>Go_IRQ_State         : constant SD_Command := 40;
+</code></pre><h4 id=37c33444e2163e2a096e284f72ce2b10775889d87f914cd36efbc54f81ff8de5>HS_Bustest_Read</h4><pre class=ada-code-snippet><code>HS_Bustest_Read      : constant SD_Command := 14;
+</code></pre><h4 id=891eee3be2b70d64578276ff8514cb847f77999c5196aa22a29f91797c29c56d>HS_Bustest_Write</h4><pre class=ada-code-snippet><code>HS_Bustest_Write     : constant SD_Command := 19;
+</code></pre><h4 id=28e42add95ea7c39c12146a7ae6624880098be1600c22174ef1b3d72f9f79432>Lock_Unlock</h4><pre class=ada-code-snippet><code>Lock_Unlock          : constant SD_Command := 42;
+</code></pre><h4 id=f92ffe992ee86021a070dbf49fc75c09608b8d31a0a688fc8f01134172b3d6fc>Manufacturing_Date_Type</h4><pre class=ada-code-snippet><code>type Manufacturing_Date_Type is record
+   Year : Manufacturing_Year;
+   Month : Manufacturing_Month;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Year<dd><dt>Month<dd></dl><h4 id=adc2fc22baa6f958bbf7ec5794ebe80489e1d00aa16402b883505ab5b9276212>Manufacturing_Month</h4><pre class=ada-code-snippet><code>type Manufacturing_Month is
+  (January,
+   February,
+   March,
+   April,
+   May,
+   June,
+   July,
+   August,
+   September,
+   October,
+   November,
+   December) with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>January<dd><dt>February<dd><dt>March<dd><dt>April<dd><dt>May<dd><dt>June<dd><dt>July<dd><dt>August<dd><dt>September<dd><dt>October<dd><dt>November<dd><dt>December<dd></dl><h4 id=609b969683c88468a4a6dd7379c34c713f51190acf4be1fdb820acb1db59d8e8>Manufacturing_Year</h4><pre class=ada-code-snippet><code>type Manufacturing_Year is range 2000 .. 2255;
+</code></pre><h4 id=a00c14ceaeb8f38bee4e877f93c2b68e0ae07aebe51777f83794706a0c26c7a0>Prog_CID</h4><pre class=ada-code-snippet><code>Prog_CID             : constant SD_Command := 26;
+</code></pre><h4 id=8b11f4442ed3ff96d3f44d253b14133cca6919f28cf032d39af72133d3676270>Prog_CSD</h4><pre class=ada-code-snippet><code>Prog_CSD             : constant SD_Command := 27;
+</code></pre><h4 id=fbf0c6065c3a142ae8783ad213719d98b68cc9a2b4bbb23a8445df75356a792a>Read_Cmd</h4><pre class=ada-code-snippet><code>procedure Read_Cmd
+  (This   : in out SDMMC_Driver;
+   Cmd    : Cmd_Desc_Type;
+   Arg    : UInt32;
+   Buf    : out UInt32_Array;
+   Status : out SD_Error)
+</code></pre><p>Read data command<h5>Parameters</h5><dl><dt>This<dd><dt>Cmd<dd><dt>Arg<dd><dt>Buf<dd><dt>Status<dd></dl><h4 id=333bbb84cd2425355440244dc4e4d7da8afc3f82b110cd0b1f2b12067fa5811c>Read_Dat_Until_Stop</h4><pre class=ada-code-snippet><code>Read_Dat_Until_Stop  : constant SD_Command := 11;
+</code></pre><h4 id=5aa9b6211afd3d0ee470a945760dff882863a4ee0a5a69e0cad0c4e38a8c61ed>Read_Multi_Block</h4><pre class=ada-code-snippet><code>Read_Multi_Block     : constant SD_Command := 18;
+</code></pre><h4 id=b8c67feae0b0b411e899f2219beacc0ce2a7166cf84ebd5a882199519b3bc936>Read_Rsp136</h4><pre class=ada-code-snippet><code>procedure Read_Rsp136
+  (This           : in out SDMMC_Driver;
+   W0, W1, W2, W3 : out UInt32)
+</code></pre><p>Read the 128 interesting bits of the last 136 bit response. W0 is the MSB, W3 the LSB Cannot fail.<h5>Parameters</h5><dl><dt>This<dd><dt>W0<dd><dt>W1<dd><dt>W2<dd><dt>W3<dd></dl><h4 id=2681f7871517d9e590375d9fdca6b8c003175906dadaa70c98a2563575bf2b1c>Read_Rsp48</h4><pre class=ada-code-snippet><code>procedure Read_Rsp48
+  (This : in out SDMMC_Driver;
+   Rsp  : out UInt32)
+</code></pre><p>Read the 32 interesting bits of the last 48bits response (start bit, transmission bit, command index, crc and end bit are discarded). Cannot fail.<h5>Parameters</h5><dl><dt>This<dd><dt>Rsp<dd></dl><h4 id=9b49e7f8a51029f00351992964a2bbeae1739f5dc273465356868c8734c9bbfb>Read_Single_Block</h4><pre class=ada-code-snippet><code>Read_Single_Block    : constant SD_Command := 17;
+</code></pre><h4 id=250e87bcbaa6065e636ec7dcb81e722209e7b6f75c61ae53cb397fca8807ce62>Reset</h4><pre class=ada-code-snippet><code>procedure Reset
+  (This   : in out SDMMC_Driver;
+   Status : out SD_Error)
+</code></pre><p>Initialize the driver, enable clocking.<h5>Parameters</h5><dl><dt>This<dd><dt>Status<dd></dl><h4 id=bc38f5317023b6180d2bf027cc58bf357909bce46c48ff7b5fdd34e418f4c16c>Rsp_Kind</h4><pre class=ada-code-snippet><code>type Rsp_Kind is
+  (Rsp_Invalid,
+   Rsp_No,
+   Rsp_R1, Rsp_R1B, Rsp_R2, Rsp_R3, Rsp_R6, Rsp_R7
+  );
+</code></pre><p>Response format<h5>Enumeration Literal</h5><dl><dt>Rsp_Invalid<dd><p>Unknown/invalid command<dt>Rsp_No<dd><p>No response.<dt>Rsp_R1<dd><dt>Rsp_R1B<dd><dt>Rsp_R2<dd><dt>Rsp_R3<dd><dt>Rsp_R6<dd><dt>Rsp_R7<dd></dl><h4 id=5d4bd6215366d5e5d1c238f73993ca83b968d63ac863873459aa43c9433c2b79>SD_App_Change_Secure_Area</h4><pre class=ada-code-snippet><code>SD_App_Change_Secure_Area          : constant SD_Specific_Command := 49;
+</code></pre><h4 id=4050779bb6e1530ba00a4f6c8cdd4a601bfabcf57efb0fecc46c1c53c2974421>SD_App_Get_CER_RES1</h4><pre class=ada-code-snippet><code>SD_App_Get_CER_RES1                : constant SD_Specific_Command := 48;
+</code></pre><h4 id=8d8975eaee35bcbd4115538943b15d392560a3cad78bb56d0b06a73726dca7fd>SD_App_Get_CER_RN2</h4><pre class=ada-code-snippet><code>SD_App_Get_CER_RN2                 : constant SD_Specific_Command := 46;
+</code></pre><h4 id=990f77c722c80175b606dd97c8425442c7dbb476945cbf6bc78473fb80dad78a>SD_App_Get_MID</h4><pre class=ada-code-snippet><code>SD_App_Get_MID                     : constant SD_Specific_Command := 44;
+</code></pre><h4 id=7712894e98ef7c1e0c17cfdf8db97f445aa45202a60071ba6968e042d488412f>SD_App_Get_MKB</h4><pre class=ada-code-snippet><code>SD_App_Get_MKB                     : constant SD_Specific_Command := 43;
+</code></pre><h4 id=20f32670b30dd5a834f05938650e225f50f8e722ccfcacac12e87dd70804ea4b>SD_App_Secure_Erase</h4><pre class=ada-code-snippet><code>SD_App_Secure_Erase                : constant SD_Specific_Command := 38;
+</code></pre><h4 id=9a3e425a937fb91a93a3e8ada28ac834cbedd52de309718831c5ddf6bd9a99cc>SD_App_Secure_Read_Multi_Block</h4><pre class=ada-code-snippet><code>SD_App_Secure_Read_Multi_Block     : constant SD_Specific_Command := 18;
+</code></pre><h4 id=cf9a9eb5c14724db7ec75b4b09af2cfc05f4423213f82d2abed29b09e7c3337c>SD_App_Secure_Write_Multi_Block</h4><pre class=ada-code-snippet><code>SD_App_Secure_Write_Multi_Block    : constant SD_Specific_Command := 25;
+</code></pre><h4 id=f19491f08454a469619a4c79dc942c02f1587794d71e6c45b8a6cf608838aa33>SD_App_Send_Num_Write_Blocks</h4><pre class=ada-code-snippet><code>SD_App_Send_Num_Write_Blocks       : constant SD_Specific_Command := 22;
+</code></pre><h4 id=52df4c74dd0c103eb9037c5c5f98160398df81c4d8d06dee99ed8e22276dec86>SD_App_Send_Op_Cond</h4><pre class=ada-code-snippet><code>SD_App_Send_Op_Cond                : constant SD_Specific_Command := 41;
+</code></pre><h4 id=d848befe8c606aa4a018ab2987172e4afdc0923538a0c59d3e1e2407d749d2b6>SD_App_Send_SCR</h4><pre class=ada-code-snippet><code>SD_App_Send_SCR                    : constant SD_Specific_Command := 51;
+</code></pre><h4 id=fd92c6062873e1694c8d22e38f2cf905595a65420426ffb4e23d7c18b96bbb01>SD_App_Set_Bus_Width</h4><pre class=ada-code-snippet><code>SD_App_Set_Bus_Width               : constant SD_Specific_Command := 6;
+</code></pre><h4 id=513fadbe424b81e4ed70154ad26d5cf52e73297289c9cdc32204b4acf0092384>SD_App_Set_CER_RES2</h4><pre class=ada-code-snippet><code>SD_App_Set_CER_RES2                : constant SD_Specific_Command := 47;
+</code></pre><h4 id=b1a93ee978f830402a3488d0337aa279103522ab1e215914b2f83c1576f2e007>SD_App_Set_CER_RN1</h4><pre class=ada-code-snippet><code>SD_App_Set_CER_RN1                 : constant SD_Specific_Command := 45;
+</code></pre><h4 id=1d26585aebeb28ce86083fbd32776affed69bdc0f1b312d1657d01f47d936531>SD_App_Set_Write_Block_Erase_Count</h4><pre class=ada-code-snippet><code>SD_App_Set_Write_Block_Erase_Count : constant SD_Specific_Command := 23;
+</code></pre><h4 id=494c5d70b8468f4dfebebf368ab22aad4e4cf1e2b7213e7ed7886c3724e3c5f6>SD_App_Status</h4><pre class=ada-code-snippet><code>SD_App_Status                      : constant SD_Specific_Command := 13;
+</code></pre><h4 id=acd3a460c18fc84e7c4fcdfff35a2b896048b40ce3dfbcf348ecf95255b368ed>SD_Command</h4><pre class=ada-code-snippet><code>type SD_Command is new UInt6;
+</code></pre><h4 id=270abf671920a85f64f37da2b79d1f685edcf64c913f5383056def2e55e19683>SD_Erase_Grp_End</h4><pre class=ada-code-snippet><code>SD_Erase_Grp_End     : constant SD_Command := 33;
+</code></pre><h4 id=bdfd6d549b56d6e747d95974b7ebcd1276c5ae724c00eec06ddff417455edcb4>SD_Erase_Grp_Start</h4><pre class=ada-code-snippet><code>SD_Erase_Grp_Start   : constant SD_Command := 32;
+</code></pre><h4 id=c3f5da9fbccac648cb6c6e80b5858f1a06a9a76ebb1c851708d18727a5a2de15>SD_Error</h4><pre class=ada-code-snippet><code>type SD_Error is
+  (OK,
+   Error,
+   Timeout_Error,
+   Command_Timeout_Error,
+   Unsupported_Card,
+   Rx_Overrun,
+   Tx_Underrun,
+   Request_Not_Applicable,
+   CRC_Check_Fail,
+   Illegal_Cmd,
+   Address_Out_Of_Range,
+   Address_Missaligned,
+   Block_Length_Error,
+   Erase_Seq_Error,
+   Bad_Erase_Parameter,
+   Write_Protection_Violation,
+   Lock_Unlock_Failed,
+   Card_ECC_Failed,
+   Card_ECC_Disabled,
+   CC_Error,
+   General_Unknown_Error,
+   Stream_Read_Underrun,
+   Stream_Write_Underrun,
+   CID_CSD_Overwrite,
+   WP_Erase_Skip,
+   Erase_Reset,
+   AKE_SEQ_Error,
+   Invalid_Voltage_Range,
+   Startbit_Not_Detected,
+   DMA_Alignment_Error);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>OK<dd><dt>Error<dd><dt>Timeout_Error<dd><dt>Command_Timeout_Error<dd><dt>Unsupported_Card<dd><dt>Rx_Overrun<dd><dt>Tx_Underrun<dd><dt>Request_Not_Applicable<dd><dt>CRC_Check_Fail<dd><dt>Illegal_Cmd<dd><dt>Address_Out_Of_Range<dd><dt>Address_Missaligned<dd><dt>Block_Length_Error<dd><dt>Erase_Seq_Error<dd><dt>Bad_Erase_Parameter<dd><dt>Write_Protection_Violation<dd><dt>Lock_Unlock_Failed<dd><dt>Card_ECC_Failed<dd><dt>Card_ECC_Disabled<dd><dt>CC_Error<dd><dt>General_Unknown_Error<dd><dt>Stream_Read_Underrun<dd><dt>Stream_Write_Underrun<dd><dt>CID_CSD_Overwrite<dd><dt>WP_Erase_Skip<dd><dt>Erase_Reset<dd><dt>AKE_SEQ_Error<dd><dt>Invalid_Voltage_Range<dd><dt>Startbit_Not_Detected<dd><dt>DMA_Alignment_Error<dd></dl><h4 id=cec7354a84bbe99dea3a45cbbab8103392222752e5617129c483c96cc542d25e>SD_Specific_Command</h4><pre class=ada-code-snippet><code>subtype SD_Specific_Command is SD_Command;
+</code></pre><h4 id=46d8389a0402db81a2231cf28d69f329a9db1d980bbf4ff506fdb8289756ccc3>SDCard_Configuration_Register</h4><pre class=ada-code-snippet><code>type SDCard_Configuration_Register is record
+   SCR_Structure         : UInt8;
+   SD_Spec               : UInt8;
+   Data_Stat_After_Erase : UInt8;
+   SD_Security           : UInt8;
+   SD_Bus_Widths         : UInt8;
+   SD_Spec3              : Boolean;
+   Ex_Security           : UInt8;
+   SD_Spec4              : Boolean;
+   Reserved_1            : UInt8;
+   CMD_Support           : UInt8;
+   Reserved_2            : UInt32;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>SCR_Structure<dd><dt>SD_Spec<dd><dt>Data_Stat_After_Erase<dd><dt>SD_Security<dd><dt>SD_Bus_Widths<dd><dt>SD_Spec3<dd><dt>Ex_Security<dd><dt>SD_Spec4<dd><dt>Reserved_1<dd><dt>CMD_Support<dd><dt>Reserved_2<dd></dl><h4 id=5bedb07d612b36886b5bfc28f938864c469a58711df189cb9e05c88808419817>SDMMC_Driver</h4><pre class=ada-code-snippet><code>type SDMMC_Driver is limited interface;
+</code></pre><h4 id=57890b2c8c4e273f1a4e0512035d012bd82861c58aaed519a0141d738d9b03c6>SDMMC_Send_Op_Cond</h4><pre class=ada-code-snippet><code>SDMMC_Send_Op_Cond   : constant SD_Command := 5;
+</code></pre><h4 id=e89af55282f9d6e8cee0903fb335ef80845007f89df6cd2d261723f934ce6042>Select_Card</h4><pre class=ada-code-snippet><code>Select_Card          : constant SD_Command := 7;
+</code></pre><h4 id=54f631838ddf5f1a4b010ac5619c5f200c2bf71b4644fead7abc2e2c8085d841>Send_ACmd</h4><pre class=ada-code-snippet><code>procedure Send_ACmd
+  (This   : in out SDMMC_Driver'Class;
+   Cmd    : SD_Specific_Command;
+   Rca    : UInt16;
+   Arg    : UInt32;
+   Status : out SD_Error)
+</code></pre><p>Send application specific command<h5>Parameters</h5><dl><dt>This<dd><dt>Cmd<dd><dt>Rca<dd><dt>Arg<dd><dt>Status<dd></dl><h4 id=c4504bf512e4f0912329de77ca56132a699803cf01cfa7046a94c67cb03cafda>Send_CID</h4><pre class=ada-code-snippet><code>Send_CID             : constant SD_Command := 10;
+</code></pre><h4 id=18410f4b561a7d448f92f4d42f24a496f4a7269df1ded51a426d53869f06e372>Send_Cmd</h4><pre class=ada-code-snippet><code>procedure Send_Cmd
+  (This   : in out SDMMC_Driver'Class;
+   Cmd    : SD_Command;
+   Arg    : UInt32;
+   Status : out SD_Error)
+</code></pre><p>Wrapper for Send_Cmd using a generic command.<h5>Parameters</h5><dl><dt>This<dd><dt>Cmd<dd><dt>Arg<dd><dt>Status<dd></dl><h4 id=d12aa53242994f472f8769d03739e662545fda0f69117acb91fd21249ed77103>Send_Cmd</h4><pre class=ada-code-snippet><code>procedure Send_Cmd
+  (This   : in out SDMMC_Driver;
+   Cmd    : Cmd_Desc_Type;
+   Arg    : UInt32;
+   Status : out SD_Error)
+</code></pre><p>Send a command (without data transfer) and wait for result.<h5>Parameters</h5><dl><dt>This<dd><dt>Cmd<dd><dt>Arg<dd><dt>Status<dd></dl><h4 id=9f03000028455418c33ded8b9640be54c00e31e53b025fd275819d220b5ce272>Send_CSD</h4><pre class=ada-code-snippet><code>Send_CSD             : constant SD_Command := 9;
+</code></pre><h4 id=9cf4c70089f789a9c7ad27831a37145c1dab4c266e74dc11ac8bb4ba70535c69>Send_If_Cond</h4><pre class=ada-code-snippet><code>Send_If_Cond         : constant SD_Command := 8;
+</code></pre><h4 id=5a7e22b6d5ff94b0983da57a52eb8a09fbe48564a6a18d6dc4ca23c3c904878c>Send_Op_Cond</h4><pre class=ada-code-snippet><code>Send_Op_Cond         : constant SD_Command := 1;
+</code></pre><p>Only for MMC<h4 id=484e694d41fd3902e6dbb1aa723a702c63322282de6c58556dbfa74a90edeae2>Send_Relative_Addr</h4><pre class=ada-code-snippet><code>Send_Relative_Addr   : constant SD_Command := 3;
+</code></pre><h4 id=cd0f20602837a72df2dcff2ae605af794580de8c9f3c8731e6dfe5c09bfae0d1>Send_Status</h4><pre class=ada-code-snippet><code>Send_Status          : constant SD_Command := 13;
+</code></pre><h4 id=458b5093a6283583b32ae23bd3fe05096c986564ccdca6aac0891f2f2b753e53>Send_Write_Prot</h4><pre class=ada-code-snippet><code>Send_Write_Prot      : constant SD_Command := 30;
+</code></pre><h4 id=f1b2094859ad2725a7248df845f496f8ddacc8e55a18b6e54d0c6ea7534f4c03>Set_Block_Count</h4><pre class=ada-code-snippet><code>Set_Block_Count      : constant SD_Command := 23;
+</code></pre><h4 id=b6c9520dc2d1928a356c335db0e906b2165c74eae70cf03874d53d580bedc851>Set_Blocklen</h4><pre class=ada-code-snippet><code>Set_Blocklen         : constant SD_Command := 16;
+</code></pre><h4 id=708aff446d973b044a531fde19c8fd66a261a69d6ac3e78bdcad470105560340>Set_Bus_Size</h4><pre class=ada-code-snippet><code>procedure Set_Bus_Size
+  (This : in out SDMMC_Driver;
+   Mode : Wide_Bus_Mode)
+</code></pre><p>Set host bus size; the command must have been set to the card.<h5>Parameters</h5><dl><dt>This<dd><dt>Mode<dd></dl><h4 id=a1a7eed0857fb7345c66e7e834a97cc1417581bee90cbfeaade8875e72636461>Set_Clock</h4><pre class=ada-code-snippet><code>procedure Set_Clock
+  (This : in out SDMMC_Driver;
+   Freq : Natural)
+</code></pre><p>Set clock frequency.<h5>Parameters</h5><dl><dt>This<dd><dt>Freq<dd></dl><h4 id=8ec40341d199f20d7ba4ce5538ed3bcd60cc27a3bdcd73adf4328f6afe0b04b9>Set_DSR</h4><pre class=ada-code-snippet><code>Set_DSR              : constant SD_Command := 4;
+</code></pre><h4 id=7c5c0d5109867dd25d617a678c92ab60d8c7ff6c24cd29ee4f2d96dc46ed392e>Set_Write_Prot</h4><pre class=ada-code-snippet><code>Set_Write_Prot       : constant SD_Command := 28;
+</code></pre><h4 id=cb320d581dd45234c217fa8c1578464f68419dc3d1876f4f1c0ac26b98731588>Stop_Transmission</h4><pre class=ada-code-snippet><code>Stop_Transmission    : constant SD_Command := 12;
+</code></pre><h4 id=2963d5d5f123bb2db571a680aa79e7417c094157617a7674dfc895f7e523872a>Supported_SD_Memory_Cards</h4><pre class=ada-code-snippet><code>type Supported_SD_Memory_Cards is
+  (STD_Capacity_SD_Card_V1_1,
+   STD_Capacity_SD_Card_v2_0,
+   High_Capacity_SD_Card,
+   Multimedia_Card,
+   Secure_Digital_IO_Card,
+   High_Speed_Multimedia_Card,
+   Secure_Digital_IO_Combo_Card,
+   High_Capacity_MMC_Card);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>STD_Capacity_SD_Card_V1_1<dd><dt>STD_Capacity_SD_Card_v2_0<dd><dt>High_Capacity_SD_Card<dd><dt>Multimedia_Card<dd><dt>Secure_Digital_IO_Card<dd><dt>High_Speed_Multimedia_Card<dd><dt>Secure_Digital_IO_Combo_Card<dd><dt>High_Capacity_MMC_Card<dd></dl><h4 id=279870be4c79ebde6e278257ae0ae4a9da72cafae43b8737e3498a794a8fb2e5>Switch_Func</h4><pre class=ada-code-snippet><code>Switch_Func          : constant SD_Command := 6;
+</code></pre><h4 id=107f244db4470832118c37bc41fdc06f87aa8efc5344b4a2cc0bc41edcf9af8a>Tfr_Kind</h4><pre class=ada-code-snippet><code>type Tfr_Kind is
+  (Tfr_Invalid, Tfr_No,
+   Tfr_Read, Tfr_Write,
+   Tfr_Read_Multi, Tfr_Write_Multi);
+</code></pre><p>Transfer<h5>Enumeration Literal</h5><dl><dt>Tfr_Invalid<dd><dt>Tfr_No<dd><dt>Tfr_Read<dd><dt>Tfr_Write<dd><dt>Tfr_Read_Multi<dd><dt>Tfr_Write_Multi<dd></dl><h4 id=3f14dfbdd12d7741a13800604e6cb9850b79c37a421597bd176e35795bfa3650>Wide_Bus_Mode</h4><pre class=ada-code-snippet><code>type Wide_Bus_Mode is
+  (
+   Wide_Bus_1B,
+   Wide_Bus_4B,
+   Wide_Bus_8B)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Wide_Bus_1B<dd><p>4-wide bus mode: SDMMC_D[3:0] used.<dt>Wide_Bus_4B<dd><p>8-wide bus mode: SDMMC_D[7:0] used.<dt>Wide_Bus_8B<dd></dl><h4 id=5349a6560d3103ec319ba6cd3e7616909dd3864b375c05574d01af377c9d571b>Write_Dat_Until_Stop</h4><pre class=ada-code-snippet><code>Write_Dat_Until_Stop : constant SD_Command := 20;
+</code></pre><h4 id=fdfcbcdf69012174ef5389081f239d45a66067c8522932b4dfe8bc5afcc1f684>Write_Multi_Block</h4><pre class=ada-code-snippet><code>Write_Multi_Block    : constant SD_Command := 25;
+</code></pre><h4 id=58c2364dcdb080cce801f9e504476c810beefec305b8ea1ba7c358402aed3c0a>Write_Single_Block</h4><pre class=ada-code-snippet><code>Write_Single_Block   : constant SD_Command := 24;
+</code></pre>

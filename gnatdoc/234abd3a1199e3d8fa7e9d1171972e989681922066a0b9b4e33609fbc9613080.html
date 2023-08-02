@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.TBMAN</h1><h2>Entities</h2><h3>Record Types</h3><ul><li><a href=#09811792fa4a48c191c953b86072f0131ebfbcb600f321560f3681199d606346>PLATFORM_Register</a><li><a href=#0c0e2ab482a6cc4b2356693c3c20d560ab43314f94c448183dd38dd86120d73d>TBMAN_Peripheral</a></ul><h3>Variables</h3><ul><li><a href=#34558eb56eddbb996b59ecbfc9beba3a7ccfc62f1c9991671f7521dd1e8ba630>TBMAN_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=09811792fa4a48c191c953b86072f0131ebfbcb600f321560f3681199d606346>PLATFORM_Register</h4><pre class=ada-code-snippet><code>type PLATFORM_Register is record
+   ASIC          : Boolean;
+   FPGA          : Boolean;
+   Reserved_2_31 : HAL.UInt30;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>ASIC<dd><dt>FPGA<dd><dt>Reserved_2_31<dd></dl><h4 id=34558eb56eddbb996b59ecbfc9beba3a7ccfc62f1c9991671f7521dd1e8ba630>TBMAN_Periph</h4><pre class=ada-code-snippet><code>TBMAN_Periph : aliased TBMAN_Peripheral
+  with Import, Address => TBMAN_Base;
+</code></pre><h4 id=0c0e2ab482a6cc4b2356693c3c20d560ab43314f94c448183dd38dd86120d73d>TBMAN_Peripheral</h4><pre class=ada-code-snippet><code>type TBMAN_Peripheral is record
+   PLATFORM : aliased PLATFORM_Register;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>PLATFORM<dd></dl>

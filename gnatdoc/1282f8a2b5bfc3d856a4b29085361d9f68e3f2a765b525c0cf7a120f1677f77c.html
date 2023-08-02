@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.I2C</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#3d7ba67a7f458fc97a4199e878a74ec07f91cfb80abe5f5e29045cf247fe5f55>IC_ACK_GENERAL_CALL_ACK_GEN_CALL_Field</a><li><a href=#c1127d97fe21e52ae81d185bc936a3f08b59d4405fe704caed81e1b355e38064>IC_CON_IC_10BITADDR_MASTER_Field</a><li><a href=#429aee7d12e4d575b1a3f891919843d3040d3907d4c4aad48e89a78e614aaf7e>IC_CON_IC_10BITADDR_SLAVE_Field</a><li><a href=#54d8350c6024bb8a9a3631b2418041d93e09daf17f0c94c36fae81ed9772bc6e>IC_CON_IC_RESTART_EN_Field</a><li><a href=#ce067897c761700fcb6b04b3db60d9e3891fb8a320c2356d0d128b3e30d3e4a1>IC_CON_IC_SLAVE_DISABLE_Field</a><li><a href=#225b6dc96162a40c68ca4f942ab3bf4f0738864dc7b4c0db0fd9ee715f1ef60b>IC_CON_MASTER_MODE_Field</a><li><a href=#488d4fcae4e64f11ca7dcb90e750fdc1f18c7b8f9d540f21928009f97b350d83>IC_CON_RX_FIFO_FULL_HLD_CTRL_Field</a><li><a href=#6ecce714193a2f8fb61e6f9bbe5de78c79531d75e16e5ad06010a140ff630714>IC_CON_SPEED_Field</a><li><a href=#5738e707535aa0bb3f46bf4ccf5b3aef0a15df19821dc406e13d2f3475f99a69>IC_CON_STOP_DET_IFADDRESSED_Field</a><li><a href=#9b39f7c5f80d53dd7b8c034f5705dead8817a2f02d59b7df3ae4976dcbac9416>IC_CON_TX_EMPTY_CTRL_Field</a><li><a href=#ff3cb63abaa14af97a054b78ab24743883d4802e73b85599267a22275b1ac360>IC_DATA_CMD_CMD_Field</a><li><a href=#e35e5737110c6775b585cf7f12b6b55d3f8805f1ca667147314e12f77cd175a1>IC_DATA_CMD_FIRST_DATA_BYTE_Field</a><li><a href=#1fc0ea0c7d9896c83c2e00bfa5ebfda0909ba12482f9f0f76df19c253b00dcbb>IC_DATA_CMD_RESTART_Field</a><li><a href=#b22ebaabf77f7120b6ef10c8dd7b2e483ad6c974e54865ab1d124ada7b633685>IC_DATA_CMD_STOP_Field</a><li><a href=#8133ed8196112eefd5f32d36f44b1af8c2d2873567a932bfab9265bbbef968e0>IC_DMA_CR_RDMAE_Field</a><li><a href=#77662c32c09206fa4319d8d09f444759ca4fca7f6da36c8e657812cb35c1ebca>IC_DMA_CR_TDMAE_Field</a><li><a href=#7f4159a60e4b887970aea186689ffa0fad1436d664efa3eac56ecaf2b73d574c>IC_ENABLE_ABORT_Field</a><li><a href=#38e5ab11bd841c8faedb78ca1959351448381bed49a9f1d919e1e9219f99ecb2>IC_ENABLE_ENABLE_Field</a><li><a href=#8a6aa4c8f546a10ee17f6778add85645254ff5c47db8768264ae525ab951c0fe>IC_ENABLE_STATUS_IC_EN_Field</a><li><a href=#f5e83b68db13ce19ae4bab80de5a7b8d7dbbd17dd7b42a188c87f76fa808d4f6>IC_ENABLE_STATUS_SLV_DISABLED_WHILE_BUSY_Field</a><li><a href=#d72d40ab965af1fe545e8885047a72473d5ac7d83427e8d789117e6dc9c2fca6>IC_ENABLE_STATUS_SLV_RX_DATA_LOST_Field</a><li><a href=#5ef18be622ee0770a3f03722346da536c6d1c4c63a714927fbec193970229d0f>IC_ENABLE_TX_CMD_BLOCK_Field</a><li><a href=#76ea40aa4605f814ffb0eeabcefce9faa6cc8099c7c39446daf31db03b9ca899>IC_INTR_MASK_M_ACTIVITY_Field</a><li><a href=#0f9de9179cb8cbc1fea66e2ac690b33477507845c7e01c66465e0201d6058d71>IC_INTR_MASK_M_GEN_CALL_Field</a><li><a href=#b5c3b85281224ee3f04e0e42d5e03f4c1047a21d10331fa0f5846d9a23891815>IC_INTR_MASK_M_RD_REQ_Field</a><li><a href=#fbba51b12fc1e1600d47bffdcfbfc026dcc9901a410f38da83e3676fd246acaa>IC_INTR_MASK_M_RESTART_DET_Field</a><li><a href=#11c6e63679e6a53eda943a546019e6d80cb084cc266fd14e9cd366d4d4d8bd03>IC_INTR_MASK_M_RX_DONE_Field</a><li><a href=#de8f37f68860c21cc3a07f8531f58c5f637db88fd3249d25bdd922ced73a398a>IC_INTR_MASK_M_RX_FULL_Field</a><li><a href=#4b6d306199f5a82911bbc1cf7e2daa5b39160aa20c1b0e69e67d49d911c70bca>IC_INTR_MASK_M_RX_OVER_Field</a><li><a href=#f4ed92b9b6068e36c9977e303f123050fe1a0df0bc91c2447d1c08ae9cd6aa80>IC_INTR_MASK_M_RX_UNDER_Field</a><li><a href=#f0bee231fc320553195279ed5fc29ced68c702d80d4426bfa5e6cfcd235f4ddb>IC_INTR_MASK_M_START_DET_Field</a><li><a href=#e72bc2520a229edb8091217600356ae8395d650982fa9608067e16c88e7f82cd>IC_INTR_MASK_M_STOP_DET_Field</a><li><a href=#37745216504cbf7eb07fc96d8b2ef6fba3d669bc51d50877593bef8a582d812d>IC_INTR_MASK_M_TX_ABRT_Field</a><li><a href=#b5b3f29cc16b8d70ba0dadbb7c92265cff43bf7d8ec8c9911f1500eb4123de7b>IC_INTR_MASK_M_TX_EMPTY_Field</a><li><a href=#b1608b59e8a2e87cfeea8f8e9627caaed2a8e94aaffb86bee5cfc7b3dbc98c53>IC_INTR_MASK_M_TX_OVER_Field</a><li><a href=#64a391df15b82f895493261bb5c4eca4e35d5c30c2cff8e1f04518f5ac7825ec>IC_INTR_STAT_R_ACTIVITY_Field</a><li><a href=#77617aa7b6754138052cc33ce0b9425523f87e7d86e65b3b4d441c95aeb118e7>IC_INTR_STAT_R_GEN_CALL_Field</a><li><a href=#ea56165cc48a65ef6dd9a9f06c560faa322cbbec08bdaf952a1220fbc5cec9d3>IC_INTR_STAT_R_RD_REQ_Field</a><li><a href=#fa0854308835a2e83c84bc25852f1dc2966e2bcc11379ade7537d943ce72dae2>IC_INTR_STAT_R_RESTART_DET_Field</a><li><a href=#587a75c99ab178b22b155c277384b8b34c0a70165efcb29074f6851e6fe03393>IC_INTR_STAT_R_RX_DONE_Field</a><li><a href=#0a7dac9690bdbef9b794b952b7c51f9dcd73113bac9d01e609a84a3ea5e4dedb>IC_INTR_STAT_R_RX_FULL_Field</a><li><a href=#48e3a1473573db02cb6a5b6f8ed54ada72489e4a3856a429742bc9e71a835fc7>IC_INTR_STAT_R_RX_OVER_Field</a><li><a href=#74c4d0d767a0c16d1dd6bf9820aa10762675dac3c44af571b0ddb614946ccd6e>IC_INTR_STAT_R_RX_UNDER_Field</a><li><a href=#212267a87f09818e38ba9fe09d57061b4c661af739079fcc050085251a8a2c23>IC_INTR_STAT_R_START_DET_Field</a><li><a href=#65af7a814096f63badfd077caab133bf6c78ea1435bf871b44496803a73e42ed>IC_INTR_STAT_R_STOP_DET_Field</a><li><a href=#a8e62de952595f51c7582f9b20dd2788682a006921d03eb15fb263358451e947>IC_INTR_STAT_R_TX_ABRT_Field</a><li><a href=#f2f47b46ec1dbc7d658744fe636474ee4bf36de32f374315fc0b71ee989fa0e3>IC_INTR_STAT_R_TX_EMPTY_Field</a><li><a href=#f428b5a206b05f011ce79e7c18a404ed7cf2858577519cfe03b2ec42889df6ae>IC_INTR_STAT_R_TX_OVER_Field</a><li><a href=#cce42c273c8e6351ee31ce029e5fb3b0888ea1d36c0b5f0639928b7f2c17ec20>IC_RAW_INTR_STAT_ACTIVITY_Field</a><li><a href=#f428bf8ed4b8bc83d88efd100e3d50f058487979b92c9657800490798f5c17bf>IC_RAW_INTR_STAT_GEN_CALL_Field</a><li><a href=#c56afac0a5461515cf281eeec8ec6f8033d39e9c5b91c7fdaac308a7d5185c74>IC_RAW_INTR_STAT_RD_REQ_Field</a><li><a href=#cdfb34e1983f4bfc3336809199c513b6977ac1eb67765ace867d1cb35031237f>IC_RAW_INTR_STAT_RESTART_DET_Field</a><li><a href=#862aa26bb67212cd67ee14ed580c6d06c8f3412f7825317828359578341a5300>IC_RAW_INTR_STAT_RX_DONE_Field</a><li><a href=#11433c24943c39b98f5b57054868ad2c4f9d119cd23531b81e5e397df842963e>IC_RAW_INTR_STAT_RX_FULL_Field</a><li><a href=#d874fc3ed83d712e209a70dbac8100ae541d4f1dc08bf2296944cbb832e62899>IC_RAW_INTR_STAT_RX_OVER_Field</a><li><a href=#c20b2e76c96acc3696b9e88294a60ea34d445e0431588127b8f470e31471a527>IC_RAW_INTR_STAT_RX_UNDER_Field</a><li><a href=#5a79937e0184c83383384cb1ae24200b5b2759eca09c0482d6be86fd2069f099>IC_RAW_INTR_STAT_START_DET_Field</a><li><a href=#3d336d8a94a50f6e7796ff74c514c008d1496bdbf778fd83996697dbe99df2d4>IC_RAW_INTR_STAT_STOP_DET_Field</a><li><a href=#3d1695a3fdadadb29789d353ef40452408a87b11addeee8c455e0b3d681babf7>IC_RAW_INTR_STAT_TX_ABRT_Field</a><li><a href=#e486bbb05f5b7f3c89ed7473eca15a85157b5e1f7b384d761a86cd281f250b86>IC_RAW_INTR_STAT_TX_EMPTY_Field</a><li><a href=#b1b72f412266ed528111e309d6b8f41b547857084717012c19602deb645f4014>IC_RAW_INTR_STAT_TX_OVER_Field</a><li><a href=#7752b2b79633ba359a119c406edb96999015aa4e9a2a9e0186152477c2481e2b>IC_SLV_DATA_NACK_ONLY_NACK_Field</a><li><a href=#4bdd0f39c3faea147f6c1b73a82197626bcb9e67aed069a000488a616a732345>IC_STATUS_ACTIVITY_Field</a><li><a href=#b3831bd6e5277bed4644eca17d24e9b9dfdf78a2fe2a80b840eb15addb936f1b>IC_STATUS_MST_ACTIVITY_Field</a><li><a href=#245fbc8100d1f8e3d199880ebd9119cdf190e05eaa892d4cf67cac2565f1cc79>IC_STATUS_RFF_Field</a><li><a href=#972b6ad20984f62cc2ed368b276b30d871759c00843138206eb3d7f1dc7cc49f>IC_STATUS_RFNE_Field</a><li><a href=#4f10083275f354d28623bdf1ce6ec3a087562fe292c71a310ded57f16c3ce25e>IC_STATUS_SLV_ACTIVITY_Field</a><li><a href=#ae0c743c6c922b825fd91408dc7a50dbc8676f42edcc6d1cb0a35d217712702b>IC_STATUS_TFE_Field</a><li><a href=#90959c365f8f79d25bfe9e9128eb3bc2fc8c718bf5cf1614086263f1baade641>IC_STATUS_TFNF_Field</a><li><a href=#1cd2dfe5aa381e7cdb7b6e906c1612cf3990969fb9b2984bde0b535994354958>IC_TAR_GC_OR_START_Field</a><li><a href=#2e7d73939b425f15e0e94a3ea9a23ea02fbb337ecb464cb0285b174d64457ca2>IC_TAR_SPECIAL_Field</a><li><a href=#74e6a9d80fc65ed896553ba62514dbe7b91ff0520b179ba528da265a6986f40c>IC_TX_ABRT_SOURCE_ABRT_10ADDR1_NOACK_Field</a><li><a href=#f3f002d32dd2d19206164ead778dc68750e8e969e9f6fef484015dd68ec9687e>IC_TX_ABRT_SOURCE_ABRT_10ADDR2_NOACK_Field</a><li><a href=#43375821fb9f5848206ff0c2be859aafe4ac96e2af2927237761ee314f3368f6>IC_TX_ABRT_SOURCE_ABRT_10B_RD_NORSTRT_Field</a><li><a href=#448b7f22f03508323abfc324e4b03c34b873797b8234e3b2691d5bec9ee841d5>IC_TX_ABRT_SOURCE_ABRT_7B_ADDR_NOACK_Field</a><li><a href=#0fbb9058f2ce80368652068d5a2ffbf5519ded50cf1eb2cb78baf269267c298e>IC_TX_ABRT_SOURCE_ABRT_GCALL_NOACK_Field</a><li><a href=#2a1c30b43d8b7b5047871d26121f2e5681583139f19d8ac2924618f2c7072d77>IC_TX_ABRT_SOURCE_ABRT_GCALL_READ_Field</a><li><a href=#838ffbe075e0c751e5c817a1c7cdf3a1c08b82e8bffac03765ea01b61740056e>IC_TX_ABRT_SOURCE_ABRT_HS_ACKDET_Field</a><li><a href=#aa13eeba6a88ceb9a31e77a94665d3bab51d664ed233620c0d7cf1e6faab0147>IC_TX_ABRT_SOURCE_ABRT_HS_NORSTRT_Field</a><li><a href=#f5c5f9b8f2d6337763102438455f685deafc650638431169e48b259e3c5a7b97>IC_TX_ABRT_SOURCE_ABRT_MASTER_DIS_Field</a><li><a href=#28b78a5e2c5bc7e2a828cf04b6172abddaea402510750adf4119ff4723cf999b>IC_TX_ABRT_SOURCE_ABRT_SBYTE_ACKDET_Field</a><li><a href=#ffd8ec198fd0aee97d42916669bd86afc6d510902d5a679501bda574fa18c2be>IC_TX_ABRT_SOURCE_ABRT_SBYTE_NORSTRT_Field</a><li><a href=#b569042927d8c63f8c4e7d1729804cd36cb050a7ace9bd3555204435cbc69f8b>IC_TX_ABRT_SOURCE_ABRT_SLV_ARBLOST_Field</a><li><a href=#2d28970daefc0a92c99bdccfdcaec7002a721a1dbad4d511282e0216b636f238>IC_TX_ABRT_SOURCE_ABRT_SLVFLUSH_TXFIFO_Field</a><li><a href=#cc2d101988c7a8a1b6fe515bef9702ff0633ec52f3882d2423d91467f8276023>IC_TX_ABRT_SOURCE_ABRT_SLVRD_INTX_Field</a><li><a href=#a51bc7200d30ff44dff831e6f2a3f550fca69819e39e2f11ff67596cbc012b74>IC_TX_ABRT_SOURCE_ABRT_TXDATA_NOACK_Field</a><li><a href=#c71708a70777f937c5f77bbb31d55c1f08b208c6297b51a33fff767e986991d3>IC_TX_ABRT_SOURCE_ABRT_USER_ABRT_Field</a><li><a href=#bd4252ac3683330223da6d61f9f0c390c07d32e592a263c32a3e6ee46b28c996>IC_TX_ABRT_SOURCE_ARB_LOST_Field</a></ul><h3>Record Types</h3><ul><li><a href=#2fde5982cb82e3a1935ad42e43a3ef2404e87738c10584b598d48c96f2899849>I2C_Peripheral</a><li><a href=#1a59fe86edb7afef8f4eae3dcf07b192ea14e8bfb3f7058755e9999d5fec4cf3>IC_ACK_GENERAL_CALL_Register</a><li><a href=#39321512d7b6e104bf01f3f708e54b1107d99b34bd56e6f486baf51308aa6654>IC_CLR_ACTIVITY_Register</a><li><a href=#2ba0b8ed763b03d4a69d04b804417c4b95206291e72784aa7e20e25d2229a831>IC_CLR_GEN_CALL_Register</a><li><a href=#a7625da25b60959a4aec84acfeb86afb8fd5ba5c4b7a090e3a6930955a49b579>IC_CLR_INTR_Register</a><li><a href=#6fe59bbe0711aba1c8df93526655ef78918e5edbde5f9e74962e725691fbc901>IC_CLR_RD_REQ_Register</a><li><a href=#4dbcac454f4e5852e4553a2974fc8cd1cfa7a440a717c3ae4b0be39d2c0258f4>IC_CLR_RESTART_DET_Register</a><li><a href=#e155fe90d72a87c9f57fb6afed2319c689910e2a37188213a46b87c39f44fc0c>IC_CLR_RX_DONE_Register</a><li><a href=#22a310a01f0db743245590fed291080df5f23c2e2253c480c8b5e04764a70283>IC_CLR_RX_OVER_Register</a><li><a href=#79223ba979fc6f033a3d7fa94d3a5e31fe73e3b946c1e1be70dc483917cfe92c>IC_CLR_RX_UNDER_Register</a><li><a href=#dddc74637cc61fbebcecee6d6ccb51dcef99dc88bd2533959fa41e122a26f272>IC_CLR_START_DET_Register</a><li><a href=#79c68ca759dd9afb926738b7efdf094f0cf953af3699730c54fff776fcaf9d9b>IC_CLR_STOP_DET_Register</a><li><a href=#70e75ad95ea6e8913c5fcbbaeb4d459ab8eaf330f2054462563022562bee4998>IC_CLR_TX_ABRT_Register</a><li><a href=#79f84439f22b678ec98177158666673eda53849f4df89310938b828bc66d9bb2>IC_CLR_TX_OVER_Register</a><li><a href=#239f31ff80915be8be2ead27fd9f9df8964c389df18386901c4a94869e41e984>IC_COMP_PARAM_1_Register</a><li><a href=#6197c4f30f41fb571f010a55e6353fc70e0f455f3204df8f884433f142ae7810>IC_CON_Register</a><li><a href=#668aab90e50ec0915eb3316674562fd0dae3ed20fc7a1f359512094e671a2b68>IC_DATA_CMD_Register</a><li><a href=#e43387ad2dec53b25ed4b45f2b48bf6864ce0ca991b2e4abc623ac9a3a181776>IC_DMA_CR_Register</a><li><a href=#f130df31b8c2ba0b1d129ef4e0dc2ec3b4bd8d8fc6d11232df9030b111cc0024>IC_DMA_RDLR_Register</a><li><a href=#42fd32e333b2ad1f1ee6e01e78c2d28643b179aa8d8db611c06395107149cce6>IC_DMA_TDLR_Register</a><li><a href=#35df0fa9b08d861ea9becdece2ac78ab2bb0812b8a9b6b657e6f4ef49709334c>IC_ENABLE_Register</a><li><a href=#ca835cf56298b194eb6ed86be658437098bbb0a53999fd1fc4e1fec5e71986b4>IC_ENABLE_STATUS_Register</a><li><a href=#114507d7f11875ea87e2a0cda57bba258708061534fdf83d8d179bbae2e09243>IC_FS_SCL_HCNT_Register</a><li><a href=#25619f95b2b545f7c824207d8cae46c035f0567503beb69c59b13790e400ed03>IC_FS_SCL_LCNT_Register</a><li><a href=#2e31cf9f853223e86411c69ddc66ae8f8d39bdd814f0f030e814c7dac02ef1b6>IC_FS_SPKLEN_Register</a><li><a href=#61437748c2b83419ff6b15a4678eb1c4e465ecc52184d1c5d906785fc0480cb9>IC_INTR_MASK_Register</a><li><a href=#ce807967716313d8fa9540689aaf93db6c704bc44a2cb4009e823fac0e8ce884>IC_INTR_STAT_Register</a><li><a href=#d26a873fc3f2b5a4badd0bc0983194f94f54e2a550e3ac071baedf4426d2167c>IC_RAW_INTR_STAT_Register</a><li><a href=#82194a6640681671c8fe536909de0ba3599d26ca409a90d5998de1bdd5504607>IC_RX_TL_Register</a><li><a href=#db3d21eca55bc1a066e24f611f8324925d3b5cfac87edfc1066a5dab02791cca>IC_RXFLR_Register</a><li><a href=#c0dd06a0a3cf07e2e520fdf2de28167c51e6ec64c8aa2d9d53d4c928ff160db1>IC_SAR_Register</a><li><a href=#c12c8ba450abab0a9476ae960020eed660e75ed765b97ad777a7c695d4b82f68>IC_SDA_HOLD_Register</a><li><a href=#23dd904e184f5ffbefe53d6223dcd17c9e416596522b812da5f1b58915790bb6>IC_SDA_SETUP_Register</a><li><a href=#969457c45a5693a383c6e987c7065d7949c61a670f26e2f368e2bf00af5b422d>IC_SLV_DATA_NACK_ONLY_Register</a><li><a href=#427b46b6223202648cbd02d2f2ff841ca518a105e50cd1223af933da71034fa8>IC_SS_SCL_HCNT_Register</a><li><a href=#5b32f7a93d3ae48f33727b97c0bcdfeb79bdb71e61c266564dea14c9c1c973c9>IC_SS_SCL_LCNT_Register</a><li><a href=#aa6ea03684d5b1baa88a0a14f4a2246f98d5d718b0c857463131bdccc42177c4>IC_STATUS_Register</a><li><a href=#4bbdd4a71b827456b38639b1bfa04709fa4c63ad53e4464e8e453bc9fd9ba194>IC_TAR_Register</a><li><a href=#8d78a3fca0682a5569583a25ff3eba3f8ec820493b6791d491b5d85e14247936>IC_TX_ABRT_SOURCE_Register</a><li><a href=#43d8409a4445cf94623fb9e9515dbc17c67c1976a0eadc8e5c824066b59a3ef3>IC_TX_TL_Register</a><li><a href=#080c4dd8db4eee0322f0c484cabcc4abe46e5d1cfcee67ff5dedde101ca28a51>IC_TXFLR_Register</a></ul><h3>Subtypes</h3><ul><li><a href=#e218c339330170a3d4631169e95030138739567b8d7e92af1427d0f531e3d2d9>IC_COMP_PARAM_1_APB_DATA_WIDTH_Field</a><li><a href=#04530d34f3dd466740abf067cca6bd5ff6b187fb1ff850748c4dc66bafef6a3a>IC_COMP_PARAM_1_MAX_SPEED_MODE_Field</a><li><a href=#ba64595545bd3d198db0764e343b12142e7f6d627520e5c1bf5700e8f7b5041b>IC_COMP_PARAM_1_RX_BUFFER_DEPTH_Field</a><li><a href=#98f34b2d2e85bf7e44164445134a77d3af8e11e886446a448223f2a5c63fa0fa>IC_COMP_PARAM_1_TX_BUFFER_DEPTH_Field</a><li><a href=#1d71fd0e1c8e5a2e5a1e41fe0b77f29514334bd751a0ad6eb7ab22ed9ef89269>IC_DATA_CMD_DAT_Field</a><li><a href=#d565b0843cd0f4ffb7e7e9e665d139e0ae3ada82a2658f13daad337f576105d4>IC_DMA_RDLR_DMARDL_Field</a><li><a href=#dd7008b610cab62a0d8b374ba472a54f7f7c07145ab9c065a1aee084d7d0acd7>IC_DMA_TDLR_DMATDL_Field</a><li><a href=#6a59895f997c6f21b8de3c0b33f4c4e059291968968490d546649a046049866b>IC_FS_SCL_HCNT_IC_FS_SCL_HCNT_Field</a><li><a href=#a3cc622b4ad2548bfe185d209e60b276d411d0f905fd092174cbfd35bbb2366b>IC_FS_SCL_LCNT_IC_FS_SCL_LCNT_Field</a><li><a href=#bf87df9f060343614e70c974999d9e7a2b597e961b878110b07377b9f62881a7>IC_FS_SPKLEN_IC_FS_SPKLEN_Field</a><li><a href=#7ed33f203a6e4dfe52bd36f327fdc32a904e3ea9e843ce662d1915ddd880710b>IC_RX_TL_RX_TL_Field</a><li><a href=#e8a0e301d000896dae030cc9a51f997dfef59994a827e04cec0303a827195860>IC_RXFLR_RXFLR_Field</a><li><a href=#a3cd5b04fb1c13e0d984754c1111d05e30711d399dd9bc63944cf65d3e481b7b>IC_SAR_IC_SAR_Field</a><li><a href=#1ea30d4554f6dc19fba78c34932065d61e251794958f0d447a1c44ece4e928e4>IC_SDA_HOLD_IC_SDA_RX_HOLD_Field</a><li><a href=#f4ce4441dd44a1df53d5310225bd80f1d5831845ea3fe4a571489345e2fe15be>IC_SDA_HOLD_IC_SDA_TX_HOLD_Field</a><li><a href=#6dea31591629d9d3445b39fe1331072115da8e9809bcb171e5c59d28535cc0c4>IC_SDA_SETUP_SDA_SETUP_Field</a><li><a href=#e2d5ef7cbd7f6f1aa43f8d96b13311cb7afb90c449013e122dd27fbd21ccf0d2>IC_SS_SCL_HCNT_IC_SS_SCL_HCNT_Field</a><li><a href=#1a39cafb39df0896b54429e6dbae3e4d98e78a94a31e357c84142e398c6b5499>IC_SS_SCL_LCNT_IC_SS_SCL_LCNT_Field</a><li><a href=#34f58be217a0b14afea62922018f6d2fe1c827eff998bf1391fb2c6469b14013>IC_TAR_IC_TAR_Field</a><li><a href=#36a01896011f5e55d0031046b2373c676328aefbe545ece3e4935aabb7fcec10>IC_TX_ABRT_SOURCE_TX_FLUSH_CNT_Field</a><li><a href=#a0278f6145b59a77aee3e57567be0c3f5fb69f346f22f43541ce0c30f345ee82>IC_TX_TL_TX_TL_Field</a><li><a href=#9332ecc4f0033ab783fa98b2de598cdd76d42482e9717d4fd568c3ce24ab82b1>IC_TXFLR_TXFLR_Field</a></ul><h3>Variables</h3><ul><li><a href=#83986a19bec1a609726bd472bf45737071e839eb3a93582d93c1249518dc7aed>I2C0_Periph</a><li><a href=#ce4dc6f172a3c598edcbf9de96ee2f7c79cbe77efccfd8ba722ddb84c350931b>I2C1_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=83986a19bec1a609726bd472bf45737071e839eb3a93582d93c1249518dc7aed>I2C0_Periph</h4><pre class=ada-code-snippet><code>I2C0_Periph : aliased I2C_Peripheral
+  with Import, Address => I2C0_Base;
+</code></pre><h4 id=ce4dc6f172a3c598edcbf9de96ee2f7c79cbe77efccfd8ba722ddb84c350931b>I2C1_Periph</h4><pre class=ada-code-snippet><code>I2C1_Periph : aliased I2C_Peripheral
+  with Import, Address => I2C1_Base;
+</code></pre><h4 id=2fde5982cb82e3a1935ad42e43a3ef2404e87738c10584b598d48c96f2899849>I2C_Peripheral</h4><pre class=ada-code-snippet><code>type I2C_Peripheral is record
+   IC_CON                : aliased IC_CON_Register;
+   IC_TAR                : aliased IC_TAR_Register;
+   IC_SAR                : aliased IC_SAR_Register;
+   IC_DATA_CMD           : aliased IC_DATA_CMD_Register;
+   IC_SS_SCL_HCNT        : aliased IC_SS_SCL_HCNT_Register;
+   IC_SS_SCL_LCNT        : aliased IC_SS_SCL_LCNT_Register;
+   IC_FS_SCL_HCNT        : aliased IC_FS_SCL_HCNT_Register;
+   IC_FS_SCL_LCNT        : aliased IC_FS_SCL_LCNT_Register;
+   IC_INTR_STAT          : aliased IC_INTR_STAT_Register;
+   IC_INTR_MASK          : aliased IC_INTR_MASK_Register;
+   IC_RAW_INTR_STAT      : aliased IC_RAW_INTR_STAT_Register;
+   IC_RX_TL              : aliased IC_RX_TL_Register;
+   IC_TX_TL              : aliased IC_TX_TL_Register;
+   IC_CLR_INTR           : aliased IC_CLR_INTR_Register;
+   IC_CLR_RX_UNDER       : aliased IC_CLR_RX_UNDER_Register;
+   IC_CLR_RX_OVER        : aliased IC_CLR_RX_OVER_Register;
+   IC_CLR_TX_OVER        : aliased IC_CLR_TX_OVER_Register;
+   IC_CLR_RD_REQ         : aliased IC_CLR_RD_REQ_Register;
+   IC_CLR_TX_ABRT        : aliased IC_CLR_TX_ABRT_Register;
+   IC_CLR_RX_DONE        : aliased IC_CLR_RX_DONE_Register;
+   IC_CLR_ACTIVITY       : aliased IC_CLR_ACTIVITY_Register;
+   IC_CLR_STOP_DET       : aliased IC_CLR_STOP_DET_Register;
+   IC_CLR_START_DET      : aliased IC_CLR_START_DET_Register;
+   IC_CLR_GEN_CALL       : aliased IC_CLR_GEN_CALL_Register;
+   IC_ENABLE             : aliased IC_ENABLE_Register;
+   IC_STATUS             : aliased IC_STATUS_Register;
+   IC_TXFLR              : aliased IC_TXFLR_Register;
+   IC_RXFLR              : aliased IC_RXFLR_Register;
+   IC_SDA_HOLD           : aliased IC_SDA_HOLD_Register;
+   IC_TX_ABRT_SOURCE     : aliased IC_TX_ABRT_SOURCE_Register;
+   IC_SLV_DATA_NACK_ONLY : aliased IC_SLV_DATA_NACK_ONLY_Register;
+   IC_DMA_CR             : aliased IC_DMA_CR_Register;
+   IC_DMA_TDLR           : aliased IC_DMA_TDLR_Register;
+   IC_DMA_RDLR           : aliased IC_DMA_RDLR_Register;
+   IC_SDA_SETUP          : aliased IC_SDA_SETUP_Register;
+   IC_ACK_GENERAL_CALL   : aliased IC_ACK_GENERAL_CALL_Register;
+   IC_ENABLE_STATUS      : aliased IC_ENABLE_STATUS_Register;
+   IC_FS_SPKLEN          : aliased IC_FS_SPKLEN_Register;
+   IC_CLR_RESTART_DET    : aliased IC_CLR_RESTART_DET_Register;
+   IC_COMP_PARAM_1       : aliased IC_COMP_PARAM_1_Register;
+   IC_COMP_VERSION       : aliased HAL.UInt32;
+   IC_COMP_TYPE          : aliased HAL.UInt32;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>IC_CON<dd><dt>IC_TAR<dd><dt>IC_SAR<dd><dt>IC_DATA_CMD<dd><dt>IC_SS_SCL_HCNT<dd><dt>IC_SS_SCL_LCNT<dd><dt>IC_FS_SCL_HCNT<dd><dt>IC_FS_SCL_LCNT<dd><dt>IC_INTR_STAT<dd><dt>IC_INTR_MASK<dd><dt>IC_RAW_INTR_STAT<dd><dt>IC_RX_TL<dd><dt>IC_TX_TL<dd><dt>IC_CLR_INTR<dd><dt>IC_CLR_RX_UNDER<dd><dt>IC_CLR_RX_OVER<dd><dt>IC_CLR_TX_OVER<dd><dt>IC_CLR_RD_REQ<dd><dt>IC_CLR_TX_ABRT<dd><dt>IC_CLR_RX_DONE<dd><dt>IC_CLR_ACTIVITY<dd><dt>IC_CLR_STOP_DET<dd><dt>IC_CLR_START_DET<dd><dt>IC_CLR_GEN_CALL<dd><dt>IC_ENABLE<dd><dt>IC_STATUS<dd><dt>IC_TXFLR<dd><dt>IC_RXFLR<dd><dt>IC_SDA_HOLD<dd><dt>IC_TX_ABRT_SOURCE<dd><dt>IC_SLV_DATA_NACK_ONLY<dd><dt>IC_DMA_CR<dd><dt>IC_DMA_TDLR<dd><dt>IC_DMA_RDLR<dd><dt>IC_SDA_SETUP<dd><dt>IC_ACK_GENERAL_CALL<dd><dt>IC_ENABLE_STATUS<dd><dt>IC_FS_SPKLEN<dd><dt>IC_CLR_RESTART_DET<dd><dt>IC_COMP_PARAM_1<dd><dt>IC_COMP_VERSION<dd><dt>IC_COMP_TYPE<dd></dl><h4 id=3d7ba67a7f458fc97a4199e878a74ec07f91cfb80abe5f5e29045cf247fe5f55>IC_ACK_GENERAL_CALL_ACK_GEN_CALL_Field</h4><pre class=ada-code-snippet><code>type IC_ACK_GENERAL_CALL_ACK_GEN_CALL_Field is
+   DISABLED,
+   ENABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>DISABLED<dd><p>Generate ACK for a General Call<dt>ENABLED<dd></dl><h4 id=1a59fe86edb7afef8f4eae3dcf07b192ea14e8bfb3f7058755e9999d5fec4cf3>IC_ACK_GENERAL_CALL_Register</h4><pre class=ada-code-snippet><code>type IC_ACK_GENERAL_CALL_Register is record
+   ACK_GEN_CALL  : IC_ACK_GENERAL_CALL_ACK_GEN_CALL_Field :=
+                    RP2040_SVD.I2C.ENABLED;
+   Reserved_1_31 : HAL.UInt31 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>ACK_GEN_CALL<dd><dt>Reserved_1_31<dd></dl><h4 id=39321512d7b6e104bf01f3f708e54b1107d99b34bd56e6f486baf51308aa6654>IC_CLR_ACTIVITY_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_ACTIVITY_Register is record
+   CLR_ACTIVITY  : Boolean;
+   Reserved_1_31 : HAL.UInt31;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_ACTIVITY<dd><dt>Reserved_1_31<dd></dl><h4 id=2ba0b8ed763b03d4a69d04b804417c4b95206291e72784aa7e20e25d2229a831>IC_CLR_GEN_CALL_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_GEN_CALL_Register is record
+   CLR_GEN_CALL  : Boolean;
+   Reserved_1_31 : HAL.UInt31;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_GEN_CALL<dd><dt>Reserved_1_31<dd></dl><h4 id=a7625da25b60959a4aec84acfeb86afb8fd5ba5c4b7a090e3a6930955a49b579>IC_CLR_INTR_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_INTR_Register is record
+   CLR_INTR      : Boolean;
+   Reserved_1_31 : HAL.UInt31;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_INTR<dd><dt>Reserved_1_31<dd></dl><h4 id=6fe59bbe0711aba1c8df93526655ef78918e5edbde5f9e74962e725691fbc901>IC_CLR_RD_REQ_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_RD_REQ_Register is record
+   CLR_RD_REQ    : Boolean;
+   Reserved_1_31 : HAL.UInt31;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_RD_REQ<dd><dt>Reserved_1_31<dd></dl><h4 id=4dbcac454f4e5852e4553a2974fc8cd1cfa7a440a717c3ae4b0be39d2c0258f4>IC_CLR_RESTART_DET_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_RESTART_DET_Register is record
+   CLR_RESTART_DET : Boolean;
+   Reserved_1_31   : HAL.UInt31;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_RESTART_DET<dd><dt>Reserved_1_31<dd></dl><h4 id=e155fe90d72a87c9f57fb6afed2319c689910e2a37188213a46b87c39f44fc0c>IC_CLR_RX_DONE_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_RX_DONE_Register is record
+   CLR_RX_DONE   : Boolean;
+   Reserved_1_31 : HAL.UInt31;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_RX_DONE<dd><dt>Reserved_1_31<dd></dl><h4 id=22a310a01f0db743245590fed291080df5f23c2e2253c480c8b5e04764a70283>IC_CLR_RX_OVER_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_RX_OVER_Register is record
+   CLR_RX_OVER   : Boolean;
+   Reserved_1_31 : HAL.UInt31;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_RX_OVER<dd><dt>Reserved_1_31<dd></dl><h4 id=79223ba979fc6f033a3d7fa94d3a5e31fe73e3b946c1e1be70dc483917cfe92c>IC_CLR_RX_UNDER_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_RX_UNDER_Register is record
+   CLR_RX_UNDER  : Boolean;
+   Reserved_1_31 : HAL.UInt31;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_RX_UNDER<dd><dt>Reserved_1_31<dd></dl><h4 id=dddc74637cc61fbebcecee6d6ccb51dcef99dc88bd2533959fa41e122a26f272>IC_CLR_START_DET_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_START_DET_Register is record
+   CLR_START_DET : Boolean;
+   Reserved_1_31 : HAL.UInt31;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_START_DET<dd><dt>Reserved_1_31<dd></dl><h4 id=79c68ca759dd9afb926738b7efdf094f0cf953af3699730c54fff776fcaf9d9b>IC_CLR_STOP_DET_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_STOP_DET_Register is record
+   CLR_STOP_DET  : Boolean;
+   Reserved_1_31 : HAL.UInt31;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_STOP_DET<dd><dt>Reserved_1_31<dd></dl><h4 id=70e75ad95ea6e8913c5fcbbaeb4d459ab8eaf330f2054462563022562bee4998>IC_CLR_TX_ABRT_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_TX_ABRT_Register is record
+   CLR_TX_ABRT   : Boolean;
+   Reserved_1_31 : HAL.UInt31;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_TX_ABRT<dd><dt>Reserved_1_31<dd></dl><h4 id=79f84439f22b678ec98177158666673eda53849f4df89310938b828bc66d9bb2>IC_CLR_TX_OVER_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_TX_OVER_Register is record
+   CLR_TX_OVER   : Boolean;
+   Reserved_1_31 : HAL.UInt31;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_TX_OVER<dd><dt>Reserved_1_31<dd></dl><h4 id=e218c339330170a3d4631169e95030138739567b8d7e92af1427d0f531e3d2d9>IC_COMP_PARAM_1_APB_DATA_WIDTH_Field</h4><pre class=ada-code-snippet><code>subtype IC_COMP_PARAM_1_APB_DATA_WIDTH_Field is HAL.UInt2;
+</code></pre><h4 id=04530d34f3dd466740abf067cca6bd5ff6b187fb1ff850748c4dc66bafef6a3a>IC_COMP_PARAM_1_MAX_SPEED_MODE_Field</h4><pre class=ada-code-snippet><code>subtype IC_COMP_PARAM_1_MAX_SPEED_MODE_Field is HAL.UInt2;
+</code></pre><h4 id=239f31ff80915be8be2ead27fd9f9df8964c389df18386901c4a94869e41e984>IC_COMP_PARAM_1_Register</h4><pre class=ada-code-snippet><code>type IC_COMP_PARAM_1_Register is record
+   APB_DATA_WIDTH     : IC_COMP_PARAM_1_APB_DATA_WIDTH_Field;
+   MAX_SPEED_MODE     : IC_COMP_PARAM_1_MAX_SPEED_MODE_Field;
+   HC_COUNT_VALUES    : Boolean;
+   INTR_IO            : Boolean;
+   HAS_DMA            : Boolean;
+   ADD_ENCODED_PARAMS : Boolean;
+   RX_BUFFER_DEPTH    : IC_COMP_PARAM_1_RX_BUFFER_DEPTH_Field;
+   TX_BUFFER_DEPTH    : IC_COMP_PARAM_1_TX_BUFFER_DEPTH_Field;
+   Reserved_24_31     : HAL.UInt8;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>APB_DATA_WIDTH<dd><dt>MAX_SPEED_MODE<dd><dt>HC_COUNT_VALUES<dd><dt>INTR_IO<dd><dt>HAS_DMA<dd><dt>ADD_ENCODED_PARAMS<dd><dt>RX_BUFFER_DEPTH<dd><dt>TX_BUFFER_DEPTH<dd><dt>Reserved_24_31<dd></dl><h4 id=ba64595545bd3d198db0764e343b12142e7f6d627520e5c1bf5700e8f7b5041b>IC_COMP_PARAM_1_RX_BUFFER_DEPTH_Field</h4><pre class=ada-code-snippet><code>subtype IC_COMP_PARAM_1_RX_BUFFER_DEPTH_Field is HAL.UInt8;
+</code></pre><h4 id=98f34b2d2e85bf7e44164445134a77d3af8e11e886446a448223f2a5c63fa0fa>IC_COMP_PARAM_1_TX_BUFFER_DEPTH_Field</h4><pre class=ada-code-snippet><code>subtype IC_COMP_PARAM_1_TX_BUFFER_DEPTH_Field is HAL.UInt8;
+</code></pre><h4 id=c1127d97fe21e52ae81d185bc936a3f08b59d4405fe704caed81e1b355e38064>IC_CON_IC_10BITADDR_MASTER_Field</h4><pre class=ada-code-snippet><code>type IC_CON_IC_10BITADDR_MASTER_Field is
+   ADDR_7BITS,
+   ADDR_10BITS)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ADDR_7BITS<dd><p>Master 10Bit addressing mode<dt>ADDR_10BITS<dd></dl><h4 id=429aee7d12e4d575b1a3f891919843d3040d3907d4c4aad48e89a78e614aaf7e>IC_CON_IC_10BITADDR_SLAVE_Field</h4><pre class=ada-code-snippet><code>type IC_CON_IC_10BITADDR_SLAVE_Field is
+   ADDR_7BITS,
+   ADDR_10BITS)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ADDR_7BITS<dd><p>Slave 10Bit addressing<dt>ADDR_10BITS<dd></dl><h4 id=54d8350c6024bb8a9a3631b2418041d93e09daf17f0c94c36fae81ed9772bc6e>IC_CON_IC_RESTART_EN_Field</h4><pre class=ada-code-snippet><code>type IC_CON_IC_RESTART_EN_Field is
+   DISABLED,
+   ENABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>DISABLED<dd><p>Master restart enabled<dt>ENABLED<dd></dl><h4 id=ce067897c761700fcb6b04b3db60d9e3891fb8a320c2356d0d128b3e30d3e4a1>IC_CON_IC_SLAVE_DISABLE_Field</h4><pre class=ada-code-snippet><code>type IC_CON_IC_SLAVE_DISABLE_Field is
+   SLAVE_ENABLED,
+   SLAVE_DISABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>SLAVE_ENABLED<dd><p>Slave mode is disabled<dt>SLAVE_DISABLED<dd></dl><h4 id=225b6dc96162a40c68ca4f942ab3bf4f0738864dc7b4c0db0fd9ee715f1ef60b>IC_CON_MASTER_MODE_Field</h4><pre class=ada-code-snippet><code>type IC_CON_MASTER_MODE_Field is
+   DISABLED,
+   ENABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>DISABLED<dd><p>Master mode is enabled<dt>ENABLED<dd></dl><h4 id=6197c4f30f41fb571f010a55e6353fc70e0f455f3204df8f884433f142ae7810>IC_CON_Register</h4><pre class=ada-code-snippet><code>type IC_CON_Register is record
+   MASTER_MODE               : IC_CON_MASTER_MODE_Field :=
+                                RP2040_SVD.I2C.ENABLED;
+   SPEED                     : IC_CON_SPEED_Field := RP2040_SVD.I2C.FAST;
+   IC_10BITADDR_SLAVE        : IC_CON_IC_10BITADDR_SLAVE_Field :=
+                                RP2040_SVD.I2C.ADDR_7BITS;
+   IC_10BITADDR_MASTER       : IC_CON_IC_10BITADDR_MASTER_Field :=
+                                RP2040_SVD.I2C.ADDR_7BITS;
+   IC_RESTART_EN             : IC_CON_IC_RESTART_EN_Field :=
+                                RP2040_SVD.I2C.ENABLED;
+   IC_SLAVE_DISABLE          : IC_CON_IC_SLAVE_DISABLE_Field :=
+                                RP2040_SVD.I2C.SLAVE_DISABLED;
+   STOP_DET_IFADDRESSED      : IC_CON_STOP_DET_IFADDRESSED_Field :=
+                                RP2040_SVD.I2C.DISABLED;
+   TX_EMPTY_CTRL             : IC_CON_TX_EMPTY_CTRL_Field :=
+                                RP2040_SVD.I2C.DISABLED;
+   RX_FIFO_FULL_HLD_CTRL     : IC_CON_RX_FIFO_FULL_HLD_CTRL_Field :=
+                                RP2040_SVD.I2C.DISABLED;
+   STOP_DET_IF_MASTER_ACTIVE : Boolean := False;
+   Reserved_11_31            : HAL.UInt21 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>MASTER_MODE<dd><dt>SPEED<dd><dt>IC_10BITADDR_SLAVE<dd><dt>IC_10BITADDR_MASTER<dd><dt>IC_RESTART_EN<dd><dt>IC_SLAVE_DISABLE<dd><dt>STOP_DET_IFADDRESSED<dd><dt>TX_EMPTY_CTRL<dd><dt>RX_FIFO_FULL_HLD_CTRL<dd><dt>STOP_DET_IF_MASTER_ACTIVE<dd><dt>Reserved_11_31<dd></dl><h4 id=488d4fcae4e64f11ca7dcb90e750fdc1f18c7b8f9d540f21928009f97b350d83>IC_CON_RX_FIFO_FULL_HLD_CTRL_Field</h4><pre class=ada-code-snippet><code>type IC_CON_RX_FIFO_FULL_HLD_CTRL_Field is
+   DISABLED,
+   ENABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>DISABLED<dd><p>Hold bus when RX_FIFO is full<dt>ENABLED<dd></dl><h4 id=6ecce714193a2f8fb61e6f9bbe5de78c79531d75e16e5ad06010a140ff630714>IC_CON_SPEED_Field</h4><pre class=ada-code-snippet><code>type IC_CON_SPEED_Field is
+   STANDARD,
+   FAST,
+   HIGH)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>STANDARD<dd><p>Fast or Fast Plus mode of operation<dt>FAST<dd><p>High Speed mode of operation<dt>HIGH<dd></dl><h4 id=5738e707535aa0bb3f46bf4ccf5b3aef0a15df19821dc406e13d2f3475f99a69>IC_CON_STOP_DET_IFADDRESSED_Field</h4><pre class=ada-code-snippet><code>type IC_CON_STOP_DET_IFADDRESSED_Field is
+   DISABLED,
+   ENABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>DISABLED<dd><p>slave issues STOP_DET intr only if addressed<dt>ENABLED<dd></dl><h4 id=9b39f7c5f80d53dd7b8c034f5705dead8817a2f02d59b7df3ae4976dcbac9416>IC_CON_TX_EMPTY_CTRL_Field</h4><pre class=ada-code-snippet><code>type IC_CON_TX_EMPTY_CTRL_Field is
+   DISABLED,
+   ENABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>DISABLED<dd><p>Controlled generation of TX_EMPTY interrupt<dt>ENABLED<dd></dl><h4 id=ff3cb63abaa14af97a054b78ab24743883d4802e73b85599267a22275b1ac360>IC_DATA_CMD_CMD_Field</h4><pre class=ada-code-snippet><code>type IC_DATA_CMD_CMD_Field is
+   WRITE,
+   READ)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>WRITE<dd><p>Master Read Command<dt>READ<dd></dl><h4 id=1d71fd0e1c8e5a2e5a1e41fe0b77f29514334bd751a0ad6eb7ab22ed9ef89269>IC_DATA_CMD_DAT_Field</h4><pre class=ada-code-snippet><code>subtype IC_DATA_CMD_DAT_Field is HAL.UInt8;
+</code></pre><h4 id=e35e5737110c6775b585cf7f12b6b55d3f8805f1ca667147314e12f77cd175a1>IC_DATA_CMD_FIRST_DATA_BYTE_Field</h4><pre class=ada-code-snippet><code>type IC_DATA_CMD_FIRST_DATA_BYTE_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>Non sequential data byte received<dt>ACTIVE<dd></dl><h4 id=668aab90e50ec0915eb3316674562fd0dae3ed20fc7a1f359512094e671a2b68>IC_DATA_CMD_Register</h4><pre class=ada-code-snippet><code>type IC_DATA_CMD_Register is record
+   DAT             : IC_DATA_CMD_DAT_Field := 16#0#;
+   CMD             : IC_DATA_CMD_CMD_Field := RP2040_SVD.I2C.WRITE;
+   STOP            : IC_DATA_CMD_STOP_Field := RP2040_SVD.I2C.DISABLE;
+   RESTART         : IC_DATA_CMD_RESTART_Field := RP2040_SVD.I2C.DISABLE;
+   FIRST_DATA_BYTE : IC_DATA_CMD_FIRST_DATA_BYTE_Field :=
+                      RP2040_SVD.I2C.INACTIVE;
+   Reserved_12_31  : HAL.UInt20 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>DAT<dd><dt>CMD<dd><dt>STOP<dd><dt>RESTART<dd><dt>FIRST_DATA_BYTE<dd><dt>Reserved_12_31<dd></dl><h4 id=1fc0ea0c7d9896c83c2e00bfa5ebfda0909ba12482f9f0f76df19c253b00dcbb>IC_DATA_CMD_RESTART_Field</h4><pre class=ada-code-snippet><code>type IC_DATA_CMD_RESTART_Field is
+   DISABLE,
+   ENABLE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>DISABLE<dd><p>Issue RESTART before this command<dt>ENABLE<dd></dl><h4 id=b22ebaabf77f7120b6ef10c8dd7b2e483ad6c974e54865ab1d124ada7b633685>IC_DATA_CMD_STOP_Field</h4><pre class=ada-code-snippet><code>type IC_DATA_CMD_STOP_Field is
+   DISABLE,
+   ENABLE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>DISABLE<dd><p>Issue STOP after this command<dt>ENABLE<dd></dl><h4 id=8133ed8196112eefd5f32d36f44b1af8c2d2873567a932bfab9265bbbef968e0>IC_DMA_CR_RDMAE_Field</h4><pre class=ada-code-snippet><code>type IC_DMA_CR_RDMAE_Field is
+   DISABLED,
+   ENABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>DISABLED<dd><p>Receive FIFO DMA channel enabled<dt>ENABLED<dd></dl><h4 id=e43387ad2dec53b25ed4b45f2b48bf6864ce0ca991b2e4abc623ac9a3a181776>IC_DMA_CR_Register</h4><pre class=ada-code-snippet><code>type IC_DMA_CR_Register is record
+   RDMAE         : IC_DMA_CR_RDMAE_Field := RP2040_SVD.I2C.DISABLED;
+   TDMAE         : IC_DMA_CR_TDMAE_Field := RP2040_SVD.I2C.DISABLED;
+   Reserved_2_31 : HAL.UInt30 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>RDMAE<dd><dt>TDMAE<dd><dt>Reserved_2_31<dd></dl><h4 id=77662c32c09206fa4319d8d09f444759ca4fca7f6da36c8e657812cb35c1ebca>IC_DMA_CR_TDMAE_Field</h4><pre class=ada-code-snippet><code>type IC_DMA_CR_TDMAE_Field is
+   DISABLED,
+   ENABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>DISABLED<dd><p>Transmit FIFO DMA channel enabled<dt>ENABLED<dd></dl><h4 id=d565b0843cd0f4ffb7e7e9e665d139e0ae3ada82a2658f13daad337f576105d4>IC_DMA_RDLR_DMARDL_Field</h4><pre class=ada-code-snippet><code>subtype IC_DMA_RDLR_DMARDL_Field is HAL.UInt4;
+</code></pre><h4 id=f130df31b8c2ba0b1d129ef4e0dc2ec3b4bd8d8fc6d11232df9030b111cc0024>IC_DMA_RDLR_Register</h4><pre class=ada-code-snippet><code>type IC_DMA_RDLR_Register is record
+   DMARDL        : IC_DMA_RDLR_DMARDL_Field := 16#0#;
+   Reserved_4_31 : HAL.UInt28 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>DMARDL<dd><dt>Reserved_4_31<dd></dl><h4 id=dd7008b610cab62a0d8b374ba472a54f7f7c07145ab9c065a1aee084d7d0acd7>IC_DMA_TDLR_DMATDL_Field</h4><pre class=ada-code-snippet><code>subtype IC_DMA_TDLR_DMATDL_Field is HAL.UInt4;
+</code></pre><h4 id=42fd32e333b2ad1f1ee6e01e78c2d28643b179aa8d8db611c06395107149cce6>IC_DMA_TDLR_Register</h4><pre class=ada-code-snippet><code>type IC_DMA_TDLR_Register is record
+   DMATDL        : IC_DMA_TDLR_DMATDL_Field := 16#0#;
+   Reserved_4_31 : HAL.UInt28 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>DMATDL<dd><dt>Reserved_4_31<dd></dl><h4 id=7f4159a60e4b887970aea186689ffa0fad1436d664efa3eac56ecaf2b73d574c>IC_ENABLE_ABORT_Field</h4><pre class=ada-code-snippet><code>type IC_ENABLE_ABORT_Field is
+   DISABLE,
+   ENABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>DISABLE<dd><p>ABORT operation in progress<dt>ENABLED<dd></dl><h4 id=38e5ab11bd841c8faedb78ca1959351448381bed49a9f1d919e1e9219f99ecb2>IC_ENABLE_ENABLE_Field</h4><pre class=ada-code-snippet><code>type IC_ENABLE_ENABLE_Field is
+   DISABLED,
+   ENABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>DISABLED<dd><p>I2C is enabled<dt>ENABLED<dd></dl><h4 id=35df0fa9b08d861ea9becdece2ac78ab2bb0812b8a9b6b657e6f4ef49709334c>IC_ENABLE_Register</h4><pre class=ada-code-snippet><code>type IC_ENABLE_Register is record
+   ENABLE        : IC_ENABLE_ENABLE_Field := RP2040_SVD.I2C.DISABLED;
+   ABORT_k       : IC_ENABLE_ABORT_Field := RP2040_SVD.I2C.DISABLE;
+   TX_CMD_BLOCK  : IC_ENABLE_TX_CMD_BLOCK_Field :=
+                    RP2040_SVD.I2C.NOT_BLOCKED;
+   Reserved_3_31 : HAL.UInt29 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>ENABLE<dd><dt>ABORT_k<dd><dt>TX_CMD_BLOCK<dd><dt>Reserved_3_31<dd></dl><h4 id=8a6aa4c8f546a10ee17f6778add85645254ff5c47db8768264ae525ab951c0fe>IC_ENABLE_STATUS_IC_EN_Field</h4><pre class=ada-code-snippet><code>type IC_ENABLE_STATUS_IC_EN_Field is
+   DISABLED,
+   ENABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>DISABLED<dd><p>I2C enabled<dt>ENABLED<dd></dl><h4 id=ca835cf56298b194eb6ed86be658437098bbb0a53999fd1fc4e1fec5e71986b4>IC_ENABLE_STATUS_Register</h4><pre class=ada-code-snippet><code>type IC_ENABLE_STATUS_Register is record
+   IC_EN                   : IC_ENABLE_STATUS_IC_EN_Field;
+   SLV_DISABLED_WHILE_BUSY : IC_ENABLE_STATUS_SLV_DISABLED_WHILE_BUSY_Field;
+   SLV_RX_DATA_LOST        : IC_ENABLE_STATUS_SLV_RX_DATA_LOST_Field;
+   Reserved_3_31           : HAL.UInt29;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>IC_EN<dd><dt>SLV_DISABLED_WHILE_BUSY<dd><dt>SLV_RX_DATA_LOST<dd><dt>Reserved_3_31<dd></dl><h4 id=f5e83b68db13ce19ae4bab80de5a7b8d7dbbd17dd7b42a188c87f76fa808d4f6>IC_ENABLE_STATUS_SLV_DISABLED_WHILE_BUSY_Field</h4><pre class=ada-code-snippet><code>type IC_ENABLE_STATUS_SLV_DISABLED_WHILE_BUSY_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>Slave is disabled when it is active<dt>ACTIVE<dd></dl><h4 id=d72d40ab965af1fe545e8885047a72473d5ac7d83427e8d789117e6dc9c2fca6>IC_ENABLE_STATUS_SLV_RX_DATA_LOST_Field</h4><pre class=ada-code-snippet><code>type IC_ENABLE_STATUS_SLV_RX_DATA_LOST_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>Slave RX Data is lost<dt>ACTIVE<dd></dl><h4 id=5ef18be622ee0770a3f03722346da536c6d1c4c63a714927fbec193970229d0f>IC_ENABLE_TX_CMD_BLOCK_Field</h4><pre class=ada-code-snippet><code>type IC_ENABLE_TX_CMD_BLOCK_Field is
+   NOT_BLOCKED,
+   BLOCKED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>NOT_BLOCKED<dd><p>Tx Command execution blocked<dt>BLOCKED<dd></dl><h4 id=6a59895f997c6f21b8de3c0b33f4c4e059291968968490d546649a046049866b>IC_FS_SCL_HCNT_IC_FS_SCL_HCNT_Field</h4><pre class=ada-code-snippet><code>subtype IC_FS_SCL_HCNT_IC_FS_SCL_HCNT_Field is HAL.UInt16;
+</code></pre><h4 id=114507d7f11875ea87e2a0cda57bba258708061534fdf83d8d179bbae2e09243>IC_FS_SCL_HCNT_Register</h4><pre class=ada-code-snippet><code>type IC_FS_SCL_HCNT_Register is record
+   IC_FS_SCL_HCNT : IC_FS_SCL_HCNT_IC_FS_SCL_HCNT_Field := 16#6#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>IC_FS_SCL_HCNT<dd><dt>Reserved_16_31<dd></dl><h4 id=a3cc622b4ad2548bfe185d209e60b276d411d0f905fd092174cbfd35bbb2366b>IC_FS_SCL_LCNT_IC_FS_SCL_LCNT_Field</h4><pre class=ada-code-snippet><code>subtype IC_FS_SCL_LCNT_IC_FS_SCL_LCNT_Field is HAL.UInt16;
+</code></pre><h4 id=25619f95b2b545f7c824207d8cae46c035f0567503beb69c59b13790e400ed03>IC_FS_SCL_LCNT_Register</h4><pre class=ada-code-snippet><code>type IC_FS_SCL_LCNT_Register is record
+   IC_FS_SCL_LCNT : IC_FS_SCL_LCNT_IC_FS_SCL_LCNT_Field := 16#D#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>IC_FS_SCL_LCNT<dd><dt>Reserved_16_31<dd></dl><h4 id=bf87df9f060343614e70c974999d9e7a2b597e961b878110b07377b9f62881a7>IC_FS_SPKLEN_IC_FS_SPKLEN_Field</h4><pre class=ada-code-snippet><code>subtype IC_FS_SPKLEN_IC_FS_SPKLEN_Field is HAL.UInt8;
+</code></pre><h4 id=2e31cf9f853223e86411c69ddc66ae8f8d39bdd814f0f030e814c7dac02ef1b6>IC_FS_SPKLEN_Register</h4><pre class=ada-code-snippet><code>type IC_FS_SPKLEN_Register is record
+   IC_FS_SPKLEN  : IC_FS_SPKLEN_IC_FS_SPKLEN_Field := 16#7#;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>IC_FS_SPKLEN<dd><dt>Reserved_8_31<dd></dl><h4 id=76ea40aa4605f814ffb0eeabcefce9faa6cc8099c7c39446daf31db03b9ca899>IC_INTR_MASK_M_ACTIVITY_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_MASK_M_ACTIVITY_Field is
+   ENABLED,
+   DISABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ENABLED<dd><p>ACTIVITY interrupt is unmasked<dt>DISABLED<dd></dl><h4 id=0f9de9179cb8cbc1fea66e2ac690b33477507845c7e01c66465e0201d6058d71>IC_INTR_MASK_M_GEN_CALL_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_MASK_M_GEN_CALL_Field is
+   ENABLED,
+   DISABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ENABLED<dd><p>GEN_CALL interrupt is unmasked<dt>DISABLED<dd></dl><h4 id=b5c3b85281224ee3f04e0e42d5e03f4c1047a21d10331fa0f5846d9a23891815>IC_INTR_MASK_M_RD_REQ_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_MASK_M_RD_REQ_Field is
+   ENABLED,
+   DISABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ENABLED<dd><p>RD_REQ interrupt is unmasked<dt>DISABLED<dd></dl><h4 id=fbba51b12fc1e1600d47bffdcfbfc026dcc9901a410f38da83e3676fd246acaa>IC_INTR_MASK_M_RESTART_DET_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_MASK_M_RESTART_DET_Field is
+   ENABLED,
+   DISABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ENABLED<dd><p>RESTART_DET interrupt is unmasked<dt>DISABLED<dd></dl><h4 id=11c6e63679e6a53eda943a546019e6d80cb084cc266fd14e9cd366d4d4d8bd03>IC_INTR_MASK_M_RX_DONE_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_MASK_M_RX_DONE_Field is
+   ENABLED,
+   DISABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ENABLED<dd><p>RX_DONE interrupt is unmasked<dt>DISABLED<dd></dl><h4 id=de8f37f68860c21cc3a07f8531f58c5f637db88fd3249d25bdd922ced73a398a>IC_INTR_MASK_M_RX_FULL_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_MASK_M_RX_FULL_Field is
+   ENABLED,
+   DISABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ENABLED<dd><p>RX_FULL interrupt is unmasked<dt>DISABLED<dd></dl><h4 id=4b6d306199f5a82911bbc1cf7e2daa5b39160aa20c1b0e69e67d49d911c70bca>IC_INTR_MASK_M_RX_OVER_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_MASK_M_RX_OVER_Field is
+   ENABLED,
+   DISABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ENABLED<dd><p>RX_OVER interrupt is unmasked<dt>DISABLED<dd></dl><h4 id=f4ed92b9b6068e36c9977e303f123050fe1a0df0bc91c2447d1c08ae9cd6aa80>IC_INTR_MASK_M_RX_UNDER_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_MASK_M_RX_UNDER_Field is
+   ENABLED,
+   DISABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ENABLED<dd><p>RX_UNDER interrupt is unmasked<dt>DISABLED<dd></dl><h4 id=f0bee231fc320553195279ed5fc29ced68c702d80d4426bfa5e6cfcd235f4ddb>IC_INTR_MASK_M_START_DET_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_MASK_M_START_DET_Field is
+   ENABLED,
+   DISABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ENABLED<dd><p>START_DET interrupt is unmasked<dt>DISABLED<dd></dl><h4 id=e72bc2520a229edb8091217600356ae8395d650982fa9608067e16c88e7f82cd>IC_INTR_MASK_M_STOP_DET_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_MASK_M_STOP_DET_Field is
+   ENABLED,
+   DISABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ENABLED<dd><p>STOP_DET interrupt is unmasked<dt>DISABLED<dd></dl><h4 id=37745216504cbf7eb07fc96d8b2ef6fba3d669bc51d50877593bef8a582d812d>IC_INTR_MASK_M_TX_ABRT_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_MASK_M_TX_ABRT_Field is
+   ENABLED,
+   DISABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ENABLED<dd><p>TX_ABORT interrupt is unmasked<dt>DISABLED<dd></dl><h4 id=b5b3f29cc16b8d70ba0dadbb7c92265cff43bf7d8ec8c9911f1500eb4123de7b>IC_INTR_MASK_M_TX_EMPTY_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_MASK_M_TX_EMPTY_Field is
+   ENABLED,
+   DISABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ENABLED<dd><p>TX_EMPTY interrupt is unmasked<dt>DISABLED<dd></dl><h4 id=b1608b59e8a2e87cfeea8f8e9627caaed2a8e94aaffb86bee5cfc7b3dbc98c53>IC_INTR_MASK_M_TX_OVER_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_MASK_M_TX_OVER_Field is
+   ENABLED,
+   DISABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ENABLED<dd><p>TX_OVER interrupt is unmasked<dt>DISABLED<dd></dl><h4 id=61437748c2b83419ff6b15a4678eb1c4e465ecc52184d1c5d906785fc0480cb9>IC_INTR_MASK_Register</h4><pre class=ada-code-snippet><code>type IC_INTR_MASK_Register is record
+   M_RX_UNDER     : IC_INTR_MASK_M_RX_UNDER_Field :=
+                     RP2040_SVD.I2C.DISABLED;
+   M_RX_OVER      : IC_INTR_MASK_M_RX_OVER_Field :=
+                     RP2040_SVD.I2C.DISABLED;
+   M_RX_FULL      : IC_INTR_MASK_M_RX_FULL_Field :=
+                     RP2040_SVD.I2C.DISABLED;
+   M_TX_OVER      : IC_INTR_MASK_M_TX_OVER_Field :=
+                     RP2040_SVD.I2C.DISABLED;
+   M_TX_EMPTY     : IC_INTR_MASK_M_TX_EMPTY_Field :=
+                     RP2040_SVD.I2C.DISABLED;
+   M_RD_REQ       : IC_INTR_MASK_M_RD_REQ_Field :=
+                     RP2040_SVD.I2C.DISABLED;
+   M_TX_ABRT      : IC_INTR_MASK_M_TX_ABRT_Field :=
+                     RP2040_SVD.I2C.DISABLED;
+   M_RX_DONE      : IC_INTR_MASK_M_RX_DONE_Field :=
+                     RP2040_SVD.I2C.DISABLED;
+   M_ACTIVITY     : IC_INTR_MASK_M_ACTIVITY_Field :=
+                     RP2040_SVD.I2C.ENABLED;
+   M_STOP_DET     : IC_INTR_MASK_M_STOP_DET_Field :=
+                     RP2040_SVD.I2C.ENABLED;
+   M_START_DET    : IC_INTR_MASK_M_START_DET_Field :=
+                     RP2040_SVD.I2C.ENABLED;
+   M_GEN_CALL     : IC_INTR_MASK_M_GEN_CALL_Field :=
+                     RP2040_SVD.I2C.DISABLED;
+   M_RESTART_DET  : IC_INTR_MASK_M_RESTART_DET_Field :=
+                     RP2040_SVD.I2C.ENABLED;
+   Reserved_13_31 : HAL.UInt19 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>M_RX_UNDER<dd><dt>M_RX_OVER<dd><dt>M_RX_FULL<dd><dt>M_TX_OVER<dd><dt>M_TX_EMPTY<dd><dt>M_RD_REQ<dd><dt>M_TX_ABRT<dd><dt>M_RX_DONE<dd><dt>M_ACTIVITY<dd><dt>M_STOP_DET<dd><dt>M_START_DET<dd><dt>M_GEN_CALL<dd><dt>M_RESTART_DET<dd><dt>Reserved_13_31<dd></dl><h4 id=64a391df15b82f895493261bb5c4eca4e35d5c30c2cff8e1f04518f5ac7825ec>IC_INTR_STAT_R_ACTIVITY_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_STAT_R_ACTIVITY_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>R_ACTIVITY interrupt is active<dt>ACTIVE<dd></dl><h4 id=77617aa7b6754138052cc33ce0b9425523f87e7d86e65b3b4d441c95aeb118e7>IC_INTR_STAT_R_GEN_CALL_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_STAT_R_GEN_CALL_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>R_GEN_CALL interrupt is active<dt>ACTIVE<dd></dl><h4 id=ea56165cc48a65ef6dd9a9f06c560faa322cbbec08bdaf952a1220fbc5cec9d3>IC_INTR_STAT_R_RD_REQ_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_STAT_R_RD_REQ_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>R_RD_REQ interrupt is active<dt>ACTIVE<dd></dl><h4 id=fa0854308835a2e83c84bc25852f1dc2966e2bcc11379ade7537d943ce72dae2>IC_INTR_STAT_R_RESTART_DET_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_STAT_R_RESTART_DET_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>R_RESTART_DET interrupt is active<dt>ACTIVE<dd></dl><h4 id=587a75c99ab178b22b155c277384b8b34c0a70165efcb29074f6851e6fe03393>IC_INTR_STAT_R_RX_DONE_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_STAT_R_RX_DONE_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>R_RX_DONE interrupt is active<dt>ACTIVE<dd></dl><h4 id=0a7dac9690bdbef9b794b952b7c51f9dcd73113bac9d01e609a84a3ea5e4dedb>IC_INTR_STAT_R_RX_FULL_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_STAT_R_RX_FULL_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>R_RX_FULL interrupt is active<dt>ACTIVE<dd></dl><h4 id=48e3a1473573db02cb6a5b6f8ed54ada72489e4a3856a429742bc9e71a835fc7>IC_INTR_STAT_R_RX_OVER_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_STAT_R_RX_OVER_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>R_RX_OVER interrupt is active<dt>ACTIVE<dd></dl><h4 id=74c4d0d767a0c16d1dd6bf9820aa10762675dac3c44af571b0ddb614946ccd6e>IC_INTR_STAT_R_RX_UNDER_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_STAT_R_RX_UNDER_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>RX_UNDER interrupt is active<dt>ACTIVE<dd></dl><h4 id=212267a87f09818e38ba9fe09d57061b4c661af739079fcc050085251a8a2c23>IC_INTR_STAT_R_START_DET_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_STAT_R_START_DET_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>R_START_DET interrupt is active<dt>ACTIVE<dd></dl><h4 id=65af7a814096f63badfd077caab133bf6c78ea1435bf871b44496803a73e42ed>IC_INTR_STAT_R_STOP_DET_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_STAT_R_STOP_DET_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>R_STOP_DET interrupt is active<dt>ACTIVE<dd></dl><h4 id=a8e62de952595f51c7582f9b20dd2788682a006921d03eb15fb263358451e947>IC_INTR_STAT_R_TX_ABRT_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_STAT_R_TX_ABRT_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>R_TX_ABRT interrupt is active<dt>ACTIVE<dd></dl><h4 id=f2f47b46ec1dbc7d658744fe636474ee4bf36de32f374315fc0b71ee989fa0e3>IC_INTR_STAT_R_TX_EMPTY_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_STAT_R_TX_EMPTY_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>R_TX_EMPTY interrupt is active<dt>ACTIVE<dd></dl><h4 id=f428b5a206b05f011ce79e7c18a404ed7cf2858577519cfe03b2ec42889df6ae>IC_INTR_STAT_R_TX_OVER_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_STAT_R_TX_OVER_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>R_TX_OVER interrupt is active<dt>ACTIVE<dd></dl><h4 id=ce807967716313d8fa9540689aaf93db6c704bc44a2cb4009e823fac0e8ce884>IC_INTR_STAT_Register</h4><pre class=ada-code-snippet><code>type IC_INTR_STAT_Register is record
+   R_RX_UNDER     : IC_INTR_STAT_R_RX_UNDER_Field;
+   R_RX_OVER      : IC_INTR_STAT_R_RX_OVER_Field;
+   R_RX_FULL      : IC_INTR_STAT_R_RX_FULL_Field;
+   R_TX_OVER      : IC_INTR_STAT_R_TX_OVER_Field;
+   R_TX_EMPTY     : IC_INTR_STAT_R_TX_EMPTY_Field;
+   R_RD_REQ       : IC_INTR_STAT_R_RD_REQ_Field;
+   R_TX_ABRT      : IC_INTR_STAT_R_TX_ABRT_Field;
+   R_RX_DONE      : IC_INTR_STAT_R_RX_DONE_Field;
+   R_ACTIVITY     : IC_INTR_STAT_R_ACTIVITY_Field;
+   R_STOP_DET     : IC_INTR_STAT_R_STOP_DET_Field;
+   R_START_DET    : IC_INTR_STAT_R_START_DET_Field;
+   R_GEN_CALL     : IC_INTR_STAT_R_GEN_CALL_Field;
+   R_RESTART_DET  : IC_INTR_STAT_R_RESTART_DET_Field;
+   Reserved_13_31 : HAL.UInt19;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>R_RX_UNDER<dd><dt>R_RX_OVER<dd><dt>R_RX_FULL<dd><dt>R_TX_OVER<dd><dt>R_TX_EMPTY<dd><dt>R_RD_REQ<dd><dt>R_TX_ABRT<dd><dt>R_RX_DONE<dd><dt>R_ACTIVITY<dd><dt>R_STOP_DET<dd><dt>R_START_DET<dd><dt>R_GEN_CALL<dd><dt>R_RESTART_DET<dd><dt>Reserved_13_31<dd></dl><h4 id=cce42c273c8e6351ee31ce029e5fb3b0888ea1d36c0b5f0639928b7f2c17ec20>IC_RAW_INTR_STAT_ACTIVITY_Field</h4><pre class=ada-code-snippet><code>type IC_RAW_INTR_STAT_ACTIVITY_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>RAW_INTR_ACTIVITY interrupt is active<dt>ACTIVE<dd></dl><h4 id=f428bf8ed4b8bc83d88efd100e3d50f058487979b92c9657800490798f5c17bf>IC_RAW_INTR_STAT_GEN_CALL_Field</h4><pre class=ada-code-snippet><code>type IC_RAW_INTR_STAT_GEN_CALL_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>GEN_CALL interrupt is active<dt>ACTIVE<dd></dl><h4 id=c56afac0a5461515cf281eeec8ec6f8033d39e9c5b91c7fdaac308a7d5185c74>IC_RAW_INTR_STAT_RD_REQ_Field</h4><pre class=ada-code-snippet><code>type IC_RAW_INTR_STAT_RD_REQ_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>RD_REQ interrupt is active<dt>ACTIVE<dd></dl><h4 id=d26a873fc3f2b5a4badd0bc0983194f94f54e2a550e3ac071baedf4426d2167c>IC_RAW_INTR_STAT_Register</h4><pre class=ada-code-snippet><code>type IC_RAW_INTR_STAT_Register is record
+   RX_UNDER       : IC_RAW_INTR_STAT_RX_UNDER_Field;
+   RX_OVER        : IC_RAW_INTR_STAT_RX_OVER_Field;
+   RX_FULL        : IC_RAW_INTR_STAT_RX_FULL_Field;
+   TX_OVER        : IC_RAW_INTR_STAT_TX_OVER_Field;
+   TX_EMPTY       : IC_RAW_INTR_STAT_TX_EMPTY_Field;
+   RD_REQ         : IC_RAW_INTR_STAT_RD_REQ_Field;
+   TX_ABRT        : IC_RAW_INTR_STAT_TX_ABRT_Field;
+   RX_DONE        : IC_RAW_INTR_STAT_RX_DONE_Field;
+   ACTIVITY       : IC_RAW_INTR_STAT_ACTIVITY_Field;
+   STOP_DET       : IC_RAW_INTR_STAT_STOP_DET_Field;
+   START_DET      : IC_RAW_INTR_STAT_START_DET_Field;
+   GEN_CALL       : IC_RAW_INTR_STAT_GEN_CALL_Field;
+   RESTART_DET    : IC_RAW_INTR_STAT_RESTART_DET_Field;
+   Reserved_13_31 : HAL.UInt19;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>RX_UNDER<dd><dt>RX_OVER<dd><dt>RX_FULL<dd><dt>TX_OVER<dd><dt>TX_EMPTY<dd><dt>RD_REQ<dd><dt>TX_ABRT<dd><dt>RX_DONE<dd><dt>ACTIVITY<dd><dt>STOP_DET<dd><dt>START_DET<dd><dt>GEN_CALL<dd><dt>RESTART_DET<dd><dt>Reserved_13_31<dd></dl><h4 id=cdfb34e1983f4bfc3336809199c513b6977ac1eb67765ace867d1cb35031237f>IC_RAW_INTR_STAT_RESTART_DET_Field</h4><pre class=ada-code-snippet><code>type IC_RAW_INTR_STAT_RESTART_DET_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>RESTART_DET interrupt is active<dt>ACTIVE<dd></dl><h4 id=862aa26bb67212cd67ee14ed580c6d06c8f3412f7825317828359578341a5300>IC_RAW_INTR_STAT_RX_DONE_Field</h4><pre class=ada-code-snippet><code>type IC_RAW_INTR_STAT_RX_DONE_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>RX_DONE interrupt is active<dt>ACTIVE<dd></dl><h4 id=11433c24943c39b98f5b57054868ad2c4f9d119cd23531b81e5e397df842963e>IC_RAW_INTR_STAT_RX_FULL_Field</h4><pre class=ada-code-snippet><code>type IC_RAW_INTR_STAT_RX_FULL_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>RX_FULL interrupt is active<dt>ACTIVE<dd></dl><h4 id=d874fc3ed83d712e209a70dbac8100ae541d4f1dc08bf2296944cbb832e62899>IC_RAW_INTR_STAT_RX_OVER_Field</h4><pre class=ada-code-snippet><code>type IC_RAW_INTR_STAT_RX_OVER_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>RX_OVER interrupt is active<dt>ACTIVE<dd></dl><h4 id=c20b2e76c96acc3696b9e88294a60ea34d445e0431588127b8f470e31471a527>IC_RAW_INTR_STAT_RX_UNDER_Field</h4><pre class=ada-code-snippet><code>type IC_RAW_INTR_STAT_RX_UNDER_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>RX_UNDER interrupt is active<dt>ACTIVE<dd></dl><h4 id=5a79937e0184c83383384cb1ae24200b5b2759eca09c0482d6be86fd2069f099>IC_RAW_INTR_STAT_START_DET_Field</h4><pre class=ada-code-snippet><code>type IC_RAW_INTR_STAT_START_DET_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>START_DET interrupt is active<dt>ACTIVE<dd></dl><h4 id=3d336d8a94a50f6e7796ff74c514c008d1496bdbf778fd83996697dbe99df2d4>IC_RAW_INTR_STAT_STOP_DET_Field</h4><pre class=ada-code-snippet><code>type IC_RAW_INTR_STAT_STOP_DET_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>STOP_DET interrupt is active<dt>ACTIVE<dd></dl><h4 id=3d1695a3fdadadb29789d353ef40452408a87b11addeee8c455e0b3d681babf7>IC_RAW_INTR_STAT_TX_ABRT_Field</h4><pre class=ada-code-snippet><code>type IC_RAW_INTR_STAT_TX_ABRT_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>TX_ABRT interrupt is active<dt>ACTIVE<dd></dl><h4 id=e486bbb05f5b7f3c89ed7473eca15a85157b5e1f7b384d761a86cd281f250b86>IC_RAW_INTR_STAT_TX_EMPTY_Field</h4><pre class=ada-code-snippet><code>type IC_RAW_INTR_STAT_TX_EMPTY_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>TX_EMPTY interrupt is active<dt>ACTIVE<dd></dl><h4 id=b1b72f412266ed528111e309d6b8f41b547857084717012c19602deb645f4014>IC_RAW_INTR_STAT_TX_OVER_Field</h4><pre class=ada-code-snippet><code>type IC_RAW_INTR_STAT_TX_OVER_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>TX_OVER interrupt is active<dt>ACTIVE<dd></dl><h4 id=82194a6640681671c8fe536909de0ba3599d26ca409a90d5998de1bdd5504607>IC_RX_TL_Register</h4><pre class=ada-code-snippet><code>type IC_RX_TL_Register is record
+   RX_TL         : IC_RX_TL_RX_TL_Field := 16#0#;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>RX_TL<dd><dt>Reserved_8_31<dd></dl><h4 id=7ed33f203a6e4dfe52bd36f327fdc32a904e3ea9e843ce662d1915ddd880710b>IC_RX_TL_RX_TL_Field</h4><pre class=ada-code-snippet><code>subtype IC_RX_TL_RX_TL_Field is HAL.UInt8;
+</code></pre><h4 id=db3d21eca55bc1a066e24f611f8324925d3b5cfac87edfc1066a5dab02791cca>IC_RXFLR_Register</h4><pre class=ada-code-snippet><code>type IC_RXFLR_Register is record
+   RXFLR         : IC_RXFLR_RXFLR_Field;
+   Reserved_5_31 : HAL.UInt27;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>RXFLR<dd><dt>Reserved_5_31<dd></dl><h4 id=e8a0e301d000896dae030cc9a51f997dfef59994a827e04cec0303a827195860>IC_RXFLR_RXFLR_Field</h4><pre class=ada-code-snippet><code>subtype IC_RXFLR_RXFLR_Field is HAL.UInt5;
+</code></pre><h4 id=a3cd5b04fb1c13e0d984754c1111d05e30711d399dd9bc63944cf65d3e481b7b>IC_SAR_IC_SAR_Field</h4><pre class=ada-code-snippet><code>subtype IC_SAR_IC_SAR_Field is HAL.UInt10;
+</code></pre><h4 id=c0dd06a0a3cf07e2e520fdf2de28167c51e6ec64c8aa2d9d53d4c928ff160db1>IC_SAR_Register</h4><pre class=ada-code-snippet><code>type IC_SAR_Register is record
+   IC_SAR         : IC_SAR_IC_SAR_Field := 16#55#;
+   Reserved_10_31 : HAL.UInt22 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>IC_SAR<dd><dt>Reserved_10_31<dd></dl><h4 id=1ea30d4554f6dc19fba78c34932065d61e251794958f0d447a1c44ece4e928e4>IC_SDA_HOLD_IC_SDA_RX_HOLD_Field</h4><pre class=ada-code-snippet><code>subtype IC_SDA_HOLD_IC_SDA_RX_HOLD_Field is HAL.UInt8;
+</code></pre><h4 id=f4ce4441dd44a1df53d5310225bd80f1d5831845ea3fe4a571489345e2fe15be>IC_SDA_HOLD_IC_SDA_TX_HOLD_Field</h4><pre class=ada-code-snippet><code>subtype IC_SDA_HOLD_IC_SDA_TX_HOLD_Field is HAL.UInt16;
+</code></pre><h4 id=c12c8ba450abab0a9476ae960020eed660e75ed765b97ad777a7c695d4b82f68>IC_SDA_HOLD_Register</h4><pre class=ada-code-snippet><code>type IC_SDA_HOLD_Register is record
+   IC_SDA_TX_HOLD : IC_SDA_HOLD_IC_SDA_TX_HOLD_Field := 16#1#;
+   IC_SDA_RX_HOLD : IC_SDA_HOLD_IC_SDA_RX_HOLD_Field := 16#0#;
+   Reserved_24_31 : HAL.UInt8 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>IC_SDA_TX_HOLD<dd><dt>IC_SDA_RX_HOLD<dd><dt>Reserved_24_31<dd></dl><h4 id=23dd904e184f5ffbefe53d6223dcd17c9e416596522b812da5f1b58915790bb6>IC_SDA_SETUP_Register</h4><pre class=ada-code-snippet><code>type IC_SDA_SETUP_Register is record
+   SDA_SETUP     : IC_SDA_SETUP_SDA_SETUP_Field := 16#64#;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>SDA_SETUP<dd><dt>Reserved_8_31<dd></dl><h4 id=6dea31591629d9d3445b39fe1331072115da8e9809bcb171e5c59d28535cc0c4>IC_SDA_SETUP_SDA_SETUP_Field</h4><pre class=ada-code-snippet><code>subtype IC_SDA_SETUP_SDA_SETUP_Field is HAL.UInt8;
+</code></pre><h4 id=7752b2b79633ba359a119c406edb96999015aa4e9a2a9e0186152477c2481e2b>IC_SLV_DATA_NACK_ONLY_NACK_Field</h4><pre class=ada-code-snippet><code>type IC_SLV_DATA_NACK_ONLY_NACK_Field is
+   DISABLED,
+   ENABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>DISABLED<dd><p>Slave receiver generates NACK upon data reception only<dt>ENABLED<dd></dl><h4 id=969457c45a5693a383c6e987c7065d7949c61a670f26e2f368e2bf00af5b422d>IC_SLV_DATA_NACK_ONLY_Register</h4><pre class=ada-code-snippet><code>type IC_SLV_DATA_NACK_ONLY_Register is record
+   NACK          : IC_SLV_DATA_NACK_ONLY_NACK_Field :=
+                    RP2040_SVD.I2C.DISABLED;
+   Reserved_1_31 : HAL.UInt31 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>NACK<dd><dt>Reserved_1_31<dd></dl><h4 id=e2d5ef7cbd7f6f1aa43f8d96b13311cb7afb90c449013e122dd27fbd21ccf0d2>IC_SS_SCL_HCNT_IC_SS_SCL_HCNT_Field</h4><pre class=ada-code-snippet><code>subtype IC_SS_SCL_HCNT_IC_SS_SCL_HCNT_Field is HAL.UInt16;
+</code></pre><h4 id=427b46b6223202648cbd02d2f2ff841ca518a105e50cd1223af933da71034fa8>IC_SS_SCL_HCNT_Register</h4><pre class=ada-code-snippet><code>type IC_SS_SCL_HCNT_Register is record
+   IC_SS_SCL_HCNT : IC_SS_SCL_HCNT_IC_SS_SCL_HCNT_Field := 16#28#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>IC_SS_SCL_HCNT<dd><dt>Reserved_16_31<dd></dl><h4 id=1a39cafb39df0896b54429e6dbae3e4d98e78a94a31e357c84142e398c6b5499>IC_SS_SCL_LCNT_IC_SS_SCL_LCNT_Field</h4><pre class=ada-code-snippet><code>subtype IC_SS_SCL_LCNT_IC_SS_SCL_LCNT_Field is HAL.UInt16;
+</code></pre><h4 id=5b32f7a93d3ae48f33727b97c0bcdfeb79bdb71e61c266564dea14c9c1c973c9>IC_SS_SCL_LCNT_Register</h4><pre class=ada-code-snippet><code>type IC_SS_SCL_LCNT_Register is record
+   IC_SS_SCL_LCNT : IC_SS_SCL_LCNT_IC_SS_SCL_LCNT_Field := 16#2F#;
+   Reserved_16_31 : HAL.UInt16 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>IC_SS_SCL_LCNT<dd><dt>Reserved_16_31<dd></dl><h4 id=4bdd0f39c3faea147f6c1b73a82197626bcb9e67aed069a000488a616a732345>IC_STATUS_ACTIVITY_Field</h4><pre class=ada-code-snippet><code>type IC_STATUS_ACTIVITY_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>I2C is active<dt>ACTIVE<dd></dl><h4 id=b3831bd6e5277bed4644eca17d24e9b9dfdf78a2fe2a80b840eb15addb936f1b>IC_STATUS_MST_ACTIVITY_Field</h4><pre class=ada-code-snippet><code>type IC_STATUS_MST_ACTIVITY_Field is
+   IDLE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>IDLE<dd><p>Master not idle<dt>ACTIVE<dd></dl><h4 id=aa6ea03684d5b1baa88a0a14f4a2246f98d5d718b0c857463131bdccc42177c4>IC_STATUS_Register</h4><pre class=ada-code-snippet><code>type IC_STATUS_Register is record
+   ACTIVITY      : IC_STATUS_ACTIVITY_Field;
+   TFNF          : IC_STATUS_TFNF_Field;
+   TFE           : IC_STATUS_TFE_Field;
+   RFNE          : IC_STATUS_RFNE_Field;
+   RFF           : IC_STATUS_RFF_Field;
+   MST_ACTIVITY  : IC_STATUS_MST_ACTIVITY_Field;
+   SLV_ACTIVITY  : IC_STATUS_SLV_ACTIVITY_Field;
+   Reserved_7_31 : HAL.UInt25;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>ACTIVITY<dd><dt>TFNF<dd><dt>TFE<dd><dt>RFNE<dd><dt>RFF<dd><dt>MST_ACTIVITY<dd><dt>SLV_ACTIVITY<dd><dt>Reserved_7_31<dd></dl><h4 id=245fbc8100d1f8e3d199880ebd9119cdf190e05eaa892d4cf67cac2565f1cc79>IC_STATUS_RFF_Field</h4><pre class=ada-code-snippet><code>type IC_STATUS_RFF_Field is
+   NOT_FULL,
+   FULL)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>NOT_FULL<dd><p>Rx FIFO is full<dt>FULL<dd></dl><h4 id=972b6ad20984f62cc2ed368b276b30d871759c00843138206eb3d7f1dc7cc49f>IC_STATUS_RFNE_Field</h4><pre class=ada-code-snippet><code>type IC_STATUS_RFNE_Field is
+   EMPTY,
+   NOT_EMPTY)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>EMPTY<dd><p>Rx FIFO not empty<dt>NOT_EMPTY<dd></dl><h4 id=4f10083275f354d28623bdf1ce6ec3a087562fe292c71a310ded57f16c3ce25e>IC_STATUS_SLV_ACTIVITY_Field</h4><pre class=ada-code-snippet><code>type IC_STATUS_SLV_ACTIVITY_Field is
+   IDLE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>IDLE<dd><p>Slave not idle<dt>ACTIVE<dd></dl><h4 id=ae0c743c6c922b825fd91408dc7a50dbc8676f42edcc6d1cb0a35d217712702b>IC_STATUS_TFE_Field</h4><pre class=ada-code-snippet><code>type IC_STATUS_TFE_Field is
+   NON_EMPTY,
+   EMPTY)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>NON_EMPTY<dd><p>Tx FIFO is empty<dt>EMPTY<dd></dl><h4 id=90959c365f8f79d25bfe9e9128eb3bc2fc8c718bf5cf1614086263f1baade641>IC_STATUS_TFNF_Field</h4><pre class=ada-code-snippet><code>type IC_STATUS_TFNF_Field is
+   FULL,
+   NOT_FULL)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>FULL<dd><p>Tx FIFO not full<dt>NOT_FULL<dd></dl><h4 id=1cd2dfe5aa381e7cdb7b6e906c1612cf3990969fb9b2984bde0b535994354958>IC_TAR_GC_OR_START_Field</h4><pre class=ada-code-snippet><code>type IC_TAR_GC_OR_START_Field is
+   GENERAL_CALL,
+   START_BYTE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>GENERAL_CALL<dd><p>START byte transmission<dt>START_BYTE<dd></dl><h4 id=34f58be217a0b14afea62922018f6d2fe1c827eff998bf1391fb2c6469b14013>IC_TAR_IC_TAR_Field</h4><pre class=ada-code-snippet><code>subtype IC_TAR_IC_TAR_Field is HAL.UInt10;
+</code></pre><h4 id=4bbdd4a71b827456b38639b1bfa04709fa4c63ad53e4464e8e453bc9fd9ba194>IC_TAR_Register</h4><pre class=ada-code-snippet><code>type IC_TAR_Register is record
+   IC_TAR         : IC_TAR_IC_TAR_Field := 16#55#;
+   GC_OR_START    : IC_TAR_GC_OR_START_Field :=
+                     RP2040_SVD.I2C.GENERAL_CALL;
+   SPECIAL        : IC_TAR_SPECIAL_Field := RP2040_SVD.I2C.DISABLED;
+   Reserved_12_31 : HAL.UInt20 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>IC_TAR<dd><dt>GC_OR_START<dd><dt>SPECIAL<dd><dt>Reserved_12_31<dd></dl><h4 id=2e7d73939b425f15e0e94a3ea9a23ea02fbb337ecb464cb0285b174d64457ca2>IC_TAR_SPECIAL_Field</h4><pre class=ada-code-snippet><code>type IC_TAR_SPECIAL_Field is
+   DISABLED,
+   ENABLED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>DISABLED<dd><p>Enables programming of GENERAL_CALL or START_BYTE transmission<dt>ENABLED<dd></dl><h4 id=74e6a9d80fc65ed896553ba62514dbe7b91ff0520b179ba528da265a6986f40c>IC_TX_ABRT_SOURCE_ABRT_10ADDR1_NOACK_Field</h4><pre class=ada-code-snippet><code>type IC_TX_ABRT_SOURCE_ABRT_10ADDR1_NOACK_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>Byte 1 of 10Bit Address not ACKed by any slave<dt>ACTIVE<dd></dl><h4 id=f3f002d32dd2d19206164ead778dc68750e8e969e9f6fef484015dd68ec9687e>IC_TX_ABRT_SOURCE_ABRT_10ADDR2_NOACK_Field</h4><pre class=ada-code-snippet><code>type IC_TX_ABRT_SOURCE_ABRT_10ADDR2_NOACK_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>Byte 2 of 10Bit Address not ACKed by any slave<dt>ACTIVE<dd></dl><h4 id=43375821fb9f5848206ff0c2be859aafe4ac96e2af2927237761ee314f3368f6>IC_TX_ABRT_SOURCE_ABRT_10B_RD_NORSTRT_Field</h4><pre class=ada-code-snippet><code>type IC_TX_ABRT_SOURCE_ABRT_10B_RD_NORSTRT_Field is
+   ABRT_10B_RD_VOID,
+   ABRT_10B_RD_GENERATED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ABRT_10B_RD_VOID<dd><p>Master trying to read in 10Bit addressing mode when RESTART disabled<dt>ABRT_10B_RD_GENERATED<dd></dl><h4 id=448b7f22f03508323abfc324e4b03c34b873797b8234e3b2691d5bec9ee841d5>IC_TX_ABRT_SOURCE_ABRT_7B_ADDR_NOACK_Field</h4><pre class=ada-code-snippet><code>type IC_TX_ABRT_SOURCE_ABRT_7B_ADDR_NOACK_Field is
+   INACTIVE,
+   ACTIVE)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>This abort is generated because of NOACK for 7-bit address<dt>ACTIVE<dd></dl><h4 id=0fbb9058f2ce80368652068d5a2ffbf5519ded50cf1eb2cb78baf269267c298e>IC_TX_ABRT_SOURCE_ABRT_GCALL_NOACK_Field</h4><pre class=ada-code-snippet><code>type IC_TX_ABRT_SOURCE_ABRT_GCALL_NOACK_Field is
+   ABRT_GCALL_NOACK_VOID,
+   ABRT_GCALL_NOACK_GENERATED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ABRT_GCALL_NOACK_VOID<dd><p>GCALL not ACKed by any slave<dt>ABRT_GCALL_NOACK_GENERATED<dd></dl><h4 id=2a1c30b43d8b7b5047871d26121f2e5681583139f19d8ac2924618f2c7072d77>IC_TX_ABRT_SOURCE_ABRT_GCALL_READ_Field</h4><pre class=ada-code-snippet><code>type IC_TX_ABRT_SOURCE_ABRT_GCALL_READ_Field is
+   ABRT_GCALL_READ_VOID,
+   ABRT_GCALL_READ_GENERATED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ABRT_GCALL_READ_VOID<dd><p>GCALL is followed by read from bus<dt>ABRT_GCALL_READ_GENERATED<dd></dl><h4 id=838ffbe075e0c751e5c817a1c7cdf3a1c08b82e8bffac03765ea01b61740056e>IC_TX_ABRT_SOURCE_ABRT_HS_ACKDET_Field</h4><pre class=ada-code-snippet><code>type IC_TX_ABRT_SOURCE_ABRT_HS_ACKDET_Field is
+   ABRT_HS_ACK_VOID,
+   ABRT_HS_ACK_GENERATED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ABRT_HS_ACK_VOID<dd><p>HS Master code ACKed in HS Mode<dt>ABRT_HS_ACK_GENERATED<dd></dl><h4 id=aa13eeba6a88ceb9a31e77a94665d3bab51d664ed233620c0d7cf1e6faab0147>IC_TX_ABRT_SOURCE_ABRT_HS_NORSTRT_Field</h4><pre class=ada-code-snippet><code>type IC_TX_ABRT_SOURCE_ABRT_HS_NORSTRT_Field is
+   ABRT_HS_NORSTRT_VOID,
+   ABRT_HS_NORSTRT_GENERATED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ABRT_HS_NORSTRT_VOID<dd><p>User trying to switch Master to HS mode when RESTART disabled<dt>ABRT_HS_NORSTRT_GENERATED<dd></dl><h4 id=f5c5f9b8f2d6337763102438455f685deafc650638431169e48b259e3c5a7b97>IC_TX_ABRT_SOURCE_ABRT_MASTER_DIS_Field</h4><pre class=ada-code-snippet><code>type IC_TX_ABRT_SOURCE_ABRT_MASTER_DIS_Field is
+   ABRT_MASTER_DIS_VOID,
+   ABRT_MASTER_DIS_GENERATED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ABRT_MASTER_DIS_VOID<dd><p>User initiating master operation when MASTER disabled<dt>ABRT_MASTER_DIS_GENERATED<dd></dl><h4 id=28b78a5e2c5bc7e2a828cf04b6172abddaea402510750adf4119ff4723cf999b>IC_TX_ABRT_SOURCE_ABRT_SBYTE_ACKDET_Field</h4><pre class=ada-code-snippet><code>type IC_TX_ABRT_SOURCE_ABRT_SBYTE_ACKDET_Field is
+   ABRT_SBYTE_ACKDET_VOID,
+   ABRT_SBYTE_ACKDET_GENERATED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ABRT_SBYTE_ACKDET_VOID<dd><p>ACK detected for START byte<dt>ABRT_SBYTE_ACKDET_GENERATED<dd></dl><h4 id=ffd8ec198fd0aee97d42916669bd86afc6d510902d5a679501bda574fa18c2be>IC_TX_ABRT_SOURCE_ABRT_SBYTE_NORSTRT_Field</h4><pre class=ada-code-snippet><code>type IC_TX_ABRT_SOURCE_ABRT_SBYTE_NORSTRT_Field is
+   ABRT_SBYTE_NORSTRT_VOID,
+   ABRT_SBYTE_NORSTRT_GENERATED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ABRT_SBYTE_NORSTRT_VOID<dd><p>User trying to send START byte when RESTART disabled<dt>ABRT_SBYTE_NORSTRT_GENERATED<dd></dl><h4 id=b569042927d8c63f8c4e7d1729804cd36cb050a7ace9bd3555204435cbc69f8b>IC_TX_ABRT_SOURCE_ABRT_SLV_ARBLOST_Field</h4><pre class=ada-code-snippet><code>type IC_TX_ABRT_SOURCE_ABRT_SLV_ARBLOST_Field is
+   ABRT_SLV_ARBLOST_VOID,
+   ABRT_SLV_ARBLOST_GENERATED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ABRT_SLV_ARBLOST_VOID<dd><p>Slave lost arbitration to remote master<dt>ABRT_SLV_ARBLOST_GENERATED<dd></dl><h4 id=2d28970daefc0a92c99bdccfdcaec7002a721a1dbad4d511282e0216b636f238>IC_TX_ABRT_SOURCE_ABRT_SLVFLUSH_TXFIFO_Field</h4><pre class=ada-code-snippet><code>type IC_TX_ABRT_SOURCE_ABRT_SLVFLUSH_TXFIFO_Field is
+   ABRT_SLVFLUSH_TXFIFO_VOID,
+   ABRT_SLVFLUSH_TXFIFO_GENERATED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ABRT_SLVFLUSH_TXFIFO_VOID<dd><p>Slave flushes existing data in TX-FIFO upon getting read command<dt>ABRT_SLVFLUSH_TXFIFO_GENERATED<dd></dl><h4 id=cc2d101988c7a8a1b6fe515bef9702ff0633ec52f3882d2423d91467f8276023>IC_TX_ABRT_SOURCE_ABRT_SLVRD_INTX_Field</h4><pre class=ada-code-snippet><code>type IC_TX_ABRT_SOURCE_ABRT_SLVRD_INTX_Field is
+   ABRT_SLVRD_INTX_VOID,
+   ABRT_SLVRD_INTX_GENERATED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ABRT_SLVRD_INTX_VOID<dd><p>Slave trying to transmit to remote master in read mode<dt>ABRT_SLVRD_INTX_GENERATED<dd></dl><h4 id=a51bc7200d30ff44dff831e6f2a3f550fca69819e39e2f11ff67596cbc012b74>IC_TX_ABRT_SOURCE_ABRT_TXDATA_NOACK_Field</h4><pre class=ada-code-snippet><code>type IC_TX_ABRT_SOURCE_ABRT_TXDATA_NOACK_Field is
+   ABRT_TXDATA_NOACK_VOID,
+   ABRT_TXDATA_NOACK_GENERATED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ABRT_TXDATA_NOACK_VOID<dd><p>Transmitted data not ACKed by addressed slave<dt>ABRT_TXDATA_NOACK_GENERATED<dd></dl><h4 id=c71708a70777f937c5f77bbb31d55c1f08b208c6297b51a33fff767e986991d3>IC_TX_ABRT_SOURCE_ABRT_USER_ABRT_Field</h4><pre class=ada-code-snippet><code>type IC_TX_ABRT_SOURCE_ABRT_USER_ABRT_Field is
+   ABRT_USER_ABRT_VOID,
+   ABRT_USER_ABRT_GENERATED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ABRT_USER_ABRT_VOID<dd><p>Transfer abort detected by master<dt>ABRT_USER_ABRT_GENERATED<dd></dl><h4 id=bd4252ac3683330223da6d61f9f0c390c07d32e592a263c32a3e6ee46b28c996>IC_TX_ABRT_SOURCE_ARB_LOST_Field</h4><pre class=ada-code-snippet><code>type IC_TX_ABRT_SOURCE_ARB_LOST_Field is
+   ABRT_LOST_VOID,
+   ABRT_LOST_GENERATED)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>ABRT_LOST_VOID<dd><p>Master or Slave-Transmitter lost arbitration<dt>ABRT_LOST_GENERATED<dd></dl><h4 id=8d78a3fca0682a5569583a25ff3eba3f8ec820493b6791d491b5d85e14247936>IC_TX_ABRT_SOURCE_Register</h4><pre class=ada-code-snippet><code>type IC_TX_ABRT_SOURCE_Register is record
+   ABRT_7B_ADDR_NOACK   : IC_TX_ABRT_SOURCE_ABRT_7B_ADDR_NOACK_Field;
+   ABRT_10ADDR1_NOACK   : IC_TX_ABRT_SOURCE_ABRT_10ADDR1_NOACK_Field;
+   ABRT_10ADDR2_NOACK   : IC_TX_ABRT_SOURCE_ABRT_10ADDR2_NOACK_Field;
+   ABRT_TXDATA_NOACK    : IC_TX_ABRT_SOURCE_ABRT_TXDATA_NOACK_Field;
+   ABRT_GCALL_NOACK     : IC_TX_ABRT_SOURCE_ABRT_GCALL_NOACK_Field;
+   ABRT_GCALL_READ      : IC_TX_ABRT_SOURCE_ABRT_GCALL_READ_Field;
+   ABRT_HS_ACKDET       : IC_TX_ABRT_SOURCE_ABRT_HS_ACKDET_Field;
+   ABRT_SBYTE_ACKDET    : IC_TX_ABRT_SOURCE_ABRT_SBYTE_ACKDET_Field;
+   ABRT_HS_NORSTRT      : IC_TX_ABRT_SOURCE_ABRT_HS_NORSTRT_Field;
+   ABRT_SBYTE_NORSTRT   : IC_TX_ABRT_SOURCE_ABRT_SBYTE_NORSTRT_Field;
+   ABRT_10B_RD_NORSTRT  : IC_TX_ABRT_SOURCE_ABRT_10B_RD_NORSTRT_Field;
+   ABRT_MASTER_DIS      : IC_TX_ABRT_SOURCE_ABRT_MASTER_DIS_Field;
+   ARB_LOST             : IC_TX_ABRT_SOURCE_ARB_LOST_Field;
+   ABRT_SLVFLUSH_TXFIFO : IC_TX_ABRT_SOURCE_ABRT_SLVFLUSH_TXFIFO_Field;
+   ABRT_SLV_ARBLOST     : IC_TX_ABRT_SOURCE_ABRT_SLV_ARBLOST_Field;
+   ABRT_SLVRD_INTX      : IC_TX_ABRT_SOURCE_ABRT_SLVRD_INTX_Field;
+   ABRT_USER_ABRT       : IC_TX_ABRT_SOURCE_ABRT_USER_ABRT_Field;
+   Reserved_17_22       : HAL.UInt6;
+   TX_FLUSH_CNT         : IC_TX_ABRT_SOURCE_TX_FLUSH_CNT_Field;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>ABRT_7B_ADDR_NOACK<dd><dt>ABRT_10ADDR1_NOACK<dd><dt>ABRT_10ADDR2_NOACK<dd><dt>ABRT_TXDATA_NOACK<dd><dt>ABRT_GCALL_NOACK<dd><dt>ABRT_GCALL_READ<dd><dt>ABRT_HS_ACKDET<dd><dt>ABRT_SBYTE_ACKDET<dd><dt>ABRT_HS_NORSTRT<dd><dt>ABRT_SBYTE_NORSTRT<dd><dt>ABRT_10B_RD_NORSTRT<dd><dt>ABRT_MASTER_DIS<dd><dt>ARB_LOST<dd><dt>ABRT_SLVFLUSH_TXFIFO<dd><dt>ABRT_SLV_ARBLOST<dd><dt>ABRT_SLVRD_INTX<dd><dt>ABRT_USER_ABRT<dd><dt>Reserved_17_22<dd><dt>TX_FLUSH_CNT<dd></dl><h4 id=36a01896011f5e55d0031046b2373c676328aefbe545ece3e4935aabb7fcec10>IC_TX_ABRT_SOURCE_TX_FLUSH_CNT_Field</h4><pre class=ada-code-snippet><code>subtype IC_TX_ABRT_SOURCE_TX_FLUSH_CNT_Field is HAL.UInt9;
+</code></pre><h4 id=43d8409a4445cf94623fb9e9515dbc17c67c1976a0eadc8e5c824066b59a3ef3>IC_TX_TL_Register</h4><pre class=ada-code-snippet><code>type IC_TX_TL_Register is record
+   TX_TL         : IC_TX_TL_TX_TL_Field := 16#0#;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>TX_TL<dd><dt>Reserved_8_31<dd></dl><h4 id=a0278f6145b59a77aee3e57567be0c3f5fb69f346f22f43541ce0c30f345ee82>IC_TX_TL_TX_TL_Field</h4><pre class=ada-code-snippet><code>subtype IC_TX_TL_TX_TL_Field is HAL.UInt8;
+</code></pre><h4 id=080c4dd8db4eee0322f0c484cabcc4abe46e5d1cfcee67ff5dedde101ca28a51>IC_TXFLR_Register</h4><pre class=ada-code-snippet><code>type IC_TXFLR_Register is record
+   TXFLR         : IC_TXFLR_TXFLR_Field;
+   Reserved_5_31 : HAL.UInt27;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>TXFLR<dd><dt>Reserved_5_31<dd></dl><h4 id=9332ecc4f0033ab783fa98b2de598cdd76d42482e9717d4fd568c3ce24ab82b1>IC_TXFLR_TXFLR_Field</h4><pre class=ada-code-snippet><code>subtype IC_TXFLR_TXFLR_Field is HAL.UInt5;
+</code></pre>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>HAL.UART</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#f275135657830b9a91ce126439964d858929d3f33e0a9b97dbad57d591215aa7>UART_Data_Size</a><li><a href=#c878cbb6ee1449fd2d56baa207cb6cbbf23d9d2579e58b8e193e83718079ac66>UART_Status</a></ul><h3>Array Types</h3><ul><li><a href=#48c011b5bd1db8a6a56efd318379fcc8bd0f5b81b216fcfa1688c0a45f7ce454>UART_Data_8b</a><li><a href=#a3dbcd30f6a89ca8f1af0e7606fb4f4760ca4bf8c173734914998a95926e5364>UART_Data_9b</a></ul><h3>Interface Types</h3><ul><li><a href=#a0f785516b3d7efae00164ba8fac4835e7a03bad28589cccd9c6932357101489>UART_Port</a></ul><h3>Access Types</h3><ul><li><a href=#9a13059c941189c624d9b8bad157b2365ec92653c2a93b8b7c41ad0e410d845d>Any_UART_Port</a></ul><h3>Subprograms</h3><ul><li><a href=#90172dab7da78d7b1e196bb63130632ac7884b0528c19eab522837cebc148b32>Data_Size</a><li><a href=#36aa41f7b64301bbccdd5c15391faa0b9392c0fa9442d9ed2f4e573ba8b39525>Receive</a><li><a href=#76c0650e1158a5dd572010990706a1e91b18f7e1dd5d0eb8e9dd126e83854ab5>Receive</a><li><a href=#4d1f9f9c3df34ad14d0629f69d05f8fae2b3318f6a31506cefbc969f88d489b7>Transmit</a><li><a href=#3777fcb0a40510019d610df9406dd5073301af4d25dd1a6eecde632979423c46>Transmit</a></ul><h2>Description</h2><p>---------------------------------------------------------------------------- -- Copyright (C) 2015-2016, AdaCore -- -- Redistribution and use in source and binary forms, with or without -- modification, are permitted provided that the following conditions are -- met: -- 1. Redistributions of source code must retain the above copyright -- notice, this list of conditions and the following disclaimer. -- 2. Redistributions in binary form must reproduce the above copyright -- notice, this list of conditions and the following disclaimer in -- the documentation and/or other materials provided with the -- distribution. -- 3. Neither the name of the copyright holder nor the names of its -- contributors may be used to endorse or promote products derived -- from this software without specific prior written permission. -- -- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS -- "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT -- LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR -- A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT -- HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, -- SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT -- LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, -- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY -- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT -- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE -- OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -- -- ----------------------------------------------------------------------------<h4 id=9a13059c941189c624d9b8bad157b2365ec92653c2a93b8b7c41ad0e410d845d>Any_UART_Port</h4><pre class=ada-code-snippet><code>type Any_UART_Port is access all UART_Port'Class;
+</code></pre><h4 id=90172dab7da78d7b1e196bb63130632ac7884b0528c19eab522837cebc148b32>Data_Size</h4><pre class=ada-code-snippet><code>function Data_Size (Port : UART_Port) return UART_Data_Size
+</code></pre><h5>Parameters</h5><dl><dt>Port<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=36aa41f7b64301bbccdd5c15391faa0b9392c0fa9442d9ed2f4e573ba8b39525>Receive</h4><pre class=ada-code-snippet><code>procedure Receive
+  (This    : in out UART_Port;
+   Data    : out UART_Data_8b;
+   Status  : out UART_Status;
+   Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=76c0650e1158a5dd572010990706a1e91b18f7e1dd5d0eb8e9dd126e83854ab5>Receive</h4><pre class=ada-code-snippet><code>procedure Receive
+  (This    : in out UART_Port;
+   Data    : out UART_Data_9b;
+   Status  : out UART_Status;
+   Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=4d1f9f9c3df34ad14d0629f69d05f8fae2b3318f6a31506cefbc969f88d489b7>Transmit</h4><pre class=ada-code-snippet><code>procedure Transmit
+  (This    : in out UART_Port;
+   Data    : UART_Data_8b;
+   Status  : out UART_Status;
+   Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=3777fcb0a40510019d610df9406dd5073301af4d25dd1a6eecde632979423c46>Transmit</h4><pre class=ada-code-snippet><code>procedure Transmit
+  (This    : in out UART_Port;
+   Data    : UART_Data_9b;
+   Status  : out UART_Status;
+   Timeout : Natural := 1000)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Data<dd><dt>Status<dd><dt>Timeout<dd></dl><h4 id=48c011b5bd1db8a6a56efd318379fcc8bd0f5b81b216fcfa1688c0a45f7ce454>UART_Data_8b</h4><pre class=ada-code-snippet><code>type UART_Data_8b is array (Natural range &lt;>) of UInt8;
+</code></pre><h4 id=a3dbcd30f6a89ca8f1af0e7606fb4f4760ca4bf8c173734914998a95926e5364>UART_Data_9b</h4><pre class=ada-code-snippet><code>type UART_Data_9b is array (Natural range &lt;>) of UInt9;
+</code></pre><h4 id=f275135657830b9a91ce126439964d858929d3f33e0a9b97dbad57d591215aa7>UART_Data_Size</h4><pre class=ada-code-snippet><code>type UART_Data_Size is
+  (Data_Size_8b,
+   Data_Size_9b);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Data_Size_8b<dd><dt>Data_Size_9b<dd></dl><h4 id=a0f785516b3d7efae00164ba8fac4835e7a03bad28589cccd9c6932357101489>UART_Port</h4><pre class=ada-code-snippet><code>type UART_Port is limited interface;
+</code></pre><h4 id=c878cbb6ee1449fd2d56baa207cb6cbbf23d9d2579e58b8e193e83718079ac66>UART_Status</h4><pre class=ada-code-snippet><code>type UART_Status is
+  (Ok,
+   Err_Error,
+   Err_Timeout,
+   Busy);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Ok<dd><dt>Err_Error<dd><dt>Err_Timeout<dd><dt>Busy<dd></dl>

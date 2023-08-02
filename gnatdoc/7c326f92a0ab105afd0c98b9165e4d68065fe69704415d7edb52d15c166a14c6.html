@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP2040_SVD.CLOCKS</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#41988afb145e976a93ddce2fd25756c6985b84773c3272ca475523cf245cab5d>CLK_ADC_CTRL_AUXSRC_Field</a><li><a href=#5a82f7e9c41103548aea2f96afe88268a71c6835d2e020a143610edca4b3c653>CLK_GPOUT0_CTRL_AUXSRC_Field</a><li><a href=#3f4f23b5b61e36e69c262252dc4eeeb22c5856d790bc6b927496b4fdc8b4963d>CLK_GPOUT1_CTRL_AUXSRC_Field</a><li><a href=#2f766eb6235b990189532276f5f479301cd59d856deb81052d0012206722e2b0>CLK_GPOUT2_CTRL_AUXSRC_Field</a><li><a href=#df9ac8788971bf7e0eb6072358096f1cf8dff100637ef8f1fa237d947f06a7c0>CLK_GPOUT3_CTRL_AUXSRC_Field</a><li><a href=#28d5780f5a7d44c806b2f5bf902fdbcfe98e8795360c041ceacd3b1ecbb7c326>CLK_PERI_CTRL_AUXSRC_Field</a><li><a href=#a8cec96c8b9667dd5f6c4c131529f4d2ca5554cc2c53c817ffe66d7ab4589064>CLK_REF_CTRL_AUXSRC_Field</a><li><a href=#ca31bb261276c5acd4ed7a926f5959e90a8d6e7d93a81f0db03ee5537d664223>CLK_REF_CTRL_SRC_Field</a><li><a href=#b0a967d34eaf0a5189ce89a7743d6663752dbc3d649dde9d0c3d7a7f594837e1>CLK_RTC_CTRL_AUXSRC_Field</a><li><a href=#c2f635e76ab593c1a0d73ddf2a5e0ca99471a6b823e553cced13177d7dd947c6>CLK_SYS_CTRL_AUXSRC_Field</a><li><a href=#a04975e7799e23baaee26399c792019680c399ea3b16f92b3c00c6fa69858283>CLK_SYS_CTRL_SRC_Field</a><li><a href=#8f436bcd6120d075cc5c5c6aa3b06adb4a92687504b232198b33a96791df0219>CLK_USB_CTRL_AUXSRC_Field</a><li><a href=#b1313ad183d8b944ec798c3dd19c5bdf7a2c8607726e899b4fdd653605a0ade7>FC0_SRC_FC0_SRC_Field</a></ul><h3>Array Types</h3><ul><li><a href=#278692d077a2ef5a3a5cf78ed7235c9e08edf71aa62a806bbaff7463ed731d7a>ENABLED0_clk_sys_i2c_Field_Array</a><li><a href=#61ffcebbbf5b0a8fd9c13de90f2655c9a7b837d4e7829f8fbc402744e425b6d9>ENABLED0_clk_sys_pio_Field_Array</a><li><a href=#d50e0f2b6197e0ab5013bf6b6f62bfe8d036231dbac88da0ab34a7c842fabf91>ENABLED0_clk_sys_sram_Field_Array</a><li><a href=#677d04cd39815b927f868526af5287222c5188b91455869aafe393ff95e5f68d>ENABLED1_clk_sys_sram_Field_Array</a><li><a href=#b356b2fb6b313e178de0709b3145adce39821580cc540b1f1bcc64b4020181ea>SLEEP_EN0_clk_sys_i2c_Field_Array</a><li><a href=#c06cab2a81d83e1c9dd0738342976caf81b5145f47fe817a4678ef22713b4b97>SLEEP_EN0_clk_sys_pio_Field_Array</a><li><a href=#273f9cc56eb6d26237831e476095091c8c9a7567d8faf596e69d50d13d1cab0c>SLEEP_EN0_clk_sys_sram_Field_Array</a><li><a href=#318b10b967a91cffac797873231f8dcb9690329fef7bb3c8ce70490c44b32486>SLEEP_EN1_clk_sys_sram_Field_Array</a><li><a href=#bc6232beacbd7c3058f4eb0fd9484f3ddf6d0ed0207a2464f4bd1fc8547ba010>WAKE_EN0_clk_sys_i2c_Field_Array</a><li><a href=#c40156c09f2010887f29b0f3b831a1efdd22c060fb3c25a657a95cc2d2b9e282>WAKE_EN0_clk_sys_pio_Field_Array</a><li><a href=#4275fc9268cd2ae5b3a4c88947f5eeef8167e21853434bb97fda293cecf4558b>WAKE_EN0_clk_sys_sram_Field_Array</a><li><a href=#fcffe872bc066f126b1bf23566acf09526417a2a2539e9b255f57bb5fcadb1c8>WAKE_EN1_clk_sys_sram_Field_Array</a></ul><h3>Record Types</h3><ul><li><a href=#8a6ae5204535b4f8dc5c8cda9d1aa36ad7bd01beec6934589d516668a7931f48>CLK_ADC_CTRL_Register</a><li><a href=#922baa21b8b0bf02545415159ea3a192fa339c2ef08de4e2c976437d01790b1e>CLK_ADC_DIV_Register</a><li><a href=#6ff44bcc56817a55dfea43ac81d1a5a3f896c059bb06fa0dd6697e0e9cee9e61>CLK_GPOUT0_CTRL_Register</a><li><a href=#17df99e552b09c6091d0568674fab00063e85305dd019935a4da22c0b4f3d916>CLK_GPOUT0_DIV_Register</a><li><a href=#4d02997426df112b35ac21e51feb768abbd778cd8ed4e7a79bcbc415794613eb>CLK_GPOUT1_CTRL_Register</a><li><a href=#5967cd2f86c0b1a5466ac3c2ceeb538680387ba1b0988971d21ffdc6e3511e45>CLK_GPOUT1_DIV_Register</a><li><a href=#db08e0d7812acba258cd3b54f8c03166ca513d9a55d9bc1c4f3b367a5bb959de>CLK_GPOUT2_CTRL_Register</a><li><a href=#9c9bca7431292e5721d07b5a7cfb4c5403fa57068626fff38063cf48c674eefc>CLK_GPOUT2_DIV_Register</a><li><a href=#da77f98a42e0e033e7dc1d8439ef3374801c18d96db258b327b6b3b8855f046a>CLK_GPOUT3_CTRL_Register</a><li><a href=#5a0b044e933a25cde9ba24f4b2114338359320e37c4fa5c6a77ab3bccb929ffe>CLK_GPOUT3_DIV_Register</a><li><a href=#cf5f57aa23ad9c9109588faf9a1901c2cd733c18476eb34a513d4a5533a6b75b>CLK_PERI_CTRL_Register</a><li><a href=#f36a569f30cd0ebe9efc46cebc56c90cdcfa85eb5f4ca191f1a29765ec5bab45>CLK_REF_CTRL_Register</a><li><a href=#ba023a4b765326f752271721d4fd81f551e5d8eada8bcbe5cfb32ee56fcac45a>CLK_REF_DIV_Register</a><li><a href=#118417b1c78cee993d750220ccab083a7e6d289e13197181fb7cca6b35ce246c>CLK_RTC_CTRL_Register</a><li><a href=#e11cefd14d75af3ffb2dd327fc0ccd764d9922073a5c4eb74f7d5fe7f807e0ce>CLK_RTC_DIV_Register</a><li><a href=#33fa28017af2061a276f1e141584877f17b2e96f4319168897f9b8ac38be9497>CLK_SYS_CTRL_Register</a><li><a href=#2cbf6e8436f61e5a9349035a5e9dda4ce126f404c3d0e0d9e85b664f7801e847>CLK_SYS_DIV_Register</a><li><a href=#0a50d57509796886a1144e996bd80ed810331f3e11f4d44ff9a09f10058e5a89>CLK_SYS_RESUS_CTRL_Register</a><li><a href=#06b3741cb5e57f495adc8970cbc51c1c28b42135e653d5b01de80d63e88cceb1>CLK_SYS_RESUS_STATUS_Register</a><li><a href=#d40fbaf10acd6e6e26c1e7a1951f5250fc25ccfd8c078e9a91c1258ee5777b12>CLK_USB_CTRL_Register</a><li><a href=#ab2f8c7c7b3b9260e3a26b7d9f9d744563138dca5942c595e4471147ba01f235>CLK_USB_DIV_Register</a><li><a href=#ecb2c2041ed09370f0cb2f6f03800cedee1900701520d075d0e4605fd5227e81>CLOCKS_Peripheral</a><li><a href=#3892f4981c68a188d65e25caa121deb14e362db1ca5669b4c56799ebaa3a05e2>ENABLED0_clk_sys_i2c_Field</a><li><a href=#eab11d625a7539bf3d4f0ae4c2b1a80d1e82e4279446412ba29de42c9da6cc50>ENABLED0_clk_sys_pio_Field</a><li><a href=#29e7b0330c06293c22879cead1c45a7abc2d79d7c64172ca5a360f07ce4db495>ENABLED0_clk_sys_sram_Field</a><li><a href=#5b0003cab3caec7f8e27bcabd5c5dabf5538bd87251f4f131f1cda6bf25a371a>ENABLED0_Register</a><li><a href=#c32df8ed33eb3483781e6cbc873423fe067f14ea0348356fc3c11a44add2211c>ENABLED1_clk_sys_sram_Field</a><li><a href=#7a8372764cc8ba3618173c3e961829bb4177fbda8a491403b33ad62ea2eed0fa>ENABLED1_Register</a><li><a href=#efe4ec84438eb7e0ea57ec29957d3fe41e6e81b66f42f90a4c2f7e6e4f0c775c>FC0_DELAY_Register</a><li><a href=#200fa06bb9ed28df080a96f0b664f02037d464dca805f8ff4acc3920e3a08e63>FC0_INTERVAL_Register</a><li><a href=#d0f0f8467d75c65e44ec6e4934f97b35ef4ca32bed2e79203efc8bd7f87906be>FC0_MAX_KHZ_Register</a><li><a href=#98001ee84f6a6e5574eab84c5f00afbc1b306d393e920ab8c1d46544da8e7ab0>FC0_MIN_KHZ_Register</a><li><a href=#c50873c826260800cf28095df41ce895ad14736dee160a8f3d198e9c74794b16>FC0_REF_KHZ_Register</a><li><a href=#123854f156434db711a680e818122224e01c2073e64c33e602c51edc73a61978>FC0_RESULT_Register</a><li><a href=#77b88b0f44a980faaac7125f687f3196088eb83cac1964255c913d7af9e024e8>FC0_SRC_Register</a><li><a href=#c6978c2765452522281d3d94722cbd9d20da0fd29ce1c53ca600b6d7b489cd9c>FC0_STATUS_Register</a><li><a href=#98353d433e6ed94d488a3a6d95c941d3beeb65e5be49df590cb9f3b816c009ab>INTE_Register</a><li><a href=#776098a60ee4e028be8697a8453ec9486d620b8c4e7e0903dd63799d8d5c962d>INTF_Register</a><li><a href=#caecef6a89774e08d2e18ba86accfe10c99de22b885dcc7e0fc44364e06865db>INTR_Register</a><li><a href=#c0b0b32f7a92596dfaf9627094239b08073fbc4f9fa58e45c0cc22199dd3add8>INTS_Register</a><li><a href=#8747543918d3ca15f31df6bbbe876b2a1a29070e117e7f4fae24882991847c65>SLEEP_EN0_clk_sys_i2c_Field</a><li><a href=#115571a48a7496dfc2191faf7d2da0e9db182509fc6ee0796d470ed9d56ea1f2>SLEEP_EN0_clk_sys_pio_Field</a><li><a href=#6a7bb01e0369688726350113cfd80ee93113f6235581b225cc5b9082bd6d157a>SLEEP_EN0_clk_sys_sram_Field</a><li><a href=#f910774ea49a4a174ee29951ceb1bbf7efaea398fd19707dbc4b70bc615b054b>SLEEP_EN0_Register</a><li><a href=#2c58cc06942fda4f4ac4a06690199ac1b11209f8a6fd23cfeef1b17d2ecc6724>SLEEP_EN1_clk_sys_sram_Field</a><li><a href=#05b77814539d5c62786ce41f3e5477c689c8e2af75cbbb5dc417927308f6f5c3>SLEEP_EN1_Register</a><li><a href=#7811704b5144748c05bbab903ea7048f783613aa842aa067530da1028e1d73a6>WAKE_EN0_clk_sys_i2c_Field</a><li><a href=#2843a28ab4c47205b1fbf1cdcaf6e6666ae355d70be263ddec9c8c5b413aaab0>WAKE_EN0_clk_sys_pio_Field</a><li><a href=#295fc1864015ada8a426d1fb09935852db63f206c94f812014759e10cefbc81e>WAKE_EN0_clk_sys_sram_Field</a><li><a href=#7803e680df01a2fb05f50a72cac657bfc588f2dc043b205c12e05e7063478d1c>WAKE_EN0_Register</a><li><a href=#245cb70cb547f7523f6e41bdbdf5abd7e3c0dc935589f600719c00a2c2185e7e>WAKE_EN1_clk_sys_sram_Field</a><li><a href=#cddae2f5170814bacd29ffdc2cf9b4178de4f73b565cac6f4f25006652fedd02>WAKE_EN1_Register</a></ul><h3>Subtypes</h3><ul><li><a href=#0a442ad0117459e4615eb58234cb1090e77e9f1bf697be38864e729a9c5f36f0>CLK_ADC_CTRL_PHASE_Field</a><li><a href=#b54ae43e6d24fbc7a9c5bca8c4e6cc05e05a7c76b18a1a488c8e283ebec267e0>CLK_ADC_DIV_INT_Field</a><li><a href=#fd2bdf92acd4c82a4ac904b8e95c96c280da22fd055bbf58e41b7fdb2c8b830e>CLK_GPOUT0_CTRL_PHASE_Field</a><li><a href=#3ee3315f11fc7fffd98fb52844d4bb772b9ed91b78127e8c71591add69d6150d>CLK_GPOUT0_DIV_FRAC_Field</a><li><a href=#0137e1b181785ab80d82fe7e0a972bb2ec072c03866600151df721d9b3b07c14>CLK_GPOUT0_DIV_INT_Field</a><li><a href=#fc05c414cb397299d9351c537b0123771edf62722d19b5ef3d460c6dadef6ab6>CLK_GPOUT1_CTRL_PHASE_Field</a><li><a href=#4860933908c21c1bb174d8f5ce352dd7e7455dd43abc29ec0a636ff304d86e14>CLK_GPOUT1_DIV_FRAC_Field</a><li><a href=#7f9ff4955dda3e3db7aac017f5c9ad4483e2fe89a2d3778abed10eb73c8dcbd3>CLK_GPOUT1_DIV_INT_Field</a><li><a href=#69a91670a14bb32a57bf21844ae8cf372bc92d7592db57d321e06a67057d40ba>CLK_GPOUT2_CTRL_PHASE_Field</a><li><a href=#5a67692eb65452b15e0ea4f94e7bc5f33a7f6a267f951815b773ccec9af8250e>CLK_GPOUT2_DIV_FRAC_Field</a><li><a href=#0167b84fb7c3bd3a0ddc5a296f06e5102515ebc27107e6c09d2873c161cfa1c3>CLK_GPOUT2_DIV_INT_Field</a><li><a href=#cd2d8e5f0f91b3635130236c4df71e8772abb55f28370a4fdff3ae860115ebc3>CLK_GPOUT3_CTRL_PHASE_Field</a><li><a href=#9aa158896d0cf05460b12e7a5b6cb667838dd99bd4b267ede68bb501c1f51d6f>CLK_GPOUT3_DIV_FRAC_Field</a><li><a href=#77caa44c6adacf774b184f935e8f2963e1e708e9735a2104d5d3287cb912e516>CLK_GPOUT3_DIV_INT_Field</a><li><a href=#2b7402476c6297339173f6a033127e5051d0430b9be1567cbc818cb26cd3f149>CLK_REF_DIV_INT_Field</a><li><a href=#41c880e96731834f866eba31df196e4adab80286188bda4cb613ceecc7738392>CLK_RTC_CTRL_PHASE_Field</a><li><a href=#f3ddd493d1c6498dc69b49efdd2ca100e230ba24966fed5282ac888ee382fc5a>CLK_RTC_DIV_FRAC_Field</a><li><a href=#a945b111b29e99bc1996926697fd8bf667c45b6fe04bb1d28c2b6da9bd6d0dbf>CLK_RTC_DIV_INT_Field</a><li><a href=#1f642b9cf7dd3f7f39112ec66e94e46258733391a6fba1830a5b2378f9f63050>CLK_SYS_DIV_FRAC_Field</a><li><a href=#2f61c957027e901c51dd18c4eea6c1c865222e3380810c54058eeec9939babb7>CLK_SYS_DIV_INT_Field</a><li><a href=#dbe299f54acc5e18e2c0d9dad78c6b290aabbaad16f098ee9f489f22416fbb7c>CLK_SYS_RESUS_CTRL_TIMEOUT_Field</a><li><a href=#d24c812e793c840aa3debe026fed17d3ccdd0bc0a5018a94aedb96adbf122877>CLK_USB_CTRL_PHASE_Field</a><li><a href=#4011adf6daf8e49a61360702c7390ff6a5ca9b1541b1bcc2946c891287593d04>CLK_USB_DIV_INT_Field</a><li><a href=#561fb7fdeb02879cc5ca43884af47045a1128e15f2573545289409c8e3dc4503>FC0_DELAY_FC0_DELAY_Field</a><li><a href=#03e67f7b533d0f715361f06efb2c9a2502db6a3d5979e8dfa8cd53b749ba0662>FC0_INTERVAL_FC0_INTERVAL_Field</a><li><a href=#127b9e35777d0eba06580b474b2ba861ef23d650dd28fdabef45f8d85d63d375>FC0_MAX_KHZ_FC0_MAX_KHZ_Field</a><li><a href=#b3c75cc0e47f99eaf6429c5f1cbf747f748bc56a6b32da885705c03e7a2046ce>FC0_MIN_KHZ_FC0_MIN_KHZ_Field</a><li><a href=#a8f76a1a960d4aea46542f3a03a720290987ccf5e455b28d5f02fcf04f74b93d>FC0_REF_KHZ_FC0_REF_KHZ_Field</a><li><a href=#fd149b3e07fe8cd4e749ecf3fcf26a2cfbd06e1030c983881e26122bc11e4bca>FC0_RESULT_FRAC_Field</a><li><a href=#7971f1afcbd94a2aa3abebb562ffc84aad250475b0bcefd1a7e000b1ec831234>FC0_RESULT_KHZ_Field</a></ul><h3>Variables</h3><ul><li><a href=#cec12fa7ceabe0d5d854ce6ebd84a92ff5d409e39726b022140486c9f44a8e49>CLOCKS_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=41988afb145e976a93ddce2fd25756c6985b84773c3272ca475523cf245cab5d>CLK_ADC_CTRL_AUXSRC_Field</h4><pre class=ada-code-snippet><code>type CLK_ADC_CTRL_AUXSRC_Field is
+  (clksrc_pll_usb,
+   clksrc_pll_sys,
+   rosc_clksrc_ph,
+   xosc_clksrc,
+   clksrc_gpin0,
+   clksrc_gpin1)
+  with Size => 3;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>clksrc_pll_usb<dd><dt>clksrc_pll_sys<dd><dt>rosc_clksrc_ph<dd><dt>xosc_clksrc<dd><dt>clksrc_gpin0<dd><dt>clksrc_gpin1<dd></dl><h4 id=0a442ad0117459e4615eb58234cb1090e77e9f1bf697be38864e729a9c5f36f0>CLK_ADC_CTRL_PHASE_Field</h4><pre class=ada-code-snippet><code>subtype CLK_ADC_CTRL_PHASE_Field is HAL.UInt2;
+</code></pre><h4 id=8a6ae5204535b4f8dc5c8cda9d1aa36ad7bd01beec6934589d516668a7931f48>CLK_ADC_CTRL_Register</h4><pre class=ada-code-snippet><code>type CLK_ADC_CTRL_Register is record
+   Reserved_0_4   : HAL.UInt5 := 16#0#;
+   AUXSRC         : CLK_ADC_CTRL_AUXSRC_Field :=
+                     RP2040_SVD.CLOCKS.clksrc_pll_usb;
+   Reserved_8_9   : HAL.UInt2 := 16#0#;
+   KILL           : Boolean := False;
+   ENABLE         : Boolean := False;
+   Reserved_12_15 : HAL.UInt4 := 16#0#;
+   PHASE          : CLK_ADC_CTRL_PHASE_Field := 16#0#;
+   Reserved_18_19 : HAL.UInt2 := 16#0#;
+   NUDGE          : Boolean := False;
+   Reserved_21_31 : HAL.UInt11 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_4<dd><dt>AUXSRC<dd><dt>Reserved_8_9<dd><dt>KILL<dd><dt>ENABLE<dd><dt>Reserved_12_15<dd><dt>PHASE<dd><dt>Reserved_18_19<dd><dt>NUDGE<dd><dt>Reserved_21_31<dd></dl><h4 id=b54ae43e6d24fbc7a9c5bca8c4e6cc05e05a7c76b18a1a488c8e283ebec267e0>CLK_ADC_DIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype CLK_ADC_DIV_INT_Field is HAL.UInt2;
+</code></pre><h4 id=922baa21b8b0bf02545415159ea3a192fa339c2ef08de4e2c976437d01790b1e>CLK_ADC_DIV_Register</h4><pre class=ada-code-snippet><code>type CLK_ADC_DIV_Register is record
+   Reserved_0_7   : HAL.UInt8 := 16#0#;
+   INT            : CLK_ADC_DIV_INT_Field := 16#1#;
+   Reserved_10_31 : HAL.UInt22 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>INT<dd><dt>Reserved_10_31<dd></dl><h4 id=5a82f7e9c41103548aea2f96afe88268a71c6835d2e020a143610edca4b3c653>CLK_GPOUT0_CTRL_AUXSRC_Field</h4><pre class=ada-code-snippet><code>type CLK_GPOUT0_CTRL_AUXSRC_Field is
+  (clksrc_pll_sys,
+   clksrc_gpin0,
+   clksrc_gpin1,
+   clksrc_pll_usb,
+   rosc_clksrc,
+   xosc_clksrc,
+   clk_sys,
+   clk_usb,
+   clk_adc,
+   clk_rtc,
+   clk_ref)
+  with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>clksrc_pll_sys<dd><dt>clksrc_gpin0<dd><dt>clksrc_gpin1<dd><dt>clksrc_pll_usb<dd><dt>rosc_clksrc<dd><dt>xosc_clksrc<dd><dt>clk_sys<dd><dt>clk_usb<dd><dt>clk_adc<dd><dt>clk_rtc<dd><dt>clk_ref<dd></dl><h4 id=fd2bdf92acd4c82a4ac904b8e95c96c280da22fd055bbf58e41b7fdb2c8b830e>CLK_GPOUT0_CTRL_PHASE_Field</h4><pre class=ada-code-snippet><code>subtype CLK_GPOUT0_CTRL_PHASE_Field is HAL.UInt2;
+</code></pre><h4 id=6ff44bcc56817a55dfea43ac81d1a5a3f896c059bb06fa0dd6697e0e9cee9e61>CLK_GPOUT0_CTRL_Register</h4><pre class=ada-code-snippet><code>type CLK_GPOUT0_CTRL_Register is record
+   Reserved_0_4   : HAL.UInt5 := 16#0#;
+   AUXSRC         : CLK_GPOUT0_CTRL_AUXSRC_Field :=
+                     RP2040_SVD.CLOCKS.clksrc_pll_sys;
+   Reserved_9_9   : HAL.Bit := 16#0#;
+   KILL           : Boolean := False;
+   ENABLE         : Boolean := False;
+   DC50           : Boolean := False;
+   Reserved_13_15 : HAL.UInt3 := 16#0#;
+   PHASE          : CLK_GPOUT0_CTRL_PHASE_Field := 16#0#;
+   Reserved_18_19 : HAL.UInt2 := 16#0#;
+   NUDGE          : Boolean := False;
+   Reserved_21_31 : HAL.UInt11 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_4<dd><dt>AUXSRC<dd><dt>Reserved_9_9<dd><dt>KILL<dd><dt>ENABLE<dd><dt>DC50<dd><dt>Reserved_13_15<dd><dt>PHASE<dd><dt>Reserved_18_19<dd><dt>NUDGE<dd><dt>Reserved_21_31<dd></dl><h4 id=3ee3315f11fc7fffd98fb52844d4bb772b9ed91b78127e8c71591add69d6150d>CLK_GPOUT0_DIV_FRAC_Field</h4><pre class=ada-code-snippet><code>subtype CLK_GPOUT0_DIV_FRAC_Field is HAL.UInt8;
+</code></pre><h4 id=0137e1b181785ab80d82fe7e0a972bb2ec072c03866600151df721d9b3b07c14>CLK_GPOUT0_DIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype CLK_GPOUT0_DIV_INT_Field is HAL.UInt24;
+</code></pre><h4 id=17df99e552b09c6091d0568674fab00063e85305dd019935a4da22c0b4f3d916>CLK_GPOUT0_DIV_Register</h4><pre class=ada-code-snippet><code>type CLK_GPOUT0_DIV_Register is record
+   FRAC : CLK_GPOUT0_DIV_FRAC_Field := 16#0#;
+   INT  : CLK_GPOUT0_DIV_INT_Field := 16#1#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FRAC<dd><dt>INT<dd></dl><h4 id=3f4f23b5b61e36e69c262252dc4eeeb22c5856d790bc6b927496b4fdc8b4963d>CLK_GPOUT1_CTRL_AUXSRC_Field</h4><pre class=ada-code-snippet><code>type CLK_GPOUT1_CTRL_AUXSRC_Field is
+  (clksrc_pll_sys,
+   clksrc_gpin0,
+   clksrc_gpin1,
+   clksrc_pll_usb,
+   rosc_clksrc,
+   xosc_clksrc,
+   clk_sys,
+   clk_usb,
+   clk_adc,
+   clk_rtc,
+   clk_ref)
+  with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>clksrc_pll_sys<dd><dt>clksrc_gpin0<dd><dt>clksrc_gpin1<dd><dt>clksrc_pll_usb<dd><dt>rosc_clksrc<dd><dt>xosc_clksrc<dd><dt>clk_sys<dd><dt>clk_usb<dd><dt>clk_adc<dd><dt>clk_rtc<dd><dt>clk_ref<dd></dl><h4 id=fc05c414cb397299d9351c537b0123771edf62722d19b5ef3d460c6dadef6ab6>CLK_GPOUT1_CTRL_PHASE_Field</h4><pre class=ada-code-snippet><code>subtype CLK_GPOUT1_CTRL_PHASE_Field is HAL.UInt2;
+</code></pre><h4 id=4d02997426df112b35ac21e51feb768abbd778cd8ed4e7a79bcbc415794613eb>CLK_GPOUT1_CTRL_Register</h4><pre class=ada-code-snippet><code>type CLK_GPOUT1_CTRL_Register is record
+   Reserved_0_4   : HAL.UInt5 := 16#0#;
+   AUXSRC         : CLK_GPOUT1_CTRL_AUXSRC_Field :=
+                     RP2040_SVD.CLOCKS.clksrc_pll_sys;
+   Reserved_9_9   : HAL.Bit := 16#0#;
+   KILL           : Boolean := False;
+   ENABLE         : Boolean := False;
+   DC50           : Boolean := False;
+   Reserved_13_15 : HAL.UInt3 := 16#0#;
+   PHASE          : CLK_GPOUT1_CTRL_PHASE_Field := 16#0#;
+   Reserved_18_19 : HAL.UInt2 := 16#0#;
+   NUDGE          : Boolean := False;
+   Reserved_21_31 : HAL.UInt11 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_4<dd><dt>AUXSRC<dd><dt>Reserved_9_9<dd><dt>KILL<dd><dt>ENABLE<dd><dt>DC50<dd><dt>Reserved_13_15<dd><dt>PHASE<dd><dt>Reserved_18_19<dd><dt>NUDGE<dd><dt>Reserved_21_31<dd></dl><h4 id=4860933908c21c1bb174d8f5ce352dd7e7455dd43abc29ec0a636ff304d86e14>CLK_GPOUT1_DIV_FRAC_Field</h4><pre class=ada-code-snippet><code>subtype CLK_GPOUT1_DIV_FRAC_Field is HAL.UInt8;
+</code></pre><h4 id=7f9ff4955dda3e3db7aac017f5c9ad4483e2fe89a2d3778abed10eb73c8dcbd3>CLK_GPOUT1_DIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype CLK_GPOUT1_DIV_INT_Field is HAL.UInt24;
+</code></pre><h4 id=5967cd2f86c0b1a5466ac3c2ceeb538680387ba1b0988971d21ffdc6e3511e45>CLK_GPOUT1_DIV_Register</h4><pre class=ada-code-snippet><code>type CLK_GPOUT1_DIV_Register is record
+   FRAC : CLK_GPOUT1_DIV_FRAC_Field := 16#0#;
+   INT  : CLK_GPOUT1_DIV_INT_Field := 16#1#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FRAC<dd><dt>INT<dd></dl><h4 id=2f766eb6235b990189532276f5f479301cd59d856deb81052d0012206722e2b0>CLK_GPOUT2_CTRL_AUXSRC_Field</h4><pre class=ada-code-snippet><code>type CLK_GPOUT2_CTRL_AUXSRC_Field is
+  (clksrc_pll_sys,
+   clksrc_gpin0,
+   clksrc_gpin1,
+   clksrc_pll_usb,
+   rosc_clksrc_ph,
+   xosc_clksrc,
+   clk_sys,
+   clk_usb,
+   clk_adc,
+   clk_rtc,
+   clk_ref)
+  with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>clksrc_pll_sys<dd><dt>clksrc_gpin0<dd><dt>clksrc_gpin1<dd><dt>clksrc_pll_usb<dd><dt>rosc_clksrc_ph<dd><dt>xosc_clksrc<dd><dt>clk_sys<dd><dt>clk_usb<dd><dt>clk_adc<dd><dt>clk_rtc<dd><dt>clk_ref<dd></dl><h4 id=69a91670a14bb32a57bf21844ae8cf372bc92d7592db57d321e06a67057d40ba>CLK_GPOUT2_CTRL_PHASE_Field</h4><pre class=ada-code-snippet><code>subtype CLK_GPOUT2_CTRL_PHASE_Field is HAL.UInt2;
+</code></pre><h4 id=db08e0d7812acba258cd3b54f8c03166ca513d9a55d9bc1c4f3b367a5bb959de>CLK_GPOUT2_CTRL_Register</h4><pre class=ada-code-snippet><code>type CLK_GPOUT2_CTRL_Register is record
+   Reserved_0_4   : HAL.UInt5 := 16#0#;
+   AUXSRC         : CLK_GPOUT2_CTRL_AUXSRC_Field :=
+                     RP2040_SVD.CLOCKS.clksrc_pll_sys;
+   Reserved_9_9   : HAL.Bit := 16#0#;
+   KILL           : Boolean := False;
+   ENABLE         : Boolean := False;
+   DC50           : Boolean := False;
+   Reserved_13_15 : HAL.UInt3 := 16#0#;
+   PHASE          : CLK_GPOUT2_CTRL_PHASE_Field := 16#0#;
+   Reserved_18_19 : HAL.UInt2 := 16#0#;
+   NUDGE          : Boolean := False;
+   Reserved_21_31 : HAL.UInt11 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_4<dd><dt>AUXSRC<dd><dt>Reserved_9_9<dd><dt>KILL<dd><dt>ENABLE<dd><dt>DC50<dd><dt>Reserved_13_15<dd><dt>PHASE<dd><dt>Reserved_18_19<dd><dt>NUDGE<dd><dt>Reserved_21_31<dd></dl><h4 id=5a67692eb65452b15e0ea4f94e7bc5f33a7f6a267f951815b773ccec9af8250e>CLK_GPOUT2_DIV_FRAC_Field</h4><pre class=ada-code-snippet><code>subtype CLK_GPOUT2_DIV_FRAC_Field is HAL.UInt8;
+</code></pre><h4 id=0167b84fb7c3bd3a0ddc5a296f06e5102515ebc27107e6c09d2873c161cfa1c3>CLK_GPOUT2_DIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype CLK_GPOUT2_DIV_INT_Field is HAL.UInt24;
+</code></pre><h4 id=9c9bca7431292e5721d07b5a7cfb4c5403fa57068626fff38063cf48c674eefc>CLK_GPOUT2_DIV_Register</h4><pre class=ada-code-snippet><code>type CLK_GPOUT2_DIV_Register is record
+   FRAC : CLK_GPOUT2_DIV_FRAC_Field := 16#0#;
+   INT  : CLK_GPOUT2_DIV_INT_Field := 16#1#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FRAC<dd><dt>INT<dd></dl><h4 id=df9ac8788971bf7e0eb6072358096f1cf8dff100637ef8f1fa237d947f06a7c0>CLK_GPOUT3_CTRL_AUXSRC_Field</h4><pre class=ada-code-snippet><code>type CLK_GPOUT3_CTRL_AUXSRC_Field is
+  (clksrc_pll_sys,
+   clksrc_gpin0,
+   clksrc_gpin1,
+   clksrc_pll_usb,
+   rosc_clksrc_ph,
+   xosc_clksrc,
+   clk_sys,
+   clk_usb,
+   clk_adc,
+   clk_rtc,
+   clk_ref)
+  with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>clksrc_pll_sys<dd><dt>clksrc_gpin0<dd><dt>clksrc_gpin1<dd><dt>clksrc_pll_usb<dd><dt>rosc_clksrc_ph<dd><dt>xosc_clksrc<dd><dt>clk_sys<dd><dt>clk_usb<dd><dt>clk_adc<dd><dt>clk_rtc<dd><dt>clk_ref<dd></dl><h4 id=cd2d8e5f0f91b3635130236c4df71e8772abb55f28370a4fdff3ae860115ebc3>CLK_GPOUT3_CTRL_PHASE_Field</h4><pre class=ada-code-snippet><code>subtype CLK_GPOUT3_CTRL_PHASE_Field is HAL.UInt2;
+</code></pre><h4 id=da77f98a42e0e033e7dc1d8439ef3374801c18d96db258b327b6b3b8855f046a>CLK_GPOUT3_CTRL_Register</h4><pre class=ada-code-snippet><code>type CLK_GPOUT3_CTRL_Register is record
+   Reserved_0_4   : HAL.UInt5 := 16#0#;
+   AUXSRC         : CLK_GPOUT3_CTRL_AUXSRC_Field :=
+                     RP2040_SVD.CLOCKS.clksrc_pll_sys;
+   Reserved_9_9   : HAL.Bit := 16#0#;
+   KILL           : Boolean := False;
+   ENABLE         : Boolean := False;
+   DC50           : Boolean := False;
+   Reserved_13_15 : HAL.UInt3 := 16#0#;
+   PHASE          : CLK_GPOUT3_CTRL_PHASE_Field := 16#0#;
+   Reserved_18_19 : HAL.UInt2 := 16#0#;
+   NUDGE          : Boolean := False;
+   Reserved_21_31 : HAL.UInt11 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_4<dd><dt>AUXSRC<dd><dt>Reserved_9_9<dd><dt>KILL<dd><dt>ENABLE<dd><dt>DC50<dd><dt>Reserved_13_15<dd><dt>PHASE<dd><dt>Reserved_18_19<dd><dt>NUDGE<dd><dt>Reserved_21_31<dd></dl><h4 id=9aa158896d0cf05460b12e7a5b6cb667838dd99bd4b267ede68bb501c1f51d6f>CLK_GPOUT3_DIV_FRAC_Field</h4><pre class=ada-code-snippet><code>subtype CLK_GPOUT3_DIV_FRAC_Field is HAL.UInt8;
+</code></pre><h4 id=77caa44c6adacf774b184f935e8f2963e1e708e9735a2104d5d3287cb912e516>CLK_GPOUT3_DIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype CLK_GPOUT3_DIV_INT_Field is HAL.UInt24;
+</code></pre><h4 id=5a0b044e933a25cde9ba24f4b2114338359320e37c4fa5c6a77ab3bccb929ffe>CLK_GPOUT3_DIV_Register</h4><pre class=ada-code-snippet><code>type CLK_GPOUT3_DIV_Register is record
+   FRAC : CLK_GPOUT3_DIV_FRAC_Field := 16#0#;
+   INT  : CLK_GPOUT3_DIV_INT_Field := 16#1#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FRAC<dd><dt>INT<dd></dl><h4 id=28d5780f5a7d44c806b2f5bf902fdbcfe98e8795360c041ceacd3b1ecbb7c326>CLK_PERI_CTRL_AUXSRC_Field</h4><pre class=ada-code-snippet><code>type CLK_PERI_CTRL_AUXSRC_Field is
+  (clk_sys,
+   clksrc_pll_sys,
+   clksrc_pll_usb,
+   rosc_clksrc_ph,
+   xosc_clksrc,
+   clksrc_gpin0,
+   clksrc_gpin1)
+  with Size => 3;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>clk_sys<dd><dt>clksrc_pll_sys<dd><dt>clksrc_pll_usb<dd><dt>rosc_clksrc_ph<dd><dt>xosc_clksrc<dd><dt>clksrc_gpin0<dd><dt>clksrc_gpin1<dd></dl><h4 id=cf5f57aa23ad9c9109588faf9a1901c2cd733c18476eb34a513d4a5533a6b75b>CLK_PERI_CTRL_Register</h4><pre class=ada-code-snippet><code>type CLK_PERI_CTRL_Register is record
+   Reserved_0_4   : HAL.UInt5 := 16#0#;
+   AUXSRC         : CLK_PERI_CTRL_AUXSRC_Field :=
+                     RP2040_SVD.CLOCKS.clk_sys;
+   Reserved_8_9   : HAL.UInt2 := 16#0#;
+   KILL           : Boolean := False;
+   ENABLE         : Boolean := False;
+   Reserved_12_31 : HAL.UInt20 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_4<dd><dt>AUXSRC<dd><dt>Reserved_8_9<dd><dt>KILL<dd><dt>ENABLE<dd><dt>Reserved_12_31<dd></dl><h4 id=a8cec96c8b9667dd5f6c4c131529f4d2ca5554cc2c53c817ffe66d7ab4589064>CLK_REF_CTRL_AUXSRC_Field</h4><pre class=ada-code-snippet><code>type CLK_REF_CTRL_AUXSRC_Field is
+  (clksrc_pll_usb,
+   clksrc_gpin0,
+   clksrc_gpin1)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>clksrc_pll_usb<dd><dt>clksrc_gpin0<dd><dt>clksrc_gpin1<dd></dl><h4 id=f36a569f30cd0ebe9efc46cebc56c90cdcfa85eb5f4ca191f1a29765ec5bab45>CLK_REF_CTRL_Register</h4><pre class=ada-code-snippet><code>type CLK_REF_CTRL_Register is record
+   SRC           : CLK_REF_CTRL_SRC_Field :=
+                    RP2040_SVD.CLOCKS.rosc_clksrc_ph;
+   Reserved_2_4  : HAL.UInt3 := 16#0#;
+   AUXSRC        : CLK_REF_CTRL_AUXSRC_Field :=
+                    RP2040_SVD.CLOCKS.clksrc_pll_usb;
+   Reserved_7_31 : HAL.UInt25 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>SRC<dd><dt>Reserved_2_4<dd><dt>AUXSRC<dd><dt>Reserved_7_31<dd></dl><h4 id=ca31bb261276c5acd4ed7a926f5959e90a8d6e7d93a81f0db03ee5537d664223>CLK_REF_CTRL_SRC_Field</h4><pre class=ada-code-snippet><code>type CLK_REF_CTRL_SRC_Field is
+  (rosc_clksrc_ph,
+   clksrc_clk_ref_aux,
+   xosc_clksrc)
+  with Size => 2;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>rosc_clksrc_ph<dd><dt>clksrc_clk_ref_aux<dd><dt>xosc_clksrc<dd></dl><h4 id=2b7402476c6297339173f6a033127e5051d0430b9be1567cbc818cb26cd3f149>CLK_REF_DIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype CLK_REF_DIV_INT_Field is HAL.UInt2;
+</code></pre><h4 id=ba023a4b765326f752271721d4fd81f551e5d8eada8bcbe5cfb32ee56fcac45a>CLK_REF_DIV_Register</h4><pre class=ada-code-snippet><code>type CLK_REF_DIV_Register is record
+   Reserved_0_7   : HAL.UInt8 := 16#0#;
+   INT            : CLK_REF_DIV_INT_Field := 16#1#;
+   Reserved_10_31 : HAL.UInt22 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>INT<dd><dt>Reserved_10_31<dd></dl><h4 id=b0a967d34eaf0a5189ce89a7743d6663752dbc3d649dde9d0c3d7a7f594837e1>CLK_RTC_CTRL_AUXSRC_Field</h4><pre class=ada-code-snippet><code>type CLK_RTC_CTRL_AUXSRC_Field is
+  (clksrc_pll_usb,
+   clksrc_pll_sys,
+   rosc_clksrc_ph,
+   xosc_clksrc,
+   clksrc_gpin0,
+   clksrc_gpin1)
+  with Size => 3;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>clksrc_pll_usb<dd><dt>clksrc_pll_sys<dd><dt>rosc_clksrc_ph<dd><dt>xosc_clksrc<dd><dt>clksrc_gpin0<dd><dt>clksrc_gpin1<dd></dl><h4 id=41c880e96731834f866eba31df196e4adab80286188bda4cb613ceecc7738392>CLK_RTC_CTRL_PHASE_Field</h4><pre class=ada-code-snippet><code>subtype CLK_RTC_CTRL_PHASE_Field is HAL.UInt2;
+</code></pre><h4 id=118417b1c78cee993d750220ccab083a7e6d289e13197181fb7cca6b35ce246c>CLK_RTC_CTRL_Register</h4><pre class=ada-code-snippet><code>type CLK_RTC_CTRL_Register is record
+   Reserved_0_4   : HAL.UInt5 := 16#0#;
+   AUXSRC         : CLK_RTC_CTRL_AUXSRC_Field :=
+                     RP2040_SVD.CLOCKS.clksrc_pll_usb;
+   Reserved_8_9   : HAL.UInt2 := 16#0#;
+   KILL           : Boolean := False;
+   ENABLE         : Boolean := False;
+   Reserved_12_15 : HAL.UInt4 := 16#0#;
+   PHASE          : CLK_RTC_CTRL_PHASE_Field := 16#0#;
+   Reserved_18_19 : HAL.UInt2 := 16#0#;
+   NUDGE          : Boolean := False;
+   Reserved_21_31 : HAL.UInt11 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_4<dd><dt>AUXSRC<dd><dt>Reserved_8_9<dd><dt>KILL<dd><dt>ENABLE<dd><dt>Reserved_12_15<dd><dt>PHASE<dd><dt>Reserved_18_19<dd><dt>NUDGE<dd><dt>Reserved_21_31<dd></dl><h4 id=f3ddd493d1c6498dc69b49efdd2ca100e230ba24966fed5282ac888ee382fc5a>CLK_RTC_DIV_FRAC_Field</h4><pre class=ada-code-snippet><code>subtype CLK_RTC_DIV_FRAC_Field is HAL.UInt8;
+</code></pre><h4 id=a945b111b29e99bc1996926697fd8bf667c45b6fe04bb1d28c2b6da9bd6d0dbf>CLK_RTC_DIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype CLK_RTC_DIV_INT_Field is HAL.UInt24;
+</code></pre><h4 id=e11cefd14d75af3ffb2dd327fc0ccd764d9922073a5c4eb74f7d5fe7f807e0ce>CLK_RTC_DIV_Register</h4><pre class=ada-code-snippet><code>type CLK_RTC_DIV_Register is record
+   FRAC : CLK_RTC_DIV_FRAC_Field := 16#0#;
+   INT  : CLK_RTC_DIV_INT_Field := 16#1#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FRAC<dd><dt>INT<dd></dl><h4 id=c2f635e76ab593c1a0d73ddf2a5e0ca99471a6b823e553cced13177d7dd947c6>CLK_SYS_CTRL_AUXSRC_Field</h4><pre class=ada-code-snippet><code>type CLK_SYS_CTRL_AUXSRC_Field is
+  (clksrc_pll_sys,
+   clksrc_pll_usb,
+   rosc_clksrc,
+   xosc_clksrc,
+   clksrc_gpin0,
+   clksrc_gpin1)
+  with Size => 3;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>clksrc_pll_sys<dd><dt>clksrc_pll_usb<dd><dt>rosc_clksrc<dd><dt>xosc_clksrc<dd><dt>clksrc_gpin0<dd><dt>clksrc_gpin1<dd></dl><h4 id=33fa28017af2061a276f1e141584877f17b2e96f4319168897f9b8ac38be9497>CLK_SYS_CTRL_Register</h4><pre class=ada-code-snippet><code>type CLK_SYS_CTRL_Register is record
+   SRC           : CLK_SYS_CTRL_SRC_Field := RP2040_SVD.CLOCKS.clk_ref;
+   Reserved_1_4  : HAL.UInt4 := 16#0#;
+   AUXSRC        : CLK_SYS_CTRL_AUXSRC_Field :=
+                    RP2040_SVD.CLOCKS.clksrc_pll_sys;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>SRC<dd><dt>Reserved_1_4<dd><dt>AUXSRC<dd><dt>Reserved_8_31<dd></dl><h4 id=a04975e7799e23baaee26399c792019680c399ea3b16f92b3c00c6fa69858283>CLK_SYS_CTRL_SRC_Field</h4><pre class=ada-code-snippet><code>type CLK_SYS_CTRL_SRC_Field is
+  (clk_ref,
+   clksrc_clk_sys_aux)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>clk_ref<dd><dt>clksrc_clk_sys_aux<dd></dl><h4 id=1f642b9cf7dd3f7f39112ec66e94e46258733391a6fba1830a5b2378f9f63050>CLK_SYS_DIV_FRAC_Field</h4><pre class=ada-code-snippet><code>subtype CLK_SYS_DIV_FRAC_Field is HAL.UInt8;
+</code></pre><h4 id=2f61c957027e901c51dd18c4eea6c1c865222e3380810c54058eeec9939babb7>CLK_SYS_DIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype CLK_SYS_DIV_INT_Field is HAL.UInt24;
+</code></pre><h4 id=2cbf6e8436f61e5a9349035a5e9dda4ce126f404c3d0e0d9e85b664f7801e847>CLK_SYS_DIV_Register</h4><pre class=ada-code-snippet><code>type CLK_SYS_DIV_Register is record
+   FRAC : CLK_SYS_DIV_FRAC_Field := 16#0#;
+   INT  : CLK_SYS_DIV_INT_Field := 16#1#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FRAC<dd><dt>INT<dd></dl><h4 id=0a50d57509796886a1144e996bd80ed810331f3e11f4d44ff9a09f10058e5a89>CLK_SYS_RESUS_CTRL_Register</h4><pre class=ada-code-snippet><code>type CLK_SYS_RESUS_CTRL_Register is record
+   TIMEOUT        : CLK_SYS_RESUS_CTRL_TIMEOUT_Field := 16#FF#;
+   ENABLE         : Boolean := False;
+   Reserved_9_11  : HAL.UInt3 := 16#0#;
+   FRCE           : Boolean := False;
+   Reserved_13_15 : HAL.UInt3 := 16#0#;
+   CLEAR          : Boolean := False;
+   Reserved_17_31 : HAL.UInt15 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>TIMEOUT<dd><dt>ENABLE<dd><dt>Reserved_9_11<dd><dt>FRCE<dd><dt>Reserved_13_15<dd><dt>CLEAR<dd><dt>Reserved_17_31<dd></dl><h4 id=dbe299f54acc5e18e2c0d9dad78c6b290aabbaad16f098ee9f489f22416fbb7c>CLK_SYS_RESUS_CTRL_TIMEOUT_Field</h4><pre class=ada-code-snippet><code>subtype CLK_SYS_RESUS_CTRL_TIMEOUT_Field is HAL.UInt8;
+</code></pre><h4 id=06b3741cb5e57f495adc8970cbc51c1c28b42135e653d5b01de80d63e88cceb1>CLK_SYS_RESUS_STATUS_Register</h4><pre class=ada-code-snippet><code>type CLK_SYS_RESUS_STATUS_Register is record
+   RESUSSED      : Boolean;
+   Reserved_1_31 : HAL.UInt31;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>RESUSSED<dd><dt>Reserved_1_31<dd></dl><h4 id=8f436bcd6120d075cc5c5c6aa3b06adb4a92687504b232198b33a96791df0219>CLK_USB_CTRL_AUXSRC_Field</h4><pre class=ada-code-snippet><code>type CLK_USB_CTRL_AUXSRC_Field is
+  (clksrc_pll_usb,
+   clksrc_pll_sys,
+   rosc_clksrc_ph,
+   xosc_clksrc,
+   clksrc_gpin0,
+   clksrc_gpin1)
+  with Size => 3;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>clksrc_pll_usb<dd><dt>clksrc_pll_sys<dd><dt>rosc_clksrc_ph<dd><dt>xosc_clksrc<dd><dt>clksrc_gpin0<dd><dt>clksrc_gpin1<dd></dl><h4 id=d24c812e793c840aa3debe026fed17d3ccdd0bc0a5018a94aedb96adbf122877>CLK_USB_CTRL_PHASE_Field</h4><pre class=ada-code-snippet><code>subtype CLK_USB_CTRL_PHASE_Field is HAL.UInt2;
+</code></pre><h4 id=d40fbaf10acd6e6e26c1e7a1951f5250fc25ccfd8c078e9a91c1258ee5777b12>CLK_USB_CTRL_Register</h4><pre class=ada-code-snippet><code>type CLK_USB_CTRL_Register is record
+   Reserved_0_4   : HAL.UInt5 := 16#0#;
+   AUXSRC         : CLK_USB_CTRL_AUXSRC_Field :=
+                     RP2040_SVD.CLOCKS.clksrc_pll_usb;
+   Reserved_8_9   : HAL.UInt2 := 16#0#;
+   KILL           : Boolean := False;
+   ENABLE         : Boolean := False;
+   Reserved_12_15 : HAL.UInt4 := 16#0#;
+   PHASE          : CLK_USB_CTRL_PHASE_Field := 16#0#;
+   Reserved_18_19 : HAL.UInt2 := 16#0#;
+   NUDGE          : Boolean := False;
+   Reserved_21_31 : HAL.UInt11 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_4<dd><dt>AUXSRC<dd><dt>Reserved_8_9<dd><dt>KILL<dd><dt>ENABLE<dd><dt>Reserved_12_15<dd><dt>PHASE<dd><dt>Reserved_18_19<dd><dt>NUDGE<dd><dt>Reserved_21_31<dd></dl><h4 id=4011adf6daf8e49a61360702c7390ff6a5ca9b1541b1bcc2946c891287593d04>CLK_USB_DIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype CLK_USB_DIV_INT_Field is HAL.UInt2;
+</code></pre><h4 id=ab2f8c7c7b3b9260e3a26b7d9f9d744563138dca5942c595e4471147ba01f235>CLK_USB_DIV_Register</h4><pre class=ada-code-snippet><code>type CLK_USB_DIV_Register is record
+   Reserved_0_7   : HAL.UInt8 := 16#0#;
+   INT            : CLK_USB_DIV_INT_Field := 16#1#;
+   Reserved_10_31 : HAL.UInt22 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>INT<dd><dt>Reserved_10_31<dd></dl><h4 id=cec12fa7ceabe0d5d854ce6ebd84a92ff5d409e39726b022140486c9f44a8e49>CLOCKS_Periph</h4><pre class=ada-code-snippet><code>CLOCKS_Periph : aliased CLOCKS_Peripheral
+  with Import, Address => CLOCKS_Base;
+</code></pre><h4 id=ecb2c2041ed09370f0cb2f6f03800cedee1900701520d075d0e4605fd5227e81>CLOCKS_Peripheral</h4><pre class=ada-code-snippet><code>type CLOCKS_Peripheral is record
+   CLK_GPOUT0_CTRL      : aliased CLK_GPOUT0_CTRL_Register;
+   CLK_GPOUT0_DIV       : aliased CLK_GPOUT0_DIV_Register;
+   CLK_GPOUT0_SELECTED  : aliased HAL.UInt32;
+   CLK_GPOUT1_CTRL      : aliased CLK_GPOUT1_CTRL_Register;
+   CLK_GPOUT1_DIV       : aliased CLK_GPOUT1_DIV_Register;
+   CLK_GPOUT1_SELECTED  : aliased HAL.UInt32;
+   CLK_GPOUT2_CTRL      : aliased CLK_GPOUT2_CTRL_Register;
+   CLK_GPOUT2_DIV       : aliased CLK_GPOUT2_DIV_Register;
+   CLK_GPOUT2_SELECTED  : aliased HAL.UInt32;
+   CLK_GPOUT3_CTRL      : aliased CLK_GPOUT3_CTRL_Register;
+   CLK_GPOUT3_DIV       : aliased CLK_GPOUT3_DIV_Register;
+   CLK_GPOUT3_SELECTED  : aliased HAL.UInt32;
+   CLK_REF_CTRL         : aliased CLK_REF_CTRL_Register;
+   CLK_REF_DIV          : aliased CLK_REF_DIV_Register;
+   CLK_REF_SELECTED     : aliased HAL.UInt32;
+   CLK_SYS_CTRL         : aliased CLK_SYS_CTRL_Register;
+   CLK_SYS_DIV          : aliased CLK_SYS_DIV_Register;
+   CLK_SYS_SELECTED     : aliased HAL.UInt32;
+   CLK_PERI_CTRL        : aliased CLK_PERI_CTRL_Register;
+   CLK_PERI_SELECTED    : aliased HAL.UInt32;
+   CLK_USB_CTRL         : aliased CLK_USB_CTRL_Register;
+   CLK_USB_DIV          : aliased CLK_USB_DIV_Register;
+   CLK_USB_SELECTED     : aliased HAL.UInt32;
+   CLK_ADC_CTRL         : aliased CLK_ADC_CTRL_Register;
+   CLK_ADC_DIV          : aliased CLK_ADC_DIV_Register;
+   CLK_ADC_SELECTED     : aliased HAL.UInt32;
+   CLK_RTC_CTRL         : aliased CLK_RTC_CTRL_Register;
+   CLK_RTC_DIV          : aliased CLK_RTC_DIV_Register;
+   CLK_RTC_SELECTED     : aliased HAL.UInt32;
+   CLK_SYS_RESUS_CTRL   : aliased CLK_SYS_RESUS_CTRL_Register;
+   CLK_SYS_RESUS_STATUS : aliased CLK_SYS_RESUS_STATUS_Register;
+   FC0_REF_KHZ          : aliased FC0_REF_KHZ_Register;
+   FC0_MIN_KHZ          : aliased FC0_MIN_KHZ_Register;
+   FC0_MAX_KHZ          : aliased FC0_MAX_KHZ_Register;
+   FC0_DELAY            : aliased FC0_DELAY_Register;
+   FC0_INTERVAL         : aliased FC0_INTERVAL_Register;
+   FC0_SRC              : aliased FC0_SRC_Register;
+   FC0_STATUS           : aliased FC0_STATUS_Register;
+   FC0_RESULT           : aliased FC0_RESULT_Register;
+   WAKE_EN0             : aliased WAKE_EN0_Register;
+   WAKE_EN1             : aliased WAKE_EN1_Register;
+   SLEEP_EN0            : aliased SLEEP_EN0_Register;
+   SLEEP_EN1            : aliased SLEEP_EN1_Register;
+   ENABLED0             : aliased ENABLED0_Register;
+   ENABLED1             : aliased ENABLED1_Register;
+   INTR                 : aliased INTR_Register;
+   INTE                 : aliased INTE_Register;
+   INTF                 : aliased INTF_Register;
+   INTS                 : aliased INTS_Register;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>CLK_GPOUT0_CTRL<dd><dt>CLK_GPOUT0_DIV<dd><dt>CLK_GPOUT0_SELECTED<dd><dt>CLK_GPOUT1_CTRL<dd><dt>CLK_GPOUT1_DIV<dd><dt>CLK_GPOUT1_SELECTED<dd><dt>CLK_GPOUT2_CTRL<dd><dt>CLK_GPOUT2_DIV<dd><dt>CLK_GPOUT2_SELECTED<dd><dt>CLK_GPOUT3_CTRL<dd><dt>CLK_GPOUT3_DIV<dd><dt>CLK_GPOUT3_SELECTED<dd><dt>CLK_REF_CTRL<dd><dt>CLK_REF_DIV<dd><dt>CLK_REF_SELECTED<dd><dt>CLK_SYS_CTRL<dd><dt>CLK_SYS_DIV<dd><dt>CLK_SYS_SELECTED<dd><dt>CLK_PERI_CTRL<dd><dt>CLK_PERI_SELECTED<dd><dt>CLK_USB_CTRL<dd><dt>CLK_USB_DIV<dd><dt>CLK_USB_SELECTED<dd><dt>CLK_ADC_CTRL<dd><dt>CLK_ADC_DIV<dd><dt>CLK_ADC_SELECTED<dd><dt>CLK_RTC_CTRL<dd><dt>CLK_RTC_DIV<dd><dt>CLK_RTC_SELECTED<dd><dt>CLK_SYS_RESUS_CTRL<dd><dt>CLK_SYS_RESUS_STATUS<dd><dt>FC0_REF_KHZ<dd><dt>FC0_MIN_KHZ<dd><dt>FC0_MAX_KHZ<dd><dt>FC0_DELAY<dd><dt>FC0_INTERVAL<dd><dt>FC0_SRC<dd><dt>FC0_STATUS<dd><dt>FC0_RESULT<dd><dt>WAKE_EN0<dd><dt>WAKE_EN1<dd><dt>SLEEP_EN0<dd><dt>SLEEP_EN1<dd><dt>ENABLED0<dd><dt>ENABLED1<dd><dt>INTR<dd><dt>INTE<dd><dt>INTF<dd><dt>INTS<dd></dl><h4 id=3892f4981c68a188d65e25caa121deb14e362db1ca5669b4c56799ebaa3a05e2>ENABLED0_clk_sys_i2c_Field</h4><pre class=ada-code-snippet><code>type ENABLED0_clk_sys_i2c_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : ENABLED0_clk_sys_i2c_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=278692d077a2ef5a3a5cf78ed7235c9e08edf71aa62a806bbaff7463ed731d7a>ENABLED0_clk_sys_i2c_Field_Array</h4><pre class=ada-code-snippet><code>type ENABLED0_clk_sys_i2c_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=eab11d625a7539bf3d4f0ae4c2b1a80d1e82e4279446412ba29de42c9da6cc50>ENABLED0_clk_sys_pio_Field</h4><pre class=ada-code-snippet><code>type ENABLED0_clk_sys_pio_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : ENABLED0_clk_sys_pio_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=61ffcebbbf5b0a8fd9c13de90f2655c9a7b837d4e7829f8fbc402744e425b6d9>ENABLED0_clk_sys_pio_Field_Array</h4><pre class=ada-code-snippet><code>type ENABLED0_clk_sys_pio_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=29e7b0330c06293c22879cead1c45a7abc2d79d7c64172ca5a360f07ce4db495>ENABLED0_clk_sys_sram_Field</h4><pre class=ada-code-snippet><code>type ENABLED0_clk_sys_sram_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt4;
+      when True =>
+         Arr : ENABLED0_clk_sys_sram_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 4;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=d50e0f2b6197e0ab5013bf6b6f62bfe8d036231dbac88da0ab34a7c842fabf91>ENABLED0_clk_sys_sram_Field_Array</h4><pre class=ada-code-snippet><code>type ENABLED0_clk_sys_sram_Field_Array is array (0 .. 3) of Boolean
+  with Component_Size => 1, Size => 4;
+</code></pre><h4 id=5b0003cab3caec7f8e27bcabd5c5dabf5538bd87251f4f131f1cda6bf25a371a>ENABLED0_Register</h4><pre class=ada-code-snippet><code>type ENABLED0_Register is record
+   clk_sys_clocks              : Boolean;
+   clk_adc_adc                 : Boolean;
+   clk_sys_adc                 : Boolean;
+   clk_sys_busctrl             : Boolean;
+   clk_sys_busfabric           : Boolean;
+   clk_sys_dma                 : Boolean;
+   clk_sys_i2c                 : ENABLED0_clk_sys_i2c_Field;
+   clk_sys_io                  : Boolean;
+   clk_sys_jtag                : Boolean;
+   clk_sys_vreg_and_chip_reset : Boolean;
+   clk_sys_pads                : Boolean;
+   clk_sys_pio                 : ENABLED0_clk_sys_pio_Field;
+   clk_sys_pll_sys             : Boolean;
+   clk_sys_pll_usb             : Boolean;
+   clk_sys_psm                 : Boolean;
+   clk_sys_pwm                 : Boolean;
+   clk_sys_resets              : Boolean;
+   clk_sys_rom                 : Boolean;
+   clk_sys_rosc                : Boolean;
+   clk_rtc_rtc                 : Boolean;
+   clk_sys_rtc                 : Boolean;
+   clk_sys_sio                 : Boolean;
+   clk_peri_spi0               : Boolean;
+   clk_sys_spi0                : Boolean;
+   clk_peri_spi1               : Boolean;
+   clk_sys_spi1                : Boolean;
+   clk_sys_sram                : ENABLED0_clk_sys_sram_Field;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>clk_sys_clocks<dd><dt>clk_adc_adc<dd><dt>clk_sys_adc<dd><dt>clk_sys_busctrl<dd><dt>clk_sys_busfabric<dd><dt>clk_sys_dma<dd><dt>clk_sys_i2c<dd><dt>clk_sys_io<dd><dt>clk_sys_jtag<dd><dt>clk_sys_vreg_and_chip_reset<dd><dt>clk_sys_pads<dd><dt>clk_sys_pio<dd><dt>clk_sys_pll_sys<dd><dt>clk_sys_pll_usb<dd><dt>clk_sys_psm<dd><dt>clk_sys_pwm<dd><dt>clk_sys_resets<dd><dt>clk_sys_rom<dd><dt>clk_sys_rosc<dd><dt>clk_rtc_rtc<dd><dt>clk_sys_rtc<dd><dt>clk_sys_sio<dd><dt>clk_peri_spi0<dd><dt>clk_sys_spi0<dd><dt>clk_peri_spi1<dd><dt>clk_sys_spi1<dd><dt>clk_sys_sram<dd></dl><h4 id=c32df8ed33eb3483781e6cbc873423fe067f14ea0348356fc3c11a44add2211c>ENABLED1_clk_sys_sram_Field</h4><pre class=ada-code-snippet><code>type ENABLED1_clk_sys_sram_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : ENABLED1_clk_sys_sram_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=677d04cd39815b927f868526af5287222c5188b91455869aafe393ff95e5f68d>ENABLED1_clk_sys_sram_Field_Array</h4><pre class=ada-code-snippet><code>type ENABLED1_clk_sys_sram_Field_Array is array (4 .. 5) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=7a8372764cc8ba3618173c3e961829bb4177fbda8a491403b33ad62ea2eed0fa>ENABLED1_Register</h4><pre class=ada-code-snippet><code>type ENABLED1_Register is record
+   clk_sys_sram     : ENABLED1_clk_sys_sram_Field;
+   clk_sys_syscfg   : Boolean;
+   clk_sys_sysinfo  : Boolean;
+   clk_sys_tbman    : Boolean;
+   clk_sys_timer    : Boolean;
+   clk_peri_uart0   : Boolean;
+   clk_sys_uart0    : Boolean;
+   clk_peri_uart1   : Boolean;
+   clk_sys_uart1    : Boolean;
+   clk_sys_usbctrl  : Boolean;
+   clk_usb_usbctrl  : Boolean;
+   clk_sys_watchdog : Boolean;
+   clk_sys_xip      : Boolean;
+   clk_sys_xosc     : Boolean;
+   Reserved_15_31   : HAL.UInt17;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>clk_sys_sram<dd><dt>clk_sys_syscfg<dd><dt>clk_sys_sysinfo<dd><dt>clk_sys_tbman<dd><dt>clk_sys_timer<dd><dt>clk_peri_uart0<dd><dt>clk_sys_uart0<dd><dt>clk_peri_uart1<dd><dt>clk_sys_uart1<dd><dt>clk_sys_usbctrl<dd><dt>clk_usb_usbctrl<dd><dt>clk_sys_watchdog<dd><dt>clk_sys_xip<dd><dt>clk_sys_xosc<dd><dt>Reserved_15_31<dd></dl><h4 id=561fb7fdeb02879cc5ca43884af47045a1128e15f2573545289409c8e3dc4503>FC0_DELAY_FC0_DELAY_Field</h4><pre class=ada-code-snippet><code>subtype FC0_DELAY_FC0_DELAY_Field is HAL.UInt3;
+</code></pre><h4 id=efe4ec84438eb7e0ea57ec29957d3fe41e6e81b66f42f90a4c2f7e6e4f0c775c>FC0_DELAY_Register</h4><pre class=ada-code-snippet><code>type FC0_DELAY_Register is record
+   FC0_DELAY     : FC0_DELAY_FC0_DELAY_Field := 16#1#;
+   Reserved_3_31 : HAL.UInt29 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FC0_DELAY<dd><dt>Reserved_3_31<dd></dl><h4 id=03e67f7b533d0f715361f06efb2c9a2502db6a3d5979e8dfa8cd53b749ba0662>FC0_INTERVAL_FC0_INTERVAL_Field</h4><pre class=ada-code-snippet><code>subtype FC0_INTERVAL_FC0_INTERVAL_Field is HAL.UInt4;
+</code></pre><h4 id=200fa06bb9ed28df080a96f0b664f02037d464dca805f8ff4acc3920e3a08e63>FC0_INTERVAL_Register</h4><pre class=ada-code-snippet><code>type FC0_INTERVAL_Register is record
+   FC0_INTERVAL  : FC0_INTERVAL_FC0_INTERVAL_Field := 16#8#;
+   Reserved_4_31 : HAL.UInt28 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FC0_INTERVAL<dd><dt>Reserved_4_31<dd></dl><h4 id=127b9e35777d0eba06580b474b2ba861ef23d650dd28fdabef45f8d85d63d375>FC0_MAX_KHZ_FC0_MAX_KHZ_Field</h4><pre class=ada-code-snippet><code>subtype FC0_MAX_KHZ_FC0_MAX_KHZ_Field is HAL.UInt25;
+</code></pre><h4 id=d0f0f8467d75c65e44ec6e4934f97b35ef4ca32bed2e79203efc8bd7f87906be>FC0_MAX_KHZ_Register</h4><pre class=ada-code-snippet><code>type FC0_MAX_KHZ_Register is record
+   FC0_MAX_KHZ    : FC0_MAX_KHZ_FC0_MAX_KHZ_Field := 16#1FFFFFF#;
+   Reserved_25_31 : HAL.UInt7 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FC0_MAX_KHZ<dd><dt>Reserved_25_31<dd></dl><h4 id=b3c75cc0e47f99eaf6429c5f1cbf747f748bc56a6b32da885705c03e7a2046ce>FC0_MIN_KHZ_FC0_MIN_KHZ_Field</h4><pre class=ada-code-snippet><code>subtype FC0_MIN_KHZ_FC0_MIN_KHZ_Field is HAL.UInt25;
+</code></pre><h4 id=98001ee84f6a6e5574eab84c5f00afbc1b306d393e920ab8c1d46544da8e7ab0>FC0_MIN_KHZ_Register</h4><pre class=ada-code-snippet><code>type FC0_MIN_KHZ_Register is record
+   FC0_MIN_KHZ    : FC0_MIN_KHZ_FC0_MIN_KHZ_Field := 16#0#;
+   Reserved_25_31 : HAL.UInt7 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FC0_MIN_KHZ<dd><dt>Reserved_25_31<dd></dl><h4 id=a8f76a1a960d4aea46542f3a03a720290987ccf5e455b28d5f02fcf04f74b93d>FC0_REF_KHZ_FC0_REF_KHZ_Field</h4><pre class=ada-code-snippet><code>subtype FC0_REF_KHZ_FC0_REF_KHZ_Field is HAL.UInt20;
+</code></pre><h4 id=c50873c826260800cf28095df41ce895ad14736dee160a8f3d198e9c74794b16>FC0_REF_KHZ_Register</h4><pre class=ada-code-snippet><code>type FC0_REF_KHZ_Register is record
+   FC0_REF_KHZ    : FC0_REF_KHZ_FC0_REF_KHZ_Field := 16#0#;
+   Reserved_20_31 : HAL.UInt12 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FC0_REF_KHZ<dd><dt>Reserved_20_31<dd></dl><h4 id=fd149b3e07fe8cd4e749ecf3fcf26a2cfbd06e1030c983881e26122bc11e4bca>FC0_RESULT_FRAC_Field</h4><pre class=ada-code-snippet><code>subtype FC0_RESULT_FRAC_Field is HAL.UInt5;
+</code></pre><h4 id=7971f1afcbd94a2aa3abebb562ffc84aad250475b0bcefd1a7e000b1ec831234>FC0_RESULT_KHZ_Field</h4><pre class=ada-code-snippet><code>subtype FC0_RESULT_KHZ_Field is HAL.UInt25;
+</code></pre><h4 id=123854f156434db711a680e818122224e01c2073e64c33e602c51edc73a61978>FC0_RESULT_Register</h4><pre class=ada-code-snippet><code>type FC0_RESULT_Register is record
+   FRAC           : FC0_RESULT_FRAC_Field;
+   KHZ            : FC0_RESULT_KHZ_Field;
+   Reserved_30_31 : HAL.UInt2;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FRAC<dd><dt>KHZ<dd><dt>Reserved_30_31<dd></dl><h4 id=b1313ad183d8b944ec798c3dd19c5bdf7a2c8607726e899b4fdd653605a0ade7>FC0_SRC_FC0_SRC_Field</h4><pre class=ada-code-snippet><code>type FC0_SRC_FC0_SRC_Field is
+  (NULL_k,
+   pll_sys_clksrc_primary,
+   pll_usb_clksrc_primary,
+   rosc_clksrc,
+   rosc_clksrc_ph,
+   xosc_clksrc,
+   clksrc_gpin0,
+   clksrc_gpin1,
+   clk_ref,
+   clk_sys,
+   clk_peri,
+   clk_usb,
+   clk_adc,
+   clk_rtc)
+  with Size => 8;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>NULL_k<dd><dt>pll_sys_clksrc_primary<dd><dt>pll_usb_clksrc_primary<dd><dt>rosc_clksrc<dd><dt>rosc_clksrc_ph<dd><dt>xosc_clksrc<dd><dt>clksrc_gpin0<dd><dt>clksrc_gpin1<dd><dt>clk_ref<dd><dt>clk_sys<dd><dt>clk_peri<dd><dt>clk_usb<dd><dt>clk_adc<dd><dt>clk_rtc<dd></dl><h4 id=77b88b0f44a980faaac7125f687f3196088eb83cac1964255c913d7af9e024e8>FC0_SRC_Register</h4><pre class=ada-code-snippet><code>type FC0_SRC_Register is record
+   FC0_SRC       : FC0_SRC_FC0_SRC_Field := RP2040_SVD.CLOCKS.NULL_k;
+   Reserved_8_31 : HAL.UInt24 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>FC0_SRC<dd><dt>Reserved_8_31<dd></dl><h4 id=c6978c2765452522281d3d94722cbd9d20da0fd29ce1c53ca600b6d7b489cd9c>FC0_STATUS_Register</h4><pre class=ada-code-snippet><code>type FC0_STATUS_Register is record
+   PASS           : Boolean;
+   Reserved_1_3   : HAL.UInt3;
+   DONE           : Boolean;
+   Reserved_5_7   : HAL.UInt3;
+   RUNNING        : Boolean;
+   Reserved_9_11  : HAL.UInt3;
+   WAITING        : Boolean;
+   Reserved_13_15 : HAL.UInt3;
+   FAIL           : Boolean;
+   Reserved_17_19 : HAL.UInt3;
+   SLOW           : Boolean;
+   Reserved_21_23 : HAL.UInt3;
+   FAST           : Boolean;
+   Reserved_25_27 : HAL.UInt3;
+   DIED           : Boolean;
+   Reserved_29_31 : HAL.UInt3;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>PASS<dd><dt>Reserved_1_3<dd><dt>DONE<dd><dt>Reserved_5_7<dd><dt>RUNNING<dd><dt>Reserved_9_11<dd><dt>WAITING<dd><dt>Reserved_13_15<dd><dt>FAIL<dd><dt>Reserved_17_19<dd><dt>SLOW<dd><dt>Reserved_21_23<dd><dt>FAST<dd><dt>Reserved_25_27<dd><dt>DIED<dd><dt>Reserved_29_31<dd></dl><h4 id=98353d433e6ed94d488a3a6d95c941d3beeb65e5be49df590cb9f3b816c009ab>INTE_Register</h4><pre class=ada-code-snippet><code>type INTE_Register is record
+   CLK_SYS_RESUS : Boolean := False;
+   Reserved_1_31 : HAL.UInt31 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CLK_SYS_RESUS<dd><dt>Reserved_1_31<dd></dl><h4 id=776098a60ee4e028be8697a8453ec9486d620b8c4e7e0903dd63799d8d5c962d>INTF_Register</h4><pre class=ada-code-snippet><code>type INTF_Register is record
+   CLK_SYS_RESUS : Boolean := False;
+   Reserved_1_31 : HAL.UInt31 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CLK_SYS_RESUS<dd><dt>Reserved_1_31<dd></dl><h4 id=caecef6a89774e08d2e18ba86accfe10c99de22b885dcc7e0fc44364e06865db>INTR_Register</h4><pre class=ada-code-snippet><code>type INTR_Register is record
+   CLK_SYS_RESUS : Boolean;
+   Reserved_1_31 : HAL.UInt31;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CLK_SYS_RESUS<dd><dt>Reserved_1_31<dd></dl><h4 id=c0b0b32f7a92596dfaf9627094239b08073fbc4f9fa58e45c0cc22199dd3add8>INTS_Register</h4><pre class=ada-code-snippet><code>type INTS_Register is record
+   CLK_SYS_RESUS : Boolean;
+   Reserved_1_31 : HAL.UInt31;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CLK_SYS_RESUS<dd><dt>Reserved_1_31<dd></dl><h4 id=8747543918d3ca15f31df6bbbe876b2a1a29070e117e7f4fae24882991847c65>SLEEP_EN0_clk_sys_i2c_Field</h4><pre class=ada-code-snippet><code>type SLEEP_EN0_clk_sys_i2c_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : SLEEP_EN0_clk_sys_i2c_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=b356b2fb6b313e178de0709b3145adce39821580cc540b1f1bcc64b4020181ea>SLEEP_EN0_clk_sys_i2c_Field_Array</h4><pre class=ada-code-snippet><code>type SLEEP_EN0_clk_sys_i2c_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=115571a48a7496dfc2191faf7d2da0e9db182509fc6ee0796d470ed9d56ea1f2>SLEEP_EN0_clk_sys_pio_Field</h4><pre class=ada-code-snippet><code>type SLEEP_EN0_clk_sys_pio_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : SLEEP_EN0_clk_sys_pio_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=c06cab2a81d83e1c9dd0738342976caf81b5145f47fe817a4678ef22713b4b97>SLEEP_EN0_clk_sys_pio_Field_Array</h4><pre class=ada-code-snippet><code>type SLEEP_EN0_clk_sys_pio_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=6a7bb01e0369688726350113cfd80ee93113f6235581b225cc5b9082bd6d157a>SLEEP_EN0_clk_sys_sram_Field</h4><pre class=ada-code-snippet><code>type SLEEP_EN0_clk_sys_sram_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt4;
+      when True =>
+         Arr : SLEEP_EN0_clk_sys_sram_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 4;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=273f9cc56eb6d26237831e476095091c8c9a7567d8faf596e69d50d13d1cab0c>SLEEP_EN0_clk_sys_sram_Field_Array</h4><pre class=ada-code-snippet><code>type SLEEP_EN0_clk_sys_sram_Field_Array is array (0 .. 3) of Boolean
+  with Component_Size => 1, Size => 4;
+</code></pre><h4 id=f910774ea49a4a174ee29951ceb1bbf7efaea398fd19707dbc4b70bc615b054b>SLEEP_EN0_Register</h4><pre class=ada-code-snippet><code>type SLEEP_EN0_Register is record
+   clk_sys_clocks              : Boolean := True;
+   clk_adc_adc                 : Boolean := True;
+   clk_sys_adc                 : Boolean := True;
+   clk_sys_busctrl             : Boolean := True;
+   clk_sys_busfabric           : Boolean := True;
+   clk_sys_dma                 : Boolean := True;
+   clk_sys_i2c                 : SLEEP_EN0_clk_sys_i2c_Field :=
+                                  (As_Array => False, Val => 16#1#);
+   clk_sys_io                  : Boolean := True;
+   clk_sys_jtag                : Boolean := True;
+   clk_sys_vreg_and_chip_reset : Boolean := True;
+   clk_sys_pads                : Boolean := True;
+   clk_sys_pio                 : SLEEP_EN0_clk_sys_pio_Field :=
+                                  (As_Array => False, Val => 16#1#);
+   clk_sys_pll_sys             : Boolean := True;
+   clk_sys_pll_usb             : Boolean := True;
+   clk_sys_psm                 : Boolean := True;
+   clk_sys_pwm                 : Boolean := True;
+   clk_sys_resets              : Boolean := True;
+   clk_sys_rom                 : Boolean := True;
+   clk_sys_rosc                : Boolean := True;
+   clk_rtc_rtc                 : Boolean := True;
+   clk_sys_rtc                 : Boolean := True;
+   clk_sys_sio                 : Boolean := True;
+   clk_peri_spi0               : Boolean := True;
+   clk_sys_spi0                : Boolean := True;
+   clk_peri_spi1               : Boolean := True;
+   clk_sys_spi1                : Boolean := True;
+   clk_sys_sram                : SLEEP_EN0_clk_sys_sram_Field :=
+                                  (As_Array => False, Val => 16#1#);
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>clk_sys_clocks<dd><dt>clk_adc_adc<dd><dt>clk_sys_adc<dd><dt>clk_sys_busctrl<dd><dt>clk_sys_busfabric<dd><dt>clk_sys_dma<dd><dt>clk_sys_i2c<dd><dt>clk_sys_io<dd><dt>clk_sys_jtag<dd><dt>clk_sys_vreg_and_chip_reset<dd><dt>clk_sys_pads<dd><dt>clk_sys_pio<dd><dt>clk_sys_pll_sys<dd><dt>clk_sys_pll_usb<dd><dt>clk_sys_psm<dd><dt>clk_sys_pwm<dd><dt>clk_sys_resets<dd><dt>clk_sys_rom<dd><dt>clk_sys_rosc<dd><dt>clk_rtc_rtc<dd><dt>clk_sys_rtc<dd><dt>clk_sys_sio<dd><dt>clk_peri_spi0<dd><dt>clk_sys_spi0<dd><dt>clk_peri_spi1<dd><dt>clk_sys_spi1<dd><dt>clk_sys_sram<dd></dl><h4 id=2c58cc06942fda4f4ac4a06690199ac1b11209f8a6fd23cfeef1b17d2ecc6724>SLEEP_EN1_clk_sys_sram_Field</h4><pre class=ada-code-snippet><code>type SLEEP_EN1_clk_sys_sram_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : SLEEP_EN1_clk_sys_sram_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=318b10b967a91cffac797873231f8dcb9690329fef7bb3c8ce70490c44b32486>SLEEP_EN1_clk_sys_sram_Field_Array</h4><pre class=ada-code-snippet><code>type SLEEP_EN1_clk_sys_sram_Field_Array is array (4 .. 5) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=05b77814539d5c62786ce41f3e5477c689c8e2af75cbbb5dc417927308f6f5c3>SLEEP_EN1_Register</h4><pre class=ada-code-snippet><code>type SLEEP_EN1_Register is record
+   clk_sys_sram     : SLEEP_EN1_clk_sys_sram_Field :=
+                       (As_Array => False, Val => 16#1#);
+   clk_sys_syscfg   : Boolean := True;
+   clk_sys_sysinfo  : Boolean := True;
+   clk_sys_tbman    : Boolean := True;
+   clk_sys_timer    : Boolean := True;
+   clk_peri_uart0   : Boolean := True;
+   clk_sys_uart0    : Boolean := True;
+   clk_peri_uart1   : Boolean := True;
+   clk_sys_uart1    : Boolean := True;
+   clk_sys_usbctrl  : Boolean := True;
+   clk_usb_usbctrl  : Boolean := True;
+   clk_sys_watchdog : Boolean := True;
+   clk_sys_xip      : Boolean := True;
+   clk_sys_xosc     : Boolean := True;
+   Reserved_15_31   : HAL.UInt17 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>clk_sys_sram<dd><dt>clk_sys_syscfg<dd><dt>clk_sys_sysinfo<dd><dt>clk_sys_tbman<dd><dt>clk_sys_timer<dd><dt>clk_peri_uart0<dd><dt>clk_sys_uart0<dd><dt>clk_peri_uart1<dd><dt>clk_sys_uart1<dd><dt>clk_sys_usbctrl<dd><dt>clk_usb_usbctrl<dd><dt>clk_sys_watchdog<dd><dt>clk_sys_xip<dd><dt>clk_sys_xosc<dd><dt>Reserved_15_31<dd></dl><h4 id=7811704b5144748c05bbab903ea7048f783613aa842aa067530da1028e1d73a6>WAKE_EN0_clk_sys_i2c_Field</h4><pre class=ada-code-snippet><code>type WAKE_EN0_clk_sys_i2c_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : WAKE_EN0_clk_sys_i2c_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=bc6232beacbd7c3058f4eb0fd9484f3ddf6d0ed0207a2464f4bd1fc8547ba010>WAKE_EN0_clk_sys_i2c_Field_Array</h4><pre class=ada-code-snippet><code>type WAKE_EN0_clk_sys_i2c_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=2843a28ab4c47205b1fbf1cdcaf6e6666ae355d70be263ddec9c8c5b413aaab0>WAKE_EN0_clk_sys_pio_Field</h4><pre class=ada-code-snippet><code>type WAKE_EN0_clk_sys_pio_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : WAKE_EN0_clk_sys_pio_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=c40156c09f2010887f29b0f3b831a1efdd22c060fb3c25a657a95cc2d2b9e282>WAKE_EN0_clk_sys_pio_Field_Array</h4><pre class=ada-code-snippet><code>type WAKE_EN0_clk_sys_pio_Field_Array is array (0 .. 1) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=295fc1864015ada8a426d1fb09935852db63f206c94f812014759e10cefbc81e>WAKE_EN0_clk_sys_sram_Field</h4><pre class=ada-code-snippet><code>type WAKE_EN0_clk_sys_sram_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt4;
+      when True =>
+         Arr : WAKE_EN0_clk_sys_sram_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 4;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=4275fc9268cd2ae5b3a4c88947f5eeef8167e21853434bb97fda293cecf4558b>WAKE_EN0_clk_sys_sram_Field_Array</h4><pre class=ada-code-snippet><code>type WAKE_EN0_clk_sys_sram_Field_Array is array (0 .. 3) of Boolean
+  with Component_Size => 1, Size => 4;
+</code></pre><h4 id=7803e680df01a2fb05f50a72cac657bfc588f2dc043b205c12e05e7063478d1c>WAKE_EN0_Register</h4><pre class=ada-code-snippet><code>type WAKE_EN0_Register is record
+   clk_sys_clocks              : Boolean := True;
+   clk_adc_adc                 : Boolean := True;
+   clk_sys_adc                 : Boolean := True;
+   clk_sys_busctrl             : Boolean := True;
+   clk_sys_busfabric           : Boolean := True;
+   clk_sys_dma                 : Boolean := True;
+   clk_sys_i2c                 : WAKE_EN0_clk_sys_i2c_Field :=
+                                  (As_Array => False, Val => 16#1#);
+   clk_sys_io                  : Boolean := True;
+   clk_sys_jtag                : Boolean := True;
+   clk_sys_vreg_and_chip_reset : Boolean := True;
+   clk_sys_pads                : Boolean := True;
+   clk_sys_pio                 : WAKE_EN0_clk_sys_pio_Field :=
+                                  (As_Array => False, Val => 16#1#);
+   clk_sys_pll_sys             : Boolean := True;
+   clk_sys_pll_usb             : Boolean := True;
+   clk_sys_psm                 : Boolean := True;
+   clk_sys_pwm                 : Boolean := True;
+   clk_sys_resets              : Boolean := True;
+   clk_sys_rom                 : Boolean := True;
+   clk_sys_rosc                : Boolean := True;
+   clk_rtc_rtc                 : Boolean := True;
+   clk_sys_rtc                 : Boolean := True;
+   clk_sys_sio                 : Boolean := True;
+   clk_peri_spi0               : Boolean := True;
+   clk_sys_spi0                : Boolean := True;
+   clk_peri_spi1               : Boolean := True;
+   clk_sys_spi1                : Boolean := True;
+   clk_sys_sram                : WAKE_EN0_clk_sys_sram_Field :=
+                                  (As_Array => False, Val => 16#1#);
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>clk_sys_clocks<dd><dt>clk_adc_adc<dd><dt>clk_sys_adc<dd><dt>clk_sys_busctrl<dd><dt>clk_sys_busfabric<dd><dt>clk_sys_dma<dd><dt>clk_sys_i2c<dd><dt>clk_sys_io<dd><dt>clk_sys_jtag<dd><dt>clk_sys_vreg_and_chip_reset<dd><dt>clk_sys_pads<dd><dt>clk_sys_pio<dd><dt>clk_sys_pll_sys<dd><dt>clk_sys_pll_usb<dd><dt>clk_sys_psm<dd><dt>clk_sys_pwm<dd><dt>clk_sys_resets<dd><dt>clk_sys_rom<dd><dt>clk_sys_rosc<dd><dt>clk_rtc_rtc<dd><dt>clk_sys_rtc<dd><dt>clk_sys_sio<dd><dt>clk_peri_spi0<dd><dt>clk_sys_spi0<dd><dt>clk_peri_spi1<dd><dt>clk_sys_spi1<dd><dt>clk_sys_sram<dd></dl><h4 id=245cb70cb547f7523f6e41bdbdf5abd7e3c0dc935589f600719c00a2c2185e7e>WAKE_EN1_clk_sys_sram_Field</h4><pre class=ada-code-snippet><code>type WAKE_EN1_clk_sys_sram_Field
+  (As_Array : Boolean := False)
+is record
+   case As_Array is
+      when False =>
+         Val : HAL.UInt2;
+      when True =>
+         Arr : WAKE_EN1_clk_sys_sram_Field_Array;
+   end case;
+end record
+  with Unchecked_Union, Size => 2;
+</code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=fcffe872bc066f126b1bf23566acf09526417a2a2539e9b255f57bb5fcadb1c8>WAKE_EN1_clk_sys_sram_Field_Array</h4><pre class=ada-code-snippet><code>type WAKE_EN1_clk_sys_sram_Field_Array is array (4 .. 5) of Boolean
+  with Component_Size => 1, Size => 2;
+</code></pre><h4 id=cddae2f5170814bacd29ffdc2cf9b4178de4f73b565cac6f4f25006652fedd02>WAKE_EN1_Register</h4><pre class=ada-code-snippet><code>type WAKE_EN1_Register is record
+   clk_sys_sram     : WAKE_EN1_clk_sys_sram_Field :=
+                       (As_Array => False, Val => 16#1#);
+   clk_sys_syscfg   : Boolean := True;
+   clk_sys_sysinfo  : Boolean := True;
+   clk_sys_tbman    : Boolean := True;
+   clk_sys_timer    : Boolean := True;
+   clk_peri_uart0   : Boolean := True;
+   clk_sys_uart0    : Boolean := True;
+   clk_peri_uart1   : Boolean := True;
+   clk_sys_uart1    : Boolean := True;
+   clk_sys_usbctrl  : Boolean := True;
+   clk_usb_usbctrl  : Boolean := True;
+   clk_sys_watchdog : Boolean := True;
+   clk_sys_xip      : Boolean := True;
+   clk_sys_xosc     : Boolean := True;
+   Reserved_15_31   : HAL.UInt17 := 16#0#;
+end record
+  with Volatile_Full_Access, Object_Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>clk_sys_sram<dd><dt>clk_sys_syscfg<dd><dt>clk_sys_sysinfo<dd><dt>clk_sys_tbman<dd><dt>clk_sys_timer<dd><dt>clk_peri_uart0<dd><dt>clk_sys_uart0<dd><dt>clk_peri_uart1<dd><dt>clk_sys_uart1<dd><dt>clk_sys_usbctrl<dd><dt>clk_usb_usbctrl<dd><dt>clk_sys_watchdog<dd><dt>clk_sys_xip<dd><dt>clk_sys_xosc<dd><dt>Reserved_15_31<dd></dl>

@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.Watchdog</h1><h2>Entities</h2><h3>Subtypes</h3><ul><li><a href=#15c4da1c1ad8d5037326ebad1e4beed18c6a8419221421a9cd30dcd68e3d76d7>Milliseconds</a></ul><h3>Subprograms</h3><ul><li><a href=#ec73068196dea7d8272aefa8572fcef99c45698a937ea4748709d56777cab869>Configure</a><li><a href=#94b2dd8e656c0969fa3999f1950a287de8b8344856c14fb5f387936d8e8786f6>Disable</a><li><a href=#14f555359db61b309d42feb8f883dedad75b45c23d859514d92683152002d1e8>Enable</a><li><a href=#2bd442c42be272b734ed92381af6cdf35e1e970717f82459a128b8d881a41072>Reload</a><li><a href=#fe1522bf0d0034aa1680e7eeee7bef576a19aaec46308efbb2b9dd1fa058fcbd>Trigger</a></ul><h2>Description</h2><h4 id=ec73068196dea7d8272aefa8572fcef99c45698a937ea4748709d56777cab869>Configure</h4><pre class=ada-code-snippet><code>procedure Configure
+   (Timeout : Milliseconds)
+</code></pre><p>Only Proc0 and Proc1 are reset when the watchdog is triggered. TODO: Make PSM_WDSEL and PAUSE_DBG configurable.<h5>Parameters</h5><dl><dt>Timeout<dd></dl><h4 id=94b2dd8e656c0969fa3999f1950a287de8b8344856c14fb5f387936d8e8786f6>Disable</h4><pre class=ada-code-snippet><code>procedure Disable
+</code></pre><h4 id=14f555359db61b309d42feb8f883dedad75b45c23d859514d92683152002d1e8>Enable</h4><pre class=ada-code-snippet><code>procedure Enable
+</code></pre><h4 id=15c4da1c1ad8d5037326ebad1e4beed18c6a8419221421a9cd30dcd68e3d76d7>Milliseconds</h4><pre class=ada-code-snippet><code>subtype Milliseconds is Positive range 1 .. 8_388;
+</code></pre><h4 id=2bd442c42be272b734ed92381af6cdf35e1e970717f82459a128b8d881a41072>Reload</h4><pre class=ada-code-snippet><code>procedure Reload
+</code></pre><h4 id=fe1522bf0d0034aa1680e7eeee7bef576a19aaec46308efbb2b9dd1fa058fcbd>Trigger</h4><pre class=ada-code-snippet><code>procedure Trigger
+</code></pre><p>Reset now

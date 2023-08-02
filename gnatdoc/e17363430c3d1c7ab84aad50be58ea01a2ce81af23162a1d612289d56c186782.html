@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>Cortex_M_SVD.SCB</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#4fd0430008bed17f21b007f22f23594912d7a4c8038d06dea6fa12d260ff8ca1>AIRCR_ENDIANNESS_Field</a><li><a href=#660c5e0c7402d893e1a62224ef27f7a044f6f8f5daf3dea4ca3e9bfd3e8e26e3>AIRCR_VECTKEY_Field</a><li><a href=#d9b76899d475cf5e96aae3041d979df380e88fc758c8bf444c6e359c5cdf0dcd>CPUID_Implementer_Field</a><li><a href=#f6902aedf78914dfe52397319a8cebe5bd66a587657bdd0afd04a66f7b843e7f>CPUID_PartNo_Field</a><li><a href=#894c9c19ddc9f16618a0e6f08dcc12401c120e1c21540fd261a0a7786408d866>CPUID_Revision_Field</a><li><a href=#9862ae988dc4a77bc61c775993ec4b2bbdc8fbd887b2e4f3534aeae85acd4a32>CPUID_Variant_Field</a></ul><h3>Record Types</h3><ul><li><a href=#e754cae6b360ad1a33c5985e3d5cd4b5e11310e49b7f4d9fa88eebbbaded5dca>AIRCR_Register</a><li><a href=#a06fa07a558ff49f41dafa6a3dc935d4ae07b604de0ad5991e63ad7650354a9e>CCR_Register</a><li><a href=#443bfb9ace60fb01ea7b6dc802e2a46ada29580ff6ebf2761f8bbd6c7d0b3fe5>CPUID_Register</a><li><a href=#a6bf055aac4950960680a7580f62152440ede3263886174273c909a0cb97d9c4>ICSR_Register</a><li><a href=#51bed32de9e4f8449906a38a24b4e87be97ee3d729c698a0e00e6426ec7c4573>SCB_Peripheral</a><li><a href=#f9248758cfadd43ed80d0eb2adb44aeda8072ca0addfe884f1d39fe913c3c898>SCR_Register</a><li><a href=#27ca2589df9b37f64d3962cdd4552874699e6fa7a4cdd8228497b750db9bf473>SHPR2_Register</a><li><a href=#7ad6d8517b15d893b1d9c89423e57a96ede341e8c3b647b74ef8e414d87626d7>SHPR3_Register</a></ul><h3>Subtypes</h3><ul><li><a href=#868286271511776ed6fe65bb418b657b0e3a933b75f4e16d6e09eed30f4a191b>CPUID_Constant_Field</a><li><a href=#df01bcd2d4dc01f51f725939eb8d757aedde8f4dbcdafd5a8aceaba8bddab7e4>ICSR_VECTACTIVE_Field</a><li><a href=#5a5525950f530a7f75728ead8f0bde20f931ab2066a7c961495b3cf6f60e5245>ICSR_VECTPENDING_Field</a><li><a href=#1270ea852c32f1d91ebee956d40593c03aeac514d7a96b19bd8eed174a6fb59b>SHPR2_PRI_11_Field</a><li><a href=#380aca755d753c657f29d69f4dc341fc49b4d7463d8c05be497f02b4df0142c3>SHPR3_PRI_14_Field</a><li><a href=#28b383fcf1e562b5b39170c237d309684c7f2980ab48d7ea5bad7859cafd609c>SHPR3_PRI_15_Field</a></ul><h3>Variables</h3><ul><li><a href=#9396f89755ca07dc0dd9cbb6de3376452c8609097706cf3b7cbcd64b56129494>SCB_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=4fd0430008bed17f21b007f22f23594912d7a4c8038d06dea6fa12d260ff8ca1>AIRCR_ENDIANNESS_Field</h4><pre class=ada-code-snippet><code>type AIRCR_ENDIANNESS_Field is
+  (
+   Little_Endian,
+   Big_Endian)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Little_Endian<dd><p>Data is big endian<dt>Big_Endian<dd></dl><h4 id=e754cae6b360ad1a33c5985e3d5cd4b5e11310e49b7f4d9fa88eebbbaded5dca>AIRCR_Register</h4><pre class=ada-code-snippet><code>type AIRCR_Register is record
+   Reserved_0_0  : HAL.Bit := 16#0#;
+   VECTCLRACTIVE : Boolean := False;
+   SYSRESETREQ   : Boolean := False;
+   Reserved_3_14 : HAL.UInt12 := 16#0#;
+   ENDIANNESS    : AIRCR_ENDIANNESS_Field :=
+                    Cortex_M_SVD.SCB.Little_Endian;
+   VECTKEY       : AIRCR_VECTKEY_Field := Cortex_M_SVD.SCB.Key_Read;
+end record
+  with Volatile_Full_Access, Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_0<dd><dt>VECTCLRACTIVE<dd><dt>SYSRESETREQ<dd><dt>Reserved_3_14<dd><dt>ENDIANNESS<dd><dt>VECTKEY<dd></dl><h4 id=660c5e0c7402d893e1a62224ef27f7a044f6f8f5daf3dea4ca3e9bfd3e8e26e3>AIRCR_VECTKEY_Field</h4><pre class=ada-code-snippet><code>type AIRCR_VECTKEY_Field is
+  (
+   Key,
+   Key_Read)
+  with Size => 16;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Key<dd><p>The read key<dt>Key_Read<dd></dl><h4 id=a06fa07a558ff49f41dafa6a3dc935d4ae07b604de0ad5991e63ad7650354a9e>CCR_Register</h4><pre class=ada-code-snippet><code>type CCR_Register is record
+   Reserved_0_2   : HAL.UInt3 := 16#0#;
+   UNALIGNED_TRP  : Boolean := False;
+   Reserved_4_8   : HAL.UInt5 := 16#0#;
+   STKALIGN       : Boolean := True;
+   Reserved_10_31 : HAL.UInt22 := 16#0#;
+end record
+  with Volatile_Full_Access, Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_2<dd><dt>UNALIGNED_TRP<dd><dt>Reserved_4_8<dd><dt>STKALIGN<dd><dt>Reserved_10_31<dd></dl><h4 id=868286271511776ed6fe65bb418b657b0e3a933b75f4e16d6e09eed30f4a191b>CPUID_Constant_Field</h4><pre class=ada-code-snippet><code>subtype CPUID_Constant_Field is HAL.UInt4;
+</code></pre><h4 id=d9b76899d475cf5e96aae3041d979df380e88fc758c8bf444c6e359c5cdf0dcd>CPUID_Implementer_Field</h4><pre class=ada-code-snippet><code>type CPUID_Implementer_Field is
+  (
+   Arm)
+  with Size => 8;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Arm<dd></dl><h4 id=f6902aedf78914dfe52397319a8cebe5bd66a587657bdd0afd04a66f7b843e7f>CPUID_PartNo_Field</h4><pre class=ada-code-snippet><code>type CPUID_PartNo_Field is
+  (
+   Cortex_M7)
+  with Size => 12;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Cortex_M7<dd></dl><h4 id=443bfb9ace60fb01ea7b6dc802e2a46ada29580ff6ebf2761f8bbd6c7d0b3fe5>CPUID_Register</h4><pre class=ada-code-snippet><code>type CPUID_Register is record
+   Revision    : CPUID_Revision_Field;
+   PartNo      : CPUID_PartNo_Field;
+   Constant_k  : CPUID_Constant_Field;
+   Variant     : CPUID_Variant_Field;
+   Implementer : CPUID_Implementer_Field;
+end record
+  with Volatile_Full_Access, Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Revision<dd><dt>PartNo<dd><dt>Constant_k<dd><dt>Variant<dd><dt>Implementer<dd></dl><h4 id=894c9c19ddc9f16618a0e6f08dcc12401c120e1c21540fd261a0a7786408d866>CPUID_Revision_Field</h4><pre class=ada-code-snippet><code>type CPUID_Revision_Field is
+  (
+   P0,
+   P1,
+   P2)
+  with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>P0<dd><p>Patch 1<dt>P1<dd><p>Patch 2<dt>P2<dd></dl><h4 id=9862ae988dc4a77bc61c775993ec4b2bbdc8fbd887b2e4f3534aeae85acd4a32>CPUID_Variant_Field</h4><pre class=ada-code-snippet><code>type CPUID_Variant_Field is
+  (
+   R0,
+   R1)
+  with Size => 4;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>R0<dd><p>Revision 1<dt>R1<dd></dl><h4 id=a6bf055aac4950960680a7580f62152440ede3263886174273c909a0cb97d9c4>ICSR_Register</h4><pre class=ada-code-snippet><code>type ICSR_Register is record
+   VECTACTIVE     : ICSR_VECTACTIVE_Field := 16#0#;
+   Reserved_6_11  : HAL.UInt6 := 16#0#;
+   VECTPENDING    : ICSR_VECTPENDING_Field := 16#0#;
+   Reserved_18_21 : HAL.UInt4 := 16#0#;
+   ISRPENDING     : Boolean := False;
+   Reserved_23_24 : HAL.UInt2 := 16#0#;
+   PENDSTCLR      : Boolean := False;
+   PENDSTSET      : Boolean := False;
+   PENDSVCLR      : Boolean := False;
+   PENDSVSET      : Boolean := False;
+   Reserved_29_30 : HAL.UInt2 := 16#0#;
+   NMIPENDSET     : Boolean := False;
+end record
+  with Volatile_Full_Access, Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>VECTACTIVE<dd><dt>Reserved_6_11<dd><dt>VECTPENDING<dd><dt>Reserved_18_21<dd><dt>ISRPENDING<dd><dt>Reserved_23_24<dd><dt>PENDSTCLR<dd><dt>PENDSTSET<dd><dt>PENDSVCLR<dd><dt>PENDSVSET<dd><dt>Reserved_29_30<dd><dt>NMIPENDSET<dd></dl><h4 id=df01bcd2d4dc01f51f725939eb8d757aedde8f4dbcdafd5a8aceaba8bddab7e4>ICSR_VECTACTIVE_Field</h4><pre class=ada-code-snippet><code>subtype ICSR_VECTACTIVE_Field is HAL.UInt6;
+</code></pre><h4 id=5a5525950f530a7f75728ead8f0bde20f931ab2066a7c961495b3cf6f60e5245>ICSR_VECTPENDING_Field</h4><pre class=ada-code-snippet><code>subtype ICSR_VECTPENDING_Field is HAL.UInt6;
+</code></pre><h4 id=9396f89755ca07dc0dd9cbb6de3376452c8609097706cf3b7cbcd64b56129494>SCB_Periph</h4><pre class=ada-code-snippet><code>SCB_Periph : aliased SCB_Peripheral
+  with Import, Address => System'To_Address (16#E000ED00#);
+</code></pre><h4 id=51bed32de9e4f8449906a38a24b4e87be97ee3d729c698a0e00e6426ec7c4573>SCB_Peripheral</h4><pre class=ada-code-snippet><code>type SCB_Peripheral is record
+   CPUID : aliased CPUID_Register;
+   ICSR  : aliased ICSR_Register;
+   AIRCR : aliased AIRCR_Register;
+   SCR   : aliased SCR_Register;
+   CCR   : aliased CCR_Register;
+   SHPR2 : aliased SHPR2_Register;
+   SHPR3 : aliased SHPR3_Register;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>CPUID<dd><dt>ICSR<dd><dt>AIRCR<dd><dt>SCR<dd><dt>CCR<dd><dt>SHPR2<dd><dt>SHPR3<dd></dl><h4 id=f9248758cfadd43ed80d0eb2adb44aeda8072ca0addfe884f1d39fe913c3c898>SCR_Register</h4><pre class=ada-code-snippet><code>type SCR_Register is record
+   Reserved_0_0  : HAL.Bit := 16#0#;
+   SLEEPONEXIT   : Boolean := False;
+   SLEEPDEEP     : Boolean := False;
+   Reserved_3_3  : HAL.Bit := 16#0#;
+   SEVONPEND     : Boolean := False;
+   Reserved_5_31 : HAL.UInt27 := 16#0#;
+end record
+  with Volatile_Full_Access, Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_0<dd><dt>SLEEPONEXIT<dd><dt>SLEEPDEEP<dd><dt>Reserved_3_3<dd><dt>SEVONPEND<dd><dt>Reserved_5_31<dd></dl><h4 id=1270ea852c32f1d91ebee956d40593c03aeac514d7a96b19bd8eed174a6fb59b>SHPR2_PRI_11_Field</h4><pre class=ada-code-snippet><code>subtype SHPR2_PRI_11_Field is HAL.UInt8;
+</code></pre><h4 id=27ca2589df9b37f64d3962cdd4552874699e6fa7a4cdd8228497b750db9bf473>SHPR2_Register</h4><pre class=ada-code-snippet><code>type SHPR2_Register is record
+   Reserved_0_23 : HAL.UInt24 := 16#0#;
+   PRI_11        : SHPR2_PRI_11_Field := 16#0#;
+end record
+  with Volatile_Full_Access, Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_23<dd><dt>PRI_11<dd></dl><h4 id=380aca755d753c657f29d69f4dc341fc49b4d7463d8c05be497f02b4df0142c3>SHPR3_PRI_14_Field</h4><pre class=ada-code-snippet><code>subtype SHPR3_PRI_14_Field is HAL.UInt8;
+</code></pre><h4 id=28b383fcf1e562b5b39170c237d309684c7f2980ab48d7ea5bad7859cafd609c>SHPR3_PRI_15_Field</h4><pre class=ada-code-snippet><code>subtype SHPR3_PRI_15_Field is HAL.UInt8;
+</code></pre><h4 id=7ad6d8517b15d893b1d9c89423e57a96ede341e8c3b647b74ef8e414d87626d7>SHPR3_Register</h4><pre class=ada-code-snippet><code>type SHPR3_Register is record
+   Reserved_0_15 : HAL.UInt16 := 16#0#;
+   PRI_14        : SHPR3_PRI_14_Field := 16#0#;
+   PRI_15        : SHPR3_PRI_15_Field := 16#0#;
+end record
+  with Volatile_Full_Access, Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_15<dd><dt>PRI_14<dd><dt>PRI_15<dd></dl>

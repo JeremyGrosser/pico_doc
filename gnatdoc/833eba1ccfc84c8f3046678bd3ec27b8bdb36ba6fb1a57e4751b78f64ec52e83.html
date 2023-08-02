@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>Cortex_M_SVD.SysTick</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#afa93c30959114e49d71dcd1876466f8d91e4379b5b2c3eef1ce792d64f55b8d>CALIB_NOREF_Field</a><li><a href=#332db9fef2d9305d960675d789c85f37e247942ae9a56e0723bf9b8bd67c4d86>CALIB_SKEW_Field</a><li><a href=#2b5bdb6eb5757c8bba30507e55c87b0322e75165510201fae97a62d172570588>CSR_CLKSOURCE_Field</a><li><a href=#21f9f0dccbc46bcab76fc89e5c9c3995f81aceb17971603d38ae1344a9a7b30e>CSR_ENABLE_Field</a><li><a href=#693e5463c8583712da723af70d471a1caa34ed4bc410232f31e4daf3da2a0119>CSR_TICKINT_Field</a></ul><h3>Record Types</h3><ul><li><a href=#26569bb40e2fb09cfbc00ef455e76222fe8564b2fc5bdf6537f342610d937adc>SYST_CALIB_Register</a><li><a href=#368180d648c73af4a8757cdd23db14f6b20240fcac7545c5beb259035d9bb9d7>SYST_CSR_Register</a><li><a href=#a6798be05adc6feb77c16dbb81fbe2990dff75a640e8b2535054201277acedd3>SYST_CVR_Register</a><li><a href=#d92b8555b5d0a9ce12bbe979f2544f548d2b9a7257886d9adfd92a0d60079c27>SYST_RVR_Register</a><li><a href=#ce829952a0f5ccc820acc321e19b1f1488dd0443452592bee3e6bc3e76118d72>SysTick_Peripheral</a></ul><h3>Subtypes</h3><ul><li><a href=#f43919d0f2421153569dbb99a44031730ffc398eeb875586257d7591ae5b2971>SYST_CALIB_TENMS_Field</a><li><a href=#628574d9f66d6553843d448f8b8f35c8e9445fc5c58342493d32b7f3146cdbf4>SYST_CVR_CURRENT_Field</a><li><a href=#75d5d719cb65e40556a771ed1b211eb4a0cf023ba69ba423536bbfda64dbf25e>SYST_RVR_RELOAD_Field</a></ul><h3>Variables</h3><ul><li><a href=#41ca69e49e59c563fc677f27cdcc84999d9e5e8c8f6809f622f925e14805a2b6>SysTick_Periph</a></ul><h2>Description</h2><p>------------- Registers -- -------------<h4 id=afa93c30959114e49d71dcd1876466f8d91e4379b5b2c3eef1ce792d64f55b8d>CALIB_NOREF_Field</h4><pre class=ada-code-snippet><code>type CALIB_NOREF_Field is
+  (
+   Ref_Clk_Available,
+   Ref_Clk_Unavailable)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Ref_Clk_Available<dd><p>Ref Clk not available<dt>Ref_Clk_Unavailable<dd></dl><h4 id=332db9fef2d9305d960675d789c85f37e247942ae9a56e0723bf9b8bd67c4d86>CALIB_SKEW_Field</h4><pre class=ada-code-snippet><code>type CALIB_SKEW_Field is
+  (
+   Exact,
+   Inexact)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Exact<dd><p>10ms calibration value is inexact, because of the clock frequency<dt>Inexact<dd></dl><h4 id=2b5bdb6eb5757c8bba30507e55c87b0322e75165510201fae97a62d172570588>CSR_CLKSOURCE_Field</h4><pre class=ada-code-snippet><code>type CSR_CLKSOURCE_Field is
+  (
+   External_Clk,
+   Cpu_Clk)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>External_Clk<dd><p>CPU Clock<dt>Cpu_Clk<dd></dl><h4 id=21f9f0dccbc46bcab76fc89e5c9c3995f81aceb17971603d38ae1344a9a7b30e>CSR_ENABLE_Field</h4><pre class=ada-code-snippet><code>type CSR_ENABLE_Field is
+  (
+   Disable,
+   Enable)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Disable<dd><p>counter enabled<dt>Enable<dd></dl><h4 id=693e5463c8583712da723af70d471a1caa34ed4bc410232f31e4daf3da2a0119>CSR_TICKINT_Field</h4><pre class=ada-code-snippet><code>type CSR_TICKINT_Field is
+   Disable,
+   Enable)
+  with Size => 1;
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Disable<dd><p>Counting down to zero does not assert the SysTick exception request<dt>Enable<dd></dl><h4 id=26569bb40e2fb09cfbc00ef455e76222fe8564b2fc5bdf6537f342610d937adc>SYST_CALIB_Register</h4><pre class=ada-code-snippet><code>type SYST_CALIB_Register is record
+   TENMS          : SYST_CALIB_TENMS_Field;
+   Reserved_24_29 : HAL.UInt6;
+   SKEW           : CALIB_SKEW_Field;
+   NOREF          : CALIB_NOREF_Field;
+end record
+  with Volatile_Full_Access, Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>TENMS<dd><dt>Reserved_24_29<dd><dt>SKEW<dd><dt>NOREF<dd></dl><h4 id=f43919d0f2421153569dbb99a44031730ffc398eeb875586257d7591ae5b2971>SYST_CALIB_TENMS_Field</h4><pre class=ada-code-snippet><code>subtype SYST_CALIB_TENMS_Field is HAL.UInt24;
+</code></pre><h4 id=368180d648c73af4a8757cdd23db14f6b20240fcac7545c5beb259035d9bb9d7>SYST_CSR_Register</h4><pre class=ada-code-snippet><code>type SYST_CSR_Register is record
+   ENABLE         : CSR_ENABLE_Field := Cortex_M_SVD.SysTick.Disable;
+   TICKINT        : CSR_TICKINT_Field := Cortex_M_SVD.SysTick.Disable;
+   CLKSOURCE      : CSR_CLKSOURCE_Field :=
+                     Cortex_M_SVD.SysTick.External_Clk;
+   Reserved_3_15  : HAL.UInt13 := 16#0#;
+   COUNTFLAG      : Boolean := False;
+   Reserved_17_31 : HAL.UInt15 := 16#0#;
+end record
+  with Volatile_Full_Access, Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>ENABLE<dd><dt>TICKINT<dd><dt>CLKSOURCE<dd><dt>Reserved_3_15<dd><dt>COUNTFLAG<dd><dt>Reserved_17_31<dd></dl><h4 id=628574d9f66d6553843d448f8b8f35c8e9445fc5c58342493d32b7f3146cdbf4>SYST_CVR_CURRENT_Field</h4><pre class=ada-code-snippet><code>subtype SYST_CVR_CURRENT_Field is HAL.UInt24;
+</code></pre><h4 id=a6798be05adc6feb77c16dbb81fbe2990dff75a640e8b2535054201277acedd3>SYST_CVR_Register</h4><pre class=ada-code-snippet><code>type SYST_CVR_Register is record
+   CURRENT        : SYST_CVR_CURRENT_Field := 16#0#;
+   Reserved_24_31 : HAL.UInt8 := 16#0#;
+end record
+  with Volatile_Full_Access, Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>CURRENT<dd><dt>Reserved_24_31<dd></dl><h4 id=d92b8555b5d0a9ce12bbe979f2544f548d2b9a7257886d9adfd92a0d60079c27>SYST_RVR_Register</h4><pre class=ada-code-snippet><code>type SYST_RVR_Register is record
+   RELOAD         : SYST_RVR_RELOAD_Field := 16#0#;
+   Reserved_24_31 : HAL.UInt8 := 16#0#;
+end record
+  with Volatile_Full_Access, Size => 32,
+       Bit_Order => System.Low_Order_First;
+</code></pre><h5>Record fields</h5><dl><dt>RELOAD<dd><dt>Reserved_24_31<dd></dl><h4 id=75d5d719cb65e40556a771ed1b211eb4a0cf023ba69ba423536bbfda64dbf25e>SYST_RVR_RELOAD_Field</h4><pre class=ada-code-snippet><code>subtype SYST_RVR_RELOAD_Field is HAL.UInt24;
+</code></pre><h4 id=41ca69e49e59c563fc677f27cdcc84999d9e5e8c8f6809f622f925e14805a2b6>SysTick_Periph</h4><pre class=ada-code-snippet><code>SysTick_Periph : aliased SysTick_Peripheral
+  with Import, Address => SysTick_Base;
+</code></pre><h4 id=ce829952a0f5ccc820acc321e19b1f1488dd0443452592bee3e6bc3e76118d72>SysTick_Peripheral</h4><pre class=ada-code-snippet><code>type SysTick_Peripheral is record
+   CSR   : aliased SYST_CSR_Register;
+   RVR   : aliased SYST_RVR_Register;
+   CVR   : aliased SYST_CVR_Register;
+   CALIB : aliased SYST_CALIB_Register;
+end record
+  with Volatile;
+</code></pre><h5>Record fields</h5><dl><dt>CSR<dd><dt>RVR<dd><dt>CVR<dd><dt>CALIB<dd></dl>
