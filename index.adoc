@@ -954,7 +954,7 @@ Once your project is configured, you should be able to make use of tasking, mult
 We have link:/gnatdoc/index.html[generated API documentation] but in most cases it's easier to just https://github.com/JeremyGrosser/rp2040_hal/tree/master/src/drivers[read the .ads files] in rp2040_hal.
 
 == Community Support
-Bugs and usability issues may be reported by opening a https://github.com/JeremyGrosser/rp2040_hal/issues/new[GitHub issue]. For more general questions and feedback, join the https://gitter.im/ada-lang/raspberrypi-pico[community on Gitter.im].
+Bugs and usability issues may be reported by opening a https://github.com/JeremyGrosser/rp2040_hal/issues/new[GitHub issue]. For more general questions and feedback, join the community on https://forum.ada-lang.io/[forum.ada-lang.io].
 
 == License
 include::LICENSE.adoc[]
