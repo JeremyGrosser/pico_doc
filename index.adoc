@@ -19,8 +19,8 @@ Assuming you are running Linux on x86_64, the following commands should work.
 
 [source,shell]
 ----
-curl -L -O https://github.com/alire-project/alire/releases/download/v1.2.0/alr-1.2.0-bin-x86_64-linux.zip
-unzip alr-1.2.0-bin-x86_64-linux.zip
+curl -L -O https://github.com/alire-project/alire/releases/download/v2.0.2/alr-2.0.2-bin-x86_64-linux.zip
+unzip alr-2.0.2-bin-x86_64-linux.zip
 sudo cp bin/alr /usr/local/bin
 ----
 
@@ -519,7 +519,9 @@ end I2C_Demo;
 ----
 
 ===== Low level interface
-The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-i2c.ads[RP.I2C] package implements a lower level interface, supporting both controller (master) and target (slave) modes. The following example writes a register address to a target device, then reads a single byte value. The `Stop` argument to `Start_Write` ensures that the controller does not release the bus between the write and read and instead performs a repeated start.
+The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-i2c.ads[RP.I2C] package implements a lower level interface, supporting both controller (master) and target (slave) modes. While this driver is more flexible than RP.I2C_Master, it is not as well tested. Use at your own risk.
+
+The following example writes a register address to a target device, then reads a single byte value. The `Stop` argument to `Start_Write` ensures that the controller does not release the bus between the write and read and instead performs a repeated start.
 
 [source,ada]
 ----
@@ -548,8 +550,6 @@ begin
    Port.Read (Chip_Id, Status);
 end;
 ----
-
-See https://github.com/JeremyGrosser/pico_examples/blob/master/i2c_demo/src/i2c_demo.adb[i2c_demo] for a more complete example.
 
 ===== Bus timing
 `RP.I2C` defines constants for Standard Mode, Fast Mode, and Fast Mode Plus clock timing in nanoseconds. For accurate timing, these constants need to be modified with `Rise` and `Fall` fields relative to the speed of your bus.

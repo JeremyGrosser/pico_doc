@@ -1,3 +1,63 @@
+=== 2.4.0
+October 24, 2024
+
+==== Bugs Fixed
+
+===== I2C restart after write
+RP.I2C_Master now correctly sends repeated start when switching from write to read.
+
+==== New Features
+
+===== Touch sense capacitive charge mode
+This is a workaround for RP2350 E9 errata
+
+===== Updated HAL dependencies
+All of the deps using HAL interfaces (cortex_m, atomic, hal, usb_embedded) have been bumped to 1.x.
+
+=== 2.3.0
+June 10, 2024
+
+==== New Features
+
+===== Capacitive touch sensing
+RP.PIO.Touch_Sense enables touch sensing on any GPIO pin.
+
+===== Non-blocking PIO Put
+RP.PIO.Try_Put can be used to perform non-blocking PIO operations without triggering interrupts or tying up a DMA channel.
+
+===== Updated toolchain
+Updated to GNAT 14
+
+=== 2.2.1
+January 31, 2024
+
+==== Bugs Fixed
+
+===== Hang when calling reset_to_usb_boot
+RP.Clock.Initialize would disable ROSC after switching to XOSC to save power. This would cause the bootloader to hang. ROSC is no longer disabled by Initialize.
+
+=== 2.2.0
+January 27, 2024
+
+==== Bugs Fixed
+
+===== Compiler warnings
+Various warnings introduced by GNAT 13 have been fixed.
+
+===== Unit test dependencies
+Removed explicit toolchain dep from unit tests.
+
+===== RP.Flash.Unique_Id order reversed
+Changed to match the ordering used by pico-sdk.
+
+==== New Features
+
+===== Watchdog Debug_Pause
+Added a Debug_Pause option to RP.Watchdog.Configure to enable pausing the watchdog while a debugger is attached. This is necessary with the new CMSIS-DAP picoprobe firmware.
+
+===== Updated toolchain
+Updated to use GNAT 13.
+
 === 2.1.1
 August 11, 2023
 
