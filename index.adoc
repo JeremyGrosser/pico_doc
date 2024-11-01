@@ -82,7 +82,12 @@ run
 
 If you cannot use SWD, https://github.com/majbthrd/pico-debug/[pico-debug] can be loaded into memory on the Pico to allow you to debug over USB. If you use pico-debug, your code cannot make use of the USB port or the second CPU core and pico-debug will use up some memory. See the pico-debug README for more information.
 
-https://github.com/raspberrypi/pico-sdk/tree/master/tools/elf2uf2[elf2uf2] can convert a compiled ELF binary to UF2 format, which can be loaded onto the Pico over USB after holding the BOOTSEL button. If you choose this option, you will not be able to debug your code when it crashes.
+https://github.com/raspberrypi/picotool[picotool] can convert a compiled ELF binary to UF2 format, which can be loaded onto the Pico over USB after holding the BOOTSEL button. If you choose this option, you will not be able to debug your code when it crashes.
+
+----
+picotool uf2 convert bin/hello_pico bin/hello_pico.uf2
+sudo picotool load bin/hello_pico.uf2
+----
 
 === Blinking an LED
 You've probably noticed that we haven't written any code yet! Let's change that with the traditional blinking LED demo.
