@@ -505,7 +505,7 @@ procedure I2C_Demo is
     Port   : RP.I2C_Master.I2C_Master_Port renames RP.Device.I2CM_0;
     SDA    : RP.GPIO.GPIO_Point renames Pico.GP0;
     SCL    : RP.GPIO.GPIO_Point renames Pico.GP1;
-    Data   : HAL.I2C.I2C_Data_8b (1 .. 2) := (others => 0);
+    Data   : HAL.I2C.I2C_Data (1 .. 2) := (others => 0);
     Status : HAL.I2C.I2C_Status;
 begin
     RP.Clock.Initialize (Pico.XOSC_Frequency);
