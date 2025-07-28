@@ -1,3 +1,35 @@
+=== 2.5.0
+July 28, 2025
+
+==== Bugs Fixed
+
+===== 16-bit I2C EEPROMs not readable with RP.I2C_Master
+This was a timing issue after writing the memory address but before sending the
+bus read address. RP.I2C_Master has been completely rewritten and simplified.
+Many new unit tests ensure that this functionality is correct. An EEPROM is
+required on the I2C bus for unit tests now.
+
+=== 2.4.2
+May 3, 2025
+
+==== Bugs Fixed
+
+===== RP.GPIO.Enable is now idempotent
+Calling it twice won't hurt anything
+
+==== New Features
+
+===== Custom PLL_SYS clock settings
+You can now set VREG for high PLL frequencies. Added the new vendor approved 200 MHz PLL_SYS configuration.
+
+=== 2.4.1
+May 3, 2025
+
+==== Bugs Fixed
+
+===== Reverted I2C_Master rewrite
+Caused more problems than it solved.
+
 === 2.4.0
 October 24, 2024
 
