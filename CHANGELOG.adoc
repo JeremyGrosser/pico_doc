@@ -1,6 +1,12 @@
 === 2.5.0
 July 28, 2025
 
+==== Breaking Changes
+
+===== RP.I2C_Master no longer supports 10-bit addressing
+To simplify the implementation, only 7-bit I2C addresses are supported. If you
+need 10-bit addressing, use RP.I2C instead.
+
 ==== Bugs Fixed
 
 ===== 16-bit I2C EEPROMs not readable with RP.I2C_Master
