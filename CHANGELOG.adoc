@@ -1,3 +1,15 @@
+=== 2.6.0
+October 3, 2025
+
+==== New Features
+
+===== Reset procedure for CPU Core 1
+Applications can now reset the second CPU core with `RP.Multicore.Reset_Core1`.
+https://github.com/JeremyGrosser/rp2040_hal/blob/2.6.0/tests/src/multicore_tests.adb[Multicore tests]
+utilizing core1 launch, reset, and SIO FIFOs have been added.
+
+Patch contributed by https://github.com/RREE[@RREE]
+
 === 2.5.0
 July 28, 2025
 
