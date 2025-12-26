@@ -404,6 +404,7 @@ GPIO pins need to be configured for the serial peripherals to interact with the 
 [source,ada]
 ----
 with HAL.UART;
+with RP.UART;
 with RP.GPIO; use RP.GPIO;
 with RP.Clock;
 with RP.Device;
@@ -432,7 +433,7 @@ begin
     Port.Configure (Config => (Baud => 9600, others => <>));
 
     --  A Timeout of 0 means this procedure may block forever. The default timeout is one second.
-    UART_TX.Transmit (Data, Status, Timeout => 0);
+    Port.Transmit (Data, Status, Timeout => 0);
 end;
 ----
 
