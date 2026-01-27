@@ -19,7 +19,7 @@ Contributed by https://github.com/damaki/[Daniel King]
 
 ===== Rename conflicting symbols for rp-runtimes RTS
 When using the https://github.com/damaki/rp-runtimes[rp-runtimes] RTS, several
-of the `__aeabi` symbols are defined in both rp2040_hal and the runtime. This
+of the `aeabi` symbols are defined in both rp2040_hal and the runtime. This
 patch adds the `RP_` prefix to those symbols if the `Use_Startup` configuration
 flag is set.
 
