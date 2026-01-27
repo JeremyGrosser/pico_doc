@@ -1,3 +1,30 @@
+=== 2.7.0
+January 27, 2026
+
+==== New Features
+
+===== Add Current_Instruction_Address to RP.PIO
+Returns the address of the currently executing instruction of a PIO SM.
+
+Contributed by https://github.com/reznikmm/[Maxim Reznik]
+
+==== Bugs Fixed
+
+===== Prevent building with GNAT 15.2.1
+gnat_arm_elf version 15.1 has a bug which prevents the bbqueue dependency from
+building, so that version is explicitly excluded from rp2040_hal dependencies.
+gnat_arm_elf 15.2 fixes that problem.
+
+Contributed by https://github.com/damaki/[Daniel King]
+
+===== Rename conflicting symbols for rp-runtimes RTS
+When using the https://github.com/damaki/rp-runtimes[rp-runtimes] RTS, several
+of the `__aeabi` symbols are defined in both rp2040_hal and the runtime. This
+patch adds the `RP_` prefix to those symbols if the `Use_Startup` configuration
+flag is set.
+
+Contributed by https://github.com/reznikmm/[Maxim Reznik]
+
 === 2.6.0
 October 3, 2025
 
