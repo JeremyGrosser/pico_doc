@@ -1,3 +1,21 @@
+=== 2.7.1
+March 27, 2026
+
+==== Bugs Fixed
+
+===== Embedded runtimes symbol conflict
+Several symbols in `RP.ROM.Floating_Point` were also defined in
+https://github.com/damaki/community-bb-runtimes[community-bb-runtimes], causing
+builds depending on one of the light-rp2040, light-tasking-rp2040, or
+embedded-rp2040 runtimes to fail when also depending on rp2040_hal. These
+symbols have been renamed with a configurable `RP_` prefix to avoid the name
+collision. Users of rp2040_hal that need the ROM floating point functions must
+call them directly now, or use one of the bb-runtimes.
+
+https://github.com/JeremyGrosser/rp2040_hal/pull/75[PR #75]
+
+Contributed by https://github.com/damaki/[Daniel King]
+
 === 2.7.0
 January 27, 2026
 
