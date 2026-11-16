@@ -1254,7 +1254,7 @@ rp2040_hal 3.0 is a major release with many incompatible changes. The xref:chang
 == API reference
 The package specifications are the reference for the API. https://github.com/JeremyGrosser/rp2040_hal/tree/3.x/src[Read the .ads files] in rp2040_hal: drivers shared by both chips are in `src`, and those that differ are in `src/rp2040` and `src/rp2350`.
 
-The link:/gnatdoc/index.html[generated API documentation] is out of date.
+There is link:/gnatdoc/index.html[generated API documentation], but the package specs are usually easier to read.
 
 == Community Support
 Bugs and usability issues may be reported by opening a https://github.com/JeremyGrosser/rp2040_hal/issues/new[GitHub issue]. For more general questions and feedback, join the community on https://forum.ada-lang.io/[forum.ada-lang.io].
