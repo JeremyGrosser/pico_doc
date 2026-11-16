@@ -792,7 +792,7 @@ July 19, 2021
 ===== UART enhancements
 https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-uart.ads[RP.UART] now allows configuration of baud, word size, parity, and stop bits via the UART_Configuration record. The default values for the UART_Configuration record represent the typical `115200 8n1` setup.
 
-The UART now has a `Send_Break` procedure, which holds TX in an active state (usually low) for at least two frame periods. Some protocols use the https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter#Break_condition[UART break condition] to indicate the start of a new packet.
+The UART now has a `Send_Break` procedure, which holds TX in an active state (usually low) for at least two frame periods. Some protocols use the https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter#Data_framing[UART break condition] to indicate the start of a new packet.
 
 `RP.UART.Receive` now sets `Status = Busy` and returns immediately if a break condition is detected.
 
