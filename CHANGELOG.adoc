@@ -556,13 +556,13 @@ The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-flash
 Thanks to Fabien Chouteau for https://github.com/JeremyGrosser/rp2040_hal/issues/10[contributing this driver].
 
 ===== PIO instruction encoding
-The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-pio-encoding.ads[RP.PIO.Encoding] package contains a record with representation clause for each PIO opcode. The `Encode` function returns `PIO_Instruction` which can be used to fill a `RP.PIO.Program` array. See the https://github.com/JeremyGrosser/pico_examples/blob/master/pio_assemble/src/main.adb[pio_assemble] example.
+The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-pio-encoding.ads[RP.PIO.Encoding] package contains a record with representation clause for each PIO opcode. The `Encode` function returns `PIO_Instruction` which can be used to fill a `RP.PIO.Program` array. See the https://github.com/JeremyGrosser/pico_examples/blob/140a6a0b55c5254a0bd6e504de03b82cfbb69061/pio_assemble/src/main.adb[pio_assemble] example.
 
 ===== WS2812B and Audio_I2S drivers
 A https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-pio-ws2812.ads[PIO program] that implements the wire protocol for WS2812 RGB LEDs has been added as a child package of RP.PIO. The Audio_I2S driver was moved to rp2040_hal from pico_bsp.
 
 ===== Testing enhancements
-New unit tests for SPI, RTC, and Flash functions were added. https://docs.adacore.com/gnatcoverage-docs/html/gnatcov.html[GNATcoverage] is now supported for tests and reports 52% https://docs.adacore.com/gnatcoverage-docs/html/gnatcov/cov_source.html#core-notions-and-reporting-level-stmt-decision[stmt+decision] coverage for rp2040_hal.
+New unit tests for SPI, RTC, and Flash functions were added. https://docs.adacore.com/gnatcoverage-docs/html/gnatcov.html[GNATcoverage] is now supported for tests and reports 52% https://docs.adacore.com/gnatcov-docs/gnatcov/cov_source.html#core-notions-and-reporting-level-stmt-decision[stmt+decision] coverage for rp2040_hal.
 
 ==== Bugs fixed
 
@@ -798,10 +798,10 @@ The UART now has a `Send_Break` procedure, which holds TX in an active state (us
 
 UART Transmit and Receive procedures now return as soon as all words have been delivered to the FIFO. FIFO status is exposed by the Transmit_Status and Receive_Status functions. This interface is the same as the I2C and SPI drivers.
 
-The https://github.com/JeremyGrosser/pico_examples/blob/master/uart_echo/src/main.adb[uart_echo] example has been updated to demonstrate these new features.
+The https://github.com/JeremyGrosser/pico_examples/blob/140a6a0b55c5254a0bd6e504de03b82cfbb69061/uart_echo/src/main.adb[uart_echo] example has been updated to demonstrate these new features.
 
 ===== RTC driver
-The real time clock is now exposed by the https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-rtc.ads[RP.RTC] package. It implements the https://github.com/Fabien-Chouteau/hal/blob/master/src/hal-real_time_clock.ads[HAL.Real_Time_Clock] interface for getting and setting the date and time. An https://github.com/JeremyGrosser/pico_examples/blob/master/rtc/src/main.adb[example project] demonstrates use of the RTC. RTC alarm interrupts are not yet implemented.
+The real time clock is now exposed by the https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-rtc.ads[RP.RTC] package. It implements the https://github.com/Fabien-Chouteau/hal/blob/master/src/hal-real_time_clock.ads[HAL.Real_Time_Clock] interface for getting and setting the date and time. An https://github.com/JeremyGrosser/pico_examples/blob/140a6a0b55c5254a0bd6e504de03b82cfbb69061/rtc/src/main.adb[example project] demonstrates use of the RTC. RTC alarm interrupts are not yet implemented.
 
 ===== Interpolator driver
 The RP2040 has two interpolators per core embedded in the SIO peripheral. The https://github.com/JeremyGrosser/rp2040_hal/blob/master/src/drivers/rp-interpolator.ads[RP.Interpolator] package make their registers available. Some of the registers in this block support single-cycle operation, so it would be counter productive to wrap them up in procedures that may not be inlined by the compiler. There are examples in the datasheet for working with the interpolators, but I'm still trying to wrap my head around it, so there is no example here yet.
