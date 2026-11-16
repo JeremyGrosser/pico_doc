@@ -8,7 +8,7 @@ Code snippets included here are meant to be illustrative but cannot be compiled 
 
 This document assumes you are familiar with the Ada language. If you are new to Ada, https://learn.adacore.com/courses/intro-to-ada/index.html[learn.adacore.com] has an excellent introduction.
 
-This document describes rp2040_hal 3.x, which adds RP2350 support and builds on the Ada runtimes from https://github.com/damaki/community-bb-runtimes[community-bb-runtimes]. Many APIs changed from 2.x. If you have an existing project, read xref:migrating_from_2_x[Migrating from 2.x] first.
+If you are upgrading an existing project, see xref:migrating_from_2_x[Migrating from 2.x].
 
 '''
 
@@ -39,8 +39,6 @@ alr with rp2040_hal --use=https://github.com/JeremyGrosser/rp2040_hal --branch=3
 ----
 
 If Alire prompts you to install tools like unzip and git, accept these changes. If prompted to select a toolchain, choose the most recent versions of `gnat_arm_elf` and `gprbuild`.
-
-rp2040_hal 3.0 is a pre-release and has not been published to the Alire index yet. The `--use` and `--branch` arguments pin your project to the `3.x` branch of the git repository. Once 3.0.0 is released, a plain `alr with rp2040_hal` will be all that's needed.
 
 The runtime crate provides the startup code, linker script, and clock configuration for your board. It defaults to the Raspberry Pi Pico. See xref:ada_runtime[Ada runtime] for the other runtimes you can choose from and xref:custom_board_support[Custom board support] for other boards.
 
@@ -152,17 +150,15 @@ The loop toggles the LED on and off every 250 milliseconds. The `delay` statemen
 === Versioning
 Releases are tagged and added to the Alire index regularly. We follow the https://devhints.io/semver[Semver] pattern, so the API provided by these drivers can be considered stable unless the major version number changes.
 
-This documentation relates to the `3.x` branch of the source repositories and may differ from what's available in Alire. At the time of writing, 3.0 is a pre-release and the newest version in the Alire index is 2.7.1, so projects that want 3.x need to pin to the `3.x` branch. This branch is unstable and may break your code.
+This documentation relates to the `3.x` branch of the source repositories and may differ from what's available in Alire. If you need to use unreleased features or fixes, you can pin your project to the `3.x` branch. This branch is unstable and may break your code, so this is not recommended unless you have a good reason.
 
 ----
 alr pin --use=https://github.com/JeremyGrosser/rp2040_hal --branch=3.x rp2040_hal
 ----
 
-==== Maintenance of 2.x
 The 2.x releases are maintained on the `2.x` branch, which will continue to accept bug fixes. Projects that depend on `rp2040_hal = "^2"` are not affected by the 3.0 release and do not need to change.
 
-==== AI generated code
-The 2.x branch does not and will not include any AI generated code. 3.x may include AI generated code, at the discretion of the maintainer.
+The 2.x branch does not include any AI generated code. 3.x may include AI generated code, at the discretion of the maintainer.
 
 [#supported_devices]
 === Supported devices
@@ -296,7 +292,7 @@ A few peripherals only exist on one chip, or have not been ported to the RP2350 
 
 [#ada_runtime]
 === Ada runtime
-A runtime is the library that implements the parts of the Ada language that need support code, such as tasking, delays, exceptions, and interrupt handlers. rp2040_hal 3.x depends on the runtimes from https://github.com/damaki/community-bb-runtimes[community-bb-runtimes], which also take over several jobs that rp2040_hal did itself in 2.x:
+A runtime is the library that implements the parts of the Ada language that need support code, such as tasking, delays, exceptions, and interrupt handlers. rp2040_hal depends on the runtimes from https://github.com/damaki/community-bb-runtimes[community-bb-runtimes], which provide:
 
 - Startup code, the second stage bootloader, and the linker script
 - Crystal oscillator, PLL, and clock configuration
@@ -673,7 +669,7 @@ begin
 end;
 ----
 
-`RP.Timer` no longer provides interrupt driven delays or an implementation of `HAL.Time`. Use `delay` and `Ada.Real_Time` instead. `RP.Timer` is not available on the RP2350. The https://github.com/JeremyGrosser/pico_examples/tree/3.x/timer[timer] example shows each of these delays.
+For delays that don't keep the CPU busy, use `delay` and `Ada.Real_Time`. `RP.Timer` is not available on the RP2350. The https://github.com/JeremyGrosser/pico_examples/tree/3.x/timer[timer] example shows each of these delays.
 
 ==== Real Time Clock (RTC)
 The RTC is an RP2040 peripheral. The RP2350 does not have one.
@@ -851,8 +847,6 @@ end I2C_Demo;
 ----
 
 `Mem_Read` and `Mem_Write` transmit a register address, then read or write data without releasing the bus in between. The https://github.com/JeremyGrosser/pico_examples/tree/3.x/i2c_demo[i2c_demo] example uses `Mem_Read` to read the ID register of a sensor.
-
-The low level `RP.I2C` package from 2.x has been removed, along with support for target mode.
 
 === USB device controller
 The https://github.com/JeremyGrosser/rp2040_hal/blob/3.x/src/rp-usb_device.ads[RP.USB_Device] package implements the https://github.com/Fabien-Chouteau/usb_embedded/blob/main/src/usb-hal-device.ads[USB.HAL.Device.USB_Device_Controller] interface from the https://github.com/Fabien-Chouteau/usb_embedded[usb_embedded] crate. The controller is declared as `RP.Device.UDC`.
@@ -1140,7 +1134,7 @@ end loop;
 === ROM functions
 The RP2040's ROM contains a library of useful functions that can be accessed via a symbol lookup table. The https://github.com/JeremyGrosser/rp2040_hal/blob/3.x/src/rp2040/rp-rom.ads[RP.ROM] package provides an Ada binding to some of them, including fast memory copies, bit manipulation, and `reset_to_usb_boot`, which restarts the chip in BOOTSEL mode. It is only available on the RP2040.
 
-The floating point bindings in `RP.ROM.Floating_Point` have been removed. The Cortex-M0+ has no hardware floating point unit, so the RP2040 runtimes link the ROM's floating point routines for you. Use the standard `Ada.Numerics.Elementary_Functions` package for trigonometry. The RP2350's Cortex-M33 has a hardware floating point unit.
+The Cortex-M0+ has no hardware floating point unit, so the RP2040 runtimes use the ROM's floating point routines to implement floating point arithmetic. Use the standard `Ada.Numerics.Elementary_Functions` package for trigonometry. The RP2350's Cortex-M33 has a hardware floating point unit.
 
 === Multicore
 Both chips have two CPU cores. The runtime starts the second core and schedules tasks on it. A task runs on the first core unless it is assigned to the second with the `CPU` aspect.
@@ -1160,8 +1154,6 @@ If you don't need the second core, setting `Max_CPUs` to 1 saves some memory and
 [configuration.values]
 light_tasking_rp2040.Max_CPUs = 1
 ----
-
-The `RP.Multicore` package from 2.x, which launched code on the second core directly, has been removed.
 
 [#custom_board_support]
 === Custom board support
@@ -1186,7 +1178,7 @@ light_tasking_rp2040.XOSC_Frequency = 12000000
 light_tasking_rp2040.Flash_Chip = "w25q32jv"
 ----
 
-These variables are set in the `alire.toml` of the application, which is the crate that depends on the runtime. The `Flash_Chip`, `Use_Startup`, and `Interrupts` variables of rp2040_hal 2.x no longer exist.
+These variables are set in the `alire.toml` of the application, which is the crate that depends on the runtime.
 
 ==== Pin definitions
 It is unlikely that your custom board has the same pinout as the Pico. We recommend creating a new `yourboardname_bsp` Alire crate that depends on rp2040_hal and contains a package that defines symbolic names for GPIO pins that match a schematic net name or silkscreen that a user of your board would recognize, along with drivers for the board's components. If the board uses an RP2350, the BSP crate can set `rp2040_hal.Device` so that applications don't have to.
@@ -1262,7 +1254,7 @@ rp2040_hal 3.0 is a major release with many incompatible changes. The xref:chang
 == API reference
 The package specifications are the reference for the API. https://github.com/JeremyGrosser/rp2040_hal/tree/3.x/src[Read the .ads files] in rp2040_hal: drivers shared by both chips are in `src`, and those that differ are in `src/rp2040` and `src/rp2350`.
 
-The link:/gnatdoc/index.html[generated API documentation] describes rp2040_hal 2.x and has not been regenerated for 3.x.
+The link:/gnatdoc/index.html[generated API documentation] is out of date.
 
 == Community Support
 Bugs and usability issues may be reported by opening a https://github.com/JeremyGrosser/rp2040_hal/issues/new[GitHub issue]. For more general questions and feedback, join the community on https://forum.ada-lang.io/[forum.ada-lang.io].
