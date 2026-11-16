@@ -1,3 +1,117 @@
+=== 3.0.0-alpha2
+November 15, 2026
+
+3.0 is a major release that adds support for the RP2350 and moves startup,
+clock configuration, timekeeping, and interrupt handling into the Ada runtimes
+from https://github.com/damaki/community-bb-runtimes[community-bb-runtimes].
+This is a pre-release. It is not in the Alire index yet and the API may change
+before 3.0.0.
+
+Almost every project will need changes to build with this release. See
+xref:migrating_from_2_x[Migrating from 2.x].
+
+==== New Features
+
+===== RP2350 support
+The new `Device` configuration variable selects between the RP2040, RP2350A,
+RP2354A, RP2350B, and RP2354B. The ranges of `GPIO_Pin`, `ADC_Channel`,
+`PWM_Slice`, and `RP.PIO.Device` follow the selected device, and
+https://github.com/JeremyGrosser/rp2040_hal/blob/3.x/src/rp-device_parameters.ads[RP.Device_Parameters]
+contains the constants that differ. `RP.GPIO` adds the `HSTX`, `PIO2`, and
+`UARTN` pin functions. `RP.DMA` adds the RP2350's extra channels, triggers, and
+decrementing addresses. `RP.PWM` adds a second interrupt. `RP.PIO` adds
+`Set_GPIO_Base` and the `IRQ_Flag` MOV status source.
+
+`RP.ROM`, `RP.RTC`, `RP.Timer`, and `RP.Watchdog` are only available on the
+RP2040.
+
+===== Low level GPIO interface
+`RP.GPIO` has new procedures that operate on a `GPIO_Pin` and change a single
+property: `Isolate`, `Drive`, `Func`, `Pull`, `Output_Enable`, `Input_Enable`,
+`Set`, and `Get`.
+
+===== Other additions
+- `RP.SPI.Transfer` exchanges a single byte.
+- `RP.Watchdog.Enabled` and `RP.Watchdog.Remaining`.
+- `RP.Reset.Reset_Done`.
+- `RP.ADC.To_ADC_Channel` accepts a `GPIO_Pin`.
+- Separate test suites for each chip, in `tests_rp2040` and `tests_rp2350`.
+  The RP2350 suite includes a USB loopback test.
+
+==== Breaking Changes
+
+===== Runtime dependency
+rp2040_hal no longer contains startup code, a linker script, or the second
+stage bootloader. Projects must depend on one of the `light_tasking_rp2040`,
+`embedded_rp2040`, `light_tasking_rp2350`, or `embedded_rp2350` runtime crates.
+The `light-cortex-m0p` runtime included with the compiler, and the `light`
+runtimes that have no tasking support, cannot be used.
+
+The `Flash_Chip`, `Use_Startup`, and `Interrupts` configuration variables have
+been removed. The board is selected with the runtime's `Board` variable.
+
+===== RP.Clock
+`RP.Clock.Initialize` and the PLL and XOSC configuration have been removed. The
+runtime configures the clocks before the program starts. `Enable (PERI)` and
+similar calls are replaced by `Enable_PERI`, `Enable_ADC`, `Enable_USB`, and
+`Enable_RTC`, which the drivers call for you. `Enable` and `Disable` now only
+apply to the GPOUT clock outputs.
+
+===== Timing
+`RP.Timer.Interrupts`, the `Delays` type, and `RP.Device.Timer` have been
+removed. Use `delay` statements and `Ada.Real_Time`. Driver timeouts are now
+measured with `Ada.Real_Time`. `RP.UART.Send_Break` no longer takes a
+`HAL.Time.Any_Delays` argument.
+
+===== Interrupts
+`RP_Interrupts`, `RP.GPIO.Interrupts`, and `RP.PWM.Interrupts` have been
+removed. Interrupt handlers are protected procedures attached by the runtime.
+GPIO interrupts are controlled by the nested `RP.GPIO.Interrupt` package, with
+triggers named `Low`, `High`, `Falling`, and `Rising`.
+
+===== RP.GPIO
+- `GPIO_Function` and `GPIO_Drive` are integer types with named constants,
+  rather than enumerations. `CLOCK` is now `CLK`.
+- The default drive strength of `Configure` is 2 mA rather than 4 mA.
+- `RP.GPIO.Enable` has been removed. `Configure` takes the IO peripherals out
+  of reset when needed.
+- `ADC_Pin` has been removed.
+
+===== RP.PIO
+PIO blocks are identified by a number of type `RP.PIO.Device` instead of a
+tagged `PIO_Device` object, and `RP.Device.PIO_0` and `PIO_1` have been
+removed. `PIO_SM`, `PIO_SM_Mask`, and `PIO_SM_Config` are now `SM_Index`,
+`SM_Mask`, and `SM_Config`. `PIO_Device`, `PIO_SM`, and `PIO_SM_Config` remain
+as deprecated subtypes. The `PIO` discriminant of
+`RP.PIO.WS2812.Strip`, `RP.PIO.Audio_I2S.I2S_Device`, and
+`RP.PIO.Touch_Sense.Touch_Sensor` is now a number.
+
+===== RP.DMA
+The `Increment_Read` and `Increment_Write` fields of `DMA_Configuration` are
+now `Read_Address` and `Write_Address`, of type `Address_Update`. Transfer
+counts are of type `DMA_Transfer_Count`.
+
+===== Serial drivers
+- `UART_Port` and `SPI_Port` take an access to a private peripheral type as
+  their `Periph` discriminant, rather than an `RP2040_SVD` type. Use the ports
+  declared in `RP.Device`.
+- `SPI_IRQ_Flag` is now `Receive_Overrun`, `Receive_Timeout`,
+  `Receive_FIFO_Not_Empty`, and `Transmit_FIFO_Half_Empty`.
+- The interrupt control procedures of `RP.UART` and `RP.SPI` take the port as
+  an `in` parameter.
+
+===== Preelaboration
+`RP.ADC`, `RP.PWM`, `RP.UART`, `RP.SPI`, `RP.I2C_Master`, and `RP.Flash` are
+no longer preelaborated.
+
+===== Removed packages
+- `RP.I2C`. `RP.I2C_Master` is the only I2C driver, and target mode is not
+  supported.
+- `RP.Multicore`, `RP.Multicore.FIFO`, and `RP.Multicore.Spinlocks`. The
+  runtime starts the second core and runs tasks on it.
+- `RP.ROM.Floating_Point`. The RP2040 runtimes use the ROM floating point
+  routines directly.
+
 === 2.7.1
 March 27, 2026
 
@@ -595,7 +709,7 @@ The upstream SVD was updated to include USB_DPRAM registers, so all of the RP204
 xref:round_robin[RP.ADC.Set_Round_Robin] can be used to select multiple ADC channels to be read sequentially. xref:continuous_conversion[RP.ADC.Set_Mode (Free_Running)] will cause the ADC to continuously sample the selected channels. Paired with DMA, this means the ADC can run at up to 500,000 samples per second.
 
 ===== Ada boot2 code
-Thanks to https://github.com/damaki[Daniel King], we have a working implementation of xref:boot_code[boot2 in Ada]. boot2 has been moved from pico_bsp to rp2040_hal and the flash chip may be selected with the `Flash_Chip` Alire configuration variable.
+Thanks to https://github.com/damaki[Daniel King], we have a working implementation of boot2 in Ada. boot2 has been moved from pico_bsp to rp2040_hal and the flash chip may be selected with the `Flash_Chip` Alire configuration variable.
 
 ===== PWM duty cycle may be set for one channel at a time
 `RP.PWM.Set_Duty_Cycle` takes a `Channel` argument so that a single PWM channel's duty cycle may be updated without affecting the other. If `Channel` is not specified, the duty cycle for both channels must be specified.
