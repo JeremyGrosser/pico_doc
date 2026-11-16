@@ -16,15 +16,13 @@
    Clear          : Boolean := False;
    Wait           : Boolean := False;
    Index          : HAL.UInt5;
-end record
-   with Size => 16;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>Opcode<dd><dt>Delay_Sideset<dd><dt>Opcode_2<dd><dt>Clear<dd><dt>Wait<dd><dt>Index<dd></dl><h4 id=0fb00f8c3ef7b462c4884fa5e28b25b3eabc04c7fe1e17e289c5571abe945740>JMP</h4><pre class=ada-code-snippet><code>type JMP is record
    Opcode         : HAL.UInt3 := 2#000#;
    Delay_Sideset  : HAL.UInt5 := 0;
    Condition      : JMP_Condition := Always;
    Address        : HAL.UInt5 := 0;
-end record
-   with Size => 16;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>Opcode<dd><dt>Delay_Sideset<dd><dt>Condition<dd><dt>Address<dd></dl><h4 id=be08cee20861324248bd57360ae473a244dc60c4ce4dc0104f98fd3d1cb56c51>JMP_Condition</h4><pre class=ada-code-snippet><code>type JMP_Condition is
    (Always,
     Scratch_X_Zero,
@@ -41,8 +39,7 @@ with Size => 3;
    Destination    : MOV_Target := PINS;
    Operation      : MOV_Operation := None;
    Source         : MOV_Target := PINS;
-end record
-   with Size => 16;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>Opcode<dd><dt>Delay_Sideset<dd><dt>Destination<dd><dt>Operation<dd><dt>Source<dd></dl><h4 id=a3a8cebb71b543b9fce897b288a662f49fbe8f7f0886eaa0256abce24598d6c0>MOV_Operation</h4><pre class=ada-code-snippet><code>type MOV_Operation is
    (None, Invert, Bit_Reverse)
 with Size => 2;
@@ -56,8 +53,7 @@ with Size => 3;
    If_Empty       : Boolean := False;
    Block          : Boolean := False;
    Opcode_3       : HAL.UInt5 := 0;
-end record
-   with Size => 16;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>Opcode<dd><dt>Delay_Sideset<dd><dt>Opcode_2<dd><dt>If_Empty<dd><dt>Block<dd><dt>Opcode_3<dd></dl><h4 id=2961be0791f911f23c3ae7f3eb70749bdac865c3a292145d15a58109e98a1686>PUSH</h4><pre class=ada-code-snippet><code>type PUSH is record
    Opcode         : HAL.UInt3 := 2#100#;
    Delay_Sideset  : HAL.UInt5 := 0;
@@ -65,15 +61,13 @@ end record
    If_Full        : Boolean := False;
    Block          : Boolean := False;
    Opcode_3       : HAL.UInt5 := 0;
-end record
-   with Size => 16;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>Opcode<dd><dt>Delay_Sideset<dd><dt>Opcode_2<dd><dt>If_Full<dd><dt>Block<dd><dt>Opcode_3<dd></dl><h4 id=a2d38ee2d53e4eed8394206c76f64440cedab96dc858aaa9c851cb6eceb0c69b>SET</h4><pre class=ada-code-snippet><code>type SET is record
    Opcode         : HAL.UInt3 := 2#111#;
    Delay_Sideset  : HAL.UInt5 := 0;
    Destination    : SET_Destination := PINS;
    Data           : HAL.UInt5 := 0;
-end record
-   with Size => 16;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>Opcode<dd><dt>Delay_Sideset<dd><dt>Destination<dd><dt>Data<dd></dl><h4 id=9ecbb386b5feb1d2e09eb12746ff933fb2cfe89788a8a9ac56af48ffc892de6e>SET_Destination</h4><pre class=ada-code-snippet><code>type SET_Destination is
    (PINS, X, Y, PINDIRS)
 with Size => 3;
@@ -82,8 +76,7 @@ with Size => 3;
    Delay_Sideset  : HAL.UInt5 := 0;
    Source         : SHIFT_IN_Source := PINS;
    Bit_Count      : HAL.UInt5;
-end record
-   with Size => 16;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>Opcode<dd><dt>Delay_Sideset<dd><dt>Source<dd><dt>Bit_Count<dd><p>0 = 32</dl><h4 id=99185ce1f169b7ae9b672532553c3d0e416ea51dd6943573f956623140d86c6c>SHIFT_IN_Source</h4><pre class=ada-code-snippet><code>type SHIFT_IN_Source is
    (PINS, X, Y, ZERO, ISR, OSR)
 with Size => 3;
@@ -92,8 +85,7 @@ with Size => 3;
    Delay_Sideset  : HAL.UInt5 := 0;
    Destination    : SHIFT_OUT_Destination := PINS;
    Bit_Count      : HAL.UInt5;
-end record
-   with Size => 16;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>Opcode<dd><dt>Delay_Sideset<dd><dt>Destination<dd><dt>Bit_Count<dd><p>0 = 32</dl><h4 id=0169c5a075b2d474aa6334a2b8e1680db26874a120f36a4fdcfc50fa94d6177f>SHIFT_OUT_Destination</h4><pre class=ada-code-snippet><code>type SHIFT_OUT_Destination is
    (PINS, X, Y, DISCARD, PINDIRS, PC, ISR, EXEC)
 with Size => 3;
@@ -103,8 +95,7 @@ with Size => 3;
    Polarity       : Boolean := False;
    Source         : WAIT_Source := GPIO;
    Index          : HAL.UInt5 := 0;
-end record
-   with Size => 16;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>Opcode<dd><dt>Delay_Sideset<dd><dt>Polarity<dd><dt>Source<dd><dt>Index<dd></dl><h4 id=367956b6440d2de44f4383a5f41acb061290d771afd7f2f5571ab85c41c47456>WAIT_Source</h4><pre class=ada-code-snippet><code>type WAIT_Source is
    (GPIO, PIN, WAIT_IRQ)
 with Size => 2;

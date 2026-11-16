@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.Device_Parameters</h1><h2>Entities</h2><h3>Constants</h3><ul><li><a href=#6cb10cdb318abd007f9e538d1d69661a89a3a7f14b231968d3a620ac228bb398>ADC_Channel_Count</a><li><a href=#4578c2714b457a2ba1fe9e527205169bd8cd2ad0cc7d63524850756333de7f9c>ADC_Temperature_Channel</a><li><a href=#602d5b0e33660501c6d15d132802cc38ae76fe40bdd69ac6262dee61089e9958>GPIO_CLK_Func</a><li><a href=#d0b274148b636e028d9a8715f98626fe08d474f2bf0d9ba7996904e8ce3cf4ba>GPIO_USB_Func</a><li><a href=#6c9e1133c30635f2f42a0b87109da4b275392a977d8031e2a7e90ff7ac7d95a6>Has_GPIO_ISO</a><li><a href=#f90b3582f5e9bbf975b28bc88677af4eb09a358f2f03e8a06d0d01a2847263bf>Has_USB_Errata_E5</a><li><a href=#10713a6a62accd39a4993c877aef5bf6290ce6c8c894f27d9f72d1b1406ed860>Pin_Count</a><li><a href=#913f04340d315bde21d113797171cc2589581f6b594e1cb5204bae73015f71a1>PIO_Count</a><li><a href=#17db60e2327352ecb7c949db2adc34b71e2d57f202014560cf1dc41bdb1e0350>PWM_IRQ_Count</a><li><a href=#37f38c760e55df6c78441384d5aa582eba204473a7bc5a73224ec391ea8bddb7>PWM_Slice_Count</a></ul><h2>Description</h2><h4 id=6cb10cdb318abd007f9e538d1d69661a89a3a7f14b231968d3a620ac228bb398>ADC_Channel_Count</h4><pre class=ada-code-snippet><code>ADC_Channel_Count : constant :=
+   (case Device is
+      when RP2040             => 5,
+      when RP2350A | RP2354A  => 5,
+      when RP2350B | RP2354B  => 9);
+</code></pre><h4 id=4578c2714b457a2ba1fe9e527205169bd8cd2ad0cc7d63524850756333de7f9c>ADC_Temperature_Channel</h4><pre class=ada-code-snippet><code>ADC_Temperature_Channel : constant :=
+   (if Pin_Count = 48 then 8 else 4);
+</code></pre><h4 id=602d5b0e33660501c6d15d132802cc38ae76fe40bdd69ac6262dee61089e9958>GPIO_CLK_Func</h4><pre class=ada-code-snippet><code>GPIO_CLK_Func : constant :=
+   (case Device is
+      when RP2040 => 8,
+      when others => 9);
+</code></pre><h4 id=d0b274148b636e028d9a8715f98626fe08d474f2bf0d9ba7996904e8ce3cf4ba>GPIO_USB_Func</h4><pre class=ada-code-snippet><code>GPIO_USB_Func : constant :=
+   (case Device is
+      when RP2040 => 9,
+      when others => 10);
+</code></pre><h4 id=6c9e1133c30635f2f42a0b87109da4b275392a977d8031e2a7e90ff7ac7d95a6>Has_GPIO_ISO</h4><pre class=ada-code-snippet><code>Has_GPIO_ISO : constant Boolean := Device /= RP2040;
+</code></pre><h4 id=f90b3582f5e9bbf975b28bc88677af4eb09a358f2f03e8a06d0d01a2847263bf>Has_USB_Errata_E5</h4><pre class=ada-code-snippet><code>Has_USB_Errata_E5 : constant Boolean := Device = RP2040;
+</code></pre><p>USB device fails to exit RESET state on busy USB bus<h4 id=10713a6a62accd39a4993c877aef5bf6290ce6c8c894f27d9f72d1b1406ed860>Pin_Count</h4><pre class=ada-code-snippet><code>Pin_Count : constant :=
+   (case Device is
+      when RP2040             => 30,
+      when RP2350A | RP2354A  => 30,
+      when RP2350B | RP2354B  => 48);
+</code></pre><h4 id=913f04340d315bde21d113797171cc2589581f6b594e1cb5204bae73015f71a1>PIO_Count</h4><pre class=ada-code-snippet><code>PIO_Count : constant :=
+   (case Device is
+      when RP2040 => 2,
+      when others => 3);
+</code></pre><h4 id=17db60e2327352ecb7c949db2adc34b71e2d57f202014560cf1dc41bdb1e0350>PWM_IRQ_Count</h4><pre class=ada-code-snippet><code>PWM_IRQ_Count : constant :=
+   (case Device is
+      when RP2040 => 1,
+      when others => 2);
+</code></pre><h4 id=37f38c760e55df6c78441384d5aa582eba204473a7bc5a73224ec391ea8bddb7>PWM_Slice_Count</h4><pre class=ada-code-snippet><code>PWM_Slice_Count : constant :=
+   (case Device is
+      when RP2040 => 8,
+      when others => 12);
+</code></pre>

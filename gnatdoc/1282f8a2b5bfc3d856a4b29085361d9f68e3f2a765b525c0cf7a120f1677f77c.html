@@ -47,9 +47,8 @@
    IC_COMP_PARAM_1       : aliased IC_COMP_PARAM_1_Register;
    IC_COMP_VERSION       : aliased HAL.UInt32;
    IC_COMP_TYPE          : aliased HAL.UInt32;
-end record
-  with Volatile;
-</code></pre><h5>Record fields</h5><dl><dt>IC_CON<dd><dt>IC_TAR<dd><dt>IC_SAR<dd><dt>IC_DATA_CMD<dd><dt>IC_SS_SCL_HCNT<dd><dt>IC_SS_SCL_LCNT<dd><dt>IC_FS_SCL_HCNT<dd><dt>IC_FS_SCL_LCNT<dd><dt>IC_INTR_STAT<dd><dt>IC_INTR_MASK<dd><dt>IC_RAW_INTR_STAT<dd><dt>IC_RX_TL<dd><dt>IC_TX_TL<dd><dt>IC_CLR_INTR<dd><dt>IC_CLR_RX_UNDER<dd><dt>IC_CLR_RX_OVER<dd><dt>IC_CLR_TX_OVER<dd><dt>IC_CLR_RD_REQ<dd><dt>IC_CLR_TX_ABRT<dd><dt>IC_CLR_RX_DONE<dd><dt>IC_CLR_ACTIVITY<dd><dt>IC_CLR_STOP_DET<dd><dt>IC_CLR_START_DET<dd><dt>IC_CLR_GEN_CALL<dd><dt>IC_ENABLE<dd><dt>IC_STATUS<dd><dt>IC_TXFLR<dd><dt>IC_RXFLR<dd><dt>IC_SDA_HOLD<dd><dt>IC_TX_ABRT_SOURCE<dd><dt>IC_SLV_DATA_NACK_ONLY<dd><dt>IC_DMA_CR<dd><dt>IC_DMA_TDLR<dd><dt>IC_DMA_RDLR<dd><dt>IC_SDA_SETUP<dd><dt>IC_ACK_GENERAL_CALL<dd><dt>IC_ENABLE_STATUS<dd><dt>IC_FS_SPKLEN<dd><dt>IC_CLR_RESTART_DET<dd><dt>IC_COMP_PARAM_1<dd><dt>IC_COMP_VERSION<dd><dt>IC_COMP_TYPE<dd></dl><h4 id=3d7ba67a7f458fc97a4199e878a74ec07f91cfb80abe5f5e29045cf247fe5f55>IC_ACK_GENERAL_CALL_ACK_GEN_CALL_Field</h4><pre class=ada-code-snippet><code>type IC_ACK_GENERAL_CALL_ACK_GEN_CALL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>IC_CON<dd><p>I2C Target Address Register\n\n This register is 12 bits wide, and bits 31:12 are reserved. This register can be written to only when IC_ENABLE[0] is set to 0.\n\n Note: If the software or application is aware that the DW_apb_i2c is not using the TAR address for the pending commands in the Tx FIFO, then it is possible to update the TAR address even while the Tx FIFO has entries (IC_STATUS[2]= 0). - It is not necessary to perform any write to this register if DW_apb_i2c is enabled as an I2C slave only.<dt>IC_TAR<dd><p>I2C Slave Address Register<dt>IC_SAR<dd><p>I2C Rx/Tx Data Buffer and Command Register; this is the register the CPU writes to when filling the TX FIFO and the CPU reads from when retrieving bytes from RX FIFO.\n\n The size of the register changes as follows:\n\n Write: - 11 bits when IC_EMPTYFIFO_HOLD_MASTER_EN=1 - 9 bits when IC_EMPTYFIFO_HOLD_MASTER_EN=0 Read: - 12 bits when IC_FIRST_DATA_BYTE_STATUS = 1 - 8 bits when IC_FIRST_DATA_BYTE_STATUS = 0 Note: In order for the DW_apb_i2c to continue acknowledging reads, a read command should be written for every byte that is to be received; otherwise the DW_apb_i2c will stop acknowledging.<dt>IC_DATA_CMD<dd><p>Standard Speed I2C Clock SCL High Count Register<dt>IC_SS_SCL_HCNT<dd><p>Standard Speed I2C Clock SCL Low Count Register<dt>IC_SS_SCL_LCNT<dd><p>Fast Mode or Fast Mode Plus I2C Clock SCL High Count Register<dt>IC_FS_SCL_HCNT<dd><p>Fast Mode or Fast Mode Plus I2C Clock SCL Low Count Register<dt>IC_FS_SCL_LCNT<dd><p>I2C Interrupt Status Register\n\n Each bit in this register has a corresponding mask bit in the IC_INTR_MASK register. These bits are cleared by reading the matching interrupt clear register. The unmasked raw versions of these bits are available in the IC_RAW_INTR_STAT register.<dt>IC_INTR_STAT<dd><p>I2C Interrupt Mask Register.\n\n These bits mask their corresponding interrupt status bits. This register is active low; a value of 0 masks the interrupt, whereas a value of 1 unmasks the interrupt.<dt>IC_INTR_MASK<dd><p>I2C Raw Interrupt Status Register\n\n Unlike the IC_INTR_STAT register, these bits are not masked so they always show the true status of the DW_apb_i2c.<dt>IC_RAW_INTR_STAT<dd><p>I2C Receive FIFO Threshold Register<dt>IC_RX_TL<dd><p>I2C Transmit FIFO Threshold Register<dt>IC_TX_TL<dd><p>Clear Combined and Individual Interrupt Register<dt>IC_CLR_INTR<dd><p>Clear RX_UNDER Interrupt Register<dt>IC_CLR_RX_UNDER<dd><p>Clear RX_OVER Interrupt Register<dt>IC_CLR_RX_OVER<dd><p>Clear TX_OVER Interrupt Register<dt>IC_CLR_TX_OVER<dd><p>Clear RD_REQ Interrupt Register<dt>IC_CLR_RD_REQ<dd><p>Clear TX_ABRT Interrupt Register<dt>IC_CLR_TX_ABRT<dd><p>Clear RX_DONE Interrupt Register<dt>IC_CLR_RX_DONE<dd><p>Clear ACTIVITY Interrupt Register<dt>IC_CLR_ACTIVITY<dd><p>Clear STOP_DET Interrupt Register<dt>IC_CLR_STOP_DET<dd><p>Clear START_DET Interrupt Register<dt>IC_CLR_START_DET<dd><p>Clear GEN_CALL Interrupt Register<dt>IC_CLR_GEN_CALL<dd><p>I2C Enable Register<dt>IC_ENABLE<dd><p>I2C Status Register\n\n This is a read-only register used to indicate the current transfer status and FIFO status. The status register may be read at any time. None of the bits in this register request an interrupt.\n\n When the I2C is disabled by writing 0 in bit 0 of the IC_ENABLE register: - Bits 1 and 2 are set to 1 - Bits 3 and 10 are set to 0 When the master or slave state machines goes to idle and ic_en=0: - Bits 5 and 6 are set to 0<dt>IC_STATUS<dd><p>I2C Transmit FIFO Level Register This register contains the number of valid data entries in the transmit FIFO buffer. It is cleared whenever: - The I2C is disabled - There is a transmit abort - that is, TX_ABRT bit is set in the IC_RAW_INTR_STAT register - The slave bulk transmit mode is aborted The register increments whenever data is placed into the transmit FIFO and decrements when data is taken from the transmit FIFO.<dt>IC_TXFLR<dd><p>I2C Receive FIFO Level Register This register contains the number of valid data entries in the receive FIFO buffer. It is cleared whenever: - The I2C is disabled - Whenever there is a transmit abort caused by any of the events tracked in IC_TX_ABRT_SOURCE The register increments whenever data is placed into the receive FIFO and decrements when data is taken from the receive FIFO.<dt>IC_RXFLR<dd><p>I2C SDA Hold Time Length Register\n\n The bits [15:0] of this register are used to control the hold time of SDA during transmit in both slave and master mode (after SCL goes from HIGH to LOW).\n\n The bits [23:16] of this register are used to extend the SDA transition (if any) whenever SCL is HIGH in the receiver in either master or slave mode.\n\n Writes to this register succeed only when IC_ENABLE[0]=0.\n\n The values in this register are in units of ic_clk period. The value programmed in IC_SDA_TX_HOLD must be greater than the minimum hold time in each mode (one cycle in master mode, seven cycles in slave mode) for the value to be implemented.\n\n The programmed SDA hold time during transmit (IC_SDA_TX_HOLD) cannot exceed at any time the duration of the low part of scl. Therefore the programmed value cannot be larger than N_SCL_LOW-2, where N_SCL_LOW is the duration of the low part of the scl period measured in ic_clk cycles.<dt>IC_SDA_HOLD<dd><p>I2C Transmit Abort Source Register\n\n This register has 32 bits that indicate the source of the TX_ABRT bit. Except for Bit 9, this register is cleared whenever the IC_CLR_TX_ABRT register or the IC_CLR_INTR register is read. To clear Bit 9, the source of the ABRT_SBYTE_NORSTRT must be fixed first; RESTART must be enabled (IC_CON[5]=1), the SPECIAL bit must be cleared (IC_TAR[11]), or the GC_OR_START bit must be cleared (IC_TAR[10]).\n\n Once the source of the ABRT_SBYTE_NORSTRT is fixed, then this bit can be cleared in the same manner as other bits in this register. If the source of the ABRT_SBYTE_NORSTRT is not fixed before attempting to clear this bit, Bit 9 clears for one cycle and is then re-asserted.<dt>IC_TX_ABRT_SOURCE<dd><p>Generate Slave Data NACK Register\n\n The register is used to generate a NACK for the data part of a transfer when DW_apb_i2c is acting as a slave-receiver. This register only exists when the IC_SLV_DATA_NACK_ONLY parameter is set to 1. When this parameter disabled, this register does not exist and writing to the register's address has no effect.\n\n A write can occur on this register if both of the following conditions are met: - DW_apb_i2c is disabled (IC_ENABLE[0] = 0) - Slave part is inactive (IC_STATUS[6] = 0) Note: The IC_STATUS[6] is a register read-back location for the internal slv_activity signal; the user should poll this before writing the ic_slv_data_nack_only bit.<dt>IC_SLV_DATA_NACK_ONLY<dd><p>DMA Control Register\n\n The register is used to enable the DMA Controller interface operation. There is a separate bit for transmit and receive. This can be programmed regardless of the state of IC_ENABLE.<dt>IC_DMA_CR<dd><p>DMA Transmit Data Level Register<dt>IC_DMA_TDLR<dd><p>I2C Receive Data Level Register<dt>IC_DMA_RDLR<dd><p>I2C SDA Setup Register\n\n This register controls the amount of time delay (in terms of number of ic_clk clock periods) introduced in the rising edge of SCL - relative to SDA changing - when DW_apb_i2c services a read request in a slave-transmitter operation. The relevant I2C requirement is tSU:DAT (note 4) as detailed in the I2C Bus Specification. This register must be programmed with a value equal to or greater than 2.\n\n Writes to this register succeed only when IC_ENABLE[0] = 0.\n\n Note: The length of setup time is calculated using [(IC_SDA_SETUP - 1) * (ic_clk_period)], so if the user requires 10 ic_clk periods of setup time, they should program a value of 11. The IC_SDA_SETUP register is only used by the DW_apb_i2c when operating as a slave transmitter.<dt>IC_SDA_SETUP<dd><p>I2C ACK General Call Register\n\n The register controls whether DW_apb_i2c responds with a ACK or NACK when it receives an I2C General Call address.\n\n This register is applicable only when the DW_apb_i2c is in slave mode.<dt>IC_ACK_GENERAL_CALL<dd><p>I2C Enable Status Register\n\n The register is used to report the DW_apb_i2c hardware status when the IC_ENABLE[0] register is set from 1 to 0; that is, when DW_apb_i2c is disabled.\n\n If IC_ENABLE[0] has been set to 1, bits 2:1 are forced to 0, and bit 0 is forced to 1.\n\n If IC_ENABLE[0] has been set to 0, bits 2:1 is only be valid as soon as bit 0 is read as '0'.\n\n Note: When IC_ENABLE[0] has been set to 0, a delay occurs for bit 0 to be read as 0 because disabling the DW_apb_i2c depends on I2C bus activities.<dt>IC_ENABLE_STATUS<dd><p>I2C SS, FS or FM+ spike suppression limit\n\n This register is used to store the duration, measured in ic_clk cycles, of the longest spike that is filtered out by the spike suppression logic when the component is operating in SS, FS or FM+ modes. The relevant I2C requirement is tSP (table 4) as detailed in the I2C Bus Specification. This register must be programmed with a minimum value of 1.<dt>IC_FS_SPKLEN<dd><p>Clear RESTART_DET Interrupt Register<dt>IC_CLR_RESTART_DET<dd><p>Component Parameter Register 1\n\n Note This register is not implemented and therefore reads as 0. If it was implemented it would be a constant read-only register that contains encoded information about the component's parameter settings. Fields shown below are the settings for those parameters<dt>IC_COMP_PARAM_1<dd><p>I2C Component Version Register<dt>IC_COMP_VERSION<dd><p>I2C Component Type Register<dt>IC_COMP_TYPE<dd></dl><h4 id=3d7ba67a7f458fc97a4199e878a74ec07f91cfb80abe5f5e29045cf247fe5f55>IC_ACK_GENERAL_CALL_ACK_GEN_CALL_Field</h4><pre class=ada-code-snippet><code>type IC_ACK_GENERAL_CALL_ACK_GEN_CALL_Field is
    DISABLED,
    ENABLED)
   with Size => 1;
@@ -57,82 +56,56 @@ end record
    ACK_GEN_CALL  : IC_ACK_GENERAL_CALL_ACK_GEN_CALL_Field :=
                     RP2040_SVD.I2C.ENABLED;
    Reserved_1_31 : HAL.UInt31 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>ACK_GEN_CALL<dd><dt>Reserved_1_31<dd></dl><h4 id=39321512d7b6e104bf01f3f708e54b1107d99b34bd56e6f486baf51308aa6654>IC_CLR_ACTIVITY_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_ACTIVITY_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>ACK_GEN_CALL<dd><p>unspecified<dt>Reserved_1_31<dd></dl><h4 id=39321512d7b6e104bf01f3f708e54b1107d99b34bd56e6f486baf51308aa6654>IC_CLR_ACTIVITY_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_ACTIVITY_Register is record
    CLR_ACTIVITY  : Boolean;
    Reserved_1_31 : HAL.UInt31;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>CLR_ACTIVITY<dd><dt>Reserved_1_31<dd></dl><h4 id=2ba0b8ed763b03d4a69d04b804417c4b95206291e72784aa7e20e25d2229a831>IC_CLR_GEN_CALL_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_GEN_CALL_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_ACTIVITY<dd><p>unspecified<dt>Reserved_1_31<dd></dl><h4 id=2ba0b8ed763b03d4a69d04b804417c4b95206291e72784aa7e20e25d2229a831>IC_CLR_GEN_CALL_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_GEN_CALL_Register is record
    CLR_GEN_CALL  : Boolean;
    Reserved_1_31 : HAL.UInt31;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>CLR_GEN_CALL<dd><dt>Reserved_1_31<dd></dl><h4 id=a7625da25b60959a4aec84acfeb86afb8fd5ba5c4b7a090e3a6930955a49b579>IC_CLR_INTR_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_INTR_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_GEN_CALL<dd><p>unspecified<dt>Reserved_1_31<dd></dl><h4 id=a7625da25b60959a4aec84acfeb86afb8fd5ba5c4b7a090e3a6930955a49b579>IC_CLR_INTR_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_INTR_Register is record
    CLR_INTR      : Boolean;
    Reserved_1_31 : HAL.UInt31;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>CLR_INTR<dd><dt>Reserved_1_31<dd></dl><h4 id=6fe59bbe0711aba1c8df93526655ef78918e5edbde5f9e74962e725691fbc901>IC_CLR_RD_REQ_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_RD_REQ_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_INTR<dd><p>unspecified<dt>Reserved_1_31<dd></dl><h4 id=6fe59bbe0711aba1c8df93526655ef78918e5edbde5f9e74962e725691fbc901>IC_CLR_RD_REQ_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_RD_REQ_Register is record
    CLR_RD_REQ    : Boolean;
    Reserved_1_31 : HAL.UInt31;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>CLR_RD_REQ<dd><dt>Reserved_1_31<dd></dl><h4 id=4dbcac454f4e5852e4553a2974fc8cd1cfa7a440a717c3ae4b0be39d2c0258f4>IC_CLR_RESTART_DET_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_RESTART_DET_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_RD_REQ<dd><p>unspecified<dt>Reserved_1_31<dd></dl><h4 id=4dbcac454f4e5852e4553a2974fc8cd1cfa7a440a717c3ae4b0be39d2c0258f4>IC_CLR_RESTART_DET_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_RESTART_DET_Register is record
    CLR_RESTART_DET : Boolean;
    Reserved_1_31   : HAL.UInt31;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>CLR_RESTART_DET<dd><dt>Reserved_1_31<dd></dl><h4 id=e155fe90d72a87c9f57fb6afed2319c689910e2a37188213a46b87c39f44fc0c>IC_CLR_RX_DONE_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_RX_DONE_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_RESTART_DET<dd><p>unspecified<dt>Reserved_1_31<dd></dl><h4 id=e155fe90d72a87c9f57fb6afed2319c689910e2a37188213a46b87c39f44fc0c>IC_CLR_RX_DONE_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_RX_DONE_Register is record
    CLR_RX_DONE   : Boolean;
    Reserved_1_31 : HAL.UInt31;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>CLR_RX_DONE<dd><dt>Reserved_1_31<dd></dl><h4 id=22a310a01f0db743245590fed291080df5f23c2e2253c480c8b5e04764a70283>IC_CLR_RX_OVER_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_RX_OVER_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_RX_DONE<dd><p>unspecified<dt>Reserved_1_31<dd></dl><h4 id=22a310a01f0db743245590fed291080df5f23c2e2253c480c8b5e04764a70283>IC_CLR_RX_OVER_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_RX_OVER_Register is record
    CLR_RX_OVER   : Boolean;
    Reserved_1_31 : HAL.UInt31;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>CLR_RX_OVER<dd><dt>Reserved_1_31<dd></dl><h4 id=79223ba979fc6f033a3d7fa94d3a5e31fe73e3b946c1e1be70dc483917cfe92c>IC_CLR_RX_UNDER_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_RX_UNDER_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_RX_OVER<dd><p>unspecified<dt>Reserved_1_31<dd></dl><h4 id=79223ba979fc6f033a3d7fa94d3a5e31fe73e3b946c1e1be70dc483917cfe92c>IC_CLR_RX_UNDER_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_RX_UNDER_Register is record
    CLR_RX_UNDER  : Boolean;
    Reserved_1_31 : HAL.UInt31;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>CLR_RX_UNDER<dd><dt>Reserved_1_31<dd></dl><h4 id=dddc74637cc61fbebcecee6d6ccb51dcef99dc88bd2533959fa41e122a26f272>IC_CLR_START_DET_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_START_DET_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_RX_UNDER<dd><p>unspecified<dt>Reserved_1_31<dd></dl><h4 id=dddc74637cc61fbebcecee6d6ccb51dcef99dc88bd2533959fa41e122a26f272>IC_CLR_START_DET_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_START_DET_Register is record
    CLR_START_DET : Boolean;
    Reserved_1_31 : HAL.UInt31;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>CLR_START_DET<dd><dt>Reserved_1_31<dd></dl><h4 id=79c68ca759dd9afb926738b7efdf094f0cf953af3699730c54fff776fcaf9d9b>IC_CLR_STOP_DET_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_STOP_DET_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_START_DET<dd><p>unspecified<dt>Reserved_1_31<dd></dl><h4 id=79c68ca759dd9afb926738b7efdf094f0cf953af3699730c54fff776fcaf9d9b>IC_CLR_STOP_DET_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_STOP_DET_Register is record
    CLR_STOP_DET  : Boolean;
    Reserved_1_31 : HAL.UInt31;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>CLR_STOP_DET<dd><dt>Reserved_1_31<dd></dl><h4 id=70e75ad95ea6e8913c5fcbbaeb4d459ab8eaf330f2054462563022562bee4998>IC_CLR_TX_ABRT_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_TX_ABRT_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_STOP_DET<dd><p>unspecified<dt>Reserved_1_31<dd></dl><h4 id=70e75ad95ea6e8913c5fcbbaeb4d459ab8eaf330f2054462563022562bee4998>IC_CLR_TX_ABRT_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_TX_ABRT_Register is record
    CLR_TX_ABRT   : Boolean;
    Reserved_1_31 : HAL.UInt31;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>CLR_TX_ABRT<dd><dt>Reserved_1_31<dd></dl><h4 id=79f84439f22b678ec98177158666673eda53849f4df89310938b828bc66d9bb2>IC_CLR_TX_OVER_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_TX_OVER_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_TX_ABRT<dd><p>unspecified<dt>Reserved_1_31<dd></dl><h4 id=79f84439f22b678ec98177158666673eda53849f4df89310938b828bc66d9bb2>IC_CLR_TX_OVER_Register</h4><pre class=ada-code-snippet><code>type IC_CLR_TX_OVER_Register is record
    CLR_TX_OVER   : Boolean;
    Reserved_1_31 : HAL.UInt31;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>CLR_TX_OVER<dd><dt>Reserved_1_31<dd></dl><h4 id=e218c339330170a3d4631169e95030138739567b8d7e92af1427d0f531e3d2d9>IC_COMP_PARAM_1_APB_DATA_WIDTH_Field</h4><pre class=ada-code-snippet><code>subtype IC_COMP_PARAM_1_APB_DATA_WIDTH_Field is HAL.UInt2;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>CLR_TX_OVER<dd><p>unspecified<dt>Reserved_1_31<dd></dl><h4 id=e218c339330170a3d4631169e95030138739567b8d7e92af1427d0f531e3d2d9>IC_COMP_PARAM_1_APB_DATA_WIDTH_Field</h4><pre class=ada-code-snippet><code>subtype IC_COMP_PARAM_1_APB_DATA_WIDTH_Field is HAL.UInt2;
 </code></pre><h4 id=04530d34f3dd466740abf067cca6bd5ff6b187fb1ff850748c4dc66bafef6a3a>IC_COMP_PARAM_1_MAX_SPEED_MODE_Field</h4><pre class=ada-code-snippet><code>subtype IC_COMP_PARAM_1_MAX_SPEED_MODE_Field is HAL.UInt2;
 </code></pre><h4 id=239f31ff80915be8be2ead27fd9f9df8964c389df18386901c4a94869e41e984>IC_COMP_PARAM_1_Register</h4><pre class=ada-code-snippet><code>type IC_COMP_PARAM_1_Register is record
    APB_DATA_WIDTH     : IC_COMP_PARAM_1_APB_DATA_WIDTH_Field;
@@ -144,10 +117,8 @@ end record
    RX_BUFFER_DEPTH    : IC_COMP_PARAM_1_RX_BUFFER_DEPTH_Field;
    TX_BUFFER_DEPTH    : IC_COMP_PARAM_1_TX_BUFFER_DEPTH_Field;
    Reserved_24_31     : HAL.UInt8;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>APB_DATA_WIDTH<dd><dt>MAX_SPEED_MODE<dd><dt>HC_COUNT_VALUES<dd><dt>INTR_IO<dd><dt>HAS_DMA<dd><dt>ADD_ENCODED_PARAMS<dd><dt>RX_BUFFER_DEPTH<dd><dt>TX_BUFFER_DEPTH<dd><dt>Reserved_24_31<dd></dl><h4 id=ba64595545bd3d198db0764e343b12142e7f6d627520e5c1bf5700e8f7b5041b>IC_COMP_PARAM_1_RX_BUFFER_DEPTH_Field</h4><pre class=ada-code-snippet><code>subtype IC_COMP_PARAM_1_RX_BUFFER_DEPTH_Field is HAL.UInt8;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>APB_DATA_WIDTH<dd><p>Read-only. MAX SPEED MODE = FAST MODE<dt>MAX_SPEED_MODE<dd><p>Read-only. Programmable count values for each mode.<dt>HC_COUNT_VALUES<dd><p>Read-only. COMBINED Interrupt outputs<dt>INTR_IO<dd><p>Read-only. DMA handshaking signals are enabled<dt>HAS_DMA<dd><p>Read-only. Encoded parameters not visible<dt>ADD_ENCODED_PARAMS<dd><p>Read-only. RX Buffer Depth = 16<dt>RX_BUFFER_DEPTH<dd><p>Read-only. TX Buffer Depth = 16<dt>TX_BUFFER_DEPTH<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=ba64595545bd3d198db0764e343b12142e7f6d627520e5c1bf5700e8f7b5041b>IC_COMP_PARAM_1_RX_BUFFER_DEPTH_Field</h4><pre class=ada-code-snippet><code>subtype IC_COMP_PARAM_1_RX_BUFFER_DEPTH_Field is HAL.UInt8;
 </code></pre><h4 id=98f34b2d2e85bf7e44164445134a77d3af8e11e886446a448223f2a5c63fa0fa>IC_COMP_PARAM_1_TX_BUFFER_DEPTH_Field</h4><pre class=ada-code-snippet><code>subtype IC_COMP_PARAM_1_TX_BUFFER_DEPTH_Field is HAL.UInt8;
 </code></pre><h4 id=c1127d97fe21e52ae81d185bc936a3f08b59d4405fe704caed81e1b355e38064>IC_CON_IC_10BITADDR_MASTER_Field</h4><pre class=ada-code-snippet><code>type IC_CON_IC_10BITADDR_MASTER_Field is
    ADDR_7BITS,
@@ -189,10 +160,8 @@ end record
                                 RP2040_SVD.I2C.DISABLED;
    STOP_DET_IF_MASTER_ACTIVE : Boolean := False;
    Reserved_11_31            : HAL.UInt21 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>MASTER_MODE<dd><dt>SPEED<dd><dt>IC_10BITADDR_SLAVE<dd><dt>IC_10BITADDR_MASTER<dd><dt>IC_RESTART_EN<dd><dt>IC_SLAVE_DISABLE<dd><dt>STOP_DET_IFADDRESSED<dd><dt>TX_EMPTY_CTRL<dd><dt>RX_FIFO_FULL_HLD_CTRL<dd><dt>STOP_DET_IF_MASTER_ACTIVE<dd><dt>Reserved_11_31<dd></dl><h4 id=488d4fcae4e64f11ca7dcb90e750fdc1f18c7b8f9d540f21928009f97b350d83>IC_CON_RX_FIFO_FULL_HLD_CTRL_Field</h4><pre class=ada-code-snippet><code>type IC_CON_RX_FIFO_FULL_HLD_CTRL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>MASTER_MODE<dd><p>These bits control at which speed the DW_apb_i2c operates; its setting is relevant only if one is operating the DW_apb_i2c in master mode. Hardware protects against illegal values being programmed by software. These bits must be programmed appropriately for slave mode also, as it is used to capture correct value of spike filter as per the speed mode.\n\n This register should be programmed only with a value in the range of 1 to IC_MAX_SPEED_MODE; otherwise, hardware updates this register with the value of IC_MAX_SPEED_MODE.\n\n 1: standard mode (100 kbit/s)\n\n 2: fast mode (&lt;=400 kbit/s) or fast mode plus (&lt;=1000Kbit/s)\n\n 3: high speed mode (3.4 Mbit/s)\n\n Note: This field is not applicable when IC_ULTRA_FAST_MODE=1<dt>SPEED<dd><p>When acting as a slave, this bit controls whether the DW_apb_i2c responds to 7- or 10-bit addresses. - 0: 7-bit addressing. The DW_apb_i2c ignores transactions that involve 10-bit addressing; for 7-bit addressing, only the lower 7 bits of the IC_SAR register are compared. - 1: 10-bit addressing. The DW_apb_i2c responds to only 10-bit addressing transfers that match the full 10 bits of the IC_SAR register.<dt>IC_10BITADDR_SLAVE<dd><p>Controls whether the DW_apb_i2c starts its transfers in 7- or 10-bit addressing mode when acting as a master. - 0: 7-bit addressing - 1: 10-bit addressing<dt>IC_10BITADDR_MASTER<dd><p>Determines whether RESTART conditions may be sent when acting as a master. Some older slaves do not support handling RESTART conditions; however, RESTART conditions are used in several DW_apb_i2c operations. When RESTART is disabled, the master is prohibited from performing the following functions: - Sending a START BYTE - Performing any high-speed mode operation - High-speed mode operation<ul><li><p>Performing direction changes in combined format mode - Performing a</ul><p>read operation with a 10-bit address By replacing RESTART condition followed by a STOP and a subsequent START condition, split operations are broken down into multiple DW_apb_i2c transfers. If the above operations are performed, it will result in setting bit 6 (TX_ABRT) of the IC_RAW_INTR_STAT register.\n\n Reset value: ENABLED<dt>IC_RESTART_EN<dd><p>This bit controls whether I2C has its slave disabled, which means once the presetn signal is applied, then this bit is set and the slave is disabled.\n\n If this bit is set (slave is disabled), DW_apb_i2c functions only as a master and does not perform any action that requires a slave.\n\n NOTE: Software should ensure that if this bit is written with 0, then bit 0 should also be written with a 0.<dt>IC_SLAVE_DISABLE<dd><p>In slave mode: - 1'b1: issues the STOP_DET interrupt only when it is addressed. - 1'b0: issues the STOP_DET irrespective of whether it's addressed or not. Reset value: 0x0\n\n NOTE: During a general call address, this slave does not issue the STOP_DET interrupt if STOP_DET_IF_ADDRESSED = 1'b1, even if the slave responds to the general call address by generating ACK. The STOP_DET interrupt is generated only when the transmitted address matches the slave address (SAR).<dt>STOP_DET_IFADDRESSED<dd><p>This bit controls the generation of the TX_EMPTY interrupt, as described in the IC_RAW_INTR_STAT register.\n\n Reset value: 0x0.<dt>TX_EMPTY_CTRL<dd><p>This bit controls whether DW_apb_i2c should hold the bus when the Rx FIFO is physically full to its RX_BUFFER_DEPTH, as described in the IC_RX_FULL_HLD_BUS_EN parameter.\n\n Reset value: 0x0.<dt>RX_FIFO_FULL_HLD_CTRL<dd><p>Read-only. Master issues the STOP_DET interrupt irrespective of whether master is active or not<dt>STOP_DET_IF_MASTER_ACTIVE<dd><p>unspecified<dt>Reserved_11_31<dd></dl><h4 id=488d4fcae4e64f11ca7dcb90e750fdc1f18c7b8f9d540f21928009f97b350d83>IC_CON_RX_FIFO_FULL_HLD_CTRL_Field</h4><pre class=ada-code-snippet><code>type IC_CON_RX_FIFO_FULL_HLD_CTRL_Field is
    DISABLED,
    ENABLED)
   with Size => 1;
@@ -226,10 +195,8 @@ end record
    FIRST_DATA_BYTE : IC_DATA_CMD_FIRST_DATA_BYTE_Field :=
                       RP2040_SVD.I2C.INACTIVE;
    Reserved_12_31  : HAL.UInt20 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>DAT<dd><dt>CMD<dd><dt>STOP<dd><dt>RESTART<dd><dt>FIRST_DATA_BYTE<dd><dt>Reserved_12_31<dd></dl><h4 id=1fc0ea0c7d9896c83c2e00bfa5ebfda0909ba12482f9f0f76df19c253b00dcbb>IC_DATA_CMD_RESTART_Field</h4><pre class=ada-code-snippet><code>type IC_DATA_CMD_RESTART_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>DAT<dd><p>After a write operation all bits in the field are cleared (set to zero). This bit controls whether a read or a write is performed. This bit does not control the direction when the DW_apb_i2con acts as a slave. It controls only the direction when it acts as a master.\n\n When a command is entered in the TX FIFO, this bit distinguishes the write and read commands. In slave-receiver mode, this bit is a 'don't care' because writes to this register are not required. In slave-transmitter mode, a '0' indicates that the data in IC_DATA_CMD is to be transmitted.\n\n When programming this bit, you should remember the following: attempting to perform a read operation after a General Call command has been sent results in a TX_ABRT interrupt (bit 6 of the IC_RAW_INTR_STAT register), unless bit 11 (SPECIAL) in the IC_TAR register has been cleared. If a '1' is written to this bit after receiving a RD_REQ interrupt, then a TX_ABRT interrupt occurs.\n\n Reset value: 0x0<dt>CMD<dd><p>After a write operation all bits in the field are cleared (set to zero). This bit controls whether a STOP is issued after the byte is sent or received.\n\n - 1 - STOP is issued after this byte, regardless of whether or not the Tx FIFO is empty. If the Tx FIFO is not empty, the master immediately tries to start a new transfer by issuing a START and arbitrating for the bus. - 0 - STOP is not issued after this byte, regardless of whether or not the Tx FIFO is empty. If the Tx FIFO is not empty, the master continues the current transfer by sending/receiving data bytes according to the value of the CMD bit. If the Tx FIFO is empty, the master holds the SCL line low and stalls the bus until a new command is available in the Tx FIFO. Reset value: 0x0<dt>STOP<dd><p>After a write operation all bits in the field are cleared (set to zero). This bit controls whether a RESTART is issued before the byte is sent or received.\n\n 1 - If IC_RESTART_EN is 1, a RESTART is issued before the data is sent/received (according to the value of CMD), regardless of whether or not the transfer direction is changing from the previous command; if IC_RESTART_EN is 0, a STOP followed by a START is issued instead.\n\n 0 - If IC_RESTART_EN is 1, a RESTART is issued only if the transfer direction is changing from the previous command; if IC_RESTART_EN is 0, a STOP followed by a START is issued instead.\n\n Reset value: 0x0<dt>RESTART<dd><p>Read-only. Indicates the first data byte received after the address phase for receive transfer in Master receiver or Slave receiver mode.\n\n Reset value : 0x0\n\n NOTE: In case of APB_DATA_WIDTH=8,\n\n 1. The user has to perform two APB Reads to IC_DATA_CMD in order to get status on 11 bit.\n\n 2. In order to read the 11 bit, the user has to perform the first data byte read [7:0] (offset 0x10) and then perform the second read [15:8] (offset 0x11) in order to know the status of 11 bit (whether the data received in previous read is a first data byte or not).\n\n 3. The 11th bit is an optional read field, user can ignore 2nd byte read [15:8] (offset 0x11) if not interested in FIRST_DATA_BYTE status.<dt>FIRST_DATA_BYTE<dd><p>unspecified<dt>Reserved_12_31<dd></dl><h4 id=1fc0ea0c7d9896c83c2e00bfa5ebfda0909ba12482f9f0f76df19c253b00dcbb>IC_DATA_CMD_RESTART_Field</h4><pre class=ada-code-snippet><code>type IC_DATA_CMD_RESTART_Field is
    DISABLE,
    ENABLE)
   with Size => 1;
@@ -245,10 +212,8 @@ end record
    RDMAE         : IC_DMA_CR_RDMAE_Field := RP2040_SVD.I2C.DISABLED;
    TDMAE         : IC_DMA_CR_TDMAE_Field := RP2040_SVD.I2C.DISABLED;
    Reserved_2_31 : HAL.UInt30 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>RDMAE<dd><dt>TDMAE<dd><dt>Reserved_2_31<dd></dl><h4 id=77662c32c09206fa4319d8d09f444759ca4fca7f6da36c8e657812cb35c1ebca>IC_DMA_CR_TDMAE_Field</h4><pre class=ada-code-snippet><code>type IC_DMA_CR_TDMAE_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>RDMAE<dd><p>Transmit DMA Enable. This bit enables/disables the transmit FIFO DMA channel. Reset value: 0x0<dt>TDMAE<dd><p>unspecified<dt>Reserved_2_31<dd></dl><h4 id=77662c32c09206fa4319d8d09f444759ca4fca7f6da36c8e657812cb35c1ebca>IC_DMA_CR_TDMAE_Field</h4><pre class=ada-code-snippet><code>type IC_DMA_CR_TDMAE_Field is
    DISABLED,
    ENABLED)
   with Size => 1;
@@ -256,17 +221,13 @@ end record
 </code></pre><h4 id=f130df31b8c2ba0b1d129ef4e0dc2ec3b4bd8d8fc6d11232df9030b111cc0024>IC_DMA_RDLR_Register</h4><pre class=ada-code-snippet><code>type IC_DMA_RDLR_Register is record
    DMARDL        : IC_DMA_RDLR_DMARDL_Field := 16#0#;
    Reserved_4_31 : HAL.UInt28 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>DMARDL<dd><dt>Reserved_4_31<dd></dl><h4 id=dd7008b610cab62a0d8b374ba472a54f7f7c07145ab9c065a1aee084d7d0acd7>IC_DMA_TDLR_DMATDL_Field</h4><pre class=ada-code-snippet><code>subtype IC_DMA_TDLR_DMATDL_Field is HAL.UInt4;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>DMARDL<dd><p>unspecified<dt>Reserved_4_31<dd></dl><h4 id=dd7008b610cab62a0d8b374ba472a54f7f7c07145ab9c065a1aee084d7d0acd7>IC_DMA_TDLR_DMATDL_Field</h4><pre class=ada-code-snippet><code>subtype IC_DMA_TDLR_DMATDL_Field is HAL.UInt4;
 </code></pre><h4 id=42fd32e333b2ad1f1ee6e01e78c2d28643b179aa8d8db611c06395107149cce6>IC_DMA_TDLR_Register</h4><pre class=ada-code-snippet><code>type IC_DMA_TDLR_Register is record
    DMATDL        : IC_DMA_TDLR_DMATDL_Field := 16#0#;
    Reserved_4_31 : HAL.UInt28 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>DMATDL<dd><dt>Reserved_4_31<dd></dl><h4 id=7f4159a60e4b887970aea186689ffa0fad1436d664efa3eac56ecaf2b73d574c>IC_ENABLE_ABORT_Field</h4><pre class=ada-code-snippet><code>type IC_ENABLE_ABORT_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>DMATDL<dd><p>unspecified<dt>Reserved_4_31<dd></dl><h4 id=7f4159a60e4b887970aea186689ffa0fad1436d664efa3eac56ecaf2b73d574c>IC_ENABLE_ABORT_Field</h4><pre class=ada-code-snippet><code>type IC_ENABLE_ABORT_Field is
    DISABLE,
    ENABLED)
   with Size => 1;
@@ -280,10 +241,8 @@ end record
    TX_CMD_BLOCK  : IC_ENABLE_TX_CMD_BLOCK_Field :=
                     RP2040_SVD.I2C.NOT_BLOCKED;
    Reserved_3_31 : HAL.UInt29 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>ENABLE<dd><dt>ABORT_k<dd><dt>TX_CMD_BLOCK<dd><dt>Reserved_3_31<dd></dl><h4 id=8a6aa4c8f546a10ee17f6778add85645254ff5c47db8768264ae525ab951c0fe>IC_ENABLE_STATUS_IC_EN_Field</h4><pre class=ada-code-snippet><code>type IC_ENABLE_STATUS_IC_EN_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>ENABLE<dd><p>When set, the controller initiates the transfer abort. - 0: ABORT not initiated or ABORT done - 1: ABORT operation in progress The software can abort the I2C transfer in master mode by setting this bit. The software can set this bit only when ENABLE is already set; otherwise, the controller ignores any write to ABORT bit. The software cannot clear the ABORT bit once set. In response to an ABORT, the controller issues a STOP and flushes the Tx FIFO after completing the current transfer, then sets the TX_ABORT interrupt after the abort operation. The ABORT bit is cleared automatically after the abort operation.\n\n For a detailed description on how to abort I2C transfers, refer to 'Aborting I2C Transfers'.\n\n Reset value: 0x0<dt>ABORT_k<dd><p>In Master mode: - 1'b1: Blocks the transmission of data on I2C bus even if Tx FIFO has data to transmit. - 1'b0: The transmission of data starts on I2C bus automatically, as soon as the first data is available in the Tx FIFO. Note: To block the execution of Master commands, set the TX_CMD_BLOCK bit only when Tx FIFO is empty (IC_STATUS[2]==1) and Master is in Idle state (IC_STATUS[5] == 0). Any further commands put in the Tx FIFO are not executed until TX_CMD_BLOCK bit is unset. Reset value: IC_TX_CMD_BLOCK_DEFAULT<dt>TX_CMD_BLOCK<dd><p>unspecified<dt>Reserved_3_31<dd></dl><h4 id=8a6aa4c8f546a10ee17f6778add85645254ff5c47db8768264ae525ab951c0fe>IC_ENABLE_STATUS_IC_EN_Field</h4><pre class=ada-code-snippet><code>type IC_ENABLE_STATUS_IC_EN_Field is
    DISABLED,
    ENABLED)
   with Size => 1;
@@ -292,10 +251,8 @@ end record
    SLV_DISABLED_WHILE_BUSY : IC_ENABLE_STATUS_SLV_DISABLED_WHILE_BUSY_Field;
    SLV_RX_DATA_LOST        : IC_ENABLE_STATUS_SLV_RX_DATA_LOST_Field;
    Reserved_3_31           : HAL.UInt29;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>IC_EN<dd><dt>SLV_DISABLED_WHILE_BUSY<dd><dt>SLV_RX_DATA_LOST<dd><dt>Reserved_3_31<dd></dl><h4 id=f5e83b68db13ce19ae4bab80de5a7b8d7dbbd17dd7b42a188c87f76fa808d4f6>IC_ENABLE_STATUS_SLV_DISABLED_WHILE_BUSY_Field</h4><pre class=ada-code-snippet><code>type IC_ENABLE_STATUS_SLV_DISABLED_WHILE_BUSY_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>IC_EN<dd><p>Read-only. Slave Disabled While Busy (Transmit, Receive). This bit indicates if a potential or active Slave operation has been aborted due to the setting bit 0 of the IC_ENABLE register from 1 to 0. This bit is set when the CPU writes a 0 to the IC_ENABLE register while:\n\n (a) DW_apb_i2c is receiving the address byte of the Slave-Transmitter operation from a remote master;\n\n OR,\n\n (b) address and data bytes of the Slave-Receiver operation from a remote master.\n\n When read as 1, DW_apb_i2c is deemed to have forced a NACK during any part of an I2C transfer, irrespective of whether the I2C address matches the slave address set in DW_apb_i2c (IC_SAR register) OR if the transfer is completed before IC_ENABLE is set to 0 but has not taken effect.\n\n Note: If the remote I2C master terminates the transfer with a STOP condition before the DW_apb_i2c has a chance to NACK a transfer, and IC_ENABLE[0] has been set to 0, then this bit will also be set to 1.\n\n When read as 0, DW_apb_i2c is deemed to have been disabled when there is master activity, or when the I2C bus is idle.\n\n Note: The CPU can safely read this bit when IC_EN (bit 0) is read as 0.\n\n Reset value: 0x0<dt>SLV_DISABLED_WHILE_BUSY<dd><p>Read-only. Slave Received Data Lost. This bit indicates if a Slave-Receiver operation has been aborted with at least one data byte received from an I2C transfer due to the setting bit 0 of IC_ENABLE from 1 to 0. When read as 1, DW_apb_i2c is deemed to have been actively engaged in an aborted I2C transfer (with matching address) and the data phase of the I2C transfer has been entered, even though a data byte has been responded with a NACK.\n\n Note: If the remote I2C master terminates the transfer with a STOP condition before the DW_apb_i2c has a chance to NACK a transfer, and IC_ENABLE[0] has been set to 0, then this bit is also set to 1.\n\n When read as 0, DW_apb_i2c is deemed to have been disabled without being actively involved in the data phase of a Slave-Receiver transfer.\n\n Note: The CPU can safely read this bit when IC_EN (bit 0) is read as 0.\n\n Reset value: 0x0<dt>SLV_RX_DATA_LOST<dd><p>unspecified<dt>Reserved_3_31<dd></dl><h4 id=f5e83b68db13ce19ae4bab80de5a7b8d7dbbd17dd7b42a188c87f76fa808d4f6>IC_ENABLE_STATUS_SLV_DISABLED_WHILE_BUSY_Field</h4><pre class=ada-code-snippet><code>type IC_ENABLE_STATUS_SLV_DISABLED_WHILE_BUSY_Field is
    INACTIVE,
    ACTIVE)
   with Size => 1;
@@ -311,24 +268,18 @@ end record
 </code></pre><h4 id=114507d7f11875ea87e2a0cda57bba258708061534fdf83d8d179bbae2e09243>IC_FS_SCL_HCNT_Register</h4><pre class=ada-code-snippet><code>type IC_FS_SCL_HCNT_Register is record
    IC_FS_SCL_HCNT : IC_FS_SCL_HCNT_IC_FS_SCL_HCNT_Field := 16#6#;
    Reserved_16_31 : HAL.UInt16 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>IC_FS_SCL_HCNT<dd><dt>Reserved_16_31<dd></dl><h4 id=a3cc622b4ad2548bfe185d209e60b276d411d0f905fd092174cbfd35bbb2366b>IC_FS_SCL_LCNT_IC_FS_SCL_LCNT_Field</h4><pre class=ada-code-snippet><code>subtype IC_FS_SCL_LCNT_IC_FS_SCL_LCNT_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>IC_FS_SCL_HCNT<dd><p>unspecified<dt>Reserved_16_31<dd></dl><h4 id=a3cc622b4ad2548bfe185d209e60b276d411d0f905fd092174cbfd35bbb2366b>IC_FS_SCL_LCNT_IC_FS_SCL_LCNT_Field</h4><pre class=ada-code-snippet><code>subtype IC_FS_SCL_LCNT_IC_FS_SCL_LCNT_Field is HAL.UInt16;
 </code></pre><h4 id=25619f95b2b545f7c824207d8cae46c035f0567503beb69c59b13790e400ed03>IC_FS_SCL_LCNT_Register</h4><pre class=ada-code-snippet><code>type IC_FS_SCL_LCNT_Register is record
    IC_FS_SCL_LCNT : IC_FS_SCL_LCNT_IC_FS_SCL_LCNT_Field := 16#D#;
    Reserved_16_31 : HAL.UInt16 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>IC_FS_SCL_LCNT<dd><dt>Reserved_16_31<dd></dl><h4 id=bf87df9f060343614e70c974999d9e7a2b597e961b878110b07377b9f62881a7>IC_FS_SPKLEN_IC_FS_SPKLEN_Field</h4><pre class=ada-code-snippet><code>subtype IC_FS_SPKLEN_IC_FS_SPKLEN_Field is HAL.UInt8;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>IC_FS_SCL_LCNT<dd><p>unspecified<dt>Reserved_16_31<dd></dl><h4 id=bf87df9f060343614e70c974999d9e7a2b597e961b878110b07377b9f62881a7>IC_FS_SPKLEN_IC_FS_SPKLEN_Field</h4><pre class=ada-code-snippet><code>subtype IC_FS_SPKLEN_IC_FS_SPKLEN_Field is HAL.UInt8;
 </code></pre><h4 id=2e31cf9f853223e86411c69ddc66ae8f8d39bdd814f0f030e814c7dac02ef1b6>IC_FS_SPKLEN_Register</h4><pre class=ada-code-snippet><code>type IC_FS_SPKLEN_Register is record
    IC_FS_SPKLEN  : IC_FS_SPKLEN_IC_FS_SPKLEN_Field := 16#7#;
    Reserved_8_31 : HAL.UInt24 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>IC_FS_SPKLEN<dd><dt>Reserved_8_31<dd></dl><h4 id=76ea40aa4605f814ffb0eeabcefce9faa6cc8099c7c39446daf31db03b9ca899>IC_INTR_MASK_M_ACTIVITY_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_MASK_M_ACTIVITY_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>IC_FS_SPKLEN<dd><p>unspecified<dt>Reserved_8_31<dd></dl><h4 id=76ea40aa4605f814ffb0eeabcefce9faa6cc8099c7c39446daf31db03b9ca899>IC_INTR_MASK_M_ACTIVITY_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_MASK_M_ACTIVITY_Field is
    ENABLED,
    DISABLED)
   with Size => 1;
@@ -408,10 +359,8 @@ end record
    M_RESTART_DET  : IC_INTR_MASK_M_RESTART_DET_Field :=
                      RP2040_SVD.I2C.ENABLED;
    Reserved_13_31 : HAL.UInt19 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>M_RX_UNDER<dd><dt>M_RX_OVER<dd><dt>M_RX_FULL<dd><dt>M_TX_OVER<dd><dt>M_TX_EMPTY<dd><dt>M_RD_REQ<dd><dt>M_TX_ABRT<dd><dt>M_RX_DONE<dd><dt>M_ACTIVITY<dd><dt>M_STOP_DET<dd><dt>M_START_DET<dd><dt>M_GEN_CALL<dd><dt>M_RESTART_DET<dd><dt>Reserved_13_31<dd></dl><h4 id=64a391df15b82f895493261bb5c4eca4e35d5c30c2cff8e1f04518f5ac7825ec>IC_INTR_STAT_R_ACTIVITY_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_STAT_R_ACTIVITY_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>M_RX_UNDER<dd><p>This bit masks the R_RX_OVER interrupt in IC_INTR_STAT register.\n\n Reset value: 0x1<dt>M_RX_OVER<dd><p>This bit masks the R_RX_FULL interrupt in IC_INTR_STAT register.\n\n Reset value: 0x1<dt>M_RX_FULL<dd><p>This bit masks the R_TX_OVER interrupt in IC_INTR_STAT register.\n\n Reset value: 0x1<dt>M_TX_OVER<dd><p>This bit masks the R_TX_EMPTY interrupt in IC_INTR_STAT register.\n\n Reset value: 0x1<dt>M_TX_EMPTY<dd><p>This bit masks the R_RD_REQ interrupt in IC_INTR_STAT register.\n\n Reset value: 0x1<dt>M_RD_REQ<dd><p>This bit masks the R_TX_ABRT interrupt in IC_INTR_STAT register.\n\n Reset value: 0x1<dt>M_TX_ABRT<dd><p>This bit masks the R_RX_DONE interrupt in IC_INTR_STAT register.\n\n Reset value: 0x1<dt>M_RX_DONE<dd><p>This bit masks the R_ACTIVITY interrupt in IC_INTR_STAT register.\n\n Reset value: 0x0<dt>M_ACTIVITY<dd><p>This bit masks the R_STOP_DET interrupt in IC_INTR_STAT register.\n\n Reset value: 0x0<dt>M_STOP_DET<dd><p>This bit masks the R_START_DET interrupt in IC_INTR_STAT register.\n\n Reset value: 0x0<dt>M_START_DET<dd><p>This bit masks the R_GEN_CALL interrupt in IC_INTR_STAT register.\n\n Reset value: 0x1<dt>M_GEN_CALL<dd><p>This bit masks the R_RESTART_DET interrupt in IC_INTR_STAT register.\n\n Reset value: 0x0<dt>M_RESTART_DET<dd><p>unspecified<dt>Reserved_13_31<dd></dl><h4 id=64a391df15b82f895493261bb5c4eca4e35d5c30c2cff8e1f04518f5ac7825ec>IC_INTR_STAT_R_ACTIVITY_Field</h4><pre class=ada-code-snippet><code>type IC_INTR_STAT_R_ACTIVITY_Field is
    INACTIVE,
    ACTIVE)
   with Size => 1;
@@ -478,10 +427,8 @@ end record
    R_GEN_CALL     : IC_INTR_STAT_R_GEN_CALL_Field;
    R_RESTART_DET  : IC_INTR_STAT_R_RESTART_DET_Field;
    Reserved_13_31 : HAL.UInt19;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>R_RX_UNDER<dd><dt>R_RX_OVER<dd><dt>R_RX_FULL<dd><dt>R_TX_OVER<dd><dt>R_TX_EMPTY<dd><dt>R_RD_REQ<dd><dt>R_TX_ABRT<dd><dt>R_RX_DONE<dd><dt>R_ACTIVITY<dd><dt>R_STOP_DET<dd><dt>R_START_DET<dd><dt>R_GEN_CALL<dd><dt>R_RESTART_DET<dd><dt>Reserved_13_31<dd></dl><h4 id=cce42c273c8e6351ee31ce029e5fb3b0888ea1d36c0b5f0639928b7f2c17ec20>IC_RAW_INTR_STAT_ACTIVITY_Field</h4><pre class=ada-code-snippet><code>type IC_RAW_INTR_STAT_ACTIVITY_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>R_RX_UNDER<dd><p>Read-only. See IC_RAW_INTR_STAT for a detailed description of R_RX_OVER bit.\n\n Reset value: 0x0<dt>R_RX_OVER<dd><p>Read-only. See IC_RAW_INTR_STAT for a detailed description of R_RX_FULL bit.\n\n Reset value: 0x0<dt>R_RX_FULL<dd><p>Read-only. See IC_RAW_INTR_STAT for a detailed description of R_TX_OVER bit.\n\n Reset value: 0x0<dt>R_TX_OVER<dd><p>Read-only. See IC_RAW_INTR_STAT for a detailed description of R_TX_EMPTY bit.\n\n Reset value: 0x0<dt>R_TX_EMPTY<dd><p>Read-only. See IC_RAW_INTR_STAT for a detailed description of R_RD_REQ bit.\n\n Reset value: 0x0<dt>R_RD_REQ<dd><p>Read-only. See IC_RAW_INTR_STAT for a detailed description of R_TX_ABRT bit.\n\n Reset value: 0x0<dt>R_TX_ABRT<dd><p>Read-only. See IC_RAW_INTR_STAT for a detailed description of R_RX_DONE bit.\n\n Reset value: 0x0<dt>R_RX_DONE<dd><p>Read-only. See IC_RAW_INTR_STAT for a detailed description of R_ACTIVITY bit.\n\n Reset value: 0x0<dt>R_ACTIVITY<dd><p>Read-only. See IC_RAW_INTR_STAT for a detailed description of R_STOP_DET bit.\n\n Reset value: 0x0<dt>R_STOP_DET<dd><p>Read-only. See IC_RAW_INTR_STAT for a detailed description of R_START_DET bit.\n\n Reset value: 0x0<dt>R_START_DET<dd><p>Read-only. See IC_RAW_INTR_STAT for a detailed description of R_GEN_CALL bit.\n\n Reset value: 0x0<dt>R_GEN_CALL<dd><p>Read-only. See IC_RAW_INTR_STAT for a detailed description of R_RESTART_DET bit.\n\n Reset value: 0x0<dt>R_RESTART_DET<dd><p>unspecified<dt>Reserved_13_31<dd></dl><h4 id=cce42c273c8e6351ee31ce029e5fb3b0888ea1d36c0b5f0639928b7f2c17ec20>IC_RAW_INTR_STAT_ACTIVITY_Field</h4><pre class=ada-code-snippet><code>type IC_RAW_INTR_STAT_ACTIVITY_Field is
    INACTIVE,
    ACTIVE)
   with Size => 1;
@@ -508,10 +455,8 @@ end record
    GEN_CALL       : IC_RAW_INTR_STAT_GEN_CALL_Field;
    RESTART_DET    : IC_RAW_INTR_STAT_RESTART_DET_Field;
    Reserved_13_31 : HAL.UInt19;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>RX_UNDER<dd><dt>RX_OVER<dd><dt>RX_FULL<dd><dt>TX_OVER<dd><dt>TX_EMPTY<dd><dt>RD_REQ<dd><dt>TX_ABRT<dd><dt>RX_DONE<dd><dt>ACTIVITY<dd><dt>STOP_DET<dd><dt>START_DET<dd><dt>GEN_CALL<dd><dt>RESTART_DET<dd><dt>Reserved_13_31<dd></dl><h4 id=cdfb34e1983f4bfc3336809199c513b6977ac1eb67765ace867d1cb35031237f>IC_RAW_INTR_STAT_RESTART_DET_Field</h4><pre class=ada-code-snippet><code>type IC_RAW_INTR_STAT_RESTART_DET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>RX_UNDER<dd><p>Read-only. Set if the receive buffer is completely filled to IC_RX_BUFFER_DEPTH and an additional byte is received from an external I2C device. The DW_apb_i2c acknowledges this, but any data bytes received after the FIFO is full are lost. If the module is disabled (IC_ENABLE[0]=0), this bit keeps its level until the master or slave state machines go into idle, and when ic_en goes to 0, this interrupt is cleared.\n\n Note: If bit 9 of the IC_CON register (RX_FIFO_FULL_HLD_CTRL) is programmed to HIGH, then the RX_OVER interrupt never occurs, because the Rx FIFO never overflows.\n\n Reset value: 0x0<dt>RX_OVER<dd><p>Read-only. Set when the receive buffer reaches or goes above the RX_TL threshold in the IC_RX_TL register. It is automatically cleared by hardware when buffer level goes below the threshold. If the module is disabled (IC_ENABLE[0]=0), the RX FIFO is flushed and held in reset; therefore the RX FIFO is not full. So this bit is cleared once the IC_ENABLE bit 0 is programmed with a 0, regardless of the activity that continues.\n\n Reset value: 0x0<dt>RX_FULL<dd><p>Read-only. Set during transmit if the transmit buffer is filled to IC_TX_BUFFER_DEPTH and the processor attempts to issue another I2C command by writing to the IC_DATA_CMD register. When the module is disabled, this bit keeps its level until the master or slave state machines go into idle, and when ic_en goes to 0, this interrupt is cleared.\n\n Reset value: 0x0<dt>TX_OVER<dd><p>Read-only. The behavior of the TX_EMPTY interrupt status differs based on the TX_EMPTY_CTRL selection in the IC_CON register. - When TX_EMPTY_CTRL = 0: This bit is set to 1 when the transmit buffer is at or below the threshold value set in the IC_TX_TL register. - When TX_EMPTY_CTRL = 1: This bit is set to 1 when the transmit buffer is at or below the threshold value set in the IC_TX_TL register and the transmission of the address/data from the internal shift register for the most recently popped command is completed. It is automatically cleared by hardware when the buffer level goes above the threshold. When IC_ENABLE[0] is set to 0, the TX FIFO is flushed and held in reset. There the TX FIFO looks like it has no data within it, so this bit is set to 1, provided there is activity in the master or slave state machines. When there is no longer any activity, then with ic_en=0, this bit is set to 0.\n\n Reset value: 0x0.<dt>TX_EMPTY<dd><p>Read-only. This bit is set to 1 when DW_apb_i2c is acting as a slave and another I2C master is attempting to read data from DW_apb_i2c. The DW_apb_i2c holds the I2C bus in a wait state (SCL=0) until this interrupt is serviced, which means that the slave has been addressed by a remote master that is asking for data to be transferred. The processor must respond to this interrupt and then write the requested data to the IC_DATA_CMD register. This bit is set to 0 just after the processor reads the IC_CLR_RD_REQ register.\n\n Reset value: 0x0<dt>RD_REQ<dd><p>Read-only. This bit indicates if DW_apb_i2c, as an I2C transmitter, is unable to complete the intended actions on the contents of the transmit FIFO. This situation can occur both as an I2C master or an I2C slave, and is referred to as a 'transmit abort'. When this bit is set to 1, the IC_TX_ABRT_SOURCE register indicates the reason why the transmit abort takes places.\n\n Note: The DW_apb_i2c flushes/resets/empties the TX_FIFO and RX_FIFO whenever there is a transmit abort caused by any of the events tracked by the IC_TX_ABRT_SOURCE register. The FIFOs remains in this flushed state until the register IC_CLR_TX_ABRT is read. Once this read is performed, the Tx FIFO is then ready to accept more data bytes from the APB interface.\n\n Reset value: 0x0<dt>TX_ABRT<dd><p>Read-only. When the DW_apb_i2c is acting as a slave-transmitter, this bit is set to 1 if the master does not acknowledge a transmitted byte. This occurs on the last byte of the transmission, indicating that the transmission is done.\n\n Reset value: 0x0<dt>RX_DONE<dd><p>Read-only. This bit captures DW_apb_i2c activity and stays set until it is cleared. There are four ways to clear it: - Disabling the DW_apb_i2c - Reading the IC_CLR_ACTIVITY register - Reading the IC_CLR_INTR register - System reset Once this bit is set, it stays set unless one of the four methods is used to clear it. Even if the DW_apb_i2c module is idle, this bit remains set until cleared, indicating that there was activity on the bus.\n\n Reset value: 0x0<dt>ACTIVITY<dd><p>Read-only. Indicates whether a STOP condition has occurred on the I2C interface regardless of whether DW_apb_i2c is operating in slave or master mode.\n\n In Slave Mode: - If IC_CON[7]=1'b1 (STOP_DET_IFADDRESSED), the STOP_DET interrupt will be issued only if slave is addressed. Note: During a general call address, this slave does not issue a STOP_DET interrupt if STOP_DET_IF_ADDRESSED=1'b1, even if the slave responds to the general call address by generating ACK. The STOP_DET interrupt is generated only when the transmitted address matches the slave address (SAR). - If IC_CON[7]=1'b0 (STOP_DET_IFADDRESSED), the STOP_DET interrupt is issued irrespective of whether it is being addressed. In Master Mode: - If IC_CON[10]=1'b1 (STOP_DET_IF_MASTER_ACTIVE),the STOP_DET interrupt will be issued only if Master is active. - If IC_CON[10]=1'b0 (STOP_DET_IFADDRESSED),the STOP_DET interrupt will be issued irrespective of whether master is active or not. Reset value: 0x0<dt>STOP_DET<dd><p>Read-only. Indicates whether a START or RESTART condition has occurred on the I2C interface regardless of whether DW_apb_i2c is operating in slave or master mode.\n\n Reset value: 0x0<dt>START_DET<dd><p>Read-only. Set only when a General Call address is received and it is acknowledged. It stays set until it is cleared either by disabling DW_apb_i2c or when the CPU reads bit 0 of the IC_CLR_GEN_CALL register. DW_apb_i2c stores the received data in the Rx buffer.\n\n Reset value: 0x0<dt>GEN_CALL<dd><p>Read-only. Indicates whether a RESTART condition has occurred on the I2C interface when DW_apb_i2c is operating in Slave mode and the slave is being addressed. Enabled only when IC_SLV_RESTART_DET_EN=1.\n\n Note: However, in high-speed mode or during a START BYTE transfer, the RESTART comes before the address field as per the I2C protocol. In this case, the slave is not the addressed slave when the RESTART is issued, therefore DW_apb_i2c does not generate the RESTART_DET interrupt.\n\n Reset value: 0x0<dt>RESTART_DET<dd><p>unspecified<dt>Reserved_13_31<dd></dl><h4 id=cdfb34e1983f4bfc3336809199c513b6977ac1eb67765ace867d1cb35031237f>IC_RAW_INTR_STAT_RESTART_DET_Field</h4><pre class=ada-code-snippet><code>type IC_RAW_INTR_STAT_RESTART_DET_Field is
    INACTIVE,
    ACTIVE)
   with Size => 1;
@@ -554,40 +499,30 @@ end record
 </code></pre><h5>Enumeration Literal</h5><dl><dt>INACTIVE<dd><p>TX_OVER interrupt is active<dt>ACTIVE<dd></dl><h4 id=82194a6640681671c8fe536909de0ba3599d26ca409a90d5998de1bdd5504607>IC_RX_TL_Register</h4><pre class=ada-code-snippet><code>type IC_RX_TL_Register is record
    RX_TL         : IC_RX_TL_RX_TL_Field := 16#0#;
    Reserved_8_31 : HAL.UInt24 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>RX_TL<dd><dt>Reserved_8_31<dd></dl><h4 id=7ed33f203a6e4dfe52bd36f327fdc32a904e3ea9e843ce662d1915ddd880710b>IC_RX_TL_RX_TL_Field</h4><pre class=ada-code-snippet><code>subtype IC_RX_TL_RX_TL_Field is HAL.UInt8;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>RX_TL<dd><p>unspecified<dt>Reserved_8_31<dd></dl><h4 id=7ed33f203a6e4dfe52bd36f327fdc32a904e3ea9e843ce662d1915ddd880710b>IC_RX_TL_RX_TL_Field</h4><pre class=ada-code-snippet><code>subtype IC_RX_TL_RX_TL_Field is HAL.UInt8;
 </code></pre><h4 id=db3d21eca55bc1a066e24f611f8324925d3b5cfac87edfc1066a5dab02791cca>IC_RXFLR_Register</h4><pre class=ada-code-snippet><code>type IC_RXFLR_Register is record
    RXFLR         : IC_RXFLR_RXFLR_Field;
    Reserved_5_31 : HAL.UInt27;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>RXFLR<dd><dt>Reserved_5_31<dd></dl><h4 id=e8a0e301d000896dae030cc9a51f997dfef59994a827e04cec0303a827195860>IC_RXFLR_RXFLR_Field</h4><pre class=ada-code-snippet><code>subtype IC_RXFLR_RXFLR_Field is HAL.UInt5;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>RXFLR<dd><p>unspecified<dt>Reserved_5_31<dd></dl><h4 id=e8a0e301d000896dae030cc9a51f997dfef59994a827e04cec0303a827195860>IC_RXFLR_RXFLR_Field</h4><pre class=ada-code-snippet><code>subtype IC_RXFLR_RXFLR_Field is HAL.UInt5;
 </code></pre><h4 id=a3cd5b04fb1c13e0d984754c1111d05e30711d399dd9bc63944cf65d3e481b7b>IC_SAR_IC_SAR_Field</h4><pre class=ada-code-snippet><code>subtype IC_SAR_IC_SAR_Field is HAL.UInt10;
 </code></pre><h4 id=c0dd06a0a3cf07e2e520fdf2de28167c51e6ec64c8aa2d9d53d4c928ff160db1>IC_SAR_Register</h4><pre class=ada-code-snippet><code>type IC_SAR_Register is record
    IC_SAR         : IC_SAR_IC_SAR_Field := 16#55#;
    Reserved_10_31 : HAL.UInt22 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>IC_SAR<dd><dt>Reserved_10_31<dd></dl><h4 id=1ea30d4554f6dc19fba78c34932065d61e251794958f0d447a1c44ece4e928e4>IC_SDA_HOLD_IC_SDA_RX_HOLD_Field</h4><pre class=ada-code-snippet><code>subtype IC_SDA_HOLD_IC_SDA_RX_HOLD_Field is HAL.UInt8;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>IC_SAR<dd><p>unspecified<dt>Reserved_10_31<dd></dl><h4 id=1ea30d4554f6dc19fba78c34932065d61e251794958f0d447a1c44ece4e928e4>IC_SDA_HOLD_IC_SDA_RX_HOLD_Field</h4><pre class=ada-code-snippet><code>subtype IC_SDA_HOLD_IC_SDA_RX_HOLD_Field is HAL.UInt8;
 </code></pre><h4 id=f4ce4441dd44a1df53d5310225bd80f1d5831845ea3fe4a571489345e2fe15be>IC_SDA_HOLD_IC_SDA_TX_HOLD_Field</h4><pre class=ada-code-snippet><code>subtype IC_SDA_HOLD_IC_SDA_TX_HOLD_Field is HAL.UInt16;
 </code></pre><h4 id=c12c8ba450abab0a9476ae960020eed660e75ed765b97ad777a7c695d4b82f68>IC_SDA_HOLD_Register</h4><pre class=ada-code-snippet><code>type IC_SDA_HOLD_Register is record
    IC_SDA_TX_HOLD : IC_SDA_HOLD_IC_SDA_TX_HOLD_Field := 16#1#;
    IC_SDA_RX_HOLD : IC_SDA_HOLD_IC_SDA_RX_HOLD_Field := 16#0#;
    Reserved_24_31 : HAL.UInt8 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>IC_SDA_TX_HOLD<dd><dt>IC_SDA_RX_HOLD<dd><dt>Reserved_24_31<dd></dl><h4 id=23dd904e184f5ffbefe53d6223dcd17c9e416596522b812da5f1b58915790bb6>IC_SDA_SETUP_Register</h4><pre class=ada-code-snippet><code>type IC_SDA_SETUP_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>IC_SDA_TX_HOLD<dd><p>Sets the required SDA hold time in units of ic_clk period, when DW_apb_i2c acts as a receiver.\n\n Reset value: IC_DEFAULT_SDA_HOLD[23:16].<dt>IC_SDA_RX_HOLD<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=23dd904e184f5ffbefe53d6223dcd17c9e416596522b812da5f1b58915790bb6>IC_SDA_SETUP_Register</h4><pre class=ada-code-snippet><code>type IC_SDA_SETUP_Register is record
    SDA_SETUP     : IC_SDA_SETUP_SDA_SETUP_Field := 16#64#;
    Reserved_8_31 : HAL.UInt24 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>SDA_SETUP<dd><dt>Reserved_8_31<dd></dl><h4 id=6dea31591629d9d3445b39fe1331072115da8e9809bcb171e5c59d28535cc0c4>IC_SDA_SETUP_SDA_SETUP_Field</h4><pre class=ada-code-snippet><code>subtype IC_SDA_SETUP_SDA_SETUP_Field is HAL.UInt8;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>SDA_SETUP<dd><p>unspecified<dt>Reserved_8_31<dd></dl><h4 id=6dea31591629d9d3445b39fe1331072115da8e9809bcb171e5c59d28535cc0c4>IC_SDA_SETUP_SDA_SETUP_Field</h4><pre class=ada-code-snippet><code>subtype IC_SDA_SETUP_SDA_SETUP_Field is HAL.UInt8;
 </code></pre><h4 id=7752b2b79633ba359a119c406edb96999015aa4e9a2a9e0186152477c2481e2b>IC_SLV_DATA_NACK_ONLY_NACK_Field</h4><pre class=ada-code-snippet><code>type IC_SLV_DATA_NACK_ONLY_NACK_Field is
    DISABLED,
    ENABLED)
@@ -596,24 +531,18 @@ end record
    NACK          : IC_SLV_DATA_NACK_ONLY_NACK_Field :=
                     RP2040_SVD.I2C.DISABLED;
    Reserved_1_31 : HAL.UInt31 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>NACK<dd><dt>Reserved_1_31<dd></dl><h4 id=e2d5ef7cbd7f6f1aa43f8d96b13311cb7afb90c449013e122dd27fbd21ccf0d2>IC_SS_SCL_HCNT_IC_SS_SCL_HCNT_Field</h4><pre class=ada-code-snippet><code>subtype IC_SS_SCL_HCNT_IC_SS_SCL_HCNT_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>NACK<dd><p>unspecified<dt>Reserved_1_31<dd></dl><h4 id=e2d5ef7cbd7f6f1aa43f8d96b13311cb7afb90c449013e122dd27fbd21ccf0d2>IC_SS_SCL_HCNT_IC_SS_SCL_HCNT_Field</h4><pre class=ada-code-snippet><code>subtype IC_SS_SCL_HCNT_IC_SS_SCL_HCNT_Field is HAL.UInt16;
 </code></pre><h4 id=427b46b6223202648cbd02d2f2ff841ca518a105e50cd1223af933da71034fa8>IC_SS_SCL_HCNT_Register</h4><pre class=ada-code-snippet><code>type IC_SS_SCL_HCNT_Register is record
    IC_SS_SCL_HCNT : IC_SS_SCL_HCNT_IC_SS_SCL_HCNT_Field := 16#28#;
    Reserved_16_31 : HAL.UInt16 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>IC_SS_SCL_HCNT<dd><dt>Reserved_16_31<dd></dl><h4 id=1a39cafb39df0896b54429e6dbae3e4d98e78a94a31e357c84142e398c6b5499>IC_SS_SCL_LCNT_IC_SS_SCL_LCNT_Field</h4><pre class=ada-code-snippet><code>subtype IC_SS_SCL_LCNT_IC_SS_SCL_LCNT_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>IC_SS_SCL_HCNT<dd><p>unspecified<dt>Reserved_16_31<dd></dl><h4 id=1a39cafb39df0896b54429e6dbae3e4d98e78a94a31e357c84142e398c6b5499>IC_SS_SCL_LCNT_IC_SS_SCL_LCNT_Field</h4><pre class=ada-code-snippet><code>subtype IC_SS_SCL_LCNT_IC_SS_SCL_LCNT_Field is HAL.UInt16;
 </code></pre><h4 id=5b32f7a93d3ae48f33727b97c0bcdfeb79bdb71e61c266564dea14c9c1c973c9>IC_SS_SCL_LCNT_Register</h4><pre class=ada-code-snippet><code>type IC_SS_SCL_LCNT_Register is record
    IC_SS_SCL_LCNT : IC_SS_SCL_LCNT_IC_SS_SCL_LCNT_Field := 16#2F#;
    Reserved_16_31 : HAL.UInt16 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>IC_SS_SCL_LCNT<dd><dt>Reserved_16_31<dd></dl><h4 id=4bdd0f39c3faea147f6c1b73a82197626bcb9e67aed069a000488a616a732345>IC_STATUS_ACTIVITY_Field</h4><pre class=ada-code-snippet><code>type IC_STATUS_ACTIVITY_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>IC_SS_SCL_LCNT<dd><p>unspecified<dt>Reserved_16_31<dd></dl><h4 id=4bdd0f39c3faea147f6c1b73a82197626bcb9e67aed069a000488a616a732345>IC_STATUS_ACTIVITY_Field</h4><pre class=ada-code-snippet><code>type IC_STATUS_ACTIVITY_Field is
    INACTIVE,
    ACTIVE)
   with Size => 1;
@@ -630,10 +559,8 @@ end record
    MST_ACTIVITY  : IC_STATUS_MST_ACTIVITY_Field;
    SLV_ACTIVITY  : IC_STATUS_SLV_ACTIVITY_Field;
    Reserved_7_31 : HAL.UInt25;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>ACTIVITY<dd><dt>TFNF<dd><dt>TFE<dd><dt>RFNE<dd><dt>RFF<dd><dt>MST_ACTIVITY<dd><dt>SLV_ACTIVITY<dd><dt>Reserved_7_31<dd></dl><h4 id=245fbc8100d1f8e3d199880ebd9119cdf190e05eaa892d4cf67cac2565f1cc79>IC_STATUS_RFF_Field</h4><pre class=ada-code-snippet><code>type IC_STATUS_RFF_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>ACTIVITY<dd><p>Read-only. Transmit FIFO Not Full. Set when the transmit FIFO contains one or more empty locations, and is cleared when the FIFO is full. - 0: Transmit FIFO is full - 1: Transmit FIFO is not full Reset value: 0x1<dt>TFNF<dd><p>Read-only. Transmit FIFO Completely Empty. When the transmit FIFO is completely empty, this bit is set. When it contains one or more valid entries, this bit is cleared. This bit field does not request an interrupt. - 0: Transmit FIFO is not empty - 1: Transmit FIFO is empty Reset value: 0x1<dt>TFE<dd><p>Read-only. Receive FIFO Not Empty. This bit is set when the receive FIFO contains one or more entries; it is cleared when the receive FIFO is empty. - 0: Receive FIFO is empty - 1: Receive FIFO is not empty Reset value: 0x0<dt>RFNE<dd><p>Read-only. Receive FIFO Completely Full. When the receive FIFO is completely full, this bit is set. When the receive FIFO contains one or more empty location, this bit is cleared. - 0: Receive FIFO is not full - 1: Receive FIFO is full Reset value: 0x0<dt>RFF<dd><p>Read-only. Master FSM Activity Status. When the Master Finite State Machine (FSM) is not in the IDLE state, this bit is set. - 0: Master FSM is in IDLE state so the Master part of DW_apb_i2c is not Active - 1: Master FSM is not in IDLE state so the Master part of DW_apb_i2c is Active Note: IC_STATUS[0]-that is, ACTIVITY bit-is the OR of SLV_ACTIVITY and MST_ACTIVITY bits.\n\n Reset value: 0x0<dt>MST_ACTIVITY<dd><p>Read-only. Slave FSM Activity Status. When the Slave Finite State Machine (FSM) is not in the IDLE state, this bit is set. - 0: Slave FSM is in IDLE state so the Slave part of DW_apb_i2c is not Active - 1: Slave FSM is not in IDLE state so the Slave part of DW_apb_i2c is Active Reset value: 0x0<dt>SLV_ACTIVITY<dd><p>unspecified<dt>Reserved_7_31<dd></dl><h4 id=245fbc8100d1f8e3d199880ebd9119cdf190e05eaa892d4cf67cac2565f1cc79>IC_STATUS_RFF_Field</h4><pre class=ada-code-snippet><code>type IC_STATUS_RFF_Field is
    NOT_FULL,
    FULL)
   with Size => 1;
@@ -664,10 +591,8 @@ end record
                      RP2040_SVD.I2C.GENERAL_CALL;
    SPECIAL        : IC_TAR_SPECIAL_Field := RP2040_SVD.I2C.DISABLED;
    Reserved_12_31 : HAL.UInt20 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>IC_TAR<dd><dt>GC_OR_START<dd><dt>SPECIAL<dd><dt>Reserved_12_31<dd></dl><h4 id=2e7d73939b425f15e0e94a3ea9a23ea02fbb337ecb464cb0285b174d64457ca2>IC_TAR_SPECIAL_Field</h4><pre class=ada-code-snippet><code>type IC_TAR_SPECIAL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>IC_TAR<dd><p>If bit 11 (SPECIAL) is set to 1 and bit 13(Device-ID) is set to 0, then this bit indicates whether a General Call or START byte command is to be performed by the DW_apb_i2c. - 0: General Call Address - after issuing a General Call, only writes may be performed. Attempting to issue a read command results in setting bit 6 (TX_ABRT) of the IC_RAW_INTR_STAT register. The DW_apb_i2c remains in General Call mode until the SPECIAL bit value (bit 11) is cleared. - 1: START BYTE Reset value: 0x0<dt>GC_OR_START<dd><p>This bit indicates whether software performs a Device-ID or General Call or START BYTE command. - 0: ignore bit 10 GC_OR_START and use IC_TAR normally - 1: perform special I2C command as specified in Device_ID or GC_OR_START bit Reset value: 0x0<dt>SPECIAL<dd><p>unspecified<dt>Reserved_12_31<dd></dl><h4 id=2e7d73939b425f15e0e94a3ea9a23ea02fbb337ecb464cb0285b174d64457ca2>IC_TAR_SPECIAL_Field</h4><pre class=ada-code-snippet><code>type IC_TAR_SPECIAL_Field is
    DISABLED,
    ENABLED)
   with Size => 1;
@@ -759,22 +684,16 @@ end record
    ABRT_USER_ABRT       : IC_TX_ABRT_SOURCE_ABRT_USER_ABRT_Field;
    Reserved_17_22       : HAL.UInt6;
    TX_FLUSH_CNT         : IC_TX_ABRT_SOURCE_TX_FLUSH_CNT_Field;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>ABRT_7B_ADDR_NOACK<dd><dt>ABRT_10ADDR1_NOACK<dd><dt>ABRT_10ADDR2_NOACK<dd><dt>ABRT_TXDATA_NOACK<dd><dt>ABRT_GCALL_NOACK<dd><dt>ABRT_GCALL_READ<dd><dt>ABRT_HS_ACKDET<dd><dt>ABRT_SBYTE_ACKDET<dd><dt>ABRT_HS_NORSTRT<dd><dt>ABRT_SBYTE_NORSTRT<dd><dt>ABRT_10B_RD_NORSTRT<dd><dt>ABRT_MASTER_DIS<dd><dt>ARB_LOST<dd><dt>ABRT_SLVFLUSH_TXFIFO<dd><dt>ABRT_SLV_ARBLOST<dd><dt>ABRT_SLVRD_INTX<dd><dt>ABRT_USER_ABRT<dd><dt>Reserved_17_22<dd><dt>TX_FLUSH_CNT<dd></dl><h4 id=36a01896011f5e55d0031046b2373c676328aefbe545ece3e4935aabb7fcec10>IC_TX_ABRT_SOURCE_TX_FLUSH_CNT_Field</h4><pre class=ada-code-snippet><code>subtype IC_TX_ABRT_SOURCE_TX_FLUSH_CNT_Field is HAL.UInt9;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>ABRT_7B_ADDR_NOACK<dd><p>Read-only. This field indicates that the Master is in 10-bit address mode and the first 10-bit address byte was not acknowledged by any slave.\n\n Reset value: 0x0\n\n Role of DW_apb_i2c: Master-Transmitter or Master-Receiver<dt>ABRT_10ADDR1_NOACK<dd><p>Read-only. This field indicates that the Master is in 10-bit address mode and that the second address byte of the 10-bit address was not acknowledged by any slave.\n\n Reset value: 0x0\n\n Role of DW_apb_i2c: Master-Transmitter or Master-Receiver<dt>ABRT_10ADDR2_NOACK<dd><p>Read-only. This field indicates the master-mode only bit. When the master receives an acknowledgement for the address, but when it sends data byte(s) following the address, it did not receive an acknowledge from the remote slave(s).\n\n Reset value: 0x0\n\n Role of DW_apb_i2c: Master-Transmitter<dt>ABRT_TXDATA_NOACK<dd><p>Read-only. This field indicates that DW_apb_i2c in master mode has sent a General Call and no slave on the bus acknowledged the General Call.\n\n Reset value: 0x0\n\n Role of DW_apb_i2c: Master-Transmitter<dt>ABRT_GCALL_NOACK<dd><p>Read-only. This field indicates that DW_apb_i2c in the master mode has sent a General Call but the user programmed the byte following the General Call to be a read from the bus (IC_DATA_CMD[9] is set to 1).\n\n Reset value: 0x0\n\n Role of DW_apb_i2c: Master-Transmitter<dt>ABRT_GCALL_READ<dd><p>Read-only. This field indicates that the Master is in High Speed mode and the High Speed Master code was acknowledged (wrong behavior).\n\n Reset value: 0x0\n\n Role of DW_apb_i2c: Master<dt>ABRT_HS_ACKDET<dd><p>Read-only. This field indicates that the Master has sent a START Byte and the START Byte was acknowledged (wrong behavior).\n\n Reset value: 0x0\n\n Role of DW_apb_i2c: Master<dt>ABRT_SBYTE_ACKDET<dd><p>Read-only. This field indicates that the restart is disabled (IC_RESTART_EN bit (IC_CON[5]) =0) and the user is trying to use the master to transfer data in High Speed mode.\n\n Reset value: 0x0\n\n Role of DW_apb_i2c: Master-Transmitter or Master-Receiver<dt>ABRT_HS_NORSTRT<dd><p>Read-only. To clear Bit 9, the source of the ABRT_SBYTE_NORSTRT must be fixed first; restart must be enabled (IC_CON[5]=1), the SPECIAL bit must be cleared (IC_TAR[11]), or the GC_OR_START bit must be cleared (IC_TAR[10]). Once the source of the ABRT_SBYTE_NORSTRT is fixed, then this bit can be cleared in the same manner as other bits in this register. If the source of the ABRT_SBYTE_NORSTRT is not fixed before attempting to clear this bit, bit 9 clears for one cycle and then gets reasserted. When this field is set to 1, the restart is disabled (IC_RESTART_EN bit (IC_CON[5]) =0) and the user is trying to send a START Byte.\n\n Reset value: 0x0\n\n Role of DW_apb_i2c: Master<dt>ABRT_SBYTE_NORSTRT<dd><p>Read-only. This field indicates that the restart is disabled (IC_RESTART_EN bit (IC_CON[5]) =0) and the master sends a read command in 10-bit addressing mode.\n\n Reset value: 0x0\n\n Role of DW_apb_i2c: Master-Receiver<dt>ABRT_10B_RD_NORSTRT<dd><p>Read-only. This field indicates that the User tries to initiate a Master operation with the Master mode disabled.\n\n Reset value: 0x0\n\n Role of DW_apb_i2c: Master-Transmitter or Master-Receiver<dt>ABRT_MASTER_DIS<dd><p>Read-only. This field specifies that the Master has lost arbitration, or if IC_TX_ABRT_SOURCE[14] is also set, then the slave transmitter has lost arbitration.\n\n Reset value: 0x0\n\n Role of DW_apb_i2c: Master-Transmitter or Slave-Transmitter<dt>ARB_LOST<dd><p>Read-only. This field specifies that the Slave has received a read command and some data exists in the TX FIFO, so the slave issues a TX_ABRT interrupt to flush old data in TX FIFO.\n\n Reset value: 0x0\n\n Role of DW_apb_i2c: Slave-Transmitter<dt>ABRT_SLVFLUSH_TXFIFO<dd><p>Read-only. This field indicates that a Slave has lost the bus while transmitting data to a remote master. IC_TX_ABRT_SOURCE[12] is set at the same time. Note: Even though the slave never 'owns' the bus, something could go wrong on the bus. This is a fail safe check. For instance, during a data transmission at the low-to-high transition of SCL, if what is on the data bus is not what is supposed to be transmitted, then DW_apb_i2c no longer own the bus.\n\n Reset value: 0x0\n\n Role of DW_apb_i2c: Slave-Transmitter<dt>ABRT_SLV_ARBLOST<dd><p>Read-only. 1: When the processor side responds to a slave mode request for data to be transmitted to a remote master and user writes a 1 in CMD (bit 8) of IC_DATA_CMD register.\n\n Reset value: 0x0\n\n Role of DW_apb_i2c: Slave-Transmitter<dt>ABRT_SLVRD_INTX<dd><p>Read-only. This is a master-mode-only bit. Master has detected the transfer abort (IC_ENABLE[1])\n\n Reset value: 0x0\n\n Role of DW_apb_i2c: Master-Transmitter<dt>ABRT_USER_ABRT<dd><p>unspecified<dt>Reserved_17_22<dd><p>Read-only. This field indicates the number of Tx FIFO Data Commands which are flushed due to TX_ABRT interrupt. It is cleared whenever I2C is disabled.\n\n Reset value: 0x0\n\n Role of DW_apb_i2c: Master-Transmitter or Slave-Transmitter<dt>TX_FLUSH_CNT<dd></dl><h4 id=36a01896011f5e55d0031046b2373c676328aefbe545ece3e4935aabb7fcec10>IC_TX_ABRT_SOURCE_TX_FLUSH_CNT_Field</h4><pre class=ada-code-snippet><code>subtype IC_TX_ABRT_SOURCE_TX_FLUSH_CNT_Field is HAL.UInt9;
 </code></pre><h4 id=43d8409a4445cf94623fb9e9515dbc17c67c1976a0eadc8e5c824066b59a3ef3>IC_TX_TL_Register</h4><pre class=ada-code-snippet><code>type IC_TX_TL_Register is record
    TX_TL         : IC_TX_TL_TX_TL_Field := 16#0#;
    Reserved_8_31 : HAL.UInt24 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>TX_TL<dd><dt>Reserved_8_31<dd></dl><h4 id=a0278f6145b59a77aee3e57567be0c3f5fb69f346f22f43541ce0c30f345ee82>IC_TX_TL_TX_TL_Field</h4><pre class=ada-code-snippet><code>subtype IC_TX_TL_TX_TL_Field is HAL.UInt8;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>TX_TL<dd><p>unspecified<dt>Reserved_8_31<dd></dl><h4 id=a0278f6145b59a77aee3e57567be0c3f5fb69f346f22f43541ce0c30f345ee82>IC_TX_TL_TX_TL_Field</h4><pre class=ada-code-snippet><code>subtype IC_TX_TL_TX_TL_Field is HAL.UInt8;
 </code></pre><h4 id=080c4dd8db4eee0322f0c484cabcc4abe46e5d1cfcee67ff5dedde101ca28a51>IC_TXFLR_Register</h4><pre class=ada-code-snippet><code>type IC_TXFLR_Register is record
    TXFLR         : IC_TXFLR_TXFLR_Field;
    Reserved_5_31 : HAL.UInt27;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>TXFLR<dd><dt>Reserved_5_31<dd></dl><h4 id=9332ecc4f0033ab783fa98b2de598cdd76d42482e9717d4fd568c3ce24ab82b1>IC_TXFLR_TXFLR_Field</h4><pre class=ada-code-snippet><code>subtype IC_TXFLR_TXFLR_Field is HAL.UInt5;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>TXFLR<dd><p>unspecified<dt>Reserved_5_31<dd></dl><h4 id=9332ecc4f0033ab783fa98b2de598cdd76d42482e9717d4fd568c3ce24ab82b1>IC_TXFLR_TXFLR_Field</h4><pre class=ada-code-snippet><code>subtype IC_TXFLR_TXFLR_Field is HAL.UInt5;
 </code></pre>

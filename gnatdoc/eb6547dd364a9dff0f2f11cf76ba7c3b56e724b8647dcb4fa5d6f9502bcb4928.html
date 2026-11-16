@@ -12,9 +12,7 @@
    CTRL        : CTRL_Register;
    ADD         : ADD_Register;
    BASE_1AND0  : UInt32;
-end record
-   with Volatile,
-        Size => 512;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>ACCUM<dd><dt>BASE<dd><dt>POP<dd><dt>PEEK<dd><dt>CTRL<dd><dt>ADD<dd><dt>BASE_1AND0<dd></dl><h4 id=9fc96805e0e743c1ae1c68fa9d436a934128c9b731c144f5c57c52e3d1a138b7>Lane</h4><pre class=ada-code-snippet><code>type Lane is range 0 .. 2;
 </code></pre><h4 id=fa726ff45ecf0352910f1bde16aea2b89c0c0d8a54c145b4f12316588c339b00>Lane_Config</h4><pre class=ada-code-snippet><code>type Lane_Config is record
    SHIFT          : UInt5   := 0;
@@ -30,8 +28,6 @@ end record
    OVERF           : Boolean := False;
    OVERF1          : Boolean := False;
    OVERF0          : Boolean := False;
-end record
-   with Volatile_Full_Access,
-        Size => 32;
-</code></pre><h5>Record fields</h5><dl><dt>SHIFT<dd><dt>MASK_LSB<dd><dt>MASK_MSB<dd><dt>SIGNED<dd><dt>CROSS_INPUT<dd><dt>CROSS_RESULT<dd><dt>ADD_RAW<dd><dt>FORCE_MSB<dd><dt>BLEND<dd><dt>CLAMP<dd><dt>OVERF<dd><dt>OVERF1<dd><dt>OVERF0<dd></dl><h4 id=a144d65d94f726b830b8a06e67586683dcf774e683c8111c2ae9b929472d7162>LANE_Register</h4><pre class=ada-code-snippet><code>type LANE_Register   is array (Lane) of UInt32;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>SHIFT<dd><p>Least significant bit allowed to pass by the mask (inclusive)<dt>MASK_LSB<dd><p>Most significant bit allowed to pass by the mask (inclusive) Setting MSB &lt; LSB may cause chip to turn inside-out<p>The reset value of MASK_MSB is 0, but the SDK uses 31 in the default config, which seems preferable.<dt>MASK_MSB<dd><p>The shifted and masked accumulator value is sign-extended to 32 bits before adding to BASE<dt>SIGNED<dd><p>Feed the opposite lane's result into this lane's shift+mask hardware on POP<dt>CROSS_INPUT<dd><p>Feed the opposite lane's result into this lane's accumulator on pop<dt>CROSS_RESULT<dd><p>Mask and shift is bypassed for this lane's result. This does not affect the FULL (Lane 2) result.<dt>ADD_RAW<dd><p>ORed into bits 29:28 of the lane result presented to the processor on the bus.<dt>FORCE_MSB<dd><p>BLEND is only on INTERP_0 Lane 0.<p>LANE1 result is a linear interpolation between BASE0 and BASE1, controlled by the 8 LSBs of lane 1 shift and mask value (a fractional number between 0 and 255/256ths)<p>LANE0 result does not have BASE0 added (yields only the 8 LSBs of lane 1 shift+mask value)<p>FULL result does not have lane 1 shift+mask value added (BASE2 + lane 0 shift+mask)<p>LANE1 SIGNED flag controls whether the interpolation is signed or unsigned.<dt>BLEND<dd><p>CLAMP is only on INTERP_1 Lane 0<p>LANE0 result is shifted and masked ACCUM0, clamped by a lower bound of BASE0 and upper bound of BASE1.<p>Signedness of these comparisons is determined by CTRL (0).SIGNED<dt>CLAMP<dd><p>Overflow flags are only present on Lane 0<p>Indicates if any masked-off MSBs in either ACCUM are set<dt>OVERF<dd><p>Indicates if any masked-off MSBs in ACCUM0 are set<dt>OVERF1<dd><p>Indicates if any masked-off MSBs in ACCUM1 are set<dt>OVERF0<dd></dl><h4 id=a144d65d94f726b830b8a06e67586683dcf774e683c8111c2ae9b929472d7162>LANE_Register</h4><pre class=ada-code-snippet><code>type LANE_Register   is array (Lane) of UInt32;
 </code></pre>

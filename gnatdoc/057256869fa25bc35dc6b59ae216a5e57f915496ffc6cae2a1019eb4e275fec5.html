@@ -7,10 +7,8 @@
    Reserved_7_15  : HAL.UInt9 := 16#0#;
    ENDPOINT       : ADDR_ENDP_ENDPOINT_Field := 16#0#;
    Reserved_20_31 : HAL.UInt12 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>ADDRESS<dd><dt>Reserved_7_15<dd><dt>ENDPOINT<dd><dt>Reserved_20_31<dd></dl><h4 id=d057a4a690ff64a3b11f082c1e909d18b9243bf7f4da932440917e6946d6e1ce>ADDR_ENDP_Register_1</h4><pre class=ada-code-snippet><code>type ADDR_ENDP_Register_1 is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>ADDRESS<dd><p>unspecified<dt>Reserved_7_15<dd><p>Device endpoint to send data to. Only valid for HOST mode.<dt>ENDPOINT<dd><p>unspecified<dt>Reserved_20_31<dd></dl><h4 id=d057a4a690ff64a3b11f082c1e909d18b9243bf7f4da932440917e6946d6e1ce>ADDR_ENDP_Register_1</h4><pre class=ada-code-snippet><code>type ADDR_ENDP_Register_1 is record
    ADDRESS        : ADDR_ENDP_ADDRESS_Field := 16#0#;
    Reserved_7_15  : HAL.UInt9 := 16#0#;
    ENDPOINT       : ADDR_ENDP_ENDPOINT_Field := 16#0#;
@@ -18,10 +16,8 @@ end record
    INTEP_DIR      : Boolean := False;
    INTEP_PREAMBLE : Boolean := False;
    Reserved_27_31 : HAL.UInt5 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>ADDRESS<dd><dt>Reserved_7_15<dd><dt>ENDPOINT<dd><dt>Reserved_20_24<dd><dt>INTEP_DIR<dd><dt>INTEP_PREAMBLE<dd><dt>Reserved_27_31<dd></dl><h4 id=0af938e6002b04509087fdc8066486844575d02b2047ad88984dd99fba073cdb>BUFF_CPU_SHOULD_HANDLE_Register</h4><pre class=ada-code-snippet><code>type BUFF_CPU_SHOULD_HANDLE_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>ADDRESS<dd><p>unspecified<dt>Reserved_7_15<dd><p>Endpoint number of the interrupt endpoint<dt>ENDPOINT<dd><p>unspecified<dt>Reserved_20_24<dd><p>Direction of the interrupt endpoint. In=0, Out=1<dt>INTEP_DIR<dd><p>Interrupt EP requires preamble (is a low speed device on a full speed hub)<dt>INTEP_PREAMBLE<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=0af938e6002b04509087fdc8066486844575d02b2047ad88984dd99fba073cdb>BUFF_CPU_SHOULD_HANDLE_Register</h4><pre class=ada-code-snippet><code>type BUFF_CPU_SHOULD_HANDLE_Register is record
    EP0_IN   : Boolean;
    EP0_OUT  : Boolean;
    EP1_IN   : Boolean;
@@ -54,10 +50,8 @@ end record
    EP14_OUT : Boolean;
    EP15_IN  : Boolean;
    EP15_OUT : Boolean;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>EP0_IN<dd><dt>EP0_OUT<dd><dt>EP1_IN<dd><dt>EP1_OUT<dd><dt>EP2_IN<dd><dt>EP2_OUT<dd><dt>EP3_IN<dd><dt>EP3_OUT<dd><dt>EP4_IN<dd><dt>EP4_OUT<dd><dt>EP5_IN<dd><dt>EP5_OUT<dd><dt>EP6_IN<dd><dt>EP6_OUT<dd><dt>EP7_IN<dd><dt>EP7_OUT<dd><dt>EP8_IN<dd><dt>EP8_OUT<dd><dt>EP9_IN<dd><dt>EP9_OUT<dd><dt>EP10_IN<dd><dt>EP10_OUT<dd><dt>EP11_IN<dd><dt>EP11_OUT<dd><dt>EP12_IN<dd><dt>EP12_OUT<dd><dt>EP13_IN<dd><dt>EP13_OUT<dd><dt>EP14_IN<dd><dt>EP14_OUT<dd><dt>EP15_IN<dd><dt>EP15_OUT<dd></dl><h4 id=cf47358e305018a266b55aa22a48a54d88bd402eb5b8e523045cb37fc6a5f24a>BUFF_STATUS_Register</h4><pre class=ada-code-snippet><code>type BUFF_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>EP0_IN<dd><p>Read-only.<dt>EP0_OUT<dd><p>Read-only.<dt>EP1_IN<dd><p>Read-only.<dt>EP1_OUT<dd><p>Read-only.<dt>EP2_IN<dd><p>Read-only.<dt>EP2_OUT<dd><p>Read-only.<dt>EP3_IN<dd><p>Read-only.<dt>EP3_OUT<dd><p>Read-only.<dt>EP4_IN<dd><p>Read-only.<dt>EP4_OUT<dd><p>Read-only.<dt>EP5_IN<dd><p>Read-only.<dt>EP5_OUT<dd><p>Read-only.<dt>EP6_IN<dd><p>Read-only.<dt>EP6_OUT<dd><p>Read-only.<dt>EP7_IN<dd><p>Read-only.<dt>EP7_OUT<dd><p>Read-only.<dt>EP8_IN<dd><p>Read-only.<dt>EP8_OUT<dd><p>Read-only.<dt>EP9_IN<dd><p>Read-only.<dt>EP9_OUT<dd><p>Read-only.<dt>EP10_IN<dd><p>Read-only.<dt>EP10_OUT<dd><p>Read-only.<dt>EP11_IN<dd><p>Read-only.<dt>EP11_OUT<dd><p>Read-only.<dt>EP12_IN<dd><p>Read-only.<dt>EP12_OUT<dd><p>Read-only.<dt>EP13_IN<dd><p>Read-only.<dt>EP13_OUT<dd><p>Read-only.<dt>EP14_IN<dd><p>Read-only.<dt>EP14_OUT<dd><p>Read-only.<dt>EP15_IN<dd><p>Read-only.<dt>EP15_OUT<dd></dl><h4 id=cf47358e305018a266b55aa22a48a54d88bd402eb5b8e523045cb37fc6a5f24a>BUFF_STATUS_Register</h4><pre class=ada-code-snippet><code>type BUFF_STATUS_Register is record
    EP0_IN   : Boolean := False;
    EP0_OUT  : Boolean := False;
    EP1_IN   : Boolean := False;
@@ -90,10 +84,8 @@ end record
    EP14_OUT : Boolean := False;
    EP15_IN  : Boolean := False;
    EP15_OUT : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>EP0_IN<dd><dt>EP0_OUT<dd><dt>EP1_IN<dd><dt>EP1_OUT<dd><dt>EP2_IN<dd><dt>EP2_OUT<dd><dt>EP3_IN<dd><dt>EP3_OUT<dd><dt>EP4_IN<dd><dt>EP4_OUT<dd><dt>EP5_IN<dd><dt>EP5_OUT<dd><dt>EP6_IN<dd><dt>EP6_OUT<dd><dt>EP7_IN<dd><dt>EP7_OUT<dd><dt>EP8_IN<dd><dt>EP8_OUT<dd><dt>EP9_IN<dd><dt>EP9_OUT<dd><dt>EP10_IN<dd><dt>EP10_OUT<dd><dt>EP11_IN<dd><dt>EP11_OUT<dd><dt>EP12_IN<dd><dt>EP12_OUT<dd><dt>EP13_IN<dd><dt>EP13_OUT<dd><dt>EP14_IN<dd><dt>EP14_OUT<dd><dt>EP15_IN<dd><dt>EP15_OUT<dd></dl><h4 id=a74cfac766e591bd825f93dbef23f8d392b779c91d757811fab25295ef7b3d63>EP_ABORT_DONE_Register</h4><pre class=ada-code-snippet><code>type EP_ABORT_DONE_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>EP0_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP0_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP1_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP1_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP2_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP2_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP3_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP3_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP4_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP4_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP5_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP5_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP6_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP6_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP7_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP7_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP8_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP8_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP9_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP9_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP10_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP10_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP11_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP11_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP12_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP12_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP13_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP13_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP14_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP14_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP15_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP15_OUT<dd></dl><h4 id=a74cfac766e591bd825f93dbef23f8d392b779c91d757811fab25295ef7b3d63>EP_ABORT_DONE_Register</h4><pre class=ada-code-snippet><code>type EP_ABORT_DONE_Register is record
    EP0_IN   : Boolean := False;
    EP0_OUT  : Boolean := False;
    EP1_IN   : Boolean := False;
@@ -126,10 +118,8 @@ end record
    EP14_OUT : Boolean := False;
    EP15_IN  : Boolean := False;
    EP15_OUT : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>EP0_IN<dd><dt>EP0_OUT<dd><dt>EP1_IN<dd><dt>EP1_OUT<dd><dt>EP2_IN<dd><dt>EP2_OUT<dd><dt>EP3_IN<dd><dt>EP3_OUT<dd><dt>EP4_IN<dd><dt>EP4_OUT<dd><dt>EP5_IN<dd><dt>EP5_OUT<dd><dt>EP6_IN<dd><dt>EP6_OUT<dd><dt>EP7_IN<dd><dt>EP7_OUT<dd><dt>EP8_IN<dd><dt>EP8_OUT<dd><dt>EP9_IN<dd><dt>EP9_OUT<dd><dt>EP10_IN<dd><dt>EP10_OUT<dd><dt>EP11_IN<dd><dt>EP11_OUT<dd><dt>EP12_IN<dd><dt>EP12_OUT<dd><dt>EP13_IN<dd><dt>EP13_OUT<dd><dt>EP14_IN<dd><dt>EP14_OUT<dd><dt>EP15_IN<dd><dt>EP15_OUT<dd></dl><h4 id=89419cd68b43171068f609eed4da497bbd36f3abe257b01c3bd1cd2f46ffc9c0>EP_ABORT_Register</h4><pre class=ada-code-snippet><code>type EP_ABORT_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>EP0_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP0_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP1_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP1_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP2_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP2_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP3_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP3_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP4_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP4_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP5_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP5_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP6_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP6_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP7_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP7_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP8_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP8_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP9_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP9_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP10_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP10_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP11_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP11_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP12_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP12_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP13_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP13_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP14_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP14_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP15_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP15_OUT<dd></dl><h4 id=89419cd68b43171068f609eed4da497bbd36f3abe257b01c3bd1cd2f46ffc9c0>EP_ABORT_Register</h4><pre class=ada-code-snippet><code>type EP_ABORT_Register is record
    EP0_IN   : Boolean := False;
    EP0_OUT  : Boolean := False;
    EP1_IN   : Boolean := False;
@@ -162,17 +152,13 @@ end record
    EP14_OUT : Boolean := False;
    EP15_IN  : Boolean := False;
    EP15_OUT : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>EP0_IN<dd><dt>EP0_OUT<dd><dt>EP1_IN<dd><dt>EP1_OUT<dd><dt>EP2_IN<dd><dt>EP2_OUT<dd><dt>EP3_IN<dd><dt>EP3_OUT<dd><dt>EP4_IN<dd><dt>EP4_OUT<dd><dt>EP5_IN<dd><dt>EP5_OUT<dd><dt>EP6_IN<dd><dt>EP6_OUT<dd><dt>EP7_IN<dd><dt>EP7_OUT<dd><dt>EP8_IN<dd><dt>EP8_OUT<dd><dt>EP9_IN<dd><dt>EP9_OUT<dd><dt>EP10_IN<dd><dt>EP10_OUT<dd><dt>EP11_IN<dd><dt>EP11_OUT<dd><dt>EP12_IN<dd><dt>EP12_OUT<dd><dt>EP13_IN<dd><dt>EP13_OUT<dd><dt>EP14_IN<dd><dt>EP14_OUT<dd><dt>EP15_IN<dd><dt>EP15_OUT<dd></dl><h4 id=d27d86223faf5c70ebd035a9a8b1acde15901fb543759155fade59cab3b9217a>EP_STALL_ARM_Register</h4><pre class=ada-code-snippet><code>type EP_STALL_ARM_Register is record
    EP0_IN        : Boolean := False;
    EP0_OUT       : Boolean := False;
    Reserved_2_31 : HAL.UInt30 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>EP0_IN<dd><dt>EP0_OUT<dd><dt>Reserved_2_31<dd></dl><h4 id=09466543a962d11c0a3413b41cdb88b012ed3d1faa2f395bc8ab3460942cb92d>EP_STATUS_STALL_NAK_Register</h4><pre class=ada-code-snippet><code>type EP_STATUS_STALL_NAK_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>EP0_IN<dd><p>unspecified<dt>EP0_OUT<dd><p>unspecified<dt>Reserved_2_31<dd></dl><h4 id=09466543a962d11c0a3413b41cdb88b012ed3d1faa2f395bc8ab3460942cb92d>EP_STATUS_STALL_NAK_Register</h4><pre class=ada-code-snippet><code>type EP_STATUS_STALL_NAK_Register is record
    EP0_IN   : Boolean := False;
    EP0_OUT  : Boolean := False;
    EP1_IN   : Boolean := False;
@@ -205,18 +191,14 @@ end record
    EP14_OUT : Boolean := False;
    EP15_IN  : Boolean := False;
    EP15_OUT : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>EP0_IN<dd><dt>EP0_OUT<dd><dt>EP1_IN<dd><dt>EP1_OUT<dd><dt>EP2_IN<dd><dt>EP2_OUT<dd><dt>EP3_IN<dd><dt>EP3_OUT<dd><dt>EP4_IN<dd><dt>EP4_OUT<dd><dt>EP5_IN<dd><dt>EP5_OUT<dd><dt>EP6_IN<dd><dt>EP6_OUT<dd><dt>EP7_IN<dd><dt>EP7_OUT<dd><dt>EP8_IN<dd><dt>EP8_OUT<dd><dt>EP9_IN<dd><dt>EP9_OUT<dd><dt>EP10_IN<dd><dt>EP10_OUT<dd><dt>EP11_IN<dd><dt>EP11_OUT<dd><dt>EP12_IN<dd><dt>EP12_OUT<dd><dt>EP13_IN<dd><dt>EP13_OUT<dd><dt>EP14_IN<dd><dt>EP14_OUT<dd><dt>EP15_IN<dd><dt>EP15_OUT<dd></dl><h4 id=b3c1db9fa1a7caca40e8ccb5897b7d8b4d3b1e4e277e832a7602770f98108ad3>INT_EP_CTRL_INT_EP_ACTIVE_Field</h4><pre class=ada-code-snippet><code>subtype INT_EP_CTRL_INT_EP_ACTIVE_Field is HAL.UInt15;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>EP0_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP0_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP1_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP1_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP2_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP2_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP3_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP3_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP4_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP4_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP5_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP5_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP6_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP6_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP7_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP7_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP8_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP8_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP9_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP9_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP10_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP10_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP11_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP11_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP12_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP12_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP13_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP13_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP14_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP14_OUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP15_IN<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>EP15_OUT<dd></dl><h4 id=b3c1db9fa1a7caca40e8ccb5897b7d8b4d3b1e4e277e832a7602770f98108ad3>INT_EP_CTRL_INT_EP_ACTIVE_Field</h4><pre class=ada-code-snippet><code>subtype INT_EP_CTRL_INT_EP_ACTIVE_Field is HAL.UInt15;
 </code></pre><h4 id=a64df872fd29a9ed91e7de6df211930921e2a2e7414bfd23fa40c216de051095>INT_EP_CTRL_Register</h4><pre class=ada-code-snippet><code>type INT_EP_CTRL_Register is record
    Reserved_0_0   : HAL.Bit := 16#0#;
    INT_EP_ACTIVE  : INT_EP_CTRL_INT_EP_ACTIVE_Field := 16#0#;
    Reserved_16_31 : HAL.UInt16 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_0<dd><dt>INT_EP_ACTIVE<dd><dt>Reserved_16_31<dd></dl><h4 id=b6212dbe7ee362c443c4d4c15a5b0175dd4a760e69304ed51cbe247a1f68498d>INTE_Register</h4><pre class=ada-code-snippet><code>type INTE_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_0<dd><p>Host: Enable interrupt endpoint 1 -> 15<dt>INT_EP_ACTIVE<dd><p>unspecified<dt>Reserved_16_31<dd></dl><h4 id=b6212dbe7ee362c443c4d4c15a5b0175dd4a760e69304ed51cbe247a1f68498d>INTE_Register</h4><pre class=ada-code-snippet><code>type INTE_Register is record
    HOST_CONN_DIS        : Boolean := False;
    HOST_RESUME          : Boolean := False;
    HOST_SOF             : Boolean := False;
@@ -238,10 +220,8 @@ end record
    ABORT_DONE           : Boolean := False;
    EP_STALL_NAK         : Boolean := False;
    Reserved_20_31       : HAL.UInt12 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>HOST_CONN_DIS<dd><dt>HOST_RESUME<dd><dt>HOST_SOF<dd><dt>TRANS_COMPLETE<dd><dt>BUFF_STATUS<dd><dt>ERROR_DATA_SEQ<dd><dt>ERROR_RX_TIMEOUT<dd><dt>ERROR_RX_OVERFLOW<dd><dt>ERROR_BIT_STUFF<dd><dt>ERROR_CRC<dd><dt>STALL<dd><dt>VBUS_DETECT<dd><dt>BUS_RESET<dd><dt>DEV_CONN_DIS<dd><dt>DEV_SUSPEND<dd><dt>DEV_RESUME_FROM_HOST<dd><dt>SETUP_REQ<dd><dt>DEV_SOF<dd><dt>ABORT_DONE<dd><dt>EP_STALL_NAK<dd><dt>Reserved_20_31<dd></dl><h4 id=144dafb19f757a4f339ef9af244ddf1a6ad7f65a288f3b1e2c6c1fbefafef015>INTF_Register</h4><pre class=ada-code-snippet><code>type INTF_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>HOST_CONN_DIS<dd><p>Host: raised when a device wakes up the host. Cleared by writing to SIE_STATUS.RESUME<dt>HOST_RESUME<dd><p>Host: raised every time the host sends a SOF (Start of Frame). Cleared by reading SOF_RD<dt>HOST_SOF<dd><p>Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear by writing to this bit.<dt>TRANS_COMPLETE<dd><p>Raised when any bit in BUFF_STATUS is set. Clear by clearing all bits in BUFF_STATUS.<dt>BUFF_STATUS<dd><p>Source: SIE_STATUS.DATA_SEQ_ERROR<dt>ERROR_DATA_SEQ<dd><p>Source: SIE_STATUS.RX_TIMEOUT<dt>ERROR_RX_TIMEOUT<dd><p>Source: SIE_STATUS.RX_OVERFLOW<dt>ERROR_RX_OVERFLOW<dd><p>Source: SIE_STATUS.BIT_STUFF_ERROR<dt>ERROR_BIT_STUFF<dd><p>Source: SIE_STATUS.CRC_ERROR<dt>ERROR_CRC<dd><p>Source: SIE_STATUS.STALL_REC<dt>STALL<dd><p>Source: SIE_STATUS.VBUS_DETECTED<dt>VBUS_DETECT<dd><p>Source: SIE_STATUS.BUS_RESET<dt>BUS_RESET<dd><p>Set when the device connection state changes. Cleared by writing to SIE_STATUS.CONNECTED<dt>DEV_CONN_DIS<dd><p>Set when the device suspend state changes. Cleared by writing to SIE_STATUS.SUSPENDED<dt>DEV_SUSPEND<dd><p>Set when the device receives a resume from the host. Cleared by writing to SIE_STATUS.RESUME<dt>DEV_RESUME_FROM_HOST<dd><p>Device. Source: SIE_STATUS.SETUP_REC<dt>SETUP_REQ<dd><p>Set every time the device receives a SOF (Start of Frame) packet. Cleared by reading SOF_RD<dt>DEV_SOF<dd><p>Raised when any bit in ABORT_DONE is set. Clear by clearing all bits in ABORT_DONE.<dt>ABORT_DONE<dd><p>Raised when any bit in EP_STATUS_STALL_NAK is set. Clear by clearing all bits in EP_STATUS_STALL_NAK.<dt>EP_STALL_NAK<dd><p>unspecified<dt>Reserved_20_31<dd></dl><h4 id=144dafb19f757a4f339ef9af244ddf1a6ad7f65a288f3b1e2c6c1fbefafef015>INTF_Register</h4><pre class=ada-code-snippet><code>type INTF_Register is record
    HOST_CONN_DIS        : Boolean := False;
    HOST_RESUME          : Boolean := False;
    HOST_SOF             : Boolean := False;
@@ -263,10 +243,8 @@ end record
    ABORT_DONE           : Boolean := False;
    EP_STALL_NAK         : Boolean := False;
    Reserved_20_31       : HAL.UInt12 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>HOST_CONN_DIS<dd><dt>HOST_RESUME<dd><dt>HOST_SOF<dd><dt>TRANS_COMPLETE<dd><dt>BUFF_STATUS<dd><dt>ERROR_DATA_SEQ<dd><dt>ERROR_RX_TIMEOUT<dd><dt>ERROR_RX_OVERFLOW<dd><dt>ERROR_BIT_STUFF<dd><dt>ERROR_CRC<dd><dt>STALL<dd><dt>VBUS_DETECT<dd><dt>BUS_RESET<dd><dt>DEV_CONN_DIS<dd><dt>DEV_SUSPEND<dd><dt>DEV_RESUME_FROM_HOST<dd><dt>SETUP_REQ<dd><dt>DEV_SOF<dd><dt>ABORT_DONE<dd><dt>EP_STALL_NAK<dd><dt>Reserved_20_31<dd></dl><h4 id=3b00214f6b9a80a9cf01e3d3f79f2aae7cd6f6761e2288ed0f1fcd21c7d661fe>INTR_Register</h4><pre class=ada-code-snippet><code>type INTR_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>HOST_CONN_DIS<dd><p>Host: raised when a device wakes up the host. Cleared by writing to SIE_STATUS.RESUME<dt>HOST_RESUME<dd><p>Host: raised every time the host sends a SOF (Start of Frame). Cleared by reading SOF_RD<dt>HOST_SOF<dd><p>Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear by writing to this bit.<dt>TRANS_COMPLETE<dd><p>Raised when any bit in BUFF_STATUS is set. Clear by clearing all bits in BUFF_STATUS.<dt>BUFF_STATUS<dd><p>Source: SIE_STATUS.DATA_SEQ_ERROR<dt>ERROR_DATA_SEQ<dd><p>Source: SIE_STATUS.RX_TIMEOUT<dt>ERROR_RX_TIMEOUT<dd><p>Source: SIE_STATUS.RX_OVERFLOW<dt>ERROR_RX_OVERFLOW<dd><p>Source: SIE_STATUS.BIT_STUFF_ERROR<dt>ERROR_BIT_STUFF<dd><p>Source: SIE_STATUS.CRC_ERROR<dt>ERROR_CRC<dd><p>Source: SIE_STATUS.STALL_REC<dt>STALL<dd><p>Source: SIE_STATUS.VBUS_DETECTED<dt>VBUS_DETECT<dd><p>Source: SIE_STATUS.BUS_RESET<dt>BUS_RESET<dd><p>Set when the device connection state changes. Cleared by writing to SIE_STATUS.CONNECTED<dt>DEV_CONN_DIS<dd><p>Set when the device suspend state changes. Cleared by writing to SIE_STATUS.SUSPENDED<dt>DEV_SUSPEND<dd><p>Set when the device receives a resume from the host. Cleared by writing to SIE_STATUS.RESUME<dt>DEV_RESUME_FROM_HOST<dd><p>Device. Source: SIE_STATUS.SETUP_REC<dt>SETUP_REQ<dd><p>Set every time the device receives a SOF (Start of Frame) packet. Cleared by reading SOF_RD<dt>DEV_SOF<dd><p>Raised when any bit in ABORT_DONE is set. Clear by clearing all bits in ABORT_DONE.<dt>ABORT_DONE<dd><p>Raised when any bit in EP_STATUS_STALL_NAK is set. Clear by clearing all bits in EP_STATUS_STALL_NAK.<dt>EP_STALL_NAK<dd><p>unspecified<dt>Reserved_20_31<dd></dl><h4 id=3b00214f6b9a80a9cf01e3d3f79f2aae7cd6f6761e2288ed0f1fcd21c7d661fe>INTR_Register</h4><pre class=ada-code-snippet><code>type INTR_Register is record
    HOST_CONN_DIS        : Boolean;
    HOST_RESUME          : Boolean;
    HOST_SOF             : Boolean;
@@ -288,10 +266,8 @@ end record
    ABORT_DONE           : Boolean;
    EP_STALL_NAK         : Boolean;
    Reserved_20_31       : HAL.UInt12;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>HOST_CONN_DIS<dd><dt>HOST_RESUME<dd><dt>HOST_SOF<dd><dt>TRANS_COMPLETE<dd><dt>BUFF_STATUS<dd><dt>ERROR_DATA_SEQ<dd><dt>ERROR_RX_TIMEOUT<dd><dt>ERROR_RX_OVERFLOW<dd><dt>ERROR_BIT_STUFF<dd><dt>ERROR_CRC<dd><dt>STALL<dd><dt>VBUS_DETECT<dd><dt>BUS_RESET<dd><dt>DEV_CONN_DIS<dd><dt>DEV_SUSPEND<dd><dt>DEV_RESUME_FROM_HOST<dd><dt>SETUP_REQ<dd><dt>DEV_SOF<dd><dt>ABORT_DONE<dd><dt>EP_STALL_NAK<dd><dt>Reserved_20_31<dd></dl><h4 id=998cf5ccbdb9b5768150eafc9262de8b4954fe21ca1f05c3c4b9990f271ff1d0>INTS_Register</h4><pre class=ada-code-snippet><code>type INTS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>HOST_CONN_DIS<dd><p>Read-only. Host: raised when a device wakes up the host. Cleared by writing to SIE_STATUS.RESUME<dt>HOST_RESUME<dd><p>Read-only. Host: raised every time the host sends a SOF (Start of Frame). Cleared by reading SOF_RD<dt>HOST_SOF<dd><p>Read-only. Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear by writing to this bit.<dt>TRANS_COMPLETE<dd><p>Read-only. Raised when any bit in BUFF_STATUS is set. Clear by clearing all bits in BUFF_STATUS.<dt>BUFF_STATUS<dd><p>Read-only. Source: SIE_STATUS.DATA_SEQ_ERROR<dt>ERROR_DATA_SEQ<dd><p>Read-only. Source: SIE_STATUS.RX_TIMEOUT<dt>ERROR_RX_TIMEOUT<dd><p>Read-only. Source: SIE_STATUS.RX_OVERFLOW<dt>ERROR_RX_OVERFLOW<dd><p>Read-only. Source: SIE_STATUS.BIT_STUFF_ERROR<dt>ERROR_BIT_STUFF<dd><p>Read-only. Source: SIE_STATUS.CRC_ERROR<dt>ERROR_CRC<dd><p>Read-only. Source: SIE_STATUS.STALL_REC<dt>STALL<dd><p>Read-only. Source: SIE_STATUS.VBUS_DETECTED<dt>VBUS_DETECT<dd><p>Read-only. Source: SIE_STATUS.BUS_RESET<dt>BUS_RESET<dd><p>Read-only. Set when the device connection state changes. Cleared by writing to SIE_STATUS.CONNECTED<dt>DEV_CONN_DIS<dd><p>Read-only. Set when the device suspend state changes. Cleared by writing to SIE_STATUS.SUSPENDED<dt>DEV_SUSPEND<dd><p>Read-only. Set when the device receives a resume from the host. Cleared by writing to SIE_STATUS.RESUME<dt>DEV_RESUME_FROM_HOST<dd><p>Read-only. Device. Source: SIE_STATUS.SETUP_REC<dt>SETUP_REQ<dd><p>Read-only. Set every time the device receives a SOF (Start of Frame) packet. Cleared by reading SOF_RD<dt>DEV_SOF<dd><p>Read-only. Raised when any bit in ABORT_DONE is set. Clear by clearing all bits in ABORT_DONE.<dt>ABORT_DONE<dd><p>Read-only. Raised when any bit in EP_STATUS_STALL_NAK is set. Clear by clearing all bits in EP_STATUS_STALL_NAK.<dt>EP_STALL_NAK<dd><p>unspecified<dt>Reserved_20_31<dd></dl><h4 id=998cf5ccbdb9b5768150eafc9262de8b4954fe21ca1f05c3c4b9990f271ff1d0>INTS_Register</h4><pre class=ada-code-snippet><code>type INTS_Register is record
    HOST_CONN_DIS        : Boolean;
    HOST_RESUME          : Boolean;
    HOST_SOF             : Boolean;
@@ -313,28 +289,22 @@ end record
    ABORT_DONE           : Boolean;
    EP_STALL_NAK         : Boolean;
    Reserved_20_31       : HAL.UInt12;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>HOST_CONN_DIS<dd><dt>HOST_RESUME<dd><dt>HOST_SOF<dd><dt>TRANS_COMPLETE<dd><dt>BUFF_STATUS<dd><dt>ERROR_DATA_SEQ<dd><dt>ERROR_RX_TIMEOUT<dd><dt>ERROR_RX_OVERFLOW<dd><dt>ERROR_BIT_STUFF<dd><dt>ERROR_CRC<dd><dt>STALL<dd><dt>VBUS_DETECT<dd><dt>BUS_RESET<dd><dt>DEV_CONN_DIS<dd><dt>DEV_SUSPEND<dd><dt>DEV_RESUME_FROM_HOST<dd><dt>SETUP_REQ<dd><dt>DEV_SOF<dd><dt>ABORT_DONE<dd><dt>EP_STALL_NAK<dd><dt>Reserved_20_31<dd></dl><h4 id=10e6d91ceaad4641eca5418aa65054e09c11487bdade4b294c175f7df6dbedec>MAIN_CTRL_Register</h4><pre class=ada-code-snippet><code>type MAIN_CTRL_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>HOST_CONN_DIS<dd><p>Read-only. Host: raised when a device wakes up the host. Cleared by writing to SIE_STATUS.RESUME<dt>HOST_RESUME<dd><p>Read-only. Host: raised every time the host sends a SOF (Start of Frame). Cleared by reading SOF_RD<dt>HOST_SOF<dd><p>Read-only. Raised every time SIE_STATUS.TRANS_COMPLETE is set. Clear by writing to this bit.<dt>TRANS_COMPLETE<dd><p>Read-only. Raised when any bit in BUFF_STATUS is set. Clear by clearing all bits in BUFF_STATUS.<dt>BUFF_STATUS<dd><p>Read-only. Source: SIE_STATUS.DATA_SEQ_ERROR<dt>ERROR_DATA_SEQ<dd><p>Read-only. Source: SIE_STATUS.RX_TIMEOUT<dt>ERROR_RX_TIMEOUT<dd><p>Read-only. Source: SIE_STATUS.RX_OVERFLOW<dt>ERROR_RX_OVERFLOW<dd><p>Read-only. Source: SIE_STATUS.BIT_STUFF_ERROR<dt>ERROR_BIT_STUFF<dd><p>Read-only. Source: SIE_STATUS.CRC_ERROR<dt>ERROR_CRC<dd><p>Read-only. Source: SIE_STATUS.STALL_REC<dt>STALL<dd><p>Read-only. Source: SIE_STATUS.VBUS_DETECTED<dt>VBUS_DETECT<dd><p>Read-only. Source: SIE_STATUS.BUS_RESET<dt>BUS_RESET<dd><p>Read-only. Set when the device connection state changes. Cleared by writing to SIE_STATUS.CONNECTED<dt>DEV_CONN_DIS<dd><p>Read-only. Set when the device suspend state changes. Cleared by writing to SIE_STATUS.SUSPENDED<dt>DEV_SUSPEND<dd><p>Read-only. Set when the device receives a resume from the host. Cleared by writing to SIE_STATUS.RESUME<dt>DEV_RESUME_FROM_HOST<dd><p>Read-only. Device. Source: SIE_STATUS.SETUP_REC<dt>SETUP_REQ<dd><p>Read-only. Set every time the device receives a SOF (Start of Frame) packet. Cleared by reading SOF_RD<dt>DEV_SOF<dd><p>Read-only. Raised when any bit in ABORT_DONE is set. Clear by clearing all bits in ABORT_DONE.<dt>ABORT_DONE<dd><p>Read-only. Raised when any bit in EP_STATUS_STALL_NAK is set. Clear by clearing all bits in EP_STATUS_STALL_NAK.<dt>EP_STALL_NAK<dd><p>unspecified<dt>Reserved_20_31<dd></dl><h4 id=10e6d91ceaad4641eca5418aa65054e09c11487bdade4b294c175f7df6dbedec>MAIN_CTRL_Register</h4><pre class=ada-code-snippet><code>type MAIN_CTRL_Register is record
    CONTROLLER_EN : Boolean := False;
    HOST_NDEVICE  : Boolean := False;
    Reserved_2_30 : HAL.UInt29 := 16#0#;
    SIM_TIMING    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>CONTROLLER_EN<dd><dt>HOST_NDEVICE<dd><dt>Reserved_2_30<dd><dt>SIM_TIMING<dd></dl><h4 id=a212877b3c6c9e51c1bc200bf7f040baac7bd1a23ec9edfd0ddf626d6d14a85c>NAK_POLL_DELAY_FS_Field</h4><pre class=ada-code-snippet><code>subtype NAK_POLL_DELAY_FS_Field is HAL.UInt10;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>CONTROLLER_EN<dd><p>Device mode = 0, Host mode = 1<dt>HOST_NDEVICE<dd><p>unspecified<dt>Reserved_2_30<dd><p>Reduced timings for simulation<dt>SIM_TIMING<dd></dl><h4 id=a212877b3c6c9e51c1bc200bf7f040baac7bd1a23ec9edfd0ddf626d6d14a85c>NAK_POLL_DELAY_FS_Field</h4><pre class=ada-code-snippet><code>subtype NAK_POLL_DELAY_FS_Field is HAL.UInt10;
 </code></pre><h4 id=54918e593dc75ad03885a7b35878b84fecbe3fc159445e5713baf49bfdeb71a0>NAK_POLL_DELAY_LS_Field</h4><pre class=ada-code-snippet><code>subtype NAK_POLL_DELAY_LS_Field is HAL.UInt10;
 </code></pre><h4 id=93179ba317a5e03c9adf9ef02a58120c067fd620c57b92e7724d15264318bfc8>NAK_POLL_Register</h4><pre class=ada-code-snippet><code>type NAK_POLL_Register is record
    DELAY_LS       : NAK_POLL_DELAY_LS_Field := 16#10#;
    Reserved_10_15 : HAL.UInt6 := 16#0#;
    DELAY_FS       : NAK_POLL_DELAY_FS_Field := 16#10#;
    Reserved_26_31 : HAL.UInt6 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>DELAY_LS<dd><dt>Reserved_10_15<dd><dt>DELAY_FS<dd><dt>Reserved_26_31<dd></dl><h4 id=971722ceeab5836945874f6009440aca22debe3545271fd21bd4af5a3488883b>SIE_CTRL_Register</h4><pre class=ada-code-snippet><code>type SIE_CTRL_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>DELAY_LS<dd><p>unspecified<dt>Reserved_10_15<dd><p>NAK polling interval for a full speed device<dt>DELAY_FS<dd><p>unspecified<dt>Reserved_26_31<dd></dl><h4 id=971722ceeab5836945874f6009440aca22debe3545271fd21bd4af5a3488883b>SIE_CTRL_Register</h4><pre class=ada-code-snippet><code>type SIE_CTRL_Register is record
    START_TRANS    : Boolean := False;
    SEND_SETUP     : Boolean := False;
    SEND_DATA      : Boolean := False;
@@ -363,10 +333,8 @@ end record
    EP0_INT_1BUF   : Boolean := False;
    EP0_DOUBLE_BUF : Boolean := False;
    EP0_INT_STALL  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>START_TRANS<dd><dt>SEND_SETUP<dd><dt>SEND_DATA<dd><dt>RECEIVE_DATA<dd><dt>STOP_TRANS<dd><dt>Reserved_5_5<dd><dt>PREAMBLE_EN<dd><dt>Reserved_7_7<dd><dt>SOF_SYNC<dd><dt>SOF_EN<dd><dt>KEEP_ALIVE_EN<dd><dt>VBUS_EN<dd><dt>RESUME<dd><dt>RESET_BUS<dd><dt>Reserved_14_14<dd><dt>PULLDOWN_EN<dd><dt>PULLUP_EN<dd><dt>RPU_OPT<dd><dt>TRANSCEIVER_PD<dd><dt>Reserved_19_23<dd><dt>DIRECT_DM<dd><dt>DIRECT_DP<dd><dt>DIRECT_EN<dd><dt>EP0_INT_NAK<dd><dt>EP0_INT_2BUF<dd><dt>EP0_INT_1BUF<dd><dt>EP0_DOUBLE_BUF<dd><dt>EP0_INT_STALL<dd></dl><h4 id=bb80eb634deccd6bdacbd4a66fa6c43d97d7e0a8256d229b7e225cfac16e7587>SIE_STATUS_LINE_STATE_Field</h4><pre class=ada-code-snippet><code>subtype SIE_STATUS_LINE_STATE_Field is HAL.UInt2;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>START_TRANS<dd><p>Host: Send Setup packet<dt>SEND_SETUP<dd><p>Host: Send transaction (OUT from host)<dt>SEND_DATA<dd><p>Host: Receive transaction (IN to host)<dt>RECEIVE_DATA<dd><p>After a write operation all bits in the field are cleared (set to zero). Host: Stop transaction<dt>STOP_TRANS<dd><p>unspecified<dt>Reserved_5_5<dd><p>Host: Preable enable for LS device on FS hub<dt>PREAMBLE_EN<dd><p>unspecified<dt>Reserved_7_7<dd><p>Host: Delay packet(s) until after SOF<dt>SOF_SYNC<dd><p>Host: Enable SOF generation (for full speed bus)<dt>SOF_EN<dd><p>Host: Enable keep alive packet (for low speed bus)<dt>KEEP_ALIVE_EN<dd><p>Host: Enable VBUS<dt>VBUS_EN<dd><p>After a write operation all bits in the field are cleared (set to zero). Device: Remote wakeup. Device can initiate its own resume after suspend.<dt>RESUME<dd><p>After a write operation all bits in the field are cleared (set to zero). Host: Reset bus<dt>RESET_BUS<dd><p>unspecified<dt>Reserved_14_14<dd><p>Host: Enable pull down resistors<dt>PULLDOWN_EN<dd><p>Device: Enable pull up resistor<dt>PULLUP_EN<dd><p>Device: Pull-up strength (0=1K2, 1=2k3)<dt>RPU_OPT<dd><p>Power down bus transceiver<dt>TRANSCEIVER_PD<dd><p>unspecified<dt>Reserved_19_23<dd><p>Direct control of DM<dt>DIRECT_DM<dd><p>Direct control of DP<dt>DIRECT_DP<dd><p>Direct bus drive enable<dt>DIRECT_EN<dd><p>Device: Set bit in EP_STATUS_STALL_NAK when EP0 sends a NAK<dt>EP0_INT_NAK<dd><p>Device: Set bit in BUFF_STATUS for every 2 buffers completed on EP0<dt>EP0_INT_2BUF<dd><p>Device: Set bit in BUFF_STATUS for every buffer completed on EP0<dt>EP0_INT_1BUF<dd><p>Device: EP0 single buffered = 0, double buffered = 1<dt>EP0_DOUBLE_BUF<dd><p>Device: Set bit in EP_STATUS_STALL_NAK when EP0 sends a STALL<dt>EP0_INT_STALL<dd></dl><h4 id=bb80eb634deccd6bdacbd4a66fa6c43d97d7e0a8256d229b7e225cfac16e7587>SIE_STATUS_LINE_STATE_Field</h4><pre class=ada-code-snippet><code>subtype SIE_STATUS_LINE_STATE_Field is HAL.UInt2;
 </code></pre><h4 id=64d88dd78071cd0c1df4ba6745a073d6828951abd4c08ae2d881cbaa8be9b1a7>SIE_STATUS_Register</h4><pre class=ada-code-snippet><code>type SIE_STATUS_Register is record
    VBUS_DETECTED   : Boolean := False;
    Reserved_1_1    : HAL.Bit := 16#0#;
@@ -390,34 +358,26 @@ end record
    STALL_REC       : Boolean := False;
    ACK_REC         : Boolean := False;
    DATA_SEQ_ERROR  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>VBUS_DETECTED<dd><dt>Reserved_1_1<dd><dt>LINE_STATE<dd><dt>SUSPENDED<dd><dt>Reserved_5_7<dd><dt>SPEED<dd><dt>VBUS_OVER_CURR<dd><dt>RESUME<dd><dt>Reserved_12_15<dd><dt>CONNECTED<dd><dt>SETUP_REC<dd><dt>TRANS_COMPLETE<dd><dt>BUS_RESET<dd><dt>Reserved_20_23<dd><dt>CRC_ERROR<dd><dt>BIT_STUFF_ERROR<dd><dt>RX_OVERFLOW<dd><dt>RX_TIMEOUT<dd><dt>NAK_REC<dd><dt>STALL_REC<dd><dt>ACK_REC<dd><dt>DATA_SEQ_ERROR<dd></dl><h4 id=6b036a36468a40192a81c13c126be3b5b650f73466dbd7e59287ec2889ea3d65>SIE_STATUS_SPEED_Field</h4><pre class=ada-code-snippet><code>subtype SIE_STATUS_SPEED_Field is HAL.UInt2;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>VBUS_DETECTED<dd><p>unspecified<dt>Reserved_1_1<dd><p>Read-only. USB bus line state<dt>LINE_STATE<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field. Bus in suspended state. Valid for device and host. Host and device will go into suspend if neither Keep Alive / SOF frames are enabled.<dt>SUSPENDED<dd><p>unspecified<dt>Reserved_5_7<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field. Host: device speed. Disconnected = 00, LS = 01, FS = 10<dt>SPEED<dd><p>Read-only. VBUS over current detected<dt>VBUS_OVER_CURR<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field. Host: Device has initiated a remote resume. Device: host has initiated a resume.<dt>RESUME<dd><p>unspecified<dt>Reserved_12_15<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field. Device: connected<dt>CONNECTED<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field. Device: Setup packet received<dt>SETUP_REC<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field. Transaction complete.\n\n Raised by device if:\n\n * An IN or OUT packet is sent with the <code>LAST_BUFF</code> bit set in the buffer control register\n\n Raised by host if:\n\n * A setup packet is sent when no data in or data out transaction follows * An IN packet is received and the <code>LAST_BUFF</code> bit is set in the buffer control register * An IN packet is received with zero length * An OUT packet is sent and the <code>LAST_BUFF</code> bit is set<dt>TRANS_COMPLETE<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field. Device: bus reset received<dt>BUS_RESET<dd><p>unspecified<dt>Reserved_20_23<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field. CRC Error. Raised by the Serial RX engine.<dt>CRC_ERROR<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field. Bit Stuff Error. Raised by the Serial RX engine.<dt>BIT_STUFF_ERROR<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field. RX overflow is raised by the Serial RX engine if the incoming data is too fast.<dt>RX_OVERFLOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field. RX timeout is raised by both the host and device if an ACK is not received in the maximum time specified by the USB spec.<dt>RX_TIMEOUT<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field. Host: NAK received<dt>NAK_REC<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field. Host: STALL received<dt>STALL_REC<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field. ACK received. Raised by both host and device.<dt>ACK_REC<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field. Data Sequence Error.\n\n The device can raise a sequence error in the following conditions:\n\n * A SETUP packet is received followed by a DATA1 packet (data phase should always be DATA0) * An OUT packet is received from the host but doesn't match the data pid in the buffer control register read from DPSRAM\n\n The host can raise a data sequence error in the following conditions:\n\n<ul><li><p>An IN packet from the device has the wrong data PID</ul><dt>DATA_SEQ_ERROR<dd></dl><h4 id=6b036a36468a40192a81c13c126be3b5b650f73466dbd7e59287ec2889ea3d65>SIE_STATUS_SPEED_Field</h4><pre class=ada-code-snippet><code>subtype SIE_STATUS_SPEED_Field is HAL.UInt2;
 </code></pre><h4 id=8c94ee3d0a89b72c04784ddc2d62e06a7e2f7d77bd03a31ec67f24efd38652ab>SOF_RD_COUNT_Field</h4><pre class=ada-code-snippet><code>subtype SOF_RD_COUNT_Field is HAL.UInt11;
 </code></pre><h4 id=bbf6a15dec70ee9db99326acac8384a46c3744b115807bb8a7d76e211649437a>SOF_RD_Register</h4><pre class=ada-code-snippet><code>type SOF_RD_Register is record
    COUNT          : SOF_RD_COUNT_Field;
    Reserved_11_31 : HAL.UInt21;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>COUNT<dd><dt>Reserved_11_31<dd></dl><h4 id=a823458fedb68c1e5e5ecf7aeb7ce6f280287675c3b8c5d7fbbae9267b7bd65a>SOF_WR_COUNT_Field</h4><pre class=ada-code-snippet><code>subtype SOF_WR_COUNT_Field is HAL.UInt11;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>COUNT<dd><p>unspecified<dt>Reserved_11_31<dd></dl><h4 id=a823458fedb68c1e5e5ecf7aeb7ce6f280287675c3b8c5d7fbbae9267b7bd65a>SOF_WR_COUNT_Field</h4><pre class=ada-code-snippet><code>subtype SOF_WR_COUNT_Field is HAL.UInt11;
 </code></pre><h4 id=2f7c8519f96176b96585dde3834cea6a9a4992a3999eb26ad5d0303e7ed78bd9>SOF_WR_Register</h4><pre class=ada-code-snippet><code>type SOF_WR_Register is record
    COUNT          : SOF_WR_COUNT_Field := 16#0#;
    Reserved_11_31 : HAL.UInt21 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>COUNT<dd><dt>Reserved_11_31<dd></dl><h4 id=a9cb48994e757c2d187dbb04ae192fdb4419f7ccc368fdcab6f8aa980f6fc8b5>USB_MUXING_Register</h4><pre class=ada-code-snippet><code>type USB_MUXING_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>COUNT<dd><p>unspecified<dt>Reserved_11_31<dd></dl><h4 id=a9cb48994e757c2d187dbb04ae192fdb4419f7ccc368fdcab6f8aa980f6fc8b5>USB_MUXING_Register</h4><pre class=ada-code-snippet><code>type USB_MUXING_Register is record
    TO_PHY         : Boolean := False;
    TO_EXTPHY      : Boolean := False;
    TO_DIGITAL_PAD : Boolean := False;
    SOFTCON        : Boolean := False;
    Reserved_4_31  : HAL.UInt28 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>TO_PHY<dd><dt>TO_EXTPHY<dd><dt>TO_DIGITAL_PAD<dd><dt>SOFTCON<dd><dt>Reserved_4_31<dd></dl><h4 id=ce7a201959d799f47b18fd07d9a0a73f41455a44dd69b7cbe743605d6b2f9eb3>USB_PWR_Register</h4><pre class=ada-code-snippet><code>type USB_PWR_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>TO_PHY<dd><p>unspecified<dt>TO_EXTPHY<dd><p>unspecified<dt>TO_DIGITAL_PAD<dd><p>unspecified<dt>SOFTCON<dd><p>unspecified<dt>Reserved_4_31<dd></dl><h4 id=ce7a201959d799f47b18fd07d9a0a73f41455a44dd69b7cbe743605d6b2f9eb3>USB_PWR_Register</h4><pre class=ada-code-snippet><code>type USB_PWR_Register is record
    VBUS_EN                 : Boolean := False;
    VBUS_EN_OVERRIDE_EN     : Boolean := False;
    VBUS_DETECT             : Boolean := False;
@@ -425,10 +385,8 @@ end record
    OVERCURR_DETECT         : Boolean := False;
    OVERCURR_DETECT_EN      : Boolean := False;
    Reserved_6_31           : HAL.UInt26 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>VBUS_EN<dd><dt>VBUS_EN_OVERRIDE_EN<dd><dt>VBUS_DETECT<dd><dt>VBUS_DETECT_OVERRIDE_EN<dd><dt>OVERCURR_DETECT<dd><dt>OVERCURR_DETECT_EN<dd><dt>Reserved_6_31<dd></dl><h4 id=bf182db061d6cfa9b4476927927161010fda956a0093dbc4ad3fbf13eefd6363>USBCTRL_REGS_Periph</h4><pre class=ada-code-snippet><code>USBCTRL_REGS_Periph : aliased USBCTRL_REGS_Peripheral
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>VBUS_EN<dd><p>unspecified<dt>VBUS_EN_OVERRIDE_EN<dd><p>unspecified<dt>VBUS_DETECT<dd><p>unspecified<dt>VBUS_DETECT_OVERRIDE_EN<dd><p>unspecified<dt>OVERCURR_DETECT<dd><p>unspecified<dt>OVERCURR_DETECT_EN<dd><p>unspecified<dt>Reserved_6_31<dd></dl><h4 id=bf182db061d6cfa9b4476927927161010fda956a0093dbc4ad3fbf13eefd6363>USBCTRL_REGS_Periph</h4><pre class=ada-code-snippet><code>USBCTRL_REGS_Periph : aliased USBCTRL_REGS_Peripheral
   with Import, Address => USBCTRL_REGS_Base;
 </code></pre><h4 id=397355d370d0fa080aef401c450279dceefec8b019de8a864d44e7fee89929ab>USBCTRL_REGS_Peripheral</h4><pre class=ada-code-snippet><code>type USBCTRL_REGS_Peripheral is record
    ADDR_ENDP              : aliased ADDR_ENDP_Register;
@@ -469,9 +427,8 @@ end record
    INTE                   : aliased INTE_Register;
    INTF                   : aliased INTF_Register;
    INTS                   : aliased INTS_Register;
-end record
-  with Volatile;
-</code></pre><h5>Record fields</h5><dl><dt>ADDR_ENDP<dd><dt>ADDR_ENDP1<dd><dt>ADDR_ENDP2<dd><dt>ADDR_ENDP3<dd><dt>ADDR_ENDP4<dd><dt>ADDR_ENDP5<dd><dt>ADDR_ENDP6<dd><dt>ADDR_ENDP7<dd><dt>ADDR_ENDP8<dd><dt>ADDR_ENDP9<dd><dt>ADDR_ENDP10<dd><dt>ADDR_ENDP11<dd><dt>ADDR_ENDP12<dd><dt>ADDR_ENDP13<dd><dt>ADDR_ENDP14<dd><dt>ADDR_ENDP15<dd><dt>MAIN_CTRL<dd><dt>SOF_WR<dd><dt>SOF_RD<dd><dt>SIE_CTRL<dd><dt>SIE_STATUS<dd><dt>INT_EP_CTRL<dd><dt>BUFF_STATUS<dd><dt>BUFF_CPU_SHOULD_HANDLE<dd><dt>EP_ABORT<dd><dt>EP_ABORT_DONE<dd><dt>EP_STALL_ARM<dd><dt>NAK_POLL<dd><dt>EP_STATUS_STALL_NAK<dd><dt>USB_MUXING<dd><dt>USB_PWR<dd><dt>USBPHY_DIRECT<dd><dt>USBPHY_DIRECT_OVERRIDE<dd><dt>USBPHY_TRIM<dd><dt>INTR<dd><dt>INTE<dd><dt>INTF<dd><dt>INTS<dd></dl><h4 id=6502ecae7e016bc1cc5d4430f0915f35c858a7128663d7902b40780ca5e26964>USBPHY_DIRECT_OVERRIDE_Register</h4><pre class=ada-code-snippet><code>type USBPHY_DIRECT_OVERRIDE_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>ADDR_ENDP<dd><p>Interrupt endpoint 1. Only valid for HOST mode.<dt>ADDR_ENDP1<dd><p>Interrupt endpoint 2. Only valid for HOST mode.<dt>ADDR_ENDP2<dd><p>Interrupt endpoint 3. Only valid for HOST mode.<dt>ADDR_ENDP3<dd><p>Interrupt endpoint 4. Only valid for HOST mode.<dt>ADDR_ENDP4<dd><p>Interrupt endpoint 5. Only valid for HOST mode.<dt>ADDR_ENDP5<dd><p>Interrupt endpoint 6. Only valid for HOST mode.<dt>ADDR_ENDP6<dd><p>Interrupt endpoint 7. Only valid for HOST mode.<dt>ADDR_ENDP7<dd><p>Interrupt endpoint 8. Only valid for HOST mode.<dt>ADDR_ENDP8<dd><p>Interrupt endpoint 9. Only valid for HOST mode.<dt>ADDR_ENDP9<dd><p>Interrupt endpoint 10. Only valid for HOST mode.<dt>ADDR_ENDP10<dd><p>Interrupt endpoint 11. Only valid for HOST mode.<dt>ADDR_ENDP11<dd><p>Interrupt endpoint 12. Only valid for HOST mode.<dt>ADDR_ENDP12<dd><p>Interrupt endpoint 13. Only valid for HOST mode.<dt>ADDR_ENDP13<dd><p>Interrupt endpoint 14. Only valid for HOST mode.<dt>ADDR_ENDP14<dd><p>Interrupt endpoint 15. Only valid for HOST mode.<dt>ADDR_ENDP15<dd><p>Main control register<dt>MAIN_CTRL<dd><p>Set the SOF (Start of Frame) frame number in the host controller. The SOF packet is sent every 1ms and the host will increment the frame number by 1 each time.<dt>SOF_WR<dd><p>Read the last SOF (Start of Frame) frame number seen. In device mode the last SOF received from the host. In host mode the last SOF sent by the host.<dt>SOF_RD<dd><p>SIE control register<dt>SIE_CTRL<dd><p>SIE status register<dt>SIE_STATUS<dd><p>interrupt endpoint control register<dt>INT_EP_CTRL<dd><p>Buffer status register. A bit set here indicates that a buffer has completed on the endpoint (if the buffer interrupt is enabled). It is possible for 2 buffers to be completed, so clearing the buffer status bit may instantly re set it on the next clock cycle.<dt>BUFF_STATUS<dd><p>Which of the double buffers should be handled. Only valid if using an interrupt per buffer (i.e. not per 2 buffers). Not valid for host interrupt endpoint polling because they are only single buffered.<dt>BUFF_CPU_SHOULD_HANDLE<dd><p>Device only: Can be set to ignore the buffer control register for this endpoint in case you would like to revoke a buffer. A NAK will be sent for every access to the endpoint until this bit is cleared. A corresponding bit in <code>EP_ABORT_DONE</code> is set when it is safe to modify the buffer control register.<dt>EP_ABORT<dd><p>Device only: Used in conjunction with <code>EP_ABORT</code>. Set once an endpoint is idle so the programmer knows it is safe to modify the buffer control register.<dt>EP_ABORT_DONE<dd><p>Device: this bit must be set in conjunction with the <code>STALL</code> bit in the buffer control register to send a STALL on EP0. The device controller clears these bits when a SETUP packet is received because the USB spec requires that a STALL condition is cleared when a SETUP packet is received.<dt>EP_STALL_ARM<dd><p>Used by the host controller. Sets the wait time in microseconds before trying again if the device replies with a NAK.<dt>NAK_POLL<dd><p>Device: bits are set when the <code>IRQ_ON_NAK</code> or <code>IRQ_ON_STALL</code> bits are set. For EP0 this comes from <code>SIE_CTRL</code>. For all other endpoints it comes from the endpoint control register.<dt>EP_STATUS_STALL_NAK<dd><p>Where to connect the USB controller. Should be to_phy by default.<dt>USB_MUXING<dd><p>Overrides for the power signals in the event that the VBUS signals are not hooked up to GPIO. Set the value of the override and then the override enable to switch over to the override value.<dt>USB_PWR<dd><p>This register allows for direct control of the USB phy. Use in conjunction with usbphy_direct_override register to enable each override bit.<dt>USBPHY_DIRECT<dd><p>Override enable for each control in usbphy_direct<dt>USBPHY_DIRECT_OVERRIDE<dd><p>Used to adjust trim values of USB phy pull down resistors.<dt>USBPHY_TRIM<dd><p>Raw Interrupts<dt>INTR<dd><p>Interrupt Enable<dt>INTE<dd><p>Interrupt Force<dt>INTF<dd><p>Interrupt status after masking &amp; forcing<dt>INTS<dd></dl><h4 id=6502ecae7e016bc1cc5d4430f0915f35c858a7128663d7902b40780ca5e26964>USBPHY_DIRECT_OVERRIDE_Register</h4><pre class=ada-code-snippet><code>type USBPHY_DIRECT_OVERRIDE_Register is record
    DP_PULLUP_HISEL_OVERRIDE_EN : Boolean := False;
    DM_PULLUP_HISEL_OVERRIDE_EN : Boolean := False;
    DP_PULLUP_EN_OVERRIDE_EN    : Boolean := False;
@@ -488,10 +445,8 @@ end record
    Reserved_13_14              : HAL.UInt2 := 16#0#;
    TX_DIFFMODE_OVERRIDE_EN     : Boolean := False;
    Reserved_16_31              : HAL.UInt16 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>DP_PULLUP_HISEL_OVERRIDE_EN<dd><dt>DM_PULLUP_HISEL_OVERRIDE_EN<dd><dt>DP_PULLUP_EN_OVERRIDE_EN<dd><dt>DP_PULLDN_EN_OVERRIDE_EN<dd><dt>DM_PULLDN_EN_OVERRIDE_EN<dd><dt>TX_DP_OE_OVERRIDE_EN<dd><dt>TX_DM_OE_OVERRIDE_EN<dd><dt>TX_DP_OVERRIDE_EN<dd><dt>TX_DM_OVERRIDE_EN<dd><dt>RX_PD_OVERRIDE_EN<dd><dt>TX_PD_OVERRIDE_EN<dd><dt>TX_FSSLEW_OVERRIDE_EN<dd><dt>DM_PULLUP_OVERRIDE_EN<dd><dt>Reserved_13_14<dd><dt>TX_DIFFMODE_OVERRIDE_EN<dd><dt>Reserved_16_31<dd></dl><h4 id=ce00dc10f497ecbcf29443eca735efb2857ca0e34be7b65eb151ec1e74c17257>USBPHY_DIRECT_Register</h4><pre class=ada-code-snippet><code>type USBPHY_DIRECT_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>DP_PULLUP_HISEL_OVERRIDE_EN<dd><p>unspecified<dt>DM_PULLUP_HISEL_OVERRIDE_EN<dd><p>unspecified<dt>DP_PULLUP_EN_OVERRIDE_EN<dd><p>unspecified<dt>DP_PULLDN_EN_OVERRIDE_EN<dd><p>unspecified<dt>DM_PULLDN_EN_OVERRIDE_EN<dd><p>unspecified<dt>TX_DP_OE_OVERRIDE_EN<dd><p>unspecified<dt>TX_DM_OE_OVERRIDE_EN<dd><p>unspecified<dt>TX_DP_OVERRIDE_EN<dd><p>unspecified<dt>TX_DM_OVERRIDE_EN<dd><p>unspecified<dt>RX_PD_OVERRIDE_EN<dd><p>unspecified<dt>TX_PD_OVERRIDE_EN<dd><p>unspecified<dt>TX_FSSLEW_OVERRIDE_EN<dd><p>unspecified<dt>DM_PULLUP_OVERRIDE_EN<dd><p>unspecified<dt>Reserved_13_14<dd><p>unspecified<dt>TX_DIFFMODE_OVERRIDE_EN<dd><p>unspecified<dt>Reserved_16_31<dd></dl><h4 id=ce00dc10f497ecbcf29443eca735efb2857ca0e34be7b65eb151ec1e74c17257>USBPHY_DIRECT_Register</h4><pre class=ada-code-snippet><code>type USBPHY_DIRECT_Register is record
    DP_PULLUP_HISEL : Boolean := False;
    DP_PULLUP_EN    : Boolean := False;
    DP_PULLDN_EN    : Boolean := False;
@@ -516,17 +471,13 @@ end record
    DP_OVV          : Boolean := False;
    DM_OVV          : Boolean := False;
    Reserved_23_31  : HAL.UInt9 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>DP_PULLUP_HISEL<dd><dt>DP_PULLUP_EN<dd><dt>DP_PULLDN_EN<dd><dt>Reserved_3_3<dd><dt>DM_PULLUP_HISEL<dd><dt>DM_PULLUP_EN<dd><dt>DM_PULLDN_EN<dd><dt>Reserved_7_7<dd><dt>TX_DP_OE<dd><dt>TX_DM_OE<dd><dt>TX_DP<dd><dt>TX_DM<dd><dt>RX_PD<dd><dt>TX_PD<dd><dt>TX_FSSLEW<dd><dt>TX_DIFFMODE<dd><dt>RX_DD<dd><dt>RX_DP<dd><dt>RX_DM<dd><dt>DP_OVCN<dd><dt>DM_OVCN<dd><dt>DP_OVV<dd><dt>DM_OVV<dd><dt>Reserved_23_31<dd></dl><h4 id=02fdc2623a66fb184761b272119c468aaec19db9abffc2779710d0580b4fddad>USBPHY_TRIM_DM_PULLDN_TRIM_Field</h4><pre class=ada-code-snippet><code>subtype USBPHY_TRIM_DM_PULLDN_TRIM_Field is HAL.UInt5;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>DP_PULLUP_HISEL<dd><p>DP pull up enable<dt>DP_PULLUP_EN<dd><p>DP pull down enable<dt>DP_PULLDN_EN<dd><p>unspecified<dt>Reserved_3_3<dd><p>Enable the second DM pull up resistor. 0 - Pull = Rpu2; 1 - Pull = Rpu1 + Rpu2<dt>DM_PULLUP_HISEL<dd><p>DM pull up enable<dt>DM_PULLUP_EN<dd><p>DM pull down enable<dt>DM_PULLDN_EN<dd><p>unspecified<dt>Reserved_7_7<dd><p>Output enable. If TX_DIFFMODE=1, OE for DPP/DPM diff pair. 0 - DPP/DPM in Hi-Z state; 1 - DPP/DPM driving\n If TX_DIFFMODE=0, OE for DPP only. 0 - DPP in Hi-Z state; 1 - DPP driving<dt>TX_DP_OE<dd><p>Output enable. If TX_DIFFMODE=1, Ignored.\n If TX_DIFFMODE=0, OE for DPM only. 0 - DPM in Hi-Z state; 1 - DPM driving<dt>TX_DM_OE<dd><p>Output data. If TX_DIFFMODE=1, Drives DPP/DPM diff pair. TX_DP_OE=1 to enable drive. DPP=TX_DP, DPM=~TX_DP\n If TX_DIFFMODE=0, Drives DPP only. TX_DP_OE=1 to enable drive. DPP=TX_DP<dt>TX_DP<dd><p>Output data. TX_DIFFMODE=1, Ignored\n TX_DIFFMODE=0, Drives DPM only. TX_DM_OE=1 to enable drive. DPM=TX_DM<dt>TX_DM<dd><p>RX power down override (if override enable is set). 1 = powered down.<dt>RX_PD<dd><p>TX power down override (if override enable is set). 1 = powered down.<dt>TX_PD<dd><p>TX_FSSLEW=0: Low speed slew rate\n TX_FSSLEW=1: Full speed slew rate<dt>TX_FSSLEW<dd><p>TX_DIFFMODE=0: Single ended mode\n TX_DIFFMODE=1: Differential drive mode (TX_DM, TX_DM_OE ignored)<dt>TX_DIFFMODE<dd><p>Read-only. Differential RX<dt>RX_DD<dd><p>Read-only. DPP pin state<dt>RX_DP<dd><p>Read-only. DPM pin state<dt>RX_DM<dd><p>Read-only. DP overcurrent<dt>DP_OVCN<dd><p>Read-only. DM overcurrent<dt>DM_OVCN<dd><p>Read-only. DP over voltage<dt>DP_OVV<dd><p>Read-only. DM over voltage<dt>DM_OVV<dd><p>unspecified<dt>Reserved_23_31<dd></dl><h4 id=02fdc2623a66fb184761b272119c468aaec19db9abffc2779710d0580b4fddad>USBPHY_TRIM_DM_PULLDN_TRIM_Field</h4><pre class=ada-code-snippet><code>subtype USBPHY_TRIM_DM_PULLDN_TRIM_Field is HAL.UInt5;
 </code></pre><h4 id=cd143c18ce994260d168d9d2690f9d2c31132132a02c567581904ba99426297f>USBPHY_TRIM_DP_PULLDN_TRIM_Field</h4><pre class=ada-code-snippet><code>subtype USBPHY_TRIM_DP_PULLDN_TRIM_Field is HAL.UInt5;
 </code></pre><h4 id=bba1107718af53ed99396b6fb14c1e7425657f10ee12d6387832d9bf53f81380>USBPHY_TRIM_Register</h4><pre class=ada-code-snippet><code>type USBPHY_TRIM_Register is record
    DP_PULLDN_TRIM : USBPHY_TRIM_DP_PULLDN_TRIM_Field := 16#1F#;
    Reserved_5_7   : HAL.UInt3 := 16#0#;
    DM_PULLDN_TRIM : USBPHY_TRIM_DM_PULLDN_TRIM_Field := 16#1F#;
    Reserved_13_31 : HAL.UInt19 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>DP_PULLDN_TRIM<dd><dt>Reserved_5_7<dd><dt>DM_PULLDN_TRIM<dd><dt>Reserved_13_31<dd></dl>
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>DP_PULLDN_TRIM<dd><p>unspecified<dt>Reserved_5_7<dd><p>Value to drive to USB PHY\n DM pulldown resistor trim control\n Experimental data suggests that the reset value will work, but this register allows adjustment if required<dt>DM_PULLDN_TRIM<dd><p>unspecified<dt>Reserved_13_31<dd></dl>

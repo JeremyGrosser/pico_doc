@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>Atomic.Basic_Operations</h1><h2>Entities</h2><h3>Generic formal parameters</h3><ul><li><a href=#519a08ef3caf9f8d6f52ebeb6cffc539dfe15fe46fd6ae0b2a159983588d0269>T</a></ul><h3>Simple Types</h3><ul><li><a href=#bce829976f833130f01db58eecd52cffe20d84d211282ef05c6a8f3f4a0a4166>Instance</a></ul><h3>Subprograms</h3><ul><li><a href=#b33560ec1a75215b7a02c183e11335f8c063098666e450eb78acebaa1215fc9b>Compare_Exchange</a><li><a href=#ec0429c6cd2f69a46e61db5c857740ef2c4e93cd976c938243a52b12442ba4df>Compare_Exchange</a><li><a href=#c2bfdb8f6adeaec88988bde89744813c86cddecb9a2856c26612c80e84fa6616>Exchange</a><li><a href=#a8a05df074e74585eff83280a68a545648ecf8b9a5ae1cc6ccb7fd0a44deb681>Exchange</a><li><a href=#8b5306722cf9c8a45774796fd7f6271853cf526e8c5082da76f9a2f6a39301e8>Init</a><li><a href=#c7de6588468517dec80fba43d4956875bdab48951eff16ae8a578cdd1cd09373>Load</a><li><a href=#1173c83fefd7dae2a85e8763ed01850ffb6108fba4a5bb9d4bd6d00f6b826ed2>Store</a><li><a href=#894bee51afc4aff9ab004e822688c489ac8390326340b1affd5e4aa11ab2af01>Value</a></ul><h2>Description</h2><p>Based on GCC atomic built-ins. See: https://gcc.gnu.org/onlinedocs/gcc/_005f_005fatomic-Builtins.html<p>The specification is exactly the same for all sizes of data (8, 16, 32, 64).<h4 id=b33560ec1a75215b7a02c183e11335f8c063098666e450eb78acebaa1215fc9b>Compare_Exchange</h4><pre class=ada-code-snippet><code>function Compare_Exchange
+  (This          : aliased in out Instance;
+   Expected      : T;
+   Desired       : T;
+   Weak          : Boolean;
+   Success_Order : Mem_Order := Seq_Cst;
+   Failure_Order : Mem_Order := Seq_Cst) return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Expected<dd><dt>Desired<dd><dt>Weak<dd><dt>Success_Order<dd><dt>Failure_Order<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=ec0429c6cd2f69a46e61db5c857740ef2c4e93cd976c938243a52b12442ba4df>Compare_Exchange</h4><pre class=ada-code-snippet><code>procedure Compare_Exchange
+  (This          : aliased in out Instance;
+   Expected      : T;
+   Desired       : T;
+   Weak          : Boolean;
+   Success       : out Boolean;
+   Success_Order : Mem_Order := Seq_Cst;
+   Failure_Order : Mem_Order := Seq_Cst)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Expected<dd><dt>Desired<dd><dt>Weak<dd><dt>Success<dd><dt>Success_Order<dd><dt>Failure_Order<dd></dl><h4 id=c2bfdb8f6adeaec88988bde89744813c86cddecb9a2856c26612c80e84fa6616>Exchange</h4><pre class=ada-code-snippet><code>function Exchange
+  (This : aliased in out Instance; Val : T; Order : Mem_Order := Seq_Cst)
+   return T
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Val<dd><dt>Order<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=a8a05df074e74585eff83280a68a545648ecf8b9a5ae1cc6ccb7fd0a44deb681>Exchange</h4><pre class=ada-code-snippet><code>procedure Exchange
+  (This  : aliased in out Instance;
+   Val   : T;
+   Old   : out T;
+   Order : Mem_Order := Seq_Cst)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Val<dd><dt>Old<dd><dt>Order<dd></dl><h4 id=8b5306722cf9c8a45774796fd7f6271853cf526e8c5082da76f9a2f6a39301e8>Init</h4><pre class=ada-code-snippet><code>function Init (Val : T) return Instance
+</code></pre><p>Can be used to initialize an atomic instance:<p>A : My_Atomic_Access.Instance := My_Atomic_Access.Init (null);<h5>Parameters</h5><dl><dt>Val<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=bce829976f833130f01db58eecd52cffe20d84d211282ef05c6a8f3f4a0a4166>Instance</h4><pre class=ada-code-snippet><code>type Instance is limited private;
+</code></pre><p>This type is limited and private, it can only be manipulated using the primitives below.<h4 id=c7de6588468517dec80fba43d4956875bdab48951eff16ae8a578cdd1cd09373>Load</h4><pre class=ada-code-snippet><code>function Load
+  (This : aliased Instance; Order : Mem_Order := Seq_Cst) return T
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Order<dd></dl><h5>Return Value</h5><dl><dd></dl><h4 id=1173c83fefd7dae2a85e8763ed01850ffb6108fba4a5bb9d4bd6d00f6b826ed2>Store</h4><pre class=ada-code-snippet><code>procedure Store
+  (This : aliased in out Instance; Val : T; Order : Mem_Order := Seq_Cst)
+</code></pre><h5>Parameters</h5><dl><dt>This<dd><dt>Val<dd><dt>Order<dd></dl><h4 id=519a08ef3caf9f8d6f52ebeb6cffc539dfe15fe46fd6ae0b2a159983588d0269>T</h4><pre class=ada-code-snippet><code>type T is private;
+</code></pre><h4 id=894bee51afc4aff9ab004e822688c489ac8390326340b1affd5e4aa11ab2af01>Value</h4><pre class=ada-code-snippet><code>function Value (This : Instance) return T
+</code></pre><p>Ghost function to get the value of an instance without needing it aliased. This function can be used in contracts for instance. This doesn't use the atomic built-ins.<h5>Parameters</h5><dl><dt>This<dd></dl><h5>Return Value</h5><dl><dd></dl>

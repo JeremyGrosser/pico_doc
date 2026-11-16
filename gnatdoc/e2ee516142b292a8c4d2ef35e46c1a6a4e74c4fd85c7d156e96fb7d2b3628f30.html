@@ -33,9 +33,7 @@
    GPIO7_LEVEL_HIGH : Boolean := False;
    GPIO7_EDGE_LOW   : Boolean := False;
    GPIO7_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>GPIO0_LEVEL_LOW<dd><dt>GPIO0_LEVEL_HIGH<dd><dt>GPIO0_EDGE_LOW<dd><dt>GPIO0_EDGE_HIGH<dd><dt>GPIO1_LEVEL_LOW<dd><dt>GPIO1_LEVEL_HIGH<dd><dt>GPIO1_EDGE_LOW<dd><dt>GPIO1_EDGE_HIGH<dd><dt>GPIO2_LEVEL_LOW<dd><dt>GPIO2_LEVEL_HIGH<dd><dt>GPIO2_EDGE_LOW<dd><dt>GPIO2_EDGE_HIGH<dd><dt>GPIO3_LEVEL_LOW<dd><dt>GPIO3_LEVEL_HIGH<dd><dt>GPIO3_EDGE_LOW<dd><dt>GPIO3_EDGE_HIGH<dd><dt>GPIO4_LEVEL_LOW<dd><dt>GPIO4_LEVEL_HIGH<dd><dt>GPIO4_EDGE_LOW<dd><dt>GPIO4_EDGE_HIGH<dd><dt>GPIO5_LEVEL_LOW<dd><dt>GPIO5_LEVEL_HIGH<dd><dt>GPIO5_EDGE_LOW<dd><dt>GPIO5_EDGE_HIGH<dd><dt>GPIO6_LEVEL_LOW<dd><dt>GPIO6_LEVEL_HIGH<dd><dt>GPIO6_EDGE_LOW<dd><dt>GPIO6_EDGE_HIGH<dd><dt>GPIO7_LEVEL_LOW<dd><dt>GPIO7_LEVEL_HIGH<dd><dt>GPIO7_EDGE_LOW<dd><dt>GPIO7_EDGE_HIGH<dd></dl><h4 id=250f3f7eb13a8d10a3eda9cbacc412619ac1d38576688e3f0b176e4cdfeea5ba>DORMANT_WAKE_INTE1_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTE1_Register is record
    GPIO8_LEVEL_LOW   : Boolean := False;
    GPIO8_LEVEL_HIGH  : Boolean := False;
@@ -69,9 +67,7 @@ end record
    GPIO15_LEVEL_HIGH : Boolean := False;
    GPIO15_EDGE_LOW   : Boolean := False;
    GPIO15_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>GPIO8_LEVEL_LOW<dd><dt>GPIO8_LEVEL_HIGH<dd><dt>GPIO8_EDGE_LOW<dd><dt>GPIO8_EDGE_HIGH<dd><dt>GPIO9_LEVEL_LOW<dd><dt>GPIO9_LEVEL_HIGH<dd><dt>GPIO9_EDGE_LOW<dd><dt>GPIO9_EDGE_HIGH<dd><dt>GPIO10_LEVEL_LOW<dd><dt>GPIO10_LEVEL_HIGH<dd><dt>GPIO10_EDGE_LOW<dd><dt>GPIO10_EDGE_HIGH<dd><dt>GPIO11_LEVEL_LOW<dd><dt>GPIO11_LEVEL_HIGH<dd><dt>GPIO11_EDGE_LOW<dd><dt>GPIO11_EDGE_HIGH<dd><dt>GPIO12_LEVEL_LOW<dd><dt>GPIO12_LEVEL_HIGH<dd><dt>GPIO12_EDGE_LOW<dd><dt>GPIO12_EDGE_HIGH<dd><dt>GPIO13_LEVEL_LOW<dd><dt>GPIO13_LEVEL_HIGH<dd><dt>GPIO13_EDGE_LOW<dd><dt>GPIO13_EDGE_HIGH<dd><dt>GPIO14_LEVEL_LOW<dd><dt>GPIO14_LEVEL_HIGH<dd><dt>GPIO14_EDGE_LOW<dd><dt>GPIO14_EDGE_HIGH<dd><dt>GPIO15_LEVEL_LOW<dd><dt>GPIO15_LEVEL_HIGH<dd><dt>GPIO15_EDGE_LOW<dd><dt>GPIO15_EDGE_HIGH<dd></dl><h4 id=a8dffb9f21f97033376e11c16db32d0c500bfdfa162d86c3d7ee7a24d6956339>DORMANT_WAKE_INTE2_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTE2_Register is record
    GPIO16_LEVEL_LOW  : Boolean := False;
    GPIO16_LEVEL_HIGH : Boolean := False;
@@ -105,9 +101,7 @@ end record
    GPIO23_LEVEL_HIGH : Boolean := False;
    GPIO23_EDGE_LOW   : Boolean := False;
    GPIO23_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>GPIO16_LEVEL_LOW<dd><dt>GPIO16_LEVEL_HIGH<dd><dt>GPIO16_EDGE_LOW<dd><dt>GPIO16_EDGE_HIGH<dd><dt>GPIO17_LEVEL_LOW<dd><dt>GPIO17_LEVEL_HIGH<dd><dt>GPIO17_EDGE_LOW<dd><dt>GPIO17_EDGE_HIGH<dd><dt>GPIO18_LEVEL_LOW<dd><dt>GPIO18_LEVEL_HIGH<dd><dt>GPIO18_EDGE_LOW<dd><dt>GPIO18_EDGE_HIGH<dd><dt>GPIO19_LEVEL_LOW<dd><dt>GPIO19_LEVEL_HIGH<dd><dt>GPIO19_EDGE_LOW<dd><dt>GPIO19_EDGE_HIGH<dd><dt>GPIO20_LEVEL_LOW<dd><dt>GPIO20_LEVEL_HIGH<dd><dt>GPIO20_EDGE_LOW<dd><dt>GPIO20_EDGE_HIGH<dd><dt>GPIO21_LEVEL_LOW<dd><dt>GPIO21_LEVEL_HIGH<dd><dt>GPIO21_EDGE_LOW<dd><dt>GPIO21_EDGE_HIGH<dd><dt>GPIO22_LEVEL_LOW<dd><dt>GPIO22_LEVEL_HIGH<dd><dt>GPIO22_EDGE_LOW<dd><dt>GPIO22_EDGE_HIGH<dd><dt>GPIO23_LEVEL_LOW<dd><dt>GPIO23_LEVEL_HIGH<dd><dt>GPIO23_EDGE_LOW<dd><dt>GPIO23_EDGE_HIGH<dd></dl><h4 id=065e8d412add0e34f8ce4993ba52c8571548ca57dedd9c0437faf31148e34f21>DORMANT_WAKE_INTE3_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTE3_Register is record
    GPIO24_LEVEL_LOW  : Boolean := False;
    GPIO24_LEVEL_HIGH : Boolean := False;
@@ -134,10 +128,8 @@ end record
    GPIO29_EDGE_LOW   : Boolean := False;
    GPIO29_EDGE_HIGH  : Boolean := False;
    Reserved_24_31    : HAL.UInt8 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><dt>GPIO24_LEVEL_HIGH<dd><dt>GPIO24_EDGE_LOW<dd><dt>GPIO24_EDGE_HIGH<dd><dt>GPIO25_LEVEL_LOW<dd><dt>GPIO25_LEVEL_HIGH<dd><dt>GPIO25_EDGE_LOW<dd><dt>GPIO25_EDGE_HIGH<dd><dt>GPIO26_LEVEL_LOW<dd><dt>GPIO26_LEVEL_HIGH<dd><dt>GPIO26_EDGE_LOW<dd><dt>GPIO26_EDGE_HIGH<dd><dt>GPIO27_LEVEL_LOW<dd><dt>GPIO27_LEVEL_HIGH<dd><dt>GPIO27_EDGE_LOW<dd><dt>GPIO27_EDGE_HIGH<dd><dt>GPIO28_LEVEL_LOW<dd><dt>GPIO28_LEVEL_HIGH<dd><dt>GPIO28_EDGE_LOW<dd><dt>GPIO28_EDGE_HIGH<dd><dt>GPIO29_LEVEL_LOW<dd><dt>GPIO29_LEVEL_HIGH<dd><dt>GPIO29_EDGE_LOW<dd><dt>GPIO29_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl><h4 id=e1779a1ffb4cebea7470ea33da41295b7ad620e64803184ce7b496d24538a4ee>DORMANT_WAKE_INTF0_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTF0_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><p>unspecified<dt>GPIO24_LEVEL_HIGH<dd><p>unspecified<dt>GPIO24_EDGE_LOW<dd><p>unspecified<dt>GPIO24_EDGE_HIGH<dd><p>unspecified<dt>GPIO25_LEVEL_LOW<dd><p>unspecified<dt>GPIO25_LEVEL_HIGH<dd><p>unspecified<dt>GPIO25_EDGE_LOW<dd><p>unspecified<dt>GPIO25_EDGE_HIGH<dd><p>unspecified<dt>GPIO26_LEVEL_LOW<dd><p>unspecified<dt>GPIO26_LEVEL_HIGH<dd><p>unspecified<dt>GPIO26_EDGE_LOW<dd><p>unspecified<dt>GPIO26_EDGE_HIGH<dd><p>unspecified<dt>GPIO27_LEVEL_LOW<dd><p>unspecified<dt>GPIO27_LEVEL_HIGH<dd><p>unspecified<dt>GPIO27_EDGE_LOW<dd><p>unspecified<dt>GPIO27_EDGE_HIGH<dd><p>unspecified<dt>GPIO28_LEVEL_LOW<dd><p>unspecified<dt>GPIO28_LEVEL_HIGH<dd><p>unspecified<dt>GPIO28_EDGE_LOW<dd><p>unspecified<dt>GPIO28_EDGE_HIGH<dd><p>unspecified<dt>GPIO29_LEVEL_LOW<dd><p>unspecified<dt>GPIO29_LEVEL_HIGH<dd><p>unspecified<dt>GPIO29_EDGE_LOW<dd><p>unspecified<dt>GPIO29_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=e1779a1ffb4cebea7470ea33da41295b7ad620e64803184ce7b496d24538a4ee>DORMANT_WAKE_INTF0_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTF0_Register is record
    GPIO0_LEVEL_LOW  : Boolean := False;
    GPIO0_LEVEL_HIGH : Boolean := False;
    GPIO0_EDGE_LOW   : Boolean := False;
@@ -170,9 +162,7 @@ end record
    GPIO7_LEVEL_HIGH : Boolean := False;
    GPIO7_EDGE_LOW   : Boolean := False;
    GPIO7_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>GPIO0_LEVEL_LOW<dd><dt>GPIO0_LEVEL_HIGH<dd><dt>GPIO0_EDGE_LOW<dd><dt>GPIO0_EDGE_HIGH<dd><dt>GPIO1_LEVEL_LOW<dd><dt>GPIO1_LEVEL_HIGH<dd><dt>GPIO1_EDGE_LOW<dd><dt>GPIO1_EDGE_HIGH<dd><dt>GPIO2_LEVEL_LOW<dd><dt>GPIO2_LEVEL_HIGH<dd><dt>GPIO2_EDGE_LOW<dd><dt>GPIO2_EDGE_HIGH<dd><dt>GPIO3_LEVEL_LOW<dd><dt>GPIO3_LEVEL_HIGH<dd><dt>GPIO3_EDGE_LOW<dd><dt>GPIO3_EDGE_HIGH<dd><dt>GPIO4_LEVEL_LOW<dd><dt>GPIO4_LEVEL_HIGH<dd><dt>GPIO4_EDGE_LOW<dd><dt>GPIO4_EDGE_HIGH<dd><dt>GPIO5_LEVEL_LOW<dd><dt>GPIO5_LEVEL_HIGH<dd><dt>GPIO5_EDGE_LOW<dd><dt>GPIO5_EDGE_HIGH<dd><dt>GPIO6_LEVEL_LOW<dd><dt>GPIO6_LEVEL_HIGH<dd><dt>GPIO6_EDGE_LOW<dd><dt>GPIO6_EDGE_HIGH<dd><dt>GPIO7_LEVEL_LOW<dd><dt>GPIO7_LEVEL_HIGH<dd><dt>GPIO7_EDGE_LOW<dd><dt>GPIO7_EDGE_HIGH<dd></dl><h4 id=3b8c856207fcd747f2e26d3235318d52d90b73b937c6798a77b6b870c41f2fd2>DORMANT_WAKE_INTF1_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTF1_Register is record
    GPIO8_LEVEL_LOW   : Boolean := False;
    GPIO8_LEVEL_HIGH  : Boolean := False;
@@ -206,9 +196,7 @@ end record
    GPIO15_LEVEL_HIGH : Boolean := False;
    GPIO15_EDGE_LOW   : Boolean := False;
    GPIO15_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>GPIO8_LEVEL_LOW<dd><dt>GPIO8_LEVEL_HIGH<dd><dt>GPIO8_EDGE_LOW<dd><dt>GPIO8_EDGE_HIGH<dd><dt>GPIO9_LEVEL_LOW<dd><dt>GPIO9_LEVEL_HIGH<dd><dt>GPIO9_EDGE_LOW<dd><dt>GPIO9_EDGE_HIGH<dd><dt>GPIO10_LEVEL_LOW<dd><dt>GPIO10_LEVEL_HIGH<dd><dt>GPIO10_EDGE_LOW<dd><dt>GPIO10_EDGE_HIGH<dd><dt>GPIO11_LEVEL_LOW<dd><dt>GPIO11_LEVEL_HIGH<dd><dt>GPIO11_EDGE_LOW<dd><dt>GPIO11_EDGE_HIGH<dd><dt>GPIO12_LEVEL_LOW<dd><dt>GPIO12_LEVEL_HIGH<dd><dt>GPIO12_EDGE_LOW<dd><dt>GPIO12_EDGE_HIGH<dd><dt>GPIO13_LEVEL_LOW<dd><dt>GPIO13_LEVEL_HIGH<dd><dt>GPIO13_EDGE_LOW<dd><dt>GPIO13_EDGE_HIGH<dd><dt>GPIO14_LEVEL_LOW<dd><dt>GPIO14_LEVEL_HIGH<dd><dt>GPIO14_EDGE_LOW<dd><dt>GPIO14_EDGE_HIGH<dd><dt>GPIO15_LEVEL_LOW<dd><dt>GPIO15_LEVEL_HIGH<dd><dt>GPIO15_EDGE_LOW<dd><dt>GPIO15_EDGE_HIGH<dd></dl><h4 id=ff41b4e60086d90598d41aab46d4f352ad201d4fb62c5f44e03d6af6468cd25e>DORMANT_WAKE_INTF2_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTF2_Register is record
    GPIO16_LEVEL_LOW  : Boolean := False;
    GPIO16_LEVEL_HIGH : Boolean := False;
@@ -242,9 +230,7 @@ end record
    GPIO23_LEVEL_HIGH : Boolean := False;
    GPIO23_EDGE_LOW   : Boolean := False;
    GPIO23_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>GPIO16_LEVEL_LOW<dd><dt>GPIO16_LEVEL_HIGH<dd><dt>GPIO16_EDGE_LOW<dd><dt>GPIO16_EDGE_HIGH<dd><dt>GPIO17_LEVEL_LOW<dd><dt>GPIO17_LEVEL_HIGH<dd><dt>GPIO17_EDGE_LOW<dd><dt>GPIO17_EDGE_HIGH<dd><dt>GPIO18_LEVEL_LOW<dd><dt>GPIO18_LEVEL_HIGH<dd><dt>GPIO18_EDGE_LOW<dd><dt>GPIO18_EDGE_HIGH<dd><dt>GPIO19_LEVEL_LOW<dd><dt>GPIO19_LEVEL_HIGH<dd><dt>GPIO19_EDGE_LOW<dd><dt>GPIO19_EDGE_HIGH<dd><dt>GPIO20_LEVEL_LOW<dd><dt>GPIO20_LEVEL_HIGH<dd><dt>GPIO20_EDGE_LOW<dd><dt>GPIO20_EDGE_HIGH<dd><dt>GPIO21_LEVEL_LOW<dd><dt>GPIO21_LEVEL_HIGH<dd><dt>GPIO21_EDGE_LOW<dd><dt>GPIO21_EDGE_HIGH<dd><dt>GPIO22_LEVEL_LOW<dd><dt>GPIO22_LEVEL_HIGH<dd><dt>GPIO22_EDGE_LOW<dd><dt>GPIO22_EDGE_HIGH<dd><dt>GPIO23_LEVEL_LOW<dd><dt>GPIO23_LEVEL_HIGH<dd><dt>GPIO23_EDGE_LOW<dd><dt>GPIO23_EDGE_HIGH<dd></dl><h4 id=72d6a24ebac3e93b277138d61aca7e5f23b8b4d5d05e31fe35e5596d2f7a5cef>DORMANT_WAKE_INTF3_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTF3_Register is record
    GPIO24_LEVEL_LOW  : Boolean := False;
    GPIO24_LEVEL_HIGH : Boolean := False;
@@ -271,10 +257,8 @@ end record
    GPIO29_EDGE_LOW   : Boolean := False;
    GPIO29_EDGE_HIGH  : Boolean := False;
    Reserved_24_31    : HAL.UInt8 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><dt>GPIO24_LEVEL_HIGH<dd><dt>GPIO24_EDGE_LOW<dd><dt>GPIO24_EDGE_HIGH<dd><dt>GPIO25_LEVEL_LOW<dd><dt>GPIO25_LEVEL_HIGH<dd><dt>GPIO25_EDGE_LOW<dd><dt>GPIO25_EDGE_HIGH<dd><dt>GPIO26_LEVEL_LOW<dd><dt>GPIO26_LEVEL_HIGH<dd><dt>GPIO26_EDGE_LOW<dd><dt>GPIO26_EDGE_HIGH<dd><dt>GPIO27_LEVEL_LOW<dd><dt>GPIO27_LEVEL_HIGH<dd><dt>GPIO27_EDGE_LOW<dd><dt>GPIO27_EDGE_HIGH<dd><dt>GPIO28_LEVEL_LOW<dd><dt>GPIO28_LEVEL_HIGH<dd><dt>GPIO28_EDGE_LOW<dd><dt>GPIO28_EDGE_HIGH<dd><dt>GPIO29_LEVEL_LOW<dd><dt>GPIO29_LEVEL_HIGH<dd><dt>GPIO29_EDGE_LOW<dd><dt>GPIO29_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl><h4 id=0263c98cb766a37846b1f2b4fd0eb1a469ae8decaa47ffccbed24fb9fbeb4d07>DORMANT_WAKE_INTS0_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTS0_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><p>unspecified<dt>GPIO24_LEVEL_HIGH<dd><p>unspecified<dt>GPIO24_EDGE_LOW<dd><p>unspecified<dt>GPIO24_EDGE_HIGH<dd><p>unspecified<dt>GPIO25_LEVEL_LOW<dd><p>unspecified<dt>GPIO25_LEVEL_HIGH<dd><p>unspecified<dt>GPIO25_EDGE_LOW<dd><p>unspecified<dt>GPIO25_EDGE_HIGH<dd><p>unspecified<dt>GPIO26_LEVEL_LOW<dd><p>unspecified<dt>GPIO26_LEVEL_HIGH<dd><p>unspecified<dt>GPIO26_EDGE_LOW<dd><p>unspecified<dt>GPIO26_EDGE_HIGH<dd><p>unspecified<dt>GPIO27_LEVEL_LOW<dd><p>unspecified<dt>GPIO27_LEVEL_HIGH<dd><p>unspecified<dt>GPIO27_EDGE_LOW<dd><p>unspecified<dt>GPIO27_EDGE_HIGH<dd><p>unspecified<dt>GPIO28_LEVEL_LOW<dd><p>unspecified<dt>GPIO28_LEVEL_HIGH<dd><p>unspecified<dt>GPIO28_EDGE_LOW<dd><p>unspecified<dt>GPIO28_EDGE_HIGH<dd><p>unspecified<dt>GPIO29_LEVEL_LOW<dd><p>unspecified<dt>GPIO29_LEVEL_HIGH<dd><p>unspecified<dt>GPIO29_EDGE_LOW<dd><p>unspecified<dt>GPIO29_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=0263c98cb766a37846b1f2b4fd0eb1a469ae8decaa47ffccbed24fb9fbeb4d07>DORMANT_WAKE_INTS0_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTS0_Register is record
    GPIO0_LEVEL_LOW  : Boolean;
    GPIO0_LEVEL_HIGH : Boolean;
    GPIO0_EDGE_LOW   : Boolean;
@@ -307,10 +291,8 @@ end record
    GPIO7_LEVEL_HIGH : Boolean;
    GPIO7_EDGE_LOW   : Boolean;
    GPIO7_EDGE_HIGH  : Boolean;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO0_LEVEL_LOW<dd><dt>GPIO0_LEVEL_HIGH<dd><dt>GPIO0_EDGE_LOW<dd><dt>GPIO0_EDGE_HIGH<dd><dt>GPIO1_LEVEL_LOW<dd><dt>GPIO1_LEVEL_HIGH<dd><dt>GPIO1_EDGE_LOW<dd><dt>GPIO1_EDGE_HIGH<dd><dt>GPIO2_LEVEL_LOW<dd><dt>GPIO2_LEVEL_HIGH<dd><dt>GPIO2_EDGE_LOW<dd><dt>GPIO2_EDGE_HIGH<dd><dt>GPIO3_LEVEL_LOW<dd><dt>GPIO3_LEVEL_HIGH<dd><dt>GPIO3_EDGE_LOW<dd><dt>GPIO3_EDGE_HIGH<dd><dt>GPIO4_LEVEL_LOW<dd><dt>GPIO4_LEVEL_HIGH<dd><dt>GPIO4_EDGE_LOW<dd><dt>GPIO4_EDGE_HIGH<dd><dt>GPIO5_LEVEL_LOW<dd><dt>GPIO5_LEVEL_HIGH<dd><dt>GPIO5_EDGE_LOW<dd><dt>GPIO5_EDGE_HIGH<dd><dt>GPIO6_LEVEL_LOW<dd><dt>GPIO6_LEVEL_HIGH<dd><dt>GPIO6_EDGE_LOW<dd><dt>GPIO6_EDGE_HIGH<dd><dt>GPIO7_LEVEL_LOW<dd><dt>GPIO7_LEVEL_HIGH<dd><dt>GPIO7_EDGE_LOW<dd><dt>GPIO7_EDGE_HIGH<dd></dl><h4 id=4cc31e90a8b3984e794cc9e7227b49373c687847a437cf3d63b308343027f6db>DORMANT_WAKE_INTS1_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTS1_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO0_LEVEL_LOW<dd><p>Read-only.<dt>GPIO0_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO0_EDGE_LOW<dd><p>Read-only.<dt>GPIO0_EDGE_HIGH<dd><p>Read-only.<dt>GPIO1_LEVEL_LOW<dd><p>Read-only.<dt>GPIO1_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO1_EDGE_LOW<dd><p>Read-only.<dt>GPIO1_EDGE_HIGH<dd><p>Read-only.<dt>GPIO2_LEVEL_LOW<dd><p>Read-only.<dt>GPIO2_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO2_EDGE_LOW<dd><p>Read-only.<dt>GPIO2_EDGE_HIGH<dd><p>Read-only.<dt>GPIO3_LEVEL_LOW<dd><p>Read-only.<dt>GPIO3_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO3_EDGE_LOW<dd><p>Read-only.<dt>GPIO3_EDGE_HIGH<dd><p>Read-only.<dt>GPIO4_LEVEL_LOW<dd><p>Read-only.<dt>GPIO4_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO4_EDGE_LOW<dd><p>Read-only.<dt>GPIO4_EDGE_HIGH<dd><p>Read-only.<dt>GPIO5_LEVEL_LOW<dd><p>Read-only.<dt>GPIO5_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO5_EDGE_LOW<dd><p>Read-only.<dt>GPIO5_EDGE_HIGH<dd><p>Read-only.<dt>GPIO6_LEVEL_LOW<dd><p>Read-only.<dt>GPIO6_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO6_EDGE_LOW<dd><p>Read-only.<dt>GPIO6_EDGE_HIGH<dd><p>Read-only.<dt>GPIO7_LEVEL_LOW<dd><p>Read-only.<dt>GPIO7_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO7_EDGE_LOW<dd><p>Read-only.<dt>GPIO7_EDGE_HIGH<dd></dl><h4 id=4cc31e90a8b3984e794cc9e7227b49373c687847a437cf3d63b308343027f6db>DORMANT_WAKE_INTS1_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTS1_Register is record
    GPIO8_LEVEL_LOW   : Boolean;
    GPIO8_LEVEL_HIGH  : Boolean;
    GPIO8_EDGE_LOW    : Boolean;
@@ -343,10 +325,8 @@ end record
    GPIO15_LEVEL_HIGH : Boolean;
    GPIO15_EDGE_LOW   : Boolean;
    GPIO15_EDGE_HIGH  : Boolean;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO8_LEVEL_LOW<dd><dt>GPIO8_LEVEL_HIGH<dd><dt>GPIO8_EDGE_LOW<dd><dt>GPIO8_EDGE_HIGH<dd><dt>GPIO9_LEVEL_LOW<dd><dt>GPIO9_LEVEL_HIGH<dd><dt>GPIO9_EDGE_LOW<dd><dt>GPIO9_EDGE_HIGH<dd><dt>GPIO10_LEVEL_LOW<dd><dt>GPIO10_LEVEL_HIGH<dd><dt>GPIO10_EDGE_LOW<dd><dt>GPIO10_EDGE_HIGH<dd><dt>GPIO11_LEVEL_LOW<dd><dt>GPIO11_LEVEL_HIGH<dd><dt>GPIO11_EDGE_LOW<dd><dt>GPIO11_EDGE_HIGH<dd><dt>GPIO12_LEVEL_LOW<dd><dt>GPIO12_LEVEL_HIGH<dd><dt>GPIO12_EDGE_LOW<dd><dt>GPIO12_EDGE_HIGH<dd><dt>GPIO13_LEVEL_LOW<dd><dt>GPIO13_LEVEL_HIGH<dd><dt>GPIO13_EDGE_LOW<dd><dt>GPIO13_EDGE_HIGH<dd><dt>GPIO14_LEVEL_LOW<dd><dt>GPIO14_LEVEL_HIGH<dd><dt>GPIO14_EDGE_LOW<dd><dt>GPIO14_EDGE_HIGH<dd><dt>GPIO15_LEVEL_LOW<dd><dt>GPIO15_LEVEL_HIGH<dd><dt>GPIO15_EDGE_LOW<dd><dt>GPIO15_EDGE_HIGH<dd></dl><h4 id=7bc2c28edff91d4be14f815349cbed92392056293d48ab631f6a4686f209fba2>DORMANT_WAKE_INTS2_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTS2_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO8_LEVEL_LOW<dd><p>Read-only.<dt>GPIO8_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO8_EDGE_LOW<dd><p>Read-only.<dt>GPIO8_EDGE_HIGH<dd><p>Read-only.<dt>GPIO9_LEVEL_LOW<dd><p>Read-only.<dt>GPIO9_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO9_EDGE_LOW<dd><p>Read-only.<dt>GPIO9_EDGE_HIGH<dd><p>Read-only.<dt>GPIO10_LEVEL_LOW<dd><p>Read-only.<dt>GPIO10_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO10_EDGE_LOW<dd><p>Read-only.<dt>GPIO10_EDGE_HIGH<dd><p>Read-only.<dt>GPIO11_LEVEL_LOW<dd><p>Read-only.<dt>GPIO11_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO11_EDGE_LOW<dd><p>Read-only.<dt>GPIO11_EDGE_HIGH<dd><p>Read-only.<dt>GPIO12_LEVEL_LOW<dd><p>Read-only.<dt>GPIO12_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO12_EDGE_LOW<dd><p>Read-only.<dt>GPIO12_EDGE_HIGH<dd><p>Read-only.<dt>GPIO13_LEVEL_LOW<dd><p>Read-only.<dt>GPIO13_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO13_EDGE_LOW<dd><p>Read-only.<dt>GPIO13_EDGE_HIGH<dd><p>Read-only.<dt>GPIO14_LEVEL_LOW<dd><p>Read-only.<dt>GPIO14_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO14_EDGE_LOW<dd><p>Read-only.<dt>GPIO14_EDGE_HIGH<dd><p>Read-only.<dt>GPIO15_LEVEL_LOW<dd><p>Read-only.<dt>GPIO15_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO15_EDGE_LOW<dd><p>Read-only.<dt>GPIO15_EDGE_HIGH<dd></dl><h4 id=7bc2c28edff91d4be14f815349cbed92392056293d48ab631f6a4686f209fba2>DORMANT_WAKE_INTS2_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTS2_Register is record
    GPIO16_LEVEL_LOW  : Boolean;
    GPIO16_LEVEL_HIGH : Boolean;
    GPIO16_EDGE_LOW   : Boolean;
@@ -379,10 +359,8 @@ end record
    GPIO23_LEVEL_HIGH : Boolean;
    GPIO23_EDGE_LOW   : Boolean;
    GPIO23_EDGE_HIGH  : Boolean;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO16_LEVEL_LOW<dd><dt>GPIO16_LEVEL_HIGH<dd><dt>GPIO16_EDGE_LOW<dd><dt>GPIO16_EDGE_HIGH<dd><dt>GPIO17_LEVEL_LOW<dd><dt>GPIO17_LEVEL_HIGH<dd><dt>GPIO17_EDGE_LOW<dd><dt>GPIO17_EDGE_HIGH<dd><dt>GPIO18_LEVEL_LOW<dd><dt>GPIO18_LEVEL_HIGH<dd><dt>GPIO18_EDGE_LOW<dd><dt>GPIO18_EDGE_HIGH<dd><dt>GPIO19_LEVEL_LOW<dd><dt>GPIO19_LEVEL_HIGH<dd><dt>GPIO19_EDGE_LOW<dd><dt>GPIO19_EDGE_HIGH<dd><dt>GPIO20_LEVEL_LOW<dd><dt>GPIO20_LEVEL_HIGH<dd><dt>GPIO20_EDGE_LOW<dd><dt>GPIO20_EDGE_HIGH<dd><dt>GPIO21_LEVEL_LOW<dd><dt>GPIO21_LEVEL_HIGH<dd><dt>GPIO21_EDGE_LOW<dd><dt>GPIO21_EDGE_HIGH<dd><dt>GPIO22_LEVEL_LOW<dd><dt>GPIO22_LEVEL_HIGH<dd><dt>GPIO22_EDGE_LOW<dd><dt>GPIO22_EDGE_HIGH<dd><dt>GPIO23_LEVEL_LOW<dd><dt>GPIO23_LEVEL_HIGH<dd><dt>GPIO23_EDGE_LOW<dd><dt>GPIO23_EDGE_HIGH<dd></dl><h4 id=1081a7c51bcfe5609cdffc93a07a7eaff27fb6a13d01fc5f002a2bac5612b52c>DORMANT_WAKE_INTS3_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTS3_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO16_LEVEL_LOW<dd><p>Read-only.<dt>GPIO16_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO16_EDGE_LOW<dd><p>Read-only.<dt>GPIO16_EDGE_HIGH<dd><p>Read-only.<dt>GPIO17_LEVEL_LOW<dd><p>Read-only.<dt>GPIO17_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO17_EDGE_LOW<dd><p>Read-only.<dt>GPIO17_EDGE_HIGH<dd><p>Read-only.<dt>GPIO18_LEVEL_LOW<dd><p>Read-only.<dt>GPIO18_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO18_EDGE_LOW<dd><p>Read-only.<dt>GPIO18_EDGE_HIGH<dd><p>Read-only.<dt>GPIO19_LEVEL_LOW<dd><p>Read-only.<dt>GPIO19_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO19_EDGE_LOW<dd><p>Read-only.<dt>GPIO19_EDGE_HIGH<dd><p>Read-only.<dt>GPIO20_LEVEL_LOW<dd><p>Read-only.<dt>GPIO20_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO20_EDGE_LOW<dd><p>Read-only.<dt>GPIO20_EDGE_HIGH<dd><p>Read-only.<dt>GPIO21_LEVEL_LOW<dd><p>Read-only.<dt>GPIO21_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO21_EDGE_LOW<dd><p>Read-only.<dt>GPIO21_EDGE_HIGH<dd><p>Read-only.<dt>GPIO22_LEVEL_LOW<dd><p>Read-only.<dt>GPIO22_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO22_EDGE_LOW<dd><p>Read-only.<dt>GPIO22_EDGE_HIGH<dd><p>Read-only.<dt>GPIO23_LEVEL_LOW<dd><p>Read-only.<dt>GPIO23_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO23_EDGE_LOW<dd><p>Read-only.<dt>GPIO23_EDGE_HIGH<dd></dl><h4 id=1081a7c51bcfe5609cdffc93a07a7eaff27fb6a13d01fc5f002a2bac5612b52c>DORMANT_WAKE_INTS3_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTS3_Register is record
    GPIO24_LEVEL_LOW  : Boolean;
    GPIO24_LEVEL_HIGH : Boolean;
    GPIO24_EDGE_LOW   : Boolean;
@@ -408,10 +386,8 @@ end record
    GPIO29_EDGE_LOW   : Boolean;
    GPIO29_EDGE_HIGH  : Boolean;
    Reserved_24_31    : HAL.UInt8;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><dt>GPIO24_LEVEL_HIGH<dd><dt>GPIO24_EDGE_LOW<dd><dt>GPIO24_EDGE_HIGH<dd><dt>GPIO25_LEVEL_LOW<dd><dt>GPIO25_LEVEL_HIGH<dd><dt>GPIO25_EDGE_LOW<dd><dt>GPIO25_EDGE_HIGH<dd><dt>GPIO26_LEVEL_LOW<dd><dt>GPIO26_LEVEL_HIGH<dd><dt>GPIO26_EDGE_LOW<dd><dt>GPIO26_EDGE_HIGH<dd><dt>GPIO27_LEVEL_LOW<dd><dt>GPIO27_LEVEL_HIGH<dd><dt>GPIO27_EDGE_LOW<dd><dt>GPIO27_EDGE_HIGH<dd><dt>GPIO28_LEVEL_LOW<dd><dt>GPIO28_LEVEL_HIGH<dd><dt>GPIO28_EDGE_LOW<dd><dt>GPIO28_EDGE_HIGH<dd><dt>GPIO29_LEVEL_LOW<dd><dt>GPIO29_LEVEL_HIGH<dd><dt>GPIO29_EDGE_LOW<dd><dt>GPIO29_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl><h4 id=88b724fa1da5f2a930fa3ee1195b5bf2bdc965870ec58f8ddd9b49c6fb329259>GPIO0_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO0_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><p>Read-only.<dt>GPIO24_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO24_EDGE_LOW<dd><p>Read-only.<dt>GPIO24_EDGE_HIGH<dd><p>Read-only.<dt>GPIO25_LEVEL_LOW<dd><p>Read-only.<dt>GPIO25_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO25_EDGE_LOW<dd><p>Read-only.<dt>GPIO25_EDGE_HIGH<dd><p>Read-only.<dt>GPIO26_LEVEL_LOW<dd><p>Read-only.<dt>GPIO26_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO26_EDGE_LOW<dd><p>Read-only.<dt>GPIO26_EDGE_HIGH<dd><p>Read-only.<dt>GPIO27_LEVEL_LOW<dd><p>Read-only.<dt>GPIO27_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO27_EDGE_LOW<dd><p>Read-only.<dt>GPIO27_EDGE_HIGH<dd><p>Read-only.<dt>GPIO28_LEVEL_LOW<dd><p>Read-only.<dt>GPIO28_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO28_EDGE_LOW<dd><p>Read-only.<dt>GPIO28_EDGE_HIGH<dd><p>Read-only.<dt>GPIO29_LEVEL_LOW<dd><p>Read-only.<dt>GPIO29_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO29_EDGE_LOW<dd><p>Read-only.<dt>GPIO29_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=88b724fa1da5f2a930fa3ee1195b5bf2bdc965870ec58f8ddd9b49c6fb329259>GPIO0_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO0_CTRL_FUNCSEL_Field is
   (jtag_tck,
    spi0_rx,
    uart0_tx,
@@ -458,10 +434,8 @@ end record
    Reserved_18_27 : HAL.UInt10 := 16#0#;
    IRQOVER        : GPIO0_CTRL_IRQOVER_Field := RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=b4432c59a6db462365d3b1cc7a0f8f8bc5ba90339a42ac6b7bb7e2097068a249>GPIO0_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO0_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=b4432c59a6db462365d3b1cc7a0f8f8bc5ba90339a42ac6b7bb7e2097068a249>GPIO0_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO0_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -477,10 +451,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=a79490c8a03362d14518a17f0ea918b115bbcba237a8a1b0cd50a3ef3e67e934>GPIO10_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO10_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=a79490c8a03362d14518a17f0ea918b115bbcba237a8a1b0cd50a3ef3e67e934>GPIO10_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO10_CTRL_FUNCSEL_Field is
   (spi1_sclk,
    uart1_cts,
    i2c1_sda,
@@ -530,10 +502,8 @@ end record
    IRQOVER        : GPIO10_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=4d35d40b66e8d9485bda2da91627df3b4805d8604174d827d15ef1d4063f1b90>GPIO10_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO10_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=4d35d40b66e8d9485bda2da91627df3b4805d8604174d827d15ef1d4063f1b90>GPIO10_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO10_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -549,10 +519,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=53cd65c80b6c96e870212025e9177b423df9d26a2858516865950c51a5e20516>GPIO11_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO11_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=53cd65c80b6c96e870212025e9177b423df9d26a2858516865950c51a5e20516>GPIO11_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO11_CTRL_FUNCSEL_Field is
   (spi1_tx,
    uart1_rts,
    i2c1_scl,
@@ -602,10 +570,8 @@ end record
    IRQOVER        : GPIO11_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=87492358227ec109affb1d532a2f36f0741b81efb89575c525826f06458ae955>GPIO11_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO11_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=87492358227ec109affb1d532a2f36f0741b81efb89575c525826f06458ae955>GPIO11_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO11_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -621,10 +587,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=3792fd6532f049863180f418fb3b64e199c56569f84970d45a430b133ead313a>GPIO12_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO12_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=3792fd6532f049863180f418fb3b64e199c56569f84970d45a430b133ead313a>GPIO12_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO12_CTRL_FUNCSEL_Field is
   (spi1_rx,
    uart0_tx,
    i2c0_sda,
@@ -674,10 +638,8 @@ end record
    IRQOVER        : GPIO12_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=64611dc5859e08abf2f2f24f7038390bb7f8ae07360f670e8afbb69879a4d43b>GPIO12_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO12_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=64611dc5859e08abf2f2f24f7038390bb7f8ae07360f670e8afbb69879a4d43b>GPIO12_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO12_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -693,10 +655,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=aa46bbc7ce65cfe9a40a7ad1393eed612d6ee6d019edb9c383484b9d7e25cc39>GPIO13_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO13_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=aa46bbc7ce65cfe9a40a7ad1393eed612d6ee6d019edb9c383484b9d7e25cc39>GPIO13_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO13_CTRL_FUNCSEL_Field is
   (spi1_ss_n,
    uart0_rx,
    i2c0_scl,
@@ -746,10 +706,8 @@ end record
    IRQOVER        : GPIO13_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=67ac74f45c2209cf978e73002a14474c8482cff3f7591ae3cfdc3ed05ef0b27e>GPIO13_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO13_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=67ac74f45c2209cf978e73002a14474c8482cff3f7591ae3cfdc3ed05ef0b27e>GPIO13_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO13_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -765,10 +723,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=0463f35639b85b39d4fde519f4da77ba48a55cbe67d726a8edeff69a420f3135>GPIO14_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO14_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=0463f35639b85b39d4fde519f4da77ba48a55cbe67d726a8edeff69a420f3135>GPIO14_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO14_CTRL_FUNCSEL_Field is
   (spi1_sclk,
    uart0_cts,
    i2c1_sda,
@@ -818,10 +774,8 @@ end record
    IRQOVER        : GPIO14_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=3557ed0892411d0443d490c3be6a03716adf11b3710e85439a08fee14b869812>GPIO14_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO14_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=3557ed0892411d0443d490c3be6a03716adf11b3710e85439a08fee14b869812>GPIO14_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO14_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -837,10 +791,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=f988a523ef49dfef8c24acd4a1dd58024fda3ba179d3c09298f15202e6b290b1>GPIO15_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO15_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=f988a523ef49dfef8c24acd4a1dd58024fda3ba179d3c09298f15202e6b290b1>GPIO15_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO15_CTRL_FUNCSEL_Field is
   (spi1_tx,
    uart0_rts,
    i2c1_scl,
@@ -890,10 +842,8 @@ end record
    IRQOVER        : GPIO15_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=fd53f2ef16357fdb5ce068c37d53ba1c056c7de63b58c009d1525e0697bf67ed>GPIO15_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO15_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=fd53f2ef16357fdb5ce068c37d53ba1c056c7de63b58c009d1525e0697bf67ed>GPIO15_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO15_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -909,10 +859,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=e2764a53e21382bf324e70683da20a5f8ac59ea0b455ef0b1b90f48b9285f439>GPIO16_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO16_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=e2764a53e21382bf324e70683da20a5f8ac59ea0b455ef0b1b90f48b9285f439>GPIO16_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO16_CTRL_FUNCSEL_Field is
   (spi0_rx,
    uart0_tx,
    i2c0_sda,
@@ -962,10 +910,8 @@ end record
    IRQOVER        : GPIO16_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=993a64b1d911b69588a76b444f8cfd4ced609d3117e6ae1e3b7b98e7b99db93c>GPIO16_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO16_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=993a64b1d911b69588a76b444f8cfd4ced609d3117e6ae1e3b7b98e7b99db93c>GPIO16_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO16_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -981,10 +927,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=52b09466c5f8aae2d14afedd913e376e0344525a6f1152871924c297aab7c091>GPIO17_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO17_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=52b09466c5f8aae2d14afedd913e376e0344525a6f1152871924c297aab7c091>GPIO17_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO17_CTRL_FUNCSEL_Field is
   (spi0_ss_n,
    uart0_rx,
    i2c0_scl,
@@ -1033,10 +977,8 @@ end record
    IRQOVER        : GPIO17_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=52c6033293c4de6522bcce8871342acab335e6e560070923383b5d58c0aedf26>GPIO17_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO17_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=52c6033293c4de6522bcce8871342acab335e6e560070923383b5d58c0aedf26>GPIO17_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO17_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -1052,10 +994,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=907f16b4ae373f94ab41f589f36624d923bee752f460b6af5359d641b7bf6dc6>GPIO18_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO18_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=907f16b4ae373f94ab41f589f36624d923bee752f460b6af5359d641b7bf6dc6>GPIO18_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO18_CTRL_FUNCSEL_Field is
   (spi0_sclk,
    uart0_cts,
    i2c1_sda,
@@ -1104,10 +1044,8 @@ end record
    IRQOVER        : GPIO18_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=a136655ad47051474253fbb15cc928eac12ffdc248a8a080e932c3252bc02f65>GPIO18_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO18_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=a136655ad47051474253fbb15cc928eac12ffdc248a8a080e932c3252bc02f65>GPIO18_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO18_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -1123,10 +1061,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=1a051f03123faf37aca798926cbaa1b4e558ad0f72a2941904f6995e7bb3b5ed>GPIO19_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO19_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=1a051f03123faf37aca798926cbaa1b4e558ad0f72a2941904f6995e7bb3b5ed>GPIO19_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO19_CTRL_FUNCSEL_Field is
   (spi0_tx,
    uart0_rts,
    i2c1_scl,
@@ -1175,10 +1111,8 @@ end record
    IRQOVER        : GPIO19_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=7d7e41c31dbdb0c8101682f2ccdabf5d21fc6b91ef46ced6083f58fd08e4402c>GPIO19_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO19_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=7d7e41c31dbdb0c8101682f2ccdabf5d21fc6b91ef46ced6083f58fd08e4402c>GPIO19_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO19_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -1194,10 +1128,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=626b4cd584c426e72f99abaa494adc15ea2b54e674929d4bfaeebbb4feb44bbc>GPIO1_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO1_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=626b4cd584c426e72f99abaa494adc15ea2b54e674929d4bfaeebbb4feb44bbc>GPIO1_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO1_CTRL_FUNCSEL_Field is
   (jtag_tms,
    spi0_ss_n,
    uart0_rx,
@@ -1244,10 +1176,8 @@ end record
    Reserved_18_27 : HAL.UInt10 := 16#0#;
    IRQOVER        : GPIO1_CTRL_IRQOVER_Field := RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=4d8dcf47b4af2d6989d3128e1e8764f0c3d2ffb6cad542458d706409a73be608>GPIO1_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO1_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=4d8dcf47b4af2d6989d3128e1e8764f0c3d2ffb6cad542458d706409a73be608>GPIO1_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO1_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -1263,10 +1193,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=54dec9e8ee5c6c08b1e2fc350c85b373e4872d3911b5e0df14a10459cee25cd8>GPIO20_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO20_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=54dec9e8ee5c6c08b1e2fc350c85b373e4872d3911b5e0df14a10459cee25cd8>GPIO20_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO20_CTRL_FUNCSEL_Field is
   (spi0_rx,
    uart1_tx,
    i2c0_sda,
@@ -1316,10 +1244,8 @@ end record
    IRQOVER        : GPIO20_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=c6ec256aef1a353fb41d7e332f61f59354850d12e88f2fa085531d8eaea7e281>GPIO20_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO20_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=c6ec256aef1a353fb41d7e332f61f59354850d12e88f2fa085531d8eaea7e281>GPIO20_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO20_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -1335,10 +1261,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=66b282c488614ff647bae2f701f6f5908905eee31a6fa754815bd98ca5af5c71>GPIO21_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO21_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=66b282c488614ff647bae2f701f6f5908905eee31a6fa754815bd98ca5af5c71>GPIO21_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO21_CTRL_FUNCSEL_Field is
   (spi0_ss_n,
    uart1_rx,
    i2c0_scl,
@@ -1388,10 +1312,8 @@ end record
    IRQOVER        : GPIO21_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=500605dab5c941b53f65c72b9009acf454d9079728b2a89802680cac47ccd16e>GPIO21_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO21_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=500605dab5c941b53f65c72b9009acf454d9079728b2a89802680cac47ccd16e>GPIO21_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO21_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -1407,10 +1329,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=bc829ac8cd595ace0db33078c3119e64534c7db142139d3b0631b62613b18838>GPIO22_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO22_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=bc829ac8cd595ace0db33078c3119e64534c7db142139d3b0631b62613b18838>GPIO22_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO22_CTRL_FUNCSEL_Field is
   (spi0_sclk,
    uart1_cts,
    i2c1_sda,
@@ -1460,10 +1380,8 @@ end record
    IRQOVER        : GPIO22_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=e78c22d6daf84edec7df42cdfed7d9c62aa2824529fb4bfd12ed99e71f482f64>GPIO22_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO22_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=e78c22d6daf84edec7df42cdfed7d9c62aa2824529fb4bfd12ed99e71f482f64>GPIO22_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO22_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -1479,10 +1397,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=d55e785d1dd433b2d644010b63f50a45b7f93dcebfd209a7dd37869bfdd850d8>GPIO23_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO23_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=d55e785d1dd433b2d644010b63f50a45b7f93dcebfd209a7dd37869bfdd850d8>GPIO23_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO23_CTRL_FUNCSEL_Field is
   (spi0_tx,
    uart1_rts,
    i2c1_scl,
@@ -1532,10 +1448,8 @@ end record
    IRQOVER        : GPIO23_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=e2a4373d1a17d378d955fc783132de9e7cd3114a5bc9f04fe4cb20e3a53f14ac>GPIO23_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO23_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=e2a4373d1a17d378d955fc783132de9e7cd3114a5bc9f04fe4cb20e3a53f14ac>GPIO23_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO23_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -1551,10 +1465,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=b9cd54011fc88853ecb00c3b6f503d820953d698b92281d205b6abd28ec42e5b>GPIO24_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO24_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=b9cd54011fc88853ecb00c3b6f503d820953d698b92281d205b6abd28ec42e5b>GPIO24_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO24_CTRL_FUNCSEL_Field is
   (spi1_rx,
    uart1_tx,
    i2c0_sda,
@@ -1604,10 +1516,8 @@ end record
    IRQOVER        : GPIO24_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=a6e3b059ad35143818a1cb2b8a735daa55a1c959e8e76e19bb11beef8c4535de>GPIO24_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO24_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=a6e3b059ad35143818a1cb2b8a735daa55a1c959e8e76e19bb11beef8c4535de>GPIO24_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO24_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -1623,10 +1533,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=cefa4d0f64a33607dfff898d78eadaf898f07944db2b492898ac9908d479772f>GPIO25_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO25_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=cefa4d0f64a33607dfff898d78eadaf898f07944db2b492898ac9908d479772f>GPIO25_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO25_CTRL_FUNCSEL_Field is
   (spi1_ss_n,
    uart1_rx,
    i2c0_scl,
@@ -1676,10 +1584,8 @@ end record
    IRQOVER        : GPIO25_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=9e4994dc9ab3843b3c871d2ba9c0ff8e4a62a7c21bb9d37e6617418b6f1211ae>GPIO25_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO25_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=9e4994dc9ab3843b3c871d2ba9c0ff8e4a62a7c21bb9d37e6617418b6f1211ae>GPIO25_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO25_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -1695,10 +1601,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=ed454ccb5e6ae39b461f37e30df6b750f3859186b98d0bc6785af0cffe51269c>GPIO26_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO26_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=ed454ccb5e6ae39b461f37e30df6b750f3859186b98d0bc6785af0cffe51269c>GPIO26_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO26_CTRL_FUNCSEL_Field is
   (spi1_sclk,
    uart1_cts,
    i2c1_sda,
@@ -1747,10 +1651,8 @@ end record
    IRQOVER        : GPIO26_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=875cc04aeb7142ba20e69a72fd8b89284af252a983969196c8385252037411a1>GPIO26_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO26_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=875cc04aeb7142ba20e69a72fd8b89284af252a983969196c8385252037411a1>GPIO26_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO26_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -1766,10 +1668,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=f84fe5c8aefb60f9d812528ed3871c4e02f5e8dfa9c83c3b052c37604b4b5e68>GPIO27_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO27_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=f84fe5c8aefb60f9d812528ed3871c4e02f5e8dfa9c83c3b052c37604b4b5e68>GPIO27_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO27_CTRL_FUNCSEL_Field is
   (spi1_tx,
    uart1_rts,
    i2c1_scl,
@@ -1818,10 +1718,8 @@ end record
    IRQOVER        : GPIO27_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=82c0cdd30bea0702a08d496cf855c714636eb2a824099692cc298fae34da1f58>GPIO27_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO27_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=82c0cdd30bea0702a08d496cf855c714636eb2a824099692cc298fae34da1f58>GPIO27_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO27_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -1837,10 +1735,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=7f43944760fa443375741c44a6ca6cd2adb9104ceeb4dd731a7ed315d53f68cb>GPIO28_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO28_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=7f43944760fa443375741c44a6ca6cd2adb9104ceeb4dd731a7ed315d53f68cb>GPIO28_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO28_CTRL_FUNCSEL_Field is
   (spi1_rx,
    uart0_tx,
    i2c0_sda,
@@ -1889,10 +1785,8 @@ end record
    IRQOVER        : GPIO28_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=af4c382d94a8526b7f743d61ade2afda8e7f30f272d9241c24689c34c5fc64d7>GPIO28_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO28_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=af4c382d94a8526b7f743d61ade2afda8e7f30f272d9241c24689c34c5fc64d7>GPIO28_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO28_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -1908,10 +1802,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=fa4a1d832dc055c727f69f716eebc95fe80bebaa12bb1e3d0fd24fabbbeea224>GPIO29_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO29_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=fa4a1d832dc055c727f69f716eebc95fe80bebaa12bb1e3d0fd24fabbbeea224>GPIO29_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO29_CTRL_FUNCSEL_Field is
   (spi1_ss_n,
    uart0_rx,
    i2c0_scl,
@@ -1960,10 +1852,8 @@ end record
    IRQOVER        : GPIO29_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=898dec540e73d29933c1cd5c503aa1e26d4a913e7aa86e407a0732f0e8d6e6bd>GPIO29_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO29_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=898dec540e73d29933c1cd5c503aa1e26d4a913e7aa86e407a0732f0e8d6e6bd>GPIO29_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO29_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -1979,10 +1869,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=84b82ee19a3038a6b34fa0155a31d00f82a87efa254e7daeae34b6e29877bbc7>GPIO2_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO2_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=84b82ee19a3038a6b34fa0155a31d00f82a87efa254e7daeae34b6e29877bbc7>GPIO2_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO2_CTRL_FUNCSEL_Field is
   (jtag_tdi,
    spi0_sclk,
    uart0_cts,
@@ -2029,10 +1917,8 @@ end record
    Reserved_18_27 : HAL.UInt10 := 16#0#;
    IRQOVER        : GPIO2_CTRL_IRQOVER_Field := RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=02187016d6c85a977e07ebcfaa11b3f42faea58c3606174df2ac2340a6d0a4db>GPIO2_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO2_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=02187016d6c85a977e07ebcfaa11b3f42faea58c3606174df2ac2340a6d0a4db>GPIO2_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO2_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -2048,10 +1934,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=df3bb8a04134938b7571d70c3ffb6f15529dbcc178d0edc527bcc2781d39a46b>GPIO3_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO3_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=df3bb8a04134938b7571d70c3ffb6f15529dbcc178d0edc527bcc2781d39a46b>GPIO3_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO3_CTRL_FUNCSEL_Field is
   (jtag_tdo,
    spi0_tx,
    uart0_rts,
@@ -2098,10 +1982,8 @@ end record
    Reserved_18_27 : HAL.UInt10 := 16#0#;
    IRQOVER        : GPIO3_CTRL_IRQOVER_Field := RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=0052986f643f2487e06fbc11fcef56b0200490f6518e703cad349147955b6b41>GPIO3_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO3_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=0052986f643f2487e06fbc11fcef56b0200490f6518e703cad349147955b6b41>GPIO3_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO3_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -2117,10 +1999,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=5fb91e96374e18e9f0c52f27aed7f523d598cd88abbdd9530816a7e4f4720e99>GPIO4_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO4_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=5fb91e96374e18e9f0c52f27aed7f523d598cd88abbdd9530816a7e4f4720e99>GPIO4_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO4_CTRL_FUNCSEL_Field is
   (spi0_rx,
    uart1_tx,
    i2c0_sda,
@@ -2166,10 +2046,8 @@ end record
    Reserved_18_27 : HAL.UInt10 := 16#0#;
    IRQOVER        : GPIO4_CTRL_IRQOVER_Field := RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=1e23d41cb2e792aa6b53e17e0afbce37fd4da6545ed51cd5c99d7671a6df9817>GPIO4_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO4_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=1e23d41cb2e792aa6b53e17e0afbce37fd4da6545ed51cd5c99d7671a6df9817>GPIO4_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO4_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -2185,10 +2063,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=16d88649d9aab4fed33e5e8dcca58ed7a66d2b262b8ad8f4d0b2bbfa27987db6>GPIO5_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO5_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=16d88649d9aab4fed33e5e8dcca58ed7a66d2b262b8ad8f4d0b2bbfa27987db6>GPIO5_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO5_CTRL_FUNCSEL_Field is
   (spi0_ss_n,
    uart1_rx,
    i2c0_scl,
@@ -2234,10 +2110,8 @@ end record
    Reserved_18_27 : HAL.UInt10 := 16#0#;
    IRQOVER        : GPIO5_CTRL_IRQOVER_Field := RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=daace28fda21b9f383a8edde0ca8cd5988c29d5d4e602a218efd3e8f8e85340c>GPIO5_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO5_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=daace28fda21b9f383a8edde0ca8cd5988c29d5d4e602a218efd3e8f8e85340c>GPIO5_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO5_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -2253,10 +2127,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=dd22138b7e37ec0d58db7f27dd7cf41eadb9dd439f25d823dfbaf9470377982e>GPIO6_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO6_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=dd22138b7e37ec0d58db7f27dd7cf41eadb9dd439f25d823dfbaf9470377982e>GPIO6_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO6_CTRL_FUNCSEL_Field is
   (spi0_sclk,
    uart1_cts,
    i2c1_sda,
@@ -2303,10 +2175,8 @@ end record
    Reserved_18_27 : HAL.UInt10 := 16#0#;
    IRQOVER        : GPIO6_CTRL_IRQOVER_Field := RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=7ea5b072ee868cc510bc0bf47324d51bb223e4daa5b91bbe1c49b68a30cf2bc6>GPIO6_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO6_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=7ea5b072ee868cc510bc0bf47324d51bb223e4daa5b91bbe1c49b68a30cf2bc6>GPIO6_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO6_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -2322,10 +2192,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=3cd9f7ca25860be572dfa422cf056fc94366a094ca7d59ec3bb56e09d78aae2b>GPIO7_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO7_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=3cd9f7ca25860be572dfa422cf056fc94366a094ca7d59ec3bb56e09d78aae2b>GPIO7_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO7_CTRL_FUNCSEL_Field is
   (spi0_tx,
    uart1_rts,
    i2c1_scl,
@@ -2372,10 +2240,8 @@ end record
    Reserved_18_27 : HAL.UInt10 := 16#0#;
    IRQOVER        : GPIO7_CTRL_IRQOVER_Field := RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=78694ac6af4214d1742c8b1979fc580a7785f12f7959fe8abfe7f1aea21d1c78>GPIO7_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO7_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=78694ac6af4214d1742c8b1979fc580a7785f12f7959fe8abfe7f1aea21d1c78>GPIO7_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO7_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -2391,10 +2257,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=11f499e3216e1c486bb2dd693ce0fac47ce98945e317390a115380041cca33dc>GPIO8_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO8_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=11f499e3216e1c486bb2dd693ce0fac47ce98945e317390a115380041cca33dc>GPIO8_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO8_CTRL_FUNCSEL_Field is
   (spi1_rx,
    uart1_tx,
    i2c0_sda,
@@ -2441,10 +2305,8 @@ end record
    Reserved_18_27 : HAL.UInt10 := 16#0#;
    IRQOVER        : GPIO8_CTRL_IRQOVER_Field := RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=7d33fb3856d9fbe6c78637f8d3ca70182adb353cf55a350226b8d9b8a2e2cec9>GPIO8_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO8_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=7d33fb3856d9fbe6c78637f8d3ca70182adb353cf55a350226b8d9b8a2e2cec9>GPIO8_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO8_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -2460,10 +2322,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=a594f62277a8dba270186ed48a9eb96dcdf2f285aa42cd1d311e5f2d687a6b1f>GPIO9_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO9_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=a594f62277a8dba270186ed48a9eb96dcdf2f285aa42cd1d311e5f2d687a6b1f>GPIO9_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO9_CTRL_FUNCSEL_Field is
   (spi1_ss_n,
    uart1_rx,
    i2c0_scl,
@@ -2510,10 +2370,8 @@ end record
    Reserved_18_27 : HAL.UInt10 := 16#0#;
    IRQOVER        : GPIO9_CTRL_IRQOVER_Field := RP2040_SVD.IO_BANK0.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=57fce4a0def63843d73982d805b208e742bfe89d70c2bda7e73b320cc6adcf5e>GPIO9_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO9_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=57fce4a0def63843d73982d805b208e742bfe89d70c2bda7e73b320cc6adcf5e>GPIO9_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO9_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -2529,10 +2387,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=bcfc06bedd715e2766bb8c69a17ccd8db6b6169785e286875b5cbd091c841bd8>INTR0_Register</h4><pre class=ada-code-snippet><code>type INTR0_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=bcfc06bedd715e2766bb8c69a17ccd8db6b6169785e286875b5cbd091c841bd8>INTR0_Register</h4><pre class=ada-code-snippet><code>type INTR0_Register is record
    GPIO0_LEVEL_LOW  : Boolean := False;
    GPIO0_LEVEL_HIGH : Boolean := False;
    GPIO0_EDGE_LOW   : Boolean := False;
@@ -2565,10 +2421,8 @@ end record
    GPIO7_LEVEL_HIGH : Boolean := False;
    GPIO7_EDGE_LOW   : Boolean := False;
    GPIO7_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO0_LEVEL_LOW<dd><dt>GPIO0_LEVEL_HIGH<dd><dt>GPIO0_EDGE_LOW<dd><dt>GPIO0_EDGE_HIGH<dd><dt>GPIO1_LEVEL_LOW<dd><dt>GPIO1_LEVEL_HIGH<dd><dt>GPIO1_EDGE_LOW<dd><dt>GPIO1_EDGE_HIGH<dd><dt>GPIO2_LEVEL_LOW<dd><dt>GPIO2_LEVEL_HIGH<dd><dt>GPIO2_EDGE_LOW<dd><dt>GPIO2_EDGE_HIGH<dd><dt>GPIO3_LEVEL_LOW<dd><dt>GPIO3_LEVEL_HIGH<dd><dt>GPIO3_EDGE_LOW<dd><dt>GPIO3_EDGE_HIGH<dd><dt>GPIO4_LEVEL_LOW<dd><dt>GPIO4_LEVEL_HIGH<dd><dt>GPIO4_EDGE_LOW<dd><dt>GPIO4_EDGE_HIGH<dd><dt>GPIO5_LEVEL_LOW<dd><dt>GPIO5_LEVEL_HIGH<dd><dt>GPIO5_EDGE_LOW<dd><dt>GPIO5_EDGE_HIGH<dd><dt>GPIO6_LEVEL_LOW<dd><dt>GPIO6_LEVEL_HIGH<dd><dt>GPIO6_EDGE_LOW<dd><dt>GPIO6_EDGE_HIGH<dd><dt>GPIO7_LEVEL_LOW<dd><dt>GPIO7_LEVEL_HIGH<dd><dt>GPIO7_EDGE_LOW<dd><dt>GPIO7_EDGE_HIGH<dd></dl><h4 id=ec9817b86565733748518fc6b4948431de7c0638fca62e21ba1113dc3af9e6a6>INTR1_Register</h4><pre class=ada-code-snippet><code>type INTR1_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO0_LEVEL_LOW<dd><p>Read-only.<dt>GPIO0_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO0_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO0_EDGE_HIGH<dd><p>Read-only.<dt>GPIO1_LEVEL_LOW<dd><p>Read-only.<dt>GPIO1_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO1_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO1_EDGE_HIGH<dd><p>Read-only.<dt>GPIO2_LEVEL_LOW<dd><p>Read-only.<dt>GPIO2_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO2_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO2_EDGE_HIGH<dd><p>Read-only.<dt>GPIO3_LEVEL_LOW<dd><p>Read-only.<dt>GPIO3_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO3_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO3_EDGE_HIGH<dd><p>Read-only.<dt>GPIO4_LEVEL_LOW<dd><p>Read-only.<dt>GPIO4_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO4_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO4_EDGE_HIGH<dd><p>Read-only.<dt>GPIO5_LEVEL_LOW<dd><p>Read-only.<dt>GPIO5_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO5_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO5_EDGE_HIGH<dd><p>Read-only.<dt>GPIO6_LEVEL_LOW<dd><p>Read-only.<dt>GPIO6_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO6_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO6_EDGE_HIGH<dd><p>Read-only.<dt>GPIO7_LEVEL_LOW<dd><p>Read-only.<dt>GPIO7_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO7_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO7_EDGE_HIGH<dd></dl><h4 id=ec9817b86565733748518fc6b4948431de7c0638fca62e21ba1113dc3af9e6a6>INTR1_Register</h4><pre class=ada-code-snippet><code>type INTR1_Register is record
    GPIO8_LEVEL_LOW   : Boolean := False;
    GPIO8_LEVEL_HIGH  : Boolean := False;
    GPIO8_EDGE_LOW    : Boolean := False;
@@ -2601,10 +2455,8 @@ end record
    GPIO15_LEVEL_HIGH : Boolean := False;
    GPIO15_EDGE_LOW   : Boolean := False;
    GPIO15_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO8_LEVEL_LOW<dd><dt>GPIO8_LEVEL_HIGH<dd><dt>GPIO8_EDGE_LOW<dd><dt>GPIO8_EDGE_HIGH<dd><dt>GPIO9_LEVEL_LOW<dd><dt>GPIO9_LEVEL_HIGH<dd><dt>GPIO9_EDGE_LOW<dd><dt>GPIO9_EDGE_HIGH<dd><dt>GPIO10_LEVEL_LOW<dd><dt>GPIO10_LEVEL_HIGH<dd><dt>GPIO10_EDGE_LOW<dd><dt>GPIO10_EDGE_HIGH<dd><dt>GPIO11_LEVEL_LOW<dd><dt>GPIO11_LEVEL_HIGH<dd><dt>GPIO11_EDGE_LOW<dd><dt>GPIO11_EDGE_HIGH<dd><dt>GPIO12_LEVEL_LOW<dd><dt>GPIO12_LEVEL_HIGH<dd><dt>GPIO12_EDGE_LOW<dd><dt>GPIO12_EDGE_HIGH<dd><dt>GPIO13_LEVEL_LOW<dd><dt>GPIO13_LEVEL_HIGH<dd><dt>GPIO13_EDGE_LOW<dd><dt>GPIO13_EDGE_HIGH<dd><dt>GPIO14_LEVEL_LOW<dd><dt>GPIO14_LEVEL_HIGH<dd><dt>GPIO14_EDGE_LOW<dd><dt>GPIO14_EDGE_HIGH<dd><dt>GPIO15_LEVEL_LOW<dd><dt>GPIO15_LEVEL_HIGH<dd><dt>GPIO15_EDGE_LOW<dd><dt>GPIO15_EDGE_HIGH<dd></dl><h4 id=02dd0d1e1986221a40f3fabad95b32143d8827f9146a125d05791d1706fa02ef>INTR2_Register</h4><pre class=ada-code-snippet><code>type INTR2_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO8_LEVEL_LOW<dd><p>Read-only.<dt>GPIO8_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO8_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO8_EDGE_HIGH<dd><p>Read-only.<dt>GPIO9_LEVEL_LOW<dd><p>Read-only.<dt>GPIO9_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO9_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO9_EDGE_HIGH<dd><p>Read-only.<dt>GPIO10_LEVEL_LOW<dd><p>Read-only.<dt>GPIO10_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO10_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO10_EDGE_HIGH<dd><p>Read-only.<dt>GPIO11_LEVEL_LOW<dd><p>Read-only.<dt>GPIO11_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO11_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO11_EDGE_HIGH<dd><p>Read-only.<dt>GPIO12_LEVEL_LOW<dd><p>Read-only.<dt>GPIO12_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO12_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO12_EDGE_HIGH<dd><p>Read-only.<dt>GPIO13_LEVEL_LOW<dd><p>Read-only.<dt>GPIO13_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO13_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO13_EDGE_HIGH<dd><p>Read-only.<dt>GPIO14_LEVEL_LOW<dd><p>Read-only.<dt>GPIO14_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO14_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO14_EDGE_HIGH<dd><p>Read-only.<dt>GPIO15_LEVEL_LOW<dd><p>Read-only.<dt>GPIO15_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO15_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO15_EDGE_HIGH<dd></dl><h4 id=02dd0d1e1986221a40f3fabad95b32143d8827f9146a125d05791d1706fa02ef>INTR2_Register</h4><pre class=ada-code-snippet><code>type INTR2_Register is record
    GPIO16_LEVEL_LOW  : Boolean := False;
    GPIO16_LEVEL_HIGH : Boolean := False;
    GPIO16_EDGE_LOW   : Boolean := False;
@@ -2637,10 +2489,8 @@ end record
    GPIO23_LEVEL_HIGH : Boolean := False;
    GPIO23_EDGE_LOW   : Boolean := False;
    GPIO23_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO16_LEVEL_LOW<dd><dt>GPIO16_LEVEL_HIGH<dd><dt>GPIO16_EDGE_LOW<dd><dt>GPIO16_EDGE_HIGH<dd><dt>GPIO17_LEVEL_LOW<dd><dt>GPIO17_LEVEL_HIGH<dd><dt>GPIO17_EDGE_LOW<dd><dt>GPIO17_EDGE_HIGH<dd><dt>GPIO18_LEVEL_LOW<dd><dt>GPIO18_LEVEL_HIGH<dd><dt>GPIO18_EDGE_LOW<dd><dt>GPIO18_EDGE_HIGH<dd><dt>GPIO19_LEVEL_LOW<dd><dt>GPIO19_LEVEL_HIGH<dd><dt>GPIO19_EDGE_LOW<dd><dt>GPIO19_EDGE_HIGH<dd><dt>GPIO20_LEVEL_LOW<dd><dt>GPIO20_LEVEL_HIGH<dd><dt>GPIO20_EDGE_LOW<dd><dt>GPIO20_EDGE_HIGH<dd><dt>GPIO21_LEVEL_LOW<dd><dt>GPIO21_LEVEL_HIGH<dd><dt>GPIO21_EDGE_LOW<dd><dt>GPIO21_EDGE_HIGH<dd><dt>GPIO22_LEVEL_LOW<dd><dt>GPIO22_LEVEL_HIGH<dd><dt>GPIO22_EDGE_LOW<dd><dt>GPIO22_EDGE_HIGH<dd><dt>GPIO23_LEVEL_LOW<dd><dt>GPIO23_LEVEL_HIGH<dd><dt>GPIO23_EDGE_LOW<dd><dt>GPIO23_EDGE_HIGH<dd></dl><h4 id=f6dda06a7585ff330cadfd5fe3763cff98a065b7b5da8a492763dfc1a2757449>INTR3_Register</h4><pre class=ada-code-snippet><code>type INTR3_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO16_LEVEL_LOW<dd><p>Read-only.<dt>GPIO16_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO16_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO16_EDGE_HIGH<dd><p>Read-only.<dt>GPIO17_LEVEL_LOW<dd><p>Read-only.<dt>GPIO17_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO17_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO17_EDGE_HIGH<dd><p>Read-only.<dt>GPIO18_LEVEL_LOW<dd><p>Read-only.<dt>GPIO18_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO18_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO18_EDGE_HIGH<dd><p>Read-only.<dt>GPIO19_LEVEL_LOW<dd><p>Read-only.<dt>GPIO19_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO19_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO19_EDGE_HIGH<dd><p>Read-only.<dt>GPIO20_LEVEL_LOW<dd><p>Read-only.<dt>GPIO20_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO20_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO20_EDGE_HIGH<dd><p>Read-only.<dt>GPIO21_LEVEL_LOW<dd><p>Read-only.<dt>GPIO21_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO21_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO21_EDGE_HIGH<dd><p>Read-only.<dt>GPIO22_LEVEL_LOW<dd><p>Read-only.<dt>GPIO22_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO22_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO22_EDGE_HIGH<dd><p>Read-only.<dt>GPIO23_LEVEL_LOW<dd><p>Read-only.<dt>GPIO23_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO23_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO23_EDGE_HIGH<dd></dl><h4 id=f6dda06a7585ff330cadfd5fe3763cff98a065b7b5da8a492763dfc1a2757449>INTR3_Register</h4><pre class=ada-code-snippet><code>type INTR3_Register is record
    GPIO24_LEVEL_LOW  : Boolean := False;
    GPIO24_LEVEL_HIGH : Boolean := False;
    GPIO24_EDGE_LOW   : Boolean := False;
@@ -2666,10 +2516,8 @@ end record
    GPIO29_EDGE_LOW   : Boolean := False;
    GPIO29_EDGE_HIGH  : Boolean := False;
    Reserved_24_31    : HAL.UInt8 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><dt>GPIO24_LEVEL_HIGH<dd><dt>GPIO24_EDGE_LOW<dd><dt>GPIO24_EDGE_HIGH<dd><dt>GPIO25_LEVEL_LOW<dd><dt>GPIO25_LEVEL_HIGH<dd><dt>GPIO25_EDGE_LOW<dd><dt>GPIO25_EDGE_HIGH<dd><dt>GPIO26_LEVEL_LOW<dd><dt>GPIO26_LEVEL_HIGH<dd><dt>GPIO26_EDGE_LOW<dd><dt>GPIO26_EDGE_HIGH<dd><dt>GPIO27_LEVEL_LOW<dd><dt>GPIO27_LEVEL_HIGH<dd><dt>GPIO27_EDGE_LOW<dd><dt>GPIO27_EDGE_HIGH<dd><dt>GPIO28_LEVEL_LOW<dd><dt>GPIO28_LEVEL_HIGH<dd><dt>GPIO28_EDGE_LOW<dd><dt>GPIO28_EDGE_HIGH<dd><dt>GPIO29_LEVEL_LOW<dd><dt>GPIO29_LEVEL_HIGH<dd><dt>GPIO29_EDGE_LOW<dd><dt>GPIO29_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl><h4 id=0452fec2335916d3d4cd559e5ca2fd25c4b13f4fc85cf405d331f386a479fa59>IO_BANK0_Periph</h4><pre class=ada-code-snippet><code>IO_BANK0_Periph : aliased IO_BANK0_Peripheral
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><p>Read-only.<dt>GPIO24_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO24_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO24_EDGE_HIGH<dd><p>Read-only.<dt>GPIO25_LEVEL_LOW<dd><p>Read-only.<dt>GPIO25_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO25_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO25_EDGE_HIGH<dd><p>Read-only.<dt>GPIO26_LEVEL_LOW<dd><p>Read-only.<dt>GPIO26_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO26_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO26_EDGE_HIGH<dd><p>Read-only.<dt>GPIO27_LEVEL_LOW<dd><p>Read-only.<dt>GPIO27_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO27_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO27_EDGE_HIGH<dd><p>Read-only.<dt>GPIO28_LEVEL_LOW<dd><p>Read-only.<dt>GPIO28_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO28_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO28_EDGE_HIGH<dd><p>Read-only.<dt>GPIO29_LEVEL_LOW<dd><p>Read-only.<dt>GPIO29_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO29_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO29_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=0452fec2335916d3d4cd559e5ca2fd25c4b13f4fc85cf405d331f386a479fa59>IO_BANK0_Periph</h4><pre class=ada-code-snippet><code>IO_BANK0_Periph : aliased IO_BANK0_Peripheral
   with Import, Address => IO_BANK0_Base;
 </code></pre><h4 id=ac651e22ed38ced579c563c375120e71054059a887ac71a8fbbaa81adf808519>IO_BANK0_Peripheral</h4><pre class=ada-code-snippet><code>type IO_BANK0_Peripheral is record
    GPIO0_STATUS       : aliased GPIO0_STATUS_Register;
@@ -2772,9 +2620,8 @@ end record
    DORMANT_WAKE_INTS1 : aliased DORMANT_WAKE_INTS1_Register;
    DORMANT_WAKE_INTS2 : aliased DORMANT_WAKE_INTS2_Register;
    DORMANT_WAKE_INTS3 : aliased DORMANT_WAKE_INTS3_Register;
-end record
-  with Volatile;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO0_STATUS<dd><dt>GPIO0_CTRL<dd><dt>GPIO1_STATUS<dd><dt>GPIO1_CTRL<dd><dt>GPIO2_STATUS<dd><dt>GPIO2_CTRL<dd><dt>GPIO3_STATUS<dd><dt>GPIO3_CTRL<dd><dt>GPIO4_STATUS<dd><dt>GPIO4_CTRL<dd><dt>GPIO5_STATUS<dd><dt>GPIO5_CTRL<dd><dt>GPIO6_STATUS<dd><dt>GPIO6_CTRL<dd><dt>GPIO7_STATUS<dd><dt>GPIO7_CTRL<dd><dt>GPIO8_STATUS<dd><dt>GPIO8_CTRL<dd><dt>GPIO9_STATUS<dd><dt>GPIO9_CTRL<dd><dt>GPIO10_STATUS<dd><dt>GPIO10_CTRL<dd><dt>GPIO11_STATUS<dd><dt>GPIO11_CTRL<dd><dt>GPIO12_STATUS<dd><dt>GPIO12_CTRL<dd><dt>GPIO13_STATUS<dd><dt>GPIO13_CTRL<dd><dt>GPIO14_STATUS<dd><dt>GPIO14_CTRL<dd><dt>GPIO15_STATUS<dd><dt>GPIO15_CTRL<dd><dt>GPIO16_STATUS<dd><dt>GPIO16_CTRL<dd><dt>GPIO17_STATUS<dd><dt>GPIO17_CTRL<dd><dt>GPIO18_STATUS<dd><dt>GPIO18_CTRL<dd><dt>GPIO19_STATUS<dd><dt>GPIO19_CTRL<dd><dt>GPIO20_STATUS<dd><dt>GPIO20_CTRL<dd><dt>GPIO21_STATUS<dd><dt>GPIO21_CTRL<dd><dt>GPIO22_STATUS<dd><dt>GPIO22_CTRL<dd><dt>GPIO23_STATUS<dd><dt>GPIO23_CTRL<dd><dt>GPIO24_STATUS<dd><dt>GPIO24_CTRL<dd><dt>GPIO25_STATUS<dd><dt>GPIO25_CTRL<dd><dt>GPIO26_STATUS<dd><dt>GPIO26_CTRL<dd><dt>GPIO27_STATUS<dd><dt>GPIO27_CTRL<dd><dt>GPIO28_STATUS<dd><dt>GPIO28_CTRL<dd><dt>GPIO29_STATUS<dd><dt>GPIO29_CTRL<dd><dt>INTR0<dd><dt>INTR1<dd><dt>INTR2<dd><dt>INTR3<dd><dt>PROC0_INTE0<dd><dt>PROC0_INTE1<dd><dt>PROC0_INTE2<dd><dt>PROC0_INTE3<dd><dt>PROC0_INTF0<dd><dt>PROC0_INTF1<dd><dt>PROC0_INTF2<dd><dt>PROC0_INTF3<dd><dt>PROC0_INTS0<dd><dt>PROC0_INTS1<dd><dt>PROC0_INTS2<dd><dt>PROC0_INTS3<dd><dt>PROC1_INTE0<dd><dt>PROC1_INTE1<dd><dt>PROC1_INTE2<dd><dt>PROC1_INTE3<dd><dt>PROC1_INTF0<dd><dt>PROC1_INTF1<dd><dt>PROC1_INTF2<dd><dt>PROC1_INTF3<dd><dt>PROC1_INTS0<dd><dt>PROC1_INTS1<dd><dt>PROC1_INTS2<dd><dt>PROC1_INTS3<dd><dt>DORMANT_WAKE_INTE0<dd><dt>DORMANT_WAKE_INTE1<dd><dt>DORMANT_WAKE_INTE2<dd><dt>DORMANT_WAKE_INTE3<dd><dt>DORMANT_WAKE_INTF0<dd><dt>DORMANT_WAKE_INTF1<dd><dt>DORMANT_WAKE_INTF2<dd><dt>DORMANT_WAKE_INTF3<dd><dt>DORMANT_WAKE_INTS0<dd><dt>DORMANT_WAKE_INTS1<dd><dt>DORMANT_WAKE_INTS2<dd><dt>DORMANT_WAKE_INTS3<dd></dl><h4 id=92deb76576828cf6a422842d4c27c33a0812d466abe29e5b5489e60989fa4f56>PROC0_INTE0_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTE0_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO0_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO0_CTRL<dd><p>GPIO status<dt>GPIO1_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO1_CTRL<dd><p>GPIO status<dt>GPIO2_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO2_CTRL<dd><p>GPIO status<dt>GPIO3_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO3_CTRL<dd><p>GPIO status<dt>GPIO4_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO4_CTRL<dd><p>GPIO status<dt>GPIO5_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO5_CTRL<dd><p>GPIO status<dt>GPIO6_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO6_CTRL<dd><p>GPIO status<dt>GPIO7_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO7_CTRL<dd><p>GPIO status<dt>GPIO8_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO8_CTRL<dd><p>GPIO status<dt>GPIO9_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO9_CTRL<dd><p>GPIO status<dt>GPIO10_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO10_CTRL<dd><p>GPIO status<dt>GPIO11_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO11_CTRL<dd><p>GPIO status<dt>GPIO12_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO12_CTRL<dd><p>GPIO status<dt>GPIO13_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO13_CTRL<dd><p>GPIO status<dt>GPIO14_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO14_CTRL<dd><p>GPIO status<dt>GPIO15_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO15_CTRL<dd><p>GPIO status<dt>GPIO16_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO16_CTRL<dd><p>GPIO status<dt>GPIO17_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO17_CTRL<dd><p>GPIO status<dt>GPIO18_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO18_CTRL<dd><p>GPIO status<dt>GPIO19_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO19_CTRL<dd><p>GPIO status<dt>GPIO20_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO20_CTRL<dd><p>GPIO status<dt>GPIO21_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO21_CTRL<dd><p>GPIO status<dt>GPIO22_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO22_CTRL<dd><p>GPIO status<dt>GPIO23_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO23_CTRL<dd><p>GPIO status<dt>GPIO24_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO24_CTRL<dd><p>GPIO status<dt>GPIO25_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO25_CTRL<dd><p>GPIO status<dt>GPIO26_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO26_CTRL<dd><p>GPIO status<dt>GPIO27_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO27_CTRL<dd><p>GPIO status<dt>GPIO28_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO28_CTRL<dd><p>GPIO status<dt>GPIO29_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO29_CTRL<dd><p>Raw Interrupts<dt>INTR0<dd><p>Raw Interrupts<dt>INTR1<dd><p>Raw Interrupts<dt>INTR2<dd><p>Raw Interrupts<dt>INTR3<dd><p>Interrupt Enable for proc0<dt>PROC0_INTE0<dd><p>Interrupt Enable for proc0<dt>PROC0_INTE1<dd><p>Interrupt Enable for proc0<dt>PROC0_INTE2<dd><p>Interrupt Enable for proc0<dt>PROC0_INTE3<dd><p>Interrupt Force for proc0<dt>PROC0_INTF0<dd><p>Interrupt Force for proc0<dt>PROC0_INTF1<dd><p>Interrupt Force for proc0<dt>PROC0_INTF2<dd><p>Interrupt Force for proc0<dt>PROC0_INTF3<dd><p>Interrupt status after masking &amp; forcing for proc0<dt>PROC0_INTS0<dd><p>Interrupt status after masking &amp; forcing for proc0<dt>PROC0_INTS1<dd><p>Interrupt status after masking &amp; forcing for proc0<dt>PROC0_INTS2<dd><p>Interrupt status after masking &amp; forcing for proc0<dt>PROC0_INTS3<dd><p>Interrupt Enable for proc1<dt>PROC1_INTE0<dd><p>Interrupt Enable for proc1<dt>PROC1_INTE1<dd><p>Interrupt Enable for proc1<dt>PROC1_INTE2<dd><p>Interrupt Enable for proc1<dt>PROC1_INTE3<dd><p>Interrupt Force for proc1<dt>PROC1_INTF0<dd><p>Interrupt Force for proc1<dt>PROC1_INTF1<dd><p>Interrupt Force for proc1<dt>PROC1_INTF2<dd><p>Interrupt Force for proc1<dt>PROC1_INTF3<dd><p>Interrupt status after masking &amp; forcing for proc1<dt>PROC1_INTS0<dd><p>Interrupt status after masking &amp; forcing for proc1<dt>PROC1_INTS1<dd><p>Interrupt status after masking &amp; forcing for proc1<dt>PROC1_INTS2<dd><p>Interrupt status after masking &amp; forcing for proc1<dt>PROC1_INTS3<dd><p>Interrupt Enable for dormant_wake<dt>DORMANT_WAKE_INTE0<dd><p>Interrupt Enable for dormant_wake<dt>DORMANT_WAKE_INTE1<dd><p>Interrupt Enable for dormant_wake<dt>DORMANT_WAKE_INTE2<dd><p>Interrupt Enable for dormant_wake<dt>DORMANT_WAKE_INTE3<dd><p>Interrupt Force for dormant_wake<dt>DORMANT_WAKE_INTF0<dd><p>Interrupt Force for dormant_wake<dt>DORMANT_WAKE_INTF1<dd><p>Interrupt Force for dormant_wake<dt>DORMANT_WAKE_INTF2<dd><p>Interrupt Force for dormant_wake<dt>DORMANT_WAKE_INTF3<dd><p>Interrupt status after masking &amp; forcing for dormant_wake<dt>DORMANT_WAKE_INTS0<dd><p>Interrupt status after masking &amp; forcing for dormant_wake<dt>DORMANT_WAKE_INTS1<dd><p>Interrupt status after masking &amp; forcing for dormant_wake<dt>DORMANT_WAKE_INTS2<dd><p>Interrupt status after masking &amp; forcing for dormant_wake<dt>DORMANT_WAKE_INTS3<dd></dl><h4 id=92deb76576828cf6a422842d4c27c33a0812d466abe29e5b5489e60989fa4f56>PROC0_INTE0_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTE0_Register is record
    GPIO0_LEVEL_LOW  : Boolean := False;
    GPIO0_LEVEL_HIGH : Boolean := False;
    GPIO0_EDGE_LOW   : Boolean := False;
@@ -2807,9 +2654,7 @@ end record
    GPIO7_LEVEL_HIGH : Boolean := False;
    GPIO7_EDGE_LOW   : Boolean := False;
    GPIO7_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>GPIO0_LEVEL_LOW<dd><dt>GPIO0_LEVEL_HIGH<dd><dt>GPIO0_EDGE_LOW<dd><dt>GPIO0_EDGE_HIGH<dd><dt>GPIO1_LEVEL_LOW<dd><dt>GPIO1_LEVEL_HIGH<dd><dt>GPIO1_EDGE_LOW<dd><dt>GPIO1_EDGE_HIGH<dd><dt>GPIO2_LEVEL_LOW<dd><dt>GPIO2_LEVEL_HIGH<dd><dt>GPIO2_EDGE_LOW<dd><dt>GPIO2_EDGE_HIGH<dd><dt>GPIO3_LEVEL_LOW<dd><dt>GPIO3_LEVEL_HIGH<dd><dt>GPIO3_EDGE_LOW<dd><dt>GPIO3_EDGE_HIGH<dd><dt>GPIO4_LEVEL_LOW<dd><dt>GPIO4_LEVEL_HIGH<dd><dt>GPIO4_EDGE_LOW<dd><dt>GPIO4_EDGE_HIGH<dd><dt>GPIO5_LEVEL_LOW<dd><dt>GPIO5_LEVEL_HIGH<dd><dt>GPIO5_EDGE_LOW<dd><dt>GPIO5_EDGE_HIGH<dd><dt>GPIO6_LEVEL_LOW<dd><dt>GPIO6_LEVEL_HIGH<dd><dt>GPIO6_EDGE_LOW<dd><dt>GPIO6_EDGE_HIGH<dd><dt>GPIO7_LEVEL_LOW<dd><dt>GPIO7_LEVEL_HIGH<dd><dt>GPIO7_EDGE_LOW<dd><dt>GPIO7_EDGE_HIGH<dd></dl><h4 id=4590726905a57540becc9cc4fa74f79043d94affa0b6953f27ca96edb579141e>PROC0_INTE1_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTE1_Register is record
    GPIO8_LEVEL_LOW   : Boolean := False;
    GPIO8_LEVEL_HIGH  : Boolean := False;
@@ -2843,9 +2688,7 @@ end record
    GPIO15_LEVEL_HIGH : Boolean := False;
    GPIO15_EDGE_LOW   : Boolean := False;
    GPIO15_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>GPIO8_LEVEL_LOW<dd><dt>GPIO8_LEVEL_HIGH<dd><dt>GPIO8_EDGE_LOW<dd><dt>GPIO8_EDGE_HIGH<dd><dt>GPIO9_LEVEL_LOW<dd><dt>GPIO9_LEVEL_HIGH<dd><dt>GPIO9_EDGE_LOW<dd><dt>GPIO9_EDGE_HIGH<dd><dt>GPIO10_LEVEL_LOW<dd><dt>GPIO10_LEVEL_HIGH<dd><dt>GPIO10_EDGE_LOW<dd><dt>GPIO10_EDGE_HIGH<dd><dt>GPIO11_LEVEL_LOW<dd><dt>GPIO11_LEVEL_HIGH<dd><dt>GPIO11_EDGE_LOW<dd><dt>GPIO11_EDGE_HIGH<dd><dt>GPIO12_LEVEL_LOW<dd><dt>GPIO12_LEVEL_HIGH<dd><dt>GPIO12_EDGE_LOW<dd><dt>GPIO12_EDGE_HIGH<dd><dt>GPIO13_LEVEL_LOW<dd><dt>GPIO13_LEVEL_HIGH<dd><dt>GPIO13_EDGE_LOW<dd><dt>GPIO13_EDGE_HIGH<dd><dt>GPIO14_LEVEL_LOW<dd><dt>GPIO14_LEVEL_HIGH<dd><dt>GPIO14_EDGE_LOW<dd><dt>GPIO14_EDGE_HIGH<dd><dt>GPIO15_LEVEL_LOW<dd><dt>GPIO15_LEVEL_HIGH<dd><dt>GPIO15_EDGE_LOW<dd><dt>GPIO15_EDGE_HIGH<dd></dl><h4 id=ddfd126ff3554b13340ecd4e2b2df539e3a7c460a643b7972c04df532204c75c>PROC0_INTE2_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTE2_Register is record
    GPIO16_LEVEL_LOW  : Boolean := False;
    GPIO16_LEVEL_HIGH : Boolean := False;
@@ -2879,9 +2722,7 @@ end record
    GPIO23_LEVEL_HIGH : Boolean := False;
    GPIO23_EDGE_LOW   : Boolean := False;
    GPIO23_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>GPIO16_LEVEL_LOW<dd><dt>GPIO16_LEVEL_HIGH<dd><dt>GPIO16_EDGE_LOW<dd><dt>GPIO16_EDGE_HIGH<dd><dt>GPIO17_LEVEL_LOW<dd><dt>GPIO17_LEVEL_HIGH<dd><dt>GPIO17_EDGE_LOW<dd><dt>GPIO17_EDGE_HIGH<dd><dt>GPIO18_LEVEL_LOW<dd><dt>GPIO18_LEVEL_HIGH<dd><dt>GPIO18_EDGE_LOW<dd><dt>GPIO18_EDGE_HIGH<dd><dt>GPIO19_LEVEL_LOW<dd><dt>GPIO19_LEVEL_HIGH<dd><dt>GPIO19_EDGE_LOW<dd><dt>GPIO19_EDGE_HIGH<dd><dt>GPIO20_LEVEL_LOW<dd><dt>GPIO20_LEVEL_HIGH<dd><dt>GPIO20_EDGE_LOW<dd><dt>GPIO20_EDGE_HIGH<dd><dt>GPIO21_LEVEL_LOW<dd><dt>GPIO21_LEVEL_HIGH<dd><dt>GPIO21_EDGE_LOW<dd><dt>GPIO21_EDGE_HIGH<dd><dt>GPIO22_LEVEL_LOW<dd><dt>GPIO22_LEVEL_HIGH<dd><dt>GPIO22_EDGE_LOW<dd><dt>GPIO22_EDGE_HIGH<dd><dt>GPIO23_LEVEL_LOW<dd><dt>GPIO23_LEVEL_HIGH<dd><dt>GPIO23_EDGE_LOW<dd><dt>GPIO23_EDGE_HIGH<dd></dl><h4 id=c19f442de5339cd4e7ccea8873a1cfa76e0ac74b1e13c031215f7e798c606362>PROC0_INTE3_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTE3_Register is record
    GPIO24_LEVEL_LOW  : Boolean := False;
    GPIO24_LEVEL_HIGH : Boolean := False;
@@ -2908,10 +2749,8 @@ end record
    GPIO29_EDGE_LOW   : Boolean := False;
    GPIO29_EDGE_HIGH  : Boolean := False;
    Reserved_24_31    : HAL.UInt8 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><dt>GPIO24_LEVEL_HIGH<dd><dt>GPIO24_EDGE_LOW<dd><dt>GPIO24_EDGE_HIGH<dd><dt>GPIO25_LEVEL_LOW<dd><dt>GPIO25_LEVEL_HIGH<dd><dt>GPIO25_EDGE_LOW<dd><dt>GPIO25_EDGE_HIGH<dd><dt>GPIO26_LEVEL_LOW<dd><dt>GPIO26_LEVEL_HIGH<dd><dt>GPIO26_EDGE_LOW<dd><dt>GPIO26_EDGE_HIGH<dd><dt>GPIO27_LEVEL_LOW<dd><dt>GPIO27_LEVEL_HIGH<dd><dt>GPIO27_EDGE_LOW<dd><dt>GPIO27_EDGE_HIGH<dd><dt>GPIO28_LEVEL_LOW<dd><dt>GPIO28_LEVEL_HIGH<dd><dt>GPIO28_EDGE_LOW<dd><dt>GPIO28_EDGE_HIGH<dd><dt>GPIO29_LEVEL_LOW<dd><dt>GPIO29_LEVEL_HIGH<dd><dt>GPIO29_EDGE_LOW<dd><dt>GPIO29_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl><h4 id=0878a4e8dd444bc23a2dee9e56c709b7b00bb477eded73931382845ad7fbff83>PROC0_INTF0_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTF0_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><p>unspecified<dt>GPIO24_LEVEL_HIGH<dd><p>unspecified<dt>GPIO24_EDGE_LOW<dd><p>unspecified<dt>GPIO24_EDGE_HIGH<dd><p>unspecified<dt>GPIO25_LEVEL_LOW<dd><p>unspecified<dt>GPIO25_LEVEL_HIGH<dd><p>unspecified<dt>GPIO25_EDGE_LOW<dd><p>unspecified<dt>GPIO25_EDGE_HIGH<dd><p>unspecified<dt>GPIO26_LEVEL_LOW<dd><p>unspecified<dt>GPIO26_LEVEL_HIGH<dd><p>unspecified<dt>GPIO26_EDGE_LOW<dd><p>unspecified<dt>GPIO26_EDGE_HIGH<dd><p>unspecified<dt>GPIO27_LEVEL_LOW<dd><p>unspecified<dt>GPIO27_LEVEL_HIGH<dd><p>unspecified<dt>GPIO27_EDGE_LOW<dd><p>unspecified<dt>GPIO27_EDGE_HIGH<dd><p>unspecified<dt>GPIO28_LEVEL_LOW<dd><p>unspecified<dt>GPIO28_LEVEL_HIGH<dd><p>unspecified<dt>GPIO28_EDGE_LOW<dd><p>unspecified<dt>GPIO28_EDGE_HIGH<dd><p>unspecified<dt>GPIO29_LEVEL_LOW<dd><p>unspecified<dt>GPIO29_LEVEL_HIGH<dd><p>unspecified<dt>GPIO29_EDGE_LOW<dd><p>unspecified<dt>GPIO29_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=0878a4e8dd444bc23a2dee9e56c709b7b00bb477eded73931382845ad7fbff83>PROC0_INTF0_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTF0_Register is record
    GPIO0_LEVEL_LOW  : Boolean := False;
    GPIO0_LEVEL_HIGH : Boolean := False;
    GPIO0_EDGE_LOW   : Boolean := False;
@@ -2944,9 +2783,7 @@ end record
    GPIO7_LEVEL_HIGH : Boolean := False;
    GPIO7_EDGE_LOW   : Boolean := False;
    GPIO7_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>GPIO0_LEVEL_LOW<dd><dt>GPIO0_LEVEL_HIGH<dd><dt>GPIO0_EDGE_LOW<dd><dt>GPIO0_EDGE_HIGH<dd><dt>GPIO1_LEVEL_LOW<dd><dt>GPIO1_LEVEL_HIGH<dd><dt>GPIO1_EDGE_LOW<dd><dt>GPIO1_EDGE_HIGH<dd><dt>GPIO2_LEVEL_LOW<dd><dt>GPIO2_LEVEL_HIGH<dd><dt>GPIO2_EDGE_LOW<dd><dt>GPIO2_EDGE_HIGH<dd><dt>GPIO3_LEVEL_LOW<dd><dt>GPIO3_LEVEL_HIGH<dd><dt>GPIO3_EDGE_LOW<dd><dt>GPIO3_EDGE_HIGH<dd><dt>GPIO4_LEVEL_LOW<dd><dt>GPIO4_LEVEL_HIGH<dd><dt>GPIO4_EDGE_LOW<dd><dt>GPIO4_EDGE_HIGH<dd><dt>GPIO5_LEVEL_LOW<dd><dt>GPIO5_LEVEL_HIGH<dd><dt>GPIO5_EDGE_LOW<dd><dt>GPIO5_EDGE_HIGH<dd><dt>GPIO6_LEVEL_LOW<dd><dt>GPIO6_LEVEL_HIGH<dd><dt>GPIO6_EDGE_LOW<dd><dt>GPIO6_EDGE_HIGH<dd><dt>GPIO7_LEVEL_LOW<dd><dt>GPIO7_LEVEL_HIGH<dd><dt>GPIO7_EDGE_LOW<dd><dt>GPIO7_EDGE_HIGH<dd></dl><h4 id=f65c122785a242ecf4bd3a707cfd7a7cd5053b4d446b6b95e0a68bf61984bba4>PROC0_INTF1_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTF1_Register is record
    GPIO8_LEVEL_LOW   : Boolean := False;
    GPIO8_LEVEL_HIGH  : Boolean := False;
@@ -2980,9 +2817,7 @@ end record
    GPIO15_LEVEL_HIGH : Boolean := False;
    GPIO15_EDGE_LOW   : Boolean := False;
    GPIO15_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>GPIO8_LEVEL_LOW<dd><dt>GPIO8_LEVEL_HIGH<dd><dt>GPIO8_EDGE_LOW<dd><dt>GPIO8_EDGE_HIGH<dd><dt>GPIO9_LEVEL_LOW<dd><dt>GPIO9_LEVEL_HIGH<dd><dt>GPIO9_EDGE_LOW<dd><dt>GPIO9_EDGE_HIGH<dd><dt>GPIO10_LEVEL_LOW<dd><dt>GPIO10_LEVEL_HIGH<dd><dt>GPIO10_EDGE_LOW<dd><dt>GPIO10_EDGE_HIGH<dd><dt>GPIO11_LEVEL_LOW<dd><dt>GPIO11_LEVEL_HIGH<dd><dt>GPIO11_EDGE_LOW<dd><dt>GPIO11_EDGE_HIGH<dd><dt>GPIO12_LEVEL_LOW<dd><dt>GPIO12_LEVEL_HIGH<dd><dt>GPIO12_EDGE_LOW<dd><dt>GPIO12_EDGE_HIGH<dd><dt>GPIO13_LEVEL_LOW<dd><dt>GPIO13_LEVEL_HIGH<dd><dt>GPIO13_EDGE_LOW<dd><dt>GPIO13_EDGE_HIGH<dd><dt>GPIO14_LEVEL_LOW<dd><dt>GPIO14_LEVEL_HIGH<dd><dt>GPIO14_EDGE_LOW<dd><dt>GPIO14_EDGE_HIGH<dd><dt>GPIO15_LEVEL_LOW<dd><dt>GPIO15_LEVEL_HIGH<dd><dt>GPIO15_EDGE_LOW<dd><dt>GPIO15_EDGE_HIGH<dd></dl><h4 id=82535f5ea6296471c5d6951aa7661f427f8ee664b4185f8dec0a88bb10c8e350>PROC0_INTF2_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTF2_Register is record
    GPIO16_LEVEL_LOW  : Boolean := False;
    GPIO16_LEVEL_HIGH : Boolean := False;
@@ -3016,9 +2851,7 @@ end record
    GPIO23_LEVEL_HIGH : Boolean := False;
    GPIO23_EDGE_LOW   : Boolean := False;
    GPIO23_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>GPIO16_LEVEL_LOW<dd><dt>GPIO16_LEVEL_HIGH<dd><dt>GPIO16_EDGE_LOW<dd><dt>GPIO16_EDGE_HIGH<dd><dt>GPIO17_LEVEL_LOW<dd><dt>GPIO17_LEVEL_HIGH<dd><dt>GPIO17_EDGE_LOW<dd><dt>GPIO17_EDGE_HIGH<dd><dt>GPIO18_LEVEL_LOW<dd><dt>GPIO18_LEVEL_HIGH<dd><dt>GPIO18_EDGE_LOW<dd><dt>GPIO18_EDGE_HIGH<dd><dt>GPIO19_LEVEL_LOW<dd><dt>GPIO19_LEVEL_HIGH<dd><dt>GPIO19_EDGE_LOW<dd><dt>GPIO19_EDGE_HIGH<dd><dt>GPIO20_LEVEL_LOW<dd><dt>GPIO20_LEVEL_HIGH<dd><dt>GPIO20_EDGE_LOW<dd><dt>GPIO20_EDGE_HIGH<dd><dt>GPIO21_LEVEL_LOW<dd><dt>GPIO21_LEVEL_HIGH<dd><dt>GPIO21_EDGE_LOW<dd><dt>GPIO21_EDGE_HIGH<dd><dt>GPIO22_LEVEL_LOW<dd><dt>GPIO22_LEVEL_HIGH<dd><dt>GPIO22_EDGE_LOW<dd><dt>GPIO22_EDGE_HIGH<dd><dt>GPIO23_LEVEL_LOW<dd><dt>GPIO23_LEVEL_HIGH<dd><dt>GPIO23_EDGE_LOW<dd><dt>GPIO23_EDGE_HIGH<dd></dl><h4 id=64b6044a9890a60840b440b6c9621261b94ad584f71e24ba4e87770c2aaeeac9>PROC0_INTF3_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTF3_Register is record
    GPIO24_LEVEL_LOW  : Boolean := False;
    GPIO24_LEVEL_HIGH : Boolean := False;
@@ -3045,10 +2878,8 @@ end record
    GPIO29_EDGE_LOW   : Boolean := False;
    GPIO29_EDGE_HIGH  : Boolean := False;
    Reserved_24_31    : HAL.UInt8 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><dt>GPIO24_LEVEL_HIGH<dd><dt>GPIO24_EDGE_LOW<dd><dt>GPIO24_EDGE_HIGH<dd><dt>GPIO25_LEVEL_LOW<dd><dt>GPIO25_LEVEL_HIGH<dd><dt>GPIO25_EDGE_LOW<dd><dt>GPIO25_EDGE_HIGH<dd><dt>GPIO26_LEVEL_LOW<dd><dt>GPIO26_LEVEL_HIGH<dd><dt>GPIO26_EDGE_LOW<dd><dt>GPIO26_EDGE_HIGH<dd><dt>GPIO27_LEVEL_LOW<dd><dt>GPIO27_LEVEL_HIGH<dd><dt>GPIO27_EDGE_LOW<dd><dt>GPIO27_EDGE_HIGH<dd><dt>GPIO28_LEVEL_LOW<dd><dt>GPIO28_LEVEL_HIGH<dd><dt>GPIO28_EDGE_LOW<dd><dt>GPIO28_EDGE_HIGH<dd><dt>GPIO29_LEVEL_LOW<dd><dt>GPIO29_LEVEL_HIGH<dd><dt>GPIO29_EDGE_LOW<dd><dt>GPIO29_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl><h4 id=74caa4ba43b98d84ed2b126ecf1fd87269f0eb83bed6374bdec547aa2e93bc48>PROC0_INTS0_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTS0_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><p>unspecified<dt>GPIO24_LEVEL_HIGH<dd><p>unspecified<dt>GPIO24_EDGE_LOW<dd><p>unspecified<dt>GPIO24_EDGE_HIGH<dd><p>unspecified<dt>GPIO25_LEVEL_LOW<dd><p>unspecified<dt>GPIO25_LEVEL_HIGH<dd><p>unspecified<dt>GPIO25_EDGE_LOW<dd><p>unspecified<dt>GPIO25_EDGE_HIGH<dd><p>unspecified<dt>GPIO26_LEVEL_LOW<dd><p>unspecified<dt>GPIO26_LEVEL_HIGH<dd><p>unspecified<dt>GPIO26_EDGE_LOW<dd><p>unspecified<dt>GPIO26_EDGE_HIGH<dd><p>unspecified<dt>GPIO27_LEVEL_LOW<dd><p>unspecified<dt>GPIO27_LEVEL_HIGH<dd><p>unspecified<dt>GPIO27_EDGE_LOW<dd><p>unspecified<dt>GPIO27_EDGE_HIGH<dd><p>unspecified<dt>GPIO28_LEVEL_LOW<dd><p>unspecified<dt>GPIO28_LEVEL_HIGH<dd><p>unspecified<dt>GPIO28_EDGE_LOW<dd><p>unspecified<dt>GPIO28_EDGE_HIGH<dd><p>unspecified<dt>GPIO29_LEVEL_LOW<dd><p>unspecified<dt>GPIO29_LEVEL_HIGH<dd><p>unspecified<dt>GPIO29_EDGE_LOW<dd><p>unspecified<dt>GPIO29_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=74caa4ba43b98d84ed2b126ecf1fd87269f0eb83bed6374bdec547aa2e93bc48>PROC0_INTS0_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTS0_Register is record
    GPIO0_LEVEL_LOW  : Boolean;
    GPIO0_LEVEL_HIGH : Boolean;
    GPIO0_EDGE_LOW   : Boolean;
@@ -3081,10 +2912,8 @@ end record
    GPIO7_LEVEL_HIGH : Boolean;
    GPIO7_EDGE_LOW   : Boolean;
    GPIO7_EDGE_HIGH  : Boolean;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO0_LEVEL_LOW<dd><dt>GPIO0_LEVEL_HIGH<dd><dt>GPIO0_EDGE_LOW<dd><dt>GPIO0_EDGE_HIGH<dd><dt>GPIO1_LEVEL_LOW<dd><dt>GPIO1_LEVEL_HIGH<dd><dt>GPIO1_EDGE_LOW<dd><dt>GPIO1_EDGE_HIGH<dd><dt>GPIO2_LEVEL_LOW<dd><dt>GPIO2_LEVEL_HIGH<dd><dt>GPIO2_EDGE_LOW<dd><dt>GPIO2_EDGE_HIGH<dd><dt>GPIO3_LEVEL_LOW<dd><dt>GPIO3_LEVEL_HIGH<dd><dt>GPIO3_EDGE_LOW<dd><dt>GPIO3_EDGE_HIGH<dd><dt>GPIO4_LEVEL_LOW<dd><dt>GPIO4_LEVEL_HIGH<dd><dt>GPIO4_EDGE_LOW<dd><dt>GPIO4_EDGE_HIGH<dd><dt>GPIO5_LEVEL_LOW<dd><dt>GPIO5_LEVEL_HIGH<dd><dt>GPIO5_EDGE_LOW<dd><dt>GPIO5_EDGE_HIGH<dd><dt>GPIO6_LEVEL_LOW<dd><dt>GPIO6_LEVEL_HIGH<dd><dt>GPIO6_EDGE_LOW<dd><dt>GPIO6_EDGE_HIGH<dd><dt>GPIO7_LEVEL_LOW<dd><dt>GPIO7_LEVEL_HIGH<dd><dt>GPIO7_EDGE_LOW<dd><dt>GPIO7_EDGE_HIGH<dd></dl><h4 id=c4064d1cfba074722d139b842fa18019abd35646afd4b9b1d78450d483c456ad>PROC0_INTS1_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTS1_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO0_LEVEL_LOW<dd><p>Read-only.<dt>GPIO0_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO0_EDGE_LOW<dd><p>Read-only.<dt>GPIO0_EDGE_HIGH<dd><p>Read-only.<dt>GPIO1_LEVEL_LOW<dd><p>Read-only.<dt>GPIO1_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO1_EDGE_LOW<dd><p>Read-only.<dt>GPIO1_EDGE_HIGH<dd><p>Read-only.<dt>GPIO2_LEVEL_LOW<dd><p>Read-only.<dt>GPIO2_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO2_EDGE_LOW<dd><p>Read-only.<dt>GPIO2_EDGE_HIGH<dd><p>Read-only.<dt>GPIO3_LEVEL_LOW<dd><p>Read-only.<dt>GPIO3_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO3_EDGE_LOW<dd><p>Read-only.<dt>GPIO3_EDGE_HIGH<dd><p>Read-only.<dt>GPIO4_LEVEL_LOW<dd><p>Read-only.<dt>GPIO4_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO4_EDGE_LOW<dd><p>Read-only.<dt>GPIO4_EDGE_HIGH<dd><p>Read-only.<dt>GPIO5_LEVEL_LOW<dd><p>Read-only.<dt>GPIO5_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO5_EDGE_LOW<dd><p>Read-only.<dt>GPIO5_EDGE_HIGH<dd><p>Read-only.<dt>GPIO6_LEVEL_LOW<dd><p>Read-only.<dt>GPIO6_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO6_EDGE_LOW<dd><p>Read-only.<dt>GPIO6_EDGE_HIGH<dd><p>Read-only.<dt>GPIO7_LEVEL_LOW<dd><p>Read-only.<dt>GPIO7_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO7_EDGE_LOW<dd><p>Read-only.<dt>GPIO7_EDGE_HIGH<dd></dl><h4 id=c4064d1cfba074722d139b842fa18019abd35646afd4b9b1d78450d483c456ad>PROC0_INTS1_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTS1_Register is record
    GPIO8_LEVEL_LOW   : Boolean;
    GPIO8_LEVEL_HIGH  : Boolean;
    GPIO8_EDGE_LOW    : Boolean;
@@ -3117,10 +2946,8 @@ end record
    GPIO15_LEVEL_HIGH : Boolean;
    GPIO15_EDGE_LOW   : Boolean;
    GPIO15_EDGE_HIGH  : Boolean;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO8_LEVEL_LOW<dd><dt>GPIO8_LEVEL_HIGH<dd><dt>GPIO8_EDGE_LOW<dd><dt>GPIO8_EDGE_HIGH<dd><dt>GPIO9_LEVEL_LOW<dd><dt>GPIO9_LEVEL_HIGH<dd><dt>GPIO9_EDGE_LOW<dd><dt>GPIO9_EDGE_HIGH<dd><dt>GPIO10_LEVEL_LOW<dd><dt>GPIO10_LEVEL_HIGH<dd><dt>GPIO10_EDGE_LOW<dd><dt>GPIO10_EDGE_HIGH<dd><dt>GPIO11_LEVEL_LOW<dd><dt>GPIO11_LEVEL_HIGH<dd><dt>GPIO11_EDGE_LOW<dd><dt>GPIO11_EDGE_HIGH<dd><dt>GPIO12_LEVEL_LOW<dd><dt>GPIO12_LEVEL_HIGH<dd><dt>GPIO12_EDGE_LOW<dd><dt>GPIO12_EDGE_HIGH<dd><dt>GPIO13_LEVEL_LOW<dd><dt>GPIO13_LEVEL_HIGH<dd><dt>GPIO13_EDGE_LOW<dd><dt>GPIO13_EDGE_HIGH<dd><dt>GPIO14_LEVEL_LOW<dd><dt>GPIO14_LEVEL_HIGH<dd><dt>GPIO14_EDGE_LOW<dd><dt>GPIO14_EDGE_HIGH<dd><dt>GPIO15_LEVEL_LOW<dd><dt>GPIO15_LEVEL_HIGH<dd><dt>GPIO15_EDGE_LOW<dd><dt>GPIO15_EDGE_HIGH<dd></dl><h4 id=a2fdb24df5133d49020fd4b4acc95ff560fdcdb75bb53ca99cfe3f7fee1024a4>PROC0_INTS2_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTS2_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO8_LEVEL_LOW<dd><p>Read-only.<dt>GPIO8_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO8_EDGE_LOW<dd><p>Read-only.<dt>GPIO8_EDGE_HIGH<dd><p>Read-only.<dt>GPIO9_LEVEL_LOW<dd><p>Read-only.<dt>GPIO9_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO9_EDGE_LOW<dd><p>Read-only.<dt>GPIO9_EDGE_HIGH<dd><p>Read-only.<dt>GPIO10_LEVEL_LOW<dd><p>Read-only.<dt>GPIO10_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO10_EDGE_LOW<dd><p>Read-only.<dt>GPIO10_EDGE_HIGH<dd><p>Read-only.<dt>GPIO11_LEVEL_LOW<dd><p>Read-only.<dt>GPIO11_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO11_EDGE_LOW<dd><p>Read-only.<dt>GPIO11_EDGE_HIGH<dd><p>Read-only.<dt>GPIO12_LEVEL_LOW<dd><p>Read-only.<dt>GPIO12_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO12_EDGE_LOW<dd><p>Read-only.<dt>GPIO12_EDGE_HIGH<dd><p>Read-only.<dt>GPIO13_LEVEL_LOW<dd><p>Read-only.<dt>GPIO13_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO13_EDGE_LOW<dd><p>Read-only.<dt>GPIO13_EDGE_HIGH<dd><p>Read-only.<dt>GPIO14_LEVEL_LOW<dd><p>Read-only.<dt>GPIO14_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO14_EDGE_LOW<dd><p>Read-only.<dt>GPIO14_EDGE_HIGH<dd><p>Read-only.<dt>GPIO15_LEVEL_LOW<dd><p>Read-only.<dt>GPIO15_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO15_EDGE_LOW<dd><p>Read-only.<dt>GPIO15_EDGE_HIGH<dd></dl><h4 id=a2fdb24df5133d49020fd4b4acc95ff560fdcdb75bb53ca99cfe3f7fee1024a4>PROC0_INTS2_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTS2_Register is record
    GPIO16_LEVEL_LOW  : Boolean;
    GPIO16_LEVEL_HIGH : Boolean;
    GPIO16_EDGE_LOW   : Boolean;
@@ -3153,10 +2980,8 @@ end record
    GPIO23_LEVEL_HIGH : Boolean;
    GPIO23_EDGE_LOW   : Boolean;
    GPIO23_EDGE_HIGH  : Boolean;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO16_LEVEL_LOW<dd><dt>GPIO16_LEVEL_HIGH<dd><dt>GPIO16_EDGE_LOW<dd><dt>GPIO16_EDGE_HIGH<dd><dt>GPIO17_LEVEL_LOW<dd><dt>GPIO17_LEVEL_HIGH<dd><dt>GPIO17_EDGE_LOW<dd><dt>GPIO17_EDGE_HIGH<dd><dt>GPIO18_LEVEL_LOW<dd><dt>GPIO18_LEVEL_HIGH<dd><dt>GPIO18_EDGE_LOW<dd><dt>GPIO18_EDGE_HIGH<dd><dt>GPIO19_LEVEL_LOW<dd><dt>GPIO19_LEVEL_HIGH<dd><dt>GPIO19_EDGE_LOW<dd><dt>GPIO19_EDGE_HIGH<dd><dt>GPIO20_LEVEL_LOW<dd><dt>GPIO20_LEVEL_HIGH<dd><dt>GPIO20_EDGE_LOW<dd><dt>GPIO20_EDGE_HIGH<dd><dt>GPIO21_LEVEL_LOW<dd><dt>GPIO21_LEVEL_HIGH<dd><dt>GPIO21_EDGE_LOW<dd><dt>GPIO21_EDGE_HIGH<dd><dt>GPIO22_LEVEL_LOW<dd><dt>GPIO22_LEVEL_HIGH<dd><dt>GPIO22_EDGE_LOW<dd><dt>GPIO22_EDGE_HIGH<dd><dt>GPIO23_LEVEL_LOW<dd><dt>GPIO23_LEVEL_HIGH<dd><dt>GPIO23_EDGE_LOW<dd><dt>GPIO23_EDGE_HIGH<dd></dl><h4 id=409b0363eed729b95613b506bbe9fe961a67bff4802684e999f8881769f5fad2>PROC0_INTS3_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTS3_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO16_LEVEL_LOW<dd><p>Read-only.<dt>GPIO16_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO16_EDGE_LOW<dd><p>Read-only.<dt>GPIO16_EDGE_HIGH<dd><p>Read-only.<dt>GPIO17_LEVEL_LOW<dd><p>Read-only.<dt>GPIO17_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO17_EDGE_LOW<dd><p>Read-only.<dt>GPIO17_EDGE_HIGH<dd><p>Read-only.<dt>GPIO18_LEVEL_LOW<dd><p>Read-only.<dt>GPIO18_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO18_EDGE_LOW<dd><p>Read-only.<dt>GPIO18_EDGE_HIGH<dd><p>Read-only.<dt>GPIO19_LEVEL_LOW<dd><p>Read-only.<dt>GPIO19_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO19_EDGE_LOW<dd><p>Read-only.<dt>GPIO19_EDGE_HIGH<dd><p>Read-only.<dt>GPIO20_LEVEL_LOW<dd><p>Read-only.<dt>GPIO20_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO20_EDGE_LOW<dd><p>Read-only.<dt>GPIO20_EDGE_HIGH<dd><p>Read-only.<dt>GPIO21_LEVEL_LOW<dd><p>Read-only.<dt>GPIO21_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO21_EDGE_LOW<dd><p>Read-only.<dt>GPIO21_EDGE_HIGH<dd><p>Read-only.<dt>GPIO22_LEVEL_LOW<dd><p>Read-only.<dt>GPIO22_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO22_EDGE_LOW<dd><p>Read-only.<dt>GPIO22_EDGE_HIGH<dd><p>Read-only.<dt>GPIO23_LEVEL_LOW<dd><p>Read-only.<dt>GPIO23_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO23_EDGE_LOW<dd><p>Read-only.<dt>GPIO23_EDGE_HIGH<dd></dl><h4 id=409b0363eed729b95613b506bbe9fe961a67bff4802684e999f8881769f5fad2>PROC0_INTS3_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTS3_Register is record
    GPIO24_LEVEL_LOW  : Boolean;
    GPIO24_LEVEL_HIGH : Boolean;
    GPIO24_EDGE_LOW   : Boolean;
@@ -3182,10 +3007,8 @@ end record
    GPIO29_EDGE_LOW   : Boolean;
    GPIO29_EDGE_HIGH  : Boolean;
    Reserved_24_31    : HAL.UInt8;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><dt>GPIO24_LEVEL_HIGH<dd><dt>GPIO24_EDGE_LOW<dd><dt>GPIO24_EDGE_HIGH<dd><dt>GPIO25_LEVEL_LOW<dd><dt>GPIO25_LEVEL_HIGH<dd><dt>GPIO25_EDGE_LOW<dd><dt>GPIO25_EDGE_HIGH<dd><dt>GPIO26_LEVEL_LOW<dd><dt>GPIO26_LEVEL_HIGH<dd><dt>GPIO26_EDGE_LOW<dd><dt>GPIO26_EDGE_HIGH<dd><dt>GPIO27_LEVEL_LOW<dd><dt>GPIO27_LEVEL_HIGH<dd><dt>GPIO27_EDGE_LOW<dd><dt>GPIO27_EDGE_HIGH<dd><dt>GPIO28_LEVEL_LOW<dd><dt>GPIO28_LEVEL_HIGH<dd><dt>GPIO28_EDGE_LOW<dd><dt>GPIO28_EDGE_HIGH<dd><dt>GPIO29_LEVEL_LOW<dd><dt>GPIO29_LEVEL_HIGH<dd><dt>GPIO29_EDGE_LOW<dd><dt>GPIO29_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl><h4 id=3492b5aaaf6cbdcedb26a9f15692a7f644e2ddc8b385f52fd5c49bc81cfe6a3c>PROC1_INTE0_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTE0_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><p>Read-only.<dt>GPIO24_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO24_EDGE_LOW<dd><p>Read-only.<dt>GPIO24_EDGE_HIGH<dd><p>Read-only.<dt>GPIO25_LEVEL_LOW<dd><p>Read-only.<dt>GPIO25_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO25_EDGE_LOW<dd><p>Read-only.<dt>GPIO25_EDGE_HIGH<dd><p>Read-only.<dt>GPIO26_LEVEL_LOW<dd><p>Read-only.<dt>GPIO26_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO26_EDGE_LOW<dd><p>Read-only.<dt>GPIO26_EDGE_HIGH<dd><p>Read-only.<dt>GPIO27_LEVEL_LOW<dd><p>Read-only.<dt>GPIO27_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO27_EDGE_LOW<dd><p>Read-only.<dt>GPIO27_EDGE_HIGH<dd><p>Read-only.<dt>GPIO28_LEVEL_LOW<dd><p>Read-only.<dt>GPIO28_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO28_EDGE_LOW<dd><p>Read-only.<dt>GPIO28_EDGE_HIGH<dd><p>Read-only.<dt>GPIO29_LEVEL_LOW<dd><p>Read-only.<dt>GPIO29_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO29_EDGE_LOW<dd><p>Read-only.<dt>GPIO29_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=3492b5aaaf6cbdcedb26a9f15692a7f644e2ddc8b385f52fd5c49bc81cfe6a3c>PROC1_INTE0_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTE0_Register is record
    GPIO0_LEVEL_LOW  : Boolean := False;
    GPIO0_LEVEL_HIGH : Boolean := False;
    GPIO0_EDGE_LOW   : Boolean := False;
@@ -3218,9 +3041,7 @@ end record
    GPIO7_LEVEL_HIGH : Boolean := False;
    GPIO7_EDGE_LOW   : Boolean := False;
    GPIO7_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>GPIO0_LEVEL_LOW<dd><dt>GPIO0_LEVEL_HIGH<dd><dt>GPIO0_EDGE_LOW<dd><dt>GPIO0_EDGE_HIGH<dd><dt>GPIO1_LEVEL_LOW<dd><dt>GPIO1_LEVEL_HIGH<dd><dt>GPIO1_EDGE_LOW<dd><dt>GPIO1_EDGE_HIGH<dd><dt>GPIO2_LEVEL_LOW<dd><dt>GPIO2_LEVEL_HIGH<dd><dt>GPIO2_EDGE_LOW<dd><dt>GPIO2_EDGE_HIGH<dd><dt>GPIO3_LEVEL_LOW<dd><dt>GPIO3_LEVEL_HIGH<dd><dt>GPIO3_EDGE_LOW<dd><dt>GPIO3_EDGE_HIGH<dd><dt>GPIO4_LEVEL_LOW<dd><dt>GPIO4_LEVEL_HIGH<dd><dt>GPIO4_EDGE_LOW<dd><dt>GPIO4_EDGE_HIGH<dd><dt>GPIO5_LEVEL_LOW<dd><dt>GPIO5_LEVEL_HIGH<dd><dt>GPIO5_EDGE_LOW<dd><dt>GPIO5_EDGE_HIGH<dd><dt>GPIO6_LEVEL_LOW<dd><dt>GPIO6_LEVEL_HIGH<dd><dt>GPIO6_EDGE_LOW<dd><dt>GPIO6_EDGE_HIGH<dd><dt>GPIO7_LEVEL_LOW<dd><dt>GPIO7_LEVEL_HIGH<dd><dt>GPIO7_EDGE_LOW<dd><dt>GPIO7_EDGE_HIGH<dd></dl><h4 id=9890e1a6d7c3059cf4370d236b67f77507f46aa391a4e777d45e01be3079ced8>PROC1_INTE1_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTE1_Register is record
    GPIO8_LEVEL_LOW   : Boolean := False;
    GPIO8_LEVEL_HIGH  : Boolean := False;
@@ -3254,9 +3075,7 @@ end record
    GPIO15_LEVEL_HIGH : Boolean := False;
    GPIO15_EDGE_LOW   : Boolean := False;
    GPIO15_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>GPIO8_LEVEL_LOW<dd><dt>GPIO8_LEVEL_HIGH<dd><dt>GPIO8_EDGE_LOW<dd><dt>GPIO8_EDGE_HIGH<dd><dt>GPIO9_LEVEL_LOW<dd><dt>GPIO9_LEVEL_HIGH<dd><dt>GPIO9_EDGE_LOW<dd><dt>GPIO9_EDGE_HIGH<dd><dt>GPIO10_LEVEL_LOW<dd><dt>GPIO10_LEVEL_HIGH<dd><dt>GPIO10_EDGE_LOW<dd><dt>GPIO10_EDGE_HIGH<dd><dt>GPIO11_LEVEL_LOW<dd><dt>GPIO11_LEVEL_HIGH<dd><dt>GPIO11_EDGE_LOW<dd><dt>GPIO11_EDGE_HIGH<dd><dt>GPIO12_LEVEL_LOW<dd><dt>GPIO12_LEVEL_HIGH<dd><dt>GPIO12_EDGE_LOW<dd><dt>GPIO12_EDGE_HIGH<dd><dt>GPIO13_LEVEL_LOW<dd><dt>GPIO13_LEVEL_HIGH<dd><dt>GPIO13_EDGE_LOW<dd><dt>GPIO13_EDGE_HIGH<dd><dt>GPIO14_LEVEL_LOW<dd><dt>GPIO14_LEVEL_HIGH<dd><dt>GPIO14_EDGE_LOW<dd><dt>GPIO14_EDGE_HIGH<dd><dt>GPIO15_LEVEL_LOW<dd><dt>GPIO15_LEVEL_HIGH<dd><dt>GPIO15_EDGE_LOW<dd><dt>GPIO15_EDGE_HIGH<dd></dl><h4 id=34a380a97d28e25e099979cbcc868cdc7baccc678af8e917f64537c72b953d19>PROC1_INTE2_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTE2_Register is record
    GPIO16_LEVEL_LOW  : Boolean := False;
    GPIO16_LEVEL_HIGH : Boolean := False;
@@ -3290,9 +3109,7 @@ end record
    GPIO23_LEVEL_HIGH : Boolean := False;
    GPIO23_EDGE_LOW   : Boolean := False;
    GPIO23_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>GPIO16_LEVEL_LOW<dd><dt>GPIO16_LEVEL_HIGH<dd><dt>GPIO16_EDGE_LOW<dd><dt>GPIO16_EDGE_HIGH<dd><dt>GPIO17_LEVEL_LOW<dd><dt>GPIO17_LEVEL_HIGH<dd><dt>GPIO17_EDGE_LOW<dd><dt>GPIO17_EDGE_HIGH<dd><dt>GPIO18_LEVEL_LOW<dd><dt>GPIO18_LEVEL_HIGH<dd><dt>GPIO18_EDGE_LOW<dd><dt>GPIO18_EDGE_HIGH<dd><dt>GPIO19_LEVEL_LOW<dd><dt>GPIO19_LEVEL_HIGH<dd><dt>GPIO19_EDGE_LOW<dd><dt>GPIO19_EDGE_HIGH<dd><dt>GPIO20_LEVEL_LOW<dd><dt>GPIO20_LEVEL_HIGH<dd><dt>GPIO20_EDGE_LOW<dd><dt>GPIO20_EDGE_HIGH<dd><dt>GPIO21_LEVEL_LOW<dd><dt>GPIO21_LEVEL_HIGH<dd><dt>GPIO21_EDGE_LOW<dd><dt>GPIO21_EDGE_HIGH<dd><dt>GPIO22_LEVEL_LOW<dd><dt>GPIO22_LEVEL_HIGH<dd><dt>GPIO22_EDGE_LOW<dd><dt>GPIO22_EDGE_HIGH<dd><dt>GPIO23_LEVEL_LOW<dd><dt>GPIO23_LEVEL_HIGH<dd><dt>GPIO23_EDGE_LOW<dd><dt>GPIO23_EDGE_HIGH<dd></dl><h4 id=6a8083a24db83d5eea5592f9b2f33b5ba950b834a425bac9ececf4d4399e0d55>PROC1_INTE3_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTE3_Register is record
    GPIO24_LEVEL_LOW  : Boolean := False;
    GPIO24_LEVEL_HIGH : Boolean := False;
@@ -3319,10 +3136,8 @@ end record
    GPIO29_EDGE_LOW   : Boolean := False;
    GPIO29_EDGE_HIGH  : Boolean := False;
    Reserved_24_31    : HAL.UInt8 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><dt>GPIO24_LEVEL_HIGH<dd><dt>GPIO24_EDGE_LOW<dd><dt>GPIO24_EDGE_HIGH<dd><dt>GPIO25_LEVEL_LOW<dd><dt>GPIO25_LEVEL_HIGH<dd><dt>GPIO25_EDGE_LOW<dd><dt>GPIO25_EDGE_HIGH<dd><dt>GPIO26_LEVEL_LOW<dd><dt>GPIO26_LEVEL_HIGH<dd><dt>GPIO26_EDGE_LOW<dd><dt>GPIO26_EDGE_HIGH<dd><dt>GPIO27_LEVEL_LOW<dd><dt>GPIO27_LEVEL_HIGH<dd><dt>GPIO27_EDGE_LOW<dd><dt>GPIO27_EDGE_HIGH<dd><dt>GPIO28_LEVEL_LOW<dd><dt>GPIO28_LEVEL_HIGH<dd><dt>GPIO28_EDGE_LOW<dd><dt>GPIO28_EDGE_HIGH<dd><dt>GPIO29_LEVEL_LOW<dd><dt>GPIO29_LEVEL_HIGH<dd><dt>GPIO29_EDGE_LOW<dd><dt>GPIO29_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl><h4 id=41d2b919a1decd9d31a1f7ecbad1fc0eaf917a7adfc8cda9b23dd3d822689f82>PROC1_INTF0_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTF0_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><p>unspecified<dt>GPIO24_LEVEL_HIGH<dd><p>unspecified<dt>GPIO24_EDGE_LOW<dd><p>unspecified<dt>GPIO24_EDGE_HIGH<dd><p>unspecified<dt>GPIO25_LEVEL_LOW<dd><p>unspecified<dt>GPIO25_LEVEL_HIGH<dd><p>unspecified<dt>GPIO25_EDGE_LOW<dd><p>unspecified<dt>GPIO25_EDGE_HIGH<dd><p>unspecified<dt>GPIO26_LEVEL_LOW<dd><p>unspecified<dt>GPIO26_LEVEL_HIGH<dd><p>unspecified<dt>GPIO26_EDGE_LOW<dd><p>unspecified<dt>GPIO26_EDGE_HIGH<dd><p>unspecified<dt>GPIO27_LEVEL_LOW<dd><p>unspecified<dt>GPIO27_LEVEL_HIGH<dd><p>unspecified<dt>GPIO27_EDGE_LOW<dd><p>unspecified<dt>GPIO27_EDGE_HIGH<dd><p>unspecified<dt>GPIO28_LEVEL_LOW<dd><p>unspecified<dt>GPIO28_LEVEL_HIGH<dd><p>unspecified<dt>GPIO28_EDGE_LOW<dd><p>unspecified<dt>GPIO28_EDGE_HIGH<dd><p>unspecified<dt>GPIO29_LEVEL_LOW<dd><p>unspecified<dt>GPIO29_LEVEL_HIGH<dd><p>unspecified<dt>GPIO29_EDGE_LOW<dd><p>unspecified<dt>GPIO29_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=41d2b919a1decd9d31a1f7ecbad1fc0eaf917a7adfc8cda9b23dd3d822689f82>PROC1_INTF0_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTF0_Register is record
    GPIO0_LEVEL_LOW  : Boolean := False;
    GPIO0_LEVEL_HIGH : Boolean := False;
    GPIO0_EDGE_LOW   : Boolean := False;
@@ -3355,9 +3170,7 @@ end record
    GPIO7_LEVEL_HIGH : Boolean := False;
    GPIO7_EDGE_LOW   : Boolean := False;
    GPIO7_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>GPIO0_LEVEL_LOW<dd><dt>GPIO0_LEVEL_HIGH<dd><dt>GPIO0_EDGE_LOW<dd><dt>GPIO0_EDGE_HIGH<dd><dt>GPIO1_LEVEL_LOW<dd><dt>GPIO1_LEVEL_HIGH<dd><dt>GPIO1_EDGE_LOW<dd><dt>GPIO1_EDGE_HIGH<dd><dt>GPIO2_LEVEL_LOW<dd><dt>GPIO2_LEVEL_HIGH<dd><dt>GPIO2_EDGE_LOW<dd><dt>GPIO2_EDGE_HIGH<dd><dt>GPIO3_LEVEL_LOW<dd><dt>GPIO3_LEVEL_HIGH<dd><dt>GPIO3_EDGE_LOW<dd><dt>GPIO3_EDGE_HIGH<dd><dt>GPIO4_LEVEL_LOW<dd><dt>GPIO4_LEVEL_HIGH<dd><dt>GPIO4_EDGE_LOW<dd><dt>GPIO4_EDGE_HIGH<dd><dt>GPIO5_LEVEL_LOW<dd><dt>GPIO5_LEVEL_HIGH<dd><dt>GPIO5_EDGE_LOW<dd><dt>GPIO5_EDGE_HIGH<dd><dt>GPIO6_LEVEL_LOW<dd><dt>GPIO6_LEVEL_HIGH<dd><dt>GPIO6_EDGE_LOW<dd><dt>GPIO6_EDGE_HIGH<dd><dt>GPIO7_LEVEL_LOW<dd><dt>GPIO7_LEVEL_HIGH<dd><dt>GPIO7_EDGE_LOW<dd><dt>GPIO7_EDGE_HIGH<dd></dl><h4 id=224d13e5fdcf20cb41967d766df603a7cd147cb050579579954fb865cf91191e>PROC1_INTF1_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTF1_Register is record
    GPIO8_LEVEL_LOW   : Boolean := False;
    GPIO8_LEVEL_HIGH  : Boolean := False;
@@ -3391,9 +3204,7 @@ end record
    GPIO15_LEVEL_HIGH : Boolean := False;
    GPIO15_EDGE_LOW   : Boolean := False;
    GPIO15_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>GPIO8_LEVEL_LOW<dd><dt>GPIO8_LEVEL_HIGH<dd><dt>GPIO8_EDGE_LOW<dd><dt>GPIO8_EDGE_HIGH<dd><dt>GPIO9_LEVEL_LOW<dd><dt>GPIO9_LEVEL_HIGH<dd><dt>GPIO9_EDGE_LOW<dd><dt>GPIO9_EDGE_HIGH<dd><dt>GPIO10_LEVEL_LOW<dd><dt>GPIO10_LEVEL_HIGH<dd><dt>GPIO10_EDGE_LOW<dd><dt>GPIO10_EDGE_HIGH<dd><dt>GPIO11_LEVEL_LOW<dd><dt>GPIO11_LEVEL_HIGH<dd><dt>GPIO11_EDGE_LOW<dd><dt>GPIO11_EDGE_HIGH<dd><dt>GPIO12_LEVEL_LOW<dd><dt>GPIO12_LEVEL_HIGH<dd><dt>GPIO12_EDGE_LOW<dd><dt>GPIO12_EDGE_HIGH<dd><dt>GPIO13_LEVEL_LOW<dd><dt>GPIO13_LEVEL_HIGH<dd><dt>GPIO13_EDGE_LOW<dd><dt>GPIO13_EDGE_HIGH<dd><dt>GPIO14_LEVEL_LOW<dd><dt>GPIO14_LEVEL_HIGH<dd><dt>GPIO14_EDGE_LOW<dd><dt>GPIO14_EDGE_HIGH<dd><dt>GPIO15_LEVEL_LOW<dd><dt>GPIO15_LEVEL_HIGH<dd><dt>GPIO15_EDGE_LOW<dd><dt>GPIO15_EDGE_HIGH<dd></dl><h4 id=cf99b816ebe583cf0f8b7678a5a6efca0a4ee39e26f2ed30d34fb6674d1e8594>PROC1_INTF2_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTF2_Register is record
    GPIO16_LEVEL_LOW  : Boolean := False;
    GPIO16_LEVEL_HIGH : Boolean := False;
@@ -3427,9 +3238,7 @@ end record
    GPIO23_LEVEL_HIGH : Boolean := False;
    GPIO23_EDGE_LOW   : Boolean := False;
    GPIO23_EDGE_HIGH  : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>GPIO16_LEVEL_LOW<dd><dt>GPIO16_LEVEL_HIGH<dd><dt>GPIO16_EDGE_LOW<dd><dt>GPIO16_EDGE_HIGH<dd><dt>GPIO17_LEVEL_LOW<dd><dt>GPIO17_LEVEL_HIGH<dd><dt>GPIO17_EDGE_LOW<dd><dt>GPIO17_EDGE_HIGH<dd><dt>GPIO18_LEVEL_LOW<dd><dt>GPIO18_LEVEL_HIGH<dd><dt>GPIO18_EDGE_LOW<dd><dt>GPIO18_EDGE_HIGH<dd><dt>GPIO19_LEVEL_LOW<dd><dt>GPIO19_LEVEL_HIGH<dd><dt>GPIO19_EDGE_LOW<dd><dt>GPIO19_EDGE_HIGH<dd><dt>GPIO20_LEVEL_LOW<dd><dt>GPIO20_LEVEL_HIGH<dd><dt>GPIO20_EDGE_LOW<dd><dt>GPIO20_EDGE_HIGH<dd><dt>GPIO21_LEVEL_LOW<dd><dt>GPIO21_LEVEL_HIGH<dd><dt>GPIO21_EDGE_LOW<dd><dt>GPIO21_EDGE_HIGH<dd><dt>GPIO22_LEVEL_LOW<dd><dt>GPIO22_LEVEL_HIGH<dd><dt>GPIO22_EDGE_LOW<dd><dt>GPIO22_EDGE_HIGH<dd><dt>GPIO23_LEVEL_LOW<dd><dt>GPIO23_LEVEL_HIGH<dd><dt>GPIO23_EDGE_LOW<dd><dt>GPIO23_EDGE_HIGH<dd></dl><h4 id=ecacf8f48a00c65b99053b8b281d13d404745a055e7b86f20f477f91e261facc>PROC1_INTF3_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTF3_Register is record
    GPIO24_LEVEL_LOW  : Boolean := False;
    GPIO24_LEVEL_HIGH : Boolean := False;
@@ -3456,10 +3265,8 @@ end record
    GPIO29_EDGE_LOW   : Boolean := False;
    GPIO29_EDGE_HIGH  : Boolean := False;
    Reserved_24_31    : HAL.UInt8 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><dt>GPIO24_LEVEL_HIGH<dd><dt>GPIO24_EDGE_LOW<dd><dt>GPIO24_EDGE_HIGH<dd><dt>GPIO25_LEVEL_LOW<dd><dt>GPIO25_LEVEL_HIGH<dd><dt>GPIO25_EDGE_LOW<dd><dt>GPIO25_EDGE_HIGH<dd><dt>GPIO26_LEVEL_LOW<dd><dt>GPIO26_LEVEL_HIGH<dd><dt>GPIO26_EDGE_LOW<dd><dt>GPIO26_EDGE_HIGH<dd><dt>GPIO27_LEVEL_LOW<dd><dt>GPIO27_LEVEL_HIGH<dd><dt>GPIO27_EDGE_LOW<dd><dt>GPIO27_EDGE_HIGH<dd><dt>GPIO28_LEVEL_LOW<dd><dt>GPIO28_LEVEL_HIGH<dd><dt>GPIO28_EDGE_LOW<dd><dt>GPIO28_EDGE_HIGH<dd><dt>GPIO29_LEVEL_LOW<dd><dt>GPIO29_LEVEL_HIGH<dd><dt>GPIO29_EDGE_LOW<dd><dt>GPIO29_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl><h4 id=7e7068930ef3a835402570ecd3ca4c53e01d9421a0972d998fd742e11efa4138>PROC1_INTS0_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTS0_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><p>unspecified<dt>GPIO24_LEVEL_HIGH<dd><p>unspecified<dt>GPIO24_EDGE_LOW<dd><p>unspecified<dt>GPIO24_EDGE_HIGH<dd><p>unspecified<dt>GPIO25_LEVEL_LOW<dd><p>unspecified<dt>GPIO25_LEVEL_HIGH<dd><p>unspecified<dt>GPIO25_EDGE_LOW<dd><p>unspecified<dt>GPIO25_EDGE_HIGH<dd><p>unspecified<dt>GPIO26_LEVEL_LOW<dd><p>unspecified<dt>GPIO26_LEVEL_HIGH<dd><p>unspecified<dt>GPIO26_EDGE_LOW<dd><p>unspecified<dt>GPIO26_EDGE_HIGH<dd><p>unspecified<dt>GPIO27_LEVEL_LOW<dd><p>unspecified<dt>GPIO27_LEVEL_HIGH<dd><p>unspecified<dt>GPIO27_EDGE_LOW<dd><p>unspecified<dt>GPIO27_EDGE_HIGH<dd><p>unspecified<dt>GPIO28_LEVEL_LOW<dd><p>unspecified<dt>GPIO28_LEVEL_HIGH<dd><p>unspecified<dt>GPIO28_EDGE_LOW<dd><p>unspecified<dt>GPIO28_EDGE_HIGH<dd><p>unspecified<dt>GPIO29_LEVEL_LOW<dd><p>unspecified<dt>GPIO29_LEVEL_HIGH<dd><p>unspecified<dt>GPIO29_EDGE_LOW<dd><p>unspecified<dt>GPIO29_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=7e7068930ef3a835402570ecd3ca4c53e01d9421a0972d998fd742e11efa4138>PROC1_INTS0_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTS0_Register is record
    GPIO0_LEVEL_LOW  : Boolean;
    GPIO0_LEVEL_HIGH : Boolean;
    GPIO0_EDGE_LOW   : Boolean;
@@ -3492,10 +3299,8 @@ end record
    GPIO7_LEVEL_HIGH : Boolean;
    GPIO7_EDGE_LOW   : Boolean;
    GPIO7_EDGE_HIGH  : Boolean;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO0_LEVEL_LOW<dd><dt>GPIO0_LEVEL_HIGH<dd><dt>GPIO0_EDGE_LOW<dd><dt>GPIO0_EDGE_HIGH<dd><dt>GPIO1_LEVEL_LOW<dd><dt>GPIO1_LEVEL_HIGH<dd><dt>GPIO1_EDGE_LOW<dd><dt>GPIO1_EDGE_HIGH<dd><dt>GPIO2_LEVEL_LOW<dd><dt>GPIO2_LEVEL_HIGH<dd><dt>GPIO2_EDGE_LOW<dd><dt>GPIO2_EDGE_HIGH<dd><dt>GPIO3_LEVEL_LOW<dd><dt>GPIO3_LEVEL_HIGH<dd><dt>GPIO3_EDGE_LOW<dd><dt>GPIO3_EDGE_HIGH<dd><dt>GPIO4_LEVEL_LOW<dd><dt>GPIO4_LEVEL_HIGH<dd><dt>GPIO4_EDGE_LOW<dd><dt>GPIO4_EDGE_HIGH<dd><dt>GPIO5_LEVEL_LOW<dd><dt>GPIO5_LEVEL_HIGH<dd><dt>GPIO5_EDGE_LOW<dd><dt>GPIO5_EDGE_HIGH<dd><dt>GPIO6_LEVEL_LOW<dd><dt>GPIO6_LEVEL_HIGH<dd><dt>GPIO6_EDGE_LOW<dd><dt>GPIO6_EDGE_HIGH<dd><dt>GPIO7_LEVEL_LOW<dd><dt>GPIO7_LEVEL_HIGH<dd><dt>GPIO7_EDGE_LOW<dd><dt>GPIO7_EDGE_HIGH<dd></dl><h4 id=cca00868fea4b14e0f867aaa78d11a107c006fcbd7b2308aca915eaf22bd11b6>PROC1_INTS1_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTS1_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO0_LEVEL_LOW<dd><p>Read-only.<dt>GPIO0_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO0_EDGE_LOW<dd><p>Read-only.<dt>GPIO0_EDGE_HIGH<dd><p>Read-only.<dt>GPIO1_LEVEL_LOW<dd><p>Read-only.<dt>GPIO1_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO1_EDGE_LOW<dd><p>Read-only.<dt>GPIO1_EDGE_HIGH<dd><p>Read-only.<dt>GPIO2_LEVEL_LOW<dd><p>Read-only.<dt>GPIO2_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO2_EDGE_LOW<dd><p>Read-only.<dt>GPIO2_EDGE_HIGH<dd><p>Read-only.<dt>GPIO3_LEVEL_LOW<dd><p>Read-only.<dt>GPIO3_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO3_EDGE_LOW<dd><p>Read-only.<dt>GPIO3_EDGE_HIGH<dd><p>Read-only.<dt>GPIO4_LEVEL_LOW<dd><p>Read-only.<dt>GPIO4_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO4_EDGE_LOW<dd><p>Read-only.<dt>GPIO4_EDGE_HIGH<dd><p>Read-only.<dt>GPIO5_LEVEL_LOW<dd><p>Read-only.<dt>GPIO5_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO5_EDGE_LOW<dd><p>Read-only.<dt>GPIO5_EDGE_HIGH<dd><p>Read-only.<dt>GPIO6_LEVEL_LOW<dd><p>Read-only.<dt>GPIO6_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO6_EDGE_LOW<dd><p>Read-only.<dt>GPIO6_EDGE_HIGH<dd><p>Read-only.<dt>GPIO7_LEVEL_LOW<dd><p>Read-only.<dt>GPIO7_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO7_EDGE_LOW<dd><p>Read-only.<dt>GPIO7_EDGE_HIGH<dd></dl><h4 id=cca00868fea4b14e0f867aaa78d11a107c006fcbd7b2308aca915eaf22bd11b6>PROC1_INTS1_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTS1_Register is record
    GPIO8_LEVEL_LOW   : Boolean;
    GPIO8_LEVEL_HIGH  : Boolean;
    GPIO8_EDGE_LOW    : Boolean;
@@ -3528,10 +3333,8 @@ end record
    GPIO15_LEVEL_HIGH : Boolean;
    GPIO15_EDGE_LOW   : Boolean;
    GPIO15_EDGE_HIGH  : Boolean;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO8_LEVEL_LOW<dd><dt>GPIO8_LEVEL_HIGH<dd><dt>GPIO8_EDGE_LOW<dd><dt>GPIO8_EDGE_HIGH<dd><dt>GPIO9_LEVEL_LOW<dd><dt>GPIO9_LEVEL_HIGH<dd><dt>GPIO9_EDGE_LOW<dd><dt>GPIO9_EDGE_HIGH<dd><dt>GPIO10_LEVEL_LOW<dd><dt>GPIO10_LEVEL_HIGH<dd><dt>GPIO10_EDGE_LOW<dd><dt>GPIO10_EDGE_HIGH<dd><dt>GPIO11_LEVEL_LOW<dd><dt>GPIO11_LEVEL_HIGH<dd><dt>GPIO11_EDGE_LOW<dd><dt>GPIO11_EDGE_HIGH<dd><dt>GPIO12_LEVEL_LOW<dd><dt>GPIO12_LEVEL_HIGH<dd><dt>GPIO12_EDGE_LOW<dd><dt>GPIO12_EDGE_HIGH<dd><dt>GPIO13_LEVEL_LOW<dd><dt>GPIO13_LEVEL_HIGH<dd><dt>GPIO13_EDGE_LOW<dd><dt>GPIO13_EDGE_HIGH<dd><dt>GPIO14_LEVEL_LOW<dd><dt>GPIO14_LEVEL_HIGH<dd><dt>GPIO14_EDGE_LOW<dd><dt>GPIO14_EDGE_HIGH<dd><dt>GPIO15_LEVEL_LOW<dd><dt>GPIO15_LEVEL_HIGH<dd><dt>GPIO15_EDGE_LOW<dd><dt>GPIO15_EDGE_HIGH<dd></dl><h4 id=1524534a468f230755ea978bf052baca5a68fba6dacb947c0e754ad8ae4b8b1b>PROC1_INTS2_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTS2_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO8_LEVEL_LOW<dd><p>Read-only.<dt>GPIO8_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO8_EDGE_LOW<dd><p>Read-only.<dt>GPIO8_EDGE_HIGH<dd><p>Read-only.<dt>GPIO9_LEVEL_LOW<dd><p>Read-only.<dt>GPIO9_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO9_EDGE_LOW<dd><p>Read-only.<dt>GPIO9_EDGE_HIGH<dd><p>Read-only.<dt>GPIO10_LEVEL_LOW<dd><p>Read-only.<dt>GPIO10_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO10_EDGE_LOW<dd><p>Read-only.<dt>GPIO10_EDGE_HIGH<dd><p>Read-only.<dt>GPIO11_LEVEL_LOW<dd><p>Read-only.<dt>GPIO11_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO11_EDGE_LOW<dd><p>Read-only.<dt>GPIO11_EDGE_HIGH<dd><p>Read-only.<dt>GPIO12_LEVEL_LOW<dd><p>Read-only.<dt>GPIO12_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO12_EDGE_LOW<dd><p>Read-only.<dt>GPIO12_EDGE_HIGH<dd><p>Read-only.<dt>GPIO13_LEVEL_LOW<dd><p>Read-only.<dt>GPIO13_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO13_EDGE_LOW<dd><p>Read-only.<dt>GPIO13_EDGE_HIGH<dd><p>Read-only.<dt>GPIO14_LEVEL_LOW<dd><p>Read-only.<dt>GPIO14_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO14_EDGE_LOW<dd><p>Read-only.<dt>GPIO14_EDGE_HIGH<dd><p>Read-only.<dt>GPIO15_LEVEL_LOW<dd><p>Read-only.<dt>GPIO15_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO15_EDGE_LOW<dd><p>Read-only.<dt>GPIO15_EDGE_HIGH<dd></dl><h4 id=1524534a468f230755ea978bf052baca5a68fba6dacb947c0e754ad8ae4b8b1b>PROC1_INTS2_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTS2_Register is record
    GPIO16_LEVEL_LOW  : Boolean;
    GPIO16_LEVEL_HIGH : Boolean;
    GPIO16_EDGE_LOW   : Boolean;
@@ -3564,10 +3367,8 @@ end record
    GPIO23_LEVEL_HIGH : Boolean;
    GPIO23_EDGE_LOW   : Boolean;
    GPIO23_EDGE_HIGH  : Boolean;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO16_LEVEL_LOW<dd><dt>GPIO16_LEVEL_HIGH<dd><dt>GPIO16_EDGE_LOW<dd><dt>GPIO16_EDGE_HIGH<dd><dt>GPIO17_LEVEL_LOW<dd><dt>GPIO17_LEVEL_HIGH<dd><dt>GPIO17_EDGE_LOW<dd><dt>GPIO17_EDGE_HIGH<dd><dt>GPIO18_LEVEL_LOW<dd><dt>GPIO18_LEVEL_HIGH<dd><dt>GPIO18_EDGE_LOW<dd><dt>GPIO18_EDGE_HIGH<dd><dt>GPIO19_LEVEL_LOW<dd><dt>GPIO19_LEVEL_HIGH<dd><dt>GPIO19_EDGE_LOW<dd><dt>GPIO19_EDGE_HIGH<dd><dt>GPIO20_LEVEL_LOW<dd><dt>GPIO20_LEVEL_HIGH<dd><dt>GPIO20_EDGE_LOW<dd><dt>GPIO20_EDGE_HIGH<dd><dt>GPIO21_LEVEL_LOW<dd><dt>GPIO21_LEVEL_HIGH<dd><dt>GPIO21_EDGE_LOW<dd><dt>GPIO21_EDGE_HIGH<dd><dt>GPIO22_LEVEL_LOW<dd><dt>GPIO22_LEVEL_HIGH<dd><dt>GPIO22_EDGE_LOW<dd><dt>GPIO22_EDGE_HIGH<dd><dt>GPIO23_LEVEL_LOW<dd><dt>GPIO23_LEVEL_HIGH<dd><dt>GPIO23_EDGE_LOW<dd><dt>GPIO23_EDGE_HIGH<dd></dl><h4 id=ad92ef0e0de9fa2fc8a43ce67b3545babd1742c9dba72a061180dcf9ef02d868>PROC1_INTS3_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTS3_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO16_LEVEL_LOW<dd><p>Read-only.<dt>GPIO16_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO16_EDGE_LOW<dd><p>Read-only.<dt>GPIO16_EDGE_HIGH<dd><p>Read-only.<dt>GPIO17_LEVEL_LOW<dd><p>Read-only.<dt>GPIO17_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO17_EDGE_LOW<dd><p>Read-only.<dt>GPIO17_EDGE_HIGH<dd><p>Read-only.<dt>GPIO18_LEVEL_LOW<dd><p>Read-only.<dt>GPIO18_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO18_EDGE_LOW<dd><p>Read-only.<dt>GPIO18_EDGE_HIGH<dd><p>Read-only.<dt>GPIO19_LEVEL_LOW<dd><p>Read-only.<dt>GPIO19_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO19_EDGE_LOW<dd><p>Read-only.<dt>GPIO19_EDGE_HIGH<dd><p>Read-only.<dt>GPIO20_LEVEL_LOW<dd><p>Read-only.<dt>GPIO20_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO20_EDGE_LOW<dd><p>Read-only.<dt>GPIO20_EDGE_HIGH<dd><p>Read-only.<dt>GPIO21_LEVEL_LOW<dd><p>Read-only.<dt>GPIO21_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO21_EDGE_LOW<dd><p>Read-only.<dt>GPIO21_EDGE_HIGH<dd><p>Read-only.<dt>GPIO22_LEVEL_LOW<dd><p>Read-only.<dt>GPIO22_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO22_EDGE_LOW<dd><p>Read-only.<dt>GPIO22_EDGE_HIGH<dd><p>Read-only.<dt>GPIO23_LEVEL_LOW<dd><p>Read-only.<dt>GPIO23_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO23_EDGE_LOW<dd><p>Read-only.<dt>GPIO23_EDGE_HIGH<dd></dl><h4 id=ad92ef0e0de9fa2fc8a43ce67b3545babd1742c9dba72a061180dcf9ef02d868>PROC1_INTS3_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTS3_Register is record
    GPIO24_LEVEL_LOW  : Boolean;
    GPIO24_LEVEL_HIGH : Boolean;
    GPIO24_EDGE_LOW   : Boolean;
@@ -3593,7 +3394,5 @@ end record
    GPIO29_EDGE_LOW   : Boolean;
    GPIO29_EDGE_HIGH  : Boolean;
    Reserved_24_31    : HAL.UInt8;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><dt>GPIO24_LEVEL_HIGH<dd><dt>GPIO24_EDGE_LOW<dd><dt>GPIO24_EDGE_HIGH<dd><dt>GPIO25_LEVEL_LOW<dd><dt>GPIO25_LEVEL_HIGH<dd><dt>GPIO25_EDGE_LOW<dd><dt>GPIO25_EDGE_HIGH<dd><dt>GPIO26_LEVEL_LOW<dd><dt>GPIO26_LEVEL_HIGH<dd><dt>GPIO26_EDGE_LOW<dd><dt>GPIO26_EDGE_HIGH<dd><dt>GPIO27_LEVEL_LOW<dd><dt>GPIO27_LEVEL_HIGH<dd><dt>GPIO27_EDGE_LOW<dd><dt>GPIO27_EDGE_HIGH<dd><dt>GPIO28_LEVEL_LOW<dd><dt>GPIO28_LEVEL_HIGH<dd><dt>GPIO28_EDGE_LOW<dd><dt>GPIO28_EDGE_HIGH<dd><dt>GPIO29_LEVEL_LOW<dd><dt>GPIO29_LEVEL_HIGH<dd><dt>GPIO29_EDGE_LOW<dd><dt>GPIO29_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl>
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO24_LEVEL_LOW<dd><p>Read-only.<dt>GPIO24_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO24_EDGE_LOW<dd><p>Read-only.<dt>GPIO24_EDGE_HIGH<dd><p>Read-only.<dt>GPIO25_LEVEL_LOW<dd><p>Read-only.<dt>GPIO25_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO25_EDGE_LOW<dd><p>Read-only.<dt>GPIO25_EDGE_HIGH<dd><p>Read-only.<dt>GPIO26_LEVEL_LOW<dd><p>Read-only.<dt>GPIO26_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO26_EDGE_LOW<dd><p>Read-only.<dt>GPIO26_EDGE_HIGH<dd><p>Read-only.<dt>GPIO27_LEVEL_LOW<dd><p>Read-only.<dt>GPIO27_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO27_EDGE_LOW<dd><p>Read-only.<dt>GPIO27_EDGE_HIGH<dd><p>Read-only.<dt>GPIO28_LEVEL_LOW<dd><p>Read-only.<dt>GPIO28_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO28_EDGE_LOW<dd><p>Read-only.<dt>GPIO28_EDGE_HIGH<dd><p>Read-only.<dt>GPIO29_LEVEL_LOW<dd><p>Read-only.<dt>GPIO29_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO29_EDGE_LOW<dd><p>Read-only.<dt>GPIO29_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl>

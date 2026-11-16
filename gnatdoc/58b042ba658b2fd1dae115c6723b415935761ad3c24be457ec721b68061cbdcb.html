@@ -93,22 +93,7 @@
    Drive_Not_Ready,
    No_Such_File,
    No_Such_Path,
-   Not_Mounted,
-   Invalid_Name,
-   Access_Denied,
-   Already_Exists,
-   Invalid_Object_Entry,
-   Write_Protected,
-   Invalid_Drive,
-   No_Filesystem,
-   Locked,
-   Too_Many_Open_Files,
-   Invalid_Parameter,
-   Input_Output_Error,
-   No_MBR_Found,
-   No_Partition_Found,
-   No_More_Entries,
-   Read_Only_File_System,
+   …,
    Operation_Not_Permitted);
 </code></pre><h5>Enumeration Literal</h5><dl><dt>OK<dd><dt>Non_Empty_Directory<dd><dt>Disk_Error<dd><p>A hardware error occurred in the low level disk I/O<dt>Disk_Full<dd><dt>Internal_Error<dd><dt>Drive_Not_Ready<dd><dt>No_Such_File<dd><dt>No_Such_Path<dd><dt>Not_Mounted<dd><p>The mount point is invalid<dt>Invalid_Name<dd><dt>Access_Denied<dd><dt>Already_Exists<dd><dt>Invalid_Object_Entry<dd><dt>Write_Protected<dd><dt>Invalid_Drive<dd><dt>No_Filesystem<dd><p>The volume is not a FAT volume<dt>Locked<dd><dt>Too_Many_Open_Files<dd><p>All available handles are used<dt>Invalid_Parameter<dd><dt>Input_Output_Error<dd><dt>No_MBR_Found<dd><dt>No_Partition_Found<dd><dt>No_More_Entries<dd><dt>Read_Only_File_System<dd><dt>Operation_Not_Permitted<dd></dl><h4 id=bd865aec3fe29652bbfe9f5c30f4d7ec23eda12c898b93a44f1ae36d3338e40b>Unlink</h4><pre class=ada-code-snippet><code>function Unlink (This : in out Filesystem_Driver;
                  Path : String)

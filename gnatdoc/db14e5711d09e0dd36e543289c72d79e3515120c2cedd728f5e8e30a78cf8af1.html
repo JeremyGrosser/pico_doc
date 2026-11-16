@@ -15,10 +15,8 @@
    IE            : Boolean := True;
    OD            : Boolean := False;
    Reserved_8_31 : HAL.UInt24 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>SLEWFAST<dd><dt>SCHMITT<dd><dt>PDE<dd><dt>PUE<dd><dt>DRIVE<dd><dt>IE<dd><dt>OD<dd><dt>Reserved_8_31<dd></dl><h4 id=aa6f7892232d4b29ce84a4055f6dcc9b3778ad986c44d47679fe6bb81d29771f>PADS_BANK0_Periph</h4><pre class=ada-code-snippet><code>PADS_BANK0_Periph : aliased PADS_BANK0_Peripheral
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>SLEWFAST<dd><p>Enable schmitt trigger<dt>SCHMITT<dd><p>Pull down enable<dt>PDE<dd><p>Pull up enable<dt>PUE<dd><p>Drive strength.<dt>DRIVE<dd><p>Input enable<dt>IE<dd><p>Output disable. Has priority over output enable from peripherals<dt>OD<dd><p>unspecified<dt>Reserved_8_31<dd></dl><h4 id=aa6f7892232d4b29ce84a4055f6dcc9b3778ad986c44d47679fe6bb81d29771f>PADS_BANK0_Periph</h4><pre class=ada-code-snippet><code>PADS_BANK0_Periph : aliased PADS_BANK0_Peripheral
   with Import, Address => PADS_BANK0_Base;
 </code></pre><h4 id=94f42d60d9e05d880b07568d19e49b1275990bc4a693ec20e60a4bba014c41f3>PADS_BANK0_Peripheral</h4><pre class=ada-code-snippet><code>type PADS_BANK0_Peripheral is record
    VOLTAGE_SELECT : aliased VOLTAGE_SELECT_Register;
@@ -54,9 +52,8 @@ end record
    GPIO29         : aliased GPIO_Register;
    SWCLK          : aliased SWCLK_Register;
    SWD            : aliased SWD_Register;
-end record
-  with Volatile;
-</code></pre><h5>Record fields</h5><dl><dt>VOLTAGE_SELECT<dd><dt>GPIO0<dd><dt>GPIO1<dd><dt>GPIO2<dd><dt>GPIO3<dd><dt>GPIO4<dd><dt>GPIO5<dd><dt>GPIO6<dd><dt>GPIO7<dd><dt>GPIO8<dd><dt>GPIO9<dd><dt>GPIO10<dd><dt>GPIO11<dd><dt>GPIO12<dd><dt>GPIO13<dd><dt>GPIO14<dd><dt>GPIO15<dd><dt>GPIO16<dd><dt>GPIO17<dd><dt>GPIO18<dd><dt>GPIO19<dd><dt>GPIO20<dd><dt>GPIO21<dd><dt>GPIO22<dd><dt>GPIO23<dd><dt>GPIO24<dd><dt>GPIO25<dd><dt>GPIO26<dd><dt>GPIO27<dd><dt>GPIO28<dd><dt>GPIO29<dd><dt>SWCLK<dd><dt>SWD<dd></dl><h4 id=ded88f4f4cdcb5901487acd82142d96bcde89fe6df8b6f4e81f4a0affdab11d3>SWCLK_DRIVE_Field</h4><pre class=ada-code-snippet><code>type SWCLK_DRIVE_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>VOLTAGE_SELECT<dd><p>Pad control register<dt>GPIO0<dd><p>Pad control register<dt>GPIO1<dd><p>Pad control register<dt>GPIO2<dd><p>Pad control register<dt>GPIO3<dd><p>Pad control register<dt>GPIO4<dd><p>Pad control register<dt>GPIO5<dd><p>Pad control register<dt>GPIO6<dd><p>Pad control register<dt>GPIO7<dd><p>Pad control register<dt>GPIO8<dd><p>Pad control register<dt>GPIO9<dd><p>Pad control register<dt>GPIO10<dd><p>Pad control register<dt>GPIO11<dd><p>Pad control register<dt>GPIO12<dd><p>Pad control register<dt>GPIO13<dd><p>Pad control register<dt>GPIO14<dd><p>Pad control register<dt>GPIO15<dd><p>Pad control register<dt>GPIO16<dd><p>Pad control register<dt>GPIO17<dd><p>Pad control register<dt>GPIO18<dd><p>Pad control register<dt>GPIO19<dd><p>Pad control register<dt>GPIO20<dd><p>Pad control register<dt>GPIO21<dd><p>Pad control register<dt>GPIO22<dd><p>Pad control register<dt>GPIO23<dd><p>Pad control register<dt>GPIO24<dd><p>Pad control register<dt>GPIO25<dd><p>Pad control register<dt>GPIO26<dd><p>Pad control register<dt>GPIO27<dd><p>Pad control register<dt>GPIO28<dd><p>Pad control register<dt>GPIO29<dd><p>Pad control register<dt>SWCLK<dd><p>Pad control register<dt>SWD<dd></dl><h4 id=ded88f4f4cdcb5901487acd82142d96bcde89fe6df8b6f4e81f4a0affdab11d3>SWCLK_DRIVE_Field</h4><pre class=ada-code-snippet><code>type SWCLK_DRIVE_Field is
   (Val_2mA,
    Val_4mA,
    Val_8mA,
@@ -71,10 +68,8 @@ end record
    IE            : Boolean := True;
    OD            : Boolean := True;
    Reserved_8_31 : HAL.UInt24 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>SLEWFAST<dd><dt>SCHMITT<dd><dt>PDE<dd><dt>PUE<dd><dt>DRIVE<dd><dt>IE<dd><dt>OD<dd><dt>Reserved_8_31<dd></dl><h4 id=81a14b4bda2a1a43a53cbf3307f08d4acf5aa18a76ec9d2708cce1f97399db78>SWD_DRIVE_Field</h4><pre class=ada-code-snippet><code>type SWD_DRIVE_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>SLEWFAST<dd><p>Enable schmitt trigger<dt>SCHMITT<dd><p>Pull down enable<dt>PDE<dd><p>Pull up enable<dt>PUE<dd><p>Drive strength.<dt>DRIVE<dd><p>Input enable<dt>IE<dd><p>Output disable. Has priority over output enable from peripherals<dt>OD<dd><p>unspecified<dt>Reserved_8_31<dd></dl><h4 id=81a14b4bda2a1a43a53cbf3307f08d4acf5aa18a76ec9d2708cce1f97399db78>SWD_DRIVE_Field</h4><pre class=ada-code-snippet><code>type SWD_DRIVE_Field is
   (Val_2mA,
    Val_4mA,
    Val_8mA,
@@ -89,17 +84,13 @@ end record
    IE            : Boolean := True;
    OD            : Boolean := False;
    Reserved_8_31 : HAL.UInt24 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>SLEWFAST<dd><dt>SCHMITT<dd><dt>PDE<dd><dt>PUE<dd><dt>DRIVE<dd><dt>IE<dd><dt>OD<dd><dt>Reserved_8_31<dd></dl><h4 id=8cfde0e6e5180aaf2b4933bc45d11465706b13cedfa2050ac73eb91738ca8e10>VOLTAGE_SELECT_Register</h4><pre class=ada-code-snippet><code>type VOLTAGE_SELECT_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>SLEWFAST<dd><p>Enable schmitt trigger<dt>SCHMITT<dd><p>Pull down enable<dt>PDE<dd><p>Pull up enable<dt>PUE<dd><p>Drive strength.<dt>DRIVE<dd><p>Input enable<dt>IE<dd><p>Output disable. Has priority over output enable from peripherals<dt>OD<dd><p>unspecified<dt>Reserved_8_31<dd></dl><h4 id=8cfde0e6e5180aaf2b4933bc45d11465706b13cedfa2050ac73eb91738ca8e10>VOLTAGE_SELECT_Register</h4><pre class=ada-code-snippet><code>type VOLTAGE_SELECT_Register is record
    VOLTAGE_SELECT : VOLTAGE_SELECT_VOLTAGE_SELECT_Field :=
                      RP2040_SVD.PADS_BANK0.Val_3v3;
    Reserved_1_31  : HAL.UInt31 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>VOLTAGE_SELECT<dd><dt>Reserved_1_31<dd></dl><h4 id=55edd7038c140f096634bf1d4a03564fbe8393f0716b902c1b19a0592890a825>VOLTAGE_SELECT_VOLTAGE_SELECT_Field</h4><pre class=ada-code-snippet><code>type VOLTAGE_SELECT_VOLTAGE_SELECT_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>VOLTAGE_SELECT<dd><p>unspecified<dt>Reserved_1_31<dd></dl><h4 id=55edd7038c140f096634bf1d4a03564fbe8393f0716b902c1b19a0592890a825>VOLTAGE_SELECT_VOLTAGE_SELECT_Field</h4><pre class=ada-code-snippet><code>type VOLTAGE_SELECT_VOLTAGE_SELECT_Field is
    Val_3v3,
    Val_1v8)
   with Size => 1;

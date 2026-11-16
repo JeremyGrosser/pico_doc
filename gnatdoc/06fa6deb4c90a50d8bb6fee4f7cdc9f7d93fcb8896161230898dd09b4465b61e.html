@@ -25,10 +25,8 @@
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=b5df04866a90205f5572ea4285015d794e593508a9affd074d9f551d01d88253>EP0_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP0_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=b5df04866a90205f5572ea4285015d794e593508a9affd074d9f551d01d88253>EP0_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP0_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -53,10 +51,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=86a83ac5b9d0bb73dc776547ab66bd9d23b589bf4cbaeeaf13104b73645caa8b>EP10_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP10_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=86a83ac5b9d0bb73dc776547ab66bd9d23b589bf4cbaeeaf13104b73645caa8b>EP10_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP10_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -81,10 +77,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=0d29bec2ded6a3ad2decbae15e4463963dee013cd137e5ba4664bdc95f5367ee>EP10_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP10_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=0d29bec2ded6a3ad2decbae15e4463963dee013cd137e5ba4664bdc95f5367ee>EP10_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP10_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=bc6e88994288995a74e427fdce8c59e8694c3f1169b6f80f235a34b14d8bfdb7>EP10_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP10_IN_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -103,10 +97,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=0d8686812cf7b67ad379c17a781689787b52b0690e03d353da0801b4a89a9adc>EP10_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP10_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=0d8686812cf7b67ad379c17a781689787b52b0690e03d353da0801b4a89a9adc>EP10_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP10_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -131,10 +123,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=07815ce1920851f62df03954a2c12c8130a730346c35b6bcfaed4c5750911e0d>EP10_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP10_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=07815ce1920851f62df03954a2c12c8130a730346c35b6bcfaed4c5750911e0d>EP10_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP10_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=04e5812e82fe113f6fcf7e5828ac25809a526e4248258b4a49eedd1ce6667046>EP10_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP10_OUT_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -153,10 +143,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=a4f2bbfe3d8c7eeedec89803db80ccf177618420047c9cbd7b2a17c80df60c9d>EP11_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP11_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=a4f2bbfe3d8c7eeedec89803db80ccf177618420047c9cbd7b2a17c80df60c9d>EP11_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP11_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -181,10 +169,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=0329dd49d153e50d42d187d0249c79c8cb51049391cabbd7d3ffcbfdf7e2e178>EP11_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP11_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=0329dd49d153e50d42d187d0249c79c8cb51049391cabbd7d3ffcbfdf7e2e178>EP11_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP11_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=185c16a0c1dedaf088843dcf1dd0e7452d2d04e47b06108a006b2a18a4d94dc5>EP11_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP11_IN_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -203,10 +189,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=0ec6cd28f561e9a2108b7ada3e4fbb3196bb9c018d6e06ac1288f4c09c52a3d7>EP11_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP11_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=0ec6cd28f561e9a2108b7ada3e4fbb3196bb9c018d6e06ac1288f4c09c52a3d7>EP11_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP11_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -231,10 +215,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=93baeb88cae56a19bbfa177c6ae4b1ec3243777200fc0efe8e305fbf9c95a806>EP11_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP11_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=93baeb88cae56a19bbfa177c6ae4b1ec3243777200fc0efe8e305fbf9c95a806>EP11_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP11_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=417b3cf2ff2d77a590865f2eeeb1da4580853abf49093a58b8f946eed7dd6f3b>EP11_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP11_OUT_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -253,10 +235,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=d4adde13419dde9a1722521b15dbd1ae1668db1dced9802b827413e742958193>EP12_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP12_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=d4adde13419dde9a1722521b15dbd1ae1668db1dced9802b827413e742958193>EP12_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP12_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -281,10 +261,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=9ce7aeb806dd620edaa27f7f19478e2d4231e10dac0e86eeb5e2a84963ec435c>EP12_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP12_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=9ce7aeb806dd620edaa27f7f19478e2d4231e10dac0e86eeb5e2a84963ec435c>EP12_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP12_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=e48711ec3b1837f29bd290841e1252e9ef834402e11bba111f80d582192a2a7d>EP12_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP12_IN_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -303,10 +281,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=7d57ca4f561a49241159f1de28b5f98f1ac48f48da478609022a61b55e91871a>EP12_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP12_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=7d57ca4f561a49241159f1de28b5f98f1ac48f48da478609022a61b55e91871a>EP12_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP12_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -331,10 +307,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=b145133923b2dd51109d0fe57bad8b945fd25f06d875c6d2895c7184f4847e35>EP12_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP12_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=b145133923b2dd51109d0fe57bad8b945fd25f06d875c6d2895c7184f4847e35>EP12_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP12_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=b4a03b5275a91cbe9e1b3832941cd0ffb9ef30103544cb3a78edcad3c5ec26f9>EP12_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP12_OUT_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -353,10 +327,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=10e6a342d2a9a297b34ab55d166273ed9f620336706cc5300cae49b191fac552>EP13_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP13_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=10e6a342d2a9a297b34ab55d166273ed9f620336706cc5300cae49b191fac552>EP13_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP13_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -381,10 +353,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=910006dd5455c005b2c404af17a6c1f53d59f2361e4d7a33db86b4fe9159b836>EP13_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP13_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=910006dd5455c005b2c404af17a6c1f53d59f2361e4d7a33db86b4fe9159b836>EP13_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP13_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=ca8bb184fe24bcb592f4d060d64c3663b3f7b3a03f134b2565f87328daa19421>EP13_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP13_IN_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -403,10 +373,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=3d6f52216c63b0422020c4658174eafc29a4d9adccb8934a375b088dd1cdb95c>EP13_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP13_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=3d6f52216c63b0422020c4658174eafc29a4d9adccb8934a375b088dd1cdb95c>EP13_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP13_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -431,10 +399,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=cf364bf5e294bbbe547b5656a96afdea86a2cc0ad47ec76db33a0fa53553d830>EP13_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP13_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=cf364bf5e294bbbe547b5656a96afdea86a2cc0ad47ec76db33a0fa53553d830>EP13_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP13_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=81619da83ff52e1f8fd5f253c6fe87c3f79cba679e40d6f6aa3b10eac8e95f55>EP13_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP13_OUT_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -453,10 +419,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=47c762be4359ef7140b4c0883bb9f3609111344b262ac6257acff5837840bd45>EP14_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP14_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=47c762be4359ef7140b4c0883bb9f3609111344b262ac6257acff5837840bd45>EP14_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP14_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -481,10 +445,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=36edab06c0fc4e61b04672377c0f3b9b761479c6877120b5bdee2d01cdee5874>EP14_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP14_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=36edab06c0fc4e61b04672377c0f3b9b761479c6877120b5bdee2d01cdee5874>EP14_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP14_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=f86b3ce77c0090f880e5f7a0ee595331147942235560995fa7eb26d792157c47>EP14_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP14_IN_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -503,10 +465,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=12de3f6ce10e9bf38fb6148be92f976d7d03faa22227d6d067769fcad9fa8cb0>EP14_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP14_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=12de3f6ce10e9bf38fb6148be92f976d7d03faa22227d6d067769fcad9fa8cb0>EP14_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP14_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -531,10 +491,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=329a2b2fab66ee58706cadcca92d23b279b68d822f13f1efdb05b3fe40dff9b3>EP14_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP14_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=329a2b2fab66ee58706cadcca92d23b279b68d822f13f1efdb05b3fe40dff9b3>EP14_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP14_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=d79a4712d5d1f2a25e4434746938081f83d465cf49c1198c8330d4d66e8d9b2a>EP14_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP14_OUT_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -553,10 +511,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=37daa2ffdef198d07b98059723a4cc4f225afe9eda7d293fc9e827752da2d5bf>EP15_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP15_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=37daa2ffdef198d07b98059723a4cc4f225afe9eda7d293fc9e827752da2d5bf>EP15_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP15_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -581,10 +537,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=9f58e131043ff0921bf1906842434f4758cfafd47a441f38ebdd62c866438fe7>EP15_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP15_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=9f58e131043ff0921bf1906842434f4758cfafd47a441f38ebdd62c866438fe7>EP15_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP15_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=26a6859d8ad86a7eb6e29c59b1c167366a1a7082481ca6d4a93c47f358698d53>EP15_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP15_IN_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -603,10 +557,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=08aa6a9d509d7f6ad73e718af699b13173c5439294c87d6f9f9e63433c378fa5>EP15_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP15_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=08aa6a9d509d7f6ad73e718af699b13173c5439294c87d6f9f9e63433c378fa5>EP15_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP15_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -631,10 +583,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=75e6be4962bc9e610675f7990986d15edfafd7b06faa92fb25ba0d51d50e5335>EP15_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP15_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=75e6be4962bc9e610675f7990986d15edfafd7b06faa92fb25ba0d51d50e5335>EP15_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP15_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=99d941f6f71ee485e326e9f175d1ec05c2ee5e8fae88fbadd90bc0675a7aadca>EP15_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP15_OUT_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -653,10 +603,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=a21fd66b19dd6c722759eb30edeb4b676e0a67d56496c9f5158b183868bc6009>EP1_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP1_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=a21fd66b19dd6c722759eb30edeb4b676e0a67d56496c9f5158b183868bc6009>EP1_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP1_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -681,10 +629,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=967e0fc86b2fd51615d2075306fab3cc58a3dfb2b018118cce40f1f08c7a01df>EP1_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP1_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=967e0fc86b2fd51615d2075306fab3cc58a3dfb2b018118cce40f1f08c7a01df>EP1_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP1_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=171ac3bfda4dabdbb2122cd8fc3e5e5683f3171b930a95e84612ca5a0a1e1e98>EP1_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP1_IN_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -703,10 +649,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=d6e07b53a798db4cb3cc00e98fd548acf1e6009ee43f4e808f39d003d36b9870>EP1_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP1_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=d6e07b53a798db4cb3cc00e98fd548acf1e6009ee43f4e808f39d003d36b9870>EP1_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP1_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -731,10 +675,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=16ac2f444174e51b52faea10bf9fff9e32858eb190a8567d4acc2d2ad6b11205>EP1_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP1_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=16ac2f444174e51b52faea10bf9fff9e32858eb190a8567d4acc2d2ad6b11205>EP1_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP1_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=3b9a275895d57691261b68e5813bfaddaeb4b604bed7739713c0a698b0d03d95>EP1_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP1_OUT_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -753,10 +695,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=78844002c2b3fff164f04f86486a14cd28886a5b560f157d1c13ebd9cae1b33c>EP2_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP2_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=78844002c2b3fff164f04f86486a14cd28886a5b560f157d1c13ebd9cae1b33c>EP2_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP2_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -781,10 +721,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=0c0021e771383b4e5f0e2d32f58dbff51c89fb5e718b24d47c39b68f3f1444c2>EP2_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP2_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=0c0021e771383b4e5f0e2d32f58dbff51c89fb5e718b24d47c39b68f3f1444c2>EP2_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP2_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=4c4943897acf13b55c12be82dde87745c011c33d2a78d603be7eda88a06f0e05>EP2_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP2_IN_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -803,10 +741,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=e5aca76e5132f5b94707b7efd5f9bde6bb2da14b702c2e4fd05b9e0a8b26ac91>EP2_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP2_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=e5aca76e5132f5b94707b7efd5f9bde6bb2da14b702c2e4fd05b9e0a8b26ac91>EP2_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP2_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -831,10 +767,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=538b944035e0b2ee2b9952b35a33b883813577e55e910d7152895f5dce4c767f>EP2_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP2_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=538b944035e0b2ee2b9952b35a33b883813577e55e910d7152895f5dce4c767f>EP2_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP2_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=d5c7c4c4b93936fcf1349184033c2329d99338bcede52eec64e35e2a61ad7fc7>EP2_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP2_OUT_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -853,10 +787,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=5e0f1217b88bfa76ac59fc96c95c7209b3ff9a66d950394d2b5a6bd68ae7c644>EP3_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP3_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=5e0f1217b88bfa76ac59fc96c95c7209b3ff9a66d950394d2b5a6bd68ae7c644>EP3_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP3_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -881,10 +813,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=89478e5345fa73825c7aac069597e539c9756bbd15c66ab088b526c28195d6fa>EP3_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP3_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=89478e5345fa73825c7aac069597e539c9756bbd15c66ab088b526c28195d6fa>EP3_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP3_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=594c4e9f65085989a51becb84736d87902b8dab6e35a297fdef26dbaaa9c1e40>EP3_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP3_IN_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -903,10 +833,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=b916c5ac4b8c480558c96d3ca5d4423917c07ca43019b3fc925098ece0ebe5d8>EP3_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP3_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=b916c5ac4b8c480558c96d3ca5d4423917c07ca43019b3fc925098ece0ebe5d8>EP3_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP3_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -931,10 +859,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=2b94b4b77fdd1ec1899c8b62b7415d18f572994c43ac84037ee8034106030dc9>EP3_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP3_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=2b94b4b77fdd1ec1899c8b62b7415d18f572994c43ac84037ee8034106030dc9>EP3_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP3_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=16f89632b74949ea8d1adf61871c4c8ceda44a14005ed367ddb1642acf189202>EP3_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP3_OUT_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -953,10 +879,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=07d6aff832a9b7ea93856fbd1e28d0359b3b623806ec4e2b752b05277061c586>EP4_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP4_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=07d6aff832a9b7ea93856fbd1e28d0359b3b623806ec4e2b752b05277061c586>EP4_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP4_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -981,10 +905,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=3aec3f9637474221d368e4dc65124e0d02fc42d38c812937b0fd70fe1eca8c0b>EP4_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP4_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=3aec3f9637474221d368e4dc65124e0d02fc42d38c812937b0fd70fe1eca8c0b>EP4_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP4_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=d1b8ef6634415f643a8fee73aa185307811a99b8e4d1d673f7eef01db5ae6a79>EP4_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP4_IN_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -1003,10 +925,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=f9d96f3ce84c75dfd52a6e28cf1ae773bb9c42385227f86442bb4707ff366677>EP4_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP4_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=f9d96f3ce84c75dfd52a6e28cf1ae773bb9c42385227f86442bb4707ff366677>EP4_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP4_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -1031,10 +951,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=568237ed3bda5e2ce477e193b06b2c47f552299766da3f65bb08ba669f8b71fd>EP4_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP4_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=568237ed3bda5e2ce477e193b06b2c47f552299766da3f65bb08ba669f8b71fd>EP4_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP4_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=1b4e15be2f8311d780e40e824b586cd6e5d67b8e17cba727841e2dea104640cd>EP4_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP4_OUT_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -1053,10 +971,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=d38d190c9eac904eee22a0df66eaaa5aac303d3262dc23c9ef337d7deee0cd58>EP5_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP5_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=d38d190c9eac904eee22a0df66eaaa5aac303d3262dc23c9ef337d7deee0cd58>EP5_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP5_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -1081,10 +997,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=b57512fd50838c4e353e2ca4820a830fe9f893de106f2fd332386e0accee3fcd>EP5_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP5_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=b57512fd50838c4e353e2ca4820a830fe9f893de106f2fd332386e0accee3fcd>EP5_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP5_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=6f4670a982671c96a4cae8cd68c6cd533883f87ad561a6e67c60bdd30a3075ba>EP5_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP5_IN_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -1103,10 +1017,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=99ef59489a53c2975ae22171fc1cae77e9bce7d377bb9e999b440eb5eed045f8>EP5_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP5_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=99ef59489a53c2975ae22171fc1cae77e9bce7d377bb9e999b440eb5eed045f8>EP5_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP5_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -1131,10 +1043,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=0f30690b82c6678a3d0c8ea3b23448d636d6246cbe2c42ad48621cfd2166e9fb>EP5_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP5_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=0f30690b82c6678a3d0c8ea3b23448d636d6246cbe2c42ad48621cfd2166e9fb>EP5_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP5_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=659a2386060b5060830bfac1aed432bd81b428b5b1ab6d51bf5119ff07acdf11>EP5_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP5_OUT_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -1153,10 +1063,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=6f0d1be27a3d6070be4c01c637f319c1731409129097429cde09dd10b5c5efb3>EP6_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP6_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=6f0d1be27a3d6070be4c01c637f319c1731409129097429cde09dd10b5c5efb3>EP6_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP6_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -1181,10 +1089,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=e1270a31fceb87730c831388697773de837a0dfe9bd3c898a9a700e0dd871a48>EP6_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP6_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=e1270a31fceb87730c831388697773de837a0dfe9bd3c898a9a700e0dd871a48>EP6_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP6_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=8869f615a11a42bb79f89de5a13383341daa9eb6fa4b573b2d277a26c1f4652f>EP6_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP6_IN_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -1203,10 +1109,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=d7ead548af0f903a9f5f56ebd07e270b032dd07549452b3d143fb507f8ab1f56>EP6_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP6_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=d7ead548af0f903a9f5f56ebd07e270b032dd07549452b3d143fb507f8ab1f56>EP6_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP6_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -1231,10 +1135,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=e8a5f35cf27fd053ecc0d65cac3ae4ed5a5d202d5b49d48cf1940aa82d01850c>EP6_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP6_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=e8a5f35cf27fd053ecc0d65cac3ae4ed5a5d202d5b49d48cf1940aa82d01850c>EP6_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP6_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=1cb5c10f0fa846f69f00cc0ad18cbbbe9ac3c19879fd576c6519513b5532bcaf>EP6_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP6_OUT_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -1253,10 +1155,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=694847f68c6b05e4fecbcf56d1f136d1dba2dc8db142cbc2c575004c951b0708>EP7_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP7_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=694847f68c6b05e4fecbcf56d1f136d1dba2dc8db142cbc2c575004c951b0708>EP7_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP7_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -1281,10 +1181,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=9141f278e4b897bbf9ebc59d2919280657572236bc6d0ad27633ad57cf4ce266>EP7_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP7_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=9141f278e4b897bbf9ebc59d2919280657572236bc6d0ad27633ad57cf4ce266>EP7_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP7_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=1768a71a30baff2a490aa66319817c74858b411131a73f1e4058e435c5ae6cc9>EP7_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP7_IN_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -1303,10 +1201,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=74d7a2bee61d89932f9dcf8ba88f4dedb9493a42b35e2aa914ce1fdb5344f9b6>EP7_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP7_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=74d7a2bee61d89932f9dcf8ba88f4dedb9493a42b35e2aa914ce1fdb5344f9b6>EP7_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP7_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -1331,10 +1227,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=fa4d0a0749dbcac2433fe544859572a59a498b127276b7f4725ff74b3a8edcd0>EP7_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP7_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=fa4d0a0749dbcac2433fe544859572a59a498b127276b7f4725ff74b3a8edcd0>EP7_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP7_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=ec85135238297d9e48e4d70b12dbea881a27022a17fcea95788e0f7602073768>EP7_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP7_OUT_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -1353,10 +1247,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=4e14ab27c6734ae4522f0f1eb1278b50ea1691991fffa5ef7e9cf3b491143b64>EP8_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP8_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=4e14ab27c6734ae4522f0f1eb1278b50ea1691991fffa5ef7e9cf3b491143b64>EP8_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP8_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -1381,10 +1273,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=41bc72e49748182c48bcb76df80bb60e7d7bddb4a0950b01e96d3080beb2544d>EP8_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP8_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=41bc72e49748182c48bcb76df80bb60e7d7bddb4a0950b01e96d3080beb2544d>EP8_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP8_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=15b184a183a02099081620dd7839441a629d5007490a772408dc1cb9f3f67d2d>EP8_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP8_IN_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -1403,10 +1293,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=3917e74762dbbd52d1ba7878ac90b5318b8856141a21d6c04bfd367fa643ecf0>EP8_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP8_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=3917e74762dbbd52d1ba7878ac90b5318b8856141a21d6c04bfd367fa643ecf0>EP8_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP8_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -1431,10 +1319,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=e4ab0d8627f8abd40f9f164fb8c7d126552543eb6a1fb7797dad1892a5cb9de5>EP8_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP8_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=e4ab0d8627f8abd40f9f164fb8c7d126552543eb6a1fb7797dad1892a5cb9de5>EP8_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP8_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=176b50330be6476b0a9964d67a6ef8eefd7c92b11906a884694d8f75f3386854>EP8_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP8_OUT_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -1453,10 +1339,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=3a2000f8cd8db7434c3c1c1510d1de3e6dc4e2bfa34453aacc5fc236fe17dfe1>EP9_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP9_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=3a2000f8cd8db7434c3c1c1510d1de3e6dc4e2bfa34453aacc5fc236fe17dfe1>EP9_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP9_IN_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -1481,10 +1365,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=520f5e0ff4c8a056e86794c49e0ea632adb28720cfa4c74c1f33fa2936687457>EP9_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP9_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=520f5e0ff4c8a056e86794c49e0ea632adb28720cfa4c74c1f33fa2936687457>EP9_IN_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP9_IN_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=3323f0192a5d015a0a7899e8dd518b59fe5c2cfe27f8a2929a3275d04c2f3372>EP9_IN_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP9_IN_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -1503,10 +1385,8 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=e00c6d91ad31ab5b74f90541cbb0d7ee20d5287657b5f25504e75d52476351c1>EP9_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP9_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=e00c6d91ad31ab5b74f90541cbb0d7ee20d5287657b5f25504e75d52476351c1>EP9_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field</h4><pre class=ada-code-snippet><code>type EP9_OUT_BUFFER_CONTROL_DOUBLE_BUFFER_ISO_OFFSET_Field is
   (Val_128,
    Val_256,
    Val_512,
@@ -1531,10 +1411,8 @@ end record
    PID_1                    : Boolean := False;
    LAST_1                   : Boolean := False;
    FULL_1                   : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><dt>AVAILABLE_0<dd><dt>STALL<dd><dt>RESET<dd><dt>PID_0<dd><dt>LAST_0<dd><dt>FULL_0<dd><dt>LENGTH_1<dd><dt>AVAILABLE_1<dd><dt>DOUBLE_BUFFER_ISO_OFFSET<dd><dt>PID_1<dd><dt>LAST_1<dd><dt>FULL_1<dd></dl><h4 id=89eb59f33815cbcd9824e22162e12f4785a3b5c7c0c3059ecc7fb0b97bba844f>EP9_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP9_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>LENGTH_0<dd><p>Buffer 0 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_0<dd><p>Reply with a stall (valid for both buffers).<dt>STALL<dd><p>Reset the buffer selector to buffer 0.<dt>RESET<dd><p>The data pid of buffer 0.<dt>PID_0<dd><p>Buffer 0 is the last buffer of the transfer.<dt>LAST_0<dd><p>Buffer 0 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_0<dd><p>The length of the data in buffer 1.<dt>LENGTH_1<dd><p>Buffer 1 is available. This bit is set to indicate the buffer can be used by the controller. The controller clears the available bit when writing the status back.<dt>AVAILABLE_1<dd><p>The number of bytes buffer 1 is offset from buffer 0 in Isochronous mode. Only valid in double buffered mode for an Isochronous endpoint.\n For a non Isochronous endpoint the offset is always 64 bytes.<dt>DOUBLE_BUFFER_ISO_OFFSET<dd><p>The data pid of buffer 1.<dt>PID_1<dd><p>Buffer 1 is the last buffer of the transfer.<dt>LAST_1<dd><p>Buffer 1 is full. For an IN transfer (TX to the host) the bit is set to indicate the data is valid. For an OUT transfer (RX from the host) this bit should be left as a 0. The host will set it when it has filled the buffer with data.<dt>FULL_1<dd></dl><h4 id=89eb59f33815cbcd9824e22162e12f4785a3b5c7c0c3059ecc7fb0b97bba844f>EP9_OUT_CONTROL_BUFFER_ADDRESS_Field</h4><pre class=ada-code-snippet><code>subtype EP9_OUT_CONTROL_BUFFER_ADDRESS_Field is HAL.UInt16;
 </code></pre><h4 id=ed8d6c1362afeedfd38b16d1e255b98c838bb44cf49b6fccbe18e2da3a5fc0ad>EP9_OUT_CONTROL_ENDPOINT_TYPE_Field</h4><pre class=ada-code-snippet><code>type EP9_OUT_CONTROL_ENDPOINT_TYPE_Field is
   (Control,
    Isochronous,
@@ -1553,15 +1431,11 @@ end record
    INTERRUPT_PER_BUFF        : Boolean := False;
    DOUBLE_BUFFERED           : Boolean := False;
    ENABLE                    : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><dt>INTERRUPT_ON_NAK<dd><dt>INTERRUPT_ON_STALL<dd><dt>Reserved_18_25<dd><dt>ENDPOINT_TYPE<dd><dt>INTERRUPT_PER_DOUBLE_BUFF<dd><dt>INTERRUPT_PER_BUFF<dd><dt>DOUBLE_BUFFERED<dd><dt>ENABLE<dd></dl><h4 id=256c33ab5b497c6f4ce2fd1971b62083205b6dbbf528ecc42a90d8c3fb759a16>SETUP_PACKET_HIGH_Register</h4><pre class=ada-code-snippet><code>type SETUP_PACKET_HIGH_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>BUFFER_ADDRESS<dd><p>Trigger an interrupt if a NAK is sent. Intended for debug only.<dt>INTERRUPT_ON_NAK<dd><p>Trigger an interrupt if a STALL is sent. Intended for debug only.<dt>INTERRUPT_ON_STALL<dd><p>unspecified<dt>Reserved_18_25<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>ENDPOINT_TYPE<dd><p>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.<dt>INTERRUPT_PER_DOUBLE_BUFF<dd><p>Trigger an interrupt each time a buffer is done.<dt>INTERRUPT_PER_BUFF<dd><p>This endpoint is double buffered.<dt>DOUBLE_BUFFERED<dd><p>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.<dt>ENABLE<dd></dl><h4 id=256c33ab5b497c6f4ce2fd1971b62083205b6dbbf528ecc42a90d8c3fb759a16>SETUP_PACKET_HIGH_Register</h4><pre class=ada-code-snippet><code>type SETUP_PACKET_HIGH_Register is record
    WINDEX  : SETUP_PACKET_HIGH_WINDEX_Field := 16#0#;
    WLENGTH : SETUP_PACKET_HIGH_WLENGTH_Field := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>WINDEX<dd><dt>WLENGTH<dd></dl><h4 id=56c94f0f8d427301900f95ee404dd5ffeac0ada465b9bb1f2170aa018bb573a7>SETUP_PACKET_HIGH_WINDEX_Field</h4><pre class=ada-code-snippet><code>subtype SETUP_PACKET_HIGH_WINDEX_Field is HAL.UInt16;
 </code></pre><h4 id=c6295998ba60f8e38ca41002748b5827ffc6778ca7a2371d3e75f90ffe3cdcf5>SETUP_PACKET_HIGH_WLENGTH_Field</h4><pre class=ada-code-snippet><code>subtype SETUP_PACKET_HIGH_WLENGTH_Field is HAL.UInt16;
 </code></pre><h4 id=506f06af68288c91d3490082f6ba8bd46d6982b9abc65de564f19e3c3248a8e1>SETUP_PACKET_LOW_BMREQUESTTYPE_Field</h4><pre class=ada-code-snippet><code>subtype SETUP_PACKET_LOW_BMREQUESTTYPE_Field is HAL.UInt8;
@@ -1570,9 +1444,7 @@ end record
    BMREQUESTTYPE : SETUP_PACKET_LOW_BMREQUESTTYPE_Field := 16#0#;
    BREQUEST      : SETUP_PACKET_LOW_BREQUEST_Field := 16#0#;
    WVALUE        : SETUP_PACKET_LOW_WVALUE_Field := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>BMREQUESTTYPE<dd><dt>BREQUEST<dd><dt>WVALUE<dd></dl><h4 id=4a8b06157a64eda5d2b5ad2cc5332302587462889eddfbfdc7b9c74c54944dfd>SETUP_PACKET_LOW_WVALUE_Field</h4><pre class=ada-code-snippet><code>subtype SETUP_PACKET_LOW_WVALUE_Field is HAL.UInt16;
 </code></pre><h4 id=fbde4251592940f56bce81f0caf2368da0a90ce860c3929c585a67f4d32020af>USBCTRL_DPRAM_Periph</h4><pre class=ada-code-snippet><code>USBCTRL_DPRAM_Periph : aliased USBCTRL_DPRAM_Peripheral
   with Import, Address => USBCTRL_DPRAM_Base;
@@ -1641,6 +1513,5 @@ end record
    EP14_OUT_BUFFER_CONTROL : aliased EP14_OUT_BUFFER_CONTROL_Register;
    EP15_IN_BUFFER_CONTROL  : aliased EP15_IN_BUFFER_CONTROL_Register;
    EP15_OUT_BUFFER_CONTROL : aliased EP15_OUT_BUFFER_CONTROL_Register;
-end record
-  with Volatile;
-</code></pre><h5>Record fields</h5><dl><dt>SETUP_PACKET_LOW<dd><dt>SETUP_PACKET_HIGH<dd><dt>EP1_IN_CONTROL<dd><dt>EP1_OUT_CONTROL<dd><dt>EP2_IN_CONTROL<dd><dt>EP2_OUT_CONTROL<dd><dt>EP3_IN_CONTROL<dd><dt>EP3_OUT_CONTROL<dd><dt>EP4_IN_CONTROL<dd><dt>EP4_OUT_CONTROL<dd><dt>EP5_IN_CONTROL<dd><dt>EP5_OUT_CONTROL<dd><dt>EP6_IN_CONTROL<dd><dt>EP6_OUT_CONTROL<dd><dt>EP7_IN_CONTROL<dd><dt>EP7_OUT_CONTROL<dd><dt>EP8_IN_CONTROL<dd><dt>EP8_OUT_CONTROL<dd><dt>EP9_IN_CONTROL<dd><dt>EP9_OUT_CONTROL<dd><dt>EP10_IN_CONTROL<dd><dt>EP10_OUT_CONTROL<dd><dt>EP11_IN_CONTROL<dd><dt>EP11_OUT_CONTROL<dd><dt>EP12_IN_CONTROL<dd><dt>EP12_OUT_CONTROL<dd><dt>EP13_IN_CONTROL<dd><dt>EP13_OUT_CONTROL<dd><dt>EP14_IN_CONTROL<dd><dt>EP14_OUT_CONTROL<dd><dt>EP15_IN_CONTROL<dd><dt>EP15_OUT_CONTROL<dd><dt>EP0_IN_BUFFER_CONTROL<dd><dt>EP0_OUT_BUFFER_CONTROL<dd><dt>EP1_IN_BUFFER_CONTROL<dd><dt>EP1_OUT_BUFFER_CONTROL<dd><dt>EP2_IN_BUFFER_CONTROL<dd><dt>EP2_OUT_BUFFER_CONTROL<dd><dt>EP3_IN_BUFFER_CONTROL<dd><dt>EP3_OUT_BUFFER_CONTROL<dd><dt>EP4_IN_BUFFER_CONTROL<dd><dt>EP4_OUT_BUFFER_CONTROL<dd><dt>EP5_IN_BUFFER_CONTROL<dd><dt>EP5_OUT_BUFFER_CONTROL<dd><dt>EP6_IN_BUFFER_CONTROL<dd><dt>EP6_OUT_BUFFER_CONTROL<dd><dt>EP7_IN_BUFFER_CONTROL<dd><dt>EP7_OUT_BUFFER_CONTROL<dd><dt>EP8_IN_BUFFER_CONTROL<dd><dt>EP8_OUT_BUFFER_CONTROL<dd><dt>EP9_IN_BUFFER_CONTROL<dd><dt>EP9_OUT_BUFFER_CONTROL<dd><dt>EP10_IN_BUFFER_CONTROL<dd><dt>EP10_OUT_BUFFER_CONTROL<dd><dt>EP11_IN_BUFFER_CONTROL<dd><dt>EP11_OUT_BUFFER_CONTROL<dd><dt>EP12_IN_BUFFER_CONTROL<dd><dt>EP12_OUT_BUFFER_CONTROL<dd><dt>EP13_IN_BUFFER_CONTROL<dd><dt>EP13_OUT_BUFFER_CONTROL<dd><dt>EP14_IN_BUFFER_CONTROL<dd><dt>EP14_OUT_BUFFER_CONTROL<dd><dt>EP15_IN_BUFFER_CONTROL<dd><dt>EP15_OUT_BUFFER_CONTROL<dd></dl>
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>SETUP_PACKET_LOW<dd><p>Bytes 4-7 of the setup packet from the host.<dt>SETUP_PACKET_HIGH<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP1_IN_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP1_OUT_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP2_IN_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP2_OUT_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP3_IN_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP3_OUT_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP4_IN_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP4_OUT_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP5_IN_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP5_OUT_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP6_IN_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP6_OUT_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP7_IN_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP7_OUT_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP8_IN_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP8_OUT_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP9_IN_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP9_OUT_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP10_IN_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP10_OUT_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP11_IN_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP11_OUT_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP12_IN_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP12_OUT_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP13_IN_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP13_OUT_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP14_IN_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP14_OUT_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP15_IN_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP15_OUT_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP0_IN_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP0_OUT_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP1_IN_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP1_OUT_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP2_IN_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP2_OUT_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP3_IN_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP3_OUT_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP4_IN_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP4_OUT_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP5_IN_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP5_OUT_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP6_IN_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP6_OUT_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP7_IN_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP7_OUT_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP8_IN_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP8_OUT_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP9_IN_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP9_OUT_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP10_IN_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP10_OUT_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP11_IN_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP11_OUT_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP12_IN_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP12_OUT_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP13_IN_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP13_OUT_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP14_IN_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP14_OUT_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP15_IN_BUFFER_CONTROL<dd><p>Buffer control for both buffers of an endpoint. Fields ending in a _1 are for buffer 1.\n Fields ending in a _0 are for buffer 0. Buffer 1 controls are only valid if the endpoint is in double buffered mode.<dt>EP15_OUT_BUFFER_CONTROL<dd></dl>

@@ -10,17 +10,7 @@
    Register_5,
    Register_6,
    Register_7,
-   Register_8,
-   Register_9,
-   Register_10,
-   Register_11,
-   Register_12,
-   Current_Sp,
-   Link_Rregister,
-   Debug_Return_Address,
-   XPsr,
-   Msp,
-   Psp,
+   …,
    Control_Faultmask_Basepri_Primask)
   with Size => 5;
 </code></pre><h5>Enumeration Literal</h5><dl><dt>Register_0<dd><dt>Register_1<dd><dt>Register_2<dd><dt>Register_3<dd><dt>Register_4<dd><dt>Register_5<dd><dt>Register_6<dd><dt>Register_7<dd><dt>Register_8<dd><dt>Register_9<dd><dt>Register_10<dd><dt>Register_11<dd><dt>Register_12<dd><dt>Current_Sp<dd><dt>Link_Rregister<dd><dt>Debug_Return_Address<dd><dt>XPsr<dd><dt>Msp<dd><dt>Psp<dd><dt>Control_Faultmask_Basepri_Primask<dd></dl><h4 id=458cd615c7d46494f7059b6f398b4e6c7e193b9bc632a66764cf4abf5b927723>DCRSR_Register</h4><pre class=ada-code-snippet><code>type DCRSR_Register is record
@@ -28,10 +18,8 @@
    Reserved_5_15  : HAL.UInt11 := 16#0#;
    REGWnR         : DCRSR_REGWnR_Field := Cortex_M_SVD.Debug.Read;
    Reserved_17_31 : HAL.UInt15 := 16#0#;
-end record
-  with Volatile_Full_Access, Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>HALTED<dd><dt>Reserved_5_15<dd><dt>REGWnR<dd><dt>Reserved_17_31<dd></dl><h4 id=d5d9033e1a7900fe760e5a8865a79141ad0004570b5189cd1891f6cba7707c0a>DCRSR_REGWnR_Field</h4><pre class=ada-code-snippet><code>type DCRSR_REGWnR_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>HALTED<dd><p>unspecified<dt>Reserved_5_15<dd><p>Write-only.<dt>REGWnR<dd><p>unspecified<dt>Reserved_17_31<dd></dl><h4 id=d5d9033e1a7900fe760e5a8865a79141ad0004570b5189cd1891f6cba7707c0a>DCRSR_REGWnR_Field</h4><pre class=ada-code-snippet><code>type DCRSR_REGWnR_Field is
   (
    Read,
    Write)
@@ -44,9 +32,8 @@ end record
    DCRSR : aliased DCRSR_Register;
    DCRDR : aliased HAL.UInt32;
    DEMCR : aliased DEMCR_Register;
-end record
-  with Volatile;
-</code></pre><h5>Record fields</h5><dl><dt>DFSR<dd><dt>DHCSR<dd><dt>DCRSR<dd><dt>DCRDR<dd><dt>DEMCR<dd></dl><h4 id=d172aa739012cacd22ecc9de83aebbb28e8267fe36ec6da9d32bac0d71641553>DEMCR_Register</h4><pre class=ada-code-snippet><code>type DEMCR_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>DFSR<dd><p>Debug Halting Control and Status Register<dt>DHCSR<dd><p>Debug Core Register Selector Register: The DCRSR write-only register generates a handshake to the core to transfer the selected register to/from the DCRDR. The DHCSR S_REGRDY bit is cleared when the DCRSR is written, and remains clear until the core transaction completes. This register is only accessible from Debug state.<dt>DCRSR<dd><p>Debug Core Register Data Register<dt>DCRDR<dd><p>Debug Exception and Monitor Control Register<dt>DEMCR<dd></dl><h4 id=d172aa739012cacd22ecc9de83aebbb28e8267fe36ec6da9d32bac0d71641553>DEMCR_Register</h4><pre class=ada-code-snippet><code>type DEMCR_Register is record
    VC_CORERESET   : Boolean := False;
    Reserved_1_3   : HAL.UInt3 := 16#0#;
    VC_MMERR       : Boolean := False;
@@ -64,20 +51,16 @@ end record
    Reserved_20_23 : HAL.UInt4 := 16#0#;
    TRCENA         : Boolean := False;
    Reserved_25_31 : HAL.UInt7 := 16#0#;
-end record
-  with Volatile_Full_Access, Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>VC_CORERESET<dd><dt>Reserved_1_3<dd><dt>VC_MMERR<dd><dt>VC_NOCPERR<dd><dt>VC_CHKERR<dd><dt>VC_STATERR<dd><dt>VC_BUSERR<dd><dt>VC_INTERR<dd><dt>VC_HARDERR<dd><dt>Reserved_11_15<dd><dt>MON_EN<dd><dt>MON_PEND<dd><dt>MON_STEP<dd><dt>MON_REQ<dd><dt>Reserved_20_23<dd><dt>TRCENA<dd><dt>Reserved_25_31<dd></dl><h4 id=e1a051a890b7cc3f41419f8650564c2a28b99dc49b330e01ecfae3f0f5e5e744>DFSR_Register</h4><pre class=ada-code-snippet><code>type DFSR_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>VC_CORERESET<dd><p>unspecified<dt>Reserved_1_3<dd><p>unspecified<dt>VC_MMERR<dd><p>unspecified<dt>VC_NOCPERR<dd><p>unspecified<dt>VC_CHKERR<dd><p>unspecified<dt>VC_STATERR<dd><p>unspecified<dt>VC_BUSERR<dd><p>unspecified<dt>VC_INTERR<dd><p>unspecified<dt>VC_HARDERR<dd><p>unspecified<dt>Reserved_11_15<dd><p>unspecified<dt>MON_EN<dd><p>unspecified<dt>MON_PEND<dd><p>unspecified<dt>MON_STEP<dd><p>unspecified<dt>MON_REQ<dd><p>unspecified<dt>Reserved_20_23<dd><p>unspecified<dt>TRCENA<dd><p>unspecified<dt>Reserved_25_31<dd></dl><h4 id=e1a051a890b7cc3f41419f8650564c2a28b99dc49b330e01ecfae3f0f5e5e744>DFSR_Register</h4><pre class=ada-code-snippet><code>type DFSR_Register is record
    HALTED        : Boolean := False;
    BKPT          : Boolean := False;
    DWTTRAP       : Boolean := False;
    VCATCH        : Boolean := False;
    EXTERNAL      : Boolean := False;
    Reserved_5_31 : HAL.UInt27 := 16#0#;
-end record
-  with Volatile_Full_Access, Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>HALTED<dd><dt>BKPT<dd><dt>DWTTRAP<dd><dt>VCATCH<dd><dt>EXTERNAL<dd><dt>Reserved_5_31<dd></dl><h4 id=bbdddf82e7acb1f6006bac7969d3d6e1c36e1fe096991a43f56da81c80609f9d>DHCSR_Cluster</h4><pre class=ada-code-snippet><code>type DHCSR_Cluster
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>HALTED<dd><p>BKPT instruction executed or breakpoint match in FPB.<dt>BKPT<dd><p>Data Watchpoint and Trace trap. Indicates that the core halted due to at least one DWT trap event.<dt>DWTTRAP<dd><p>Vector catch triggered. Corresponding FSR will contain the primary cause of the exception.<dt>VCATCH<dd><p>An asynchronous exception generated due to the assertion of EDBGRQ.<dt>EXTERNAL<dd><p>unspecified<dt>Reserved_5_31<dd></dl><h4 id=bbdddf82e7acb1f6006bac7969d3d6e1c36e1fe096991a43f56da81c80609f9d>DHCSR_Cluster</h4><pre class=ada-code-snippet><code>type DHCSR_Cluster
   (Discriminent : DHCSR_Disc := Mode_1)
 is record
    case Discriminent is
@@ -86,8 +69,7 @@ is record
       when Mode_2 =>
          Write : aliased Write_DHCSR_Register;
    end case;
-end record
-  with Unchecked_Union, Volatile, Size => 32;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>Discriminent<dd><dt>Read<dd><dt>Write<dd></dl><h4 id=9c5f85898cc4d6b6bee5ef4e7bd632ff0d60f155fc41771bf26b4257dfd23f13>DHCSR_Disc</h4><pre class=ada-code-snippet><code>type DHCSR_Disc is
   (
    Mode_1,
@@ -108,10 +90,8 @@ end record
    S_RETIRE_ST    : Boolean;
    S_RESET_ST     : Boolean;
    Reserved_26_31 : HAL.UInt6;
-end record
-  with Volatile_Full_Access, Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>C_DEBUGGEN<dd><dt>C_HALT<dd><dt>C_STEP<dd><dt>C_MASKINTS<dd><dt>Reserved_4_4<dd><dt>C_SNAPSTALL<dd><dt>Reserved_6_15<dd><dt>S_REGRDY<dd><dt>S_HALT<dd><dt>S_SLEEP<dd><dt>S_LOCKUP<dd><dt>Reserved_20_23<dd><dt>S_RETIRE_ST<dd><dt>S_RESET_ST<dd><dt>Reserved_26_31<dd></dl><h4 id=735f2af9dcd6581e380024f431dec697f8da68c1d7b2194b11bdd472d327bbf1>Write_DHCSR_Register</h4><pre class=ada-code-snippet><code>type Write_DHCSR_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>C_DEBUGGEN<dd><p>Read-only.<dt>C_HALT<dd><p>Read-only.<dt>C_STEP<dd><p>Read-only.<dt>C_MASKINTS<dd><p>unspecified<dt>Reserved_4_4<dd><p>Read-only.<dt>C_SNAPSTALL<dd><p>unspecified<dt>Reserved_6_15<dd><p>Read-only.<dt>S_REGRDY<dd><p>Read-only.<dt>S_HALT<dd><p>Read-only.<dt>S_SLEEP<dd><p>Read-only.<dt>S_LOCKUP<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only.<dt>S_RETIRE_ST<dd><p>Read-only.<dt>S_RESET_ST<dd><p>unspecified<dt>Reserved_26_31<dd></dl><h4 id=735f2af9dcd6581e380024f431dec697f8da68c1d7b2194b11bdd472d327bbf1>Write_DHCSR_Register</h4><pre class=ada-code-snippet><code>type Write_DHCSR_Register is record
    C_DEBUGGEN    : Boolean := False;
    C_HALT        : Boolean := False;
    C_STEP        : Boolean := False;
@@ -120,8 +100,6 @@ end record
    C_SNAPSTALL   : Boolean := False;
    Reserved_6_15 : HAL.UInt10 := 16#0#;
    S_RESET_ST    : Write_DHCSR_S_RESET_ST_Field := 16#0#;
-end record
-  with Volatile_Full_Access, Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>C_DEBUGGEN<dd><dt>C_HALT<dd><dt>C_STEP<dd><dt>C_MASKINTS<dd><dt>Reserved_4_4<dd><dt>C_SNAPSTALL<dd><dt>Reserved_6_15<dd><dt>S_RESET_ST<dd></dl><h4 id=e138ccc95de888b84eb627e6cd8aac5d651557a45dd1ad37326bb120772234ab>Write_DHCSR_S_RESET_ST_Field</h4><pre class=ada-code-snippet><code>subtype Write_DHCSR_S_RESET_ST_Field is HAL.UInt16;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>C_DEBUGGEN<dd><p>Write-only.<dt>C_HALT<dd><p>Write-only.<dt>C_STEP<dd><p>Write-only.<dt>C_MASKINTS<dd><p>unspecified<dt>Reserved_4_4<dd><p>Write-only.<dt>C_SNAPSTALL<dd><p>unspecified<dt>Reserved_6_15<dd><p>Write-only. Debug Key. The value 0xA05F must be written to enable write accesses to bits [15:0], otherwise the write access will be ignored. Read behavior of bits [31:16] is as listed below.<dt>S_RESET_ST<dd></dl><h4 id=e138ccc95de888b84eb627e6cd8aac5d651557a45dd1ad37326bb120772234ab>Write_DHCSR_S_RESET_ST_Field</h4><pre class=ada-code-snippet><code>subtype Write_DHCSR_S_RESET_ST_Field is HAL.UInt16;
 </code></pre>

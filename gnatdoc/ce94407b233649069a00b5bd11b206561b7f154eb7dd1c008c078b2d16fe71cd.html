@@ -4,10 +4,8 @@
 </code></pre><h4 id=c74fabbca9e5857d84dfacd65377a664a7b0cf6fff234bde90a70201ad3377bb>CTRL_Register</h4><pre class=ada-code-snippet><code>type CTRL_Register is record
    Reserved_0_27 : CTRL_Reserved_0_27_Field := 16#0#;
    NUMCOMP       : CTRL_NUMCOMP_Field := 16#0#;
-end record
-  with Volatile_Full_Access, Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_27<dd><dt>NUMCOMP<dd></dl><h4 id=2670faecf734787e137bb6e2cf381d5b2adb46e18679e67e86610f67b31ff079>CTRL_Reserved_0_27_Field</h4><pre class=ada-code-snippet><code>subtype CTRL_Reserved_0_27_Field is HAL.UInt28;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_27<dd><p>Number of comparators available<dt>NUMCOMP<dd></dl><h4 id=2670faecf734787e137bb6e2cf381d5b2adb46e18679e67e86610f67b31ff079>CTRL_Reserved_0_27_Field</h4><pre class=ada-code-snippet><code>subtype CTRL_Reserved_0_27_Field is HAL.UInt28;
 </code></pre><h4 id=90e30bc130ed44f8916da0e1321c9661710fb6a2c9cb21225a8143ff0e8281e9>DWT_Periph</h4><pre class=ada-code-snippet><code>DWT_Periph : aliased DWT_Peripheral
   with Import, Address => DWT_Base;
 </code></pre><h4 id=d8613488c3d30ee086f88e04d0a894a6663e3ffeac6a06be7917c1cb15ab96ff>DWT_Peripheral</h4><pre class=ada-code-snippet><code>type DWT_Peripheral is record
@@ -16,6 +14,5 @@ end record
    COMP0     : aliased HAL.UInt32;
    MASK0     : aliased HAL.UInt32;
    FUNCTION0 : aliased HAL.UInt32;
-end record
-  with Volatile;
-</code></pre><h5>Record fields</h5><dl><dt>CTRL<dd><dt>PCSR<dd><dt>COMP0<dd><dt>MASK0<dd><dt>FUNCTION0<dd></dl>
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>CTRL<dd><p>Program Counter Sample Register<dt>PCSR<dd><p>Comparator Register 0<dt>COMP0<dd><p>Mask Register 0<dt>MASK0<dd><p>Function Register 0<dt>FUNCTION0<dd></dl>

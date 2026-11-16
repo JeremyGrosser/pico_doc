@@ -7,24 +7,19 @@
    BYPASS        : Boolean := False;
    Reserved_9_30 : HAL.UInt22 := 16#0#;
    LOCK          : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>REFDIV<dd><dt>Reserved_6_7<dd><dt>BYPASS<dd><dt>Reserved_9_30<dd><dt>LOCK<dd></dl><h4 id=326046a0a473e010c0a7154de25ca6e68c4801524f035a2c4cb40b3303fa6b59>FBDIV_INT_FBDIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype FBDIV_INT_FBDIV_INT_Field is HAL.UInt12;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>REFDIV<dd><p>unspecified<dt>Reserved_6_7<dd><p>Passes the reference clock to the output instead of the divided VCO. The VCO continues to run so the user can switch between the reference clock and the divided VCO but the output will glitch when doing so.<dt>BYPASS<dd><p>unspecified<dt>Reserved_9_30<dd><p>Read-only. PLL is locked<dt>LOCK<dd></dl><h4 id=326046a0a473e010c0a7154de25ca6e68c4801524f035a2c4cb40b3303fa6b59>FBDIV_INT_FBDIV_INT_Field</h4><pre class=ada-code-snippet><code>subtype FBDIV_INT_FBDIV_INT_Field is HAL.UInt12;
 </code></pre><h4 id=9daf4928ff658a22079ba07467a090c4e1d3b0b128bc8f22645bab62770cab73>FBDIV_INT_Register</h4><pre class=ada-code-snippet><code>type FBDIV_INT_Register is record
    FBDIV_INT      : FBDIV_INT_FBDIV_INT_Field := 16#0#;
    Reserved_12_31 : HAL.UInt20 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FBDIV_INT<dd><dt>Reserved_12_31<dd></dl><h4 id=702d80b354389da6f7c3058d0fd6b4fee358f45711af9c30d0c3ad68febd9dee>PLL_Peripheral</h4><pre class=ada-code-snippet><code>type PLL_Peripheral is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FBDIV_INT<dd><p>unspecified<dt>Reserved_12_31<dd></dl><h4 id=702d80b354389da6f7c3058d0fd6b4fee358f45711af9c30d0c3ad68febd9dee>PLL_Peripheral</h4><pre class=ada-code-snippet><code>type PLL_Peripheral is record
    CS        : aliased CS_Register;
    PWR       : aliased PWR_Register;
    FBDIV_INT : aliased FBDIV_INT_Register;
    PRIM      : aliased PRIM_Register;
-end record
-  with Volatile;
-</code></pre><h5>Record fields</h5><dl><dt>CS<dd><dt>PWR<dd><dt>FBDIV_INT<dd><dt>PRIM<dd></dl><h4 id=de61af043afed68aeec8f7acc7b97c8df9ead8b83a1d8ec92c5556e2715dec37>PLL_SYS_Periph</h4><pre class=ada-code-snippet><code>PLL_SYS_Periph : aliased PLL_Peripheral
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>CS<dd><p>Controls the PLL power modes.<dt>PWR<dd><p>Feedback divisor\n (note: this PLL does not support fractional division)<dt>FBDIV_INT<dd><p>Controls the PLL post dividers for the primary output\n (note: this PLL does not have a secondary output)\n the primary output is driven from VCO divided by postdiv1*postdiv2<dt>PRIM<dd></dl><h4 id=de61af043afed68aeec8f7acc7b97c8df9ead8b83a1d8ec92c5556e2715dec37>PLL_SYS_Periph</h4><pre class=ada-code-snippet><code>PLL_SYS_Periph : aliased PLL_Peripheral
   with Import, Address => PLL_SYS_Base;
 </code></pre><h4 id=79b11fec2e96dc6b4872d916473092f6efbc9cefc8085b02c02a13d8b079db72>PLL_USB_Periph</h4><pre class=ada-code-snippet><code>PLL_USB_Periph : aliased PLL_Peripheral
   with Import, Address => PLL_USB_Base;
@@ -36,10 +31,8 @@ end record
    Reserved_15_15 : HAL.Bit := 16#0#;
    POSTDIV1       : PRIM_POSTDIV1_Field := 16#7#;
    Reserved_19_31 : HAL.UInt13 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_11<dd><dt>POSTDIV2<dd><dt>Reserved_15_15<dd><dt>POSTDIV1<dd><dt>Reserved_19_31<dd></dl><h4 id=a1acbe55f83637351c2a9b230edf36a692e8e4ed4c41ea76c55dbd630f4de902>PWR_Register</h4><pre class=ada-code-snippet><code>type PWR_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_11<dd><p>divide by 1-7<dt>POSTDIV2<dd><p>unspecified<dt>Reserved_15_15<dd><p>divide by 1-7<dt>POSTDIV1<dd><p>unspecified<dt>Reserved_19_31<dd></dl><h4 id=a1acbe55f83637351c2a9b230edf36a692e8e4ed4c41ea76c55dbd630f4de902>PWR_Register</h4><pre class=ada-code-snippet><code>type PWR_Register is record
    PD            : Boolean := True;
    Reserved_1_1  : HAL.Bit := 16#0#;
    DSMPD         : Boolean := True;
@@ -47,7 +40,5 @@ end record
    Reserved_4_4  : HAL.Bit := 16#0#;
    VCOPD         : Boolean := True;
    Reserved_6_31 : HAL.UInt26 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>PD<dd><dt>Reserved_1_1<dd><dt>DSMPD<dd><dt>POSTDIVPD<dd><dt>Reserved_4_4<dd><dt>VCOPD<dd><dt>Reserved_6_31<dd></dl>
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>PD<dd><p>unspecified<dt>Reserved_1_1<dd><p>PLL DSM powerdown\n Nothing is achieved by setting this low.<dt>DSMPD<dd><p>PLL post divider powerdown\n To save power set high when PLL output not required or bypass=1.<dt>POSTDIVPD<dd><p>unspecified<dt>Reserved_4_4<dd><p>PLL VCO powerdown\n To save power set high when PLL output not required or bypass=1.<dt>VCOPD<dd><p>unspecified<dt>Reserved_6_31<dd></dl>

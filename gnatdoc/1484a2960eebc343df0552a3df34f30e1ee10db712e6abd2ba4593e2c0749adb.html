@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html class=main>
+<link rel=stylesheet href=gnatdoc.css><body class=content><h1>RP.GPIO.Interrupt</h1><h2>Entities</h2><h3>Simple Types</h3><ul><li><a href=#f6d04ffc3543dbb94861a165e3207dff8e14174b330b67e2852cc24c06bd1c32>Interrupt_CPU</a><li><a href=#5772316d5f8cdbfb8b40ccfca33f3e1093cb35dd22fe533ae8b2978a6317e04e>Interrupt_Trigger</a></ul><h3>Subtypes</h3><ul><li><a href=#24643d1aef1a85a3cbe8da8995d07df8597681e7c69d4d7523c4557beb59d6b0>Edge_Trigger</a></ul><h3>Subprograms</h3><ul><li><a href=#2c04ba5c4be192b79471c0899da6477b18f428fe80db976091638edad988faee>Acknowledge</a><li><a href=#64c2ce45c96bd6ba8c10b7312442cb70943ad9e2f04335ac7ded94a725b9f8a7>Disable</a><li><a href=#e56cddc589fe75b4f004c60348c4b410141387f08a863eb6d9013dfa347d2f69>Disable_Wake</a><li><a href=#79e643802db30622c796d4998f9fa90f1cb403807babcdb991401d8e3d41cae0>Enable</a><li><a href=#7809f501323aadf1a33c110e3c606a19bc5396958aa05280adc076b1195d2c69>Enable_Wake</a><li><a href=#e9168d4eed8d8729cc78b607cad3f6cc1da7242edcd43158a0d4b70071a0e310>Force</a><li><a href=#2e74f5ce174a97efbb7b61e6780b47c73769a5c8dc062c7d80654ae350646efb>Triggered</a></ul><h2>Description</h2><h4 id=2c04ba5c4be192b79471c0899da6477b18f428fe80db976091638edad988faee>Acknowledge</h4><pre class=ada-code-snippet><code>procedure Acknowledge
+   (Pin     : GPIO_Pin;
+    Trigger : Edge_Trigger)
+</code></pre><h5>Parameters</h5><dl><dt>Pin<dd><dt>Trigger<dd></dl><h4 id=64c2ce45c96bd6ba8c10b7312442cb70943ad9e2f04335ac7ded94a725b9f8a7>Disable</h4><pre class=ada-code-snippet><code>procedure Disable
+   (Pin     : GPIO_Pin;
+    Trigger : Interrupt_Trigger;
+    CPU     : Interrupt_CPU := 1)
+</code></pre><h5>Parameters</h5><dl><dt>Pin<dd><dt>Trigger<dd><dt>CPU<dd></dl><h4 id=e56cddc589fe75b4f004c60348c4b410141387f08a863eb6d9013dfa347d2f69>Disable_Wake</h4><pre class=ada-code-snippet><code>procedure Disable_Wake
+   (Pin     : GPIO_Pin;
+    Trigger : Interrupt_Trigger)
+</code></pre><h5>Parameters</h5><dl><dt>Pin<dd><dt>Trigger<dd></dl><h4 id=24643d1aef1a85a3cbe8da8995d07df8597681e7c69d4d7523c4557beb59d6b0>Edge_Trigger</h4><pre class=ada-code-snippet><code>subtype Edge_Trigger is Interrupt_Trigger range Falling .. Rising;
+</code></pre><h4 id=79e643802db30622c796d4998f9fa90f1cb403807babcdb991401d8e3d41cae0>Enable</h4><pre class=ada-code-snippet><code>procedure Enable
+   (Pin     : GPIO_Pin;
+    Trigger : Interrupt_Trigger;
+    CPU     : Interrupt_CPU := 1)
+</code></pre><h5>Parameters</h5><dl><dt>Pin<dd><dt>Trigger<dd><dt>CPU<dd></dl><h4 id=7809f501323aadf1a33c110e3c606a19bc5396958aa05280adc076b1195d2c69>Enable_Wake</h4><pre class=ada-code-snippet><code>procedure Enable_Wake
+   (Pin     : GPIO_Pin;
+    Trigger : Interrupt_Trigger)
+</code></pre><h5>Parameters</h5><dl><dt>Pin<dd><dt>Trigger<dd></dl><h4 id=e9168d4eed8d8729cc78b607cad3f6cc1da7242edcd43158a0d4b70071a0e310>Force</h4><pre class=ada-code-snippet><code>procedure Force
+   (Pin     : GPIO_Pin;
+    Forced  : Boolean;
+    Trigger : Interrupt_Trigger;
+    CPU     : Interrupt_CPU := 1)
+</code></pre><h5>Parameters</h5><dl><dt>Pin<dd><dt>Forced<dd><dt>Trigger<dd><dt>CPU<dd></dl><h4 id=f6d04ffc3543dbb94861a165e3207dff8e14174b330b67e2852cc24c06bd1c32>Interrupt_CPU</h4><pre class=ada-code-snippet><code>type Interrupt_CPU is range 1 .. 2;
+</code></pre><h4 id=5772316d5f8cdbfb8b40ccfca33f3e1093cb35dd22fe533ae8b2978a6317e04e>Interrupt_Trigger</h4><pre class=ada-code-snippet><code>type Interrupt_Trigger is (Low, High, Falling, Rising);
+</code></pre><h5>Enumeration Literal</h5><dl><dt>Low<dd><dt>High<dd><dt>Falling<dd><dt>Rising<dd></dl><h4 id=2e74f5ce174a97efbb7b61e6780b47c73769a5c8dc062c7d80654ae350646efb>Triggered</h4><pre class=ada-code-snippet><code>function Triggered
+   (Pin     : GPIO_Pin;
+    Trigger : Interrupt_Trigger)
+    return Boolean
+</code></pre><h5>Parameters</h5><dl><dt>Pin<dd><dt>Trigger<dd></dl><h5>Return Value</h5><dl><dd></dl>

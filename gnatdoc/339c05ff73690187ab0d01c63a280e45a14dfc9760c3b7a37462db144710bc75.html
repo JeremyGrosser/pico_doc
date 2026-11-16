@@ -26,10 +26,8 @@
    GPIO_QSPI_SD3_EDGE_LOW    : Boolean := False;
    GPIO_QSPI_SD3_EDGE_HIGH   : Boolean := False;
    Reserved_24_31            : HAL.UInt8 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><dt>GPIO_QSPI_SS_LEVEL_LOW<dd><dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><dt>GPIO_QSPI_SS_EDGE_LOW<dd><dt>GPIO_QSPI_SS_EDGE_HIGH<dd><dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD0_EDGE_LOW<dd><dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD1_EDGE_LOW<dd><dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD2_EDGE_LOW<dd><dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD3_EDGE_LOW<dd><dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl><h4 id=5814e4ea8680f344cb2f211e03e901a70b81d87235a9a02cf68022a878b0730f>DORMANT_WAKE_INTF_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTF_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SS_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SS_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SS_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD0_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD1_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD2_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD3_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=5814e4ea8680f344cb2f211e03e901a70b81d87235a9a02cf68022a878b0730f>DORMANT_WAKE_INTF_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTF_Register is record
    GPIO_QSPI_SCLK_LEVEL_LOW  : Boolean := False;
    GPIO_QSPI_SCLK_LEVEL_HIGH : Boolean := False;
    GPIO_QSPI_SCLK_EDGE_LOW   : Boolean := False;
@@ -55,10 +53,8 @@ end record
    GPIO_QSPI_SD3_EDGE_LOW    : Boolean := False;
    GPIO_QSPI_SD3_EDGE_HIGH   : Boolean := False;
    Reserved_24_31            : HAL.UInt8 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><dt>GPIO_QSPI_SS_LEVEL_LOW<dd><dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><dt>GPIO_QSPI_SS_EDGE_LOW<dd><dt>GPIO_QSPI_SS_EDGE_HIGH<dd><dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD0_EDGE_LOW<dd><dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD1_EDGE_LOW<dd><dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD2_EDGE_LOW<dd><dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD3_EDGE_LOW<dd><dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl><h4 id=656555075ee3a368fd194bbb6b98c5c047c8d2105d24564338a4e7523c2976f1>DORMANT_WAKE_INTS_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SS_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SS_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SS_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD0_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD1_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD2_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD3_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=656555075ee3a368fd194bbb6b98c5c047c8d2105d24564338a4e7523c2976f1>DORMANT_WAKE_INTS_Register</h4><pre class=ada-code-snippet><code>type DORMANT_WAKE_INTS_Register is record
    GPIO_QSPI_SCLK_LEVEL_LOW  : Boolean;
    GPIO_QSPI_SCLK_LEVEL_HIGH : Boolean;
    GPIO_QSPI_SCLK_EDGE_LOW   : Boolean;
@@ -84,10 +80,8 @@ end record
    GPIO_QSPI_SD3_EDGE_LOW    : Boolean;
    GPIO_QSPI_SD3_EDGE_HIGH   : Boolean;
    Reserved_24_31            : HAL.UInt8;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><dt>GPIO_QSPI_SS_LEVEL_LOW<dd><dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><dt>GPIO_QSPI_SS_EDGE_LOW<dd><dt>GPIO_QSPI_SS_EDGE_HIGH<dd><dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD0_EDGE_LOW<dd><dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD1_EDGE_LOW<dd><dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD2_EDGE_LOW<dd><dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD3_EDGE_LOW<dd><dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl><h4 id=6c4bed4d78a635de44a3500927a28479436de9298203a6d991ada0772dc6f462>GPIO_QSPI_SCLK_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SCLK_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SS_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SS_EDGE_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SS_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD0_EDGE_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD1_EDGE_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD2_EDGE_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD3_EDGE_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=6c4bed4d78a635de44a3500927a28479436de9298203a6d991ada0772dc6f462>GPIO_QSPI_SCLK_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SCLK_CTRL_FUNCSEL_Field is
   (xip_sclk,
    sio_30,
    null_k)
@@ -132,10 +126,8 @@ end record
    IRQOVER        : GPIO_QSPI_SCLK_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_QSPI.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=b1baf3c90e028913d8407e85c1c6a944011a88751e96fe3dac2d1bb2d68c0dff>GPIO_QSPI_SCLK_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SCLK_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=b1baf3c90e028913d8407e85c1c6a944011a88751e96fe3dac2d1bb2d68c0dff>GPIO_QSPI_SCLK_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SCLK_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -151,10 +143,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=fe73a3a463047175d612eba943f9a4d1dd8d1d3a1fb28a0033a1acb599521507>GPIO_QSPI_SD0_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SD0_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=fe73a3a463047175d612eba943f9a4d1dd8d1d3a1fb28a0033a1acb599521507>GPIO_QSPI_SD0_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SD0_CTRL_FUNCSEL_Field is
   (xip_sd0,
    sio_32,
    null_k)
@@ -199,10 +189,8 @@ end record
    IRQOVER        : GPIO_QSPI_SD0_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_QSPI.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=c940f94531ddbea32690b2ee1b246f7f68c74bea300f5f002ba70b39aa5bddc9>GPIO_QSPI_SD0_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SD0_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=c940f94531ddbea32690b2ee1b246f7f68c74bea300f5f002ba70b39aa5bddc9>GPIO_QSPI_SD0_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SD0_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -218,10 +206,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=28ea36da2ba6fa8e1191d99d3ecbf6a0c0a59545ff122c26f8676044286f31ca>GPIO_QSPI_SD1_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SD1_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=28ea36da2ba6fa8e1191d99d3ecbf6a0c0a59545ff122c26f8676044286f31ca>GPIO_QSPI_SD1_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SD1_CTRL_FUNCSEL_Field is
   (xip_sd1,
    sio_33,
    null_k)
@@ -266,10 +252,8 @@ end record
    IRQOVER        : GPIO_QSPI_SD1_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_QSPI.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=1a32edc9a6ca64f93009a433f35c43c91695f262b75a1fa6733fd936526135a2>GPIO_QSPI_SD1_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SD1_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=1a32edc9a6ca64f93009a433f35c43c91695f262b75a1fa6733fd936526135a2>GPIO_QSPI_SD1_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SD1_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -285,10 +269,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=f35b267297e67b81a3cd3ba6476d0a544c8166ea02b9daa1c293dc3924c5617a>GPIO_QSPI_SD2_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SD2_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=f35b267297e67b81a3cd3ba6476d0a544c8166ea02b9daa1c293dc3924c5617a>GPIO_QSPI_SD2_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SD2_CTRL_FUNCSEL_Field is
   (xip_sd2,
    sio_34,
    null_k)
@@ -333,10 +315,8 @@ end record
    IRQOVER        : GPIO_QSPI_SD2_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_QSPI.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=78716c79b5f2922a1cdd100931587fa223ccd2440df50464d2ccc59ea0ea8629>GPIO_QSPI_SD2_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SD2_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=78716c79b5f2922a1cdd100931587fa223ccd2440df50464d2ccc59ea0ea8629>GPIO_QSPI_SD2_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SD2_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -352,10 +332,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=bca2933b883ed19c3ae1890748fe00db0096d49c0d6b158866042cdaf01016c6>GPIO_QSPI_SD3_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SD3_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=bca2933b883ed19c3ae1890748fe00db0096d49c0d6b158866042cdaf01016c6>GPIO_QSPI_SD3_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SD3_CTRL_FUNCSEL_Field is
   (xip_sd3,
    sio_35,
    null_k)
@@ -400,10 +378,8 @@ end record
    IRQOVER        : GPIO_QSPI_SD3_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_QSPI.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=ab4cf2657d23586ae815390b1fe5c6496ae7d5adec2296ee637f507fd97a186b>GPIO_QSPI_SD3_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SD3_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=ab4cf2657d23586ae815390b1fe5c6496ae7d5adec2296ee637f507fd97a186b>GPIO_QSPI_SD3_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SD3_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -419,10 +395,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=11051607691ed331a9ec7acf1c830099194342551fbbbd4e14eb6008784bf4be>GPIO_QSPI_SS_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SS_CTRL_FUNCSEL_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=11051607691ed331a9ec7acf1c830099194342551fbbbd4e14eb6008784bf4be>GPIO_QSPI_SS_CTRL_FUNCSEL_Field</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SS_CTRL_FUNCSEL_Field is
   (xip_ss_n,
    sio_31,
    null_k)
@@ -467,10 +441,8 @@ end record
    IRQOVER        : GPIO_QSPI_SS_CTRL_IRQOVER_Field :=
                      RP2040_SVD.IO_QSPI.NORMAL;
    Reserved_30_31 : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><dt>Reserved_5_7<dd><dt>OUTOVER<dd><dt>Reserved_10_11<dd><dt>OEOVER<dd><dt>Reserved_14_15<dd><dt>INOVER<dd><dt>Reserved_18_27<dd><dt>IRQOVER<dd><dt>Reserved_30_31<dd></dl><h4 id=ce12a394f326dafa028a6ad08060ac7978d22ae82371df2bdc4e699d81cd759e>GPIO_QSPI_SS_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SS_STATUS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FUNCSEL<dd><p>unspecified<dt>Reserved_5_7<dd><p>unspecified<dt>OUTOVER<dd><p>unspecified<dt>Reserved_10_11<dd><p>unspecified<dt>OEOVER<dd><p>unspecified<dt>Reserved_14_15<dd><p>unspecified<dt>INOVER<dd><p>unspecified<dt>Reserved_18_27<dd><p>unspecified<dt>IRQOVER<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=ce12a394f326dafa028a6ad08060ac7978d22ae82371df2bdc4e699d81cd759e>GPIO_QSPI_SS_STATUS_Register</h4><pre class=ada-code-snippet><code>type GPIO_QSPI_SS_STATUS_Register is record
    Reserved_0_7   : HAL.UInt8;
    OUTFROMPERI    : Boolean;
    OUTTOPAD       : Boolean;
@@ -486,10 +458,8 @@ end record
    Reserved_25_25 : HAL.Bit;
    IRQTOPROC      : Boolean;
    Reserved_27_31 : HAL.UInt5;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><dt>OUTFROMPERI<dd><dt>OUTTOPAD<dd><dt>Reserved_10_11<dd><dt>OEFROMPERI<dd><dt>OETOPAD<dd><dt>Reserved_14_16<dd><dt>INFROMPAD<dd><dt>Reserved_18_18<dd><dt>INTOPERI<dd><dt>Reserved_20_23<dd><dt>IRQFROMPAD<dd><dt>Reserved_25_25<dd><dt>IRQTOPROC<dd><dt>Reserved_27_31<dd></dl><h4 id=489136278f3ed6f595682d0c8797d32dd8f2f60ece6c33550c1b73d22ebeeddd>INTR_Register</h4><pre class=ada-code-snippet><code>type INTR_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>Reserved_0_7<dd><p>Read-only. output signal from selected peripheral, before register override is applied<dt>OUTFROMPERI<dd><p>Read-only. output signal to pad after register override is applied<dt>OUTTOPAD<dd><p>unspecified<dt>Reserved_10_11<dd><p>Read-only. output enable from selected peripheral, before register override is applied<dt>OEFROMPERI<dd><p>Read-only. output enable to pad after register override is applied<dt>OETOPAD<dd><p>unspecified<dt>Reserved_14_16<dd><p>Read-only. input signal from pad, before override is applied<dt>INFROMPAD<dd><p>unspecified<dt>Reserved_18_18<dd><p>Read-only. input signal to peripheral, after override is applied<dt>INTOPERI<dd><p>unspecified<dt>Reserved_20_23<dd><p>Read-only. interrupt from pad before override is applied<dt>IRQFROMPAD<dd><p>unspecified<dt>Reserved_25_25<dd><p>Read-only. interrupt to processors, after override is applied<dt>IRQTOPROC<dd><p>unspecified<dt>Reserved_27_31<dd></dl><h4 id=489136278f3ed6f595682d0c8797d32dd8f2f60ece6c33550c1b73d22ebeeddd>INTR_Register</h4><pre class=ada-code-snippet><code>type INTR_Register is record
    GPIO_QSPI_SCLK_LEVEL_LOW  : Boolean := False;
    GPIO_QSPI_SCLK_LEVEL_HIGH : Boolean := False;
    GPIO_QSPI_SCLK_EDGE_LOW   : Boolean := False;
@@ -515,10 +485,8 @@ end record
    GPIO_QSPI_SD3_EDGE_LOW    : Boolean := False;
    GPIO_QSPI_SD3_EDGE_HIGH   : Boolean := False;
    Reserved_24_31            : HAL.UInt8 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><dt>GPIO_QSPI_SS_LEVEL_LOW<dd><dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><dt>GPIO_QSPI_SS_EDGE_LOW<dd><dt>GPIO_QSPI_SS_EDGE_HIGH<dd><dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD0_EDGE_LOW<dd><dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD1_EDGE_LOW<dd><dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD2_EDGE_LOW<dd><dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD3_EDGE_LOW<dd><dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl><h4 id=78e5d604c57567b9e4aab6b8397d419e45f75e268de7e9ef6ce0ef028cdf88d9>IO_QSPI_Periph</h4><pre class=ada-code-snippet><code>IO_QSPI_Periph : aliased IO_QSPI_Peripheral
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SS_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO_QSPI_SS_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO_QSPI_SS_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO_QSPI_SD0_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO_QSPI_SD1_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO_QSPI_SD2_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO_QSPI_SD3_EDGE_LOW<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field.<dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=78e5d604c57567b9e4aab6b8397d419e45f75e268de7e9ef6ce0ef028cdf88d9>IO_QSPI_Periph</h4><pre class=ada-code-snippet><code>IO_QSPI_Periph : aliased IO_QSPI_Peripheral
   with Import, Address => IO_QSPI_Base;
 </code></pre><h4 id=9d7ca3dd3874468e2da8597231e6753e08d716a61ceee88250008f5d11fab5b7>IO_QSPI_Peripheral</h4><pre class=ada-code-snippet><code>type IO_QSPI_Peripheral is record
    GPIO_QSPI_SCLK_STATUS : aliased GPIO_QSPI_SCLK_STATUS_Register;
@@ -543,9 +511,8 @@ end record
    DORMANT_WAKE_INTE     : aliased DORMANT_WAKE_INTE_Register;
    DORMANT_WAKE_INTF     : aliased DORMANT_WAKE_INTF_Register;
    DORMANT_WAKE_INTS     : aliased DORMANT_WAKE_INTS_Register;
-end record
-  with Volatile;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_STATUS<dd><dt>GPIO_QSPI_SCLK_CTRL<dd><dt>GPIO_QSPI_SS_STATUS<dd><dt>GPIO_QSPI_SS_CTRL<dd><dt>GPIO_QSPI_SD0_STATUS<dd><dt>GPIO_QSPI_SD0_CTRL<dd><dt>GPIO_QSPI_SD1_STATUS<dd><dt>GPIO_QSPI_SD1_CTRL<dd><dt>GPIO_QSPI_SD2_STATUS<dd><dt>GPIO_QSPI_SD2_CTRL<dd><dt>GPIO_QSPI_SD3_STATUS<dd><dt>GPIO_QSPI_SD3_CTRL<dd><dt>INTR<dd><dt>PROC0_INTE<dd><dt>PROC0_INTF<dd><dt>PROC0_INTS<dd><dt>PROC1_INTE<dd><dt>PROC1_INTF<dd><dt>PROC1_INTS<dd><dt>DORMANT_WAKE_INTE<dd><dt>DORMANT_WAKE_INTF<dd><dt>DORMANT_WAKE_INTS<dd></dl><h4 id=861b058ade46630cfaccdd83c64360236c68e44f484ee12518d025e38c09dd12>PROC0_INTE_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTE_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO_QSPI_SCLK_CTRL<dd><p>GPIO status<dt>GPIO_QSPI_SS_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO_QSPI_SS_CTRL<dd><p>GPIO status<dt>GPIO_QSPI_SD0_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO_QSPI_SD0_CTRL<dd><p>GPIO status<dt>GPIO_QSPI_SD1_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO_QSPI_SD1_CTRL<dd><p>GPIO status<dt>GPIO_QSPI_SD2_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO_QSPI_SD2_CTRL<dd><p>GPIO status<dt>GPIO_QSPI_SD3_STATUS<dd><p>GPIO control including function select and overrides.<dt>GPIO_QSPI_SD3_CTRL<dd><p>Raw Interrupts<dt>INTR<dd><p>Interrupt Enable for proc0<dt>PROC0_INTE<dd><p>Interrupt Force for proc0<dt>PROC0_INTF<dd><p>Interrupt status after masking &amp; forcing for proc0<dt>PROC0_INTS<dd><p>Interrupt Enable for proc1<dt>PROC1_INTE<dd><p>Interrupt Force for proc1<dt>PROC1_INTF<dd><p>Interrupt status after masking &amp; forcing for proc1<dt>PROC1_INTS<dd><p>Interrupt Enable for dormant_wake<dt>DORMANT_WAKE_INTE<dd><p>Interrupt Force for dormant_wake<dt>DORMANT_WAKE_INTF<dd><p>Interrupt status after masking &amp; forcing for dormant_wake<dt>DORMANT_WAKE_INTS<dd></dl><h4 id=861b058ade46630cfaccdd83c64360236c68e44f484ee12518d025e38c09dd12>PROC0_INTE_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTE_Register is record
    GPIO_QSPI_SCLK_LEVEL_LOW  : Boolean := False;
    GPIO_QSPI_SCLK_LEVEL_HIGH : Boolean := False;
    GPIO_QSPI_SCLK_EDGE_LOW   : Boolean := False;
@@ -571,10 +538,8 @@ end record
    GPIO_QSPI_SD3_EDGE_LOW    : Boolean := False;
    GPIO_QSPI_SD3_EDGE_HIGH   : Boolean := False;
    Reserved_24_31            : HAL.UInt8 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><dt>GPIO_QSPI_SS_LEVEL_LOW<dd><dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><dt>GPIO_QSPI_SS_EDGE_LOW<dd><dt>GPIO_QSPI_SS_EDGE_HIGH<dd><dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD0_EDGE_LOW<dd><dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD1_EDGE_LOW<dd><dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD2_EDGE_LOW<dd><dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD3_EDGE_LOW<dd><dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl><h4 id=cc62d3aa834cf8bb9cc0baade0e370c39a8d3800cb4f18bd7a0fe2971ddfbc68>PROC0_INTF_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTF_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SS_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SS_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SS_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD0_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD1_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD2_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD3_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=cc62d3aa834cf8bb9cc0baade0e370c39a8d3800cb4f18bd7a0fe2971ddfbc68>PROC0_INTF_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTF_Register is record
    GPIO_QSPI_SCLK_LEVEL_LOW  : Boolean := False;
    GPIO_QSPI_SCLK_LEVEL_HIGH : Boolean := False;
    GPIO_QSPI_SCLK_EDGE_LOW   : Boolean := False;
@@ -600,10 +565,8 @@ end record
    GPIO_QSPI_SD3_EDGE_LOW    : Boolean := False;
    GPIO_QSPI_SD3_EDGE_HIGH   : Boolean := False;
    Reserved_24_31            : HAL.UInt8 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><dt>GPIO_QSPI_SS_LEVEL_LOW<dd><dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><dt>GPIO_QSPI_SS_EDGE_LOW<dd><dt>GPIO_QSPI_SS_EDGE_HIGH<dd><dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD0_EDGE_LOW<dd><dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD1_EDGE_LOW<dd><dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD2_EDGE_LOW<dd><dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD3_EDGE_LOW<dd><dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl><h4 id=3f703c9e0b1daa1d369ffa694ac165e8cfdb10685a3cae5c54c2ec857036278e>PROC0_INTS_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SS_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SS_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SS_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD0_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD1_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD2_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD3_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=3f703c9e0b1daa1d369ffa694ac165e8cfdb10685a3cae5c54c2ec857036278e>PROC0_INTS_Register</h4><pre class=ada-code-snippet><code>type PROC0_INTS_Register is record
    GPIO_QSPI_SCLK_LEVEL_LOW  : Boolean;
    GPIO_QSPI_SCLK_LEVEL_HIGH : Boolean;
    GPIO_QSPI_SCLK_EDGE_LOW   : Boolean;
@@ -629,10 +592,8 @@ end record
    GPIO_QSPI_SD3_EDGE_LOW    : Boolean;
    GPIO_QSPI_SD3_EDGE_HIGH   : Boolean;
    Reserved_24_31            : HAL.UInt8;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><dt>GPIO_QSPI_SS_LEVEL_LOW<dd><dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><dt>GPIO_QSPI_SS_EDGE_LOW<dd><dt>GPIO_QSPI_SS_EDGE_HIGH<dd><dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD0_EDGE_LOW<dd><dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD1_EDGE_LOW<dd><dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD2_EDGE_LOW<dd><dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD3_EDGE_LOW<dd><dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl><h4 id=a46493865e7d5f77502974c0aff3f99e39d1caf8e811bb079a799c90fa54e51b>PROC1_INTE_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTE_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SS_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SS_EDGE_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SS_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD0_EDGE_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD1_EDGE_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD2_EDGE_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD3_EDGE_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=a46493865e7d5f77502974c0aff3f99e39d1caf8e811bb079a799c90fa54e51b>PROC1_INTE_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTE_Register is record
    GPIO_QSPI_SCLK_LEVEL_LOW  : Boolean := False;
    GPIO_QSPI_SCLK_LEVEL_HIGH : Boolean := False;
    GPIO_QSPI_SCLK_EDGE_LOW   : Boolean := False;
@@ -658,10 +619,8 @@ end record
    GPIO_QSPI_SD3_EDGE_LOW    : Boolean := False;
    GPIO_QSPI_SD3_EDGE_HIGH   : Boolean := False;
    Reserved_24_31            : HAL.UInt8 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><dt>GPIO_QSPI_SS_LEVEL_LOW<dd><dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><dt>GPIO_QSPI_SS_EDGE_LOW<dd><dt>GPIO_QSPI_SS_EDGE_HIGH<dd><dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD0_EDGE_LOW<dd><dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD1_EDGE_LOW<dd><dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD2_EDGE_LOW<dd><dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD3_EDGE_LOW<dd><dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl><h4 id=e46ec19334c0b38fc4495af7fcc4e362f7f107880fc18c6c18b46eea2859d147>PROC1_INTF_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTF_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SS_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SS_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SS_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD0_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD1_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD2_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD3_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=e46ec19334c0b38fc4495af7fcc4e362f7f107880fc18c6c18b46eea2859d147>PROC1_INTF_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTF_Register is record
    GPIO_QSPI_SCLK_LEVEL_LOW  : Boolean := False;
    GPIO_QSPI_SCLK_LEVEL_HIGH : Boolean := False;
    GPIO_QSPI_SCLK_EDGE_LOW   : Boolean := False;
@@ -687,10 +646,8 @@ end record
    GPIO_QSPI_SD3_EDGE_LOW    : Boolean := False;
    GPIO_QSPI_SD3_EDGE_HIGH   : Boolean := False;
    Reserved_24_31            : HAL.UInt8 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><dt>GPIO_QSPI_SS_LEVEL_LOW<dd><dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><dt>GPIO_QSPI_SS_EDGE_LOW<dd><dt>GPIO_QSPI_SS_EDGE_HIGH<dd><dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD0_EDGE_LOW<dd><dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD1_EDGE_LOW<dd><dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD2_EDGE_LOW<dd><dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD3_EDGE_LOW<dd><dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl><h4 id=90c5609f1286544afa37f9c59d8e66f28f9901b1c8c1625db41ed58f3c22f1a2>PROC1_INTS_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTS_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SS_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SS_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SS_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD0_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD1_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD2_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><p>unspecified<dt>GPIO_QSPI_SD3_EDGE_LOW<dd><p>unspecified<dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=90c5609f1286544afa37f9c59d8e66f28f9901b1c8c1625db41ed58f3c22f1a2>PROC1_INTS_Register</h4><pre class=ada-code-snippet><code>type PROC1_INTS_Register is record
    GPIO_QSPI_SCLK_LEVEL_LOW  : Boolean;
    GPIO_QSPI_SCLK_LEVEL_HIGH : Boolean;
    GPIO_QSPI_SCLK_EDGE_LOW   : Boolean;
@@ -716,7 +673,5 @@ end record
    GPIO_QSPI_SD3_EDGE_LOW    : Boolean;
    GPIO_QSPI_SD3_EDGE_HIGH   : Boolean;
    Reserved_24_31            : HAL.UInt8;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><dt>GPIO_QSPI_SS_LEVEL_LOW<dd><dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><dt>GPIO_QSPI_SS_EDGE_LOW<dd><dt>GPIO_QSPI_SS_EDGE_HIGH<dd><dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD0_EDGE_LOW<dd><dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD1_EDGE_LOW<dd><dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD2_EDGE_LOW<dd><dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><dt>GPIO_QSPI_SD3_EDGE_LOW<dd><dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><dt>Reserved_24_31<dd></dl>
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>GPIO_QSPI_SCLK_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SCLK_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SCLK_EDGE_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SCLK_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SS_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SS_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SS_EDGE_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SS_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD0_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD0_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD0_EDGE_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD0_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD1_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD1_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD1_EDGE_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD1_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD2_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD2_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD2_EDGE_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD2_EDGE_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD3_LEVEL_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD3_LEVEL_HIGH<dd><p>Read-only.<dt>GPIO_QSPI_SD3_EDGE_LOW<dd><p>Read-only.<dt>GPIO_QSPI_SD3_EDGE_HIGH<dd><p>unspecified<dt>Reserved_24_31<dd></dl>

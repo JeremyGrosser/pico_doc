@@ -10,19 +10,15 @@
    PROC1_SWCLK   : Boolean := True;
    PROC1_ATTACH  : Boolean := False;
    Reserved_8_31 : HAL.UInt24 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>PROC0_SWDO<dd><dt>PROC0_SWDI<dd><dt>PROC0_SWCLK<dd><dt>PROC0_ATTACH<dd><dt>PROC1_SWDO<dd><dt>PROC1_SWDI<dd><dt>PROC1_SWCLK<dd><dt>PROC1_ATTACH<dd><dt>Reserved_8_31<dd></dl><h4 id=87f548b8d224fd766937c3d2149bf3e4df0b22e01d26ba44e6fe19b3f099b5de>MEMPOWERDOWN_Register</h4><pre class=ada-code-snippet><code>type MEMPOWERDOWN_Register is record
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>PROC0_SWDO<dd><p>Directly drive processor 0 SWDIO input, if PROC0_ATTACH is set<dt>PROC0_SWDI<dd><p>Directly drive processor 0 SWCLK, if PROC0_ATTACH is set<dt>PROC0_SWCLK<dd><p>Attach processor 0 debug port to syscfg controls, and disconnect it from external SWD pads.<dt>PROC0_ATTACH<dd><p>Read-only. Observe the value of processor 1 SWDIO output.<dt>PROC1_SWDO<dd><p>Directly drive processor 1 SWDIO input, if PROC1_ATTACH is set<dt>PROC1_SWDI<dd><p>Directly drive processor 1 SWCLK, if PROC1_ATTACH is set<dt>PROC1_SWCLK<dd><p>Attach processor 1 debug port to syscfg controls, and disconnect it from external SWD pads.<dt>PROC1_ATTACH<dd><p>unspecified<dt>Reserved_8_31<dd></dl><h4 id=87f548b8d224fd766937c3d2149bf3e4df0b22e01d26ba44e6fe19b3f099b5de>MEMPOWERDOWN_Register</h4><pre class=ada-code-snippet><code>type MEMPOWERDOWN_Register is record
    SRAM          : MEMPOWERDOWN_SRAM_Field :=
                     (As_Array => False, Val => 16#0#);
    USB           : Boolean := False;
    ROM           : Boolean := False;
    Reserved_8_31 : HAL.UInt24 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>SRAM<dd><dt>USB<dd><dt>ROM<dd><dt>Reserved_8_31<dd></dl><h4 id=0113fbb297f1faa5b4b78f1ef11d5b07e3d3d82e2d0f858bf3471113a1afec05>MEMPOWERDOWN_SRAM_Field</h4><pre class=ada-code-snippet><code>type MEMPOWERDOWN_SRAM_Field
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>SRAM<dd><p>unspecified<dt>USB<dd><p>unspecified<dt>ROM<dd><p>unspecified<dt>Reserved_8_31<dd></dl><h4 id=0113fbb297f1faa5b4b78f1ef11d5b07e3d3d82e2d0f858bf3471113a1afec05>MEMPOWERDOWN_SRAM_Field</h4><pre class=ada-code-snippet><code>type MEMPOWERDOWN_SRAM_Field
   (As_Array : Boolean := False)
 is record
    case As_Array is
@@ -31,8 +27,7 @@ is record
       when True =>
          Arr : MEMPOWERDOWN_SRAM_Field_Array;
    end case;
-end record
-  with Unchecked_Union, Size => 6;
+end record;
 </code></pre><h5>Record fields</h5><dl><dt>As_Array<dd><dt>Val<dd><dt>Arr<dd></dl><h4 id=29e258c8e9963645171f98c31a6ce614ee7e63f55145bd512a267f79411ce16a>MEMPOWERDOWN_SRAM_Field_Array</h4><pre class=ada-code-snippet><code>type MEMPOWERDOWN_SRAM_Field_Array is array (0 .. 5) of Boolean
   with Component_Size => 1, Size => 6;
 </code></pre><h4 id=bcabcbf2e1fb513ef42ea549f7b9e1e68b588f90329fc5b4ec21f423597f00a8>PROC_CONFIG_PROC0_DAP_INSTID_Field</h4><pre class=ada-code-snippet><code>subtype PROC_CONFIG_PROC0_DAP_INSTID_Field is HAL.UInt4;
@@ -43,26 +38,20 @@ end record
    Reserved_2_23    : HAL.UInt22 := 16#0#;
    PROC0_DAP_INSTID : PROC_CONFIG_PROC0_DAP_INSTID_Field := 16#0#;
    PROC1_DAP_INSTID : PROC_CONFIG_PROC1_DAP_INSTID_Field := 16#1#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>PROC0_HALTED<dd><dt>PROC1_HALTED<dd><dt>Reserved_2_23<dd><dt>PROC0_DAP_INSTID<dd><dt>PROC1_DAP_INSTID<dd></dl><h4 id=bfdca491fa4f81308d09de3068de9af9b296a5374e01ee04c9093684e66f4c66>PROC_IN_SYNC_BYPASS_HI_PROC_IN_SYNC_BYPASS_HI_Field</h4><pre class=ada-code-snippet><code>subtype PROC_IN_SYNC_BYPASS_HI_PROC_IN_SYNC_BYPASS_HI_Field is HAL.UInt6;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>PROC0_HALTED<dd><p>Read-only. Indication that proc1 has halted<dt>PROC1_HALTED<dd><p>unspecified<dt>Reserved_2_23<dd><p>Configure proc0 DAP instance ID.\n Recommend that this is NOT changed until you require debug access in multi-chip environment\n WARNING: do not set to 15 as this is reserved for RescueDP<dt>PROC0_DAP_INSTID<dd><p>Configure proc1 DAP instance ID.\n Recommend that this is NOT changed until you require debug access in multi-chip environment\n WARNING: do not set to 15 as this is reserved for RescueDP<dt>PROC1_DAP_INSTID<dd></dl><h4 id=bfdca491fa4f81308d09de3068de9af9b296a5374e01ee04c9093684e66f4c66>PROC_IN_SYNC_BYPASS_HI_PROC_IN_SYNC_BYPASS_HI_Field</h4><pre class=ada-code-snippet><code>subtype PROC_IN_SYNC_BYPASS_HI_PROC_IN_SYNC_BYPASS_HI_Field is HAL.UInt6;
 </code></pre><h4 id=244a00a6afec6798a1077d811444b14742a2a88c7653e3f2cfa2ca7a16883c42>PROC_IN_SYNC_BYPASS_HI_Register</h4><pre class=ada-code-snippet><code>type PROC_IN_SYNC_BYPASS_HI_Register is record
    PROC_IN_SYNC_BYPASS_HI : PROC_IN_SYNC_BYPASS_HI_PROC_IN_SYNC_BYPASS_HI_Field :=
                              16#0#;
    Reserved_6_31          : HAL.UInt26 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>PROC_IN_SYNC_BYPASS_HI<dd><dt>Reserved_6_31<dd></dl><h4 id=ade4f71b816b105aeceaa61e54ed11a1d3f920fb7c888c6782406522283650b6>PROC_IN_SYNC_BYPASS_PROC_IN_SYNC_BYPASS_Field</h4><pre class=ada-code-snippet><code>subtype PROC_IN_SYNC_BYPASS_PROC_IN_SYNC_BYPASS_Field is HAL.UInt30;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>PROC_IN_SYNC_BYPASS_HI<dd><p>unspecified<dt>Reserved_6_31<dd></dl><h4 id=ade4f71b816b105aeceaa61e54ed11a1d3f920fb7c888c6782406522283650b6>PROC_IN_SYNC_BYPASS_PROC_IN_SYNC_BYPASS_Field</h4><pre class=ada-code-snippet><code>subtype PROC_IN_SYNC_BYPASS_PROC_IN_SYNC_BYPASS_Field is HAL.UInt30;
 </code></pre><h4 id=503754e357ea5190326566fd318f275e32aafc5b43067eb6c5313a7f04bd0056>PROC_IN_SYNC_BYPASS_Register</h4><pre class=ada-code-snippet><code>type PROC_IN_SYNC_BYPASS_Register is record
    PROC_IN_SYNC_BYPASS : PROC_IN_SYNC_BYPASS_PROC_IN_SYNC_BYPASS_Field :=
                           16#0#;
    Reserved_30_31      : HAL.UInt2 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>PROC_IN_SYNC_BYPASS<dd><dt>Reserved_30_31<dd></dl><h4 id=d38c9b2f7245c24a0e50bddeecd68cc787546877246fd2f597ea9512d2150666>SYSCFG_Periph</h4><pre class=ada-code-snippet><code>SYSCFG_Periph : aliased SYSCFG_Peripheral
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>PROC_IN_SYNC_BYPASS<dd><p>unspecified<dt>Reserved_30_31<dd></dl><h4 id=d38c9b2f7245c24a0e50bddeecd68cc787546877246fd2f597ea9512d2150666>SYSCFG_Periph</h4><pre class=ada-code-snippet><code>SYSCFG_Periph : aliased SYSCFG_Peripheral
   with Import, Address => SYSCFG_Base;
 </code></pre><h4 id=3e3d689da1b604885dcb4df12a2a3c7d15b2178eb4c86a3f31994d75c14fee66>SYSCFG_Peripheral</h4><pre class=ada-code-snippet><code>type SYSCFG_Peripheral is record
    PROC0_NMI_MASK         : aliased HAL.UInt32;
@@ -72,6 +61,5 @@ end record
    PROC_IN_SYNC_BYPASS_HI : aliased PROC_IN_SYNC_BYPASS_HI_Register;
    DBGFORCE               : aliased DBGFORCE_Register;
    MEMPOWERDOWN           : aliased MEMPOWERDOWN_Register;
-end record
-  with Volatile;
-</code></pre><h5>Record fields</h5><dl><dt>PROC0_NMI_MASK<dd><dt>PROC1_NMI_MASK<dd><dt>PROC_CONFIG<dd><dt>PROC_IN_SYNC_BYPASS<dd><dt>PROC_IN_SYNC_BYPASS_HI<dd><dt>DBGFORCE<dd><dt>MEMPOWERDOWN<dd></dl>
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>PROC0_NMI_MASK<dd><p>Processor core 1 NMI source mask\n Set a bit high to enable NMI from that IRQ<dt>PROC1_NMI_MASK<dd><p>Configuration for processors<dt>PROC_CONFIG<dd><p>For each bit, if 1, bypass the input synchronizer between that GPIO\n and the GPIO input register in the SIO. The input synchronizers should\n generally be unbypassed, to avoid injecting metastabilities into processors.\n If you're feeling brave, you can bypass to save two cycles of input\n latency. This register applies to GPIO 0...29.<dt>PROC_IN_SYNC_BYPASS<dd><p>For each bit, if 1, bypass the input synchronizer between that GPIO\n and the GPIO input register in the SIO. The input synchronizers should\n generally be unbypassed, to avoid injecting metastabilities into processors.\n If you're feeling brave, you can bypass to save two cycles of input\n latency. This register applies to GPIO 30...35 (the QSPI IOs).<dt>PROC_IN_SYNC_BYPASS_HI<dd><p>Directly control the SWD debug port of either processor<dt>DBGFORCE<dd><p>Control power downs to memories. Set high to power down memories.\n Use with extreme caution<dt>MEMPOWERDOWN<dd></dl>

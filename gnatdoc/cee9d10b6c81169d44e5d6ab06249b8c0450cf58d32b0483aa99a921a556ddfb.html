@@ -4,10 +4,8 @@
 </code></pre><h4 id=381f9b58bea198df7883138458fd3d6f7fc8ba7b81fe051e7f56f33d214f2599>COUNT_Register</h4><pre class=ada-code-snippet><code>type COUNT_Register is record
    COUNT         : COUNT_COUNT_Field := 16#0#;
    Reserved_8_31 : HAL.UInt24 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>COUNT<dd><dt>Reserved_8_31<dd></dl><h4 id=dc21be468ddf6e8626a4ddbb25e35ff7a9c82c685d41a20a4d6c4fbfadad8482>CTRL_ENABLE_Field</h4><pre class=ada-code-snippet><code>type CTRL_ENABLE_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>COUNT<dd><p>unspecified<dt>Reserved_8_31<dd></dl><h4 id=dc21be468ddf6e8626a4ddbb25e35ff7a9c82c685d41a20a4d6c4fbfadad8482>CTRL_ENABLE_Field</h4><pre class=ada-code-snippet><code>type CTRL_ENABLE_Field is
    CTRL_ENABLE_Field_Reset,
    DISABLE,
    ENABLE)
@@ -23,19 +21,15 @@ end record
    FREQ_RANGE     : CTRL_FREQ_RANGE_Field := CTRL_FREQ_RANGE_Field_Reset;
    ENABLE         : CTRL_ENABLE_Field := CTRL_ENABLE_Field_Reset;
    Reserved_24_31 : HAL.UInt8 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FREQ_RANGE<dd><dt>ENABLE<dd><dt>Reserved_24_31<dd></dl><h4 id=384b8e12843b7f23c134e5e60366d13ad27208f17055e30349da1dfbdf34315d>STARTUP_DELAY_Field</h4><pre class=ada-code-snippet><code>subtype STARTUP_DELAY_Field is HAL.UInt14;
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FREQ_RANGE<dd><p>On power-up this field is initialised to DISABLE and the chip runs from the ROSC.\n If the chip has subsequently been programmed to run from the XOSC then setting this field to DISABLE may lock-up the chip. If this is a concern then run the clk_ref from the ROSC and enable the clk_sys RESUS feature.\n The 12-bit code is intended to give some protection against accidental writes. An invalid setting will enable the oscillator.<dt>ENABLE<dd><p>unspecified<dt>Reserved_24_31<dd></dl><h4 id=384b8e12843b7f23c134e5e60366d13ad27208f17055e30349da1dfbdf34315d>STARTUP_DELAY_Field</h4><pre class=ada-code-snippet><code>subtype STARTUP_DELAY_Field is HAL.UInt14;
 </code></pre><h4 id=acb4e916071fae7dcd104b4357692a23bc72cb33284a5c06f53d68903ff887fc>STARTUP_Register</h4><pre class=ada-code-snippet><code>type STARTUP_Register is record
    DELAY_k        : STARTUP_DELAY_Field := 16#C4#;
    Reserved_14_19 : HAL.UInt6 := 16#0#;
    X4             : Boolean := False;
    Reserved_21_31 : HAL.UInt11 := 16#0#;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>DELAY_k<dd><dt>Reserved_14_19<dd><dt>X4<dd><dt>Reserved_21_31<dd></dl><h4 id=3a3fb3c144e146506f95223014bbd0d6dd04a58d7e66e0a6812369c1ed55ea8a>STATUS_FREQ_RANGE_Field</h4><pre class=ada-code-snippet><code>type STATUS_FREQ_RANGE_Field is
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>DELAY_k<dd><p>unspecified<dt>Reserved_14_19<dd><p>Multiplies the startup_delay by 4. This is of little value to the user given that the delay can be programmed directly.<dt>X4<dd><p>unspecified<dt>Reserved_21_31<dd></dl><h4 id=3a3fb3c144e146506f95223014bbd0d6dd04a58d7e66e0a6812369c1ed55ea8a>STATUS_FREQ_RANGE_Field</h4><pre class=ada-code-snippet><code>type STATUS_FREQ_RANGE_Field is
   (Val_1_15MHZ,
    RESERVED_1,
    RESERVED_2,
@@ -49,10 +43,8 @@ end record
    BADWRITE       : Boolean := False;
    Reserved_25_30 : HAL.UInt6 := 16#0#;
    STABLE         : Boolean := False;
-end record
-  with Volatile_Full_Access, Object_Size => 32,
-       Bit_Order => System.Low_Order_First;
-</code></pre><h5>Record fields</h5><dl><dt>FREQ_RANGE<dd><dt>Reserved_2_11<dd><dt>ENABLED<dd><dt>Reserved_13_23<dd><dt>BADWRITE<dd><dt>Reserved_25_30<dd><dt>STABLE<dd></dl><h4 id=fb088734257a2df0307d46c421f0de71fa2957b405f2d17c3dbcab114b03dfea>XOSC_Periph</h4><pre class=ada-code-snippet><code>XOSC_Periph : aliased XOSC_Peripheral
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>FREQ_RANGE<dd><p>unspecified<dt>Reserved_2_11<dd><p>Read-only. Oscillator is enabled but not necessarily running and stable, resets to 0<dt>ENABLED<dd><p>unspecified<dt>Reserved_13_23<dd><p>Write data bit of one shall clear (set to zero) the corresponding bit in the field. An invalid value has been written to CTRL_ENABLE or CTRL_FREQ_RANGE or DORMANT<dt>BADWRITE<dd><p>unspecified<dt>Reserved_25_30<dd><p>Read-only. Oscillator is running and stable<dt>STABLE<dd></dl><h4 id=fb088734257a2df0307d46c421f0de71fa2957b405f2d17c3dbcab114b03dfea>XOSC_Periph</h4><pre class=ada-code-snippet><code>XOSC_Periph : aliased XOSC_Peripheral
   with Import, Address => XOSC_Base;
 </code></pre><h4 id=0e2c573168af949f7a2574c36d6094e166e2babbfa0109ebbadcbdcc9051295c>XOSC_Peripheral</h4><pre class=ada-code-snippet><code>type XOSC_Peripheral is record
    CTRL    : aliased CTRL_Register;
@@ -60,6 +52,5 @@ end record
    DORMANT : aliased HAL.UInt32;
    STARTUP : aliased STARTUP_Register;
    COUNT   : aliased COUNT_Register;
-end record
-  with Volatile;
-</code></pre><h5>Record fields</h5><dl><dt>CTRL<dd><dt>STATUS<dd><dt>DORMANT<dd><dt>STARTUP<dd><dt>COUNT<dd></dl>
+end record;
+</code></pre><h5>Record fields</h5><dl><dt>CTRL<dd><p>Crystal Oscillator Status<dt>STATUS<dd><p>Crystal Oscillator pause control\n This is used to save power by pausing the XOSC\n On power-up this field is initialised to WAKE\n An invalid write will also select WAKE\n WARNING: stop the PLLs before selecting dormant mode\n WARNING: setup the irq before selecting dormant mode<dt>DORMANT<dd><p>Controls the startup delay<dt>STARTUP<dd><p>A down counter running at the xosc frequency which counts to zero and stops.\n To start the counter write a non-zero value.\n Can be used for short software pauses when setting up time sensitive hardware.<dt>COUNT<dd></dl>

@@ -20,8 +20,7 @@ end record;
 </code></pre><h5>Enumeration Literal</h5><dl><dt>Monday<dd><dt>Tuesday<dd><dt>Wednesday<dd><dt>Thursday<dd><dt>Friday<dd><dt>Saturday<dd><dt>Sunday<dd></dl><h4 id=9762c4fe1e0662aea1892c9696a610e3c6829bcce91c4ec6cc30aed7bcc7fac0>RTC_Device</h4><pre class=ada-code-snippet><code>type RTC_Device is limited interface;
 </code></pre><h4 id=a4423d92c9a611716c6f8cea92d4f2837cbf3e7702ff0b350da27b869fab621e>RTC_Hour</h4><pre class=ada-code-snippet><code>type RTC_Hour is mod 24;
 </code></pre><h4 id=db76dabaeb5f19a274811523f3aa596938caaf8865c68ffcee0e6974fa80c24c>RTC_Minute</h4><pre class=ada-code-snippet><code>type RTC_Minute is mod 60;
-</code></pre><h4 id=64d6241572a2db41f4c93a7338ae61cdf24a45f57ab2d683b76dfcc1ce2e42d8>RTC_Month</h4><pre class=ada-code-snippet><code>type RTC_Month is (January, February, March, April, May, June, July, August,
-                   September, October, November, December);
+</code></pre><h4 id=64d6241572a2db41f4c93a7338ae61cdf24a45f57ab2d683b76dfcc1ce2e42d8>RTC_Month</h4><pre class=ada-code-snippet><code>type RTC_Month is (January, February, March, April, May, June, July, August, …, December);
 </code></pre><h5>Enumeration Literal</h5><dl><dt>January<dd><dt>February<dd><dt>March<dd><dt>April<dd><dt>May<dd><dt>June<dd><dt>July<dd><dt>August<dd><dt>September<dd><dt>October<dd><dt>November<dd><dt>December<dd></dl><h4 id=2981afd7e12170887b21c09a7a29b6729f5d575b6386c8089bc3590e3c2bac31>RTC_Second</h4><pre class=ada-code-snippet><code>type RTC_Second is mod 60;
 </code></pre><h4 id=e42e90a50b2e5b6af2dd13b51070b34d2c9f87f03bab676fbef6336130c06374>RTC_Time</h4><pre class=ada-code-snippet><code>type RTC_Time is record
    Hour : RTC_Hour;
