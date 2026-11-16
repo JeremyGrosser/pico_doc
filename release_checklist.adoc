@@ -4,7 +4,8 @@ This checklist is used by maintainers to release a new version of rp2040_hal, pi
 == Before release
 
 * [ ] Ensure copyright and license headers are added to any new source files
-* [ ] All unit tests build and pass on a Pico
+* [ ] tests_rp2040 builds and passes on a Pico
+* [ ] tests_rp2350 builds and passes on a Pico 2, with usb_echo.py running on the host
 * [ ] pico_examples build successfully when pinned to HEAD of rp2040_hal and pico_bsp
 * [ ] Remove all pins from alire.toml
 
