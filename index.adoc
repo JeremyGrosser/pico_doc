@@ -2,7 +2,7 @@
 
 image::pico.jpg[Raspberry Pi Pico,width=400,role="related right",title="Raspberry Pi Pico",caption="",link="/img/pico.jpg"]
 
-This project provides libraries and examples for the https://en.wikipedia.org/wiki/Ada_(programming_language)[Ada programming language] on the https://www.raspberrypi.com/documentation/microcontrollers/silicon.html[RP2040 and RP2350] microcontrollers and the https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html[Raspberry Pi Pico and Pico 2] development boards.
+This project provides libraries and examples for the https://en.wikipedia.org/wiki/Ada_(programming_language)[Ada programming language] on the https://www.raspberrypi.com/documentation/microcontrollers/microcontroller-chips.html[RP2040 and RP2350] microcontrollers and the https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html[Raspberry Pi Pico and Pico 2] development boards.
 
 Code snippets included here are meant to be illustrative but cannot be compiled standalone. For working examples, see https://github.com/JeremyGrosser/pico_examples[pico_examples].
 
