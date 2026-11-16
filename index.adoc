@@ -8,7 +8,6 @@ Code snippets included here are meant to be illustrative but cannot be compiled 
 
 This document assumes you are familiar with the Ada language. If you are new to Ada, https://learn.adacore.com/courses/intro-to-ada/index.html[learn.adacore.com] has an excellent introduction.
 
-[sidebar]
 This document describes rp2040_hal 3.x, which adds RP2350 support and builds on the Ada runtimes from https://github.com/damaki/community-bb-runtimes[community-bb-runtimes]. Many APIs changed from 2.x. If you have an existing project, read xref:migrating_from_2_x[Migrating from 2.x] first.
 
 '''
@@ -41,7 +40,6 @@ alr with rp2040_hal --use=https://github.com/JeremyGrosser/rp2040_hal --branch=3
 
 If Alire prompts you to install tools like unzip and git, accept these changes. If prompted to select a toolchain, choose the most recent versions of `gnat_arm_elf` and `gprbuild`.
 
-[sidebar]
 rp2040_hal 3.0 is a pre-release and has not been published to the Alire index yet. The `--use` and `--branch` arguments pin your project to the `3.x` branch of the git repository. Once 3.0.0 is released, a plain `alr with rp2040_hal` will be all that's needed.
 
 The runtime crate provides the startup code, linker script, and clock configuration for your board. It defaults to the Raspberry Pi Pico. See xref:ada_runtime[Ada runtime] for the other runtimes you can choose from and xref:custom_board_support[Custom board support] for other boards.
@@ -69,7 +67,6 @@ Build the project.
 alr build --development
 ----
 
-[sidebar]
 Alire https://alire.ada.dev/docs/#build-profiles-and-switches[build profiles] affect various compile flags and runtime options. Add `--development`, `--validation`, or `--release` to the `alr build` command to select a default build profile.
 
 If the build was successful, there will be an ELF binary in `./bin/hello_pico`.
@@ -115,7 +112,6 @@ picotool uf2 convert bin/hello_pico -t elf bin/hello_pico.uf2
 sudo picotool load bin/hello_pico.uf2
 ----
 
-[sidebar]
 The runtime implements `Ada.Text_IO` with semihosting, which sends output to the debugger. Calling `Put_Line` without a debugger attached triggers a HardFault, so remove any `Ada.Text_IO` calls before loading a program over USB.
 
 === Blinking an LED
